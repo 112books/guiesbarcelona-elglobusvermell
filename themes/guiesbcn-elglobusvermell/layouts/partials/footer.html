@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h4>{{ i18n "footer_about_title" | default "El Globus Vermell" }}</h4>
+      <p>{{ i18n "footer_about_text" | default "Guies de Barcelona." }}</p>
+    </div>
+    <div>
+      <h4>{{ i18n "footer_contact_title" | default "Contacte" }}</h4>
+      <ul>
+        {{ with site.Params.contactEmail }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+        {{ with site.Params.contactPhone }}<li><a href="tel:{{ . }}">{{ . }}</a></li>{{ end }}
+      </ul>
+    </div>
+    <div>
+      <h4>{{ i18n "footer_follow_title" | default "Xarxes" }}</h4>
+      <ul>
+        {{ with site.Params.instagram }}<li><a href="{{ . }}" rel="me">Instagram</a></li>{{ end }}
+        {{ with site.Params.facebook }}<li><a href="{{ . }}" rel="me">Facebook</a></li>{{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© {{ now.Year }} {{ site.Title }}</span>
+    <span>{{ i18n "footer_made_by" | default "" }}</span>
+  </div>
+</footer>

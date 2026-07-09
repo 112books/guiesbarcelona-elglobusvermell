@@ -1,3 +1,77 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://guiesbarcelona.elglobusvermell.org/"
+title   = "Guies Barcelona — El Globus Vermell"
+theme   = "guiesbcn-elglobusvermell"
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
+summaryLength   = 70
+
+defaultContentLanguage        = "ca"
+defaultContentLanguageInSubdir = false
+
+[sitemap]
+  filename = "sitemap.xml"
+
+[outputs]
+  home    = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# ── Idiomes ──────────────────────────────────────────────────────────────────
+# Nomes català actiu ara. Anglès/castellà preparats, desactivats fins que calgui.
+
+[languages]
+
+  [languages.ca]
+    contentDir = "content/ca"
+    label      = "Català"
+    locale     = "ca"
+    weight     = 1
+    title      = "Guies Barcelona — El Globus Vermell"
+    [languages.ca.params]
+      description = "Guies de Barcelona d'El Globus Vermell."
+      ogLocale    = "ca_ES"
+
+  [languages.en]
+    contentDir = "content/en"
+    label      = "English"
+    locale     = "en"
+    weight     = 2
+    disabled   = true
+    title      = "Barcelona Guides — El Globus Vermell"
+    [languages.en.params]
+      description = "Barcelona guides by El Globus Vermell."
+      ogLocale    = "en_GB"
+
+  [languages.es]
+    contentDir = "content/es"
+    label      = "Castellano"
+    locale     = "es"
+    weight     = 3
+    disabled   = true
+    title      = "Guías Barcelona — El Globus Vermell"
+    [languages.es.params]
+      description = "Guías de Barcelona de El Globus Vermell."
+      ogLocale    = "es_ES"
+
+# ── Paràmetres globals ────────────────────────────────────────────────────────
+
+[params]
+  # logo encara per definir — de moment nom de marca en text
+  logoText     = "El Globus Vermell"
+  defaultOgImage = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+  disableCSS  = false
+  disableHTML = false
+  disableJS   = false
+
+# ── Menú (buit de moment, afegir entrades quan hi hagi seccions) ─────────────
+
+[[languages.ca.menus.main]]
+  name   = "Inici"
+  url    = "/"
+  weight = 1

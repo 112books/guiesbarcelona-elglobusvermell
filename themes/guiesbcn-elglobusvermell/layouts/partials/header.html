@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a class="site-logo" href="{{ site.Home.Permalink }}">{{ site.Params.logoText | default site.Title }}</a>
+  <nav class="site-nav" aria-label="{{ i18n `nav_label` | default `Navegació principal` }}">
+    <ul>
+      {{ range site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}">
+          <span class="nav-label">{{ .Name }}</span>
+          <span class="nav-icon" aria-hidden="true">{{ substr .Name 0 1 }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>
