@@ -190,8 +190,17 @@ main {
 
 .footer-legal-links a { text-decoration: underline; }
 
+.footer-powered {
+  text-align: right;
+}
+
 .footer-powered-link {
   text-decoration: none;
 }
 
 .footer-powered-link:hover { color: var(--color-accent); }
+
+.footer-powered-services {
+  margin: 0.25rem 0 0;
+  font-size: 0.8125rem;
+}
