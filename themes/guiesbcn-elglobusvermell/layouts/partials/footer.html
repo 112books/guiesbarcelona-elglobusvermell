@@ -19,8 +19,19 @@
       </ul>
     </div>
   </div>
-  <div class="footer-bottom">
-    <span>© {{ now.Year }} {{ site.Title }}</span>
-    <span>{{ i18n "footer_made_by" | default "" }}</span>
+  <div class="footer-legal">
+    <div class="footer-legal-left">
+      <p>© {{ now.Year }} {{ site.Title }}</p>
+      <nav class="footer-legal-links" aria-label="{{ i18n `footer_legal_nav` | default `Pàgines legals` }}">
+        <a href="{{ "legal/avis-legal/" | relLangURL }}">{{ i18n "legal_avis" | default "Avís legal" }}</a>
+        <a href="{{ "legal/privacitat/" | relLangURL }}">{{ i18n "legal_privacitat" | default "Privacitat" }}</a>
+        <a href="{{ "legal/cookies/" | relLangURL }}">{{ i18n "legal_cookies" | default "Cookies" }}</a>
+      </nav>
+    </div>
+    <div class="footer-powered">
+      <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" class="footer-powered-link">
+        Powered by <strong>LinuxBCN.com</strong>
+      </a>
+    </div>
   </div>
 </footer>
