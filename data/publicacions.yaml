@@ -1,0 +1,329 @@
+# Font autoritativa: CSV del client "Ítems plànols-guia publicats - Full 1.csv"
+# (documents originals/, repo docs). En cas de conflicte amb la BD de l'app
+# antiga (typologies buida, publications desactualitzat), MANA EL CSV.
+#
+# camps: Sí = sempre present | Alguns = present en alguns ítems | No = mai present
+# agrupacions_tematiques: Etapes | Arquitectura temàtica | Barris | Art
+#   (4 grups reals; l'enum antic de l'app només en tenia 3, li faltava "Art")
+
+- slug: gatcpac
+  titol: "Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC"
+  edicio: 2016
+  agrupacions_tematiques: [Etapes]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: Alguns
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: Alguns
+    proteccio: No
+    arquitecte_reforma: No
+    any_reforma: No
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: true
+    id_publication_app: 31
+    edificis_relacionats: 44
+
+- slug: interiors-illa
+  titol: "Jardins interiors d'illa de l'Eixample. Barcelona"
+  edicio: 2018
+  agrupacions_tematiques: [Arquitectura temàtica, Barris]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: Alguns
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: No
+    descripcio_arquitectes: No
+    proteccio: No
+    arquitecte_reforma: No
+    any_reforma: No
+    premis: No
+    superficie: Sí
+    nomenclator: Sí
+    descripcio_nomenclator: Sí
+  estat_app:
+    a_app: true
+    id_publication_app: 36
+    edificis_relacionats: 4
+
+- slug: poblenou
+  titol: "El patrimoni industrial del Poblenou, Barcelona"
+  edicio: 2019
+  agrupacions_tematiques: [Arquitectura temàtica, Barris]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: Alguns
+    tipologia: Sí
+    adreca: Sí
+    any: Sí
+    foto: No
+    illustracio: Alguns
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: Sí
+    arquitecte_reforma: Alguns
+    any_reforma: Alguns
+    premis: Alguns
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: true
+    id_publication_app: 33
+    edificis_relacionats: null # pendent recompte exacte
+
+- slug: "50-75"
+  titol: "Arquitectura Moderna a Barcelona. 1950-1975"
+  edicio: 2019
+  agrupacions_tematiques: [Etapes]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: No
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: No
+    arquitecte_reforma: No
+    any_reforma: No
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: false
+    id_publication_app: null
+    edificis_relacionats: null
+
+- slug: mercats
+  titol: "Mercats de Barcelona"
+  edicio: 2019
+  agrupacions_tematiques: [Arquitectura temàtica]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: No
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: No
+    arquitecte_reforma: Alguns
+    any_reforma: Alguns
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: true
+    id_publication_app: 37
+    edificis_relacionats: null
+
+- slug: barceloneta
+  titol: "La Barceloneta. Història, arquitectura i art públic"
+  edicio: 2020
+  agrupacions_tematiques: [Barris, Art]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: Sí
+    tipologia: Sí
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: Sí
+    arquitecte_reforma: Alguns
+    any_reforma: Alguns
+    premis: Alguns
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: false
+    id_publication_app: null
+    edificis_relacionats: null
+  nota: "Publicació més completa (tots els camps núcli presents)."
+
+- slug: marina
+  titol: "La Marina del Port i del Prat Vermell. Passat i present"
+  edicio: 2023
+  agrupacions_tematiques: [Barris]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: Sí
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: No
+    illustracio: Alguns
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: Sí
+    arquitecte_reforma: Alguns
+    any_reforma: Alguns
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: false
+    id_publication_app: null
+    edificis_relacionats: null
+
+- slug: tapies
+  titol: "La Barcelona de Tàpies / Tàpies a Barcelona"
+  edicio: 2024
+  agrupacions_tematiques: [Art]
+  camps: null # itinerari d'art, no segueix l'esquema d'edifici
+  estat_app:
+    a_app: false
+    id_publication_app: null
+    edificis_relacionats: null
+  nota: "Fora de l'esquema estàndard d'edifici — confirmar amb client si va al mateix mapa."
+
+- slug: masies
+  titol: "Masies de Barcelona"
+  edicio: "2025 (pendent)"
+  agrupacions_tematiques: [Arquitectura temàtica]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: Sí
+    tipologia: Sí
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: No
+    descripcio_arquitectes: No
+    proteccio: Sí
+    arquitecte_reforma: No
+    any_reforma: No
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: false
+    id_publication_app: null
+    edificis_relacionats: null
+
+- slug: biblioteques
+  titol: "Biblioteques de Barcelona"
+  edicio: "2025 (pendent)"
+  agrupacions_tematiques: [Arquitectura temàtica]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: No
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: No
+    arquitecte_reforma: Alguns
+    any_reforma: Alguns
+    premis: No
+    superficie: No
+    nomenclator: Alguns
+    descripcio_nomenclator: Alguns
+  estat_app:
+    a_app: true
+    id_publication_app: 34
+    edificis_relacionats: null
+
+- slug: new-babylon
+  titol: "New Babylon Barcelona"
+  edicio: "2026 (pendent)"
+  agrupacions_tematiques: [Art]
+  camps: null # itinerari d'art, no segueix l'esquema d'edifici
+  estat_app:
+    a_app: false
+    id_publication_app: null
+    edificis_relacionats: null
+  nota: "Fora de l'esquema estàndard d'edifici — confirmar amb client si va al mateix mapa."
+
+- slug: "76-08"
+  titol: "(títol provisional) Arquitectura a Barcelona 1976-2008"
+  edicio: "2026 (pendent)"
+  agrupacions_tematiques: [Etapes]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: No
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: No
+    arquitecte_reforma: No
+    any_reforma: No
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: true
+    id_publication_app: 35
+    edificis_relacionats: null
+  nota: "A l'app ja té títol final diferent: 'De l'esperança a la crisi. 1975-2008'. Confirmar amb client quin és el vigent."
+
+- slug: "09-25"
+  titol: "(títol provisional) Arquitectura a Barcelona 2009-2025"
+  edicio: "2026 (pendent)"
+  agrupacions_tematiques: [Etapes]
+  camps:
+    nom: Sí
+    tematica: Sí
+    descripcio: No
+    tipologia: No
+    adreca: Sí
+    any: Sí
+    foto: Alguns
+    illustracio: No
+    arquitectes: Sí
+    descripcio_arquitectes: No
+    proteccio: No
+    arquitecte_reforma: No
+    any_reforma: No
+    premis: No
+    superficie: No
+    nomenclator: No
+    descripcio_nomenclator: No
+  estat_app:
+    a_app: true
+    id_publication_app: 32
+    edificis_relacionats: null
+  nota: "A l'app ja té títol final diferent: 'La revolució tranquil·la. 2010-2025'. Confirmar amb client quin és el vigent."
