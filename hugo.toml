@@ -75,3 +75,8 @@ defaultContentLanguageInSubdir = false
   name   = "Inici"
   url    = "/"
   weight = 1
+
+[[languages.ca.menus.main]]
+  name   = "Elements"
+  url    = "/elements/"
+  weight = 2

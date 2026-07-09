@@ -2,5 +2,21 @@
 <article>
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+
+  {{ with .Params.adreca }}<p><strong>Adreça:</strong> {{ . }}</p>{{ end }}
+  {{ with .Params.any }}<p><strong>Any:</strong> {{ . }}</p>{{ end }}
+  {{ with .Params.tipologia }}<p><strong>Tipologia:</strong> {{ . }}</p>{{ end }}
+  {{ with .Params.arquitectes }}<p><strong>Arquitectes:</strong> {{ delimit . ", " }}</p>{{ end }}
+  {{ with .Params.superficie }}<p><strong>Superfície:</strong> {{ . }} m²</p>{{ end }}
+  {{ with .Params.proteccio }}<p><strong>Protecció:</strong> {{ . }}</p>{{ end }}
+  {{ with .Params.premis }}<p><strong>Premis:</strong> {{ . }}</p>{{ end }}
+  {{ with .Params.descripcio }}<p>{{ . }}</p>{{ end }}
+  {{ with .Params.descripcio_nomenclator }}<p><strong>Nomenclàtor:</strong> {{ . }}</p>{{ end }}
+
+  {{ with .Params.publicacions }}
+  <p><strong>Plànols-guia:</strong>
+    {{ range $i, $slug := . }}{{ if $i }}, {{ end }}{{ $slug }}{{ end }}
+  </p>
+  {{ end }}
 </article>
 {{ end }}
