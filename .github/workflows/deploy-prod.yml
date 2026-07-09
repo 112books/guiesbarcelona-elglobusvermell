@@ -33,8 +33,29 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install staticrypt
+        run: npm install staticrypt
+
+      # TODO: canviar baseURL a "https://guiesbarcelona.elglobusvermell.org/" quan el domini propi estigui configurat a Pages.
       - name: Build Hugo
-        run: hugo --minify --baseURL "https://guiesbarcelona.elglobusvermell.org/"
+        run: hugo --minify --baseURL "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+
+      - name: Protect with staticrypt
+        run: |
+          shopt -s globstar
+          html_files=(public/**/*.html)
+          if [ ${#html_files[@]} -gt 0 ]; then
+            npx staticrypt "${html_files[@]}" \
+              --password "${{ secrets.SITE_PASSWORD }}" \
+              --config .staticrypt.json \
+              --directory public
+          fi
+        shell: bash
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
