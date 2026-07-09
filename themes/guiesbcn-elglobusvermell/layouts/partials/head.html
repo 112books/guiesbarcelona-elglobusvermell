@@ -5,3 +5,6 @@
 <link rel="canonical" href="{{ .Permalink }}">
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ if and (eq .Section "elements") (eq .Kind "section") }}
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+{{ end }}

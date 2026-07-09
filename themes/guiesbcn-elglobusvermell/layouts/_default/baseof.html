@@ -11,5 +11,10 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{ if and (eq .Section "elements") (eq .Kind "section") }}
+  <script src="/vendor/leaflet/leaflet.js" defer></script>
+  {{ $mapaJs := resources.Get "js/mapa.js" | minify | fingerprint }}
+  <script src="{{ $mapaJs.RelPermalink }}" integrity="{{ $mapaJs.Data.Integrity }}" defer></script>
+  {{ end }}
 </body>
 </html>

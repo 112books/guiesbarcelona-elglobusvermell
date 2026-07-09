@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<div id="mapa" style="height: 28rem; margin-bottom: var(--space-lg);"></div>
+
+<ul>
+  {{ range .Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+
+<script>
+window.MAPA_PUNTS = [
+  {{ range .Pages }}
+  {{ $page := . }}
+  {{ with $page.Params.lat }}
+  {
+    title: {{ $page.Title | jsonify }},
+    lat: {{ . | jsonify }},
+    long: {{ $page.Params.long | jsonify }},
+    url: {{ $page.Permalink | jsonify }}
+  },
+  {{ end }}
+  {{ end }}
+];
+</script>
+{{ end }}
