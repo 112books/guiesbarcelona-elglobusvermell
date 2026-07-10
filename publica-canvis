@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+# ═══════════════════════════════════════════════════════════════════════
+#  El Globus Vermell — Publicar canvis al web
+#  Ús: ./publica-canvis
+#  Fes els teus canvis als fitxers .md i executa aquest script.
+#  No cal saber res de Git — l'script s'encarrega de tot.
+# ═══════════════════════════════════════════════════════════════════════
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR"
+
+REMOTE="origin"
+STAGING_URL="https://112books.github.io/guiesbarcelona-elglobusvermell/"
+
+RED='\033[0;31m'; GRN='\033[0;32m'; YLW='\033[1;33m'; BLU='\033[0;34m'; DIM='\033[2m'; RST='\033[0m'
+
+print() { echo -e "${BLU}▶${RST} $1"; }
+ok()    { echo -e "${GRN}✓${RST} $1"; }
+err()   { echo -e "${RED}✗${RST} $1" >&2; }
+dim()   { echo -e "${DIM}  $1${RST}"; }
+
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo " El Globus Vermell — Publicar canvis"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ── Comprovar que hi ha canvis ────────────────────────────────────────
+git add -A
+if git diff --cached --quiet; then
+  ok "No hi ha cap canvi per publicar. Tot ja està al dia."
+  exit 0
+fi
+
+print "Aquests són els canvis que es publicaran:"
+git diff --cached --stat
+echo ""
+
+read -r -p "Descriu breument què has canviat (o prem Enter per ometre): " msg
+[[ -z "$msg" ]] && msg="Actualització de contingut — $(date '+%Y-%m-%d %H:%M')"
+
+git commit -m "$msg" --quiet
+ok "Canvis desats."
+
+# ── Recollir canvis d'altres persones (si n'hi ha) ────────────────────
+print "Comprovant si hi ha canvis d'altres persones..."
+git fetch "$REMOTE" main --quiet 2>/dev/null || true
+behind=$(git rev-list --count HEAD.."${REMOTE}/main" 2>/dev/null || echo 0)
+
+if [[ "$behind" -gt 0 ]]; then
+  print "Combinant amb els canvis més recents..."
+  if ! git pull --rebase "$REMOTE" main --quiet; then
+    echo ""
+    err "Dos canvis han xocat i cal ajuda per resoldre-ho."
+    dim "No toquis res més i escriu a LinuxBCN — ho arreglem junts."
+    exit 1
+  fi
+fi
+
+# ── Publicar ────────────────────────────────────────────────────────
+print "Publicant..."
+git push "$REMOTE" main --quiet
+
+echo ""
+ok "Publicat correctament."
+dim "El web es regenera sol en 1-2 minuts a:"
+dim "$STAGING_URL"
+echo ""
