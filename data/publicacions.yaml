@@ -9,6 +9,7 @@
 - slug: gatcpac
   titol: "Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC"
   edicio: 2016
+  color: "#009bc9" # color oficial del web actual (categoria avantguarda-1928-1938)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
@@ -36,6 +37,7 @@
 - slug: interiors-illa
   titol: "Jardins interiors d'illa de l'Eixample. Barcelona"
   edicio: 2018
+  color: "#8fca6a" # color oficial del web actual (categoria eixample-jardins-interiors)
   agrupacions_tematiques: [Arquitectura temàtica, Barris]
   camps:
     nom: Sí
@@ -63,6 +65,7 @@
 - slug: poblenou
   titol: "El patrimoni industrial del Poblenou, Barcelona"
   edicio: 2019
+  color: "#dd4b1a" # color oficial del web actual (categoria poblenou-industrial)
   agrupacions_tematiques: [Arquitectura temàtica, Barris]
   camps:
     nom: Sí
@@ -90,6 +93,7 @@
 - slug: "50-75"
   titol: "Arquitectura Moderna a Barcelona. 1950-1975"
   edicio: 2019
+  color: "#050d9e" # color oficial del web actual (categoria moderna-1950-1975)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
@@ -117,6 +121,7 @@
 - slug: mercats
   titol: "Mercats de Barcelona"
   edicio: 2019
+  color: "#880064" # color oficial del web actual (categoria mercats)
   agrupacions_tematiques: [Arquitectura temàtica]
   camps:
     nom: Sí
@@ -144,6 +149,7 @@
 - slug: barceloneta
   titol: "La Barceloneta. Història, arquitectura i art públic"
   edicio: 2020
+  color: "#f99d1c" # color oficial del web actual (categoria barceloneta)
   agrupacions_tematiques: [Barris, Art]
   camps:
     nom: Sí
@@ -172,6 +178,7 @@
 - slug: marina
   titol: "La Marina del Port i del Prat Vermell. Passat i present"
   edicio: 2023
+  color: "#d1072c" # color oficial del web actual (categoria marina-prat-vermell)
   agrupacions_tematiques: [Barris]
   camps:
     nom: Sí
@@ -210,6 +217,7 @@
 - slug: masies
   titol: "Masies de Barcelona"
   edicio: "2025 (pendent)"
+  color: "#009b02" # color oficial del web actual (categoria masies)
   agrupacions_tematiques: [Arquitectura temàtica]
   camps:
     nom: Sí
@@ -237,6 +245,7 @@
 - slug: biblioteques
   titol: "Biblioteques de Barcelona"
   edicio: "2025 (pendent)"
+  color: "#d5b521" # color oficial del web actual (categoria biblioteques)
   agrupacions_tematiques: [Arquitectura temàtica]
   camps:
     nom: Sí
@@ -275,6 +284,7 @@
 - slug: "76-08"
   titol: "(títol provisional) Arquitectura a Barcelona 1976-2008"
   edicio: "2026 (pendent)"
+  color: "#b2b2b2" # color oficial del web actual (categoria 1975-2008)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
@@ -303,6 +313,7 @@
 - slug: "09-25"
   titol: "(títol provisional) Arquitectura a Barcelona 2009-2025"
   edicio: "2026 (pendent)"
+  color: "#5ed6ac" # color oficial del web actual (categoria 2010-2025)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
