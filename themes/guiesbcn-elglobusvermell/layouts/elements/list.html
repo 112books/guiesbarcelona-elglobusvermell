@@ -10,19 +10,14 @@
   {{ end }}
 </ul>
 
-<script>
-window.MAPA_PUNTS = [
-  {{ range .Pages }}
+{{ $punts := slice }}
+{{ range .Pages }}
   {{ $page := . }}
   {{ with $page.Params.lat }}
-  {
-    title: {{ $page.Title | jsonify }},
-    lat: {{ . | jsonify }},
-    long: {{ $page.Params.long | jsonify }},
-    url: {{ $page.Permalink | jsonify }}
-  },
+    {{ $punts = $punts | append (dict "title" $page.Title "lat" . "long" $page.Params.long "url" $page.Permalink) }}
   {{ end }}
-  {{ end }}
-];
+{{ end }}
+<script>
+window.MAPA_PUNTS = {{ $punts | jsonify | safeJS }};
 </script>
 {{ end }}
