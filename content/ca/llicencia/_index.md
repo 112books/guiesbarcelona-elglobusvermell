@@ -47,35 +47,6 @@ Podeu incorporar les dades al vostre projecte digital sempre que:
 
 ---
 
-## Codi font i dades en obert
-
-El codi font d'aquest lloc web i les dades dels elements arquitectònics estan disponibles públicament al repositori de GitHub:
-
-**[github.com/112books/guiesbarcelona-elglobusvermell](https://github.com/112books/guiesbarcelona-elglobusvermell)**
-
-Allà trobareu:
-
-- Els fitxers de dades en format Markdown amb metadades YAML (directori `content/ca/elements/`)
-- Els fitxers de configuració de les publicacions (`data/publicacions.yaml`, `data/temes_transversals.yaml`)
-- El codi complet del tema Hugo
-
-### Com integrar-ho al vostre projecte
-
-**Opció 1 — Clonar el repositori**
-```bash
-git clone https://github.com/112books/guiesbarcelona-elglobusvermell.git
-```
-
-**Opció 2 — Descarregar les dades en JSON**
-
-Les dades dels elements es poden obtenir a través de la pàgina del mapa consultant el JavaScript injectat (`window.MAPA_PUNTS`), o directament llegint els fitxers Markdown del repositori.
-
-**Opció 3 — Empotrar el mapa al vostre lloc**
-
-Podeu empotrar el mapa interactiu en un iframe, citant la font. *(Aquesta funcionalitat estarà disponible en una propera versió.)*
-
----
-
 ## Preguntes freqüents
 
 **Puc usar les dades en una aplicació mòbil?**
