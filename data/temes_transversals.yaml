@@ -1,0 +1,22 @@
+# Temes transversals: categories que creuen publicacions
+# S'apliquen als elements mitjançant el camp `temes_transversals` al frontmatter
+
+- slug: espai-public
+  titol: "Espai públic"
+  descripcio: "Parcs, jardins, places i espais urbans d'interès arquitectònic i social."
+  color: "#4ade80" # verd
+
+- slug: art-public
+  titol: "Art públic"
+  descripcio: "Obres d'art, museus, fundacions i espais culturals a l'espai públic."
+  color: "#f472b6" # rosa
+
+- slug: dones-arquitectes
+  titol: "Dones arquitectes"
+  descripcio: "Projectes dirigits per dones arquitectes o que destaquen el paper de les dones en l'arquitectura."
+  color: "#c084fc" # porpra
+
+- slug: nomenclator-femeni
+  titol: "Nomenclàtor femení"
+  descripcio: "Espais amb noms de dones: places, jardins i carrers que homenatgen dones de la història."
+  color: "#fb923c" # taronja

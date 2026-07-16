@@ -3,6 +3,7 @@
 <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
 {{ with .Description | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" type="image/svg+xml" href="{{ "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg" | relURL }}">
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ if eq .Section "elements" }}

@@ -1,0 +1,10 @@
+# ── Entorn de producció ──────────────────────────────────────────────────────
+# S'usa amb `hugo --environment production`
+# o automàticament al GitHub Actions workflow
+
+baseURL = "https://guiesbarcelona.elglobusvermell.org/"
+
+enableRobotsTXT = true
+
+[params]
+  env = "production"

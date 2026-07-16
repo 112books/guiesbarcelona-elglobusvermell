@@ -1,22 +1,15 @@
 <footer class="site-footer">
-  <div class="footer-grid">
-    <div>
-      <h4>{{ i18n "footer_about_title" | default "El Globus Vermell" }}</h4>
-      <p>{{ i18n "footer_about_text" | default "Guies de Barcelona." }}</p>
-    </div>
-    <div>
-      <h4>{{ i18n "footer_contact_title" | default "Contacte" }}</h4>
-      <ul>
-        {{ with site.Params.contactEmail }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-        {{ with site.Params.contactPhone }}<li><a href="tel:{{ . }}">{{ . }}</a></li>{{ end }}
-      </ul>
-    </div>
-    <div>
-      <h4>{{ i18n "footer_follow_title" | default "Xarxes" }}</h4>
-      <ul>
-        {{ with site.Params.instagram }}<li><a href="{{ . }}" rel="me">Instagram</a></li>{{ end }}
-        {{ with site.Params.facebook }}<li><a href="{{ . }}" rel="me">Facebook</a></li>{{ end }}
-      </ul>
+  <div class="footer-main">
+    <a href="https://elglobusvermell.org" target="_blank" rel="noopener noreferrer" class="footer-brand">
+      <img src="{{ "img/el_globus_vermell-3.webp" | relURL }}" alt="El Globus Vermell" class="footer-logo" loading="lazy">
+    </a>
+    <div class="footer-actions">
+      <a href="mailto:info@elglobusvermell.org" class="footer-action-link" aria-label="Contacte per correu electrònic">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      </a>
+      <a href="https://www.elglobusvermell.org/accessibilitat" target="_blank" rel="noopener noreferrer" class="footer-action-link" aria-label="Certificació d'accessibilitat">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="8" r="2"/><path d="M12 10v4"/><path d="m8 18 4-4 4 4"/></svg>
+      </a>
     </div>
   </div>
   <div class="footer-legal">
