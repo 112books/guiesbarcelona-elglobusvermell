@@ -1,10 +1,10 @@
 <header class="site-header">
   <a class="site-logo" href="{{ site.Home.Permalink }}" aria-label="{{ site.Title }}">
     {{ if site.Params.logoImg }}
-    <img src="{{ site.Params.logoImg | relURL }}" alt="{{ site.Title }}" class="site-logo-img site-logo-full">
+    <img src="{{ site.Params.logoImg | relURL }}" alt="" class="site-logo-img site-logo-full">
     {{ end }}
     {{ if site.Params.logoCompact }}
-    <img src="{{ site.Params.logoCompact | relURL }}" alt="{{ site.Title }}" class="site-logo-img site-logo-compact">
+    <img src="{{ site.Params.logoCompact | relURL }}" alt="" class="site-logo-img site-logo-compact">
     {{ end }}
   </a>
   <nav class="site-nav" aria-label="{{ i18n `nav_label` | default `Navegació principal` }}">
