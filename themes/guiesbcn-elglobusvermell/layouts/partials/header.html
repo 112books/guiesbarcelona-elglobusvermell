@@ -1,5 +1,11 @@
 <header class="site-header">
-  <a class="site-logo" href="{{ site.Home.Permalink }}">{{ site.Params.logoText | default site.Title }}</a>
+  <a class="site-logo" href="{{ site.Home.Permalink }}">
+    {{ if site.Params.logoImg }}
+    <img src="{{ site.Params.logoImg | relURL }}" alt="{{ site.Title }}" class="site-logo-img">
+    {{ else }}
+    {{ site.Params.logoText | default site.Title }}
+    {{ end }}
+  </a>
   <nav class="site-nav" aria-label="{{ i18n `nav_label` | default `Navegació principal` }}">
     <ul>
       {{ range site.Menus.main }}
