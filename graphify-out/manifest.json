@@ -1,0 +1,542 @@
+{
+  "publica-canvis": {
+    "mtime": 1783686112.153761,
+    "ast_hash": "18ed623f3ec118d0dfeef83447743b4d",
+    "semantic_hash": "18ed623f3ec118d0dfeef83447743b4d"
+  },
+  "scripts/importa-edificis-sql.py": {
+    "mtime": 1784205908.3430154,
+    "ast_hash": "2a866a5e6674dc38426286cfc2b71b83",
+    "semantic_hash": "2a866a5e6674dc38426286cfc2b71b83"
+  },
+  "static/vendor/leaflet/leaflet.js": {
+    "mtime": 1784205908.3525574,
+    "ast_hash": "35b48eb991f383702f153452506e07b2",
+    "semantic_hash": "35b48eb991f383702f153452506e07b2"
+  },
+  "themes/guiesbcn-elglobusvermell/assets/js/fitxa.js": {
+    "mtime": 1784205908.353982,
+    "ast_hash": "3269ca3205e6e1d381f632a6ed674cf7",
+    "semantic_hash": "3269ca3205e6e1d381f632a6ed674cf7"
+  },
+  "themes/guiesbcn-elglobusvermell/assets/js/main.js": {
+    "mtime": 1783598434.4672117,
+    "ast_hash": "036569725a9eaf5c4969621fca84188c",
+    "semantic_hash": "036569725a9eaf5c4969621fca84188c"
+  },
+  "themes/guiesbcn-elglobusvermell/assets/js/mapa.js": {
+    "mtime": 1784205908.3542535,
+    "ast_hash": "5eb90c6669bf1c0d670396cd1e4a3f6a",
+    "semantic_hash": "5eb90c6669bf1c0d670396cd1e4a3f6a"
+  },
+  "themes/guiesbcn-elglobusvermell/static/vendor/leaflet/leaflet.js": {
+    "mtime": 1783607486.1128106,
+    "ast_hash": "35b48eb991f383702f153452506e07b2",
+    "semantic_hash": "35b48eb991f383702f153452506e07b2"
+  },
+  ".github/workflows/deploy-prod.yml": {
+    "mtime": 1783599777.5662313,
+    "ast_hash": "aa94e56e34d86331cfd25dcef640f9f8",
+    "semantic_hash": "aa94e56e34d86331cfd25dcef640f9f8"
+  },
+  "README.md": {
+    "mtime": 1783686653.0389218,
+    "ast_hash": "f4585bd013343d92acbc50ba796512c9",
+    "semantic_hash": "f4585bd013343d92acbc50ba796512c9"
+  },
+  "archetypes/default.md": {
+    "mtime": 1783597512.1426432,
+    "ast_hash": "3d39ef027babc74391e207d220de7904",
+    "semantic_hash": "3d39ef027babc74391e207d220de7904"
+  },
+  "archetypes/elements.md": {
+    "mtime": 1783605877.002043,
+    "ast_hash": "fcaa9dd06ba6a5ffa69e19c871e8d0ab",
+    "semantic_hash": "fcaa9dd06ba6a5ffa69e19c871e8d0ab"
+  },
+  "content/ca/_index.md": {
+    "mtime": 1784205908.3240767,
+    "ast_hash": "9f276899e3809a16c6faa91421e1fa49",
+    "semantic_hash": "9f276899e3809a16c6faa91421e1fa49"
+  },
+  "content/ca/credits/_index.md": {
+    "mtime": 1784205908.3242393,
+    "ast_hash": "4e69434ff7ee3dc1530da5b77eefcf8f",
+    "semantic_hash": "4e69434ff7ee3dc1530da5b77eefcf8f"
+  },
+  "content/ca/elements/_index.md": {
+    "mtime": 1783606700.1617463,
+    "ast_hash": "e77712447cd67726e87fc17fab9612eb",
+    "semantic_hash": "e77712447cd67726e87fc17fab9612eb"
+  },
+  "content/ca/elements/adaptacio-dun-convent-per-a-escola-del-cenu.md": {
+    "mtime": 1784205908.3243349,
+    "ast_hash": "c48a0ad45a86b533945093d0dddaecec",
+    "semantic_hash": "c48a0ad45a86b533945093d0dddaecec"
+  },
+  "content/ca/elements/antics-magatzems-sepu.md": {
+    "mtime": 1784205908.324406,
+    "ast_hash": "e3e1d182c3c159e8bcb115ba1970cdad",
+    "semantic_hash": "e3e1d182c3c159e8bcb115ba1970cdad"
+  },
+  "content/ca/elements/biblioteca-el-clot-josep-benet.md": {
+    "mtime": 1784205908.3244743,
+    "ast_hash": "79209f6d70bd761cef332694fdc6cf41",
+    "semantic_hash": "79209f6d70bd761cef332694fdc6cf41"
+  },
+  "content/ca/elements/bloc-diagonal.md": {
+    "mtime": 1784205908.326,
+    "ast_hash": "836be417b391305d3a6bd930890baa06",
+    "semantic_hash": "836be417b391305d3a6bd930890baa06"
+  },
+  "content/ca/elements/botiga-cottet.md": {
+    "mtime": 1784205908.326092,
+    "ast_hash": "4797338349e360a7a37a8fd9c39b870f",
+    "semantic_hash": "4797338349e360a7a37a8fd9c39b870f"
+  },
+  "content/ca/elements/ca-laranyo.md": {
+    "mtime": 1784205908.3261645,
+    "ast_hash": "05c60d715610233031853f3afee8dea6",
+    "semantic_hash": "05c60d715610233031853f3afee8dea6"
+  },
+  "content/ca/elements/can-tiana-il3-ub.md": {
+    "mtime": 1784205908.3262386,
+    "ast_hash": "ea1c1c02501549a6dfd12ebec236fd7f",
+    "semantic_hash": "ea1c1c02501549a6dfd12ebec236fd7f"
+  },
+  "content/ca/elements/casa-bloc.md": {
+    "mtime": 1784205908.3263242,
+    "ast_hash": "bab2d63b89175d6a510d86aa0936ec14",
+    "semantic_hash": "bab2d63b89175d6a510d86aa0936ec14"
+  },
+  "content/ca/elements/casa-f-espona.md": {
+    "mtime": 1784205908.327927,
+    "ast_hash": "33876140b325715744726b112aabbb11",
+    "semantic_hash": "33876140b325715744726b112aabbb11"
+  },
+  "content/ca/elements/casa-ginesta.md": {
+    "mtime": 1784205908.3280044,
+    "ast_hash": "897a1fc8636f65305df73ec455107306",
+    "semantic_hash": "897a1fc8636f65305df73ec455107306"
+  },
+  "content/ca/elements/casa-j-espona.md": {
+    "mtime": 1784205908.328071,
+    "ast_hash": "cb85f8a58b83dba64bad3fc8a42c34d5",
+    "semantic_hash": "cb85f8a58b83dba64bad3fc8a42c34d5"
+  },
+  "content/ca/elements/casa-jaume-sans.md": {
+    "mtime": 1784205908.328143,
+    "ast_hash": "395e0d277cb9f18863be090fa203edc4",
+    "semantic_hash": "395e0d277cb9f18863be090fa203edc4"
+  },
+  "content/ca/elements/casa-josefa-lopez.md": {
+    "mtime": 1784205908.3292272,
+    "ast_hash": "1316f1e9ed35b77348dbeac8d91ab696",
+    "semantic_hash": "1316f1e9ed35b77348dbeac8d91ab696"
+  },
+  "content/ca/elements/casa-montepio-dempleats.md": {
+    "mtime": 1784205908.3293252,
+    "ast_hash": "ef1ce730bb6f07f2ecfd741f5134ff71",
+    "semantic_hash": "ef1ce730bb6f07f2ecfd741f5134ff71"
+  },
+  "content/ca/elements/casa-rodriguez-arias.md": {
+    "mtime": 1784205908.3302038,
+    "ast_hash": "dfe5a7c3e766a7e78de1b2f9b477321b",
+    "semantic_hash": "dfe5a7c3e766a7e78de1b2f9b477321b"
+  },
+  "content/ca/elements/casa-sardanes-i-bonet.md": {
+    "mtime": 1784205908.3302796,
+    "ast_hash": "605d7c17de5eaa27ab6a0072ee40716c",
+    "semantic_hash": "605d7c17de5eaa27ab6a0072ee40716c"
+  },
+  "content/ca/elements/casa-unifamiliar.md": {
+    "mtime": 1784205908.330342,
+    "ast_hash": "8ad0423575d9a83510ee3f8e492ab16e",
+    "semantic_hash": "8ad0423575d9a83510ee3f8e492ab16e"
+  },
+  "content/ca/elements/casa-viladot.md": {
+    "mtime": 1784205908.3304102,
+    "ast_hash": "19621fd28972de88b8e98e8408912d91",
+    "semantic_hash": "19621fd28972de88b8e98e8408912d91"
+  },
+  "content/ca/elements/casa-vilaro.md": {
+    "mtime": 1784205908.33052,
+    "ast_hash": "54b4be8e097ce565bd323e1815eedc9f",
+    "semantic_hash": "54b4be8e097ce565bd323e1815eedc9f"
+  },
+  "content/ca/elements/casa-xalet-passatge-roserar.md": {
+    "mtime": 1784205908.3305871,
+    "ast_hash": "1ff6f4a95a0467538dbff9291f4a0f9c",
+    "semantic_hash": "1ff6f4a95a0467538dbff9291f4a0f9c"
+  },
+  "content/ca/elements/conjunt-dhabitatges-illa-glories.md": {
+    "mtime": 1784205908.3326502,
+    "ast_hash": "af5a500c0ab5182639b06c24154d8dc8",
+    "semantic_hash": "af5a500c0ab5182639b06c24154d8dc8"
+  },
+  "content/ca/elements/cotxeres-de-tmb.md": {
+    "mtime": 1784205908.3327434,
+    "ast_hash": "17a127d7ca5f28f06fa7733eead6a9b1",
+    "semantic_hash": "17a127d7ca5f28f06fa7733eead6a9b1"
+  },
+  "content/ca/elements/dispensari-central-antituberculos.md": {
+    "mtime": 1784205908.3328497,
+    "ast_hash": "98128c925c43e191319a1fe59b7cafe7",
+    "semantic_hash": "98128c925c43e191319a1fe59b7cafe7"
+  },
+  "content/ca/elements/dispensari-de-sant-josep-de-la-muntanya.md": {
+    "mtime": 1784205908.3343456,
+    "ast_hash": "baeb00bc68544cb6afda465a8a95af5c",
+    "semantic_hash": "baeb00bc68544cb6afda465a8a95af5c"
+  },
+  "content/ca/elements/edifici-astoria.md": {
+    "mtime": 1784205908.334445,
+    "ast_hash": "68771beef5d7308023ac242a1380b769",
+    "semantic_hash": "68771beef5d7308023ac242a1380b769"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-balmes.md": {
+    "mtime": 1784205908.334549,
+    "ast_hash": "8e21d44d2b44711e8ddeed22fc5f692e",
+    "semantic_hash": "8e21d44d2b44711e8ddeed22fc5f692e"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-de-lart.md": {
+    "mtime": 1784205908.3346364,
+    "ast_hash": "4f7b95449c37b8ca440f33a029f81b50",
+    "semantic_hash": "4f7b95449c37b8ca440f33a029f81b50"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-enric-granados.md": {
+    "mtime": 1784205908.3347507,
+    "ast_hash": "32c9e5a5a157f2e83973d95635933bcd",
+    "semantic_hash": "32c9e5a5a157f2e83973d95635933bcd"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-iradier.md": {
+    "mtime": 1784205908.334821,
+    "ast_hash": "a4ed329b1b693cd9c999a903aa344ac1",
+    "semantic_hash": "a4ed329b1b693cd9c999a903aa344ac1"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-jonqueres.md": {
+    "mtime": 1784205908.3348985,
+    "ast_hash": "9e7851f4e0845510bbf1e517fbc23605",
+    "semantic_hash": "9e7851f4e0845510bbf1e517fbc23605"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-lincoln.md": {
+    "mtime": 1784205908.334966,
+    "ast_hash": "3488017b304ee4126257631beed23c0c",
+    "semantic_hash": "3488017b304ee4126257631beed23c0c"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-navas.md": {
+    "mtime": 1784205908.3350747,
+    "ast_hash": "236f22e827790af0bfa1c98025d8ca2f",
+    "semantic_hash": "236f22e827790af0bfa1c98025d8ca2f"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-padilla.md": {
+    "mtime": 1784205908.3351502,
+    "ast_hash": "3a8ffd63f74abae2584e3ad7b06604d9",
+    "semantic_hash": "3a8ffd63f74abae2584e3ad7b06604d9"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-padua.md": {
+    "mtime": 1784205908.3352237,
+    "ast_hash": "f670b3ce792d4054abf02c883e709591",
+    "semantic_hash": "f670b3ce792d4054abf02c883e709591"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-pi-i-margall.md": {
+    "mtime": 1784205908.335312,
+    "ast_hash": "f4ef46d25198f0405b719665e7cd5659",
+    "semantic_hash": "f4ef46d25198f0405b719665e7cd5659"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-rector-ubach.md": {
+    "mtime": 1784205908.3375564,
+    "ast_hash": "4f3ab1c2878c692c7d7eead29eb365ff",
+    "semantic_hash": "4f3ab1c2878c692c7d7eead29eb365ff"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-rossello.md": {
+    "mtime": 1784205908.3376584,
+    "ast_hash": "2dd3f47f60310f4969c3ed2a7d981b64",
+    "semantic_hash": "2dd3f47f60310f4969c3ed2a7d981b64"
+  },
+  "content/ca/elements/edifici-dhabitatges-carrer-viladomat.md": {
+    "mtime": 1784205908.337743,
+    "ast_hash": "757cc74094d9c7bc6dd94a7f04dda9ae",
+    "semantic_hash": "757cc74094d9c7bc6dd94a7f04dda9ae"
+  },
+  "content/ca/elements/edifici-dhabitatges-gran-via.md": {
+    "mtime": 1784205908.3378088,
+    "ast_hash": "7e4148752bd74d1b6d2d3860867d5b33",
+    "semantic_hash": "7e4148752bd74d1b6d2d3860867d5b33"
+  },
+  "content/ca/elements/edifici-dhabitatges-placa-bonanova.md": {
+    "mtime": 1784205908.337883,
+    "ast_hash": "cd460c4aabfdb4a9ae7b5373a65b36c0",
+    "semantic_hash": "cd460c4aabfdb4a9ae7b5373a65b36c0"
+  },
+  "content/ca/elements/edifici-doficines-entegra.md": {
+    "mtime": 1784205908.337947,
+    "ast_hash": "68d12f9b84c27bdf25d192c23705ca93",
+    "semantic_hash": "68d12f9b84c27bdf25d192c23705ca93"
+  },
+  "content/ca/elements/edifici-media-tic.md": {
+    "mtime": 1784205908.3380346,
+    "ast_hash": "f96a79c1572aed874f86293f79fc6ae7",
+    "semantic_hash": "f96a79c1572aed874f86293f79fc6ae7"
+  },
+  "content/ca/elements/edifici-mediapro.md": {
+    "mtime": 1784205908.3381028,
+    "ast_hash": "91e4909e5329c0412f767f82e8a91e3d",
+    "semantic_hash": "91e4909e5329c0412f767f82e8a91e3d"
+  },
+  "content/ca/elements/fabrica-de-llorenc-pons-i-clerch.md": {
+    "mtime": 1784205908.3381786,
+    "ast_hash": "16630ae21508e59f59b5be14c8083589",
+    "semantic_hash": "16630ae21508e59f59b5be14c8083589"
+  },
+  "content/ca/elements/fabrica-myrurgia.md": {
+    "mtime": 1784205908.3382845,
+    "ast_hash": "3f8d8ac57bb35a95bdb2392936def2b1",
+    "semantic_hash": "3f8d8ac57bb35a95bdb2392936def2b1"
+  },
+  "content/ca/elements/farinera-sant-jaume-la-farinera-del-clot.md": {
+    "mtime": 1784205908.3383954,
+    "ast_hash": "f297d426c0662cfe8538385ed097efa6",
+    "semantic_hash": "f297d426c0662cfe8538385ed097efa6"
+  },
+  "content/ca/elements/fundacio-joan-miro.md": {
+    "mtime": 1784205908.3405392,
+    "ast_hash": "376f6543a86f79b5206ad98e83cca246",
+    "semantic_hash": "376f6543a86f79b5206ad98e83cca246"
+  },
+  "content/ca/elements/grup-escolar-blanquerna.md": {
+    "mtime": 1784205908.341103,
+    "ast_hash": "408da27953b41534b3f90dd90174f0b1",
+    "semantic_hash": "408da27953b41534b3f90dd90174f0b1"
+  },
+  "content/ca/elements/hispano-olivetti.md": {
+    "mtime": 1784205908.3411798,
+    "ast_hash": "9f1369121e6219a79a27426dee94c469",
+    "semantic_hash": "9f1369121e6219a79a27426dee94c469"
+  },
+  "content/ca/elements/industrias-metalicas-sa.md": {
+    "mtime": 1784205908.341243,
+    "ast_hash": "f88658c8724e3636613af316aa73de52",
+    "semantic_hash": "f88658c8724e3636613af316aa73de52"
+  },
+  "content/ca/elements/jardins-ada-byron.md": {
+    "mtime": 1783606613.1951616,
+    "ast_hash": "318c081818018f1a594874bdf2df304d",
+    "semantic_hash": "318c081818018f1a594874bdf2df304d"
+  },
+  "content/ca/elements/jardins-ca-laranyo.md": {
+    "mtime": 1783606683.499748,
+    "ast_hash": "c99de89e01f25644f0a95fe5482cd00e",
+    "semantic_hash": "c99de89e01f25644f0a95fe5482cd00e"
+  },
+  "content/ca/elements/jardins-dada-byron.md": {
+    "mtime": 1784205908.3413534,
+    "ast_hash": "bbc27d7e51640e414f861b4eae4a94e7",
+    "semantic_hash": "bbc27d7e51640e414f861b4eae4a94e7"
+  },
+  "content/ca/elements/jardins-de-ca-laranyo.md": {
+    "mtime": 1784205908.3414311,
+    "ast_hash": "407f46e22ff8504194d48a59f98584aa",
+    "semantic_hash": "407f46e22ff8504194d48a59f98584aa"
+  },
+  "content/ca/elements/jardins-de-diagonal-ciutat-de-granada-bolivia-badajoz.md": {
+    "mtime": 1784205908.3414972,
+    "ast_hash": "65d6db459ce7f293f4c8740f38cc7327",
+    "semantic_hash": "65d6db459ce7f293f4c8740f38cc7327"
+  },
+  "content/ca/elements/jardins-diagonal-ciutat-de-granada.md": {
+    "mtime": 1783606601.992175,
+    "ast_hash": "a7c8ec9c2de5f7beb9d939fd0534be63",
+    "semantic_hash": "a7c8ec9c2de5f7beb9d939fd0534be63"
+  },
+  "content/ca/elements/joieria-roca.md": {
+    "mtime": 1784205908.3415847,
+    "ast_hash": "71aee34137b1cad552b094f47452a40a",
+    "semantic_hash": "71aee34137b1cad552b094f47452a40a"
+  },
+  "content/ca/elements/la-ciutat-groga.md": {
+    "mtime": 1784205908.3416533,
+    "ast_hash": "974791b59ae994bbd90967bd7f4b3c44",
+    "semantic_hash": "974791b59ae994bbd90967bd7f4b3c44"
+  },
+  "content/ca/elements/les-escales-park.md": {
+    "mtime": 1784205908.3417149,
+    "ast_hash": "4a5d6c7c677be9b326a70a4ecad79392",
+    "semantic_hash": "4a5d6c7c677be9b326a70a4ecad79392"
+  },
+  "content/ca/elements/mercat-dels-encants-fira-de-bellcaire.md": {
+    "mtime": 1784205908.341829,
+    "ast_hash": "0aee6af1ecf826ce65a99bb20851091b",
+    "semantic_hash": "0aee6af1ecf826ce65a99bb20851091b"
+  },
+  "content/ca/elements/museu-can-framis-i-jardins-de-miquel-marti-i-pol.md": {
+    "mtime": 1784205908.3419483,
+    "ast_hash": "5fb405645e4e40004b1fe6bfaeb28037",
+    "semantic_hash": "5fb405645e4e40004b1fe6bfaeb28037"
+  },
+  "content/ca/elements/netol.md": {
+    "mtime": 1784205908.3420632,
+    "ast_hash": "9743ec3f3f1bf25fde1c133c114b1053",
+    "semantic_hash": "9743ec3f3f1bf25fde1c133c114b1053"
+  },
+  "content/ca/elements/parc-de-les-glories.md": {
+    "mtime": 1784205908.342138,
+    "ast_hash": "604fa8950b760ce66b6b54b05b069481",
+    "semantic_hash": "604fa8950b760ce66b6b54b05b069481"
+  },
+  "content/ca/elements/pavello-de-la-republica-de-1937-replica.md": {
+    "mtime": 1784205908.342209,
+    "ast_hash": "57c4810e3775838572d0df97792e2146",
+    "semantic_hash": "57c4810e3775838572d0df97792e2146"
+  },
+  "content/ca/elements/placa-de-dolors-piera-placa-disabel-vila.md": {
+    "mtime": 1784205908.342307,
+    "ast_hash": "2c58771a1786ce7a60f1a277fcf339fa",
+    "semantic_hash": "2c58771a1786ce7a60f1a277fcf339fa"
+  },
+  "content/ca/elements/placa-dolors-piera-isabel-vila.md": {
+    "mtime": 1783606669.621567,
+    "ast_hash": "5b7773bc296dcfd9e1eed5e1c1543028",
+    "semantic_hash": "5b7773bc296dcfd9e1eed5e1c1543028"
+  },
+  "content/ca/elements/reforma-de-laula-de-quimica-a-la-ub.md": {
+    "mtime": 1784205908.3423789,
+    "ast_hash": "474bd2fa299121f695473eff2a6e8512",
+    "semantic_hash": "474bd2fa299121f695473eff2a6e8512"
+  },
+  "content/ca/elements/reforma-dun-atic.md": {
+    "mtime": 1784205908.3424492,
+    "ast_hash": "b1f4070fe1911dd271274a5463f73609",
+    "semantic_hash": "b1f4070fe1911dd271274a5463f73609"
+  },
+  "content/ca/elements/seu-de-la-cmt.md": {
+    "mtime": 1784205908.342573,
+    "ast_hash": "01c8408cf83fbd54dec18b114bfd782a",
+    "semantic_hash": "01c8408cf83fbd54dec18b114bfd782a"
+  },
+  "content/ca/elements/torre-glories-torre-agbar.md": {
+    "mtime": 1784205908.342644,
+    "ast_hash": "2715430fd276e1542e645cfbec4296bc",
+    "semantic_hash": "2715430fd276e1542e645cfbec4296bc"
+  },
+  "content/ca/en-paper/_index.md": {
+    "mtime": 1784205908.3427582,
+    "ast_hash": "6ff25a9ea7b066a0851ae2dead7f3a0d",
+    "semantic_hash": "6ff25a9ea7b066a0851ae2dead7f3a0d"
+  },
+  "content/ca/legal/avis-legal.md": {
+    "mtime": 1783599880.2854788,
+    "ast_hash": "d1e442a3611770d4f43a5d2056d5dbe5",
+    "semantic_hash": "d1e442a3611770d4f43a5d2056d5dbe5"
+  },
+  "content/ca/legal/cookies.md": {
+    "mtime": 1783599899.2711394,
+    "ast_hash": "279e58e7d240b0e805454f79356fb498",
+    "semantic_hash": "279e58e7d240b0e805454f79356fb498"
+  },
+  "content/ca/legal/privacitat.md": {
+    "mtime": 1783599889.9278286,
+    "ast_hash": "5abb53a8ed34a21b9b12d98908742133",
+    "semantic_hash": "5abb53a8ed34a21b9b12d98908742133"
+  },
+  "data/publicacions.yaml": {
+    "mtime": 1783687649.7769523,
+    "ast_hash": "fe62a1cf0126fe07e72f34880d1395fd",
+    "semantic_hash": "fe62a1cf0126fe07e72f34880d1395fd"
+  },
+  "i18n/ca.yaml": {
+    "mtime": 1783599844.8629532,
+    "ast_hash": "b93cf93a6e0e663c2a92a1fc60de60be",
+    "semantic_hash": "b93cf93a6e0e663c2a92a1fc60de60be"
+  },
+  "i18n/en.yaml": {
+    "mtime": 1783599861.573357,
+    "ast_hash": "9314142edda7d3c96971acf5bc76da4b",
+    "semantic_hash": "9314142edda7d3c96971acf5bc76da4b"
+  },
+  "i18n/es.yaml": {
+    "mtime": 1783598506.3787417,
+    "ast_hash": "7e5b92680094e40457bf9177a09e856f",
+    "semantic_hash": "7e5b92680094e40457bf9177a09e856f"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/_default/baseof.html": {
+    "mtime": 1784205908.354448,
+    "ast_hash": "49070b058c8cff94951136ea4472f397",
+    "semantic_hash": "49070b058c8cff94951136ea4472f397"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/_default/list.html": {
+    "mtime": 1783598488.8147473,
+    "ast_hash": "d4ad88176ffa962b1d471440bb3cad52",
+    "semantic_hash": "d4ad88176ffa962b1d471440bb3cad52"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/_default/single.html": {
+    "mtime": 1783606752.7018027,
+    "ast_hash": "449958272fedf4be42d2f1f855de22b1",
+    "semantic_hash": "449958272fedf4be42d2f1f855de22b1"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/elements/list.html": {
+    "mtime": 1784205908.3545928,
+    "ast_hash": "380cb92d6db7c51ec4461879b397d38f",
+    "semantic_hash": "380cb92d6db7c51ec4461879b397d38f"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/elements/single.html": {
+    "mtime": 1784205908.354681,
+    "ast_hash": "747c4bbdb568929dbea9bacbab9dd26c",
+    "semantic_hash": "747c4bbdb568929dbea9bacbab9dd26c"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/index.html": {
+    "mtime": 1783598476.852477,
+    "ast_hash": "12a727552bbc7fd0a580fa2cc42c4f1a",
+    "semantic_hash": "12a727552bbc7fd0a580fa2cc42c4f1a"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/partials/footer.html": {
+    "mtime": 1783605053.8399506,
+    "ast_hash": "0ea9af211ee97bc764e6703b18498fea",
+    "semantic_hash": "0ea9af211ee97bc764e6703b18498fea"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/partials/head.html": {
+    "mtime": 1784205908.3548884,
+    "ast_hash": "94fd74ef31935b90adeb3c62dea630fa",
+    "semantic_hash": "94fd74ef31935b90adeb3c62dea630fa"
+  },
+  "themes/guiesbcn-elglobusvermell/layouts/partials/header.html": {
+    "mtime": 1784205908.3550212,
+    "ast_hash": "8e8311811b9295f856a50348e1077a94",
+    "semantic_hash": "8e8311811b9295f856a50348e1077a94"
+  },
+  "static/img/logo-guiesbarcelona.jpg": {
+    "mtime": 1784205908.3432262,
+    "ast_hash": "698e79c9427d72c3a9e721f51a59eacc",
+    "semantic_hash": "698e79c9427d72c3a9e721f51a59eacc"
+  },
+  "static/vendor/leaflet/images/marker-icon-2x.png": {
+    "mtime": 1784205908.347643,
+    "ast_hash": "401d815dc206b8dc1b17cd0e37695975",
+    "semantic_hash": "401d815dc206b8dc1b17cd0e37695975"
+  },
+  "static/vendor/leaflet/images/marker-icon.png": {
+    "mtime": 1784205908.3482883,
+    "ast_hash": "2273e3d8ad9264b7daa5bdbf8e6b47f8",
+    "semantic_hash": "2273e3d8ad9264b7daa5bdbf8e6b47f8"
+  },
+  "static/vendor/leaflet/images/marker-shadow.png": {
+    "mtime": 1784205908.3488138,
+    "ast_hash": "44a526eed258222515aa21eaffd14a96",
+    "semantic_hash": "44a526eed258222515aa21eaffd14a96"
+  },
+  "themes/guiesbcn-elglobusvermell/static/vendor/leaflet/images/marker-icon-2x.png": {
+    "mtime": 1783607486.382006,
+    "ast_hash": "401d815dc206b8dc1b17cd0e37695975",
+    "semantic_hash": "401d815dc206b8dc1b17cd0e37695975"
+  },
+  "themes/guiesbcn-elglobusvermell/static/vendor/leaflet/images/marker-icon.png": {
+    "mtime": 1783607486.3053296,
+    "ast_hash": "2273e3d8ad9264b7daa5bdbf8e6b47f8",
+    "semantic_hash": "2273e3d8ad9264b7daa5bdbf8e6b47f8"
+  },
+  "themes/guiesbcn-elglobusvermell/static/vendor/leaflet/images/marker-shadow.png": {
+    "mtime": 1783607486.4738536,
+    "ast_hash": "44a526eed258222515aa21eaffd14a96",
+    "semantic_hash": "44a526eed258222515aa21eaffd14a96"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "extracted_from": "Portades de publicacions a elglobusvermell.org",
+  "date": "2026-07-16",
+  "note": "Colors extrets de les imatges de portada de cada publicació",
+  "publications": {
+    "gatcpac": {
+      "title": "Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC",
+      "cover_colors": ["#fefefe", "#fbe4c6", "#f5c587", "#eca647", "#f1e2e1"],
+      "primary": "#eca647",
+      "light": "#fbe4c6",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2026/03/Portada-GATCPAC-CAT-mini-150x150.jpg"
+    },
+    "09-25": {
+      "title": "Arquitectura a Barcelona 2010-2025. La revolució tranquil·la",
+      "cover_colors": ["#fdfefd", "#e3eaca", "#e7ecd3", "#dce6c4", "#abc268"],
+      "primary": "#abc268",
+      "light": "#e3eaca",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2026/03/Portada-2010-2025-CAT-mini-150x150.jpg"
+    },
+    "76-08": {
+      "title": "Arquitectura a Barcelona 1975-2008. De l'esperança a la crisi",
+      "cover_colors": ["#fdfdfd", "#cad4d8", "#b9c4ca", "#a7b4bb", "#c3ccd2"],
+      "primary": "#a7b4bb",
+      "light": "#cad4d8",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2026/03/Portada-1975-2008-CAT-mini-150x150.jpg"
+    },
+    "new-babylon": {
+      "title": "La New Babylon de Constant i Barcelona",
+      "cover_colors": ["#fefcfb", "#f06961", "#fbeae6", "#f5a69f", "#e9d3d0"],
+      "primary": "#f06961",
+      "light": "#fbeae6",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2026/03/Portada-New-Babylon-CAT-mini-150x150.jpg"
+    },
+    "barceloneta": {
+      "title": "La Casa de la Barceloneta. Memòria viva d'un barri",
+      "cover_colors": ["#d3796e", "#a09ca3", "#daa49c", "#f9ece7", "#e8dcda"],
+      "primary": "#d3796e",
+      "light": "#daa49c",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2025/12/casa-barceloneta_q.jpg"
+    },
+    "biblioteques": {
+      "title": "Biblioteques de Barcelona",
+      "cover_colors": ["#fdfefe", "#0797c3", "#1799c3", "#0492bd", "#93c3de"],
+      "primary": "#0797c3",
+      "light": "#93c3de",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2025/12/biblios-bcn-portada_cat.jpg"
+    },
+    "masies": {
+      "title": "Masies de Barcelona",
+      "cover_colors": ["#fefefe", "#5a8577", "#648a7d", "#749589", "#94aca2"],
+      "primary": "#5a8577",
+      "light": "#94aca2",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2025/12/masies-bcn-portada-cat.jpg"
+    },
+    "nova-babilonia": {
+      "title": "Biblioteca Nova Babilònia",
+      "cover_colors": ["#000000", "#b6b6b6", "#a7a7a7", "#979797", "#fcfcfc"],
+      "primary": "#000000",
+      "light": "#b6b6b6",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2025/06/biblio-nova-babilonia_1000x1000.jpg"
+    },
+    "tapies": {
+      "title": "La Barcelona de Tàpies / Tàpies a Barcelona",
+      "cover_colors": ["#fefefe", "#565658", "#656568", "#484749", "#747578"],
+      "primary": "#565658",
+      "light": "#656568",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2024/11/Tapies-BCN.jpg"
+    },
+    "participacio": {
+      "title": "Punts de participació a l'espai públic",
+      "cover_colors": ["#fefefe", "#221f20", "#252122", "#191617", "#919090"],
+      "primary": "#221f20",
+      "light": "#919090",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2024/01/punts-participacio_q2.jpg"
+    },
+    "fabrica-carné": {
+      "title": "Fàbrica Amadeu Carné",
+      "cover_colors": ["#eee435", "#f4e936", "#fdf437", "#625c26", "#17131e"],
+      "primary": "#eee435",
+      "light": "#f4e936",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2023/11/amadeu_carne_q.jpg"
+    },
+    "marina": {
+      "title": "La Marina del Port i del Prat Vermell. Passat i present",
+      "cover_colors": ["#fefefd", "#f7e8e6", "#f3d8d6", "#ecb9b5", "#e9a9a6"],
+      "primary": "#e9a9a6",
+      "light": "#f7e8e6",
+      "source_url": "https://elglobusvermell.org/wp-content/uploads/2023/08/miniatura-marina.jpg"
+    }
+  }
+}

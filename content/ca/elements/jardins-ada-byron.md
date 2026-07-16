@@ -6,6 +6,7 @@ draft = false
 adreca = "Diagonal, 175 + Rambla del Poblenou, 137 + C. Tànger, 139 + 149"
 any = 2006
 publicacions = ["interiors-illa"]
+temes_transversals = ["espai-public", "nomenclator-femeni"]
 lat = "41.40482138633625"
 long = "2.1951302451638504"
 superficie = 430

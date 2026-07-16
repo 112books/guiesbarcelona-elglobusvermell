@@ -1,0 +1,10 @@
+# ── Entorn de staging (GitHub Pages) ─────────────────────────────────────────
+# S'usa amb `hugo --environment staging`
+# o automàticament al GitHub Actions workflow
+
+baseURL = "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+
+enableRobotsTXT = false
+
+[params]
+  env = "staging"

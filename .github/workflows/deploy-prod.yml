@@ -41,9 +41,8 @@ jobs:
       - name: Install staticrypt
         run: npm install staticrypt
 
-      # TODO: canviar baseURL a "https://guiesbarcelona.elglobusvermell.org/" quan el domini propi estigui configurat a Pages.
       - name: Build Hugo
-        run: hugo --minify --baseURL "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        run: hugo --minify --environment staging
 
       - name: Protect with staticrypt
         run: |

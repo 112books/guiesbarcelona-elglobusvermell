@@ -6,6 +6,7 @@ draft = false
 adreca = "Sancho de Àvila + C. Roc Boronat + C. Almogàvers + C. Ciutat de Granada"
 any = 2018
 publicacions = ["interiors-illa"]
+temes_transversals = ["espai-public", "nomenclator-femeni"]
 lat = "41.40178964033602"
 long = "2.19536114463698"
 

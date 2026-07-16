@@ -7,9 +7,9 @@
 #   (4 grups reals; l'enum antic de l'app només en tenia 3, li faltava "Art")
 
 - slug: gatcpac
-  titol: "Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC"
+  titol: "Arquitectura d'avantguarda. 1928-1939"
   edicio: 2016
-  color: "#009bc9" # color oficial del web actual (categoria avantguarda-1928-1938)
+  color: "#eca647" # color extret de la portada (amber/gualda)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
@@ -91,7 +91,7 @@
     edificis_relacionats: null # pendent recompte exacte
 
 - slug: "50-75"
-  titol: "Arquitectura Moderna a Barcelona. 1950-1975"
+  titol: "Arquitectura Moderna. 1950-1975"
   edicio: 2019
   color: "#050d9e" # color oficial del web actual (categoria moderna-1950-1975)
   agrupacions_tematiques: [Etapes]
@@ -178,7 +178,7 @@
 - slug: marina
   titol: "La Marina del Port i del Prat Vermell. Passat i present"
   edicio: 2023
-  color: "#d1072c" # color oficial del web actual (categoria marina-prat-vermell)
+  color: "#e9a9a6" # color extret de la portada (rose/rosa)
   agrupacions_tematiques: [Barris]
   camps:
     nom: Sí
@@ -206,18 +206,18 @@
 - slug: tapies
   titol: "La Barcelona de Tàpies / Tàpies a Barcelona"
   edicio: 2024
+  color: "#565658" # color extret de la portada (charcoal/gris fosc)
   agrupacions_tematiques: [Art]
   camps: null # itinerari d'art, no segueix l'esquema d'edifici
   estat_app:
     a_app: false
     id_publication_app: null
     edificis_relacionats: null
-  nota: "Fora de l'esquema estàndard d'edifici — confirmar amb client si va al mateix mapa."
 
 - slug: masies
   titol: "Masies de Barcelona"
   edicio: "2025 (pendent)"
-  color: "#009b02" # color oficial del web actual (categoria masies)
+  color: "#5a8577" # color extret de la portada (sage/verd)
   agrupacions_tematiques: [Arquitectura temàtica]
   camps:
     nom: Sí
@@ -245,7 +245,7 @@
 - slug: biblioteques
   titol: "Biblioteques de Barcelona"
   edicio: "2025 (pendent)"
-  color: "#d5b521" # color oficial del web actual (categoria biblioteques)
+  color: "#0797c3" # color extret de la portada (cyan/blau)
   agrupacions_tematiques: [Arquitectura temàtica]
   camps:
     nom: Sí
@@ -273,18 +273,18 @@
 - slug: new-babylon
   titol: "New Babylon Barcelona"
   edicio: "2026 (pendent)"
+  color: "#f06961" # color extret de la portada (coral/vermell)
   agrupacions_tematiques: [Art]
   camps: null # itinerari d'art, no segueix l'esquema d'edifici
   estat_app:
     a_app: false
     id_publication_app: null
     edificis_relacionats: null
-  nota: "Fora de l'esquema estàndard d'edifici — confirmar amb client si va al mateix mapa."
 
 - slug: "76-08"
-  titol: "(títol provisional) Arquitectura a Barcelona 1976-2008"
+  titol: "De l'esperança a la crisi. 1975-2008"
   edicio: "2026 (pendent)"
-  color: "#b2b2b2" # color oficial del web actual (categoria 1975-2008)
+  color: "#a7b4bb" # color extret de la portada (blue-gris)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
@@ -308,12 +308,11 @@
     a_app: true
     id_publication_app: 35
     edificis_relacionats: null
-  nota: "A l'app ja té títol final diferent: 'De l'esperança a la crisi. 1975-2008'. Confirmar amb client quin és el vigent."
 
 - slug: "09-25"
-  titol: "(títol provisional) Arquitectura a Barcelona 2009-2025"
+  titol: "La revolució tranquil·la. 2010-2025"
   edicio: "2026 (pendent)"
-  color: "#5ed6ac" # color oficial del web actual (categoria 2010-2025)
+  color: "#abc268" # color extret de la portada (olive/verd pàl·lid)
   agrupacions_tematiques: [Etapes]
   camps:
     nom: Sí
@@ -337,4 +336,3 @@
     a_app: true
     id_publication_app: 32
     edificis_relacionats: null
-  nota: "A l'app ja té títol final diferent: 'La revolució tranquil·la. 2010-2025'. Confirmar amb client quin és el vigent."

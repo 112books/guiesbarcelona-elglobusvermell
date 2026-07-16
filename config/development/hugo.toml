@@ -1,0 +1,8 @@
+# ── Entorn de desenvolupament local ───────────────────────────────────────────
+# S'usa automàticament amb `hugo server`
+# baseURL es configura automàticament per Hugo server (http://localhost:1313/)
+
+enableRobotsTXT = false
+
+[params]
+  env = "development"
