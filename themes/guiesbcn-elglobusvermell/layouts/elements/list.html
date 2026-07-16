@@ -2,6 +2,7 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
+<div id="mapa-filtres" class="mapa-filtres"></div>
 <div id="mapa" style="height: 28rem; margin-bottom: var(--space-lg);"></div>
 
 <ul>
@@ -14,10 +15,25 @@
 {{ range .Pages }}
   {{ $page := . }}
   {{ with $page.Params.lat }}
-    {{ $punts = $punts | append (dict "title" $page.Title "lat" . "long" $page.Params.long "url" $page.Permalink) }}
+    {{ $punts = $punts | append (dict
+      "title"      $page.Title
+      "lat"        .
+      "long"       $page.Params.long
+      "url"        $page.Permalink
+      "publicacions" $page.Params.publicacions
+    ) }}
   {{ end }}
 {{ end }}
+
+{{ $pubsData := dict }}
+{{ range site.Data.publicacions }}
+  {{ if .estat_app.a_app }}
+    {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}
+  {{ end }}
+{{ end }}
+
 <script>
-window.MAPA_PUNTS = {{ $punts | jsonify | safeJS }};
+window.MAPA_PUNTS    = {{ $punts   | jsonify | safeJS }};
+window.PUBLICACIONS  = {{ $pubsData | jsonify | safeJS }};
 </script>
 {{ end }}
