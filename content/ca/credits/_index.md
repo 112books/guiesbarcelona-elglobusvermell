@@ -3,18 +3,16 @@ title: "Crèdits"
 description: "Crèdits del projecte Guies d'Arquitectura i Urbanisme de Barcelona."
 ---
 
-## Crèdits
-
 **Edició:** El Globus Vermell
 
-**Suport:** Ajuntament de Barcelona
+**Amb el suport de:** Ajuntament de Barcelona
 
-**Idea, coordinació i continguts:** El Globus Vermell
+**Idea, coordinació i desenvolupament:** El Globus Vermell
 
-**Correcció:** la correccional (serveis textuals) i Vicenç Benéitez
+**Continguts** (textos, plànols, fotografies i il·lustracions): El Globus Vermell
 
-**Desenvolupament web:** [LinuxBCN](https://linuxbcn.com)
+**Correcció dels textos:** la correccional (serveis textuals) i Vicenç Benéitez
 
----
+**Disseny i desenvolupament web original:** Jorge Vitoria Rubio — [vitrubio.net](https://vitrubio.net)
 
-© El Globus Vermell. Contingut sota llicència [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+**Drets:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

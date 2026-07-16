@@ -31,7 +31,9 @@
     tema: {}
   };
   Object.keys(pubs).forEach(function (s) { filtresMapa.pub[s] = true; });
-  temes.forEach(function (t) { filtresMapa.tema[t.slug] = true; });
+  // Temes: comencen tots a false (cap filtre aplicat). Activar-ne un mostra
+  // únicament els elements d'aquell tema.
+  temes.forEach(function (t) { filtresMapa.tema[t.slug] = false; });
 
   if (mapaEl && L && elementsMapa.length > 0) {
 
@@ -138,10 +140,13 @@
         btn.classList.toggle('actiu', !!filtresMapa.pub[slug]);
         btn.style.opacity = filtresMapa.pub[slug] ? '1' : '0.4';
       });
+      var hiHaAlgunTemaActiu = temes.some(function (t) { return filtresMapa.tema[t.slug]; });
       filtreMapa.querySelectorAll('[data-tema]').forEach(function (btn) {
         var slug = btn.getAttribute('data-tema');
-        btn.classList.toggle('actiu', !!filtresMapa.tema[slug]);
-        btn.style.opacity = filtresMapa.tema[slug] ? '1' : '0.4';
+        var actiu = !!filtresMapa.tema[slug];
+        btn.classList.toggle('actiu', actiu);
+        // Si cap tema actiu: tots al 100% (no hi ha filtre). Si n'hi ha: inactius esvaïts.
+        btn.style.opacity = (!hiHaAlgunTemaActiu || actiu) ? '1' : '0.4';
       });
       var totsBtn = filtreMapa.querySelector('.filtre-tots');
       if (totsBtn) {
@@ -204,7 +209,7 @@
         temes.forEach(function (t) {
           var btn = document.createElement('button');
           btn.setAttribute('data-tema', t.slug);
-          btn.className = 'filtre-btn actiu';
+          btn.className = 'filtre-btn';
           btn.style.setProperty('--pub-color', t.color || '#888');
           btn.textContent = t.titol || t.slug;
           btn.addEventListener('click', function () {

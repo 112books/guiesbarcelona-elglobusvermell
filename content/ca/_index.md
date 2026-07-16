@@ -5,8 +5,12 @@ description: "Guies d'Arquitectura i Urbanisme de Barcelona — El Globus Vermel
 
 Barcelona és una ciutat on l'arquitectura, l'urbanisme i el disseny de l'espai públic sempre han tingut una importància cabdal i és per això que, en aquests temes, és una de les ciutats més interessants del món.
 
-Des de Bàrcino romana fins a l'actualitat, la ciutat ha estat escenari de plans urbanístics, moviments arquitectònics i transformacions de l'espai públic que han deixat una empremta indeleble en el paisatge urbà. Dos mil anys d'història que es poden llegir caminant pels seus carrers.
+Amb la Bàrcino romana, una ciutat ja planificada a partir de dos eixos (el cardo i el decumanus), comença el desenvolupament urbà que, després de 2000 anys i múltiples plans urbanístics, ens ha dut a la Barcelona actual.
 
-Barcelona és un museu obert d'arquitectura on es poden admirar edificis i espais públics que exemplifiquen la seva història urbana. Però per gaudir plenament d'aquest patrimoni cal tenir claus, informació i coneixement per interpretar-lo adequadament.
+Podríem dir que Barcelona és un museu "obert" d'arquitectura on, mentre recorrem la ciutat, podem admirar magnífics edificis i espais públics que ens parlen de la història i l'evolució de la ciutat.
 
-Aquesta web recull els continguts dels plànols-guia de la col·lecció editorial d'**El Globus Vermell**, amb la voluntat d'ampliar-los progressivament. Esperem que gaudiu!
+Però per entendre l'arquitectura i poder "llegir" aquesta història calen claus, informació i coneixement que el contingut d'aquesta web pretén oferir.
+
+Iniciem la web amb els continguts dels 6 plànols-guia editats fins ara dintre de la col·lecció Guies d'Arquitectura i Urbanisme de Barcelona. A partir d'aquí, anirem ampliant les temàtiques contínuament.
+
+Esperem que gaudiu!
