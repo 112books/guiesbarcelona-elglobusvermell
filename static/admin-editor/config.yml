@@ -25,7 +25,7 @@ collections:
     folder: content/ca/elements
     create: true
     extension: md
-    format: yaml
+    format: yaml-frontmatter
     slug: "{{slug}}"
     summary: "{{title}} — {{publicacions}}"
     sortable_fields: [title, any]
