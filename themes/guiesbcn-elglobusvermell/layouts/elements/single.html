@@ -1,0 +1,131 @@
+{{ define "main" }}
+{{ $pubs := site.Data.publicacions }}
+
+<article class="fitxa">
+
+  {{/* Imatge destacada — placeholder fins que tinguem les fotos */}}
+  <div class="fitxa-imatge fitxa-imatge--placeholder">
+    <span>Imatge pendent</span>
+  </div>
+
+  <div class="fitxa-cos">
+
+    <h1 class="fitxa-titol">{{ .Title }}</h1>
+
+    {{/* Publicacions com a etiquetes de color */}}
+    {{ with .Params.publicacions }}
+    <div class="fitxa-pubs">
+      {{ range . }}
+        {{ $slug := . }}
+        {{ range $pubs }}
+          {{ if eq .slug $slug }}
+          <a class="fitxa-pub-tag" href="{{ absURL (printf "/elements/?pub=%s" $slug) }}"
+             style="--pub-color: {{ .color }}">{{ .titol }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Dades principals */}}
+    <dl class="fitxa-dades">
+      {{ with .Params.adreca }}
+      <div class="fitxa-dada">
+        <dt>Adreça</dt>
+        <dd>
+          <a href="https://maps.google.com/?q={{ . | urlize }}" target="_blank" rel="noopener">{{ . }}</a>
+        </dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.any }}
+      <div class="fitxa-dada">
+        <dt>Any</dt>
+        <dd>{{ . }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.arquitectes }}
+      <div class="fitxa-dada">
+        <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
+        <dd>{{ delimit . ", " }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.tipologia }}
+      <div class="fitxa-dada">
+        <dt>Tipologia</dt>
+        <dd>{{ . }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.proteccio }}
+      <div class="fitxa-dada">
+        <dt>Protecció</dt>
+        <dd>{{ . }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.superficie }}
+      <div class="fitxa-dada">
+        <dt>Superfície</dt>
+        <dd>{{ . }} m²</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.anys_reforma }}
+      <div class="fitxa-dada">
+        <dt>Reforma</dt>
+        <dd>{{ delimit . ", " }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.premis }}
+      <div class="fitxa-dada">
+        <dt>Premis</dt>
+        <dd>{{ delimit . ", " }}</dd>
+      </div>
+      {{ end }}
+    </dl>
+
+    {{/* Descripció */}}
+    {{ with .Params.descripcio }}
+    <div class="fitxa-descripcio">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+
+    {{ with .Params.descripcio_nomenclator }}
+    <div class="fitxa-nomenclator">
+      <h2>Nomenclàtor</h2>
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{/* Mapa individual */}}
+    {{ if and .Params.lat .Params.long }}
+    <div class="fitxa-mapa-wrap">
+      <h2>Ubicació</h2>
+      <div id="fitxa-mapa" class="fitxa-mapa"></div>
+    </div>
+    <script>
+    window.FITXA_PUNT = { lat: {{ .Params.lat }}, long: {{ .Params.long }}, title: {{ .Title | jsonify }} };
+    </script>
+    {{ end }}
+
+    {{/* Navegació entre elements */}}
+    <nav class="fitxa-nav" aria-label="Navegació entre elements">
+      {{ with .PrevInSection }}
+      <a class="fitxa-nav-prev" href="{{ .Permalink }}">← {{ .Title }}</a>
+      {{ end }}
+      <a class="fitxa-nav-llista" href="{{ absURL "/elements/" }}">Tots els elements</a>
+      {{ with .NextInSection }}
+      <a class="fitxa-nav-next" href="{{ .Permalink }}">{{ .Title }} →</a>
+      {{ end }}
+    </nav>
+
+  </div>{{/* /fitxa-cos */}}
+</article>
+{{ end }}
