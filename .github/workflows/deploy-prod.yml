@@ -38,8 +38,24 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install staticrypt
+        run: npm install staticrypt
+
       - name: Build Hugo
         run: hugo --minify --environment staging
+
+      - name: Protect with staticrypt
+        run: |
+          shopt -s globstar
+          html_files=(public/**/*.html)
+          if [ ${#html_files[@]} -gt 0 ]; then
+            npx staticrypt "${html_files[@]}" \
+              --short \
+              --password "${{ secrets.SITE_PASSWORD }}" \
+              --config .staticrypt.json \
+              --directory public
+          fi
+        shell: bash
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
