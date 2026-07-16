@@ -56,6 +56,10 @@ h1 { font-size: var(--font-size-xl); }
 h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); }
 h3 { font-size: 1.25rem; }
 
+/* Dins contingut de pàgina: els h2 separen seccions, cal més espai a sobre */
+main h2 { margin-top: 2.5rem; margin-bottom: 0.5rem; }
+main h2:first-child { margin-top: 0; }
+
 a {
   color: inherit;
 }
