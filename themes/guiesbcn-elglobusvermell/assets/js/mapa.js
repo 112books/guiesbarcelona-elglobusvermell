@@ -100,6 +100,18 @@
       map.fitBounds(group.getBounds(), { padding: [30, 30] });
     }
 
+    // Recalcula les dimensions un cop el CSS s'ha aplicat.
+    // Necessari quan staticrypt decrypta via document.write (CSS i scripts
+    // carreguen en paral·lel; Leaflet pot llegir height:0 si el CSS arriba tard).
+    requestAnimationFrame(function () {
+      map.invalidateSize();
+      if (allMarkers.length > 1) {
+        map.fitBounds(group.getBounds(), { padding: [30, 30] });
+      } else if (allMarkers.length === 1) {
+        map.setView(allMarkers[0].getLatLng(), 16);
+      }
+    });
+
     // ── Filtrar mapa ─────────────────────────────────────────────────────
     function filtraMapa() {
       var hiHaPubs = Object.values(filtresMapa.pub).some(Boolean);
