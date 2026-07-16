@@ -10,7 +10,7 @@
     <ul>
       {{ range site.Menus.main }}
       <li>
-        <a href="{{ .URL }}">
+        <a href="{{ .URL | absURL }}">
           <span class="nav-label">{{ .Name }}</span>
           <span class="nav-icon" aria-hidden="true">{{ substr .Name 0 1 }}</span>
         </a>
