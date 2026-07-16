@@ -1,0 +1,73 @@
+name: Fetch GoatCounter stats
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # cada hora
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-stats:
+    runs-on: ubuntu-latest
+    # No s'executa si no hi ha token configurat
+    if: ${{ secrets.GOATCOUNTER_TOKEN != '' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch stats from GoatCounter API
+        env:
+          GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+          GC_SITE:  ${{ secrets.GOATCOUNTER_SITE }}   # ex: guiesbarcelona
+        run: |
+          mkdir -p data/stats
+          BASE="https://${GC_SITE}.goatcounter.com/api/v0"
+          AUTH="Authorization: Bearer ${GC_TOKEN}"
+
+          # Visites totals per pàgina (últims 30 dies)
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/hits?limit=200&start=$(date -d '30 days ago' +%Y-%m-%d)" \
+            -o data/stats/hits.json || echo '{}' > data/stats/hits.json
+
+          # Resum de visites (total site, últims 30 dies)
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/total?start=$(date -d '30 days ago' +%Y-%m-%d)" \
+            -o data/stats/total.json || echo '{}' > data/stats/total.json
+
+          # Navegadors
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/browsers?limit=20" \
+            -o data/stats/browsers.json || echo '{}' > data/stats/browsers.json
+
+          # Sistemes operatius
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/systems?limit=20" \
+            -o data/stats/systems.json || echo '{}' > data/stats/systems.json
+
+          # Dispositius
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/sizes?limit=20" \
+            -o data/stats/sizes.json || echo '{}' > data/stats/sizes.json
+
+          # Referrers
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/refs?limit=20" \
+            -o data/stats/refs.json || echo '{}' > data/stats/refs.json
+
+          # Esdeveniments del mapa (clics a marcadors, filtres)
+          curl -sf -H "$AUTH" \
+            "${BASE}/stats/hits?limit=50&filter=mapa-" \
+            -o data/stats/mapa-events.json || echo '{}' > data/stats/mapa-events.json
+
+          # Timestamp de l'última actualització
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > data/stats/last-update.txt
+
+      - name: Commit stats
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stats/
+          git diff --staged --quiet || git commit -m "stats: actualització automàtica $(date -u +%Y-%m-%dT%H:%M)Z"
+          git push

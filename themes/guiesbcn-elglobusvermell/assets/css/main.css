@@ -351,7 +351,16 @@ main {
 
 /* ── Fitxa d'edifici ──────────────────────────────────────────────────────── */
 
-.fitxa { max-width: 52rem; margin: 0 auto; }
+.fitxa {
+  max-width: 52rem;
+  margin: 0 auto;
+  border-top: 5px solid var(--pub-color, var(--color-border));
+  padding-top: var(--space-md);
+}
+
+.fitxa-pub-banda {
+  display: none; /* reservat per futur ús de banda full-width */
+}
 
 .fitxa-imatge {
   width: 100%;
@@ -925,4 +934,119 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   .filtre-select {
     font-size: 1rem;
   }
+
+  /* Fitxa mòbil */
+  .fitxa-dada {
+    grid-template-columns: 6rem 1fr;
+  }
+
+  .fitxa-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .fitxa-nav-llista { margin: 0; }
+
+  /* Header mòbil */
+  .site-nav ul {
+    gap: var(--space-sm);
+  }
+
+  .site-nav a {
+    font-size: 0.875rem;
+  }
+
+  /* Mapa mòbil */
+  .mapa-el { height: 22rem; }
+}
+
+@media (max-width: 36rem) {
+  /* Amaga etiquetes nav en pantalles molt petites, mostra icones */
+  .nav-label { display: none; }
+  .nav-icon  { display: flex; }
+
+  .site-logo-img { height: 1.75rem; }
+
+  .mapa-el { height: 18rem; }
+
+  .fitxa-dada {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+
+  .fitxa-dada dt {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #999;
+  }
+}
+
+/* ── Estadístiques (GoatCounter dashboard) ──────────────────────────────── */
+.stats-dashboard {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: var(--space-md);
+}
+.stats-cap { margin-bottom: var(--space-lg); }
+.stats-update { color: #888; font-size: 0.85rem; }
+
+.stats-resum {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-lg);
+}
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-surface, #f8f8f8);
+  border: 1px solid var(--color-border, #e0e0e0);
+  border-radius: 0.5rem;
+  padding: var(--space-sm) var(--space-md);
+  min-width: 9rem;
+}
+.stats-num { font-size: 2rem; font-weight: 700; line-height: 1; }
+.stats-lab { font-size: 0.8rem; color: #888; margin-top: 0.25rem; }
+
+.stats-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+.stats-col-dreta { display: flex; flex-direction: column; gap: var(--space-md); }
+
+.stats-bloc {
+  background: var(--color-surface, #f8f8f8);
+  border: 1px solid var(--color-border, #e0e0e0);
+  border-radius: 0.5rem;
+  padding: var(--space-sm) var(--space-md);
+}
+.stats-bloc h2 { font-size: 1rem; margin: 0 0 0.5rem; }
+.stats-bloc-mapa { margin-top: var(--space-md); }
+
+.stats-llista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.stats-llista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid var(--color-border, #e0e0e0);
+  font-size: 0.9rem;
+}
+.stats-llista li:last-child { border-bottom: none; }
+.stats-llista-sm li { font-size: 0.82rem; }
+.stats-xifra { font-weight: 600; white-space: nowrap; }
+.stats-path { color: #666; font-family: monospace; font-size: 0.8rem; }
+
+@media (max-width: 48rem) {
+  .stats-cols { grid-template-columns: 1fr; }
 }

@@ -58,6 +58,9 @@ defaultContentLanguageInSubdir = false
   logoCompact    = "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg"
   logoText       = "El Globus Vermell"
   defaultOgImage = ""
+  # GoatCounter: afegir URL al fitxer d'entorn (production/hugo.toml o secrets)
+  # Exemple: gc_url = "https://guiesbarcelona.goatcounter.com"
+  gc_url         = ""
 
 [markup]
   [markup.goldmark]

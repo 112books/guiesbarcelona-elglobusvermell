@@ -1,0 +1,112 @@
+{{ define "main" }}
+{{ $hits     := dict }}
+{{ $total    := dict }}
+{{ $browsers := dict }}
+{{ $systems  := dict }}
+{{ $refs     := dict }}
+{{ $mapaEvs  := dict }}
+{{ $lastUpd  := "" }}
+
+{{ with hugo.Data.stats }}
+  {{ with .hits     }}{{ $hits     = . }}{{ end }}
+  {{ with .total    }}{{ $total    = . }}{{ end }}
+  {{ with .browsers }}{{ $browsers = . }}{{ end }}
+  {{ with .systems  }}{{ $systems  = . }}{{ end }}
+  {{ with .refs     }}{{ $refs     = . }}{{ end }}
+  {{ with (index . "mapa-events") }}{{ $mapaEvs = . }}{{ end }}
+{{ end }}
+{{ with resources.Get "stats/last-update.txt" }}{{ $lastUpd = .Content | strings.TrimSpace }}{{ end }}
+
+<section class="stats-dashboard">
+  <header class="stats-cap">
+    <h1>{{ .Title }}</h1>
+    {{ with $lastUpd }}<p class="stats-update">Última actualització: {{ . }}</p>{{ end }}
+  </header>
+
+  {{/* ── Resum ─────────────────────────────────────────────────── */}}
+  {{ with $total }}
+  <div class="stats-resum">
+    {{ with .total_unique_visitors }}<div class="stats-card"><span class="stats-num">{{ . }}</span><span class="stats-lab">visitants únics</span></div>{{ end }}
+    {{ with .total_pageviews       }}<div class="stats-card"><span class="stats-num">{{ . }}</span><span class="stats-lab">pàgines vistes</span></div>{{ end }}
+    {{ with .total_events          }}<div class="stats-card"><span class="stats-num">{{ . }}</span><span class="stats-lab">events de mapa</span></div>{{ end }}
+  </div>
+  {{ end }}
+
+  <div class="stats-cols">
+
+    {{/* ── Pàgines més visitades ──────────────────────────────── */}}
+    {{ with $hits.hits }}
+    <div class="stats-bloc">
+      <h2>Pàgines més visitades <small>(30 dies)</small></h2>
+      <ol class="stats-llista">
+        {{ range first 20 . }}
+        <li>
+          <a href="{{ .path }}">{{ if .title }}{{ .title }}{{ else }}{{ .path }}{{ end }}</a>
+          <span class="stats-xifra">{{ .count }}</span>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+    {{ end }}
+
+    <div class="stats-col-dreta">
+
+      {{/* ── Referrers ──────────────────────────────────────── */}}
+      {{ with $refs.refs }}
+      <div class="stats-bloc">
+        <h2>Orígens</h2>
+        <ol class="stats-llista stats-llista-sm">
+          {{ range first 10 . }}
+          <li>
+            <span>{{ if .ref_scheme }}{{ .ref_scheme }}://{{ end }}{{ .ref }}</span>
+            <span class="stats-xifra">{{ .count }}</span>
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+
+      {{/* ── Navegadors ─────────────────────────────────────── */}}
+      {{ with $browsers.browsers }}
+      <div class="stats-bloc">
+        <h2>Navegadors</h2>
+        <ul class="stats-llista stats-llista-sm">
+          {{ range first 8 . }}
+          <li><span>{{ .browser }}</span><span class="stats-xifra">{{ .count }}</span></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{/* ── SO ─────────────────────────────────────────────── */}}
+      {{ with $systems.systems }}
+      <div class="stats-bloc">
+        <h2>Sistemes</h2>
+        <ul class="stats-llista stats-llista-sm">
+          {{ range first 8 . }}
+          <li><span>{{ .system }}</span><span class="stats-xifra">{{ .count }}</span></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+    </div>{{/* fi stats-col-dreta */}}
+  </div>{{/* fi stats-cols */}}
+
+  {{/* ── Esdeveniments del mapa ─────────────────────────────── */}}
+  {{ with $mapaEvs.hits }}
+  <div class="stats-bloc stats-bloc-mapa">
+    <h2>Interaccions al mapa</h2>
+    <ol class="stats-llista">
+      {{ range first 30 . }}
+      <li>
+        <span class="stats-path">{{ .path }}</span>
+        <span class="stats-xifra">{{ .count }}</span>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+  {{ end }}
+
+</section>
+{{ end }}

@@ -1,7 +1,18 @@
 {{ define "main" }}
-{{ $pubs := site.Data.publicacions }}
+{{ $pubs := hugo.Data.publicacions }}
 
-<article class="fitxa">
+{{/* Troba el color de la primera publicació per a la identitat visual */}}
+{{ $pubColor := "" }}
+{{ with .Params.publicacions }}
+  {{ $slug := index . 0 }}
+  {{ range $pubs }}
+    {{ if eq .slug $slug }}{{ $pubColor = .color }}{{ end }}
+  {{ end }}
+{{ end }}
+
+<article class="fitxa"{{ if $pubColor }} style="--pub-color: {{ $pubColor }}"{{ end }}>
+
+  <div class="fitxa-pub-banda"></div>
 
   {{/* Imatge destacada — placeholder fins que tinguem les fotos */}}
   <div class="fitxa-imatge fitxa-imatge--placeholder">
@@ -19,7 +30,7 @@
         {{ $slug := . }}
         {{ range $pubs }}
           {{ if eq .slug $slug }}
-          <a class="fitxa-pub-tag" href="{{ absURL (printf "/elements/?pub=%s" $slug) }}"
+          <a class="fitxa-pub-tag" href="{{ absURL "/elements/" }}?pub={{ $slug }}"
              style="--pub-color: {{ .color }}">{{ .titol }}</a>
           {{ end }}
         {{ end }}
@@ -111,7 +122,7 @@
       <div id="fitxa-mapa" class="fitxa-mapa"></div>
     </div>
     <script>
-    window.FITXA_PUNT = { lat: {{ .Params.lat }}, long: {{ .Params.long }}, title: {{ .Title | jsonify }} };
+    window.FITXA_PUNT = { lat: {{ .Params.lat }}, long: {{ .Params.long }}, title: {{ .Title | jsonify | safeJS }} };
     </script>
     {{ end }}
 

@@ -47,14 +47,14 @@
 {{ end }}
 
 {{ $pubsData := dict }}
-{{ range site.Data.publicacions }}
+{{ range hugo.Data.publicacions }}
   {{ if .estat_app.a_app }}
     {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}
   {{ end }}
 {{ end }}
 
 {{ $temesData := slice }}
-{{ range site.Data.temes_transversals }}
+{{ range hugo.Data.temes_transversals }}
   {{ $temesData = $temesData | append (dict "slug" .slug "titol" .titol "color" .color) }}
 {{ end }}
 
