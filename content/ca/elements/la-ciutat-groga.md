@@ -1,6 +1,7 @@
 ---
 title: La Ciutat Groga
 draft: false
+foto: /img/elements/la-ciutat-groga.jpg
 adreca: Roc Boronat 99-115 + Almogàvers 201
 any: 1928
 lat: 41.401667909330676

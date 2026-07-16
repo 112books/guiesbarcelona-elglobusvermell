@@ -1,6 +1,7 @@
 ---
 title: Jardins d’Ada Byron
 draft: false
+foto: /img/elements/jardins-dada-byron.jpg
 adreca: "Diagonal, 175 + Rambla del Poblenou, 137 + C. Tànger, 139 +149"
 any: 2006
 lat: 41.40482138633625

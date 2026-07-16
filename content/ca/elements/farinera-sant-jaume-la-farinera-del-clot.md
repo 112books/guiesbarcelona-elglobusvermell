@@ -1,6 +1,7 @@
 ---
 title: Farinera Sant Jaume / La Farinera del Clot
 draft: false
+foto: /img/elements/farinera-sant-jaume-la-farinera-del-clot.jpg
 adreca: Gran Via 837
 any: 1908
 lat: 41.40524952923511
