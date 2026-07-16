@@ -11,10 +11,15 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
-  {{ if and (eq .Section "elements") (eq .Kind "section") }}
+  {{ if eq .Section "elements" }}
   <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}" defer></script>
+  {{ if eq .Kind "section" }}
   {{ $mapaJs := resources.Get "js/mapa.js" | minify | fingerprint }}
   <script src="{{ $mapaJs.RelPermalink }}" integrity="{{ $mapaJs.Data.Integrity }}" defer></script>
+  {{ else }}
+  {{ $fitxaJs := resources.Get "js/fitxa.js" | minify | fingerprint }}
+  <script src="{{ $fitxaJs.RelPermalink }}" integrity="{{ $fitxaJs.Data.Integrity }}" defer></script>
+  {{ end }}
   {{ end }}
 </body>
 </html>

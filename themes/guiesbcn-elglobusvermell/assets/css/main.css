@@ -264,3 +264,104 @@ main {
 }
 
 .filtre-btn:hover { filter: brightness(0.9); }
+
+/* ── Fitxa d'edifici ──────────────────────────────────────────────────────── */
+
+.fitxa { max-width: 52rem; margin: 0 auto; }
+
+.fitxa-imatge {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #f0f0f0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: var(--space-lg);
+}
+
+.fitxa-imatge img { width: 100%; height: 100%; object-fit: cover; }
+
+.fitxa-imatge--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 0.875rem;
+  border: 2px dashed #ddd;
+}
+
+.fitxa-titol { margin-top: 0; margin-bottom: var(--space-sm); }
+
+.fitxa-pubs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: var(--space-md);
+}
+
+.fitxa-pub-tag {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 2rem;
+  background: var(--pub-color, #888);
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.fitxa-pub-tag:hover { filter: brightness(0.85); }
+
+.fitxa-dades {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin-bottom: var(--space-lg);
+  border-top: 1px solid #e8e8e8;
+}
+
+.fitxa-dada {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.5rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 0.9375rem;
+}
+
+.fitxa-dada dt { color: #666; font-weight: 500; }
+.fitxa-dada dd { margin: 0; }
+.fitxa-dada dd a { color: inherit; }
+
+.fitxa-descripcio,
+.fitxa-nomenclator { margin-bottom: var(--space-lg); }
+
+.fitxa-nomenclator h2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+.fitxa-mapa-wrap { margin-bottom: var(--space-lg); }
+.fitxa-mapa-wrap h2 { font-size: 1rem; color: #666; margin-bottom: 0.5rem; }
+
+.fitxa-mapa {
+  height: 18rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+}
+
+.fitxa-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--space-lg);
+  border-top: 1px solid #e8e8e8;
+  gap: 1rem;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.fitxa-nav a { text-decoration: none; color: var(--color-accent, #333); }
+.fitxa-nav a:hover { text-decoration: underline; }
+.fitxa-nav-llista { margin: 0 auto; }
