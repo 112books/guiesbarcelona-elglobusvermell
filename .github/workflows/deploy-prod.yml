@@ -50,7 +50,7 @@ jobs:
           html_files=(public/**/*.html)
           if [ ${#html_files[@]} -gt 0 ]; then
             npx staticrypt "${html_files[@]}" \
-              --short \
+              --template .staticrypt-template.html \
               --password "${{ secrets.SITE_PASSWORD }}" \
               --config .staticrypt.json \
               --directory public
