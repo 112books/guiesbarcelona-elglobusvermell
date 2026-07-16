@@ -140,7 +140,18 @@ a {
   stroke: var(--color-text);
 }
 
-.site-header.is-scrolled .nav-label { display: none; }
+/* sr-only: visible per a lectors de pantalla, invisible visualment */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.site-header.is-scrolled .nav-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
 .site-header.is-scrolled .nav-icon  { display: flex; }
 
 /* ── Cos ───────────────────────────────────────────────────────────────── */
@@ -149,6 +160,10 @@ main {
   max-width: 64rem;
   margin: 0 auto;
   padding: var(--space-lg) var(--space-md);
+}
+
+.pagina-contingut {
+  max-width: 48rem;
 }
 
 /* ── Footer ────────────────────────────────────────────────────────────── */
@@ -242,13 +257,18 @@ main {
 
 .footer-powered-link {
   text-decoration: none;
+  font-size: 0.75rem;
+  color: #b3b3b3;
 }
+
+.footer-powered-link strong { font-weight: 600; }
 
 .footer-powered-link:hover { color: var(--color-accent); }
 
 .footer-powered-services {
   margin: 0.25rem 0 0;
-  font-size: 0.8125rem;
+  font-size: 0.7rem;
+  color: #b3b3b3;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -260,6 +280,21 @@ main {
   opacity: 1;
   margin-top: 0.25rem;
 }
+
+.footer-cc {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.4rem;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+.footer-cc:hover { opacity: 1; }
+
+.terms-llista { list-style: none; padding: 0; margin: 0; }
+.terms-llista li { padding: 0.25rem 0; border-bottom: 1px solid var(--color-border, #e0e0e0); }
+.terms-llista a { text-decoration: none; }
+.terms-llista a:hover { text-decoration: underline; }
+.terms-count { color: #888; font-size: 0.85em; }
 
 /* ── Mapa: filtres ────────────────────────────────────────────────────────── */
 
@@ -966,8 +1001,8 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 }
 
 @media (max-width: 36rem) {
-  /* Amaga etiquetes nav en pantalles molt petites, mostra icones */
-  .nav-label { display: none; }
+  /* Nav: etiquetes de text visuals ocultes, però accessibles per a lectors de pantalla */
+  .nav-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
   .nav-icon  { display: flex; }
 
   .site-logo-img { height: 1.75rem; }

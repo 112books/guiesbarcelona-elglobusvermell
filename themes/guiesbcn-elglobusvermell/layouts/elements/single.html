@@ -122,7 +122,7 @@
       <div id="fitxa-mapa" class="fitxa-mapa"></div>
     </div>
     <script>
-    window.FITXA_PUNT = { lat: {{ .Params.lat }}, long: {{ .Params.long }}, title: {{ .Title | jsonify | safeJS }} };
+    window.FITXA_PUNT = { lat: {{ .Params.lat | jsonify | safeJS }}, long: {{ .Params.long | jsonify | safeJS }}, title: {{ .Title | jsonify | safeJS }} };
     </script>
     {{ end }}
 
