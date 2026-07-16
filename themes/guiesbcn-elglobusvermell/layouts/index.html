@@ -1,6 +1,53 @@
 {{ define "main" }}
-<article>
-  <h1>{{ site.Title }}</h1>
-  {{ .Content }}
-</article>
+
+<div class="mapa-contenidor" id="mapa-contenidor">
+  <div id="mapa" class="mapa-el"></div>
+</div>
+
+<div id="mapa-filtres" class="mapa-filtres-wrap"></div>
+
+<div id="cerca-filtres" class="cerca-filtres-wrap"></div>
+
+<section class="llistat-alfabetic" id="llistat">
+  <nav class="llistat-index" id="llistat-index" aria-label="Índex alfabètic"></nav>
+  <div id="llistat-grups"></div>
+</section>
+
+{{ $elementsSection := site.GetPage "elements" }}
+{{ $punts := slice }}
+{{ if $elementsSection }}
+  {{ range $elementsSection.Pages }}
+    {{ $page := . }}
+    {{ with $page.Params.lat }}
+      {{ $punts = $punts | append (dict
+        "title"              $page.Title
+        "lat"                .
+        "long"               $page.Params.long
+        "url"                $page.Permalink
+        "publicacions"       $page.Params.publicacions
+        "temes_transversals" $page.Params.temes_transversals
+        "arquitectes"        $page.Params.arquitectes
+        "any"                $page.Params.any
+      ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $pubsData := dict }}
+{{ range hugo.Data.publicacions }}
+  {{ if .estat_app.a_app }}
+    {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}
+  {{ end }}
+{{ end }}
+
+{{ $temesData := slice }}
+{{ range hugo.Data.temes_transversals }}
+  {{ $temesData = $temesData | append (dict "slug" .slug "titol" .titol "color" .color) }}
+{{ end }}
+
+<script>
+window.MAPA_PUNTS         = {{ $punts    | jsonify | safeJS }};
+window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
+window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
+</script>
 {{ end }}

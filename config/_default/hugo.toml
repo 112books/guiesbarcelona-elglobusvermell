@@ -75,13 +75,13 @@ defaultContentLanguageInSubdir = false
 # ── Menú (buit de moment, afegir entrades quan hi hagi seccions) ─────────────
 
 [[languages.ca.menus.main]]
-  name   = "Presentació"
+  name   = "Mapa"
   url    = "/"
   weight = 1
 
 [[languages.ca.menus.main]]
-  name   = "Mapa"
-  url    = "/elements/"
+  name   = "Presentació"
+  url    = "/presentacio/"
   weight = 2
 
 [[languages.ca.menus.main]]
