@@ -1,0 +1,22 @@
+# Protegeix els fitxers sensibles del directori oauth/
+# Mai servir fitxers de configuració ni .env
+
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files ".user.ini">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "*.ini">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Força HTTPS (requereix mod_rewrite)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

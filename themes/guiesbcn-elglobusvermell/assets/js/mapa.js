@@ -82,6 +82,11 @@
       var m = L.circleMarker([lat, lng], markerOpts(color));
       m.bindPopup('<a href="' + p.url + '">' + p.title + '</a>');
       m._dades = p;
+      m.on('popupopen', function () {
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: 'mapa-click' + p.url, title: p.title });
+        }
+      });
       allMarkers.push(m);
     });
 
@@ -177,6 +182,9 @@
         btn.addEventListener('click', function () {
           filtresMapa.pub[slug] = !filtresMapa.pub[slug];
           filtraMapa();
+          if (window.goatcounter && window.goatcounter.count) {
+            window.goatcounter.count({ path: 'mapa-filtre-pub/' + slug, title: 'Filtre pub: ' + slug });
+          }
         });
         pubsBtns.appendChild(btn);
       });
@@ -202,12 +210,23 @@
           btn.addEventListener('click', function () {
             filtresMapa.tema[t.slug] = !filtresMapa.tema[t.slug];
             filtraMapa();
+            if (window.goatcounter && window.goatcounter.count) {
+              window.goatcounter.count({ path: 'mapa-filtre-tema/' + t.slug, title: 'Filtre tema: ' + t.slug });
+            }
           });
           temesBtns.appendChild(btn);
         });
         temesGrup.appendChild(temesBtns);
         filtreMapa.appendChild(temesGrup);
       }
+    }
+
+    // ── Pre-filtre per URL: ?pub=slug (des de les fitxes al mapa) ─────────
+    var urlPub = new URLSearchParams(window.location.search).get('pub');
+    if (urlPub && filtresMapa.pub.hasOwnProperty(urlPub)) {
+      Object.keys(filtresMapa.pub).forEach(function (s) { filtresMapa.pub[s] = false; });
+      filtresMapa.pub[urlPub] = true;
+      filtraMapa();
     }
   }
 
