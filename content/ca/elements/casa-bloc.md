@@ -1,6 +1,7 @@
 ---
 title: Casa Bloc
 draft: true
+foto: /img/elements/casa-bloc.jpg
 adreca: "Pg. de Torras i Bages, 91-106"
 any: 1933
 lat: 41.4411439861757
