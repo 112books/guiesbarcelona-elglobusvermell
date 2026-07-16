@@ -1,4 +1,4 @@
-title   = "Guies Barcelona — El Globus Vermell"
+title   = "Guies de Barcelona de El Globus Vermell"
 theme   = "guiesbcn-elglobusvermell"
 enableRobotsTXT = true
 disableHugoGeneratorInject = true
@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = false
     label      = "Català"
     locale     = "ca"
     weight     = 1
-    title      = "Guies Barcelona — El Globus Vermell"
+    title      = "Guies de Barcelona de El Globus Vermell"
     [languages.ca.params]
       description = "Guies de Barcelona d'El Globus Vermell."
       ogLocale    = "ca_ES"
