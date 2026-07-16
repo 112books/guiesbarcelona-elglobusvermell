@@ -55,8 +55,8 @@ defaultContentLanguageInSubdir = false
 # ── Paràmetres globals ────────────────────────────────────────────────────────
 
 [params]
-  # logo encara per definir — de moment nom de marca en text
-  logoText     = "El Globus Vermell"
+  logoImg        = "img/logo-guiesbarcelona.jpg"
+  logoText       = "El Globus Vermell"
   defaultOgImage = ""
 
 [markup]
