@@ -1,9 +1,19 @@
 {{ define "main" }}
+
+<nav class="propostes-nav" aria-label="Propostes de disseny del mapa">
+  <span class="propostes-etiqueta">Proposta:</span>
+  <a class="proposta-btn" href="?tema=a" data-tema="a">A · Editorial</a>
+  <a class="proposta-btn" href="?tema=b" data-tema="b">B · Nocturn</a>
+  <a class="proposta-btn" href="?tema=c" data-tema="c">C · Guia</a>
+</nav>
+
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-<div id="mapa-filtres" class="mapa-filtres"></div>
-<div id="mapa" style="height: 28rem; margin-bottom: var(--space-lg);"></div>
+<div class="mapa-contenidor" id="mapa-contenidor">
+  <div id="mapa-filtres" class="mapa-filtres"></div>
+  <div id="mapa" class="mapa-el"></div>
+</div>
 
 <ul>
   {{ range .Pages }}
