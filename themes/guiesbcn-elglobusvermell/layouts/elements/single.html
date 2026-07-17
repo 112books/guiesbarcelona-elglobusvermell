@@ -120,9 +120,11 @@
       {{/* Intervencions: remunta, remodelació, ampliació, reforma */}}
       {{ with .Params.intervencions }}
       {{ range . }}
+      {{ $autors := .autors }}
+      {{ $any := .any }}
       <div class="fitxa-dada">
         <dt>{{ .tipus | title }}</dt>
-        <dd>{{ with .autors }}{{ . }}{{ end }}{{ with .any }}{{ if .autors }}, {{ end }}{{ . }}{{ end }}</dd>
+        <dd>{{ with $autors }}{{ . }}{{ end }}{{ with $any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}</dd>
       </div>
       {{ end }}
       {{ end }}
