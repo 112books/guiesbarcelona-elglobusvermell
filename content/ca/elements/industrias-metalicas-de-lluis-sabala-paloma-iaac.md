@@ -1,0 +1,19 @@
++++
+title = "Industrias metálicas de Lluís Sabala Paloma / IAAC"
+draft = false
+
+adreca = "Pujades 102"
+any = "1959"
+
+publicacions = ["poblenou"]
+proteccio = "C"
+arquitectes = ["Carlos Ferrer Kutter"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Carlos Ferrer Kutter"
+  any = "1959"
+
+descripcio = "Indústria metal·lúrgica. Actualment, seu de l’IAAC (Institut d’Arquitectura Avançada de Catalunya)."
+# font: https://guiesbarcelona.elglobusvermell.org/poblenou-industrial/industrias-metalicas-de-lluis-sabala-paloma-iaac/
++++

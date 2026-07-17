@@ -1,0 +1,11 @@
++++
+title = "Parc de Recerca Biomèdica de Barcelona (PRBB)"
+draft = false
+
+adreca = "Dr. Aiguader, 88"
+
+publicacions = ["76-08"]
+
+descripcio = "Projecte: Brullet-De Luna i Albert de Pineda. 2006 Premi FAD Arquitectura (Opinió)"
+# font: https://guiesbarcelona.elglobusvermell.org/1975-2008/parc-de-recerca-biomedica-de-barcelona-prbb/
++++

@@ -1,0 +1,19 @@
++++
+title = "La Seca. Fundació Joan Brossa"
+draft = false
+
+adreca = "Flassaders, 40"
+any = "2011"
+
+publicacions = ["09-25"]
+temes_transversals = ["dones-arquitectes"]
+arquitectes = ["Meritxell Inaraja"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Meritxell Inaraja"
+  any = "2011"
+
+descripcio = ""
+# font: https://guiesbarcelona.elglobusvermell.org/2010-2025/la-seca-fundacio-joan-brossa/
++++

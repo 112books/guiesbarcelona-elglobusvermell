@@ -1,0 +1,12 @@
++++
+title = "Masia Torre del Rellotge"
+draft = false
+
+
+publicacions = ["masies"]
+tipologia = "crugia paral·lela a la façana principal."
+proteccio = "B"
+
+descripcio = "Pl. Ibèria, 4 / Pl. Bonet i Muixí, 3 Masia del segle xiv . Havia acollit l’Arxiu Històric de Sants. Ara depèn del Centre Cívic Cotxeres de Sants. També coneguda com a Cal Dimoni."
+# font: https://guiesbarcelona.elglobusvermell.org/masies/masia-torre-del-rellotge/
++++

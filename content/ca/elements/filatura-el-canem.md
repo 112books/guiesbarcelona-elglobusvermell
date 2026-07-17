@@ -1,0 +1,23 @@
++++
+title = "Filatura El Cànem"
+draft = false
+
+adreca = "Ramon Turró 173 + Llacuna 25-27"
+any = "1880"
+
+publicacions = ["poblenou"]
+proteccio = "C"
+arquitectes = ["Joan Barba. c"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Joan Barba. c"
+  any = "1880"
+[[intervencions]]
+  tipus = "Remodelació"
+  autors = "Jordi Pla"
+  any = "2013"
+
+descripcio = "Categoria: Fàbrica Filatura de jute. Actualment, Centre d’Urgències i Emergències Socials de Barcelona (CUESB)."
+# font: https://guiesbarcelona.elglobusvermell.org/poblenou-industrial/filatura-el-canem/
++++

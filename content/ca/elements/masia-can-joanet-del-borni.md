@@ -1,0 +1,11 @@
++++
+title = "Masia Can Joanet del Borni"
+draft = false
+
+
+publicacions = ["masies"]
+tipologia = "crugia perpendicular a la façana principal."
+
+descripcio = "Neopàtria, 22-28 Casa originària del segle xviii . S’hi han fet diverses reformes als segles xix i xx . Actualment té un ús residencial."
+# font: https://guiesbarcelona.elglobusvermell.org/masies/masia-can-joanet-del-borni/
++++
