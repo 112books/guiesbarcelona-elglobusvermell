@@ -8,6 +8,8 @@ lat: 41.3921464959702
 long: 2.11580873930395
 publicacions:
   - gatcpac
+arquitectes:
+  - Josep Lluís Sert
 temes_transversals:
   - espai-public
 descripcio: ""

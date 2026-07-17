@@ -7,5 +7,7 @@ lat: 41.3979082775683
 long: 2.14679812565362
 publicacions:
   - gatcpac
+arquitectes:
+  - Raimon Duran Reynals
 descripcio: ""
 ---

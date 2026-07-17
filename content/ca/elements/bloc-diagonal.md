@@ -7,5 +7,8 @@ lat: 41.3947532503016
 long: 2.15366556835575
 publicacions:
   - gatcpac
+arquitectes:
+  - Ricard de Churruca
+  - Germà Rodríguez Arias
 descripcio: ""
 ---

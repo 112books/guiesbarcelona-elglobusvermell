@@ -7,5 +7,7 @@ lat: 41.3984904234434
 long: 2.14425260513556
 publicacions:
   - gatcpac
+arquitectes:
+  - Antoni Fisas
 descripcio: ""
 ---

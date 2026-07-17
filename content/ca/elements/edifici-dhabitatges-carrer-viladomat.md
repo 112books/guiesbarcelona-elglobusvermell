@@ -7,5 +7,7 @@ lat: 41.3868986835373
 long: 2.14752565766262
 publicacions:
   - gatcpac
+arquitectes:
+  - Nilo Tusquets
 descripcio: ""
 ---

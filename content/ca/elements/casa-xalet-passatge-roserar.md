@@ -7,5 +7,7 @@ lat: NaN
 long: NaN
 publicacions:
   - gatcpac
+arquitectes:
+  - Marino Canosa
 descripcio: ""
 ---

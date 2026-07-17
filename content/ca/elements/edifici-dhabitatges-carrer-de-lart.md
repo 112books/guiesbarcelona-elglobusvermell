@@ -7,5 +7,7 @@ lat: 41.4218088353802
 long: 2.17914152386586
 publicacions:
   - gatcpac
+arquitectes:
+  - Antoni de Ferrater
 descripcio: ""
 ---

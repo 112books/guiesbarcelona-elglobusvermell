@@ -7,5 +7,7 @@ lat: 41.3938388301162
 long: 2.15313599745364
 publicacions:
   - gatcpac
+arquitectes:
+  - Germà Rodríguez Arias
 descripcio: ""
 ---

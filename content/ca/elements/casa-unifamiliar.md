@@ -7,5 +7,7 @@ lat: NaN
 long: NaN
 publicacions:
   - gatcpac
+arquitectes:
+  - Raimon Duran Reynals
 descripcio: ""
 ---

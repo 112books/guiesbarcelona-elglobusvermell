@@ -7,5 +7,7 @@ lat: 0
 long: 0
 publicacions:
   - gatcpac
+arquitectes:
+  - Juan José Olazabal
 descripcio: ""
 ---

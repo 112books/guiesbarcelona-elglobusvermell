@@ -7,5 +7,8 @@ lat: 41.386924153061
 long: 2.1637048713573
 publicacions:
   - gatcpac
+arquitectes:
+  - Josep Gonzàlez
+  - Francesc Perales
 descripcio: ""
 ---

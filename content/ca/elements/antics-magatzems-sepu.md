@@ -7,5 +7,8 @@ lat: 41.3839162557238
 long: 2.17089881405251
 publicacions:
   - gatcpac
+arquitectes:
+  - Ricard de Churruca
+  - Ricard Ribas
 descripcio: ""
 ---

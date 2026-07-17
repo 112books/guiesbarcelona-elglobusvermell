@@ -7,5 +7,7 @@ lat: 41.3867119867176
 long: 2.17189103970614
 publicacions:
   - gatcpac
+arquitectes:
+  - Antoni Audet
 descripcio: ""
 ---
