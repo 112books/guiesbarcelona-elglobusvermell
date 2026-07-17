@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $slug := .Data.Term }}
+{{ $pub := dict }}
+{{ range hugo.Data.publicacions }}
+  {{ if eq .slug $slug }}{{ $pub = . }}{{ end }}
+{{ end }}
+
+<article class="publicacio"{{ with $pub.color }} style="--pub-color: {{ . }}"{{ end }}>
+
+  <div class="publicacio-banda"></div>
+
+  <header class="publicacio-cap">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.edicio }}<p class="publicacio-edicio">Edició {{ . }}</p>{{ end }}
+  </header>
+
+  <div class="publicacio-descripcio">
+    {{ .Content }}
+  </div>
+
+  {{ if .Pages }}
+  <section class="publicacio-edificis">
+    <h2>Edificis d'aquesta publicació ({{ len .Pages }})</h2>
+    <ul class="publicacio-edificis-llista">
+      {{ range .Pages.ByTitle }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ else }}
+  <p class="publicacio-buit">Encara no hi ha fitxes d'edificis importades per aquesta publicació.</p>
+  {{ end }}
+
+  <nav class="publicacio-nav" aria-label="Navegació">
+    <a href="{{ absURL "/publicacions/" }}">← Totes les publicacions</a>
+  </nav>
+
+</article>
+{{ end }}

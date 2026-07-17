@@ -62,6 +62,9 @@ defaultContentLanguageInSubdir = false
   # Exemple: gc_url = "https://guiesbarcelona.goatcounter.com"
   gc_url         = "https://guiesbarcelona.goatcounter.com"
 
+[taxonomies]
+  publicacio = "publicacions"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
