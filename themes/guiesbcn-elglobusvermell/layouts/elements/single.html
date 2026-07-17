@@ -14,10 +14,16 @@
 
   <div class="fitxa-pub-banda"></div>
 
-  {{/* Imatge destacada — placeholder fins que tinguem les fotos */}}
+  {{/* Imatge destacada */}}
+  {{ if .Params.foto }}
+  <div class="fitxa-imatge">
+    <img src="{{ .Params.foto }}" alt="{{ .Title }}" loading="lazy">
+  </div>
+  {{ else }}
   <div class="fitxa-imatge fitxa-imatge--placeholder">
     <span>Imatge pendent</span>
   </div>
+  {{ end }}
 
   <div class="fitxa-cos">
 
