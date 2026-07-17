@@ -9,7 +9,7 @@
 {{ if or (eq .Section "elements") .IsHome }}
 <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
 {{ end }}
-{{- if and site.Params.gc_url (not .Site.IsServer) }}
+{{- if and site.Params.gc_url (not hugo.IsServer) }}
 <script data-goatcounter="{{ site.Params.gc_url }}/count"
         async src="https://gc.zgo.at/count.js"></script>
 {{- end }}
