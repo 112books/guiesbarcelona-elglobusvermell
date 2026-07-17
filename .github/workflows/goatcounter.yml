@@ -11,13 +11,13 @@ permissions:
 jobs:
   fetch-stats:
     runs-on: ubuntu-latest
-    # No s'executa si no hi ha token configurat
-    if: ${{ secrets.GOATCOUNTER_TOKEN != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Fetch stats from GoatCounter API
+        # No s'executa si no hi ha token configurat ("secrets" només és vàlid a nivell de step, no de job)
+        if: ${{ secrets.GOATCOUNTER_TOKEN != '' }}
         env:
           GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
           GC_SITE:  ${{ secrets.GOATCOUNTER_SITE }}   # ex: guiesbarcelona
@@ -65,6 +65,7 @@ jobs:
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/stats/last-update.txt
 
       - name: Commit stats
+        if: ${{ secrets.GOATCOUNTER_TOKEN != '' }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
