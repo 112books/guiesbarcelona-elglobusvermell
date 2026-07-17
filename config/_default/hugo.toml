@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = false
   defaultOgImage = ""
   # GoatCounter: afegir URL al fitxer d'entorn (production/hugo.toml o secrets)
   # Exemple: gc_url = "https://guiesbarcelona.goatcounter.com"
-  gc_url         = ""
+  gc_url         = "15z6sd4ojnixw4ci69nt9k5k51xeqnr6ixgskx1c57wnv5pkc22"
 
 [markup]
   [markup.goldmark]
