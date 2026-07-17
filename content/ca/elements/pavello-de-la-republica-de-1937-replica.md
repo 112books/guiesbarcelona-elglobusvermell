@@ -1,6 +1,6 @@
 ---
 title: Pavelló de la República de 1937 (rèplica)
-draft: true
+draft: false
 foto: /img/elements/pavello-de-la-republica-de-1937-replica.jpg
 adreca: "Av. del Cardenal Vidal i Barraquer, 34-36"
 any: 1937

@@ -1,6 +1,6 @@
 ---
 title: Casa F. Espona
-draft: true
+draft: false
 adreca: "C. de Muntaner, 568"
 any: 1932
 lat: 41.4059535281011

@@ -1,6 +1,6 @@
 ---
 title: Les Escales Park
-draft: true
+draft: false
 foto: /img/elements/les-escales-park.jpg
 adreca: "C. de Sor Eulàlia d'Anzizu, 46"
 any: 1975

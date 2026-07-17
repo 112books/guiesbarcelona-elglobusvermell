@@ -1,6 +1,6 @@
 ---
 title: Fundació Joan Miró
-draft: true
+draft: false
 foto: /img/elements/fundacio-joan-miro.jpg
 adreca: "Parc de Montjuïc, s/n"
 any: 1975

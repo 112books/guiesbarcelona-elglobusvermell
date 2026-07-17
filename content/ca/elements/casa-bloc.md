@@ -1,6 +1,6 @@
 ---
 title: Casa Bloc
-draft: true
+draft: false
 foto: /img/elements/casa-bloc.jpg
 adreca: "Pg. de Torras i Bages, 91-106"
 any: 1933

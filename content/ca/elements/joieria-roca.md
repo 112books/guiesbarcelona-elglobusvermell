@@ -1,6 +1,6 @@
 ---
 title: Joieria Roca
-draft: true
+draft: false
 adreca: "Pg. de Gràcia, 18"
 any: 1933
 lat: 41.3900050902035

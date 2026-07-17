@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Rector Ubach"
-draft: true
+draft: false
 adreca: "C.  del Rector Ubach, 19"
 any: 1931
 lat: 41.3984904234434

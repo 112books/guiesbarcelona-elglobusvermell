@@ -1,6 +1,6 @@
 ---
 title: Edifici Media-TIC
-draft: true
+draft: false
 adreca: "Sancho de Ávila, 133"
 any: 2009
 lat: 41.402514422665526

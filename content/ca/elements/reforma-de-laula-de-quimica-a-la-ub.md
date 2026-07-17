@@ -1,6 +1,6 @@
 ---
 title: Reforma de l’aula de Química a la UB
-draft: true
+draft: false
 adreca: "Gran Via, 585"
 any: 1934
 lat: 41.386924153061

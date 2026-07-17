@@ -1,6 +1,6 @@
 ---
 title: Casa Rodríguez Arias
-draft: true
+draft: false
 adreca: "Via Augusta, 61"
 any: 1930
 lat: 41.3999206699996

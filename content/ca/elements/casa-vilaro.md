@@ -1,6 +1,6 @@
 ---
 title: Casa Vilaró
-draft: true
+draft: false
 adreca: "Av. del Coll de Portell, 43"
 any: 1929
 lat: 41.4112263958906

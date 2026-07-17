@@ -1,6 +1,6 @@
 ---
 title: Botiga Cottet
-draft: true
+draft: false
 adreca: "Av. del Portal de l’Àngel, 40"
 any: 1935
 lat: 41.3867119867176

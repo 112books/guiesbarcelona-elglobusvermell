@@ -1,6 +1,6 @@
 ---
 title: Edifici d’habitatges Gran Via
-draft: true
+draft: false
 adreca: "Gran Via, 737"
 any: 1935
 lat: NaN

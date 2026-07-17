@@ -1,6 +1,6 @@
 ---
 title: Casa Sardañes i Bonet
-draft: true
+draft: false
 adreca: "C. de Déu i Mata, 146"
 any: 1935
 lat: 41.3901315430701

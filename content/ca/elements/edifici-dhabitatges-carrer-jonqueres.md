@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Jonqueres"
-draft: true
+draft: false
 adreca: C. de les Jonqueres / C. d’Ortigosa
 any: 1931
 lat: 41.3879666785796
