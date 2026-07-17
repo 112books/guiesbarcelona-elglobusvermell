@@ -16,12 +16,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch stats from GoatCounter API
-        # No s'executa si no hi ha token configurat ("secrets" només és vàlid a nivell de step, no de job)
-        if: ${{ secrets.GOATCOUNTER_TOKEN != '' }}
         env:
           GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
           GC_SITE:  ${{ secrets.GOATCOUNTER_SITE }}   # ex: guiesbarcelona
         run: |
+          if [ -z "$GC_TOKEN" ]; then
+            echo "GOATCOUNTER_TOKEN no configurat, s'omet."
+            exit 0
+          fi
           mkdir -p data/stats
           BASE="https://${GC_SITE}.goatcounter.com/api/v0"
           AUTH="Authorization: Bearer ${GC_TOKEN}"
@@ -65,8 +67,8 @@ jobs:
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/stats/last-update.txt
 
       - name: Commit stats
-        if: ${{ secrets.GOATCOUNTER_TOKEN != '' }}
         run: |
+          [ -d data/stats ] || exit 0
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/stats/
