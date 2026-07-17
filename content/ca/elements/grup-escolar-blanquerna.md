@@ -7,5 +7,7 @@ lat: 41.4005041943845
 long: 2.14478186418618
 publicacions:
   - gatcpac
+arquitectes:
+  - Jaume Mestres
 descripcio: ""
 ---

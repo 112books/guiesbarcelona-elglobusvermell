@@ -7,6 +7,7 @@ lat: 41.40130363602758
 long: 2.1944141670259314
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: C
 arquitectes:
   - Josep Alemany

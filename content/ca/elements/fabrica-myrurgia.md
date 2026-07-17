@@ -7,5 +7,7 @@ lat: 41.4014187779638
 long: 2.17206903256679
 publicacions:
   - gatcpac
+arquitectes:
+  - Antoni Puig Gairalt
 descripcio: ""
 ---

@@ -7,6 +7,7 @@ lat: 41.40414538314007
 long: 2.194693216917518
 publicacions:
   - poblenou
+tipologia: Fàbrica amb xemeneia
 proteccio: B
 arquitectes:
   - Josep Marimon i Cot
@@ -15,5 +16,5 @@ anys_reforma:
   - 2008
 usos_reforma:
   - Campus de la Comunicació de la UPF
-descripcio: ""
+descripcio: "Fàbrica de filats i teixits. Actualment, Campus de la Comunicació de la UPF."
 ---

@@ -10,6 +10,8 @@ publicacions:
 arquitectes:
   - Agence Ter
   - Ana Coello
+premis:
+  - Premi Ciutat de Barcelona
 temes_transversals:
   - espai-public
   - dones-arquitectes

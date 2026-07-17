@@ -29,14 +29,14 @@
 
     <h1 class="fitxa-titol">{{ .Title }}</h1>
 
-    {{/* Publicacions com a etiquetes de color */}}
+    {{/* Publicacions com a etiquetes de color amb portada */}}
     {{ with .Params.publicacions }}
     <div class="fitxa-pubs">
       {{ range . }}
         {{ $slug := . }}
         {{ range $pubs }}
           {{ if eq .slug $slug }}
-          <a class="fitxa-pub-tag" href="{{ absURL "/elements/" }}?pub={{ $slug }}"
+          <a class="fitxa-pub-tag" href="{{ absURL (printf "/publicacions/%s/" $slug) }}"
              style="--pub-color: {{ .color }}">{{ .titol }}</a>
           {{ end }}
         {{ end }}
@@ -46,12 +46,11 @@
 
     {{/* Dades principals */}}
     <dl class="fitxa-dades">
+
       {{ with .Params.adreca }}
       <div class="fitxa-dada">
         <dt>Adreça</dt>
-        <dd>
-          <a href="https://maps.google.com/?q={{ . | urlize }}" target="_blank" rel="noopener">{{ . }}</a>
-        </dd>
+        <dd><a href="https://maps.google.com/?q={{ . | urlize }}" target="_blank" rel="noopener">{{ . }}</a></dd>
       </div>
       {{ end }}
 
@@ -62,10 +61,24 @@
       </div>
       {{ end }}
 
+      {{ with .Params.projecte_text }}
+      <div class="fitxa-dada">
+        <dt>Projecte</dt>
+        <dd>{{ . }}</dd>
+      </div>
+      {{ end }}
+
       {{ with .Params.arquitectes }}
       <div class="fitxa-dada">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
         <dd>{{ delimit . ", " }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.edifici_original }}
+      <div class="fitxa-dada">
+        <dt>Edifici original</dt>
+        <dd>{{ . }}</dd>
       </div>
       {{ end }}
 
@@ -78,7 +91,7 @@
 
       {{ with .Params.proteccio }}
       <div class="fitxa-dada">
-        <dt>Protecció</dt>
+        <dt>Nivell de protecció</dt>
         <dd>{{ . }}</dd>
       </div>
       {{ end }}
@@ -90,6 +103,31 @@
       </div>
       {{ end }}
 
+      {{ with .Params.obertura }}
+      <div class="fitxa-dada">
+        <dt>Obertura</dt>
+        <dd>{{ . }}</dd>
+      </div>
+      {{ end }}
+
+      {{ with .Params.equipament }}
+      <div class="fitxa-dada">
+        <dt>Equipament</dt>
+        <dd>{{ . }}</dd>
+      </div>
+      {{ end }}
+
+      {{/* Intervencions: remunta, remodelació, ampliació, reforma */}}
+      {{ with .Params.intervencions }}
+      {{ range . }}
+      <div class="fitxa-dada">
+        <dt>{{ .tipus | title }}</dt>
+        <dd>{{ with .autors }}{{ . }}{{ end }}{{ with .any }}{{ if .autors }}, {{ end }}{{ . }}{{ end }}</dd>
+      </div>
+      {{ end }}
+      {{ end }}
+
+      {{/* Camps legacy (reforma simple) */}}
       {{ with .Params.anys_reforma }}
       <div class="fitxa-dada">
         <dt>Reforma</dt>
@@ -103,6 +141,14 @@
         <dd>{{ delimit . ", " }}</dd>
       </div>
       {{ end }}
+
+      {{ with .Params.web }}
+      <div class="fitxa-dada">
+        <dt>Web</dt>
+        <dd><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ . }}</a></dd>
+      </div>
+      {{ end }}
+
     </dl>
 
     {{/* Descripció */}}
@@ -112,6 +158,7 @@
     </div>
     {{ end }}
 
+    {{/* Nomenclàtor: a qui es dedica el jardí o l'espai */}}
     {{ with .Params.descripcio_nomenclator }}
     <div class="fitxa-nomenclator">
       <h2>Nomenclàtor</h2>

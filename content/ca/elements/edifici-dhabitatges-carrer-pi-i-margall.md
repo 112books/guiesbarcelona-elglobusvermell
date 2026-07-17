@@ -7,5 +7,7 @@ lat: 41.4067433711943
 long: 2.16310934360614
 publicacions:
   - gatcpac
+arquitectes:
+  - Sixte Illescas
 descripcio: ""
 ---

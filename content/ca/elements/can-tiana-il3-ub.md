@@ -7,6 +7,7 @@ lat: 41.402543522561885
 long: 2.192403838365291
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: C
 arquitectes:
   - G. Guiteras

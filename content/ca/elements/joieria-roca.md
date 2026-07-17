@@ -7,5 +7,7 @@ lat: 41.3900050902035
 long: 2.16839448155572
 publicacions:
   - gatcpac
+arquitectes:
+  - Josep Lluís Sert
 descripcio: ""
 ---

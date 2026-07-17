@@ -7,5 +7,7 @@ lat: 41.3949125505249
 long: 2.15549366320251
 publicacions:
   - gatcpac
+arquitectes:
+  - Ricard Ribas
 descripcio: ""
 ---
