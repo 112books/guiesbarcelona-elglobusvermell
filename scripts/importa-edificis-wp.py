@@ -48,23 +48,6 @@ TAG_MAP = {
     20: "nomenclator-femeni",
 }
 
-# Títols de publicació (per detectar i excloure el post "text" de presentació
-# del grup, que comparteix categoria amb els edificis)
-PUB_TITOLS = {
-    "gatcpac": "arquitectura d'avantguarda a barcelona. josep lluís sert i el gatcpac",
-    "marina": "la marina del port i del prat vermell. passat i present",
-    "masies": "masies de barcelona",
-    "barceloneta": "la barceloneta. història, arquitectura i art públic",
-    "50-75": "arquitectura moderna a barcelona. 1950-1975",
-    "mercats": "mercats de barcelona",
-    "biblioteques": "biblioteques de barcelona",
-    "interiors-illa": "jardins interiors d'illa de l'eixample. barcelona",
-    "poblenou": "el patrimoni industrial del poblenou, barcelona",
-    "09-25": "arquitectura a barcelona 2010-2025. la revolució tranquil·la",
-    "76-08": "arquitectura a barcelona 1975-2008. de l'esperança a la crisi",
-}
-
-
 def fetch_json(url: str):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -305,13 +288,14 @@ def main():
         posts = fetch_posts(cat_id)
         print(f"  {len(posts)} posts trobats")
 
-        intro_titol = PUB_TITOLS.get(pub_slug, "").lower()
         for post in posts:
             if post["id"] in seen_post_ids:
                 skipped_dup += 1
                 continue
-            titol_net = clean_title(post["title"]["rendered"]).lower()
-            if titol_net == intro_titol:
+            # El post de presentació del grup viu a /text/<slug>/ (categoria
+            # "text", id 1) encara que també aparegui a la categoria del grup.
+            # Detectar-lo pel path és molt més fiable que comparar títols.
+            if "/text/" in post.get("link", ""):
                 skipped_intro += 1
                 continue
             seen_post_ids.add(post["id"])
