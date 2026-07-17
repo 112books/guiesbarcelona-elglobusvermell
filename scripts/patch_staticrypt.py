@@ -1,6 +1,7 @@
 """
-Patch staticrypt-encrypted HTML files to replace document.write with a
-DOMParser + chained-script approach that Chrome doesn't block.
+Patch staticrypt-encrypted HTML files:
+1. Replace document.write with DOMParser + chained-script (Chrome compatibility)
+2. Replace staticrypt green (#4CAF50, #76B852) with El Globus Vermell red (#c81e1e, #a01818)
 """
 import sys
 from pathlib import Path
@@ -38,13 +39,21 @@ NEW = r"""replaceHtmlCallback: function(plainHTML) {
                     loadNext(0);
                 },"""
 
+COLOR_REPLACEMENTS = [
+    ("#4CAF50", "#c81e1e"),
+    ("#76B852", "#a01818"),
+]
+
 def patch(root: Path):
     patched = 0
     skipped = 0
     for f in root.rglob("*.html"):
         content = f.read_text(encoding="utf-8")
         if OLD in content:
-            f.write_text(content.replace(OLD, NEW), encoding="utf-8")
+            new_content = content.replace(OLD, NEW)
+            for old_color, new_color in COLOR_REPLACEMENTS:
+                new_content = new_content.replace(old_color, new_color)
+            f.write_text(new_content, encoding="utf-8")
             patched += 1
         else:
             skipped += 1
