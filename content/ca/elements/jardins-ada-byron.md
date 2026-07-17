@@ -2,6 +2,7 @@
 title: "Jardins d'Ada Byron"
 date: 2026-07-09
 draft: false
+foto: /img/elements/jardins-ada-byron.jpg
 adreca: "Diagonal, 175 + Rambla del Poblenou, 137 + C. Tànger, 139 + 149"
 any: 2006
 publicacions:
