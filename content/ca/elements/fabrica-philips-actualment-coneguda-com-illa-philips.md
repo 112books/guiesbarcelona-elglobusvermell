@@ -3,6 +3,8 @@ title = "Fàbrica Philips (actualment coneguda com “Illa Philips”)"
 draft = false
 
 adreca = "Pg. de la Zona Franca, 191-203"
+lat = "41.3582336"
+long = "2.1405117"
 any = "1959"
 
 publicacions = ["marina"]

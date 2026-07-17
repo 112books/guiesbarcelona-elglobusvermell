@@ -2,7 +2,10 @@
 title = "Biblioteca Francesc Candel"
 draft = false
 
-adreca = "C. Amnistia Internacional, 10 | La Marina del Port"
+adreca = "C. Amnistia Internacional, 10"
+lat = "41.3617160"
+long = "2.1362105"
+barri = "La Marina del Port"
 
 publicacions = ["biblioteques", "marina"]
 edifici_original = "Fàbrica Lámparas Z – Philips. Antoni Grau. 1954"

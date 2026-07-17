@@ -3,6 +3,8 @@ title = "La Chalmeta"
 draft = false
 
 adreca = "Micaela Chalmeta, 7-9 / Ulldecona, 24-28"
+lat = "41.3520414"
+long = "2.1437044"
 any = "2022"
 
 publicacions = ["09-25", "marina"]

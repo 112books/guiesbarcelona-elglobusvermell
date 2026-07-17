@@ -3,6 +3,8 @@ title = "Graner"
 draft = false
 
 adreca = "Jane Addams, 14-16"
+lat = "41.3609413"
+long = "2.1361287"
 any = "1959"
 
 publicacions = ["marina"]

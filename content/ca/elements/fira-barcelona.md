@@ -3,6 +3,8 @@ title = "Fira Barcelona"
 draft = false
 
 adreca = "Av. Joan Carles I, 64. L’Hospitalet de Llobregat"
+lat = "41.3485875"
+long = "2.1335319"
 any = "2010"
 
 publicacions = ["marina"]

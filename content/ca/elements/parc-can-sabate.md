@@ -3,6 +3,8 @@ title = "Parc Can Sabaté"
 draft = false
 
 adreca = "Mineria, 18 / Mare de Déu de Port"
+lat = "41.3643335"
+long = "2.1380559"
 any = "1984"
 
 publicacions = ["marina"]

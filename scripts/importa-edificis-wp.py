@@ -146,6 +146,16 @@ def parse_post(post: dict, fallback_pub_slug: str) -> dict:
         if not matched:
             desc_lines.append(line)
 
+    # "Adreça: X | Barri | Districte" — el "|" separa metadada de barri/districte
+    barri = districte = None
+    if fields["adreca"] and "|" in fields["adreca"]:
+        parts = [p.strip() for p in fields["adreca"].split("|") if p.strip()]
+        fields["adreca"] = parts[0] if parts else None
+        if len(parts) > 1:
+            barri = parts[1]
+        if len(parts) > 2:
+            districte = parts[2]
+
     intervencions = []
     for tipus, valor in intervencions_raw:
         autor, any_ = split_autor_any(valor)
@@ -175,6 +185,8 @@ def parse_post(post: dict, fallback_pub_slug: str) -> dict:
         "slug": post["slug"],
         "wp_link": post["link"],
         "adreca": fields["adreca"],
+        "barri": barri,
+        "districte": districte,
         "projecte_text": projecte_text,
         "any": any_field,
         "arquitectes": arquitectes,
@@ -218,6 +230,10 @@ def to_frontmatter(b: dict) -> str:
     lines.append("")
     if b["adreca"]:
         lines.append(f'adreca = {toml_str(b["adreca"])}')
+    if b["barri"]:
+        lines.append(f'barri = {toml_str(b["barri"])}')
+    if b["districte"]:
+        lines.append(f'districte = {toml_str(b["districte"])}')
     if b["any"]:
         lines.append(f'any = {toml_str(b["any"])}')
     if b["projecte_text"]:

@@ -3,6 +3,8 @@ title = "Masia Can Mestres"
 draft = false
 
 adreca = "Camí de Can Clos, 1-9"
+lat = "41.3596798"
+long = "2.1451395"
 any = "1920"
 
 publicacions = ["marina", "masies"]

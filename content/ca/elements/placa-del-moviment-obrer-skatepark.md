@@ -3,6 +3,8 @@ title = "Plaça del Moviment Obrer + Skatepark"
 draft = false
 
 adreca = "Pg. de la Zona Franca / Foc"
+lat = "41.3585803"
+long = "2.1400585"
 any = "2018"
 
 publicacions = ["marina"]

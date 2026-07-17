@@ -3,6 +3,8 @@ title = "Plaça i Mercat de la Marina"
 draft = false
 
 adreca = "Pg. de la Zona Franca, 178-180"
+lat = "41.3565588"
+long = "2.1415304"
 any = "2003"
 
 publicacions = ["marina", "mercats"]
