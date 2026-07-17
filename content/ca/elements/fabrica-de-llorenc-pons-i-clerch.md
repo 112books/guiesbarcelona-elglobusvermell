@@ -7,6 +7,7 @@ lat: 41.40124431918534
 long: 2.1931565828660857
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: C
 arquitectes:
   - Jaume Bernadas

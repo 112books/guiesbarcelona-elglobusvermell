@@ -7,6 +7,7 @@ lat: 41.40504176129735
 long: 2.1895188864125252
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: C
 arquitectes:
   - Ítalo Lauro

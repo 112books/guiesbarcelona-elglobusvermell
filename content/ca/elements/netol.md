@@ -7,6 +7,7 @@ lat: 41.40253838814227
 long: 2.193137824292208
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: C
 arquitectes:
   - Santiago Balcells Gorina

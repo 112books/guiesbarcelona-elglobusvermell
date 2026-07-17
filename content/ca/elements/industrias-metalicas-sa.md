@@ -7,6 +7,7 @@ lat: 41.40051808628397
 long: 2.192849393488165
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: C
 descripcio: "Indústria metàl·lica. Actualment, oficines de diverses empreses."
 ---
