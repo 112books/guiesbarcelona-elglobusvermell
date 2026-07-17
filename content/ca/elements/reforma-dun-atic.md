@@ -1,6 +1,6 @@
 ---
 title: Reforma d’un àtic
-draft: true
+draft: false
 adreca: "C. de Provença, 269"
 any: 1934
 lat: 41.3955110192495

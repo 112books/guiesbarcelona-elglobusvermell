@@ -1,6 +1,6 @@
 ---
 title: Casa xalet passatge Roserar
-draft: true
+draft: false
 adreca: "Ptge. del Roserar, 18"
 any: 1933
 lat: NaN

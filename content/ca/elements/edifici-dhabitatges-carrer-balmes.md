@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Balmes"
-draft: true
+draft: false
 adreca: "C. de Balmes, 168"
 any: 1934
 lat: 41.3949125505249

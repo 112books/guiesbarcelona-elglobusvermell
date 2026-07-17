@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Viladomat"
-draft: true
+draft: false
 adreca: "C. de Viladomat, 265"
 any: 1935
 lat: 41.3868986835373

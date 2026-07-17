@@ -1,6 +1,6 @@
 ---
 title: Casa Jaume Sans
-draft: true
+draft: false
 adreca: "Pl. de Molina, 1-7"
 any: 1934
 lat: 41.4013766534293

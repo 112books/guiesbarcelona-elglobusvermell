@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Padilla"
-draft: true
+draft: false
 adreca: "C. de Padilla, 244  "
 any: 1935
 lat: 41.4058403756574

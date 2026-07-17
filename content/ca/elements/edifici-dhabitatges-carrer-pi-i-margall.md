@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Pi i Margall"
-draft: true
+draft: false
 adreca: "C. de Pi i Margall, 17"
 any: 1935
 lat: 41.4067433711943

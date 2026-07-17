@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, plaça Bonanova"
-draft: true
+draft: false
 adreca: Pl. de la Bonanova / Pg. de Sant Gervasi
 any: 1935
 lat: 41.406819667529

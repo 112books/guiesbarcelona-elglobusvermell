@@ -1,6 +1,6 @@
 ---
 title: Edifici d’habitatges carrer Iradier
-draft: true
+draft: false
 adreca: "C. d’Iradier, 3"
 any: 1935
 lat: NaN

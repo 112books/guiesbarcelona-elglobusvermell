@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Lincoln"
-draft: true
+draft: false
 adreca: "C. de Lincoln, 42"
 any: 1935
 lat: 41.4022375944957

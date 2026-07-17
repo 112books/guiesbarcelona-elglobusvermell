@@ -1,6 +1,6 @@
 ---
 title: Edifici Astoria
-draft: true
+draft: false
 adreca: "C. de París, 193-199"
 any: 1932
 lat: 41.3938388301162

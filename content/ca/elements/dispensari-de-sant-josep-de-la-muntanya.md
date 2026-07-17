@@ -1,6 +1,6 @@
 ---
 title: Dispensari de Sant Josep de la Muntanya
-draft: true
+draft: false
 adreca: "Av. del S. de St. Josep de la Muntanya, 12"
 any: 1935
 lat: 41.4109406263714

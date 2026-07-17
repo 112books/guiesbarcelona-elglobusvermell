@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Pàdua"
-draft: true
+draft: false
 adreca: "C. de Pàdua, 96"
 any: 1933
 lat: 41.4042199704318

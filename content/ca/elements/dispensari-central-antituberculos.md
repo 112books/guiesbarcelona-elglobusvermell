@@ -1,6 +1,6 @@
 ---
 title: Dispensari Central Antituberculós
-draft: true
+draft: false
 adreca: C. de Torres Amat - Ptge. de Sant Bernat
 any: 1933
 lat: 41.3844533354975

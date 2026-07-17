@@ -1,6 +1,6 @@
 ---
 title: "Edifici d’habitatges, carrer Rosselló"
-draft: true
+draft: false
 adreca: C. de Muntaner 342-348
 any: 1929
 lat: 41.3850656006435

@@ -1,6 +1,6 @@
 ---
 title: Casa Ginestà
-draft: true
+draft: false
 adreca: "Av. de Gaudí, 44"
 any: 1931
 lat: 41.4081944610578

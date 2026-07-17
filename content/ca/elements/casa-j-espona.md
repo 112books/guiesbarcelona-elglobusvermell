@@ -1,6 +1,6 @@
 ---
 title: Casa J. Espona
-draft: true
+draft: false
 adreca: "C. Camp d’en Vidal, 16"
 any: 1933
 lat: 41.3979082775683

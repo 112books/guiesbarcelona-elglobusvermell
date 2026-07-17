@@ -1,6 +1,6 @@
 ---
 title: Grup escolar Blanquerna
-draft: true
+draft: false
 adreca: "Via Augusta, 140"
 any: 1932
 lat: 41.4005041943845

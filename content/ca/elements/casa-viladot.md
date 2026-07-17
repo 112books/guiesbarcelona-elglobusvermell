@@ -1,6 +1,6 @@
 ---
 title: Casa Viladot
-draft: true
+draft: false
 adreca: "Av. de Gaudí, 71"
 any: 1930
 lat: 41.4099272039874
