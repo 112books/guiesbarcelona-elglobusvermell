@@ -11,10 +11,10 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-  {{ if or .IsHome (eq .Section "elements") }}
+  {{ if or .IsHome (eq .Section "elements") (eq .Kind "term") }}
   <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}"></script>
   {{ end }}
-  {{ if or .IsHome (and (eq .Section "elements") (eq .Kind "section")) }}
+  {{ if or .IsHome (and (eq .Section "elements") (eq .Kind "section")) (eq .Kind "term") }}
   {{ $mapaJs := resources.Get "js/mapa.js" | minify | fingerprint }}
   <script src="{{ $mapaJs.RelPermalink }}" integrity="{{ $mapaJs.Data.Integrity }}"></script>
   {{ end }}
