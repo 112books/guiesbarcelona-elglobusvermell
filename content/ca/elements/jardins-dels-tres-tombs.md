@@ -1,0 +1,14 @@
++++
+title = "Jardins dels Tres Tombs"
+draft = false
+
+adreca = "Manso, 24-28 + C. Calàbria, 8"
+
+publicacions = ["interiors-illa"]
+temes_transversals = ["espai-public"]
+superficie = "780 m"
+obertura = "2001"
+
+descripcio = "2 Equipaments: Escola bressol “Els Tres Tombs” + Centre de Serveis Socials de Sant Antoni Més info: Entre els anys vint i els noranta del segle xx hi va haver la fàbrica Galletas Montes Els Tres Tombs. Durant les festes de Sant Antoni, protector dels animals, se celebren les cavalcades dels Tres Tombs, que consisteixen a fer tres voltes amb els cavalls, carros i altres animals de tir per l’interior de la població. Antigament es donaven tres voltes a l’entorn d’una gran foguera. Amb el cristianisme, els tombs es fan al voltant de l’església de Sant Antoni."
+# font: https://guiesbarcelona.elglobusvermell.org/eixample-jardins-interiors/jardins-dels-tres-tombs/
++++

@@ -1,0 +1,17 @@
++++
+title = "Xemeneia de l’Electrolisis"
+draft = false
+
+adreca = "Camí Antic de València 37-39"
+projecte_text = "Principis s. xix"
+
+publicacions = ["poblenou"]
+proteccio = "C"
+
+[[intervencions]]
+  tipus = "Projecte"
+  any = "Principis s. xix"
+
+descripcio = "Categoria: Xemeneia"
+# font: https://guiesbarcelona.elglobusvermell.org/poblenou-industrial/xemeneia-de-lelectrolisis/
++++

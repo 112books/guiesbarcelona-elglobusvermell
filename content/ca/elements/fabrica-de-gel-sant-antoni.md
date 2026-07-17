@@ -1,0 +1,19 @@
++++
+title = "Fàbrica de gel Sant Antoni"
+draft = false
+
+adreca = "Badajoz 29-33"
+any = "1907"
+
+publicacions = ["poblenou"]
+proteccio = "C"
+arquitectes = ["Francesc de Paula Villar Carmona"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Francesc de Paula Villar Carmona"
+  any = "1907"
+
+descripcio = "Categoria: Fàbrica Fàbrica de gel. Actualment, seu d’una empresa de roba."
+# font: https://guiesbarcelona.elglobusvermell.org/poblenou-industrial/fabrica-de-gel-sant-antoni/
++++

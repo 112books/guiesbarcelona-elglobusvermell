@@ -1,0 +1,19 @@
++++
+title = "Cirerers, cohabitatges cooperatius"
+draft = false
+
+adreca = "Pla dels Cirerers, 2-4"
+any = "2022"
+
+publicacions = ["09-25"]
+temes_transversals = ["dones-arquitectes"]
+arquitectes = ["Celobert"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Celobert"
+  any = "2022"
+
+descripcio = ""
+# font: https://guiesbarcelona.elglobusvermell.org/2010-2025/cirerers-cohabitatges-cooperatius/
++++

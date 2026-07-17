@@ -1,0 +1,18 @@
++++
+title = "Casa Cardenal"
+draft = false
+
+adreca = "C. Roger de Llúria, 132"
+any = "1935"
+
+publicacions = ["gatcpac"]
+arquitectes = ["Raimon Duran Reynals"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Raimon Duran Reynals"
+  any = "1935"
+
+descripcio = ""
+# font: https://guiesbarcelona.elglobusvermell.org/avantguarda-1928-1938/casa-cardenal/
++++

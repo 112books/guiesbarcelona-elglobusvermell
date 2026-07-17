@@ -1,0 +1,12 @@
++++
+title = "Biblioteca Sant Gervasi – Joan Maragall"
+draft = false
+
+adreca = "C. Sant Gervasi de Cassoles, 85 |"
+
+publicacions = ["09-25", "biblioteques"]
+temes_transversals = ["dones-arquitectes"]
+
+descripcio = "Joan Maragall Poeta i escriptor. 1860-1911 Sant Gervasi – La Bonanova Arquitecte: BCQ Arquitectes. 2014 Premi Ciutat de Barcelona"
+# font: https://guiesbarcelona.elglobusvermell.org/biblioteques/biblioteca-sant-gervasi-joan-maragall/
++++

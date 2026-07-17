@@ -1,0 +1,18 @@
++++
+title = "Edifici d’habitatges, carrer Mallorca"
+draft = false
+
+adreca = "Mallorca 213 / Enric Granados 42"
+any = "1956"
+
+publicacions = ["50-75"]
+arquitectes = ["Guillem Cosp i Vilaró"]
+
+[[intervencions]]
+  tipus = "Projecte"
+  autors = "Guillem Cosp i Vilaró"
+  any = "1956"
+
+descripcio = ""
+# font: https://guiesbarcelona.elglobusvermell.org/moderna-1950-1975/edifici-dhabitatges-carrer-mallorca/
++++

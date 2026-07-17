@@ -1,0 +1,12 @@
++++
+title = "Biblioteca Sofia Barat"
+draft = false
+
+adreca = "C. Girona, 64 | Dreta de l’Eixample"
+
+publicacions = ["biblioteques"]
+temes_transversals = ["dones-arquitectes", "nomenclator-femeni"]
+
+descripcio = "Sofia Barat Religiosa. 1779-1865 Arquitecte: Judith Masana. 2000 Trasllat previst segons Pla 2030. Edifici Taller Masriera. Reforma: Länk Arquitectes i DataAE."
+# font: https://guiesbarcelona.elglobusvermell.org/biblioteques/biblioteca-sofia-barat/
++++
