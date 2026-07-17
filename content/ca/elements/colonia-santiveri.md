@@ -3,6 +3,8 @@ title = "Colònia Santiveri"
 draft = false
 
 adreca = "Mare de Déu de Port, 123"
+lat = "41.3603011"
+long = "2.1409593"
 projecte_text = "1915-1920"
 
 publicacions = ["marina"]

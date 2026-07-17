@@ -3,6 +3,8 @@ title = "Casa del Rellotge"
 draft = false
 
 adreca = "Jardins de Can Ferrero, Pg. de la Zona Franca, 116"
+lat = "41.3571545"
+long = "2.1416553"
 any = "1912"
 
 publicacions = ["marina"]

@@ -3,6 +3,8 @@ title = "Cementiri de Montjuïc"
 draft = false
 
 adreca = "Mare de Déu de Port, 56"
+lat = "41.3543682"
+long = "2.1489944"
 any = "1883"
 
 publicacions = ["marina"]

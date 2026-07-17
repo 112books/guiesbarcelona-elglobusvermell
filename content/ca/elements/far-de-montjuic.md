@@ -3,6 +3,8 @@ title = "Far de Montjuïc"
 draft = false
 
 adreca = "Camí del Far, 1"
+lat = "41.3609341"
+long = "2.1658726"
 any = "1906"
 
 publicacions = ["marina"]

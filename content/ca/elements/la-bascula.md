@@ -3,6 +3,8 @@ title = "La Bàscula"
 draft = false
 
 adreca = "Foc, 128"
+lat = "41.3584786"
+long = "2.1442062"
 any = "1988"
 
 publicacions = ["marina"]
