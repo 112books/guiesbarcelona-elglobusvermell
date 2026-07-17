@@ -46,16 +46,18 @@ jobs:
 
       - name: Protect with staticrypt
         run: |
-          shopt -s globstar
-          html_files=(public/**/*.html)
-          if [ ${#html_files[@]} -gt 0 ]; then
-            npx staticrypt "${html_files[@]}" \
+          find public -name "*.html" | while read f; do
+            dir=$(dirname "$f")
+            npx staticrypt "$f" \
               --short \
               --password "${{ secrets.SITE_PASSWORD }}" \
               --config .staticrypt.json \
-              --directory public
-          fi
+              --directory "$dir"
+          done
         shell: bash
+
+      - name: Patch staticrypt replaceHtmlCallback
+        run: python3 scripts/patch_staticrypt.py public
 
 
       - name: Upload artifact
