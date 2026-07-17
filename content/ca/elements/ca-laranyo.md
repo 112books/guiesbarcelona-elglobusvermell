@@ -12,6 +12,8 @@ proteccio: B
 arquitectes:
   - Josep Marimon i Cot
   - "Prince Smith & Son"
+premis:
+  - Premi Ciutat de Barcelona d'Arquitectura 2008
 anys_reforma:
   - 2008
 usos_reforma:

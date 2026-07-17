@@ -8,6 +8,7 @@ lat: 41.401667909330676
 long: 2.1957662892935432
 publicacions:
   - poblenou
+tipologia: Altres edificis
 proteccio: C
 arquitectes:
   - Josep Alemany

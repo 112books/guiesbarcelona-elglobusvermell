@@ -8,6 +8,7 @@ lat: 41.40524952923511
 long: 2.1882056089133197
 publicacions:
   - poblenou
+tipologia: Fàbrica
 proteccio: B
 arquitectes:
   - Josep M. Pericas
