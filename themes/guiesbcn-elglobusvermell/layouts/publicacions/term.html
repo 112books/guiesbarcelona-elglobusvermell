@@ -17,7 +17,7 @@
   {{ if .Pages }}
   <section class="publicacio-edificis">
     <div class="mapa-contenidor" id="mapa-contenidor">
-      <div id="mapa" class="mapa-el"></div>
+      <div id="mapa" class="mapa-el" style="height:28rem"></div>
     </div>
 
     <section class="llistat-cronologic" id="llistat">
@@ -33,7 +33,7 @@
   </div>
 
   <nav class="publicacio-nav" aria-label="Navegació">
-    <a href="{{ absURL "/publicacions/" }}">← Totes les publicacions</a>
+    <a href="{{ "/en-paper/" | relURL }}">← Totes les publicacions</a>
   </nav>
 
 </article>
