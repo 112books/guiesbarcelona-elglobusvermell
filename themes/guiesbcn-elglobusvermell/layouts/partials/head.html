@@ -4,6 +4,11 @@
 {{ with .Description | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" type="image/svg+xml" href="{{ "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg" | relURL }}">
+{{ if or (eq .Section "elements") .IsHome (eq .Kind "term") }}
+<link rel="preconnect" href="https://a.basemaps.cartocdn.com">
+<link rel="preconnect" href="https://b.basemaps.cartocdn.com">
+<link rel="dns-prefetch" href="https://a.basemaps.cartocdn.com">
+{{ end }}
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ if or (eq .Section "elements") .IsHome (eq .Kind "term") }}
