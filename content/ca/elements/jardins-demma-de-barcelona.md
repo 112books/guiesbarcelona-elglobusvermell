@@ -3,6 +3,8 @@ title = "Jardins d’Emma de Barcelona"
 draft = false
 
 adreca = "Comte Borrell, 157 + C. Viladomat, 142"
+lat = "41.3824743"
+long = "2.1555490"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

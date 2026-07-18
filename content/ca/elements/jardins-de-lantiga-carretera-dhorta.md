@@ -3,6 +3,8 @@ title = "Jardins de l’antiga Carretera d’Horta"
 draft = false
 
 adreca = "Ausiàs Marc, 78 + C. Alí Bei, 55"
+lat = "41.3943210"
+long = "2.1797673"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

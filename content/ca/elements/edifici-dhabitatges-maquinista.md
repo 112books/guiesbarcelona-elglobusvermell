@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Maquinista"
 draft = false
 
 adreca = "Maquinista 18"
+lat = "41.3806501"
+long = "2.1885181"
 projecte_text = "Domènec Boada Piera. 1910, aprox."
 
 publicacions = ["barceloneta"]

@@ -3,6 +3,8 @@ title = "Plaça de Josep Rovira"
 draft = false
 
 adreca = "Andrade, 10 + C. Lope de Vega, 233 + Gran Via, 923-929 + 931-941"
+lat = "41.4104384"
+long = "2.1939640"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

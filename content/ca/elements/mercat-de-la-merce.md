@@ -3,6 +3,8 @@ title = "Mercat de la Mercè"
 draft = false
 
 adreca = "Pg. Fabra i Puig, 270-272"
+lat = "41.4384482"
+long = "2.1657798"
 
 publicacions = ["mercats"]
 

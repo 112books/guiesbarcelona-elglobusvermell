@@ -3,6 +3,8 @@ title = "Casa Esteve Cortada"
 draft = false
 
 adreca = "Mediterrània 4 + Marquès de la Quadra 3"
+lat = "41.3819081"
+long = "2.1888959"
 any = "1906"
 
 publicacions = ["barceloneta"]

@@ -3,6 +3,8 @@ title = "Habitatges per a joves"
 draft = false
 
 adreca = "Ali Bei, 94"
+lat = "41.3957287"
+long = "2.1839151"
 any = "2007"
 
 publicacions = ["76-08"]

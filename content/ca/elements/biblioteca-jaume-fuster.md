@@ -3,6 +3,8 @@ title = "Biblioteca Jaume Fuster"
 draft = false
 
 adreca = "Pl. Lesseps, 20-22 |"
+lat = "41.4074339"
+long = "2.1492757"
 
 publicacions = ["76-08", "biblioteques"]
 

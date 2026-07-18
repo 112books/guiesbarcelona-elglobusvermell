@@ -3,6 +3,8 @@ title = "Fàbrica Valls, Teixidor i Jordana"
 draft = false
 
 adreca = "Pere IV 475-495 + Puigcerdà 154-164"
+lat = "41.4170653"
+long = "2.2084433"
 any = "1909"
 
 publicacions = ["poblenou"]

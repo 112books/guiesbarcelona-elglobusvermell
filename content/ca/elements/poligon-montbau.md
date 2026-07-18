@@ -3,6 +3,8 @@ title = "Polígon Montbau"
 draft = false
 
 adreca = "Arquitectura / Vayreda / Pg. Vall d’Hebron / Poesia / Àngel Marquès"
+lat = "41.4296386"
+long = "2.1398382"
 any = "1965"
 
 publicacions = ["50-75"]

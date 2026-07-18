@@ -3,6 +3,8 @@ title = "Col·legi d’Arquitectes de Catalunya (COAC)"
 draft = false
 
 adreca = "Pl. Nova 5"
+lat = "41.3844673"
+long = "2.1750046"
 any = "1962"
 
 publicacions = ["50-75"]

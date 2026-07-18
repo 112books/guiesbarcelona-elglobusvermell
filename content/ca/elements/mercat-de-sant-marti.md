@@ -3,6 +3,8 @@ title = "Mercat de Sant Martí"
 draft = false
 
 adreca = "Puigcerdà, 206"
+lat = "41.4186293"
+long = "2.2052984"
 
 publicacions = ["mercats"]
 temes_transversals = ["dones-arquitectes"]

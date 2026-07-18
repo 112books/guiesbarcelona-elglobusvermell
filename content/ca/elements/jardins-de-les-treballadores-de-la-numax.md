@@ -3,6 +3,8 @@ title = "Jardins de les Treballadores de la Numax"
 draft = false
 
 adreca = "Plaça Sagrada Família 12 i carrer Rosselló 372"
+lat = "41.4039111"
+long = "2.1716316"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

@@ -3,6 +3,8 @@ title = "Fàbrica d’Albert Musterós"
 draft = false
 
 adreca = "Pamplona 88-90 + Pallars 115-119"
+lat = "41.3998124"
+long = "2.1871590"
 projecte_text = "Josep Pansas Coll (?). Inici s. xx"
 
 publicacions = ["poblenou"]

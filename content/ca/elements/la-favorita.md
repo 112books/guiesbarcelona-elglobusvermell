@@ -3,6 +3,8 @@ title = "La Favorita"
 draft = false
 
 adreca = "Llull 143 + Roc Boronat 45-53"
+lat = "41.3989944"
+long = "2.1992008"
 
 publicacions = ["poblenou"]
 proteccio = "C / D"

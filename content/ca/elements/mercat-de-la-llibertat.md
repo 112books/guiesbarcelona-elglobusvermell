@@ -3,6 +3,8 @@ title = "Mercat de la Llibertat"
 draft = false
 
 adreca = "Pl. Llibertat, 27"
+lat = "41.3996998"
+long = "2.1537198"
 
 publicacions = ["mercats"]
 

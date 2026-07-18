@@ -3,6 +3,8 @@ title = "Mercat del Guinardó"
 draft = false
 
 adreca = "Teodor Llorente, 10"
+lat = "41.4190478"
+long = "2.1790433"
 
 publicacions = ["mercats"]
 

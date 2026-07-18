@@ -3,6 +3,8 @@ title = "Naus de la família Ametller"
 draft = false
 
 adreca = "Dr. Trueta 127-135 + Badajoz 25"
+lat = "41.4297209"
+long = "2.2174795"
 any = "1917"
 
 publicacions = ["poblenou"]

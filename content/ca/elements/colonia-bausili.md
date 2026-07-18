@@ -3,6 +3,8 @@ title = "Colònia Bausili"
 draft = false
 
 adreca = "Colònia Bausili / Ulldecona"
+lat = "41.3518993"
+long = "2.1424376"
 any = "1928"
 
 publicacions = ["marina"]

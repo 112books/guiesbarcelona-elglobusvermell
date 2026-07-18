@@ -3,6 +3,8 @@ title = "Biblioteca Bon Pastor – Josefina Castellví"
 draft = false
 
 adreca = "C. Estadella, 62 |"
+lat = "41.4351725"
+long = "2.2046876"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["nomenclator-femeni"]

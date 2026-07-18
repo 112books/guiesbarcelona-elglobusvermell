@@ -3,6 +3,8 @@ title = "Jardins d’Enriqueta Sèculi"
 draft = false
 
 adreca = "Simó, 9-13"
+lat = "41.4403843"
+long = "2.2189686"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

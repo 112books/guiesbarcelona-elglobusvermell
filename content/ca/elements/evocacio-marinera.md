@@ -3,6 +3,8 @@ title = "«Evocació marinera»"
 draft = false
 
 adreca = "Pg. Joan de Borbó"
+lat = "41.3799373"
+long = "2.1872686"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

@@ -3,6 +3,8 @@ title = "Facultat de Ciències Econòmiques"
 draft = false
 
 adreca = "Av. Diagonal 690"
+lat = "41.3859749"
+long = "2.1135442"
 any = "1967"
 
 publicacions = ["50-75"]

@@ -1,6 +1,8 @@
 +++
 title = "Biblioteca Prosperitat – Ideal Plàstica Flor"
 draft = false
+lat = "41.4371"
+long = "2.1688"
 
 
 publicacions = ["biblioteques"]

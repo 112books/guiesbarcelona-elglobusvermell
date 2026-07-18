@@ -3,6 +3,8 @@ title = "Conjunt residencial Diagonal"
 draft = false
 
 adreca = "Av. Diagonal / Ganduxer / Bori i Fontestà"
+lat = "41.3862223"
+long = "2.1190412"
 any = "1966"
 
 publicacions = ["50-75"]

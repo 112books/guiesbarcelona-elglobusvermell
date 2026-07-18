@@ -3,6 +3,8 @@ title = "Centre de Convencions Internacional de Catalunya (CCIB)"
 draft = false
 
 adreca = "Pl. Willy Brandt, 14"
+lat = "41.4088035"
+long = "2.2182544"
 any = "2004"
 
 publicacions = ["76-08"]

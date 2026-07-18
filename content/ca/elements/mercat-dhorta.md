@@ -3,6 +3,8 @@ title = "Mercat d’Horta"
 draft = false
 
 adreca = "Tajo, 75"
+lat = "41.4295869"
+long = "2.1595308"
 
 publicacions = ["mercats"]
 

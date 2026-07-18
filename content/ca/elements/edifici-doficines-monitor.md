@@ -3,6 +3,8 @@ title = "Edifici d’oficines Monitor"
 draft = false
 
 adreca = "Tuset 8-10"
+lat = "41.3959554"
+long = "2.1519570"
 any = "1961"
 
 publicacions = ["50-75"]

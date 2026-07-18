@@ -3,6 +3,8 @@ title = "«Crescendo appare»"
 draft = false
 
 adreca = "Pla de Miquel Tarradell"
+lat = "41.3766459"
+long = "2.1878557"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

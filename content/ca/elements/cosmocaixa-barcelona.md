@@ -3,6 +3,8 @@ title = "CosmoCaixa Barcelona"
 draft = false
 
 adreca = "Isaac Newton, 26"
+lat = "41.4146663"
+long = "2.1350174"
 
 publicacions = ["76-08"]
 

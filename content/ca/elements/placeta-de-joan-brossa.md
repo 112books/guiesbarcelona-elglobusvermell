@@ -3,6 +3,8 @@ title = "Placeta de Joan Brossa"
 draft = false
 
 adreca = "C. Rosselló, 191"
+lat = "41.3920297"
+long = "2.1554615"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

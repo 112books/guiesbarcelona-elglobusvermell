@@ -3,6 +3,8 @@ title = "Biblioteca Sofia Barat"
 draft = false
 
 adreca = "C. Girona, 64 | Dreta de l’Eixample"
+lat = "41.3946816"
+long = "2.1714990"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["dones-arquitectes", "nomenclator-femeni"]

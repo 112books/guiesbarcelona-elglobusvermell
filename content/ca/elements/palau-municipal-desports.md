@@ -3,6 +3,8 @@ title = "Palau Municipal d’Esports"
 draft = false
 
 adreca = "Lleida 40"
+lat = "41.3717867"
+long = "2.1556216"
 any = "1955"
 
 publicacions = ["50-75"]

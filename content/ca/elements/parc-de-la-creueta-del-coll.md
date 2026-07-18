@@ -3,6 +3,8 @@ title = "Parc de la Creueta del Coll"
 draft = false
 
 adreca = "El Coll"
+lat = "41.4179072"
+long = "2.1480753"
 any = "1987"
 
 publicacions = ["76-08"]

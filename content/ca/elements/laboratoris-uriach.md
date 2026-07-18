@@ -3,6 +3,8 @@ title = "Laboratoris Uriach"
 draft = false
 
 adreca = "Degà Bahí 56-67"
+lat = "41.4109193"
+long = "2.1833820"
 any = "1961"
 
 publicacions = ["50-75"]

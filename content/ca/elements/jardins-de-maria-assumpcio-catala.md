@@ -3,6 +3,8 @@ title = "Jardins de Maria Assumpció Català"
 draft = false
 
 adreca = "C. Comte Borrell, 305-307"
+lat = "41.3860752"
+long = "2.1511131"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

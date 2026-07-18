@@ -3,6 +3,8 @@ title = "Mercat de la Marina"
 draft = false
 
 adreca = "Pg. de la Zona Franca, 178"
+lat = "41.3605664"
+long = "2.1392235"
 
 publicacions = ["mercats"]
 

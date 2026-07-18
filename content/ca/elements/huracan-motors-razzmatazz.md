@@ -3,6 +3,8 @@ title = "Huracán Motors / Razzmatazz"
 draft = false
 
 adreca = "Almogàvers 122-124"
+lat = "41.3977318"
+long = "2.1910699"
 any = "1957"
 
 publicacions = ["poblenou"]

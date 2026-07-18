@@ -3,6 +3,8 @@ title = "Jardins de Carlit"
 draft = false
 
 adreca = "Roger de Flor, 160 bis"
+lat = "41.3962557"
+long = "2.1759972"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

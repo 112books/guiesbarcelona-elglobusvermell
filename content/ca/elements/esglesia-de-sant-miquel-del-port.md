@@ -3,6 +3,8 @@ title = "Església de Sant Miquel del Port"
 draft = false
 
 adreca = "Sant Miquel 39 bis + Pl. Barceloneta"
+lat = "41.3983424"
+long = "2.1557761"
 
 publicacions = ["barceloneta"]
 

@@ -3,6 +3,8 @@ title = "Vapor Llull"
 draft = false
 
 adreca = "Llull 127-135 + Ptge. Masoliver 19-25"
+lat = "41.3968748"
+long = "2.1966264"
 
 publicacions = ["poblenou"]
 proteccio = "C"

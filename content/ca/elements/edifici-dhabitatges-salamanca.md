@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Salamanca"
 draft = false
 
 adreca = "Salamanca 42-44"
+lat = "41.3788988"
+long = "2.1914724"
 projecte_text = "1910, aprox."
 
 publicacions = ["barceloneta"]

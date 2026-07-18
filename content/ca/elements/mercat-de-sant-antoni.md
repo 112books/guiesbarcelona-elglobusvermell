@@ -3,6 +3,8 @@ title = "Mercat de Sant Antoni"
 draft = false
 
 adreca = "Comte Borrell, 1"
+lat = "41.3752647"
+long = "2.1651042"
 
 publicacions = ["mercats"]
 temes_transversals = ["dones-arquitectes"]

@@ -3,6 +3,8 @@ title = "Font de Carmen Amaya"
 draft = false
 
 adreca = "Pl. Brugada"
+lat = "41.3798721"
+long = "2.1925258"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

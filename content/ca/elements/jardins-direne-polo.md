@@ -3,6 +3,8 @@ title = "Jardins d’Irene Polo"
 draft = false
 
 adreca = "Rambla del Poblenou, 147 + C. Llacuna, 146"
+lat = "41.4064061"
+long = "2.1940308"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

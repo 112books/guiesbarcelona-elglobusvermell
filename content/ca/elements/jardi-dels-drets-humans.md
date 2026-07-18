@@ -3,6 +3,8 @@ title = "Jardí dels Drets Humans"
 draft = false
 
 adreca = "Interior de l’Illa Philips, Pg. de la Zona Franca, 191-203"
+lat = "41.3618892"
+long = "2.1374479"
 any = "1960"
 
 publicacions = ["marina"]

@@ -3,6 +3,8 @@ title = "Jardins de la Casa Elizalde"
 draft = false
 
 adreca = "C. València, 302"
+lat = "41.3943436"
+long = "2.1661414"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

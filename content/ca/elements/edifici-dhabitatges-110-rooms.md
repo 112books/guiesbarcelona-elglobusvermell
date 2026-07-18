@@ -3,6 +3,8 @@ title = "Edifici d’habitatges «110 Rooms»"
 draft = false
 
 adreca = "Provença, 203"
+lat = "41.3844772"
+long = "2.1483238"
 any = "2016"
 
 publicacions = ["09-25"]

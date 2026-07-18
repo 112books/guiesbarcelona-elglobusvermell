@@ -3,6 +3,8 @@ title = "“Mercadillo” de la Marina – Zona Franca"
 draft = false
 
 adreca = "Ferrocarrils Catalans i Mare de Déu de Port, entre Foc i Motors"
+lat = "41.3648285"
+long = "2.1388978"
 
 publicacions = ["marina"]
 

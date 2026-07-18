@@ -3,6 +3,8 @@ title = "Mercat de les Tres Torres"
 draft = false
 
 adreca = "Vergós, 2"
+lat = "41.3999167"
+long = "2.1312610"
 
 publicacions = ["mercats"]
 

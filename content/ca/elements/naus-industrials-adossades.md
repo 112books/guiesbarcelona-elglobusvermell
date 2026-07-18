@@ -3,6 +3,8 @@ title = "Naus industrials adossades"
 draft = false
 
 adreca = "Zamora 72-76 + Pallars 102-106"
+lat = "41.3952080"
+long = "2.1908113"
 any = "1909"
 
 publicacions = ["poblenou"]

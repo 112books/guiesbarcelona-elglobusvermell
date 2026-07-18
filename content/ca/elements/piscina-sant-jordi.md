@@ -3,6 +3,8 @@ title = "Piscina Sant Jordi"
 draft = false
 
 adreca = "Paris 114"
+lat = "41.3884654"
+long = "2.1469055"
 any = "1966"
 
 publicacions = ["50-75"]

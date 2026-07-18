@@ -3,6 +3,8 @@ title = "Tres illes d’habitatges a l’Eixample de Cerdà"
 draft = false
 
 adreca = "Ramon Turró, s/n"
+lat = "41.3909145"
+long = "2.1909276"
 
 publicacions = ["76-08"]
 

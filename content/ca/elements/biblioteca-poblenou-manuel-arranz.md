@@ -3,6 +3,8 @@ title = "Biblioteca Poblenou – Manuel Arranz"
 draft = false
 
 adreca = "C. Joncar, 35 |"
+lat = "41.4013653"
+long = "2.2045218"
 
 publicacions = ["biblioteques"]
 edifici_original = "Fàbrica tèxtil de Can Saladrigas. Francisco Pascual. 1884"

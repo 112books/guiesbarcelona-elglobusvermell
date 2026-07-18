@@ -3,6 +3,8 @@ title = "Facultat d’Economia i Empresa"
 draft = false
 
 adreca = "Av. Diagonal 694"
+lat = "41.3974043"
+long = "2.1629190"
 any = "1961"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "La Borda, cohabitatges cooperatius"
 draft = false
 
 adreca = "Constitució, 85-89"
+lat = "41.4522910"
+long = "2.2458729"
 any = "2018"
 
 publicacions = ["09-25"]

@@ -3,6 +3,8 @@ title = "Cunill Orfebres"
 draft = false
 
 adreca = "Ptge. Ratés 1-9 + Sancho de Ávila 41-45"
+lat = "41.3988421"
+long = "2.1895270"
 any = "1965"
 
 publicacions = ["poblenou"]

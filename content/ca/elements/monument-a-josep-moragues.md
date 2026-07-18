@@ -3,6 +3,8 @@ title = "«Monument a Josep Moragues»"
 draft = false
 
 adreca = "Pl. Pau Vila"
+lat = "41.3821781"
+long = "2.1854159"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

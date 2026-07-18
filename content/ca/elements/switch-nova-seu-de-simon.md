@@ -3,6 +3,8 @@ title = "Switch. Nova seu de Simon"
 draft = false
 
 adreca = "Sancho de Ávila, 66"
+lat = "41.3975374"
+long = "2.1890583"
 any = "2023"
 
 publicacions = ["09-25"]

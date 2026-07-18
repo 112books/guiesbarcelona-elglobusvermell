@@ -3,6 +3,8 @@ title = "Centre Kàlida"
 draft = false
 
 adreca = "Hospital de Sant Pau"
+lat = "41.4139764"
+long = "2.1755472"
 any = "2019"
 
 publicacions = ["09-25"]

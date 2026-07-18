@@ -3,6 +3,8 @@ title = "Illa Escorial"
 draft = false
 
 adreca = "Escorial 50 / Legalitat / Encarnació / Alegre de Dalt"
+lat = "41.4077765"
+long = "2.1610318"
 any = "1962"
 
 publicacions = ["50-75"]

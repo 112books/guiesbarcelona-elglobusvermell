@@ -3,6 +3,8 @@ title = "Cases Barates “Eduard Aunós”"
 draft = false
 
 adreca = "Àrea delimitada pels carrers Ulldecona, Ascó, Arnes i Sovelles"
+lat = "41.3518993"
+long = "2.1424376"
 any = "1929"
 
 publicacions = ["marina"]

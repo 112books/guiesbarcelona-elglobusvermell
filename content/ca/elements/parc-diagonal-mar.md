@@ -3,6 +3,8 @@ title = "Parc Diagonal Mar"
 draft = false
 
 adreca = "Provençals del Poblenou"
+lat = "41.4119484"
+long = "2.2041249"
 any = "2002"
 
 publicacions = ["76-08"]

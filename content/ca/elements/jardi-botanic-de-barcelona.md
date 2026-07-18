@@ -3,6 +3,8 @@ title = "Jardí Botànic de Barcelona"
 draft = false
 
 adreca = "Dr. Font i Quer, 2"
+lat = "41.3641032"
+long = "2.1587455"
 
 publicacions = ["76-08"]
 temes_transversals = ["dones-arquitectes", "espai-public"]

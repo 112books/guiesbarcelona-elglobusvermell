@@ -3,6 +3,8 @@ title = "Edifici d’oficines i habitatges, carrer Roselló"
 draft = false
 
 adreca = "Rosselló 257"
+lat = "41.3953178"
+long = "2.1597647"
 any = "1956"
 
 publicacions = ["50-75"]

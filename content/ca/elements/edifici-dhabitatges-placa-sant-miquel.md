@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Plaça Sant Miquel"
 draft = false
 
 adreca = "Sant Miquel 39 + Pl. Barceloneta"
+lat = "41.3798408"
+long = "2.1883366"
 
 publicacions = ["barceloneta"]
 proteccio = "B"

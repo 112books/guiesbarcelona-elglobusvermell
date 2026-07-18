@@ -3,6 +3,8 @@ title = "Mercat de la Guineueta"
 draft = false
 
 adreca = "Pg. Valldaura, 186-190"
+lat = "41.4395664"
+long = "2.1612283"
 
 publicacions = ["mercats"]
 

@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Sant Carles"
 draft = false
 
 adreca = "Sant Carles 7 + Sant Miquel 55 + Pescadors 12"
+lat = "41.3790544"
+long = "2.1886861"
 projecte_text = "Final segle xix – principi segle xx"
 
 publicacions = ["barceloneta"]

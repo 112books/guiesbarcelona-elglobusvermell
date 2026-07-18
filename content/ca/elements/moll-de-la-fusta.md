@@ -1,6 +1,8 @@
 +++
 title = "Moll de la Fusta"
 draft = false
+lat = "41.3791104"
+long = "2.1816696"
 
 any = "1987"
 

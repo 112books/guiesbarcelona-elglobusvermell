@@ -3,6 +3,8 @@ title = "Torre de les Aigües del Besòs"
 draft = false
 
 adreca = "Pl. Ramon Calsina 1 (Selva de Mar)"
+lat = "41.4060918"
+long = "2.2120209"
 projecte_text = "Pere Falqués i Urpí. 1880-1882"
 
 publicacions = ["poblenou"]

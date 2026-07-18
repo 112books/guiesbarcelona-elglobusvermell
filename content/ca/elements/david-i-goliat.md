@@ -3,6 +3,8 @@ title = "«David i Goliat»"
 draft = false
 
 adreca = "Parc de les Cascades"
+lat = "41.3863682"
+long = "2.1944117"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

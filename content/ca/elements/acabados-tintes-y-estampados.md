@@ -3,6 +3,8 @@ title = "Acabados, Tintes y Estampados"
 draft = false
 
 adreca = "Marroc 170-190"
+lat = "41.4147803"
+long = "2.2091020"
 any = "1946"
 
 publicacions = ["poblenou"]

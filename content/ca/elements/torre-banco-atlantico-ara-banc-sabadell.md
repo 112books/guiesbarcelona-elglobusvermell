@@ -3,6 +3,8 @@ title = "Torre Banco Atlántico (ara Banc Sabadell)"
 draft = false
 
 adreca = "Balmes 168-170"
+lat = "41.3875447"
+long = "2.1649652"
 any = "1969"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "Centre Cívic Barceloneta"
 draft = false
 
 adreca = "Conreria 1"
+lat = "41.3802682"
+long = "2.1922881"
 any = "1994"
 
 publicacions = ["barceloneta"]

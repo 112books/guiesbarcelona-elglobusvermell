@@ -3,6 +3,8 @@ title = "Eixos verds de l’Eixample («Superilla»)"
 draft = false
 
 adreca = "Consell de Cent / Girona / Rocafort / Comte Borrell"
+lat = "41.3754015"
+long = "2.1432620"
 any = "2023"
 
 publicacions = ["09-25"]

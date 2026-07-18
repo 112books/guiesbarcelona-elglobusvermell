@@ -3,6 +3,8 @@ title = "Jardí de Cristina Fernández Pereira"
 draft = false
 
 adreca = "Comte d’Urgell, 31 + C. Comte Borrell, 82"
+lat = "41.3805199"
+long = "2.1602735"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

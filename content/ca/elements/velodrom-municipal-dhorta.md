@@ -1,6 +1,8 @@
 +++
 title = "Velòdrom Municipal d’Horta"
 draft = false
+lat = "41.4380824"
+long = "2.1488524"
 
 
 publicacions = ["76-08"]

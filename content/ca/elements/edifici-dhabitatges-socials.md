@@ -3,6 +3,8 @@ title = "Edifici d’habitatges socials"
 draft = false
 
 adreca = "Ulldecona / Cal Cisó / Pontils"
+lat = "41.3518993"
+long = "2.1424376"
 any = "2022"
 
 publicacions = ["09-25"]

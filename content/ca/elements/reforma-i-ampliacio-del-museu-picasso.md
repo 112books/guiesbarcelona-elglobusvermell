@@ -1,6 +1,8 @@
 +++
 title = "Reforma i ampliació del Museu Picasso"
 draft = false
+lat = "41.3849"
+long = "2.1817"
 
 
 publicacions = ["76-08"]

@@ -3,6 +3,8 @@ title = "Jardins de Joana Tomàs"
 draft = false
 
 adreca = "Mallorca, 628+632+636 + C. València, 641+645 + C. Gabriel y Galán, 16+20"
+lat = "41.3835221"
+long = "2.1488440"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

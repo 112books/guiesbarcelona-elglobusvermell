@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Encarnació"
 draft = false
 
 adreca = "Encarnació 140"
+lat = "41.4090624"
+long = "2.1644488"
 any = "1966"
 
 publicacions = ["50-75"]

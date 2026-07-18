@@ -3,6 +3,8 @@ title = "Jardins de Laura Albéniz"
 draft = false
 
 adreca = "C. Pau Claris, 182"
+lat = "41.3961775"
+long = "2.1627466"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Roger de Flor"
 draft = false
 
 adreca = "Roger de Flor 215"
+lat = "41.4013692"
+long = "2.1690866"
 any = "1958"
 
 publicacions = ["50-75"]

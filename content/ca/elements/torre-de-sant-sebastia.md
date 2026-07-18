@@ -3,6 +3,8 @@ title = "Torre de Sant Sebastià"
 draft = false
 
 adreca = "Moll Nou"
+lat = "41.3731601"
+long = "2.1877922"
 any = "1931"
 
 publicacions = ["barceloneta"]

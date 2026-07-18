@@ -3,6 +3,8 @@ title = "Biblioteca Ramon d’Alòs-Moner"
 draft = false
 
 adreca = "Rbla. Prim, 87-89 |"
+lat = "41.4164864"
+long = "2.2118121"
 
 publicacions = ["biblioteques"]
 

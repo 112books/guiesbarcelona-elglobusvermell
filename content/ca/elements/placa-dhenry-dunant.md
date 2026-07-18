@@ -3,6 +3,8 @@ title = "Plaça d’Henry Dunant"
 draft = false
 
 adreca = "Còrsega, 643 + Ptge. Ureña + Ptge. Igualtat + Ptge. París"
+lat = "41.4099234"
+long = "2.1769835"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

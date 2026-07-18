@@ -1,6 +1,8 @@
 +++
 title = "Reforma i millora de les places de Gràcia"
 draft = false
+lat = "41.4016246"
+long = "2.1567108"
 
 
 publicacions = ["76-08"]

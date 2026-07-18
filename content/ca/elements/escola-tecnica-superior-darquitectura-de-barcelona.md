@@ -3,6 +3,8 @@ title = "Escola Tècnica Superior d’Arquitectura de Barcelona"
 draft = false
 
 adreca = "Diagonal 649"
+lat = "41.3844645"
+long = "2.1131020"
 any = "1962"
 
 publicacions = ["50-75"]

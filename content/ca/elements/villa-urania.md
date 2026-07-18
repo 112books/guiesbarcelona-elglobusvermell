@@ -3,6 +3,8 @@ title = "Vil·la Urània"
 draft = false
 
 adreca = "Saragossa, 29"
+lat = "41.4014261"
+long = "2.1498115"
 any = "2014"
 
 publicacions = ["09-25"]

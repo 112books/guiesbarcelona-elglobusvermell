@@ -3,6 +3,8 @@ title = "Hotel Park"
 draft = false
 
 adreca = "Av. Marquès de l’Argentera 11"
+lat = "41.3842359"
+long = "2.1843645"
 any = "1953"
 
 publicacions = ["50-75"]

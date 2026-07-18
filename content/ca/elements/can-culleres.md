@@ -3,6 +3,8 @@ title = "Can Culleres"
 draft = false
 
 adreca = "Pallars 188 + Roc Boronat 72-78"
+lat = "41.4008287"
+long = "2.1975379"
 any = "1947"
 
 publicacions = ["poblenou"]

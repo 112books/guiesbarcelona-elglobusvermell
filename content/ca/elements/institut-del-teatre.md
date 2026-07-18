@@ -3,6 +3,8 @@ title = "Institut del Teatre"
 draft = false
 
 adreca = "Pl. Margarida Xirgu"
+lat = "41.3710179"
+long = "2.1574879"
 any = "2000"
 
 publicacions = ["76-08"]

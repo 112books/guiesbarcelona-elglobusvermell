@@ -3,6 +3,8 @@ title = "Jardins de Sebastià Gasch"
 draft = false
 
 adreca = "C. Rocafort, 87 + C. Entença, 62"
+lat = "41.3777556"
+long = "2.1553280"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

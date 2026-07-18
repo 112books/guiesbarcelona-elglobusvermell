@@ -3,6 +3,8 @@ title = "«Mitgera dels objectes»"
 draft = false
 
 adreca = "Pescadors 85 (davant de la platja, entre Pescadors i Comte de Santa Clara)"
+lat = "41.3761812"
+long = "2.1899793"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

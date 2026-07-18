@@ -3,6 +3,8 @@ title = "Biblioteca Montbau – Albert Pérez Baró"
 draft = false
 
 adreca = "C. Arquitectura, 8 |"
+lat = "41.4292634"
+long = "2.1419734"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["dones-arquitectes"]

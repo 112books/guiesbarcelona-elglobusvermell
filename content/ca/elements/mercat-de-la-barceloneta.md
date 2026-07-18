@@ -3,6 +3,8 @@ title = "Mercat de la Barceloneta"
 draft = false
 
 adreca = "Pl. Poeta Boscà 1"
+lat = "41.3799145"
+long = "2.1893886"
 
 publicacions = ["76-08", "barceloneta", "mercats"]
 

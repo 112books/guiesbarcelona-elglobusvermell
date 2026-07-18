@@ -3,6 +3,8 @@ title = "Fàbrica del Sol"
 draft = false
 
 adreca = "Ginebra + Salvat-Papasseit 1"
+lat = "41.3818020"
+long = "2.1892274"
 any = "1907"
 
 publicacions = ["barceloneta"]

@@ -1,6 +1,8 @@
 +++
 title = "Esplanada Fòrum / Pèrgola fotovoltaica"
 draft = false
+lat = "41.4121019"
+long = "2.2267862"
 
 
 publicacions = ["76-08"]

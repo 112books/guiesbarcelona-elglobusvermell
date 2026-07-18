@@ -3,6 +3,8 @@ title = "Casa Miquel"
 draft = false
 
 adreca = "Maquinista 10"
+lat = "41.3805826"
+long = "2.1882021"
 any = "1920"
 
 publicacions = ["barceloneta"]

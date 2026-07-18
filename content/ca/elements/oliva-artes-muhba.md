@@ -3,6 +3,8 @@ title = "Oliva Artés (MUHBA)"
 draft = false
 
 adreca = "Espronceda, 142-146"
+lat = "41.4079465"
+long = "2.2011750"
 any = "2020"
 
 publicacions = ["09-25"]

@@ -3,6 +3,8 @@ title = "Jardins de Carles Barral"
 draft = false
 
 adreca = "Pg. Taulat, 166+178 + C. Josep Ferrater i Móra, 5 + C. Bac de Roda, 4"
+lat = "41.4029821"
+long = "2.2108095"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

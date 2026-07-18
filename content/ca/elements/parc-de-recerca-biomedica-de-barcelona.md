@@ -3,6 +3,8 @@ title = "Parc de Recerca Biomèdica de Barcelona"
 draft = false
 
 adreca = "Doctor Aiguader 88"
+lat = "41.3851209"
+long = "2.1939907"
 any = "2006"
 
 publicacions = ["barceloneta"]

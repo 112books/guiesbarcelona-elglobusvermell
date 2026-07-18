@@ -1,6 +1,8 @@
 +++
 title = "Seu central de la Diputació de Barcelona"
 draft = false
+lat = "41.3956919"
+long = "2.1577946"
 
 
 publicacions = ["76-08"]

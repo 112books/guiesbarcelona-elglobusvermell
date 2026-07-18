@@ -3,6 +3,8 @@ title = "«Les quatre barres de la senyera catalana»"
 draft = false
 
 adreca = "Pl. Rosa dels Vents 1"
+lat = "41.3685132"
+long = "2.1886289"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

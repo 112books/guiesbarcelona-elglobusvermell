@@ -3,6 +3,8 @@ title = "Jardins de Paula Montal"
 draft = false
 
 adreca = "C. Viladomat, 149"
+lat = "41.3812738"
+long = "2.1552112"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

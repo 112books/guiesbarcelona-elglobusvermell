@@ -1,6 +1,8 @@
 +++
 title = "Biblioteca La Marina del Prat Vermell"
 draft = false
+lat = "41.3520"
+long = "2.1420"
 
 
 publicacions = ["biblioteques"]

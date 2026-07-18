@@ -3,6 +3,8 @@ title = "Arc de La Maquinista Terrestre i Marítima"
 draft = false
 
 adreca = "Maquinista"
+lat = "41.4408218"
+long = "2.1982884"
 any = "1861"
 
 publicacions = ["barceloneta"]

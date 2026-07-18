@@ -3,6 +3,8 @@ title = "Biblioteca Ignasi Iglésias – Can Fabra"
 draft = false
 
 adreca = "C. Segre, 24-32 | Sant Andreu"
+lat = "41.4342783"
+long = "2.1911544"
 
 publicacions = ["biblioteques"]
 edifici_original = "Filatura Fabra i Coats. 1880"

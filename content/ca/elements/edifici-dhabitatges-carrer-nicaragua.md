@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Nicaragua"
 draft = false
 
 adreca = "Nicaragua 97-99"
+lat = "41.4327497"
+long = "2.2185820"
 any = "1965"
 
 publicacions = ["50-75"]

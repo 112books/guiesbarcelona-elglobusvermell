@@ -1,6 +1,8 @@
 +++
 title = "Pla de Palau i Passeig Joan de Borbó"
 draft = false
+lat = "41.3830682"
+long = "2.1837411"
 
 projecte_text = "Olga Tarrasó i Jordi Henrich. 1988-1994"
 

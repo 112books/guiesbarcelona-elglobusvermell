@@ -3,6 +3,8 @@ title = "Club Natació Atlètic-Barceloneta"
 draft = false
 
 adreca = "Pl. del Mar s/n"
+lat = "41.3825802"
+long = "2.1770730"
 any = "1994"
 
 publicacions = ["barceloneta"]

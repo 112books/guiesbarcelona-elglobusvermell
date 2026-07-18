@@ -3,6 +3,8 @@ title = "Biblioteca Xavier Benguerel"
 draft = false
 
 adreca = "Av. del Bogatell, 17 |"
+lat = "41.3927188"
+long = "2.1976827"
 
 publicacions = ["biblioteques"]
 

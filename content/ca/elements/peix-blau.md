@@ -3,6 +3,8 @@ title = "«Peix blau»"
 draft = false
 
 adreca = "Pg. Marítim"
+lat = "41.4425683"
+long = "2.2471012"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

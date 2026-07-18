@@ -3,6 +3,8 @@ title = "Jardins de Jaume Perich"
 draft = false
 
 adreca = "Gran Via, 657 bis"
+lat = "41.3636018"
+long = "2.1338402"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

@@ -3,6 +3,8 @@ title = "Jardins de Montserrat Figueras"
 draft = false
 
 adreca = "C. Còrsega, 195-197"
+lat = "41.3903539"
+long = "2.1509617"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

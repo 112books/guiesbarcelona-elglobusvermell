@@ -3,6 +3,8 @@ title = "Habitatges de Can Culleres"
 draft = false
 
 adreca = "Pallars 299-319 + Lope de Vega 120 + Espronceda 121"
+lat = "41.4079990"
+long = "2.2068565"
 any = "1959"
 
 publicacions = ["poblenou"]

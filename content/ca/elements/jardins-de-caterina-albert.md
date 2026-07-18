@@ -3,6 +3,8 @@ title = "Jardins de Caterina Albert"
 draft = false
 
 adreca = "Rosselló, 395 + Ptge. Mariner"
+lat = "41.4033833"
+long = "2.1705342"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

@@ -3,6 +3,8 @@ title = "Mercat de Santa Caterina i habitatges per ancians"
 draft = false
 
 adreca = "Av. Francesc Cambó, 16"
+lat = "41.3863594"
+long = "2.1781611"
 
 publicacions = ["76-08", "mercats"]
 temes_transversals = ["dones-arquitectes"]

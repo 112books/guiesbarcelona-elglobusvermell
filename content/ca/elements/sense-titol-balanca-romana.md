@@ -3,6 +3,8 @@ title = "«Sense títol» (Balança romana)"
 draft = false
 
 adreca = "Andrea Dòria 32, entre Miquel Boera i Conreria"
+lat = "41.3805926"
+long = "2.1920284"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

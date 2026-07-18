@@ -3,6 +3,8 @@ title = "Habitatges unifamiliars agrupats Ceràmica"
 draft = false
 
 adreca = "Ceràmica s/n"
+lat = "41.4323196"
+long = "2.1407059"
 any = "1968"
 
 publicacions = ["50-75"]

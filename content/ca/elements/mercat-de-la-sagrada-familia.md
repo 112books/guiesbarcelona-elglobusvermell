@@ -3,6 +3,8 @@ title = "Mercat de la Sagrada Família"
 draft = false
 
 adreca = "Padilla, 255"
+lat = "41.4056760"
+long = "2.1770429"
 
 publicacions = ["mercats"]
 

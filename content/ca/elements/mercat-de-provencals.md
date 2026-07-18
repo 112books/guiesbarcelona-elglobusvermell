@@ -3,6 +3,8 @@ title = "Mercat de Provençals"
 draft = false
 
 adreca = "Menorca, 19"
+lat = "41.4194147"
+long = "2.1964703"
 
 publicacions = ["mercats"]
 

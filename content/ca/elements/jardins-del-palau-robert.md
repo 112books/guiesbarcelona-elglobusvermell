@@ -3,6 +3,8 @@ title = "Jardins del Palau Robert"
 draft = false
 
 adreca = "Còrsega, 306-310 + Pg. de Gràcia, 107 + C. Rosselló, 249"
+lat = "41.3938950"
+long = "2.1558648"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, avinguda Meridiana 302"
 draft = false
 
 adreca = "Av. Meridiana 302-312"
+lat = "41.4467264"
+long = "2.1875260"
 any = "1965"
 
 publicacions = ["50-75"]

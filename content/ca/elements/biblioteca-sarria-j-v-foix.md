@@ -1,6 +1,8 @@
 +++
 title = "Biblioteca Sarrià – J. V. Foix"
 draft = false
+lat = "41.4000050"
+long = "2.1221939"
 
 
 publicacions = ["biblioteques"]

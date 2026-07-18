@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, passeig Maragall"
 draft = false
 
 adreca = "Pg. Maragall 243-247"
+lat = "41.4140238"
+long = "2.1810077"
 any = "1959"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "Club Natació Barcelona"
 draft = false
 
 adreca = "Pg. Joan de Borbó 43"
+lat = "41.3779565"
+long = "2.1884462"
 any = "1969"
 
 publicacions = ["barceloneta"]

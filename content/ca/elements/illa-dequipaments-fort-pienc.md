@@ -3,6 +3,8 @@ title = "Illa d’equipaments Fort Pienc"
 draft = false
 
 adreca = "Pl. Fort Pienc, 4-5 | Fort Pienc"
+lat = "41.3957204"
+long = "2.1822919"
 
 publicacions = ["76-08", "biblioteques", "mercats"]
 temes_transversals = ["nomenclator-femeni"]

@@ -3,6 +3,8 @@ title = "Centre de Cultura Contemporània de Barcelona (CCCB)"
 draft = false
 
 adreca = "Montalegre, 5"
+lat = "41.3836930"
+long = "2.1662438"
 
 publicacions = ["76-08"]
 

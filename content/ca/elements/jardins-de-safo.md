@@ -3,6 +3,8 @@ title = "Jardins de Safo"
 draft = false
 
 adreca = "Av. Roma, 20 + C. València, 11 + C. Llançà, 48"
+lat = "41.4618417"
+long = "2.2488335"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

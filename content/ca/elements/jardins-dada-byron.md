@@ -3,6 +3,8 @@ title = "Jardins d’Ada Byron"
 draft = false
 
 adreca = "Diagonal, 175 + Rambla del Poblenou, 137 + C. Tànger, 139+149"
+lat = "41.4048901"
+long = "2.1942804"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

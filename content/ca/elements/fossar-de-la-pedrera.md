@@ -1,6 +1,8 @@
 +++
 title = "Fossar de la Pedrera"
 draft = false
+lat = "41.3558649"
+long = "2.1484581"
 
 any = "1985"
 

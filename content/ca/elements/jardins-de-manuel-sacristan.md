@@ -3,6 +3,8 @@ title = "Jardins de Manuel Sacristán"
 draft = false
 
 adreca = "Pg. Taulat, 196+212 + C. Provençals, 3 + C. Josep Ferrater i Móra, 2"
+lat = "41.4034114"
+long = "2.2105640"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

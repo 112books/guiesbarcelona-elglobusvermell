@@ -3,6 +3,8 @@ title = "Mercat de Sants"
 draft = false
 
 adreca = "Sant Jordi, 6"
+lat = "41.4217418"
+long = "2.1828983"
 
 publicacions = ["mercats"]
 

@@ -3,6 +3,8 @@ title = "Cristalleries Planell"
 draft = false
 
 adreca = "Doctor Ibáñez, 38"
+lat = "41.3865364"
+long = "2.1326724"
 any = "2016"
 
 publicacions = ["76-08"]

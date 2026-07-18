@@ -3,6 +3,8 @@ title = "Jardins de La Sedeta"
 draft = false
 
 adreca = "Sicília, 321 + Ptge. Llavallol"
+lat = "41.4057166"
+long = "2.1677400"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

@@ -3,6 +3,8 @@ title = "Jardins de Carme Biada"
 draft = false
 
 adreca = "C. Bruc, 153 + C. Roger de Llúria, 132"
+lat = "41.3989241"
+long = "2.1632214"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

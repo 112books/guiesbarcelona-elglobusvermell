@@ -3,6 +3,8 @@ title = "Antic Montepio de Sant Pere"
 draft = false
 
 adreca = "Sant Elm 58-62 + Almirall Aixada 4 + Mar 95-99"
+lat = "41.3782033"
+long = "2.1887391"
 any = "1928"
 
 publicacions = ["barceloneta"]

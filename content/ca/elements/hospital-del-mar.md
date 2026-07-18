@@ -3,6 +3,8 @@ title = "Hospital del Mar"
 draft = false
 
 adreca = "Pg. Marítim de la Barceloneta 25-29"
+lat = "41.3838166"
+long = "2.1940355"
 
 publicacions = ["barceloneta"]
 

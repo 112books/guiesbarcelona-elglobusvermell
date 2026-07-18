@@ -3,6 +3,8 @@ title = "Nest City Lab"
 draft = false
 
 adreca = "Àlaba, 100"
+lat = "41.3980527"
+long = "2.1919586"
 any = "2017"
 
 publicacions = ["09-25"]

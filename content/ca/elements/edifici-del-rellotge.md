@@ -3,6 +3,8 @@ title = "Edifici del Rellotge"
 draft = false
 
 adreca = "Roc Boronat 66"
+lat = "41.4001742"
+long = "2.1980940"
 any = "1949"
 
 publicacions = ["poblenou"]

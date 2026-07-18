@@ -3,6 +3,8 @@ title = "Torre Mare Nostrum"
 draft = false
 
 adreca = "Doctor Aiguader 38-54"
+lat = "41.3838528"
+long = "2.1893254"
 any = "2005"
 
 publicacions = ["barceloneta"]

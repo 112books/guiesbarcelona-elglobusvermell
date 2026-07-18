@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Tavern"
 draft = false
 
 adreca = "Tavern 34 / Rector Ubach"
+lat = "41.3989580"
+long = "2.1444593"
 any = "1954"
 
 publicacions = ["50-75"]

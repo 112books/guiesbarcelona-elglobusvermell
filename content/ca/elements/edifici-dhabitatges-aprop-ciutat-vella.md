@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Aprop Ciutat Vella"
 draft = false
 
 adreca = "Nou de Sant Francesc, 10"
+lat = "41.3790300"
+long = "2.1770246"
 any = "2018"
 
 publicacions = ["09-25"]

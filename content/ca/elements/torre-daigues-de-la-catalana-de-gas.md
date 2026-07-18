@@ -3,6 +3,8 @@ title = "Torre d’aigües de la Catalana de Gas"
 draft = false
 
 adreca = "Parc de la Barceloneta"
+lat = "41.3828365"
+long = "2.1924885"
 any = "1906"
 
 publicacions = ["barceloneta"]

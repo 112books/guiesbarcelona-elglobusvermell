@@ -3,6 +3,8 @@ title = "Conjunt residencial Les Cotxeres"
 draft = false
 
 adreca = "Pg. Manuel Girona 75"
+lat = "41.3928390"
+long = "2.1284939"
 any = "1973"
 
 publicacions = ["50-75"]

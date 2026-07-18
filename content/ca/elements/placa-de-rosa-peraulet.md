@@ -3,6 +3,8 @@ title = "Plaça de Rosa Peraulet"
 draft = false
 
 adreca = "Llull, 214 + C. Bilbao, 41-48 + C. Ramon Turró, 201"
+lat = "41.4105220"
+long = "2.2147796"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

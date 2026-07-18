@@ -3,6 +3,8 @@ title = "Habitatges socials Fabra i Coats"
 draft = false
 
 adreca = "Sant Adrià, 20. Recinte Fabra i Coats"
+lat = "41.4282767"
+long = "2.2106995"
 any = "2019"
 
 publicacions = ["09-25"]

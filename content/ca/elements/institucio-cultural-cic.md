@@ -3,6 +3,8 @@ title = "Institució cultural CIC"
 draft = false
 
 adreca = "Via Augusta 205 / Vallmajor"
+lat = "41.3976716"
+long = "2.1388883"
 any = "1961"
 
 publicacions = ["50-75"]

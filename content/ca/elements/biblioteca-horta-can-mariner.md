@@ -3,6 +3,8 @@ title = "Biblioteca Horta – Can Mariner"
 draft = false
 
 adreca = "C. del Vent, 1"
+lat = "41.4312086"
+long = "2.1605059"
 
 publicacions = ["biblioteques", "masies"]
 tipologia = "crugia perpendicular a la façana principal."
