@@ -84,7 +84,18 @@
       var lng = parseFloat(p.long);
       var color = primerColor(p.publicacions);
       var m = L.circleMarker([lat, lng], markerOpts(color));
-      m.bindPopup('<a href="' + p.url + '">' + p.title + '</a>');
+      var popupEl = document.createElement('div');
+      var popupLink = document.createElement('a');
+      popupLink.href = p.url;
+      popupLink.textContent = p.title;
+      popupEl.appendChild(popupLink);
+      if (p.adreca) {
+        var popupAdr = document.createElement('span');
+        popupAdr.className = 'leaflet-popup-adreca';
+        popupAdr.textContent = p.adreca;
+        popupEl.appendChild(popupAdr);
+      }
+      m.bindPopup(popupEl);
       m._dades = p;
       m.on('popupopen', function () {
         if (window.goatcounter && window.goatcounter.count) {
@@ -117,6 +128,24 @@
       }
     }
     fitWhenReady(0);
+
+    // ── Botó de geolocalització ──────────────────────────────────────────
+    if ('geolocation' in navigator) {
+      var geoCtrl = L.control({ position: 'bottomright' });
+      geoCtrl.onAdd = function () {
+        var btn = L.DomUtil.create('button', 'mapa-btn-geo');
+        btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>';
+        btn.setAttribute('aria-label', 'Centrar al meu lloc');
+        btn.setAttribute('title', 'Centrar al meu lloc');
+        L.DomEvent.on(btn, 'click', function (e) {
+          L.DomEvent.stopPropagation(e);
+          map.locate({ setView: true, maxZoom: 17 });
+        });
+        return btn;
+      };
+      geoCtrl.addTo(map);
+      map.on('locationerror', function () {});
+    }
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
     function filtraMapa() {
@@ -437,9 +466,12 @@
       grup.className = 'llistat-grup';
       grup.id = 'grup-' + clau;
 
+      var cosId = 'grup-cos-' + clau;
+
       var capsalera = document.createElement('button');
       capsalera.className = 'llistat-grup-capsalera';
       capsalera.setAttribute('aria-expanded', 'false');
+      capsalera.setAttribute('aria-controls', cosId);
 
       if (grupPer === 'any') {
         capsalera.innerHTML =
@@ -461,6 +493,7 @@
       grup.appendChild(capsalera);
 
       var llista = document.createElement('ul');
+      llista.id = cosId;
       llista.className = 'llistat-grup-elements';
       llista.setAttribute('role', 'list');
 
@@ -568,18 +601,22 @@
     var h2s = Array.from(desc.querySelectorAll('h2'));
     if (h2s.length === 0) return;
 
-    h2s.forEach(function (h2) {
+    h2s.forEach(function (h2, i) {
       var grup = document.createElement('div');
       grup.className = 'llistat-grup';
+
+      var cosId = 'desc-cos-' + i;
 
       var btn = document.createElement('button');
       btn.className = 'llistat-grup-capsalera';
       btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-controls', cosId);
       btn.innerHTML =
         '<span class="llistat-grup-any">' + h2.textContent.trim() + '</span>' +
         '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
 
       var cos = document.createElement('div');
+      cos.id = cosId;
       cos.className = 'llistat-grup-elements';
       cos.style.padding = '0 0 0.5rem';
 
