@@ -216,8 +216,12 @@
       pubsBtns.className = 'filtre-botos';
 
       var btnTots = document.createElement('button');
-      btnTots.innerHTML = 'Tots <span class="filtre-btn-count">(' + totsElsElements.length + ')</span>';
       btnTots.className = 'filtre-btn filtre-tots actiu';
+      btnTots.appendChild(document.createTextNode('Tots '));
+      var btnTotsCount = document.createElement('span');
+      btnTotsCount.className = 'filtre-btn-count';
+      btnTotsCount.textContent = '(' + totsElsElements.length + ')';
+      btnTots.appendChild(btnTotsCount);
       btnTots.addEventListener('click', function () {
         var nouEstat = !Object.values(filtresMapa.pub).every(Boolean);
         Object.keys(filtresMapa.pub).forEach(function (s) { filtresMapa.pub[s] = nouEstat; });
@@ -238,9 +242,14 @@
         btn.setAttribute('data-pub', slug);
         btn.className = 'filtre-btn actiu';
         btn.style.setProperty('--pub-color', pubs[slug].color || '#888');
+        btn.appendChild(document.createTextNode(pubs[slug].titol || slug));
         var n = comptesPerPub[slug] || 0;
-        btn.innerHTML = (pubs[slug].titol || slug) +
-          (n ? ' <span class="filtre-btn-count">(' + n + ')</span>' : '');
+        if (n) {
+          var btnCount = document.createElement('span');
+          btnCount.className = 'filtre-btn-count';
+          btnCount.textContent = ' (' + n + ')';
+          btn.appendChild(btnCount);
+        }
         btn.addEventListener('click', function () {
           filtresMapa.pub[slug] = !filtresMapa.pub[slug];
           filtraMapa();
@@ -487,8 +496,9 @@
 
       capsalera.addEventListener('click', function () {
         var expanded = this.getAttribute('aria-expanded') === 'true';
-        this.setAttribute('aria-expanded', !expanded);
+        this.setAttribute('aria-expanded', String(!expanded));
         grup.classList.toggle('obert', !expanded);
+        llista.style.maxHeight = expanded ? '' : llista.scrollHeight + 'px';
       });
       grup.appendChild(capsalera);
 
@@ -504,24 +514,44 @@
         li.setAttribute('data-any', p.any || '');
         li.setAttribute('data-arquitectes', (p.arquitectes || []).join(','));
 
-        var pubsHtml = '';
-        if (grupPer !== 'any' && p.publicacions && p.publicacions.length) {
-          pubsHtml = '<span class="llistat-element-pubs">' +
-            p.publicacions.map(function (slug) {
-              var c = (pubs[slug] && pubs[slug].color) ? pubs[slug].color : '#888';
-              return '<span class="llistat-element-pub" style="background:' + c + '"></span>';
-            }).join('') + '</span>';
+        var a = document.createElement('a');
+        a.href = p.url;
+        a.className = 'llistat-element-link';
+
+        var titolEl = document.createElement('span');
+        titolEl.className = 'llistat-element-titol';
+        titolEl.textContent = p.title;
+        a.appendChild(titolEl);
+
+        var metaEl = document.createElement('span');
+        metaEl.className = 'llistat-element-meta';
+        if (p.adreca) {
+          var adrEl = document.createElement('span');
+          adrEl.className = 'llistat-element-adreca';
+          adrEl.textContent = p.adreca;
+          metaEl.appendChild(adrEl);
         }
+        if (grupPer !== 'any' && p.any) {
+          var anyEl = document.createElement('span');
+          anyEl.className = 'llistat-element-any';
+          anyEl.textContent = String(p.any);
+          metaEl.appendChild(anyEl);
+        }
+        a.appendChild(metaEl);
+        li.appendChild(a);
 
-        var adrecaHtml = p.adreca ? '<span class="llistat-element-adreca">' + p.adreca + '</span>' : '';
-        var anyHtml = (grupPer !== 'any' && p.any) ? '<span class="llistat-element-any">' + p.any + '</span>' : '';
-
-        li.innerHTML =
-          '<a href="' + p.url + '" class="llistat-element-link">' +
-            '<span class="llistat-element-titol">' + p.title + '</span>' +
-            '<span class="llistat-element-meta">' + adrecaHtml + anyHtml + '</span>' +
-          '</a>' +
-          pubsHtml;
+        if (grupPer !== 'any' && p.publicacions && p.publicacions.length) {
+          var pubsEl = document.createElement('span');
+          pubsEl.className = 'llistat-element-pubs';
+          p.publicacions.forEach(function (slug) {
+            var c = (pubs[slug] && pubs[slug].color) ? pubs[slug].color : '#888';
+            var dot = document.createElement('span');
+            dot.className = 'llistat-element-pub';
+            dot.style.background = c;
+            pubsEl.appendChild(dot);
+          });
+          li.appendChild(pubsEl);
+        }
 
         llista.appendChild(li);
       });
@@ -632,6 +662,7 @@
         var expanded = this.getAttribute('aria-expanded') === 'true';
         this.setAttribute('aria-expanded', String(!expanded));
         grup.classList.toggle('obert', !expanded);
+        cos.style.maxHeight = expanded ? '' : cos.scrollHeight + 'px';
       });
 
       grup.appendChild(btn);
@@ -647,8 +678,11 @@
     // La primera secció de la descripció es mostra expandida per defecte
     var primerGrupDesc = document.querySelector('.publicacio-descripcio .llistat-grup');
     if (primerGrupDesc) {
-      primerGrupDesc.querySelector('.llistat-grup-capsalera').setAttribute('aria-expanded', 'true');
+      var primerBtn = primerGrupDesc.querySelector('.llistat-grup-capsalera');
+      var primerCos = primerGrupDesc.querySelector('.llistat-grup-elements');
+      primerBtn.setAttribute('aria-expanded', 'true');
       primerGrupDesc.classList.add('obert');
+      if (primerCos) primerCos.style.maxHeight = primerCos.scrollHeight + 'px';
     }
   }
 })();

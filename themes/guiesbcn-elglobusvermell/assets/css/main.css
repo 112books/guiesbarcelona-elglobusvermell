@@ -647,10 +647,6 @@ main {
   transition: max-height 0.3s ease;
 }
 
-.llistat-grup.obert .llistat-grup-elements {
-  max-height: 5000vh;
-}
-
 .llistat-element {
   display: flex;
   align-items: center;
