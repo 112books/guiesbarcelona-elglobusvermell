@@ -1174,6 +1174,35 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   max-width: 70ch;
 }
 
+.publicacio-descripcio ul,
+.publicacio-descripcio ol {
+  margin: 0 0 0.75rem;
+  padding-left: 1.5rem;
+  max-width: 70ch;
+}
+
+.publicacio-descripcio li {
+  margin-bottom: 0.25rem;
+  line-height: 1.6;
+}
+
+.publicacio-descripcio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  margin: var(--space-md) 0;
+}
+
+.publicacio-descripcio a {
+  color: var(--color-accent);
+}
+
+.publicacio-descripcio h3 {
+  font-size: 1.1rem;
+  margin-top: var(--space-md);
+  margin-bottom: 0.5rem;
+}
+
 /* Navegació de tornada */
 .publicacio-nav {
   margin-top: var(--space-lg);
