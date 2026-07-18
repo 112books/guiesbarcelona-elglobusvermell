@@ -12,8 +12,9 @@
   // template el publica (pàgines de publicació), si no, usa MAPA_PUNTS
   var totsElsElements = window.TOTS_ELEMENTS || punts.slice();
 
-  // Elements amb coordenades vàlides (pel mapa)
-  var elementsMapa = totsElsElements.filter(function (p) {
+  // Elements amb coordenades vàlides (pel mapa): sempre des de MAPA_PUNTS
+  // (TOTS_ELEMENTS no té lat/long, per això no s'usa aquí)
+  var elementsMapa = punts.filter(function (p) {
     var lat = parseFloat(p.lat);
     var lng = parseFloat(p.long);
     return isFinite(lat) && isFinite(lng) && !(lat === 0 && lng === 0);
