@@ -597,6 +597,12 @@ main {
   width: 2rem;
 }
 
+.llistat-grup-any {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
 .llistat-grup-count {
   font-size: 0.8125rem;
   color: #888;
