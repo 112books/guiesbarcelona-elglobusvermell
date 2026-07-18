@@ -8,8 +8,9 @@
   //  DADES
   // ══════════════════════════════════════════════════════════════════════════
 
-  // Tots els elements (amb i sense coordenades)
-  var totsElsElements = punts.slice();
+  // Tots els elements (amb i sense coordenades): usa TOTS_ELEMENTS si el
+  // template el publica (pàgines de publicació), si no, usa MAPA_PUNTS
+  var totsElsElements = window.TOTS_ELEMENTS || punts.slice();
 
   // Elements amb coordenades vàlides (pel mapa)
   var elementsMapa = totsElsElements.filter(function (p) {
@@ -256,6 +257,8 @@
   var llistatGrups = document.getElementById("llistat-grups");
 
   // Estat dels filtres de cerca
+  var grupPer = window.LLISTAT_GRUP || 'lletra'; // 'lletra' o 'any'
+
   var filtresCerca = {
     texte: '',
     decada: '',
@@ -362,55 +365,80 @@
     cercaFiltres.appendChild(controls);
   }
 
-  // ── Construir llistat alfabètic ────────────────────────────────────────
+  // ── Construir llistat (alfabètic o per any) ───────────────────────────
   function construeixLlistat() {
     if (!llistatGrups) return;
 
-    // Agrupar per lletra
     var grups = {};
-    var ordreLletres = [];
-    totsElsElements.forEach(function (p) {
-      var lletra = p.title.charAt(0).toUpperCase();
-      if (!/^[A-Z]$/.test(lletra)) lletra = '#';
-      if (!grups[lletra]) {
-        grups[lletra] = [];
-        ordreLletres.push(lletra);
-      }
-      grups[lletra].push(p);
-    });
+    var ordreClaus = [];
 
-    ordreLletres.sort();
+    if (grupPer === 'any') {
+      // Agrupar per any, ordenat cronològicament
+      totsElsElements.forEach(function (p) {
+        var clau = p.any ? String(p.any) : '(sense any)';
+        if (!grups[clau]) { grups[clau] = []; ordreClaus.push(clau); }
+        grups[clau].push(p);
+      });
+      ordreClaus.sort(function (a, b) {
+        var na = parseInt(a), nb = parseInt(b);
+        if (isNaN(na) && isNaN(nb)) return 0;
+        if (isNaN(na)) return 1;
+        if (isNaN(nb)) return -1;
+        return na - nb;
+      });
+    } else {
+      // Agrupar per primera lletra
+      totsElsElements.forEach(function (p) {
+        var clau = p.title.charAt(0).toUpperCase();
+        if (!/^[A-Z]$/.test(clau)) clau = '#';
+        if (!grups[clau]) { grups[clau] = []; ordreClaus.push(clau); }
+        grups[clau].push(p);
+      });
+      ordreClaus.sort();
+    }
 
-    // Index de lletres
+    // Index de lletres (sols en mode alfabètic)
     if (llistatIndex) {
       llistatIndex.innerHTML = '';
-      ordreLletres.forEach(function (lletra) {
-        if (lletra === '#') return;
-        var link = document.createElement('a');
-        link.href = '#lletra-' + lletra;
-        link.className = 'llistat-lletra';
-        link.setAttribute('data-lletra', lletra);
-        link.innerHTML = lletra + '<span class="llistat-lletra-count">' + grups[lletra].length + '</span>';
-        llistatIndex.appendChild(link);
-      });
+      if (grupPer !== 'any') {
+        ordreClaus.forEach(function (clau) {
+          if (clau === '#') return;
+          var link = document.createElement('a');
+          link.href = '#grup-' + clau;
+          link.className = 'llistat-lletra';
+          link.setAttribute('data-lletra', clau);
+          link.innerHTML = clau + '<span class="llistat-lletra-count">' + grups[clau].length + '</span>';
+          llistatIndex.appendChild(link);
+        });
+      }
     }
 
     // Grups
     llistatGrups.innerHTML = '';
-    ordreLletres.forEach(function (lletra) {
-      var elements = grups[lletra];
+    ordreClaus.forEach(function (clau) {
+      var elements = grups[clau];
 
       var grup = document.createElement('div');
       grup.className = 'llistat-grup';
-      grup.id = 'lletra-' + lletra;
+      grup.id = 'grup-' + clau;
 
       var capsalera = document.createElement('button');
       capsalera.className = 'llistat-grup-capsalera';
-      capsalera.setAttribute('aria-expanded', 'false');
-      capsalera.innerHTML =
-        '<span class="llistat-grup-lletra">' + lletra + '</span>' +
-        '<span class="llistat-grup-count">' + elements.length + ' elements</span>' +
-        '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+      capsalera.setAttribute('aria-expanded', 'true');
+      grup.classList.add('obert');
+
+      if (grupPer === 'any') {
+        capsalera.innerHTML =
+          '<span class="llistat-grup-any">' + clau + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
+          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+      } else {
+        capsalera.innerHTML =
+          '<span class="llistat-grup-lletra">' + clau + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' elements</span>' +
+          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+      }
+
       capsalera.addEventListener('click', function () {
         var expanded = this.getAttribute('aria-expanded') === 'true';
         this.setAttribute('aria-expanded', !expanded);
@@ -430,7 +458,7 @@
         li.setAttribute('data-arquitectes', (p.arquitectes || []).join(','));
 
         var pubsHtml = '';
-        if (p.publicacions && p.publicacions.length) {
+        if (grupPer !== 'any' && p.publicacions && p.publicacions.length) {
           pubsHtml = '<span class="llistat-element-pubs">' +
             p.publicacions.map(function (slug) {
               var c = (pubs[slug] && pubs[slug].color) ? pubs[slug].color : '#888';
@@ -439,7 +467,7 @@
         }
 
         var adrecaHtml = p.adreca ? '<span class="llistat-element-adreca">' + p.adreca + '</span>' : '';
-        var anyHtml = p.any ? '<span class="llistat-element-any">' + p.any + '</span>' : '';
+        var anyHtml = (grupPer !== 'any' && p.any) ? '<span class="llistat-element-any">' + p.any + '</span>' : '';
 
         li.innerHTML =
           '<a href="' + p.url + '" class="llistat-element-link">' +

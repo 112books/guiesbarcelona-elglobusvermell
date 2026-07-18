@@ -14,24 +14,13 @@
     {{ with .Params.edicio }}<p class="publicacio-edicio">Edició {{ . }}</p>{{ end }}
   </header>
 
-  <div class="publicacio-descripcio">
-    {{ .Content }}
-  </div>
-
   {{ if .Pages }}
   <section class="publicacio-edificis">
-    <h2>Edificis d'aquesta publicació ({{ len .Pages }})</h2>
-
     <div class="mapa-contenidor" id="mapa-contenidor">
       <div id="mapa" class="mapa-el"></div>
     </div>
 
-    <div id="mapa-filtres" class="mapa-filtres-wrap"></div>
-
-    <div id="cerca-filtres" class="cerca-filtres-wrap"></div>
-
-    <section class="llistat-alfabetic" id="llistat">
-      <nav class="llistat-index" id="llistat-index" aria-label="Índex alfabètic"></nav>
+    <section class="llistat-cronologic" id="llistat">
       <div id="llistat-grups"></div>
     </section>
   </section>
@@ -39,29 +28,33 @@
   <p class="publicacio-buit">Encara no hi ha fitxes d'edificis importades per aquesta publicació.</p>
   {{ end }}
 
+  <div class="publicacio-descripcio">
+    {{ .Content }}
+  </div>
+
   <nav class="publicacio-nav" aria-label="Navegació">
     <a href="{{ absURL "/publicacions/" }}">← Totes les publicacions</a>
   </nav>
 
 </article>
 
-{{/* Dades pel JavaScript — mateix format que index.html, escopat als
-     edificis d'aquesta publicació via .Pages (Hugo ho fa automàticament
-     en una pàgina de terme de taxonomia) */}}
+{{/* Dades pel JavaScript */}}
 {{ $punts := slice }}
+{{ $tots  := slice }}
 {{ range .Pages }}
   {{ $page := . }}
+  {{ $entry := dict
+    "title"             $page.Title
+    "url"               $page.Permalink
+    "publicacions"      $page.Params.publicacions
+    "temes_transversals" $page.Params.temes_transversals
+    "arquitectes"       $page.Params.arquitectes
+    "any"               $page.Params.any
+    "adreca"            $page.Params.adreca
+  }}
+  {{ $tots = $tots | append $entry }}
   {{ with $page.Params.lat }}
-    {{ $punts = $punts | append (dict
-      "title"      $page.Title
-      "lat"        .
-      "long"       $page.Params.long
-      "url"        $page.Permalink
-      "publicacions" $page.Params.publicacions
-      "temes_transversals" $page.Params.temes_transversals
-      "arquitectes" $page.Params.arquitectes
-      "any"        $page.Params.any
-    ) }}
+    {{ $punts = $punts | append (merge $entry (dict "lat" . "long" $page.Params.long)) }}
   {{ end }}
 {{ end }}
 
@@ -78,8 +71,10 @@
 {{ end }}
 
 <script>
-window.MAPA_PUNTS         = {{ $punts      | jsonify | safeJS }};
-window.PUBLICACIONS       = {{ $pubsData   | jsonify | safeJS }};
-window.TEMES_TRANSVERSALS = {{ $temesData  | jsonify | safeJS }};
+window.MAPA_PUNTS         = {{ $punts    | jsonify | safeJS }};
+window.TOTS_ELEMENTS      = {{ $tots     | jsonify | safeJS }};
+window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
+window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
+window.LLISTAT_GRUP       = 'any';
 </script>
 {{ end }}
