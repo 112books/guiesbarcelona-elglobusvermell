@@ -526,6 +526,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
+  align-items: center;
   margin-bottom: var(--space-md);
   padding: 0.75rem;
   background: #f8f9fa;
@@ -534,6 +535,20 @@ main {
   top: var(--header-height);
   z-index: 10;
 }
+
+.llistat-total-mapa {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+}
+.llistat-total-mapa svg { color: var(--pub-color, #888); flex-shrink: 0; }
+.llistat-total-mapa strong { color: #333; }
+.llistat-total-mapa-rest { color: #999; }
 
 .llistat-lletra {
   display: flex;
