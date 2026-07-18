@@ -101,7 +101,9 @@ Antoni Tàpies (Barcelona, 1923-2012) va assolir de ben jove un gran reconeixeme
 
 ## Masies de Barcelona. 2025
 
-*(Descripció pendent de confirmar amb el web original.)*
+En el dens teixit urbà de la Barcelona actual, encara s'hi amaguen discretament algunes estructures que ens remeten a un paisatge molt diferent: les masies. Amb orígens que es remunten a l'edat mitjana, aquestes edificacions van ser durant segles el centre de l'activitat agrícola i ramadera. Entre els segles XVIII i XIX, moltes van deixar de ser centres de producció agropecuària per convertir-se en residències d'estiueig de famílies benestants, fet que comportà reformes profundes que en distorsionen la lectura com a masia tradicional.
+
+Aquesta publicació posa en valor les antigues masies encara existents a la ciutat com a peces clau d'un relat que ens ajuda a comprendre l'evolució del paisatge i de la societat barcelonina i a recordar les nostres arrels rurals.
 
 [Llegeix-ne més →](/publicacions/masies/)
 
