@@ -675,6 +675,25 @@
   construeixLlistat();
   if (grupPer === 'any') {
     construeixDescripcioAccordio();
+
+    // Injecta el llistat dinàmic (#llistat) dins l'acordió amb títol "Llistat"
+    var listatEl = document.getElementById('llistat');
+    if (listatEl) {
+      var descGrups = document.querySelectorAll('.publicacio-descripcio .llistat-grup');
+      var listatGrup = null;
+      descGrups.forEach(function (g) {
+        var title = g.querySelector('.llistat-grup-any');
+        if (title && /llistat/i.test(title.textContent.trim())) listatGrup = g;
+      });
+      if (listatGrup) {
+        var listatCos = listatGrup.querySelector('.llistat-grup-elements');
+        if (listatCos) {
+          listatEl.removeAttribute('aria-hidden');
+          listatCos.appendChild(listatEl);
+        }
+      }
+    }
+
     // La primera secció de la descripció es mostra expandida per defecte
     var primerGrupDesc = document.querySelector('.publicacio-descripcio .llistat-grup');
     if (primerGrupDesc) {
