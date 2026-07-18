@@ -11,7 +11,7 @@ La seva diversitat arquitectònica reflecteix la història de la ciutat, i el se
 
 Per tot això, aquesta publicació en proposa una mirada històrica, arquitectònica, urbanística i social.
 
-HISTÒRIA DE LES BIBLIOTEQUES I ORIGEN DE L’ACTUAL MODEL A CATALUNYA
+*Història de les biblioteques i origen de l’actual model a Catalunya*
 
 Les biblioteques públiques de Barcelona són una de les grans infraestructures culturals de la ciutat: una extensa xarxa distribuïda de manera homogènia que garanteix l’accés al coneixement i a la cultura a tota la ciutadania. La seva arquitectura mostra una rica diversitat estilística, marcada per la història de la ciutat, i els edificis, nous o reformats, més enllà de custodiar llibres, són espais oberts, lluminosos i plenament integrats en la vida quotidiana dels barris. Tanmateix, aquest model no s’entén sense una història que comença molt abans, amb les primeres formes de custòdia i transmissió del saber, i que evoluciona fins a arribar al sistema actual.
 
@@ -27,9 +27,9 @@ El projecte de la Mancomunitat es fonamenta en tres eixos clau: edificis funcion
 
 Aquesta xarxa de biblioteques, interrompuda per la dictadura de Primo de Rivera, reimpulsada per la Segona República —durant la qual es construeix a Barcelona la Biblioteca Infantil de la plaça de les Palmeres, projectada pel GATCPAC amb criteris racionalistes— i aturada de nou pel franquisme, establí les bases d’un model avançat, capaç de connectar amb les necessitats educatives i culturals del moment. L’actual xarxa de biblioteques municipals és hereva d’aquell llegat i continua creixent per arribar a tots els barris.
 
-## La Xarxa De Biblioteques De Barcelona
+## La xarxa de biblioteques de Barcelona
 
-## Model I Objectius
+### Model i objectius
 
 Passades la dictadura franquista i la Transició, l’entrada en vigor de la primera Llei de Biblioteques, de 1981, i les «Normes catalanes per a biblioteques públiques» permeten al sistema bibliotecari català guanyar estabilitat i estructura.
 
@@ -43,7 +43,7 @@ A partir d’aquí la consolidació de la xarxa de biblioteques a Barcelona és 
 
 L’actual Pla Director de Biblioteques de Barcelona 2030, que preveu augmentar la xarxa fins a 45 biblioteques, forma part del Pla de Drets Culturals de Barcelona i defineix una missió clara: garantir el dret a la lectura, al coneixement i a la innovació com a elements fonamentals de la vida democràtica, a través de biblioteques com a espais de formació, participació, accés digital i cohesió social. Així, el Pla 2030 estableix com a objectiu mantenir i reforçar el compromís de distribuir les biblioteques de manera uniforme per tots els barris, per garantir-hi un accés homogeni, amb visió de proximitat i equitat. Alhora també fixa línies d’actuació per fomentar la cocreació de continguts, contribuir a la inclusió digital, promoure el diàleg entre ciutadania i institucions i oferir activitats culturals per a tots els públics.
 
-## Arquitectura Al Servei Del Coneixement
+### Arquitectura al servei del coneixement
 
 A principis del segle xx, la Mancomunitat fixa un principi avui encara vigent: la biblioteca com a infraestructura cívica amb edifici propi, funcional i reconeixible. Aquell llegat continua vigent a Barcelona: l’arquitectura de les biblioteques és part inseparable del projecte cultural i social que representen.
 
@@ -65,7 +65,7 @@ En tots aquests edificis, el resultat mai no és neutre: els espais, la llum nat
 
 La xarxa de biblioteques és, doncs, una mostra excepcional d’arquitectura que acull un dels serveis públics més ben valorats per la ciutadania.
 
-ELS NOMS DE LES BIBLIOTEQUES. Memòria i identitat
+*Els noms de les biblioteques. Memòria i identitat*
 
 La manera d’anomenar les biblioteques explica també l’evolució del servei. En una primera etapa predominaven les denominacions toponímiques: el nom del barri, del districte o d’un lloc reconeixible servia per assenyalar la biblioteca com a equipament de proximitat i vinculat al territori. Amb el temps, guanya pes la voluntat d’associar els centres amb figures de la cultura i de la història, sobretot literàries. Aquesta opció no només aporta un referent simbòlic, sinó que es tradueix en la creació de fons especialitzats i en l’organització d’activitats que mantenen viva la memòria de l’autor o autora.
 
@@ -75,9 +75,9 @@ El 8 de març de 2024 suposa un salt endavant en aquesta política: de cop, set 
 
 Els noms de les biblioteques, per tant, no són un mer detall administratiu: es pretén que el nomenclàtor esdevingui política pública de memòria, alhora que reconeix trajectòries, reequilibra dèficits històrics i ajuda els barris a reconèixer-se en els seus equipaments culturals.
 
-## Altres Biblioteques
+## Altres biblioteques
 
-## Biblioteques Singulars
+### Biblioteques singulars
 
 A Barcelona hi ha altres biblioteques a més de les gestionades pel Consorci: les dels museus i centres culturals, les universitàries, les d’institucions públiques, les dels col·legis professionals i les d’entitats privades. Totes responen a necessitats diferents i custodien fons especialitzats.
 
@@ -95,7 +95,7 @@ També destaca, en aquest cas per la seva absència, la Biblioteca Pública de l
 
 Finalment, cal mencionar la del Col·legi d’Arquitectes (COAC) i la de l’Escola d’Arquitectura (ETSAB) per la importància dels seus fons especialitzats en arquitectura.
 
-## Les Biblioteques Socials
+### Les biblioteques socials
 
 Barcelona també acull una part important de la Xarxa de Biblioteques Socials, que complementen la resta de biblioteques i que funcionen amb dinàmiques molt diferents. En general, es tracta de col·leccions nascudes des de l’associacionisme, les entitats veïnals i els moviments obrers i alternatius, i sovint són creades per conservar i difondre materials especialitzats que difícilment trobarien espai en institucions oficials.
 
@@ -118,28 +118,6 @@ Fundació Salvador Seguí. Can Batlló. Constitució, 19, bloc 2
 Biblioteca Nova Babilònia. Nau Bostik. Ferran Turné, 1-11
 
 ## Llistat
-
-Ciutat Vella
-
-Eixample
-
-Sants – Montjuïc
-
-Les Corts
-
-Sarrià – Sant Gervasi
-
-Gràcia
-
-Horta-Guinardó
-
-Nou Barris
-
-Sant Andreu
-
-Sant Martí
-
-Altres biblioteques
 
 ## Plànol Descarregable
 

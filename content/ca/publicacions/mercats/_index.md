@@ -3,7 +3,7 @@ title: "Mercats de Barcelona"
 edicio: 2019
 ---
 
-L’EVOLUCIÓ URBANA DE BARCELONA I EL CREIXEMENT DE LA XARXA DE MERCATS
+*L’evolució urbana de Barcelona i el creixement de la xarxa de mercats*
 
 Tot al llarg de la història els mercats han estat, aquí i arreu, una part important de la vida de les ciutats, els indrets on tenien lloc les transaccions comercials, tant d’aliments com d’altres tipus de productes. Mentre els artesans es concentraven en determinades zones de les ciutats, agricultors, ramaders i altres comerciants es reunien en llocs més específics: els mercats.
 
@@ -25,29 +25,29 @@ Així, amb el ple convenciment que cal preservar i fomentar aquestes qualitats, 
 
 Tanmateix, el repte continua sent com adaptar-se als temps i seguir sent atractius per al públic sense deixar de ser el que són, mercats d’alimentació. Precisament el Pla Estratègic 2015-2025 pretén respondre a la necessitat de renovar el model per fer front a noves dinàmiques econòmiques, socials i tecnològiques.
 
-## L’Arquitectura Dels Mercats
+## L’arquitectura dels mercats
 
 La diversitat arquitectònica dels mercats de Barcelona és un reflex de la història de la ciutat i de l’evolució de les tècniques constructives: des de les elegants arquitectures de ferro pròpies dels mercats històrics fins a les estructures de formigó armat tan característiques dels mercats dels barris construïts als anys seixanta i setanta.
 
-Primers mercats (mitjan segle XIX)
+### Primers mercats (mitjan segle XIX)
 
 Els dos primers mercats municipals de Barcelona, el de Sant Josep o la Boqueria i el de Santa Caterina, presenten unes característiques que els diferencien de tots els que vindran després. Del mercat de la Boqueria destaca la plaça neoclàssica, porticada, amb grans columnes jòniques, que l’envolta en tres dels seus costats. Del de Santa Caterina, la façana blanca amb la successió d’arcs d’entrada i la balustrada contínua de coronament superior.
 
-Mercats de ferro i obra de fàbrica (finals del segle XIX – inici del segle XX)
+### Mercats de ferro i obra de fàbrica (finals del segle XIX – inici del segle XX)
 
 L’aprovació i el desenvolupament de l’Eixample d’Ildefons Cerdà propicia el veritable desplegament de la xarxa de grans mercats coberts.
 
 Els primers es construeixen durant l’últim quart del segle xix i principis del segle xx sota la influència de l’arquitectura del ferro provinent d’Anglaterra i França. Tots ells presenten esveltes estructures de ferro forjat, amplis i diàfans espais interiors, cobertes gairebé sempre ceràmiques i façanes on els murs de pedra i totxo, sovint finament treballats, es combinen amb obertures recobertes amb làmines de fusta per tamisar la llum però deixar-hi córrer l’aire.
 
-Mercats de formigó (mitjan segle XX)
+### Mercats de formigó (mitjan segle XX)
 
 Després d’unes dècades durant les quals gairebé no s’obren nous mercats, ja en ple franquisme es produeix un nou creixement de la xarxa. A diferència dels precedents, aquests són de dimensions més reduïdes i, en lloc d’estructures metàl·liques, fan servir el material de construcció més característic del segle xx, el formigó armat. Solen ser edificis menys interessants des d’un punt de vista arquitectònic, però en alguns destaquen les textures de les façanes de formigó o les lluernes de les cobertes.
 
-Mercats d’estructures diverses i grans remodelacions (inici del segle xxi)
+### Mercats d’estructures diverses i grans remodelacions (inici del segle XXI)
 
 La política de modernització i posada al dia dels mercats municipals es fa a partir d’uns objectius generals comuns. Això no obstant, cada mercat requereix una actuació particular, adequada a les característiques de l’edifici i l’entorn, i això implica importants diferències entre els diversos projectes. En alguns casos s’hi han fet intervencions més superficials, de manteniment i actualització, i en altres s’hi han dut a terme obres molt més importants, com en el cas de Sant Antoni. També hi ha alguns casos on el mercat ha mantingut l’emplaçament però s’hi ha fet un edifici tot nou.
 
-## Els Mercats No Alimentaris
+## Els mercats no alimentaris
 
 Les primeres referències al mercat dels Encants daten del segle xiv, però no és fins al 1928 que se situa al nord de la plaça de les Glòries Catalanes. I allà s’hi està com un mercat brocanter a l’aire lliure durant gairebé cent anys. El mercat es fa tan popular ―rep uns 100.000 clients setmanals― que es converteix en un mercat únic per al reciclatge i la venda d’articles d’ocasió.
 
@@ -63,7 +63,7 @@ La reforma del mercat de Sant Antoni i la creació de la superilla al seu entorn
 
 Finalment, les parades de flors de les Rambles també són considerades un mercat especialitzat a l’aire lliure, tot i que depenen del mercat de la Boqueria. Es té constància que al segle xiii ja hi havia venedores de flors a la Rambla, però no és fins mitjan segle xix que s’hi estableixen les primeres parades. Originalment les parades simplement disposaven de cavallets i taulons de fusta, que al vespre es recollien i d
 
-## Dades Estadístiques
+## Dades estadístiques
 
 Barcelona
 
@@ -107,41 +107,41 @@ Avui en dia Mercabarna és una gran ciutat alimentària de més de 90 hectàrees
 
 ## Llistat
 
-Ciutat Vella
+### Ciutat Vella
 
 La Boqueria i Santa Caterina van ser els dos primers mercats oberts a la ciutat, abans que s’enderroqués la muralla i es projectés l’Eixample.
 
 Anys més tard, el mercat del Born va ser el primer gran exemple d’arquitectura del ferro a Barcelona. Entre 1921 i 1971 va funcionar com el mercat majorista de fruita i verdura de la ciutat, però amb l’obertura de Mercabarna, l’activitat es va traslladar allà. Actualment el Born és un centre cultural i de memòria on es poden observar les restes de la ciutat medieval arrasada a principis del segle xviii, després de la derrota a la guerra de Successió (1701-1714).
 
-Eixample
+### Eixample
 
 El projecte d’Ildefons Cerdà per a l’Eixample de Barcelona (1859) preveia que per cada grup de 10 x 10 illes la central tingués un mercat i altres equipaments públics. Això mai va ser exactament així, però no obstant el districte disposa de cinc mercats distribuïts homogèniament, que van des del més gran de la ciutat (Sant Antoni) al més recent i, alhora, un dels més petits (Fort Pienc). A més, quatre d’aquests mercats (Sant Antoni, Concepció, Sagrada Família i Fort Pienc) es troben en illes (o superilles) amb una àmplia varietat d’equipaments públics que aglutinen una rica vida social al seu entorn.
 
-Antics municipis
+### Antics municipis
 
 La majoria dels antics municipis del pla de Barcelona no es van agregar al terme municipal de la ciutat fins al 1897 (Horta ho farà el 1904 i Sarrià, el 1921). Però mentre encara eren poblacions independents, la majoria d’elles ja aixecaren els seus propis mercats municipals, tot seguint l’estil del moment, basat en esveltes estructures de ferro i espais d’àmplies dimensions.
 
 Més endavant, ja en ple segle xx, el desenvolupament d’aquests barris va fer que s’hi construïssin més mercats per donar servei a les noves zones residencials.
 
-## Sants
+#### Sants
 
-## Sarrià
+#### Sarrià
 
-## Sant Gervasi
+#### Sant Gervasi
 
-## Gràcia
+#### Gràcia
 
-## Horta
+#### Horta
 
-## Sant Andreu
+#### Sant Andreu
 
-## Sant Martí De Provençals
+#### Sant Martí de Provençals
 
-Nous barris
+### Nous barris
 
 Entre les dècades de 1950 i 1970 Barcelona experimentà un gran creixement per causa de la immigració provinent d’arreu d’Espanya. La necessitat d’abastir la nova població obrí la segona gran etapa de construcció de mercats a la ciutat, durant la qual se n’inauguraren més d’una vintena. Gairebé tots van ser fets amb formigó armat i tenen unes dimensions més modestes (menor alçada, menys superfície i no tantes parades) que les dels grans mercats de finals del segle xix. Alguns d’ells han estat recentment remodelats o, fins i tot, refets de nou.
 
-Mercats no alimentaris
+### Mercats no alimentaris
 
 A més dels mercats d’alimentació, Barcelona disposa de diversos mercats no alimentaris però especialitzats en algun tipus de producte: els Encants (Fira de Bellcaire) és el gran mercat brocanter i de segona mà; els Encants de Sant Antoni estan especialitzats en productes tèxtils; el Dominical de Sant Antoni basa la seva activitat en llibres, revistes, cromos, postals, pel·lícules i videojocs; i les parades de flors de la Rambla, organitzades com un mercat més, es dediquen a flors i plantes, tal com el seu nom indica.
 

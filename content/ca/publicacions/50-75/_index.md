@@ -23,7 +23,7 @@ En l’escena internacional, la Segona Guerra Mundial i la posterior reconstrucc
 
 Finalment, als anys cinquanta, des de l’àmbit de la teoria i la crítica arquitectònica, apareix el Team 10, grup internacional d’arquitectes que tindrà una importantíssima influència en el pensament arquitectònic de la segona meitat del segle xx.
 
-## Quaderns / Cuadernos De Arquitectura Y Urbanismo
+## Quaderns / Cuadernos de Arquitectura y Urbanismo
 
 Des de 1944
 
@@ -55,7 +55,7 @@ No obstant això, a finals dels anys cinquanta comencen a sorgir discrepàncies 
 
 Els membres del Grup R van ser Josep Maria Sostres, Antoni de Moragas, José Antonio Coderch, Manuel Valls, Josep Pratmarsó i Joaquim Gili, entre la generació de més edat, que havia fet els estudis abans de la Guerra Civil, i Oriol Bohigas, Josep Maria Martorell, Guillermo Giráldez, Manuel Ribas Piera, Francesc Bassó, Josep Antoni Balcells, Joaquim Gili, Pau Monguió i Francesc Vayreda, entre els que van començar els estudis als anys quaranta.
 
-## Escola De Barcelona
+## Escola de Barcelona
 
 Anys seixanta i setanta
 
@@ -99,91 +99,41 @@ A causa de l’alta resistència del formigó, la facilitat de construcció, el 
 
 ## Cites
 
-Francesc Mitjans:
+### Francesc Mitjans
 
 «Podem analitzar l’arquitectura moderna com a arquitectura o com a moderna. Com a moderna té la seva raó de ser en dues premisses fonamentals: necessitats noves i possibilitats noves. Però com a arquitectura, l’objectiu és el mateix que el de les arquitectures més primitives de la història: solucionar el problema plantejat, mitjançant l’ús adequat d’uns materials, d’una manera funcional, que sigui a la vegada expressió de la seva estructura i del seu programa».
 
 «Pero en nuestras calles no crece la hierba». Butlletí de la D.G. d’Arquitectura, 14. 1950.
 
-Josep M. Sostres:
+### Josep M. Sostres
 
 «Actualment ningú no considera un edifici modern com un fet polèmic ni tan sols com una novetat, cosa que significa el reconeixement de l’Arquitectura com quelcom natural del nostre temps. Tancat, doncs, el cicle revolucionari i acabada l’època dels grans mestres, què ens queda fer? Les màximes virtuts de la nostra generació han de ser la modèstia i l’esperit de col·laboració… la nostra època no ens permet d’abandonar-nos al melodrama individual».
 
 «Del New Brutalism a la escuela americana». Revista. 1956.
 
-José Antonio Coderch:
+### José Antonio Coderch
 
 «No crec que siguin genis el que necessitem ara. Crec que els genis són esdeveniments, no metes o fins. Tampoc crec que necessitem pontífexs de l’Arquitectura, ni grans doctrinaris, ni profetes, sempre dubtosos. […]. (Necessitem) Que (els arquitectes) treballin amb una corda lligada al peu, perquè no puguin anar massa lluny de la terra en la qual tenen arrels, i dels homes que millor coneixen».
 
 «No son genios lo que necesitamos ahora». Domus, 384. 1961.
 
-## Llista D’Acrònims
+## Llista d’acrònims
 
-ADI-FAD: Associació de Disseny Industrial del FAD
+### ADI-FAD: Associació de Disseny Industrial del FAD
 
-ADLAN: Amics De L’Art Nou, 1932-1936
+### ADLAN: Amics De L’Art Nou, 1932-1936
 
-CIAM: Congrés Internacional d’Arquitectura Moderna, 1928-1959
+### CIAM: Congrés Internacional d’Arquitectura Moderna, 1928-1959
 
-COAC: Col·legi d’Arquitectes de Catalunya
+### COAC: Col·legi d’Arquitectes de Catalunya
 
-COACIB: Col·legi Oficial d’Arquitectes de Catalunya i Balears, 1933-1978
+### COACIB: Col·legi Oficial d’Arquitectes de Catalunya i Balears, 1933-1978
 
-FAD: Foment de les Arts Decoratives (avui, Foment de les Arts i el Disseny)
+### FAD: Foment de les Arts Decoratives (avui, Foment de les Arts i el Disseny)
 
-GATCPAC: Grup d’Arquitectes i Tècnics Catalans pel Progrés de l’Arquitectura Contemporània, 1929-1939
+### GATCPAC: Grup d’Arquitectes i Tècnics Catalans pel Progrés de l’Arquitectura Contemporània, 1929-1939
 
 ## Llistat
-
-1950
-
-1952
-
-1953
-
-1954
-
-1955
-
-1956
-
-1957
-
-1958
-
-1959
-
-1960
-
-1961
-
-1962
-
-1963
-
-1964
-
-1965
-
-1966
-
-1967
-
-1968
-
-1969
-
-1970
-
-1971
-
-1972
-
-1973
-
-1974
-
-1975
 
 ## Plànol Descarregable
 
