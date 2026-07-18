@@ -182,7 +182,7 @@
       pubsBtns.className = 'filtre-botos';
 
       var btnTots = document.createElement('button');
-      btnTots.textContent = 'Tots';
+      btnTots.innerHTML = 'Tots <span class="filtre-btn-count">(' + totsElsElements.length + ')</span>';
       btnTots.className = 'filtre-btn filtre-tots actiu';
       btnTots.addEventListener('click', function () {
         var nouEstat = !Object.values(filtresMapa.pub).every(Boolean);
@@ -407,7 +407,7 @@
       ordreClaus.sort();
     }
 
-    // Index de lletres (sols en mode alfabètic) + comptador de punts al mapa
+    // Index de lletres (sols en mode alfabètic)
     if (llistatIndex) {
       llistatIndex.innerHTML = '';
       if (grupPer !== 'any') {
@@ -421,17 +421,6 @@
           llistatIndex.appendChild(link);
         });
       }
-      // Comptador de punts al mapa (dreta de la fila)
-      var total = totsElsElements.length;
-      var alMapa = elementsMapa.length;
-      var comptador = document.createElement('span');
-      comptador.className = 'llistat-total-mapa';
-      comptador.title = total + ' elements en total, ' + alMapa + ' al mapa';
-      comptador.innerHTML =
-        '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="6"/></svg>' +
-        ' <strong>' + alMapa + '</strong> al mapa' +
-        (total > alMapa ? ' <span class="llistat-total-mapa-rest">/ ' + total + '</span>' : '');
-      llistatIndex.appendChild(comptador);
     }
 
     // Grups
