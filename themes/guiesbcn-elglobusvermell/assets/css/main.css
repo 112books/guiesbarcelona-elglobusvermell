@@ -385,6 +385,8 @@ main {
 
 .filtre-tots::before { display: none; }
 
+.filtre-btn-count { font-size: 0.7rem; opacity: 0.7; font-weight: normal; }
+
 .filtre-btn.actiu {
   background: var(--pub-color, #333);
   color: #fff;

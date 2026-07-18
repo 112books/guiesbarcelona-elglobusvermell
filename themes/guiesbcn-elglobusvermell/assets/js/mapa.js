@@ -191,12 +191,22 @@
       });
       pubsBtns.appendChild(btnTots);
 
+      // Precomputar nombre d'elements per publicació
+      var comptesPerPub = {};
+      elementsMapa.forEach(function (p) {
+        (p.publicacions || []).forEach(function (s) {
+          comptesPerPub[s] = (comptesPerPub[s] || 0) + 1;
+        });
+      });
+
       Object.keys(pubs).forEach(function (slug) {
         var btn = document.createElement('button');
         btn.setAttribute('data-pub', slug);
         btn.className = 'filtre-btn actiu';
         btn.style.setProperty('--pub-color', pubs[slug].color || '#888');
-        btn.textContent = pubs[slug].titol || slug;
+        var n = comptesPerPub[slug] || 0;
+        btn.innerHTML = (pubs[slug].titol || slug) +
+          (n ? ' <span class="filtre-btn-count">(' + n + ')</span>' : '');
         btn.addEventListener('click', function () {
           filtresMapa.pub[slug] = !filtresMapa.pub[slug];
           filtraMapa();
@@ -435,8 +445,7 @@
 
       var capsalera = document.createElement('button');
       capsalera.className = 'llistat-grup-capsalera';
-      capsalera.setAttribute('aria-expanded', 'true');
-      grup.classList.add('obert');
+      capsalera.setAttribute('aria-expanded', 'false');
 
       if (grupPer === 'any') {
         capsalera.innerHTML =
