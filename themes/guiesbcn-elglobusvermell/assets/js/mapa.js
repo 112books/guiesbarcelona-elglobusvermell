@@ -564,6 +564,51 @@
     }
   }
 
+  // ── Acordió de la descripció de publicació ──────────────────────────────
+  // Converteix els <h2> del .publicacio-descripcio en seccions plegables.
+  // Funciona només a les pàgines de publicació (grupPer === 'any').
+  function construeixDescripcioAccordio() {
+    var desc = document.querySelector('.publicacio-descripcio');
+    if (!desc) return;
+    var h2s = Array.from(desc.querySelectorAll('h2'));
+    if (h2s.length === 0) return;
+
+    h2s.forEach(function (h2) {
+      var grup = document.createElement('div');
+      grup.className = 'llistat-grup';
+
+      var btn = document.createElement('button');
+      btn.className = 'llistat-grup-capsalera';
+      btn.setAttribute('aria-expanded', 'false');
+      btn.innerHTML =
+        '<span class="llistat-grup-any">' + h2.textContent.trim() + '</span>' +
+        '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+
+      var cos = document.createElement('div');
+      cos.className = 'llistat-grup-elements';
+      cos.style.padding = '0 0 0.5rem';
+
+      // Mou tots els nodes fins al proper h2 dins de cos
+      var next = h2.nextSibling;
+      while (next && !(next.nodeType === 1 && next.tagName === 'H2')) {
+        var toMove = next;
+        next = next.nextSibling;
+        cos.appendChild(toMove);
+      }
+
+      btn.addEventListener('click', function () {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        grup.classList.toggle('obert', !expanded);
+      });
+
+      grup.appendChild(btn);
+      grup.appendChild(cos);
+      h2.parentNode.replaceChild(grup, h2);
+    });
+  }
+
   // ── Inicialitzar ────────────────────────────────────────────────────────
   construeixLlistat();
+  if (grupPer === 'any') construeixDescripcioAccordio();
 })();
