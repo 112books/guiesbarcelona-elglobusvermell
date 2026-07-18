@@ -3,7 +3,7 @@ title: "De l'esperança a la crisi. 1975-2008"
 edicio: "2026 (pendent)"
 ---
 
-## Model Barcelona: Èxit Exportable O Relat Esgotat?
+## Model Barcelona: èxit exportable o relat esgotat?
 
 El conjunt d’intervencions urbanes impulsades a Barcelona des de l’inici de la democràcia fins a la primera dècada del segle xxi va generar un gran interès internacional i va donar lloc al que es va denominar «model Barcelona». Aquest terme, difós en congressos, escoles d’arquitectura i publicacions especialitzades, volia descriure una manera de fer ciutat basada en la qualitat de l’espai públic, la compacitat urbana, la mixtura d’usos i una aparentment exemplar col·laboració publicoprivada. Durant els anys noranta, la ciutat es presenta al món com un laboratori d’urbanisme contemporani com a eina per articular reformes locals. El reconeixement internacional es va materialitzar en premis com el Premi Príncep de Gal·les d’Urbanisme 1990 o la Royal Gold Medal del RIBA de 1999.
 
@@ -17,7 +17,7 @@ En paral·lel, els impactes socials d’aquestes polítiques es fan cada cop mé
 
 El model Barcelona es pot llegir com una seqüència d’accions que avancen des de petits projectes locals fins a grans operacions d’escala urbana, però també com un camp de tensions: entre proximitat i marca, entre projecte col·lectiu i interessos privats, entre arquitectura com a servei i com a símbol. Aquesta publicació ofereix les eines per entendre les virtuts i les contradiccions d’aquesta etapa. El plànol que l’acompanya se centra en intervencions urbanes i arquitectòniques concebudes entre 1975 i 2008 —des dels primers impulsos democràtics fins als inicis de la crisi—, tot i que alguns projectes no s’acabarien fins al 2013. Els espais que es mostren en aquesta publicació no són els més icònics ni els més espectaculars, sinó aquells que encara avui conserven sentit com a servei públic i com a memòria d’una ciutat en transformació.
 
-## El Restabliment Democràtic
+## El restabliment democràtic
 
 L’impuls urbà dels vuitanta
 
@@ -27,7 +27,7 @@ La ciutat hereta les fractures urbanes generades durant el franquisme i les prio
 
 Aquest període es caracteritza per una aproximació curosa a l’escala local, una arquitectura de petit format, sensible vers el teixit social existent, i una planificació que, sense grans gesticulacions, té un impacte decisiu en la qualitat urbana, tota una estratègia anomenada «acupuntura urbana». L’Ajuntament comença a exercir un lideratge actiu en el projecte urbà i, així, espais abans descuidats esdevenen punts de trobada i carrers oblidats per l’Administració es cusen amb el teixit del voltant. En aquest context, Oriol Bohigas representa una figura clau que, amb la màxima «Sanejar el centre, monumentalitzar la perifèria», resumeix la voluntat de fer una ciutat més equitativa, estructurada i habitable. Aquesta dècada és el fonament d’un model que, anys més tard, es projectarà al món.
 
-## La Recuperació De L’Espai Públic
+## La recuperació de l’espai públic
 
 Cosint la ciutat
 
@@ -39,7 +39,7 @@ La reurbanització s’aborda de manera integral i, amb aquest objectiu, es diss
 
 Tot i que algunes intervencions van rebre crítiques per la seva fredor, el model va establir unes bases sòlides de qualitat urbana que han perdurat durant dècades. Allò que va néixer com una aposta per la ciutat cívica es manté avui com un llegat que defineix el caràcter de Barcelona.
 
-## Àrees De Nova Centralitat
+## Àrees de nova centralitat
 
 Cap a la ciutat policèntrica
 
@@ -49,7 +49,7 @@ Aquestes àrees es pensen com a nusos del teixit urbà, amb una escala molt més
 
 Les àrees de nova centralitat funcionen més com un full de ruta a llarg termini que no pas com operacions puntuals. Algunes zones es transformen amb relativa rapidesa, com Diagonal-Sarrià o Can Dragó, mentre que d’altres continuen avui en procés de consolidació, com les Glòries o la Sagrera. El canvi d’escala és evident: ja no es tracta només d’acupuntura en punts concrets, sinó de reconfigurar fragments sencers del mapa de Barcelona. Aquest pas cap a una ciutat més policèntrica ha continuat condicionant, dècades després, la manera d’entendre les grans transformacions urbanes a la ciutat.
 
-## Els Grans Esdeveniments
+## Els grans esdeveniments
 
 Transformacions accelerades
 

@@ -23,33 +23,23 @@ Moltes d’aquestes transformacions, sobretot les primeres, van ser poc respectu
 
 Per tant, malgrat la pèrdua definitiva d’algunes construccions que avui en dia hauríem preservat, l’important patrimoni industrial que encara es manté dempeus al Poblenou permet explicar un període decisiu de la història de la ciutat, alhora que mostra l’adaptabilitat d’aquestes tipologies a nous usos, com ara equipaments públics, oficines o habitatges.
 
-## Nivells De Protecció Del Patrimoni
+## Nivells de protecció del patrimoni
 
 Els Plans Especials de Protecció del Patrimoni Arquitectònic estableixen quatre nivells de protecció:
 
 Per a les tres primeres categories és obligat el manteniment (i, per tant, no és possible l’enderroc), mentre que amb el nivell D es permet l’enderroc després de presentar i ser aprovat un estudi historicoarquitectònic.
 
-## Llegenda Categories
+## Llegenda categories
 
 S’ha fet una endreça de les edificacions seguint les següents categories:
 
 ## Llistat
 
-Xemeneies
-
-Fàbriques
-
-Fàbriques amb xemeneia
-
-Recintes industrials
-
-Altres edificis
-
 ## Plànol Descarregable
 
 El patrimoni industrial del Poblenou, Barcelona. 2019
 
-## Recursos Relacionats
+## Recursos relacionats
 
 Poblenou/BCN: l’eix Pere IV i la Diagonal. Guia d’història urbana. Mercè Tatjer, Salvador Clarós i Andrea Manenti. MUHBA. 2012
 

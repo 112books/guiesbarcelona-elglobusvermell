@@ -23,7 +23,7 @@ Finalment, a conseqüència de la manca d’habitatge públic, de la inacció de
 
 Aquest plànol-guia, per tant, posa en valor les noves propostes que han sorgit en la concepció arquitectònica i urbana com a resposta a les diferents crisis —econòmica, ecològica i d’habitatge—.
 
-## La Crisi Del 2008 Com A Punt D’Inflexió
+## La crisi del 2008 com a punt d’inflexió
 
 La crisi econòmica del 2008 suposa un punt d’inflexió profund en el panorama arquitectònic de Catalunya. Després d’una dècada marcada per la construcció massiva, la urban(al)ització exorbitant de sòl i l’especulació sense miraments, el sector s’atura de manera sobtada i es veu forçat a replantejar-se.
 
@@ -35,7 +35,7 @@ No és casual que en aquells anys, fins i tot abans de la crisi, apareguin col·
 
 Alhora, des de la pràctica arquitectònica més convencional s’abandona el gest icònic i s’imposa una expressivitat que neix del «fer més amb menys» (allunyat del «less is more» miesià), de la precisió constructiva, de la sensibilitat material, de la gestió eficaç dels recursos (econòmics i energètics), de la relació contextual i de l’atenció als futurs usuaris.
 
-## Noves Polítiques Urbanes
+## Noves polítiques urbanes
 
 Les polítiques urbanes impulsades per l’Ajuntament de Barcelona durant aquest període, especialment durant les dues legislatures amb alcaldia dels Comuns (2015-2023), s’han caracteritzat per promoure una ciutat més equitativa, accessible, diversa, sostenible i resilient.
 
@@ -51,7 +51,7 @@ Per dur a terme molts d’aquests projectes es consulta a veïnes i veïns a tra
 
 En definitiva, la crisi provoca un canvi de mirada que situa les persones al centre, com a subjectes actius en el «fer ciutat» i com a destinataris de polítiques urbanes adreçades al seu benestar.
 
-## Renaturalització Urbana Enfront Del Canvi Climàtic
+## Renaturalització urbana enfront del canvi climàtic
 
 La temperatura mitjana mundial ja ha augmentat aproximadament 1,5 °C respecte a l’era preindustrial. I el nivell mitjà del mar ha pujat prop de 20 cm des de principis del segle xx, amb un ritme que s’ha accelerat dels 2 mm/any fins als 4,5 mm/any en l’última dècada.
 
@@ -61,7 +61,7 @@ Donades aquestes circumstàncies, Barcelona, una de les ciutats amb menys zones 
 
 En aquest plànol-guia destaquem gairebé una quinzena de projectes d’espai públic, molts dels quals fan una aposta important per incrementar el verd i la biodiversitat. Altres, a més, són eixos verds que permeten connectar diferents parcs i jardins i que, a través seu, la biodiversitat s’estengui més fàcilment per tot l’àmbit urbà. Tot i això, també hem inclòs alguns projectes que, per la seva ubicació i context, aposten per augmentar la diversitat d’usos de l’espai públic, com els skateparks, o bé per posar en valor la història del lloc, com la plaça Comercial, davant del Born, o la rehabilitació de les bateries antiaèries.
 
-RECUPERAR, REHABILITAR, REFORMAR I REUTILITZAR… EL PATRIMONI CONSTRUÏT
+*Recuperar, rehabilitar, reformar i reutilitzar… el patrimoni construït*
 
 La indústria de la construcció és una de les activitats amb més impacte ambiental del planeta: consumeix fins al 60% de totes les matèries primeres extretes de la Terra i és responsable del 23% de la contaminació de l’aire, del 40% de la contaminació de l’aigua potable i del 50% dels residus que acaben a l’abocador.​ Alhora, les dades sobre la irreversibilitat del canvi climàtic són aclaparadores. I mentre això succeeix (i segueix), la mundialització provoca l’homogeneïtzació de les ciutats, amb les mateixes botigues franquícia arreu i amb arquitectures iguals a cada racó del planeta.
 
@@ -73,7 +73,7 @@ En definitiva, apostar per la rehabilitació en lloc d’apostar per la nova con
 
 No és casual, doncs, que la selecció de projectes d’aquest plànol-guia n’inclogui una quinzena que són rehabilitacions d’antics edificis industrials, tallers, cooperatives obreres o mercats. És una tendència actual, en molts casos assumida tardanament per les administracions després d’anys de lluites i reivindicacions veïnals.
 
-## Habitatges Cooperatius En Cessió D’Ús
+## Habitatges cooperatius en cessió d’ús
 
 Aquest model neix per contribuir al dret a l’habitatge i es basa en l’organització col·lectiva per a proveir d’habitatge digne i a un preu assequible persones agrupades en cooperatives que, conjuntament, decideixen com volen (con)viure i, per tant, a què haurà de respondre el projecte arquitectònic.
 
@@ -85,7 +85,7 @@ Arquitectònicament, els edificis d’habitatges cooperatius en cessió d’ús 
 
 A Catalunya aquest model ha estat impulsat i desenvolupat des de principis del segle xxi per entitats com Sostre Cívic o La Dinamo a partir de referents de països com Dinamarca, Suïssa o Uruguai, on el model està molt estès.
 
-## Tres Exposicions Per Definir El Període
+## Tres exposicions per definir el període
 
 El període que retrata aquest plànol-guia queda emmarcat per tres exposicions —«Matèria sensible» (2010), «Vogadors» (2012) i «Els nous realistes» (2023)— que l’han explicat perfectament. Els seus títols ja contenen referències clares als principals elements que defineixen els arquitectes escollits i l’arquitectura del període: sensibles, realistes i que avancen sense oblidar el passat. Una arquitectura amb més seny que rauxa, amb més rigor que frivolitat.
 
@@ -93,11 +93,11 @@ Les dues primeres, «Matèria sensible» i «Vogadors», són concebudes encara 
 
 «Els nous realistes», en canvi, s’idea quan aquesta generació i aquesta manera de fer ja estan plenament assentades i en mostra una selecció més àmplia. És, per tant, un ampli compendi que actua de mirall per consolidar definitivament allò que les dues primeres exposicions van començar a intuir i que el temps ha acabat validant.
 
-«Matèria sensible: joves arquitectes catalans»
+### «Matèria sensible: joves arquitectes catalans»
 
-«Vogadors»
+### «Vogadors»
 
-«Els nous realistes»
+### «Els nous realistes»
 
 ## Llistat
 

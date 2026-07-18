@@ -17,7 +17,7 @@ Precisament, un aspecte característic de la xarxa de jardins interiors d’illa
 
 El plànol-guia descriu l’evolució del verd urbà a la trama de l’Eixample i explica cada un dels noms dels jardins.
 
-## La Ciutat Emmurallada
+## La ciutat emmurallada
 
 Barcelona va ser una de les últimes ciutats europees a enderrocar les seves muralles. Comença a fer-ho l’any 1854 i no culmina el procés fins al 1873. Però per aconseguir-ho ha de patir i lluitar.
 
@@ -29,7 +29,7 @@ L’àmplia difusió del projecte i l’impuls popular provoquen l’enfrontamen
 
 L’any següent Ildefons Cerdà rep l’encàrrec per fer l’aixecament del plànol topogràfic del pla de Barcelona i posteriorment estudia les condicions de vida a la ciutat i publica la Monografía estadística de la clase obrera de Barcelona en 1856.
 
-## El Pla D’Eixample De Cerdà
+## El Pla d’Eixample de Cerdà
 
 Després de dècades d’espera, el 1859 es pren la decisió d’eixamplar la ciutat. Al mes de febrer el govern espanyol opta per encarregar directament el pla a Ildefons Cerdà, decisió que desagrada a l’Ajuntament, el qual prefereix convocar un concurs. Així, mentre el projecte de Cerdà és aprovat pel govern, l’Ajuntament declara guanyadora del concurs la proposta d’Antoni Rovira i Trias. El govern central, però, ordena l’execució del Pla Cerdà i el setembre de 1860 la reina Isabel II col·loca la primera pedra de l’Eixample.
 
@@ -37,7 +37,7 @@ Ildefons Cerdà planteja un projecte de ciutat racional i igualitària, on no hi
 
 El Pla de Reforma i Eixample de Barcelona, considerat avui en dia un projecte pioner en l’evolució de l’urbanisme modern, no va ser ben rebut per la burgesia local, tant pel fet de ser imposat pel govern espanyol com, sobretot, pel plantejament d’una ciutat socialment més justa i pel “malbaratament” d’espai.
 
-## La Perversió Del Pla
+## La perversió del Pla
 
 Les idees racionalistes, igualitàries, antijeràrquiques i antiautoritàries del Pla topen frontalment amb la visió elitista de les classes benestants, les quals de bon principi es proposen desvirtuar-lo en connivència amb l’Ajuntament.
 
@@ -51,7 +51,7 @@ Durant el Modernisme, fenomen promogut per la burgesia industrial, que busca en 
 
 Ja en ple segle xx, la construcció i densificació de l’Eixample continua fins al punt d’arribar, a finals del franquisme, a 290.000 m3 construïts per illa, quan Cerdà n’havia previst uns 67.000, i a la manca gairebé absoluta de zones verdes i espais d’ús públic.
 
-## Les Primeres Reivindicacions
+## Les primeres reivindicacions
 
 Una de les primeres queixes per l’absència de jardins on estar i jugar amb els petits l’expressa a principis dels anys vint la Junta de Senyores de la societat cívica Ciutat Jardí, que la dirigeix a Nicolau M. Rubió i Tudurí, director de Parcs i Jardins. En conseqüència, s’urbanitzen els Jardins de la Reina Victòria, a la Gran Via entre el passeig de Gràcia i la Rambla de Catalunya, i els Jardins del Doctor Duran i Reynals, davant la Facultat de Medicina, a l’Hospital Clínic.
 
@@ -59,7 +59,7 @@ Una dècada més tard, el GATCPAC (Grup d’Arquitectes i Tècnics Catalans pel 
 
 El Pla Macià pretén articular una Barcelona moderna i oberta al mar, amb la urbanització del que avui és el Poblenou fins al riu Besòs, d’una banda, i de Sants i l’Hospitalet, de l’altra. Aquest Pla esdevé un referent important quan, gairebé seixanta anys després, es projecta la Vila Olímpica i, més recentment, per la proposta de les superilles.
 
-## La Recuperació De L’Esperit De Cerdà
+## La recuperació de l’esperit de Cerdà
 
 Passat el franquisme i amb la recuperació dels ajuntaments democràtics, Barcelona es planteja el repte d’introduir el verd a l’Eixample mitjançant l’obertura de jardins públics als interiors d’illa, tot recuperant la idea original de Cerdà. L’objectiu és que una de cada nou illes de l’Eixample tingui un jardí interior, és a dir, que tots els habitants de l’Eixample disposin d’una zona verda a un màxim de 200 m de casa seva.
 
@@ -89,6 +89,6 @@ Jesús Portabella i Lluís Permanyer (textos) i Floro Azqueta (fotografies). Lun
 
 Isabel de Villalonga (textos) i Floro Azqueta (fotografies). ProEixample. 2007
 
-## Horaris D’Obertura Habituals
+## Horaris d’obertura habituals
 
 10.00 – 19.00 (hivern) / 21.00 (estiu)

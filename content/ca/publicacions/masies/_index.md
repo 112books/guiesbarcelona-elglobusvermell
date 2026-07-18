@@ -3,7 +3,7 @@ title: "Masies de Barcelona"
 edicio: "2025 (pendent)"
 ---
 
-LES MASIES DE BARCELONA: TESTIMONIS D’UN PASSAT RURAL EN TRANSFORMACIÓ
+*Les masies de Barcelona: testimonis d’un passat rural en transformació*
 
 En el dens teixit urbà de la Barcelona actual, encara s’hi amaguen discretament algunes estructures que ens remeten a un paisatge molt diferent: les masies. Aquestes edificacions, distribuïdes de manera desigual pel territori, són els darrers testimonis visibles d’un passat agrícola que, malgrat l’empenta de la modernitat, resisteix com a part essencial de la memòria històrica i paisatgística de la ciutat.
 
@@ -19,7 +19,7 @@ Així, el valor dels masos va més enllà de la seva arquitectura: són diposita
 
 Aquesta publicació pretén posar en valor les antigues masies encara existents a la ciutat com a peces claus d’un relat que ens ajuda a comprendre l’evolució del paisatge i de la societat i a recordar les nostres arrels rurals.
 
-## Informació Històrica
+## Informació històrica
 
 Al pla de Barcelona les activitats agràries han estat contínues des de l’època dels romans fins al segle xix, però de les construccions prèvies al segle ix no n’ha quedat gairebé cap constància. Les primeres evidències arqueològiques d’edificis destinats a l’ús agrícola o ramader que es poden identificar com l’origen de la masia són dels segles x o xi, quan s’inicia el procés de feudalització.
 
@@ -37,7 +37,7 @@ Segle XIX: Durant la primera meitat del segle l’agricultura es troba en el seu
 
 Segle XX: La ràpida expansió de l’Eixample redueix dràsticament el nombre de masies actives. Moltes són abandonades, altres es transformen en equipaments públics o restaurants i algunes segueixen sent habitatges, però queden completament absorbides per la trama urbana. Les reformes integrals que pateixen per adequar-les als nous usos venen acompanyades generalment d’un canvi estètic de les façanes, d’estil modernista. La pèrdua d’espais agrícoles és gairebé total al final de segle.
 
-## El Graó Barceloní, La Línia De Costa I El Rec Comtal
+## El Graó Barceloní, la línia de costa i el Rec Comtal
 
 Es creu que fa entre 10.000 i 15.000 anys una falla va generar un desnivell vertical d’entre 4 i 10 m i d’uns 10 km de llarg que divideix el territori actual en dos plans: l’alt i el baix. Aquest accident geològic, el Graó Barceloní, s’origina a la Trinitat i segueix un eix nord-sud que deixa, a la part alta, Sant Andreu, la Sagrera, el Clot i l’Eixample i, a la part baixa, el Bon Pastor, la Verneda, Sant Martí i el Poblenou. Després creua les Glòries i passa per l’Arc de Triomf, el carrer Trafalgar, la plaça Urquinaona i el carrer Pelai fins a acabar a la plaça Universitat.
 
@@ -49,7 +49,7 @@ Així, el Graó Barceloní i el Rec Comtal han esdevingut un límit important en
 
 A partir de mitjan segle xix tot comença a canviar. L’any 1854, la construcció de la línia de tren Barcelona-Granollers, situada al límit del pla baix, afegí una altra barrera física, Poc després, la urbanització de l’Eixample a la part alta, deixà el pla baix per a usos industrials, sovint barrejats amb restes d’activitat agrícola.
 
-## Tipologies Arquitectòniques De Les Masies
+## Tipologies arquitectòniques de les masies
 
 * La tipologia arquitectònica és la classificació dels edificis basada en la seva funció, forma o configuració espacial.
 
@@ -57,19 +57,19 @@ Sota la denominació de masies s’inclouen no només les genuïnes cases pagese
 
 Les masies d’estructura clàssica són edificis de planta rectangular i quatre façanes. Generalment, la façana principal s’orienta a sud, on hi sol haver la porta d’accés. El que més defineix l’aspecte de la masia és la teulada, ja que posa de manifest l’estructura i delata la situació de les parets mestres. La majoria de masies tenen la coberta a dos vessants i de l’orientació d’aquesta en resulten dues tipologies ben diferenciades: una amb el carener de la coberta paral·lel a la façana principal i l’altra amb el carener de la coberta perpendicular a aquesta. Resta una altra tipologia, minoritària: la coberta a quatre vessants. Finalment, hi ha una sèrie d’edificis que no encaixen amb cap d’aquestes tipologies perquè provenen d’antics masos-torre.
 
-Masies de coberta paral·lela a la façana principal
+### Masies de coberta paral·lela a la façana principal
 
 Representen el 18% de les masies d’estructura clàssica catalanes. Solen ser les més antigues i corresponen als masos més senzills. Inicialment, tenien una planta baixa i un pis, però amb el pas dels segles sovint van incorporar remuntes. Generalment, s’emplaçaven a la vora d’un camí i es posicionaven paral·leles a ell, en lloc d’orientar-se a sud. Són més freqüents en indrets de poca pluja i el fet de fer vessar les aigües cap a les façanes principal i posterior permetia fer ampliacions i agregacions d’altres masies, l’una al costat de l’altra, tot creant els primers «carrers» o petits veïnats, que els aportaven seguretat. L’espai exterior allargassat permet fer-hi diverses entrades, i la porta principal i la resta d’obertures solen estar disposades de manera asimètrica.
 
-Masies de coberta perpendicular a la façana principal
+### Masies de coberta perpendicular a la façana principal
 
 Representen el 70% de les masies d’estructura clàssica. La major part d’aquests edificis es construeixen en períodes de benestar econòmic (s. xvi–xix). Dins aquesta tipologia hi ha dues variants fàcilment reconeixibles: la primera és un edifici més simple, amb teulada a dues aigües que cobreix tot el volum, i l’altra és l’anomenada masia basilical, amb un cos central de tres pisos i dos cossos laterals de només dos pisos. En tots dos casos les aigües vessen a les façanes laterals. Poden estar a qualsevol indret dins el terreny, amb espais exteriors lliures sense cap altra particularitat que l’orientació a sud de la façana principal. Al centre de la façana s’hi situen la porta principal i el finestral de la sala del primer pis, sala que fa de distribuïdor cap a les habitacions. La resta d’obertures estan disposades de manera simètrica. Solen ser masies que s’han construït en una sola fase; per tant, el propietari havia de disposar de prou recursos econòmics.
 
-Coberta a quatre vessants
+### Coberta a quatre vessants
 
 Representen el 12% de les masies d’estructura clàssica. L’origen està en l’antiga casa senyorial, on l’estructura era la de quatre cossos d’edificació entorn d’un pati central. En la gran majoria dels casos, el pati s’ha suprimit i només en queda la llanterna de l’escala. Generalment, tenen la cornisa o ràfec horitzontal molt marcat en totes les seves quatre façanes. Solen ser les masies o cases senyorials més tardanes i amb més envergadura.
 
-## Els Rellotges De Sol A Les Masies
+## Els rellotges de sol a les masies
 
 A Catalunya hi ha més de 7.400 rellotges de sol registrats i catalogats, un dels inventaris més grans d’Europa, amb exemplars que daten de l’època grecoromana.
 
@@ -100,22 +100,6 @@ Quan el sol ha passat, la meva feina s’ha acabat.
 Richard Ford. Handbook for Travellers in Spain and Readers at Home. 1845.
 
 ## Llistat
-
-Sants-Montjuïc
-
-Les Corts
-
-Sarrià – Sant Gervasi
-
-Gràcia
-
-Horta-Guinardó
-
-Nou Barris
-
-Sant Andreu
-
-Sant Martí
 
 ## Plànol Descarregable
 

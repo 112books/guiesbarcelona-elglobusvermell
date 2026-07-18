@@ -3,7 +3,7 @@ title: "La Marina del Port i del Prat Vermell. Passat i present"
 edicio: 2023
 ---
 
-## Evolució Històrica
+## Evolució històrica
 
 El barri de la Marina del Port i del Prat Vermell havia estat una rica zona agrícola que els últims dos segles ha experimentat una transformació notable, especialment ràpida des dels anys 1950-1960.
 
@@ -33,15 +33,16 @@ Finalment, des de fa uns anys està en marxa la reurbanització d’una gran zon
 
 Avui en dia, l’antiga Marina de Sants és un barri viu, dinàmic i amb una àmplia diversitat social i cultural, que lluita per trobar un equilibri entre la voluntat de preservar la seva identitat i la seva història i la necessitat d’adaptar-se a les necessitats urbanes del segle XXI.
 
-## Nivells De Protecció Del Patrimoni
+## Nivells de protecció del patrimoni
 
 Els Plans Especials de Protecció del Patrimoni Arquitectònic estableixen quatre nivells de protecció:
 
 Per a les tres primeres categories és obligat el manteniment (i, per tant, no és possible l’enderroc), mentre que amb el nivell D es permet l’enderroc després de presentar i ser aprovat un estudi historicoarquitectònic.
 
-LLEGENDA
+*Llegenda*
+
 En la versió en paper d’aquest plànol s’han fet servir dos colors diferents per distingir el passat i el present dels barris de la Marina del Port i del Prat Vermell.
-En color VERD s’han representat els elements i traçats de diferents èpoques històriques que han tingut rellevància a l’hora de conformar la identitat del barri, mentre que en VERMELL hi ha representats tots els elements que perduren avui en dia.
+En color verd s’han representat els elements i traçats de diferents èpoques històriques que han tingut rellevància a l’hora de conformar la identitat del barri, mentre que en vermell hi ha representats tots els elements que perduren avui en dia.
 
 ## Llistat
 
@@ -49,19 +50,19 @@ En color VERD s’han representat els elements i traçats de diferents èpoques 
 
 La Marina del Port i del Prat Vermell. Passat i present. 2023
 
-## Crèdits I Agraïments
+## Crèdits i agraïments
 
 Part d’aquest plànol-guia ha estat desenvolupat en el marc de la 14a edició d’”Artistes EN RESiDÈNCiA” als instituts de Barcelona”, un programa de l’Institut de Cultura de Barcelona i del Consorci d’Educació de Barcelona, ideat en cooperació amb l’Associació A Bao A Qu. En queda el testimoni d’aquest blog que va anar descrivint tot el procés setmana rere setmana.
 
-Alumnes participants
+### Alumnes participants
 
 Ainhoa Hurtado, Alejandro Rubio, Artiyom Isaimto, Bilal Hanafi, Cecilia Mikhaeil, Claudia Cuello, Daniel Castro, Denisse Daza, Hadia Jasim, Imran Syed, Jordan Duván, Judith Aguiló, Natalie Coronel, Noah Touza, Owen Medina, Paul Legaspi, Tatiana Fernàndez, Zulema Boraporaino.
 
-Docents
+### Docents
 
 Blanca Navas, Elies Carles, Vanessa Benavente.
 
-Agraïments
+### Agraïments
 
 Fundació Joan Miró, Institut Montjuïc, Equal Saree
 
