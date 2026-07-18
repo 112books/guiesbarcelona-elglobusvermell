@@ -1,7 +1,9 @@
 +++
 title = "Torre de Santa Caterina"
 draft = false
-
+adreca = "C. de Panamà, 21-25"
+lat = 41.3956924
+long = 2.1081979
 
 publicacions = ["masies"]
 proteccio = "B"

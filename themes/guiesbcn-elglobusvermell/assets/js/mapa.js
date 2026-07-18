@@ -113,6 +113,15 @@
         map.setView(allMarkers[0].getLatLng(), 16);
       }
     });
+    // Segon intent amb timeout com a fallback (evita tiles en blanc)
+    setTimeout(function () {
+      map.invalidateSize();
+      if (allMarkers.length > 1) {
+        map.fitBounds(group.getBounds(), { padding: [30, 30] });
+      } else if (allMarkers.length === 1) {
+        map.setView(allMarkers[0].getLatLng(), 16);
+      }
+    }, 400);
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
     function filtraMapa() {

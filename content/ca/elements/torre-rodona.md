@@ -1,7 +1,9 @@
 +++
 title = "Torre Rodona"
 draft = false
-
+adreca = "C. del Dr. Salvador Cardenal, 7"
+lat = 41.3859444
+long = 2.1238690
 
 publicacions = ["masies"]
 tipologia = "crugia perpendicular a la façana principal."

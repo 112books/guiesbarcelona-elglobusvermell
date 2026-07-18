@@ -1110,3 +1110,97 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 @media (max-width: 48rem) {
   .stats-cols { grid-template-columns: 1fr; }
 }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Pàgines de publicació  /publicacions/<slug>/
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.publicacio {
+  max-width: var(--max-w, 72rem);
+  margin: 0 auto;
+  padding: 0 var(--space-md) var(--space-lg);
+}
+
+/* Banda de color horitzontal a la capçalera */
+.publicacio-banda {
+  height: 5px;
+  background: var(--pub-color, var(--color-accent));
+  margin: 0 calc(-1 * var(--space-md)) var(--space-lg);
+}
+
+/* Capçalera: títol + edició amb accent de color */
+.publicacio-cap {
+  border-left: 4px solid var(--pub-color, var(--color-accent));
+  padding-left: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.publicacio-cap h1 {
+  margin: 0 0 0.25rem;
+}
+
+.publicacio-edicio {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+/* Secció mapa + llistat */
+.publicacio-edificis {
+  margin-bottom: var(--space-lg);
+}
+
+/* Llistat cronològic per any (acordió) */
+.llistat-cronologic {
+  margin-top: var(--space-md);
+}
+
+/* Secció de descripció (contingut Markdown) */
+.publicacio-descripcio {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.publicacio-descripcio h2 {
+  font-size: 1.25rem;
+  margin-top: var(--space-lg);
+  margin-bottom: 0.5rem;
+}
+
+.publicacio-descripcio p {
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+  max-width: 70ch;
+}
+
+/* Navegació de tornada */
+.publicacio-nav {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.publicacio-nav a {
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.15s;
+}
+
+.publicacio-nav a:hover {
+  color: var(--color-text);
+}
+
+/* Missatge quan no hi ha edificis */
+.publicacio-buit {
+  color: var(--color-muted);
+  font-style: italic;
+  padding: var(--space-lg) 0;
+}
+
+@media (max-width: 48rem) {
+  .publicacio-banda {
+    margin: 0 calc(-1 * var(--space-sm)) var(--space-md);
+  }
+}
