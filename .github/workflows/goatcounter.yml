@@ -63,14 +63,16 @@ jobs:
             "${BASE}/stats/hits?limit=50&filter=mapa-" \
             -o data/stats/mapa-events.json || echo '{}' > data/stats/mapa-events.json
 
-          # Timestamp de l'última actualització
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > data/stats/last-update.txt
+          # Timestamp de l'última actualització (a assets/, no data/, perquè
+          # Hugo intenta parsejar tot el que hi ha a data/ com a dada estructurada)
+          mkdir -p assets/stats
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > assets/stats/last-update.txt
 
       - name: Commit stats
         run: |
           [ -d data/stats ] || exit 0
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/stats/
+          git add data/stats/ assets/stats/last-update.txt
           git diff --staged --quiet || git commit -m "stats: actualització automàtica $(date -u +%Y-%m-%dT%H:%M)Z"
           git push
