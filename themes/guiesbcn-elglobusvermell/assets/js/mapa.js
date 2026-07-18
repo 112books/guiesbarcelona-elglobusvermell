@@ -96,32 +96,20 @@
 
     // ── Zoom inicial ─────────────────────────────────────────────────────
     var group = L.featureGroup(allMarkers).addTo(map);
-    if (allMarkers.length === 1) {
-      map.setView(allMarkers[0].getLatLng(), 16);
-    } else if (allMarkers.length > 1) {
-      map.fitBounds(group.getBounds(), { padding: [30, 30] });
-    }
 
-    // Recalcula les dimensions un cop el CSS s'ha aplicat.
-    // Necessari quan staticrypt decrypta via document.write (CSS i scripts
-    // carreguen en paral·lel; Leaflet pot llegir height:0 si el CSS arriba tard).
-    requestAnimationFrame(function () {
+    // Crida ÚNICA a fitBounds/setView per evitar que múltiples crides
+    // cancel·lin tiles a mig carregar (causa dels "quadrats en blanc").
+    // Staticrypt carrega el CSS de forma asíncrona, per tant esperem
+    // un instant perquè el navegador apliqui les dimensions correctes.
+    function fitMap() {
       map.invalidateSize();
-      if (allMarkers.length > 1) {
-        map.fitBounds(group.getBounds(), { padding: [30, 30] });
-      } else if (allMarkers.length === 1) {
+      if (allMarkers.length === 1) {
         map.setView(allMarkers[0].getLatLng(), 16);
-      }
-    });
-    // Segon intent amb timeout com a fallback (evita tiles en blanc)
-    setTimeout(function () {
-      map.invalidateSize();
-      if (allMarkers.length > 1) {
+      } else if (allMarkers.length > 1) {
         map.fitBounds(group.getBounds(), { padding: [30, 30] });
-      } else if (allMarkers.length === 1) {
-        map.setView(allMarkers[0].getLatLng(), 16);
       }
-    }, 400);
+    }
+    setTimeout(fitMap, 300);
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
     function filtraMapa() {
@@ -610,5 +598,13 @@
 
   // ── Inicialitzar ────────────────────────────────────────────────────────
   construeixLlistat();
-  if (grupPer === 'any') construeixDescripcioAccordio();
+  if (grupPer === 'any') {
+    construeixDescripcioAccordio();
+    // La primera secció de la descripció es mostra expandida per defecte
+    var primerGrupDesc = document.querySelector('.publicacio-descripcio .llistat-grup');
+    if (primerGrupDesc) {
+      primerGrupDesc.querySelector('.llistat-grup-capsalera').setAttribute('aria-expanded', 'true');
+      primerGrupDesc.classList.add('obert');
+    }
+  }
 })();
