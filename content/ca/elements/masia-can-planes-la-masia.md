@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Planes, “La Masia”"
 draft = false
+adreca = "Av. Joan XXIII / Maternitat, s/n"
+lat = 41.3825696
+long = 2.1222528
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Planes"
 draft = false
+adreca = "Selva del Camp, 1-19"
+lat = 41.4212268
+long = 2.1961441
 
 
 publicacions = ["masies"]

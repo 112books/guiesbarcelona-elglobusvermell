@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Castelló"
 draft = false
+adreca = "Castelló, 1"
+lat = 41.3990068
+long = 2.1404013
 
 
 publicacions = ["masies"]

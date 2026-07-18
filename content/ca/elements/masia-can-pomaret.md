@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Pomaret"
 draft = false
+adreca = "Pomaret, 25-31"
+lat = 41.4045358
+long = 2.1238036
 
 
 publicacions = ["masies"]

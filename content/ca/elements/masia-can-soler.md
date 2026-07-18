@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Soler"
 draft = false
+adreca = "Masia Can Soler"
+lat = 41.4255449
+long = 2.1327193
 
 
 publicacions = ["masies"]

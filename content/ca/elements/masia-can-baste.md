@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Basté"
 draft = false
+adreca = "Pg. Fabra i Puig, 274-276"
+lat = 41.4334272
+long = 2.1632516
 
 
 publicacions = ["masies"]

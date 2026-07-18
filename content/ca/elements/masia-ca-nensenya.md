@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca n’Ensenya"
 draft = false
+adreca = "Masia Ca n’Ensenya"
+lat = 41.4375862
+long = 2.1694598
 
 
 publicacions = ["masies"]

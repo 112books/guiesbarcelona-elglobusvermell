@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Miralletes"
 draft = false
+adreca = "Jardins de Can Miralletes"
+lat = 41.4139923
+long = 2.1789505
 
 
 publicacions = ["masies"]

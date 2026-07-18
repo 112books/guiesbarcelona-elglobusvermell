@@ -1,6 +1,9 @@
 +++
 title = "Masia Torre del Rellotge"
 draft = false
+adreca = "Pl. Ibèria, 4"
+lat = 41.3740622
+long = 2.1371764
 
 
 publicacions = ["masies"]

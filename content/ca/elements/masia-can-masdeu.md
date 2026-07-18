@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Masdéu"
 draft = false
+adreca = "Camí de Sant Llàtzer, s/n"
+lat = 41.4476536
+long = 2.1578599
 
 
 publicacions = ["masies"]

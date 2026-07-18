@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Rosés"
 draft = false
+adreca = "Masia Can Rosés"
+lat = 41.2934387
+long = 1.9908935
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Trilla"
 draft = false
+adreca = "Gran de Gràcia, 177 / Pl"
+lat = 41.4035051
+long = 2.1521794
 
 
 publicacions = ["masies"]

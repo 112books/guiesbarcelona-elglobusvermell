@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Travi Nou"
 draft = false
+adreca = "Jorge Manrique, s/n"
+lat = 41.4309479
+long = 2.1515748
 
 
 publicacions = ["masies"]
