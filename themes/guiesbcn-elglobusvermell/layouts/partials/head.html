@@ -6,7 +6,7 @@
 <link rel="icon" type="image/svg+xml" href="{{ "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg" | relURL }}">
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-{{ if or (eq .Section "elements") .IsHome }}
+{{ if or (eq .Section "elements") .IsHome (eq .Kind "term") }}
 <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
 {{ end }}
 {{- if and site.Params.gc_url (not hugo.IsServer) }}

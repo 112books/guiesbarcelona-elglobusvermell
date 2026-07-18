@@ -151,6 +151,17 @@ a {
   border-width: 0;
 }
 
+/* ── Focus visible per a navegació per teclat (WCAG 2.1 AA) ────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Feedback tàctil: resposta visual immediata al prémer ───────────────── */
+a:active { opacity: 0.72; }
+button:active { opacity: 0.72; }
+
 .site-header.is-scrolled .nav-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
 .site-header.is-scrolled .nav-icon  { display: flex; }
 
@@ -507,7 +518,15 @@ main {
   flex-wrap: wrap;
 }
 
-.fitxa-nav a { text-decoration: none; color: var(--color-accent, #333); }
+.fitxa-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: var(--color-accent, #333);
+  border-radius: 4px;
+}
 .fitxa-nav a:hover { text-decoration: underline; }
 .fitxa-nav-llista { margin: 0 auto; }
 
@@ -577,6 +596,7 @@ main {
   align-items: center;
   gap: 0.75rem;
   width: 100%;
+  min-height: 48px;
   padding: 0.875rem 0;
   border: none;
   background: transparent;
@@ -764,6 +784,50 @@ main {
 /* Evita gaps entre tiles de Leaflet (sub-pixel rendering) */
 .leaflet-tile-container { transform: translateZ(0); }
 .fitxa-mapa { height: 18rem; border-radius: 0.5rem; overflow: hidden; background: #e8e4df; }
+
+/* Popup del mapa: llegible en mòbil i amb sol */
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+.leaflet-popup-content {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  min-width: 150px;
+  margin: 0.6rem 0.85rem;
+}
+.leaflet-popup-content a {
+  display: block;
+  font-weight: 600;
+  color: var(--color-accent, #c81e1e);
+  text-decoration: none;
+}
+.leaflet-popup-content a:hover { text-decoration: underline; }
+.leaflet-popup-adreca {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.8125rem;
+  color: #666;
+}
+
+/* Botó de geolocalització al mapa */
+.mapa-btn-geo {
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+  transition: background 0.15s;
+  padding: 0;
+  color: #333;
+}
+.mapa-btn-geo:hover { background: #f4f4f4; }
+.mapa-btn-geo:active { background: #e4e4e4; }
 
 /* ── Proposta B — Nocturn ─────────────────────────────────────────────────── */
 
@@ -997,6 +1061,19 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   .filtre-input,
   .filtre-select {
     font-size: 1rem;
+  }
+
+  /* Filtres: scroll horitzontal amb snap a mòbil */
+  .filtre-botos {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+  }
+  .filtre-btn {
+    scroll-snap-align: start;
+    flex-shrink: 0;
   }
 
   /* Fitxa mòbil */
