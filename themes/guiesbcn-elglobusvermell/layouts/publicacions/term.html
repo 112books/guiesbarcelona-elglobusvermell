@@ -19,10 +19,6 @@
     <div class="mapa-contenidor" id="mapa-contenidor">
       <div id="mapa" class="mapa-el" style="height:28rem"></div>
     </div>
-
-    <section class="llistat-cronologic" id="llistat">
-      <div id="llistat-grups"></div>
-    </section>
   </section>
   {{ else }}
   <p class="publicacio-buit">Encara no hi ha fitxes d'edificis importades per aquesta publicació.</p>
@@ -31,6 +27,13 @@
   <div class="publicacio-descripcio">
     {{ .Content }}
   </div>
+
+  {{/* Llistat dinàmic: el JS l'injecta dins l'acordió ## Llistat */}}
+  {{ if .Pages }}
+  <section class="llistat-cronologic" id="llistat" aria-hidden="true">
+    <div id="llistat-grups"></div>
+  </section>
+  {{ end }}
 
   <nav class="publicacio-nav" aria-label="Navegació">
     <a href="{{ "en-paper/" | absURL }}">← Totes les publicacions</a>
