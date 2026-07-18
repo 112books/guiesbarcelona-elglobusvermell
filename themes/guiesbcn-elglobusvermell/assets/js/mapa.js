@@ -97,10 +97,9 @@
     // ── Zoom inicial ─────────────────────────────────────────────────────
     var group = L.featureGroup(allMarkers).addTo(map);
 
-    // Crida ÚNICA a fitBounds/setView per evitar que múltiples crides
-    // cancel·lin tiles a mig carregar (causa dels "quadrats en blanc").
-    // Staticrypt carrega el CSS de forma asíncrona, per tant esperem
-    // un instant perquè el navegador apliqui les dimensions correctes.
+    // Staticrypt carrega el CSS asíncronament: el contenidor pot tenir
+    // amplada 0 fins que el CSS s'aplica. Esperem que tingui una amplada
+    // real (> 200px) abans de fer fitBounds, per evitar tiles parcials.
     function fitMap() {
       map.invalidateSize();
       if (allMarkers.length === 1) {
@@ -109,7 +108,15 @@
         map.fitBounds(group.getBounds(), { padding: [30, 30] });
       }
     }
-    setTimeout(fitMap, 300);
+    function fitWhenReady(attempt) {
+      if (attempt > 20) { fitMap(); return; } // màxim 4s, llavors forcem
+      if (mapaEl.offsetWidth > 200) {
+        fitMap();
+      } else {
+        setTimeout(function () { fitWhenReady(attempt + 1); }, 200);
+      }
+    }
+    fitWhenReady(0);
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
     function filtraMapa() {
