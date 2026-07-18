@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca l’Arnó"
 draft = false
+adreca = "Rector de Vallfogona, 1-9"
+lat = 41.4200773
+long = 2.1974174
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Torre del Fang"
 draft = false
+adreca = "Clot, 228-264"
+lat = 41.4163352
+long = 2.1914995
 
 
 publicacions = ["masies"]

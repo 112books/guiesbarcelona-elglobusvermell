@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Garcini"
 draft = false
+adreca = "Xiprer, 40-46"
+lat = 41.4185148
+long = 2.1798738
 
 
 publicacions = ["masies"]

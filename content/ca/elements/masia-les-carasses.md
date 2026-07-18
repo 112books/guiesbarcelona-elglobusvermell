@@ -1,6 +1,9 @@
 +++
 title = "Masia Les Carasses"
 draft = false
+adreca = "Torras i Bages, 108"
+lat = 41.4393518
+long = 2.1910206
 
 
 publicacions = ["masies"]

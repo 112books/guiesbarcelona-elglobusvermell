@@ -1,6 +1,9 @@
 +++
 title = "Masia Masoveria de la Virreina"
 draft = false
+adreca = "Sant Lluís, 1-5"
+lat = 41.4041574
+long = 2.1581857
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Raventós"
 draft = false
+adreca = "Fontcoberta 16"
+lat = 41.3957028
+long = 2.1236461
 
 
 publicacions = ["masies"]

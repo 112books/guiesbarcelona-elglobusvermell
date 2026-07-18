@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Valent"
 draft = false
+adreca = "Av. Rio de Janeiro, 49-51"
+lat = 41.4432752
+long = 2.1860882
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Fargues"
 draft = false
+adreca = "Pg. Maragall, 383-389"
+lat = 41.4277139
+long = 2.1647936
 
 
 publicacions = ["masies"]

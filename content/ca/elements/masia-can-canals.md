@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Canals"
 draft = false
+adreca = "Pl. Calvó, 1-2"
+lat = 41.4107415
+long = 2.1311749
 
 
 publicacions = ["masies"]

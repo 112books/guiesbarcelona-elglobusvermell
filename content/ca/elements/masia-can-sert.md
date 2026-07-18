@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Sert"
 draft = false
+adreca = "República Argentina, 16-18"
+lat = 41.4113742
+long = 2.1445375
 
 
 publicacions = ["masies"]

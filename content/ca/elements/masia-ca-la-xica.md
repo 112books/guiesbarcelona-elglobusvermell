@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca la Xica"
 draft = false
+adreca = "Dr. Santponç, 6-8"
+lat = 41.4316382
+long = 2.1913266
 
 
 publicacions = ["masies"]

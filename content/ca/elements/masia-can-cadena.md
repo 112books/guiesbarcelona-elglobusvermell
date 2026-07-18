@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Cadena"
 draft = false
+adreca = "Menorca, 25-27"
+lat = 41.422554
+long = 2.2032369
 
 
 publicacions = ["masies"]
