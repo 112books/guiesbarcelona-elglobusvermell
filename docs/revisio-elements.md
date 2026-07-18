@@ -1,0 +1,162 @@
+# Revisió elements: problemes detectats
+_Fitxer intern de revisió — no publicat_
+
+## Elements sense coordenades
+
+### masies (86 elements)
+
+- **Masia Ca la Figuera** — adreça: `—` → `masia-ca-la-figuera.md`
+- **Masia Ca la Marquesa** — adreça: `—` → `masia-ca-la-marquesa.md`
+- **Masia Ca la Xica** — adreça: `—` → `masia-ca-la-xica.md`
+- **Masia Ca l’Agustí** — adreça: `—` → `masia-ca-lagusti.md`
+- **Masia Ca l’Arnó** — adreça: `—` → `masia-ca-larno.md`
+- **Masia Ca l’Estruch** — adreça: `—` → `masia-ca-lestruch.md`
+- **Masia Ca n’Andalet** — adreça: `—` → `masia-ca-nandalet.md`
+- **Masia Ca n’Armera** — adreça: `—` → `masia-ca-narmera.md`
+- **Masia Ca n’Artés** — adreça: `—` → `masia-ca-nartes.md`
+- **Masia Ca n’Ensenya** — adreça: `—` → `masia-ca-nensenya.md`
+- **Masia Cal Cervera** — adreça: `—` → `masia-cal-cervera.md`
+- **Masia Can Baliarda** — adreça: `—` → `masia-can-baliarda.md`
+- **Masia Can Baró** — adreça: `—` → `masia-can-baro.md`
+- **Masia Can Basté** — adreça: `—` → `masia-can-baste.md`
+- **Masia Can Bruixa** — adreça: `—` → `masia-can-bruixa.md`
+- **Masia Can Cadena** — adreça: `—` → `masia-can-cadena.md`
+- **Masia Can Canals** — adreça: `—` → `masia-can-canals.md`
+- **Masia Can Canet de la Riera** — adreça: `—` → `masia-can-canet-de-la-riera.md`
+- **Masia Can Carabassa** — adreça: `—` → `masia-can-carabassa.md`
+- **Masia Can Carreras** — adreça: `—` → `masia-can-carreras.md`
+- **Masia Can Castelló** — adreça: `—` → `masia-can-castello.md`
+- **Masia Can Cortada** — adreça: `—` → `masia-can-cortada.md`
+- **Masia Can Cros** — adreça: `—` → `masia-can-cros.md`
+- **Masia Can Fargues** — adreça: `—` → `masia-can-fargues.md`
+- **Masia Can Figuerola** — adreça: `—` → `masia-can-figuerola.md`
+- **Masia Can Garcini** — adreça: `—` → `masia-can-garcini.md`
+- **Masia Can Gardenyes** — adreça: `—` → `masia-can-gardenyes.md`
+- **Masia Can Gras** — adreça: `—` → `masia-can-gras.md`
+- **Masia Can Joanet del Borni** — adreça: `—` → `masia-can-joanet-del-borni.md`
+- **Masia Can Laietos** — adreça: `—` → `masia-can-laietos.md`
+- **Masia Can Llupià** — adreça: `—` → `masia-can-llupia.md`
+- **Masia Can Manén** — adreça: `—` → `masia-can-manen.md`
+- **Masia Can Marcet** — adreça: `—` → `masia-can-marcet.md`
+- **Masia Can Mascaró** — adreça: `—` → `masia-can-mascaro.md`
+- **Masia Can Masdéu** — adreça: `—` → `masia-can-masdeu.md`
+- **Masia Can Mèlic** — adreça: `—` → `masia-can-melic.md`
+- **Masia Can Mestres (Vallvidrera)** — adreça: `—` → `masia-can-mestres-vallvidrera.md`
+- **Masia Can Miralletes** — adreça: `—` → `masia-can-miralletes.md`
+- **Masia Can Mora** — adreça: `—` → `masia-can-mora.md`
+- **Masia Can Muntaner** — adreça: `—` → `masia-can-muntaner.md`
+- **Masia Can Papanaps** — adreça: `—` → `masia-can-papanaps.md`
+- **Masia Can Piteu** — adreça: `—` → `masia-can-piteu.md`
+- **Masia Can Planes, “La Masia”** — adreça: `—` → `masia-can-planes-la-masia.md`
+- **Masia Can Planes** — adreça: `—` → `masia-can-planes.md`
+- **Masia Can Pomaret** — adreça: `—` → `masia-can-pomaret.md`
+- **Masia Can Ponsic** — adreça: `—` → `masia-can-ponsic.md`
+- **Masia Can Prats** — adreça: `—` → `masia-can-prats.md`
+- **Masia Can Querol** — adreça: `—` → `masia-can-querol.md`
+- **Masia Can Raspall** — adreça: `—` → `masia-can-raspall.md`
+- **Masia Can Raventós** — adreça: `—` → `masia-can-raventos.md`
+- **Masia Can Riera** — adreça: `—` → `masia-can-riera.md`
+- **Masia Can Ros de Mayol** — adreça: `—` → `masia-can-ros-de-mayol.md`
+- **Masia Can Ros** — adreça: `—` → `masia-can-ros.md`
+- **Masia Can Rosés** — adreça: `—` → `masia-can-roses.md`
+- **Masia Can Santgenís** — adreça: `—` → `masia-can-santgenis.md`
+- **Masia Can Senillosa** — adreça: `—` → `masia-can-senillosa.md`
+- **Masia Can Sert** — adreça: `—` → `masia-can-sert.md`
+- **Masia Can Sitjar Gran** — adreça: `—` → `masia-can-sitjar-gran.md`
+- **Masia Can Soler** — adreça: `—` → `masia-can-soler.md`
+- **Masia Can Travi Nou** — adreça: `—` → `masia-can-travi-nou.md`
+- **Masia Can Travi Vell** — adreça: `—` → `masia-can-travi-vell.md`
+- **Masia Can Trilla** — adreça: `—` → `masia-can-trilla.md`
+- **Masia Can Tusquets** — adreça: `—` → `masia-can-tusquets.md`
+- **Masia Can Valent** — adreça: `—` → `masia-can-valent.md`
+- **Masia Can Verdaguer** — adreça: `—` → `masia-can-verdaguer.md`
+- **Masia Can Xipreret** — adreça: `—` → `masia-can-xipreret.md`
+- **Masia Granja Montserrat** — adreça: `—` → `masia-granja-montserrat.md`
+- **Masia i Masoveria de Can Safont** — adreça: `—` → `masia-i-masoveria-de-can-safont.md`
+- **Masia La Granja Vella** — adreça: `—` → `masia-la-granja-vella.md`
+- **Masia La Petita Maria** — adreça: `—` → `masia-la-petita-maria.md`
+- **Masia Les Carasses** — adreça: `—` → `masia-les-carasses.md`
+- **Masia Mas Enric** — adreça: `—` → `masia-mas-enric.md`
+- **Masia Mas Guinardó** — adreça: `—` → `masia-mas-guinardo.md`
+- **Masia Mas Teixidor** — adreça: `—` → `masia-mas-teixidor.md`
+- **Masia Masoveria de la Virreina** — adreça: `—` → `masia-masoveria-de-la-virreina.md`
+- **Masia Rectoria de Sant Genís dels Agudells** — adreça: `—` → `masia-rectoria-de-sant-genis-dels-agudells.md`
+- **Masia Rectoria de Sant Martí** — adreça: `—` → `masia-rectoria-de-sant-marti.md`
+- **Masia Torre del Fang** — adreça: `—` → `masia-torre-del-fang.md`
+- **Masia Torre del Rellotge** — adreça: `—` → `masia-torre-del-rellotge.md`
+- **Masia Torre Llobeta** — adreça: `—` → `masia-torre-llobeta.md`
+- **Masia Vil·la Florida** — adreça: `—` → `masia-villa-florida.md`
+- **Masia Vil·la Joana** — adreça: `—` → `masia-villa-joana.md`
+- **Torre de Sant Joan** — adreça: `—` → `torre-de-sant-joan.md`
+- **Torre de Santa Caterina** — adreça: `—` → `torre-de-santa-caterina.md`
+- **Torre Rodona** — adreça: `—` → `torre-rodona.md`
+- **Torre Vélez** — adreça: `—` → `torre-velez.md`
+
+## Elements en format YAML (exclosos de geocodificació automàtica)
+
+- `adaptacio-dun-convent-per-a-escola-del-cenu.md`
+- `antics-magatzems-sepu.md`
+- `biblioteca-el-clot-josep-benet.md`
+- `bloc-diagonal.md`
+- `botiga-cottet.md`
+- `ca-laranyo.md`
+- `can-tiana-il3-ub.md`
+- `casa-bloc.md`
+- `casa-f-espona.md`
+- `casa-ginesta.md`
+- `casa-j-espona.md`
+- `casa-jaume-sans.md`
+- `casa-josefa-lopez.md`
+- `casa-montepio-dempleats.md`
+- `casa-rodriguez-arias.md`
+- `casa-sardanes-i-bonet.md`
+- `casa-unifamiliar.md`
+- `casa-viladot.md`
+- `casa-vilaro.md`
+- `casa-xalet-passatge-roserar.md`
+- `conjunt-dhabitatges-illa-glories.md`
+- `cotxeres-de-tmb.md`
+- `dispensari-central-antituberculos.md`
+- `dispensari-de-sant-josep-de-la-muntanya.md`
+- `edifici-astoria.md`
+- `edifici-dhabitatges-carrer-balmes.md`
+- `edifici-dhabitatges-carrer-de-lart.md`
+- `edifici-dhabitatges-carrer-enric-granados.md`
+- `edifici-dhabitatges-carrer-iradier.md`
+- `edifici-dhabitatges-carrer-jonqueres.md`
+- `edifici-dhabitatges-carrer-lincoln.md`
+- `edifici-dhabitatges-carrer-navas.md`
+- `edifici-dhabitatges-carrer-padilla.md`
+- `edifici-dhabitatges-carrer-padua.md`
+- `edifici-dhabitatges-carrer-pi-i-margall.md`
+- `edifici-dhabitatges-carrer-rector-ubach.md`
+- `edifici-dhabitatges-carrer-rossello.md`
+- `edifici-dhabitatges-carrer-viladomat.md`
+- `edifici-dhabitatges-gran-via.md`
+- `edifici-dhabitatges-placa-bonanova.md`
+- `edifici-doficines-entegra.md`
+- `edifici-media-tic.md`
+- `edifici-mediapro.md`
+- `fabrica-de-llorenc-pons-i-clerch.md`
+- `fabrica-myrurgia.md`
+- `farinera-sant-jaume-la-farinera-del-clot.md`
+- `fundacio-joan-miro.md`
+- `grup-escolar-blanquerna.md`
+- `hispano-olivetti.md`
+- `industrias-metalicas-sa.md`
+- `jardins-ada-byron.md`
+- `jardins-de-ca-laranyo.md`
+- `jardins-de-diagonal-ciutat-de-granada-bolivia-badajoz.md`
+- `joieria-roca.md`
+- `la-ciutat-groga.md`
+- `les-escales-park.md`
+- `mercat-dels-encants-fira-de-bellcaire.md`
+- `museu-can-framis-i-jardins-de-miquel-marti-i-pol.md`
+- `netol.md`
+- `parc-de-les-glories.md`
+- `pavello-de-la-republica-de-1937-replica.md`
+- `placa-dolors-piera-isabel-vila.md`
+- `reforma-de-laula-de-quimica-a-la-ub.md`
+- `reforma-dun-atic.md`
+- `seu-de-la-cmt.md`
+- `torre-glories-torre-agbar.md`
