@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Sitjar Gran"
 draft = false
+adreca = "Pg. Valldaura, 23-25"
+lat = 41.439566
+long = 2.161228
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Baró"
 draft = false
+adreca = "Pl. Can Baró, 1-3"
+lat = 41.416533
+long = 2.162071
 
 
 publicacions = ["masies"]

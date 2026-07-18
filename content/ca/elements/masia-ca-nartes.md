@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca n’Artés"
 draft = false
+adreca = "Pere d’Artés, 8"
+lat = 41.430576
+long = 2.172686
 
 
 publicacions = ["masies"]

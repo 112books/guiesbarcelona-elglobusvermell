@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca n’Andalet"
 draft = false
+adreca = "Ptge. Andalet, 11"
+lat = 41.427143
+long = 2.153725
 
 
 publicacions = ["masies"]

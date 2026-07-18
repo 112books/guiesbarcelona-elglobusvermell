@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Mèlic"
 draft = false
+adreca = "Torrent d’en Melis, 11"
+lat = 41.415751
+long = 2.172410
 
 
 publicacions = ["masies"]

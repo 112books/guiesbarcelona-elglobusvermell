@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Senillosa"
 draft = false
+adreca = "Fontcoberta, 9-13"
+lat = 41.395175
+long = 2.124000
 
 
 publicacions = ["masies"]

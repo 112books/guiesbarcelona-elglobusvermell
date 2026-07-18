@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Raspall"
 draft = false
+adreca = "Manuel Girona, 33"
+lat = 41.391072
+long = 2.123610
 
 
 publicacions = ["masies"]

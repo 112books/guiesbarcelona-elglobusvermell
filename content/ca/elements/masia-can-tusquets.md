@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Tusquets"
 draft = false
+adreca = "Travessera de Dalt, 45-61"
+lat = 41.410865
+long = 2.156929
 
 
 publicacions = ["masies"]

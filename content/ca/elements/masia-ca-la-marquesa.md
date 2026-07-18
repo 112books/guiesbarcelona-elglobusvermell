@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca la Marquesa"
 draft = false
+adreca = "Maignon, 27"
+lat = 41.409465
+long = 2.152244
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Riera"
 draft = false
+adreca = "Santander, 41"
+lat = 41.424728
+long = 2.199308
 
 
 publicacions = ["masies"]

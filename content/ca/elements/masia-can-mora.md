@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Mora"
 draft = false
+adreca = "Portell, 11-13"
+lat = 41.417883
+long = 2.151030
 
 
 publicacions = ["masies"]

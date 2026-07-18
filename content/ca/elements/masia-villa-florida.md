@@ -1,6 +1,9 @@
 +++
 title = "Masia Vil·la Florida"
 draft = false
+adreca = "Muntaner, 540-548"
+lat = 41.405356
+long = 2.135270
 
 
 publicacions = ["masies"]
