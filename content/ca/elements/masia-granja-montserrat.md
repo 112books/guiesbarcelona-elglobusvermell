@@ -1,6 +1,9 @@
 +++
 title = "Masia Granja Montserrat"
 draft = false
+adreca = "Torrent de Tapioles, 7-9"
+lat = 41.464059
+long = 2.181720
 
 
 publicacions = ["masies"]

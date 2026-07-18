@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Cortada"
 draft = false
+adreca = "Av. de l’Estatut de Catalunya, 57-71"
+lat = 41.429518
+long = 2.156565
 
 
 publicacions = ["masies"]

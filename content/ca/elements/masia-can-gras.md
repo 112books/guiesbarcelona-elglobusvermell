@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Gras"
 draft = false
+adreca = "Pl. Santes Creus, 20"
+lat = 41.430072
+long = 2.162329
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Xipreret"
 draft = false
+adreca = "Mare de Déu de la Salut, 75"
+lat = 41.412884
+long = 2.159086
 
 
 publicacions = ["masies"]

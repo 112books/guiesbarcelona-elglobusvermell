@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Mascaró"
 draft = false
+adreca = "Dr. Cadevall, 28-52"
+lat = 41.417358
+long = 2.168633
 
 
 publicacions = ["masies"]

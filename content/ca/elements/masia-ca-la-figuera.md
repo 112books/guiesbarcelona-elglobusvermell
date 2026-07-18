@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca la Figuera"
 draft = false
+adreca = "Roine, 12-16"
+lat = 41.430862
+long = 2.190158
 
 
 publicacions = ["masies"]

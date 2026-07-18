@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca l’Agustí"
 draft = false
+adreca = "Pere IV, 429-431"
+lat = 41.414322
+long = 2.206242
 
 
 publicacions = ["masies"]

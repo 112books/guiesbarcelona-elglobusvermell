@@ -1,6 +1,9 @@
 +++
 title = "Masia Mas Guinardó"
 draft = false
+adreca = "Pl. Salvador Riera, 2-5"
+lat = 41.418166
+long = 2.174287
 
 
 publicacions = ["masies"]

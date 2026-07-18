@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Baliarda"
 draft = false
+adreca = "Pg. Valldaura, 1-13"
+lat = 41.436981
+long = 2.154595
 
 
 publicacions = ["masies"]

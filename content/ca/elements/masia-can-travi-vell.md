@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Travi Vell"
 draft = false
+adreca = "Av. del Cardenal Vidal i Barraquer, 47"
+lat = 41.433101
+long = 2.151988
 
 
 publicacions = ["masies"]

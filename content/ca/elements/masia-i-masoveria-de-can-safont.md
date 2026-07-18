@@ -1,6 +1,9 @@
 +++
 title = "Masia i Masoveria de Can Safont"
 draft = false
+adreca = "Natzaret, 107"
+lat = 41.427649
+long = 2.136817
 
 
 publicacions = ["masies"]

@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Figuerola"
 draft = false
+adreca = "Judea, 2"
+lat = 41.424738
+long = 2.139833
 
 
 publicacions = ["masies"]

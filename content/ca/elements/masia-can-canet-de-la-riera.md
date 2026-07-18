@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Canet de la Riera"
 draft = false
+adreca = "Bosch i Gimpera, 5-13"
+lat = 41.393656
+long = 2.118309
 
 
 publicacions = ["masies"]

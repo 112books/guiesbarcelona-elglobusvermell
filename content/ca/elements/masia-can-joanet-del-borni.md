@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Joanet del Borni"
 draft = false
+adreca = "Neopàtria, 22-28"
+lat = 41.428906
+long = 2.189664
 
 
 publicacions = ["masies"]

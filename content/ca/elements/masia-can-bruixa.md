@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Bruixa"
 draft = false
+adreca = "Parcerisa, 8"
+lat = 41.368802
+long = 2.134461
 
 
 publicacions = ["masies"]
