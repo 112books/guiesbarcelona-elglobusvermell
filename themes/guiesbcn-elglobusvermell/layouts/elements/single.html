@@ -177,7 +177,7 @@
       <div id="fitxa-mapa" class="fitxa-mapa" style="height:18rem"></div>
     </div>
     <script>
-    window.FITXA_PUNT = { lat: {{ .Params.lat | jsonify | safeJS }}, long: {{ .Params.long | jsonify | safeJS }}, title: {{ .Title | jsonify | safeJS }} };
+    window.FITXA_PUNT = { lat: {{ .Params.lat | jsonify | safeJS }}, long: {{ .Params.long | jsonify | safeJS }}, title: {{ .Title | jsonify | safeJS }}, color: {{ $pubColor | jsonify | safeJS }} };
     </script>
     {{ end }}
 

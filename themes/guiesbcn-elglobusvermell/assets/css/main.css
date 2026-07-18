@@ -759,7 +759,11 @@ main {
 
 .mapa-contenidor { margin-bottom: var(--space-lg); }
 
-.mapa-el { height: 28rem; border-radius: 0.5rem; overflow: hidden; position: relative; z-index: 1; }
+.mapa-el { height: 28rem; border-radius: 0.5rem; overflow: hidden; position: relative; z-index: 1; background: #e8e4df; }
+
+/* Evita gaps entre tiles de Leaflet (sub-pixel rendering) */
+.leaflet-tile-container { transform: translateZ(0); }
+.fitxa-mapa { height: 18rem; border-radius: 0.5rem; overflow: hidden; background: #e8e4df; }
 
 /* ── Proposta B — Nocturn ─────────────────────────────────────────────────── */
 
