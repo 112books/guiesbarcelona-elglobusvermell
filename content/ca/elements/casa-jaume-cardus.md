@@ -3,6 +3,8 @@ title = "Casa Jaume Cardús"
 draft = false
 
 adreca = "Alcanar 3"
+lat = "41.3801393"
+long = "2.1906682"
 any = "1907"
 
 publicacions = ["barceloneta"]

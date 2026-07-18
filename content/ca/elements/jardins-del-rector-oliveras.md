@@ -3,6 +3,8 @@ title = "Jardins del Rector Oliveras"
 draft = false
 
 adreca = "Ptge. Rector Oliveras, 6 (C. Aragó, 299)"
+lat = "41.3948260"
+long = "2.1676833"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

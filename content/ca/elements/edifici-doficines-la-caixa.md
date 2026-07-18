@@ -3,6 +3,8 @@ title = "Edifici d’oficines La Caixa"
 draft = false
 
 adreca = "Av. Diagonal 522-532 / Moià 3"
+lat = "41.3961415"
+long = "2.1574363"
 any = "1973"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "Casa Josep Magret"
 draft = false
 
 adreca = "Atlàntida 47"
+lat = "41.3799192"
+long = "2.1898134"
 projecte_text = "Josep Graner Prat. 1910, aprox."
 
 publicacions = ["barceloneta"]

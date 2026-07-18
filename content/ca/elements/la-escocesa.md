@@ -3,6 +3,8 @@ title = "La Escocesa"
 draft = false
 
 adreca = "Pere IV 341-361 + Bolívia 272-278"
+lat = "41.4142233"
+long = "2.2064500"
 
 publicacions = ["poblenou"]
 proteccio = "B / D"

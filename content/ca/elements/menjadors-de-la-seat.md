@@ -3,6 +3,8 @@ title = "Menjadors de la SEAT"
 draft = false
 
 adreca = "Zona Franca, Sector A (entre carrers 23 i 24 i av. 5)"
+lat = "41.3356323"
+long = "2.1186749"
 any = "1956"
 
 publicacions = ["50-75"]

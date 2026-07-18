@@ -3,6 +3,8 @@ title = "Jardins de Flora Tristan"
 draft = false
 
 adreca = "Padilla, 204-210"
+lat = "41.4103432"
+long = "2.1710690"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

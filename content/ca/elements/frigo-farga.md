@@ -3,6 +3,8 @@ title = "Frigo / Farga"
 draft = false
 
 adreca = "Perú 84-102 + Bilbao 140-156 + Bolívia 143-163"
+lat = "41.4065278"
+long = "2.1935721"
 any = "1959"
 
 publicacions = ["poblenou"]

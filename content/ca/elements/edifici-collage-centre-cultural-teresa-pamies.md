@@ -3,6 +3,8 @@ title = "Edifici Collage. Centre Cultural Teresa Pàmies"
 draft = false
 
 adreca = "C. Comte d’Urgell, 145-147 | Esquerra de l’Eixample"
+lat = "41.3867940"
+long = "2.1519336"
 
 publicacions = ["09-25", "biblioteques"]
 

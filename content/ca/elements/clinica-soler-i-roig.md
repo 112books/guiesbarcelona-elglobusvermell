@@ -3,6 +3,8 @@ title = "Clínica Soler i Roig"
 draft = false
 
 adreca = "Vallmajor 25"
+lat = "41.3996015"
+long = "2.1386530"
 any = "1954"
 
 publicacions = ["50-75"]

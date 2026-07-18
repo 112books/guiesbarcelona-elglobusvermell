@@ -3,6 +3,8 @@ title = "Casa Joan Magí"
 draft = false
 
 adreca = "Balboa 14 + Pizarro 3"
+lat = "41.3821287"
+long = "2.1883420"
 any = "1896"
 
 publicacions = ["barceloneta"]

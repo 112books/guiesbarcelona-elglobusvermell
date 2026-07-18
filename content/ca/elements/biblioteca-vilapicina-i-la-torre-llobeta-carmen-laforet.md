@@ -3,6 +3,8 @@ title = "Biblioteca Vilapicina i la Torre Llobeta – Carmen Laforet"
 draft = false
 
 adreca = "Pl. Carmen Laforet, 11 |"
+lat = "41.4269100"
+long = "2.1764078"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["dones-arquitectes", "nomenclator-femeni"]

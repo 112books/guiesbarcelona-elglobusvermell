@@ -3,6 +3,8 @@ title = "Casa Martí Ventosa"
 draft = false
 
 adreca = "Pg. Joan de Borbó 22-23 + Mar 44-46"
+lat = "41.3795673"
+long = "2.1878080"
 any = "1935"
 
 publicacions = ["barceloneta"]

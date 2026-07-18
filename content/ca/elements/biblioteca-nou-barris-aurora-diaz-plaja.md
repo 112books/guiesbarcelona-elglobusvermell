@@ -3,6 +3,8 @@ title = "Biblioteca Nou Barris – Aurora Díaz-Plaja"
 draft = false
 
 adreca = "Pl. Major de Nou Barris, 2 |"
+lat = "41.4366923"
+long = "2.1705836"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["nomenclator-femeni"]

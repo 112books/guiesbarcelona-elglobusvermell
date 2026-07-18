@@ -3,6 +3,8 @@ title = "Jardins d’Elena Maseras"
 draft = false
 
 adreca = "Rosselló, 161-169"
+lat = "41.3869108"
+long = "2.1488768"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

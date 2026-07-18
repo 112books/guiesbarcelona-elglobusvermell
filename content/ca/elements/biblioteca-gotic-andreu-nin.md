@@ -3,6 +3,8 @@ title = "Biblioteca Gòtic – Andreu Nin"
 draft = false
 
 adreca = "Rbla. de Santa Mònica, 30-32 | Barri Gòtic"
+lat = "41.3785690"
+long = "2.1760468"
 
 publicacions = ["biblioteques"]
 edifici_original = "Gran Hotel Falcón. Juli Marial. 1879"

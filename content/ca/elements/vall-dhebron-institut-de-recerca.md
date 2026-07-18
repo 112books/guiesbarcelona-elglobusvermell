@@ -3,6 +3,8 @@ title = "Vall d’Hebron Institut de Recerca"
 draft = false
 
 adreca = "Pg. Vall d’Hebron, 129"
+lat = "41.4278662"
+long = "2.1424341"
 
 publicacions = ["09-25"]
 

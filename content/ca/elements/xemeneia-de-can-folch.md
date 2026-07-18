@@ -3,6 +3,8 @@ title = "Xemeneia de Can Folch"
 draft = false
 
 adreca = "Salvador Espriu 15-21"
+lat = "41.3877185"
+long = "2.1950900"
 any = "1915"
 
 publicacions = ["poblenou"]

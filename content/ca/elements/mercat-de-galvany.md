@@ -3,6 +3,8 @@ title = "Mercat de Galvany"
 draft = false
 
 adreca = "Santaló, 65"
+lat = "41.3975848"
+long = "2.1433345"
 
 publicacions = ["mercats"]
 

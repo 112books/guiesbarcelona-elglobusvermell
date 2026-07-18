@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Compte Borrell"
 draft = false
 
 adreca = "Comte Borrell 205-213"
+lat = "41.3869157"
+long = "2.1499714"
 any = "1958"
 
 publicacions = ["50-75"]

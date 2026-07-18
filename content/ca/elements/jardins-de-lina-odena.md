@@ -3,6 +3,8 @@ title = "Jardins de Lina Òdena"
 draft = false
 
 adreca = "Alí Bei, 121 + C. Sardenya, 170-176"
+lat = "41.3961848"
+long = "2.1841557"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

@@ -3,6 +3,8 @@ title = "Jardins de Rosa Deulofeu"
 draft = false
 
 adreca = "C. París, 80 + C. Viladomat, 281 + C. Calàbria, 264"
+lat = "41.3941538"
+long = "2.1539818"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

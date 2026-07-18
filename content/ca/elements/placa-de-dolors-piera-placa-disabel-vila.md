@@ -3,6 +3,8 @@ title = "Plaça de Dolors Piera + Plaça d’Isabel Vilà"
 draft = false
 
 adreca = "Sancho de Àvila + C. Roc Boronat + C. Almogàvers + C. Ciutat de Granada"
+lat = "41.3975374"
+long = "2.1890583"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

@@ -3,6 +3,8 @@ title = "Torre de telecomunicacions de Collserola"
 draft = false
 
 adreca = "Ctra. de Vallvidrera al Tibidabo"
+lat = "41.4159779"
+long = "2.1103171"
 
 publicacions = ["76-08"]
 

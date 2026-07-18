@@ -3,6 +3,8 @@ title = "Jardins de Maria Mercè Marçal"
 draft = false
 
 adreca = "C. Provença, 97"
+lat = "41.3862413"
+long = "2.1497495"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

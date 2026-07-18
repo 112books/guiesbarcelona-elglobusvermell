@@ -3,6 +3,8 @@ title = "Rambla de Sants. Jardins elevats de Sants"
 draft = false
 
 adreca = "Sants"
+lat = "41.3753288"
+long = "2.1349117"
 any = "2016"
 
 publicacions = ["76-08"]

@@ -3,6 +3,8 @@ title = "«Ferroestructura número 5» (o «Sideroploide. Als homes de la mar»)
 draft = false
 
 adreca = "Moll de Pescadors"
+lat = "41.3748"
+long = "2.1821"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

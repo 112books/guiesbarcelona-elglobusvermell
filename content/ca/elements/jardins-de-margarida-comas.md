@@ -3,6 +3,8 @@ title = "Jardins de Margarida Comas"
 draft = false
 
 adreca = "Llull, 32 + C. Joan d’Àustria, 51 + C. Ramon Turró, 21"
+lat = "41.3999010"
+long = "2.2011615"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

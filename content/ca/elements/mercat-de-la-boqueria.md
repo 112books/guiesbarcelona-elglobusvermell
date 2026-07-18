@@ -3,6 +3,8 @@ title = "Mercat de la Boqueria"
 draft = false
 
 adreca = "La Rambla, 89"
+lat = "41.3819245"
+long = "2.1723514"
 
 publicacions = ["mercats"]
 temes_transversals = ["dones-arquitectes"]

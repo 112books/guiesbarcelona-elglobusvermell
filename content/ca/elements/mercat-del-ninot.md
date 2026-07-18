@@ -3,6 +3,8 @@ title = "Mercat del Ninot"
 draft = false
 
 adreca = "Mallorca, 133-157"
+lat = "41.3878249"
+long = "2.1543985"
 
 publicacions = ["mercats"]
 

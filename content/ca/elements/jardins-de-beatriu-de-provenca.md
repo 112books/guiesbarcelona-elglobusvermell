@@ -3,6 +3,8 @@ title = "Jardins de Beatriu de Provença"
 draft = false
 
 adreca = "Nàpols, 244"
+lat = "41.4014840"
+long = "2.1715282"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

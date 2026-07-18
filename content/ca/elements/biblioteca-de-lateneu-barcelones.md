@@ -1,6 +1,8 @@
 +++
 title = "Biblioteca de l’Ateneu Barcelonès"
 draft = false
+lat = "41.3844171"
+long = "2.1717167"
 
 
 publicacions = ["biblioteques"]

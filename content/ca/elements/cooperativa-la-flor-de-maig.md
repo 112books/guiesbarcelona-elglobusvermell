@@ -3,6 +3,8 @@ title = "Cooperativa La Flor de Maig"
 draft = false
 
 adreca = "Doctor Trueta 195 + Ptge. Bori 2-4"
+lat = "41.3979311"
+long = "2.2022065"
 
 publicacions = ["poblenou"]
 proteccio = "C"

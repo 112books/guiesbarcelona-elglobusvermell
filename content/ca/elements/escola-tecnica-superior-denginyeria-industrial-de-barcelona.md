@@ -3,6 +3,8 @@ title = "Escola Tècnica Superior d’Enginyeria Industrial de Barcelona"
 draft = false
 
 adreca = "Av. Diagonal 647"
+lat = "41.3842777"
+long = "2.1161060"
 any = "1964"
 
 publicacions = ["50-75"]

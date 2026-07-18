@@ -3,6 +3,8 @@ title = "Can Gili Nou"
 draft = false
 
 adreca = "Dr. Trueta 164 + Taulat 3-13 + Ciutat de Granada 1-5"
+lat = "41.3961113"
+long = "2.2006828"
 
 publicacions = ["poblenou"]
 proteccio = "B"

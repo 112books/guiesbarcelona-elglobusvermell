@@ -3,6 +3,8 @@ title = "Jardins de Leonor Serrano"
 draft = false
 
 adreca = "Concili de Trento, 44 + C. Andrade, 5"
+lat = "41.4200106"
+long = "2.2042628"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

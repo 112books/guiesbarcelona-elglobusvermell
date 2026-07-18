@@ -3,6 +3,8 @@ title = "Biblioteca Trinitat Vella – José Barbero"
 draft = false
 
 adreca = "C. Galícia, 16 |"
+lat = "41.4492831"
+long = "2.1907456"
 
 publicacions = ["biblioteques"]
 

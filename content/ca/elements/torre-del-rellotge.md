@@ -3,6 +3,8 @@ title = "Torre del Rellotge"
 draft = false
 
 adreca = "Moll de Pescadors s/n"
+lat = "41.3748"
+long = "2.1810"
 projecte_text = "Joris Prosper van Verboom. 1772. Conversió en rellotge: 1904"
 
 publicacions = ["barceloneta"]

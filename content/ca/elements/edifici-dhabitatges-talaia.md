@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Talaia"
 draft = false
 
 adreca = "Av. Sarrià 71 / Av. Diagonal 523"
+lat = "41.4088143"
+long = "2.1115378"
 any = "1970"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "«Simón Bolívar»"
 draft = false
 
 adreca = "Parc de la Barceloneta"
+lat = "41.3828365"
+long = "2.1924885"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

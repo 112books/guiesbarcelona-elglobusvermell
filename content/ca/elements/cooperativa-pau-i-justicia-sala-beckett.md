@@ -3,6 +3,8 @@ title = "Cooperativa Pau i Justícia / Sala Beckett"
 draft = false
 
 adreca = "Pere IV 228-232 + Batista 11-15"
+lat = "41.4047787"
+long = "2.1994806"
 
 publicacions = ["76-08", "poblenou"]
 temes_transversals = ["dones-arquitectes"]

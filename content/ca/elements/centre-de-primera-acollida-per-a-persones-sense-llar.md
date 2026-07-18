@@ -3,6 +3,8 @@ title = "Centre de primera acollida per a persones sense llar"
 draft = false
 
 adreca = "Císter, 20"
+lat = "41.4110110"
+long = "2.1335018"
 
 publicacions = ["09-25"]
 

@@ -3,6 +3,8 @@ title = "Biblioteca Pública Arús"
 draft = false
 
 adreca = "Pg. de Sant Joan, 26 |"
+lat = "41.3928277"
+long = "2.1787798"
 
 publicacions = ["biblioteques"]
 

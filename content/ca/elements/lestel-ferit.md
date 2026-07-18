@@ -3,6 +3,8 @@ title = "«L’estel ferit»"
 draft = false
 
 adreca = "Platja de la Barceloneta"
+lat = "41.3793285"
+long = "2.1929710"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public", "dones-arquitectes"]

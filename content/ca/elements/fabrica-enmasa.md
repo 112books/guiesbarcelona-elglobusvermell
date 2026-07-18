@@ -3,6 +3,8 @@ title = "Fàbrica Enmasa"
 draft = false
 
 adreca = "Sant Adrià 55-79"
+lat = "41.4355824"
+long = "2.1984643"
 any = "1958"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "Jardins de Creu Casas"
 draft = false
 
 adreca = "Pamplona, 45 + C. Zamora, 40"
+lat = "41.3943431"
+long = "2.1943198"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

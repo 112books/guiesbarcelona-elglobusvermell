@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Calatrava"
 draft = false
 
 adreca = "Calatrava 2 / Rosari 45"
+lat = "41.3981747"
+long = "2.1318401"
 any = "1968"
 
 publicacions = ["50-75"]

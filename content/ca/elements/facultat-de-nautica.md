@@ -3,6 +3,8 @@ title = "Facultat de Nàutica"
 draft = false
 
 adreca = "Pla de Palau 18 + Pl. Pau Vila"
+lat = "41.3823336"
+long = "2.1845013"
 any = "1933"
 
 publicacions = ["barceloneta"]

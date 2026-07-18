@@ -3,6 +3,8 @@ title = "Illa d’equipaments Alchemika"
 draft = false
 
 adreca = "C. Indústria, 295 |"
+lat = "41.3814695"
+long = "2.0683080"
 
 publicacions = ["09-25", "biblioteques"]
 temes_transversals = ["dones-arquitectes", "nomenclator-femeni"]

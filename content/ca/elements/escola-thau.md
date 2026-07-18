@@ -3,6 +3,8 @@ title = "Escola Thau"
 draft = false
 
 adreca = "Ctra. d’Esplugues 49-53"
+lat = "41.3591981"
+long = "2.0715928"
 any = "1975"
 
 publicacions = ["50-75"]

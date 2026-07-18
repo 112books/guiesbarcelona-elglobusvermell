@@ -3,6 +3,8 @@ title = "Casa Tàpies"
 draft = false
 
 adreca = "Saragossa 57"
+lat = "41.4022372"
+long = "2.1488081"
 any = "1963"
 
 publicacions = ["50-75"]

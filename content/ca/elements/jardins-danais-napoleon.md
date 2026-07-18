@@ -3,6 +3,8 @@ title = "Jardins d’Anaïs Napoleon"
 draft = false
 
 adreca = "Marina, 155"
+lat = "41.3366559"
+long = "2.1591809"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

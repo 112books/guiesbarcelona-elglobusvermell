@@ -3,6 +3,8 @@ title = "Ca l’Alier"
 draft = false
 
 adreca = "Cristóbal de Moura 43-47 + Pere IV 362-364 + Fluvià 102-118"
+lat = "41.4148075"
+long = "2.2113393"
 
 publicacions = ["poblenou"]
 proteccio = "C"

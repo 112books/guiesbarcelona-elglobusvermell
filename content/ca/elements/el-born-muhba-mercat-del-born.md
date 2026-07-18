@@ -3,6 +3,8 @@ title = "El Born (MUHBA) – Mercat del Born"
 draft = false
 
 adreca = "Pl. Comercial, 12"
+lat = "41.3857120"
+long = "2.1836373"
 
 publicacions = ["09-25", "mercats"]
 

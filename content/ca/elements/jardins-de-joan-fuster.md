@@ -3,6 +3,8 @@ title = "Jardins de Joan Fuster"
 draft = false
 
 adreca = "Pg. Taulat, 142+148 + C. Bac de Roda, 5 + C. Espronceda, 6"
+lat = "41.4021789"
+long = "2.2097452"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

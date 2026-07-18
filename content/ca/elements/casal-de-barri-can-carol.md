@@ -3,6 +3,8 @@ title = "Casal de Barri Can Carol"
 draft = false
 
 adreca = "Cambrils, 24"
+lat = "41.4122015"
+long = "2.1457694"
 any = "2021"
 
 publicacions = ["09-25"]

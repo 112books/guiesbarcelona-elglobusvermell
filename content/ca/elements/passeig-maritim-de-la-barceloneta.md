@@ -1,6 +1,8 @@
 +++
 title = "Passeig Marítim de la Barceloneta"
 draft = false
+lat = "41.3836275"
+long = "2.1949746"
 
 projecte_text = "Olga Tarrasó, Jordi Henrich, Jaume Artigues i Miquel Roig. 1997-2001"
 

@@ -3,6 +3,8 @@ title = "Jardins de Mercè Vilaret"
 draft = false
 
 adreca = "Floridablanca, 141"
+lat = "41.3819036"
+long = "2.1626083"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

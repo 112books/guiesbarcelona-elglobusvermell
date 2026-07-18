@@ -3,6 +3,8 @@ title = "Can Framis / Fundació Vila Casas"
 draft = false
 
 adreca = "Llacuna 103-117 + Roc Boronat 116-124 + Sancho de Ávila 145-155"
+lat = "41.4034225"
+long = "2.1950063"
 
 publicacions = ["poblenou"]
 proteccio = "C"

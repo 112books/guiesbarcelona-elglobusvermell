@@ -3,6 +3,8 @@ title = "Biblioteca Vapor Vell"
 draft = false
 
 adreca = "Ptge. Vapor Vell, 1 |"
+lat = "41.3768953"
+long = "2.1347780"
 
 publicacions = ["biblioteques"]
 edifici_original = "Fàbrica tèxtil El Vapor Vell. 1846"

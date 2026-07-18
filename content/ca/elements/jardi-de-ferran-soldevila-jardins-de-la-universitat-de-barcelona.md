@@ -3,6 +3,8 @@ title = "Jardí de Ferran Soldevila / Jardins de la Universitat de Barcelona"
 draft = false
 
 adreca = "Gran Via de les Corts Catalanes, 585 + C. Aribau, 2-6 + C. Diputació, 230"
+lat = "41.3870898"
+long = "2.1637493"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

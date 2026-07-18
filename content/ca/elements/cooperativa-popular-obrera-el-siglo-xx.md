@@ -3,6 +3,8 @@ title = "Cooperativa Popular Obrera El Siglo XX"
 draft = false
 
 adreca = "Ginebra 24"
+lat = "41.3817288"
+long = "2.1891346"
 any = "1941"
 
 publicacions = ["barceloneta"]

@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Freixa"
 draft = false
 
 adreca = "Freixa 36"
+lat = "41.3992244"
+long = "2.1381111"
 any = "1958"
 
 publicacions = ["50-75"]

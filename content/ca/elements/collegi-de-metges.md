@@ -3,6 +3,8 @@ title = "Col·legi de Metges"
 draft = false
 
 adreca = "Pg. Bonanova 47"
+lat = "41.4042104"
+long = "2.1293253"
 any = "1975"
 
 publicacions = ["50-75"]

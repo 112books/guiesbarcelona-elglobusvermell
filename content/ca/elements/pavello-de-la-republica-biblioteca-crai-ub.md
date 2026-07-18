@@ -1,6 +1,8 @@
 +++
 title = "Pavelló de la República – Biblioteca  CRAI UB"
 draft = false
+lat = "41.4307146"
+long = "2.1513040"
 
 projecte_text = "Josep Lluís Sert, Luis Lacasa. 1937 Reconstrucció de 1992 a càrrec de Antoni Ubach i Miquel Espinet, arquitectes i de J.M. Hernandez Leon"
 

@@ -3,6 +3,8 @@ title = "Jardins Antònia Vilàs"
 draft = false
 
 adreca = "Balboa, 36 / Ginebra, 43"
+lat = "41.3826382"
+long = "2.1905921"
 any = "2018"
 
 publicacions = ["09-25"]

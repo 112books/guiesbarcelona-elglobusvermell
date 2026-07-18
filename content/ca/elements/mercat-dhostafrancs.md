@@ -3,6 +3,8 @@ title = "Mercat d’Hostafrancs"
 draft = false
 
 adreca = "Creu Coberta, 93"
+lat = "41.3751562"
+long = "2.1438487"
 
 publicacions = ["mercats"]
 

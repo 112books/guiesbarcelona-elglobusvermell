@@ -3,6 +3,8 @@ title = "«El Negre de la Riba»"
 draft = false
 
 adreca = "Andrea Dòria 4"
+lat = "41.3798794"
+long = "2.1889037"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

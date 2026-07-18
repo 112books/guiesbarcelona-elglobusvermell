@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Sant Antoni i Maria Claret"
 draft = false
 
 adreca = "Sant Antoni Maria Claret 318-332"
+lat = "41.4030435"
+long = "2.1634876"
 any = "1957"
 
 publicacions = ["50-75"]

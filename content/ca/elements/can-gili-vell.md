@@ -3,6 +3,8 @@ title = "Can Gili Vell"
 draft = false
 
 adreca = "Ciutat de Granada 12b-16 + Doctor Trueta 167-183 + Ptge. Mas de Roda 22-36"
+lat = "41.4040500"
+long = "2.1907863"
 
 publicacions = ["poblenou"]
 proteccio = "C"

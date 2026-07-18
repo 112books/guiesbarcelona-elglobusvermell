@@ -3,6 +3,8 @@ title = "Jardins de Constança d’Aragó"
 draft = false
 
 adreca = "C. Roger de Flor, 194-198"
+lat = "41.4639673"
+long = "2.2073541"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

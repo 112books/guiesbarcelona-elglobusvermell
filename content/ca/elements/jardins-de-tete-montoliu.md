@@ -3,6 +3,8 @@ title = "Jardins de Tete Montoliu"
 draft = false
 
 adreca = "Sepúlveda, 90-92"
+lat = "41.3777924"
+long = "2.1552950"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

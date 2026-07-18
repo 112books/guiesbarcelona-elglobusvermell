@@ -3,6 +3,8 @@ title = "Biblioteca Sagrada Família – Josep Maria Ainaud de Lasarte"
 draft = false
 
 adreca = "C. Provença, 480 | Sagrada Família"
+lat = "41.4057520"
+long = "2.1763365"
 
 publicacions = ["biblioteques"]
 

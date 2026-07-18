@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, via Augusta"
 draft = false
 
 adreca = "Via Augusta 128-132 / Brusi 39-43 / Sant Elies 11-19"
+lat = "41.3978018"
+long = "2.1390417"
 any = "1970"
 
 publicacions = ["50-75"]

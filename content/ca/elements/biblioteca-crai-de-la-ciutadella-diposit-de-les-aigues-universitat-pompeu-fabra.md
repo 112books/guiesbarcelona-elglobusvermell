@@ -3,6 +3,8 @@ title = "Biblioteca / CRAI de la Ciutadella. Dipòsit de les Aigües – Univers
 draft = false
 
 adreca = "C. Ramon Trias Fargas, 25-27 | Vila Olímpica | Sant Martí"
+lat = "41.3892781"
+long = "2.1911055"
 
 publicacions = ["76-08", "biblioteques"]
 edifici_original = "Dipòsit d’aigües. Josep Fontserè i Mestre. 1880"

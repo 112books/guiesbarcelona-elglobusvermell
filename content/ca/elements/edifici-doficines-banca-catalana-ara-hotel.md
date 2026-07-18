@@ -3,6 +3,8 @@ title = "Edifici d’oficines Banca Catalana (ara hotel)"
 draft = false
 
 adreca = "Pg. de Gràcia 84"
+lat = "41.3945800"
+long = "2.1624325"
 any = "1968"
 
 publicacions = ["50-75"]

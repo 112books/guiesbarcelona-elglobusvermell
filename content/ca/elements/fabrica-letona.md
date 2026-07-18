@@ -3,6 +3,8 @@ title = "Fàbrica Letona"
 draft = false
 
 adreca = "Pujades 25"
+lat = "41.3908625"
+long = "2.1856439"
 any = "1955"
 
 publicacions = ["poblenou"]

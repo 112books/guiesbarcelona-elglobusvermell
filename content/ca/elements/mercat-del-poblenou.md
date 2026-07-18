@@ -3,6 +3,8 @@ title = "Mercat del Poblenou"
 draft = false
 
 adreca = "Pl. de la Unió, 25"
+lat = "41.4009950"
+long = "2.2054195"
 
 publicacions = ["mercats"]
 

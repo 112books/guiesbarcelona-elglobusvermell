@@ -3,6 +3,8 @@ title = "Jardins de Mercè Plantada"
 draft = false
 
 adreca = "C. Àlaba, 49 + C. Pamplona, 42"
+lat = "41.3952757"
+long = "2.1953320"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

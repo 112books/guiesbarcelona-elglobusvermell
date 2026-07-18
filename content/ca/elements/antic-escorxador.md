@@ -3,6 +3,8 @@ title = "Antic escorxador"
 draft = false
 
 adreca = "Espronceda 156"
+lat = "41.4088144"
+long = "2.2002130"
 any = "1947"
 
 publicacions = ["poblenou"]

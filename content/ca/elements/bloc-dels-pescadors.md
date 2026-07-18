@@ -3,6 +3,8 @@ title = "Bloc dels Pescadors"
 draft = false
 
 adreca = "Pl. del Llagut + Ginebra + Marquès de la Mina + Maquinista + Sant Josep"
+lat = "41.3814346"
+long = "2.1897902"
 any = "1956"
 
 publicacions = ["50-75", "barceloneta"]

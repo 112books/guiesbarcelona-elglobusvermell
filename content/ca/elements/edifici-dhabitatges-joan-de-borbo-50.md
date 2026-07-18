@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Joan de Borbó 50"
 draft = false
 
 adreca = "Pg. Joan de Borbó 50-51"
+lat = "41.3774508"
+long = "2.1886451"
 any = "1936"
 
 publicacions = ["barceloneta"]

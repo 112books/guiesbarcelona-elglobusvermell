@@ -3,6 +3,8 @@ title = "Edifici d’habitatges i oficines Can Bruixa"
 draft = false
 
 adreca = "Galileu 281-285"
+lat = "41.3851927"
+long = "2.1315985"
 any = "1975"
 
 publicacions = ["50-75"]

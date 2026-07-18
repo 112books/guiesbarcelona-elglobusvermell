@@ -3,6 +3,8 @@ title = "CaixaForum"
 draft = false
 
 adreca = "Mèxic, 36"
+lat = "41.3717558"
+long = "2.1496727"
 any = "2002"
 
 publicacions = ["76-08"]

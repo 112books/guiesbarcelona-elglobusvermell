@@ -3,6 +3,8 @@ title = "Habitatges Vèrtix"
 draft = false
 
 adreca = "Bac de Roda, 104"
+lat = "41.4161504"
+long = "2.1924724"
 any = "2007"
 
 publicacions = ["76-08"]

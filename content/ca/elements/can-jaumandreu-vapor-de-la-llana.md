@@ -3,6 +3,8 @@ title = "Can Jaumandreu, «Vapor de la Llana»"
 draft = false
 
 adreca = "Sant Joan de Malta 64-78 + Bolívia 103-113 + Perú 46-52 + Rbla. Poblenou 152-160"
+lat = "41.4096980"
+long = "2.1913483"
 
 publicacions = ["poblenou"]
 proteccio = "C"

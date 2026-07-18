@@ -1,6 +1,8 @@
 +++
 title = "Biblioteca La Fraternitat"
 draft = false
+lat = "41.3782045"
+long = "2.1891275"
 
 
 publicacions = ["barceloneta", "biblioteques"]

@@ -3,6 +3,8 @@ title = "Can Saladrigas"
 draft = false
 
 adreca = "Joncar 27-45 + Pl. Rosa Peraulet 1-3"
+lat = "41.4003655"
+long = "2.2034699"
 
 publicacions = ["poblenou"]
 proteccio = "C"

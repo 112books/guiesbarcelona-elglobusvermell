@@ -3,6 +3,8 @@ title = "Casa Josep Torras"
 draft = false
 
 adreca = "Baluard 6 + Monjo 5"
+lat = "41.3813903"
+long = "2.1883703"
 projecte_text = "Josep Graner Prat. 1900, aprox."
 
 publicacions = ["barceloneta"]

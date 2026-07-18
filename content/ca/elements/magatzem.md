@@ -3,6 +3,8 @@ title = "Magatzem"
 draft = false
 
 adreca = "Pallars 162"
+lat = "41.3994635"
+long = "2.1956891"
 any = "1924"
 
 publicacions = ["poblenou"]

@@ -3,6 +3,8 @@ title = "Biblioteca Sant Antoni – Joan Oliver, casal d’avis i Jardins de Cà
 draft = false
 
 adreca = "Comte Borrell, 44-46"
+lat = "41.3774787"
+long = "2.1629383"
 any = "2007"
 
 publicacions = ["76-08", "biblioteques", "interiors-illa"]

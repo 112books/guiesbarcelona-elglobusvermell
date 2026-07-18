@@ -3,6 +3,8 @@ title = "Jardins de Tecla Sala"
 draft = false
 
 adreca = "Bilbao, 155 + C. Castella, 40"
+lat = "41.4072238"
+long = "2.1974447"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

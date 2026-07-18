@@ -3,6 +3,8 @@ title = "Colores Hispania"
 draft = false
 
 adreca = "Pere IV 482 + Josep Pla 159"
+lat = "41.4147778"
+long = "2.2070593"
 any = "1927"
 
 publicacions = ["poblenou"]

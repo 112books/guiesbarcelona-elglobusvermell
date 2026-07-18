@@ -3,6 +3,8 @@ title = "Centre Moral del Poblenou"
 draft = false
 
 adreca = "Pujades 176-178"
+lat = "41.4011264"
+long = "2.2001413"
 any = "1924"
 
 publicacions = ["poblenou"]

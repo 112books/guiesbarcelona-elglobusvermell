@@ -3,6 +3,8 @@ title = "Jardins de Cèsar Martinell"
 draft = false
 
 adreca = "Gran Via, 543-545 + C. Villarroel, 60 bis"
+lat = "41.3834295"
+long = "2.1598688"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

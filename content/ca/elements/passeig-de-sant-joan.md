@@ -3,6 +3,8 @@ title = "Passeig de Sant Joan"
 draft = false
 
 adreca = "Entre Diagonal i Arc de Triomf"
+lat = "41.3943206"
+long = "2.1763974"
 projecte_text = "Lola Domènech. 2011 + 2014"
 
 publicacions = ["09-25"]

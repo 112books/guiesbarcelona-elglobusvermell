@@ -1,6 +1,8 @@
 +++
 title = "Parc del Clot"
 draft = false
+lat = "41.4071543"
+long = "2.1900135"
 
 
 publicacions = ["76-08"]

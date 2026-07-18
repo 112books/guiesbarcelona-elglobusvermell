@@ -3,6 +3,8 @@ title = "Plaça Sóller i Ateneu La Bòbila"
 draft = false
 
 adreca = "Pl. Sóller"
+lat = "41.4339406"
+long = "2.1763427"
 projecte_text = "Barrio Peraire. 2021-2022"
 
 publicacions = ["09-25"]

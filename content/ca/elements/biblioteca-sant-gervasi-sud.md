@@ -1,6 +1,8 @@
 +++
 title = "Biblioteca Sant Gervasi Sud"
 draft = false
+lat = "41.4058758"
+long = "2.1357640"
 
 
 publicacions = ["biblioteques"]

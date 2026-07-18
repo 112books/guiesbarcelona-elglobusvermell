@@ -3,6 +3,8 @@ title = "Palau de Mar – Magatzems Generals de Comerç"
 draft = false
 
 adreca = "Moll del Dipòsit + Pl. Pau Vila 1-5"
+lat = "41.3803661"
+long = "2.1855209"
 
 publicacions = ["barceloneta"]
 proteccio = "B"

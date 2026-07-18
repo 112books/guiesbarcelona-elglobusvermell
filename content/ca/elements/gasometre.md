@@ -3,6 +3,8 @@ title = "Gasòmetre"
 draft = false
 
 adreca = "Parc de la Barceloneta"
+lat = "41.3828365"
+long = "2.1924885"
 any = "1868"
 
 publicacions = ["barceloneta"]

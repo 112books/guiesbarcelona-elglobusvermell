@@ -3,6 +3,8 @@ title = "Can Ricart"
 draft = false
 
 adreca = "Marroc 53-59 + Emília Coranty"
+lat = "41.4147803"
+long = "2.2091020"
 projecte_text = "Josep Oriol i Bernadet. 1853-1860 + Josep Fontserè. 1860-1877"
 
 publicacions = ["poblenou"]

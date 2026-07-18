@@ -3,6 +3,8 @@ title = "Edifici d’habitatges dotacionals «Greenh@use»"
 draft = false
 
 adreca = "Veneçuela, 96-106 / Agricultura"
+lat = "41.4109476"
+long = "2.2085218"
 any = "2024"
 
 publicacions = ["09-25"]

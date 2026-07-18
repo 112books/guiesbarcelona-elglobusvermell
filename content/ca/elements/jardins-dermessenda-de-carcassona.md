@@ -3,6 +3,8 @@ title = "Jardins d’Ermessenda de Carcassona"
 draft = false
 
 adreca = "Comte d’Urgell, 145-147"
+lat = "41.3867940"
+long = "2.1519336"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

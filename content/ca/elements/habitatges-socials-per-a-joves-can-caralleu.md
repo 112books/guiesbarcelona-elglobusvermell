@@ -3,6 +3,8 @@ title = "Habitatges socials per a joves Can Caralleu"
 draft = false
 
 adreca = "Av. Josep Vicenç Foix, 122"
+lat = "41.3973587"
+long = "2.1198290"
 any = "2008"
 
 publicacions = ["76-08"]

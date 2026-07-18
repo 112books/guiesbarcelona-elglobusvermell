@@ -3,6 +3,8 @@ title = "Edifici d’habitatges Frégoli"
 draft = false
 
 adreca = "Madrazo 54-56"
+lat = "41.3987815"
+long = "2.1471229"
 any = "1975"
 
 publicacions = ["50-75"]

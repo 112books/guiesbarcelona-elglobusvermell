@@ -3,6 +3,8 @@ title = "Biblioteca Joan Miró"
 draft = false
 
 adreca = "C. Vilamarí, 61 / Parc Joan Miró |"
+lat = "41.3784522"
+long = "2.1493401"
 
 publicacions = ["biblioteques"]
 

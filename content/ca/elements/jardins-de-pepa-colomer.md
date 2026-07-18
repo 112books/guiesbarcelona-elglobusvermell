@@ -3,6 +3,8 @@ title = "Jardins de Pepa Colomer"
 draft = false
 
 adreca = "Hondures, 27 + C. Felip II, 42"
+lat = "41.4194422"
+long = "2.1902380"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

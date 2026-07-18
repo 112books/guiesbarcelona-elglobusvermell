@@ -3,6 +3,8 @@ title = "Edifici d’habitatges i Escola Mallorca"
 draft = false
 
 adreca = "Londres, 64"
+lat = "41.3912001"
+long = "2.1479252"
 
 publicacions = ["76-08"]
 temes_transversals = ["dones-arquitectes"]

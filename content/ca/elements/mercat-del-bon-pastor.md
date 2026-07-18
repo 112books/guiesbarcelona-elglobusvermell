@@ -3,6 +3,8 @@ title = "Mercat del Bon Pastor"
 draft = false
 
 adreca = "Sant Adrià, 154"
+lat = "41.4360307"
+long = "2.2061386"
 
 publicacions = ["mercats"]
 

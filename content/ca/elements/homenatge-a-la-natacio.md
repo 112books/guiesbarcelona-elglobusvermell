@@ -3,6 +3,8 @@ title = "«Homenatge a la natació»"
 draft = false
 
 adreca = "Pl. del Mar"
+lat = "41.3746477"
+long = "2.1893711"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

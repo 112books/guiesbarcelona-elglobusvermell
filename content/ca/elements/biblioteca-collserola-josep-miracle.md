@@ -3,6 +3,8 @@ title = "Biblioteca Collserola – Josep Miracle"
 draft = false
 
 adreca = "C. Reis Catòlics, 16-34 |"
+lat = "41.4153461"
+long = "2.1027829"
 
 publicacions = ["biblioteques"]
 

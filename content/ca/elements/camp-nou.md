@@ -3,6 +3,8 @@ title = "Camp Nou"
 draft = false
 
 adreca = "Trav. de les Corts / Arístides Mallol / Av. Joan XVIII"
+lat = "41.3803030"
+long = "2.1249699"
 any = "1957"
 
 publicacions = ["50-75"]

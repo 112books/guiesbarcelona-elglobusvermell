@@ -3,6 +3,8 @@ title = "Jardins de la Torre de les Aigües"
 draft = false
 
 adreca = "C. Roger de Llúria, 56"
+lat = "41.3930512"
+long = "2.1691182"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

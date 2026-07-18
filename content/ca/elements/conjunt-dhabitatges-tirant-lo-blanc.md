@@ -3,6 +3,8 @@ title = "Conjunt d’habitatges Tirant lo Blanc"
 draft = false
 
 adreca = "Pl. Tirant lo Blanc, 1"
+lat = "41.3925770"
+long = "2.2005061"
 
 publicacions = ["76-08"]
 

@@ -3,6 +3,8 @@ title = "Filmoteca de Catalunya"
 draft = false
 
 adreca = "Pl. Salvador Seguí, 1-9"
+lat = "41.3787409"
+long = "2.1711120"
 any = "2011"
 
 publicacions = ["76-08"]

@@ -3,6 +3,8 @@ title = "Casa de la Barceloneta 1761"
 draft = false
 
 adreca = "Sant Carles 6 + Sant Miquel 52 + Sant Elm 13"
+lat = "41.3789360"
+long = "2.1885476"
 any = "1761"
 
 publicacions = ["barceloneta"]

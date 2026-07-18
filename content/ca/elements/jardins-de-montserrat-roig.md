@@ -3,6 +3,8 @@ title = "Jardins de Montserrat Roig"
 draft = false
 
 adreca = "Rosselló, 488 + C. Provença, 533"
+lat = "41.4089989"
+long = "2.1783762"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

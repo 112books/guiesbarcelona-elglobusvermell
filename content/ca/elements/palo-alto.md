@@ -3,6 +3,8 @@ title = "Palo Alto"
 draft = false
 
 adreca = "Pellaires 30 + Ferrers 11"
+lat = "41.4045083"
+long = "2.2102424"
 any = "1875"
 
 publicacions = ["poblenou"]

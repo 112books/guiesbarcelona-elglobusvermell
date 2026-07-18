@@ -3,6 +3,8 @@ title = "Plaça de Ramon Calsina"
 draft = false
 
 adreca = "Selva de Mar, 9-11 + C. Provençals, 10+14"
+lat = "41.4145229"
+long = "2.2015285"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

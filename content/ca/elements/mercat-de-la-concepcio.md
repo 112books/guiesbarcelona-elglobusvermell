@@ -3,6 +3,8 @@ title = "Mercat de la Concepció"
 draft = false
 
 adreca = "Aragó, 311"
+lat = "41.3952533"
+long = "2.1686113"
 
 publicacions = ["mercats"]
 

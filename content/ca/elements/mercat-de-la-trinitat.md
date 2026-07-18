@@ -3,6 +3,8 @@ title = "Mercat de la Trinitat"
 draft = false
 
 adreca = "Pedrosa, 21"
+lat = "41.4486629"
+long = "2.1842196"
 
 publicacions = ["mercats"]
 

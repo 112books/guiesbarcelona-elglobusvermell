@@ -3,6 +3,8 @@ title = "Jardins de Josep Maria Sostres"
 draft = false
 
 adreca = "Pg. Taulat, 224+236 + C. Selva de Mar, 3 + C. Provençals, 2"
+lat = "41.4047826"
+long = "2.2132178"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

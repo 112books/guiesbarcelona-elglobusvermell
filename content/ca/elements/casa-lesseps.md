@@ -3,6 +3,8 @@ title = "Casa Lesseps"
 draft = false
 
 adreca = "Sant Miquel 41-43 + Escuder 5 bis – 9"
+lat = "41.3796207"
+long = "2.1884240"
 
 publicacions = ["barceloneta"]
 proteccio = "B"

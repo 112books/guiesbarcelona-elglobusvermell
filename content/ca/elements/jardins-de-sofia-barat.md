@@ -3,6 +3,8 @@ title = "Jardins de Sofia Barat"
 draft = false
 
 adreca = "Girona, 64"
+lat = "41.3210904"
+long = "2.0949172"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

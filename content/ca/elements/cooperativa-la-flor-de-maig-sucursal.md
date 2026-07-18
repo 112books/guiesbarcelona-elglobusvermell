@@ -3,6 +3,8 @@ title = "Cooperativa La Flor de Maig (sucursal)"
 draft = false
 
 adreca = "Pere IV 92"
+lat = "41.3978334"
+long = "2.1938033"
 any = "1927"
 
 publicacions = ["poblenou"]

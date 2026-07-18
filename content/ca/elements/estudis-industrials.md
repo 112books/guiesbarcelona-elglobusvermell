@@ -3,6 +3,8 @@ title = "Estudis industrials"
 draft = false
 
 adreca = "Ramon Turró, 168-170"
+lat = "41.4045537"
+long = "2.2090837"
 any = "2017"
 
 publicacions = ["09-25"]

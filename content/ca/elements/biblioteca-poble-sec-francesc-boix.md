@@ -3,6 +3,8 @@ title = "Biblioteca Poble Sec – Francesc Boix"
 draft = false
 
 adreca = "C. Blai, 34 | Poble-sec"
+lat = "41.3739981"
+long = "2.1638326"
 
 publicacions = ["biblioteques"]
 edifici_original = "Escola construïda per la societat benèfica Juntas de Señoras de Salas de Asilos. 1889."

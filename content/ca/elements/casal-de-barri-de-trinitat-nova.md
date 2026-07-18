@@ -3,6 +3,8 @@ title = "Casal de Barri de Trinitat Nova"
 draft = false
 
 adreca = "Garbí, 3"
+lat = "41.4526558"
+long = "2.1876316"
 any = "2018"
 
 publicacions = ["09-25"]

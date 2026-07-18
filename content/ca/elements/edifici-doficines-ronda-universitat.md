@@ -3,6 +3,8 @@ title = "Edifici d’oficines, ronda Universitat"
 draft = false
 
 adreca = "Rda. Universitat 9"
+lat = "41.3863869"
+long = "2.1654528"
 any = "1971"
 
 publicacions = ["50-75"]

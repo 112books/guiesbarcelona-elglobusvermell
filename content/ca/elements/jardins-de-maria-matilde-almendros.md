@@ -3,6 +3,8 @@ title = "Jardins de Maria Matilde Almendros"
 draft = false
 
 adreca = "Calàbria, 92"
+lat = "41.3773449"
+long = "2.1581315"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

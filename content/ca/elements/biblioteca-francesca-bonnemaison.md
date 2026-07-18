@@ -3,6 +3,8 @@ title = "Biblioteca Francesca Bonnemaison"
 draft = false
 
 adreca = "C. Sant Pere més Baix, 7 |"
+lat = "41.3867703"
+long = "2.1759384"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["nomenclator-femeni"]

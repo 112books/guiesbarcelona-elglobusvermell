@@ -3,6 +3,8 @@ title = "Editorial Gustavo Gili"
 draft = false
 
 adreca = "Rosselló 87-89"
+lat = "41.3862705"
+long = "2.1474968"
 any = "1961"
 
 publicacions = ["50-75"]

@@ -3,6 +3,8 @@ title = "Mercat de Sarrià"
 draft = false
 
 adreca = "Pg. Reina Elisenda de Montcada, 8"
+lat = "41.3987898"
+long = "2.1190340"
 
 publicacions = ["mercats"]
 

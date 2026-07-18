@@ -3,6 +3,8 @@ title = "Palau Sant Jordi"
 draft = false
 
 adreca = "Pg. Olímpic, 5"
+lat = "41.3634668"
+long = "2.1525682"
 
 publicacions = ["76-08"]
 

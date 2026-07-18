@@ -3,6 +3,8 @@ title = "Biblioteca Les Corts – Miquel Llongueras"
 draft = false
 
 adreca = "Trav. de les Corts, 58 |"
+lat = "41.3778650"
+long = "2.1217376"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["dones-arquitectes"]

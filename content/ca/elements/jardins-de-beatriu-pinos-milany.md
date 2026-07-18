@@ -3,6 +3,8 @@ title = "Jardins de Beatriu Pinós-Milany"
 draft = false
 
 adreca = "C. Rosselló, 149-153"
+lat = "41.3886910"
+long = "2.1510062"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

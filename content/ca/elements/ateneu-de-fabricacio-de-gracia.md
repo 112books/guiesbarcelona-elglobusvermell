@@ -3,6 +3,8 @@ title = "Ateneu de Fabricació de Gràcia"
 draft = false
 
 adreca = "Perill, 8"
+lat = "41.3992095"
+long = "2.1612045"
 any = "2019"
 
 publicacions = ["09-25"]

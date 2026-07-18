@@ -3,6 +3,8 @@ title = "Mercat de la Vall d’Hebron – Teixonera"
 draft = false
 
 adreca = "Pg. de la Vall d’Hebron, 130-134"
+lat = "41.4281940"
+long = "2.1442149"
 
 publicacions = ["mercats"]
 

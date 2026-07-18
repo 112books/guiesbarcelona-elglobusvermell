@@ -3,6 +3,8 @@ title = "Palau Nou de la Rambla"
 draft = false
 
 adreca = "La Rambla, 88"
+lat = "41.3828862"
+long = "2.1719247"
 any = "1994"
 
 publicacions = ["76-08"]

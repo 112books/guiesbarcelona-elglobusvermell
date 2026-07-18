@@ -3,6 +3,8 @@ title = "Biblioteca Guinardó – Mercè Rodoreda"
 draft = false
 
 adreca = "C. Camèlies, 76-80 |"
+lat = "41.4629549"
+long = "2.1690258"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["nomenclator-femeni"]

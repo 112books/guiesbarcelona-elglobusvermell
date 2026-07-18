@@ -3,6 +3,8 @@ title = "Jardins dels Tres Tombs"
 draft = false
 
 adreca = "Manso, 24-28 + C. Calàbria, 8"
+lat = "41.3757045"
+long = "2.1593048"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

@@ -3,6 +3,8 @@ title = "Jardins d’Agustí Centelles"
 draft = false
 
 adreca = "Roger de Flor, 191"
+lat = "41.4004573"
+long = "2.1702762"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

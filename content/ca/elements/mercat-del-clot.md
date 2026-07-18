@@ -3,6 +3,8 @@ title = "Mercat del Clot"
 draft = false
 
 adreca = "Pl. del Mercat, 26"
+lat = "41.4076038"
+long = "2.1886144"
 
 publicacions = ["mercats"]
 

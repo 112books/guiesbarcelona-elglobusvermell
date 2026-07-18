@@ -3,6 +3,8 @@ title = "Poliesportiu Turó de la Peira"
 draft = false
 
 adreca = "Sant Iscle, 50"
+lat = "41.4328638"
+long = "2.1721781"
 
 publicacions = ["09-25"]
 temes_transversals = ["dones-arquitectes"]

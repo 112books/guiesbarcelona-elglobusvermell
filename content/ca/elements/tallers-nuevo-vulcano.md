@@ -3,6 +3,8 @@ title = "Tallers Nuevo Vulcano"
 draft = false
 
 adreca = "Moll Nou"
+lat = "41.3706"
+long = "2.1787"
 projecte_text = "Julio Isamat Vila. 1931-1951"
 
 publicacions = ["barceloneta"]

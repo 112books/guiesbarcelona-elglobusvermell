@@ -3,6 +3,8 @@ title = "«Nereida»"
 draft = false
 
 adreca = "Pg. Joan de Borbó (rotonda davant de la plaça de la Rosa dels Vents)"
+lat = "41.3680411"
+long = "2.1890517"
 
 publicacions = ["barceloneta"]
 temes_transversals = ["art-public"]

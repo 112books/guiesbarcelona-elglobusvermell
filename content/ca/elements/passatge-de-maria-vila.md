@@ -3,6 +3,8 @@ title = "Passatge de Maria Vila"
 draft = false
 
 adreca = "Rambla Guipúscoa, 98 bis + C. Concili de Trento, 201"
+lat = "41.4226568"
+long = "2.2057062"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public", "nomenclator-femeni"]

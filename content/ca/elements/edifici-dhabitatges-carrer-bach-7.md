@@ -3,6 +3,8 @@ title = "Edifici d’habitatges, carrer Bach 7"
 draft = false
 
 adreca = "Bach 7"
+lat = "41.3955940"
+long = "2.1389650"
 any = "1961"
 
 publicacions = ["50-75"]

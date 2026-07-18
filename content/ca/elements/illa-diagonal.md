@@ -3,6 +3,8 @@ title = "Illa Diagonal"
 draft = false
 
 adreca = "Av. Diagonal, 545"
+lat = "41.3895165"
+long = "2.1347030"
 
 publicacions = ["76-08"]
 

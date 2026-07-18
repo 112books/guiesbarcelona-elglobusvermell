@@ -3,6 +3,8 @@ title = "Industrias Waldes"
 draft = false
 
 adreca = "Badajoz 45-47 + Ramon Turró 111-129 + Àvila 42-46"
+lat = "41.3965767"
+long = "2.1979476"
 any = "1919"
 
 publicacions = ["poblenou"]

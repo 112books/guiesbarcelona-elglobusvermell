@@ -3,6 +3,8 @@ title = "Fàbrica de Joan Güell"
 draft = false
 
 adreca = "Pallars 217"
+lat = "41.4020965"
+long = "2.1988575"
 any = "1874"
 
 publicacions = ["poblenou"]

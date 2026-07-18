@@ -3,6 +3,8 @@ title = "Hotel W Barcelona"
 draft = false
 
 adreca = "Pl. Rosa dels Vents 1"
+lat = "41.3685132"
+long = "2.1886289"
 any = "2009"
 
 publicacions = ["barceloneta"]

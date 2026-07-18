@@ -3,6 +3,8 @@ title = "Jardins de Manuel de Pedrolo"
 draft = false
 
 adreca = "Diputació, 459-463"
+lat = "41.4006116"
+long = "2.1804927"
 
 publicacions = ["interiors-illa"]
 temes_transversals = ["espai-public"]

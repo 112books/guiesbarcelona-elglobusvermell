@@ -3,6 +3,8 @@ title = "Edifici d’habitatges"
 draft = false
 
 adreca = "Carme, 55 / Roig, 28-30"
+lat = "41.4261835"
+long = "2.2248282"
 
 publicacions = ["76-08"]
 

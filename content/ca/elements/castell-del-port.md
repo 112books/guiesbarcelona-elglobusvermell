@@ -1,6 +1,8 @@
 +++
 title = "Castell del Port"
 draft = false
+lat = "41.3561687"
+long = "2.1478500"
 
 projecte_text = "Segles xi-xv"
 

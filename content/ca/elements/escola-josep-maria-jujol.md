@@ -1,6 +1,8 @@
 +++
 title = "Escola Josep Maria Jujol"
 draft = false
+lat = "41.3979663"
+long = "2.1555785"
 
 
 publicacions = ["76-08"]

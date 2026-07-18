@@ -3,6 +3,8 @@ title = "Biblioteca Montserrat Abelló"
 draft = false
 
 adreca = "Comte de Bell-lloc 192-200 | Les Corts"
+lat = "41.3836375"
+long = "2.1353824"
 
 publicacions = ["biblioteques"]
 temes_transversals = ["dones-arquitectes", "nomenclator-femeni"]

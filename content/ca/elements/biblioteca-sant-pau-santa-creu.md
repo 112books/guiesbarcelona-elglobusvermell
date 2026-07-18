@@ -3,6 +3,8 @@ title = "Biblioteca Sant Pau-Santa Creu"
 draft = false
 
 adreca = "C. Hospital, 56 |"
+lat = "41.3809166"
+long = "2.1705232"
 
 publicacions = ["biblioteques"]
 edifici_original = "Hospital de la Santa Creu. Guillem Abiell. 1406."

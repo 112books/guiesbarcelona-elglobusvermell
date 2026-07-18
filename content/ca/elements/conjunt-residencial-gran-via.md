@@ -3,6 +3,8 @@ title = "Conjunt residencial Gran Via"
 draft = false
 
 adreca = "Gran Via 144-156"
+lat = "41.3636018"
+long = "2.1338402"
 any = "1971"
 
 publicacions = ["50-75"]
