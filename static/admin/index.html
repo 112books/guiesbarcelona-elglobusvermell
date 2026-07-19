@@ -14,7 +14,6 @@
       --border:  #ddddd8;
       --surface: #eeede9;
       --red:     #c81e1e;
-      --red2:    #a01616;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -38,10 +37,10 @@
     .hub-header img { height: 4rem; width: auto; }
     .hub-header h1 {
       margin-top: 1rem;
-      font-size: 0.85rem;
-      font-weight: 500;
+      font-size: 0.75rem;
+      font-weight: 400;
       color: var(--ink3);
-      letter-spacing: 0.08em;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
     }
 
@@ -58,7 +57,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
-      max-width: 640px;
+      max-width: 600px;
       width: 100%;
     }
 
@@ -69,38 +68,47 @@
       background: #fff;
       text-decoration: none;
       color: var(--ink);
-      padding: 2rem 1.75rem;
+      padding: 2.25rem 2rem;
       transition: border-color 0.15s, box-shadow 0.15s;
     }
     .hub-card:hover {
       border-color: var(--red);
-      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    }
+    .hub-card:hover .hub-card-icon svg {
+      stroke: var(--red);
     }
 
     .hub-card-icon {
-      font-size: 2rem;
-      line-height: 1;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
+    .hub-card-icon svg {
+      display: block;
+      stroke: var(--ink2);
+      transition: stroke 0.15s;
+    }
+
     .hub-card-title {
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-weight: 600;
-      margin-bottom: 0.4rem;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.5rem;
       color: var(--ink);
     }
     .hub-card-desc {
-      font-size: 0.78rem;
+      font-size: 0.77rem;
       color: var(--ink3);
-      line-height: 1.5;
+      line-height: 1.55;
       flex: 1;
     }
     .hub-card-arrow {
-      margin-top: 1.5rem;
-      font-size: 0.75rem;
+      margin-top: 1.75rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
       color: var(--red);
       font-weight: 500;
+      text-transform: uppercase;
     }
-    .hub-card:hover .hub-card-arrow { text-decoration: underline; }
 
     /* ── Peu ───────────────────────────────────────────────────── */
     .hub-footer {
@@ -108,10 +116,10 @@
       padding: 1.25rem 1rem;
       text-align: center;
       font-size: 0.72rem;
-      color: #aaa;
+      color: #bbb;
       line-height: 1.7;
     }
-    .hub-footer a { color: #aaa; text-decoration: none; }
+    .hub-footer a { color: #bbb; text-decoration: none; }
     .hub-footer a:hover { color: var(--red); }
     .hub-footer-links {
       display: flex;
@@ -121,12 +129,9 @@
       margin-top: 0.2rem;
     }
     .hub-footer-links a { text-decoration: underline; }
-    .hub-footer-powered { margin-top: 0.4rem; font-size: 0.68rem; color: #ccc; }
-    .hub-footer-powered a { color: #ccc; }
-    .hub-footer-powered a:hover { color: var(--red); }
 
     @media (max-width: 480px) {
-      .hub-grid { grid-template-columns: 1fr; }
+      .hub-grid { grid-template-columns: 1fr; max-width: 340px; }
       .hub-header { padding: 2rem 1rem 1.5rem; }
     }
   </style>
@@ -145,16 +150,47 @@
     <div class="hub-grid">
 
       <a href="stats/" class="hub-card">
-        <div class="hub-card-icon">📊</div>
+        <div class="hub-card-icon">
+          <!-- Bar chart, stroke only, architectural style -->
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+               stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"
+               aria-hidden="true">
+            <!-- Baseline -->
+            <line x1="4" y1="34" x2="36" y2="34"/>
+            <!-- Bar 1 (short) -->
+            <line x1="10" y1="34" x2="10" y2="26"/>
+            <line x1="7"  y1="26" x2="13" y2="26"/>
+            <!-- Bar 2 (medium) -->
+            <line x1="20" y1="34" x2="20" y2="18"/>
+            <line x1="17" y1="18" x2="23" y2="18"/>
+            <!-- Bar 3 (tall) -->
+            <line x1="30" y1="34" x2="30" y2="8"/>
+            <line x1="27" y1="8"  x2="33" y2="8"/>
+          </svg>
+        </div>
         <div class="hub-card-title">Estadístiques</div>
-        <div class="hub-card-desc">Visites, pàgines, dispositius i tendències del web. Actualitzat cada hora.</div>
+        <div class="hub-card-desc">Visites, pàgines més vistes, dispositius i tendències. Actualitzat cada hora.</div>
         <div class="hub-card-arrow">→ Obrir dashboard</div>
       </a>
 
       <a href="cms/" class="hub-card">
-        <div class="hub-card-icon">✏️</div>
+        <div class="hub-card-icon">
+          <!-- Pencil / drafting pen, stroke only -->
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+               stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"
+               aria-hidden="true">
+            <!-- Pen body (diagonal) -->
+            <line x1="10" y1="30" x2="28" y2="12"/>
+            <!-- Pen tip -->
+            <polyline points="28,12 33,7 33,12 28,12"/>
+            <!-- Eraser end -->
+            <line x1="10" y1="30" x2="7"  y2="33"/>
+            <!-- Underline (edit indicator) -->
+            <line x1="6"  y1="36" x2="34" y2="36"/>
+          </svg>
+        </div>
         <div class="hub-card-title">Editor de continguts</div>
-        <div class="hub-card-desc">Edita els edificis i elements del mapa. Cal un token personal de GitHub (PAT).</div>
+        <div class="hub-card-desc">Edita edificis i elements del mapa. Accés amb token personal de GitHub (PAT).</div>
         <div class="hub-card-arrow">→ Entrar al CMS</div>
       </a>
 
@@ -164,7 +200,7 @@
   <footer class="hub-footer">
     <div>© <script>document.write(new Date().getFullYear())</script>
       <a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>
-      · Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener"><strong>LinuxBCN.com</strong></a>
+      · <a href="https://linuxbcn.com" target="_blank" rel="noopener">LinuxBCN.com</a>
     </div>
     <div class="hub-footer-links">
       <a href="../legal/avis-legal/">Avís legal</a>
