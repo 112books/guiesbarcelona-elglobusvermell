@@ -2,14 +2,14 @@
 {{- $pubs := $.Site.Data.publicacions -}}
 {{- $pub  := index (where $pubs "slug" $slug) 0 -}}
 {{- if $pub -}}
-  {{- $img  := "" -}}
+  {{- $img := "" -}}
   {{- range slice ".webp" ".jpg" ".png" -}}
     {{- if and (not $img) (fileExists (printf "static/img/publicacions/%s%s" $slug .)) -}}
-      {{- $img = printf "/img/publicacions/%s%s" $slug . -}}
+      {{- $img = printf "img/publicacions/%s%s" $slug . -}}
     {{- end -}}
   {{- end -}}
   {{- if $img -}}
-<img src="{{ $img | relURL }}" alt="Portada: {{ $pub.titol }}"
+<img src="{{ $img | absURL }}" alt="Portada: {{ $pub.titol }}"
      class="portada-guia-img" loading="lazy" width="130">
   {{- else -}}
 <div class="portada-guia-placeholder" style="background:{{ $pub.color }}"
