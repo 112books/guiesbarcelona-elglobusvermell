@@ -174,7 +174,7 @@
     {{ if and .Params.lat .Params.long }}
     <div class="fitxa-mapa-wrap">
       <h2>Ubicació</h2>
-      <div id="fitxa-mapa" class="fitxa-mapa" style="height:18rem" role="region" aria-label="Ubicació a l'mapa"></div>
+      <div id="fitxa-mapa" class="fitxa-mapa" role="region" aria-label="Ubicació a l'mapa"></div>
     </div>
     <script>
     window.FITXA_PUNT = { lat: {{ .Params.lat | jsonify | safeJS }}, long: {{ .Params.long | jsonify | safeJS }}, title: {{ .Title | jsonify | safeJS }}, color: {{ $pubColor | jsonify | safeJS }} };
