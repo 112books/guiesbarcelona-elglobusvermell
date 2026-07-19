@@ -186,7 +186,7 @@
       {{ with .PrevInSection }}
       <a class="fitxa-nav-prev" href="{{ .Permalink }}">← {{ .Title }}</a>
       {{ end }}
-      <a class="fitxa-nav-llista" href="{{ absURL "/elements/" }}">Tots els elements</a>
+      <a class="fitxa-nav-llista" href="{{ .Parent.Permalink }}">Tots els elements</a>
       {{ with .NextInSection }}
       <a class="fitxa-nav-next" href="{{ .Permalink }}">{{ .Title }} →</a>
       {{ end }}
