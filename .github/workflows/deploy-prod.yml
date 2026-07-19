@@ -33,32 +33,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install staticrypt
-        run: npm install staticrypt
-
       - name: Build Hugo
         run: hugo --minify --environment staging
-
-      - name: Protect with staticrypt
-        run: |
-          find public -name "*.html" | while read f; do
-            dir=$(dirname "$f")
-            npx staticrypt "$f" \
-              --short \
-              --password "${{ secrets.SITE_PASSWORD }}" \
-              --config .staticrypt.json \
-              --directory "$dir"
-          done
-        shell: bash
-
-      - name: Patch staticrypt replaceHtmlCallback
-        run: python3 scripts/patch_staticrypt.py public
-
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

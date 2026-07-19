@@ -4,7 +4,7 @@
 
 baseURL = "https://112books.github.io/guiesbarcelona-elglobusvermell/"
 
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 [params]
   env = "staging"
