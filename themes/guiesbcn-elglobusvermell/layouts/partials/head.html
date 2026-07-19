@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ if eq site.Params.env "staging" }}<meta name="robots" content="noindex, nofollow">{{ end }}
+{{ if eq site.Params.env "staging" }}<meta name="robots" content="noindex, nofollow, noai, noimageai, noarchive, nositelinkssearchbox">{{ end }}
 <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
 {{ with .Description | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
