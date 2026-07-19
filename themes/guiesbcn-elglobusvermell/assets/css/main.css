@@ -790,7 +790,6 @@ main {
 
 /* Evita gaps entre tiles de Leaflet (sub-pixel rendering) */
 .leaflet-tile-container { transform: translateZ(0); }
-.leaflet-tile { width: calc(256px + 1px) !important; height: calc(256px + 1px) !important; }
 .fitxa-mapa { height: 18rem; border-radius: 0.5rem; overflow: hidden; background: #e8e4df; }
 
 /* Popup del mapa: llegible en mòbil i amb sol */

@@ -62,8 +62,7 @@
       attribution: CARTO_ATTR,
       maxZoom: 19,
       subdomains: 'abcd',
-      updateWhenZooming: false,
-      detectRetina: true
+      updateWhenZooming: false
     }).addTo(map);
 
     // ── Marcadors ────────────────────────────────────────────────────────
