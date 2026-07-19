@@ -564,7 +564,7 @@ main {
   background: #f8f9fa;
   border-radius: 0.5rem;
   position: sticky;
-  top: var(--header-height);
+  top: var(--header-actual-height, var(--header-height));
   z-index: 10;
 }
 

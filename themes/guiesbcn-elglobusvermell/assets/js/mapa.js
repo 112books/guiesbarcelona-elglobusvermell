@@ -210,7 +210,10 @@
       // Publicacions
       var pubsGrup = document.createElement('div');
       pubsGrup.className = 'filtre-grup';
-      var pubsLabel = document.createElement('label');
+      pubsGrup.setAttribute('role', 'group');
+      pubsGrup.setAttribute('aria-labelledby', 'filtre-pub-label');
+      var pubsLabel = document.createElement('span');
+      pubsLabel.id = 'filtre-pub-label';
       pubsLabel.className = 'filtre-grup-label';
       pubsLabel.textContent = 'Publicacions';
       pubsGrup.appendChild(pubsLabel);
@@ -294,7 +297,10 @@
       if (temes.length > 0) {
         var temesGrup = document.createElement('div');
         temesGrup.className = 'filtre-grup';
-        var temesLabel = document.createElement('label');
+        temesGrup.setAttribute('role', 'group');
+        temesGrup.setAttribute('aria-labelledby', 'filtre-temes-label');
+        var temesLabel = document.createElement('span');
+        temesLabel.id = 'filtre-temes-label';
         temesLabel.className = 'filtre-grup-label';
         temesLabel.textContent = 'Temes transversals';
         temesGrup.appendChild(temesLabel);
@@ -375,8 +381,10 @@
     var cercaLabel = document.createElement('label');
     cercaLabel.className = 'filtre-grup-label';
     cercaLabel.textContent = 'Cerca';
+    cercaLabel.htmlFor = 'cerca-input';
     cercaGrup.appendChild(cercaLabel);
     var cercaInput = document.createElement('input');
+    cercaInput.id = 'cerca-input';
     cercaInput.type = 'text';
     cercaInput.placeholder = "Nom d'element...";
     cercaInput.className = 'filtre-input';
@@ -394,8 +402,10 @@
       var decadaLabel = document.createElement('label');
       decadaLabel.className = 'filtre-grup-label';
       decadaLabel.textContent = 'Època';
+      decadaLabel.htmlFor = 'cerca-decada';
       decadaGrup.appendChild(decadaLabel);
       var decadaSelect = document.createElement('select');
+      decadaSelect.id = 'cerca-decada';
       decadaSelect.className = 'filtre-select';
       var optTotes = document.createElement('option');
       optTotes.value = '';
@@ -422,8 +432,10 @@
       var arqLabel = document.createElement('label');
       arqLabel.className = 'filtre-grup-label';
       arqLabel.textContent = 'Arquitecte';
+      arqLabel.htmlFor = 'cerca-arquitecte';
       arqGrup.appendChild(arqLabel);
       var arqSelect = document.createElement('select');
+      arqSelect.id = 'cerca-arquitecte';
       arqSelect.className = 'filtre-select';
       var optTots = document.createElement('option');
       optTots.value = '';

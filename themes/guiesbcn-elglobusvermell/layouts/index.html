@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-<div class="mapa-contenidor" id="mapa-contenidor">
+<div class="mapa-contenidor" id="mapa-contenidor" role="region" aria-label="Mapa interactiu de Barcelona">
   <div id="mapa" class="mapa-el" style="height:28rem"></div>
 </div>
 
-<div id="mapa-filtres" class="mapa-filtres-wrap"></div>
+<div id="mapa-filtres" class="mapa-filtres-wrap" aria-live="polite" aria-label="Filtres del mapa"></div>
 
-<div id="cerca-filtres" class="cerca-filtres-wrap"></div>
+<div id="cerca-filtres" class="cerca-filtres-wrap" aria-live="polite" aria-label="Filtres del llistat"></div>
 
 <section class="llistat-alfabetic" id="llistat">
   <nav class="llistat-index" id="llistat-index" aria-label="Índex alfabètic"></nav>
