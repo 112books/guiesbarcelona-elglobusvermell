@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Muntaner"
 draft = false
+adreca = "Park Güell"
+lat = 41.4142348
+long = 2.1524576
 
 
 publicacions = ["masies"]

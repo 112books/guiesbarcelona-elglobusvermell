@@ -1,6 +1,9 @@
 +++
 title = "Masia Ca l’Estruch"
 draft = false
+adreca = "Pons i Gallarza, 30 bis-32"
+lat = 41.4355
+long = 2.1879937
 
 
 publicacions = ["masies"]

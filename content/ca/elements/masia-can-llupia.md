@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Llupià"
 draft = false
+adreca = "Parc del Laberint d'Horta"
+lat = 41.4399791
+long = 2.1453938
 
 
 publicacions = ["masies"]

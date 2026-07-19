@@ -1,6 +1,9 @@
 +++
 title = "Masia Rectoria de Sant Martí"
 draft = false
+adreca = "Pl. Ignasi Juliol, 2-4"
+lat = 41.4214181
+long = 2.1967922
 
 
 publicacions = ["masies"]
