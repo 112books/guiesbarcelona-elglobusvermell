@@ -4,8 +4,8 @@ draft: false
 foto: /img/elements/pavello-de-la-republica-de-1937-replica.jpg
 adreca: "Av. del Cardenal Vidal i Barraquer, 34-36"
 any: 1937
-lat: 0
-long: 0
+lat: 41.4267353
+long: 2.1500109
 publicacions:
   - gatcpac
 arquitectes:
