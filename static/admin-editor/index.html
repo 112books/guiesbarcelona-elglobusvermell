@@ -20,24 +20,26 @@
     .cms-brand img { height: 3rem; width: auto; }
     .cms-brand-sub {
       font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 0.8rem;
-      color: #888;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
       margin: 0;
       text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
     }
 
     .cms-login-ajuda {
       font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
       font-size: 0.78rem;
       color: #555;
-      margin: 0.25rem 0 1rem;
-      line-height: 1.45;
+      margin: 0.3rem 0 1rem;
+      line-height: 1.5;
       max-width: 300px;
     }
     .cms-login-ajuda strong { color: #111; }
     .cms-login-ajuda a { color: #c81e1e; text-decoration: none; }
     .cms-login-ajuda a:hover { text-decoration: underline; }
-    .cms-login-desactivat { opacity: 0.5; font-style: italic; }
   </style>
 </head>
 <body>
@@ -46,21 +48,32 @@
     var injected = false;
     var observer = new MutationObserver(function () {
       if (injected) return;
+
       var btns = Array.from(document.querySelectorAll('button'));
       var githubBtn = btns.find(function (b) {
         return b.textContent.trim().toLowerCase().includes('github');
       });
       var tokenBtn = btns.find(function (b) {
         var t = b.textContent.trim().toLowerCase();
-        return t.includes('token') || t.includes('access token');
+        return t.includes('token') || t.includes('access');
       });
-      if (!githubBtn || !tokenBtn) return;
+      if (!tokenBtn) return;
       injected = true;
       observer.disconnect();
 
-      var card = githubBtn.parentNode;
+      // Amaga el botó GitHub OAuth
+      if (githubBtn) {
+        var githubWrap = githubBtn.parentNode;
+        if (!githubWrap.contains(tokenBtn)) {
+          githubWrap.style.display = 'none';
+        } else {
+          githubBtn.style.display = 'none';
+        }
+      }
 
-      // ── Capçalera de marca ──────────────────────────────────────────────
+      var card = tokenBtn.closest('form') || tokenBtn.parentNode;
+
+      // ── Capçalera ──────────────────────────────────────────────
       var brand = document.createElement('div');
       brand.className = 'cms-brand';
       brand.innerHTML =
@@ -71,26 +84,16 @@
         '<p class="cms-brand-sub">Editor de continguts</p>';
       card.insertBefore(brand, card.firstChild);
 
-      // ── Explicacions sota cada botó ─────────────────────────────────────
-      function addInfo(after, html, cls) {
-        var p = document.createElement('p');
-        p.className = 'cms-login-ajuda' + (cls ? ' ' + cls : '');
-        p.innerHTML = html;
-        after.parentNode.insertBefore(p, after.nextSibling);
-      }
-
-      addInfo(
-        githubBtn,
-        'No disponible fins que el web sigui en producció (requereix servidor OAuth propi).',
-        'cms-login-desactivat'
-      );
-      addInfo(
-        tokenBtn,
-        'Mètode actiu. El teu <strong>token personal (PAT)</strong> l\'has de generar a ' +
-        '<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">' +
-        'GitHub → Settings → Fine-grained tokens</a>. ' +
-        'Permisos: <strong>Contents</strong> (lectura i escriptura) + <strong>Metadata</strong> (lectura).'
-      );
+      // ── Text explicatiu ────────────────────────────────────────
+      var info = document.createElement('p');
+      info.className = 'cms-login-ajuda';
+      info.innerHTML =
+        'Introdueix el teu <strong>token personal (PAT)</strong> de GitHub. ' +
+        'Genera\'l a <a href="https://github.com/settings/personal-access-tokens/new" ' +
+        'target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>. ' +
+        'Permisos: <strong>Contents</strong> (lectura i escriptura) + ' +
+        '<strong>Metadata</strong> (lectura).';
+      tokenBtn.parentNode.insertBefore(info, tokenBtn.nextSibling);
     });
     observer.observe(document.body, { childList: true, subtree: true });
   </script>
