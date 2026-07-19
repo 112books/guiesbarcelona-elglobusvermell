@@ -301,6 +301,45 @@ Pots editar directament aquest document o enviar els comentaris per correu/missa
 
 ---
 
+## 21. Proposta: pàgina «Col·labora» ❓
+
+**URL proposada:** `/colabora/`
+**Estat:** Proposta per decidir — no implementada
+
+### Descripció de la proposta
+
+Afegir una pàgina de participació ciutadana on els usuaris del web puguin contribuir a millorar la qualitat de les dades del mapa. L'accés seria des d'un link discret al peu de cada fitxa d'element i/o al footer general.
+
+### Funcionalitats possibles
+
+| Prioritat | Funcionalitat | Descripció |
+|-----------|--------------|------------|
+| Alta | Notificar adreça incorrecta | L'usuari indica que les coordenades o l'adreça d'un punt del mapa no són correctes |
+| Alta | Notificar informació incorrecta | L'usuari detecta un error en el nom, any, arquitectes o descripció d'un edifici |
+| Mitjana | Suggerir informació nova | L'usuari proposa afegir dades que falten (foto, descripció, data, etc.) |
+| Baixa | Suggerència general | Canal obert per a qualsevol altre comentari sobre el projecte |
+
+### Implementació tècnica (si s'aprova)
+
+Com que el web és estàtic (sense servidor propi), el formulari s'implementaria via un servei extern:
+
+- **Formspree** (recomanat): Formulari HTML que envia els resultats a una adreça de correu. Pla gratuït suficient per al volum esperat. Sense base de dades externa.
+- **Opció alternativa simple**: Link `mailto:` amb assumpte i cos pre-emplenats. Menys usable però zero dependències externes.
+
+El formulari inclouria:
+- Desplegable o cerca per seleccionar l'element afectat (nom + publicació)
+- Tipus de notificació (adreça, informació, suggerència...)
+- Camp de text lliure
+- Correu de contacte (opcional)
+
+### Preguntes per al client
+
+1. **Voleu aquesta funcionalitat?** És un valor afegit per als usuaris, però requereix gestionar les notificacions rebudes.
+2. **Qui gestionaria les notificacions?** Els correus arribarien a `info@elglobusvermell.org` (o altra adreça). Cal que algú les revisi periòdicament.
+3. **Voleu que els usuaris puguin pujar fotos?** Afegeix complexitat. Potser millor limitar a text en una primera versió.
+
+---
+
 ## Notes globals
 
 ### Canvis tipogràfics sistemàtics (afecten totes les publicacions)
