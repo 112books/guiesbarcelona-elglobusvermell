@@ -114,7 +114,7 @@
     nomenclator: No
     descripcio_nomenclator: No
   estat_app:
-    a_app: false
+    a_app: true
     id_publication_app: null
     edificis_relacionats: null
 
@@ -170,7 +170,7 @@
     nomenclator: No
     descripcio_nomenclator: No
   estat_app:
-    a_app: false
+    a_app: true
     id_publication_app: null
     edificis_relacionats: null
   nota: "Publicació més completa (tots els camps núcli presents)."
@@ -199,7 +199,7 @@
     nomenclator: No
     descripcio_nomenclator: No
   estat_app:
-    a_app: false
+    a_app: true
     id_publication_app: null
     edificis_relacionats: null
 
@@ -210,7 +210,7 @@
   agrupacions_tematiques: [Art]
   camps: null # itinerari d'art, no segueix l'esquema d'edifici
   estat_app:
-    a_app: false
+    a_app: true
     id_publication_app: null
     edificis_relacionats: null
 
@@ -238,7 +238,7 @@
     nomenclator: No
     descripcio_nomenclator: No
   estat_app:
-    a_app: false
+    a_app: true
     id_publication_app: null
     edificis_relacionats: null
 
@@ -277,7 +277,7 @@
   agrupacions_tematiques: [Art]
   camps: null # itinerari d'art, no segueix l'esquema d'edifici
   estat_app:
-    a_app: false
+    a_app: true
     id_publication_app: null
     edificis_relacionats: null
 

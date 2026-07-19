@@ -350,6 +350,26 @@ L'import automàtic de WordPress ha convertit tots els títols de secció a "Tit
 
 La secció `## Llistat` de cada publicació al WP contenia una llista estàtica d'edificis (o anys, o barris com a marcadors). Al web nou, **el llistat es genera dinàmicament** a partir de les 657 fitxes individuals importades. Si un edifici del llistat original no apareix al web nou, és perquè no s'ha importat la seva fitxa.
 
+### Comptadors d'elements: per què «Tots (637)» no coincideix amb la suma dels botons
+
+A la portada, el mapa mostra un botó **«Tots (637)»** i un botó per a cada publicació amb el seu compte parcial. La suma dels comptes parcials pot semblar inferior a 637 per dos motius:
+
+1. **Elements sense coordenades de geolocalització:** Alguns elements no tenen latitud/longitud i per tant **no apareixen al mapa** però sí al llistat de la seva publicació. Estan importats al sistema i formen part de les 657 fitxes totals.
+
+2. **Botons de publicació (filtre):** Les publicacions que no tenien botó de filtre actiu (*a_app: false* al sistema) no apareixien comptades als botons individuals, però els seus elements sí es comptaven al total «Tots». Això s'ha corregit: ara totes les publicacions tenen botó de filtre visible.
+
+**Resum del recompte actual:**
+- **657 fitxes d'elements** importades en total
+- **~656 fitxes visibles** al mapa (les que tenen coordenades)
+- **13 botons de publicació**, cadascun mostra els seus elements amb coordenades
+- Si la xifra de «Tots» que veieu al web diferia lleugerament de 637, pot ser degut a una versió cacheada del web anterior a les correccions d'aquesta sessió
+
+### Elements sense geolocalització al llistat de cada publicació
+
+Els elements que **no tenen coordenades** (sense latitud/longitud al sistema) **no apareixen al mapa** però sí **apareixen al llistat** de la seva publicació (la secció «Llistat» de cada pàgina de publicació). Això és el comportament esperat: el llistat mostra tots els edificis importats, el mapa només els que es poden situar geogràficament.
+
+Podeu consultar la llista completa d'elements amb incidències tècniques (coordenades aproximades, format YAML, camps que falten) al document `docs/revisio-elements-qualitat.md`.
+
 ### Imatges
 
 Les imatges dels edificis (fotos de portada de cada fitxa) **no s'han importat** perquè el WP original no les exposa de forma accessible via scraping. Estan pendents de l'accés al servidor de producció (Jorge Vitoria / Jordi). Fins que no s'importin, cada fitxa mostra un placeholder "Imatge pendent".
