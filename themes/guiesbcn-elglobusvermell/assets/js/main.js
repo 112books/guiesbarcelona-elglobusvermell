@@ -7,7 +7,12 @@
   var ticking = false;
 
   function update() {
-    header.classList.toggle("is-scrolled", window.scrollY > threshold);
+    var scrolled = window.scrollY > threshold;
+    header.classList.toggle("is-scrolled", scrolled);
+    document.documentElement.style.setProperty(
+      '--header-actual-height',
+      scrolled ? 'var(--header-height-scroll)' : 'var(--header-height)'
+    );
     ticking = false;
   }
 
