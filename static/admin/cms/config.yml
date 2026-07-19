@@ -1,0 +1,277 @@
+# Sveltia CMS — Guies Barcelona (El Globus Vermell)
+# Accés master: Joan (LinuxBCN) — totes les col·leccions
+#
+# Autenticació (Fase 0): PAT (Personal Access Token) de GitHub
+#   Cada editor crea un fine-grained PAT a GitHub:
+#   Permisos mínims: "Contents: Read and write" + "Metadata: Read"
+#   Repositori: 112books/guiesbarcelona-elglobusvermell
+#   Caducitat recomanada: 1 any
+#
+# Fase 1 (quan Dinahosting estigui llest): descomenta base_url:
+#   base_url: https://guiesbarcelona.elglobusvermell.org/oauth
+
+backend:
+  name: github
+  repo: 112books/guiesbarcelona-elglobusvermell
+  branch: main
+
+media_folder: static/img/edificis
+public_folder: /img/edificis
+
+locale: ca
+
+# Opcions compartides (anchors YAML per reutilitzar)
+# ---
+
+collections:
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # EDIFICIS I ELEMENTS
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: elements
+    label: Edificis i elements
+    label_singular: Edifici
+    folder: content/ca/elements
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} — {{publicacions}}"
+    sortable_fields: [title, any]
+    view_filters:
+      - label: Publicats
+        field: draft
+        pattern: false
+      - label: Esborranys
+        field: draft
+        pattern: true
+    fields:
+      - label: Títol
+        name: title
+        widget: string
+        hint: "Nom de l'edifici o element"
+
+      - label: Esborrany
+        name: draft
+        widget: boolean
+        default: false
+        hint: "Marca com a esborrany per ocultar del web"
+
+      - label: Publicacions
+        name: publicacions
+        widget: select
+        multiple: true
+        required: false
+        hint: "Plànol(s)-guia on apareix aquest edifici"
+        options:
+          - label: "GATCPAC. Arquitectura d'avantguarda 1928-1939"
+            value: gatcpac
+          - label: "Arquitectura Moderna 1950-1975"
+            value: 50-75
+          - label: "De l'esperança a la crisi 1975-2008"
+            value: 76-08
+          - label: "La revolució tranquil·la 2010-2025"
+            value: 09-25
+          - label: "Jardins interiors d'illa de l'Eixample"
+            value: interiors-illa
+          - label: "Patrimoni industrial del Poblenou"
+            value: poblenou
+          - label: "Mercats de Barcelona"
+            value: mercats
+          - label: "Biblioteques de Barcelona"
+            value: biblioteques
+          - label: "La Barceloneta"
+            value: barceloneta
+          - label: "La Marina del Port i del Prat Vermell"
+            value: marina
+          - label: "Masies de Barcelona"
+            value: masies
+          - label: "La Barcelona de Tàpies"
+            value: tapies
+          - label: "New Babylon Barcelona"
+            value: new-babylon
+
+      - label: Temes transversals
+        name: temes_transversals
+        widget: select
+        multiple: true
+        required: false
+        hint: "Categories que creuen publicacions"
+        options:
+          - label: Espai públic
+            value: espai-public
+          - label: Art públic
+            value: art-public
+          - label: Dones arquitectes
+            value: dones-arquitectes
+          - label: Nomenclàtor femení
+            value: nomenclator-femeni
+
+      - label: Adreça
+        name: adreca
+        widget: string
+        required: false
+
+      - label: Any
+        name: any
+        widget: string
+        required: false
+        hint: "Any de construcció (p.ex. 1934 o c. 1930)"
+
+      - label: Arquitectes
+        name: arquitectes
+        widget: list
+        required: false
+        hint: "Un nom per línia"
+
+      - label: Tipologia
+        name: tipologia
+        widget: string
+        required: false
+
+      - label: Protecció
+        name: proteccio
+        widget: select
+        required: false
+        options:
+          - label: "A — Bé Cultural d'Interès Nacional"
+            value: A
+          - label: "B — Bé Cultural d'Interès Local"
+            value: B
+          - label: "C — Bé d'Interès Urbanístic"
+            value: C
+          - label: "D — Bé d'Interès Documental"
+            value: D
+
+      - label: "Superfície (m²)"
+        name: superficie
+        widget: number
+        required: false
+        value_type: int
+
+      - label: Anys de reforma
+        name: anys_reforma
+        widget: list
+        required: false
+        hint: "Un any per línia"
+
+      - label: Premis
+        name: premis
+        widget: list
+        required: false
+        hint: "Un premi per línia"
+
+      - label: Latitud
+        name: lat
+        widget: number
+        required: false
+        value_type: float
+        step: 0.000001
+        hint: "Coordenada GPS (p.ex. 41.3851)"
+
+      - label: Longitud
+        name: long
+        widget: number
+        required: false
+        value_type: float
+        step: 0.000001
+        hint: "Coordenada GPS (p.ex. 2.1734)"
+
+      - label: Descripció
+        name: descripcio
+        widget: text
+        required: false
+
+      - label: Nomenclàtor
+        name: descripcio_nomenclator
+        widget: text
+        required: false
+        hint: "Text del nomenclàtor femení, si escau"
+
+      - label: Contingut addicional (markdown)
+        name: body
+        widget: markdown
+        required: false
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # PUBLICACIONS (dades de configuració)
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: publicacions-config
+    label: "Configuració → Publicacions"
+    files:
+      - label: Llista de publicacions
+        name: publicacions
+        file: data/publicacions.yaml
+        fields:
+          - label: Publicacions
+            name: publicacions
+            widget: list
+            fields:
+              - label: Slug (identificador URL)
+                name: slug
+                widget: string
+              - label: Títol complet
+                name: titol
+                widget: string
+              - label: Color
+                name: color
+                widget: color
+                hint: "Color oficial de la publicació al web"
+              - label: Any d'edició
+                name: edicio
+                widget: string
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # TEMES TRANSVERSALS (dades de configuració)
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: temes-config
+    label: "Configuració → Temes transversals"
+    files:
+      - label: Llista de temes transversals
+        name: temes_transversals
+        file: data/temes_transversals.yaml
+        fields:
+          - label: Temes
+            name: temes_transversals
+            widget: list
+            fields:
+              - label: Slug
+                name: slug
+                widget: string
+              - label: Títol
+                name: titol
+                widget: string
+              - label: Descripció
+                name: descripcio
+                widget: text
+                required: false
+              - label: Color
+                name: color
+                widget: color
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # PÀGINES ESTÀTIQUES
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: pagines
+    label: Pàgines
+    files:
+      - label: Presentació
+        name: presentacio
+        file: content/ca/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
+      - label: En paper
+        name: en-paper
+        file: content/ca/en-paper/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
+      - label: Crèdits
+        name: credits
+        file: content/ca/credits/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Cos, name: body, widget: markdown }

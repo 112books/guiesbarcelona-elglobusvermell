@@ -3,61 +3,175 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
   <title>Administrador — Guies Barcelona</title>
   <style>
-    .cms-login-ajuda {
-      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 0.8rem;
-      color: #555555;
-      margin: 0.3rem 0 1.1rem;
-      line-height: 1.45;
-      max-width: 300px;
+    :root {
+      --bg:      #f5f4f0;
+      --ink:     #111110;
+      --ink2:    #444440;
+      --ink3:    #6b6b66;
+      --border:  #ddddd8;
+      --surface: #eeede9;
+      --red:     #c81e1e;
+      --red2:    #a01616;
     }
-    .cms-login-ajuda strong { color: #111111; }
-    .cms-login-ajuda a { color: #c81e1e; text-decoration: none; }
-    .cms-login-ajuda a:hover { text-decoration: underline; }
-    .cms-login-ajuda.cms-login-desactivat { opacity: 0.55; font-style: italic; }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Capçalera ─────────────────────────────────────────────── */
+    .hub-header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .hub-header a { display: inline-block; }
+    .hub-header img { height: 4rem; width: auto; }
+    .hub-header h1 {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--ink3);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Contingut ─────────────────────────────────────────────── */
+    .hub-main {
+      flex: 1;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3rem 1rem;
+    }
+
+    .hub-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      max-width: 640px;
+      width: 100%;
+    }
+
+    .hub-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border);
+      background: #fff;
+      text-decoration: none;
+      color: var(--ink);
+      padding: 2rem 1.75rem;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .hub-card:hover {
+      border-color: var(--red);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .hub-card-icon {
+      font-size: 2rem;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    .hub-card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--ink);
+    }
+    .hub-card-desc {
+      font-size: 0.78rem;
+      color: var(--ink3);
+      line-height: 1.5;
+      flex: 1;
+    }
+    .hub-card-arrow {
+      margin-top: 1.5rem;
+      font-size: 0.75rem;
+      color: var(--red);
+      font-weight: 500;
+    }
+    .hub-card:hover .hub-card-arrow { text-decoration: underline; }
+
+    /* ── Peu ───────────────────────────────────────────────────── */
+    .hub-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1rem;
+      text-align: center;
+      font-size: 0.72rem;
+      color: #aaa;
+      line-height: 1.7;
+    }
+    .hub-footer a { color: #aaa; text-decoration: none; }
+    .hub-footer a:hover { color: var(--red); }
+    .hub-footer-links {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0.2rem;
+    }
+    .hub-footer-links a { text-decoration: underline; }
+    .hub-footer-powered { margin-top: 0.4rem; font-size: 0.68rem; color: #ccc; }
+    .hub-footer-powered a { color: #ccc; }
+    .hub-footer-powered a:hover { color: var(--red); }
+
+    @media (max-width: 480px) {
+      .hub-grid { grid-template-columns: 1fr; }
+      .hub-header { padding: 2rem 1rem 1.5rem; }
+    }
   </style>
 </head>
 <body>
-  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
-  <script>
-    var injected = false;
-    var observer = new MutationObserver(function () {
-      if (injected) return;
-      var btns = Array.from(document.querySelectorAll('button'));
-      var githubBtn = btns.find(function (b) {
-        return b.textContent.trim().toLowerCase().includes('github');
-      });
-      var tokenBtn = btns.find(function (b) {
-        var t = b.textContent.trim().toLowerCase();
-        return t.includes('token') || t.includes('access token');
-      });
-      if (!githubBtn || !tokenBtn) return;
-      injected = true;
-      observer.disconnect();
 
-      function addInfo(afterEl, html, extra) {
-        var p = document.createElement('p');
-        p.className = 'cms-login-ajuda' + (extra ? ' ' + extra : '');
-        p.innerHTML = html;
-        afterEl.parentNode.insertBefore(p, afterEl.nextSibling);
-      }
+  <header class="hub-header">
+    <a href="../" aria-label="Inici — Guies de Barcelona">
+      <img src="../img/Arquitectura-i-urbanisme-de-barcelona.svg"
+           alt="Guies de Barcelona de El Globus Vermell">
+    </a>
+    <h1>Administrador de continguts</h1>
+  </header>
 
-      addInfo(
-        githubBtn,
-        'No disponible fins que el web estigui en producció (requereix servidor OAuth propi).',
-        'cms-login-desactivat'
-      );
-      addInfo(
-        tokenBtn,
-        'Mètode actiu. Genera un <strong>token personal (PAT)</strong> a ' +
-        '<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>. ' +
-        'Permisos: <strong>Contents</strong> (lectura i escriptura) + <strong>Metadata</strong> (lectura). ' +
-        'Repositori: <strong>112books/guiesbarcelona-elglobusvermell</strong>.'
-      );
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
-  </script>
+  <main class="hub-main">
+    <div class="hub-grid">
+
+      <a href="stats/" class="hub-card">
+        <div class="hub-card-icon">📊</div>
+        <div class="hub-card-title">Estadístiques</div>
+        <div class="hub-card-desc">Visites, pàgines, dispositius i tendències del web. Actualitzat cada hora.</div>
+        <div class="hub-card-arrow">→ Obrir dashboard</div>
+      </a>
+
+      <a href="cms/" class="hub-card">
+        <div class="hub-card-icon">✏️</div>
+        <div class="hub-card-title">Editor de continguts</div>
+        <div class="hub-card-desc">Edita els edificis i elements del mapa. Cal un token personal de GitHub (PAT).</div>
+        <div class="hub-card-arrow">→ Entrar al CMS</div>
+      </a>
+
+    </div>
+  </main>
+
+  <footer class="hub-footer">
+    <div>© <script>document.write(new Date().getFullYear())</script>
+      <a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>
+      · Powered by <a href="https://linuxbcn.com" target="_blank" rel="noopener"><strong>LinuxBCN.com</strong></a>
+    </div>
+    <div class="hub-footer-links">
+      <a href="../legal/avis-legal/">Avís legal</a>
+      <a href="../legal/privacitat/">Privacitat</a>
+      <a href="../legal/cookies/">Cookies</a>
+    </div>
+  </footer>
+
 </body>
 </html>
