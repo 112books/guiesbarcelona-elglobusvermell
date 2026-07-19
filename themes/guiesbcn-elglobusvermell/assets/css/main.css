@@ -805,7 +805,8 @@ main {
 }
 
 /* Botó de geolocalització al mapa */
-.mapa-btn-geo {
+.mapa-btn-geo,
+.mapa-btn-fs {
   width: 34px;
   height: 34px;
   background: #fff;
@@ -820,8 +821,17 @@ main {
   padding: 0;
   color: #333;
 }
-.mapa-btn-geo:hover { background: #f4f4f4; }
-.mapa-btn-geo:active { background: #e4e4e4; }
+.mapa-btn-geo:hover, .mapa-btn-fs:hover { background: #f4f4f4; }
+.mapa-btn-geo:active, .mapa-btn-fs:active { background: #e4e4e4; }
+
+.mapa-el:fullscreen,
+.mapa-el:-webkit-full-screen {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+}
+.mapa-el:fullscreen .mapa-btn-fs,
+.mapa-el:-webkit-full-screen .mapa-btn-fs { border-radius: 4px; }
 
 /* ── Proposta B — Nocturn ─────────────────────────────────────────────────── */
 
