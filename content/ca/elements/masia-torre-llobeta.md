@@ -1,6 +1,9 @@
 +++
 title = "Masia Torre Llobeta"
 draft = false
+adreca = "Santa Fe, 2"
+lat = 41.4268282
+long = 2.1741381
 
 
 publicacions = ["masies"]

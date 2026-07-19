@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Laietos"
 draft = false
+adreca = "Servet, 97"
+lat = 41.4372797
+long = 2.1863392
 
 
 publicacions = ["masies"]

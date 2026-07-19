@@ -1,6 +1,9 @@
 +++
 title = "Masia Vil·la Joana"
 draft = false
+adreca = "Ctra. de l'Església, 104 (Vallvidrera)"
+lat = 41.4195128
+long = 2.0999198
 
 
 publicacions = ["masies"]

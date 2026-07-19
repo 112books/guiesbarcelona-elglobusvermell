@@ -1,6 +1,9 @@
 +++
 title = "Masia Mas Enric"
 draft = false
+adreca = "Pl. Ciutadella"
+lat = 41.3881095
+long = 2.1876253
 
 
 publicacions = ["masies"]

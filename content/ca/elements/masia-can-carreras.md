@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Carreras"
 draft = false
+adreca = "Ogassa, 12"
+lat = 41.4358106
+long = 2.1669688
 
 
 publicacions = ["masies"]

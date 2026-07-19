@@ -1,6 +1,9 @@
 +++
 title = "Masia Can Verdaguer"
 draft = false
+adreca = "Piferrer, 94"
+lat = 41.4340759
+long = 2.1791518
 
 
 publicacions = ["masies"]
