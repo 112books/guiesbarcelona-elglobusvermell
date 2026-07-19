@@ -372,7 +372,7 @@ main {
 
 .filtre-btn {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.4rem;
   padding: 0.3rem 0.75rem;
   border-radius: 2rem;
@@ -381,6 +381,7 @@ main {
   font-size: 0.8125rem;
   font-family: inherit;
   cursor: pointer;
+  text-align: left;
   transition: opacity 0.15s, background 0.15s;
 }
 
@@ -392,9 +393,20 @@ main {
   border-radius: 50%;
   background: var(--pub-color, #888);
   flex-shrink: 0;
+  margin-top: 0.2em;
 }
 
 .filtre-tots::before { display: none; }
+
+.filtre-btn-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.filtre-btn-l2 {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
 
 .filtre-btn-count { font-size: 0.7rem; opacity: 0.7; font-weight: normal; }
 
