@@ -14,7 +14,7 @@ media_folder: static/img/edificis
 public_folder: /img/edificis
 
 locale: ca
-logo_url: https://guiesbarcelona.elglobusvermell.org/img/Arquitectura-i-urbanisme-de-barcelona.svg
+logo_url: https://raw.githubusercontent.com/112books/guiesbarcelona-elglobusvermell/main/static/img/Arquitectura-i-urbanisme-de-barcelona.svg
 site_url: https://guiesbarcelona.elglobusvermell.org/
 
 collections:
