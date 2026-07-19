@@ -43,6 +43,18 @@
   </style>
 </head>
 <body>
+  <script>
+    (function () {
+      var _open = window.open;
+      window.open = function (url) {
+        var s = String(url || '');
+        if (s.includes('netlify.com') || s.includes('github.com/login/oauth')) {
+          return null;
+        }
+        return _open.apply(this, arguments);
+      };
+    })();
+  </script>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
   <script>
     var injected = false;
@@ -50,30 +62,32 @@
       if (injected) return;
 
       var btns = Array.from(document.querySelectorAll('button'));
-      var githubBtn = btns.find(function (b) {
-        return b.textContent.trim().toLowerCase().includes('github');
-      });
-      var tokenBtn = btns.find(function (b) {
-        var t = b.textContent.trim().toLowerCase();
-        return t.includes('token') || t.includes('access');
-      });
+      if (!btns.length) return;
+
+      function isPAT(b) {
+        var t = (b.textContent + ' ' + b.getAttribute('aria-label') + ' ' + b.className)
+                  .toLowerCase();
+        return t.includes('token') || t.includes('access') || t.includes('pat');
+      }
+
+      var tokenBtn = btns.find(isPAT);
       if (!tokenBtn) return;
+
       injected = true;
       observer.disconnect();
 
-      // Amaga el botó GitHub OAuth
-      if (githubBtn) {
-        var githubWrap = githubBtn.parentNode;
-        if (!githubWrap.contains(tokenBtn)) {
-          githubWrap.style.display = 'none';
-        } else {
-          githubBtn.style.display = 'none';
+      btns.forEach(function (b) {
+        if (!isPAT(b)) {
+          b.style.display = 'none';
+          var wrap = b.parentNode;
+          if (wrap && !wrap.contains(tokenBtn)) {
+            wrap.style.display = 'none';
+          }
         }
-      }
+      });
 
       var card = tokenBtn.closest('form') || tokenBtn.parentNode;
 
-      // ── Capçalera ──────────────────────────────────────────────
       var brand = document.createElement('div');
       brand.className = 'cms-brand';
       brand.innerHTML =
@@ -84,7 +98,6 @@
         '<p class="cms-brand-sub">Editor de continguts</p>';
       card.insertBefore(brand, card.firstChild);
 
-      // ── Text explicatiu ────────────────────────────────────────
       var info = document.createElement('p');
       info.className = 'cms-login-ajuda';
       info.innerHTML =

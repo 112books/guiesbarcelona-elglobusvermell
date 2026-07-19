@@ -61,13 +61,24 @@
       margin-top: 0.2rem;
     }
     .cms-peu-links a { text-decoration: underline; }
-    .cms-peu-back {
-      margin-top: 0.75rem;
-      font-size: 0.7rem;
-    }
+    .cms-peu-back { margin-top: 0.75rem; font-size: 0.7rem; }
   </style>
 </head>
 <body>
+  <script>
+    // Bloqueja QUALSEVOL popup OAuth abans que Sveltia CMS carregui.
+    // api.netlify.com retorna 404 per a sites no registrats a Netlify.
+    (function () {
+      var _open = window.open;
+      window.open = function (url) {
+        var s = String(url || '');
+        if (s.includes('netlify.com') || s.includes('github.com/login/oauth')) {
+          return null; // bloquejar silenciosament
+        }
+        return _open.apply(this, arguments);
+      };
+    })();
+  </script>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
   <script>
     var injected = false;
@@ -75,29 +86,40 @@
       if (injected) return;
 
       var btns = Array.from(document.querySelectorAll('button'));
-      var githubBtn = btns.find(function (b) {
-        return b.textContent.trim().toLowerCase().includes('github');
-      });
-      var tokenBtn = btns.find(function (b) {
-        var t = b.textContent.trim().toLowerCase();
-        return t.includes('token') || t.includes('access');
-      });
-      if (!tokenBtn) return;
+      if (!btns.length) return;
+
+      // Identifica el botó PAT (conté "token" o "access" o "pat" en qualsevol
+      // lloc del text o atributs)
+      function isPAT(b) {
+        var t = (b.textContent + ' ' + b.getAttribute('aria-label') + ' ' + b.className)
+                  .toLowerCase();
+        return t.includes('token') || t.includes('access') || t.includes('pat');
+      }
+      function isOAuth(b) {
+        var t = (b.textContent + ' ' + b.getAttribute('aria-label') + ' ' + b.className)
+                  .toLowerCase();
+        return t.includes('github') || t.includes('oauth') || t.includes('login with');
+      }
+
+      var tokenBtn = btns.find(isPAT);
+      if (!tokenBtn) return; // espera que aparegui el botó PAT
+
       injected = true;
       observer.disconnect();
 
-      // Amaga el botó GitHub OAuth — no funciona fins que el servidor
-      // de producció tingui un OAuth App configurat (Fase 1)
-      if (githubBtn) {
-        var githubWrap = githubBtn.parentNode;
-        // Amaga el botó i tot el seu contenidor directe si no conté el tokenBtn
-        if (!githubWrap.contains(tokenBtn)) {
-          githubWrap.style.display = 'none';
-        } else {
-          githubBtn.style.display = 'none';
+      // Amaga tots els botons que NO siguin el PAT, inclosos els contenidors
+      btns.forEach(function (b) {
+        if (!isPAT(b)) {
+          b.style.display = 'none';
+          // Intenta amagar també el wrapper si no conté el tokenBtn
+          var wrap = b.parentNode;
+          if (wrap && !wrap.contains(tokenBtn)) {
+            wrap.style.display = 'none';
+          }
         }
-      }
+      });
 
+      // Troba el contenidor de la targeta (form o parent del tokenBtn)
       var card = tokenBtn.closest('form') || tokenBtn.parentNode;
 
       // ── Capçalera ──────────────────────────────────────────────
