@@ -373,8 +373,7 @@ main {
 .filtre-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem 0.65rem 0.3rem 0.5rem;
+  padding: 0.3rem 0.65rem;
   border-radius: 2rem;
   border: 2px solid transparent;
   background: #f0f0f0;
@@ -384,18 +383,6 @@ main {
   text-align: left;
   transition: opacity 0.15s, background 0.15s;
 }
-
-.filtre-btn::before {
-  content: "";
-  display: inline-block;
-  width: 0.65rem;
-  height: 0.65rem;
-  border-radius: 50%;
-  background: var(--pub-color, #888);
-  flex-shrink: 0;
-}
-
-.filtre-tots::before { display: none; }
 
 .filtre-btn-text {
   display: flex;
