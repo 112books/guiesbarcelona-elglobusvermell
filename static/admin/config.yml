@@ -64,20 +64,32 @@ collections:
         required: false
         hint: "Plànol(s)-guia on apareix aquest edifici"
         options:
-          - label: "GATCPAC (Arquitectura d'avantguarda, 2016)"
+          - label: "GATCPAC. Arquitectura d'avantguarda 1928-1939"
             value: gatcpac
-          - label: "Jardins interiors d'illa de l'Eixample (2018)"
-            value: interiors-illa
-          - label: "Patrimoni industrial del Poblenou (2019)"
-            value: poblenou
-          - label: "Mercats de Barcelona (2019)"
-            value: mercats
-          - label: "Biblioteques de Barcelona (2025)"
-            value: biblioteques
-          - label: "Arquitectura Barcelona 1976-2008 (2026)"
+          - label: "Arquitectura Moderna 1950-1975"
+            value: 50-75
+          - label: "De l'esperança a la crisi 1975-2008"
             value: 76-08
-          - label: "Arquitectura Barcelona 2009-2025 (2026)"
+          - label: "La revolució tranquil·la 2010-2025"
             value: 09-25
+          - label: "Jardins interiors d'illa de l'Eixample"
+            value: interiors-illa
+          - label: "Patrimoni industrial del Poblenou"
+            value: poblenou
+          - label: "Mercats de Barcelona"
+            value: mercats
+          - label: "Biblioteques de Barcelona"
+            value: biblioteques
+          - label: "La Barceloneta"
+            value: barceloneta
+          - label: "La Marina del Port i del Prat Vermell"
+            value: marina
+          - label: "Masies de Barcelona"
+            value: masies
+          - label: "La Barcelona de Tàpies"
+            value: tapies
+          - label: "New Babylon Barcelona"
+            value: new-babylon
 
       - label: Temes transversals
         name: temes_transversals
