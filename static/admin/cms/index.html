@@ -79,6 +79,34 @@
       };
     })();
   </script>
+  <style>
+    .cms-help-btn {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      z-index: 9999;
+      background: #c81e1e;
+      color: #fff;
+      border: none;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      transition: background 0.2s;
+      font-family: system-ui, sans-serif;
+    }
+    .cms-help-btn:hover { background: #a01818; }
+    .cms-help-btn title { display: none; }
+  </style>
+  <a href="../../admin/guia/" target="_blank" rel="noopener"
+     class="cms-help-btn" aria-label="Guia de l'editor">?</a>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
   <script>
     var injected = false;
