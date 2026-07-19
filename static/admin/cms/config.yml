@@ -37,7 +37,48 @@ collections:
     format: yaml-frontmatter
     slug: "{{slug}}"
     summary: "{{title}} — {{publicacions}}"
-    sortable_fields: [title, any]
+    sortable_fields: [title, any, adreca]
+    summary: "{{title}}"
+    view_groups:
+      - label: "GATCPAC · 1928-1939"
+        field: publicacions
+        pattern: gatcpac
+      - label: "Arquitectura Moderna · 1950-1975"
+        field: publicacions
+        pattern: 50-75
+      - label: "De l'esperança a la crisi · 1975-2008"
+        field: publicacions
+        pattern: 76-08
+      - label: "La revolució tranquil·la · 2010-2025"
+        field: publicacions
+        pattern: 09-25
+      - label: "Jardins interiors d'illa"
+        field: publicacions
+        pattern: interiors-illa
+      - label: "Patrimoni industrial del Poblenou"
+        field: publicacions
+        pattern: poblenou
+      - label: "Mercats de Barcelona"
+        field: publicacions
+        pattern: mercats
+      - label: "Biblioteques de Barcelona"
+        field: publicacions
+        pattern: biblioteques
+      - label: "La Barceloneta"
+        field: publicacions
+        pattern: barceloneta
+      - label: "La Marina"
+        field: publicacions
+        pattern: marina
+      - label: "Masies de Barcelona"
+        field: publicacions
+        pattern: masies
+      - label: "La Barcelona de Tàpies"
+        field: publicacions
+        pattern: tapies
+      - label: "New Babylon Barcelona"
+        field: publicacions
+        pattern: new-babylon
     view_filters:
       - label: Publicats
         field: draft
