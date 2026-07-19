@@ -60,6 +60,12 @@
       max-width: 600px;
       width: 100%;
     }
+    .hub-grid .hub-card:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+      max-width: 280px;
+      margin: 0 auto;
+      width: 100%;
+    }
 
     .hub-card {
       display: flex;
@@ -194,6 +200,33 @@
         <div class="hub-card-title">Editor de continguts</div>
         <div class="hub-card-desc">Edita edificis i elements del mapa. Accés amb token personal de GitHub (PAT).</div>
         <div class="hub-card-arrow">→ Entrar al CMS</div>
+      </a>
+
+      <a href="guia/" class="hub-card">
+        <div class="hub-card-icon">
+          <!-- Book / open pages, stroke only -->
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+               stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"
+               aria-hidden="true">
+            <!-- Left page -->
+            <polyline points="6,8 6,34 20,34 20,8"/>
+            <!-- Right page -->
+            <polyline points="34,8 34,34 20,34"/>
+            <!-- Spine -->
+            <line x1="20" y1="8" x2="20" y2="34"/>
+            <!-- Lines on left page -->
+            <line x1="9"  y1="15" x2="17" y2="15"/>
+            <line x1="9"  y1="20" x2="17" y2="20"/>
+            <line x1="9"  y1="25" x2="17" y2="25"/>
+            <!-- Lines on right page -->
+            <line x1="23" y1="15" x2="31" y2="15"/>
+            <line x1="23" y1="20" x2="31" y2="20"/>
+            <line x1="23" y1="25" x2="31" y2="25"/>
+          </svg>
+        </div>
+        <div class="hub-card-title">Guia de l'editor</div>
+        <div class="hub-card-desc">Com entrar, editar edificis, descripció de cada camp i bones pràctiques.</div>
+        <div class="hub-card-arrow">→ Obrir guia</div>
       </a>
 
     </div>

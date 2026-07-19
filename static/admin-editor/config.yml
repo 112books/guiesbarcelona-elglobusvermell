@@ -1,9 +1,7 @@
-# Sveltia CMS — Guies Barcelona (El Globus Vermell)
-# Accés editors: El Globus Vermell — només fitxes d'edificis
+# Sveltia CMS — Guies Barcelona
+# Accés El Globus Vermell: edificis i pàgines de contingut
 #
-# Els editors NO poden modificar configuració (publicacions, temes, pàgines).
-#
-# Autenticació: PAT de GitHub (fine-grained)
+# Autenticació: PAT (Personal Access Token) de GitHub
 #   Permisos: "Contents: Read and write" + "Metadata: Read"
 #   Repositori: 112books/guiesbarcelona-elglobusvermell
 
@@ -19,16 +17,59 @@ locale: ca
 
 collections:
 
+  # ══════════════════════════════════════════════════════════════════════════
+  # EDIFICIS — agrupats per publicació
+  # ══════════════════════════════════════════════════════════════════════════
   - name: elements
-    label: Edificis i elements
+    label: "Edificis i elements"
     label_singular: Edifici
     folder: content/ca/elements
-    create: true
+    create: false
     extension: md
     format: yaml-frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} — {{publicacions}}"
-    sortable_fields: [title, any]
+    summary: "{{title}}"
+    sortable_fields: [title, any, adreca]
+    view_groups:
+      - label: "GATCPAC · 1928-1939"
+        field: publicacions
+        pattern: gatcpac
+      - label: "Arquitectura Moderna · 1950-1975"
+        field: publicacions
+        pattern: 50-75
+      - label: "De l'esperança a la crisi · 1975-2008"
+        field: publicacions
+        pattern: 76-08
+      - label: "La revolució tranquil·la · 2010-2025"
+        field: publicacions
+        pattern: 09-25
+      - label: "Jardins interiors d'illa"
+        field: publicacions
+        pattern: interiors-illa
+      - label: "Patrimoni industrial del Poblenou"
+        field: publicacions
+        pattern: poblenou
+      - label: "Mercats de Barcelona"
+        field: publicacions
+        pattern: mercats
+      - label: "Biblioteques de Barcelona"
+        field: publicacions
+        pattern: biblioteques
+      - label: "La Barceloneta"
+        field: publicacions
+        pattern: barceloneta
+      - label: "La Marina"
+        field: publicacions
+        pattern: marina
+      - label: "Masies de Barcelona"
+        field: publicacions
+        pattern: masies
+      - label: "La Barcelona de Tàpies"
+        field: publicacions
+        pattern: tapies
+      - label: "New Babylon Barcelona"
+        field: publicacions
+        pattern: new-babylon
     view_filters:
       - label: Publicats
         field: draft
@@ -40,17 +81,20 @@ collections:
       - label: Títol
         name: title
         widget: string
+        hint: "Nom oficial de l'edifici o element"
 
       - label: Esborrany
         name: draft
         widget: boolean
         default: false
+        hint: "Si està activat, l'element no apareix al web"
 
       - label: Publicacions
         name: publicacions
         widget: select
         multiple: true
         required: false
+        hint: "Guia(es) on apareix aquest edifici"
         options:
           - label: "GATCPAC. Arquitectura d'avantguarda 1928-1939"
             value: gatcpac
@@ -84,6 +128,7 @@ collections:
         widget: select
         multiple: true
         required: false
+        hint: "Categories temàtiques que creuen diverses publicacions"
         options:
           - label: Espai públic
             value: espai-public
@@ -98,31 +143,35 @@ collections:
         name: adreca
         widget: string
         required: false
+        hint: "Adreça postal (p.ex. Carrer de Provença, 261)"
 
-      - label: Any
+      - label: Any de construcció
         name: any
         widget: string
         required: false
-        hint: "Any de construcció (p.ex. 1934 o c. 1930)"
+        hint: "Any o període (p.ex. 1934 o c. 1930 o 1928-1931)"
 
       - label: Arquitectes
         name: arquitectes
         widget: list
         required: false
+        hint: "Un nom per línia"
 
       - label: Tipologia
         name: tipologia
         widget: string
         required: false
+        hint: "Ex: Habitatge col·lectiu, Equipament cultural, Espai públic..."
 
-      - label: Protecció
+      - label: Nivell de protecció
         name: proteccio
         widget: select
         required: false
+        hint: "Catàleg del Patrimoni Arquitectònic de Barcelona"
         options:
-          - label: "A — Bé Cultural d'Interès Nacional"
+          - label: "A — Bé Cultural d'Interès Nacional (BCIN)"
             value: A
-          - label: "B — Bé Cultural d'Interès Local"
+          - label: "B — Bé Cultural d'Interès Local (BCIL)"
             value: B
           - label: "C — Bé d'Interès Urbanístic"
             value: C
@@ -139,11 +188,13 @@ collections:
         name: anys_reforma
         widget: list
         required: false
+        hint: "Un any per línia (p.ex. 1998)"
 
       - label: Premis
         name: premis
         widget: list
         required: false
+        hint: "Un premi per línia"
 
       - label: Latitud
         name: lat
@@ -151,6 +202,7 @@ collections:
         required: false
         value_type: float
         step: 0.000001
+        hint: "Coordenada GPS (p.ex. 41.3851) — necessària per aparèixer al mapa"
 
       - label: Longitud
         name: long
@@ -158,18 +210,49 @@ collections:
         required: false
         value_type: float
         step: 0.000001
+        hint: "Coordenada GPS (p.ex. 2.1734) — necessària per aparèixer al mapa"
 
       - label: Descripció
         name: descripcio
         widget: text
         required: false
+        hint: "Text descriptiu que apareix a la fitxa de l'edifici"
 
-      - label: Nomenclàtor
+      - label: Text nomenclàtor femení
         name: descripcio_nomenclator
         widget: text
         required: false
+        hint: "Només per a elements de la categoria Nomenclàtor femení"
 
-      - label: Contingut addicional (markdown)
+      - label: Contingut addicional
         name: body
         widget: markdown
         required: false
+        hint: "Text enriquit addicional (opcional)"
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # PÀGINES DE CONTINGUT
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: pagines
+    label: "Pàgines del web"
+    files:
+      - label: "Presentació (pàgina principal)"
+        name: presentacio
+        file: content/ca/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Contingut, name: body, widget: markdown }
+
+      - label: "En paper (publicacions físiques)"
+        name: en-paper
+        file: content/ca/en-paper/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Contingut, name: body, widget: markdown }
+
+      - label: "Crèdits"
+        name: credits
+        file: content/ca/credits/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Contingut, name: body, widget: markdown }

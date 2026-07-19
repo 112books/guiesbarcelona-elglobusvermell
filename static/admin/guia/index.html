@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Guia d'editor — Guies Barcelona</title>
+  <style>
+    :root {
+      --bg:      #f5f4f0;
+      --ink:     #111110;
+      --ink2:    #444440;
+      --ink3:    #6b6b66;
+      --border:  #ddddd8;
+      --surface: #eeede9;
+      --red:     #c81e1e;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+
+    /* ── Capçalera ─────────────────────────────────────────────── */
+    .g-header {
+      text-align: center;
+      padding: 2.5rem 1rem 1.75rem;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+    .g-header a { display: inline-block; }
+    .g-header img { height: 3.5rem; width: auto; }
+    .g-header h1 {
+      margin-top: 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--ink3);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    /* ── Layout ────────────────────────────────────────────────── */
+    .g-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    /* ── Índex ─────────────────────────────────────────────────── */
+    .g-toc {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .g-toc-title {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.75rem;
+    }
+    .g-toc ol {
+      padding-left: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .g-toc a {
+      color: var(--red);
+      text-decoration: none;
+    }
+    .g-toc a:hover { text-decoration: underline; }
+
+    /* ── Seccions ──────────────────────────────────────────────── */
+    .g-section {
+      margin-bottom: 3rem;
+    }
+    .g-section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      border-bottom: 2px solid var(--red);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+      color: var(--ink);
+    }
+    .g-section h3 {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--ink2);
+      margin: 1.25rem 0 0.5rem;
+    }
+    .g-section p {
+      margin-bottom: 0.75rem;
+      color: var(--ink2);
+    }
+    .g-section ul, .g-section ol {
+      padding-left: 1.4rem;
+      margin-bottom: 0.75rem;
+      color: var(--ink2);
+    }
+    .g-section li { margin-bottom: 0.3rem; }
+
+    /* ── Steps numerats ────────────────────────────────────────── */
+    .g-steps {
+      list-style: none;
+      padding: 0;
+      counter-reset: step;
+    }
+    .g-steps li {
+      counter-increment: step;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+      align-items: flex-start;
+    }
+    .g-steps li::before {
+      content: counter(step);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    /* ── Taula de camps ────────────────────────────────────────── */
+    .g-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+      font-size: 0.84rem;
+    }
+    .g-table th {
+      background: var(--surface);
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      font-weight: 600;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      border-bottom: 1px solid var(--border);
+    }
+    .g-table td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      color: var(--ink2);
+    }
+    .g-table tr:last-child td { border-bottom: none; }
+    .g-table td:first-child { font-weight: 500; color: var(--ink); white-space: nowrap; }
+    .tag-req {
+      display: inline-block;
+      background: #fde8e8;
+      color: var(--red);
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.1rem 0.4rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      vertical-align: middle;
+      margin-left: 0.3rem;
+    }
+    .tag-opt {
+      display: inline-block;
+      background: var(--surface);
+      color: var(--ink3);
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.1rem 0.4rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      vertical-align: middle;
+      margin-left: 0.3rem;
+    }
+
+    /* ── Avisos ────────────────────────────────────────────────── */
+    .g-note {
+      background: #fff8e1;
+      border-left: 3px solid #f59e0b;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+    .g-warn {
+      background: #fde8e8;
+      border-left: 3px solid var(--red);
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+
+    /* ── Codi ──────────────────────────────────────────────────── */
+    code {
+      background: var(--surface);
+      padding: 0.1rem 0.35rem;
+      font-family: "SF Mono", "Fira Code", Consolas, monospace;
+      font-size: 0.82em;
+      color: var(--ink);
+    }
+
+    /* ── Peu ───────────────────────────────────────────────────── */
+    .g-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1rem;
+      text-align: center;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+    .g-footer a { color: #bbb; text-decoration: none; }
+    .g-footer a:hover { color: var(--red); }
+
+    @media (max-width: 560px) {
+      .g-wrap { padding: 1.5rem 1rem 3rem; }
+      .g-table { font-size: 0.78rem; }
+      .g-table td:first-child { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="g-header">
+    <a href="../../" aria-label="Inici — Guies de Barcelona">
+      <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg"
+           alt="Guies de Barcelona de El Globus Vermell">
+    </a>
+    <h1>Guia de l'editor de continguts</h1>
+  </header>
+
+  <main class="g-wrap">
+
+    <nav class="g-toc" aria-label="Índex">
+      <div class="g-toc-title">Continguts</div>
+      <ol>
+        <li><a href="#acces">Accés a l'editor</a></li>
+        <li><a href="#llista">La llista d'edificis</a></li>
+        <li><a href="#editar">Editar un edifici</a></li>
+        <li><a href="#camps">Descripció dels camps</a></li>
+        <li><a href="#pagines">Editar les pàgines del web</a></li>
+        <li><a href="#desar">Desar i publicar</a></li>
+        <li><a href="#norules">Que NO fer</a></li>
+      </ol>
+    </nav>
+
+    <!-- ── 1. Accés ───────────────────────────────────────────── -->
+    <section class="g-section" id="acces">
+      <h2>1. Accés a l'editor</h2>
+      <p>L'editor funciona amb un <strong>token personal de GitHub (PAT)</strong>. És una clau d'un sol ús que identifica el teu usuari sense necessitat de contrasenya.</p>
+
+      <h3>Primera vegada: crear el token</h3>
+      <ol class="g-steps">
+        <li>Entra a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>.</li>
+        <li>Posa un nom descriptiu, per exemple <code>Editor Guies Barcelona</code>.</li>
+        <li>Tria una caducitat d'<strong>1 any</strong>.</li>
+        <li>A <em>Repository access</em>, selecciona <strong>Only select repositories</strong> i afegeix <code>112books/guiesbarcelona-elglobusvermell</code>.</li>
+        <li>A <em>Permissions</em> → <em>Repository permissions</em>, activa:
+          <ul>
+            <li><strong>Contents</strong>: <em>Read and write</em></li>
+            <li><strong>Metadata</strong>: <em>Read</em> (s'activa sol)</li>
+          </ul>
+        </li>
+        <li>Clica <strong>Generate token</strong> i copia el token (apareix una sola vegada).</li>
+      </ol>
+
+      <div class="g-note">
+        <strong>Desa el token</strong> en un lloc segur (gestor de contrasenyes o nota privada). Si el perds hauràs de crear-ne un de nou seguint els mateixos passos.
+      </div>
+
+      <h3>Entrar a l'editor</h3>
+      <ol class="g-steps">
+        <li>Ves a <a href="../cms/">guiesbarcelona.elglobusvermell.org/admin/cms/</a>.</li>
+        <li>Enganxa el token al camp i clica <strong>Sign in using Access Token</strong>.</li>
+        <li>L'editor carrega la llista d'edificis.</li>
+      </ol>
+    </section>
+
+    <!-- ── 2. Llista d'edificis ───────────────────────────────── -->
+    <section class="g-section" id="llista">
+      <h2>2. La llista d'edificis</h2>
+      <p>Un cop dins l'editor, veuràs la col·lecció <strong>Edificis i elements</strong>. Conté tots els edificis del mapa, organitzats per publicació.</p>
+
+      <h3>Filtrar per publicació</h3>
+      <p>Al menú de la dreta (<em>View</em>) pots agrupar els edificis per guia: <em>GATCPAC</em>, <em>Arquitectura Moderna</em>, <em>La Barceloneta</em>, etc. Cada edifici apareix en tants grups com guies té assignades.</p>
+
+      <h3>Filtrar per estat</h3>
+      <p>Al mateix menú pots filtrar per <strong>Publicats</strong> (visibles al web) o <strong>Esborranys</strong> (ocults).</p>
+
+      <h3>Cercar</h3>
+      <p>Fes servir el camp de cerca a la barra superior per trobar un edifici per nom o adreça.</p>
+    </section>
+
+    <!-- ── 3. Editar un edifici ───────────────────────────────── -->
+    <section class="g-section" id="editar">
+      <h2>3. Editar un edifici</h2>
+      <p>Clica el nom d'un edifici per obrir-ne la fitxa. Modifica els camps que calgui i desa els canvis.</p>
+
+      <div class="g-note">
+        Els canvis es guarden directament al repositori de GitHub. En 1-2 minuts el web s'actualitza automàticament.
+      </div>
+    </section>
+
+    <!-- ── 4. Camps ───────────────────────────────────────────── -->
+    <section class="g-section" id="camps">
+      <h2>4. Descripció dels camps</h2>
+
+      <table class="g-table">
+        <thead>
+          <tr>
+            <th>Camp</th>
+            <th>Descripció</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Títol <span class="tag-req">obligatori</span></td>
+            <td>Nom oficial de l'edifici. Apareix al mapa i a la fitxa.</td>
+          </tr>
+          <tr>
+            <td>Esborrany</td>
+            <td>Si està activat, l'edifici <strong>no apareix al web</strong>. Útil per preparar fitxes incompletes.</td>
+          </tr>
+          <tr>
+            <td>Publicacions <span class="tag-opt">opcional</span></td>
+            <td>Guia(es) on apareix l'edifici. Un edifici pot estar a diverses guies alhora.</td>
+          </tr>
+          <tr>
+            <td>Temes transversals <span class="tag-opt">opcional</span></td>
+            <td>Categories que creuen publicacions: <em>Espai públic</em>, <em>Art públic</em>, <em>Dones arquitectes</em>, <em>Nomenclàtor femení</em>.</td>
+          </tr>
+          <tr>
+            <td>Adreça <span class="tag-opt">opcional</span></td>
+            <td>Adreça postal completa. Exemple: <code>Carrer de Provença, 261</code>.</td>
+          </tr>
+          <tr>
+            <td>Any de construcció <span class="tag-opt">opcional</span></td>
+            <td>Any o període. Exemples: <code>1934</code>, <code>c. 1930</code>, <code>1928-1931</code>.</td>
+          </tr>
+          <tr>
+            <td>Arquitectes <span class="tag-opt">opcional</span></td>
+            <td>Un nom per línia. Exemple: <code>Josep Lluís Sert</code>.</td>
+          </tr>
+          <tr>
+            <td>Tipologia <span class="tag-opt">opcional</span></td>
+            <td>Exemple: <em>Habitatge col·lectiu</em>, <em>Equipament cultural</em>, <em>Espai públic</em>.</td>
+          </tr>
+          <tr>
+            <td>Nivell de protecció <span class="tag-opt">opcional</span></td>
+            <td>Del Catàleg del Patrimoni Arquitectònic de Barcelona. Nivells A (BCIN) fins a D (Documental).</td>
+          </tr>
+          <tr>
+            <td>Superfície (m²) <span class="tag-opt">opcional</span></td>
+            <td>Superfície construïda en metres quadrats (número enter).</td>
+          </tr>
+          <tr>
+            <td>Anys de reforma <span class="tag-opt">opcional</span></td>
+            <td>Un any per línia, per a reformes o rehabilitacions significatives.</td>
+          </tr>
+          <tr>
+            <td>Premis <span class="tag-opt">opcional</span></td>
+            <td>Un premi per línia. Exemple: <code>Premi FAD 1998</code>.</td>
+          </tr>
+          <tr>
+            <td>Latitud / Longitud <span class="tag-opt">opcional</span></td>
+            <td>Coordenades GPS per situar l'edifici al mapa. Exemples: <code>41.3851</code> / <code>2.1734</code>. Sense coordenades, l'edifici <strong>no apareix al mapa</strong>.</td>
+          </tr>
+          <tr>
+            <td>Descripció <span class="tag-opt">opcional</span></td>
+            <td>Text descriptiu principal de la fitxa. Text pla, sense format.</td>
+          </tr>
+          <tr>
+            <td>Text nomenclàtor femení <span class="tag-opt">opcional</span></td>
+            <td>Només per als elements de la categoria <em>Nomenclàtor femení</em>.</td>
+          </tr>
+          <tr>
+            <td>Contingut addicional <span class="tag-opt">opcional</span></td>
+            <td>Text enriquit (negreta, llistes, enllaços). Apareix a continuació de la descripció.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ── 5. Pàgines ─────────────────────────────────────────── -->
+    <section class="g-section" id="pagines">
+      <h2>5. Editar les pàgines del web</h2>
+      <p>A la barra lateral esquerra de l'editor, sota <strong>Pàgines del web</strong>, trobaràs:</p>
+      <ul>
+        <li><strong>Presentació</strong>: text de la pàgina principal (inici del web).</li>
+        <li><strong>En paper</strong>: descripció de les publicacions físiques.</li>
+        <li><strong>Crèdits</strong>: autors, col·laboradors i agraïments.</li>
+      </ul>
+      <p>Les pàgines s'editen amb un editor de text enriquit (negreta, llistes, enllaços, etc.).</p>
+    </section>
+
+    <!-- ── 6. Desar ───────────────────────────────────────────── -->
+    <section class="g-section" id="desar">
+      <h2>6. Desar i publicar</h2>
+      <ol class="g-steps">
+        <li>Modifica els camps que calgui.</li>
+        <li>Clica el botó <strong>Save</strong> (a la part superior dreta).</li>
+        <li>El canvi es puja directament a GitHub. En 1-2 minuts el web reflecteix la modificació.</li>
+      </ol>
+      <div class="g-note">
+        No cal fer cap pas addicional: desar equival a publicar. Si vols preparar una fitxa sense publicar-la, activa el camp <strong>Esborrany</strong>.
+      </div>
+    </section>
+
+    <!-- ── 7. Que NO fer ──────────────────────────────────────── -->
+    <section class="g-section" id="norules">
+      <h2>7. Que NO fer</h2>
+      <div class="g-warn">
+        <strong>No creïs edificis nous</strong> des d'aquest editor. La creació de nous elements requereix coordinació tècnica.
+      </div>
+      <div class="g-warn">
+        <strong>No eliminis edificis</strong>. Si un element ha de desaparèixer del web, activa el camp <em>Esborrany</em> en lloc de suprimir-lo.
+      </div>
+      <ul>
+        <li>No canviïs el nom del fitxer (slug) d'un edifici: trencaries els enllaços existents.</li>
+        <li>No toquis els camps de coordenades si no estàs segur/a dels valors correctes.</li>
+        <li>No posis format markdown (asterisc, guions, corxets) al camp <em>Descripció</em>: utilitza el camp <em>Contingut addicional</em> per a text enriquit.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="g-footer">
+    <div>
+      © <script>document.write(new Date().getFullYear())</script>
+      <a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>
+      &nbsp;·&nbsp;
+      <a href="../">← Tornar a l'administrador</a>
+    </div>
+  </footer>
+
+</body>
+</html>
