@@ -15,64 +15,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch stats from GoatCounter API
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Build analytics.json
         env:
           GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
-          GC_SITE:  ${{ secrets.GOATCOUNTER_SITE }}   # ex: guiesbarcelona
-        run: |
-          if [ -z "$GC_TOKEN" ]; then
-            echo "GOATCOUNTER_TOKEN no configurat, s'omet."
-            exit 0
-          fi
-          mkdir -p data/stats
-          BASE="https://${GC_SITE}.goatcounter.com/api/v0"
-          AUTH="Authorization: Bearer ${GC_TOKEN}"
-
-          # Visites totals per pàgina (últims 30 dies)
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/hits?limit=200&start=$(date -d '30 days ago' +%Y-%m-%d)" \
-            -o data/stats/hits.json || echo '{}' > data/stats/hits.json
-
-          # Resum de visites (total site, últims 30 dies)
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/total?start=$(date -d '30 days ago' +%Y-%m-%d)" \
-            -o data/stats/total.json || echo '{}' > data/stats/total.json
-
-          # Navegadors
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/browsers?limit=20" \
-            -o data/stats/browsers.json || echo '{}' > data/stats/browsers.json
-
-          # Sistemes operatius
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/systems?limit=20" \
-            -o data/stats/systems.json || echo '{}' > data/stats/systems.json
-
-          # Dispositius
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/sizes?limit=20" \
-            -o data/stats/sizes.json || echo '{}' > data/stats/sizes.json
-
-          # Referrers
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/refs?limit=20" \
-            -o data/stats/refs.json || echo '{}' > data/stats/refs.json
-
-          # Esdeveniments del mapa (clics a marcadors, filtres)
-          curl -sf -H "$AUTH" \
-            "${BASE}/stats/hits?limit=50&filter=mapa-" \
-            -o data/stats/mapa-events.json || echo '{}' > data/stats/mapa-events.json
-
-          # Timestamp de l'última actualització (a assets/, no data/, perquè
-          # Hugo intenta parsejar tot el que hi ha a data/ com a dada estructurada)
-          mkdir -p assets/stats
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > assets/stats/last-update.txt
+          GC_SITE:  ${{ secrets.GOATCOUNTER_SITE }}
+          DAYS:     '365'
+        run: python scripts/build-stats.py
 
       - name: Commit stats
         run: |
-          [ -d data/stats ] || exit 0
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/stats/ assets/stats/last-update.txt
+          git add static/admin/stats/analytics.json
           git diff --staged --quiet || git commit -m "stats: actualització automàtica $(date -u +%Y-%m-%dT%H:%M)Z"
           git push
