@@ -1,10 +1,14 @@
 {{- $slug := .Get "slug" -}}
 {{- $pubs := $.Site.Data.publicacions -}}
 {{- $pub  := index (where $pubs "slug" $slug) 0 -}}
-{{- $img  := printf "/img/publicacions/%s.webp" $slug -}}
-{{- $file := printf "static/img/publicacions/%s.webp" $slug -}}
 {{- if $pub -}}
-  {{- if fileExists $file -}}
+  {{- $img  := "" -}}
+  {{- range slice ".webp" ".jpg" ".png" -}}
+    {{- if and (not $img) (fileExists (printf "static/img/publicacions/%s%s" $slug .)) -}}
+      {{- $img = printf "/img/publicacions/%s%s" $slug . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $img -}}
 <img src="{{ $img }}" alt="Portada: {{ $pub.titol }}"
      class="portada-guia-img" loading="lazy" width="130">
   {{- else -}}
