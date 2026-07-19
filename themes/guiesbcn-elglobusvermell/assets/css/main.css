@@ -833,6 +833,17 @@ main {
 .mapa-el:fullscreen .mapa-btn-fs,
 .mapa-el:-webkit-full-screen .mapa-btn-fs { border-radius: 4px; }
 
+/* Pseudo-fullscreen per iOS (no suporta Fullscreen API) */
+.mapa-pseudo-fs {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100dvh !important;
+  z-index: 9999 !important;
+  border-radius: 0 !important;
+}
+
 /* ── Proposta B — Nocturn ─────────────────────────────────────────────────── */
 
 html.tema-b body {
