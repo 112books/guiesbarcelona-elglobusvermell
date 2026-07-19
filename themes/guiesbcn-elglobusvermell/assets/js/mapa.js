@@ -242,14 +242,40 @@
         btn.setAttribute('data-pub', slug);
         btn.className = 'filtre-btn actiu';
         btn.style.setProperty('--pub-color', pubs[slug].color || '#888');
-        btn.appendChild(document.createTextNode(pubs[slug].titol || slug));
+
+        // Parteix el títol en dos línies per ". " (separador editorial natural)
+        var titol = pubs[slug].titol || slug;
+        var dotIdx = titol.indexOf('. ');
+        var l1text = dotIdx > 0 ? titol.slice(0, dotIdx + 1) : titol;
+        var l2text = dotIdx > 0 ? titol.slice(dotIdx + 2) : null;
+
         var n = comptesPerPub[slug] || 0;
-        if (n) {
-          var btnCount = document.createElement('span');
-          btnCount.className = 'filtre-btn-count';
-          btnCount.textContent = ' (' + n + ')';
-          btn.appendChild(btnCount);
+        var textWrap = document.createElement('span');
+        textWrap.className = 'filtre-btn-text';
+
+        var l1 = document.createElement('span');
+        l1.textContent = l1text;
+        textWrap.appendChild(l1);
+
+        if (l2text) {
+          var l2 = document.createElement('span');
+          l2.className = 'filtre-btn-l2';
+          l2.textContent = l2text;
+          if (n) {
+            var c2 = document.createElement('span');
+            c2.className = 'filtre-btn-count';
+            c2.textContent = ' (' + n + ')';
+            l2.appendChild(c2);
+          }
+          textWrap.appendChild(l2);
+        } else if (n) {
+          var c1 = document.createElement('span');
+          c1.className = 'filtre-btn-count';
+          c1.textContent = ' (' + n + ')';
+          l1.appendChild(c1);
         }
+
+        btn.appendChild(textWrap);
         btn.addEventListener('click', function () {
           filtresMapa.pub[slug] = !filtresMapa.pub[slug];
           filtraMapa();
