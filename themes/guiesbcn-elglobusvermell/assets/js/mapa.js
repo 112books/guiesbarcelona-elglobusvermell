@@ -61,7 +61,9 @@
     L.tileLayer(tiles[tema] || tiles.a, {
       attribution: CARTO_ATTR,
       maxZoom: 19,
-      subdomains: 'abcd'
+      subdomains: 'abcd',
+      updateWhenZooming: false,
+      detectRetina: true
     }).addTo(map);
 
     // ── Marcadors ────────────────────────────────────────────────────────
