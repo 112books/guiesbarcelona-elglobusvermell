@@ -1,20 +1,17 @@
-+++
-title = "Institució cultural CIC"
-draft = false
-
-adreca = "Via Augusta 205 / Vallmajor"
-lat = "41.3976716"
-long = "2.1388883"
-any = "1961"
-
-publicacions = ["50-75"]
-arquitectes = ["Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila"]
-
-[[intervencions]]
-  tipus = "Projecte"
-  autors = "Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila"
-  any = "1961"
-
-descripcio = ""
-# font: https://guiesbarcelona.elglobusvermell.org/moderna-1950-1975/institucio-cultural-cic/
-+++
+---
+title: Institució cultural CIC
+draft: false
+adreca: Via Augusta 205 / Vallmajor
+lat: 41.3976716
+long: 2.1388883
+any: '1961'
+publicacions:
+- 50-75
+arquitectes:
+- Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila
+intervencions:
+- tipus: Projecte
+  autors: Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila
+  any: '1961'
+  descripcio: ''
+---

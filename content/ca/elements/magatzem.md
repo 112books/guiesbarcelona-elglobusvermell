@@ -1,21 +1,17 @@
-+++
-title = "Magatzem"
-draft = false
-
-adreca = "Pallars 162"
-lat = "41.3994635"
-long = "2.1956891"
-any = "1924"
-
-publicacions = ["poblenou"]
-proteccio = "C"
-arquitectes = []
-
-[[intervencions]]
-  tipus = "Projecte"
-  autors = ""
-  any = "1924"
-
-descripcio = "Categoria: Altres edificis Magatzem. Actualment, mateix ús."
-# font: https://guiesbarcelona.elglobusvermell.org/poblenou-industrial/magatzem/
-+++
+---
+title: Magatzem
+draft: false
+adreca: Pallars 162
+lat: 41.3994635
+long: 2.1956891
+any: '1924'
+publicacions:
+- poblenou
+proteccio: C
+arquitectes: []
+intervencions:
+- tipus: Projecte
+  autors: ''
+  any: '1924'
+  descripcio: 'Categoria: Altres edificis Magatzem. Actualment, mateix ús.'
+---
