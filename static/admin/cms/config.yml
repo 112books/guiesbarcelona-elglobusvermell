@@ -36,7 +36,6 @@ collections:
     extension: md
     format: yaml-frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} — {{publicacions}}"
     sortable_fields: [title, any, adreca]
     summary: "{{title}}"
     view_groups:
