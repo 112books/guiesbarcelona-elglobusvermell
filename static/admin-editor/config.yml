@@ -186,11 +186,34 @@ collections:
         required: false
         value_type: int
 
+      - label: Intervencions
+        name: intervencions
+        widget: list
+        required: false
+        hint: "Reformes i projectes associats a l'edifici"
+        fields:
+          - label: Tipus
+            name: tipus
+            widget: string
+            required: false
+          - label: Autors
+            name: autors
+            widget: string
+            required: false
+          - label: Any
+            name: any
+            widget: string
+            required: false
+          - label: Descripció
+            name: descripcio
+            widget: text
+            required: false
+
       - label: Anys de reforma
         name: anys_reforma
         widget: list
         required: false
-        hint: "Un any per línia (p.ex. 1998)"
+        hint: "Un any per línia (camp antic, fer servir Intervencions)"
 
       - label: Premis
         name: premis

@@ -1,14 +1,11 @@
-+++
-title = "Masia Can Prats"
-draft = false
-adreca = "Pl. Artós, 4"
-lat = 41.395578
-long = 2.126204
-
-
-publicacions = ["masies"]
-proteccio = "C"
-
-descripcio = "Pl. Artós, 4"
-# font: https://guiesbarcelona.elglobusvermell.org/masies/masia-can-prats/
-+++
+---
+title: Masia Can Prats
+draft: false
+adreca: Pl. Artós, 4
+lat: 41.395578
+long: 2.126204
+publicacions:
+- masies
+proteccio: C
+descripcio: Pl. Artós, 4
+---
