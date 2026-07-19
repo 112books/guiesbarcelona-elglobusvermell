@@ -9,11 +9,11 @@ any = "1924"
 
 publicacions = ["poblenou"]
 proteccio = "C"
-arquitectes = ["c"]
+arquitectes = []
 
 [[intervencions]]
   tipus = "Projecte"
-  autors = "c"
+  autors = ""
   any = "1924"
 
 descripcio = "Categoria: Altres edificis Magatzem. Actualment, mateix ús."
