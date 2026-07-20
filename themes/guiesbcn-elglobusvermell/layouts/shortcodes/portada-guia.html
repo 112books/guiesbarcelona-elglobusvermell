@@ -8,11 +8,14 @@
       {{- $img = printf "img/publicacions/%s%s" $slug . -}}
     {{- end -}}
   {{- end -}}
+  {{- $href := printf "publicacions/%s/" $slug | absURL -}}
   {{- if $img -}}
+<a href="{{ $href }}" title="Llegir-ne més: {{ $pub.titol }}">
 <img src="{{ $img | absURL }}" alt="Portada: {{ $pub.titol }}"
      class="portada-guia-img" loading="lazy" width="130">
+</a>
   {{- else -}}
-<div class="portada-guia-placeholder" style="background:{{ $pub.color }}"
-     aria-hidden="true" title="{{ $pub.titol }}"></div>
+<a href="{{ $href }}" class="portada-guia-placeholder" style="background:{{ $pub.color }}"
+   title="{{ $pub.titol }}" aria-label="Llegir-ne més: {{ $pub.titol }}"></a>
   {{- end -}}
 {{- end -}}
