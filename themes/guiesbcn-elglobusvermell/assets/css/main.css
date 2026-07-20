@@ -845,9 +845,19 @@ main {
 .portada-guia-img {
   object-fit: cover;
   box-shadow: 2px 3px 10px rgba(0,0,0,0.18);
+  transition: box-shadow 0.2s, opacity 0.2s;
 }
-.portada-guia-placeholder {
+a:has(.portada-guia-img):hover .portada-guia-img {
+  box-shadow: 4px 5px 16px rgba(0,0,0,0.30);
+  opacity: 0.88;
+}
+a.portada-guia-placeholder {
   opacity: 0.55;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+a.portada-guia-placeholder:hover {
+  opacity: 0.75;
 }
 .pagina-contingut h2 { clear: both; }
 
