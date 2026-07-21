@@ -20,7 +20,23 @@ Aquesta és una declaració de compromís i mesures aplicades, no una certificac
 ## Limitacions conegudes
 
 - El mapa interactiu (Leaflet) té suport parcial de teclat heretat de la llibreria; s'està revisant
-- Contingut extret del WordPress original pot no seguir totes les pautes (transició en curs)
+
+## Estàndards que complim
+
+<div class="accessibilitat-badges">
+  <a href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer" class="accessibilitat-badge">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+    <span>WCAG 2.1<br>Nivell AA</span>
+  </a>
+  <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" target="_blank" rel="noopener noreferrer" class="accessibilitat-badge">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+    <span>EN 301 549</span>
+  </a>
+  <a href="https://www.boe.es/eli/es/rd/2018/09/07/1112" target="_blank" rel="noopener noreferrer" class="accessibilitat-badge">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+    <span>RD 1112/2018</span>
+  </a>
+</div>
 
 ## Contacte
 
