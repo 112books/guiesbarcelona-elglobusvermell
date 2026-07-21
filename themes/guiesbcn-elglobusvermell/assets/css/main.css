@@ -177,6 +177,34 @@ main {
   max-width: 48rem;
 }
 
+.accessibilitat-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm, 0.75rem);
+  margin-top: var(--space-sm, 0.75rem);
+}
+.accessibilitat-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  width: 8rem;
+  padding: 0.9rem 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.8125rem;
+  line-height: 1.25;
+  color: var(--color-text, #1e293b);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+.accessibilitat-badge:hover {
+  border-color: currentColor;
+  background: var(--color-bg-subtle, #f8f9fa);
+}
+.accessibilitat-badge svg { color: #16a34a; }
+
 /* ── Footer ────────────────────────────────────────────────────────────── */
 
 .site-footer {
