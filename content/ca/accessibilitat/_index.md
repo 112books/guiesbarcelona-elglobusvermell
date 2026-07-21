@@ -38,6 +38,18 @@ Aquesta és una declaració de compromís i mesures aplicades, no una certificac
   </a>
 </div>
 
+## Tecnologia utilitzada
+
+Aquest lloc s'ha construït amb:
+
+- **Hugo** — generador de lloc estàtic (Go)
+- **HTML5 / CSS3 / JavaScript** — maquetació i interactivitat (mapa, filtres, llistats)
+- **Leaflet + OpenStreetMap** — mapa interactiu
+- **Python** — scripts de migració i importació de contingut
+- **PHP** — proxy d'autenticació per a l'editor de contingut (Sveltia CMS), previst a Dinahosting
+- **GitHub Pages** — allotjament actual (Dinahosting previst en migrar)
+- **GoatCounter** — estadístiques de visites respectuoses amb la privacitat
+
 ## Contacte
 
 Si detectes cap problema d'accessibilitat en aquest lloc, escriu-nos a [info@elglobusvermell.org](mailto:info@elglobusvermell.org).
