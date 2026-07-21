@@ -823,6 +823,12 @@ main {
 }
 .mapa-btn-geo:hover, .mapa-btn-fs:hover { background: #f4f4f4; }
 .mapa-btn-geo:active, .mapa-btn-fs:active { background: #e4e4e4; }
+.mapa-btn-geo--cercant { color: #2563eb; animation: mapa-geo-pulsa 1s ease-in-out infinite; }
+.mapa-btn-geo--error { color: #dc2626; border-color: #dc2626; }
+@keyframes mapa-geo-pulsa {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
 
 .mapa-el:fullscreen,
 .mapa-el:-webkit-full-screen {
