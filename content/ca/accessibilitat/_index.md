@@ -46,8 +46,8 @@ Aquest lloc s'ha construït amb:
 - **HTML5 / CSS3 / JavaScript** — maquetació i interactivitat (mapa, filtres, llistats)
 - **Leaflet + OpenStreetMap** — mapa interactiu
 - **Python** — scripts de migració i importació de contingut
-- **PHP** — proxy d'autenticació per a l'editor de contingut (Sveltia CMS), previst a Dinahosting
-- **GitHub Pages** — allotjament actual (Dinahosting previst en migrar)
+- **PHP** — proxy d'autenticació per a l'editor de contingut (Sveltia CMS), previst a LinuxBCN
+- **GitHub Pages** — allotjament actual (LinuxBCN previst en migrar)
 - **GoatCounter** — estadístiques de visites respectuoses amb la privacitat
 
 ## Contacte
