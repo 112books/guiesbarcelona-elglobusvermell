@@ -181,20 +181,49 @@
 
     // ── Botó de geolocalització ──────────────────────────────────────────
     if ('geolocation' in navigator) {
+      var geoBtnLabel = 'Centrar al meu lloc';
       var geoCtrl = L.control({ position: 'bottomright' });
+      var geoBtn;
       geoCtrl.onAdd = function () {
-        var btn = L.DomUtil.create('button', 'mapa-btn-geo');
-        btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>';
-        btn.setAttribute('aria-label', 'Centrar al meu lloc');
-        btn.setAttribute('title', 'Centrar al meu lloc');
-        L.DomEvent.on(btn, 'click', function (e) {
+        geoBtn = L.DomUtil.create('button', 'mapa-btn-geo');
+        geoBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>';
+        geoBtn.setAttribute('aria-label', geoBtnLabel);
+        geoBtn.setAttribute('title', geoBtnLabel);
+        L.DomEvent.on(geoBtn, 'click', function (e) {
           L.DomEvent.stopPropagation(e);
-          map.locate({ setView: true, maxZoom: 17 });
+          geoBtn.setAttribute('title', 'Cercant la teva ubicació…');
+          geoBtn.classList.add('mapa-btn-geo--cercant');
+          map.locate({ setView: true, maxZoom: 17, enableHighAccuracy: true, timeout: 10000 });
         });
-        return btn;
+        return geoBtn;
       };
       geoCtrl.addTo(map);
-      map.on('locationerror', function () {});
+
+      var userMarker = null;
+      var userAccuracy = null;
+
+      map.on('locationfound', function (e) {
+        geoBtn.classList.remove('mapa-btn-geo--cercant');
+        geoBtn.setAttribute('title', geoBtnLabel);
+        if (userMarker) { map.removeLayer(userMarker); }
+        if (userAccuracy) { map.removeLayer(userAccuracy); }
+        userMarker = L.circleMarker(e.latlng, {
+          radius: 7, fillColor: '#2563eb', color: '#fff', weight: 2, opacity: 1, fillOpacity: 1
+        }).addTo(map).bindPopup('Ets aquí (aproximadament)');
+        userAccuracy = L.circle(e.latlng, { radius: e.accuracy, color: '#2563eb', weight: 1, fillOpacity: 0.08 }).addTo(map);
+      });
+
+      map.on('locationerror', function (e) {
+        geoBtn.classList.remove('mapa-btn-geo--cercant');
+        var motiu = (e && e.message) ? e.message : 'Error desconegut';
+        geoBtn.setAttribute('title', 'No s\'ha pogut obtenir la ubicació: ' + motiu);
+        geoBtn.classList.add('mapa-btn-geo--error');
+        console.error('Geolocalització:', motiu);
+        setTimeout(function () {
+          geoBtn.setAttribute('title', geoBtnLabel);
+          geoBtn.classList.remove('mapa-btn-geo--error');
+        }, 5000);
+      });
     }
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
