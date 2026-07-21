@@ -7,7 +7,7 @@
 #   Repositori: 112books/guiesbarcelona-elglobusvermell
 #   Caducitat recomanada: 1 any
 #
-# Fase 1 (quan Dinahosting estigui llest): descomenta base_url:
+# Fase 1 (quan LinuxBCN estigui llest): descomenta base_url:
 #   base_url: https://guiesbarcelona.elglobusvermell.org/oauth
 
 backend:
