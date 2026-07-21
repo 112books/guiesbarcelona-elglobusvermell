@@ -1,136 +1,14 @@
 {
-  "generated": "2026-07-21T20:20:31.196593Z",
+  "generated": "2026-07-21T22:06:34.153292Z",
   "period": {
     "start": "2025-07-21",
     "end": "2026-07-20"
   },
-  "total": 39,
+  "total": 0,
   "total_unique": 0,
-  "hits_by_day": [
-    {
-      "date": "2026-07-19",
-      "count": 34
-    },
-    {
-      "date": "2026-07-20",
-      "count": 5
-    }
-  ],
-  "hits": [
-    {
-      "path": "/guiesbarcelona-elglobusvermell",
-      "count": 5
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements",
-      "count": 4
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/credits",
-      "count": 2
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 2
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 2
-    },
-    {
-      "path": "/mapa-filtre-pub/50-75",
-      "count": 2
-    },
-    {
-      "path": "/mapa-filtre-pub/09-25",
-      "count": 2
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements/escola-thau",
-      "count": 1
-    },
-    {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
-      "count": 1
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements/casal-de-barri-de-trinitat-nova",
-      "count": 1
-    },
-    {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/casal-de-barri-de-trinitat-nova",
-      "count": 1
-    },
-    {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
-      "count": 1
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
-      "count": 1
-    },
-    {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/marina",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/masies",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/new-babylon",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/poblenou",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/tapies",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/barceloneta",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/biblioteques",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/gatcpac",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/interiors-illa",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/76-08",
-      "count": 1
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
-      "count": 1
-    },
-    {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
-      "count": 1
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
-      "count": 1
-    }
-  ],
-  "by_section": {
-    "guiesbarcelona-elglobusvermell": 20,
-    "mapa-filtre-pub": 14,
-    "mapa-clickhttps:": 5
-  },
+  "hits_by_day": [],
+  "hits": [],
+  "by_section": {},
   "by_lang": {},
   "browsers": [
     {
