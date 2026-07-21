@@ -1,27 +1,149 @@
 {
-  "generated": "2026-07-20T23:59:30.252700Z",
+  "generated": "2026-07-21T03:35:39.138431Z",
   "period": {
-    "start": "2025-07-20",
-    "end": "2026-07-19"
+    "start": "2025-07-21",
+    "end": "2026-07-20"
   },
-  "total": 0,
+  "total": 39,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-19",
+      "count": 34
+    },
+    {
+      "date": "2026-07-20",
+      "count": 5
+    }
+  ],
+  "hits": [
+    {
+      "path": "/guiesbarcelona-elglobusvermell",
+      "count": 5
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements",
+      "count": 4
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/credits",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/presentacio",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/50-75",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/09-25",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/casal-de-barri-de-trinitat-nova",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/casal-de-barri-de-trinitat-nova",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/marina",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/masies",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/new-babylon",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/poblenou",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/tapies",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/barceloneta",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/biblioteques",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/gatcpac",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/interiors-illa",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/76-08",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "guiesbarcelona-elglobusvermell": 20,
+    "mapa-filtre-pub": 14,
+    "mapa-clickhttps:": 5
+  },
   "by_lang": {},
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 39
+      "count": 51
     }
   ],
   "systems": [
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 25
+      "count": 37
     },
     {
       "name": "macOS",
@@ -33,7 +155,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 25
+      "count": 37
     },
     {
       "name": "desktop",
@@ -45,8 +167,59 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 39
+      "count": 51
     }
   ],
-  "refs": []
+  "refs": [
+    {
+      "name": "Desconegut",
+      "id": "Desconegut",
+      "count": 20
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 4
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
+      "count": 3
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell",
+      "count": 3
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/credits",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/credits",
+      "count": 1
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "count": 1
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
+      "count": 1
+    }
+  ]
 }
