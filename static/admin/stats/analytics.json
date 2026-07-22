@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-21T23:57:40.253269Z",
+  "generated": "2026-07-22T03:33:38.242348Z",
   "period": {
-    "start": "2025-07-21",
-    "end": "2026-07-20"
+    "start": "2025-07-22",
+    "end": "2026-07-21"
   },
-  "total": 39,
+  "total": 51,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -13,17 +13,25 @@
     },
     {
       "date": "2026-07-20",
-      "count": 5
+      "count": 17
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 5
+      "count": 6
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/elements",
       "count": 4
+    },
+    {
+      "path": "/mapa-filtre-pub/09-25",
+      "count": 3
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 2
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/credits",
@@ -38,19 +46,47 @@
       "count": 2
     },
     {
+      "path": "/mapa-filtre-pub/76-08",
+      "count": 2
+    },
+    {
       "path": "/mapa-filtre-pub/50-75",
       "count": 2
     },
     {
-      "path": "/mapa-filtre-pub/09-25",
-      "count": 2
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "path": "/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
       "count": 1
     },
     {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "path": "/mapa-filtre-tema/nomenclator-femeni",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/dones-arquitectes",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/espai-public",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/art-public",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/torre-julia",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/escola-thau",
       "count": 1
     },
     {
@@ -100,81 +136,78 @@
     {
       "path": "/mapa-filtre-pub/biblioteques",
       "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/gatcpac",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/interiors-illa",
-      "count": 1
-    },
-    {
-      "path": "/mapa-filtre-pub/76-08",
-      "count": 1
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
-      "count": 1
-    },
-    {
-      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
-      "count": 1
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
-      "count": 1
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 20,
-    "mapa-filtre-pub": 14,
-    "mapa-clickhttps:": 5
+    "guiesbarcelona-elglobusvermell": 24,
+    "mapa-filtre-pub": 16,
+    "mapa-clickhttps:": 7,
+    "mapa-filtre-tema": 4
   },
   "by_lang": {},
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 51
+      "count": 56
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 1
     }
   ],
   "systems": [
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 37
+      "count": 40
     },
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 14
+      "count": 17
     }
   ],
   "sizes": [
     {
       "name": "phone",
       "id": "phone",
-      "count": 37
+      "count": 40
     },
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 14
+      "count": 15
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 2
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 51
+      "count": 57
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 20
+      "count": 22
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
+      "count": 7
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell",
+      "count": 5
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
@@ -184,11 +217,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
-      "count": 3
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell",
       "count": 3
     },
     {
@@ -219,6 +247,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
+      "count": 1
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
       "count": 1
     }
   ]
