@@ -1,5 +1,6 @@
 ---
 title: Castell del Port
+foto: /img/elements/castell-del-port.jpg
 draft: false
 lat: 41.3561687
 long: 2.14785

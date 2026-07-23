@@ -509,6 +509,13 @@ def update_md_file(md_path: Path, hugo_fields: dict, wp_url: str) -> dict:
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--local", action="store_true", help="Bypass WP Cerber via 127.0.0.1")
+    args = parser.parse_args()
+    if args.local:
+        set_local_mode(True)
+
     md_files = sorted(ELEMENTS_DIR.glob("*.md"))
     md_files = [f for f in md_files if f.name != "_index.md"]
 

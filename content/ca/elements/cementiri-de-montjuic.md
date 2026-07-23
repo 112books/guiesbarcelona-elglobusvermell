@@ -1,5 +1,6 @@
 ---
 title: Cementiri de Montjuïc
+foto: /img/elements/cementiri-de-montjuic.jpg
 draft: false
 adreca: Mare de Déu de Port, 56
 lat: 41.3543682

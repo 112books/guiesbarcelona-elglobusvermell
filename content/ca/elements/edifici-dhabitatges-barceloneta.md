@@ -1,5 +1,6 @@
 ---
 title: Edifici d’habitatges Barceloneta
+foto: /img/elements/edifici-dhabitatges-barceloneta.jpg
 draft: false
 adreca: Pg. Joan de Borbó 43
 lat: 41.3779565
