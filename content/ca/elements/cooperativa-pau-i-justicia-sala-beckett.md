@@ -1,19 +1,10 @@
 ---
-title: Cooperativa Pau i Justícia / Sala Beckett
-draft: false
 adreca: Pere IV 228-232 + Batista 11-15
-lat: 41.4047787
-long: 2.1994806
-publicacions:
-- 76-08
-- poblenou
-temes_transversals:
-- dones-arquitectes
-proteccio: D
+draft: false
+foto: /img/elements/cooperativa-pau-i-justicia-sala-beckett.jpg
 intervencions:
-- tipus: Remodelació
+- any: '2016'
   autors: Flores & Prats
-  any: '2016'
   descripcio: 'Projecte original: Josep Masdeu. 1924 Premi Ciutat de Barcelona d’Arquitectura
     Categoria: Altres edificis La cooperativa obrera Pau i Justícia es funda l’any
     1895, es constitueix oficialment el 1905 i el 1924 inaugura l’edifici de planta
@@ -38,4 +29,14 @@ intervencions:
     en la seva posició original, per donar-li una nova vida i per permetre que «els
     vells fantasmes» acullin els nous usuaris per, junts, imaginar mons diferents
     i crear noves ficcions.'
+  tipus: Remodelació
+lat: 41.4047787
+long: 2.1994806
+proteccio: D
+publicacions:
+- 76-08
+- poblenou
+temes_transversals:
+- dones-arquitectes
+title: Cooperativa Pau i Justícia / Sala Beckett
 ---

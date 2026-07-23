@@ -1,7 +1,14 @@
 ---
-title: Biblioteca Montserrat Abelló
-draft: false
 adreca: Comte de Bell-lloc 192-200 | Les Corts
+draft: false
+edifici_original: Fàbrica Benet Campabadal. Antoni Pons i Domínguez. 1924
+foto: /img/elements/biblioteca-montserrat-abello.jpg
+intervencions:
+- any: '2018'
+  autors: Ricard Mercader i Aurora Fernández
+  descripcio: 'Montserrat Abelló Poeta i traductora. 1918-2014 Biblioteca: 1994 (en
+    una altra localització)'
+  tipus: Remodelació
 lat: 41.3836375
 long: 2.1353824
 publicacions:
@@ -9,11 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 - nomenclator-femeni
-edifici_original: Fàbrica Benet Campabadal. Antoni Pons i Domínguez. 1924
-intervencions:
-- tipus: Remodelació
-  autors: Ricard Mercader i Aurora Fernández
-  any: '2018'
-  descripcio: 'Montserrat Abelló Poeta i traductora. 1918-2014 Biblioteca: 1994 (en
-    una altra localització)'
+title: Biblioteca Montserrat Abelló
 ---

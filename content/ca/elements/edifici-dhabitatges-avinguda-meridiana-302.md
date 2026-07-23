@@ -1,17 +1,18 @@
 ---
-title: Edifici d’habitatges, avinguda Meridiana 302
-draft: false
 adreca: Av. Meridiana 302-312
-lat: 41.4467264
-long: 2.187526
 any: '1965'
-publicacions:
-- 50-75
 arquitectes:
 - Antoni de Moragas i Gallissà i Francesc de Riba de Salas
+draft: false
+foto: /img/elements/edifici-dhabitatges-avinguda-meridiana-302.jpg
 intervencions:
-- tipus: Projecte
+- any: '1965'
   autors: Antoni de Moragas i Gallissà i Francesc de Riba de Salas
-  any: '1965'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4467264
+long: 2.187526
+publicacions:
+- 50-75
+title: Edifici d’habitatges, avinguda Meridiana 302
 ---

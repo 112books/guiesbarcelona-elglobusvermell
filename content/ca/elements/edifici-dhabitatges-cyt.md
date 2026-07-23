@@ -1,17 +1,18 @@
 ---
-title: Edifici d’habitatges CYT
-draft: false
 adreca: Via Augusta 20-30
-lat: 41.3978018
-long: 2.1390417
 any: '1960'
-publicacions:
-- 50-75
 arquitectes:
 - Francesc Mitjans i Miró
+draft: false
+foto: /img/elements/edifici-dhabitatges-cyt.jpg
 intervencions:
-- tipus: Projecte
+- any: '1960'
   autors: Francesc Mitjans i Miró
-  any: '1960'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3978018
+long: 2.1390417
+publicacions:
+- 50-75
+title: Edifici d’habitatges CYT
 ---

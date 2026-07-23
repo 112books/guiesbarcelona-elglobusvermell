@@ -16,7 +16,8 @@ Safe to run multiple times (idempotent):
 
 Usage:
   pip install requests python-frontmatter beautifulsoup4
-  python3 scripts/download-images-elements.py [--limit N] [--dry-run]
+  python3 scripts/download-images-elements.py [--limit N] [--dry-run] [--local]
+  python3 scripts/download-images-elements.py --local --batch-size 15 --batch-pause 120
 """
 
 import argparse
@@ -28,7 +29,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).parent))
-from sync_elements_wp import find_wp_url, scrape_wp_page, get_url, REQUEST_DELAY  # noqa: E402
+from sync_elements_wp import find_wp_url, scrape_wp_page, get_url, REQUEST_DELAY, set_local_mode  # noqa: E402
 
 try:
     import frontmatter
@@ -79,7 +80,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None, help="Process at most N elements (for testing)")
     ap.add_argument("--dry-run", action="store_true", help="Don't write files, just report what would happen")
+    ap.add_argument("--local", action="store_true", help="Run via 127.0.0.1 to bypass WP Cerber (run on server)")
+    ap.add_argument("--batch-size", type=int, default=15, help="Images per batch before pausing (default: 15)")
+    ap.add_argument("--batch-pause", type=int, default=120, help="Pause between batches in seconds (default: 120)")
     args = ap.parse_args()
+
+    if args.local:
+        set_local_mode(True)
+        log.info("LOCAL MODE: requests via 127.0.0.1 with Host header (bypass WP Cerber)")
 
     IMG_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -100,8 +108,9 @@ def main():
 
     stats = {"downloaded": 0, "no_image_found": 0, "not_found_on_wp": 0, "errors": 0}
     report = {"downloaded": [], "no_image": [], "not_found": [], "errors": []}
+    batch_downloaded = 0
 
-    for md_path in pending:
+    for idx, md_path in enumerate(pending, 1):
         slug = md_path.stem
         post = frontmatter.load(str(md_path))
         meta = post.metadata
@@ -153,8 +162,14 @@ def main():
         md_path.write_text(frontmatter.dumps(post), encoding="utf-8")
 
         stats["downloaded"] += 1
+        batch_downloaded += 1
         report["downloaded"].append(f"- `{slug}`: {foto_url} -> {rel_path}")
         log.info(f"OK {slug}: {rel_path}")
+
+        if batch_downloaded >= args.batch_size and idx < len(pending):
+            log.info(f"Batch complete ({batch_downloaded} images). Pausing {args.batch_pause}s to avoid overloading WP Cerber...")
+            time.sleep(args.batch_pause)
+            batch_downloaded = 0
 
     lines = [
         "# Image Download Report", "",

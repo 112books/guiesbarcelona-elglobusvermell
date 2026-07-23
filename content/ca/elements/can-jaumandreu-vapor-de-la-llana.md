@@ -1,19 +1,13 @@
 ---
-title: Can Jaumandreu, «Vapor de la Llana»
-draft: false
 adreca: Sant Joan de Malta 64-78 + Bolívia 103-113 + Perú 46-52 + Rbla. Poblenou 152-160
-lat: 41.409698
-long: 2.1913483
-publicacions:
-- poblenou
-proteccio: C
+draft: false
+foto: /img/elements/can-jaumandreu-vapor-de-la-llana.jpg
 intervencions:
-- tipus: Remodelació
+- any: '2003'
   autors: Núria Monfort
-  any: '2003'
-- tipus: Ampliació
+  tipus: Remodelació
+- any: '2007'
   autors: Josep Llinàs
-  any: '2007'
   descripcio: 'Projecte original:Joaquim Vilaseca i Ribera i Josep Marimon i Cot.
     1873 Categoria: Fàbrica amb xemeneia Can Jaumandreu és una de les millors i més
     representatives mostres del patrimoni industrial del Poblenou, malgrat que del
@@ -40,4 +34,11 @@ intervencions:
     a incorporar materials més lleugers, com planxes d’alumini o teixits (una possible
     referència a l’activitat original de la fàbrica) per filtrar la llum del sol que
     penetra cap a l’interior.'
+  tipus: Ampliació
+lat: 41.409698
+long: 2.1913483
+proteccio: C
+publicacions:
+- poblenou
+title: Can Jaumandreu, «Vapor de la Llana»
 ---

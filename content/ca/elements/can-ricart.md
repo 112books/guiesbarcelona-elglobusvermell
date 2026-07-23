@@ -1,16 +1,9 @@
 ---
-title: Can Ricart
-draft: false
 adreca: Marroc 53-59 + Emília Coranty
-lat: 41.4147803
-long: 2.209102
-projecte_text: Josep Oriol i Bernadet. 1853-1860 + Josep Fontserè. 1860-1877
-publicacions:
-- poblenou
-proteccio: A
+draft: false
+foto: /img/elements/can-ricart.jpg
 intervencions:
-- tipus: Projecte
-  any: Josep Oriol i Bernadet. 1853-1860 + Josep Fontserè. 1860-1877
+- any: Josep Oriol i Bernadet. 1853-1860 + Josep Fontserè. 1860-1877
   descripcio: 'Categoria: Recinte industrial Can Ricart va ser una de les primeres
     fàbriques d’estampació mecànica de teixits de cotó de Catalunya, capdavantera
     en innovació tècnica i volum de producció. Actualment és un dels pocs grans conjunts
@@ -35,4 +28,12 @@ intervencions:
     acull la fàbrica de creació Hangar i una altra el Casal de Joves del Poblenou,
     però la majoria de les naus resten a l’espera d’un projecte que les rehabiliti
     i els doni un nou ús.'
+  tipus: Projecte
+lat: 41.4147803
+long: 2.209102
+projecte_text: Josep Oriol i Bernadet. 1853-1860 + Josep Fontserè. 1860-1877
+proteccio: A
+publicacions:
+- poblenou
+title: Can Ricart
 ---

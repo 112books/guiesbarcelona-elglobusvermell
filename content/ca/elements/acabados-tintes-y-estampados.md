@@ -15,5 +15,6 @@ long: 2.209102
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Acabados, Tintes y Estampados
 ---

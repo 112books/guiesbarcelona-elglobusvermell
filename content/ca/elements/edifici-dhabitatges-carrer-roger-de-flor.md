@@ -1,17 +1,18 @@
 ---
-title: Edifici d’habitatges, carrer Roger de Flor
-draft: false
 adreca: Roger de Flor 215
-lat: 41.4013692
-long: 2.1690866
 any: '1958'
-publicacions:
-- 50-75
 arquitectes:
 - Oriol Bohigas, Josep Maria Martorell i David Mackay
+draft: false
+foto: /img/elements/edifici-dhabitatges-carrer-roger-de-flor.jpg
 intervencions:
-- tipus: Projecte
+- any: '1958'
   autors: Oriol Bohigas, Josep Maria Martorell i David Mackay
-  any: '1958'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4013692
+long: 2.1690866
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Roger de Flor
 ---

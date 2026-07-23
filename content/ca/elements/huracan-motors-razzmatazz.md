@@ -1,19 +1,20 @@
 ---
-title: Huracán Motors / Razzmatazz
-draft: false
 adreca: Almogàvers 122-124
-lat: 41.3977318
-long: 2.1910699
 any: '1957'
-publicacions:
-- poblenou
-proteccio: C
 arquitectes:
 - Llorenç García-Barbón
+draft: false
+foto: /img/elements/huracan-motors-razzmatazz.jpg
 intervencions:
-- tipus: Projecte
+- any: '1957'
   autors: Llorenç García-Barbón
-  any: '1957'
   descripcio: 'Categoria: Fàbrica Fàbrica de motors. Actualment, sala de concerts
     i discoteca Razzmatazz.'
+  tipus: Projecte
+lat: 41.3977318
+long: 2.1910699
+proteccio: C
+publicacions:
+- poblenou
+title: Huracán Motors / Razzmatazz
 ---

@@ -1,17 +1,18 @@
 ---
-title: Torre Urquinaona
-draft: false
 adreca: Pl. Urquinaona 6
-lat: 41.3896866
-long: 2.1730148
 any: '1973'
-publicacions:
-- 50-75
 arquitectes:
 - Antoni Bonet Castellana i Josep Puig i Torner
+draft: false
+foto: /img/elements/torre-urquinaona.jpg
 intervencions:
-- tipus: Projecte
+- any: '1973'
   autors: Antoni Bonet Castellana i Josep Puig i Torner
-  any: '1973'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3896866
+long: 2.1730148
+publicacions:
+- 50-75
+title: Torre Urquinaona
 ---

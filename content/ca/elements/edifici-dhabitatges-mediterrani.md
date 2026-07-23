@@ -1,17 +1,18 @@
 ---
-title: Edifici d’habitatges Mediterrani
-draft: false
 adreca: Consell de Cent 164-168
-lat: 41.3839963
-long: 2.1564277
 any: '1968'
-publicacions:
-- 50-75
 arquitectes:
 - Antoni Bonet i Castellana i Josep Puig i Torné
+draft: false
+foto: /img/elements/edifici-dhabitatges-mediterrani.jpg
 intervencions:
-- tipus: Projecte
+- any: '1968'
   autors: Antoni Bonet i Castellana i Josep Puig i Torné
-  any: '1968'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3839963
+long: 2.1564277
+publicacions:
+- 50-75
+title: Edifici d’habitatges Mediterrani
 ---
