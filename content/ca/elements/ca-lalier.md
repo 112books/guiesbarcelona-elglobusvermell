@@ -1,16 +1,10 @@
 ---
-title: Ca l’Alier
-draft: false
 adreca: Cristóbal de Moura 43-47 + Pere IV 362-364 + Fluvià 102-118
-lat: 41.4148075
-long: 2.2113393
-publicacions:
-- poblenou
-proteccio: C
+draft: false
+foto: /img/elements/ca-lalier.jpg
 intervencions:
-- tipus: Remodelació
+- any: '2018'
   autors: Jaume Arderiu i Tomàs Morató (A+M Arquitectes)
-  any: '2018'
   descripcio: 'Projecte original:1853 / 1877 (naus actuals) Categoria: Fàbrica amb
     xemeneia L’antiga fàbrica de Joan Lucena és un bon exemple de la vida que han
     tingut molts dels edificis industrials del Poblenou: ampliacions, reformes, canvis
@@ -37,4 +31,11 @@ intervencions:
     Platinum. El projecte ha estat possible gràcies a la col·laboració entre la Fundació
     BIT Habitat, de l’Ajuntament de Barcelona, i l’empresa Cisco, totes dues usuàries
     actuals del complex.'
+  tipus: Remodelació
+lat: 41.4148075
+long: 2.2113393
+proteccio: C
+publicacions:
+- poblenou
+title: Ca l’Alier
 ---

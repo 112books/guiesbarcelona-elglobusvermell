@@ -1,17 +1,18 @@
 ---
-title: Edifici d’oficines Banca Catalana (ara hotel)
-draft: false
 adreca: Pg. de Gràcia 84
-lat: 41.39458
-long: 2.1624325
 any: '1968'
-publicacions:
-- 50-75
 arquitectes:
 - Josep Maria Fargas i Enric Tous
+draft: false
+foto: /img/elements/edifici-doficines-banca-catalana-ara-hotel.jpg
 intervencions:
-- tipus: Projecte
+- any: '1968'
   autors: Josep Maria Fargas i Enric Tous
-  any: '1968'
   descripcio: ''
+  tipus: Projecte
+lat: 41.39458
+long: 2.1624325
+publicacions:
+- 50-75
+title: Edifici d’oficines Banca Catalana (ara hotel)
 ---

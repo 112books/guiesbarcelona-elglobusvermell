@@ -1,17 +1,18 @@
 ---
-title: Edifici d’oficines La Caixa
-draft: false
 adreca: Av. Diagonal 522-532 / Moià 3
-lat: 41.3961415
-long: 2.1574363
 any: '1973'
-publicacions:
-- 50-75
 arquitectes:
 - Xavier Busquets Sindreu
+draft: false
+foto: /img/elements/edifici-doficines-la-caixa.jpg
 intervencions:
-- tipus: Projecte
+- any: '1973'
   autors: Xavier Busquets Sindreu
-  any: '1973'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3961415
+long: 2.1574363
+publicacions:
+- 50-75
+title: Edifici d’oficines La Caixa
 ---

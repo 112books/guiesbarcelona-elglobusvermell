@@ -1,19 +1,20 @@
 ---
-title: Naus de la família Ametller
-draft: false
 adreca: Dr. Trueta 127-135 + Badajoz 25
-lat: 41.4297209
-long: 2.2174795
 any: '1917'
-publicacions:
-- poblenou
-proteccio: C
 arquitectes:
 - J. Domènech
+draft: false
+foto: /img/elements/naus-de-la-familia-ametller.jpg
 intervencions:
-- tipus: Projecte
+- any: '1917'
   autors: J. Domènech
-  any: '1917'
   descripcio: 'Rehabilitació: G56. 2008 Categoria: Fàbrica Magatzems per llogar (llogaters:
     Galetes Solsona). Actualment, oficines.'
+  tipus: Projecte
+lat: 41.4297209
+long: 2.2174795
+proteccio: C
+publicacions:
+- poblenou
+title: Naus de la família Ametller
 ---

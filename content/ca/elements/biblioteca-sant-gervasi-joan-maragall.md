@@ -1,7 +1,11 @@
 ---
-title: Biblioteca Sant Gervasi – Joan Maragall
-draft: false
 adreca: C. Sant Gervasi de Cassoles, 85 |
+arquitectes:
+- BCQ Arquitectes. 2014
+descripcio: 'Joan Maragall Poeta i escriptor. 1860-1911 Sant Gervasi – La Bonanova
+  Arquitecte: BCQ Arquitectes. 2014 Premi Ciutat de Barcelona'
+draft: false
+foto: /img/elements/biblioteca-sant-gervasi-joan-maragall.jpg
 lat: 41.4046612
 long: 2.1347629
 publicacions:
@@ -9,6 +13,5 @@ publicacions:
 - biblioteques
 temes_transversals:
 - dones-arquitectes
-descripcio: 'Joan Maragall Poeta i escriptor. 1860-1911 Sant Gervasi – La Bonanova
-  Arquitecte: BCQ Arquitectes. 2014 Premi Ciutat de Barcelona'
+title: Biblioteca Sant Gervasi – Joan Maragall
 ---

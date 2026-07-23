@@ -1,16 +1,9 @@
 ---
-title: Torre de les Aigües del Besòs
-draft: false
 adreca: Pl. Ramon Calsina 1 (Selva de Mar)
-lat: 41.4060918
-long: 2.2120209
-projecte_text: Pere Falqués i Urpí. 1880-1882
-publicacions:
-- poblenou
-proteccio: B
+draft: false
+foto: /img/elements/torre-de-les-aigues-del-besos.jpg
 intervencions:
-- tipus: Projecte
-  any: Pere Falqués i Urpí. 1880-1882
+- any: Pere Falqués i Urpí. 1880-1882
   descripcio: 'Rehabilitació: Antoni Vilanova i Eduard Simó. 2010-2014 Categoria:
     Xemeneia La Torre de les Aigües és dissenyada per Pere Falqués, aleshores arquitecte
     municipal de Sant Martí de Provençals, amb l’objectiu de subministrar aigua a
@@ -36,4 +29,12 @@ intervencions:
     de tot l’entorn, només són conservades l’antiga Torre de les Aigües i l’adjacent
     Casa de les Vàlvules (que avui acullen l’Arxiu Històric del Poblenou i són visitables),
     així com la xemeneia del carrer Llull.'
+  tipus: Projecte
+lat: 41.4060918
+long: 2.2120209
+projecte_text: Pere Falqués i Urpí. 1880-1882
+proteccio: B
+publicacions:
+- poblenou
+title: Torre de les Aigües del Besòs
 ---

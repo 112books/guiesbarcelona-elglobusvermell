@@ -1,16 +1,10 @@
 ---
-title: Can Framis / Fundació Vila Casas
-draft: false
 adreca: Llacuna 103-117 + Roc Boronat 116-124 + Sancho de Ávila 145-155
-lat: 41.4034225
-long: 2.1950063
-publicacions:
-- poblenou
-proteccio: C
+draft: false
+foto: /img/elements/can-framis-fundacio-vila-casas.jpg
 intervencions:
-- tipus: Remodelació
+- any: '2011'
   autors: Jordi Badia (BAAS)
-  any: '2011'
   descripcio: 'Projecte original: Primera meitat s. xix Premi Ciutat de Barcelona
     d’Arquitectura 2009 Categoria: Fàbrica amb xemeneia Can Framis era originàriament
     una indústria d’acabats tèxtils i actualment acull la col·lecció de pintura catalana
@@ -36,4 +30,11 @@ intervencions:
     de la nova peça. D’altra banda, aquesta actuació permet veure i entendre la construcció
     de les naus i les intervencions que han patit al llarg del temps i, per tant,
     en fa visible la història.'
+  tipus: Remodelació
+lat: 41.4034225
+long: 2.1950063
+proteccio: C
+publicacions:
+- poblenou
+title: Can Framis / Fundació Vila Casas
 ---

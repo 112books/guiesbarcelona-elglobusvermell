@@ -1,17 +1,18 @@
 ---
-title: Edifici d’oficines i habitatges, carrer Roselló
-draft: false
 adreca: Rosselló 257
-lat: 41.3953178
-long: 2.1597647
 any: '1956'
-publicacions:
-- 50-75
 arquitectes:
 - Robert Terradas i Via
+draft: false
+foto: /img/elements/edifici-doficines-i-habitatges-carrer-rosello.jpg
 intervencions:
-- tipus: Projecte
+- any: '1956'
   autors: Robert Terradas i Via
-  any: '1956'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3953178
+long: 2.1597647
+publicacions:
+- 50-75
+title: Edifici d’oficines i habitatges, carrer Roselló
 ---

@@ -1,17 +1,18 @@
 ---
-title: Mútua Metal·lúrgica
-draft: false
 adreca: Av. Diagonal 398
-lat: 41.3986422
-long: 2.1672207
 any: '1960'
-publicacions:
-- 50-75
 arquitectes:
 - Oriol Bohigas i Guardiola i Josep Maria Martorell i Codina
+draft: false
+foto: /img/elements/mutua-metallurgica.jpg
 intervencions:
-- tipus: Projecte
+- any: '1960'
   autors: Oriol Bohigas i Guardiola i Josep Maria Martorell i Codina
-  any: '1960'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3986422
+long: 2.1672207
+publicacions:
+- 50-75
+title: Mútua Metal·lúrgica
 ---

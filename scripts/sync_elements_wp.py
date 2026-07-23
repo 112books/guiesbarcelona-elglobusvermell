@@ -42,6 +42,7 @@ ELEMENTS_DIR = Path(__file__).parent.parent / "content" / "ca" / "elements"
 REPORT_FILE  = Path(__file__).parent / "sync_report.md"
 BASE_URL     = "https://guiesbarcelona.elglobusvermell.org"
 REQUEST_DELAY = 0.8  # seconds between requests (be polite)
+LOCAL_MODE = False   # set to True to bypass WP Cerber via 127.0.0.1
 
 # publicacio slug → ordered list of WP category slugs to try
 PUBLICACIO_TO_CATEGORIES = {
@@ -54,8 +55,8 @@ PUBLICACIO_TO_CATEGORIES = {
     "masies":         ["masies"],
     "barceloneta":    ["barceloneta"],
     "marina":         ["marina-prat-vermell"],
-    "76-08":          ["76-08-delesperanca-a-la-crisi"],
-    "09-25":          ["09-25-la-revolucio-tranquilla"],
+    "76-08":          ["1975-2008"],
+    "09-25":          ["2010-2025"],
 }
 
 logging.basicConfig(
@@ -71,6 +72,23 @@ session = requests.Session()
 session.headers.update({
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 HugoSync/1.0"
 })
+
+
+def set_local_mode(enabled: bool = True):
+    """Switch to localhost mode to bypass WP Cerber when running on the server.
+    Must be called BEFORE any HTTP requests."""
+    global BASE_URL, LOCAL_MODE
+    LOCAL_MODE = enabled
+    if enabled:
+        BASE_URL = "https://127.0.0.1"
+        session.headers.update({"Host": "guiesbarcelona.elglobusvermell.org"})
+        session.verify = False
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    else:
+        BASE_URL = "https://guiesbarcelona.elglobusvermell.org"
+        session.headers.pop("Host", None)
+        session.verify = True
 
 
 def get_url(url: str, timeout: int = 15) -> Optional[requests.Response]:

@@ -1,17 +1,18 @@
 ---
-title: Conjunt residencial Banco Urquijo
-draft: false
 adreca: Raset 21-23 / Freixa 22-32
-lat: 41.3985858
-long: 2.1375245
 any: '1973'
-publicacions:
-- 50-75
 arquitectes:
 - José Antonio Coderch de Sentmenat
+draft: false
+foto: /img/elements/conjunt-residencial-banco-urquijo.jpg
 intervencions:
-- tipus: Projecte
+- any: '1973'
   autors: José Antonio Coderch de Sentmenat
-  any: '1973'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3985858
+long: 2.1375245
+publicacions:
+- 50-75
+title: Conjunt residencial Banco Urquijo
 ---

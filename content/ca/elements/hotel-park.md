@@ -1,17 +1,18 @@
 ---
-title: Hotel Park
-draft: false
 adreca: Av. Marquès de l’Argentera 11
-lat: 41.3842359
-long: 2.1843645
 any: '1953'
-publicacions:
-- 50-75
 arquitectes:
 - Antoni de Moragas i Gallissà
+draft: false
+foto: /img/elements/hotel-park.jpg
 intervencions:
-- tipus: Projecte
+- any: '1953'
   autors: Antoni de Moragas i Gallissà
-  any: '1953'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3842359
+long: 2.1843645
+publicacions:
+- 50-75
+title: Hotel Park
 ---

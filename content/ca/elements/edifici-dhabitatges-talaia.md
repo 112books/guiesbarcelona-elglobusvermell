@@ -1,17 +1,18 @@
 ---
-title: Edifici d’habitatges Talaia
-draft: false
 adreca: Av. Sarrià 71 / Av. Diagonal 523
-lat: 41.4088143
-long: 2.1115378
 any: '1970'
-publicacions:
-- 50-75
 arquitectes:
 - Federico Correa, Alfonso Milà i José Luis Sanz Magallón
+draft: false
+foto: /img/elements/edifici-dhabitatges-talaia.jpg
 intervencions:
-- tipus: Projecte
+- any: '1970'
   autors: Federico Correa, Alfonso Milà i José Luis Sanz Magallón
-  any: '1970'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4088143
+long: 2.1115378
+publicacions:
+- 50-75
+title: Edifici d’habitatges Talaia
 ---

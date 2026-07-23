@@ -1,17 +1,18 @@
 ---
-title: Institut Francès
-draft: false
 adreca: Moià 8
-lat: 41.3952971
-long: 2.1515237
 any: '1974'
-publicacions:
-- 50-75
 arquitectes:
 - José Antonio Coderch de Sentmenat
+draft: false
+foto: /img/elements/institut-frances.jpg
 intervencions:
-- tipus: Projecte
+- any: '1974'
   autors: José Antonio Coderch de Sentmenat
-  any: '1974'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3952971
+long: 2.1515237
+publicacions:
+- 50-75
+title: Institut Francès
 ---

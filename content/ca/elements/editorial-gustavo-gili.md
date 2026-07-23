@@ -1,17 +1,18 @@
 ---
-title: Editorial Gustavo Gili
-draft: false
 adreca: Rosselló 87-89
-lat: 41.3862705
-long: 2.1474968
 any: '1961'
-publicacions:
-- 50-75
 arquitectes:
 - Francesc Bassó i Birulés i Joaquim Gili i Morós
+draft: false
+foto: /img/elements/editorial-gustavo-gili.jpg
 intervencions:
-- tipus: Projecte
+- any: '1961'
   autors: Francesc Bassó i Birulés i Joaquim Gili i Morós
-  any: '1961'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3862705
+long: 2.1474968
+publicacions:
+- 50-75
+title: Editorial Gustavo Gili
 ---
