@@ -1,25 +1,164 @@
 {
-  "generated": "2026-07-22T22:07:33.259073Z",
+  "generated": "2026-07-23T00:03:20.761302Z",
   "period": {
-    "start": "2025-07-22",
-    "end": "2026-07-21"
+    "start": "2025-07-23",
+    "end": "2026-07-22"
   },
-  "total": 0,
+  "total": 57,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-19",
+      "count": 34
+    },
+    {
+      "date": "2026-07-20",
+      "count": 17
+    },
+    {
+      "date": "2026-07-21",
+      "count": 6
+    }
+  ],
+  "hits": [
+    {
+      "path": "/guiesbarcelona-elglobusvermell",
+      "count": 10
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements",
+      "count": 4
+    },
+    {
+      "path": "/mapa-filtre-pub/09-25",
+      "count": 3
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
+      "count": 2
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/credits",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/presentacio",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/76-08",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/50-75",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/accessibilitat",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/nomenclator-femeni",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/dones-arquitectes",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/espai-public",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/art-public",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/torre-julia",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/casal-de-barri-de-trinitat-nova",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/casal-de-barri-de-trinitat-nova",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-guineueta",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/marina",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/masies",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/new-babylon",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/poblenou",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/tapies",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/barceloneta",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "guiesbarcelona-elglobusvermell": 30,
+    "mapa-filtre-pub": 16,
+    "mapa-clickhttps:": 7,
+    "mapa-filtre-tema": 4
+  },
   "by_lang": {},
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 56
+      "count": 62
     },
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 1
+      "count": 3
     }
   ],
   "systems": [
@@ -31,7 +170,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 17
+      "count": 25
     }
   ],
   "sizes": [
@@ -43,36 +182,36 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 15
+      "count": 16
     },
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 2
+      "count": 9
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 57
+      "count": 65
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 22
+      "count": 25
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell",
+      "count": 7
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
       "count": 7
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 5
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
@@ -117,6 +256,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
+      "count": 1
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
       "count": 1
     }
   ]
