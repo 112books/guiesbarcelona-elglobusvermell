@@ -1,5 +1,6 @@
 ---
 title: Mercat del Poblenou
+foto: /img/elements/mercat-del-poblenou.jpg
 draft: false
 adreca: Pl. de la Unió, 25
 lat: 41.400995

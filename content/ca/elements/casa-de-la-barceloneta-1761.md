@@ -1,5 +1,6 @@
 ---
 title: Casa de la Barceloneta 1761
+foto: /img/elements/casa-de-la-barceloneta-1761.jpg
 draft: false
 adreca: Sant Carles 6 + Sant Miquel 52 + Sant Elm 13
 lat: 41.378936
