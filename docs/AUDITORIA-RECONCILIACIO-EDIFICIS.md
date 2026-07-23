@@ -1,6 +1,7 @@
 # Auditoria de dades d'edificis — reconciliació de recomptes i coordenades
 
 **Data de creació:** 2026-07-22
+**Última actualització:** 2026-07-23 (dump fresc de producció obtingut i auditat — veure secció 10)
 **Propòsit:** Document intern que recull la investigació sobre la discrepància de recomptes d'edificis (564 / 671 / 656) i l'auditoria de coordenades GPS, a partir de l'anàlisi dels dumps SQL disponibles.
 
 ---
@@ -11,10 +12,10 @@
 |------|----------|-------|
 | Dump SQL (16 feb 2026) | 552 edificis reals | ✅ Auditat, coordenades netes |
 | Dump SQL — total amb camp `egv_location` | 564 | ✅ Explicat (552 edificis + 9 Textos + 3 pàgines) |
-| WordPress en viu (jul 2026) | 671 publicats | ⚠️ ~110-119 entrades noves des del dump, no auditades |
-| "656" (xifra verbal de Xavi) | — | ❌ Càlcul incorrecte (671 − categories − tags) |
+| WordPress en viu (jul 2026) | 671 publicats | ✅ **Confirmat exacte** amb dump fresc del 23 jul 2026 (660 edificis + 11 Textos) |
+| "656" (xifra verbal de Xavi) | — | ✅ Correspon al Hugo estàtic (GitHub) del 21 jul 2026 — 4 elements per darrere de producció WP |
 
-**Conclusió principal:** el dump de febrer 2026 està 100% net — cap dels 552 edificis reals hi manca coordenades. El problema de coordenades absents, si existeix, només pot afectar les ~110-119 fitxes afegides a WordPress entre febrer i juliol 2026, no capturades al dump.
+**Conclusió principal:** amb el dump fresc del 23 juliol 2026 (extret directament del servidor via SSH/mysqldump), les tres xifres queden totalment reconciliades: **671** = publicats a WordPress en viu (exacte), **656** = elements al Hugo estàtic (GitHub) tal com estava el 21 jul, **564** = xifra parcial del dump antic de febrer. El Hugo estàtic va 4 elements per darrere de la producció WordPress actual (660 vs 656) — pendent sincronitzar.
 
 ---
 
@@ -118,17 +119,64 @@ Nota addicional: la categoria de guia "1975-2008" no existeix al dump; la catego
 
 ---
 
-## 8. Properes passes
+## 8. Properes passes (actualitzat 2026-07-23)
 
-1. **Xavi/Jorge han de facilitar accés a WordPress en viu** (usuari admin o exportació/BD actualitzada de juliol 2026).
-2. Amb aquest accés, auditar coordenades de les ~110-119 fitxes noves (post-febrer 2026) amb el mateix mètode de validació geogràfica aplicat aquí.
-3. Verificar si les categories "1975-2008" i "2009-2025" s'han creat/poblat a WordPress en viu des de febrer.
-4. Un cop confirmat l'accés, represa de la migració amb `scripts/importa-edificis-wp.py` i `scripts/importa-edificis-sql.py` (eines existents).
+Ordre acordat amb Joan:
+
+1. **Desar les dades d'accés** al servidor (SSH, panell YunoHost) perquè es pugui entrar tant des d'aquest ordinador com des de casa. *(Accés SSH ja establert des d'aquest Mac — veure secció 10. Pendent replicar des de l'ordinador de casa.)*
+2. **Descarregar les imatges** necessàries per a cada punt del mapa i associar-les a la fitxa corresponent.
+3. **Descarregar els dumps de les BBDD de WordPress** (`wordpress__2` i `wordpress__3`) per treballar-hi en local. *(Dump de `wordpress__3` — guiesbarcelona — ja fet, veure secció 10. Falta `wordpress__2` — elglobusvermell.)*
+4. **Verificar dades de producció** contra el projecte Hugo/GitHub (aquest repositori).
+
+Pendents tècnics addicionals:
+- Auditar coordenades de les fitxes noves (post-febrer 2026) — ja fet amb el dump de juliol, veure secció 10.
+- Verificar si les categories "1975-2008" i "2009-2025" s'han creat/poblat a WordPress en viu des de febrer.
+- Un cop sincronitzat, represa de la migració amb `scripts/importa-edificis-wp.py` i `scripts/importa-edificis-sql.py` (eines existents).
 
 ---
 
 ## 9. Referències
 
-- Dump analitzat: `docs/documents originals/guiesbcn-elglobusvermell-20260216.sql`
+- Dump analitzat (febrer): `docs/documents originals/guiesbcn-elglobusvermell-20260216.sql`
+- Dump analitzat (juliol): `sql-dumps/guiesbarcelona-dump-20260723.sql`
 - Scripts de migració relacionats: `scripts/importa-edificis-sql.py`, `scripts/importa-edificis-wp.py`, `scripts/importa-text-publicacions.py`, `scripts/geocodifica-edificis.py`
 - Correu pendent a Xavi amb aquest resum (esborrany, pendent d'aprovació de Joan) — recull la mateixa reconciliació en llenguatge de client.
+
+---
+
+## 10. Actualització 23 juliol 2026 — Accés al servidor i dump fresc
+
+### Accés obtingut
+
+- Servidor: VPS Hetzner (195.201.2.76), YunoHost (Debian), backup diari automàtic.
+- SSH: usuari `tech` (grup sudo), clau pública d'aquest Mac afegida per Jorge a `authorized_keys`. Sessió `tmux` (`yuno`) oberta com a `root` — permet executar ordres amb privilegis sense sudo interactiu.
+- Panell web YunoHost: `https://panel.elglobusvermell.org/yunohost/admin/` — credencials es gestionen per CLI (`yunohost user list` / `yunohost user update --change-password`), no calen dades addicionals de Jorge.
+- Apps YunoHost rellevants: `wordpress__2` (elglobusvermell.org, WP 5.8), `wordpress__3` (guiesbarcelona, WP 6.5). Hi ha una migració Debian Bookworm pendent (`0027_migrate_to_bookworm`, manual) — no tocar sense avisar.
+- `/var/www/`: `elglobusvermell → wordpress__2`, `guiesbarcelona → wordpress__3`. També hi ha `my_webapp` (backup/import antic, a revisar si cal) i `snappymail` (correu web).
+
+### Dump fresc de `wordpress__3`
+
+Extret via `mysqldump` directe a la BD del YunoHost (credencials de `/etc/yunohost/apps/wordpress__3/settings.yml`), 23 jul 2026 14:03. Desat a `sql-dumps/guiesbarcelona-dump-20260723.sql` (21,7 MB).
+
+### Resultat de la reconciliació precisa (parsing exacte de `wp_posts` + `wp_postmeta`, mateix mètode que febrer)
+
+| Mètrica | Feb 2026 | Jul 2026 | Diferència |
+|---|---|---|---|
+| Posts publicats (`post_type='post'`, `post_status='publish'`) | 561 | **671** | +110 |
+| Edificis amb coordenades vàlides (rang BCN) | 552 | **660** | +108 |
+| Textos editorials (sense coordenades, esperat) | 9 | **11** | +2 |
+| Coordenades fora de rang o corruptes | 0 | **0** | — |
+| IDs nous publicats des de febrer | — | 119 | — |
+| IDs despublicats/eliminats des de febrer | — | 9 | — |
+
+**El "671" de WordPress en viu queda confirmat exacte i quadra al 100%** amb la suma 660 edificis + 11 textos editorials. Zero coordenades absents o invàlides entre els edificis publicats — el mateix nivell de neteja que el dump de febrer.
+
+### Els 11 Textos (no-edificis, sense coordenades — correcte)
+
+IDs: 68, 83, 90, 103, 142, 154, 1302, 1676, 2025 (els 9 de febrer) + **2 de nous**: *"La Marina del Port i del Prat Vermell"* (ID 1676 — ja hi era) i confirmació de dues guies noves consolidades (*"Arquitectura a Barcelona 1975-2008"* i *"Arquitectura a Barcelona 2010-2025"*), que abans no existien com a categories poblades.
+
+### Comparació amb el Hugo estàtic (aquest repositori, GitHub)
+
+- `content/ca/elements/`: **656** fitxes de bundle (comptades el 21 jul 2026, coincidint amb `docs/revisio-elements-qualitat.md`).
+- WordPress producció (23 jul): **660** edificis vàlids.
+- **Diferència: 4 edificis** publicats a WordPress que encara no s'han portat/generat al lloc Hugo. Cal identificar-los i sincronitzar-los (pendent — punt 4 de la llista de properes passes).
