@@ -15,6 +15,6 @@ description: Crèdits del projecte Guies d'Arquitectura i Urbanisme de Barcelona
 
 **Disseny i desenvolupament web original (2006):** Jorge Vitoria Rubio — [vitrubio.net](https://vitrubio.net)
 
-**Redisseny i desenvolupament web:** LinuxBCN — [LinuxBCN](https://linuxbcn.com)
+**Redisseny i desenvolupament web:** Joan Martínez i Serres — [LinuxBCN](https://linuxbcn.com)
 
 **Drets:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
