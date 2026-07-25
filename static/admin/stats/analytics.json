@@ -1,20 +1,167 @@
 {
-  "generated": "2026-07-24T23:04:47.252587Z",
+  "generated": "2026-07-25T02:57:43.010444Z",
   "period": {
-    "start": "2025-07-24",
-    "end": "2026-07-23"
+    "start": "2025-07-25",
+    "end": "2026-07-24"
   },
-  "total": 0,
+  "total": 82,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-19",
+      "count": 34
+    },
+    {
+      "date": "2026-07-20",
+      "count": 17
+    },
+    {
+      "date": "2026-07-21",
+      "count": 6
+    },
+    {
+      "date": "2026-07-22",
+      "count": 8
+    },
+    {
+      "date": "2026-07-23",
+      "count": 17
+    }
+  ],
+  "hits": [
+    {
+      "path": "/guiesbarcelona-elglobusvermell",
+      "count": 15
+    },
+    {
+      "path": "/mapa-filtre-pub/09-25",
+      "count": 4
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements",
+      "count": 4
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 3
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/presentacio",
+      "count": 3
+    },
+    {
+      "path": "/mapa-filtre-pub/76-08",
+      "count": 3
+    },
+    {
+      "path": "/mapa-filtre-pub/50-75",
+      "count": 3
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
+      "count": 2
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 2
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/credits",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/marina",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/new-babylon",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/poblenou",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/tapies",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/barceloneta",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/biblioteques",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/gatcpac",
+      "count": 2
+    },
+    {
+      "path": "/mapa-filtre-pub/interiors-illa",
+      "count": 2
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-central-de-nou-barris",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-pub/mercats",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-muntaner",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-muntaner",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/esglesia-de-sant-miquel-del-port",
+      "count": 1
+    },
+    {
+      "path": "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/esglesia-de-sant-miquel-del-port",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
+      "count": 1
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/accessibilitat",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/nomenclator-femeni",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/dones-arquitectes",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/espai-public",
+      "count": 1
+    },
+    {
+      "path": "/mapa-filtre-tema/art-public",
+      "count": 1
+    }
+  ],
+  "by_section": {
+    "guiesbarcelona-elglobusvermell": 40,
+    "mapa-filtre-pub": 28,
+    "mapa-clickhttps:": 10,
+    "mapa-filtre-tema": 4
+  },
   "by_lang": {},
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 79
+      "count": 148
     },
     {
       "name": "Chrome",
@@ -26,7 +173,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 42
+      "count": 111
     },
     {
       "name": "iOS",
@@ -36,14 +183,14 @@
   ],
   "sizes": [
     {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 95
+    },
+    {
       "name": "phone",
       "id": "phone",
       "count": 40
-    },
-    {
-      "name": "desktophd",
-      "id": "desktophd",
-      "count": 26
     },
     {
       "name": "desktop",
@@ -55,19 +202,19 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 82
+      "count": 151
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 26
+      "count": 40
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 9
+      "count": 10
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
@@ -97,6 +244,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/escola-thau",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/esglesia-de-sant-miquel-del-port",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/esglesia-de-sant-miquel-del-port",
       "count": 2
     },
     {
