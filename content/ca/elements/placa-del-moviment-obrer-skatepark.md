@@ -1,20 +1,13 @@
 ---
-title: Plaça del Moviment Obrer + Skatepark
-draft: false
 adreca: Pg. de la Zona Franca / Foc
-lat: 41.3585803
-long: 2.1400585
 any: '2018'
-publicacions:
-- marina
-temes_transversals:
-- espai-public
 arquitectes:
 - Toyo Ito Associates i Óscar Tusquets / Straddle3
+draft: false
+foto: /img/elements/placa-del-moviment-obrer-skatepark.jpg
 intervencions:
-- tipus: Projecte
+- any: '2018'
   autors: Toyo Ito Associates i Óscar Tusquets / Straddle3
-  any: '2018'
   descripcio: La plaça recorda els fets produïts el 18 d’octubre de 1971, quan els
     treballadors de la SEAT van ocupar la fàbrica en protesta per l’acomiadament d’uns
     companys i la policia franquista, en carregar, va matar l’obrer Antonio Ruiz Villalba.
@@ -23,4 +16,12 @@ intervencions:
     murals de l’artista Andrea Michaelsson (B-Toy) que rememoren la lluita obrera
     del barri. A més, hi ha un ampli skatepark , projecte de Straddle3 d’uns 2.000
     m2 amb bowls i sets d’escales.
+  tipus: Projecte
+lat: 41.3585803
+long: 2.1400585
+publicacions:
+- marina
+temes_transversals:
+- espai-public
+title: Plaça del Moviment Obrer + Skatepark
 ---

@@ -80,14 +80,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None, help="Process at most N elements (for testing)")
     ap.add_argument("--dry-run", action="store_true", help="Don't write files, just report what would happen")
-    ap.add_argument("--local", action="store_true", help="Run via 127.0.0.1 to bypass WP Cerber (run on server)")
+    ap.add_argument("--local", action="store_true", help="Run via 127.0.0.1 to bypass WP Cerber (run on server, or through an SSH -L tunnel)")
+    ap.add_argument("--local-port", type=int, default=443, help="Local port to hit for --local (use with `ssh -L <port>:127.0.0.1:443 ...`)")
     ap.add_argument("--batch-size", type=int, default=15, help="Images per batch before pausing (default: 15)")
     ap.add_argument("--batch-pause", type=int, default=120, help="Pause between batches in seconds (default: 120)")
     args = ap.parse_args()
 
     if args.local:
-        set_local_mode(True)
-        log.info("LOCAL MODE: requests via 127.0.0.1 with Host header (bypass WP Cerber)")
+        set_local_mode(True, port=args.local_port)
+        log.info(f"LOCAL MODE: requests via 127.0.0.1:{args.local_port} with Host header (bypass WP Cerber)")
 
     IMG_DIR.mkdir(parents=True, exist_ok=True)
 

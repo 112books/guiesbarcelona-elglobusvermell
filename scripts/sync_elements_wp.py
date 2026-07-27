@@ -74,13 +74,14 @@ session.headers.update({
 })
 
 
-def set_local_mode(enabled: bool = True):
-    """Switch to localhost mode to bypass WP Cerber when running on the server.
+def set_local_mode(enabled: bool = True, port: int = 443):
+    """Switch to localhost mode to bypass WP Cerber when running on the server
+    (or through an SSH -L tunnel to the server's own 127.0.0.1:443).
     Must be called BEFORE any HTTP requests."""
     global BASE_URL, LOCAL_MODE
     LOCAL_MODE = enabled
     if enabled:
-        BASE_URL = "https://127.0.0.1"
+        BASE_URL = f"https://127.0.0.1:{port}" if port != 443 else "https://127.0.0.1"
         session.headers.update({"Host": "guiesbarcelona.elglobusvermell.org"})
         session.verify = False
         import urllib3

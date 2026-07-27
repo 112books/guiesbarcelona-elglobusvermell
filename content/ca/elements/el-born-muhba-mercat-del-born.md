@@ -1,12 +1,5 @@
 ---
-title: El Born (MUHBA) – Mercat del Born
-draft: false
 adreca: Pl. Comercial, 12
-lat: 41.385712
-long: 2.1836373
-publicacions:
-- 09-25
-- mercats
 descripcio: 'Projecte original: Josep Fontserè i Mestre i Josep Maria Cornet i Mas.
   1876 Enric Sòria i Rafael de Cáceres (projecte arquitectònic), BOPBAA i Varis Arquitectes
   (museografia i interiorisme). 2013 Premi Ciutat de Barcelona El mercat del Born
@@ -16,4 +9,12 @@ descripcio: 'Projecte original: Josep Fontserè i Mestre i Josep Maria Cornet i 
   Born és un centre cultural i de memòria on es poden observar les restes de la ciutat
   medieval arrasada a principis del segle xviii, després de la derrota a la guerra
   de Successió (1701-1714).'
+draft: false
+foto: /img/elements/el-born-muhba-mercat-del-born.jpg
+lat: 41.385712
+long: 2.1836373
+publicacions:
+- 09-25
+- mercats
+title: El Born (MUHBA) – Mercat del Born
 ---

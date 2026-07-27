@@ -1,16 +1,8 @@
 ---
-title: Pavelló de la República – Biblioteca  CRAI UB
 draft: false
-lat: 41.4307146
-long: 2.151304
-projecte_text: Josep Lluís Sert, Luis Lacasa. 1937 Reconstrucció de 1992 a càrrec
-  de Antoni Ubach i Miquel Espinet, arquitectes i de J.M. Hernandez Leon
-publicacions:
-- biblioteques
-- gatcpac
+foto: /img/elements/pavello-de-la-republica-biblioteca-crai-ub.jpg
 intervencions:
-- tipus: Projecte
-  any: Josep Lluís Sert, Luis Lacasa. 1937 Reconstrucció de 1992 a càrrec de Antoni
+- any: Josep Lluís Sert, Luis Lacasa. 1937 Reconstrucció de 1992 a càrrec de Antoni
     Ubach i Miquel Espinet, arquitectes i de J.M. Hernandez Leon
   descripcio: 'Adreça edifici rèplica: Av. Cardenal Vidal i Barraquer, 34-36 Obertura
     biblioteca: 1996 El Pavelló de la República es construeix per representar la República
@@ -35,4 +27,13 @@ intervencions:
     una rèplica del Pavelló a la Vall d’Hebron de Barcelona, el qual actualment acull
     el CRAI Biblioteca del Pavelló de la República de la Universitat de Barcelona.
     Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'
+  tipus: Projecte
+lat: 41.4307146
+long: 2.151304
+projecte_text: Josep Lluís Sert, Luis Lacasa. 1937 Reconstrucció de 1992 a càrrec
+  de Antoni Ubach i Miquel Espinet, arquitectes i de J.M. Hernandez Leon
+publicacions:
+- biblioteques
+- gatcpac
+title: Pavelló de la República – Biblioteca  CRAI UB
 ---

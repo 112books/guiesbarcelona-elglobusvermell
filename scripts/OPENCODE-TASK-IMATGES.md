@@ -1,3 +1,15 @@
+> **Actualització 2026-07-27:** el mètode original (crawling de pàgines WP en
+> viu, `download-images-elements.py`) queda **descartat**. WP Cerber (plugin
+> de seguretat) bloqueja qualsevol petició a pàgines renderitzades —
+> confirmat que bloqueja fins i tot trànsit per `127.0.0.1`/túnel SSH amb
+> User-Agent de navegador real, independentment d'IP. **Usar en canvi
+> `scripts/images-from-dump.py`** (més avall) — no fa cap petició HTTP a
+> pàgines, només llegeix el dump SQL i descarrega el fitxer d'imatge
+> directe (`/wp-content/uploads/...`, servit per nginx, mai passa per
+> Cerber). Resultat amb aquest mètode: 209/656 elements amb foto; la resta
+> (443) simplement no tenen cap imatge incrustada al WordPress — no és un
+> problema tècnic, és contingut que no existeix.
+
 # Tasca per OpenCode: descarregar imatges dels edificis (elements)
 
 ## Context
