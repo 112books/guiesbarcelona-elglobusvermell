@@ -17,3 +17,4 @@ node_modules/
 .venv-scripts/
 __pycache__/
 scripts/download_images_report.md
+scripts/images_from_dump_report.md

@@ -3,6 +3,7 @@ adreca: Marroc 170-190
 any: '1946'
 arquitectes:
 - Luis Castellón
+descripcio: Fàbrica tèxtil. Actualment, sense ús.
 draft: false
 foto: /img/elements/acabados-tintes-y-estampados.jpg
 intervencions:
