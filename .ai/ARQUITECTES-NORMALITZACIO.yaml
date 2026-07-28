@@ -1,0 +1,89 @@
+# Diccionari de normalització d'arquitectes — esborrany per revisar
+
+Aquest fitxer agrupa les variants detectades del mateix arquitecte o estudi sota un
+**nom canònic**. L'objectiu és evitar duplicats a la taxonomia (per exemple,
+"Raimon Duran Reynals" i "Raimon Duran i Reynals" acabin sent la mateixa pàgina).
+
+## Com s'aplicarà
+
+Un cop revisat i aprovat, farem una passada automàtica per totes les fitxes
+d'edifici (`content/ca/elements/*.md`) substituint cada variant pel seu nom
+canònic. Hugo generarà llavors una única pàgina per arquitecte.
+
+## Llista de normalitzacions proposades
+
+```yaml
+normalitzacions:
+  - canonic: "Raimon Duran i Reynals"
+    variants:
+      - "Raimon Duran Reynals"
+
+  - canonic: "Josep Alemany i Juvé"
+    variants:
+      - "Josep Alemany"
+
+  - canonic: "Josep Graner i Prat"
+    variants:
+      - "Josep Graner Prat"
+
+  - canonic: "Francesc Mitjans i Miró"
+    variants:
+      - "Francesc Mitjans"
+
+  - canonic: "B720 Arquitectes"
+    variants:
+      - "B720 (Fermín Vázquez)"
+
+  - canonic: "BAAS"
+    variants:
+      - "BAAS (Jordi Badia)"
+
+  - canonic: "MBM (Martorell, Bohigas, Mackay)"
+    variants:
+      - "MBM Arquitectes"
+
+  - canonic: "EMBT (Enric Miralles i Benedetta Tagliabue)"
+    variants:
+      - "Enric Miralles i Benedetta Tagliabue"
+      - "EMBT (Benedetta Tagliabue)"
+
+  - canonic: "Haz Arquitectura"
+    variants:
+      - "HazArquitectura"
+
+  - canonic: "José Antonio Coderch de Sentmenat"
+    variants:
+      - "José Antonio Coderch"
+
+  - canonic: "Robert Terradas i Via"
+    variants:
+      - "Robert Terradas"
+
+  - canonic: "Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages"
+    variants:
+      - "G. Giráldez, P. López i J. Subias"
+
+  - canonic: "Antoni de Moragas i Gallissà i Francisco Ribas de Salas"
+    variants:
+      - "Antoni de Moragas i Gallissà i Francisco Riba de Salas"
+
+  - canonic: "Bayona-Valero"
+    variants:
+      - "Bayona i Valero"
+
+  - canonic: "Cantallops-Vicente"
+    variants:
+      - "Lluís Cantallops"
+
+  - canonic: "Arriola & Fiol Arquitectes"
+    variants:
+      - "Arriola & Fiol"
+
+## Notes
+
+- Aquesta llista només tracta **variants del mateix nom**.
+- Els arquitectes **combinats amb altres** en una sola etiqueta (per exemple,
+  "José Antonio Coderch de Sentmenat i Manuel Valls i Vergés") es tracten
+  per separat a `.ai/ARQUITECTES-A-SEPARAR.md`.
+- Si veieu errors o voleu canviar el nom canònic, editeu aquest fitxer.
+```
