@@ -52,6 +52,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - 🔴 Logo elglobusvermell.org principal (espera servidor Jorge)
 - ⏳ Disseny mòbil (revisar responsiu)
 - ⏳ Revisar secció "En paper": miniatures per idioma + botons de PDF descarregable
+- ✅ Pàgina de cada guia: secció de descàrregues PDF per idioma preparada (es mostra quan hi ha PDFs a `static/pdf/`)
 
 ### CMS Editorial (Sveltia CMS) — vegeu `.ai/CMS-PLAN.md`
 
