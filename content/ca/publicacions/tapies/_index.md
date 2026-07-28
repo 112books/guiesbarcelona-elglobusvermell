@@ -11,10 +11,6 @@ Antoni Tàpies (Barcelona, 1923-2012) va assolir de ben jove un gran reconeixeme
 
 <!-- PENDENT: contingut del llistat -->
 
-## Plànol Descarregable
-
-<!-- PENDENT: referència al plànol -->
-
 ## Bibliografia Relacionada
 
 <!-- PENDENT: bibliografia -->

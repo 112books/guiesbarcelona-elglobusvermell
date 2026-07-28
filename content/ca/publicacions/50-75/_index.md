@@ -135,10 +135,6 @@ A causa de l’alta resistència del formigó, la facilitat de construcció, el 
 
 ## Llistat
 
-## Plànol Descarregable
-
-Arquitectura Moderna a Barcelona. 1950-1975. 2019
-
 ## Bibliografia Relacionada
 
 L’arquitectura dels anys cinquanta a Barcelona. ETSAV. 1987

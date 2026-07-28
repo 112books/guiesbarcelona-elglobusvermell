@@ -71,10 +71,6 @@ El repte, però, no s’atura aquí. Se segueixen obrint nous jardins per cobrir
 
 ## Llistat
 
-## Plànol Descarregable
-
-Jardins interiors d’illa de l’Eixample. Barcelona. 2018
-
 ## Bibliografia Relacionada
 
 “Els interiors d’illa de l’Eixample”

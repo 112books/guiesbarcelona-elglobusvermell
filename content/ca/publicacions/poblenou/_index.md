@@ -35,10 +35,6 @@ S’ha fet una endreça de les edificacions seguint les següents categories:
 
 ## Llistat
 
-## Plànol Descarregable
-
-El patrimoni industrial del Poblenou, Barcelona. 2019
-
 ## Recursos relacionats
 
 Poblenou/BCN: l’eix Pere IV i la Diagonal. Guia d’història urbana. Mercè Tatjer, Salvador Clarós i Andrea Manenti. MUHBA. 2012

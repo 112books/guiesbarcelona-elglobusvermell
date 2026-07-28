@@ -145,10 +145,6 @@ Entre les dècades de 1950 i 1970 Barcelona experimentà un gran creixement per 
 
 A més dels mercats d’alimentació, Barcelona disposa de diversos mercats no alimentaris però especialitzats en algun tipus de producte: els Encants (Fira de Bellcaire) és el gran mercat brocanter i de segona mà; els Encants de Sant Antoni estan especialitzats en productes tèxtils; el Dominical de Sant Antoni basa la seva activitat en llibres, revistes, cromos, postals, pel·lícules i videojocs; i les parades de flors de la Rambla, organitzades com un mercat més, es dediquen a flors i plantes, tal com el seu nom indica.
 
-## Plànol Descarregable
-
-Mercats de Barcelona. 2019
-
 ## Bibliografia Relacionada
 
 Els mercats de Barcelona. Ajuntament de Barcelona. 1992
