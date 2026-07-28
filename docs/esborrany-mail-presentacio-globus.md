@@ -32,6 +32,11 @@ Quan pugueu li fem un cop d'ull junts.
 Gràcies!
 Joan
 
+**P.D.:** els fitxers adjunts són de text pla en format Markdown (`.md`) — es poden obrir i editar amb qualsevol editor de textos normal, però es veuen molt més còmodes amb un editor de Markdown. Per si us interessa:
+- Mac: [MacDown](https://github.com/MacDownApp/macdown)
+- Windows: [Mark Text](https://github.com/marktext/marktext)
+- Linux: [ReText](https://github.com/retext-project/retext)
+
 ———————————————————
 Joan Linux Mz Serres
 joan@linuxbcn.com
