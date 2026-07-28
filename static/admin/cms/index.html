@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CMS — Guies Barcelona</title>
   <style>
+    /* Escalfa els grisos neutres de Sveltia CMS cap al vermell de marca
+       (El Globus Vermell), sense tocar el blau d'accions (--sui-info-color-hue)
+       per no confondre botons primaris amb estats d'error (mateix hue 0). */
+    :root, :host {
+      --sui-base-hue: 0;
+    }
+
     body { background: #f5f4f0; }
 
     .cms-brand {
