@@ -701,6 +701,26 @@
         a.appendChild(metaEl);
         li.appendChild(a);
 
+        // Arquitectes amb enllaç a la pàgina de cada arquitecte
+        if (p.arquitectes && p.arquitectes.length) {
+          var arqsEl = document.createElement('span');
+          arqsEl.className = 'llistat-element-arquitectes';
+          p.arquitectes.forEach(function (aName, idx) {
+            if (idx > 0) arqsEl.appendChild(document.createTextNode(', '));
+            var slug = aName.toLowerCase()
+              .replace(/[^\w\s-]/g, '')
+              .replace(/\s+/g, '-')
+              .replace(/-+/g, '-')
+              .replace(/^-|-$/g, '');
+            var arqLink = document.createElement('a');
+            arqLink.href = (window.SITE_BASE || '/') + 'arquitectes/' + encodeURIComponent(slug) + '/';
+            arqLink.textContent = aName;
+            arqLink.className = 'llistat-element-arquitecte';
+            arqsEl.appendChild(arqLink);
+          });
+          li.appendChild(arqsEl);
+        }
+
         if (grupPer !== 'any' && p.publicacions && p.publicacions.length) {
           var pubsEl = document.createElement('span');
           pubsEl.className = 'llistat-element-pubs';

@@ -734,6 +734,23 @@ main {
   background: var(--pub-color, #888);
 }
 
+.llistat-element-arquitectes {
+  width: 100%;
+  padding-left: 0;
+  font-size: 0.8125rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.llistat-element-arquitecte {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.llistat-element-arquitecte:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 48rem) {
   .llistat-index {
     gap: 0.15rem;
