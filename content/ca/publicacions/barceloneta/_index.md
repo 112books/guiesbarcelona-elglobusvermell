@@ -75,10 +75,6 @@ Per a les tres primeres categories és obligat el manteniment (i, per tant, no �
 
 ## Llistat
 
-## Plànol Descarregable
-
-La Barceloneta. Història, arquitectura i art públic. 2020
-
 ## Bibliografia Relacionada
 
 La Barceloneta. Origen i transformació d’un barri, 1753-1994. Ajuntament de Barcelona. 1994

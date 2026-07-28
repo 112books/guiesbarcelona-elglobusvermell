@@ -97,10 +97,6 @@ De molt jove ja col·labora en projectes com el Pla Macià i la Ciutat de Repòs
 
 ## Llistat
 
-## Plànol descarregable
-
-Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC. 2016
-
 ## Més informació sobre Josep Lluís Sert i el GATCPAC
 
 ### Visites

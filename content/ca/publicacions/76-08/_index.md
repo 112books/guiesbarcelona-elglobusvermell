@@ -73,10 +73,6 @@ El balanç, però, és ambivalent. D’una banda, el 22@ ha aportat activitat ec
 
 ## Llistat
 
-## Plànol Descarregable
-
-Arquitectura a Barcelona 1975-2008. De l’esperança a la crisi. 2026
-
 ## Bibliografia Relacionada
 
 Àrees de nova centralitat. New Downtowns in Barcelona. Ajuntament de Barcelona. 1987

@@ -119,10 +119,6 @@ Biblioteca Nova Babilònia. Nau Bostik. Ferran Turné, 1-11
 
 ## Llistat
 
-## Plànol Descarregable
-
-català / castellà / anglès
-
 ## Bibliografia Relacionada
 
 Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010

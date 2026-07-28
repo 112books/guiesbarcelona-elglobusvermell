@@ -101,10 +101,6 @@ Richard Ford. Handbook for Travellers in Spain and Readers at Home. 1845.
 
 ## Llistat
 
-## Plànol Descarregable
-
-català / castellà / anglès
-
 ## Bibliografia Relacionada
 
 Masies de Barcelona. Angle Editorial, 2009

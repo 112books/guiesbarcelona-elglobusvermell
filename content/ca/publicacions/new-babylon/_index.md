@@ -11,10 +11,6 @@ Aquesta publicació és una introducció a la New Babylon i la seva vinculació 
 
 <!-- PENDENT: contingut del llistat -->
 
-## Plànol Descarregable
-
-<!-- PENDENT: referència al plànol -->
-
 ## Bibliografia Relacionada
 
 <!-- PENDENT: bibliografia -->

@@ -46,10 +46,6 @@ En color verd s’han representat els elements i traçats de diferents èpoques 
 
 ## Llistat
 
-## Plànol Descarregable
-
-La Marina del Port i del Prat Vermell. Passat i present. 2023
-
 ## Crèdits i agraïments
 
 Part d’aquest plànol-guia ha estat desenvolupat en el marc de la 14a edició d’”Artistes EN RESiDÈNCiA” als instituts de Barcelona”, un programa de l’Institut de Cultura de Barcelona i del Consorci d’Educació de Barcelona, ideat en cooperació amb l’Associació A Bao A Qu. En queda el testimoni d’aquest blog que va anar descrivint tot el procés setmana rere setmana.

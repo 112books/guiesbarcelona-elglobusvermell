@@ -101,10 +101,6 @@ Les dues primeres, «Matèria sensible» i «Vogadors», són concebudes encara 
 
 ## Llistat
 
-## Plànol Descarregable
-
-Arquitectura a Barcelona 2010-2025. La revolució tranquil·la. 2026
-
 ## Bibliografia Relacionada
 
 Els nous realistes. Arquitectura catalana i balear d’ençà la crisi del 2008. Ajuntament de Barcelona. 2025
