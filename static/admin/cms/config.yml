@@ -19,7 +19,10 @@ media_folder: static/img/edificis
 public_folder: /img/edificis
 
 locale: ca
-logo_url: https://raw.githubusercontent.com/112books/guiesbarcelona-elglobusvermell/main/static/img/Arquitectura-i-urbanisme-de-barcelona.svg
+app_title: "Editor — Guies Barcelona"
+logo:
+  src: https://raw.githubusercontent.com/112books/guiesbarcelona-elglobusvermell/main/static/img/Arquitectura-i-urbanisme-de-barcelona.svg
+  show_in_header: true
 site_url: https://guiesbarcelona.elglobusvermell.org/
 
 # Opcions compartides (anchors YAML per reutilitzar)
