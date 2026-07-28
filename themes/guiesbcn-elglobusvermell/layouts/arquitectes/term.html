@@ -1,42 +1,25 @@
 {{ define "main" }}
-{{ $slug := .Data.Term }}
-{{ $pub := dict }}
-{{ range hugo.Data.publicacions }}
-  {{ if eq .slug $slug }}{{ $pub = . }}{{ end }}
-{{ end }}
+{{ $pubs := hugo.Data.publicacions }}
 
-<article class="publicacio"{{ with $pub.color }} style="--pub-color: {{ . }}"{{ end }}>
-
-  <div class="publicacio-banda"></div>
+<article class="publicacio">
 
   <header class="publicacio-cap">
     <h1>{{ .Title }}</h1>
-    {{ with .Params.edicio }}<p class="publicacio-edicio">Edició {{ . }}</p>{{ end }}
+    <p class="publicacio-edicio">Arquitecte</p>
   </header>
 
-  {{ if .Pages }}
   <section class="publicacio-edificis">
-    <div class="mapa-contenidor" id="mapa-contenidor" role="region" aria-label="Mapa de la publicació">
+    <div class="mapa-contenidor" id="mapa-contenidor" role="region" aria-label="Mapa d'edificis de {{ .Title }}">
       <div id="mapa" class="mapa-el"></div>
     </div>
   </section>
-  {{ else }}
-  <p class="publicacio-buit">Encara no hi ha fitxes d'edificis importades per aquesta publicació.</p>
-  {{ end }}
 
-  <div class="publicacio-descripcio">
-    {{ .Content }}
-  </div>
-
-  {{/* Llistat dinàmic: el JS l'injecta dins l'acordió ## Llistat */}}
-  {{ if .Pages }}
   <section class="llistat-cronologic" id="llistat" aria-hidden="true">
     <div id="llistat-grups"></div>
   </section>
-  {{ end }}
 
   <nav class="publicacio-nav" aria-label="Navegació">
-    <a href="{{ "en-paper/" | relURL }}">← Totes les publicacions</a>
+    <a href="{{ "arquitectes/" | relURL }}">← Tots els arquitectes</a>
   </nav>
 
 </article>

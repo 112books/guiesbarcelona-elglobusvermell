@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="pagina-contingut">
+  <h1>{{ .Title }}</h1>
+  <ul class="terms-llista">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="terms-count">({{ len .Pages }} edifici{{ if gt (len .Pages) 1 }}s{{ end }})</span>
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}
