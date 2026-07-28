@@ -17,7 +17,7 @@
   {{/* Imatge destacada: només si existeix foto */}}
   {{ if .Params.foto }}
   <div class="fitxa-imatge">
-    <img src="{{ .Params.foto | relURL }}" alt="{{ .Title }}" loading="lazy">
+    <img src="{{ .Params.foto | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}" loading="lazy">
   </div>
   {{ end }}
 
