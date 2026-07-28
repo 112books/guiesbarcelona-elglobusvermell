@@ -17,6 +17,7 @@
 - Llistat de punts desubicats generat amb proposta de geocodificació (`.ai/PUNTS-DESUBICATS.md`).
 - Llistat d'arquitectes combinats a separar generat (`.ai/ARQUITECTES-A-SEPARAR.md`).
 - Diccionari de normalització d'arquitectes duplicats per variants d'ortografia (`.ai/ARQUITECTES-NORMALITZACIO.yaml`).
+- Pàgina de cada guia: secció de descàrregues PDF per idioma preparada.
 - Mail de resposta definitiu a Xavi redactat (`docs/2026-07-28-mail-resposta-definitiu-xavi.md`).
 - Deploy a staging (GitHub Pages) iniciat per Joan.
 
