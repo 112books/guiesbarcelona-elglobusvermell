@@ -64,6 +64,7 @@ defaultContentLanguageInSubdir = false
 
 [taxonomies]
   publicacio = "publicacions"
+  arquitecte = "arquitectes"
 
 [markup]
   [markup.goldmark]

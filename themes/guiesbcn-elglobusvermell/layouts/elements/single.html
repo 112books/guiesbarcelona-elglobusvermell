@@ -14,14 +14,10 @@
 
   <div class="fitxa-pub-banda"></div>
 
-  {{/* Imatge destacada */}}
+  {{/* Imatge destacada: només si existeix foto */}}
   {{ if .Params.foto }}
   <div class="fitxa-imatge">
-    <img src="{{ .Params.foto | strings.TrimPrefix "/" | absURL }}" alt="{{ .Title }}" loading="lazy">
-  </div>
-  {{ else }}
-  <div class="fitxa-imatge fitxa-imatge--placeholder">
-    <span>Imatge pendent</span>
+    <img src="{{ .Params.foto | relURL }}" alt="{{ .Title }}" loading="lazy">
   </div>
   {{ end }}
 
@@ -36,7 +32,7 @@
         {{ $slug := . }}
         {{ range $pubs }}
           {{ if eq .slug $slug }}
-          <a class="fitxa-pub-tag" href="{{ absURL (printf "/publicacions/%s/" $slug) }}"
+          <a class="fitxa-pub-tag" href="{{ printf "publicacions/%s/" $slug | relURL }}"
              style="--pub-color: {{ .color }}">{{ .titol }}</a>
           {{ end }}
         {{ end }}
@@ -71,7 +67,11 @@
       {{ with .Params.arquitectes }}
       <div class="fitxa-dada">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
-        <dd>{{ delimit . ", " }}</dd>
+        <dd>
+          {{ range $i, $a := . }}
+            {{ if $i }}, {{ end }}<a href="{{ printf "arquitectes/%s/" ($a | urlize) | relURL }}">{{ $a }}</a>
+          {{ end }}
+        </dd>
       </div>
       {{ end }}
 

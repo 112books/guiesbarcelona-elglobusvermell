@@ -32,7 +32,10 @@
     pub: {},
     tema: {}
   };
-  Object.keys(pubs).forEach(function (s) { filtresMapa.pub[s] = true; });
+  // Publicacions: comencen totes desactivades. Els punts es veuen atenuats
+  // però no invisibles, perquè es percebi el volum. Activar una publicació
+  // ressalta els seus punts.
+  Object.keys(pubs).forEach(function (s) { filtresMapa.pub[s] = false; });
   // Temes: comencen tots a false (cap filtre aplicat). Activar-ne un mostra
   // únicament els elements d'aquell tema.
   temes.forEach(function (t) { filtresMapa.tema[t.slug] = false; });
@@ -66,25 +69,51 @@
     }).addTo(map);
 
     // ── Marcadors ────────────────────────────────────────────────────────
-    function markerOpts(color) {
-      if (tema === 'b') return { radius: 8, fillColor: color, color: color, weight: 0, opacity: 0, fillOpacity: 0.92 };
-      if (tema === 'c') return { radius: 10, fillColor: color, color: '#fff', weight: 2.5, opacity: 1, fillOpacity: 0.9 };
-      return { radius: 7, fillColor: color, color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
+    function markerOpts(color, radius) {
+      var r = radius || 6;
+      if (tema === 'b') return { radius: r, fillColor: color, color: color, weight: 0, opacity: 0, fillOpacity: 0.92 };
+      if (tema === 'c') return { radius: r + 1, fillColor: color, color: '#fff', weight: 2, opacity: 1, fillOpacity: 0.9 };
+      return { radius: r, fillColor: color, color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
     }
 
     function colorPub(slug) {
       return (pubs[slug] && pubs[slug].color) ? pubs[slug].color : '#888';
     }
-    function primerColor(publicacions) {
-      return (publicacions && publicacions.length) ? colorPub(publicacions[0]) : '#888';
+
+    // Offset per separar els cercles d'un punt amb múltiples publicacions.
+    // A prop del centre perquè es percebin com un sol punt doble.
+    var MULTI_OFFSET = 0.000018;
+
+    function offsetsPerComptar(n) {
+      if (n <= 1) return [[0, 0]];
+      if (n === 2) return [[-MULTI_OFFSET, 0], [MULTI_OFFSET, 0]];
+      if (n === 3) return [[-MULTI_OFFSET, MULTI_OFFSET * 0.6], [MULTI_OFFSET, MULTI_OFFSET * 0.6], [0, -MULTI_OFFSET * 0.8]];
+      var offsets = [];
+      for (var i = 0; i < n; i++) {
+        var angle = (i / n) * Math.PI * 2;
+        offsets.push([Math.cos(angle) * MULTI_OFFSET, Math.sin(angle) * MULTI_OFFSET]);
+      }
+      return offsets;
     }
 
     var allMarkers = [];
     elementsMapa.forEach(function (p) {
       var lat = parseFloat(p.lat);
       var lng = parseFloat(p.long);
-      var color = primerColor(p.publicacions);
-      var m = L.circleMarker([lat, lng], markerOpts(color));
+      var publis = (p.publicacions && p.publicacions.length) ? p.publicacions : [null];
+      var offsets = offsetsPerComptar(publis.length);
+      var circles = [];
+      var featureGroup = L.featureGroup();
+
+      publis.forEach(function (pubSlug, idx) {
+        var color = pubSlug ? colorPub(pubSlug) : '#888';
+        var off = offsets[idx] || [0, 0];
+        var c = L.circleMarker([lat + off[1], lng + off[0]], markerOpts(color));
+        c._pubSlug = pubSlug;
+        circles.push(c);
+        featureGroup.addLayer(c);
+      });
+
       var popupEl = document.createElement('div');
       var popupLink = document.createElement('a');
       popupLink.href = p.url;
@@ -96,14 +125,14 @@
         popupAdr.textContent = p.adreca;
         popupEl.appendChild(popupAdr);
       }
-      m.bindPopup(popupEl);
-      m._dades = p;
-      m.on('popupopen', function () {
+      featureGroup.bindPopup(popupEl);
+      featureGroup._dades = p;
+      featureGroup.on('popupopen', function () {
         if (window.goatcounter && window.goatcounter.count) {
           window.goatcounter.count({ path: 'mapa-click' + p.url, title: p.title });
         }
       });
-      allMarkers.push(m);
+      allMarkers.push(featureGroup);
     });
 
     // ── Zoom inicial ─────────────────────────────────────────────────────
@@ -115,7 +144,7 @@
     function fitMap() {
       map.invalidateSize();
       if (allMarkers.length === 1) {
-        map.setView(allMarkers[0].getLatLng(), 16);
+        map.setView(allMarkers[0].getBounds().getCenter(), 16);
       } else if (allMarkers.length > 1) {
         map.fitBounds(group.getBounds(), { padding: [30, 30] });
       }
@@ -227,59 +256,68 @@
     }
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
+    // Opacitats: ressaltat = punt d'una publicació activa; atenuat = la resta,
+    // visible però suau perquè es percebi el volum total.
+    var OPACITAT_RESSALTADA = tema === 'b' ? { opacity: 0, fillOpacity: 0.92 }
+                            : tema === 'c' ? { opacity: 1, fillOpacity: 0.9 }
+                                           : { opacity: 1, fillOpacity: 0.85 };
+    var OPACITAT_ATENUADA   = { opacity: 0.12, fillOpacity: 0.12 };
+
+    function setOpacity(markerGroup, opacity) {
+      markerGroup.eachLayer(function (layer) {
+        if (layer.setStyle) layer.setStyle(opacity);
+      });
+    }
+
     function filtraMapa() {
       var hiHaPubs = Object.values(filtresMapa.pub).some(Boolean);
       var hiHaTemes = temes.some(function (t) { return filtresMapa.tema[t.slug]; });
 
       allMarkers.forEach(function (m) {
         var p = m._dades;
-        var visible = true;
 
         // Filtre per publicació
+        var actiuPerPub = true;
         if (hiHaPubs) {
-          if (!p.publicacions || !p.publicacions.length) {
-            visible = false;
-          } else {
-            visible = p.publicacions.some(function (pub) { return filtresMapa.pub[pub]; });
-          }
+          actiuPerPub = p.publicacions && p.publicacions.some(function (pub) { return filtresMapa.pub[pub]; });
         }
 
         // Filtre per tema transversal
-        if (visible && hiHaTemes) {
-          if (!p.temes_transversals || !p.temes_transversals.length) {
-            visible = false;
-          } else {
-            visible = p.temes_transversals.some(function (t) { return filtresMapa.tema[t]; });
-          }
+        var actiuPerTema = true;
+        if (hiHaTemes) {
+          actiuPerTema = p.temes_transversals && p.temes_transversals.some(function (t) { return filtresMapa.tema[t]; });
         }
 
-        if (visible) {
-          m.setStyle({ opacity: 1, fillOpacity: tema === 'b' ? 0.92 : (tema === 'c' ? 0.9 : 0.85) });
-        } else {
-          m.setStyle({ opacity: 0.15, fillOpacity: 0.15 });
-        }
+        var ressaltat = actiuPerPub && actiuPerTema;
+        setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : OPACITAT_ATENUADA);
       });
 
-      // Actualitzar estat dels botons
+      // Actualitzar estat dels botons de publicació
       filtreMapa.querySelectorAll('[data-pub]').forEach(function (btn) {
         var slug = btn.getAttribute('data-pub');
-        btn.classList.toggle('actiu', !!filtresMapa.pub[slug]);
-        btn.style.opacity = filtresMapa.pub[slug] ? '1' : '0.4';
+        var actiu = !!filtresMapa.pub[slug];
+        btn.classList.toggle('actiu', actiu);
+        btn.style.opacity = actiu ? '1' : '0.45';
       });
+
+      // Actualitzar estat del botó "Tots/Cap"
+      var totsBtn = filtreMapa.querySelector('.filtre-tots');
+      if (totsBtn) {
+        var algunaActiva = Object.values(filtresMapa.pub).some(Boolean);
+        totsBtn.classList.toggle('actiu', !algunaActiva);
+        totsBtn.style.opacity = !algunaActiva ? '1' : '0.45';
+        var totsLabel = totsBtn.querySelector('.filtre-tots-label');
+        if (totsLabel) totsLabel.textContent = algunaActiva ? 'Cap ' : 'Tots ';
+      }
+
+      // Actualitzar estat dels botons de temes transversals
       var hiHaAlgunTemaActiu = temes.some(function (t) { return filtresMapa.tema[t.slug]; });
       filtreMapa.querySelectorAll('[data-tema]').forEach(function (btn) {
         var slug = btn.getAttribute('data-tema');
         var actiu = !!filtresMapa.tema[slug];
         btn.classList.toggle('actiu', actiu);
-        // Si cap tema actiu: tots al 100% (no hi ha filtre). Si n'hi ha: inactius esvaïts.
         btn.style.opacity = (!hiHaAlgunTemaActiu || actiu) ? '1' : '0.4';
       });
-      var totsBtn = filtreMapa.querySelector('.filtre-tots');
-      if (totsBtn) {
-        var totActiu = Object.values(filtresMapa.pub).every(Boolean);
-        totsBtn.classList.toggle('actiu', totActiu);
-        totsBtn.style.opacity = totActiu ? '1' : '0.4';
-      }
     }
 
     // ── Construir filtres de mapa ────────────────────────────────────────
@@ -299,13 +337,19 @@
 
       var btnTots = document.createElement('button');
       btnTots.className = 'filtre-btn filtre-tots actiu';
-      btnTots.appendChild(document.createTextNode('Tots '));
+      var btnTotsLabel = document.createElement('span');
+      btnTotsLabel.className = 'filtre-tots-label';
+      btnTotsLabel.textContent = 'Cap ';
+      btnTots.appendChild(btnTotsLabel);
       var btnTotsCount = document.createElement('span');
       btnTotsCount.className = 'filtre-btn-count';
       btnTotsCount.textContent = '(' + totsElsElements.length + ')';
       btnTots.appendChild(btnTotsCount);
       btnTots.addEventListener('click', function () {
-        var nouEstat = !Object.values(filtresMapa.pub).every(Boolean);
+        var algunaActiva = Object.values(filtresMapa.pub).some(Boolean);
+        // Si n'hi ha alguna activa, desactivem totes (tornem a l'estat inicial).
+        // Si cap no està activa, activem totes.
+        var nouEstat = !algunaActiva;
         Object.keys(filtresMapa.pub).forEach(function (s) { filtresMapa.pub[s] = nouEstat; });
         filtraMapa();
       });
@@ -322,7 +366,7 @@
       Object.keys(pubs).forEach(function (slug) {
         var btn = document.createElement('button');
         btn.setAttribute('data-pub', slug);
-        btn.className = 'filtre-btn actiu';
+        btn.className = 'filtre-btn';
         btn.style.setProperty('--pub-color', pubs[slug].color || '#888');
 
         // Parteix el títol en dos línies per ". " (separador editorial natural)

@@ -11,7 +11,7 @@
     <ul>
       {{ range site.Menus.main }}
       <li>
-        <a href="{{ .URL | absURL }}">
+        <a href="{{ .URL | relURL }}">
           <span class="nav-label">{{ .Name }}</span>
           <span class="nav-icon" aria-hidden="true">
             {{ if eq .Name "Presentació" }}
