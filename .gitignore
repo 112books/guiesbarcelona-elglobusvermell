@@ -18,3 +18,6 @@ node_modules/
 __pycache__/
 scripts/download_images_report.md
 scripts/images_from_dump_report.md
+
+# Documentació interna LinuxBCN — no pública
+docs/
