@@ -102,6 +102,14 @@ collections:
         default: false
         hint: "Marca com a esborrany per ocultar del web"
 
+      - label: Fotografia
+        name: foto
+        widget: image
+        required: false
+        media_folder: static/img/elements
+        public_folder: /img/elements
+        hint: "Fotografia de l'edifici. Si no n'hi ha, el web mostra un espai reservat (\"Imatge pendent\")."
+
       - label: Publicacions
         name: publicacions
         widget: select
