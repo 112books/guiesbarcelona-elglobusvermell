@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Guia de gestió d'usuaris — Guies Barcelona</title>
+  <style>
+    :root {
+      --bg:      #f5f4f0;
+      --ink:     #111110;
+      --ink2:    #444440;
+      --ink3:    #6b6b66;
+      --border:  #ddddd8;
+      --surface: #eeede9;
+      --red:     #c81e1e;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+
+    /* ── Capçalera ─────────────────────────────────────────────── */
+    .g-header {
+      text-align: center;
+      padding: 2.5rem 1rem 1.75rem;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+    .g-header a { display: inline-block; }
+    .g-header img { height: 3.5rem; width: auto; }
+    .g-header h1 {
+      margin-top: 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--ink3);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    /* ── Layout ────────────────────────────────────────────────── */
+    .g-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    /* ── Índex ─────────────────────────────────────────────────── */
+    .g-toc {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .g-toc-title {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.75rem;
+    }
+    .g-toc ol {
+      padding-left: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .g-toc a {
+      color: var(--red);
+      text-decoration: none;
+    }
+    .g-toc a:hover { text-decoration: underline; }
+
+    /* ── Seccions ──────────────────────────────────────────────── */
+    .g-section {
+      margin-bottom: 3rem;
+    }
+    .g-section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      border-bottom: 2px solid var(--red);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+      color: var(--ink);
+    }
+    .g-section h3 {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--ink2);
+      margin: 1.25rem 0 0.5rem;
+    }
+    .g-section p {
+      margin-bottom: 0.75rem;
+      color: var(--ink2);
+    }
+    .g-section ul, .g-section ol {
+      padding-left: 1.4rem;
+      margin-bottom: 0.75rem;
+      color: var(--ink2);
+    }
+    .g-section li { margin-bottom: 0.3rem; }
+
+    /* ── Steps numerats ────────────────────────────────────────── */
+    .g-steps {
+      list-style: none;
+      padding: 0;
+      counter-reset: step;
+    }
+    .g-steps li {
+      counter-increment: step;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+      align-items: flex-start;
+    }
+    .g-steps li::before {
+      content: counter(step);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    /* ── Taula de rols ─────────────────────────────────────────── */
+    .g-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+      font-size: 0.84rem;
+    }
+    .g-table th {
+      background: var(--surface);
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      font-weight: 600;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      border-bottom: 1px solid var(--border);
+    }
+    .g-table td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      color: var(--ink2);
+    }
+    .g-table tr:last-child td { border-bottom: none; }
+    .g-table td:first-child { font-weight: 500; color: var(--ink); white-space: nowrap; }
+
+    /* ── Avisos ────────────────────────────────────────────────── */
+    .g-note {
+      background: #fff8e1;
+      border-left: 3px solid #f59e0b;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+    .g-warn {
+      background: #fde8e8;
+      border-left: 3px solid var(--red);
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+
+    /* ── Codi ──────────────────────────────────────────────────── */
+    code {
+      background: var(--surface);
+      padding: 0.1rem 0.35rem;
+      font-family: "SF Mono", "Fira Code", Consolas, monospace;
+      font-size: 0.82em;
+      color: var(--ink);
+    }
+
+    /* ── Peu ───────────────────────────────────────────────────── */
+    .g-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1rem;
+      text-align: center;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+    .g-footer a { color: #bbb; text-decoration: none; }
+    .g-footer a:hover { color: var(--red); }
+
+    @media (max-width: 560px) {
+      .g-wrap { padding: 1.5rem 1rem 3rem; }
+      .g-table { font-size: 0.78rem; }
+      .g-table td:first-child { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="g-header">
+    <a href="../../" aria-label="Inici — Guies de Barcelona">
+      <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg"
+           alt="Guies de Barcelona de El Globus Vermell">
+    </a>
+    <h1>Guia de gestió d'usuaris</h1>
+  </header>
+
+  <main class="g-wrap">
+
+    <nav class="g-toc" aria-label="Índex">
+      <div class="g-toc-title">Continguts</div>
+      <ol>
+        <li><a href="#com-funciona">Com funciona (sense sistema propi)</a></li>
+        <li><a href="#rols">Rols: Admin vs Editor</a></li>
+        <li><a href="#compte-github">Si la persona no té compte de GitHub</a></li>
+        <li><a href="#convidar">Convidar algú nou</a></li>
+        <li><a href="#acceptar">Què ha de fer la persona convidada</a></li>
+        <li><a href="#treure">Treure l'accés a algú</a></li>
+        <li><a href="#norules">Que NO fer</a></li>
+      </ol>
+    </nav>
+
+    <!-- ── 1. Com funciona ────────────────────────────────────── -->
+    <section class="g-section" id="com-funciona">
+      <h2>1. Com funciona (sense sistema propi)</h2>
+      <p>L'editor de continguts (Sveltia CMS) <strong>no té el seu propi sistema d'usuaris</strong>. Tota l'autenticació es delega a GitHub: qui té accés d'escriptura al repositori del web, pot entrar a l'editor amb el seu token personal (PAT).</p>
+      <p>Per tant, gestionar "qui pot editar" i "qui pot administrar" es fa <strong>directament a GitHub</strong>, no dins l'editor.</p>
+    </section>
+
+    <!-- ── 2. Rols ────────────────────────────────────────────── -->
+    <section class="g-section" id="rols">
+      <h2>2. Rols: Admin vs Editor</h2>
+      <table class="g-table">
+        <thead>
+          <tr>
+            <th>Rol a GitHub</th>
+            <th>Qui l'ha de tenir</th>
+            <th>Què pot fer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Admin</td>
+            <td>Responsables tècnics (p. ex. Joan)</td>
+            <td>Tot el que pot fer un Editor, <strong>més</strong> convidar/treure altres persones, canviar rols, i tocar la configuració del repositori.</td>
+          </tr>
+          <tr>
+            <td>Write</td>
+            <td>Editors de contingut</td>
+            <td>Entrar a l'editor amb el seu propi token i modificar/publicar fitxes d'edificis i pàgines. <strong>No pot</strong> gestionar altres usuaris.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="g-note">
+        Dona el rol <strong>Admin</strong> amb compte — qui el té pot afegir o treure qualsevol altra persona, inclosos altres admins.
+      </div>
+    </section>
+
+    <!-- ── 3. Compte de GitHub ────────────────────────────────── -->
+    <section class="g-section" id="compte-github">
+      <h2>3. Si la persona no té compte de GitHub</h2>
+      <p>Cal un compte de GitHub abans de poder-la convidar. És gratuït i triga un minut:</p>
+      <ol class="g-steps">
+        <li>Ves a <a href="https://github.com/signup" target="_blank" rel="noopener">github.com/signup</a>.</li>
+        <li>Registra't amb el teu correu electrònic, tria un nom d'usuari i una contrasenya.</li>
+        <li>Verifica el correu (GitHub envia un codi o enllaç de confirmació).</li>
+      </ol>
+      <p>Un cop té el compte creat, ja es pot procedir a convidar-la (secció següent). No cal cap pla de pagament ni configuració addicional.</p>
+    </section>
+
+    <!-- ── 4. Convidar ─────────────────────────────────────────── -->
+    <section class="g-section" id="convidar">
+      <h2>4. Convidar algú nou</h2>
+      <p>Només ho pot fer algú amb rol <strong>Admin</strong>.</p>
+      <ol class="g-steps">
+        <li>Ves a <a href="https://github.com/112books/guiesbarcelona-elglobusvermell/settings/access" target="_blank" rel="noopener">github.com/112books/guiesbarcelona-elglobusvermell → Settings → Collaborators</a>.</li>
+        <li>Clica <strong>Add people</strong>.</li>
+        <li>Cerca pel nom d'usuari de GitHub o pel correu electrònic amb què es va registrar.</li>
+        <li>Tria el rol: <strong>Write</strong> per a un editor, <strong>Admin</strong> per a un administrador.</li>
+        <li>Confirma la invitació.</li>
+      </ol>
+    </section>
+
+    <!-- ── 5. Acceptar ─────────────────────────────────────────── -->
+    <section class="g-section" id="acceptar">
+      <h2>5. Què ha de fer la persona convidada</h2>
+      <ol class="g-steps">
+        <li>Rebrà un correu de GitHub amb la invitació (o la veurà a <a href="https://github.com/notifications" target="_blank" rel="noopener">github.com/notifications</a>).</li>
+        <li>Ha d'acceptar-la.</li>
+        <li>Un cop acceptada, ja té accés al repositori — segueix la <a href="../guia/#acces">Guia de l'editor</a> per crear el seu propi token (PAT) i entrar al CMS.</li>
+      </ol>
+      <div class="g-note">
+        Cada persona crea el <strong>seu propi</strong> token — mai es comparteix un token entre diverses persones.
+      </div>
+    </section>
+
+    <!-- ── 6. Treure accés ─────────────────────────────────────── -->
+    <section class="g-section" id="treure">
+      <h2>6. Treure l'accés a algú</h2>
+      <ol class="g-steps">
+        <li>A la mateixa pàgina de <a href="https://github.com/112books/guiesbarcelona-elglobusvermell/settings/access" target="_blank" rel="noopener">Collaborators</a>, busca la persona a la llista.</li>
+        <li>Clica els tres punts al costat del seu nom i tria <strong>Remove</strong>.</li>
+      </ol>
+      <div class="g-note">
+        Això treu l'accés a l'instant. Si la persona tenia un token propi, deixa de funcionar immediatament — no cal fer res més.
+      </div>
+    </section>
+
+    <!-- ── 7. Que NO fer ──────────────────────────────────────── -->
+    <section class="g-section" id="norules">
+      <h2>7. Que NO fer</h2>
+      <div class="g-warn">
+        <strong>No comparteixis el teu token</strong> amb ningú, ni per convidar-lo ni per donar-li accés temporal. Cada persona ha de crear el seu propi.
+      </div>
+      <div class="g-warn">
+        <strong>No donis rol Admin</strong> a algú que només ha d'editar contingut. Dona-li <strong>Write</strong>.
+      </div>
+      <ul>
+        <li>No cal donar accés a nivell d'organització (112books) — n'hi ha prou amb afegir la persona a aquest repositori concret.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="g-footer">
+    <div>
+      © <script>document.write(new Date().getFullYear())</script>
+      <a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>
+      &nbsp;·&nbsp;
+      <a href="../">← Tornar a l'administrador</a>
+    </div>
+  </footer>
+
+</body>
+</html>
