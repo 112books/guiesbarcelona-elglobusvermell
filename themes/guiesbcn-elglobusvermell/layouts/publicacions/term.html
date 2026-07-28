@@ -28,6 +28,56 @@
     {{ .Content }}
   </div>
 
+  {{/* Descàrregues: portades i PDFs per idioma */}}
+  {{ $idiomes := slice (dict "slug" "cat" "titol" "Català") (dict "slug" "esp" "titol" "Castellà") (dict "slug" "eng" "titol" "Anglès") (dict "slug" "fra" "titol" "Francès") }}
+
+  {{ $téPdf := false }}
+  {{ range $idiomes }}
+    {{ $idioma := .slug }}
+    {{ range slice (printf "pdf/%s_%s.pdf" $slug $idioma) (printf "pdf/%s-%s.pdf" $slug $idioma) (printf "pdf/%s_%s_web.pdf" $slug $idioma) (printf "pdf/%s-%s_web.pdf" $slug $idioma) }}
+      {{ if and (not $téPdf) (fileExists (printf "static/%s" .)) }}
+        {{ $téPdf = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $téPdf }}
+  <section class="publicacio-descarregues" aria-label="Descarregues del plànol-guia">
+    <h2>Descarregar el plànol-guia</h2>
+
+    <div class="publicacio-idiomes">
+      {{ range $idiomes }}
+        {{ $idioma := .slug }}
+        {{ $titolIdioma := .titol }}
+        {{ $img := "" }}
+        {{ range slice (printf "img/publicacions/%s-%s.webp" $slug $idioma) (printf "img/publicacions/%s-%s.jpg" $slug $idioma) (printf "img/publicacions/%s-%s.png" $slug $idioma) (printf "img/publicacions/%s.webp" $slug) (printf "img/publicacions/%s.jpg" $slug) (printf "img/publicacions/%s.png" $slug) }}
+          {{ if and (not $img) (fileExists (printf "static/%s" .)) }}
+            {{ $img = . }}
+          {{ end }}
+        {{ end }}
+        {{ $pdf := "" }}
+        {{ range slice (printf "pdf/%s_%s.pdf" $slug $idioma) (printf "pdf/%s-%s.pdf" $slug $idioma) (printf "pdf/%s_%s_web.pdf" $slug $idioma) (printf "pdf/%s-%s_web.pdf" $slug $idioma) }}
+          {{ if and (not $pdf) (fileExists (printf "static/%s" .)) }}
+            {{ $pdf = . }}
+          {{ end }}
+        {{ end }}
+        {{ if $pdf }}
+        <div class="publicacio-idioma">
+          <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener" class="publicacio-idioma-link" title="Descarregar PDF en {{ $titolIdioma }}">
+          {{ if $img }}
+            <img src="{{ $img | relURL }}" alt="Portada {{ $titolIdioma }}" class="publicacio-idioma-portada" loading="lazy" width="130">
+          {{ else }}
+            <span class="publicacio-idioma-placeholder">{{ $titolIdioma }}</span>
+          {{ end }}
+          </a>
+          <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener" class="publicacio-idioma-pdf">{{ $titolIdioma }} (PDF)</a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
   {{/* Llistat dinàmic: el JS l'injecta dins l'acordió ## Llistat */}}
   {{ if .Pages }}
   <section class="llistat-cronologic" id="llistat" aria-hidden="true">
