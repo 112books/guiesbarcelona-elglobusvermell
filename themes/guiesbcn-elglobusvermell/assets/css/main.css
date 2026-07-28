@@ -1282,20 +1282,19 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 /* Banda de color horitzontal a la capçalera */
 .publicacio-banda {
-  height: 5px;
+  height: 30px;
   background: var(--pub-color, var(--color-accent));
   margin: 0 calc(-1 * var(--space-md)) var(--space-lg);
 }
 
 /* Capçalera: títol + edició amb accent de color */
 .publicacio-cap {
-  border-left: 4px solid var(--pub-color, var(--color-accent));
-  padding-left: var(--space-md);
   margin-bottom: var(--space-lg);
 }
 
 .publicacio-cap h1 {
   margin: 0 0 0.25rem;
+  color: var(--pub-color, var(--color-text));
 }
 
 .publicacio-edicio {
