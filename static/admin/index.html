@@ -60,11 +60,8 @@
       max-width: 600px;
       width: 100%;
     }
-    .hub-grid .hub-card:last-child:nth-child(odd) {
+    .hub-card--wide {
       grid-column: 1 / -1;
-      max-width: 280px;
-      margin: 0 auto;
-      width: 100%;
     }
 
     .hub-card {
@@ -157,7 +154,7 @@
   <main class="hub-main">
     <div class="hub-grid">
 
-      <a href="stats/" class="hub-card">
+      <a href="stats/" class="hub-card hub-card--wide">
         <div class="hub-card-icon">
           <!-- Bar chart, stroke only, architectural style -->
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
