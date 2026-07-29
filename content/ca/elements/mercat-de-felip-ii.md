@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original: Estudi AGR (Josep Anglada, Daniel Gelabert i Josep
     Ribas). 1966'
   tipus: Remodelació
-lat: 41.4220089
-long: 2.1850631
+lat: 41.4222131
+long: 2.1852917
 publicacions:
 - mercats
 title: Mercat de Felip II

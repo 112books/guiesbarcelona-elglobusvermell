@@ -1,13 +1,13 @@
 ---
-title: Adaptació d’un convent per a escola del CENU
-draft: false
-adreca: "C. de Larrard, 13"
+adreca: C. de Larrard, 13
 any: 1936
-lat: 41.4111779967522
-long: 2.15533418967028
-publicacions:
-  - gatcpac
 arquitectes:
-  - Antoni Fisas
-descripcio: ""
+- Antoni Fisas
+descripcio: ''
+draft: false
+lat: 41.411178
+long: 2.1553342
+publicacions:
+- gatcpac
+title: Adaptació d’un convent per a escola del CENU
 ---

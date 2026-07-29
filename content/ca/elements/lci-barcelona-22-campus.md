@@ -1,17 +1,17 @@
 ---
-title: LCI Barcelona 22@ Campus
-draft: false
 adreca: Àlaba, 124
-lat: 41.3994771
-long: 2.1900847
 any: '2024'
-publicacions:
-- 09-25
 arquitectes:
 - Circular Studio
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2024'
   autors: Circular Studio
-  any: '2024'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3995013
+long: 2.1902047
+publicacions:
+- 09-25
+title: LCI Barcelona 22@ Campus
 ---

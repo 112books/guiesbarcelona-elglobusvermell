@@ -1,17 +1,17 @@
 ---
-title: Escola Thau
-draft: false
 adreca: Ctra. d’Esplugues 49-53
-lat: 41.3591981
-long: 2.0715928
 any: '1975'
-publicacions:
-- 50-75
 arquitectes:
 - Oriol Bohigas, Josep Maria Martorell i David Mackay
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1975'
   autors: Oriol Bohigas, Josep Maria Martorell i David Mackay
-  any: '1975'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3878401
+long: 2.1052048
+publicacions:
+- 50-75
+title: Escola Thau
 ---

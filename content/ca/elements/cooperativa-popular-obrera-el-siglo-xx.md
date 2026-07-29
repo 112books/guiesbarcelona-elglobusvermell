@@ -14,8 +14,8 @@ intervencions:
     a principis dels anys noranta i ara, gràcies a l’acció veïnal, l’edifici afronta
     una reforma per esdevenir equipament públic.
   tipus: Projecte
-lat: 41.3817288
-long: 2.1891346
+lat: 41.3817664
+long: 2.1891521
 publicacions:
 - barceloneta
 title: Cooperativa Popular Obrera El Siglo XX

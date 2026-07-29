@@ -1,17 +1,17 @@
 ---
-title: Edifici d’oficines Monitor
-draft: false
 adreca: Tuset 8-10
-lat: 41.3959554
-long: 2.151957
 any: '1961'
-publicacions:
-- 50-75
 arquitectes:
 - Francesc Mitjans i Miró
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1961'
   autors: Francesc Mitjans i Miró
-  any: '1961'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3962381
+long: 2.1533284
+publicacions:
+- 50-75
+title: Edifici d’oficines Monitor
 ---

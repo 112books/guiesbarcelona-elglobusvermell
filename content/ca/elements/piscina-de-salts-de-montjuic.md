@@ -1,14 +1,14 @@
 ---
-title: Piscina de salts de Montjuïc
-draft: false
 adreca: Av. Miramar, 31
-lat: 41.3690547
-long: 2.1654635
+draft: false
+intervencions:
+- any: '1992'
+  autors: Antoni de Moragas i Spa
+  descripcio: 'Projecte original: Josep Serra Robert. 1929'
+  tipus: Reforma
+lat: 41.3692026
+long: 2.1650363
 publicacions:
 - 76-08
-intervencions:
-- tipus: Reforma
-  autors: Antoni de Moragas i Spa
-  any: '1992'
-  descripcio: 'Projecte original: Josep Serra Robert. 1929'
+title: Piscina de salts de Montjuïc
 ---

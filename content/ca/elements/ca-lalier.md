@@ -32,8 +32,8 @@ intervencions:
     BIT Habitat, de l’Ajuntament de Barcelona, i l’empresa Cisco, totes dues usuàries
     actuals del complex.'
   tipus: Remodelació
-lat: 41.4148075
-long: 2.2113393
+lat: 41.4098635
+long: 2.2036305
 proteccio: C
 publicacions:
 - poblenou

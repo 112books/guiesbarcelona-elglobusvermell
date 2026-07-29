@@ -1,13 +1,13 @@
 ---
-title: "Edifici d’habitatges, carrer Pàdua"
-draft: false
-adreca: "C. de Pàdua, 96"
+adreca: C. de Pàdua, 96
 any: 1933
-lat: 41.4042199704318
-long: 2.14381409972391
-publicacions:
-  - gatcpac
 arquitectes:
-  - Sixte Illescas
-descripcio: ""
+- Sixte Illescas
+descripcio: ''
+draft: false
+lat: 41.40422
+long: 2.1438141
+publicacions:
+- gatcpac
+title: Edifici d’habitatges, carrer Pàdua
 ---

@@ -11,8 +11,8 @@ intervencions:
   autors: Luis Castellón
   descripcio: 'Categoria: Fàbrica Fàbrica tèxtil. Actualment, sense ús.'
   tipus: Projecte
-lat: 41.4147803
-long: 2.209102
+lat: 41.4144712
+long: 2.2091284
 proteccio: C
 publicacions:
 - poblenou

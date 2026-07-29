@@ -11,8 +11,8 @@ intervencions:
     original, però incrementa la superfície envidrada i afegeix nous elements estructurals
     i voladissos per reforçar la relació amb l’espai públic.'
   tipus: Remodelació
-lat: 41.3799145
-long: 2.1893886
+lat: 41.3802081
+long: 2.1893224
 publicacions:
 - 76-08
 - barceloneta

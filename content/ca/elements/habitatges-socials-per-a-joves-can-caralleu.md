@@ -1,19 +1,19 @@
 ---
-title: Habitatges socials per a joves Can Caralleu
-draft: false
 adreca: Av. Josep Vicenç Foix, 122
-lat: 41.3973587
-long: 2.119829
 any: '2008'
+arquitectes:
+- Peris+Toral
+draft: false
+intervencions:
+- any: '2008'
+  autors: Peris+Toral
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4010362
+long: 2.1147298
 publicacions:
 - 76-08
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Peris+Toral
-intervencions:
-- tipus: Projecte
-  autors: Peris+Toral
-  any: '2008'
-  descripcio: ''
+title: Habitatges socials per a joves Can Caralleu
 ---

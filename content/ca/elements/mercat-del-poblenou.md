@@ -1,15 +1,15 @@
 ---
-title: Mercat del Poblenou
-foto: /img/elements/mercat-del-poblenou.jpg
-draft: false
 adreca: Pl. de la Unió, 25
-lat: 41.400995
-long: 2.2054195
+draft: false
+foto: /img/elements/mercat-del-poblenou.jpg
+intervencions:
+- any: '2005'
+  autors: G56
+  descripcio: 'Projecte original: Pere Falqués i Urpí. 1889'
+  tipus: Remodelació
+lat: 41.400881
+long: 2.2052515
 publicacions:
 - mercats
-intervencions:
-- tipus: Remodelació
-  autors: G56
-  any: '2005'
-  descripcio: 'Projecte original: Pere Falqués i Urpí. 1889'
+title: Mercat del Poblenou
 ---

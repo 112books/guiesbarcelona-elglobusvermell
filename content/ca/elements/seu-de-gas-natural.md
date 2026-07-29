@@ -1,19 +1,19 @@
 ---
-title: Seu de Gas Natural
-draft: false
 adreca: Dr. Aiguader, 38
-lat: 41.3829329
-long: 2.1864684
 any: '2006'
+arquitectes:
+- EMBT (Enric Miralles i Benedetta Tagliabue)
+draft: false
+intervencions:
+- any: '2006'
+  autors: EMBT (Enric Miralles i Benedetta Tagliabue)
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3834469
+long: 2.190492
 publicacions:
 - 76-08
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- EMBT (Enric Miralles i Benedetta Tagliabue)
-intervencions:
-- tipus: Projecte
-  autors: EMBT (Enric Miralles i Benedetta Tagliabue)
-  any: '2006'
-  descripcio: ''
+title: Seu de Gas Natural
 ---

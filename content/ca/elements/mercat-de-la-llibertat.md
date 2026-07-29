@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original: Miquel Pasqual i Tintorer i Francesc Berenguer i
     Mestres (decoració). 1888'
   tipus: Remodelació
-lat: 41.3996998
-long: 2.1537198
+lat: 41.399828
+long: 2.1535624
 publicacions:
 - mercats
 title: Mercat de la Llibertat

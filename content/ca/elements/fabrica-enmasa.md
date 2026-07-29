@@ -1,17 +1,17 @@
 ---
-title: Fàbrica Enmasa
-draft: false
 adreca: Sant Adrià 55-79
-lat: 41.4355824
-long: 2.1984643
 any: '1958'
-publicacions:
-- 50-75
 arquitectes:
 - Robert Terradas i Via
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1958'
   autors: Robert Terradas i Via
-  any: '1958'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4363082
+long: 2.1999852
+publicacions:
+- 50-75
+title: Fàbrica Enmasa
 ---

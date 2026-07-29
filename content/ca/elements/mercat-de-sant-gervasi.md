@@ -1,14 +1,14 @@
 ---
-title: Mercat de Sant Gervasi
-draft: false
 adreca: Pl. Joaquim Folguera, 6
-lat: 41.4056154
-long: 2.138591
+draft: false
+intervencions:
+- any: '2002'
+  autors: Valeri Consultors Associats
+  descripcio: 'Projecte original: 1968'
+  tipus: Remodelació
+lat: 41.4055596
+long: 2.1384509
 publicacions:
 - mercats
-intervencions:
-- tipus: Remodelació
-  autors: Valeri Consultors Associats
-  any: '2002'
-  descripcio: 'Projecte original: 1968'
+title: Mercat de Sant Gervasi
 ---

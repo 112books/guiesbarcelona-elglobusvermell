@@ -1,16 +1,16 @@
 ---
-title: Plaça de Rosa Peraulet
-draft: false
 adreca: Llull, 214 + C. Bilbao, 41-48 + C. Ramon Turró, 201
-lat: 41.410522
-long: 2.2147796
+descripcio: 'Equipament: Biblioteca Poblenou – Manuel Arranz Rosa Peraulet. Habitant
+  del barri de barraques de la Perona i treballadora de la Fabra i Coats, durant els
+  primers anys del franquisme va organitzar una vaga per reivindicar que les dones
+  casades poguessin treballar.'
+draft: false
+lat: 41.4019149
+long: 2.2040772
 publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
 - nomenclator-femeni
-descripcio: 'Equipament: Biblioteca Poblenou – Manuel Arranz Rosa Peraulet. Habitant
-  del barri de barraques de la Perona i treballadora de la Fabra i Coats, durant els
-  primers anys del franquisme va organitzar una vaga per reivindicar que les dones
-  casades poguessin treballar.'
+title: Plaça de Rosa Peraulet
 ---

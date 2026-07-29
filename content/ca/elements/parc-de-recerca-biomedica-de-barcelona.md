@@ -14,8 +14,8 @@ intervencions:
     del mar. La característica façana, recoberta de làmines de fusta, permet filtrar
     la radiació solar i donar-li una imatge unitària.
   tipus: Projecte
-lat: 41.3851209
-long: 2.1939907
+lat: 41.3851129
+long: 2.1941444
 publicacions:
 - barceloneta
 title: Parc de Recerca Biomèdica de Barcelona

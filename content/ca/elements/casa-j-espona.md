@@ -1,13 +1,13 @@
 ---
-title: Casa J. Espona
-draft: false
-adreca: "C. Camp d’en Vidal, 16"
+adreca: C. Camp d’en Vidal, 16
 any: 1933
-lat: 41.3979082775683
-long: 2.14679812565362
-publicacions:
-  - gatcpac
 arquitectes:
-  - Raimon Duran Reynals
-descripcio: ""
+- Raimon Duran Reynals
+descripcio: ''
+draft: false
+lat: 41.3979083
+long: 2.1467981
+publicacions:
+- gatcpac
+title: Casa J. Espona
 ---

@@ -1,10 +1,10 @@
 ---
-title: Tres illes d’habitatges a l’Eixample de Cerdà
-draft: false
 adreca: Ramon Turró, s/n
-lat: 41.3909145
-long: 2.1909276
+descripcio: 'Projecte: Carlos Ferrater. 1992 Premi Dècada'
+draft: false
+lat: 41.3950014
+long: 2.1948053
 publicacions:
 - 76-08
-descripcio: 'Projecte: Carlos Ferrater. 1992 Premi Dècada'
+title: Tres illes d’habitatges a l’Eixample de Cerdà
 ---

@@ -8,8 +8,8 @@ descripcio: '2 Més info: Fins al 1992 hi va haver l’antiga fàbrica Damm. Hi 
   1978.'
 draft: false
 foto: /img/elements/jardins-de-montserrat-roig.jpg
-lat: 41.4089989
-long: 2.1783762
+lat: 41.4086784
+long: 2.1788638
 obertura: '1996'
 publicacions:
 - interiors-illa

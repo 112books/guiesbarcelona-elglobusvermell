@@ -35,8 +35,8 @@ intervencions:
     referència a l’activitat original de la fàbrica) per filtrar la llum del sol que
     penetra cap a l’interior.'
   tipus: Ampliació
-lat: 41.409698
-long: 2.1913483
+lat: 41.4067833
+long: 2.1949937
 proteccio: C
 publicacions:
 - poblenou

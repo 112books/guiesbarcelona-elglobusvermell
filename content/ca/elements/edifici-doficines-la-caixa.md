@@ -10,8 +10,8 @@ intervencions:
   autors: Xavier Busquets Sindreu
   descripcio: ''
   tipus: Projecte
-lat: 41.3961415
-long: 2.1574363
+lat: 41.3950749
+long: 2.1525893
 publicacions:
 - 50-75
 title: Edifici d’oficines La Caixa

@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Navas 240
-draft: false
 adreca: Navas de Tolosa, 240
-lat: 41.4134713
-long: 2.1894638
 any: '1931'
-publicacions:
-- gatcpac
 arquitectes:
 - Joan Baca
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1931'
   autors: Joan Baca
-  any: '1931'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4135148
+long: 2.1895829
+publicacions:
+- gatcpac
+title: Edifici d’habitatges, carrer Navas 240
 ---

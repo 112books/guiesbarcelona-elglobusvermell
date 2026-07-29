@@ -7,8 +7,8 @@ descripcio: '2 Manuel de Pedrolo i Molina. (L’Aranyó, 1918 – Barcelona, 199
   conviccions ideològiques.'
 draft: false
 foto: /img/elements/jardins-de-manuel-de-pedrolo.jpg
-lat: 41.4006116
-long: 2.1804927
+lat: 41.4009654
+long: 2.1802057
 obertura: '1997'
 publicacions:
 - interiors-illa

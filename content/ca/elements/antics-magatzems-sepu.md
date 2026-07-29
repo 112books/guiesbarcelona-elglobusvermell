@@ -1,14 +1,14 @@
 ---
-title: Antics magatzems SEPU
-draft: false
-adreca: "Rambla dels Estudis, 122"
+adreca: Rambla dels Estudis, 122
 any: 1934
-lat: 41.3839162557238
-long: 2.17089881405251
-publicacions:
-  - gatcpac
 arquitectes:
-  - Ricard de Churruca
-  - Ricard Ribas
-descripcio: ""
+- Ricard de Churruca
+- Ricard Ribas
+descripcio: ''
+draft: false
+lat: 41.3839163
+long: 2.1708988
+publicacions:
+- gatcpac
+title: Antics magatzems SEPU
 ---

@@ -10,8 +10,8 @@ descripcio: '2 Equipament: Centre Cultural Palau Robert . Hi ha l’escultura La
   de la Generalitat de Catalunya.'
 draft: false
 foto: /img/elements/jardins-del-palau-robert.jpg
-lat: 41.393895
-long: 2.1558648
+lat: 41.395898
+long: 2.1590344
 obertura: '1987'
 publicacions:
 - interiors-illa

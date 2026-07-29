@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original: 1877 / 1903 (xemeneia) Categoria: Fàbrica amb xemeneia
     Farinera La Fama. Actualment, habitatges.'
   tipus: Remodelació
-lat: 41.40405
-long: 2.1907863
+lat: 41.3970319
+long: 2.2005569
 proteccio: C
 publicacions:
 - poblenou

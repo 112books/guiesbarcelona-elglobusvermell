@@ -8,8 +8,8 @@ descripcio: '2 Equipaments: Escola bressol “Casa dels Nens” Carme Biada. (Ba
   catalanes i va endegar un projecte de fabricació de motors d’aviació.'
 draft: false
 foto: /img/elements/jardins-de-carme-biada.jpg
-lat: 41.3989241
-long: 2.1632214
+lat: 41.3983666
+long: 2.1628735
 obertura: '2007'
 publicacions:
 - interiors-illa

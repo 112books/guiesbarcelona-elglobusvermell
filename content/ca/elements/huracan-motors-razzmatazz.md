@@ -11,8 +11,8 @@ intervencions:
   descripcio: 'Categoria: Fàbrica Fàbrica de motors. Actualment, sala de concerts
     i discoteca Razzmatazz.'
   tipus: Projecte
-lat: 41.3977318
-long: 2.1910699
+lat: 41.397763
+long: 2.1910938
 proteccio: C
 publicacions:
 - poblenou

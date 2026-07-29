@@ -1,13 +1,13 @@
 ---
-title: Grup escolar Blanquerna
-draft: false
-adreca: "Via Augusta, 140"
+adreca: Via Augusta, 140
 any: 1932
-lat: 41.4005041943845
-long: 2.14478186418618
-publicacions:
-  - gatcpac
 arquitectes:
-  - Jaume Mestres
-descripcio: ""
+- Jaume Mestres
+descripcio: ''
+draft: false
+lat: 41.4005042
+long: 2.1447819
+publicacions:
+- gatcpac
+title: Grup escolar Blanquerna
 ---

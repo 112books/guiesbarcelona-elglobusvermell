@@ -1,16 +1,16 @@
 ---
-title: Les Escales Park
+adreca: C. de Sor Eulàlia d'Anzizu, 46
+any: 1973
+arquitectes:
+- Josep Lluís Sert
+descripcio: ''
 draft: false
 foto: /img/elements/les-escales-park.jpg
-adreca: "C. de Sor Eulàlia d'Anzizu, 46"
-any: 1973
-lat: 41.3921464959702
-long: 2.11580873930395
+lat: 41.3921465
+long: 2.1158087
 publicacions:
-  - 50-75
-arquitectes:
-  - Josep Lluís Sert
+- 50-75
 temes_transversals:
-  - espai-public
-descripcio: ""
+- espai-public
+title: Les Escales Park
 ---

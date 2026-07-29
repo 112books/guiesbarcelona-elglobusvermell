@@ -6,8 +6,8 @@ arquitectes:
 - Gil
 descripcio: 'Projecte: Bonell i Gil. 1994 Premi Ciutat de Barcelona'
 draft: false
-lat: 41.3838446
-long: 2.171427
+lat: 41.3838544
+long: 2.1714858
 publicacions:
 - 76-08
 title: Aparthotel Citadines

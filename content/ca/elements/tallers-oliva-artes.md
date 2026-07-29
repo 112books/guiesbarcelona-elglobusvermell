@@ -17,8 +17,8 @@ intervencions:
   descripcio: 'Categoria: Fàbrica Tallers de construcció mecànica. Actualment un edifici
     és la seu del MUHBA Oliva Artés i l’altre és de la Guàrdia Urbana.'
   tipus: Remodelació
-lat: 41.4086025
-long: 2.2010791
+lat: 41.4083812
+long: 2.2015139
 proteccio: C
 publicacions:
 - poblenou

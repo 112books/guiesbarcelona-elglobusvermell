@@ -12,8 +12,8 @@ intervencions:
     rica complexitat volumètrica. En destaca la façana marítima, tota vidriada i protegida
     del sol per una profunda retícula de formigó, a mode de gegant brise-soleil .
   tipus: Projecte
-lat: 41.3802682
-long: 2.1922881
+lat: 41.3802883
+long: 2.1923664
 publicacions:
 - barceloneta
 title: Centre Cívic Barceloneta

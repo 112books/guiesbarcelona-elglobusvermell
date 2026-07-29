@@ -1,19 +1,19 @@
 ---
-title: Edifici d’habitatges Aprop Ciutat Vella
-draft: false
 adreca: Nou de Sant Francesc, 10
-lat: 41.37903
-long: 2.1770246
 any: '2018'
+arquitectes:
+- Straddle3
+draft: false
+intervencions:
+- any: '2018'
+  autors: Straddle3
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3790153
+long: 2.177016
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Straddle3
-intervencions:
-- tipus: Projecte
-  autors: Straddle3
-  any: '2018'
-  descripcio: ''
+title: Edifici d’habitatges Aprop Ciutat Vella
 ---

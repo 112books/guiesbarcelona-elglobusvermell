@@ -14,8 +14,8 @@ intervencions:
     Sant Sebastià és una gran estructura metàl·lica de 78,4 metres d’alçada, amb l’estació
     de cabines i un restaurant a la part superior.
   tipus: Projecte
-lat: 41.3731601
-long: 2.1877922
+lat: 41.3732026
+long: 2.1877908
 publicacions:
 - barceloneta
 title: Torre de Sant Sebastià

@@ -1,17 +1,17 @@
 ---
-title: Habitatges per a joves
-draft: false
 adreca: Ali Bei, 94
-lat: 41.3957287
-long: 2.1839151
 any: '2007'
-publicacions:
-- 76-08
 arquitectes:
 - Conxita Balcells
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2007'
   autors: Conxita Balcells
-  any: '2007'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3955989
+long: 2.1841225
+publicacions:
+- 76-08
+title: Habitatges per a joves
 ---

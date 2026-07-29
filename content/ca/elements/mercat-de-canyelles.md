@@ -1,10 +1,10 @@
 ---
-title: Mercat de Canyelles
-draft: false
 adreca: Antonio Machado, 10
-lat: 41.4419643
-long: 2.1643952
+descripcio: 'Projecte original: Albert de Pablo. 1987'
+draft: false
+lat: 41.4418303
+long: 2.1643262
 publicacions:
 - mercats
-descripcio: 'Projecte original: Albert de Pablo. 1987'
+title: Mercat de Canyelles
 ---

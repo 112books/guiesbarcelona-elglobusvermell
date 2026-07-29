@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original: Josep Mas i Vilà i Josep Buxareu. 1848 Premi Ciutat
     de Barcelona'
   tipus: Remodelació
-lat: 41.3863594
-long: 2.1781611
+lat: 41.3864017
+long: 2.1781583
 publicacions:
 - 76-08
 - mercats

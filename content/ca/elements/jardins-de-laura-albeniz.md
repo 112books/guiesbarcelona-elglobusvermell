@@ -5,8 +5,8 @@ descripcio: 2 Laura Albéniz Jordana. (Barcelona, 1890 – 1944). Il·lustradora
   Se la considera precursora de l’Art Déco a Catalunya juntament amb Xavier Gosé.
 draft: false
 foto: /img/elements/jardins-de-laura-albeniz.jpg
-lat: 41.3961775
-long: 2.1627466
+lat: 41.3965913
+long: 2.163007
 obertura: '2009'
 publicacions:
 - interiors-illa

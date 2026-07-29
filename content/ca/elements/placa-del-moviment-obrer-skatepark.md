@@ -17,8 +17,8 @@ intervencions:
     del barri. A més, hi ha un ampli skatepark , projecte de Straddle3 d’uns 2.000
     m2 amb bowls i sets d’escales.
   tipus: Projecte
-lat: 41.3585803
-long: 2.1400585
+lat: 41.3566965
+long: 2.1411588
 publicacions:
 - marina
 temes_transversals:

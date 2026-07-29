@@ -30,8 +30,8 @@ intervencions:
     vells fantasmes» acullin els nous usuaris per, junts, imaginar mons diferents
     i crear noves ficcions.'
   tipus: Remodelació
-lat: 41.4047787
-long: 2.1994806
+lat: 41.4047134
+long: 2.1994358
 proteccio: D
 publicacions:
 - 76-08

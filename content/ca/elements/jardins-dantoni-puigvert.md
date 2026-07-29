@@ -5,8 +5,8 @@ descripcio: 2 Antoni Puigvert i Gorro. (Santa Coloma de Gramenet, 1905 – Barce
   en urologia reconegut com un dels més prestigiosos arreu del món en la seva especialitat.
 draft: false
 foto: /img/elements/jardins-dantoni-puigvert.jpg
-lat: 41.4048571
-long: 2.1683463
+lat: 41.4045005
+long: 2.1688982
 obertura: '1999'
 publicacions:
 - interiors-illa

@@ -1,17 +1,17 @@
 ---
-title: Piscina Sant Jordi
-draft: false
 adreca: Paris 114
-lat: 41.3884654
-long: 2.1469055
 any: '1966'
-publicacions:
-- 50-75
 arquitectes:
 - Manuel Baldrich
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1966'
   autors: Manuel Baldrich
-  any: '1966'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3892445
+long: 2.1477587
+publicacions:
+- 50-75
+title: Piscina Sant Jordi
 ---

@@ -1,15 +1,15 @@
 ---
-title: Xemeneia de l’Electrolisis
-draft: false
 adreca: Camí Antic de València 37-39
-lat: 41.4041901
-long: 2.2003075
+draft: false
+intervencions:
+- any: Principis s. xix
+  descripcio: 'Categoria: Xemeneia'
+  tipus: Projecte
+lat: 41.4043941
+long: 2.2004089
 projecte_text: Principis s. xix
+proteccio: C
 publicacions:
 - poblenou
-proteccio: C
-intervencions:
-- tipus: Projecte
-  any: Principis s. xix
-  descripcio: 'Categoria: Xemeneia'
+title: Xemeneia de l’Electrolisis
 ---

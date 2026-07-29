@@ -12,8 +12,8 @@ descripcio: '2 Equipament : Universitat Central. L’edifici històric de la Uni
   extens.'
 draft: false
 foto: /img/elements/jardi-de-ferran-soldevila-jardins-de-la-universitat-de-barcelona.jpg
-lat: 41.3870898
-long: 2.1637493
+lat: 41.3862968
+long: 2.1630256
 obertura: '1871'
 publicacions:
 - interiors-illa

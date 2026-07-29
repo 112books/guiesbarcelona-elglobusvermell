@@ -10,8 +10,8 @@ intervencions:
   autors: Oriol Bohigas i Guardiola i Josep Maria Martorell i Codina
   descripcio: ''
   tipus: Projecte
-lat: 41.407999
-long: 2.2068565
+lat: 41.4053504
+long: 2.2030692
 publicacions:
 - 50-75
 title: Edifici d’habitatges, carrer Pallars

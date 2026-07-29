@@ -1,11 +1,11 @@
 ---
-title: Jardins de Menorca – Treball – Huelva – Selva de Mar
-draft: false
 adreca: Menorca, 50-62 + C. Treball, 263-279 + C. Huelva, 79-91 + C. Selva de Mar,
   250-260
-lat: 41.4229409
-long: 2.2021818
+descripcio: ''
+draft: false
+lat: 41.4187598
+long: 2.1970186
 publicacions:
 - interiors-illa
-descripcio: ''
+title: Jardins de Menorca – Treball – Huelva – Selva de Mar
 ---

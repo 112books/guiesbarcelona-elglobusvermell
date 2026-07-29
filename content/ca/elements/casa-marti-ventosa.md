@@ -1,21 +1,21 @@
 ---
-title: Casa Martí Ventosa
-draft: false
 adreca: Pg. Joan de Borbó 22-23 + Mar 44-46
-lat: 41.3795673
-long: 2.187808
 any: '1935'
-publicacions:
-- barceloneta
-proteccio: B
 arquitectes:
 - Manuel Puig Janer
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1935'
   autors: Manuel Puig Janer
-  any: '1935'
   descripcio: Gran edifici d’habitatges de certa inspiració parisenca, especialment
     visible en la mansarda de l’últim pis i les tribunes circulars de les cantonades,
     coronades amb una cúpula. També és remarcable el relleu escultòric amb temàtica
     marina situat sobre la porta d’accés.
+  tipus: Projecte
+lat: 41.3795994
+long: 2.187796
+proteccio: B
+publicacions:
+- barceloneta
+title: Casa Martí Ventosa
 ---

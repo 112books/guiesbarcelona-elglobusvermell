@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Juan de Garay
-draft: false
 adreca: Juan de Garay 35 / Ptge. d’Artemis
-lat: 41.4192366
-long: 2.1826312
 any: '1967'
-publicacions:
-- 50-75
 arquitectes:
 - Rafael Serra Florensa
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1967'
   autors: Rafael Serra Florensa
-  any: '1967'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4192724
+long: 2.1826539
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Juan de Garay
 ---

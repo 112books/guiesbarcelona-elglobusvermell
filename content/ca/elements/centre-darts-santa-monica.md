@@ -1,14 +1,14 @@
 ---
-title: Centre d’Arts Santa Mònica
-draft: false
 adreca: La Rambla, 7
-lat: 41.3772678
-long: 2.1758971
+draft: false
+intervencions:
+- any: '2003'
+  autors: Albert Viaplana
+  descripcio: 'Projecte: Viaplana / Piñón. 1989 Premi Ciutat de Barcelona'
+  tipus: Reforma
+lat: 41.3771795
+long: 2.1758214
 publicacions:
 - 76-08
-intervencions:
-- tipus: Reforma
-  autors: Albert Viaplana
-  any: '2003'
-  descripcio: 'Projecte: Viaplana / Piñón. 1989 Premi Ciutat de Barcelona'
+title: Centre d’Arts Santa Mònica
 ---

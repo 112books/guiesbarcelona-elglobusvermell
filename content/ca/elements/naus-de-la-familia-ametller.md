@@ -11,8 +11,8 @@ intervencions:
   descripcio: 'Rehabilitació: G56. 2008 Categoria: Fàbrica Magatzems per llogar (llogaters:
     Galetes Solsona). Actualment, oficines.'
   tipus: Projecte
-lat: 41.4297209
-long: 2.2174795
+lat: 41.3954112
+long: 2.1987205
 proteccio: C
 publicacions:
 - poblenou

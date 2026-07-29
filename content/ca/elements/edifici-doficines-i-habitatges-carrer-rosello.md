@@ -10,8 +10,8 @@ intervencions:
   autors: Robert Terradas i Via
   descripcio: ''
   tipus: Projecte
-lat: 41.3953178
-long: 2.1597647
+lat: 41.3953608
+long: 2.159755
 publicacions:
 - 50-75
 title: Edifici d’oficines i habitatges, carrer Roselló

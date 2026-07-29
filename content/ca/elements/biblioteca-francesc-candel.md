@@ -15,8 +15,8 @@ intervencions:
     concretament el de la fàbrica de llums i bombetes elèctriques d’aquesta marca
     construïda el 1954.
   tipus: Remodelació
-lat: 41.361716
-long: 2.1362105
+lat: 41.3616447
+long: 2.1360628
 publicacions:
 - biblioteques
 - marina

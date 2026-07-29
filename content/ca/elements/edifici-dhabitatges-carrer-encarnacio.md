@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Encarnació
-draft: false
 adreca: Encarnació 140
-lat: 41.4090624
-long: 2.1644488
 any: '1966'
-publicacions:
-- 50-75
 arquitectes:
 - José Antonio Coderch de Sentmenat
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1966'
   autors: José Antonio Coderch de Sentmenat
-  any: '1966'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4089911
+long: 2.1644582
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Encarnació
 ---

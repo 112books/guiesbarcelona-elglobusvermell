@@ -10,8 +10,8 @@ intervencions:
     Les façanes consten de grans obertures, disposades de manera seriada, i paraments
     opacs on es combina l’acabat pintat amb el maó vist.
   tipus: Projecte
-lat: 41.3706
-long: 2.1787
+lat: 41.3724399
+long: 2.1877051
 projecte_text: Julio Isamat Vila. 1931-1951
 publicacions:
 - barceloneta

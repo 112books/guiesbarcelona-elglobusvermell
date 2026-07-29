@@ -7,8 +7,8 @@ descripcio: 2 Cèsar Martinell i Brunet. (Valls, 1888 – Barcelona, 1973). Arqu
   Gaudinistes (1952).
 draft: false
 foto: /img/elements/jardins-de-cesar-martinell.jpg
-lat: 41.3834295
-long: 2.1598688
+lat: 41.38393
+long: 2.1596037
 obertura: '1995'
 publicacions:
 - interiors-illa

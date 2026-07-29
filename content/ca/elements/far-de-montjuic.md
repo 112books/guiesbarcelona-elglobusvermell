@@ -12,8 +12,8 @@ intervencions:
     per a les famílies dels encarregats. Avui en dia té el funcionament automatitzat
     i a l’edifici ja no hi viu ningú.
   tipus: Projecte
-lat: 41.3609341
-long: 2.1658726
+lat: 41.3611656
+long: 2.1660615
 proteccio: C
 publicacions:
 - marina

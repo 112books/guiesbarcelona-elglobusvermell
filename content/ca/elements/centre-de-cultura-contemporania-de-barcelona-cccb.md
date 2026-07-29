@@ -1,15 +1,15 @@
 ---
-title: Centre de Cultura Contemporània de Barcelona (CCCB)
-draft: false
 adreca: Montalegre, 5
-lat: 41.383693
-long: 2.1662438
-publicacions:
-- 76-08
+draft: false
 intervencions:
-- tipus: Reforma
+- any: '1993'
   autors: Viaplana / Piñón
-  any: '1993'
   descripcio: 'Projecte original: Casa de la Caritat. Josep Oriol Mestres. 1861 Premi
     Ciutat de Barcelona Premi FAD Arquitectura Premi FAD Arquitectura (Opinió)'
+  tipus: Reforma
+lat: 41.3838222
+long: 2.1668087
+publicacions:
+- 76-08
+title: Centre de Cultura Contemporània de Barcelona (CCCB)
 ---

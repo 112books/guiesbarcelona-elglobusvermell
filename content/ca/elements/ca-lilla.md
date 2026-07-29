@@ -8,8 +8,8 @@ intervencions:
     i aprestos Vicente Illa SA. Actualment, oficines i espais d’activitat comercial
     en lloguer.'
   tipus: Projecte
-lat: 41.4012232
-long: 2.1888287
+lat: 41.4160576
+long: 2.2095821
 projecte_text: Carlos Martínez Sánchez. 1930/1940
 proteccio: B / D
 publicacions:

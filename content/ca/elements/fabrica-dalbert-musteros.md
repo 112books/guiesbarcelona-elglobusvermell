@@ -10,8 +10,8 @@ intervencions:
   descripcio: 'Categoria: Fàbrica Fàbrica. Actualment, coworking , estudis d’artistes,
     sala de concerts i discoteca Razzmatazz, etc.'
   tipus: Remunta
-lat: 41.3998124
-long: 2.187159
+lat: 41.3970393
+long: 2.1915092
 projecte_text: Josep Pansas Coll (?). Inici s. xx
 proteccio: C / D
 publicacions:

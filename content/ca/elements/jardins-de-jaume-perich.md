@@ -8,8 +8,8 @@ descripcio: '2 Més info: Anteriorment hi havia hagut la Colònia tèxtil Rosal.
   diaris i revistes i va publicar una vintena de llibres.'
 draft: false
 foto: /img/elements/jardins-de-jaume-perich.jpg
-lat: 41.3636018
-long: 2.1338402
+lat: 41.3940356
+long: 2.1731586
 obertura: '2002'
 publicacions:
 - interiors-illa

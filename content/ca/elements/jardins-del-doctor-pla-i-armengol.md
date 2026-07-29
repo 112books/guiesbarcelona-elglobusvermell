@@ -1,20 +1,20 @@
 ---
-title: Jardins del Doctor Pla i Armengol
-draft: false
 adreca: Av. Mare de Déu de Montserrat, 132
-lat: 41.4159751
-long: 2.1699023
 any: '2017'
+arquitectes:
+- Espai LUR
+draft: false
+intervencions:
+- any: '2017'
+  autors: Espai LUR
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4153276
+long: 2.1706925
 publicacions:
 - 76-08
 temes_transversals:
 - dones-arquitectes
 - espai-public
-arquitectes:
-- Espai LUR
-intervencions:
-- tipus: Projecte
-  autors: Espai LUR
-  any: '2017'
-  descripcio: ''
+title: Jardins del Doctor Pla i Armengol
 ---

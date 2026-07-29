@@ -12,8 +12,8 @@ intervencions:
     Xavier Ruiz i Pere Llimona
   descripcio: ''
   tipus: Projecte
-lat: 41.4018877
-long: 2.1479173
+lat: 41.4018745
+long: 2.1479199
 publicacions:
 - 50-75
 title: Joieria Monés

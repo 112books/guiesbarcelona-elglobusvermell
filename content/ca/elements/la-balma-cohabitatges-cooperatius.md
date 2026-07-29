@@ -1,19 +1,19 @@
 ---
-title: La Balma, cohabitatges cooperatius
-draft: false
 adreca: Espronceda, 131
-lat: 41.4062556
-long: 2.2032121
 any: '2021'
+arquitectes:
+- Lacol + La Boqueria
+draft: false
+intervencions:
+- any: '2021'
+  autors: Lacol + La Boqueria
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4062797
+long: 2.2031028
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Lacol + La Boqueria
-intervencions:
-- tipus: Projecte
-  autors: Lacol + La Boqueria
-  any: '2021'
-  descripcio: ''
+title: La Balma, cohabitatges cooperatius
 ---

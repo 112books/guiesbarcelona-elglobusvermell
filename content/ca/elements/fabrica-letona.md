@@ -1,18 +1,18 @@
 ---
-title: Fàbrica Letona
-draft: false
 adreca: Pujades 25
-lat: 41.3908625
-long: 2.1856439
 any: '1955'
-publicacions:
-- poblenou
-proteccio: C
 arquitectes:
 - Francesc Espiau
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1955'
   autors: Francesc Espiau
-  any: '1955'
   descripcio: 'Categoria: Fàbrica Indústria làctica. Actualment en desús.'
+  tipus: Projecte
+lat: 41.3938384
+long: 2.1897453
+proteccio: C
+publicacions:
+- poblenou
+title: Fàbrica Letona
 ---

@@ -9,8 +9,8 @@ intervencions:
   autors: Jaume Graells
   descripcio: Francesc Boix Fotògraf. 1920-1951 Trasllat previst segons Pla 2030.
   tipus: Remodelació
-lat: 41.3739981
-long: 2.1638326
+lat: 41.374034
+long: 2.1641864
 publicacions:
 - biblioteques
 title: Biblioteca Poble Sec – Francesc Boix

@@ -1,14 +1,14 @@
 ---
-title: Fàbrica de Creació Fabra i Coats
-draft: false
 adreca: Sant Adrià, 20. Recinte Fabra i Coats
-lat: 41.4282767
-long: 2.2106995
+draft: false
+intervencions:
+- any: Manuel Ruisánchez i Francesc Bacardit (BAMMP)
+  descripcio: Premi Ciutat de Barcelona
+  tipus: Projecte
+lat: 41.4329057
+long: 2.1909947
 projecte_text: Manuel Ruisánchez i Francesc Bacardit (BAMMP)
 publicacions:
 - 09-25
-intervencions:
-- tipus: Projecte
-  any: Manuel Ruisánchez i Francesc Bacardit (BAMMP)
-  descripcio: Premi Ciutat de Barcelona
+title: Fàbrica de Creació Fabra i Coats
 ---

@@ -10,8 +10,8 @@ intervencions:
   autors: Xavier Busquets i Sindreu
   descripcio: ''
   tipus: Projecte
-lat: 41.3844673
-long: 2.1750046
+lat: 41.3844832
+long: 2.1749863
 publicacions:
 - 50-75
 title: Col·legi d’Arquitectes de Catalunya (COAC)

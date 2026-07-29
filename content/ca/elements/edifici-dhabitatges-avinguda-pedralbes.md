@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, avinguda Pedralbes
-draft: false
 adreca: Av. Pedralbes 63
-lat: 41.3942378
-long: 2.1128957
 any: '1950'
-publicacions:
-- 50-75
 arquitectes:
 - Raimon Duran i Reynals
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1950'
   autors: Raimon Duran i Reynals
-  any: '1950'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3943222
+long: 2.1133298
+publicacions:
+- 50-75
+title: Edifici d’habitatges, avinguda Pedralbes
 ---

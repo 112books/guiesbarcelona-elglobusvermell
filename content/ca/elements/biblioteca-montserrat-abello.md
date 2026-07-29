@@ -9,8 +9,8 @@ intervencions:
   descripcio: 'Montserrat Abelló Poeta i traductora. 1918-2014 Biblioteca: 1994 (en
     una altra localització)'
   tipus: Remodelació
-lat: 41.3836375
-long: 2.1353824
+lat: 41.3836259
+long: 2.1354231
 publicacions:
 - biblioteques
 temes_transversals:

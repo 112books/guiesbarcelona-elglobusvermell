@@ -1,19 +1,19 @@
 ---
-title: La Comunal. Espai cooperatiu
-draft: false
 adreca: Riera d’Escuder, 38 / En Blanco / Tenor Masini
-lat: 41.3758816
-long: 2.1320788
 any: '2019'
+arquitectes:
+- Lacol
+draft: false
+intervencions:
+- any: '2019'
+  autors: Lacol
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3758964
+long: 2.1322155
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Lacol
-intervencions:
-- tipus: Projecte
-  autors: Lacol
-  any: '2019'
-  descripcio: ''
+title: La Comunal. Espai cooperatiu
 ---

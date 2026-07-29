@@ -1,14 +1,14 @@
 ---
-title: Biblioteca El Clot - Josep Benet
+adreca: Pl. de les Glòries Catalanes, 37-38
+any: 2013
+arquitectes:
+- MBM Arquitectes
+descripcio: 'Josep Benet: Polític, historiador i editor. 1920-2008'
 draft: false
 foto: /img/elements/biblioteca-el-clot-josep-benet.jpg
-adreca: "Pl. de les Glòries Catalanes, 37-38"
-any: 2013
-lat: 41.40245894820367
-long: 2.188082404980447
+lat: 41.4024589
+long: 2.1880824
 publicacions:
-  - biblioteques
-arquitectes:
-  - MBM Arquitectes
-descripcio: "Josep Benet: Polític, historiador i editor. 1920-2008"
+- biblioteques
+title: Biblioteca El Clot - Josep Benet
 ---

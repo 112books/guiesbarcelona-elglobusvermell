@@ -1,11 +1,11 @@
 ---
-title: Torre de Sant Joan
-draft: false
 adreca: C. de Sant Joan de Malta, 44
-lat: 41.408428
-long: 2.1927828
+descripcio: Sant Joan de Malta, 44
+draft: false
+lat: 41.4083804
+long: 2.1928993
+proteccio: B
 publicacions:
 - masies
-proteccio: B
-descripcio: Sant Joan de Malta, 44
+title: Torre de Sant Joan
 ---

@@ -11,8 +11,8 @@ intervencions:
     i altres activitats. A una façana de l’edifici hi ha el gran mural Jovedelik (2020),
     de l’artista El Rughi.
   tipus: Projecte
-lat: 41.3584786
-long: 2.1442062
+lat: 41.3586699
+long: 2.1451036
 publicacions:
 - marina
 temes_transversals:

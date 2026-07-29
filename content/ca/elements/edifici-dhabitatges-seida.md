@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Mitjans i Miró
   descripcio: ''
   tipus: Projecte
-lat: 41.3915219
-long: 2.1369393
+lat: 41.3924366
+long: 2.132103
 publicacions:
 - 50-75
 title: Edifici d’habitatges Seida

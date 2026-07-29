@@ -9,8 +9,8 @@ descripcio: Al centre de la plaça hi ha la Torre de les Aigües del Besòs i la
   seva personalitat.
 draft: false
 foto: /img/elements/placa-de-ramon-calsina.jpg
-lat: 41.4145229
-long: 2.2015285
+lat: 41.4058384
+long: 2.212149
 publicacions:
 - interiors-illa
 temes_transversals:

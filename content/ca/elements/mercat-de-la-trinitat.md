@@ -1,14 +1,14 @@
 ---
-title: Mercat de la Trinitat
-draft: false
 adreca: Pedrosa, 21
-lat: 41.4486629
-long: 2.1842196
+draft: false
+intervencions:
+- any: '2001'
+  autors: JG Asociados
+  descripcio: 'Projecte original: 1977'
+  tipus: Remodelació
+lat: 41.4486415
+long: 2.184235
 publicacions:
 - mercats
-intervencions:
-- tipus: Remodelació
-  autors: JG Asociados
-  any: '2001'
-  descripcio: 'Projecte original: 1977'
+title: Mercat de la Trinitat
 ---

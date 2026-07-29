@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original: c. 1911 Categoria: Fàbrica Sucrera Compañía de Industrias
     Agrícolas. Actualment, habitatges lofts .'
   tipus: Remodelació
-lat: 41.3972585
-long: 2.2006428
+lat: 41.3961992
+long: 2.199023
 proteccio: C
 publicacions:
 - poblenou

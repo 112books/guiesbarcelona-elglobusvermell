@@ -10,8 +10,8 @@ intervencions:
   descripcio: 'Albert Pérez Baró Escriptor i sindicalista. 1902-1989 Montbau xx Biblioteca:
     1991'
   tipus: Remodelació
-lat: 41.4292634
-long: 2.1419734
+lat: 41.4292871
+long: 2.1420717
 publicacions:
 - biblioteques
 temes_transversals:

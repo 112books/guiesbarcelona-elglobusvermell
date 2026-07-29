@@ -1,17 +1,17 @@
 ---
-title: Edifici residencial
-draft: false
 adreca: Praga, 22-24
-lat: 41.4139149
-long: 2.1631913
 any: '2021'
-publicacions:
-- 09-25
 arquitectes:
 - Arquitectura-G
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2021'
   autors: Arquitectura-G
-  any: '2021'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4137216
+long: 2.1634348
+publicacions:
+- 09-25
+title: Edifici residencial
 ---

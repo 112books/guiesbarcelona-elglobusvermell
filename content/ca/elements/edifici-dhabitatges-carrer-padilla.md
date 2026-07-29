@@ -1,13 +1,13 @@
 ---
-title: "Edifici d’habitatges, carrer Padilla"
-draft: false
-adreca: "C. de Padilla, 244  "
+adreca: 'C. de Padilla, 244  '
 any: 1935
-lat: 41.4058403756574
-long: 2.17723924096859
-publicacions:
-  - gatcpac
 arquitectes:
-  - Sixte Illescas
-descripcio: ""
+- Sixte Illescas
+descripcio: ''
+draft: false
+lat: 41.4058404
+long: 2.1772392
+publicacions:
+- gatcpac
+title: Edifici d’habitatges, carrer Padilla
 ---

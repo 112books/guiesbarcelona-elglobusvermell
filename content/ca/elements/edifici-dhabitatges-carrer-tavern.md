@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Tavern
-draft: false
 adreca: Tavern 34 / Rector Ubach
-lat: 41.398958
-long: 2.1444593
 any: '1954'
-publicacions:
-- 50-75
 arquitectes:
 - Francisco J. Barba Corsini
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1954'
   autors: Francisco J. Barba Corsini
-  any: '1954'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3989905
+long: 2.1445035
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Tavern
 ---

@@ -8,8 +8,8 @@ descripcio: 2 Montserrat Figueras i Garcia. (Barcelona, 1942 – Bellaterra, 201
   de Sant Jordi.
 draft: false
 foto: /img/elements/jardins-de-montserrat-figueras.jpg
-lat: 41.3903539
-long: 2.1509617
+lat: 41.3907332
+long: 2.1505412
 obertura: '2016'
 publicacions:
 - interiors-illa

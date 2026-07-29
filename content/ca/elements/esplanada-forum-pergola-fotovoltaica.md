@@ -1,12 +1,12 @@
 ---
-title: Esplanada Fòrum / Pèrgola fotovoltaica
+descripcio: 'Adreça: El Besòs i el Maresme Projecte: Martínez Lapeña-Torres. 2004
+  Premi Ciutat de Barcelona 2004 Premi FAD Espais exteriors'
 draft: false
-lat: 41.4121019
-long: 2.2267862
+lat: 41.4116717
+long: 2.2252224
 publicacions:
 - 76-08
 temes_transversals:
 - espai-public
-descripcio: 'Adreça: El Besòs i el Maresme Projecte: Martínez Lapeña-Torres. 2004
-  Premi Ciutat de Barcelona 2004 Premi FAD Espais exteriors'
+title: Esplanada Fòrum / Pèrgola fotovoltaica
 ---

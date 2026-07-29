@@ -1,13 +1,13 @@
 ---
-title: "Edifici d’habitatges, carrer Balmes"
-draft: false
-adreca: "C. de Balmes, 168"
+adreca: C. de Balmes, 168
 any: 1934
-lat: 41.3949125505249
-long: 2.15549366320251
-publicacions:
-  - gatcpac
 arquitectes:
-  - Ricard Ribas
-descripcio: ""
+- Ricard Ribas
+descripcio: ''
+draft: false
+lat: 41.3949126
+long: 2.1554937
+publicacions:
+- gatcpac
+title: Edifici d’habitatges, carrer Balmes
 ---

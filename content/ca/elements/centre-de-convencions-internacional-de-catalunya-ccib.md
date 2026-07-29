@@ -1,19 +1,19 @@
 ---
-title: Centre de Convencions Internacional de Catalunya (CCIB)
-draft: false
 adreca: Pl. Willy Brandt, 14
-lat: 41.4088035
-long: 2.2182544
 any: '2004'
+arquitectes:
+- Marta Cervelló i Josep Lluís Mateo
+draft: false
+intervencions:
+- any: '2004'
+  autors: Marta Cervelló i Josep Lluís Mateo
+  descripcio: ''
+  tipus: Projecte
+lat: 41.40904
+long: 2.2194966
 publicacions:
 - 76-08
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Marta Cervelló i Josep Lluís Mateo
-intervencions:
-- tipus: Projecte
-  autors: Marta Cervelló i Josep Lluís Mateo
-  any: '2004'
-  descripcio: ''
+title: Centre de Convencions Internacional de Catalunya (CCIB)
 ---

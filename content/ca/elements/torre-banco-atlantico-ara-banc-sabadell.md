@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Mitjans i Miró
   descripcio: ''
   tipus: Projecte
-lat: 41.3875447
-long: 2.1649652
+lat: 41.3950102
+long: 2.1554874
 publicacions:
 - 50-75
 title: Torre Banco Atlántico (ara Banc Sabadell)

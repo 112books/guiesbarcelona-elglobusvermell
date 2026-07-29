@@ -10,8 +10,8 @@ intervencions:
   autors: Josep Maria Sostres i Maluquer
   descripcio: ''
   tipus: Projecte
-lat: 41.3921537
-long: 2.1699304
+lat: 41.3921653
+long: 2.1699547
 publicacions:
 - 50-75
 title: El Noticiero Universal

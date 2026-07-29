@@ -10,8 +10,8 @@ intervencions:
     hi havia la platja. Avui en dia marca el límit entre la ciutat i l’àrea industrial
     vinculada al port.
   tipus: Projecte
-lat: 41.3603011
-long: 2.1409593
+lat: 41.352109
+long: 2.1474164
 projecte_text: 1915-1920
 proteccio: D
 publicacions:

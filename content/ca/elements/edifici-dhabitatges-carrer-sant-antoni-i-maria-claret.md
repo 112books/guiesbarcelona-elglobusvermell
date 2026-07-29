@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Sant Antoni i Maria Claret
-draft: false
 adreca: Sant Antoni Maria Claret 318-332
-lat: 41.4030435
-long: 2.1634876
 any: '1957'
-publicacions:
-- 50-75
 arquitectes:
 - Antoni de Moragas i Gallissà i Francisco Ribas de Salas
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1957'
   autors: Antoni de Moragas i Gallissà i Francisco Ribas de Salas
-  any: '1957'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4147606
+long: 2.1793158
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Sant Antoni i Maria Claret
 ---

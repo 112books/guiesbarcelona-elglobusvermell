@@ -9,8 +9,8 @@ intervencions:
     dels balcons i les impressionants ornamentacions florals de les llindes de les
     obertures.'
   tipus: Projecte
-lat: 41.3812225
-long: 2.1878737
+lat: 41.3813095
+long: 2.1878592
 projecte_text: Domènec Boada Piera. 1910, aprox.
 publicacions:
 - barceloneta

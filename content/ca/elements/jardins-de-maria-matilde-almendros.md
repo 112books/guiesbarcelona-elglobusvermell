@@ -7,8 +7,8 @@ descripcio: 2 Maria Matilde Almendros i Carcasona. (Manresa, 1922 – Barcelona,
   en castellà.
 draft: false
 foto: /img/elements/jardins-de-maria-matilde-almendros.jpg
-lat: 41.3773449
-long: 2.1581315
+lat: 41.3792948
+long: 2.1562359
 obertura: '2008'
 publicacions:
 - interiors-illa

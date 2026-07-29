@@ -1,17 +1,17 @@
 ---
-title: Casa Fullà
-draft: false
 adreca: Gènova 27
-lat: 41.4564005
-long: 2.2164801
 any: '1971'
-publicacions:
-- 50-75
 arquitectes:
 - Lluís Clotet i Òscar Tusquets
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1971'
   autors: Lluís Clotet i Òscar Tusquets
-  any: '1971'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4177244
+long: 2.1693291
+publicacions:
+- 50-75
+title: Casa Fullà
 ---

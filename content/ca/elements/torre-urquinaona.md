@@ -10,8 +10,8 @@ intervencions:
   autors: Antoni Bonet Castellana i Josep Puig i Torner
   descripcio: ''
   tipus: Projecte
-lat: 41.3896866
-long: 2.1730148
+lat: 41.3897893
+long: 2.1730172
 publicacions:
 - 50-75
 title: Torre Urquinaona

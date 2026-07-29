@@ -1,13 +1,13 @@
 ---
-title: Edifici d’oficines «Entegra»
-draft: false
-adreca: "Tànger, 73 / Badajoz"
+adreca: Tànger, 73 / Badajoz
 any: 2022
-lat: 41.40185500978523
-long: 2.191609967554251
-publicacions:
-  - 09-25
 arquitectes:
-  - Batlle i Roig
-descripcio: ""
+- Batlle i Roig
+descripcio: ''
+draft: false
+lat: 41.401855
+long: 2.19161
+publicacions:
+- 09-25
+title: Edifici d’oficines «Entegra»
 ---

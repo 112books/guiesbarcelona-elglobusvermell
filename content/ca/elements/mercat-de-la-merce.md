@@ -4,8 +4,8 @@ descripcio: 'Projecte original: Estudi AGR (Josep Anglada, Daniel Gelabert i Jos
   Ribas). 1961'
 draft: false
 foto: /img/elements/mercat-de-la-merce.jpg
-lat: 41.4384482
-long: 2.1657798
+lat: 41.4305555
+long: 2.1735819
 publicacions:
 - mercats
 title: Mercat de la Mercè

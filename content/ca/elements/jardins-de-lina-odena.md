@@ -8,8 +8,8 @@ descripcio: 2 Lina Òdena García. (Barcelona, 1911 – Granada, 1936). Militant
   suïcidà d’un tret.
 draft: false
 foto: /img/elements/jardins-de-lina-odena.jpg
-lat: 41.3961848
-long: 2.1841557
+lat: 41.3962977
+long: 2.1836475
 obertura: '2003'
 publicacions:
 - interiors-illa

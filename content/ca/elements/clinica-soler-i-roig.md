@@ -1,17 +1,17 @@
 ---
-title: Clínica Soler i Roig
-draft: false
 adreca: Vallmajor 25
-lat: 41.3996015
-long: 2.138653
 any: '1954'
-publicacions:
-- 50-75
 arquitectes:
 - Francesc Mitjans i Miró
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1954'
   autors: Francesc Mitjans i Miró
-  any: '1954'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3994359
+long: 2.1386881
+publicacions:
+- 50-75
+title: Clínica Soler i Roig
 ---

@@ -5,8 +5,8 @@ descripcio: 'Biblioteca: en una altra localització, 1907. Localització actual,
 draft: false
 edifici_original: Hospital de la Santa Creu. Guillem Abiell. 1406.
 foto: /img/elements/biblioteca-de-catalunya.jpg
-lat: 41.3809166
-long: 2.1705232
+lat: 41.3806314
+long: 2.1694721
 publicacions:
 - biblioteques
 title: Biblioteca de Catalunya

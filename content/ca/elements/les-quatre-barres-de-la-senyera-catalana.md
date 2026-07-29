@@ -5,8 +5,8 @@ descripcio: 'Autoria: Ricard Bofill Levi. 2009 Quatre prismes verticals de marbr
   del mar, en referència a la forta vinculació històrica de Catalunya amb el Mediterrani.'
 draft: false
 foto: /img/elements/les-quatre-barres-de-la-senyera-catalana.jpg
-lat: 41.3685132
-long: 2.1886289
+lat: 41.3675822
+long: 2.1900329
 publicacions:
 - barceloneta
 temes_transversals:

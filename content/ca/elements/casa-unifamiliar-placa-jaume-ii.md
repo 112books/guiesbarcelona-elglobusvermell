@@ -1,17 +1,17 @@
 ---
-title: Casa unifamiliar, plaça Jaume II
-draft: false
 adreca: Pl. Jaume II, 8
-lat: 41.3983559
-long: 2.1158156
 any: '1933'
-publicacions:
-- gatcpac
 arquitectes:
 - Raimon Duran Reynals
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1933'
   autors: Raimon Duran Reynals
-  any: '1933'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3982074
+long: 2.1161522
+publicacions:
+- gatcpac
+title: Casa unifamiliar, plaça Jaume II
 ---

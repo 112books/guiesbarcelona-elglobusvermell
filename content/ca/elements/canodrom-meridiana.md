@@ -10,8 +10,8 @@ intervencions:
   autors: Antoni Bonet Castellana i Josep Puig i Torné
   descripcio: ''
   tipus: Projecte
-lat: 41.4580657
-long: 2.2053487
+lat: 41.4275249
+long: 2.1833556
 publicacions:
 - 50-75
 title: Canòdrom Meridiana

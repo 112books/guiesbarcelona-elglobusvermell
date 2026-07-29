@@ -1,11 +1,11 @@
 ---
-title: Xemeneia de la Nubiola
-draft: false
 adreca: Cristóbal de Moura 113-129 + Treball 92
-lat: 41.4090415
-long: 2.2036835
+descripcio: 'Categoria: Xemeneia'
+draft: false
+lat: 41.4117934
+long: 2.2070534
+proteccio: C
 publicacions:
 - poblenou
-proteccio: C
-descripcio: 'Categoria: Xemeneia'
+title: Xemeneia de la Nubiola
 ---

@@ -1,16 +1,16 @@
 ---
-title: La Favorita
-draft: false
 adreca: Llull 143 + Roc Boronat 45-53
-lat: 41.3989944
-long: 2.1992008
-publicacions:
-- poblenou
-proteccio: C / D
+draft: false
 intervencions:
-- tipus: Remodelació
+- any: '1945'
   autors: Manuel Rodríguez Gutiérrez
-  any: '1945'
   descripcio: 'Projecte original: Inici s. xx Categoria: Fàbrica Fàbrica de teixits.
     Actualment, seu de diverses empreses.'
+  tipus: Remodelació
+lat: 41.3989897
+long: 2.1992039
+proteccio: C / D
+publicacions:
+- poblenou
+title: La Favorita
 ---

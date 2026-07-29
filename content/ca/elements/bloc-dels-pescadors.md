@@ -13,8 +13,8 @@ intervencions:
     a la platja, utilitza materials i sistemes tradicionals (maó, persianes enrotllables…),
     però amb una composició molt més contemporània. Molt recomanable la web .
   tipus: Projecte
-lat: 41.3814346
-long: 2.1897902
+lat: 41.3814694
+long: 2.1897802
 publicacions:
 - 50-75
 - barceloneta

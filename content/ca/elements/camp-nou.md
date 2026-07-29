@@ -1,17 +1,17 @@
 ---
-title: Camp Nou
-draft: false
 adreca: Trav. de les Corts / Arístides Mallol / Av. Joan XVIII
-lat: 41.380303
-long: 2.1249699
 any: '1957'
-publicacions:
-- 50-75
 arquitectes:
 - Francesc Mitjans, Josep Soteras i Lorenzo García Barbón
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1957'
   autors: Francesc Mitjans, Josep Soteras i Lorenzo García Barbón
-  any: '1957'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3810442
+long: 2.1228397
+publicacions:
+- 50-75
+title: Camp Nou
 ---

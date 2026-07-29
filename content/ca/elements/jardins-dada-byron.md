@@ -5,8 +5,8 @@ descripcio: 2 Ada Byron. (Londres, 1815 – 1852). Matemàtica i física, fou la
   en el disseny d’una màquina analítica capaç de resoldre equacions diferencials.
 draft: false
 foto: /img/elements/jardins-dada-byron.jpg
-lat: 41.4048901
-long: 2.1942804
+lat: 41.4048214
+long: 2.1951302
 obertura: '2006'
 publicacions:
 - interiors-illa

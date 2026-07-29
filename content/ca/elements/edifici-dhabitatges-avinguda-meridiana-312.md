@@ -10,8 +10,8 @@ intervencions:
   autors: Oriol Bohigas, Josep Maria Martorell i David Mackay
   descripcio: ''
   tipus: Projecte
-lat: 41.4446429
-long: 2.1868412
+lat: 41.4238673
+long: 2.187309
 publicacions:
 - 50-75
 title: Edifici d’habitatges. avinguda Meridiana 312

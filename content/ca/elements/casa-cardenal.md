@@ -1,17 +1,17 @@
 ---
-title: Casa Cardenal
-draft: false
 adreca: C. Roger de Llúria, 132
-lat: 41.3982225
-long: 2.1622964
 any: '1935'
-publicacions:
-- gatcpac
 arquitectes:
 - Raimon Duran Reynals
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1935'
   autors: Raimon Duran Reynals
-  any: '1935'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3979235
+long: 2.1631017
+publicacions:
+- gatcpac
+title: Casa Cardenal
 ---

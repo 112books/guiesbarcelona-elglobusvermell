@@ -1,16 +1,5 @@
 ---
-title: Jardins de Maria Mercè Marçal
-draft: false
 adreca: C. Provença, 97
-lat: 41.3862413
-long: 2.1497495
-publicacions:
-- interiors-illa
-temes_transversals:
-- espai-public
-- nomenclator-femeni
-superficie: 320 m
-obertura: '2002'
 descripcio: '2 Equipaments: Espai de Gent Gran de l’Esquerra de l’Eixample + Pavelló
   d’esports de l’escola IPSI Més info: Un mural recorda que anteriorment aquest solar
   havia estat ocupat per l’editorial Sopena Maria Mercè Marçal i Serra. (Ivars d’Urgell,
@@ -20,4 +9,15 @@ descripcio: '2 Equipaments: Espai de Gent Gran de l’Esquerra de l’Eixample +
   seu activisme i els elements amb què construeix la mirada: “A l’atzar agraeixo tres
   dons: haver nascut dona, de classe baixa i nació oprimida. I el tèrbol atzur de
   ser tres voltes rebel”.'
+draft: false
+lat: 41.3864101
+long: 2.1494459
+obertura: '2002'
+publicacions:
+- interiors-illa
+superficie: 320 m
+temes_transversals:
+- espai-public
+- nomenclator-femeni
+title: Jardins de Maria Mercè Marçal
 ---

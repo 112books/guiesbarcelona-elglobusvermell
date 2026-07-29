@@ -30,8 +30,8 @@ intervencions:
     Casa de les Vàlvules (que avui acullen l’Arxiu Històric del Poblenou i són visitables),
     així com la xemeneia del carrer Llull.'
   tipus: Projecte
-lat: 41.4060918
-long: 2.2120209
+lat: 41.4059622
+long: 2.2122489
 projecte_text: Pere Falqués i Urpí. 1880-1882
 proteccio: B
 publicacions:

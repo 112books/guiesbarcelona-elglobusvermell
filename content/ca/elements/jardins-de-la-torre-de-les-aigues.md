@@ -8,8 +8,8 @@ descripcio: '2 Més info: Durant els mesos d’estiu el jardí es converteix en 
   El 1870 la torre va ser elevada un pis més per poder augmentar la pressió de l’aigua.'
 draft: false
 foto: /img/elements/jardins-de-la-torre-de-les-aigues.jpg
-lat: 41.3930512
-long: 2.1691182
+lat: 41.3934533
+long: 2.1697674
 obertura: '1985'
 publicacions:
 - interiors-illa

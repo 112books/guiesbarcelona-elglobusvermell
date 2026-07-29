@@ -3,8 +3,8 @@ descripcio: 'Pg. Valldaura / Font d’en Canyelles | Prosperitat Futura bibliote
   Pla 2030. Projecte: H Arquitectes i AR47'
 draft: false
 foto: /img/elements/biblioteca-prosperitat-ideal-plastica-flor.jpg
-lat: 41.4371
-long: 2.1688
+lat: 41.4390754
+long: 2.1774745
 publicacions:
 - biblioteques
 title: Biblioteca Prosperitat – Ideal Plàstica Flor

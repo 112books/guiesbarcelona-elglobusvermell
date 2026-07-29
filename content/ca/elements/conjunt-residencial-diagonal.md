@@ -1,17 +1,17 @@
 ---
-title: Conjunt residencial Diagonal
-draft: false
 adreca: Av. Diagonal / Ganduxer / Bori i Fontestà
-lat: 41.3862223
-long: 2.1190412
 any: '1966'
-publicacions:
-- 50-75
 arquitectes:
 - Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1966'
   autors: Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages
-  any: '1966'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3922413
+long: 2.1384468
+publicacions:
+- 50-75
+title: Conjunt residencial Diagonal
 ---

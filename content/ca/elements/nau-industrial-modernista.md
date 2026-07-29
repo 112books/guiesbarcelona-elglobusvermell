@@ -11,8 +11,8 @@ intervencions:
   descripcio: 'Categoria: Fàbrica Magatzem industrial d’estil modernista. Actualment,
     edifici municipal cedit a la Fundació Trinijove.'
   tipus: Projecte
-lat: 41.3980218
-long: 2.1957031
+lat: 41.3980792
+long: 2.1956849
 proteccio: C
 publicacions:
 - poblenou

@@ -1,17 +1,17 @@
 ---
-title: L’Auditori
-draft: false
 adreca: Lepant, 150
-lat: 41.3988917
-long: 2.1855755
 any: '1999'
-publicacions:
-- 76-08
 arquitectes:
 - Rafael Moneo
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1999'
   autors: Rafael Moneo
-  any: '1999'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3986236
+long: 2.1853447
+publicacions:
+- 76-08
+title: L’Auditori
 ---

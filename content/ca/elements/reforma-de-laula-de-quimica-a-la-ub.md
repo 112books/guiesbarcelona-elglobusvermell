@@ -1,14 +1,14 @@
 ---
-title: Reforma de l’aula de Química a la UB
-draft: false
-adreca: "Gran Via, 585"
+adreca: Gran Via, 585
 any: 1934
-lat: 41.386924153061
-long: 2.1637048713573
-publicacions:
-  - gatcpac
 arquitectes:
-  - Josep Gonzàlez
-  - Francesc Perales
-descripcio: ""
+- Josep Gonzàlez
+- Francesc Perales
+descripcio: ''
+draft: false
+lat: 41.3869242
+long: 2.1637049
+publicacions:
+- gatcpac
+title: Reforma de l’aula de Química a la UB
 ---

@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Mitjans i Miró
   descripcio: ''
   tipus: Projecte
-lat: 41.3940585
-long: 2.113537
+lat: 41.3940277
+long: 2.1135712
 publicacions:
 - 50-75
 title: Edifici d’habitatges Casa Tokio

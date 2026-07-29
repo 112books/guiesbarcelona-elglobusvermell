@@ -7,8 +7,8 @@ intervencions:
   autors: BAAS Jordi Badia
   descripcio: 'Projecte original: 1969'
   tipus: Remodelació
-lat: 41.428194
-long: 2.1442149
+lat: 41.4239287
+long: 2.142824
 publicacions:
 - mercats
 title: Mercat de la Vall d’Hebron – Teixonera

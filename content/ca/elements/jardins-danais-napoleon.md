@@ -7,8 +7,8 @@ descripcio: 2 Anaïs Napoleon (Anne Tiffon Cassan),(Narbona, 1827 – Barcelona,
   a fer retrats i targetes de visita. L’empresa es mantingué oberta fins al 1968.
 draft: false
 foto: /img/elements/jardins-danais-napoleon.jpg
-lat: 41.3366559
-long: 2.1591809
+lat: 41.3981134
+long: 2.1813094
 obertura: '2015'
 publicacions:
 - interiors-illa

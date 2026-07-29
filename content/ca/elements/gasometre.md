@@ -11,8 +11,8 @@ intervencions:
   descripcio: Estructura d’acer que subjectava un dipòsit de gas a pressió de l’antiga
     fàbrica Catalana de Gas.
   tipus: Projecte
-lat: 41.3828365
-long: 2.1924885
+lat: 41.3831882
+long: 2.1930041
 publicacions:
 - barceloneta
 title: Gasòmetre

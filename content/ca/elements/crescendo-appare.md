@@ -7,8 +7,8 @@ descripcio: 'Autoria: Mario Merz. 1992 21 cubs encastats a terra, cada un amb un
   de la sèrie, fins a estendre’s al llarg d’uns 100 metres.'
 draft: false
 foto: /img/elements/crescendo-appare.jpg
-lat: 41.3766459
-long: 2.1878557
+lat: 41.3767468
+long: 2.1878108
 publicacions:
 - barceloneta
 temes_transversals:

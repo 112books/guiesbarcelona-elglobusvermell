@@ -10,8 +10,8 @@ intervencions:
   autors: Ernesto N. Rogers, Lodovico B. Belgiojoso i Enrico Peressutti
   descripcio: ''
   tipus: Projecte
-lat: 41.3867944
-long: 2.1674382
+lat: 41.3866691
+long: 2.167475
 publicacions:
 - 50-75
 title: Edifici d’oficines Hispano Olivetti (ara hotel)

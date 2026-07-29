@@ -1,21 +1,21 @@
 ---
-title: Jardins Antònia Vilàs
-draft: false
 adreca: Balboa, 36 / Ginebra, 43
-lat: 41.3826382
-long: 2.1905921
 any: '2018'
+arquitectes:
+- Beatriz Borque i Miquel Mariné
+draft: false
+intervencions:
+- any: '2018'
+  autors: Beatriz Borque i Miquel Mariné
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3824193
+long: 2.1906763
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
 - espai-public
 - nomenclator-femeni
-arquitectes:
-- Beatriz Borque i Miquel Mariné
-intervencions:
-- tipus: Projecte
-  autors: Beatriz Borque i Miquel Mariné
-  any: '2018'
-  descripcio: ''
+title: Jardins Antònia Vilàs
 ---

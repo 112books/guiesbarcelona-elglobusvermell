@@ -1,19 +1,19 @@
 ---
-title: Entorns del Rec Comtal
-draft: false
 adreca: Pl. Primer de Maig, s/n
-lat: 41.4655435
-long: 2.1865938
 any: '2022'
+arquitectes:
+- Carles Enrich
+draft: false
+intervencions:
+- any: '2022'
+  autors: Carles Enrich
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4656537
+long: 2.1860685
 publicacions:
 - 09-25
 temes_transversals:
 - espai-public
-arquitectes:
-- Carles Enrich
-intervencions:
-- tipus: Projecte
-  autors: Carles Enrich
-  any: '2022'
-  descripcio: ''
+title: Entorns del Rec Comtal
 ---

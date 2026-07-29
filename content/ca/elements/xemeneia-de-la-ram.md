@@ -1,15 +1,15 @@
 ---
-title: Xemeneia de la Ram
-draft: false
 adreca: Pujades 292-312 + Bac de Roda 52-64
-lat: 41.4150453
-long: 2.0984271
+draft: false
+intervencions:
+- any: Segona dècada s. xx
+  descripcio: 'Categoria: Xemeneia'
+  tipus: Projecte
+lat: 41.4060047
+long: 2.2066638
 projecte_text: Segona dècada s. xx
+proteccio: D
 publicacions:
 - poblenou
-proteccio: D
-intervencions:
-- tipus: Projecte
-  any: Segona dècada s. xx
-  descripcio: 'Categoria: Xemeneia'
+title: Xemeneia de la Ram
 ---

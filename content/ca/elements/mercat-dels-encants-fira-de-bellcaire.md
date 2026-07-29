@@ -1,15 +1,16 @@
 ---
-title: Mercat dels Encants. Fira de Bellcaire
+adreca: Castillejos, 158 / Av. Meridiana, 69
+any: 2013
+arquitectes:
+- B720 Arquitectes
+descripcio: Els Encants (Fira de Bellcaire) és el gran mercat brocanter i de segona
+  mà.
 draft: false
 foto: /img/elements/mercat-dels-encants-fira-de-bellcaire.jpg
-adreca: "Castillejos, 158 / Av. Meridiana, 69"
-any: 2013
-lat: 41.401251764920275
-long: 2.1859944214128992
+lat: 41.4012518
+long: 2.1859944
 publicacions:
-  - 76-08
-  - mercats
-arquitectes:
-  - B720 Arquitectes
-descripcio: Els Encants (Fira de Bellcaire) és el gran mercat brocanter i de segona mà.
+- 76-08
+- mercats
+title: Mercat dels Encants. Fira de Bellcaire
 ---

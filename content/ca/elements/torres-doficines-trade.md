@@ -10,8 +10,8 @@ intervencions:
   autors: José Antonio Coderch de Sentmenat
   descripcio: ''
   tipus: Projecte
-lat: 41.3893
-long: 2.129
+lat: 41.3861109
+long: 2.1277434
 publicacions:
 - 50-75
 title: Torres d’oficines Trade

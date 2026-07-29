@@ -1,17 +1,17 @@
 ---
-title: Casa unifamiliar, plaça Mons
-draft: false
 adreca: Pl. Mons / G. Bécquer
-lat: 41.4133613
-long: 2.1448682
 any: '1931'
-publicacions:
-- gatcpac
 arquitectes:
 - Ricard de Churruca i Germà Rodríguez Arias
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1931'
   autors: Ricard de Churruca i Germà Rodríguez Arias
-  any: '1931'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4136086
+long: 2.1446363
+publicacions:
+- gatcpac
+title: Casa unifamiliar, plaça Mons
 ---

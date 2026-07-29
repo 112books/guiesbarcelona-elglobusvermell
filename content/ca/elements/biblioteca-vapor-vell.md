@@ -8,8 +8,8 @@ intervencions:
   autors: Josep M. Julià
   descripcio: Sants Trasllat previst segons Pla 2030
   tipus: Remodelació
-lat: 41.3768953
-long: 2.134778
+lat: 41.3767487
+long: 2.1343812
 publicacions:
 - biblioteques
 title: Biblioteca Vapor Vell

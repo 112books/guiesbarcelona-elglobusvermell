@@ -1,13 +1,13 @@
 ---
-title: "Edifici d’habitatges, carrer Rector Ubach"
-draft: false
-adreca: "C.  del Rector Ubach, 19"
+adreca: C.  del Rector Ubach, 19
 any: 1931
-lat: 41.3984904234434
-long: 2.14425260513556
-publicacions:
-  - gatcpac
 arquitectes:
-  - Antoni Fisas
-descripcio: ""
+- Antoni Fisas
+descripcio: ''
+draft: false
+lat: 41.3984904
+long: 2.1442526
+publicacions:
+- gatcpac
+title: Edifici d’habitatges, carrer Rector Ubach
 ---

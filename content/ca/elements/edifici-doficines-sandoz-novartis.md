@@ -1,17 +1,17 @@
 ---
-title: Edifici d’oficines Sandoz Novartis
-draft: false
 adreca: Gran Via 764-768 / Sardenya 208-210
-lat: 41.3636018
-long: 2.1338402
 any: '1972'
-publicacions:
-- 50-75
 arquitectes:
 - Xavier Busquets Sindreu
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1972'
   autors: Xavier Busquets Sindreu
-  any: '1972'
   descripcio: ''
+  tipus: Projecte
+lat: 41.398243
+long: 2.1805713
+publicacions:
+- 50-75
+title: Edifici d’oficines Sandoz Novartis
 ---

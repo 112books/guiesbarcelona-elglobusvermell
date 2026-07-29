@@ -1,18 +1,18 @@
 ---
-title: Tules y Encajes
-draft: false
 adreca: Perú 62-64 + Castella 56-60
-lat: 41.4147963
-long: 2.2045669
 any: '1945'
-publicacions:
-- poblenou
-proteccio: C
 arquitectes:
 - Antoni Grau Palés
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1945'
   autors: Antoni Grau Palés
-  any: '1945'
   descripcio: 'Categoria: Fàbrica Fàbrica tèxtil. Actualment, sense ús.'
+  tipus: Projecte
+lat: 41.4076612
+long: 2.1952982
+proteccio: C
+publicacions:
+- poblenou
+title: Tules y Encajes
 ---

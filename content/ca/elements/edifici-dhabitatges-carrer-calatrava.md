@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Calatrava
-draft: false
 adreca: Calatrava 2 / Rosari 45
-lat: 41.3981747
-long: 2.1318401
 any: '1968'
-publicacions:
-- 50-75
 arquitectes:
 - Pere Llimona i Xavier Ruiz i Vallès
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1968'
   autors: Pere Llimona i Xavier Ruiz i Vallès
-  any: '1968'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3981966
+long: 2.1318253
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Calatrava
 ---

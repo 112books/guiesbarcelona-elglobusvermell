@@ -1,12 +1,12 @@
 ---
-title: Jardins de l’antic Cinema Novetats
-draft: false
 adreca: Casp, 1-13
-lat: 41.388942
-long: 2.1699904
+descripcio: ''
+draft: false
+lat: 41.3894369
+long: 2.1696998
 publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
-descripcio: ''
+title: Jardins de l’antic Cinema Novetats
 ---

@@ -12,8 +12,8 @@ intervencions:
     Perpiñà i Josep Maria Ribas
   descripcio: ''
   tipus: Projecte
-lat: 41.4140238
-long: 2.1810077
+lat: 41.4258459
+long: 2.1742464
 publicacions:
 - 50-75
 title: Edifici d’habitatges, passeig Maragall

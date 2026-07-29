@@ -1,19 +1,19 @@
 ---
-title: Centre de Vida Comunitària de Trinitat Vella
-draft: false
 adreca: Via Favència, 399 / Ctra. de Ribes
-lat: 41.4472318
-long: 2.1890326
 any: '2018'
+arquitectes:
+- HazArquitectura
+draft: false
+intervencions:
+- any: '2018'
+  autors: HazArquitectura
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4478975
+long: 2.1890965
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- HazArquitectura
-intervencions:
-- tipus: Projecte
-  autors: HazArquitectura
-  any: '2018'
-  descripcio: ''
+title: Centre de Vida Comunitària de Trinitat Vella
 ---

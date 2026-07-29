@@ -1,12 +1,12 @@
 ---
-title: Reforma i millora de les places de Gràcia
+descripcio: 'Adreça: Vila de Gràcia. Places Diamant, Raspall, Sol, Trilla i Virreina
+  Projecte: Bach-Mora. 1985'
 draft: false
-lat: 41.4016246
-long: 2.1567108
+lat: 41.4027152
+long: 2.1580942
 publicacions:
 - 76-08
 temes_transversals:
 - espai-public
-descripcio: 'Adreça: Vila de Gràcia. Places Diamant, Raspall, Sol, Trilla i Virreina
-  Projecte: Bach-Mora. 1985'
+title: Reforma i millora de les places de Gràcia
 ---

@@ -1,12 +1,12 @@
 ---
-title: Parc del Clot
+descripcio: 'Adreça: El Clot Projecte: Daniel Freixes i Vicente Miranda. 1986 Premi
+  FAD Arquitectura 1986 (Opinió)'
 draft: false
-lat: 41.4071543
-long: 2.1900135
+lat: 41.4086475
+long: 2.1904934
 publicacions:
 - 76-08
 temes_transversals:
 - espai-public
-descripcio: 'Adreça: El Clot Projecte: Daniel Freixes i Vicente Miranda. 1986 Premi
-  FAD Arquitectura 1986 (Opinió)'
+title: Parc del Clot
 ---

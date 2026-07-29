@@ -10,8 +10,8 @@ intervencions:
   autors: Manuel Ribas i Piera
   descripcio: ''
   tipus: Projecte
-lat: 41.4109193
-long: 2.183382
+lat: 41.4123879
+long: 2.1847361
 publicacions:
 - 50-75
 title: Laboratoris Uriach
