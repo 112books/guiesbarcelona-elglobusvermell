@@ -15,8 +15,8 @@ backend:
   repo: 112books/guiesbarcelona-elglobusvermell
   branch: main
 
-media_folder: static/img/edificis
-public_folder: /img/edificis
+media_folder: static/img/elements
+public_folder: /img/elements
 
 locale: ca
 app_title: "Editor — Guies Barcelona"
@@ -106,8 +106,6 @@ collections:
         name: foto
         widget: image
         required: false
-        media_folder: static/img/elements
-        public_folder: /img/elements
         hint: "Fotografia de l'edifici. Si no n'hi ha, el web mostra un espai reservat (\"Imatge pendent\")."
 
       - label: Publicacions
