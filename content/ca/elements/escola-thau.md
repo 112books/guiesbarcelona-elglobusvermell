@@ -1,5 +1,5 @@
 ---
-adreca: Ctra. d’Esplugues 49-53
+adreca: Av. d’Esplugues 49-53
 any: '1975'
 arquitectes:
 - Oriol Bohigas, Josep Maria Martorell i David Mackay
