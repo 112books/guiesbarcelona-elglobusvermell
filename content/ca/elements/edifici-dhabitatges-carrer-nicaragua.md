@@ -10,8 +10,8 @@ intervencions:
   autors: Ricardo Bofill Levi
   descripcio: ''
   tipus: Projecte
-lat: 41.4327497
-long: 2.218582
+lat: 41.3851968
+long: 2.1387684
 publicacions:
 - 50-75
 title: Edifici d’habitatges, carrer Nicaragua

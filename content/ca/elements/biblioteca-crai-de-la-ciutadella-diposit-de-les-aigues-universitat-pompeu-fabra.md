@@ -10,8 +10,8 @@ intervencions:
   descripcio: Premi Dècada Aquesta biblioteca no pertany a la Xarxa de Biblioteques
     Municipals.
   tipus: Reforma
-lat: 41.3892781
-long: 2.1911055
+lat: 41.3904801
+long: 2.1889472
 publicacions:
 - 76-08
 - biblioteques

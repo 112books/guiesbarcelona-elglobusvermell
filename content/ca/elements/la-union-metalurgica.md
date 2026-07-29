@@ -11,8 +11,8 @@ intervencions:
   descripcio: 'Categoria: Fàbrica Pavelló d’entrada d’una indústria de materials i
     objectes metàl·lics. Actualment, edifici d’oficines.'
   tipus: Projecte
-lat: 41.3975584
-long: 2.1900032
+lat: 41.3974106
+long: 2.1901349
 proteccio: C
 publicacions:
 - poblenou

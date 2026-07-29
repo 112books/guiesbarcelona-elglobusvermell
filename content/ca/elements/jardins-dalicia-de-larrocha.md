@@ -6,8 +6,8 @@ descripcio: 2 Alícia de Larrocha i de la Calle. (Barcelona, 1923 – 2009). Pia
   importantíssim reconeixement internacional i rebé nombrosos premis i distincions.
 draft: false
 foto: /img/elements/jardins-dalicia-de-larrocha.jpg
-lat: 41.3950901
-long: 2.1959512
+lat: 41.3956656
+long: 2.1960669
 obertura: '1992'
 publicacions:
 - interiors-illa

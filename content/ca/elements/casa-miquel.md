@@ -13,8 +13,8 @@ intervencions:
     on destaquen els esgrafiats, especialment el gran dibuix central de la segona
     planta, de temàtica mitològica, obra d’Emili Ferrer.
   tipus: Projecte
-lat: 41.3805826
-long: 2.1882021
+lat: 41.3805455
+long: 2.1882107
 proteccio: C
 publicacions:
 - barceloneta

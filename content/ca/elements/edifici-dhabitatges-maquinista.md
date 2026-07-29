@@ -1,15 +1,15 @@
 ---
-title: Edifici d’habitatges Maquinista
-draft: false
 adreca: Maquinista 18
-lat: 41.3806501
-long: 2.1885181
+draft: false
+intervencions:
+- any: Domènec Boada Piera. 1910, aprox.
+  descripcio: Edifici molt semblant a la Casa Lluís Cairó (19), tant en la composició
+    com en l’ornamentació de la façana.
+  tipus: Projecte
+lat: 41.3806542
+long: 2.1885324
 projecte_text: Domènec Boada Piera. 1910, aprox.
 publicacions:
 - barceloneta
-intervencions:
-- tipus: Projecte
-  any: Domènec Boada Piera. 1910, aprox.
-  descripcio: Edifici molt semblant a la Casa Lluís Cairó (19), tant en la composició
-    com en l’ornamentació de la façana.
+title: Edifici d’habitatges Maquinista
 ---

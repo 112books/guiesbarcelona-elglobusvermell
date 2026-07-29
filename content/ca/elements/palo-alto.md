@@ -11,8 +11,8 @@ intervencions:
   descripcio: 'Categoria: Recinte industrial Filatura de llana Gal i Puigsech. Actualment
     anomenat Palo Alto, seu de diverses empreses.'
   tipus: Projecte
-lat: 41.4045083
-long: 2.2102424
+lat: 41.4043754
+long: 2.2104561
 proteccio: B / D
 publicacions:
 - poblenou

@@ -1,15 +1,15 @@
 ---
-title: Xemeneia de Can Folch
-draft: false
 adreca: Salvador Espriu 15-21
-lat: 41.3877185
-long: 2.19509
 any: '1915'
+draft: false
+intervencions:
+- any: '1915'
+  descripcio: 'Categoria: Xemeneia'
+  tipus: Projecte
+lat: 41.3878609
+long: 2.1951006
+proteccio: C
 publicacions:
 - poblenou
-proteccio: C
-intervencions:
-- tipus: Projecte
-  any: '1915'
-  descripcio: 'Categoria: Xemeneia'
+title: Xemeneia de Can Folch
 ---

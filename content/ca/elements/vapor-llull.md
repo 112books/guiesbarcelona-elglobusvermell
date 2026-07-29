@@ -12,8 +12,8 @@ intervencions:
     1998 Categoria: Fàbrica amb xemeneia Fàbrica de productes químics Massó i Cia.
     Actualment, habitatges lofts .'
   tipus: Remodelació
-lat: 41.3968748
-long: 2.1966264
+lat: 41.3983847
+long: 2.1984873
 proteccio: C
 publicacions:
 - poblenou

@@ -18,8 +18,8 @@ intervencions:
     Pere, Santa Caterina i la Ribera Arquitecte: De la rehabilitació: Jordi Campanillas
     (Diputació de Barcelona) xvi-xvii'
   tipus: Remodelació
-lat: 41.3867703
-long: 2.1759384
+lat: 41.3865712
+long: 2.1762656
 publicacions:
 - biblioteques
 temes_transversals:

@@ -1,14 +1,14 @@
 ---
-title: Mercat de Provençals
-draft: false
 adreca: Menorca, 19
-lat: 41.4194147
-long: 2.1964703
+draft: false
+intervencions:
+- any: '2013'
+  autors: G56 Mur-Garganté Arquitectes Associats
+  descripcio: 'Projecte original: 1974'
+  tipus: Remodelació
+lat: 41.4196607
+long: 2.1963844
 publicacions:
 - mercats
-intervencions:
-- tipus: Remodelació
-  autors: G56 Mur-Garganté Arquitectes Associats
-  any: '2013'
-  descripcio: 'Projecte original: 1974'
+title: Mercat de Provençals
 ---

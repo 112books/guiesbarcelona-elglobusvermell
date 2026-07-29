@@ -7,8 +7,8 @@ intervencions:
   autors: PB2 (Josep Llobet i Bach)
   descripcio: 'Projecte original: Pere Falqués i Urpí. 1892-1913'
   tipus: Remodelació
-lat: 41.4217418
-long: 2.1828983
+lat: 41.374713
+long: 2.1334749
 publicacions:
 - mercats
 title: Mercat de Sants

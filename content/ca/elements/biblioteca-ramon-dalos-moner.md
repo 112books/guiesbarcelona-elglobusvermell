@@ -8,8 +8,8 @@ descripcio: 'Ramon d’Alòs-Moner Erudit i bibliotecari. 1885-1939 Sant Martí 
   Alfons el Magnànim, 59. Projecte: Jorge Vidal'
 draft: false
 foto: /img/elements/biblioteca-ramon-dalos-moner.jpg
-lat: 41.4164864
-long: 2.2118121
+lat: 41.4164757
+long: 2.2117915
 publicacions:
 - biblioteques
 title: Biblioteca Ramon d’Alòs-Moner

@@ -9,8 +9,8 @@ descripcio: '2 Més info: Terrenys de l’antiga fàbrica Torras Herrería y Con
   nord d’Àfrica.'
 draft: false
 foto: /img/elements/jardins-de-merce-plantada.jpg
-lat: 41.3952757
-long: 2.195332
+lat: 41.3948177
+long: 2.1950071
 obertura: '1992'
 publicacions:
 - interiors-illa

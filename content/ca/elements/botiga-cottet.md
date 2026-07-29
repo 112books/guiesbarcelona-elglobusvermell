@@ -1,13 +1,13 @@
 ---
-title: Botiga Cottet
-draft: false
-adreca: "Av. del Portal de l’Àngel, 40"
+adreca: Av. del Portal de l’Àngel, 40
 any: 1935
-lat: 41.3867119867176
-long: 2.17189103970614
-publicacions:
-  - gatcpac
 arquitectes:
-  - Antoni Audet
-descripcio: ""
+- Antoni Audet
+descripcio: ''
+draft: false
+lat: 41.386712
+long: 2.171891
+publicacions:
+- gatcpac
+title: Botiga Cottet
 ---

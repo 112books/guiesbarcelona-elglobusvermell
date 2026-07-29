@@ -7,8 +7,8 @@ descripcio: (Reproducció del 2003) Reproducció en fibra de vidre de la talla d
   L’original es troba al Museu Marítim.
 draft: false
 foto: /img/elements/el-negre-de-la-riba.jpg
-lat: 41.3798794
-long: 2.1889037
+lat: 41.3800446
+long: 2.1900565
 publicacions:
 - barceloneta
 temes_transversals:

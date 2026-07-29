@@ -1,10 +1,10 @@
 ---
-title: Mercat de Núria
-draft: false
 adreca: Av. Rasos de Peguera, 186
-lat: 41.4597009
-long: 2.175791
+descripcio: 'Projecte original: Fernando Bendala i Samuel Mañá. 1966'
+draft: false
+lat: 41.460065
+long: 2.1724405
 publicacions:
 - mercats
-descripcio: 'Projecte original: Fernando Bendala i Samuel Mañá. 1966'
+title: Mercat de Núria
 ---

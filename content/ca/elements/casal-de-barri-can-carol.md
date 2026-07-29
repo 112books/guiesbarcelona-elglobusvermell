@@ -1,19 +1,19 @@
 ---
-title: Casal de Barri Can Carol
-draft: false
 adreca: Cambrils, 24
-lat: 41.4122015
-long: 2.1457694
 any: '2021'
+arquitectes:
+- Oliveras Boix
+draft: false
+intervencions:
+- any: '2021'
+  autors: Oliveras Boix
+  descripcio: ''
+  tipus: Projecte
+lat: 41.412401
+long: 2.1459516
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Oliveras Boix
-intervencions:
-- tipus: Projecte
-  autors: Oliveras Boix
-  any: '2021'
-  descripcio: ''
+title: Casal de Barri Can Carol
 ---

@@ -1,13 +1,13 @@
 ---
-title: Casa Ginestà
-draft: false
-adreca: "Av. de Gaudí, 44"
+adreca: Av. de Gaudí, 44
 any: 1931
-lat: 41.4081944610578
-long: 2.17460893610908
-publicacions:
-  - gatcpac
 arquitectes:
-  - Jaume Mestres
-descripcio: ""
+- Jaume Mestres
+descripcio: ''
+draft: false
+lat: 41.4081945
+long: 2.1746089
+publicacions:
+- gatcpac
+title: Casa Ginestà
 ---

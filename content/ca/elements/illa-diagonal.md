@@ -1,10 +1,10 @@
 ---
-title: Illa Diagonal
-draft: false
 adreca: Av. Diagonal, 545
-lat: 41.3895165
-long: 2.134703
+descripcio: 'Projecte: Rafael Moneo i Manuel de Solà-Morales. 1993 Premi FAD Arquitectura'
+draft: false
+lat: 41.3896823
+long: 2.1349962
 publicacions:
 - 76-08
-descripcio: 'Projecte: Rafael Moneo i Manuel de Solà-Morales. 1993 Premi FAD Arquitectura'
+title: Illa Diagonal
 ---

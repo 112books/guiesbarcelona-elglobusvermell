@@ -10,8 +10,8 @@ intervencions:
   autors: Robert Terradas i Via
   descripcio: ''
   tipus: Projecte
-lat: 41.4042104
-long: 2.1293253
+lat: 41.403913
+long: 2.1296451
 publicacions:
 - 50-75
 title: Col·legi de Metges

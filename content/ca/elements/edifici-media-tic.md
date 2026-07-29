@@ -1,13 +1,13 @@
 ---
-title: Edifici Media-TIC
-draft: false
-adreca: "Sancho de Ávila, 133"
+adreca: Sancho de Ávila, 133
 any: 2009
-lat: 41.402514422665526
-long: 2.1943507534963818
-publicacions:
-  - 76-08
 arquitectes:
-  - Cloud 9
-descripcio: ""
+- Cloud 9
+descripcio: ''
+draft: false
+lat: 41.4025144
+long: 2.1943508
+publicacions:
+- 76-08
+title: Edifici Media-TIC
 ---

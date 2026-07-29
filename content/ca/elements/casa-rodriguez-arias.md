@@ -1,13 +1,13 @@
 ---
-title: Casa Rodríguez Arias
-draft: false
-adreca: "Via Augusta, 61"
+adreca: Via Augusta, 61
 any: 1930
-lat: 41.3999206699996
-long: 2.15154791545802
-publicacions:
-  - gatcpac
 arquitectes:
-  - Germà Rodríguez Arias
-descripcio: ""
+- Germà Rodríguez Arias
+descripcio: ''
+draft: false
+lat: 41.3999207
+long: 2.1515479
+publicacions:
+- gatcpac
+title: Casa Rodríguez Arias
 ---

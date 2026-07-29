@@ -7,8 +7,8 @@ intervencions:
   descripcio: Edifici d’adscripció modernista caracteritzat, sobretot, per les originals
     motllures dels balcons i pels esgrafiats de colors i amb motius vegetals.
   tipus: Projecte
-lat: 41.3813903
-long: 2.1883703
+lat: 41.3813818
+long: 2.188347
 projecte_text: Josep Graner Prat. 1900, aprox.
 publicacions:
 - barceloneta

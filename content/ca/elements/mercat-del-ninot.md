@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Mercat a l’aire lliure: 1894 Projecte original: Antoni de Falguera
     i Joaquim Vilaseca. 1933'
   tipus: Remodelació
-lat: 41.3878249
-long: 2.1543985
+lat: 41.3880258
+long: 2.1542114
 publicacions:
 - mercats
 title: Mercat del Ninot

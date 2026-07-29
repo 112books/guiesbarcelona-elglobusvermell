@@ -1,13 +1,13 @@
 ---
-title: Casa xalet passatge Roserar
-draft: false
-adreca: "Ptge. del Roserar, 18"
+adreca: Ptge. del Roserar, 18
 any: 1933
-lat: NaN
-long: NaN
-publicacions:
-  - gatcpac
 arquitectes:
-  - Marino Canosa
-descripcio: ""
+- Marino Canosa
+descripcio: ''
+draft: false
+lat: 41.3917562
+long: 2.1205558
+publicacions:
+- gatcpac
+title: Casa xalet passatge Roserar
 ---

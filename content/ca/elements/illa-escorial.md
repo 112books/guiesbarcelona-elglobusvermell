@@ -12,8 +12,8 @@ intervencions:
     Perpiñà, Josep Maria Ribas i Manuel Ribas
   descripcio: ''
   tipus: Projecte
-lat: 41.4077765
-long: 2.1610318
+lat: 41.4076595
+long: 2.1615028
 publicacions:
 - 50-75
 title: Illa Escorial

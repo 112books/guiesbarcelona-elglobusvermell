@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original: Josep Mas i Vilà / Antoni de Falguera. 1840 / 1914
     Façana posterior: Carme Pinós. 2015'
   tipus: Remodelació
-lat: 41.3819245
-long: 2.1723514
+lat: 41.38168
+long: 2.17159
 publicacions:
 - mercats
 temes_transversals:

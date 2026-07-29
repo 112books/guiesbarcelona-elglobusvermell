@@ -1,17 +1,17 @@
 ---
-title: Oliva Artés (MUHBA)
-draft: false
 adreca: Espronceda, 142-146
-lat: 41.4079465
-long: 2.201175
 any: '2020'
-publicacions:
-- 09-25
 arquitectes:
 - BAAS (Jordi Badia)
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2020'
   autors: BAAS (Jordi Badia)
-  any: '2020'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4081988
+long: 2.2014127
+publicacions:
+- 09-25
+title: Oliva Artés (MUHBA)
 ---

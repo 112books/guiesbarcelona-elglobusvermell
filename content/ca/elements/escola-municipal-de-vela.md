@@ -1,17 +1,17 @@
 ---
-title: Escola Municipal de Vela
-draft: false
 adreca: Moll de Gregal, 33
-lat: 41.3874887
-long: 2.2027419
 any: '1991'
-publicacions:
-- 76-08
 arquitectes:
 - MBM (Martorell, Bohigas, Mackay)
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1991'
   autors: MBM (Martorell, Bohigas, Mackay)
-  any: '1991'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3875217
+long: 2.2027332
+publicacions:
+- 76-08
+title: Escola Municipal de Vela
 ---

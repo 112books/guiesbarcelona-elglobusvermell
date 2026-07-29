@@ -7,8 +7,8 @@ descripcio: 'Autoria: Lothar Baumgarten. 1992 Conjunt escultòric dispers entre 
   d’Ausiàs March. Cal curiositat i paciència per trobar tots els vents!'
 draft: false
 foto: /img/elements/rosa-dels-vents.jpg
-lat: 41.3821781
-long: 2.1854159
+lat: 41.3817745
+long: 2.1854041
 publicacions:
 - barceloneta
 temes_transversals:

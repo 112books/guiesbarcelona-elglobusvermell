@@ -7,8 +7,8 @@ descripcio: 'Josep Miracle Escriptor i lingüista. 1904-1998 Vallvidrera Arquite
   Josep Manel Melo i Cabrera. 2002 Ampliació prevista segons Pla 2030'
 draft: false
 foto: /img/elements/biblioteca-collserola-josep-miracle.jpg
-lat: 41.4153461
-long: 2.1027829
+lat: 41.4152415
+long: 2.1028996
 publicacions:
 - biblioteques
 title: Biblioteca Collserola – Josep Miracle

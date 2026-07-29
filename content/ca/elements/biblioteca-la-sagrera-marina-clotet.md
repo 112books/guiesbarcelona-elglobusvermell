@@ -6,8 +6,8 @@ descripcio: 'Marina Clotet Activista. 1941-2006 Arquitecte: Javier Sanz Rodrigue
   2009'
 draft: false
 foto: /img/elements/biblioteca-la-sagrera-marina-clotet.jpg
-lat: 41.4256128
-long: 2.1937425
+lat: 41.4258919
+long: 2.1937296
 publicacions:
 - biblioteques
 temes_transversals:

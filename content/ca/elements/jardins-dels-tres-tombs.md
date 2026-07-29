@@ -9,8 +9,8 @@ descripcio: '2 Equipaments: Escola bressol “Els Tres Tombs” + Centre de Serv
   cristianisme, els tombs es fan al voltant de l’església de Sant Antoni.'
 draft: false
 foto: /img/elements/jardins-dels-tres-tombs.jpg
-lat: 41.3757045
-long: 2.1593048
+lat: 41.3760366
+long: 2.1608552
 obertura: '2001'
 publicacions:
 - interiors-illa

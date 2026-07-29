@@ -1,17 +1,17 @@
 ---
-title: Residència Mare Güell
-draft: false
 adreca: Esperança 5-7
-lat: 41.4035863
-long: 2.1256047
 any: '1967'
-publicacions:
-- 50-75
 arquitectes:
 - Lluís Cantallops
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1967'
   autors: Lluís Cantallops
-  any: '1967'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4037506
+long: 2.1253766
+publicacions:
+- 50-75
+title: Residència Mare Güell
 ---

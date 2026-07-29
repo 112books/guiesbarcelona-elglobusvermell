@@ -1,19 +1,19 @@
 ---
-title: Edifici d’habitatges dotacionals «Greenh@use»
-draft: false
 adreca: Veneçuela, 96-106 / Agricultura
-lat: 41.4109476
-long: 2.2085218
 any: '2024'
+arquitectes:
+- Peris+Toral i Jaime Pastor
+draft: false
+intervencions:
+- any: '2024'
+  autors: Peris+Toral i Jaime Pastor
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4119975
+long: 2.2102372
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Peris+Toral i Jaime Pastor
-intervencions:
-- tipus: Projecte
-  autors: Peris+Toral i Jaime Pastor
-  any: '2024'
-  descripcio: ''
+title: Edifici d’habitatges dotacionals «Greenh@use»
 ---

@@ -7,8 +7,8 @@ intervencions:
   autors: G56
   descripcio: 'Projecte original: 1961'
   tipus: Remodelació
-lat: 41.3808016
-long: 2.1257156
+lat: 41.3839753
+long: 2.1297565
 publicacions:
 - mercats
 title: Mercat de les Corts

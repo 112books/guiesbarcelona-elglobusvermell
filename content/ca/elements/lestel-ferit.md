@@ -7,8 +7,8 @@ descripcio: 'Autoria: Rebecca Horn. 1992 Aquesta torre, d’uns 10 metres d’al
   i a les remuntes, tan característics de la Barceloneta.'
 draft: false
 foto: /img/elements/lestel-ferit.jpg
-lat: 41.3793285
-long: 2.192971
+lat: 41.3764987
+long: 2.1911019
 publicacions:
 - barceloneta
 temes_transversals:

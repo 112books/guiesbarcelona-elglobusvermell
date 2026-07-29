@@ -1,12 +1,12 @@
 ---
-title: Estacions de Metro L9. Mercabarna, Parc Logístic i Europa-Fira
-draft: false
 adreca: Línia 9
-lat: 41.3663246
-long: 2.0806757
+descripcio: 'Projecte: Garcés-de Seta-Bonet Arquitectes. 2015 Premi FAD Interiorisme'
+draft: false
+lat: 41.3337959
+long: 2.1115752
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-descripcio: 'Projecte: Garcés-de Seta-Bonet Arquitectes. 2015 Premi FAD Interiorisme'
+title: Estacions de Metro L9. Mercabarna, Parc Logístic i Europa-Fira
 ---

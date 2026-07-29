@@ -1,17 +1,17 @@
 ---
-title: Plug-in Building
-draft: false
 adreca: Pujades, 51-57
-lat: 41.4150453
-long: 2.0984271
 any: '2011'
-publicacions:
-- 76-08
 arquitectes:
 - Josep Miàs i Gifré
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2011'
   autors: Josep Miàs i Gifré
-  any: '2011'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3955366
+long: 2.1921566
+publicacions:
+- 76-08
+title: Plug-in Building
 ---

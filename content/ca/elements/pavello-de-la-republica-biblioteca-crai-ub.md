@@ -28,8 +28,8 @@ intervencions:
     el CRAI Biblioteca del Pavelló de la República de la Universitat de Barcelona.
     Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'
   tipus: Projecte
-lat: 41.4307146
-long: 2.151304
+lat: 41.4306986
+long: 2.1513175
 projecte_text: Josep Lluís Sert, Luis Lacasa. 1937 Reconstrucció de 1992 a càrrec
   de Antoni Ubach i Miquel Espinet, arquitectes i de J.M. Hernandez Leon
 publicacions:

@@ -1,16 +1,5 @@
 ---
-title: Jardins de les Treballadores de la Numax
-draft: false
 adreca: Plaça Sagrada Família 12 i carrer Rosselló 372
-lat: 41.4039111
-long: 2.1716316
-publicacions:
-- interiors-illa
-temes_transversals:
-- espai-public
-- nomenclator-femeni
-superficie: 2.300 m
-obertura: '2020'
 descripcio: '2 El disseny dels jardins es va fer fet a travé s d’un procés participatiu
   amb els veïns. El jardí té un parc infantil 100% accessible. Durant els primers
   anys d’obertura del jardí interior d’illa aquest es va conèixer amb el nom popular
@@ -28,4 +17,15 @@ descripcio: '2 El disseny dels jardins es va fer fet a travé s d’un procés p
   1979 la fàbrica va tancar definitivament-, però l’experiència va quedar immortalitzada
   en dos documentals de Joaquim Jordà: “Numax presenta…” (1979), pagat amb les últimes
   600.000 pessetes de la caixa de resistència, i “Vint anys no és res” (2004).'
+draft: false
+lat: 41.4035249
+long: 2.171976
+obertura: '2020'
+publicacions:
+- interiors-illa
+superficie: 2.300 m
+temes_transversals:
+- espai-public
+- nomenclator-femeni
+title: Jardins de les Treballadores de la Numax
 ---

@@ -1,17 +1,17 @@
 ---
-title: Edifici d’habitatges, carrer Freixa
-draft: false
 adreca: Freixa 36
-lat: 41.3992244
-long: 2.1381111
 any: '1958'
-publicacions:
-- 50-75
 arquitectes:
 - Francesc Mitjans i Miró
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1958'
   autors: Francesc Mitjans i Miró
-  any: '1958'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3991302
+long: 2.1381474
+publicacions:
+- 50-75
+title: Edifici d’habitatges, carrer Freixa
 ---

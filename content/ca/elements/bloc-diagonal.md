@@ -1,14 +1,14 @@
 ---
-title: Bloc Diagonal
-draft: false
-adreca: "Av. Diagonal, 419"
+adreca: Av. Diagonal, 419
 any: 1935
-lat: 41.3947532503016
-long: 2.15366556835575
-publicacions:
-  - gatcpac
 arquitectes:
-  - Ricard de Churruca
-  - Germà Rodríguez Arias
-descripcio: ""
+- Ricard de Churruca
+- Germà Rodríguez Arias
+descripcio: ''
+draft: false
+lat: 41.3947533
+long: 2.1536656
+publicacions:
+- gatcpac
+title: Bloc Diagonal
 ---

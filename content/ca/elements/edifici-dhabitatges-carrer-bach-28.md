@@ -10,8 +10,8 @@ intervencions:
   autors: Ricardo Bofill Levi
   descripcio: ''
   tipus: Projecte
-lat: 41.3968336
-long: 2.1405886
+lat: 41.3964911
+long: 2.1406164
 publicacions:
 - 50-75
 title: Edifici d’habitatges, carrer Bach 28

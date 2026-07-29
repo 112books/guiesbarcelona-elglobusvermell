@@ -1,17 +1,17 @@
 ---
-title: Escola Tècnica Superior d’Arquitectura de Barcelona
-draft: false
 adreca: Diagonal 649
-lat: 41.3844645
-long: 2.113102
 any: '1962'
-publicacions:
-- 50-75
 arquitectes:
 - Eusebi Bona i Puig, Pelayo Martínez Paricio i Josep Maria Segarra i Solsona
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1962'
   autors: Eusebi Bona i Puig, Pelayo Martínez Paricio i Josep Maria Segarra i Solsona
-  any: '1962'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3839841
+long: 2.1140262
+publicacions:
+- 50-75
+title: Escola Tècnica Superior d’Arquitectura de Barcelona
 ---

@@ -1,10 +1,10 @@
 ---
-title: Mercat del’Abaceria
-draft: false
 adreca: Travessera de Gràcia, 186
-lat: 41.4022259
-long: 2.1593584
+descripcio: 'Projecte original: Joan Torras Guardiola. 1892'
+draft: false
+lat: 41.402181
+long: 2.1596315
 publicacions:
 - mercats
-descripcio: 'Projecte original: Joan Torras Guardiola. 1892'
+title: Mercat del’Abaceria
 ---

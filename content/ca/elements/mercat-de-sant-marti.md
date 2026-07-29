@@ -1,16 +1,16 @@
 ---
-title: Mercat de Sant Martí
-draft: false
 adreca: Puigcerdà, 206
-lat: 41.4186293
-long: 2.2052984
+draft: false
+intervencions:
+- any: '2014'
+  autors: Comas-Pont Arquitectes
+  descripcio: 'Projecte original: 1966'
+  tipus: Remodelació
+lat: 41.418723
+long: 2.2054461
 publicacions:
 - mercats
 temes_transversals:
 - dones-arquitectes
-intervencions:
-- tipus: Remodelació
-  autors: Comas-Pont Arquitectes
-  any: '2014'
-  descripcio: 'Projecte original: 1966'
+title: Mercat de Sant Martí
 ---

@@ -10,8 +10,8 @@ intervencions:
   autors: Javier Carvajal Ferrer i Rafael García de Castro
   descripcio: ''
   tipus: Projecte
-lat: 41.3974043
-long: 2.162919
+lat: 41.3849583
+long: 2.1118345
 publicacions:
 - 50-75
 title: Facultat d’Economia i Empresa

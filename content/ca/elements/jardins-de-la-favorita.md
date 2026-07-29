@@ -1,12 +1,12 @@
 ---
-title: Jardins de “La Favorita”
-draft: false
 adreca: C. Sepúlveda, 50
-lat: 41.3773076
-long: 2.1548775
+descripcio: ''
+draft: false
+lat: 41.3772462
+long: 2.1550385
 publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
-descripcio: ''
+title: Jardins de “La Favorita”
 ---

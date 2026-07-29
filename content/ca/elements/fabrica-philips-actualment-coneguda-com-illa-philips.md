@@ -14,8 +14,8 @@ intervencions:
     pintat de blanc i el vidre. La fàbrica tanca el 2004 i una bona part dels seus
     edificis s’han transformat en equipaments públics.'
   tipus: Projecte
-lat: 41.3582336
-long: 2.1405117
+lat: 41.3622005
+long: 2.1369775
 proteccio: C
 publicacions:
 - marina

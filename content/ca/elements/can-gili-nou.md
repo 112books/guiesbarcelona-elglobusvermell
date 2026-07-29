@@ -8,8 +8,8 @@ intervencions:
   descripcio: 'Projecte original:1876-1880 Categoria: Fàbrica Farinera i magatzems.
     Actualment, habitatges lofts i Casal de Barri Vila Olímpica – Can Gili Nou.'
   tipus: Remodelació
-lat: 41.3961113
-long: 2.2006828
+lat: 41.3959901
+long: 2.2009104
 proteccio: B
 publicacions:
 - poblenou

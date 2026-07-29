@@ -1,19 +1,19 @@
 ---
-title: Jardins de Mercè Vilaret
-draft: false
 adreca: Floridablanca, 141
-lat: 41.3819036
-long: 2.1626083
-publicacions:
-- interiors-illa
-temes_transversals:
-- espai-public
-- nomenclator-femeni
-superficie: 610 m
-obertura: '2007'
 descripcio: 2 Mercè Vilaret i Llop. (Barcelona, 1943 – Sant Cugat del Vallès, 1993).
   Realitzadora de televisió. Fou pionera de la seva professió a Catalunya. Deixà empremta
   gràcies a una escriptura molt personal i una sensibilitat extrema envers les desigualtats
   i els problemes socials. Fou, també, una defensora aferrissada del model públic
   de televisió.
+draft: false
+lat: 41.3821098
+long: 2.162395
+obertura: '2007'
+publicacions:
+- interiors-illa
+superficie: 610 m
+temes_transversals:
+- espai-public
+- nomenclator-femeni
+title: Jardins de Mercè Vilaret
 ---

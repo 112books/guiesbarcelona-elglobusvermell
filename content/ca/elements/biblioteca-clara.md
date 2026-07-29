@@ -9,8 +9,8 @@ intervencions:
   autors: Tonet Sunyer
   descripcio: Josep Clarà Escultor. 1878-1958 Sarrià
   tipus: Remodelació
-lat: 41.4002053
-long: 2.1298354
+lat: 41.3997153
+long: 2.1297398
 publicacions:
 - biblioteques
 title: Biblioteca Clarà

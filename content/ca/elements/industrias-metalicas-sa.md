@@ -1,13 +1,13 @@
 ---
-title: Industrias Metálicas SA
-draft: false
 adreca: Sancho de Ávila 94-108 + Badajoz 127-131
 any: 1917
-lat: 41.40051808628397
-long: 2.192849393488165
-publicacions:
-  - poblenou
-tipologia: Fàbrica
+descripcio: Indústria metàl·lica. Actualment, oficines de diverses empreses.
+draft: false
+lat: 41.4005181
+long: 2.1928494
 proteccio: C
-descripcio: "Indústria metàl·lica. Actualment, oficines de diverses empreses."
+publicacions:
+- poblenou
+tipologia: Fàbrica
+title: Industrias Metálicas SA
 ---

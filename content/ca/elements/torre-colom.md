@@ -10,8 +10,8 @@ intervencions:
   autors: Josep Anglada, Daniel Gelabert i Josep Ribas
   descripcio: ''
   tipus: Projecte
-lat: 41.3763
-long: 2.1778
+lat: 41.3766739
+long: 2.1753537
 publicacions:
 - 50-75
 title: Torre Colom

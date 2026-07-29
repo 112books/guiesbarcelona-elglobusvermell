@@ -1,12 +1,12 @@
 ---
-title: Jardins Pallars – Josep Pla – Pujades – Agricultura
-draft: false
 adreca: Josep Pla, 49-57 + C. Agricultura, 66
-lat: 41.4113715
-long: 2.2124816
+descripcio: 'Equipament: Escola bressol “Diagonal Mar”'
+draft: false
+lat: 41.4108678
+long: 2.2116232
 publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
-descripcio: 'Equipament: Escola bressol “Diagonal Mar”'
+title: Jardins Pallars – Josep Pla – Pujades – Agricultura
 ---

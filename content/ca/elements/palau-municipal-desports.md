@@ -1,17 +1,17 @@
 ---
-title: Palau Municipal d’Esports
-draft: false
 adreca: Lleida 40
-lat: 41.3717867
-long: 2.1556216
 any: '1955'
-publicacions:
-- 50-75
 arquitectes:
 - Josep Soteras i Mauri i Lorenzo García-Barbón
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1955'
   autors: Josep Soteras i Mauri i Lorenzo García-Barbón
-  any: '1955'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3717373
+long: 2.1554228
+publicacions:
+- 50-75
+title: Palau Municipal d’Esports
 ---

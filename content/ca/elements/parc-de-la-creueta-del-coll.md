@@ -1,19 +1,19 @@
 ---
-title: Parc de la Creueta del Coll
-draft: false
 adreca: El Coll
-lat: 41.4179072
-long: 2.1480753
 any: '1987'
+arquitectes:
+- MBM (Martorell, Bohigas, Mackay)
+draft: false
+intervencions:
+- any: '1987'
+  autors: MBM (Martorell, Bohigas, Mackay)
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4184144
+long: 2.1464795
 publicacions:
 - 76-08
 temes_transversals:
 - espai-public
-arquitectes:
-- MBM (Martorell, Bohigas, Mackay)
-intervencions:
-- tipus: Projecte
-  autors: MBM (Martorell, Bohigas, Mackay)
-  any: '1987'
-  descripcio: ''
+title: Parc de la Creueta del Coll
 ---

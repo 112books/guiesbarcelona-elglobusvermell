@@ -1,17 +1,17 @@
 ---
-title: Passeig de Sant Joan
-draft: false
 adreca: Entre Diagonal i Arc de Triomf
-lat: 41.3943206
-long: 2.1763974
+draft: false
+intervencions:
+- any: Lola Domènech. 2011 + 2014
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3962991
+long: 2.1736968
 projecte_text: Lola Domènech. 2011 + 2014
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
 - espai-public
-intervencions:
-- tipus: Projecte
-  any: Lola Domènech. 2011 + 2014
-  descripcio: ''
+title: Passeig de Sant Joan
 ---

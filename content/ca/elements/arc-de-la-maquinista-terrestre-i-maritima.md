@@ -15,8 +15,8 @@ intervencions:
     des del passeig de Salvat-Papasseit, són els únics elements de l’antiga indústria
     que es mantenen dempeus.
   tipus: Projecte
-lat: 41.4408218
-long: 2.1982884
+lat: 41.3811841
+long: 2.190655
 proteccio: C
 publicacions:
 - barceloneta

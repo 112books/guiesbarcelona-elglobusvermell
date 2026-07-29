@@ -10,8 +10,8 @@ intervencions:
   autors: Antoni de Moragas i Gallissà i Francesc de Riba de Salas
   descripcio: ''
   tipus: Projecte
-lat: 41.4467264
-long: 2.187526
+lat: 41.4232444
+long: 2.1872712
 publicacions:
 - 50-75
 title: Edifici d’habitatges, avinguda Meridiana 302

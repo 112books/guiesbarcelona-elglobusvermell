@@ -10,8 +10,8 @@ intervencions:
   autors: Albert Viaplana, Helio Piñón i Gabriel Mora
   descripcio: ''
   tipus: Projecte
-lat: 41.3851927
-long: 2.1315985
+lat: 41.3837872
+long: 2.1322265
 publicacions:
 - 50-75
 title: Edifici d’habitatges i oficines Can Bruixa

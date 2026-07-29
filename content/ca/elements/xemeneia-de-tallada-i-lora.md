@@ -1,15 +1,15 @@
 ---
-title: Xemeneia de Tallada i Lora
-draft: false
 adreca: Bolívia 247-269
-lat: 41.4012232
-long: 2.1888287
+draft: false
+intervencions:
+- any: Segona dècada s. XX
+  descripcio: 'Categoria: Xemeneia'
+  tipus: Projecte
+lat: 41.4119677
+long: 2.2033175
 projecte_text: Segona dècada s. XX
+proteccio: C
 publicacions:
 - poblenou
-proteccio: C
-intervencions:
-- tipus: Projecte
-  any: Segona dècada s. XX
-  descripcio: 'Categoria: Xemeneia'
+title: Xemeneia de Tallada i Lora
 ---

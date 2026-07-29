@@ -14,8 +14,8 @@ intervencions:
     del passeig de Sant Joan. Alhora, els vidres, de diferents tons i amb lleugeres
     deformacions, pretenen reproduir la vibració del cel.'
   tipus: Projecte
-lat: 41.3838528
-long: 2.1893254
+lat: 41.3834736
+long: 2.1903
 publicacions:
 - barceloneta
 temes_transversals:

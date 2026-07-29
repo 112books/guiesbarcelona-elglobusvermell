@@ -8,8 +8,8 @@ descripcio: '2 Equipament: Consultes externes de l’Hospital Clínic Elena Mase
   de la seva vida.'
 draft: false
 foto: /img/elements/jardins-delena-maseras.jpg
-lat: 41.3869108
-long: 2.1488768
+lat: 41.3906196
+long: 2.1530313
 obertura: '2005'
 publicacions:
 - interiors-illa

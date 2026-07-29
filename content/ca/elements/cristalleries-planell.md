@@ -1,17 +1,17 @@
 ---
-title: Cristalleries Planell
-draft: false
 adreca: Doctor Ibáñez, 38
-lat: 41.3865364
-long: 2.1326724
 any: '2016'
-publicacions:
-- 76-08
 arquitectes:
 - HArquitectes
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2016'
   autors: HArquitectes
-  any: '2016'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3874606
+long: 2.1319861
+publicacions:
+- 76-08
+title: Cristalleries Planell
 ---

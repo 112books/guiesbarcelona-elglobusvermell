@@ -1,10 +1,10 @@
 ---
-title: Mercat d’Horta
-draft: false
 adreca: Tajo, 75
-lat: 41.4295869
-long: 2.1595308
+descripcio: 'Projecte original: Ramon Térmens i Mauri. 1951 Pendent de remodelació'
+draft: false
+lat: 41.4294148
+long: 2.1595461
 publicacions:
 - mercats
-descripcio: 'Projecte original: Ramon Térmens i Mauri. 1951 Pendent de remodelació'
+title: Mercat d’Horta
 ---

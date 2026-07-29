@@ -10,8 +10,8 @@ intervencions:
   autors: Federico Correa, Alfonso Milà i José Luis Sanz Magallón
   descripcio: ''
   tipus: Projecte
-lat: 41.4088143
-long: 2.1115378
+lat: 41.390966
+long: 2.1394146
 publicacions:
 - 50-75
 title: Edifici d’habitatges Talaia

@@ -1,17 +1,17 @@
 ---
-title: Habitatges socials al 22@
-draft: false
 adreca: Pallars, 336
-lat: 41.4071707
-long: 2.2059345
 any: '2008'
-publicacions:
-- 76-08
 arquitectes:
 - Josep Maria Casadevall i Ramon Sanabria
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2008'
   autors: Josep Maria Casadevall i Ramon Sanabria
-  any: '2008'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4071484
+long: 2.2059885
+publicacions:
+- 76-08
+title: Habitatges socials al 22@
 ---

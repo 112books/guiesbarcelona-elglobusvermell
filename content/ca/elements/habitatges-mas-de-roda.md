@@ -1,19 +1,19 @@
 ---
-title: Habitatges Mas de Roda
-draft: false
 adreca: Ptge. Mas de Roda, 5
-lat: 41.3964691
-long: 2.1991026
 any: '2009'
+arquitectes:
+- Garcés-de Seta-Bonet
+draft: false
+intervencions:
+- any: '2009'
+  autors: Garcés-de Seta-Bonet
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3964202
+long: 2.1992798
 publicacions:
 - 76-08
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Garcés-de Seta-Bonet
-intervencions:
-- tipus: Projecte
-  autors: Garcés-de Seta-Bonet
-  any: '2009'
-  descripcio: ''
+title: Habitatges Mas de Roda
 ---

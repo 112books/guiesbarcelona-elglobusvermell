@@ -1,17 +1,17 @@
 ---
-title: Switch. Nova seu de Simon
-draft: false
 adreca: Sancho de Ávila, 66
-lat: 41.3975374
-long: 2.1890583
 any: '2023'
-publicacions:
-- 09-25
 arquitectes:
 - B720 (Fermín Vázquez)
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2023'
   autors: B720 (Fermín Vázquez)
-  any: '2023'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3990723
+long: 2.1908263
+publicacions:
+- 09-25
+title: Switch. Nova seu de Simon
 ---

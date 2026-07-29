@@ -10,8 +10,8 @@ intervencions:
   autors: Josep Soteras i Mauri, Antoni Pineda i Gualba i Carlos Marquès i Maristany
   descripcio: ''
   tipus: Projecte
-lat: 41.4257616
-long: 2.1809415
+lat: 41.4263952
+long: 2.181695
 publicacions:
 - 50-75
 title: Conjunt del Congrés Eucarístic

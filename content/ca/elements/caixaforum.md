@@ -1,17 +1,17 @@
 ---
-title: CaixaForum
-draft: false
 adreca: Mèxic, 36
-lat: 41.3717558
-long: 2.1496727
 any: '2002'
-publicacions:
-- 76-08
 arquitectes:
 - Arata Isozaki, BOMA
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2002'
   autors: Arata Isozaki, BOMA
-  any: '2002'
   descripcio: 'Projecte original: Fàbrica Casaramona. Josep Puig i Cadafalch. 1911'
+  tipus: Projecte
+lat: 41.371288
+long: 2.149564
+publicacions:
+- 76-08
+title: CaixaForum
 ---

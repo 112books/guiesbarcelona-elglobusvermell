@@ -1,17 +1,17 @@
 ---
-title: Habitatges unifamiliars agrupats Ceràmica
-draft: false
 adreca: Ceràmica s/n
-lat: 41.4323196
-long: 2.1407059
 any: '1968'
-publicacions:
-- 50-75
 arquitectes:
 - Joan Bosch Agustí
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1968'
   autors: Joan Bosch Agustí
-  any: '1968'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4323264
+long: 2.1400728
+publicacions:
+- 50-75
+title: Habitatges unifamiliars agrupats Ceràmica
 ---

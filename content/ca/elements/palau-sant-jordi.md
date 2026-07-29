@@ -1,11 +1,11 @@
 ---
-title: Palau Sant Jordi
-draft: false
 adreca: Pg. Olímpic, 5
-lat: 41.3634668
-long: 2.1525682
-publicacions:
-- 76-08
 descripcio: 'Projecte: Arata Isozaki. 1990 Premi Ciutat de Barcelona Premi FAD Arquitectura
   Premi FAD Arquitectura (Opinió)'
+draft: false
+lat: 41.3634256
+long: 2.1525433
+publicacions:
+- 76-08
+title: Palau Sant Jordi
 ---

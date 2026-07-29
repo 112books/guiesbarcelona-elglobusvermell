@@ -17,8 +17,8 @@ intervencions:
     plaça. La façana està formada per grans paraments vidriats protegits per portes
     plegables de fusta.
   tipus: Projecte
-lat: 41.3565588
-long: 2.1415304
+lat: 41.3606849
+long: 2.1394472
 publicacions:
 - marina
 - mercats

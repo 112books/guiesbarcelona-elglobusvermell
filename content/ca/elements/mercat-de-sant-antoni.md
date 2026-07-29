@@ -10,8 +10,8 @@ intervencions:
     que basa la seva activitat en llibres, revistes, cromos, postals, pel·lícules
     i videojocs.'
   tipus: Remodelació
-lat: 41.3752647
-long: 2.1651042
+lat: 41.3786567
+long: 2.1620832
 publicacions:
 - mercats
 temes_transversals:

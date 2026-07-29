@@ -5,8 +5,8 @@ descripcio: 2 Tete Montoliu. (Barcelona, 1933 – 1997). Pianista de jazz, cec d
   tot el món i a actuar amb els millors jazzmen del moment.
 draft: false
 foto: /img/elements/jardins-de-tete-montoliu.jpg
-lat: 41.3777924
-long: 2.155295
+lat: 41.3787023
+long: 2.1577002
 obertura: '2007'
 publicacions:
 - interiors-illa

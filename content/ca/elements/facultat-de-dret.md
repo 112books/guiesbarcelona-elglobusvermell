@@ -10,8 +10,8 @@ intervencions:
   autors: Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages
   descripcio: ''
   tipus: Projecte
-lat: 41.3871967
-long: 2.1210692
+lat: 41.3877348
+long: 2.1208986
 publicacions:
 - 50-75
 title: Facultat de Dret

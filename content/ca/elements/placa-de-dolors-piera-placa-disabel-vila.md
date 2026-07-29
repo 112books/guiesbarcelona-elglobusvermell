@@ -1,14 +1,5 @@
 ---
-title: Plaça de Dolors Piera + Plaça d’Isabel Vilà
-draft: false
 adreca: Sancho de Àvila + C. Roc Boronat + C. Almogàvers + C. Ciutat de Granada
-lat: 41.3975374
-long: 2.1890583
-publicacions:
-- interiors-illa
-temes_transversals:
-- espai-public
-- nomenclator-femeni
 descripcio: Dolors Piera i Llobera. (Puigverd d’Agramunt, 1910 – Santiago de Xile,
   2002). Mestra i sindicalista. Fundadora de FETE-UGT (Federació Espanyola de Treballadors
   de l’Ensenyança), secretària general de la Unió de Dones de Catalunya i primera
@@ -18,4 +9,13 @@ descripcio: Dolors Piera i Llobera. (Puigverd d’Agramunt, 1910 – Santiago de
   treballadors. Estava afiliada a l’Associació Internacional de Treballadors (AIT)
   i és considerada la primera sindicalista catalana. Es va haver d’exiliar sis anys
   a França.
+draft: false
+lat: 41.4017896
+long: 2.1953611
+publicacions:
+- interiors-illa
+temes_transversals:
+- espai-public
+- nomenclator-femeni
+title: Plaça de Dolors Piera + Plaça d’Isabel Vilà
 ---

@@ -1,17 +1,17 @@
 ---
-title: Habitatges Vèrtix
-draft: false
 adreca: Bac de Roda, 104
-lat: 41.4161504
-long: 2.1924724
 any: '2007'
-publicacions:
-- 76-08
 arquitectes:
 - OAB (Carlos Ferrater)
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2007'
   autors: OAB (Carlos Ferrater)
-  any: '2007'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4083466
+long: 2.2034232
+publicacions:
+- 76-08
+title: Habitatges Vèrtix
 ---

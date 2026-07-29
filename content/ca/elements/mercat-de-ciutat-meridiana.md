@@ -1,14 +1,14 @@
 ---
-title: Mercat de Ciutat Meridiana
-draft: false
 adreca: Costabona, 4-6
-lat: 41.4623355
-long: 2.1781645
+draft: false
+intervencions:
+- any: '2001'
+  autors: Valeri Consultors Associats
+  descripcio: 'Projecte original: 1968'
+  tipus: Remodelació
+lat: 41.4616275
+long: 2.177882
 publicacions:
 - mercats
-intervencions:
-- tipus: Remodelació
-  autors: Valeri Consultors Associats
-  any: '2001'
-  descripcio: 'Projecte original: 1968'
+title: Mercat de Ciutat Meridiana
 ---

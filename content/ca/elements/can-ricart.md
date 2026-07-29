@@ -29,8 +29,8 @@ intervencions:
     però la majoria de les naus resten a l’espera d’un projecte que les rehabiliti
     i els doni un nou ús.'
   tipus: Projecte
-lat: 41.4147803
-long: 2.209102
+lat: 41.4079686
+long: 2.199561
 projecte_text: Josep Oriol i Bernadet. 1853-1860 + Josep Fontserè. 1860-1877
 proteccio: A
 publicacions:

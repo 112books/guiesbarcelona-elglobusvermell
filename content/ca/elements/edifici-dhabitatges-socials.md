@@ -1,19 +1,19 @@
 ---
-title: Edifici d’habitatges socials
-draft: false
 adreca: Ulldecona / Cal Cisó / Pontils
-lat: 41.3518993
-long: 2.1424376
 any: '2022'
+arquitectes:
+- Coll-Leclerc i Josep Miàs
+draft: false
+intervencions:
+- any: '2022'
+  autors: Coll-Leclerc i Josep Miàs
+  descripcio: ''
+  tipus: Projecte
+lat: 41.3511208
+long: 2.1418754
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Coll-Leclerc i Josep Miàs
-intervencions:
-- tipus: Projecte
-  autors: Coll-Leclerc i Josep Miàs
-  any: '2022'
-  descripcio: ''
+title: Edifici d’habitatges socials
 ---

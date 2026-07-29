@@ -1,14 +1,14 @@
 ---
-title: Seu central de la Diputació de Barcelona
 draft: false
-lat: 41.3956919
-long: 2.1577946
-publicacions:
-- 76-08
 intervencions:
-- tipus: Reforma
+- any: '1987'
   autors: Correa-Milà
-  any: '1987'
   descripcio: 'Adreça: Rbla. Catalunya, 126 Projecte original: Casa Serra. Josep Puig
     i Cadafalch. 1908'
+  tipus: Reforma
+lat: 41.3957288
+long: 2.1577166
+publicacions:
+- 76-08
+title: Seu central de la Diputació de Barcelona
 ---

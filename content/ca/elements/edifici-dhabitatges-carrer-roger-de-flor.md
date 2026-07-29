@@ -10,8 +10,8 @@ intervencions:
   autors: Oriol Bohigas, Josep Maria Martorell i David Mackay
   descripcio: ''
   tipus: Projecte
-lat: 41.4013692
-long: 2.1690866
+lat: 41.4013494
+long: 2.1689685
 publicacions:
 - 50-75
 title: Edifici d’habitatges, carrer Roger de Flor

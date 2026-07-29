@@ -10,8 +10,8 @@ intervencions:
   autors: José Antonio Coderch de Sentmenat
   descripcio: ''
   tipus: Projecte
-lat: 41.3985858
-long: 2.1375245
+lat: 41.3987651
+long: 2.1367019
 publicacions:
 - 50-75
 title: Conjunt residencial Banco Urquijo

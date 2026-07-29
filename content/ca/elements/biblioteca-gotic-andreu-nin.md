@@ -11,8 +11,8 @@ intervencions:
     previst segons Pla 2030. Edifici del Borsí. Reforma: J. A. Martínez Lapeña i E.
     Torres'
   tipus: Remodelació
-lat: 41.378569
-long: 2.1760468
+lat: 41.3788259
+long: 2.1760269
 publicacions:
 - biblioteques
 title: Biblioteca Gòtic – Andreu Nin

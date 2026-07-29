@@ -1,17 +1,17 @@
 ---
-title: Edifici d’oficines
-draft: false
 adreca: Pallars, 180
-lat: 41.4069511
-long: 2.2054638
 any: '2022'
-publicacions:
-- 09-25
 arquitectes:
 - BAAS (Jordi Badia)
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '2022'
   autors: BAAS (Jordi Badia)
-  any: '2022'
   descripcio: ''
+  tipus: Projecte
+lat: 41.4003932
+long: 2.197038
+publicacions:
+- 09-25
+title: Edifici d’oficines
 ---

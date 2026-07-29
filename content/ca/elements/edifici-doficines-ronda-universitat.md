@@ -1,17 +1,17 @@
 ---
-title: Edifici d’oficines, ronda Universitat
-draft: false
 adreca: Rda. Universitat 9
-lat: 41.3863869
-long: 2.1654528
 any: '1971'
-publicacions:
-- 50-75
 arquitectes:
 - Eduard Molas Rifà, Enric Rello Roque i Josep M. Rovira Gimeno
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1971'
   autors: Eduard Molas Rifà, Enric Rello Roque i Josep M. Rovira Gimeno
-  any: '1971'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3864592
+long: 2.1653989
+publicacions:
+- 50-75
+title: Edifici d’oficines, ronda Universitat
 ---

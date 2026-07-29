@@ -6,8 +6,8 @@ descripcio: 'Autoria: Alfredo Lanz. 2004 Gran conjunt de formes abstractes i sil
   sota la llum del sol i davant del mar.'
 draft: false
 foto: /img/elements/homenatge-a-la-natacio.jpg
-lat: 41.3746477
-long: 2.1893711
+lat: 41.3739207
+long: 2.1892134
 publicacions:
 - barceloneta
 temes_transversals:

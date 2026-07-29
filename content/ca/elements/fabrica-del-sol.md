@@ -14,8 +14,8 @@ intervencions:
     elaborar alguns elements decoratius. Antigues oficines de la Catalana de Gas,
     actualment és la seu de la Fàbrica del Sol, equipament municipal d’educació ambiental.
   tipus: Projecte
-lat: 41.381802
-long: 2.1892274
+lat: 41.3821898
+long: 2.1918371
 publicacions:
 - barceloneta
 title: Fàbrica del Sol

@@ -18,8 +18,8 @@ intervencions:
     monumentalitat, emfasitzada per diversos elements classicistes, especialment l’arcada
     del carrer Almirall Aixada.
   tipus: Projecte
-lat: 41.3782033
-long: 2.1887391
+lat: 41.3771465
+long: 2.1891104
 publicacions:
 - barceloneta
 title: Antic Montepio de Sant Pere

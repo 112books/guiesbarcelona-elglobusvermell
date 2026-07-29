@@ -6,8 +6,8 @@ descripcio: 2 Rector Oliveras. (L’Hospitalet de Llobregat, 1884 – Barcelona,
   la qual fou nomenat rector l’any 1948.
 draft: false
 foto: /img/elements/jardins-del-rector-oliveras.jpg
-lat: 41.394826
-long: 2.1676833
+lat: 41.3950671
+long: 2.1675371
 obertura: '2002'
 publicacions:
 - interiors-illa

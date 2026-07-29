@@ -1,15 +1,15 @@
 ---
-title: Edifici Ricard Ametlla Montaña
-draft: false
 adreca: Espronceda 176-188
-lat: 41.4202899
-long: 2.184796
+draft: false
+intervencions:
+- any: Pere Armengou. 1947 + 1956
+  descripcio: 'Categoria: Altres edificis Usos industrials. Actualment, mateix ús.'
+  tipus: Projecte
+lat: 41.4096345
+long: 2.1992798
 projecte_text: Pere Armengou. 1947 + 1956
+proteccio: C / D
 publicacions:
 - poblenou
-proteccio: C / D
-intervencions:
-- tipus: Projecte
-  any: Pere Armengou. 1947 + 1956
-  descripcio: 'Categoria: Altres edificis Usos industrials. Actualment, mateix ús.'
+title: Edifici Ricard Ametlla Montaña
 ---

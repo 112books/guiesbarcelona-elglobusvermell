@@ -1,13 +1,13 @@
 ---
-title: Dispensari de Sant Josep de la Muntanya
-draft: false
-adreca: "Av. del S. de St. Josep de la Muntanya, 12"
+adreca: Av. del S. de St. Josep de la Muntanya, 12
 any: 1935
-lat: 41.4109406263714
-long: 2.15458969604376
-publicacions:
-  - gatcpac
 arquitectes:
-  - Antoni Fisas
-descripcio: ""
+- Antoni Fisas
+descripcio: ''
+draft: false
+lat: 41.4109406
+long: 2.1545897
+publicacions:
+- gatcpac
+title: Dispensari de Sant Josep de la Muntanya
 ---

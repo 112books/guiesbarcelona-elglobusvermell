@@ -31,8 +31,8 @@ intervencions:
     de les naus i les intervencions que han patit al llarg del temps i, per tant,
     en fa visible la història.'
   tipus: Remodelació
-lat: 41.4034225
-long: 2.1950063
+lat: 41.4034423
+long: 2.1949886
 proteccio: C
 publicacions:
 - poblenou

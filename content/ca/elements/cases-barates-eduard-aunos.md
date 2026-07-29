@@ -14,8 +14,8 @@ intervencions:
     blocs amb 340 pisos. La novel·la Donde la ciudad cambia su nombre (1957), de Francesc
     Candel, està ambientada aquí, on viu gran part de la seva vida.
   tipus: Projecte
-lat: 41.3518993
-long: 2.1424376
+lat: 41.3519102
+long: 2.1413362
 publicacions:
 - marina
 title: Cases Barates “Eduard Aunós”

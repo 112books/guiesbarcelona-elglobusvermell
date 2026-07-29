@@ -14,8 +14,8 @@ intervencions:
     (una d’oficines i una d’hotel) que, com les dues torres venecianes de la plaça
     d’Espanya, donen entrada al recinte.
   tipus: Projecte
-lat: 41.3485875
-long: 2.1335319
+lat: 41.3563261
+long: 2.1363865
 publicacions:
 - marina
 title: Fira Barcelona

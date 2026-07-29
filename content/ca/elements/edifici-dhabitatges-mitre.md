@@ -10,8 +10,8 @@ intervencions:
   autors: Francisco J. Barba Corsini
   descripcio: ''
   tipus: Projecte
-lat: 41.3930405
-long: 2.1306658
+lat: 41.3933693
+long: 2.1310666
 publicacions:
 - 50-75
 title: Edifici d’habitatges Mitre

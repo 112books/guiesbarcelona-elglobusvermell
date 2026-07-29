@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Mitjans i Miró
   descripcio: ''
   tipus: Projecte
-lat: 41.3938081
-long: 2.1323512
+lat: 41.4016293
+long: 2.1361552
 publicacions:
 - 50-75
 title: Edifici d’habitatges La Colmena

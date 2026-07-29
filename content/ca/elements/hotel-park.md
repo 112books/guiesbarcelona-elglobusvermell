@@ -10,8 +10,8 @@ intervencions:
   autors: Antoni de Moragas i Gallissà
   descripcio: ''
   tipus: Projecte
-lat: 41.3842359
-long: 2.1843645
+lat: 41.3842833
+long: 2.1843273
 publicacions:
 - 50-75
 title: Hotel Park

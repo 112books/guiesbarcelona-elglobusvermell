@@ -1,19 +1,19 @@
 ---
-title: Cunill Orfebres
-draft: false
 adreca: Ptge. Ratés 1-9 + Sancho de Ávila 41-45
-lat: 41.3988421
-long: 2.189527
 any: '1965'
-publicacions:
-- poblenou
-proteccio: C
 arquitectes:
 - G. Giráldez, P. López i J. Subias
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1965'
   autors: G. Giráldez, P. López i J. Subias
-  any: '1965'
   descripcio: 'Categoria: Fàbrica Seu del taller d’orfebreria Cunill e Hijos (posteriorment
     Cunill Orfebres). A l’espera d’una pròxima reconversió en luxosos lofts .'
+  tipus: Projecte
+lat: 41.3986399
+long: 2.1897355
+proteccio: C
+publicacions:
+- poblenou
+title: Cunill Orfebres
 ---

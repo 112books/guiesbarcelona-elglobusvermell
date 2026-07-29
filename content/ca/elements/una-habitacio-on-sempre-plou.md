@@ -7,8 +7,8 @@ descripcio: 'Autoria: Juan Muñoz. 1992 Una gran esplanada pavimentada i, al mig
   que no es va arribar a instal·lar.'
 draft: false
 foto: /img/elements/una-habitacio-on-sempre-plou.jpg
-lat: 41.3746477
-long: 2.1893711
+lat: 41.3749085
+long: 2.189283
 publicacions:
 - barceloneta
 temes_transversals:

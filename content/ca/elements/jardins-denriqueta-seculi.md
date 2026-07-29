@@ -1,19 +1,19 @@
 ---
-title: Jardins d’Enriqueta Sèculi
-draft: false
 adreca: Simó, 9-13
-lat: 41.4403843
-long: 2.2189686
-publicacions:
-- interiors-illa
-temes_transversals:
-- espai-public
-- nomenclator-femeni
-superficie: 800 m
-obertura: '2010'
 descripcio: 2 Enriqueta Sèculi i Bastida. (Barcelona, 1897 – 1976). Pedagoga i escriptora
   feminista catalana. Fou fundadora del Club Femení d’Esports, del Lyceum Club, de
   la Secció Femenina de Palestra, de la Lliga Femenina Catalana per la Pau i la Llibertat
   i del Front Únic Femení Esquerrista de Catalunya. També va adherir-se al Secretariat
   Femení Català del Congrés Mundial de Dones.
+draft: false
+lat: 41.4044579
+long: 2.1730957
+obertura: '2010'
+publicacions:
+- interiors-illa
+superficie: 800 m
+temes_transversals:
+- espai-public
+- nomenclator-femeni
+title: Jardins d’Enriqueta Sèculi
 ---

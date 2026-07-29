@@ -15,8 +15,8 @@ intervencions:
     m 2 Més info: Aquí hi havia hagut una fàbrica de caramels, de la qual es conserva
     la xemeneia Sobre la biblioteca: Joan Oliver . ( 1899-1986). Poeta i dramaturg.'
   tipus: Projecte
-lat: 41.3774787
-long: 2.1629383
+lat: 41.3777494
+long: 2.1632145
 obertura: '2009'
 publicacions:
 - 76-08

@@ -1,13 +1,13 @@
 ---
-title: Casa Viladot
-draft: false
-adreca: "Av. de Gaudí, 71"
+adreca: Av. de Gaudí, 71
 any: 1930
-lat: 41.4099272039874
-long: 2.17418821972
-publicacions:
-  - gatcpac
 arquitectes:
-  - Jaume Mestres
-descripcio: "."
+- Jaume Mestres
+descripcio: .
+draft: false
+lat: 41.4099272
+long: 2.1741882
+publicacions:
+- gatcpac
+title: Casa Viladot
 ---

@@ -7,8 +7,8 @@ descripcio: Josep Rovira i Canals. (Rubí, 1902 – Boulogne-Billancourt, Franç
   1944 fou un dels fundadors del Moviment Socialista de Catalunya.
 draft: false
 foto: /img/elements/placa-de-josep-rovira.jpg
-lat: 41.4104384
-long: 2.193964
+lat: 41.410319
+long: 2.1944268
 publicacions:
 - interiors-illa
 temes_transversals:

@@ -10,8 +10,8 @@ intervencions:
   autors: Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila
   descripcio: ''
   tipus: Projecte
-lat: 41.3976716
-long: 2.1388883
+lat: 41.3974878
+long: 2.1388815
 publicacions:
 - 50-75
 title: Institució cultural CIC

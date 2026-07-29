@@ -14,8 +14,8 @@ intervencions:
     aigua a una major pressió a la fàbrica Catalana de Gas, va estar en funcionament
     fins al 1964.
   tipus: Projecte
-lat: 41.3828365
-long: 2.1924885
+lat: 41.3838179
+long: 2.1926174
 proteccio: B
 publicacions:
 - barceloneta

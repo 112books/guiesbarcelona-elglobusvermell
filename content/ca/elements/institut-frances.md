@@ -10,8 +10,8 @@ intervencions:
   autors: José Antonio Coderch de Sentmenat
   descripcio: ''
   tipus: Projecte
-lat: 41.3952971
-long: 2.1515237
+lat: 41.3952847
+long: 2.1517646
 publicacions:
 - 50-75
 title: Institut Francès

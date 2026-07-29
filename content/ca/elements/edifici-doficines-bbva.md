@@ -1,17 +1,17 @@
 ---
-title: Edifici d’oficines BBVA
-draft: false
 adreca: Diagonal 468
-lat: 41.3961282
-long: 2.1562349
 any: '1973'
-publicacions:
-- 50-75
 arquitectes:
 - Josep Maria Fargas i Enric Tous
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1973'
   autors: Josep Maria Fargas i Enric Tous
-  any: '1973'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3960384
+long: 2.1563393
+publicacions:
+- 50-75
+title: Edifici d’oficines BBVA
 ---

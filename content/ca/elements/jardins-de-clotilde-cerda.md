@@ -8,8 +8,8 @@ descripcio: '2 Equipament: Equipament escolar previst Clotilde Cerdà i Bosch. (
   a favor de la pau.'
 draft: false
 foto: /img/elements/jardins-de-clotilde-cerda.jpg
-lat: 41.3366559
-long: 2.1591809
+lat: 41.4002091
+long: 2.1788213
 obertura: '2003'
 publicacions:
 - interiors-illa

@@ -1,22 +1,22 @@
 ---
-title: Cementiri de Montjuïc
-foto: /img/elements/cementiri-de-montjuic.jpg
-draft: false
 adreca: Mare de Déu de Port, 56
-lat: 41.3543682
-long: 2.1489944
 any: '1883'
-publicacions:
-- marina
-proteccio: C
 arquitectes:
 - Leandre Albareda i Petit
+draft: false
+foto: /img/elements/cementiri-de-montjuic.jpg
 intervencions:
-- tipus: Projecte
+- any: '1883'
   autors: Leandre Albareda i Petit
-  any: '1883'
   descripcio: Situat al vessant sud de la muntanya de Montjuïc, aquest immens cementiri
     de 56 hectàrees és característic per les meravelloses vistes al Mediterrani, amb
     el port i el delta del Llobregat en primer pla, i pel seu eclecticisme arquitectònic,
     amb elements neoclàssics, modernistes i noucentistes.
+  tipus: Projecte
+lat: 41.3527189
+long: 2.1536054
+proteccio: C
+publicacions:
+- marina
+title: Cementiri de Montjuïc
 ---

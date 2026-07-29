@@ -1,10 +1,10 @@
 ---
-title: Edifici d’habitatges
-draft: false
 adreca: Carme, 55 / Roig, 28-30
-lat: 41.4261835
-long: 2.2248282
+descripcio: 'Projecte: Josep Llinàs. 1994 Premi Ciutat de Barcelona Premi Dècada'
+draft: false
+lat: 41.3795884
+long: 2.1884469
 publicacions:
 - 76-08
-descripcio: 'Projecte: Josep Llinàs. 1994 Premi Ciutat de Barcelona Premi Dècada'
+title: Edifici d’habitatges
 ---

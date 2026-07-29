@@ -15,8 +15,8 @@ intervencions:
     la nau que feia de forn assecador de bombetes, la forma de la qual li va donar
     el sobrenom popular de “graner”.
   tipus: Reforma
-lat: 41.3609413
-long: 2.1361287
+lat: 41.3615556
+long: 2.1360057
 publicacions:
 - marina
 title: Graner

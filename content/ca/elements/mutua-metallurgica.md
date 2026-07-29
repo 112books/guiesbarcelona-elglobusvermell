@@ -10,8 +10,8 @@ intervencions:
   autors: Oriol Bohigas i Guardiola i Josep Maria Martorell i Codina
   descripcio: ''
   tipus: Projecte
-lat: 41.3986422
-long: 2.1672207
+lat: 41.3986919
+long: 2.167149
 publicacions:
 - 50-75
 title: Mútua Metal·lúrgica

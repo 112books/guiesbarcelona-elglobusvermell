@@ -8,8 +8,8 @@ intervencions:
     motllures dels balcons especialment exuberants i uns esgrafiats amb motius vegetals
     que es repeteixen sobre totes les parts massisses.
   tipus: Projecte
-lat: 41.3799192
-long: 2.1898134
+lat: 41.3799088
+long: 2.1898618
 projecte_text: Josep Graner Prat. 1910, aprox.
 publicacions:
 - barceloneta

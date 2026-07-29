@@ -8,8 +8,8 @@ descripcio: '2 Més info: Hi ha el poema visual Faune, de Joan Brossa Joan Bross
   de la literatura catalana.'
 draft: false
 foto: /img/elements/placeta-de-joan-brossa.jpg
-lat: 41.3920297
-long: 2.1554615
+lat: 41.3923686
+long: 2.1550186
 obertura: '2010'
 publicacions:
 - interiors-illa

@@ -10,8 +10,8 @@ intervencions:
   autors: Esteve Bonell Costa
   descripcio: ''
   tipus: Projecte
-lat: 41.3987815
-long: 2.1471229
+lat: 41.3992785
+long: 2.1475558
 publicacions:
 - 50-75
 title: Edifici d’habitatges Frégoli

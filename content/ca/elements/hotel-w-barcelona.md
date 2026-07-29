@@ -13,8 +13,8 @@ intervencions:
     del port. Els seus 99 metres d’alçada el converteixen en una de les fites, força
     controvertida, del litoral barceloní.
   tipus: Projecte
-lat: 41.3685132
-long: 2.1886289
+lat: 41.368542
+long: 2.190121
 publicacions:
 - barceloneta
 title: Hotel W Barcelona

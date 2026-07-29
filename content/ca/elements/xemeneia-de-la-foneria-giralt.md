@@ -1,15 +1,15 @@
 ---
-title: Xemeneia de la Foneria Giralt
-draft: false
 adreca: Ciutat de Granada 86 + Pallars 172-174
-lat: 41.3997146
-long: 2.1964797
+draft: false
+intervencions:
+- any: Segona dècada s. xx
+  descripcio: 'Categoria: Xemeneia'
+  tipus: Projecte
+lat: 41.3997412
+long: 2.1964533
 projecte_text: Segona dècada s. xx
+proteccio: C
 publicacions:
 - poblenou
-proteccio: C
-intervencions:
-- tipus: Projecte
-  any: Segona dècada s. xx
-  descripcio: 'Categoria: Xemeneia'
+title: Xemeneia de la Foneria Giralt
 ---

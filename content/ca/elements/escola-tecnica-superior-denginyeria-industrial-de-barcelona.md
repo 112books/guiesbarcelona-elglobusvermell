@@ -1,17 +1,17 @@
 ---
-title: Escola Tècnica Superior d’Enginyeria Industrial de Barcelona
-draft: false
 adreca: Av. Diagonal 647
-lat: 41.3842777
-long: 2.116106
 any: '1964'
-publicacions:
-- 50-75
 arquitectes:
 - Robert Terradas i Via
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1964'
   autors: Robert Terradas i Via
-  any: '1964'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3847795
+long: 2.1156637
+publicacions:
+- 50-75
+title: Escola Tècnica Superior d’Enginyeria Industrial de Barcelona
 ---

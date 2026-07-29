@@ -7,8 +7,8 @@ descripcio: 'Autoria: Alumnes de Ciutat Vella. 2011 Obra impulsada per l’IMPU 
   els dibuixos. La majoria tenen a veure amb el món infantil i la zona marítima.'
 draft: false
 foto: /img/elements/mitgera-dels-objectes.jpg
-lat: 41.3761812
-long: 2.1899793
+lat: 41.3761479
+long: 2.1900456
 publicacions:
 - barceloneta
 temes_transversals:

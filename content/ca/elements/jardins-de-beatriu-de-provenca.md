@@ -6,8 +6,8 @@ descripcio: '2 Equipament: Escola bressol “La Fassina” Més info: Situats en
   comtat de Provença (1245-1267) i reina consort de Nàpols i de Sicília (1266-1267).'
 draft: false
 foto: /img/elements/jardins-de-beatriu-de-provenca.jpg
-lat: 41.401484
-long: 2.1715282
+lat: 41.4016584
+long: 2.1717886
 obertura: '2010'
 publicacions:
 - interiors-illa

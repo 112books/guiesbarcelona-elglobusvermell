@@ -1,13 +1,13 @@
 ---
-title: Casa Vilaró
-draft: false
-adreca: "Av. del Coll de Portell, 43"
+adreca: Av. del Coll de Portell, 43
 any: 1929
-lat: 41.4112263958906
-long: 2.1514430955746
-publicacions:
-  - gatcpac
 arquitectes:
-  - Sixte Illescas
-descripcio: ""
+- Sixte Illescas
+descripcio: ''
+draft: false
+lat: 41.4112264
+long: 2.1514431
+publicacions:
+- gatcpac
+title: Casa Vilaró
 ---

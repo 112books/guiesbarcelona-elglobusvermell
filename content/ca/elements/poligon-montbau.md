@@ -12,8 +12,8 @@ intervencions:
     Baldrich, Antoni Bonet i Josep Soteras
   descripcio: ''
   tipus: Projecte
-lat: 41.4296386
-long: 2.1398382
+lat: 41.4306906
+long: 2.1424973
 publicacions:
 - 50-75
 title: Polígon Montbau

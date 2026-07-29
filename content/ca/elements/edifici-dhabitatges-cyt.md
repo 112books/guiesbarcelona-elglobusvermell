@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Mitjans i Miró
   descripcio: ''
   tipus: Projecte
-lat: 41.3978018
-long: 2.1390417
+lat: 41.397243
+long: 2.1547153
 publicacions:
 - 50-75
 title: Edifici d’habitatges CYT

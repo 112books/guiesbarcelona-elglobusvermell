@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Mitjans i Miró
   descripcio: ''
   tipus: Projecte
-lat: 41.400195
-long: 2.1386969
+lat: 41.3996681
+long: 2.1388469
 publicacions:
 - 50-75
 title: Edifici d’habitatges, carrer Vallmajor

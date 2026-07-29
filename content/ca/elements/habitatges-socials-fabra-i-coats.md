@@ -1,19 +1,19 @@
 ---
-title: Habitatges socials Fabra i Coats
-draft: false
 adreca: Sant Adrià, 20. Recinte Fabra i Coats
-lat: 41.4282767
-long: 2.2106995
 any: '2019'
+arquitectes:
+- Roldán+Berengué
+draft: false
+intervencions:
+- any: '2019'
+  autors: Roldán+Berengué
+  descripcio: ''
+  tipus: Projecte
+lat: 41.4324346
+long: 2.1907239
 publicacions:
 - 09-25
 temes_transversals:
 - dones-arquitectes
-arquitectes:
-- Roldán+Berengué
-intervencions:
-- tipus: Projecte
-  autors: Roldán+Berengué
-  any: '2019'
-  descripcio: ''
+title: Habitatges socials Fabra i Coats
 ---

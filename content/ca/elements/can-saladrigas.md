@@ -10,8 +10,8 @@ intervencions:
     tèxtil. Actualment, centre cultural, biblioteca i casal de gent gran. Es conserven
     dues de les xemeneies de la fàbrica, una davant l’edifici i l’altra al pati interior.'
   tipus: Remodelació
-lat: 41.4003655
-long: 2.2034699
+lat: 41.4013326
+long: 2.2044355
 proteccio: C
 publicacions:
 - poblenou

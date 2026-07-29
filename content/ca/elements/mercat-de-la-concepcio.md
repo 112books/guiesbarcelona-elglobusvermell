@@ -7,8 +7,8 @@ intervencions:
   autors: Albert de Pineda i Álvarez
   descripcio: 'Projecte original: Antoni Rovira i Trias. 1888'
   tipus: Remodelació
-lat: 41.3952533
-long: 2.1686113
+lat: 41.3957795
+long: 2.168658
 publicacions:
 - mercats
 title: Mercat de la Concepció

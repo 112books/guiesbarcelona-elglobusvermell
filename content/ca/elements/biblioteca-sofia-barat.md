@@ -8,8 +8,8 @@ descripcio: 'Sofia Barat Religiosa. 1779-1865 Arquitecte: Judith Masana. 2000 Tr
   previst segons Pla 2030. Edifici Taller Masriera. Reforma: Länk Arquitectes i DataAE.'
 draft: false
 foto: /img/elements/biblioteca-sofia-barat.jpg
-lat: 41.3946816
-long: 2.171499
+lat: 41.3947186
+long: 2.1715339
 publicacions:
 - biblioteques
 temes_transversals:

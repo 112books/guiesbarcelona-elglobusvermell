@@ -8,8 +8,8 @@ descripcio: 'Horari: Diumenges de 9.00 a 14.00 h Mercadal de venedors ambulants 
   de les Cases Barates”.'
 draft: false
 foto: /img/elements/mercadillo-de-la-marina-zona-franca.jpg
-lat: 41.3648285
-long: 2.1388978
+lat: 41.3567074
+long: 2.1458428
 publicacions:
 - marina
 title: “Mercadillo” de la Marina – Zona Franca

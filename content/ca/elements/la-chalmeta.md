@@ -16,8 +16,8 @@ intervencions:
     a la vorera, hi ha una xemeneia que resta com a únic testimoni d’un antic conjunt
     fabril.
   tipus: Projecte
-lat: 41.3520414
-long: 2.1437044
+lat: 41.3521871
+long: 2.1433981
 publicacions:
 - 09-25
 - marina

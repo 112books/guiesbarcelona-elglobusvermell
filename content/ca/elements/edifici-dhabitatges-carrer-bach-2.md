@@ -10,8 +10,8 @@ intervencions:
   autors: Ricardo Bofill Levi
   descripcio: ''
   tipus: Projecte
-lat: 41.3947327
-long: 2.1385045
+lat: 41.394753
+long: 2.1385316
 publicacions:
 - 50-75
 title: Edifici d’habitatges, carrer Bach 2

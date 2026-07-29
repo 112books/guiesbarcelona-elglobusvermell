@@ -7,8 +7,8 @@ descripcio: '2 Més info: Inicialment anomenats Jardins de l’antiga Fàbrica B
   Pere Tarrés o l’Escola de l’Esplai de Barcelona.'
 draft: false
 foto: /img/elements/jardins-de-rosa-deulofeu.jpg
-lat: 41.3941538
-long: 2.1539818
+lat: 41.3874148
+long: 2.1459289
 obertura: '2010'
 publicacions:
 - interiors-illa

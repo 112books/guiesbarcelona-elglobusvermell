@@ -1,24 +1,15 @@
 ---
-title: Jardí dels Drets Humans
-draft: false
 adreca: Interior de l’Illa Philips, Pg. de la Zona Franca, 191-203
-lat: 41.3618892
-long: 2.1374479
 any: '1960'
-publicacions:
-- marina
-temes_transversals:
-- dones-arquitectes
-- espai-public
 arquitectes:
 - Van der Harst
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1960'
   autors: Van der Harst
-  any: '1960'
-- tipus: Reforma
+  tipus: Projecte
+- any: '2007'
   autors: Jaume Graells
-  any: '2007'
   descripcio: Frondós jardí de més de 12.500 m2 dissenyat per la paisatgista i parella
     de l’aleshores director de la fàbrica Philips amb l’objectiu que els treballadors
     tinguessin un espai exterior de descans i esbarjo. Destaca la gran varietat d’espècies
@@ -26,4 +17,13 @@ intervencions:
     els 30 articles de la Declaració Universal dels Drets Humans (Nacions Unides,
     1948) i la poesia Como la cigarra , de Maria Elena Walsh, homenatge als desapareguts
     de les dictadures militars de Xile i l’Argentina.
+  tipus: Reforma
+lat: 41.3610246
+long: 2.1369453
+publicacions:
+- marina
+temes_transversals:
+- dones-arquitectes
+- espai-public
+title: Jardí dels Drets Humans
 ---

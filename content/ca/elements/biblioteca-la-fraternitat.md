@@ -10,8 +10,8 @@ draft: false
 edifici_original: Cooperativa Obrera La Fraternitat de la Barceloneta. Francesc Guàrdia
   i Vial. 1918
 foto: /img/elements/biblioteca-la-fraternitat.jpg
-lat: 41.3782045
-long: 2.1891275
+lat: 41.379292
+long: 2.1888254
 publicacions:
 - barceloneta
 - biblioteques

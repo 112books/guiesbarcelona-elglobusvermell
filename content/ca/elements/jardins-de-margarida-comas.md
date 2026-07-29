@@ -8,8 +8,8 @@ descripcio: 'Més info: S’hi conserva una xemeneia de maó que recorda el pass
   1937 va viure exiliada a Anglaterra.'
 draft: false
 foto: /img/elements/jardins-de-margarida-comas.jpg
-lat: 41.399901
-long: 2.2011615
+lat: 41.3923688
+long: 2.1914571
 publicacions:
 - interiors-illa
 temes_transversals:

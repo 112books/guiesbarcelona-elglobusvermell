@@ -1,12 +1,12 @@
 ---
-title: Jardins de Tànger – Pamplona – Sancho de Ávila – Zamora
-draft: false
 adreca: Tànger, 20 + C. Pamplona, 125 + C. Sancho de Ávila, 15-35
-lat: 41.40202
-long: 2.192162
+descripcio: ''
+draft: false
+lat: 41.3983339
+long: 2.1883402
 publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
-descripcio: ''
+title: Jardins de Tànger – Pamplona – Sancho de Ávila – Zamora
 ---

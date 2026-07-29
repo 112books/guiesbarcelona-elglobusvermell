@@ -1,13 +1,13 @@
 ---
-title: Edifici Astoria
-draft: false
-adreca: "C. de París, 193-199"
+adreca: C. de París, 193-199
 any: 1932
-lat: 41.3938388301162
-long: 2.15313599745364
-publicacions:
-  - gatcpac
 arquitectes:
-  - Germà Rodríguez Arias
-descripcio: ""
+- Germà Rodríguez Arias
+descripcio: ''
+draft: false
+lat: 41.3938388
+long: 2.153136
+publicacions:
+- gatcpac
+title: Edifici Astoria
 ---

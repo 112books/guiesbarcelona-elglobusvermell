@@ -7,8 +7,8 @@ descripcio: 'Miquel Llongueras Arqueòleg i polític. 1942-1998 La Maternitat i 
   Ramon Arquitecte: Pere Joan Ravetllat i Carme Ribas. 2000'
 draft: false
 foto: /img/elements/biblioteca-les-corts-miquel-llongueras.jpg
-lat: 41.377865
-long: 2.1217376
+lat: 41.3779366
+long: 2.1217417
 publicacions:
 - biblioteques
 temes_transversals:

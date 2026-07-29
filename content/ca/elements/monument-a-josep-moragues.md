@@ -8,8 +8,8 @@ descripcio: 'Autoria: Francesc Abad. 1999 Homenatge al general que va lluitar co
   Guimerà.'
 draft: false
 foto: /img/elements/monument-a-josep-moragues.jpg
-lat: 41.3821781
-long: 2.1854159
+lat: 41.3819576
+long: 2.1858221
 publicacions:
 - barceloneta
 temes_transversals:

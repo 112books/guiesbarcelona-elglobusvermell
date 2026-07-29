@@ -6,8 +6,8 @@ descripcio: 'Autoria: Antoni Llena. 1992 Enorme escultura d’acer, formada per 
   i l’actual barri benestant de la Vila Olímpica.'
 draft: false
 foto: /img/elements/david-i-goliat.jpg
-lat: 41.3863682
-long: 2.1944117
+lat: 41.3872805
+long: 2.1954609
 publicacions:
 - barceloneta
 temes_transversals:

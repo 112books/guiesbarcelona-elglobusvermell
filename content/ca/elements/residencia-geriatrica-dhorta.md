@@ -1,17 +1,17 @@
 ---
-title: Residència geriàtrica d’Horta
-draft: false
 adreca: Josep Sangenís, 75
-lat: 41.4254168
-long: 2.1514038
 any: '1992'
-publicacions:
-- 76-08
 arquitectes:
 - Emili Donato, Miguel Jiménez i Ramon Martí
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1992'
   autors: Emili Donato, Miguel Jiménez i Ramon Martí
-  any: '1992'
   descripcio: ''
+  tipus: Projecte
+lat: 41.425537
+long: 2.150972
+publicacions:
+- 76-08
+title: Residència geriàtrica d’Horta
 ---

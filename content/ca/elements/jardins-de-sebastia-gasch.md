@@ -7,8 +7,8 @@ descripcio: 2 Sebastià Gasch i Carreras . (Barcelona, 1897 – 1980). Escriptor
   de crític de music-hall i de cinema.
 draft: false
 foto: /img/elements/jardins-de-sebastia-gasch.jpg
-lat: 41.3777556
-long: 2.155328
+lat: 41.3788218
+long: 2.1528692
 obertura: '1994'
 publicacions:
 - interiors-illa

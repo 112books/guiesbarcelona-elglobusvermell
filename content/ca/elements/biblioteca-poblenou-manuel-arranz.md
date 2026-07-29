@@ -9,8 +9,8 @@ intervencions:
   autors: Moisés Gallego i Tomàs Morató
   descripcio: Manuel Arranz Professor, historiador i arxivista. 1946-1990 Poblenou
   tipus: Remodelació
-lat: 41.4013653
-long: 2.2045218
+lat: 41.4013944
+long: 2.2044142
 publicacions:
 - biblioteques
 title: Biblioteca Poblenou – Manuel Arranz

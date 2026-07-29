@@ -7,8 +7,8 @@ intervencions:
   descripcio: 'Projecte original:1896 Categoria: Altres edificis Cooperativa obrera.
     Actualment, ateneu popular.'
   tipus: Remodelació
-lat: 41.3979311
-long: 2.2022065
+lat: 41.3978807
+long: 2.2023565
 proteccio: C
 publicacions:
 - poblenou

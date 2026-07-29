@@ -1,17 +1,17 @@
 ---
-title: Palau Nou de la Rambla
-draft: false
 adreca: La Rambla, 88
-lat: 41.3828862
-long: 2.1719247
 any: '1994'
-publicacions:
-- 76-08
 arquitectes:
 - MBM (Martorell, Bohigas, Mackay)
+draft: false
 intervencions:
-- tipus: Projecte
+- any: '1994'
   autors: MBM (Martorell, Bohigas, Mackay)
-  any: '1994'
   descripcio: ''
+  tipus: Projecte
+lat: 41.3818599
+long: 2.1729794
+publicacions:
+- 76-08
+title: Palau Nou de la Rambla
 ---

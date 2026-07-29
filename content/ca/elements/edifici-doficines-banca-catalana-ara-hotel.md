@@ -10,8 +10,8 @@ intervencions:
   autors: Josep Maria Fargas i Enric Tous
   descripcio: ''
   tipus: Projecte
-lat: 41.39458
-long: 2.1624325
+lat: 41.39465
+long: 2.1624847
 publicacions:
 - 50-75
 title: Edifici d’oficines Banca Catalana (ara hotel)

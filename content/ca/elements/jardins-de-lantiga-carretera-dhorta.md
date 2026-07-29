@@ -6,8 +6,8 @@ descripcio: '2 Equipament: Centre de Serveis Socials Fort Pienc Carretera d’Ho
   per fugir d’una ciutat massificada i insalubre.'
 draft: false
 foto: /img/elements/jardins-de-lantiga-carretera-dhorta.jpg
-lat: 41.394321
-long: 2.1797673
+lat: 41.3939931
+long: 2.1802416
 obertura: '2003'
 publicacions:
 - interiors-illa

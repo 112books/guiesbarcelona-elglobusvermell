@@ -10,8 +10,8 @@ intervencions:
   autors: Francesc Bassó i Birulés i Joaquim Gili i Morós
   descripcio: ''
   tipus: Projecte
-lat: 41.3862705
-long: 2.1474968
+lat: 41.3860874
+long: 2.1475522
 publicacions:
 - 50-75
 title: Editorial Gustavo Gili
