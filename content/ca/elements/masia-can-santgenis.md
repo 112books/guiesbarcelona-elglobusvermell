@@ -1,11 +1,11 @@
 ---
-title: Masia Can Santgenís
-draft: false
 adreca: Camí de Sant Llàtzer, 2-6
-lat: 41.4456533
-long: 2.1575034
+descripcio: Camí de Sant Llàtzer, 2-6 / Pl. Karl Marx, 1
+draft: false
+lat: 41.4410618
+long: 2.1609488
+proteccio: C
 publicacions:
 - masies
-proteccio: C
-descripcio: Camí de Sant Llàtzer, 2-6 / Pl. Karl Marx, 1
+title: Masia Can Santgenís
 ---

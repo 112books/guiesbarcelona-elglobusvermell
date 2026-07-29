@@ -1,13 +1,13 @@
 ---
-title: Masia Can Trilla
-draft: false
 adreca: Gran de Gràcia, 177 / Pl
-lat: 41.4035051
-long: 2.1521794
+descripcio: Gran de Gràcia, 177 / Pl. Trilla Mas del segle xvii on es premsava raïm
+  i es feia oli. Actualment està en desús.
+draft: false
+lat: 41.4034039
+long: 2.1519042
+proteccio: B
 publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
-proteccio: B
-descripcio: Gran de Gràcia, 177 / Pl. Trilla Mas del segle xvii on es premsava raïm
-  i es feia oli. Actualment està en desús.
+title: Masia Can Trilla
 ---

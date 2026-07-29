@@ -1,11 +1,11 @@
 ---
-title: Masia Can Querol
-draft: false
 adreca: Pg. Maragall, 378-394
-lat: 41.4285147
-long: 2.1633795
+descripcio: Pg. Maragall, 378-394 / Petrarca, 46-60 / Sant Alexandre, 61-67
+draft: false
+lat: 41.4287083
+long: 2.1634763
+proteccio: B
 publicacions:
 - masies
-proteccio: B
-descripcio: Pg. Maragall, 378-394 / Petrarca, 46-60 / Sant Alexandre, 61-67
+title: Masia Can Querol
 ---

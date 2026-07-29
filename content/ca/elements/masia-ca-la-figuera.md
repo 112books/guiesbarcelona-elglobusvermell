@@ -1,12 +1,12 @@
 ---
-title: Masia Ca la Figuera
-draft: false
 adreca: Roine, 12-16
-lat: 41.430862
-long: 2.190158
+descripcio: Roine, 12-16 Mas construït entre els segles xviii i xix . Actualment està
+  dividit en tres cases.
+draft: false
+lat: 41.4307571
+long: 2.1903155
 publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
-descripcio: Roine, 12-16 Mas construït entre els segles xviii i xix . Actualment està
-  dividit en tres cases.
+title: Masia Ca la Figuera
 ---

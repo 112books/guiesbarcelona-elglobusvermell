@@ -1,11 +1,11 @@
 ---
-title: Masia Can Piteu
-draft: false
 adreca: Natzaret, 67-81
-lat: 41.425795
-long: 2.136048
+descripcio: Natzaret, 67-81
+draft: false
+lat: 41.4253635
+long: 2.1366914
+proteccio: C
 publicacions:
 - masies
-proteccio: C
-descripcio: Natzaret, 67-81
+title: Masia Can Piteu
 ---

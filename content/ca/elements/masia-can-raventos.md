@@ -1,14 +1,14 @@
 ---
-title: Masia Can Raventós
-draft: false
 adreca: Fontcoberta 16
-lat: 41.3957028
-long: 2.1236461
-publicacions:
-- masies
-proteccio: C
 descripcio: Fontcoberta 16 / Bonaplata 44 Construïda a principis del segle xix com
   a casa-torre. Successives reformes en modifiquen la volumetria original. Actualment
   en procés de negociació entre l’Ajuntament i una promotora privada. Tipologia original
   irreconeixible.
+draft: false
+lat: 41.3959732
+long: 2.1238259
+proteccio: C
+publicacions:
+- masies
+title: Masia Can Raventós
 ---

@@ -1,11 +1,11 @@
 ---
-title: Masia Can Prats
-draft: false
 adreca: Pl. Artós, 4
-lat: 41.395578
-long: 2.126204
+descripcio: Pl. Artós, 4
+draft: false
+lat: 41.3957725
+long: 2.1262044
+proteccio: C
 publicacions:
 - masies
-proteccio: C
-descripcio: Pl. Artós, 4
+title: Masia Can Prats
 ---
