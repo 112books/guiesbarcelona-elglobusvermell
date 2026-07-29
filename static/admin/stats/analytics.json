@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T19:24:10.518605Z",
+  "generated": "2026-07-29T21:01:02.772470Z",
   "period": {
     "start": "2025-07-29",
     "end": "2026-07-28"
@@ -165,18 +165,7 @@
     "mapa-filtre-tema": 4
   },
   "by_lang": {},
-  "browsers": [
-    {
-      "name": "Safari",
-      "id": "Safari",
-      "count": 178
-    },
-    {
-      "name": "Chrome",
-      "id": "Chrome",
-      "count": 77
-    }
-  ],
+  "browsers": [],
   "systems": [
     {
       "name": "macOS",
