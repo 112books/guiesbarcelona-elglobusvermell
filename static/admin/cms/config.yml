@@ -37,7 +37,7 @@ collections:
     label: Edificis i elements
     label_singular: Edifici
     folder: content/ca/elements
-    create: true
+    create: false
     extension: md
     format: yaml-frontmatter
     slug: "{{slug}}"
