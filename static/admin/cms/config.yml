@@ -38,6 +38,8 @@ collections:
     label_singular: Edifici
     folder: content/ca/elements
     create: false
+    media_folder: /static/img/elements
+    public_folder: /img/elements
     extension: md
     format: yaml-frontmatter
     slug: "{{slug}}"
