@@ -1,12 +1,12 @@
 ---
-title: Masia Can Laietos
-draft: false
 adreca: Servet, 97
-lat: 41.4372797
-long: 2.1863392
+descripcio: Servet, 97 / Arbúcies Casa de pagès de mitjan segle xix . Ha patit diverses
+  reformes. Actualment té un ús residencial.
+draft: false
+lat: 41.4372502
+long: 2.1863316
 publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
-descripcio: Servet, 97 / Arbúcies Casa de pagès de mitjan segle xix . Ha patit diverses
-  reformes. Actualment té un ús residencial.
+title: Masia Can Laietos
 ---

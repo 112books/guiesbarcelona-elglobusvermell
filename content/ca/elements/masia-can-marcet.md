@@ -1,11 +1,11 @@
 ---
-title: Masia Can Marcet
-draft: false
 adreca: Pg. Vall d'Hebron, 256
-lat: 41.4267444
-long: 2.1435099
+descripcio: Pg. Vall d’Hebron, 256
+draft: false
+lat: 41.4356243
+long: 2.1508735
+proteccio: C
 publicacions:
 - masies
-proteccio: C
-descripcio: Pg. Vall d’Hebron, 256
+title: Masia Can Marcet
 ---

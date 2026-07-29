@@ -16,8 +16,8 @@ intervencions:
     segle xx . El 1942 s’hi afegeixen les dues plantes superiors. És cedida a l’Ajuntament
     el 1997 i habilitada com a equipament públic.
   tipus: Projecte
-lat: 41.3596798
-long: 2.1451395
+lat: 41.3598372
+long: 2.1446741
 proteccio: C
 publicacions:
 - marina

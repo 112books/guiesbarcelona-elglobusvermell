@@ -1,10 +1,10 @@
 ---
-title: Masia Can Manén
-draft: false
 adreca: Mestre Dalmau, 3
-lat: 41.43308
-long: 2.162702
+descripcio: Mestre Dalmau, 3
+draft: false
+lat: 41.4331362
+long: 2.1625172
 publicacions:
 - masies
-descripcio: Mestre Dalmau, 3
+title: Masia Can Manén
 ---

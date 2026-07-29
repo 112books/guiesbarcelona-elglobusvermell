@@ -1,11 +1,11 @@
 ---
-title: Masia Can Ros
-draft: false
 adreca: Gran de Sant Andreu
-lat: 41.4284731
-long: 2.1906532
+descripcio: Pl. Comerç / Gran de Sant Andreu
+draft: false
+lat: 41.4355591
+long: 2.1898546
+proteccio: C
 publicacions:
 - masies
-proteccio: C
-descripcio: Pl. Comerç / Gran de Sant Andreu
+title: Masia Can Ros
 ---

@@ -1,11 +1,11 @@
 ---
-title: Masia Can Senillosa
-draft: false
 adreca: Fontcoberta, 9-13
-lat: 41.395175
-long: 2.124
+descripcio: Fontcoberta, 9-13
+draft: false
+lat: 41.3951149
+long: 2.123917
+proteccio: B
 publicacions:
 - masies
-proteccio: B
-descripcio: Fontcoberta, 9-13
+title: Masia Can Senillosa
 ---

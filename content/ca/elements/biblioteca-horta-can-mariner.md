@@ -11,8 +11,8 @@ intervencions:
   descripcio: xi La primera referència d’aquesta masia és de 1516 i l’última gran
     reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
   tipus: Remodelació
-lat: 41.4312086
-long: 2.1605059
+lat: 41.4312026
+long: 2.1604091
 proteccio: B
 publicacions:
 - biblioteques

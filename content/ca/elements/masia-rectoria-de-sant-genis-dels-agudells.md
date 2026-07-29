@@ -1,11 +1,11 @@
 ---
-title: Masia Rectoria de Sant Genís dels Agudells
-draft: false
 adreca: Saldes, 3
-lat: 41.427825
-long: 2.136476
+descripcio: Saldes, 3
+draft: false
+lat: 41.4278193
+long: 2.1360297
+proteccio: B
 publicacions:
 - masies
-proteccio: B
-descripcio: Saldes, 3
+title: Masia Rectoria de Sant Genís dels Agudells
 ---
