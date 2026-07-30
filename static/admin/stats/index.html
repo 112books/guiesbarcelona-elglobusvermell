@@ -34,8 +34,8 @@
       --ink:     #111110;
       --ink2:    #444440;
       --ink3:    #6b6b66;
-      --accent:  #d4600a;
-      --accent2: #b04d06;
+      --accent:  #c81e1e;
+      --accent2: #a01818;
       --green:   #2d7a2d;
       --blue:    #1a5c9a;
       --border:  #ddddd8;
@@ -68,8 +68,11 @@
       gap: 1rem;
       flex-wrap: wrap;
     }
-    .topbar-logo { color: var(--ink3); letter-spacing: .12em; font-size: 11px; text-transform: uppercase; }
-    .topbar-logo em { color: var(--accent); font-style: normal; }
+    .topbar-logo { display: flex; align-items: center; gap: .75rem; }
+    .topbar-logo a { display: flex; align-items: center; }
+    .topbar-logo img { height: 2rem; width: auto; }
+    .topbar-logo-sep { color: var(--border); font-size: 1.2rem; font-weight: 200; }
+    .topbar-logo-label { color: var(--ink3); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
     .topbar-meta { flex: 1; min-width: 0; }
     .topbar-gen { font-size: 10px; color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .topbar-gen strong { color: var(--ink2); }
@@ -189,6 +192,25 @@
     .insight em { color: var(--ink); font-style: normal; }
     .insight-line::before { content: '→ '; color: var(--accent); }
 
+    /* ── Resum executiu ─────────────────────────────────────── */
+    .resum-executiu {
+      border: 1px solid var(--accent); background: #fff8f8;
+      padding: 1.1rem 1.4rem; margin-bottom: 2rem;
+    }
+    .resum-header {
+      display: flex; align-items: baseline; justify-content: space-between;
+      margin-bottom: .6rem; gap: 1rem;
+    }
+    .resum-label {
+      font-size: 10px; letter-spacing: .18em; text-transform: uppercase;
+      color: var(--accent); font-weight: 500;
+    }
+    .resum-period { font-size: 10px; color: var(--ink3); }
+    .resum-lines { display: flex; flex-direction: column; gap: .35rem; }
+    .resum-line { font-size: 12px; color: var(--ink2); line-height: 1.6; }
+    .resum-line::before { content: '→ '; color: var(--accent); }
+    .resum-line em { color: var(--ink); font-style: normal; font-weight: 500; }
+
     /* ── Empty ──────────────────────────────────────────────── */
     .empty { color: var(--ink3); font-size: 11px; font-style: italic; padding: .4rem 0; display: block; }
 
@@ -216,18 +238,34 @@
 <div id="dashboard">
 
   <div class="topbar">
-    <div class="topbar-logo" id="topbar-logo"></div>
+    <div class="topbar-logo">
+      <a href="../../" aria-label="Guies de Barcelona — inici">
+        <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg" alt="Guies de Barcelona">
+      </a>
+      <span class="topbar-logo-sep">/</span>
+      <span class="topbar-logo-label">Estadístiques</span>
+    </div>
     <div class="topbar-meta">
       <div class="topbar-gen" id="topbar-gen">carregant…</div>
     </div>
     <div class="topbar-actions">
       <a id="gc-link" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ GoatCounter</a>
       <a href="../" class="btn-sm">← Admin</a>
+      <a href="../../" class="btn-sm">← Web</a>
     </div>
   </div>
 
   <main class="dash-body">
     <div id="banner"></div>
+
+    <!-- Resum executiu -->
+    <div id="resum-executiu" style="display:none" class="resum-executiu">
+      <div class="resum-header">
+        <span class="resum-label">// resum executiu</span>
+        <span class="resum-period" id="resum-period"></span>
+      </div>
+      <div class="resum-lines" id="resum-lines"></div>
+    </div>
 
     <!-- KPIs -->
     <dl class="kpis">
@@ -316,10 +354,6 @@
 </div>
 
 <script>
-document.getElementById('login-logo').innerHTML =
-  'GUIES BARCELONA / <em>STATS</em>';
-document.getElementById('topbar-logo').innerHTML =
-  'GUIES BARCELONA / <em>STATS</em>';
 document.getElementById('gc-link').href = CFG.gcUrl;
 
 showDashboard();
@@ -411,6 +445,7 @@ function renderAll(data) {
   renderLocations(data);
   renderDevices(data);
   renderBrowsersSystems(data);
+  renderResumExecutiu(data);
   renderInsightTemporal(data);
   renderInsightPagines(data);
   renderInsightDispositius(data);
@@ -446,17 +481,17 @@ function renderChart(data) {
         labels,
         datasets: [{
           label: 'Visites', data: values,
-          borderColor: '#d4600a',
+          borderColor: '#c81e1e',
           backgroundColor: ctx2 => {
             const g = ctx2.chart.ctx.createLinearGradient(0, 0, 0, ctx2.chart.height);
-            g.addColorStop(0, 'rgba(212,96,10,0.18)');
-            g.addColorStop(1, 'rgba(212,96,10,0.01)');
+            g.addColorStop(0, 'rgba(200,30,30,0.18)');
+            g.addColorStop(1, 'rgba(200,30,30,0.01)');
             return g;
           },
           fill: true, tension: 0.3,
           pointRadius: values.length > 60 ? 0 : 3,
           pointHoverRadius: 5,
-          pointBackgroundColor: '#d4600a',
+          pointBackgroundColor: '#c81e1e',
           borderWidth: 1.5,
         }],
       },
@@ -606,6 +641,87 @@ function renderBrowsersSystems(data) {
   const systems  = (data.systems ||[]).map(s => ({ name: getIcon(s.name||'',OS_ICON)     +' '+(s.name||'?'), count: s.count }));
   renderBars('browsers-wrap', browsers);
   renderBars('systems-wrap',  systems);
+}
+
+/* ══ RESUM EXECUTIU ══════════════════════════════════════════ */
+function renderResumExecutiu(data) {
+  const hbd    = data.hits_by_day || [];
+  const total  = data.total || 0;
+  if (!total) return;
+
+  const today  = isoToday();
+  const avui   = sumDays(hbd, today, today);
+  const set7   = sumDays(hbd, daysAgo(7), today);
+  const set7b  = sumDays(hbd, daysAgo(14), daysAgo(8));
+  const mes30  = sumDays(hbd, daysAgo(30), today);
+  const avg    = hbd.filter(d => d.count > 0).length > 0
+    ? (total / hbd.filter(d => d.count > 0).length).toFixed(1) : 0;
+
+  const byLang = Object.entries(data.by_lang || {}).sort((a,b) => b[1]-a[1]);
+  const bySec  = Object.entries(data.by_section || {}).sort((a,b) => b[1]-a[1]);
+  const topPg  = (data.hits || [])[0];
+  const sizes  = data.sizes || [];
+
+  const LANGS  = {ca:'Català',es:'Castellà',en:'Anglès',fr:'Francès',de:'Alemany',it:'Italià',pt:'Portuguès'};
+
+  const lines = [];
+
+  // Tendència setmanal
+  if (set7b > 0) {
+    const delta = Math.round((set7 - set7b) / set7b * 100);
+    if (delta > 10)
+      lines.push('Tendència <em>a l\'alça ▲' + delta + '%</em> respecte la setmana anterior (' + fmt(set7) + ' vs ' + fmt(set7b) + ' visites).');
+    else if (delta < -10)
+      lines.push('Tendència <em>a la baixa ▼' + Math.abs(delta) + '%</em> respecte la setmana anterior (' + fmt(set7) + ' vs ' + fmt(set7b) + ' visites).');
+    else
+      lines.push('Trànsit estable: <em>' + fmt(set7) + ' visites</em> els últims 7 dies (±' + Math.abs(delta) + '% vs setmana anterior).');
+  } else {
+    lines.push('Últims 7 dies: <em>' + fmt(set7) + ' visites</em> · Avui: <em>' + fmt(avui) + '</em> · Mitjana/dia: <em>' + avg + '</em>.');
+  }
+
+  // Idioma principal
+  if (byLang.length && total > 0) {
+    const [lang, cnt] = byLang[0];
+    const pct = Math.round(cnt / total * 100);
+    const nom = LANGS[lang] || lang;
+    if (byLang.length > 1) {
+      const [lang2, cnt2] = byLang[1];
+      lines.push('Idioma principal: <em>' + nom + '</em> (' + pct + '%). Segon: <em>' + (LANGS[lang2]||lang2) + '</em> (' + Math.round(cnt2/total*100) + '%).');
+    } else {
+      lines.push('Tot el trànsit és en <em>' + nom + '</em> (' + pct + '%).');
+    }
+  }
+
+  // Secció + pàgina top
+  if (bySec.length && topPg) {
+    const [sec] = bySec[0];
+    const secName = CFG.sectionNames[sec] || sec;
+    lines.push('Secció més visitada: <em>' + secName + '</em>. Pàgina top: <em>' + topPg.path + '</em> (' + fmt(topPg.count) + ' visites).');
+  }
+
+  // Dispositiu
+  let mobile = 0, dsk = 0, tot = 0;
+  sizes.forEach(s => {
+    const id = (s.id||s.name||'').toLowerCase(); const c = s.count||0; tot += c;
+    if (id==='phone') mobile += c;
+    if (['desktop','desktophd','larger'].includes(id)) dsk += c;
+  });
+  if (tot > 0) {
+    const mPct = Math.round(mobile/tot*100);
+    if (mPct > 55)
+      lines.push('<em>' + mPct + '% de les visites des de mòbil</em>: el disseny responsiu és prioritat.');
+    else if (mPct < 35)
+      lines.push('<em>' + Math.round(dsk/tot*100) + '% des d\'escriptori</em>: predomina l\'ús en pantalla gran.');
+    else
+      lines.push('Trànsit equilibrat: <em>' + mPct + '% mòbil</em> · <em>' + Math.round(dsk/tot*100) + '% escriptori</em>.');
+  }
+
+  const p = data.period || {};
+  const el = document.getElementById('resum-executiu');
+  const linesEl = document.getElementById('resum-lines');
+  document.getElementById('resum-period').textContent = fmtPeriod(p.start, p.end);
+  linesEl.innerHTML = lines.map(l => '<div class="resum-line">' + l + '</div>').join('');
+  el.style.display = 'block';
 }
 
 /* ══ INSIGHTS ════════════════════════════════════════════════ */
