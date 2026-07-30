@@ -2,6 +2,9 @@
 adreca: La Rambla, 89
 draft: false
 foto: /img/elements/mercat-de-la-boqueria.jpg
+fotos_addicionals:
+- /img/elements/casa-del-rellotge.jpg
+- /img/elements/far-de-montjuic.jpg
 intervencions:
 - any: '2001'
   autors: Lluís Clotet i Ignacio Paricio
