@@ -21,3 +21,10 @@ scripts/images_from_dump_report.md
 
 # Documentació interna LinuxBCN — no pública
 docs/
+
+# Claude Code — permisos locals (màquina específica)
+.claude/settings.local.json
+
+# Directoris locals no rastrejats
+guia-globus-vermell/
+guiesbarcelona.elglobusvermell.org/
