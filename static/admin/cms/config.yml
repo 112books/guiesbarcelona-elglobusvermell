@@ -108,7 +108,14 @@ collections:
         name: foto
         widget: image
         required: false
-        hint: "Fotografia de l'edifici. Si no n'hi ha, el web mostra un espai reservat (\"Imatge pendent\")."
+        hint: "Fotografia principal (portada) de l'edifici. Si no n'hi ha, el web mostra un espai reservat (\"Imatge pendent\")."
+
+      - label: Més fotografies
+        name: fotos_addicionals
+        widget: list
+        field: { label: Foto, name: foto, widget: image }
+        required: false
+        hint: "Opcional. Si n'hi ha alguna, el web mostra un carrusel amb la fotografia principal + aquestes."
 
       - label: Publicacions
         name: publicacions

@@ -14,10 +14,33 @@
 
   <div class="fitxa-pub-banda"></div>
 
-  {{/* Imatge destacada: només si existeix foto */}}
-  {{ if .Params.foto }}
+  {{/* Imatges: portada (foto) + addicionals opcionals → carrusel si n'hi ha més d'una */}}
+  {{ $imatges := slice }}
+  {{ with .Params.foto }}{{ $imatges = $imatges | append . }}{{ end }}
+  {{ with .Params.fotos_addicionals }}{{ range . }}{{ $imatges = $imatges | append . }}{{ end }}{{ end }}
+
+  {{ if gt (len $imatges) 1 }}
+  <div class="fitxa-carrusel" data-fitxa-carrusel>
+    <div class="fitxa-carrusel-track" data-carrusel-track>
+      {{ range $i, $img := $imatges }}
+      <div class="fitxa-carrusel-slide">
+        <img src="{{ $img | strings.TrimPrefix "/" | relURL }}"
+             alt="{{ $.Title }} ({{ add $i 1 }}/{{ len $imatges }})" loading="lazy">
+      </div>
+      {{ end }}
+    </div>
+    <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-prev" data-carrusel-prev aria-label="Imatge anterior">‹</button>
+    <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-next" data-carrusel-next aria-label="Imatge següent">›</button>
+    <div class="fitxa-carrusel-dots" role="tablist" aria-label="Seleccionar imatge">
+      {{ range $i, $img := $imatges }}
+      <button type="button" class="fitxa-carrusel-dot{{ if eq $i 0 }} is-active{{ end }}"
+              data-carrusel-dot="{{ $i }}" role="tab" aria-label="Imatge {{ add $i 1 }} de {{ len $imatges }}"></button>
+      {{ end }}
+    </div>
+  </div>
+  {{ else if $imatges }}
   <div class="fitxa-imatge">
-    <img src="{{ .Params.foto | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}" loading="lazy">
+    <img src="{{ index $imatges 0 | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}" loading="lazy">
   </div>
   {{ end }}
 
