@@ -895,7 +895,10 @@
         var expanded = this.getAttribute('aria-expanded') === 'true';
         this.setAttribute('aria-expanded', String(!expanded));
         grup.classList.toggle('obert', !expanded);
-        cos.style.maxHeight = expanded ? '' : cos.scrollHeight + 'px';
+        // Valor generós fix (no scrollHeight exacte): aquesta secció pot
+        // contenir el llistat dinàmic per any, que canvia d'alçada quan
+        // s'obren/tanquen els seus propis grups interiors.
+        cos.style.maxHeight = expanded ? '' : '9999px';
       });
 
       grup.appendChild(btn);
@@ -934,7 +937,7 @@
       var primerCos = primerGrupDesc.querySelector('.llistat-grup-elements');
       primerBtn.setAttribute('aria-expanded', 'true');
       primerGrupDesc.classList.add('obert');
-      if (primerCos) primerCos.style.maxHeight = primerCos.scrollHeight + 'px';
+      if (primerCos) primerCos.style.maxHeight = '9999px';
     }
   }
 })();
