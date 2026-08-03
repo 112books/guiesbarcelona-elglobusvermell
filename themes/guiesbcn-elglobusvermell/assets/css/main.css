@@ -520,6 +520,19 @@ main {
 .fitxa-carrusel-prev { left: 0.5rem; }
 .fitxa-carrusel-next { right: 0.5rem; }
 
+/* Amb ratolí: fletxes amagades fins a passar per sobre (foto neta).
+   Amb tàctil no hi ha hover, així que es queden sempre visibles. */
+@media (hover: hover) {
+  .fitxa-carrusel-btn {
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+  .fitxa-carrusel:hover .fitxa-carrusel-btn,
+  .fitxa-carrusel:focus-within .fitxa-carrusel-btn {
+    opacity: 1;
+  }
+}
+
 .fitxa-carrusel-dots {
   display: flex;
   justify-content: center;
