@@ -129,5 +129,6 @@ window.TOTS_ELEMENTS      = {{ $tots     | jsonify | safeJS }};
 window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
 window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
 window.LLISTAT_GRUP       = 'any';
+window.PUBLICACIO_COLOR   = {{ $pub.color | jsonify }};
 </script>
 {{ end }}
