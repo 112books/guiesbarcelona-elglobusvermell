@@ -137,14 +137,14 @@ A causa de l’alta resistència del formigó, la facilitat de construcció, el 
 
 ## Bibliografia Relacionada
 
-**[L’arquitectura dels anys cinquanta a Barcelona](https://search.worldcat.org/search?q=L%E2%80%99arquitectura%20dels%20anys%20cinquanta%20a%20Barcelona)**. ETSAV. 1987
+**[L’arquitectura dels anys cinquanta a Barcelona](https://search.worldcat.org/search?q=%22L%E2%80%99arquitectura%20dels%20anys%20cinquanta%20a%20Barcelona%22)**. ETSAV. 1987
 
-**[Registre d’Arquitectura Moderna a Catalunya. 1925-1965](https://search.worldcat.org/search?q=Registre%20d%E2%80%99Arquitectura%20Moderna%20a%20Catalunya.%201925-1965)**. COAC. 1996
+**[Registre d’Arquitectura Moderna a Catalunya. 1925-1965](https://search.worldcat.org/search?q=%22Registre%20d%E2%80%99Arquitectura%20Moderna%20a%20Catalunya.%201925-1965%22)**. COAC. 1996
 
-**[Arquitectura moderna en Barcelona (1951-1976)](https://search.worldcat.org/search?q=Arquitectura%20moderna%20en%20Barcelona%20%281951-1976%29)**. Edicions UPC. 1996
+**[Arquitectura moderna en Barcelona (1951-1976)](https://search.worldcat.org/search?q=%22Arquitectura%20moderna%20en%20Barcelona%20%281951-1976%29%22)**. Edicions UPC. 1996
 
-**[La tradició renovada](https://search.worldcat.org/search?q=La%20tradici%C3%B3%20renovada)**. COAC. 1999
+**[La tradició renovada](https://search.worldcat.org/search?q=%22La%20tradici%C3%B3%20renovada%22)**. COAC. 1999
 
-**[Des de Barcelona. Arquitectures i ciutat. 1958-1975](https://search.worldcat.org/search?q=Des%20de%20Barcelona.%20Arquitectures%20i%20ciutat.%201958-1975)**. COAC. 2002
+**[Des de Barcelona. Arquitectures i ciutat. 1958-1975](https://search.worldcat.org/search?q=%22Des%20de%20Barcelona.%20Arquitectures%20i%20ciutat.%201958-1975%22)**. COAC. 2002
 
-**[Barcelona. Arquitectura Moderna. 1929-1979](https://search.worldcat.org/search?q=Barcelona.%20Arquitectura%20Moderna.%201929-1979)**. Edicions Polígrafa. 2016
+**[Barcelona. Arquitectura Moderna. 1929-1979](https://search.worldcat.org/search?q=%22Barcelona.%20Arquitectura%20Moderna.%201929-1979%22)**. Edicions Polígrafa. 2016

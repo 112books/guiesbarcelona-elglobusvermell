@@ -64,15 +64,15 @@ Fundació Joan Miró, Institut Montjuïc, Equal Saree
 
 ## Bibliografia Relacionada
 
-**[Donde la ciudad cambia su nombre](https://search.worldcat.org/search?q=Donde%20la%20ciudad%20cambia%20su%20nombre)**. Francesc Candel. 1964
+**[Donde la ciudad cambia su nombre](https://search.worldcat.org/search?q=%22Donde%20la%20ciudad%20cambia%20su%20nombre%22)**. Francesc Candel. 1964
 
-**[El barri vell de Port. Imatges i records](https://search.worldcat.org/search?q=El%20barri%20vell%20de%20Port.%20Imatges%20i%20records)**. Ramon Anglès i Gonzàlez. Ajuntament de Barcelona. 1999
+**[El barri vell de Port. Imatges i records](https://search.worldcat.org/search?q=%22El%20barri%20vell%20de%20Port.%20Imatges%20i%20records%22)**. Ramon Anglès i Gonzàlez. Ajuntament de Barcelona. 1999
 
-**[Barcelona. Les cases barates](https://search.worldcat.org/search?q=Barcelona.%20Les%20cases%20barates)**. Diversos autors. Ajuntament de Barcelona. 1999
+**[Barcelona. Les cases barates](https://search.worldcat.org/search?q=%22Barcelona.%20Les%20cases%20barates%22)**. Diversos autors. Ajuntament de Barcelona. 1999
 
-**[Una història de La Marina de Sants. Vides paral·leles](https://search.worldcat.org/search?q=Una%20hist%C3%B2ria%20de%20La%20Marina%20de%20Sants.%20Vides%20paral%C2%B7leles)**. Jordi Ortega Robert. Ajuntament de Barcelona. 2007
+**[Una història de La Marina de Sants. Vides paral·leles](https://search.worldcat.org/search?q=%22Una%20hist%C3%B2ria%20de%20La%20Marina%20de%20Sants.%20Vides%20paral%C2%B7leles%22)**. Jordi Ortega Robert. Ajuntament de Barcelona. 2007
 
-Col·lecció **[“Conèixer el districte de Sants-Montjuïc”](https://search.worldcat.org/search?q=Con%C3%A8ixer%20el%20districte%20de%20Sants-Montju%C3%AFc)**. Arxiu Municipal de Sants-Montjuïc:
+Col·lecció **[“Conèixer el districte de Sants-Montjuïc”](https://search.worldcat.org/search?q=%22Con%C3%A8ixer%20el%20districte%20de%20Sants-Montju%C3%AFc%22)**. Arxiu Municipal de Sants-Montjuïc:
 
 1. El creixement urbà. 1993
 
