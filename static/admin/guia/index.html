@@ -114,14 +114,14 @@
       padding: 0;
       counter-reset: step;
     }
-    .g-steps li {
+    .g-steps > li {
       counter-increment: step;
       display: flex;
       gap: 1rem;
       margin-bottom: 0.75rem;
       align-items: flex-start;
     }
-    .g-steps li::before {
+    .g-steps > li::before {
       content: counter(step);
       display: flex;
       align-items: center;
@@ -134,6 +134,12 @@
       font-size: 0.72rem;
       font-weight: 700;
     }
+    .g-steps ul {
+      list-style: disc;
+      padding-left: 1.4rem;
+      margin-top: 0.35rem;
+    }
+    .g-steps ul li { margin-bottom: 0.2rem; }
 
     /* ── Taula de camps ────────────────────────────────────────── */
     .g-table {
@@ -204,6 +210,48 @@
       color: var(--ink2);
     }
 
+    /* ── FAQ ───────────────────────────────────────────────────── */
+    .g-faq {
+      border: 1px solid var(--border);
+      background: #fff;
+      margin-bottom: 0.6rem;
+    }
+    .g-faq summary {
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      font-size: 0.88rem;
+      color: var(--ink);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .g-faq summary::-webkit-details-marker { display: none; }
+    .g-faq summary::before {
+      content: "+";
+      flex-shrink: 0;
+      width: 1.3rem;
+      height: 1.3rem;
+      border-radius: 50%;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .g-faq[open] summary::before { content: "–"; }
+    .g-faq summary:hover { background: var(--surface); }
+    .g-faq-body {
+      padding: 0 1rem 1rem 2.9rem;
+      font-size: 0.86rem;
+      color: var(--ink2);
+    }
+    .g-faq-body p { margin-bottom: 0.5rem; }
+    .g-faq-body p:last-child { margin-bottom: 0; }
+
     /* ── Codi ──────────────────────────────────────────────────── */
     code {
       background: var(--surface);
@@ -252,6 +300,7 @@
         <li><a href="#camps">Descripció dels camps</a></li>
         <li><a href="#pagines">Editar les pàgines del web</a></li>
         <li><a href="#desar">Desar i publicar</a></li>
+        <li><a href="#faq">Preguntes freqüents</a></li>
         <li><a href="#norules">Que NO fer</a></li>
       </ol>
     </nav>
@@ -430,9 +479,56 @@
       </div>
     </section>
 
-    <!-- ── 7. Que NO fer ──────────────────────────────────────── -->
+    <!-- ── 7. FAQ ──────────────────────────────────────────────── -->
+    <section class="g-section" id="faq">
+      <h2>7. Preguntes freqüents</h2>
+
+      <details class="g-faq">
+        <summary>Com creo un punt nou al mapa?</summary>
+        <div class="g-faq-body">
+          <p>No es pot fer directament des d'aquest editor: crear un edifici nou requereix coordinació tècnica (per mantenir la qualitat i evitar duplicats). Contacta amb l'equip tècnic i us el creen correctament.</p>
+        </div>
+      </details>
+
+      <details class="g-faq">
+        <summary>Com esborro un punt del mapa?</summary>
+        <div class="g-faq-body">
+          <p>No s'ha d'eliminar mai un edifici des de l'editor. Activa el camp <strong>Esborrany</strong>: desapareix del web immediatament, però les dades queden guardades per si cal recuperar-lo més endavant.</p>
+        </div>
+      </details>
+
+      <details class="g-faq">
+        <summary>Com poso les coordenades d'un punt si l'adreça postal no funciona bé?</summary>
+        <div class="g-faq-body">
+          <p>Obre <a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a>, busca el lloc exacte i fes clic dret sobre el punt al mapa. Apareixeran unes coordenades com <code>41.3851, 2.1734</code> — el primer número és la <strong>Latitud</strong>, el segon la <strong>Longitud</strong>. Copia'ls al camp corresponent de l'editor.</p>
+        </div>
+      </details>
+
+      <details class="g-faq">
+        <summary>Per què el meu edifici no apareix al mapa?</summary>
+        <div class="g-faq-body">
+          <p>Comprova dues coses: que el camp <strong>Esborrany</strong> no estigui activat, i que hi hagi valors a <strong>Latitud</strong> i <strong>Longitud</strong>. Sense coordenades, l'edifici existeix però no es pot situar al mapa.</p>
+        </div>
+      </details>
+
+      <details class="g-faq">
+        <summary>M'he equivocat desant un canvi. Puc desfer-ho?</summary>
+        <div class="g-faq-body">
+          <p>Sí: torna a obrir la fitxa i corregeix el camp amb el valor correcte, i torna a desar. Si necessites recuperar una versió anterior exacta (l'historial complet queda guardat a GitHub), contacta amb l'equip tècnic.</p>
+        </div>
+      </details>
+
+      <details class="g-faq">
+        <summary>El token ha deixat de funcionar. Què faig?</summary>
+        <div class="g-faq-body">
+          <p>Els tokens caduquen (vas triar una durada d'1 any en crear-lo). Torna a seguir els passos de la secció <a href="#acces">1. Accés a l'editor</a> per crear-ne un de nou.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ── 8. Que NO fer ──────────────────────────────────────── -->
     <section class="g-section" id="norules">
-      <h2>7. Que NO fer</h2>
+      <h2>8. Que NO fer</h2>
       <div class="g-warn">
         <strong>No creïs edificis nous</strong> des d'aquest editor. La creació de nous elements requereix coordinació tècnica.
       </div>

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CMS Administrador — Guies Barcelona</title>
+  <style>
+    /* Escalfa els grisos neutres de Sveltia CMS cap al vermell de marca
+       (El Globus Vermell), sense tocar el blau d'accions (--sui-info-color-hue)
+       per no confondre botons primaris amb estats d'error (mateix hue 0). */
+    :root, :host {
+      --sui-base-hue: 0;
+    }
+
+    body { background: #f5f4f0; }
+
+    .cms-brand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .cms-brand a { display: flex; align-items: center; }
+    .cms-brand img { height: 3rem; width: auto; }
+    .cms-brand-sub {
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #999;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .cms-login-ajuda {
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.78rem;
+      color: #555;
+      margin: 0.3rem 0 1rem;
+      line-height: 1.5;
+      max-width: 300px;
+    }
+    .cms-login-ajuda strong { color: #111; }
+    .cms-login-ajuda a { color: #c81e1e; text-decoration: none; }
+    .cms-login-ajuda a:hover { text-decoration: underline; }
+
+    .cms-peu {
+      border-top: 1px solid #e5e5e5;
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.72rem;
+      color: #bbb;
+      text-align: center;
+      line-height: 1.7;
+    }
+    .cms-peu a { color: #bbb; text-decoration: none; }
+    .cms-peu a:hover { color: #c81e1e; }
+    .cms-peu-links {
+      display: flex;
+      gap: 0.6rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0.2rem;
+    }
+    .cms-peu-links a { text-decoration: underline; }
+    .cms-peu-back { margin-top: 0.75rem; font-size: 0.7rem; }
+    .linuxbcn-wordmark {
+      font-weight: 700;
+      text-decoration: none !important;
+      letter-spacing: -0.01em;
+    }
+    .linuxbcn-wordmark .bcn { color: #d4600a; }
+  </style>
+</head>
+<body>
+  <script>
+    // Bloqueja QUALSEVOL popup OAuth abans que Sveltia CMS carregui.
+    // api.netlify.com retorna 404 per a sites no registrats a Netlify.
+    (function () {
+      var _open = window.open;
+      window.open = function (url) {
+        var s = String(url || '');
+        if (s.includes('netlify.com') || s.includes('github.com/login/oauth')) {
+          return null; // bloquejar silenciosament
+        }
+        return _open.apply(this, arguments);
+      };
+    })();
+  </script>
+  <style>
+    .cms-help-btn {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      z-index: 9999;
+      background: #c81e1e;
+      color: #fff;
+      border: none;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      transition: background 0.2s;
+      font-family: system-ui, sans-serif;
+    }
+    .cms-help-btn:hover { background: #a01818; }
+    .cms-help-btn title { display: none; }
+  </style>
+  <a href="../../admin/guia/" target="_blank" rel="noopener"
+     class="cms-help-btn" aria-label="Guia de l'editor">?</a>
+  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+  <script>
+    var injected = false;
+    var observer = new MutationObserver(function () {
+      if (injected) return;
+
+      var btns = Array.from(document.querySelectorAll('button'));
+      if (!btns.length) return;
+
+      // Identifica el botó PAT (conté "token" o "access" o "pat" en qualsevol
+      // lloc del text o atributs)
+      function isPAT(b) {
+        var t = (b.textContent + ' ' + b.getAttribute('aria-label') + ' ' + b.className)
+                  .toLowerCase();
+        return t.includes('token') || t.includes('access') || t.includes('pat');
+      }
+      function isOAuth(b) {
+        var t = (b.textContent + ' ' + b.getAttribute('aria-label') + ' ' + b.className)
+                  .toLowerCase();
+        return t.includes('github') || t.includes('oauth') || t.includes('login with');
+      }
+
+      var tokenBtn = btns.find(isPAT);
+      if (!tokenBtn) return; // espera que aparegui el botó PAT
+
+      injected = true;
+      observer.disconnect();
+
+      // Amaga tots els botons que NO siguin el PAT, inclosos els contenidors
+      btns.forEach(function (b) {
+        if (!isPAT(b)) {
+          b.style.display = 'none';
+          // Intenta amagar també el wrapper si no conté el tokenBtn
+          var wrap = b.parentNode;
+          if (wrap && !wrap.contains(tokenBtn)) {
+            wrap.style.display = 'none';
+          }
+        }
+      });
+
+      // Troba el contenidor de la targeta (form o parent del tokenBtn)
+      var card = tokenBtn.closest('form') || tokenBtn.parentNode;
+
+      // ── Capçalera ──────────────────────────────────────────────
+      var brand = document.createElement('div');
+      brand.className = 'cms-brand';
+      brand.innerHTML =
+        '<a href="../../" aria-label="Inici — Guies de Barcelona">' +
+          '<img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg" ' +
+               'alt="Guies de Barcelona de El Globus Vermell">' +
+        '</a>' +
+        '<p class="cms-brand-sub">Editor de continguts — Administrador</p>';
+      card.insertBefore(brand, card.firstChild);
+
+      // ── Text explicatiu ────────────────────────────────────────
+      var info = document.createElement('p');
+      info.className = 'cms-login-ajuda';
+      info.innerHTML =
+        'Introdueix el teu <strong>token personal (PAT)</strong> de GitHub. ' +
+        'Genera\'l a <a href="https://github.com/settings/personal-access-tokens/new" ' +
+        'target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>. ' +
+        'Permisos: <strong>Contents</strong> (lectura i escriptura) + ' +
+        '<strong>Metadata</strong> (lectura). ' +
+        'Repositori: <strong>112books/guiesbarcelona-elglobusvermell</strong>.';
+      tokenBtn.parentNode.insertBefore(info, tokenBtn.nextSibling);
+
+      // ── Peu ────────────────────────────────────────────────────
+      var peu = document.createElement('div');
+      peu.className = 'cms-peu';
+      peu.innerHTML =
+        '<div>© ' + new Date().getFullYear() + ' ' +
+        '<a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>' +
+        ' · eina desenvolupada per ' +
+        '<a href="https://linuxbcn.com" target="_blank" rel="noopener" class="linuxbcn-wordmark">Linux<span class="bcn">BCN</span></a>' +
+        '</div>' +
+        '<div class="cms-peu-links">' +
+          '<a href="../../legal/avis-legal/">Avís legal</a>' +
+          '<a href="../../legal/privacitat/">Privacitat</a>' +
+          '<a href="../../legal/cookies/">Cookies</a>' +
+        '</div>' +
+        '<div class="cms-peu-back">← <a href="../">Tornar a l\'administrador</a></div>';
+      card.appendChild(peu);
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  </script>
+</body>
+</html>
