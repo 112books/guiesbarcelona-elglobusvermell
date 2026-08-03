@@ -121,14 +121,14 @@ No obstant això, el fet de dependre de l’autogestió i del voluntariat les co
 
 ## Bibliografia Relacionada
 
-Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010
+**[Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona](https://ccuc.csuc.cat/discovery/search?query=any,contains,Color%20materiales%20y%20luz%20en%20las%20bibliotecas%20de%20la%20Xarxa%20de%20Barcelona&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010
 
-L’arquitectura de la biblioteca pública. Santi Romero. Diputació de Barcelona
+**[L’arquitectura de la biblioteca pública](https://ccuc.csuc.cat/discovery/search?query=any,contains,L%E2%80%99arquitectura%20de%20la%20biblioteca%20p%C3%BAblica&vid=34CSUC_NETWORK:VU1&mode=basic)**. Santi Romero. Diputació de Barcelona
 
-L’Arquitectura de la Biblioteca. Recomanacions per a un projecte integral. Santi Romero. Col·legi d’Arquitectes de Catalunya, 2001
+**[L’Arquitectura de la Biblioteca. Recomanacions per a un projecte integral](https://ccuc.csuc.cat/discovery/search?query=any,contains,L%E2%80%99Arquitectura%20de%20la%20Biblioteca%20Recomanacions%20per%20a%20un%20projecte%20integral&vid=34CSUC_NETWORK:VU1&mode=basic)**. Santi Romero. Col·legi d’Arquitectes de Catalunya, 2001
 
-La Xarxa de Biblioteques 1915-2004: una història que mira al futur. Carme Mayol. Universitat de Barcelona. 2005
+**[La Xarxa de Biblioteques 1915-2004: una història que mira al futur](https://ccuc.csuc.cat/discovery/search?query=any,contains,La%20Xarxa%20de%20Biblioteques%201915-2004%20una%20hist%C3%B2ria%20que%20mira%20al%20futur&vid=34CSUC_NETWORK:VU1&mode=basic)**. Carme Mayol. Universitat de Barcelona. 2005
 
-Pla estratègic de constitució del Consorci de biblioteques de Barcelona. 2001-2003
+**[Pla estratègic de constitució del Consorci de biblioteques de Barcelona](https://ccuc.csuc.cat/discovery/search?query=any,contains,Pla%20estrat%C3%A8gic%20de%20constituci%C3%B3%20del%20Consorci%20de%20biblioteques%20de%20Barcelona&vid=34CSUC_NETWORK:VU1&mode=basic)**. 2001-2003
 
-L’única cosa imprescindible que has de saber és on hi ha una biblioteca. El globus vermell. 2014
+**[L’única cosa imprescindible que has de saber és on hi ha una biblioteca](https://ccuc.csuc.cat/discovery/search?query=any,contains,L%E2%80%99%C3%BAnica%20cosa%20imprescindible%20que%20has%20de%20saber%20%C3%A9s%20on%20hi%20ha%20una%20biblioteca&vid=34CSUC_NETWORK:VU1&mode=basic)**. El globus vermell. 2014
