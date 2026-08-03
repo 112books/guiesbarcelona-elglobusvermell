@@ -29,7 +29,7 @@ foto: /img/elements/fundacio-joan-miro.jpg
 lat: 41.3687319
 long: 2.1599821
 publicacions:
-- gatcpac
+- 50-75
 temes_transversals:
 - art-public
 title: Fundació Joan Miró
