@@ -147,14 +147,14 @@ A més dels mercats d’alimentació, Barcelona disposa de diversos mercats no a
 
 ## Bibliografia Relacionada
 
-Els mercats de Barcelona. Ajuntament de Barcelona. 1992
+**[Els mercats de Barcelona](https://ccuc.csuc.cat/discovery/search?query=any,contains,Els%20mercats%20de%20Barcelona&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 1992
 
-Mercats de Barcelona. Institut Municipal de Mercats de Barcelona i Angle Editorial. 2007
+**[Mercats de Barcelona](https://ccuc.csuc.cat/discovery/search?query=any,contains,Mercats%20de%20Barcelona%20Institut%20Municipal&vid=34CSUC_NETWORK:VU1&mode=basic)**. Institut Municipal de Mercats de Barcelona i Angle Editorial. 2007
 
-Barcelone, la ville des marchés / Barcelona, la ciudad de los mercados. Mon Cher Watson. 2015
+**[Barcelone, la ville des marchés / Barcelona, la ciudad de los mercados](https://ccuc.csuc.cat/discovery/search?query=any,contains,Barcelone%20la%20ville%20des%20march%C3%A9s&vid=34CSUC_NETWORK:VU1&mode=basic)**. Mon Cher Watson. 2015
 
-Mercats. L’experiència de Barcelona. Ajuntament de Barcelona. 2015
+**[Mercats. L’experiència de Barcelona](https://ccuc.csuc.cat/discovery/search?query=any,contains,Mercats%20L%E2%80%99experi%C3%A8ncia%20de%20Barcelona&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2015
 
-Mercats de Barcelona. Segle XIX. Ajuntament de Barcelona. 2016
+**[Mercats de Barcelona. Segle XIX](https://ccuc.csuc.cat/discovery/search?query=any,contains,Mercats%20de%20Barcelona%20Segle%20XIX&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2016
 
-Mercats de Barcelona. Segles XX i XXI. Ajuntament de Barcelona. 2018
+**[Mercats de Barcelona. Segles XX i XXI](https://ccuc.csuc.cat/discovery/search?query=any,contains,Mercats%20de%20Barcelona%20Segles%20XX%20i%20XXI&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2018
