@@ -222,7 +222,7 @@
           L.DomEvent.stopPropagation(e);
           geoBtn.setAttribute('title', 'Cercant la teva ubicació…');
           geoBtn.classList.add('mapa-btn-geo--cercant');
-          map.locate({ setView: true, maxZoom: 17, enableHighAccuracy: true, timeout: 10000 });
+          map.locate({ setView: true, maxZoom: 17, timeout: 10000 });
         });
         return geoBtn;
       };
