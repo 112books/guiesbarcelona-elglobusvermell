@@ -103,12 +103,12 @@ Richard Ford. Handbook for Travellers in Spain and Readers at Home. 1845.
 
 ## Bibliografia Relacionada
 
-**[Masies de Barcelona](https://ccuc.csuc.cat/discovery/search?query=any,contains,Masies%20de%20Barcelona&vid=34CSUC_NETWORK:VU1&mode=basic)**. Angle Editorial, 2009
+**[Masies de Barcelona](https://search.worldcat.org/search?q=Masies%20de%20Barcelona)**. Angle Editorial, 2009
 
-**[Les masies de Sant Andreu de Palomar](https://ccuc.csuc.cat/discovery/search?query=any,contains,Les%20masies%20de%20Sant%20Andreu%20de%20Palomar&vid=34CSUC_NETWORK:VU1&mode=basic)**. Llop Roig, 2014
+**[Les masies de Sant Andreu de Palomar](https://search.worldcat.org/search?q=Les%20masies%20de%20Sant%20Andreu%20de%20Palomar)**. Llop Roig, 2014
 
-**[Materials per a l’estudi de la masia](https://ccuc.csuc.cat/discovery/search?query=any,contains,Materials%20per%20a%20l%E2%80%99estudi%20de%20la%20masia&vid=34CSUC_NETWORK:VU1&mode=basic)**. Josep Danés i Torras, 2010
+**[Materials per a l’estudi de la masia](https://search.worldcat.org/search?q=Materials%20per%20a%20l%E2%80%99estudi%20de%20la%20masia)**. Josep Danés i Torras, 2010
 
-**[Congressos Masia i Territori](https://ccuc.csuc.cat/discovery/search?query=any,contains,Congressos%20Masia%20i%20Territori&vid=34CSUC_NETWORK:VU1&mode=basic)**. Institut d’Estudis Catalans
+**[Congressos Masia i Territori](https://search.worldcat.org/search?q=Congressos%20Masia%20i%20Territori)**. Institut d’Estudis Catalans
 
 Llistat de masies del Barcelonès. Viquipèdia
