@@ -60,7 +60,7 @@
       c: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
     };
 
-    var map = L.map(mapaEl, { scrollWheelZoom: false });
+    var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true });
     L.tileLayer(tiles[tema] || tiles.a, {
       attribution: CARTO_ATTR,
       maxZoom: 19,

@@ -3,7 +3,7 @@
   var punt = window.FITXA_PUNT;
   if (!el || !punt || !window.L) return;
 
-  var map = L.map(el, { zoomControl: true, scrollWheelZoom: false });
+  var map = L.map(el, { zoomControl: true, scrollWheelZoom: false, gestureHandling: true });
 
   // Mateix tile CartoDB Light que el mapa principal (tema 'a')
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {

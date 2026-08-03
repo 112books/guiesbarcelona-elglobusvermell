@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ if or (eq .Section "elements") .IsHome (eq .Kind "term") }}
 <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
+<link rel="stylesheet" href="{{ "vendor/leaflet/leaflet-gesture-handling.min.css" | relURL }}">
 {{ end }}
 {{- if and site.Params.gc_url (not hugo.IsServer) }}
 <script data-goatcounter="{{ site.Params.gc_url }}/count"
