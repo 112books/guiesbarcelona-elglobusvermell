@@ -83,17 +83,17 @@ A Barcelona hi ha altres biblioteques a més de les gestionades pel Consorci: le
 
 En aquest plànol-guia en destaquem algunes per la singularitat arquitectònica dels espais que les allotgen.
 
-La Biblioteca de Catalunya està ubicada en una part de l’antic Hospital de la Santa Creu, un dels millors exemples de gòtic civil català de la ciutat.
+La **[Biblioteca de Catalunya](https://www.bnc.cat/cat)** està ubicada en una part de l’antic Hospital de la Santa Creu, un dels millors exemples de gòtic civil català de la ciutat.
 
-L’Arús i la de l’Ateneu Barcelonès són autèntics viatges en el temps: sales poc exposades a la llum natural, prestatgeries de fusta fosca tancades amb portes de vidre, passos en altell per accedir a les prestatgeries més altes, etc.
+La **[Biblioteca Pública Arús](https://bpa.es/)** i la **[Biblioteca de l'Ateneu Barcelonès](https://ateneubcn.cat/espais/biblioteca/)** són autèntics viatges en el temps: sales poc exposades a la llum natural, prestatgeries de fusta fosca tancades amb portes de vidre, passos en altell per accedir a les prestatgeries més altes, etc.
 
-El Pavelló de la República acull una biblioteca de la Universitat de Barcelona especialitzada en el període que va des de la Segona República fins a la Transició. Els seus fons són tan excepcionals com ho és l’arquitectura i la història del mateix edifici (una reconstrucció, ja que l’original es va construir a París durant l’Exposició Universal de 1937 i fou enderrocat).
+El Pavelló de la República acull la **[CRAI Biblioteca del Pavelló de la República](https://crai.ub.edu/ca/coneix-el-crai/biblioteques/biblioteca-pavello-republica)** de la Universitat de Barcelona, especialitzada en el període que va des de la Segona República fins a la Transició. Els seus fons són tan excepcionals com ho és l’arquitectura i la història del mateix edifici (una reconstrucció, ja que l’original es va construir a París durant l’Exposició Universal de 1937 i fou enderrocat).
 
-L’Antic Dipòsit de les Aigües del Parc de la Ciutadella és una biblioteca de la Universitat Pompeu Fabra, on l’edifici històric i la intervenció contemporània es complementen per crear un dels espais més magnífics de Barcelona.
+L’Antic Dipòsit de les Aigües del Parc de la Ciutadella acull la **[Biblioteca de la Universitat Pompeu Fabra](https://www.upf.edu/web/biblioteca-informatica)**, on l’edifici històric i la intervenció contemporània es complementen per crear un dels espais més magnífics de Barcelona.
 
-També destaca, en aquest cas per la seva absència, la Biblioteca Pública de l’Estat. Barcelona és l’única província que encara no en té. Ha estat llargament reivindicada i hi ha un projecte guanyador d’un concurs del 2011, però la seva construcció encara s’ha d’executar.
+També destaca, en aquest cas per la seva absència, la **Biblioteca Pública de l’Estat**. Barcelona és l’única província que encara no en té. Ha estat llargament reivindicada i hi ha un projecte guanyador d’un concurs del 2011, però la seva construcció encara s’ha d’executar.
 
-Finalment, cal mencionar la del Col·legi d’Arquitectes (COAC) i la de l’Escola d’Arquitectura (ETSAB) per la importància dels seus fons especialitzats en arquitectura.
+Finalment, cal mencionar la **[Biblioteca del Col·legi d'Arquitectes de Catalunya (COAC)](https://www.arquitectes.cat/ca/arquitectura/biblioteca)** i la **[Biblioteca de l'Escola d'Arquitectura (ETSAB)](https://bibliotecnica.upc.edu/etsab)** per la importància dels seus fons especialitzats en arquitectura.
 
 ### Les biblioteques socials
 
@@ -107,15 +107,15 @@ Tot i que tenen un abast més reduït que les biblioteques públiques, constitue
 
 No obstant això, el fet de dependre de l’autogestió i del voluntariat les col·loca en una situació de fragilitat i de difícil supervivència a llarg termini. Aquesta és la raó per la qual només en destaquem algunes, aquelles que d’entrada semblen més consolidades i resilients.
 
-Centre de Documentació Històrica i Social de l’Ateneu Enciclopèdic Popular. Pg. Sant Joan, 26, 1r 1a
+**[Centre de Documentació Històrica i Social de l'Ateneu Enciclopèdic Popular](https://ateneuenciclopedicpopular.org/)**. Pg. Sant Joan, 26, 1r 1a
 
-Biblioteca Popular Josep Pons. Can Batlló. Constitució, 19, bloc 11
+**[Biblioteca Popular Josep Pons](https://bibliotecacanbatllo.wordpress.com/)**. Can Batlló. Constitució, 19, bloc 11
 
-Centre de Documentació dels moviments socials Mercè Grenzner. Can Batlló. Constitució, 19, bloc 87
+**[Centre de Documentació dels moviments socials Mercè Grenzner](https://canbatllo.org/cb/cedoc/)**. Can Batlló. Constitució, 19, bloc 87
 
-Fundació Salvador Seguí. Can Batlló. Constitució, 19, bloc 2
+**[Fundació Salvador Seguí](https://fundacionssegui.org/barcelona/ca/fundacio-salvador-segui/)**. Can Batlló. Constitució, 19, bloc 2
 
-Biblioteca Nova Babilònia. Nau Bostik. Ferran Turné, 1-11
+**[Biblioteca Nova Babilònia](https://naubostik.com/visitans/primera-planta/biblioteca/)**. Nau Bostik. Ferran Turné, 1-11
 
 ## Llistat
 
