@@ -1,7 +1,7 @@
 ---
 adreca: C. Sant Pere més Baix, 7 |
 arquitectes:
-- 'De la rehabilitació: Jordi Campanillas (Diputació de Barcelona)'
+- Jordi Campanillas
 descripcio: 'Remodelació: Institut de Cultura i Biblioteca Popular per a la Dona.
   Josep Fontserè i Mestre. 1857'
 draft: false
