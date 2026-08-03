@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Guia d'administrador — Guies Barcelona</title>
+  <style>
+    :root {
+      --bg:      #f5f4f0;
+      --ink:     #111110;
+      --ink2:    #444440;
+      --ink3:    #6b6b66;
+      --border:  #ddddd8;
+      --surface: #eeede9;
+      --red:     #c81e1e;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+
+    /* ── Capçalera ─────────────────────────────────────────────── */
+    .g-header {
+      text-align: center;
+      padding: 2.5rem 1rem 1.75rem;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+    .g-header a { display: inline-block; }
+    .g-header img { height: 3.5rem; width: auto; }
+    .g-header h1 {
+      margin-top: 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--ink3);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    /* ── Layout ────────────────────────────────────────────────── */
+    .g-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    /* ── Índex ─────────────────────────────────────────────────── */
+    .g-toc {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .g-toc-title {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.75rem;
+    }
+    .g-toc ol {
+      padding-left: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .g-toc a {
+      color: var(--red);
+      text-decoration: none;
+    }
+    .g-toc a:hover { text-decoration: underline; }
+
+    /* ── Seccions ──────────────────────────────────────────────── */
+    .g-section {
+      margin-bottom: 3rem;
+    }
+    .g-section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      border-bottom: 2px solid var(--red);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+      color: var(--ink);
+    }
+    .g-section h3 {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--ink2);
+      margin: 1.25rem 0 0.5rem;
+    }
+    .g-section p {
+      margin-bottom: 0.75rem;
+      color: var(--ink2);
+    }
+    .g-section ul, .g-section ol {
+      padding-left: 1.4rem;
+      margin-bottom: 0.75rem;
+      color: var(--ink2);
+    }
+    .g-section li { margin-bottom: 0.3rem; }
+
+    /* ── Steps numerats ────────────────────────────────────────── */
+    .g-steps {
+      list-style: none;
+      padding: 0;
+      counter-reset: step;
+    }
+    .g-steps > li {
+      counter-increment: step;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+      align-items: flex-start;
+    }
+    .g-steps > li::before {
+      content: counter(step);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .g-steps ul {
+      list-style: disc;
+      padding-left: 1.4rem;
+      margin-top: 0.35rem;
+    }
+    .g-steps ul li { margin-bottom: 0.2rem; }
+
+    /* ── Avisos ────────────────────────────────────────────────── */
+    .g-note {
+      background: #fff8e1;
+      border-left: 3px solid #f59e0b;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+    .g-warn {
+      background: #fde8e8;
+      border-left: 3px solid var(--red);
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+
+    .g-confidencial {
+      background: var(--ink);
+      color: #fff;
+      padding: 0.85rem 1.5rem;
+      font-size: 0.8rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .g-confidencial strong { color: #ffd7d7; }
+
+    /* ── Codi ──────────────────────────────────────────────────── */
+    code {
+      background: var(--surface);
+      padding: 0.1rem 0.35rem;
+      font-family: "SF Mono", "Fira Code", Consolas, monospace;
+      font-size: 0.82em;
+      color: var(--ink);
+    }
+
+    /* ── Peu ───────────────────────────────────────────────────── */
+    .g-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1rem;
+      text-align: center;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+    .g-footer a { color: #bbb; text-decoration: none; }
+    .g-footer a:hover { color: var(--red); }
+
+    @media (max-width: 560px) {
+      .g-wrap { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="g-confidencial">
+    Aquesta pàgina i l'eina que enllaça <strong>no són d'ús general</strong> — són només per a la persona (o persones) designada com a administrador/a de Globus. No comparteixis aquest enllaç amb la resta de l'equip editor.
+  </div>
+
+  <header class="g-header">
+    <a href="../../" aria-label="Inici — Guies de Barcelona">
+      <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg"
+           alt="Guies de Barcelona de El Globus Vermell">
+    </a>
+    <h1>Guia d'administrador</h1>
+  </header>
+
+  <main class="g-wrap">
+
+    <nav class="g-toc" aria-label="Índex">
+      <div class="g-toc-title">Continguts</div>
+      <ol>
+        <li><a href="#abast">Abast d'aquesta guia</a></li>
+        <li><a href="#crear-punt">Crear un punt nou al mapa</a></li>
+        <li><a href="#versions">Recuperar una versió anterior</a></li>
+        <li><a href="#planol-nou">Crear un plànol-guia nou</a></li>
+        <li><a href="#pujar-material">Pujar portada/PDF d'un plànol-guia existent</a></li>
+        <li><a href="#usuaris">Gestió d'usuaris</a></li>
+      </ol>
+    </nav>
+
+    <!-- ── Abast ───────────────────────────────────────────────── -->
+    <section class="g-section" id="abast">
+      <h2>1. Abast d'aquesta guia</h2>
+      <p>Aquesta guia dona per fet que ja coneixes la <a href="../guia/">Guia de l'editor</a> (accés, edició de fitxes, camps, carrusel de fotos, FAQ). Aquí només hi ha les tasques <strong>addicionals</strong> reservades a l'administrador/a.</p>
+      <div class="g-note">
+        Amb més capacitat ve més responsabilitat: aquesta eina permet crear contingut nou directament, sense la salvaguarda que té l'editor normal. Revisa sempre dos cops abans de desar.
+      </div>
+    </section>
+
+    <!-- ── Crear un punt nou ──────────────────────────────────── -->
+    <section class="g-section" id="crear-punt">
+      <h2>2. Crear un punt nou al mapa</h2>
+      <p>A diferència de l'editor normal, l'administrador té accés a un editor separat que permet crear edificis nous.</p>
+      <ol class="g-steps">
+        <li><strong>Comprova primer que no existeixi ja.</strong> Fes servir el cercador de l'editor o la <a href="../galeria/">Galeria de fotos</a> per assegurar-te que l'edifici no hi és ja amb un altre nom.</li>
+        <li>Entra a l'editor d'administrador (URL privada — la tens per un altre canal). Hi entres amb el mateix token (PAT) que ja fas servir a l'editor normal.</li>
+        <li>Dins de "Edificis i elements", clica <strong>New</strong> (crear entrada nova).</li>
+        <li>Omple com a mínim: Títol, Latitud i Longitud (sense coordenades no apareixerà al mapa — consulta la FAQ de la guia de l'editor si l'adreça no es geolocalitza bé).</li>
+        <li>Assigna-hi el(s) plànol(s)-guia corresponent(s) al camp "Publicacions".</li>
+        <li>Desa. En 1-2 minuts el web reflecteix el canvi.</li>
+      </ol>
+      <div class="g-warn">
+        <strong>Un edifici duplicat és més difícil de netejar després que d'evitar abans.</strong> Si tens dubtes sobre si ja existeix, pregunta abans de crear-lo.
+      </div>
+    </section>
+
+    <!-- ── Recuperar versions ─────────────────────────────────── -->
+    <section class="g-section" id="versions">
+      <h2>3. Recuperar una versió anterior</h2>
+      <p>Cada canvi desat des de l'editor queda guardat per sempre a l'historial de GitHub. Si un canvi s'ha de desfer:</p>
+      <ol class="g-steps">
+        <li>Ves a <a href="https://github.com/112books/guiesbarcelona-elglobusvermell" target="_blank" rel="noopener">github.com/112books/guiesbarcelona-elglobusvermell</a> (cal ser-hi convidat com a col·laborador).</li>
+        <li>Navega fins al fitxer de l'edifici (dins <code>content/ca/elements/</code>) i clica <strong>History</strong>.</li>
+        <li>Tria la versió anterior a l'error i obre-la ("View file" en aquell punt de l'historial).</li>
+        <li>Copia el contingut que necessitis recuperar i enganxa'l de nou a l'editor, o demana-ho a l'equip tècnic si prefereixes no tocar GitHub directament.</li>
+      </ol>
+      <div class="g-note">
+        Si no et sents còmode movent-te per GitHub, no passa res: envia'ns el nom de l'edifici i la data aproximada del canvi, i ho recuperem nosaltres.
+      </div>
+    </section>
+
+    <!-- ── Crear un plànol-guia nou ───────────────────────────── -->
+    <section class="g-section" id="planol-nou">
+      <h2>4. Crear un plànol-guia nou</h2>
+      <p>Crear un mapa/plànol-guia completament nou <strong>no és autoservei</strong>: toca la configuració central de l'editor (el desplegable "Publicacions" que veuen tots els editors), i un error de sintaxi aquí trencaria l'editor per a tothom. Ho fem amb un repartiment de feina:</p>
+      <h3>Tu prepares (sense risc)</h3>
+      <ul>
+        <li>Títol i subtítol del plànol-guia</li>
+        <li>Text de descripció/presentació</li>
+        <li>Color identificatiu (si en teniu un de pensat)</li>
+        <li>Portada (imatge) i PDF, per a cada idioma disponible</li>
+      </ul>
+      <h3>LinuxBCN fa (cablejat tècnic)</h3>
+      <ul>
+        <li>Registrar el nou plànol a la configuració de l'editor</li>
+        <li>Crear la pàgina del plànol al web</li>
+        <li>Activar-lo perquè aparegui al mapa general</li>
+        <li>Verificar que tot funciona abans de donar-ho per fet</li>
+      </ul>
+      <p>Envia'ns el material preparat i ho tindreu llest normalment en el mateix bloc de feina.</p>
+    </section>
+
+    <!-- ── Pujar portada/PDF ──────────────────────────────────── -->
+    <section class="g-section" id="pujar-material">
+      <h2>5. Pujar portada/PDF d'un plànol-guia existent</h2>
+      <p>Per a un plànol-guia que ja existeix, actualitzar la portada o el PDF sí que és una operació senzilla, però com que no hi ha encara un camp d'editor per fer-ho, es fa pujant el fitxer directament a GitHub amb un nom concret:</p>
+      <ul>
+        <li>Portada: <code>static/img/publicacions/{slug}-{idioma}.jpg</code> (o <code>.webp</code>/<code>.png</code>) — p.ex. <code>gatcpac-cat.jpg</code></li>
+        <li>PDF: <code>static/pdf/{slug}_{idioma}.pdf</code> — p.ex. <code>gatcpac_cat.pdf</code></li>
+        <li>Idiomes disponibles: <code>cat</code>, <code>esp</code>, <code>eng</code>, <code>fra</code></li>
+      </ul>
+      <div class="g-note">
+        Si no et veus pujant fitxers directament a GitHub, envia'ns els fitxers (amb el nom del plànol i l'idioma) i ho pengem nosaltres — és qüestió de minuts.
+      </div>
+    </section>
+
+    <!-- ── Usuaris ─────────────────────────────────────────────── -->
+    <section class="g-section" id="usuaris">
+      <h2>6. Gestió d'usuaris</h2>
+      <p>Convidar algú nou, canviar-li el rol o treure-li l'accés es fa des de GitHub, no des de l'editor. Ja hi ha una guia dedicada: <a href="../guia-usuaris/">Guia de gestió d'usuaris</a>.</p>
+    </section>
+
+  </main>
+
+  <footer class="g-footer">
+    <div>
+      © <script>document.write(new Date().getFullYear())</script>
+      <a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>
+      &nbsp;·&nbsp;
+      <a href="../">← Tornar a l'administrador</a>
+    </div>
+  </footer>
+
+</body>
+</html>
