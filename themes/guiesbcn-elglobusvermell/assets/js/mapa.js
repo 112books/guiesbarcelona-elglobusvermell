@@ -612,19 +612,6 @@
     cercaFiltres.appendChild(controls);
   }
 
-  // Quan un grup niat s'obre/tanca, els contenidors "obert" que l'envolten
-  // (p.ex. la secció "Llistat" de la descripció) tenien el seu max-height
-  // fixat en el moment d'obrir-se ells; cal actualitzar-lo perquè no tallin
-  // el contingut nou.
-  function ajustaAvantpares(el) {
-    var parent = el.parentElement;
-    while (parent) {
-      if (parent.classList && parent.classList.contains('llistat-grup-elements') && parent.style.maxHeight) {
-        parent.style.maxHeight = parent.scrollHeight + 'px';
-      }
-      parent = parent.parentElement;
-    }
-  }
 
   // ── Construir llistat (alfabètic o per any) ───────────────────────────
   function construeixLlistat() {
@@ -706,8 +693,7 @@
         var expanded = this.getAttribute('aria-expanded') === 'true';
         this.setAttribute('aria-expanded', String(!expanded));
         grup.classList.toggle('obert', !expanded);
-        llista.style.maxHeight = expanded ? '' : llista.scrollHeight + 'px';
-        ajustaAvantpares(llista);
+        llista.style.maxHeight = expanded ? '' : '9999px';
       });
       grup.appendChild(capsalera);
 
