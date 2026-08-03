@@ -64,15 +64,15 @@ Fundació Joan Miró, Institut Montjuïc, Equal Saree
 
 ## Bibliografia Relacionada
 
-**[Donde la ciudad cambia su nombre](https://ccuc.csuc.cat/discovery/search?query=any,contains,Donde%20la%20ciudad%20cambia%20su%20nombre&vid=34CSUC_NETWORK:VU1&mode=basic)**. Francesc Candel. 1964
+**[Donde la ciudad cambia su nombre](https://search.worldcat.org/search?q=Donde%20la%20ciudad%20cambia%20su%20nombre)**. Francesc Candel. 1964
 
-**[El barri vell de Port. Imatges i records](https://ccuc.csuc.cat/discovery/search?query=any,contains,El%20barri%20vell%20de%20Port%20Imatges%20i%20records&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ramon Anglès i Gonzàlez. Ajuntament de Barcelona. 1999
+**[El barri vell de Port. Imatges i records](https://search.worldcat.org/search?q=El%20barri%20vell%20de%20Port.%20Imatges%20i%20records)**. Ramon Anglès i Gonzàlez. Ajuntament de Barcelona. 1999
 
-**[Barcelona. Les cases barates](https://ccuc.csuc.cat/discovery/search?query=any,contains,Barcelona%20Les%20cases%20barates&vid=34CSUC_NETWORK:VU1&mode=basic)**. Diversos autors. Ajuntament de Barcelona. 1999
+**[Barcelona. Les cases barates](https://search.worldcat.org/search?q=Barcelona.%20Les%20cases%20barates)**. Diversos autors. Ajuntament de Barcelona. 1999
 
-**[Una història de La Marina de Sants. Vides paral·leles](https://ccuc.csuc.cat/discovery/search?query=any,contains,Una%20hist%C3%B2ria%20de%20La%20Marina%20de%20Sants&vid=34CSUC_NETWORK:VU1&mode=basic)**. Jordi Ortega Robert. Ajuntament de Barcelona. 2007
+**[Una història de La Marina de Sants. Vides paral·leles](https://search.worldcat.org/search?q=Una%20hist%C3%B2ria%20de%20La%20Marina%20de%20Sants.%20Vides%20paral%C2%B7leles)**. Jordi Ortega Robert. Ajuntament de Barcelona. 2007
 
-Col·lecció **[“Conèixer el districte de Sants-Montjuïc”](https://ccuc.csuc.cat/discovery/search?query=any,contains,Con%C3%A8ixer%20el%20districte%20de%20Sants-Montju%C3%AFc&vid=34CSUC_NETWORK:VU1&mode=basic)**. Arxiu Municipal de Sants-Montjuïc:
+Col·lecció **[“Conèixer el districte de Sants-Montjuïc”](https://search.worldcat.org/search?q=Con%C3%A8ixer%20el%20districte%20de%20Sants-Montju%C3%AFc)**. Arxiu Municipal de Sants-Montjuïc:
 
 1. El creixement urbà. 1993
 

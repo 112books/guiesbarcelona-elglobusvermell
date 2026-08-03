@@ -103,8 +103,8 @@ Les dues primeres, «Matèria sensible» i «Vogadors», són concebudes encara 
 
 ## Bibliografia Relacionada
 
-**[Els nous realistes. Arquitectura catalana i balear d’ençà la crisi del 2008](https://ccuc.csuc.cat/discovery/search?query=any,contains,Els%20nous%20realistes%20Arquitectura%20catalana%20i%20balear&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2025
+**[Els nous realistes. Arquitectura catalana i balear d’ençà la crisi del 2008](https://search.worldcat.org/search?q=Els%20nous%20realistes.%20Arquitectura%20catalana%20i%20balear%20d%E2%80%99en%C3%A7%C3%A0%20la%20crisi%20del%202008)**. Ajuntament de Barcelona. 2025
 
-**[Barcelona-Urban Architecture and Community Since 2010](https://ccuc.csuc.cat/discovery/search?query=any,contains,Barcelona-Urban%20Architecture%20and%20Community%20Since%202010&vid=34CSUC_NETWORK:VU1&mode=basic)**. Birkhauser Verlag. 2023
+**[Barcelona-Urban Architecture and Community Since 2010](https://search.worldcat.org/search?q=Barcelona-Urban%20Architecture%20and%20Community%20Since%202010)**. Birkhauser Verlag. 2023
 
-**[Cohousing in Barcelona. Architecture from / for the Community](https://ccuc.csuc.cat/discovery/search?query=any,contains,Cohousing%20in%20Barcelona&vid=34CSUC_NETWORK:VU1&mode=basic)**. Actar. 2023
+**[Cohousing in Barcelona. Architecture from / for the Community](https://search.worldcat.org/search?q=Cohousing%20in%20Barcelona.%20Architecture%20from%20/%20for%20the%20Community)**. Actar. 2023

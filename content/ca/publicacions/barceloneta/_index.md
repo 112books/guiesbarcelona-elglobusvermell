@@ -77,12 +77,12 @@ Per a les tres primeres categories és obligat el manteniment (i, per tant, no �
 
 ## Bibliografia Relacionada
 
-**[La Barceloneta. Origen i transformació d’un barri, 1753-1994](https://ccuc.csuc.cat/discovery/search?query=any,contains,La%20Barceloneta%20Origen%20i%20transformaci%C3%B3%20d%E2%80%99un%20barri&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 1994
+**[La Barceloneta. Origen i transformació d’un barri, 1753-1994](https://search.worldcat.org/search?q=La%20Barceloneta.%20Origen%20i%20transformaci%C3%B3%20d%E2%80%99un%20barri%2C%201753-1994)**. Ajuntament de Barcelona. 1994
 
-**[Barceloneta, un quart de mil·lenni](https://ccuc.csuc.cat/discovery/search?query=any,contains,Barceloneta%20un%20quart%20de%20mil%C2%B7lenni&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2003
+**[Barceloneta, un quart de mil·lenni](https://search.worldcat.org/search?q=Barceloneta%2C%20un%20quart%20de%20mil%C2%B7lenni)**. Ajuntament de Barcelona. 2003
 
-**[Barceloneta elements. Catàleg d’elements ornamentals del paisatge urbà de la Barceloneta](https://ccuc.csuc.cat/discovery/search?query=any,contains,Barceloneta%20elements%20Cat%C3%A0leg%20d%E2%80%99elements%20ornamentals&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2014
+**[Barceloneta elements. Catàleg d’elements ornamentals del paisatge urbà de la Barceloneta](https://search.worldcat.org/search?q=Barceloneta%20elements.%20Cat%C3%A0leg%20d%E2%80%99elements%20ornamentals%20del%20paisatge%20urb%C3%A0%20de%20la%20Barceloneta)**. Ajuntament de Barcelona. 2014
 
-**[La Barceloneta. Guia d’història urbana](https://ccuc.csuc.cat/discovery/search?query=any,contains,La%20Barceloneta%20Guia%20d%E2%80%99hist%C3%B2ria%20urbana&vid=34CSUC_NETWORK:VU1&mode=basic)**. Ajuntament de Barcelona. 2014
+**[La Barceloneta. Guia d’història urbana](https://search.worldcat.org/search?q=La%20Barceloneta.%20Guia%20d%E2%80%99hist%C3%B2ria%20urbana)**. Ajuntament de Barcelona. 2014
 
-**[Barceloneta & Poblenou. Walk with me](https://ccuc.csuc.cat/discovery/search?query=any,contains,Barceloneta%20Poblenou%20Walk%20with%20me&vid=34CSUC_NETWORK:VU1&mode=basic)**. 2015
+**[Barceloneta & Poblenou. Walk with me](https://search.worldcat.org/search?q=Barceloneta%20%26%20Poblenou.%20Walk%20with%20me)**. 2015
