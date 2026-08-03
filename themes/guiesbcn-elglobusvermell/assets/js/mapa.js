@@ -364,10 +364,13 @@
       });
 
       Object.keys(pubs).forEach(function (slug) {
+        var wrap = document.createElement('div');
+        wrap.className = 'filtre-btn-wrap';
+        wrap.style.setProperty('--pub-color', pubs[slug].color || '#888');
+
         var btn = document.createElement('button');
         btn.setAttribute('data-pub', slug);
         btn.className = 'filtre-btn';
-        btn.style.setProperty('--pub-color', pubs[slug].color || '#888');
 
         // Parteix el títol en dos línies per ". " (separador editorial natural)
         var titol = pubs[slug].titol || slug;
@@ -409,7 +412,26 @@
             window.goatcounter.count({ path: 'mapa-filtre-pub/' + slug, title: 'Filtre pub: ' + slug });
           }
         });
-        pubsBtns.appendChild(btn);
+        wrap.appendChild(btn);
+
+        if (pubs[slug].url) {
+          var info = document.createElement('a');
+          info.className = 'filtre-btn-info';
+          info.href = pubs[slug].url;
+          info.textContent = 'i';
+          var infoLabel = 'Veure la pàgina de "' + titol + '"';
+          info.setAttribute('aria-label', infoLabel);
+          info.setAttribute('title', infoLabel);
+          info.addEventListener('click', function (e) {
+            e.stopPropagation();
+            if (window.goatcounter && window.goatcounter.count) {
+              window.goatcounter.count({ path: 'mapa-info-pub/' + slug, title: 'Info pub: ' + slug });
+            }
+          });
+          wrap.appendChild(info);
+        }
+
+        pubsBtns.appendChild(wrap);
       });
       pubsGrup.appendChild(pubsBtns);
       filtreMapa.appendChild(pubsGrup);

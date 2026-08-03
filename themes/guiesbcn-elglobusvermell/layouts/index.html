@@ -36,7 +36,9 @@
 {{ $pubsData := dict }}
 {{ range hugo.Data.publicacions }}
   {{ if .estat_app.a_app }}
-    {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}
+    {{ $url := "" }}
+    {{ with site.GetPage (printf "/publicacions/%s" .slug) }}{{ $url = .RelPermalink }}{{ end }}
+    {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color "url" $url)) }}
   {{ end }}
 {{ end }}
 
