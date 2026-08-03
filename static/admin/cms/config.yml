@@ -302,3 +302,32 @@ collections:
         fields:
           - { label: Títol, name: title, widget: string }
           - { label: Cos, name: body, widget: markdown }
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # PLÀNOLS-GUIA (contingut de cada pàgina de publicació)
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: publicacions
+    label: Plànols-guia
+    label_singular: Plànol-guia
+    folder: content/ca/publicacions
+    path: "{{slug}}/_index"
+    create: false
+    delete: false
+    extension: md
+    format: yaml-frontmatter
+    summary: "{{title}}"
+    fields:
+      - label: Títol
+        name: title
+        widget: string
+
+      - label: Edició
+        name: edicio
+        widget: string
+        required: false
+        hint: "Any d'edició. Pot ser un número (2019) o text (\"2026 (pendent)\")."
+
+      - label: Contingut (markdown)
+        name: body
+        widget: markdown
+        hint: "Negreta, cursiva, enllaços, títols (##), llistes... Compte amb els títols ## \"Llistat\" i \"Bibliografia Relacionada\": són seccions especials, no els esborris ni en canviïs el nom."
