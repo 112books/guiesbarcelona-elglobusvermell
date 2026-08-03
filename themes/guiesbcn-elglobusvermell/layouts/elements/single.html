@@ -21,13 +21,15 @@
 
   {{ if gt (len $imatges) 1 }}
   <div class="fitxa-carrusel" data-fitxa-carrusel>
-    <div class="fitxa-carrusel-track" data-carrusel-track>
-      {{ range $i, $img := $imatges }}
-      <div class="fitxa-carrusel-slide">
-        <img src="{{ $img | strings.TrimPrefix "/" | relURL }}"
-             alt="{{ $.Title }} ({{ add $i 1 }}/{{ len $imatges }})" loading="lazy">
+    <div class="fitxa-carrusel-viewport">
+      <div class="fitxa-carrusel-track" data-carrusel-track>
+        {{ range $i, $img := $imatges }}
+        <div class="fitxa-carrusel-slide">
+          <img src="{{ $img | strings.TrimPrefix "/" | relURL }}"
+               alt="{{ $.Title }} ({{ add $i 1 }}/{{ len $imatges }})" {{ if eq $i 0 }}loading="eager"{{ else }}loading="lazy"{{ end }}>
+        </div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
     <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-prev" data-carrusel-prev aria-label="Imatge anterior">‹</button>
     <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-next" data-carrusel-next aria-label="Imatge següent">›</button>

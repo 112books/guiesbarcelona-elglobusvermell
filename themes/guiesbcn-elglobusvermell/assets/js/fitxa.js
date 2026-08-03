@@ -33,43 +33,48 @@
 })();
 
 // ── Carrusel de fotos (portada + addicionals) ──────────────────────────────
+// Desplaçament amb transform (no amb scroll natiu del contenidor) perquè
+// funcioni de manera fiable amb els botons i amb el gest de lliscar al mòbil.
 (function () {
   var carrusel = document.querySelector('[data-fitxa-carrusel]');
   if (!carrusel) return;
 
   var track = carrusel.querySelector('[data-carrusel-track]');
-  var slides = track.children;
+  var slideCount = track.children.length;
   var dots = carrusel.querySelectorAll('[data-carrusel-dot]');
   var prevBtn = carrusel.querySelector('[data-carrusel-prev]');
   var nextBtn = carrusel.querySelector('[data-carrusel-next]');
+  var current = 0;
 
-  function activeIndex() {
-    var scrollLeft = track.scrollLeft;
-    var width = track.clientWidth;
-    return Math.round(scrollLeft / width);
-  }
-
-  function goTo(index) {
-    var clamped = Math.max(0, Math.min(index, slides.length - 1));
-    track.scrollTo({ left: clamped * track.clientWidth, behavior: 'smooth' });
-  }
-
-  function updateDots() {
-    var i = activeIndex();
-    dots.forEach(function (dot, di) {
-      dot.classList.toggle('is-active', di === i);
+  function render() {
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    dots.forEach(function (dot, i) {
+      dot.classList.toggle('is-active', i === current);
     });
   }
 
-  prevBtn.addEventListener('click', function () { goTo(activeIndex() - 1); });
-  nextBtn.addEventListener('click', function () { goTo(activeIndex() + 1); });
+  function goTo(index) {
+    current = Math.max(0, Math.min(index, slideCount - 1));
+    render();
+  }
+
+  prevBtn.addEventListener('click', function () { goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { goTo(current + 1); });
   dots.forEach(function (dot, i) {
     dot.addEventListener('click', function () { goTo(i); });
   });
 
-  var scrollTimeout;
-  track.addEventListener('scroll', function () {
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(updateDots, 100);
+  // Lliscar amb el dit (mòbil) o ratolí
+  var startX = null;
+  track.addEventListener('touchstart', function (e) {
+    startX = e.touches[0].clientX;
+  }, { passive: true });
+  track.addEventListener('touchend', function (e) {
+    if (startX === null) return;
+    var deltaX = e.changedTouches[0].clientX - startX;
+    if (Math.abs(deltaX) > 40) {
+      goTo(current + (deltaX < 0 ? 1 : -1));
+    }
+    startX = null;
   });
 })();
