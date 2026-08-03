@@ -438,6 +438,32 @@ main {
 
 .filtre-btn:hover { filter: brightness(0.9); }
 
+.filtre-btn-wrap { display: inline-flex; align-items: stretch; }
+
+.filtre-btn-wrap .filtre-btn {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.filtre-btn-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0 0.55rem;
+  border-radius: 0 2rem 2rem 0;
+  border: 2px solid transparent;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f0f0f0;
+  color: var(--pub-color, #888);
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.filtre-btn-info:hover { background: var(--pub-color, #888); color: #fff; }
+
 /* ── Fitxa d'edifici ──────────────────────────────────────────────────────── */
 
 .fitxa {
@@ -1262,6 +1288,12 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
     border-bottom: none;
     border-right: 1px solid #e5e5e5;
     padding-right: 0.6rem;
+  }
+
+  .filtre-btn-info {
+    min-width: 2.75rem;
+    padding: 0 0.75rem;
+    font-size: 0.95rem;
   }
 
   .footer-main {
