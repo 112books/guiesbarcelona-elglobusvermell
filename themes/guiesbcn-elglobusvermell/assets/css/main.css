@@ -478,22 +478,21 @@ main {
   margin-bottom: var(--space-lg);
 }
 
+.fitxa-carrusel-viewport {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
 .fitxa-carrusel-track {
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  border-radius: 0.5rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
+  transition: transform 0.3s ease;
+  touch-action: pan-y;
 }
-.fitxa-carrusel-track::-webkit-scrollbar { display: none; }
 
 .fitxa-carrusel-slide {
   flex: 0 0 100%;
   width: 100%;
   aspect-ratio: 16/9;
-  scroll-snap-align: start;
   background: #f0f0f0;
 }
 
