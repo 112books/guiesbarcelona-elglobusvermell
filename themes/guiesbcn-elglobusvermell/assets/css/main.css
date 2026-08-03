@@ -582,7 +582,7 @@ main {
   .fitxa-carrusel-btn { width: 2.1rem; height: 2.1rem; font-size: 1.25rem; }
 }
 
-.fitxa-titol { margin-top: 0; margin-bottom: var(--space-sm); }
+.fitxa-titol { margin-top: 0; margin-bottom: var(--space-sm); color: var(--pub-color, var(--color-text)); }
 
 .fitxa-pubs {
   display: flex;

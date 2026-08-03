@@ -1,3 +1,13 @@
+// Si s'arriba des d'un mapa concret (?color=), la fitxa adopta la identitat
+// visual d'aquell mapa en lloc del primer de la llista de publicacions.
+(function () {
+  var hex = new URLSearchParams(location.search).get('color');
+  if (hex && /^[0-9a-fA-F]{3,8}$/.test(hex)) {
+    var fitxa = document.querySelector('.fitxa');
+    if (fitxa) fitxa.style.setProperty('--pub-color', '#' + hex);
+  }
+})();
+
 (function () {
   var el   = document.getElementById("fitxa-mapa");
   var punt = window.FITXA_PUNT;

@@ -127,7 +127,18 @@
       }
       featureGroup.bindPopup(popupEl);
       featureGroup._dades = p;
-      featureGroup.on('popupopen', function () {
+      featureGroup.on('popupopen', function (e) {
+        // Enllaça amb el color del cercle concret que s'ha clicat (si el punt
+        // pertany a diversos mapes), perquè la fitxa s'obri amb la identitat
+        // visual del mapa que s'estava mirant.
+        var slug = e.layer && e.layer._pubSlug;
+        if (slug) {
+          var hex = colorPub(slug).replace('#', '');
+          var sep = p.url.indexOf('?') === -1 ? '?' : '&';
+          popupLink.href = p.url + sep + 'color=' + encodeURIComponent(hex);
+        } else {
+          popupLink.href = p.url;
+        }
         if (window.goatcounter && window.goatcounter.count) {
           window.goatcounter.count({ path: 'mapa-click' + p.url, title: p.title });
         }
@@ -601,6 +612,20 @@
     cercaFiltres.appendChild(controls);
   }
 
+  // Quan un grup niat s'obre/tanca, els contenidors "obert" que l'envolten
+  // (p.ex. la secció "Llistat" de la descripció) tenien el seu max-height
+  // fixat en el moment d'obrir-se ells; cal actualitzar-lo perquè no tallin
+  // el contingut nou.
+  function ajustaAvantpares(el) {
+    var parent = el.parentElement;
+    while (parent) {
+      if (parent.classList && parent.classList.contains('llistat-grup-elements') && parent.style.maxHeight) {
+        parent.style.maxHeight = parent.scrollHeight + 'px';
+      }
+      parent = parent.parentElement;
+    }
+  }
+
   // ── Construir llistat (alfabètic o per any) ───────────────────────────
   function construeixLlistat() {
     if (!llistatGrups) return;
@@ -682,6 +707,7 @@
         this.setAttribute('aria-expanded', String(!expanded));
         grup.classList.toggle('obert', !expanded);
         llista.style.maxHeight = expanded ? '' : llista.scrollHeight + 'px';
+        ajustaAvantpares(llista);
       });
       grup.appendChild(capsalera);
 
@@ -699,6 +725,10 @@
 
         var a = document.createElement('a');
         a.href = p.url;
+        if (window.PUBLICACIO_COLOR) {
+          var sepLlista = a.href.indexOf('?') === -1 ? '?' : '&';
+          a.href += sepLlista + 'color=' + encodeURIComponent(window.PUBLICACIO_COLOR.replace('#', ''));
+        }
         a.className = 'llistat-element-link';
 
         var titolEl = document.createElement('span');
