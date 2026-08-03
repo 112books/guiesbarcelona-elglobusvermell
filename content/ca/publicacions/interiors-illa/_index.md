@@ -73,15 +73,15 @@ El repte, però, no s’atura aquí. Se segueixen obrint nous jardins per cobrir
 
 ## Bibliografia Relacionada
 
-**[“Els interiors d’illa de l’Eixample”](https://search.worldcat.org/search?q=Els%20interiors%20d%E2%80%99illa%20de%20l%E2%80%99Eixample)**
+**[“Els interiors d’illa de l’Eixample”](https://search.worldcat.org/search?q=%22Els%20interiors%20d%E2%80%99illa%20de%20l%E2%80%99Eixample%22)**
 
 Lluís Permanyer (textos) i Colita (fotografies). ProEixample. 2003
 
-**[“Els interiors d’illa de l’Eixample. El significat dels seus noms”](https://search.worldcat.org/search?q=Els%20interiors%20d%E2%80%99illa%20de%20l%E2%80%99Eixample.%20El%20significat%20dels%20seus%20noms)**
+**[“Els interiors d’illa de l’Eixample. El significat dels seus noms”](https://search.worldcat.org/search?q=%22Els%20interiors%20d%E2%80%99illa%20de%20l%E2%80%99Eixample.%20El%20significat%20dels%20seus%20noms%22)**
 
 Jesús Portabella i Lluís Permanyer (textos) i Floro Azqueta (fotografies). Lunwerg Editores. 2007
 
-**[“Itineraris pels interiors d’illa de l’Eixample i altres indrets per descobrir”](https://search.worldcat.org/search?q=Itineraris%20pels%20interiors%20d%E2%80%99illa%20de%20l%E2%80%99Eixample%20i%20altres%20indrets%20per%20descobrir)**
+**[“Itineraris pels interiors d’illa de l’Eixample i altres indrets per descobrir”](https://search.worldcat.org/search?q=%22Itineraris%20pels%20interiors%20d%E2%80%99illa%20de%20l%E2%80%99Eixample%20i%20altres%20indrets%20per%20descobrir%22)**
 
 Isabel de Villalonga (textos) i Floro Azqueta (fotografies). ProEixample. 2007
 
