@@ -137,7 +137,7 @@ A causa de l’alta resistència del formigó, la facilitat de construcció, el 
 
 ## Bibliografia Relacionada
 
-**[L’arquitectura dels anys cinquanta a Barcelona]**. ETSAV. 1987
+**L’arquitectura dels anys cinquanta a Barcelona**. ETSAV. 1987
 
 **[Registre d’Arquitectura Moderna a Catalunya. 1925-1965](https://aladi.diba.cat/record=b1213363~S171*cat)**. COAC. 1996
 
@@ -145,6 +145,6 @@ A causa de l’alta resistència del formigó, la facilitat de construcció, el 
 
 **[La tradició renovada](https://aladi.diba.cat/record=b1251599~S171*cat)**. COAC. 1999
 
-**[Des de Barcelona. Arquitectures i ciutat. 1958-1975]**. COAC. 2002
+**Des de Barcelona. Arquitectures i ciutat. 1958-1975**. COAC. 2002
 
 **[Barcelona. Arquitectura Moderna. 1929-1979](https://aladi.diba.cat/record=b1489382~S171*cat)**. Edicions Polígrafa. 2016

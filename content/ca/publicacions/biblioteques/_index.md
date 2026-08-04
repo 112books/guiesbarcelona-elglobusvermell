@@ -121,14 +121,14 @@ No obstant això, el fet de dependre de l’autogestió i del voluntariat les co
 
 ## Bibliografia Relacionada
 
-**[Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona]**. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010
+**Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona**. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010
 
-**[L’arquitectura de la biblioteca pública](https://aladi.diba.cat/record=b1379897~S171*cat)**. Santi Romero. Diputació de Barcelona
+**L’arquitectura de la biblioteca pública**. Santi Romero. Diputació de Barcelona
 
 **[L’Arquitectura de la Biblioteca. Recomanacions per a un projecte integral](https://aladi.diba.cat/record=b1379897~S171*cat)**. Santi Romero. Col·legi d’Arquitectes de Catalunya, 2001
 
-**[La Xarxa de Biblioteques 1915-2004: una història que mira al futur]**. Carme Mayol. Universitat de Barcelona. 2005
+**La Xarxa de Biblioteques 1915-2004: una història que mira al futur**. Carme Mayol. Universitat de Barcelona. 2005
 
-**[Pla estratègic de constitució del Consorci de biblioteques de Barcelona]**. 2001-2003
+**Pla estratègic de constitució del Consorci de biblioteques de Barcelona**. 2001-2003
 
-**[L’única cosa imprescindible que has de saber és on hi ha una biblioteca]**. El globus vermell. 2014
+**L’única cosa imprescindible que has de saber és on hi ha una biblioteca**. El globus vermell. 2014
