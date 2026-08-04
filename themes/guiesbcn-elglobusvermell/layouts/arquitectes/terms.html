@@ -4,7 +4,7 @@
   <ul class="terms-llista">
     {{ range .Pages }}
     <li>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <span class="terms-count">({{ len .Pages }} edifici{{ if gt (len .Pages) 1 }}s{{ end }})</span>
     </li>
     {{ end }}
