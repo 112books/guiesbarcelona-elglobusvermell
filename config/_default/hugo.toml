@@ -94,6 +94,11 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[languages.ca.menus.main]]
+  name   = "Arquitectes"
+  url    = "/arquitectes/"
+  weight = 4
+
+[[languages.ca.menus.main]]
   name   = "Crèdits"
   url    = "/credits/"
-  weight = 4
+  weight = 5
