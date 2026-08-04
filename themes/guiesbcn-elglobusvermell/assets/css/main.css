@@ -324,7 +324,7 @@ main {
   display: inline-flex;
   align-items: center;
   margin-top: 0.4rem;
-  opacity: 0.75;
+  opacity: 0.85;
   transition: opacity 0.2s;
 }
 .footer-cc:hover { opacity: 1; }
