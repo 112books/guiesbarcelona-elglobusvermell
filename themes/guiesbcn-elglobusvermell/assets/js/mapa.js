@@ -220,10 +220,20 @@
     fsCtrl.addTo(map);
 
     // ── Botó de geolocalització ──────────────────────────────────────────
+    // Errors de geolocalització (timeout, posició no disponible) són sovint
+    // transitoris — un segon intent immediat resol la majoria de casos sense
+    // que l'usuari hagi de tornar a clicar. maximumAge permet reaprofitar
+    // una ubicació recent en lloc de forçar sempre una lectura nova.
     if ('geolocation' in navigator) {
       var geoBtnLabel = 'Centrar al meu lloc';
       var geoCtrl = L.control({ position: 'bottomright' });
       var geoBtn;
+      var geoReintentant = false;
+
+      function localitza() {
+        map.locate({ setView: true, maxZoom: 17, timeout: 10000, maximumAge: 60000 });
+      }
+
       geoCtrl.onAdd = function () {
         geoBtn = L.DomUtil.create('button', 'mapa-btn-geo');
         geoBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/></svg>';
@@ -231,9 +241,10 @@
         geoBtn.setAttribute('title', geoBtnLabel);
         L.DomEvent.on(geoBtn, 'click', function (e) {
           L.DomEvent.stopPropagation(e);
+          geoReintentant = false;
           geoBtn.setAttribute('title', 'Cercant la teva ubicació…');
           geoBtn.classList.add('mapa-btn-geo--cercant');
-          map.locate({ setView: true, maxZoom: 17, timeout: 10000 });
+          localitza();
         });
         return geoBtn;
       };
@@ -243,6 +254,7 @@
       var userAccuracy = null;
 
       map.on('locationfound', function (e) {
+        geoReintentant = false;
         geoBtn.classList.remove('mapa-btn-geo--cercant');
         geoBtn.setAttribute('title', geoBtnLabel);
         if (userMarker) { map.removeLayer(userMarker); }
@@ -254,11 +266,22 @@
       });
 
       map.on('locationerror', function (e) {
-        geoBtn.classList.remove('mapa-btn-geo--cercant');
         var motiu = (e && e.message) ? e.message : 'Error desconegut';
-        geoBtn.setAttribute('title', 'No s\'ha pogut obtenir la ubicació: ' + motiu);
-        geoBtn.classList.add('mapa-btn-geo--error');
         console.error('Geolocalització:', motiu);
+
+        if (!geoReintentant) {
+          // Primer intent fallit: reintenta un cop en silenci abans de
+          // rendir-se — molts errors (timeout, posició no disponible) es
+          // resolen sols a la segona lectura.
+          geoReintentant = true;
+          localitza();
+          return;
+        }
+
+        geoReintentant = false;
+        geoBtn.classList.remove('mapa-btn-geo--cercant');
+        geoBtn.setAttribute('title', 'No s\'ha pogut obtenir la ubicació: ' + motiu + '. Comprova que tens la localització activada.');
+        geoBtn.classList.add('mapa-btn-geo--error');
         setTimeout(function () {
           geoBtn.setAttribute('title', geoBtnLabel);
           geoBtn.classList.remove('mapa-btn-geo--error');
