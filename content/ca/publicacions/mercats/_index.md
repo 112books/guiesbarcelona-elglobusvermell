@@ -153,7 +153,7 @@ A més dels mercats d’alimentació, Barcelona disposa de diversos mercats no a
 
 **[Barcelone, la ville des marchés / Barcelona, la ciudad de los mercados](https://aladi.diba.cat/record=b1969610~S171*cat)**. Mon Cher Watson. 2015
 
-**[Mercats. L’experiència de Barcelona]**. Ajuntament de Barcelona. 2015
+**Mercats. L’experiència de Barcelona**. Ajuntament de Barcelona. 2015
 
 **[Mercats de Barcelona. Segle XIX](https://aladi.diba.cat/record=b1842054~S171*cat)**. Ajuntament de Barcelona. 2016
 
