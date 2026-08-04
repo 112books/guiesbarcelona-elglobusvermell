@@ -1,7 +1,6 @@
 {{ define "main" }}
 <article class="pagina-contingut">
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
 </article>
 
 {{/* ── Estadístiques del projecte ── */}}
@@ -101,6 +100,10 @@
     </div>
   </div>
 </section>
+
+<article class="pagina-contingut">
+  {{ .Content }}
+</article>
 
 <script>
 (function() {

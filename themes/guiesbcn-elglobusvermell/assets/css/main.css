@@ -1587,8 +1587,11 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 /* ── Estadístiques a Crèdits ── */
 .credits-stats {
   margin-top: var(--space-lg);
+  margin-bottom: var(--space-lg);
   padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
   border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .credits-stats-title {
