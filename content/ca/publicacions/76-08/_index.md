@@ -75,14 +75,14 @@ El balanç, però, és ambivalent. D’una banda, el 22@ ha aportat activitat ec
 
 ## Bibliografia Relacionada
 
-**[Àrees de nova centralitat. New Downtowns in Barcelona](https://search.worldcat.org/search?q=%22%C3%80rees%20de%20nova%20centralitat.%20New%20Downtowns%20in%20Barcelona%22)**. Ajuntament de Barcelona. 1987
+**[Àrees de nova centralitat. New Downtowns in Barcelona](https://aladi.diba.cat/record=b1001450~S171*cat)**. Ajuntament de Barcelona. 1987
 
-**[Barcelona. Arquitectura y ciudad. 1980-1992](https://search.worldcat.org/search?q=%22Barcelona.%20Arquitectura%20y%20ciudad.%201980-1992%22)**. Editorial GG. 1990
+**[Barcelona. Arquitectura y ciudad. 1980-1992](https://aladi.diba.cat/record=b1097702~S171*cat)**. Editorial GG. 1990
 
-**[Barcelona. Espais urbans. 1981-1996](https://search.worldcat.org/search?q=%22Barcelona.%20Espais%20urbans.%201981-1996%22)**. Ajuntament de Barcelona. 1996
+**[Barcelona. Espais urbans. 1981-1996]**. Ajuntament de Barcelona. 1996
 
-**[Barcelona. Arquitectura contemporània. 1979-2004](https://search.worldcat.org/search?q=%22Barcelona.%20Arquitectura%20contempor%C3%A0nia.%201979-2004%22)**. Edicions Polígrafa i Ajuntament de Barcelona. 2005
+**[Barcelona. Arquitectura contemporània. 1979-2004](https://aladi.diba.cat/record=b1464132~S171*cat)**. Edicions Polígrafa i Ajuntament de Barcelona. 2005
 
-**[Arxiu crític model Barcelona: 1973-2004](https://search.worldcat.org/search?q=%22Arxiu%20cr%C3%ADtic%20model%20Barcelona%3A%201973-2004%22)**. J.M. Montaner, F. Alvarez, Z. Muix. 2012
+**[Arxiu crític model Barcelona: 1973-2004](https://aladi.diba.cat/record=b1680422~S171*cat)**. J.M. Montaner, F. Alvarez, Z. Muix. 2012
 
-**[Reader Modelo Barcelona: 1973-2013](https://search.worldcat.org/search?q=%22Reader%20Modelo%20Barcelona%3A%201973-2013%22)**. J.M. Montaner, F. Alvarez, Z. Muixí, R. Casanovas. 2014
+**[Reader Modelo Barcelona: 1973-2013](https://aladi.diba.cat/record=b1745703~S171*cat)**. J.M. Montaner, F. Alvarez, Z. Muixí, R. Casanovas. 2014

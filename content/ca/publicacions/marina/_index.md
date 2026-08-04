@@ -64,22 +64,22 @@ Fundació Joan Miró, Institut Montjuïc, Equal Saree
 
 ## Bibliografia Relacionada
 
-**[Donde la ciudad cambia su nombre](https://search.worldcat.org/search?q=%22Donde%20la%20ciudad%20cambia%20su%20nombre%22)**. Francesc Candel. 1964
+**[Donde la ciudad cambia su nombre](https://aladi.diba.cat/record=b1142746~S171*cat)**. Francesc Candel. 1964
 
-**[El barri vell de Port. Imatges i records](https://search.worldcat.org/search?q=%22El%20barri%20vell%20de%20Port.%20Imatges%20i%20records%22)**. Ramon Anglès i Gonzàlez. Ajuntament de Barcelona. 1999
+**[El barri vell de Port. Imatges i records](https://aladi.diba.cat/record=b1185145~S171*cat)**. Ramon Anglès i Gonzàlez. Ajuntament de Barcelona. 1999
 
-**[Barcelona. Les cases barates](https://search.worldcat.org/search?q=%22Barcelona.%20Les%20cases%20barates%22)**. Diversos autors. Ajuntament de Barcelona. 1999
+**[Barcelona. Les cases barates](https://aladi.diba.cat/record=b1160064~S171*cat)**. Diversos autors. Ajuntament de Barcelona. 1999
 
-**[Una història de La Marina de Sants. Vides paral·leles](https://search.worldcat.org/search?q=%22Una%20hist%C3%B2ria%20de%20La%20Marina%20de%20Sants.%20Vides%20paral%C2%B7leles%22)**. Jordi Ortega Robert. Ajuntament de Barcelona. 2007
+**[Una història de La Marina de Sants. Vides paral·leles](https://aladi.diba.cat/record=b1502249~S171*cat)**. Jordi Ortega Robert. Ajuntament de Barcelona. 2007
 
-Col·lecció **[“Conèixer el districte de Sants-Montjuïc”](https://search.worldcat.org/search?q=%22Con%C3%A8ixer%20el%20districte%20de%20Sants-Montju%C3%AFc%22)**. Arxiu Municipal de Sants-Montjuïc:
+Col·lecció **“Conèixer el districte de Sants-Montjuïc”**. Arxiu Municipal de Sants-Montjuïc:
 
-1. El creixement urbà. 1993
+1. **[El creixement urbà](https://aladi.diba.cat/record=b1178412~S171*cat)**. 1993
 
-2. La industrialització. 1993
+2. **[La industrialització](https://aladi.diba.cat/record=b1178413~S171*cat)**. 1993
 
-3. Pagesos i menestrals. 1994
+3. **[Pagesos i menestrals](https://aladi.diba.cat/record=b1178414~S171*cat)**. 1994
 
-7. La Zona Franca. 1996
+7. **[La Zona Franca](https://aladi.diba.cat/record=b1101486~S171*cat)**. 1996
 
-11. Els mercats. 2000
+11. **[Els mercats](https://aladi.diba.cat/record=b1229737~S171*cat)**. 2000
