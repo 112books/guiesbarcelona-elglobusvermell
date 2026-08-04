@@ -147,14 +147,14 @@ A més dels mercats d’alimentació, Barcelona disposa de diversos mercats no a
 
 ## Bibliografia Relacionada
 
-**[Els mercats de Barcelona](https://search.worldcat.org/search?q=%22Els%20mercats%20de%20Barcelona%22)**. Ajuntament de Barcelona. 1992
+**[Els mercats de Barcelona](https://aladi.diba.cat/record=b1044757~S171*cat)**. Ajuntament de Barcelona. 1992
 
-**[Mercats de Barcelona](https://search.worldcat.org/search?q=%22Mercats%20de%20Barcelona%22)**. Institut Municipal de Mercats de Barcelona i Angle Editorial. 2007
+**[Mercats de Barcelona](https://aladi.diba.cat/record=b1478659~S171*cat)**. Institut Municipal de Mercats de Barcelona i Angle Editorial. 2007
 
-**[Barcelone, la ville des marchés / Barcelona, la ciudad de los mercados](https://search.worldcat.org/search?q=%22Barcelone%2C%20la%20ville%20des%20march%C3%A9s%20/%20Barcelona%2C%20la%20ciudad%20de%20los%20mercados%22)**. Mon Cher Watson. 2015
+**[Barcelone, la ville des marchés / Barcelona, la ciudad de los mercados](https://aladi.diba.cat/record=b1969610~S171*cat)**. Mon Cher Watson. 2015
 
-**[Mercats. L’experiència de Barcelona](https://search.worldcat.org/search?q=%22Mercats.%20L%E2%80%99experi%C3%A8ncia%20de%20Barcelona%22)**. Ajuntament de Barcelona. 2015
+**[Mercats. L’experiència de Barcelona]**. Ajuntament de Barcelona. 2015
 
-**[Mercats de Barcelona. Segle XIX](https://search.worldcat.org/search?q=%22Mercats%20de%20Barcelona.%20Segle%20XIX%22)**. Ajuntament de Barcelona. 2016
+**[Mercats de Barcelona. Segle XIX](https://aladi.diba.cat/record=b1842054~S171*cat)**. Ajuntament de Barcelona. 2016
 
-**[Mercats de Barcelona. Segles XX i XXI](https://search.worldcat.org/search?q=%22Mercats%20de%20Barcelona.%20Segles%20XX%20i%20XXI%22)**. Ajuntament de Barcelona. 2018
+**[Mercats de Barcelona. Segles XX i XXI](https://aladi.diba.cat/record=b1912998~S171*cat)**. Ajuntament de Barcelona. 2018

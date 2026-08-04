@@ -103,12 +103,12 @@ Richard Ford. Handbook for Travellers in Spain and Readers at Home. 1845.
 
 ## Bibliografia Relacionada
 
-**[Masies de Barcelona](https://search.worldcat.org/search?q=%22Masies%20de%20Barcelona%22)**. Angle Editorial, 2009
+**[Masies de Barcelona](https://aladi.diba.cat/record=b1574022~S171*cat)**. Angle Editorial, 2009
 
-**[Les masies de Sant Andreu de Palomar](https://search.worldcat.org/search?q=%22Les%20masies%20de%20Sant%20Andreu%20de%20Palomar%22)**. Llop Roig, 2014
+**[Les masies de Sant Andreu de Palomar](https://aladi.diba.cat/record=b1751108~S171*cat)**. Llop Roig, 2014
 
-**[Materials per a l’estudi de la masia](https://search.worldcat.org/search?q=%22Materials%20per%20a%20l%E2%80%99estudi%20de%20la%20masia%22)**. Josep Danés i Torras, 2010
+**[Materials per a l’estudi de la masia](https://aladi.diba.cat/record=b1640051~S171*cat)**. Josep Danés i Torras, 2010
 
-**[Congressos Masia i Territori](https://search.worldcat.org/search?q=%22Congressos%20Masia%20i%20Territori%22)**. Institut d’Estudis Catalans
+**[Congressos Masia i Territori](https://aladi.diba.cat/record=b1924655~S171*cat)**. Institut d’Estudis Catalans
 
 Llistat de masies del Barcelonès. Viquipèdia

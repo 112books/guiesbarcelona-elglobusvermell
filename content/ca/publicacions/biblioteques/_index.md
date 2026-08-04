@@ -121,14 +121,14 @@ No obstant això, el fet de dependre de l’autogestió i del voluntariat les co
 
 ## Bibliografia Relacionada
 
-**[Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona](https://search.worldcat.org/search?q=%22Color%2C%20materiales%20y%20luz%20en%20las%20bibliotecas%20de%20la%20Xarxa%20de%20Barcelona%22)**. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010
+**[Color, materiales y luz en las bibliotecas de la Xarxa de Barcelona]**. Ignasi Bonet i Immaculada Sabater. Diputació Barcelona. 2010
 
-**[L’arquitectura de la biblioteca pública](https://search.worldcat.org/search?q=%22L%E2%80%99arquitectura%20de%20la%20biblioteca%20p%C3%BAblica%22)**. Santi Romero. Diputació de Barcelona
+**[L’arquitectura de la biblioteca pública](https://aladi.diba.cat/record=b1379897~S171*cat)**. Santi Romero. Diputació de Barcelona
 
-**[L’Arquitectura de la Biblioteca. Recomanacions per a un projecte integral](https://search.worldcat.org/search?q=%22L%E2%80%99Arquitectura%20de%20la%20Biblioteca.%20Recomanacions%20per%20a%20un%20projecte%20integral%22)**. Santi Romero. Col·legi d’Arquitectes de Catalunya, 2001
+**[L’Arquitectura de la Biblioteca. Recomanacions per a un projecte integral](https://aladi.diba.cat/record=b1379897~S171*cat)**. Santi Romero. Col·legi d’Arquitectes de Catalunya, 2001
 
-**[La Xarxa de Biblioteques 1915-2004: una història que mira al futur](https://search.worldcat.org/search?q=%22La%20Xarxa%20de%20Biblioteques%201915-2004%3A%20una%20hist%C3%B2ria%20que%20mira%20al%20futur%22)**. Carme Mayol. Universitat de Barcelona. 2005
+**[La Xarxa de Biblioteques 1915-2004: una història que mira al futur]**. Carme Mayol. Universitat de Barcelona. 2005
 
-**[Pla estratègic de constitució del Consorci de biblioteques de Barcelona](https://search.worldcat.org/search?q=%22Pla%20estrat%C3%A8gic%20de%20constituci%C3%B3%20del%20Consorci%20de%20biblioteques%20de%20Barcelona%22)**. 2001-2003
+**[Pla estratègic de constitució del Consorci de biblioteques de Barcelona]**. 2001-2003
 
-**[L’única cosa imprescindible que has de saber és on hi ha una biblioteca](https://search.worldcat.org/search?q=%22L%E2%80%99%C3%BAnica%20cosa%20imprescindible%20que%20has%20de%20saber%20%C3%A9s%20on%20hi%20ha%20una%20biblioteca%22)**. El globus vermell. 2014
+**[L’única cosa imprescindible que has de saber és on hi ha una biblioteca]**. El globus vermell. 2014
