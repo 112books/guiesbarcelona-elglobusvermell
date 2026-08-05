@@ -5,8 +5,19 @@
 
   <header class="publicacio-cap">
     <h1>{{ .Title }}</h1>
-    <p class="publicacio-edicio">Arquitecte</p>
+    <p class="publicacio-edicio">
+      {{ if eq .Params.tipus "estudi" }}Estudi d'arquitectura{{ else }}Arquitecte{{ end }}
+    </p>
   </header>
+
+  {{ if or .Params.descripcio .Params.link_extern }}
+  <section class="arquitecte-bio">
+    {{ with .Params.descripcio }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.link_extern }}
+    <p><a href="{{ . }}" target="_blank" rel="noopener noreferrer">Més informació ↗</a></p>
+    {{ end }}
+  </section>
+  {{ end }}
 
   <section class="publicacio-edificis">
     <div class="mapa-contenidor" id="mapa-contenidor" role="region" aria-label="Mapa d'edificis de {{ .Title }}">
