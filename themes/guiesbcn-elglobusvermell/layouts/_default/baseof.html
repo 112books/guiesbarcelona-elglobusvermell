@@ -24,5 +24,9 @@
   {{ $fitxaJs := resources.Get "js/fitxa.js" | minify | fingerprint }}
   <script src="{{ $fitxaJs.RelPermalink }}" integrity="{{ $fitxaJs.Data.Integrity }}" defer></script>
   {{ end }}
+  {{ if and (eq .Kind "taxonomy") (eq .Data.Plural "arquitectes") }}
+  {{ $arqJs := resources.Get "js/arquitectes.js" | minify | fingerprint }}
+  <script src="{{ $arqJs.RelPermalink }}" integrity="{{ $arqJs.Data.Integrity }}" defer></script>
+  {{ end }}
 </body>
 </html>
