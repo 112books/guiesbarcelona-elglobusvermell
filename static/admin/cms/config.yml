@@ -180,14 +180,9 @@ collections:
 
       - label: Arquitectes
         name: arquitectes
-        widget: relation
-        collection: arquitectes
-        search_fields: [title]
-        value_field: "{{slug}}"
-        display_fields: [title]
-        multiple: true
+        widget: list
         required: false
-        hint: "Tria d'una llista existent o crea'n un de nou. Mentre no s'hagi migrat el nom actual (text lliure), aquest camp pot mostrar-se buit fins que es reassigni manualment."
+        hint: "Un nom per línia"
 
       - label: Tipologia
         name: tipologia
@@ -226,12 +221,7 @@ collections:
             required: false
           - label: Autors
             name: autors
-            widget: relation
-            collection: arquitectes
-            search_fields: [title]
-            value_field: "{{slug}}"
-            display_fields: [title]
-            multiple: true
+            widget: string
             required: false
           - label: Any
             name: any
