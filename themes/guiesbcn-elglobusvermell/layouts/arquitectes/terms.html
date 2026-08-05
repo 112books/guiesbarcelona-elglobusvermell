@@ -1,13 +1,55 @@
 {{ define "main" }}
-<article class="pagina-contingut">
+<article class="pagina-contingut arquitectes-llistat">
   <h1>{{ .Title }}</h1>
-  <ul class="terms-llista">
-    {{ range .Pages }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <span class="terms-count">({{ len .Pages }} edifici{{ if gt (len .Pages) 1 }}s{{ end }})</span>
-    </li>
+
+  <div class="arquitectes-cerca">
+    <input type="search" id="cerca-arquitectes" placeholder="Cerca un arquitecte o estudi..." aria-label="Cerca un arquitecte o estudi">
+  </div>
+
+  {{ $grups := dict }}
+  {{ range (seq 65 90) }}
+    {{ $lletra := printf "%c" (int .) }}
+    {{ $grups = merge $grups (dict $lletra slice) }}
+  {{ end }}
+  {{ range .Pages }}
+    {{ $lletra := upper (substr .Title 0 1) }}
+    {{ if not (isset $grups $lletra) }}
+      {{ $grups = merge $grups (dict $lletra slice) }}
     {{ end }}
-  </ul>
+    {{ $grups = merge $grups (dict $lletra (index $grups $lletra | append .)) }}
+  {{ end }}
+
+  <nav class="arquitectes-abecedari" aria-label="Salta a la lletra">
+    {{ range $lletra, $pagines := $grups }}
+      {{ if gt (len $pagines) 0 }}
+      <a href="#lletra-{{ $lletra }}">{{ $lletra }}</a>
+      {{ else }}
+      <span class="lletra-buida" aria-hidden="true">{{ $lletra }}</span>
+      {{ end }}
+    {{ end }}
+  </nav>
+
+  <div class="arquitectes-llistat-grups" id="arquitectes-llistat-grups">
+    {{ range $lletra, $pagines := $grups }}
+      {{ if gt (len $pagines) 0 }}
+      <section id="lletra-{{ $lletra }}" class="arquitectes-grup" data-lletra="{{ $lletra }}">
+        <h2>{{ $lletra }}</h2>
+        <ul class="terms-llista">
+          {{ range $pagines }}
+          <li data-nom="{{ .Title | lower }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Params.tipus }}
+            <span class="arquitecte-tipus arquitecte-tipus--{{ . }}">{{ if eq . "estudi" }}Estudi{{ else }}Individual{{ end }}</span>
+            {{ end }}
+            <span class="terms-count">({{ len .Pages }} edifici{{ if ne (len .Pages) 1 }}s{{ end }})</span>
+          </li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <p class="arquitectes-sense-resultats" id="arquitectes-sense-resultats" hidden>Cap arquitecte coincideix amb la cerca.</p>
 </article>
 {{ end }}
