@@ -320,6 +320,24 @@ main {
   margin-top: 0.25rem;
 }
 
+.footer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.15s;
+}
+
+.footer-contact-link:hover {
+  color: var(--color-accent);
+}
+
+.footer-contact-link svg {
+  flex-shrink: 0;
+}
+
 .footer-cc {
   display: inline-flex;
   align-items: center;
@@ -1478,6 +1496,132 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
     letter-spacing: 0.04em;
     color: #999;
   }
+}
+
+/* ── Pàgina de contacte i formularis ─────────────────────────────────────── */
+
+.contacte-pagina { max-width: 48rem; }
+
+.contacte-intro {
+  margin-bottom: var(--space-lg);
+  color: var(--color-muted);
+}
+
+.contacte-seccio {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.contacte-seccio:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+
+.contacte-seccio-desc {
+  margin-top: -0.5rem;
+  margin-bottom: var(--space-md);
+  color: var(--color-muted);
+  font-size: 0.9375rem;
+}
+
+.contacte-form { display: flex; flex-direction: column; gap: var(--space-md); }
+
+.form-grup { display: flex; flex-direction: column; gap: 0.35rem; }
+
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.form-requerit { color: var(--color-accent); }
+
+.form-input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: border-color 0.15s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.form-input[aria-invalid="true"] {
+  border-color: var(--color-accent);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 8rem;
+  line-height: var(--line-height);
+}
+
+.form-error {
+  font-size: 0.8125rem;
+  color: var(--color-accent);
+  min-height: 1.1em;
+}
+
+.form-grup--rgpd { gap: 0.5rem; }
+
+.form-check-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.form-check-label a { color: var(--color-text); }
+.form-check-label a:hover { color: var(--color-accent); }
+
+.form-check {
+  flex-shrink: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.15rem;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.form-honeypot {
+  display: none;
+}
+
+.form-accions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.form-btn {
+  padding: 0.65rem 1.5rem;
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+
+.form-btn:hover { filter: brightness(0.88); }
+.form-btn:active { filter: brightness(0.78); }
+
+.form-nota {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
 }
 
 /* ── Estadístiques (GoatCounter dashboard) ──────────────────────────────── */
