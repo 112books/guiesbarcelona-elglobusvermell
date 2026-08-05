@@ -11,8 +11,11 @@
     {{ $lletra := printf "%c" (int .) }}
     {{ $grups = merge $grups (dict $lletra slice) }}
   {{ end }}
+  {{/* Plegat d'accents perquè "Ítalo" agrupi amb "I", no en un grup propi després de la Z */}}
+  {{ $pledaAccents := dict "À" "A" "Á" "A" "Â" "A" "Ã" "A" "Ä" "A" "Å" "A" "È" "E" "É" "E" "Ê" "E" "Ë" "E" "Ì" "I" "Í" "I" "Î" "I" "Ï" "I" "Ò" "O" "Ó" "O" "Ô" "O" "Õ" "O" "Ö" "O" "Ù" "U" "Ú" "U" "Û" "U" "Ü" "U" "Ç" "C" "Ñ" "N" "Ý" "Y" }}
   {{ range .Pages }}
     {{ $lletra := upper (substr .Title 0 1) }}
+    {{ with index $pledaAccents $lletra }}{{ $lletra = . }}{{ end }}
     {{ if not (isset $grups $lletra) }}
       {{ $grups = merge $grups (dict $lletra slice) }}
     {{ end }}
