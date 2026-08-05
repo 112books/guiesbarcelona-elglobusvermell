@@ -358,8 +358,11 @@ main {
   top: var(--header-height-scroll);
   z-index: 10;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  gap: 0.2rem;
   padding: 0.5rem 0;
   margin-bottom: var(--space-md);
   background: var(--color-bg);
@@ -368,11 +371,12 @@ main {
 .arquitectes-abecedari a,
 .arquitectes-abecedari span {
   display: inline-flex;
+  flex: none;
   align-items: center;
   justify-content: center;
-  width: 1.75rem;
-  height: 1.75rem;
-  font-size: 0.85rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 4px;
@@ -387,13 +391,13 @@ main {
   color: var(--color-border);
 }
 
-.arquitectes-grup h2 {
-  margin-top: var(--space-lg);
-  margin-bottom: var(--space-sm);
+.arquitectes-llistat-grups .arquitectes-grup h2 {
+  margin-top: 3rem;
+  margin-bottom: 0.25rem;
   scroll-margin-top: calc(var(--header-height-scroll) + 3rem);
 }
-.arquitectes-grup:first-of-type h2 {
-  margin-top: var(--space-md);
+.arquitectes-llistat-grups .arquitectes-grup:first-of-type h2 {
+  margin-top: var(--space-sm);
 }
 
 .arquitecte-tipus {
