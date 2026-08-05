@@ -65,19 +65,19 @@ Tot i no ser membre del GATCPAC, contribueix en la introducció del moviment rac
 
 (Barcelona, 1903 – 1986)
 
-### Germà Rodríguez Arias
+### [Germà Rodríguez Arias](/arquitectes/germà-rodríguez-arias/)
 
 (Barcelona, 1902 – 1987)
 
 Passa els últims anys a Barcelona.
 
-### Ricard de Churruca
+### [Ricard de Churruca](/arquitectes/ricard-de-churruca/)
 
 (Manila, Filipines, 1900 – Barcelona, 1963)
 
 Després de la Guerra Civil es dedica a activitats empresarials.
 
-### Raimon Duran i Reynals
+### [Raimon Duran i Reynals](/arquitectes/raimon-duran-i-reynals/)
 
 (Barcelona, 1895 – 1966)
 
