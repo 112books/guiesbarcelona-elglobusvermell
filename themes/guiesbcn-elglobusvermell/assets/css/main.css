@@ -835,14 +835,14 @@ main {
 }
 
 .llistat-grup-lletra {
-  font-size: 1.5rem;
+  font-size: 1.95rem;
   font-weight: 700;
   color: var(--color-text);
   width: 2rem;
 }
 
 .llistat-grup-any {
-  font-size: 1.25rem;
+  font-size: 1.625rem;
   font-weight: 700;
   color: var(--color-text);
 }
@@ -882,6 +882,7 @@ main {
 
 .llistat-grup.obert .llistat-grup-elements {
   visibility: visible;
+  margin-left: 1rem;
   transition: max-height 0.3s ease, visibility 0s linear 0s;
 }
 
@@ -949,10 +950,11 @@ main {
 
 .llistat-element-arquitectes {
   width: 100%;
-  padding-left: 0;
+  padding-left: 1.5rem;
   font-size: 0.8125rem;
   color: #888;
   margin-top: 0.25rem;
+  border-left: 2px solid var(--color-border, #e0e0e0);
 }
 
 .llistat-element-arquitecte {
