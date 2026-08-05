@@ -6,7 +6,11 @@
   {{ with .Params.adreca }}<p><strong>Adreça:</strong> {{ . }}</p>{{ end }}
   {{ with .Params.any }}<p><strong>Any:</strong> {{ . }}</p>{{ end }}
   {{ with .Params.tipologia }}<p><strong>Tipologia:</strong> {{ . }}</p>{{ end }}
-  {{ with .Params.arquitectes }}<p><strong>Arquitectes:</strong> {{ delimit . ", " }}</p>{{ end }}
+  {{ with .Params.arquitectes }}
+  <p><strong>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}:</strong>
+    {{ range $i, $a := . }}{{ if $i }}, {{ end }}<a href="{{ printf "arquitectes/%s/" ($a | urlize) | relURL }}">{{ $a }}</a>{{ end }}
+  </p>
+  {{ end }}
   {{ with .Params.superficie }}<p><strong>Superfície:</strong> {{ . }} m²</p>{{ end }}
   {{ with .Params.proteccio }}<p><strong>Protecció:</strong> {{ . }}</p>{{ end }}
   {{ with .Params.premis }}<p><strong>Premis:</strong> {{ . }}</p>{{ end }}
