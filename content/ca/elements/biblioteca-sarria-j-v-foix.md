@@ -1,6 +1,6 @@
 ---
 arquitectes:
-- OP Team Arquitectura. 2025
+- OP Team Arquitectura
 descripcio: 'Josep Vicenç Foix Poeta, periodista i assagista. 1893-1987 Pg. Reina
   Elisenda de Montcada, 8 | Sarrià Arquitecte: OP Team Arquitectura. 2025'
 draft: false

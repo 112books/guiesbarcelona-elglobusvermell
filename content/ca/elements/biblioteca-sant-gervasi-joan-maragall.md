@@ -1,7 +1,7 @@
 ---
 adreca: C. Sant Gervasi de Cassoles, 85 |
 arquitectes:
-- BCQ Arquitectes. 2014
+- BCQ Arquitectes
 descripcio: 'Joan Maragall Poeta i escriptor. 1860-1911 Sant Gervasi – La Bonanova
   Arquitecte: BCQ Arquitectes. 2014 Premi Ciutat de Barcelona'
 draft: false

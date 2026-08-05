@@ -1,7 +1,7 @@
 ---
 adreca: C. Provença, 480 | Sagrada Família
 arquitectes:
-- Manuel Ruisánchez. 2007
+- Manuel Ruisánchez
 descripcio: 'Josep Maria Ainaud de Lasarte Historiador, periodista i polític. 1925-2012
   Arquitecte: Manuel Ruisánchez. 2007'
 draft: false
