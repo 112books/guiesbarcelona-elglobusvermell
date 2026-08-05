@@ -335,6 +335,98 @@ main {
 .terms-llista a:hover { text-decoration: underline; }
 .terms-count { color: #888; font-size: 0.85em; }
 
+/* ── Arquitectes: llistat amb cerca + abecedari ─────────────────────────── */
+
+.arquitectes-cerca {
+  margin-bottom: var(--space-md);
+}
+.arquitectes-cerca input[type="search"] {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  font-size: var(--font-size-base);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-family: var(--font-sans);
+}
+.arquitectes-cerca input[type="search"]:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+.arquitectes-abecedari {
+  position: sticky;
+  top: var(--header-height-scroll);
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.5rem 0;
+  margin-bottom: var(--space-md);
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+.arquitectes-abecedari a,
+.arquitectes-abecedari span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.arquitectes-abecedari a {
+  color: var(--color-text);
+}
+.arquitectes-abecedari a:hover {
+  background: var(--color-border);
+}
+.arquitectes-abecedari .lletra-buida {
+  color: var(--color-border);
+}
+
+.arquitectes-grup h2 {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  scroll-margin-top: calc(var(--header-height-scroll) + 3rem);
+}
+.arquitectes-grup:first-of-type h2 {
+  margin-top: var(--space-md);
+}
+
+.arquitecte-tipus {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  color: var(--color-muted);
+}
+.arquitecte-tipus--estudi {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.arquitectes-sense-resultats {
+  color: var(--color-muted);
+  padding: var(--space-md) 0;
+}
+
+/* ── Fitxa d'arquitecte: bio ──────────────────────────────────────────── */
+
+.arquitecte-bio {
+  margin: var(--space-md) 0;
+  padding: var(--space-sm) var(--space-md);
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-text);
+}
+
 /* ── Mapa: filtres ────────────────────────────────────────────────────────── */
 
 .filtre-controls {
