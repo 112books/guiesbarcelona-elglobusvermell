@@ -349,7 +349,7 @@ collections:
     label: Arquitectes
     label_singular: Arquitecte
     folder: content/ca/arquitectes
-    path: "{{slug}}"
+    path: "{{slug}}/_index"
     create: true
     delete: false
     extension: md
