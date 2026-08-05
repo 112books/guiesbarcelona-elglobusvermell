@@ -1,3 +1,3 @@
 ---
-title: Arquitectes
+title: Arquitectes / Estudis
 ---
