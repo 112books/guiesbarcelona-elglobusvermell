@@ -4,11 +4,9 @@
       <img src="{{ "img/el_globus_vermell-3.webp" | relURL }}" alt="El Globus Vermell" class="footer-logo" loading="lazy">
     </a>
     <div class="footer-actions">
-      <a href="mailto:info@elglobusvermell.org" class="footer-action-link" aria-label="Contacte per correu electrònic">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-      </a>
-      <a href="{{ "accessibilitat/" | relLangURL }}" class="footer-action-link" aria-label="Declaració d'accessibilitat">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="8" r="2"/><path d="M12 10v4"/><path d="m8 18 4-4 4 4"/></svg>
+      <a href="{{ "contacte/" | relLangURL }}" class="footer-contact-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span>info@elglobusvermell.org</span>
       </a>
     </div>
   </div>
@@ -19,6 +17,7 @@
         <a href="{{ "legal/avis-legal/" | relLangURL }}">{{ i18n "legal_avis" | default "Avís legal" }}</a>
         <a href="{{ "legal/privacitat/" | relLangURL }}">{{ i18n "legal_privacitat" | default "Privacitat" }}</a>
         <a href="{{ "legal/cookies/" | relLangURL }}">{{ i18n "legal_cookies" | default "Cookies" }}</a>
+        <a href="{{ "accessibilitat/" | relLangURL }}">{{ i18n "legal_accessibilitat" | default "Accessibilitat" }}</a>
       </nav>
       <a href="{{ "llicencia/" | relLangURL }}" class="footer-cc" aria-label="Llicència Creative Commons BY-SA 4.0" title="Aquesta obra es pot compartir i adaptar lliurement citant-ne l'autoria (Creative Commons Reconeixement-CompartirIgual 4.0)">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 40" height="40" aria-hidden="true" focusable="false">
