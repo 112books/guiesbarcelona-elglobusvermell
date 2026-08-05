@@ -1,8 +1,6 @@
 ---
 adreca: Espronceda 156
 any: '1947'
-arquitectes:
-- '1947'
 descripcio: Antic escorxador. Actualment les dues naus tenen un ús industrial.
 draft: false
 intervencions:
