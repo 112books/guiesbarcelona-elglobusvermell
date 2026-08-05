@@ -1,7 +1,7 @@
 ---
 adreca: C. Camp del Ferro, 1-3
 arquitectes:
-- Javier Sanz Rodriguez. 2009
+- Javier Sanz Rodriguez
 descripcio: 'Marina Clotet Activista. 1941-2006 Arquitecte: Javier Sanz Rodriguez.
   2009'
 draft: false

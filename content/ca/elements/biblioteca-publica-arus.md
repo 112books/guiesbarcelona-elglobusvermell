@@ -2,7 +2,7 @@
 adreca: Pg. de Sant Joan, 26 |
 arquitectes:
 - Bonaventura Bassegoda
-- Amigó. 1895
+- Amigó
 descripcio: 'Fort Pienc | Eixample Arquitecte: Bonaventura Bassegoda i Amigó. 1895
   Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'
 draft: false

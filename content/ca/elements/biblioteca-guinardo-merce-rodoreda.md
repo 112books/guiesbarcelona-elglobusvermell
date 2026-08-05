@@ -1,7 +1,7 @@
 ---
 adreca: C. Camèlies, 76-80 |
 arquitectes:
-- Màrius Quintana. 1999
+- Màrius Quintana
 descripcio: 'Mercè Rodoreda Escriptora. 1908-1983 Guinardó Arquitecte: Màrius Quintana.
   1999'
 draft: false
