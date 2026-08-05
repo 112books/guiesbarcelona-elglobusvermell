@@ -331,3 +331,41 @@ collections:
         name: body
         widget: markdown
         hint: "Negreta, cursiva, enllaços, títols (##), llistes... Compte amb els títols ## \"Llistat\" i \"Bibliografia Relacionada\": són seccions especials, no els esborris ni en canviïs el nom."
+
+  # ══════════════════════════════════════════════════════════════════════════
+  # ARQUITECTES (fitxa individual de cada arquitecte/estudi)
+  # ══════════════════════════════════════════════════════════════════════════
+  - name: arquitectes
+    label: Arquitectes
+    label_singular: Arquitecte
+    folder: content/ca/arquitectes
+    path: "{{slug}}"
+    create: true
+    delete: false
+    extension: md
+    format: yaml-frontmatter
+    summary: "{{title}}"
+    fields:
+      - label: Nom
+        name: title
+        widget: string
+
+      - label: Tipus
+        name: tipus
+        widget: select
+        options:
+          - { label: Individual, value: individual }
+          - { label: "Estudi / despatx", value: estudi }
+        required: false
+
+      - label: Descripció
+        name: descripcio
+        widget: markdown
+        required: false
+        hint: "Biografia breu o descripció de l'estudi. Font recomanada: docs/ARQUITECTES-FONTS-REFERENCIA.md"
+
+      - label: "Enllaç extern (Viquipèdia, web oficial...)"
+        name: link_extern
+        widget: string
+        required: false
+        pattern: ["^https?://.+", "Ha de començar per http:// o https://"]
