@@ -12,7 +12,7 @@
 
   {{ if or .Params.descripcio .Params.link_extern }}
   <section class="arquitecte-bio">
-    {{ with .Params.descripcio }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.descripcio }}{{ . | markdownify }}{{ end }}
     {{ with .Params.link_extern }}
     <p><a href="{{ . }}" target="_blank" rel="noopener noreferrer">Més informació ↗</a></p>
     {{ end }}
