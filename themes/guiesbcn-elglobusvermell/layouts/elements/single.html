@@ -48,7 +48,26 @@
 
   <div class="fitxa-cos">
 
-    <h1 class="fitxa-titol">{{ .Title }}</h1>
+    <div class="fitxa-titol-wrap">
+      <h1 class="fitxa-titol">{{ .Title }}</h1>
+      {{ if "speechSynthesis" }}
+      <button class="tts-btn" id="tts-btn" aria-label="Escoltar la fitxa en veu alta" title="Escoltar en veu alta">
+        <svg class="tts-icon-play" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        <svg class="tts-icon-stop" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" hidden><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+        <span class="tts-label">Escoltar</span>
+      </button>
+      {{ end }}
+    </div>
+
+    {{/* Text per a TTS — invisible, llegit per JS */}}
+    <div id="tts-contingut" hidden>
+      <span id="tts-titol">{{ .Title }}. </span>
+      {{ with .Params.adreca }}<span id="tts-adreca">Adreça: {{ . }}. </span>{{ end }}
+      {{ with .Params.any }}<span id="tts-any">Any de construcció: {{ . }}. </span>{{ end }}
+      {{ with .Params.arquitectes }}<span id="tts-arquitectes">{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}: {{ delimit . ", " }}. </span>{{ end }}
+      {{ with .Params.tipologia }}<span id="tts-tipologia">Tipologia: {{ . }}. </span>{{ end }}
+      {{ with .Params.descripcio }}<span id="tts-descripcio">{{ . }}</span>{{ end }}
+    </div>
 
     {{/* Publicacions com a etiquetes de color amb portada */}}
     {{ with .Params.publicacions }}
@@ -219,4 +238,70 @@
 
   </div>{{/* /fitxa-cos */}}
 </article>
+
+<script>
+(function () {
+  'use strict';
+  if (!('speechSynthesis' in window)) return;
+
+  var btn      = document.getElementById('tts-btn');
+  var contingut = document.getElementById('tts-contingut');
+  if (!btn || !contingut) return;
+
+  btn.hidden = false;
+
+  var iconPlay = btn.querySelector('.tts-icon-play');
+  var iconStop = btn.querySelector('.tts-icon-stop');
+  var label    = btn.querySelector('.tts-label');
+  var parlant  = false;
+
+  function getText() {
+    return contingut.textContent.replace(/\s+/g, ' ').trim();
+  }
+
+  function atura() {
+    window.speechSynthesis.cancel();
+    parlant = false;
+    iconPlay.hidden = false;
+    iconStop.hidden = true;
+    label.textContent = 'Escoltar';
+    btn.setAttribute('aria-label', 'Escoltar la fitxa en veu alta');
+  }
+
+  function llegeix() {
+    var text = getText();
+    if (!text) return;
+
+    var utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ca-ES';
+    utterance.rate = 0.95;
+    utterance.pitch = 1;
+
+    /* Selecciona la primera veu en català disponible, o castellà com a fallback */
+    var voices = window.speechSynthesis.getVoices();
+    var veu = voices.find(function(v) { return v.lang === 'ca-ES'; })
+           || voices.find(function(v) { return v.lang.startsWith('ca'); })
+           || voices.find(function(v) { return v.lang === 'es-ES'; })
+           || null;
+    if (veu) utterance.voice = veu;
+
+    utterance.onend = atura;
+    utterance.onerror = atura;
+
+    window.speechSynthesis.speak(utterance);
+    parlant = true;
+    iconPlay.hidden = true;
+    iconStop.hidden = false;
+    label.textContent = 'Aturar';
+    btn.setAttribute('aria-label', 'Aturar la lectura en veu alta');
+  }
+
+  btn.addEventListener('click', function () {
+    if (parlant) { atura(); } else { llegeix(); }
+  });
+
+  /* Atura si s'abandona la pàgina */
+  window.addEventListener('pagehide', atura);
+}());
+</script>
 {{ end }}
