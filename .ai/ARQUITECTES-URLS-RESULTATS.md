@@ -950,3 +950,25 @@ WIKI: no trobat
 Nom: Vivas Arquitectos
 COAC: https://www.arquitecturacatalana.cat/ca/autors/vivas-arquitectos
 WIKI: no trobat
+
+## Resolució de dubtes (Llista D)
+
+| Entrada | Resolució |
+|---------|-----------|
+| Amigó / Joan Amigó | Confirmat: al COAC hi ha `joan-amigo-i-barriga` (200). "Amigó" sol no té fitxa pròpia; provablement es tracta de Joan Amigó. **Usar "Joan Amigó"** |
+| Bonell / Esteve Bonell Costa | Confirmat mateixa persona: el COAC té `esteve-bonell-i-costa` (200). **Usar "Esteve Bonell Costa"** (ja a la llista A) |
+| Cabrera | Identitat lligada a **Pere Cabrera** (`pere-cabrera`, 200 al COAC). Possible doblet amb els Cabrera de la Barceloneta. Integrar si encaixa |
+| Clotet-Paricio | **Paricio = Ignacio Paricio i Ansuategui** (`ignacio-paricio-i-ansuategui`, 200). L'estudi es diu "Clotet, Paricio & Associats" (`clotet-paricio--associats`, 200). Lluís Clotet ja és a la llista A |
+| E. i J. Rey Fàbregas | No localitzats noms complets al COAC. No hi ha fitxa directa; sospitós de ser un estudi familiar. Mantenir com dubte |
+| Ensenyat-Tarrida | Duo confirmat: **Joan Ensenyat** (`joan-ensenyat-0655`) + **Enric Tarrida** (`com a enric-tarrida-0911`). L'estudi és `ensenyat-tarrida-arquitectes` (200) |
+| Gil | Amb distribució: hi ha molts "Gil". Sense context no determinable; el més probable al catàleg és un dels membres de Bonell i Gil o un altre individu. Mantenir dubte |
+| J. Domènech | **Josep Domènech i Estapà** (ja a llista A). No es pot confirmar altra identitat sense més dades; marca com referent el més conegut |
+| J. Rodríguez | Ident lligible entre els molts "Rodríguez" del COAC. Mantenir dubte |
+| Josep Alemany i Juvé / Josep Alemany | Probablement el mateix (vist a llista A). **Usar "Josep Alemany i Juvé"** |
+| Josep Maria Sostres i Maluquer | ATENCIÓ: **persona diferent de Soteras**. Té fitxa pròpia al COAC `josep-maria-sostres-i-maluquer` (200) |
+| Josep Maria Soteras i Mauri | **Variant ortogràfica de "Josep Soteras i Mauri"**: el COAC usa `josep-maria-soteras-i-mauri`, però la llista A vol "Josep Soteras i Mauri". Confirma si normalitza |
+| Josep Lluís Mateo | Té **pàgina pròpia al COAC** `josep-lluis-mateo-i-martinez` (200). És individual I soci de MAP Arquitectes |
+| Lorenzo García-Barbón / Llorenç | **Mateix arquitecte**: COAC `lorenzo-garciabarbon-fernandez-de-henestrosa` (200). **Usar "Lorenzo García-Barbón"** (ja a la llista A) |
+| Mariano Romano Rius | No trobat al COAC (cap resultat correcte per a "Romano"). Mantenir com incert |
+| Van der Harst | No localitzat al COAC (cognoms neerllandesos). Confirmar si pertany a un col·laboració concreta. Mantenir dubte |
+| Xavier Ruiz i Vallès / Xavier Ruiz | Confirmat **`xavier-ruiz-valles`** (COAC, 200). "Xavier Ruiz" del col·legi de Ballesteros provablement és Xavier Ruiz i Vallès. **Usar "Xavier Ruiz i Vallès"** |
