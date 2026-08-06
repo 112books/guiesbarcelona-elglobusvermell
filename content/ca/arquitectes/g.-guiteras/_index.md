@@ -2,5 +2,6 @@
 title: G. Guiteras
 tipus: individual
 descripcio: ""
-link_extern: ""
+link_coac: ""
+link_wikipedia: ""
 ---

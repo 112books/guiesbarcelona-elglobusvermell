@@ -371,8 +371,16 @@ collections:
         required: false
         hint: "Biografia breu o descripció de l'estudi. Font recomanada: docs/ARQUITECTES-FONTS-REFERENCIA.md"
 
-      - label: "Enllaç extern (Viquipèdia, web oficial...)"
-        name: link_extern
+      - label: "Arxiu COAC (arquitecturacatalana.cat)"
+        name: link_coac
         widget: string
         required: false
-        pattern: ["^https?://.+", "Ha de començar per http:// o https://"]
+        hint: "URL del perfil a l'Arxiu del Col·legi d'Arquitectes de Catalunya. Ex: https://www.arquitecturacatalana.cat/ca/autors/mbm-arquitectes"
+        pattern: ["^$|^https?://.+", "Ha de començar per http:// o https://"]
+
+      - label: "Viquipèdia"
+        name: link_wikipedia
+        widget: string
+        required: false
+        hint: "URL de l'article a la Viquipèdia (català preferentment). Ex: https://ca.wikipedia.org/wiki/MBM_Arquitectes"
+        pattern: ["^$|^https?://.+", "Ha de començar per http:// o https://"]
