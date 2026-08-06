@@ -1,0 +1,244 @@
+{{ define "main" }}
+
+{{/* ── Dades Hugo injectades per a JS ── */}}
+{{ $elementsSection := site.GetPage "elements" }}
+{{ $totalEdificis := 0 }}
+
+{{/* Mapa slug→elements per publicació */}}
+{{ $elementsPub := dict }}
+{{ if $elementsSection }}
+  {{ range $elementsSection.Pages }}
+    {{ $page := . }}
+    {{ if $page.Params.lat }}
+      {{ $totalEdificis = add $totalEdificis 1 }}
+      {{ range $page.Params.publicacions }}
+        {{ $slug := . }}
+        {{ $llista := slice }}
+        {{ with index $elementsPub $slug }}{{ $llista = . }}{{ end }}
+        {{ $llista = $llista | append (dict
+          "title" $page.Title
+          "url"   $page.RelPermalink
+          "lat"   $page.Params.lat
+          "long"  $page.Params.long
+          "foto"  $page.Params.foto
+          "any"   $page.Params.any
+          "adreca" $page.Params.adreca
+        ) }}
+        {{ $elementsPub = merge $elementsPub (dict $slug $llista) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Publicacions amb recompte d'edificis */}}
+{{ $guies := slice }}
+{{ range hugo.Data.publicacions }}
+  {{ $pub := . }}
+  {{ $edificis := slice }}
+  {{ with index $elementsPub $pub.slug }}{{ $edificis = . }}{{ end }}
+  {{ $urlPub := "" }}
+  {{ with site.GetPage (printf "/publicacions/%s" $pub.slug) }}{{ $urlPub = .RelPermalink }}{{ end }}
+  {{ $guies = $guies | append (dict
+    "slug"     $pub.slug
+    "titol"    $pub.titol
+    "edicio"   $pub.edicio
+    "color"    $pub.color
+    "url"      $urlPub
+    "edificis" $edificis
+    "count"    (len $edificis)
+    "portada"  (printf "img/publicacions/%s.jpg" $pub.slug | relURL)
+  ) }}
+{{ end }}
+
+{{/* Arquitectes de la taxonomia */}}
+{{ $arquitectes := slice }}
+{{ range site.Taxonomies.arquitectes }}
+  {{ $term := .Page }}
+  {{ $arquitectes = $arquitectes | append (dict
+    "nom"   $term.Title
+    "url"   $term.RelPermalink
+    "count" (len .Pages)
+  ) }}
+{{ end }}
+
+{{/* Any mínim i màxim de la col·lecció */}}
+{{ $anyMin := 9999 }}
+{{ $anyMax := 0 }}
+{{ if $elementsSection }}
+  {{ range $elementsSection.Pages }}
+    {{ with .Params.edicio }}
+      {{ if lt . $anyMin }}{{ $anyMin = . }}{{ end }}
+      {{ if gt . $anyMax }}{{ $anyMax = . }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $anyMin = 1928 }}{{/* valor editorial real del projecte */}}
+{{ $anyMax = now.Year }}
+
+<main class="portada-alt">
+
+  {{/* ══ 1. HERO ══════════════════════════════════════════════════════════ */}}
+  <section class="pa-hero">
+    <div class="pa-hero-inner">
+      <p class="pa-hero-label">El Globus Vermell</p>
+      <h1 class="pa-hero-titol">{{ .Params.tagline | default "Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia." }}</h1>
+      <div class="pa-stats" aria-label="Xifres del projecte">
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $totalEdificis }}</span>
+          <span class="pa-stat-lab">edificis documentats</span>
+        </div>
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ len $guies }}</span>
+          <span class="pa-stat-lab">guies de camp</span>
+        </div>
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $anyMin }}–{{ $anyMax }}</span>
+          <span class="pa-stat-lab">anys d'arquitectura</span>
+        </div>
+      </div>
+      <a href="{{ "/" | relLangURL }}" class="pa-cta-mapa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+        Explorar el mapa
+      </a>
+    </div>
+  </section>
+
+  {{/* ══ 2. GUIA DESTACADA (aleatori via JS) ══════════════════════════════ */}}
+  <section class="pa-seccio pa-guia-destacada" aria-labelledby="guia-dest-titol">
+    <h2 id="guia-dest-titol" class="pa-seccio-titol">Guia destacada</h2>
+    <div id="pa-guia-dest" class="pa-guia-dest-wrap">
+      <div class="pa-guia-dest-portada-wrap">
+        <img id="pa-dest-portada" class="pa-guia-dest-portada" src="" alt="" loading="eager">
+      </div>
+      <div class="pa-guia-dest-info">
+        <p id="pa-dest-any" class="pa-guia-dest-any"></p>
+        <h3 id="pa-dest-nom" class="pa-guia-dest-nom"></h3>
+        <p id="pa-dest-count" class="pa-guia-dest-count"></p>
+        <div id="pa-dest-edifici" class="pa-guia-dest-edifici" hidden>
+          <p class="pa-guia-dest-edifici-label">Un edifici de la guia</p>
+          <a id="pa-dest-edifici-link" href="#" class="pa-guia-dest-edifici-link">
+            <span id="pa-dest-edifici-nom"></span>
+            <span id="pa-dest-edifici-adreca" class="pa-guia-dest-edifici-adreca"></span>
+          </a>
+        </div>
+        <a id="pa-dest-url" href="#" class="pa-cta-secundari">Veure tots els edificis de la guia →</a>
+      </div>
+    </div>
+  </section>
+
+  {{/* ══ 3. TOTES LES GUIES ════════════════════════════════════════════════ */}}
+  <section class="pa-seccio pa-guies" aria-labelledby="totes-guies-titol">
+    <h2 id="totes-guies-titol" class="pa-seccio-titol">Totes les guies</h2>
+    <div class="pa-guies-grid">
+      {{ range $guies }}
+      <a href="{{ .url }}" class="pa-guia-card" style="--pub-color: {{ .color }}">
+        <div class="pa-guia-card-portada-wrap">
+          <img src="{{ .portada }}" alt="{{ .titol }}" class="pa-guia-card-portada" loading="lazy">
+        </div>
+        <div class="pa-guia-card-info">
+          <p class="pa-guia-card-any">{{ .edicio }}</p>
+          <p class="pa-guia-card-titol">{{ .titol }}</p>
+          <p class="pa-guia-card-count">{{ .count }} edificis</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <div class="pa-seccio-cta">
+      <a href="{{ "en-paper/" | relLangURL }}" class="pa-cta-secundari">Totes les guies en paper →</a>
+    </div>
+  </section>
+
+  {{/* ══ 4. ARQUITECTE DESTACAT (aleatori via JS) ═══════════════════════════ */}}
+  {{ if gt (len $arquitectes) 0 }}
+  <section class="pa-seccio pa-arquitecte" aria-labelledby="arq-dest-titol" id="pa-arquitecte-seccio">
+    <h2 id="arq-dest-titol" class="pa-seccio-titol">Arquitecte o estudi destacat</h2>
+    <div id="pa-arq-dest" class="pa-arq-dest-wrap">
+      <p class="pa-arq-etiqueta">Més de <span id="pa-arq-count"></span> edificis documentats</p>
+      <h3 id="pa-arq-nom" class="pa-arq-nom"></h3>
+      <a id="pa-arq-url" href="#" class="pa-cta-secundari">Veure tots els edificis →</a>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ══ 5. RECURSOS EDUCATIUS ══════════════════════════════════════════════ */}}
+  <section class="pa-seccio pa-recursos" aria-labelledby="rec-titol">
+    <div class="pa-recursos-inner">
+      <div class="pa-recursos-text">
+        <p class="pa-recursos-label">Per a escoles i instituts</p>
+        <h2 id="rec-titol" class="pa-recursos-titol">Recursos educatius</h2>
+        <p>El projecte de les Guies de Barcelona ofereix materials didàctics per treballar l'arquitectura i l'urbanisme a l'aula. Itineraris guiats, fitxes d'edificis i propostes d'activitats per a tots els nivells.</p>
+        <p class="pa-recursos-pendent"><em>Secció en preparació — properament disponible.</em></p>
+      </div>
+    </div>
+  </section>
+
+  {{/* ══ 6. TORNADA AL MAPA ══════════════════════════════════════════════════ */}}
+  <section class="pa-mapa-cta" aria-label="Accés al mapa interactiu">
+    <div class="pa-mapa-cta-inner">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+      <p class="pa-mapa-cta-titol">El mapa, la porta d'entrada a tots els edificis</p>
+      <a href="{{ "/" | relLangURL }}" class="pa-cta-mapa">Obrir el mapa interactiu</a>
+    </div>
+  </section>
+
+</main>
+
+{{/* ── Dades injectades per a JS ── */}}
+<script>
+window.PA_GUIES      = {{ $guies      | jsonify | safeJS }};
+window.PA_ARQUITECTES = {{ $arquitectes | jsonify | safeJS }};
+</script>
+
+<script>
+(function () {
+  'use strict';
+
+  function aleatori(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  /* ── Guia destacada ── */
+  var guies = window.PA_GUIES || [];
+  if (guies.length) {
+    var guia = aleatori(guies);
+    document.getElementById('pa-dest-portada').src = guia.portada;
+    document.getElementById('pa-dest-portada').alt = guia.titol;
+    document.getElementById('pa-dest-any').textContent = guia.edicio;
+    document.getElementById('pa-dest-nom').textContent  = guia.titol;
+    document.getElementById('pa-dest-count').textContent = guia.count + ' edificis documentats';
+    var destUrl = document.getElementById('pa-dest-url');
+    destUrl.href = guia.url;
+    destUrl.style.setProperty('--pub-color', guia.color);
+
+    /* Edifici aleatori de la guia */
+    if (guia.edificis && guia.edificis.length) {
+      var edifici = aleatori(guia.edificis);
+      var wrapEdifici = document.getElementById('pa-dest-edifici');
+      wrapEdifici.hidden = false;
+      document.getElementById('pa-dest-edifici-link').href = edifici.url;
+      document.getElementById('pa-dest-edifici-nom').textContent = edifici.title;
+      document.getElementById('pa-dest-edifici-adreca').textContent = edifici.adreca || '';
+    }
+
+    /* Color de la guia com a accent de la secció */
+    var seccio = document.querySelector('.pa-guia-destacada');
+    if (seccio && guia.color) {
+      seccio.style.setProperty('--pub-color', guia.color);
+      seccio.style.borderTopColor = guia.color;
+    }
+  }
+
+  /* ── Arquitecte destacat ── */
+  var arquitectes = (window.PA_ARQUITECTES || []).filter(function(a) { return a.count >= 2; });
+  if (arquitectes.length) {
+    var arq = aleatori(arquitectes);
+    document.getElementById('pa-arq-nom').textContent   = arq.nom;
+    document.getElementById('pa-arq-count').textContent = arq.count;
+    document.getElementById('pa-arq-url').href          = arq.url;
+  } else {
+    var seccioArq = document.getElementById('pa-arquitecte-seccio');
+    if (seccioArq) seccioArq.hidden = true;
+  }
+}());
+</script>
+{{ end }}
