@@ -108,6 +108,17 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ---
 
+## Accessibilitat i millores d'experiència
+
+- ⏳ **Text a veu (TTS) per a fitxes d'edifici** — permetre escoltar el contingut de la fitxa
+  - Avaluar solucions de programari lliure (Web Speech API nativa del navegador, o eSpeak/Piper si es vol veu pròpia al servidor)
+  - Decidir veu: Web Speech API és gratuïta i funciona sense servidor (veus del sistema, pot sonar robòtic); Piper TTS és lliure i permet veu neutra de qualitat
+  - Icona de reproducció discreta a la fitxa (play/pause)
+  - Valorar quins camps llegir: títol, adreça, any, arquitecte/s, descripció
+  - Estimar temps i cost: Web Speech API = 1-2 dies (zero cost); Piper al servidor = 3-5 dies (cost infraestructura)
+
+---
+
 ## Infraestructura servidor
 
 - 🔴 Rebre dades de Jorge (host, usuari, ruta, clau SSH)
