@@ -32,12 +32,11 @@ Cal afegir crèdit fotogràfic a totes les imatges, tant si són d'El Globus Ver
 com si provenen d'arxius externs. Format suggerit: peu de foto discret a la fitxa
 de l'edifici (© El Globus Vermell / © Arxiu Fotogràfic de Barcelona, etc.).
 
-### 💡 Portada alternativa al web de guies
-L'actual portada posa el focus en el mapa amb les guies. Proposem crear una
-portada alternativa que potenciï el projecte globalment: destacar l'abast
-(nombre d'edificis, anys coberts, publicacions), l'equip, la missió editorial.
-Útil per captar nous visitants que no coneixen el projecte i per a usos
-institucionals (presentacions, sol·licituds de subvenció, etc.).
+### 💡 Portada alternativa al web de guies *(en desenvolupament — vegeu HOME-ALTERNATIVA.md)*
+L'actual portada posa el focus en el mapa. La nova portada presentaria el projecte
+globalment: frase contundent, guia destacada aleatòria amb un edifici seu,
+accés a totes les guies i al mapa, arquitecte/estudi aleatori, i secció
+de recursos educatius. Vegeu `.ai/HOME-ALTERNATIVA.md` per al pla complet.
 
 ---
 
