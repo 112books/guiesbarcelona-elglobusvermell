@@ -14,19 +14,54 @@
 
   <div class="fitxa-pub-banda"></div>
 
-  {{/* Imatges: portada (foto) + addicionals opcionals → carrusel si n'hi ha més d'una */}}
-  {{ $imatges := slice }}
-  {{ with .Params.foto }}{{ $imatges = $imatges | append . }}{{ end }}
-  {{ with .Params.fotos_addicionals }}{{ range . }}{{ $imatges = $imatges | append . }}{{ end }}{{ end }}
+  {{/* Imatges: normalitzem tot a objectes {url, autoria, peu} */}}
+  {{ $imatgesObj := slice }}
 
-  {{ if gt (len $imatges) 1 }}
+  {{/* Foto principal */}}
+  {{ with .Params.foto }}
+    {{ $imatgesObj = $imatgesObj | append (dict
+      "url"     .
+      "autoria" ($.Params.foto_autoria | default "El Globus Vermell")
+      "peu"     ($.Params.foto_peu | default "")
+    ) }}
+  {{ end }}
+
+  {{/* Fotos addicionals — compatibles amb format antic (string) i nou (objecte) */}}
+  {{ with .Params.fotos_addicionals }}
+    {{ range . }}
+      {{ if reflect.IsMap . }}
+        {{ $imatgesObj = $imatgesObj | append (dict
+          "url"     .url
+          "autoria" (.autoria | default "El Globus Vermell")
+          "peu"     (.peu | default "")
+        ) }}
+      {{ else }}
+        {{ $imatgesObj = $imatgesObj | append (dict
+          "url"     .
+          "autoria" "El Globus Vermell"
+          "peu"     ""
+        ) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $total := len $imatgesObj }}
+
+  {{ if gt $total 1 }}
   <div class="fitxa-carrusel" data-fitxa-carrusel>
     <div class="fitxa-carrusel-viewport">
       <div class="fitxa-carrusel-track" data-carrusel-track>
-        {{ range $i, $img := $imatges }}
+        {{ range $i, $img := $imatgesObj }}
         <div class="fitxa-carrusel-slide">
-          <img src="{{ $img | strings.TrimPrefix "/" | relURL }}"
-               alt="{{ $.Title }} ({{ add $i 1 }}/{{ len $imatges }})" {{ if eq $i 0 }}loading="eager"{{ else }}loading="lazy"{{ end }}>
+          <figure class="fitxa-figura">
+            <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
+                 alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ $.Title }} ({{ add $i 1 }}/{{ $total }}){{ end }}"
+                 {{ if eq $i 0 }}loading="eager"{{ else }}loading="lazy"{{ end }}>
+            <figcaption class="fitxa-peu-foto">
+              {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
+              <span class="fitxa-peu-autoria">© {{ $img.autoria }}</span>
+            </figcaption>
+          </figure>
         </div>
         {{ end }}
       </div>
@@ -34,16 +69,23 @@
     <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-prev" data-carrusel-prev aria-label="Imatge anterior">‹</button>
     <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-next" data-carrusel-next aria-label="Imatge següent">›</button>
     <div class="fitxa-carrusel-dots" role="tablist" aria-label="Seleccionar imatge">
-      {{ range $i, $img := $imatges }}
+      {{ range $i, $img := $imatgesObj }}
       <button type="button" class="fitxa-carrusel-dot{{ if eq $i 0 }} is-active{{ end }}"
-              data-carrusel-dot="{{ $i }}" role="tab" aria-label="Imatge {{ add $i 1 }} de {{ len $imatges }}"></button>
+              data-carrusel-dot="{{ $i }}" role="tab" aria-label="Imatge {{ add $i 1 }} de {{ $total }}"></button>
       {{ end }}
     </div>
   </div>
-  {{ else if $imatges }}
-  <div class="fitxa-imatge">
-    <img src="{{ index $imatges 0 | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}" loading="lazy">
-  </div>
+  {{ else if $imatgesObj }}
+  {{ $img := index $imatgesObj 0 }}
+  <figure class="fitxa-imatge fitxa-figura">
+    <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
+         alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ .Title }}{{ end }}"
+         loading="lazy">
+    <figcaption class="fitxa-peu-foto">
+      {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
+      <span class="fitxa-peu-autoria">© {{ $img.autoria }}</span>
+    </figcaption>
+  </figure>
   {{ end }}
 
   <div class="fitxa-cos">
