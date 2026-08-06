@@ -10,11 +10,24 @@
     </p>
   </header>
 
-  {{ if or .Params.descripcio .Params.link_extern }}
+  {{ if or .Params.descripcio .Params.link_coac .Params.link_wikipedia }}
   <section class="arquitecte-bio">
     {{ with .Params.descripcio }}{{ . | markdownify }}{{ end }}
-    {{ with .Params.link_extern }}
-    <p><a href="{{ . }}" target="_blank" rel="noopener noreferrer">Més informació ↗</a></p>
+    {{ if or .Params.link_coac .Params.link_wikipedia }}
+    <div class="arquitecte-links">
+      {{ with .Params.link_coac }}
+      <a href="{{ . }}" class="arquitecte-link arquitecte-link--coac" target="_blank" rel="noopener noreferrer">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        Arxiu COAC
+      </a>
+      {{ end }}
+      {{ with .Params.link_wikipedia }}
+      <a href="{{ . }}" class="arquitecte-link arquitecte-link--wikipedia" target="_blank" rel="noopener noreferrer">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        Viquipèdia
+      </a>
+      {{ end }}
+    </div>
     {{ end }}
   </section>
   {{ end }}
