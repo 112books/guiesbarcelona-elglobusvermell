@@ -1,32 +1,60 @@
-# ARQUITECTES-URLS.md — Tasca de recerca d'URLs
+# ARQUITECTES-URLS.md — Tasca de recerca d'URLs per a una IA
 
-## Objectiu
+## Context
 
-Cercar les URLs de perfil de cada arquitecte o estudi a:
-1. **Arxiu COAC** (arquitecturacatalana.cat) — prioritari
-2. **Viquipèdia en català** (ca.wikipedia.org) — complementari
+Estem construint un web sobre arquitectura barcelonina.
+Per a cada arquitecte o estudi tenim una fitxa al web, i volem afegir-hi dos enllaços:
+1. **Arxiu COAC** — `arquitecturacatalana.cat` — és el perfil al Col·legi d'Arquitectes de Catalunya; **prioritari**
+2. **Viquipèdia en català** — `ca.wikipedia.org` — complementari; si no existeix en català acceptem el castellà (`es.wikipedia.org`)
+
+Aquest document conté les llistes de noms que cal cercar. La teva feina és:
+- Cercar les dues URLs per a cada entrada de la **llista A** (individus) i la **llista B** (estudis)
+- **No cercar** les entrades de la llista C (ja descompostes, els components estan a A i B)
+- Per a les entrades de la **llista D** (dubtes), fer una nota breu del que trobes, sense necessitat de trobar URL necessàriament
+
+## Com cercar al COAC
+
+L'URL base és: `https://www.arquitecturacatalana.cat/ca/autors/[slug]`
+
+El slug és el nom en minúscules, sense accents, caràcters especials substituïts per guions.
+Exemples:
+- Josep Lluís Sert → `josep-lluis-sert`
+- MBM Arquitectes → `mbm-arquitectes`
+- José Antonio Coderch de Sentmenat → `jose-antonio-coderch-de-sentmenat`
+
+**Verifica sempre que la pàgina existeix realment** (que no retorni 404 ni redirigeixi a una pàgina d'error).
+Si el slug no funciona, prova variants (amb/sense accents, amb/sense partícules com "de", "i", etc.).
+
+## Com cercar a la Viquipèdia
+
+L'URL base és: `https://ca.wikipedia.org/wiki/[Nom_amb_guions_baixos]`
+
+Si no existeix en català, prova: `https://es.wikipedia.org/wiki/[Nom]`
+
+**Verifica que la pàgina parla d'un arquitecte**, no d'una altra persona amb el mateix nom.
 
 ## Format de resposta
 
-Per a cada entrada de les llistes A i B, retorna exactament:
+Per a cada entrada de les llistes A i B, retorna **exactament** aquest format (un bloc per entrada):
 
 ```
-Nom: [nom tal com apareix aquí]
-COAC: [URL completa o "no trobat"]
-Wikipedia: [URL completa o "no trobat"]
+Nom: [nom tal com apareix a la llista]
+COAC: [URL completa] o "no trobat"
+Wikipedia: [URL completa] o "no trobat"
 ```
 
-## Instruccions
+Exemple de resposta correcta:
+```
+Nom: Josep Maria Fargas
+COAC: https://www.arquitecturacatalana.cat/ca/autors/josep-maria-fargas
+Wikipedia: https://ca.wikipedia.org/wiki/Josep_Maria_Fargas_i_Falp
+```
 
-- **COAC**: prova `https://www.arquitecturacatalana.cat/ca/autors/[slug]`
-  El slug sol ser el nom en minúscules, sense accents, amb guions.
-  Exemples: `jose-antonio-coderch-de-sentmenat`, `mbm-arquitectes`
-- **Wikipedia**: prova `https://ca.wikipedia.org/wiki/[Nom_amb_guions_baixos]`
-  Si no existeix en català, comprova la versió en castellà (`es.wikipedia.org`).
+**Important:**
 - No inventes URLs. Si no n'estàs segur, posa "no trobat".
-- Les entrades de la llista C (Signatures combinades) **no cal cercar-les**:
-  ja estan descompostes i els individus apareixen a la llista A o B.
-- Les entrades de la llista D (Dubtes) **inclou una nota breu** del que has trobat.
+- Copia el nom **exactament** com apareix a la llista (no el modifiquis).
+- Processa totes les entrades de A i B, sense ometre'n cap.
+- Per a la llista D, afegeix al final una secció `## Resolució de dubtes` amb una nota per a cada entrada.
 
 ---
 
