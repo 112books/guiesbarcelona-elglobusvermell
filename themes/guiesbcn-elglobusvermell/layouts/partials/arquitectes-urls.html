@@ -1,0 +1,8 @@
+{{/* Retorna un slice d'URLs relatives, una per cada nom de `.` (llista d'arquitectes),
+     amb el mateix urlize que fa servir elements/single.html i _default/single.html.
+     Evita haver de reimplementar aquesta lògica en JS (font de bugs amb noms accentuats). */}}
+{{ $urls := slice }}
+{{ range . }}
+  {{ $urls = $urls | append (printf "arquitectes/%s/" (. | urlize) | relURL) }}
+{{ end }}
+{{ return $urls }}
