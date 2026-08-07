@@ -8,6 +8,6 @@ long: NaN
 publicacions:
   - gatcpac
 arquitectes:
-  - Raimon Duran Reynals
+  - Raimon Duran i Reynals
 descripcio: ""
 ---

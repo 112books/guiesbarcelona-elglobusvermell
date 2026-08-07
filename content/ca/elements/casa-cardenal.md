@@ -2,11 +2,11 @@
 adreca: C. Roger de Llúria, 132
 any: '1935'
 arquitectes:
-- Raimon Duran Reynals
+- Raimon Duran i Reynals
 draft: false
 intervencions:
 - any: '1935'
-  autors: Raimon Duran Reynals
+  autors: Raimon Duran i Reynals
   descripcio: ''
   tipus: Projecte
 lat: 41.3979235

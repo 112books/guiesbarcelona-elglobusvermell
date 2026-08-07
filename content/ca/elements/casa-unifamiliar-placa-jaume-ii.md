@@ -2,11 +2,11 @@
 adreca: Pl. Jaume II, 8
 any: '1933'
 arquitectes:
-- Raimon Duran Reynals
+- Raimon Duran i Reynals
 draft: false
 intervencions:
 - any: '1933'
-  autors: Raimon Duran Reynals
+  autors: Raimon Duran i Reynals
   descripcio: ''
   tipus: Projecte
 lat: 41.3982074

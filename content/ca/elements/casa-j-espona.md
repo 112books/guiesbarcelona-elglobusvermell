@@ -2,7 +2,7 @@
 adreca: C. Camp d’en Vidal, 16
 any: 1933
 arquitectes:
-- Raimon Duran Reynals
+- Raimon Duran i Reynals
 descripcio: ''
 draft: false
 lat: 41.3979083
