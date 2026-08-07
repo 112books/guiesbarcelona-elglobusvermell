@@ -766,15 +766,13 @@
         if (p.arquitectes && p.arquitectes.length) {
           var arqsEl = document.createElement('span');
           arqsEl.className = 'llistat-element-arquitectes';
+          var arqUrls = p.arquitectes_urls || [];
           p.arquitectes.forEach(function (aName, idx) {
             if (idx > 0) arqsEl.appendChild(document.createTextNode(', '));
-            var slug = aName.toLowerCase()
-              .replace(/[^\w\s-]/g, '')
-              .replace(/\s+/g, '-')
-              .replace(/-+/g, '-')
-              .replace(/^-|-$/g, '');
             var arqLink = document.createElement('a');
-            arqLink.href = (window.SITE_BASE || '/') + 'arquitectes/' + encodeURIComponent(slug) + '/';
+            /* URL calculada per Hugo (urlize), no reproduïda en JS: evita
+               desajustos amb noms accentuats o amb puntuació poc habitual. */
+            arqLink.href = arqUrls[idx] || ((window.SITE_BASE || '/') + 'arquitectes/');
             arqLink.textContent = aName;
             arqLink.className = 'llistat-element-arquitecte';
             arqsEl.appendChild(arqLink);

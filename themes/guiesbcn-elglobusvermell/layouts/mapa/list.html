@@ -27,6 +27,7 @@
         "publicacions"       $page.Params.publicacions
         "temes_transversals" $page.Params.temes_transversals
         "arquitectes"        $page.Params.arquitectes
+        "arquitectes_urls"   (partial "arquitectes-urls.html" $page.Params.arquitectes)
         "any"                $page.Params.any
       ) }}
     {{ end }}
