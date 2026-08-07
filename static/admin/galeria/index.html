@@ -220,6 +220,17 @@
     let dades = [];
     let filtreActual = 'totes';
 
+    /* Les fotos venen com a rutes arrel ("/img/elements/...") pensades pel
+       domini de producció. A la versió de proves (GitHub Pages, servida
+       sota /guiesbarcelona-elglobusvermell/) cal el mateix prefix que la
+       resta del lloc, que no tenim perquè aquesta pàgina és HTML estàtic
+       fora del pipeline de Hugo. El deduïm de la pròpia URL. */
+    const BASE_PATH = location.pathname.replace(/\/admin\/galeria\/?$/, '');
+
+    function urlFoto(foto) {
+      return foto ? BASE_PATH + foto : foto;
+    }
+
     function render() {
       const q = document.getElementById('cerca').value.trim().toLowerCase();
       const graella = document.getElementById('graella');
@@ -239,7 +250,7 @@
         <a class="g-card" href="../cms/#/collections/elements/entries/${item.slug}" title="Editar ${item.title}">
           <div class="g-thumb">
             ${item.foto
-              ? `<img src="${item.foto}" alt="${item.title}" loading="lazy">`
+              ? `<img src="${urlFoto(item.foto)}" alt="${item.title}" loading="lazy">`
               : `<span class="g-no-photo">Sense foto</span>`}
           </div>
           <div class="g-label">${item.title}</div>
