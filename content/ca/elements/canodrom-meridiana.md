@@ -2,7 +2,8 @@
 adreca: Concepció Arenal 165
 any: '1963'
 arquitectes:
-- Antoni Bonet Castellana i Josep Puig i Torné
+- Antoni Bonet Castellana
+- Josep Puig i Torné
 draft: false
 foto: /img/elements/canodrom-meridiana.jpg
 intervencions:
