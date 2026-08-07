@@ -3,6 +3,10 @@ theme   = "guiesbcn-elglobusvermell"
 enableRobotsTXT = true
 disableHugoGeneratorInject = true
 summaryLength   = 70
+# Sense això, Hugo posa en majúscula la primera lletra de cada paraula dels
+# títols de taxonomia generats automàticament (arquitectes sense fitxa
+# pròpia) — convertia la "i" catalana de "Josep Puig i Torné" en "I".
+titleCaseStyle = "none"
 
 defaultContentLanguage        = "ca"
 defaultContentLanguageInSubdir = false

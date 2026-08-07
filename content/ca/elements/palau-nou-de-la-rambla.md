@@ -2,11 +2,14 @@
 adreca: La Rambla, 88
 any: '1994'
 arquitectes:
-- MBM (Martorell + Bohigas + Mackay)
+- MBM
+- Josep Maria Martorell i Codina
+- Oriol Bohigas i Guardiola
+- David Mackay
 draft: false
 intervencions:
 - any: '1994'
-  autors: MBM (Martorell + Bohigas + Mackay)
+  autors: MBM + Josep Maria Martorell i Codina + Oriol Bohigas i Guardiola + David Mackay
   descripcio: ''
   tipus: Projecte
 lat: 41.3818599
