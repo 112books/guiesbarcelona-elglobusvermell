@@ -2,7 +2,7 @@
 adreca: C. de Muntaner, 568
 any: 1932
 arquitectes:
-- Raimon Duran Reynals
+- Raimon Duran i Reynals
 descripcio: ''
 draft: false
 lat: 41.4059535
