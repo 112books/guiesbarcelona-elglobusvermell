@@ -3,13 +3,13 @@ adreca: Pg. de la Zona Franca / Foc
 any: '2018'
 arquitectes:
 - Toyo Ito Associates
-- Óscar Tusquets
+- Òscar Tusquets
 - Straddle3
 draft: false
 foto: /img/elements/placa-del-moviment-obrer-skatepark.jpg
 intervencions:
 - any: '2018'
-  autors: Toyo Ito Associates + Óscar Tusquets + Straddle3
+  autors: Toyo Ito Associates + Òscar Tusquets + Straddle3
   descripcio: La plaça recorda els fets produïts el 18 d’octubre de 1971, quan els
     treballadors de la SEAT van ocupar la fàbrica en protesta per l’acomiadament d’uns
     companys i la policia franquista, en carregar, va matar l’obrer Antonio Ruiz Villalba.
