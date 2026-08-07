@@ -2,7 +2,7 @@
 adreca: El Fort Pienc
 any: '1991'
 arquitectes:
-- Arriola & Fiol Arquitectes i Beverly Pepper
+- Arriola & Fiol Arquitectes + Beverly Pepper
 draft: false
 intervencions:
 - any: '1991'

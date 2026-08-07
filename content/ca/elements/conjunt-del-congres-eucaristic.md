@@ -2,7 +2,9 @@
 adreca: Entorn de la Pl. Congrés Eucarístic
 any: '1952'
 arquitectes:
-- Josep Soteras i Mauri, Antoni Pineda i Gualba i Carlos Marquès i Maristany
+- Josep Soteras i Mauri
+- Antoni Pineda i Gualba
+- Carlos Marquès i Maristany
 draft: false
 foto: /img/elements/conjunt-del-congres-eucaristic.jpg
 intervencions:

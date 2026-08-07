@@ -2,11 +2,11 @@
 adreca: Doctor Ibáñez, 38
 any: '2016'
 arquitectes:
-- HArquitectes
+- H Arquitectes
 draft: false
 intervencions:
 - any: '2016'
-  autors: HArquitectes
+  autors: H Arquitectes
   descripcio: ''
   tipus: Projecte
 lat: 41.3874606

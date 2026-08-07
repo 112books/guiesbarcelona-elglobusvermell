@@ -2,11 +2,12 @@
 adreca: Nou de la Rambla, 39
 any: '1988'
 arquitectes:
-- Joan Arias i Lluís Pérez de la Vega
+- Joan Arias
+- Lluís Pérez de la Vega
 draft: false
 intervencions:
 - any: '1988'
-  autors: Joan Arias i Lluís Pérez de la Vega
+  autors: Joan Arias + Lluís Pérez de la Vega
   descripcio: ''
   tipus: Projecte
 lat: 41.3776394

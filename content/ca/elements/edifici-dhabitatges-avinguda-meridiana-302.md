@@ -2,7 +2,8 @@
 adreca: Av. Meridiana 302-312
 any: '1965'
 arquitectes:
-- Antoni de Moragas i Gallissà i Francesc de Riba de Salas
+- Antoni de Moragas i Gallissà
+- Francesc de Riba i Salas
 draft: false
 foto: /img/elements/edifici-dhabitatges-avinguda-meridiana-302.jpg
 intervencions:

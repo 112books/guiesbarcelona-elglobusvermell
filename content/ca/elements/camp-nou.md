@@ -2,11 +2,13 @@
 adreca: Trav. de les Corts / Arístides Mallol / Av. Joan XVIII
 any: '1957'
 arquitectes:
-- Francesc Mitjans, Josep Soteras i Lorenzo García Barbón
+- Francesc Mitjans i Miró
+- Josep Soteras i Mauri
+- Lorenzo García-Barbón
 draft: false
 intervencions:
 - any: '1957'
-  autors: Francesc Mitjans, Josep Soteras i Lorenzo García Barbón
+  autors: Francesc Mitjans i Miró + Josep Soteras i Mauri + Lorenzo García-Barbón
   descripcio: ''
   tipus: Projecte
 lat: 41.3810442

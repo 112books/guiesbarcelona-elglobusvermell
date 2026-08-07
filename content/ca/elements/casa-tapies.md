@@ -2,12 +2,13 @@
 adreca: Saragossa 57
 any: '1963'
 arquitectes:
-- José Antonio Coderch de Sentmenat i Manuel Valls i Vergés
+- José Antonio Coderch de Sentmenat
+- Manuel Valls i Vergés
 draft: false
 foto: /img/elements/casa-tapies.jpg
 intervencions:
 - any: '1963'
-  autors: José Antonio Coderch de Sentmenat i Manuel Valls i Vergés
+  autors: José Antonio Coderch de Sentmenat + Manuel Valls i Vergés
   descripcio: ''
   tipus: Projecte
 lat: 41.4021186

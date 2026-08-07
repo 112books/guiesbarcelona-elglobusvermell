@@ -2,11 +2,12 @@
 adreca: Provençals del Poblenou
 any: '2002'
 arquitectes:
-- Enric Miralles i Benedetta Tagliabue
+- Enric Miralles i Moya
+- Benedetta Tagliabue
 draft: false
 intervencions:
 - any: '2002'
-  autors: Enric Miralles i Benedetta Tagliabue
+  autors: Enric Miralles i Moya + Benedetta Tagliabue
   descripcio: ''
   tipus: Projecte
 lat: 41.4077888

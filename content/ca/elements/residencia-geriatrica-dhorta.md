@@ -2,11 +2,13 @@
 adreca: Josep Sangenís, 75
 any: '1992'
 arquitectes:
-- Emili Donato, Miguel Jiménez i Ramon Martí
+- Emili Donato Folch
+- Miguel Jiménez
+- Ramon Martí
 draft: false
 intervencions:
 - any: '1992'
-  autors: Emili Donato, Miguel Jiménez i Ramon Martí
+  autors: Emili Donato Folch + Miguel Jiménez + Ramon Martí
   descripcio: ''
   tipus: Projecte
 lat: 41.425537

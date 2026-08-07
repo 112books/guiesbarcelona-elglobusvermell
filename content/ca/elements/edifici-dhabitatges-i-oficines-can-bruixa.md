@@ -2,7 +2,9 @@
 adreca: Galileu 281-285
 any: '1975'
 arquitectes:
-- Albert Viaplana, Helio Piñón i Gabriel Mora
+- Albert Viaplana i Veà
+- Heliodoro Piñón Pallarés
+- Gabriel Mora i Gramunt
 draft: false
 foto: /img/elements/edifici-dhabitatges-i-oficines-can-bruixa.jpg
 intervencions:

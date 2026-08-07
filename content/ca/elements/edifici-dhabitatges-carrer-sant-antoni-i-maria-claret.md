@@ -2,7 +2,8 @@
 adreca: Sant Antoni Maria Claret 318-332
 any: '1957'
 arquitectes:
-- Antoni de Moragas i Gallissà i Francisco Ribas de Salas
+- Antoni de Moragas i Gallissà
+- Francesc de Riba i Salas
 draft: false
 intervencions:
 - any: '1957'

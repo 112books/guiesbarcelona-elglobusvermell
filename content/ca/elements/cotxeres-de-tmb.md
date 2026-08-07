@@ -2,7 +2,7 @@
 adreca: Ciutat de Granada 112
 any: 1928
 arquitectes:
-- Josep Alemany
+- Josep Alemany i Juvé
 descripcio: Entrada a les cotxeres de la Compañía General de Autobuses. Actualment,
   pendent de reforma.
 draft: false
