@@ -12,11 +12,11 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
-  {{ if or .IsHome (eq .Section "elements") (eq .Kind "term") }}
+  {{ if or (eq .Section "elements") (eq .Section "mapa") (eq .Kind "term") }}
   <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}" defer></script>
   <script src="{{ "vendor/leaflet/leaflet-gesture-handling.min.js" | relURL }}" defer></script>
   {{ end }}
-  {{ if or .IsHome (and (eq .Section "elements") (eq .Kind "section")) (eq .Kind "term") }}
+  {{ if or (and (eq .Section "mapa") (eq .Kind "section")) (and (eq .Section "elements") (eq .Kind "section")) (eq .Kind "term") }}
   {{ $mapaJs := resources.Get "js/mapa.js" | minify | fingerprint }}
   <script src="{{ $mapaJs.RelPermalink }}" integrity="{{ $mapaJs.Data.Integrity }}" defer></script>
   {{ end }}
