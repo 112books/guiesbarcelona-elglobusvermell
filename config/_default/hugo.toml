@@ -80,7 +80,7 @@ defaultContentLanguageInSubdir = false
 
 [[languages.ca.menus.main]]
   name   = "Mapa"
-  url    = "/"
+  url    = "/mapa/"
   weight = 1
 
 [[languages.ca.menus.main]]
