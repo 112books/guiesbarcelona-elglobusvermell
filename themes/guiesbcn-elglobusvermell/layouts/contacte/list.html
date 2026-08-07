@@ -83,101 +83,7 @@
     </form>
   </section>
 
-  {{/* ── Formulari de suggeriment de correcció ── */}}
-  <section class="contacte-seccio" aria-labelledby="form-correccio-titol">
-    <h2 id="form-correccio-titol">Suggerir una correcció</h2>
-    <p class="contacte-seccio-desc">Heu detectat un error en una fitxa d'edifici? Nom d'arquitecte incorrecte, adreça inexacta, data equivocada...? Feu-nos-ho saber.</p>
-    <form
-      id="form-correccio"
-      class="contacte-form"
-      method="post"
-      action="{{ "contacte/envia.php" | relURL }}"
-      novalidate
-    >
-      <input type="hidden" name="tipus" value="correccio">
-
-      <div class="form-grup">
-        <label class="form-label" for="r-nom">Nom i cognoms <span class="form-requerit" aria-hidden="true">*</span></label>
-        <input
-          class="form-input"
-          type="text"
-          id="r-nom"
-          name="nom"
-          autocomplete="name"
-          required
-          maxlength="120"
-        >
-        <span class="form-error" id="r-nom-error" role="alert"></span>
-      </div>
-
-      <div class="form-grup">
-        <label class="form-label" for="r-email">Correu electrònic <span class="form-requerit" aria-hidden="true">*</span></label>
-        <input
-          class="form-input"
-          type="email"
-          id="r-email"
-          name="email"
-          autocomplete="email"
-          required
-          maxlength="254"
-        >
-        <span class="form-error" id="r-email-error" role="alert"></span>
-      </div>
-
-      <div class="form-grup">
-        <label class="form-label" for="r-edifici">Edifici o element afectat <span class="form-requerit" aria-hidden="true">*</span></label>
-        <input
-          class="form-input"
-          type="text"
-          id="r-edifici"
-          name="edifici"
-          required
-          maxlength="200"
-          placeholder="Nom de l'edifici tal com apareix a la web"
-        >
-        <span class="form-error" id="r-edifici-error" role="alert"></span>
-      </div>
-
-      <div class="form-grup">
-        <label class="form-label" for="r-correccio">Descripció de la correcció <span class="form-requerit" aria-hidden="true">*</span></label>
-        <textarea
-          class="form-input form-textarea"
-          id="r-correccio"
-          name="correccio"
-          required
-          maxlength="2000"
-          rows="5"
-          placeholder="Descriviu l'error i, si és possible, indiqueu la informació correcta i la font."
-        ></textarea>
-        <span class="form-error" id="r-correccio-error" role="alert"></span>
-      </div>
-
-      <div class="form-grup form-grup--rgpd">
-        <label class="form-check-label">
-          <input
-            class="form-check"
-            type="checkbox"
-            id="r-rgpd"
-            name="rgpd"
-            required
-          >
-          <span>He llegit i accepto la <a href="{{ "legal/privacitat/" | relLangURL }}">política de privacitat</a>. Les dades facilitades s'usaran únicament per gestionar la correcció i no es cediran a tercers. <span class="form-requerit" aria-hidden="true">*</span></span>
-        </label>
-        <span class="form-error" id="r-rgpd-error" role="alert"></span>
-      </div>
-
-      {{/* Honeypot anti-spam */}}
-      <div class="form-honeypot" aria-hidden="true">
-        <label for="r-web">No ompliu aquest camp</label>
-        <input type="text" id="r-web" name="web" tabindex="-1" autocomplete="off">
-      </div>
-
-      <div class="form-accions">
-        <button class="form-btn" type="submit">Enviar correcció</button>
-        <p class="form-nota"><span class="form-requerit" aria-hidden="true">*</span> Camps obligatoris</p>
-      </div>
-    </form>
-  </section>
+  {{ partial "formulari-correccio.html" . }}
 </main>
 
 <script>
@@ -267,14 +173,6 @@
     { id: 'c-email',   errorId: 'c-email-error'   },
     { id: 'c-missatge',errorId: 'c-missatge-error' },
     { id: 'c-rgpd',    errorId: 'c-rgpd-error'    },
-  ]);
-
-  configuraFormulari('form-correccio', [
-    { id: 'r-nom',      errorId: 'r-nom-error'      },
-    { id: 'r-email',    errorId: 'r-email-error'    },
-    { id: 'r-edifici',  errorId: 'r-edifici-error'  },
-    { id: 'r-correccio',errorId: 'r-correccio-error' },
-    { id: 'r-rgpd',     errorId: 'r-rgpd-error'     },
   ]);
 }());
 </script>

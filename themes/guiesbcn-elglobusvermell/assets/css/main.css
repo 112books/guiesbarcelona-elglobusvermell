@@ -338,6 +338,17 @@ main {
   flex-shrink: 0;
 }
 
+.footer-credits-link {
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.15s;
+}
+
+.footer-credits-link:hover {
+  color: var(--color-accent);
+}
+
 .footer-cc {
   display: inline-flex;
   align-items: center;
