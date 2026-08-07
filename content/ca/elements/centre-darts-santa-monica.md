@@ -1,5 +1,8 @@
 ---
 adreca: La Rambla, 7
+arquitectes:
+- Albert Viaplana i Veà
+- Heliodoro Piñón Pallarés
 draft: false
 intervencions:
 - any: '2003'

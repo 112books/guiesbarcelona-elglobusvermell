@@ -2,11 +2,13 @@
 adreca: Av. Diagonal / Ganduxer / Bori i Fontestà
 any: '1966'
 arquitectes:
-- Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages
+- Guillem Giráldez i Dávila
+- Pere López i Íñigo
+- Xavier Subias i Fages
 draft: false
 intervencions:
 - any: '1966'
-  autors: Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages
+  autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
   descripcio: ''
   tipus: Projecte
 lat: 41.3922413

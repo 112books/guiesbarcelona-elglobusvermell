@@ -2,12 +2,13 @@
 adreca: Pg. de Gràcia 84
 any: '1968'
 arquitectes:
-- Josep Maria Fargas i Enric Tous
+- Josep Maria Fargas
+- Enric Tous
 draft: false
 foto: /img/elements/edifici-doficines-banca-catalana-ara-hotel.jpg
 intervencions:
 - any: '1968'
-  autors: Josep Maria Fargas i Enric Tous
+  autors: Josep Maria Fargas + Enric Tous
   descripcio: ''
   tipus: Projecte
 lat: 41.39465

@@ -2,11 +2,12 @@
 adreca: Diagonal 468
 any: '1973'
 arquitectes:
-- Josep Maria Fargas i Enric Tous
+- Josep Maria Fargas
+- Enric Tous
 draft: false
 intervencions:
 - any: '1973'
-  autors: Josep Maria Fargas i Enric Tous
+  autors: Josep Maria Fargas + Enric Tous
   descripcio: ''
   tipus: Projecte
 lat: 41.3960384

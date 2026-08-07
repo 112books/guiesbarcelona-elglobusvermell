@@ -2,7 +2,7 @@
 adreca: Roc Boronat 99-115 + Almogàvers 201
 any: 1928
 arquitectes:
-- Josep Alemany
+- Josep Alemany i Juvé
 descripcio: Edifici d’oficines i magatzem de la Compañía General de Autobuses. Actualment,
   pendent de reforma per acollir la Casa de les Lletres.
 draft: false

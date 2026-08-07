@@ -2,7 +2,8 @@
 adreca: Lleida 40
 any: '1955'
 arquitectes:
-- Josep Soteras i Mauri i Lorenzo García-Barbón
+- Josep Soteras i Mauri
+- Lorenzo García-Barbón
 draft: false
 intervencions:
 - any: '1955'

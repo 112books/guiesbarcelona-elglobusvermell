@@ -2,11 +2,12 @@
 adreca: Garbí, 3
 any: '2018'
 arquitectes:
-- Bayona i Valero + Cantallops Vicente
+- Bayona-Valero
+- Cantallops-Vicente
 draft: false
 intervencions:
 - any: '2018'
-  autors: Bayona i Valero + Cantallops Vicente
+  autors: Bayona-Valero + Cantallops-Vicente
   descripcio: ''
   tipus: Projecte
 lat: 41.4528427

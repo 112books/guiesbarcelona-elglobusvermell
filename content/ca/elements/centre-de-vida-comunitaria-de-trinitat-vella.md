@@ -2,11 +2,11 @@
 adreca: Via Favència, 399 / Ctra. de Ribes
 any: '2018'
 arquitectes:
-- HazArquitectura
+- Haz Arquitectura
 draft: false
 intervencions:
 - any: '2018'
-  autors: HazArquitectura
+  autors: Haz Arquitectura
   descripcio: ''
   tipus: Projecte
 lat: 41.4478975

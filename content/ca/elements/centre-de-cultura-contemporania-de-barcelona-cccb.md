@@ -1,5 +1,8 @@
 ---
 adreca: Montalegre, 5
+arquitectes:
+- Albert Viaplana i Veà
+- Heliodoro Piñón Pallarés
 draft: false
 intervencions:
 - any: '1993'

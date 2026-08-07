@@ -2,11 +2,12 @@
 adreca: Sants
 any: '1983'
 arquitectes:
-- Viaplana / Piñón
+- Albert Viaplana i Veà
+- Heliodoro Piñón Pallarés
 draft: false
 intervencions:
 - any: '1983'
-  autors: Viaplana / Piñón
+  autors: Albert Viaplana i Veà + Heliodoro Piñón Pallarés
   descripcio: Premi FAD Arquitectura
   tipus: Projecte
 lat: 41.380245

@@ -2,11 +2,12 @@
 adreca: Ulldecona / Cal Cisó / Pontils
 any: '2022'
 arquitectes:
-- Coll-Leclerc i Josep Miàs
+- Coll-Leclerc
+- Josep Miàs i Gifré
 draft: false
 intervencions:
 - any: '2022'
-  autors: Coll-Leclerc i Josep Miàs
+  autors: Coll-Leclerc + Josep Miàs i Gifré
   descripcio: ''
   tipus: Projecte
 lat: 41.3511208

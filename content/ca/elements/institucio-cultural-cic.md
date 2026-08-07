@@ -2,12 +2,14 @@
 adreca: Via Augusta 205 / Vallmajor
 any: '1961'
 arquitectes:
-- Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila
+- Guillem Giráldez i Dávila
+- Pere López i Íñigo
+- Xavier Subias i Fages
 draft: false
 foto: /img/elements/institucio-cultural-cic.jpg
 intervencions:
 - any: '1961'
-  autors: Pere López i Íñigo, Xavier Subias i Fages i Guillem Giráldez i Dávila
+  autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
   descripcio: ''
   tipus: Projecte
 lat: 41.3974878

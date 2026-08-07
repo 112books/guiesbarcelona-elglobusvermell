@@ -2,11 +2,12 @@
 adreca: Pallars, 336
 any: '2008'
 arquitectes:
-- Josep Maria Casadevall i Ramon Sanabria
+- Josep Maria Casadevall
+- Ramon Sanabria
 draft: false
 intervencions:
 - any: '2008'
-  autors: Josep Maria Casadevall i Ramon Sanabria
+  autors: Josep Maria Casadevall + Ramon Sanabria
   descripcio: ''
   tipus: Projecte
 lat: 41.4071484
