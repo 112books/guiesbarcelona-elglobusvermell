@@ -2,11 +2,12 @@
 adreca: Sants
 any: '2016'
 arquitectes:
-- Ana Molino i Sergi Godia
+- Ana Molino
+- Sergi Godia
 draft: false
 intervencions:
 - any: '2016'
-  autors: Ana Molino i Sergi Godia
+  autors: Ana Molino + Sergi Godia
   descripcio: ''
   tipus: Projecte
 lat: 41.3731116

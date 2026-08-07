@@ -2,11 +2,14 @@
 adreca: El Coll
 any: '1987'
 arquitectes:
-- MBM (Martorell + Bohigas + Mackay)
+- MBM
+- Josep Maria Martorell i Codina
+- Oriol Bohigas i Guardiola
+- David Mackay
 draft: false
 intervencions:
 - any: '1987'
-  autors: MBM (Martorell + Bohigas + Mackay)
+  autors: MBM + Josep Maria Martorell i Codina + Oriol Bohigas i Guardiola + David Mackay
   descripcio: ''
   tipus: Projecte
 lat: 41.4184144
