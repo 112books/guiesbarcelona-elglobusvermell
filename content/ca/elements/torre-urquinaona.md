@@ -2,7 +2,8 @@
 adreca: Pl. Urquinaona 6
 any: '1973'
 arquitectes:
-- Antoni Bonet Castellana i Josep Puig i Torner
+- Antoni Bonet Castellana
+- Josep Puig i Torné
 draft: false
 foto: /img/elements/torre-urquinaona.jpg
 intervencions:

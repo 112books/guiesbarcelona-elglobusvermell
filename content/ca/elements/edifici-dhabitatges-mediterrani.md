@@ -2,7 +2,8 @@
 adreca: Consell de Cent 164-168
 any: '1968'
 arquitectes:
-- Antoni Bonet i Castellana i Josep Puig i Torné
+- Antoni Bonet Castellana
+- Josep Puig i Torné
 draft: false
 foto: /img/elements/edifici-dhabitatges-mediterrani.jpg
 intervencions:
