@@ -1,11 +1,11 @@
 ---
 any: '1987'
 arquitectes:
-- Manuel de Solà-Morales
+- Manuel de Solà-Morales i Rubió
 draft: false
 intervencions:
 - any: '1987'
-  autors: Manuel de Solà-Morales
+  autors: Manuel de Solà-Morales i Rubió
   descripcio: 'Adreça: Port Vell, Barri Gòtic'
   tipus: Projecte
 lat: 41.37832

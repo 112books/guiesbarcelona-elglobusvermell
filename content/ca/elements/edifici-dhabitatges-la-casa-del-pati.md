@@ -2,11 +2,13 @@
 adreca: Rda. del Guinardó 44
 any: '1964'
 arquitectes:
-- Oriol Bohigas i Guardiola, Josep Maria Martorell i Codina i David Mackay
+- Oriol Bohigas i Guardiola
+- Josep Maria Martorell i Codina
+- David Mackay
 draft: false
 intervencions:
 - any: '1964'
-  autors: Oriol Bohigas i Guardiola, Josep Maria Martorell i Codina i David Mackay
+  autors: Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina + David Mackay
   descripcio: ''
   tipus: Projecte
 lat: 41.41179

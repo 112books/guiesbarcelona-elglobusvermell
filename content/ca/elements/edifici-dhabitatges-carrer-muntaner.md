@@ -2,11 +2,12 @@
 adreca: Muntaner 271-273 / Avenir 35-37
 any: '1966'
 arquitectes:
-- Manuel de Solà-Morales i de Rosselló i Manuel de Solà-Morales i Rubió
+- Manuel de Solà-Morales i de Rosselló
+- Manuel de Solà-Morales i Rubió
 draft: false
 intervencions:
 - any: '1966'
-  autors: Manuel de Solà-Morales i de Rosselló i Manuel de Solà-Morales i Rubió
+  autors: Manuel de Solà-Morales i de Rosselló + Manuel de Solà-Morales i Rubió
   descripcio: ''
   tipus: Projecte
 lat: 41.3957595

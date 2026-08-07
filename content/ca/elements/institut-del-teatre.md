@@ -2,11 +2,12 @@
 adreca: Pl. Margarida Xirgu
 any: '2000'
 arquitectes:
-- Lluís Comerón i Ramon Sanabria
+- Lluís Comerón
+- Ramon Sanabria
 draft: false
 intervencions:
 - any: '2000'
-  autors: Lluís Comerón i Ramon Sanabria
+  autors: Lluís Comerón + Ramon Sanabria
   descripcio: ''
   tipus: Projecte
 lat: 41.3716269

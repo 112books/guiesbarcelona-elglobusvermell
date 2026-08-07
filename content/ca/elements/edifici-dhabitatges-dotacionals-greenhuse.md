@@ -2,11 +2,12 @@
 adreca: Veneçuela, 96-106 / Agricultura
 any: '2024'
 arquitectes:
-- Peris+Toral i Jaime Pastor
+- Peris+Toral
+- Jaime Pastor
 draft: false
 intervencions:
 - any: '2024'
-  autors: Peris+Toral i Jaime Pastor
+  autors: Peris+Toral + Jaime Pastor
   descripcio: ''
   tipus: Projecte
 lat: 41.4119975
