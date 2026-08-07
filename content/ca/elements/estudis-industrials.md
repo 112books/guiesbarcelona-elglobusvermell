@@ -2,11 +2,12 @@
 adreca: Ramon Turró, 168-170
 any: '2017'
 arquitectes:
-- Núria Salvadó i Josep Anglès
+- Núria Salvadó
+- Josep Anglès
 draft: false
 intervencions:
 - any: '2017'
-  autors: Núria Salvadó i Josep Anglès
+  autors: Núria Salvadó + Josep Anglès
   descripcio: ''
   tipus: Projecte
 lat: 41.3976053

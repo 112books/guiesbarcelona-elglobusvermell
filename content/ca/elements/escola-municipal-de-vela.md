@@ -2,11 +2,11 @@
 adreca: Moll de Gregal, 33
 any: '1991'
 arquitectes:
-- MBM (Martorell, Bohigas, Mackay)
+- MBM (Martorell + Bohigas + Mackay)
 draft: false
 intervencions:
 - any: '1991'
-  autors: MBM (Martorell, Bohigas, Mackay)
+  autors: MBM (Martorell + Bohigas + Mackay)
   descripcio: ''
   tipus: Projecte
 lat: 41.3875217

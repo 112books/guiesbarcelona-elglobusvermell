@@ -2,11 +2,12 @@
 adreca: Calatrava 2 / Rosari 45
 any: '1968'
 arquitectes:
-- Pere Llimona i Xavier Ruiz i Vallès
+- Pere Llimona
+- Xavier Ruiz i Vallès
 draft: false
 intervencions:
 - any: '1968'
-  autors: Pere Llimona i Xavier Ruiz i Vallès
+  autors: Pere Llimona + Xavier Ruiz i Vallès
   descripcio: ''
   tipus: Projecte
 lat: 41.3981966

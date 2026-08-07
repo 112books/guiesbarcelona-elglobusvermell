@@ -2,11 +2,11 @@
 adreca: La Rambla, 88
 any: '1994'
 arquitectes:
-- MBM (Martorell, Bohigas, Mackay)
+- MBM (Martorell + Bohigas + Mackay)
 draft: false
 intervencions:
 - any: '1994'
-  autors: MBM (Martorell, Bohigas, Mackay)
+  autors: MBM (Martorell + Bohigas + Mackay)
   descripcio: ''
   tipus: Projecte
 lat: 41.3818599

@@ -2,11 +2,11 @@
 adreca: Pl. Salvador Seguí, 1-9
 any: '2011'
 arquitectes:
-- MAP Arquitectes (Marta Cervelló i Josep Lluís Mateo)
+- MAP Arquitectes (Marta Cervelló + Josep Lluís Mateo)
 draft: false
 intervencions:
 - any: '2011'
-  autors: MAP Arquitectes (Marta Cervelló i Josep Lluís Mateo)
+  autors: MAP Arquitectes (Marta Cervelló + Josep Lluís Mateo)
   descripcio: ''
   tipus: Projecte
 lat: 41.378532
