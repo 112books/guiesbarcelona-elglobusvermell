@@ -4,11 +4,11 @@ any: '2019'
 arquitectes:
 - Lola Domènech
 - Lussi Studio
-- Lussi+Partner AG
+- Partner AG
 draft: false
 intervencions:
 - any: '2019'
-  autors: Lola Domènech + Lussi Studio + Lussi+Partner AG
+  autors: Lola Domènech + Lussi Studio + Partner AG
   descripcio: ''
   tipus: Projecte
 lat: 41.4047462
