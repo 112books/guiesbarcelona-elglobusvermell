@@ -134,6 +134,13 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ---
 
+## Formulari de votació (decisions pendents)
+
+- ⏳ Crear formulari a Tally.so amb les preguntes de `.ai/VOTACIO-DECISIONS.md` (5 blocs: estètica, contingut, funcionalitats, tècnic, recursos)
+- ⏳ Enviar l'enllaç a Xavi, Jorge i equip per votar les decisions pendents
+
+---
+
 ## Pendents client (preguntes per Xavi / Jorge)
 
 Vegeu `.ai/QUESTIONS-CLIENT.md` per la llista completa.
