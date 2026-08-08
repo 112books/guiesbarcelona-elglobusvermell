@@ -92,12 +92,12 @@
           <span class="pa-stat-lab">guies de camp</span>
         </div>
         <div class="pa-stat">
-          <span class="pa-stat-num">{{ $anyMin }}–{{ $anyMax }}</span>
-          <span class="pa-stat-lab">anys d'arquitectura</span>
-        </div>
-        <div class="pa-stat">
           <span class="pa-stat-num">{{ len .Site.Taxonomies.arquitectes }}</span>
           <span class="pa-stat-lab">arquitectes i estudis</span>
+        </div>
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $anyMin }}–{{ $anyMax }}</span>
+          <span class="pa-stat-lab">anys d'arquitectura</span>
         </div>
       </div>
       <a href="{{ "mapa/" | relLangURL }}" class="pa-cta-mapa">
