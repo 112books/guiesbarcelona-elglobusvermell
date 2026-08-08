@@ -2,7 +2,9 @@
 adreca: Àlaba, 100
 any: '2017'
 arquitectes:
-- apocapoc bcn + slowup (Sandra Martín Lara)
+- apocapoc bcn
+- slowup
+- Sandra Martín Lara
 draft: false
 intervencions:
 - any: '2017'
