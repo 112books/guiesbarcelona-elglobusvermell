@@ -2,7 +2,8 @@
 adreca: Espronceda, 131
 any: '2021'
 arquitectes:
-- Lacol + La Boqueria
+- Lacol
+- La Boqueria
 draft: false
 intervencions:
 - any: '2021'
