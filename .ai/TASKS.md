@@ -134,10 +134,12 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ---
 
-## Formulari de votació (decisions pendents)
+## Decisions pendents — mail enviat a Xavi (2026-08-11)
 
-- ⏳ Crear formulari a Tally.so amb les preguntes de `.ai/VOTACIO-DECISIONS.md` (5 blocs: estètica, contingut, funcionalitats, tècnic, recursos)
-- ⏳ Enviar l'enllaç a Xavi, Jorge i equip per votar les decisions pendents
+- ✅ Preparar mail de decisions amb totes les preguntes pendents (9 punts en 4 blocs)
+- ✅ Enviat a xavirg@elglobusvermell.org el 2026-08-11 — Xavi reenviarà a l'equip EGV
+- 🔴 Esperar respostes: colors, portada, xifres, llicència, fotos, mapes, TTS, GoatCounter, CMS
+  → Document de referència: `docs/2026-08-11-mail-xavi-decisions-web.html` (repo privat elglobusvermell-docs)
 
 ---
 
