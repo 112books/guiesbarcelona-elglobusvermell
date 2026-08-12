@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-11T23:46:09.170451Z",
+  "generated": "2026-08-12T02:16:22.202160Z",
   "period": {
-    "start": "2025-08-11",
-    "end": "2026-08-10"
+    "start": "2025-08-12",
+    "end": "2026-08-11"
   },
-  "total": 381,
+  "total": 383,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -74,12 +74,16 @@
     {
       "date": "2026-08-08",
       "count": 1
+    },
+    {
+      "date": "2026-08-10",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 49
+      "count": 51
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
@@ -199,7 +203,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 201,
+    "guiesbarcelona-elglobusvermell": 203,
     "mapa-filtre-pub": 113,
     "mapa-filtre-tema": 11,
     "mapa-clickhttps:": 50,
@@ -215,14 +219,14 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 261
+      "count": 263
     }
   ],
   "systems": [
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 331
+      "count": 333
     },
     {
       "name": "Windows",
@@ -249,7 +253,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 190
+      "count": 192
     },
     {
       "name": "phone",
@@ -266,7 +270,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 538
+      "count": 540
     },
     {
       "name": "United States",
@@ -293,7 +297,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 23
+      "count": 24
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
@@ -558,6 +562,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/bloc-diagonal",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/bloc-diagonal",
+      "count": 1
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/habitatges-mas-de-roda",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/habitatges-mas-de-roda",
       "count": 1
     }
   ]
