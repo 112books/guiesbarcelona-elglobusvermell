@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-14T23:25:24.052605Z",
+  "generated": "2026-08-15T01:26:22.975120Z",
   "period": {
-    "start": "2025-08-14",
-    "end": "2026-08-13"
+    "start": "2025-08-15",
+    "end": "2026-08-14"
   },
-  "total": 387,
+  "total": 389,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -86,12 +86,16 @@
     {
       "date": "2026-08-12",
       "count": 2
+    },
+    {
+      "date": "2026-08-13",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 52
+      "count": 54
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
@@ -211,7 +215,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 207,
+    "guiesbarcelona-elglobusvermell": 209,
     "mapa-filtre-pub": 113,
     "mapa-filtre-tema": 11,
     "mapa-clickhttps:": 50,
@@ -222,7 +226,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 282
+      "count": 283
     },
     {
       "name": "Safari",
@@ -234,7 +238,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 335
+      "count": 336
     },
     {
       "name": "Windows",
@@ -261,7 +265,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 192
+      "count": 193
     },
     {
       "name": "phone",
@@ -278,7 +282,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 544
+      "count": 545
     },
     {
       "name": "United States",
@@ -290,7 +294,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 183
+      "count": 185
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
