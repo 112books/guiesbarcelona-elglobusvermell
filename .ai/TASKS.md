@@ -134,26 +134,46 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ---
 
-## Decisions pendents — mail enviat a Xavi (2026-08-11)
+## Decisions — respostes Xavi (2026-08-17)
+
+Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 
 - ✅ Preparar mail de decisions amb totes les preguntes pendents (9 punts en 4 blocs)
-- ✅ Enviat a xavirg@elglobusvermell.org el 2026-08-11 — Xavi reenviarà a l'equip EGV
-- 🔴 Esperar respostes: colors, portada, xifres, llicència, fotos, mapes, TTS, GoatCounter, CMS
-  → Document de referència: `docs/2026-08-11-mail-xavi-decisions-web.html` (repo privat elglobusvermell-docs)
+- ✅ Enviat a xavirg@elglobusvermell.org el 2026-08-11
+- ✅ Respostes rebudes el 2026-08-17 — arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
+- ✅ GitHub Xavi (xavirg): convidat com a admin el 2026-08-17 — 🔴 pendent que accepti la invitació
+
+### Confirmats per Xavi ✅
+- ✅ Signatura LinuxBCN al peu del web públic — aprovada per Xavi
+- ✅ Citar COAC i Viquipèdia a pàgina de Crèdits — implementat a `content/ca/credits/_index.md` (secció "Fonts de dades")
+- ✅ © + CC BY-SA 4.0 simultàniament al peu
+- ✅ Nova portada (hero + guia i arquitecte aleatoris)
+- ✅ Arquitectes al menú principal
+- ✅ Peu de pàgina reorganitzat (Crèdits al peu, Contacte al menú)
+- ✅ Formulari de contacte (rep correu)
+- ⏳ Configurar enviament formulari per SMTP — Google Workspace o servidor de producció (Dinahosting). Fer al final del projecte, quan el servidor estigui definit. Afegir opció mailto: visible a la pàgina /contacte/ com a alternativa directa.
+- ✅ New Babylon/Tàpies: sense punts al mapa, presència a "en paper"/portada
+- ✅ Fotos: penjar directament al nou web (sense WordPress)
+- ✅ PWA — instal·lar al mòbil: pàgina `static/admin/instal-la-al-mobil/` creada i targeta afegida al hub `/admin/`
+
+### Pendents de consens ⏳
+- ⏳ Xifres portada: quines xifres concretes (treure anys d'arq. i 2a línia) — Xavi consensuarà amb l'equip
+- ⏳ Camp "Projecte" a fitxes: Xavi diu que és redundant, cal confirmació explícita per eliminar-lo
+- ⏳ Xavi: revisió llista arquitectes (73 combinats + normalització) — havia dit "aquesta setmana"
+- ⏳ Xavi: disseny/colors — consulta amb l'equip
+- ⏳ Xavi: criteris arquitectes vs estudis (Eugeni Bach, Soldevila...)
+- ⏳ Arxiu Històric BCN: explorar col·laboració per fotos — iniciativa de Xavi, no urgent
 
 ---
 
 ## Pendents client (preguntes per Xavi / Jorge)
 
-Vegeu `.ai/QUESTIONS-CLIENT.md` per la llista completa.
-
 - 🔴 Jorge: dades d'accés al servidor actual
 - ⏳ Xavi: confirmar pressupost 3.900€
 - ⏳ Xavi: 50% de bestreta per iniciar Flutter
-- ⏳ Xavi: accés a guiesbarcelona.elglobusvermell.org (Xavi diu que ha demanat)
-- ✅ Xavi: clarificació "filtrar per publicacions" al mapa (resolt: tots atenuats al iniciar, ressaltar al marcar)
-- ⏳ Xavi: decisió de disseny (colors publicació vs nou rebrand)
+- ✅ Xavi: accés a guiesbarcelona.elglobusvermell.org — convidat com a admin (pendent acceptació)
+- ✅ Xavi: clarificació "filtrar per publicacions" al mapa
+- ⏳ Xavi: decisió de disseny (colors publicació vs nou rebrand) — consulta amb l'equip
 - ⏳ Xavi: confirmar esquema de "En paper" (portada + botó PDF)
-- ⏳ Xavi: separar arquitectes combinats (o demanar que ho fem nosaltres)
-- ⏳ Xavi: llicència del peu de pàgina (© o Creative Commons)
+- ⏳ Xavi: llicència del peu de pàgina — resolt: © + CC BY-SA 4.0
 - ⏳ Xavi: confirmar contrasenya admin backoffice
