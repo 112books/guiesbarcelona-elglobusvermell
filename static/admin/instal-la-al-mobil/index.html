@@ -65,6 +65,12 @@
       padding-bottom: 0.4rem;
       margin-bottom: 1.25rem;
     }
+    .g-platform h3 {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--ink2);
+      margin: 1.5rem 0 0.6rem;
+    }
     .g-platform p {
       color: var(--ink2);
       margin-bottom: 0.75rem;
@@ -138,18 +144,19 @@
       <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg"
            alt="Guies de Barcelona de El Globus Vermell">
     </a>
-    <h1>Instal·la el web al teu mòbil</h1>
+    <h1>Instal·la el web com a app</h1>
   </header>
 
   <main class="g-wrap">
 
     <p class="g-intro">
-      El web de les Guies de Barcelona es pot instal·lar al teu telèfon com si fos una aplicació: apareixerà a la pantalla d'inici amb la seva icona, i s'obrirà sense les barres del navegador. No cal descarregar res de cap botiga d'apps.
+      El web de les Guies de Barcelona es pot instal·lar com si fos una aplicació: apareixerà a la pantalla d'inici (mòbil) o a l'escriptori (ordinador) amb la seva icona, i s'obrirà sense les barres del navegador. No cal descarregar res de cap botiga d'apps.
     </p>
 
-    <!-- iOS -->
     <section class="g-platform">
-      <h2>iPhone i iPad (Safari)</h2>
+      <h2>Mòbil i tauleta</h2>
+
+      <h3>iPhone i iPad (Safari)</h3>
       <p>Cal fer-ho des de Safari. No funciona des de Chrome ni Firefox per iOS.</p>
       <ol class="g-steps">
         <li><span>Obre <strong>Safari</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
@@ -157,12 +164,8 @@
         <li><span>Desplaça't cap avall al menú i toca <kbd>Afegeix a la pantalla d'inici</kbd>.</span></li>
         <li><span>Posa el nom que vulguis (o deixa el que suggereix) i toca <kbd>Afegir</kbd>.</span></li>
       </ol>
-      <p>La icona apareixerà a la pantalla d'inici. La propera vegada que la obris, es veurà com una app, sense les barres del navegador.</p>
-    </section>
 
-    <!-- Android Chrome -->
-    <section class="g-platform">
-      <h2>Android (Chrome)</h2>
+      <h3>Android (Chrome)</h3>
       <ol class="g-steps">
         <li><span>Obre <strong>Chrome</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
         <li><span>Toca el menú <kbd>⋮</kbd> (tres punts verticals) a la cantonada superior dreta.</span></li>
@@ -172,16 +175,37 @@
       <div class="g-note">
         En alguns dispositius Android, Chrome mostra directament un bàner a la part inferior de la pantalla amb el botó <strong>"Instal·la"</strong> — pots tocar-lo directament sense obrir el menú.
       </div>
-    </section>
 
-    <!-- Android Firefox -->
-    <section class="g-platform">
-      <h2>Android (Firefox)</h2>
+      <h3>Android (Firefox)</h3>
       <ol class="g-steps">
         <li><span>Obre <strong>Firefox</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
         <li><span>Toca el menú <kbd>⋮</kbd> (tres punts) a la barra inferior.</span></li>
         <li><span>Toca <kbd>Instal·la</kbd> o <kbd>Afegeix a la pantalla d'inici</kbd>.</span></li>
       </ol>
+    </section>
+
+    <section class="g-platform">
+      <h2>Ordinador</h2>
+
+      <h3>Chrome i Edge (Windows, Mac, Linux)</h3>
+      <ol class="g-steps">
+        <li><span>Obre <strong>Chrome</strong> o <strong>Edge</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
+        <li><span>A la barra d'adreces, a la dreta, apareixerà una icona de <kbd>+</kbd> o un ordinador amb fletxa. Clica-la.</span></li>
+        <li><span>Al diàleg que s'obre, clica <kbd>Instal·la</kbd>.</span></li>
+      </ol>
+      <div class="g-note">
+        Si no veus la icona a la barra d'adreces: obre el menú <kbd>⋮</kbd> (Chrome) o <kbd>···</kbd> (Edge) → <em>Instal·la Guies de Barcelona...</em> o <em>Aplicacions → Instal·la aquest lloc com a app</em>.
+      </div>
+
+      <h3>Safari (Mac)</h3>
+      <ol class="g-steps">
+        <li><span>Obre <strong>Safari</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
+        <li><span>Al menú superior, tria <kbd>Fitxer</kbd> → <kbd>Afegeix a la Dock…</kbd> (macOS Sonoma o superior).</span></li>
+        <li><span>Confirma el nom i clica <kbd>Afegir</kbd>.</span></li>
+      </ol>
+      <div class="g-note">
+        L'opció "Afegeix a la Dock" apareix a partir de macOS Sonoma (2023). En versions anteriors de macOS, Safari no permet instal·lar webs com a app.
+      </div>
     </section>
 
   </main>
