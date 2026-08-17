@@ -29,3 +29,10 @@ Aquest web s'ha construït amb programari lliure de principi a fi:
 - **[GitHub](https://github.com)** — control de versions (historial complet de tots els canvis, amb possibilitat de recuperar qualsevol versió anterior), gestió d'accessos dels editors (qui pot editar contingut i amb quin rol) i entorn de proves (les novetats es verifiquen en un entorn de desenvolupament abans de publicar-se al web definitiu).
 - **[GoatCounter](https://www.goatcounter.com)** — estadístiques de visites respectuoses amb la privacitat: sense cookies ni seguiment de dades personals.
 - **Servidor:** *(pendent de decidir — es completarà aquí un cop es defineixi l'allotjament definitiu)*
+
+## Fonts de dades
+
+Les fitxes d'arquitecte inclouen, quan hi són, enllaços a les fonts originals:
+
+- **[Arquitectura Catalana](https://www.arquitecturacatalana.cat)** — arxiu del Col·legi d'Arquitectes de Catalunya (COAC): fitxes biogràfiques, obres i documentació d'arquitectes catalans.
+- **[Viquipèdia](https://ca.wikipedia.org)** — enciclopèdia lliure en català: articles biogràfics d'arquitectes amb presència destacada.

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Instal·la al mòbil — Guies Barcelona</title>
+  <style>
+    :root {
+      --bg:      #f5f4f0;
+      --ink:     #111110;
+      --ink2:    #444440;
+      --ink3:    #6b6b66;
+      --border:  #ddddd8;
+      --surface: #eeede9;
+      --red:     #c81e1e;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+
+    .g-header {
+      text-align: center;
+      padding: 2.5rem 1rem 1.75rem;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+    .g-header a { display: inline-block; }
+    .g-header img { height: 3.5rem; width: auto; }
+    .g-header h1 {
+      margin-top: 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--ink3);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .g-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    .g-intro {
+      font-size: 0.95rem;
+      color: var(--ink2);
+      margin-bottom: 2.5rem;
+    }
+
+    .g-platform {
+      margin-bottom: 2.5rem;
+    }
+    .g-platform h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      border-bottom: 2px solid var(--red);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+    }
+    .g-platform p {
+      color: var(--ink2);
+      margin-bottom: 0.75rem;
+    }
+
+    .g-steps {
+      list-style: none;
+      padding: 0;
+      counter-reset: step;
+    }
+    .g-steps > li {
+      counter-increment: step;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+      align-items: flex-start;
+    }
+    .g-steps > li::before {
+      content: counter(step);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+    .g-steps > li > span { color: var(--ink2); }
+
+    kbd {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 0.05rem 0.45rem;
+      font-family: inherit;
+      font-size: 0.85em;
+      color: var(--ink);
+    }
+
+    .g-note {
+      background: #fff8e1;
+      border-left: 3px solid #f59e0b;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.84rem;
+      color: var(--ink2);
+    }
+
+    .g-footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1rem;
+      text-align: center;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+    .g-footer a { color: #bbb; text-decoration: none; }
+    .g-footer a:hover { color: var(--red); }
+
+    @media (max-width: 560px) {
+      .g-wrap { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="g-header">
+    <a href="../../" aria-label="Inici — Guies de Barcelona">
+      <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg"
+           alt="Guies de Barcelona de El Globus Vermell">
+    </a>
+    <h1>Instal·la el web al teu mòbil</h1>
+  </header>
+
+  <main class="g-wrap">
+
+    <p class="g-intro">
+      El web de les Guies de Barcelona es pot instal·lar al teu telèfon com si fos una aplicació: apareixerà a la pantalla d'inici amb la seva icona, i s'obrirà sense les barres del navegador. No cal descarregar res de cap botiga d'apps.
+    </p>
+
+    <!-- iOS -->
+    <section class="g-platform">
+      <h2>iPhone i iPad (Safari)</h2>
+      <p>Cal fer-ho des de Safari. No funciona des de Chrome ni Firefox per iOS.</p>
+      <ol class="g-steps">
+        <li><span>Obre <strong>Safari</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
+        <li><span>Toca la icona de <kbd>Compartir</kbd> (quadrat amb fletxa cap amunt) a la barra inferior.</span></li>
+        <li><span>Desplaça't cap avall al menú i toca <kbd>Afegeix a la pantalla d'inici</kbd>.</span></li>
+        <li><span>Posa el nom que vulguis (o deixa el que suggereix) i toca <kbd>Afegir</kbd>.</span></li>
+      </ol>
+      <p>La icona apareixerà a la pantalla d'inici. La propera vegada que la obris, es veurà com una app, sense les barres del navegador.</p>
+    </section>
+
+    <!-- Android Chrome -->
+    <section class="g-platform">
+      <h2>Android (Chrome)</h2>
+      <ol class="g-steps">
+        <li><span>Obre <strong>Chrome</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
+        <li><span>Toca el menú <kbd>⋮</kbd> (tres punts verticals) a la cantonada superior dreta.</span></li>
+        <li><span>Toca <kbd>Afegiu a la pantalla principal</kbd> o <kbd>Instal·la l'app</kbd>.</span></li>
+        <li><span>Confirma tocant <kbd>Afegir</kbd> o <kbd>Instal·la</kbd>.</span></li>
+      </ol>
+      <div class="g-note">
+        En alguns dispositius Android, Chrome mostra directament un bàner a la part inferior de la pantalla amb el botó <strong>"Instal·la"</strong> — pots tocar-lo directament sense obrir el menú.
+      </div>
+    </section>
+
+    <!-- Android Firefox -->
+    <section class="g-platform">
+      <h2>Android (Firefox)</h2>
+      <ol class="g-steps">
+        <li><span>Obre <strong>Firefox</strong> i navega a <strong>guiesbarcelona.elglobusvermell.org</strong>.</span></li>
+        <li><span>Toca el menú <kbd>⋮</kbd> (tres punts) a la barra inferior.</span></li>
+        <li><span>Toca <kbd>Instal·la</kbd> o <kbd>Afegeix a la pantalla d'inici</kbd>.</span></li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer class="g-footer">
+    <div>
+      © <script>document.write(new Date().getFullYear())</script>
+      <a href="https://elglobusvermell.org" target="_blank" rel="noopener">El Globus Vermell</a>
+      &nbsp;·&nbsp;
+      <a href="../">← Tornar a l'administrador</a>
+    </div>
+  </footer>
+
+</body>
+</html>
