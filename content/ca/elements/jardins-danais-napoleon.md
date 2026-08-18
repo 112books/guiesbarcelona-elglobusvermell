@@ -1,6 +1,6 @@
 ---
 adreca: Marina, 155
-descripcio: 2 Anaïs Napoleon (Anne Tiffon Cassan),(Narbona, 1827 – Barcelona, 1912).
+descripcio: Anaïs Napoleon (Anne Tiffon Cassan),(Narbona, 1827 – Barcelona, 1912).
   Fundadora, conjuntament amb el seu marit, Antonio Fernández, de la companyia fotogràfica
   Napoleon. Sempre va estar al capdavant dels progressos de la fotografia i fou una
   de les primeres dones que van fer daguerreotips a Espanya. A més, era especialista
@@ -12,7 +12,7 @@ long: 2.1813094
 obertura: '2015'
 publicacions:
 - interiors-illa
-superficie: 1.610 m
+superficie: 1.610 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

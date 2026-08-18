@@ -1,6 +1,6 @@
 ---
 adreca: Gran Via, 657 bis
-descripcio: '2 Més info: Anteriorment hi havia hagut la Colònia tèxtil Rosal. Jaume
+descripcio: 'Més info: Anteriorment hi havia hagut la Colònia tèxtil Rosal. Jaume
   Perich i Escala. (Barcelona, 1941 – Mataró, 1995). Humorista gràfic i escriptor.
   De ben jove ja despuntà com a humorista gràfic, amb una personalitat pròpia a la
   premsa barcelonina, i durant la transició assolí una gran popularitat gràcies al
@@ -13,7 +13,7 @@ long: 2.1731586
 obertura: '2002'
 publicacions:
 - interiors-illa
-superficie: 1.220 m
+superficie: 1.220 m²
 temes_transversals:
 - espai-public
 title: Jardins de Jaume Perich

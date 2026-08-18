@@ -1,6 +1,6 @@
 ---
 adreca: Girona, 64
-descripcio: '2 Equipament: Biblioteca Sofia Barat Sofia Barat. (Joigny, 1779 – París,
+descripcio: 'Equipament: Biblioteca Sofia Barat Sofia Barat. (Joigny, 1779 – París,
   1865). Religiosa francesa, fundadora de la Societat del Sagrat Cor de Jesús, dedicada
   a l’ensenyament. Sota la seva direcció la congregació va tenir una difusió extraordinària
   i va arribar a tenir 105 col·legis per tot el món.'
@@ -10,7 +10,7 @@ long: 2.1720408
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 570 m
+superficie: 570 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

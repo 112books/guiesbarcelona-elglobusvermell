@@ -1,6 +1,6 @@
 ---
 adreca: C. Bruc, 153 + C. Roger de Llúria, 132
-descripcio: '2 Equipaments: Escola bressol “Casa dels Nens” Carme Biada. (Barcelona,
+descripcio: 'Equipaments: Escola bressol “Casa dels Nens” Carme Biada. (Barcelona,
   1874 – 1949). Besneta de Miquel Biada, constructor de la primera línia de tren de
   la península Ibèrica, que unia Barcelona i Mataró (1848), i dona d’Arturo Elizalde,
   enginyer fundador d’Elizalde, empresa d’automòbils de luxe i esportius. Quan va
@@ -13,7 +13,7 @@ long: 2.1628735
 obertura: '2007'
 publicacions:
 - interiors-illa
-superficie: 689 m
+superficie: 689 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

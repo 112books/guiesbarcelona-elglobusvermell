@@ -1,6 +1,6 @@
 ---
 adreca: Indústria 54 + C. Sicília, 287-297 + C. Còrsega, 495
-descripcio: 2 Antoni Puigvert i Gorro. (Santa Coloma de Gramenet, 1905 – Barcelona,
+descripcio: Antoni Puigvert i Gorro. (Santa Coloma de Gramenet, 1905 – Barcelona,
   1990). Metge uròleg. L’any 1961 fundà la Fundació Puigvert, institut mèdic especialitzat
   en urologia reconegut com un dels més prestigiosos arreu del món en la seva especialitat.
 draft: false
@@ -10,7 +10,7 @@ long: 2.1688982
 obertura: '1999'
 publicacions:
 - interiors-illa
-superficie: 630 m
+superficie: 630 m²
 temes_transversals:
 - espai-public
 title: Jardins d’Antoni Puigvert

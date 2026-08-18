@@ -1,6 +1,6 @@
 ---
 adreca: Marina, 197 + C. Sardenya, 254 bis
-descripcio: '2 Equipament: Equipament escolar previst Clotilde Cerdà i Bosch. (Barcelona,
+descripcio: 'Equipament: Equipament escolar previst Clotilde Cerdà i Bosch. (Barcelona,
   1861 – Santa Cruz de Tenerife, 1926). Concertista d’arpa i compositora, filla de
   l’enginyer Ildefons Cerdà i Sunyer i de la pintora Clotilde Bosch. Com a concertista,
   actuà arreu del món sota el pseudònim d’Esmeralda Cervantes. Alhora, fou una dona
@@ -13,7 +13,7 @@ long: 2.1788213
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 260 m
+superficie: 260 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

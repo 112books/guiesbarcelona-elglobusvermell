@@ -1,6 +1,6 @@
 ---
 adreca: Còrsega, 306-310 + Pg. de Gràcia, 107 + C. Rosselló, 249
-descripcio: '2 Equipament: Centre Cultural Palau Robert . Hi ha l’escultura La Lluna,
+descripcio: 'Equipament: Centre Cultural Palau Robert . Hi ha l’escultura La Lluna,
   de Kiku Mistu. Palau d’estil neoclàssic segons el projecte de l’arquitecte francès
   Henri Grandpierre. Fou construït sota la direcció de l’arquitecte Joan Martorell
   entre 1898 i 1903 com a residència privada de Robert Robert i Surís (Barcelona,
@@ -15,7 +15,7 @@ long: 2.1590344
 obertura: '1987'
 publicacions:
 - interiors-illa
-superficie: 3.795 m
+superficie: 3.795 m²
 temes_transversals:
 - espai-public
 title: Jardins del Palau Robert

@@ -1,6 +1,6 @@
 ---
 adreca: Pg. Taulat, 196+212 + C. Provençals, 3 + C. Josep Ferrater i Móra, 2
-descripcio: 2 Manuel Sacristán Luzón. (Madrid, 1925 – Barcelona, 1985). Pensador i
+descripcio: Manuel Sacristán Luzón. (Madrid, 1925 – Barcelona, 1985). Pensador i
   escriptor. Catedràtic a la Facultat d’Economia de la Universitat de Barcelona, fou
   un dels principals introductors de les teories marxistes a Espanya, tant des del
   punt de vista ecologista com ecopacifista.
@@ -11,7 +11,7 @@ long: 2.2125935
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 510 m
+superficie: 510 m²
 temes_transversals:
 - espai-public
 title: Jardins de Manuel Sacristán

@@ -1,6 +1,6 @@
 ---
 adreca: C. Comte Borrell, 305-307
-descripcio: '2 Equipaments: Centre d’atenció primària + Centre de serveis socials
+descripcio: 'Equipaments: Centre d’atenció primària + Centre de serveis socials
   Maria Assumpció Català i Poch. (Barcelona, 1925 – 2009). Matemàtica i astrònoma.
   Va exercir la docència a la Universitat de Barcelona de 1952 a 1991. El 1970 es
   convertí en la primera dona a obtenir el doctorat en Matemàtiques a la mateixa universitat
@@ -12,7 +12,7 @@ long: 2.1460631
 obertura: '2011'
 publicacions:
 - interiors-illa
-superficie: 730 m
+superficie: 730 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

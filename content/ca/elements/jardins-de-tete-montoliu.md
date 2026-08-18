@@ -1,6 +1,6 @@
 ---
 adreca: Sepúlveda, 90-92
-descripcio: 2 Tete Montoliu. (Barcelona, 1933 – 1997). Pianista de jazz, cec de naixement.
+descripcio: Tete Montoliu. (Barcelona, 1933 – 1997). Pianista de jazz, cec de naixement.
   A partir de 1955 inicià una carrera internacional que el dugué a fer concerts per
   tot el món i a actuar amb els millors jazzmen del moment.
 draft: false
@@ -10,7 +10,7 @@ long: 2.1577002
 obertura: '2007'
 publicacions:
 - interiors-illa
-superficie: 2.770 m
+superficie: 2.770 m²
 temes_transversals:
 - espai-public
 title: Jardins de Tete Montoliu

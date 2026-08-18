@@ -1,6 +1,6 @@
 ---
 adreca: C. Rosselló, 149-153
-descripcio: '2 Equipament: Centre de recerca biomèdica CEK (Centre Esther Koplowitz)
+descripcio: 'Equipament: Centre de recerca biomèdica CEK (Centre Esther Koplowitz)
   Beatriu Pinós-Milany. (Catalunya, 1433 – Palma, 1485). Baronessa. Protectora, impulsora
   i divulgadora del lul·lisme. Personifica la important i significativa implicació
   de les dones del segle XV en el coneixement i divulgació de l’obra del místic i
@@ -12,7 +12,7 @@ long: 2.1507721
 obertura: '2011'
 publicacions:
 - interiors-illa
-superficie: 2.120 m
+superficie: 2.120 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

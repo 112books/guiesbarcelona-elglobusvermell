@@ -1,6 +1,6 @@
 ---
 adreca: C. València, 302
-descripcio: '2 Equipament: Centre Cultural Casa Elizalde . Casa construïda l’any 1888
+descripcio: 'Equipament: Centre Cultural Casa Elizalde . Casa construïda l’any 1888
   per l’arquitecte Emili Sala i Cortès. L’immoble fou la residència de la família
   Elizalde fins al 1965 i, alhora, acollí durant anys la seu de l’empresa Elizalde
   SA, una de les principals fàbriques d’automòbils de l’Estat espanyol a principis
@@ -13,7 +13,7 @@ long: 2.1661599
 obertura: '1985'
 publicacions:
 - interiors-illa
-superficie: 660 m
+superficie: 660 m²
 temes_transversals:
 - espai-public
 title: Jardins de la Casa Elizalde

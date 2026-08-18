@@ -8,9 +8,9 @@ publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
-superficie: 480 m
+superficie: 480 m²
 obertura: 2014 (1a fase)
-descripcio: '2 (1a fase) Més info: Connecta amb la part posterior de la Casa Macaya
+descripcio: '(1a fase) Més info: Connecta amb la part posterior de la Casa Macaya
   (Josep Puig i Cadafalch, 1898-1901) Agustí Centelles i Ossó. (València, 1909 – Barcelona,
   1985). Pioner del fotoperiodisme modern europeu. Les seves imatges són de les més
   representatives i famoses de la Guerra Civil, tant de la rereguarda a Barcelona,

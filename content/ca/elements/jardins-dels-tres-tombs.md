@@ -1,6 +1,6 @@
 ---
 adreca: Manso, 24-28 + C. Calàbria, 8
-descripcio: '2 Equipaments: Escola bressol “Els Tres Tombs” + Centre de Serveis Socials
+descripcio: 'Equipaments: Escola bressol “Els Tres Tombs” + Centre de Serveis Socials
   de Sant Antoni Més info: Entre els anys vint i els noranta del segle XX hi va haver
   la fàbrica Galletas Montes Els Tres Tombs. Durant les festes de Sant Antoni, protector
   dels animals, se celebren les cavalcades dels Tres Tombs, que consisteixen a fer
@@ -14,7 +14,7 @@ long: 2.1608552
 obertura: '2001'
 publicacions:
 - interiors-illa
-superficie: 780 m
+superficie: 780 m²
 temes_transversals:
 - espai-public
 title: Jardins dels Tres Tombs

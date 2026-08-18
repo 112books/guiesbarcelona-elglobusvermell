@@ -1,6 +1,6 @@
 ---
 adreca: Comte d’Urgell, 145-147
-descripcio: '2 Equipaments: Centre Cultural Teresa Pàmies + Biblioteca Esquerra de
+descripcio: 'Equipaments: Centre Cultural Teresa Pàmies + Biblioteca Esquerra de
   l’Eixample – Agustí Centelles + Centre Cívic Urgell Ermessenda de Carcassona. (Carcassona,
   ca. 973 – Sant Quirze de Besora, 1058). Comtessa consort de Barcelona, Girona i
   Osona. Fou la dona més influent dels comtats catalans durant l’època medieval, quan
@@ -12,7 +12,7 @@ long: 2.1515873
 obertura: '2011'
 publicacions:
 - interiors-illa
-superficie: 1.500 m
+superficie: 1.500 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

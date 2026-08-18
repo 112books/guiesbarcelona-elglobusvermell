@@ -1,6 +1,6 @@
 ---
 adreca: Rosselló, 488 + C. Provença, 533
-descripcio: '2 Més info: Fins al 1992 hi va haver l’antiga fàbrica Damm. Hi queda
+descripcio: 'Més info: Fins al 1992 hi va haver l’antiga fàbrica Damm. Hi queda
   un gran dipòsit de cervesa de coure. Montserrat Roig i Fransitorra. (Barcelona,
   1946 – 1991). Escriptora en català de novel·les, contes, reportatges i articles
   periodístics. També va presentar i dirigir diversos programes de televisió, on va
@@ -13,7 +13,7 @@ long: 2.1788638
 obertura: '1996'
 publicacions:
 - interiors-illa
-superficie: 910 m
+superficie: 910 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

@@ -1,6 +1,6 @@
 ---
 adreca: Comte d’Urgell, 31 + C. Comte Borrell, 82
-descripcio: 2 Cristina Fernández Pereira. (Villasinde, Lleó, 1900 – Barcelona, 1939).
+descripcio: Cristina Fernández Pereira. (Villasinde, Lleó, 1900 – Barcelona, 1939).
   Portera executada pel règim franquista. El propietari de la finca on treballava,
   a Tamarit / Comte Borrell, la va acusar d’haver-lo denunciat per feixista, motiu
   pel qual va ser detinguda, ingressada a la presó de Dones de Les Corts i afusellada
@@ -14,7 +14,7 @@ long: 2.159899
 obertura: '2020'
 publicacions:
 - interiors-illa
-superficie: 1.000 m
+superficie: 1.000 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

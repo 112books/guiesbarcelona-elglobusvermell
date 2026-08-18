@@ -1,6 +1,6 @@
 ---
 adreca: C. Provença, 97
-descripcio: '2 Equipaments: Espai de Gent Gran de l’Esquerra de l’Eixample + Pavelló
+descripcio: 'Equipaments: Espai de Gent Gran de l’Esquerra de l’Eixample + Pavelló
   d’esports de l’escola IPSI Més info: Un mural recorda que anteriorment aquest solar
   havia estat ocupat per l’editorial Sopena Maria Mercè Marçal i Serra. (Ivars d’Urgell,
   1952 – Barcelona, 1998). Poetessa, narradora, editora, traductora i catedràtica
@@ -15,7 +15,7 @@ long: 2.1494459
 obertura: '2002'
 publicacions:
 - interiors-illa
-superficie: 320 m
+superficie: 320 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni
