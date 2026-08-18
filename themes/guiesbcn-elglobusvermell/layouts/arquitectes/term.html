@@ -1,33 +1,46 @@
 {{ define "main" }}
 {{ $pubs := hugo.Data.publicacions }}
 
+{{/* Alguns termes (amb "&" al nom) provoquen un bug de fusió no
+     determinista de Hugo quan tenen fitxa dedicada — es documenta bio/
+     enllaços aquí en lloc de content/ca/arquitectes/<slug>/_index.md. */}}
+{{ $bioExtra := dict }}
+{{ range index hugo.Data "arquitectes-bio-extra" }}
+  {{ if eq .terme $.Data.Term }}{{ $bioExtra = . }}{{ end }}
+{{ end }}
+{{ $tipus := .Params.tipus | default $bioExtra.tipus }}
+{{ $descripcio := .Params.descripcio | default $bioExtra.descripcio }}
+{{ $linkCoac := .Params.link_coac | default $bioExtra.link_coac }}
+{{ $linkWikipedia := .Params.link_wikipedia | default $bioExtra.link_wikipedia }}
+{{ $linkWeb := .Params.link_web | default $bioExtra.link_web }}
+
 <article class="publicacio">
 
   <header class="publicacio-cap">
     <h1>{{ .Title }}</h1>
     <p class="publicacio-edicio">
-      {{ if eq .Params.tipus "estudi" }}Estudi d'arquitectura{{ else }}Arquitecte{{ end }}
+      {{ if eq $tipus "estudi" }}Estudi d'arquitectura{{ else }}Arquitecte{{ end }}
     </p>
   </header>
 
-  {{ if or .Params.descripcio .Params.link_coac .Params.link_wikipedia .Params.link_web }}
+  {{ if or $descripcio $linkCoac $linkWikipedia $linkWeb }}
   <section class="arquitecte-bio">
-    {{ with .Params.descripcio }}{{ . | markdownify }}{{ end }}
-    {{ if or .Params.link_coac .Params.link_wikipedia .Params.link_web }}
+    {{ with $descripcio }}{{ . | markdownify }}{{ end }}
+    {{ if or $linkCoac $linkWikipedia $linkWeb }}
     <div class="arquitecte-links">
-      {{ with .Params.link_web }}
+      {{ with $linkWeb }}
       <a href="{{ . }}" class="arquitecte-link arquitecte-link--web" target="_blank" rel="noopener noreferrer">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         Web oficial
       </a>
       {{ end }}
-      {{ with .Params.link_coac }}
+      {{ with $linkCoac }}
       <a href="{{ . }}" class="arquitecte-link arquitecte-link--coac" target="_blank" rel="noopener noreferrer">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
         Arxiu COAC
       </a>
       {{ end }}
-      {{ with .Params.link_wikipedia }}
+      {{ with $linkWikipedia }}
       <a href="{{ . }}" class="arquitecte-link arquitecte-link--wikipedia" target="_blank" rel="noopener noreferrer">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
         Viquipèdia
