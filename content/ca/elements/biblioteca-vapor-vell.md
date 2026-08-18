@@ -2,7 +2,6 @@
 adreca: Ptge. Vapor Vell, 1 |
 draft: false
 edifici_original: Fàbrica tèxtil El Vapor Vell. 1846
-foto: /img/elements/biblioteca-vapor-vell.jpg
 intervencions:
 - any: '2000'
   autors: Josep M. Julià

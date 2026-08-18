@@ -2,7 +2,6 @@
 adreca: Comte de Bell-lloc 192-200 | Les Corts
 draft: false
 edifici_original: Fàbrica Benet Campabadal. Antoni Pons i Domínguez. 1924
-foto: /img/elements/biblioteca-montserrat-abello.jpg
 intervencions:
 - any: '2018'
   autors: Ricard Mercader i Aurora Fernández

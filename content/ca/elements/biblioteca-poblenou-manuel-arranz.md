@@ -3,7 +3,6 @@ adreca: C. Joncar, 35 |
 descripcio: Professor, historiador i arxivista. 1946-1990
 draft: false
 edifici_original: Fàbrica tèxtil de Can Saladrigas. Francisco Pascual. 1884
-foto: /img/elements/biblioteca-poblenou-manuel-arranz.jpg
 intervencions:
 - any: '2009'
   autors: Moisés Gallego i Tomàs Morató

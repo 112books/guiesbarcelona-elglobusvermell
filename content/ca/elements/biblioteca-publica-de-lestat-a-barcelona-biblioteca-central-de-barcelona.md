@@ -2,7 +2,6 @@
 descripcio: Sant Pere, Santa Caterina i la Ribera | Ciutat Vella Nitidus Arquitectes.
   En projecte. Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.
 draft: false
-foto: /img/elements/biblioteca-publica-de-lestat-a-barcelona-biblioteca-central-de-barcelona.jpg
 lat: 41.3847499
 long: 2.1870806
 publicacions:

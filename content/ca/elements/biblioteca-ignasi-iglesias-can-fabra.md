@@ -2,7 +2,6 @@
 adreca: C. Segre, 24-32 | Sant Andreu
 draft: false
 edifici_original: Filatura Fabra i Coats. 1880
-foto: /img/elements/biblioteca-ignasi-iglesias-can-fabra.jpg
 intervencions:
 - any: '2005'
   autors: Moisés Gallego i Tomàs Morató
