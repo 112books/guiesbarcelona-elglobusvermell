@@ -134,6 +134,37 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ---
 
+## Correu Xavi — repàs de fitxes per plànol (2026-08-18)
+
+Correu llarg, revisió plànol per plànol. Triatge fet, res aplicat encara. Confirmat amb mostres reals:
+`mercat-de-canyelles.md` (cap camp `any`, l'any 1987 només dins el text lliure), `masia-can-basté.md`
+("segle xviii"/"segle xx" en minúscules dins el text), fitxa combinada biblioteca+jardí de Càndida Pérez
+(el blob de `descripcio` ja conté les etiquetes "Sobre els jardins:" / "Més info:" / "Sobre la biblioteca:"
+barrejades en text pla — confirma que la info hi és, només cal extreure-la).
+
+### 🔧 Mecànic — es pot fer sense esperar decisió
+- ⏳ "Data desconeguda" en lloc de "(sense data)" als llistats ordenats per data, on la data és realment desconeguda.
+- ⏳ Segles en versaletes (o majúscules si no es pot) als textos — confirmat minúscules a `masia-can-basté.md` ("segle xviii"), probablement a totes les masies i altres plànols amb segles al text.
+- ⏳ Bug del "2" al principi del text (jardins) — cal localitzar-lo primer (l'exemple revisat tenia "m 2" enmig del text, probablement símbol m² mal importat; Xavi diu "al principi", pot ser un cas diferent — **cal buscar-lo abans d'assumir que és el mateix bug**).
+
+### 🔍 Cal investigar abans d'actuar (abast/causa desconeguts)
+- ⏳ Format de foto: per què el retall quadrat original s'ha perdut (CSS `object-fit`? mida diferent de la imatge pujada?) — cal mirar el CSS/template de la foto d'element abans de tocar res.
+- ⏳ Biblioteques: per què hi surt la portada del plànol en lloc de la foto de l'edifici a moltes fitxes — bug de dades (camp `foto` apuntant malament) o bug de template?
+- ⏳ Mercats: informació perduda en la migració (ex. Mercat Felip II — projecte original + remodelació) — cal comparar amb la font (dump WP / plànol original) per saber l'abast real, Xavi no ho ha comprovat cas per cas.
+- 🔴 Biblioteques: imatges no carregades — **Xavi diu esperar** que ens passi totes les fotos abans de tocar-ho.
+
+### ⏳ Cal decisió (teva i/o de Xavi) abans d'aplicar
+- ⏳ Format `any` + `projecte` (=arquitecte/estudi) per als plànols: Arquitectura d'Avantguarda, Arquitectura Moderna, De l'esperança a la crisi, La revolució tranquil·la. Cal decidir l'esquema exacte de camps abans d'extreure text lliure → estructurat (De l'esperança a la crisi, La revolució tranquil·la, La Barceloneta, Biblioteques tenen fitxes amb la info encara en text pla).
+- ⏳ La Barceloneta: renombrar "projecte" → "autoria" (és un plànol d'art, no només arquitectura). Reflexió apuntada per Xavi (no demanada encara): ¿els artistes citats haurien de tenir taxonomia pròpia com els arquitectes? — no actuar, només apuntat per si de cas en plànols futurs d'art públic.
+- ⏳ Jardins interiors d'illa: camp `obertura` → Xavi proposa dir-ne `any` com a la resta de plànols (unificar). Cal decidir si es renombra el camp o si el sistema ha d'acceptar tots dos noms.
+- ⏳ Jardins interiors d'illa: separar el text en categories (Equipaments / Homenatge / + info) — que ja existeixen com a etiquetes dins el text (veure exemple confirmat). Cal decidir l'esquema de camps abans d'extreure'ls a totes les fitxes del plànol.
+- ⏳ Masies: com resoldre "sense any" quan només se sap l'època aproximada — opcions que proposa Xavi: (a) posar el segle com a valor d'`any`, o (b) ordenar el llistat per districte en lloc de per any (com al plànol en paper). Xavi apunta que el mateix criteri (b) podria aplicar-se també a Biblioteques.
+- ⏳ Mercats: Xavi s'inclina per no ordenar per any en cap plànol — en el cas de Mercats, agrupar per zona (com al plànol en paper) amb text introductori per zona, i desplegar clicant el títol de la zona en lloc de l'any. Canvi d'estructura/disseny, no només de dades.
+
+*Protocol general: per cada bloc "cal decisió", Joan/Xavi trien criteri → un cop clar, delegar l'extracció text→camps a una IA plànol a plànol (verificant mostra abans d'aplicar a tot el plànol) → `hugo build` + revisió visual → marcar fet. Xavi s'ofereix a fer comprovació exhaustiva fitxa per fitxa si cal.*
+
+---
+
 ## Decisions — respostes Xavi (2026-08-17)
 
 Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
