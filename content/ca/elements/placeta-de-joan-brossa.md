@@ -13,7 +13,7 @@ long: 2.1550186
 obertura: '2010'
 publicacions:
 - interiors-illa
-superficie: 1.060 m²
+superficie: 1.060
 temes_transversals:
 - espai-public
 title: Placeta de Joan Brossa

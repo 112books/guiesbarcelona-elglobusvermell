@@ -11,7 +11,7 @@ long: 2.1460385
 obertura: '2001'
 publicacions:
 - interiors-illa
-superficie: 4.970 m²
+superficie: 4.970
 temes_transversals:
 - espai-public
 title: Jardins de Safo

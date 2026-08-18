@@ -11,7 +11,7 @@ long: 2.1766006
 obertura: '1997'
 publicacions:
 - interiors-illa
-superficie: 860 m²
+superficie: 860
 temes_transversals:
 - espai-public
 title: Plaça d’Henry Dunant

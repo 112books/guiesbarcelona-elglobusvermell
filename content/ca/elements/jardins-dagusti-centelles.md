@@ -8,7 +8,7 @@ publicacions:
 - interiors-illa
 temes_transversals:
 - espai-public
-superficie: 480 m²
+superficie: 480
 obertura: 2014 (1a fase)
 descripcio: '(1a fase) Més info: Connecta amb la part posterior de la Casa Macaya
   (Josep Puig i Cadafalch, 1898-1901) Agustí Centelles i Ossó. (València, 1909 – Barcelona,

@@ -11,7 +11,7 @@ long: 2.2137831
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 060 m²
+superficie: 060
 temes_transversals:
 - espai-public
 title: Jardins de Josep Maria Sostres

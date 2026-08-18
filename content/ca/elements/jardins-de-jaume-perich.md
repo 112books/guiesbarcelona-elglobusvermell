@@ -13,7 +13,7 @@ long: 2.1731586
 obertura: '2002'
 publicacions:
 - interiors-illa
-superficie: 1.220 m²
+superficie: 1.220
 temes_transversals:
 - espai-public
 title: Jardins de Jaume Perich

@@ -10,7 +10,7 @@ long: 2.2091946
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 290 m²
+superficie: 290
 temes_transversals:
 - espai-public
 title: Jardins de Jaime Gil de Biedma

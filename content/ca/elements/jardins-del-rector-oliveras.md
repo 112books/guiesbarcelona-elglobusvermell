@@ -11,7 +11,7 @@ long: 2.1675371
 obertura: '2002'
 publicacions:
 - interiors-illa
-superficie: 1.000 m²
+superficie: 1.000
 temes_transversals:
 - espai-public
 title: Jardins del Rector Oliveras

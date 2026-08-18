@@ -15,7 +15,7 @@ long: 2.1590344
 obertura: '1987'
 publicacions:
 - interiors-illa
-superficie: 3.795 m²
+superficie: 3.795
 temes_transversals:
 - espai-public
 title: Jardins del Palau Robert

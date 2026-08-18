@@ -12,7 +12,7 @@ long: 2.1596037
 obertura: '1995'
 publicacions:
 - interiors-illa
-superficie: 2.390 m²
+superficie: 2.390
 temes_transversals:
 - espai-public
 title: Jardins de Cèsar Martinell

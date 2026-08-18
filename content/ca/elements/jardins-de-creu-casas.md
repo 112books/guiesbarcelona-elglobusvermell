@@ -10,7 +10,7 @@ long: 2.19404
 obertura: '1992'
 publicacions:
 - interiors-illa
-superficie: 960 m²
+superficie: 960
 temes_transversals:
 - espai-public
 title: Jardins de Creu Casas

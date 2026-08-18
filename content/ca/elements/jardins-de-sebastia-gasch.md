@@ -12,7 +12,7 @@ long: 2.1528692
 obertura: '1994'
 publicacions:
 - interiors-illa
-superficie: 2.100 m²
+superficie: 2.100
 temes_transversals:
 - espai-public
 title: Jardins de Sebastià Gasch

@@ -13,7 +13,7 @@ long: 2.1661599
 obertura: '1985'
 publicacions:
 - interiors-illa
-superficie: 660 m²
+superficie: 660
 temes_transversals:
 - espai-public
 title: Jardins de la Casa Elizalde

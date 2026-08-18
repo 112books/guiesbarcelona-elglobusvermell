@@ -11,7 +11,7 @@ long: 2.2115348
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 320 m²
+superficie: 320
 temes_transversals:
 - espai-public
 title: Jardins de Carles Barral
