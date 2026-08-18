@@ -17,7 +17,7 @@ long: 2.1630256
 obertura: '1871'
 publicacions:
 - interiors-illa
-superficie: 12.640 m²
+superficie: 12.640
 temes_transversals:
 - espai-public
 title: Jardí de Ferran Soldevila / Jardins de la Universitat de Barcelona

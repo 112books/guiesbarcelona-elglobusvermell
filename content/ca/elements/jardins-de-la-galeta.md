@@ -8,7 +8,7 @@ long: 2.190585
 obertura: '2023'
 publicacions:
 - interiors-illa
-superficie: '? m²'
+superficie: '?'
 temes_transversals:
 - espai-public
 title: Jardins de la Galeta

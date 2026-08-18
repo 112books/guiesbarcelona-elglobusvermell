@@ -9,7 +9,7 @@ long: 2.1753252
 obertura: '1995'
 publicacions:
 - interiors-illa
-superficie: 445 m²
+superficie: 445
 temes_transversals:
 - espai-public
 title: Jardins de Carlit

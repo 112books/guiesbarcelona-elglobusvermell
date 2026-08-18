@@ -11,7 +11,7 @@ long: 2.2125935
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 510 m²
+superficie: 510
 temes_transversals:
 - espai-public
 title: Jardins de Manuel Sacristán

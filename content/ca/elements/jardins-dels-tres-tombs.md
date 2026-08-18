@@ -14,7 +14,7 @@ long: 2.1608552
 obertura: '2001'
 publicacions:
 - interiors-illa
-superficie: 780 m²
+superficie: 780
 temes_transversals:
 - espai-public
 title: Jardins dels Tres Tombs

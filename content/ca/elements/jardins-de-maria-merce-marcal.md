@@ -15,7 +15,7 @@ long: 2.1494459
 obertura: '2002'
 publicacions:
 - interiors-illa
-superficie: 320 m²
+superficie: 320
 temes_transversals:
 - espai-public
 - nomenclator-femeni

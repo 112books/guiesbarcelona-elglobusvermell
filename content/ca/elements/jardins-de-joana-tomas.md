@@ -9,7 +9,7 @@ lat: 41.4121518
 long: 2.1881884
 publicacions:
 - interiors-illa
-superficie: 620 m²
+superficie: 620
 temes_transversals:
 - espai-public
 - nomenclator-femeni

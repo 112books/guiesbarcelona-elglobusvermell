@@ -10,7 +10,7 @@ long: 2.1688982
 obertura: '1999'
 publicacions:
 - interiors-illa
-superficie: 630 m²
+superficie: 630
 temes_transversals:
 - espai-public
 title: Jardins d’Antoni Puigvert

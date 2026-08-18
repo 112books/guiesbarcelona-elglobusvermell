@@ -12,7 +12,7 @@ long: 2.167656
 obertura: '1983'
 publicacions:
 - interiors-illa
-superficie: 630 m²
+superficie: 630
 temes_transversals:
 - espai-public
 title: Jardins de La Sedeta

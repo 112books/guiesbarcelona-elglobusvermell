@@ -23,7 +23,7 @@ long: 2.171976
 obertura: '2020'
 publicacions:
 - interiors-illa
-superficie: 2.300 m²
+superficie: 2.300
 temes_transversals:
 - espai-public
 - nomenclator-femeni

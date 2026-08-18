@@ -13,7 +13,7 @@ long: 2.1697674
 obertura: '1985'
 publicacions:
 - interiors-illa
-superficie: 1.560 m²
+superficie: 1.560
 temes_transversals:
 - espai-public
 title: Jardins de la Torre de les Aigües

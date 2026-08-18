@@ -11,7 +11,7 @@ long: 2.2103711
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 190 m²
+superficie: 190
 temes_transversals:
 - espai-public
 title: Jardins de Joan Fuster

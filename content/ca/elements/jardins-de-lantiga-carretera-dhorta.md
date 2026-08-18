@@ -11,7 +11,7 @@ long: 2.1802416
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 810 m²
+superficie: 810
 temes_transversals:
 - espai-public
 title: Jardins de l’antiga Carretera d’Horta

@@ -10,7 +10,7 @@ long: 2.1577002
 obertura: '2007'
 publicacions:
 - interiors-illa
-superficie: 2.770 m²
+superficie: 2.770
 temes_transversals:
 - espai-public
 title: Jardins de Tete Montoliu
