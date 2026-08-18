@@ -6,7 +6,6 @@ descripcio: 'Remodelació: Institut de Cultura i Biblioteca Popular per a la Don
   Josep Fontserè i Mestre. 1857'
 draft: false
 edifici_original: Casa senyorial. s.
-foto: /img/elements/biblioteca-francesca-bonnemaison.jpg
 intervencions:
 - any: '1857'
   autors: Institut de Cultura i Biblioteca Popular per a la Dona. Josep Fontserè i

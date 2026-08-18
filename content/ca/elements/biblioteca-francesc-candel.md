@@ -6,7 +6,6 @@ descripcio: Ocupa part d’un dels antics edificis que componen l’espai conegu
   d’aquesta marca construïda el 1954.
 draft: false
 edifici_original: Fàbrica Lámparas Z – Philips. Antoni Grau. 1954
-foto: /img/elements/biblioteca-francesc-candel.jpg
 intervencions:
 - any: '2006'
   autors: Josep Lluís Canosa
