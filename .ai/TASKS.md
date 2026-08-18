@@ -145,7 +145,7 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 ### 🔧 Mecànic — es pot fer sense esperar decisió
 - ✅ "Data desconeguda" en lloc de "(sense any)" al llistat del mapa (`mapa.js`) quan no hi ha camp `any` — commit `ed96c94`.
 - ✅ Segles en majúscules als textos (versaletes no aplicat, s'ha fet servir la variant que Xavi permetia com a alternativa) — 78 fitxes, "segle xix" → "segle XIX" a totes les masies i altres plànols. Script amb whitelist de numerals romans I-XXI per evitar falsos positius (paraules com "li"/"civil"/"mil"). Commit `ed96c94`.
-- ⏳ Bug del "2" al principi del text (jardins) — cal localitzar-lo primer (l'exemple revisat tenia "m 2" enmig del text, probablement símbol m² mal importat; Xavi diu "al principi", pot ser un cas diferent — **cal buscar-lo abans d'assumir que és el mateix bug**).
+- ✅ Bug del "2" al principi del text (jardins/places) — **arrel confirmada**: el símbol "m²" es va partir en la importació ("m" quedava al camp `superficie`, "2" migrava com a primer token de `descripcio` de la fitxa següent). 58 fitxes afectades (56 jardins + 2 places), totes corregides: `superficie` recupera el "²", `descripcio` perd el "2 " inicial. Commit `9fbff6d`.
 
 ### 🔍 Cal investigar abans d'actuar (abast/causa desconeguts)
 - ⏳ Format de foto: per què el retall quadrat original s'ha perdut (CSS `object-fit`? mida diferent de la imatge pujada?) — cal mirar el CSS/template de la foto d'element abans de tocar res.
