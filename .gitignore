@@ -28,3 +28,6 @@ docs/
 # Directoris locals no rastrejats
 guia-globus-vermell/
 guiesbarcelona.elglobusvermell.org/
+
+# Registre d'hores (time-tracker) — dades internes, no públiques
+.taques/
