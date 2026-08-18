@@ -1,0 +1,15 @@
+# Bio/enllaços per a termes d'arquitecte on una fitxa dedicada
+# (content/ca/arquitectes/<slug>/_index.md) provoca un bug de fusió no
+# determinista de Hugo 0.164.0 quan el terme conté "&" (vegeu commit
+# "fix: revert fitxa curada Arriola & Fiol Arquitectes" — mateix contingut,
+# ~50% dels builds generaven la pàgina de mapa buida). Aquest fitxer permet
+# mostrar bio/enllaços sense passar per aquesta fusió: `arquitectes/term.html`
+# el consulta com a alternativa quan no hi ha fitxa dedicada.
+#
+# terme: ha de coincidir EXACTAMENT amb el nom canònic usat al camp
+# `arquitectes:` dels edificis (és la clau de cerca).
+
+- terme: "Arriola & Fiol Arquitectes"
+  tipus: estudi
+  link_coac: "https://www.arquitecturacatalana.cat/ca/autors/arriola--fiol-arquitectes"
+  link_web: "https://arriolafiol.com/"
