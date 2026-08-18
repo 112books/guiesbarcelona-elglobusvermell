@@ -7,7 +7,7 @@ descripcio: 'Projecte original: Josep Fontserè i Mestre i Josep Maria Cornet i 
   1971 va funcionar com el mercat majorista de fruita i verdura de la ciutat, però
   amb l’obertura de Mercabarna, l’activitat es va traslladar allà. Actualment, el
   Born és un centre cultural i de memòria on es poden observar les restes de la ciutat
-  medieval arrasada a principis del segle xviii, després de la derrota a la guerra
+  medieval arrasada a principis del segle XVIII, després de la derrota a la guerra
   de Successió (1701-1714).'
 draft: false
 foto: /img/elements/el-born-muhba-mercat-del-born.jpg

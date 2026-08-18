@@ -1,8 +1,8 @@
 ---
 adreca: Santa Fe, 2
 descripcio: Santa Fe, 2 / Pl. Torre Llobeta / Pg. Maragall, 222 bis També coneguda
-  com a Can Basté de les Parets i Mas Montaner Mas de, possiblement, el segle xv .
-  S’hi fan reformes als segles xix i xx . El 1983 s’hi obre el Centre Cívic Torre
+  com a Can Basté de les Parets i Mas Montaner Mas de, possiblement, el segle XV .
+  S’hi fan reformes als segles XIX i XX . El 1983 s’hi obre el Centre Cívic Torre
   Llobeta.
 draft: false
 lat: 41.4268159

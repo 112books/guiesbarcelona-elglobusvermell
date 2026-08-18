@@ -1,6 +1,6 @@
 ---
 adreca: Roine, 12-16
-descripcio: Roine, 12-16 Mas construït entre els segles xviii i xix . Actualment està
+descripcio: Roine, 12-16 Mas construït entre els segles XVIII i XIX . Actualment està
   dividit en tres cases.
 draft: false
 lat: 41.4307571

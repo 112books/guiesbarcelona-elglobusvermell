@@ -1,7 +1,7 @@
 ---
 adreca: Castelló, 1
-descripcio: Castelló, 1 / Freixa, 52-56 Masia de finals del segle xvi . A principis
-  del segle xx s’hi fa una reforma segons l’estètica modernista. Actualment és el
+descripcio: Castelló, 1 / Freixa, 52-56 Masia de finals del segle XVI . A principis
+  del segle XX s’hi fa una reforma segons l’estètica modernista. Actualment és el
   Centre Cívic Can Castelló.
 draft: false
 lat: 41.3989953

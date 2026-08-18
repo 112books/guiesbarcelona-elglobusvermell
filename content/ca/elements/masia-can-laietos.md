@@ -1,6 +1,6 @@
 ---
 adreca: Servet, 97
-descripcio: Servet, 97 / Arbúcies Casa de pagès de mitjan segle xix . Ha patit diverses
+descripcio: Servet, 97 / Arbúcies Casa de pagès de mitjan segle XIX . Ha patit diverses
   reformes. Actualment té un ús residencial.
 draft: false
 lat: 41.4372502

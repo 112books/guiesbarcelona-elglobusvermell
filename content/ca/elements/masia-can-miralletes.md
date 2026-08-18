@@ -1,7 +1,7 @@
 ---
 adreca: Jardins de Can Miralletes
 descripcio: Jardins de Can Miralletes / Sant Antoni Maria Claret, 310 / Conca, 47
-  Masia del segle xviii que conserva una inscripció amb l’any 1736. Des del 2023 acull
+  Masia del segle XVIII que conserva una inscripció amb l’any 1736. Des del 2023 acull
   l’Espai Can Miralletes, dedicat al lleure i a l’educació ambiental per a infants.
   IPAC
 draft: false

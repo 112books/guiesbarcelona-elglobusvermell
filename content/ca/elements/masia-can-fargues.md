@@ -1,7 +1,7 @@
 ---
 adreca: Pg. Maragall, 383-389
 descripcio: Pg. Maragall, 383-389 / Av. Frederic Rahola, 2-8 També conegut com a Mas
-  Pujol Torre de defensa del segle xiii i masia al voltant del segle xiv . Actualment
+  Pujol Torre de defensa del segle XIII i masia al voltant del segle XIV . Actualment
   acull l’Escola Municipal de Música Can Fargues.
 draft: false
 lat: 41.4273799

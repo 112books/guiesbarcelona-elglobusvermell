@@ -1,6 +1,6 @@
 ---
 adreca: Mura i Dosrius
-descripcio: Mura i Dosrius Construcció de, probablement, el segle xviii . Ha patit
+descripcio: Mura i Dosrius Construcció de, probablement, el segle XVIII . Ha patit
   importants reformes i canvis estructurals. Actualment té un ús privat.
 draft: false
 lat: 41.4402655

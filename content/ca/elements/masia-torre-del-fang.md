@@ -1,7 +1,7 @@
 ---
 adreca: Clot, 228-264
-descripcio: Clot, 228-264 / Espronceda, 296 Masia de, probablement, el segle xv ,
-  tot i que la configuració actual és del segle xviii . És de titularitat pública
+descripcio: Clot, 228-264 / Espronceda, 296 Masia de, probablement, el segle XV ,
+  tot i que la configuració actual és del segle XVIII . És de titularitat pública
   i està pendent de reforma.
 draft: false
 lat: 41.4156548

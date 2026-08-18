@@ -26,7 +26,7 @@ intervencions:
     l’esforç a preservar ―o recuperar― el valor arquitectònic de la fàbrica original.
     D’una altra, per adaptar el conjunt a les més altes exigències tecnològiques i
     mediambientals actuals. Tot això es tradueix en un edifici que, malgrat conservar
-    l’aspecte propi d’una fàbrica del segle xix, és tecnològicament intel·ligent i
+    l’aspecte propi d’una fàbrica del segle XIX, és tecnològicament intel·ligent i
     energèticament autosuficient, fet que li ha permès assolir la certificació LEED
     Platinum. El projecte ha estat possible gràcies a la col·laboració entre la Fundació
     BIT Habitat, de l’Ajuntament de Barcelona, i l’empresa Cisco, totes dues usuàries

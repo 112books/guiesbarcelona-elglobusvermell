@@ -1,7 +1,7 @@
 ---
 adreca: Av. Rio de Janeiro, 49-51
 descripcio: Av. Rio de Janeiro, 49-51 / Pintor Alsamora, 14 També coneguda com a Can
-  Pere Valent i Torre Moragdès Masia construïda entre els segles xvii i xviii , originalment
+  Pere Valent i Torre Moragdès Masia construïda entre els segles XVII i XVIII , originalment
   com a torre de defensa i després adaptada a masia. S’hi ha fet una restauració exterior,
   però se n’ha de determinar l’ús definitiu.
 draft: false

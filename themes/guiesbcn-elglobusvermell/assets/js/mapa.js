@@ -646,7 +646,7 @@
     if (grupPer === 'any') {
       // Agrupar per any, ordenat cronològicament
       totsElsElements.forEach(function (p) {
-        var clau = p.any ? String(p.any) : '(sense any)';
+        var clau = p.any ? String(p.any) : 'sense-any';
         if (!grups[clau]) { grups[clau] = []; ordreClaus.push(clau); }
         grups[clau].push(p);
       });
@@ -701,8 +701,9 @@
       capsalera.setAttribute('aria-controls', cosId);
 
       if (grupPer === 'any') {
+        var etiquetaAny = clau === 'sense-any' ? 'Data desconeguda' : clau;
         capsalera.innerHTML =
-          '<span class="llistat-grup-any">' + clau + '</span>' +
+          '<span class="llistat-grup-any">' + etiquetaAny + '</span>' +
           '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
           '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
       } else {

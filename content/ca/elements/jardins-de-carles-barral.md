@@ -4,7 +4,7 @@ descripcio: 2 Carles Barral Agesta. (Barcelona, 1928 – 1989). Poeta i escripto
   llengua castellana, editor i polític. Va impulsar l’editorial Seix-Barral i va aconseguir
   que esdevingués una de les més importants de l’època. Com a editor va crear premis
   i col·leccions que van donar a conèixer els més importants corrents literaris europeus
-  i hispanoamericans del segle xx.
+  i hispanoamericans del segle XX.
 draft: false
 lat: 41.4027535
 long: 2.2115348

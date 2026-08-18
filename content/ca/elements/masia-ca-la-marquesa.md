@@ -1,6 +1,6 @@
 ---
 adreca: Maignon, 27
-descripcio: Maignon, 27 Edificació de, probablement, el segle xviii . Formava part
+descripcio: Maignon, 27 Edificació de, probablement, el segle XVIII . Formava part
   d’una gran propietat agrícola. Actualment té un ús residencial. Tipologia original
   irreconeixible.
 draft: false

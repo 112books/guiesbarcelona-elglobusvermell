@@ -1,6 +1,6 @@
 ---
 adreca: Font Florida, 1-3
-descripcio: Font Florida, 1-3 Edifici de principis del segle xix . Actualment en desús
+descripcio: Font Florida, 1-3 Edifici de principis del segle XIX . Actualment en desús
   i pendent de reforma.
 draft: false
 lat: 41.3706833

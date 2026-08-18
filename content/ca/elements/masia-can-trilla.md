@@ -1,6 +1,6 @@
 ---
 adreca: Gran de Gràcia, 177 / Pl
-descripcio: Gran de Gràcia, 177 / Pl. Trilla Mas del segle xvii on es premsava raïm
+descripcio: Gran de Gràcia, 177 / Pl. Trilla Mas del segle XVII on es premsava raïm
   i es feia oli. Actualment està en desús.
 draft: false
 lat: 41.4034039

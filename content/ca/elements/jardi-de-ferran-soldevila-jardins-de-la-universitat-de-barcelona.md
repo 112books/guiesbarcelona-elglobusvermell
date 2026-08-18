@@ -7,7 +7,7 @@ descripcio: '2 Equipament : Universitat Central. L’edifici històric de la Uni
   amb més de vuitanta espècies. Des de l’any 1995 estan dedicats a l’historiador Ferran
   Soldevila. Ferran Soldevila i Zubiburu. (Barcelona, 1894 – 1971). Poeta, dramaturg
   i narrador, és conegut sobretot com un dels grans historiadors catalans del segle
-  xx. La seva intensa activitat d’escriptor tingué un triple vessant: el d’historiador,
+  XX. La seva intensa activitat d’escriptor tingué un triple vessant: el d’historiador,
   el de dramaturg i el de poeta, per bé que fou el primer, amb diferència, el més
   extens.'
 draft: false
