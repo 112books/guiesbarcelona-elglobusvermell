@@ -2,7 +2,7 @@
 adreca: Doctor Ibáñez, 38
 any: '2016'
 arquitectes:
-- H Arquitectes
+- HArquitectes
 draft: false
 intervencions:
 - any: '2016'

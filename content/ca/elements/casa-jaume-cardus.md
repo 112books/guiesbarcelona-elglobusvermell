@@ -2,11 +2,11 @@
 adreca: Alcanar 3
 any: '1907'
 arquitectes:
-- Josep Graner Prat
+- Josep Graner i Prat
 draft: false
 intervencions:
 - any: '1907'
-  autors: Josep Graner Prat
+  autors: Josep Graner i Prat
   descripcio: 'Façana amb clares referències modernistes: des de les motllures i ampits
     de les obertures, basats en motius vegetals, fins a les baranes de ferro forjat
     dels balcons o l’estuc que imita carreus de pedra gravada i que recobreix tota

@@ -2,7 +2,9 @@
 adreca: Pl. Albert Badia i Mur, 1
 any: '2020'
 arquitectes:
-- AIA + Barceló Balanzó + Gustau Gili
+- AIA
+- Barceló Balanzó
+- Gustau Gili
 draft: false
 intervencions:
 - any: '2020'

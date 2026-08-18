@@ -1,7 +1,7 @@
 ---
 adreca: Olzinelles, 31
 arquitectes:
-- H Arquitectes
+- HArquitectes
 descripcio: 'Projecte: HArquitectes. 2017 Premi Ciutat de Barcelona'
 draft: false
 lat: 41.3729246

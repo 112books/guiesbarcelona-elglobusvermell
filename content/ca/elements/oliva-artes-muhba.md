@@ -2,11 +2,11 @@
 adreca: Espronceda, 142-146
 any: '2020'
 arquitectes:
-- BAAS (Jordi Badia)
+- BAAS Arquitectura
 draft: false
 intervencions:
 - any: '2020'
-  autors: BAAS (Jordi Badia)
+  autors: BAAS Arquitectura
   descripcio: ''
   tipus: Projecte
 lat: 41.4081988

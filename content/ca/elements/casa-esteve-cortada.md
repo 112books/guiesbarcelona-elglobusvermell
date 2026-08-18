@@ -2,11 +2,11 @@
 adreca: Mediterrània 4 + Marquès de la Quadra 3
 any: '1906'
 arquitectes:
-- Josep Graner Prat
+- Josep Graner i Prat
 draft: false
 intervencions:
 - any: '1906'
-  autors: Josep Graner Prat
+  autors: Josep Graner i Prat
   descripcio: Semblant a la Casa  Josep Torras, aquí el més característic també són
     les motllures que emmarquen les obertures de la façana, inspirades en motius vegetals.
     La planta baixa, en canvi, mostra un disseny més proper al neoclassicisme.

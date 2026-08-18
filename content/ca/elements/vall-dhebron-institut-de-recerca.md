@@ -1,6 +1,6 @@
 ---
 adreca: Pg. Vall d’Hebron, 129
-descripcio: 'Projecte: BAAS (Jordi Badia) + Espinet/Ubach. 2024 Premi FAD'
+descripcio: 'Projecte: BAAS Arquitectura + Espinet/Ubach. 2024 Premi FAD'
 draft: false
 lat: 41.4279485
 long: 2.1392037

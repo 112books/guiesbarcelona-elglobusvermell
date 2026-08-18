@@ -2,7 +2,8 @@
 adreca: Mèxic, 36
 any: '2002'
 arquitectes:
-- Arata Isozaki, BOMA
+- Arata Isozaki
+- BOMA
 draft: false
 intervencions:
 - any: '2002'
