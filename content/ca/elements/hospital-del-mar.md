@@ -1,5 +1,9 @@
 ---
 adreca: Pg. Marítim de la Barceloneta 25-29
+arquitectes:
+- Albert de Pineda Álvarez
+- Manuel Brullet
+- Alfonso de Luna
 descripcio: 'Reforma i ampliació: Albert de Pineda, Manuel Brullet i Alfonso de Luna.
   1992 – actualitat Premi FAD d’Arquitectura 1992 La gran reforma i ampliació duta
   a terme a partir dels anys noranta pretén integrar l’hospital al nou front marítim
