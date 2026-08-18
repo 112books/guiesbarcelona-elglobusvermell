@@ -1,7 +1,7 @@
 ---
 adreca: C. Indústria, 295 |
 draft: false
-edifici_original: Fàbrica tèxtil Bonaventura Costa i Font. Francesc Mitjans Miró.
+edifici_original: Fàbrica tèxtil Bonaventura Costa i Font. Francesc Mitjans i Miró Miró.
   1948
 intervencions:
 - any: '2012'

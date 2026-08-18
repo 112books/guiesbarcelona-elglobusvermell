@@ -2,11 +2,11 @@
 adreca: La Guineueta
 any: '2003'
 arquitectes:
-- Arriola & Fiol
+- Arriola & Fiol Arquitectes
 draft: false
 intervencions:
 - any: '2003'
-  autors: Arriola & Fiol
+  autors: Arriola & Fiol Arquitectes
   descripcio: ''
   tipus: Projecte
 lat: 41.4364859

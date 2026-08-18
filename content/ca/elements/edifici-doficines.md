@@ -2,11 +2,11 @@
 adreca: Pallars, 180
 any: '2022'
 arquitectes:
-- BAAS (Jordi Badia)
+- BAAS Arquitectura
 draft: false
 intervencions:
 - any: '2022'
-  autors: BAAS (Jordi Badia)
+  autors: BAAS Arquitectura
   descripcio: ''
   tipus: Projecte
 lat: 41.4003932

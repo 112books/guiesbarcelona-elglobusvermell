@@ -2,11 +2,11 @@
 adreca: Sancho de Ávila, 66
 any: '2023'
 arquitectes:
-- B720 (Fermín Vázquez)
+- B720 Arquitectes
 draft: false
 intervencions:
 - any: '2023'
-  autors: B720 (Fermín Vázquez)
+  autors: B720 Arquitectes
   descripcio: ''
   tipus: Projecte
 lat: 41.3990723
