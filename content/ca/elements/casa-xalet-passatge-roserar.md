@@ -9,5 +9,5 @@ lat: 41.3917562
 long: 2.1205558
 publicacions:
 - gatcpac
-title: Casa xalet passatge Roserar
+title: Casa Mercè Escolano
 ---
