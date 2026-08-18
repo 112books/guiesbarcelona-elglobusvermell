@@ -155,6 +155,7 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 - ✅ New Babylon/Tàpies: sense punts al mapa, presència a "en paper"/portada
 - ✅ Fotos: penjar directament al nou web (sense WordPress)
 - ✅ PWA — instal·lar al mòbil: pàgina `static/admin/instal-la-al-mobil/` creada i targeta afegida al hub `/admin/`
+- ⏳ Estudiar si exposar les instruccions d'instal·lació al web públic (ara només a /admin/). Podria ser útil per als visitants. Cal decidir on: peu de pàgina, /ajuda/, banner discret... Pendent de decisió.
 
 ### Pendents de consens ⏳
 - ⏳ Xifres portada: quines xifres concretes (treure anys d'arq. i 2a línia) — Xavi consensuarà amb l'equip
