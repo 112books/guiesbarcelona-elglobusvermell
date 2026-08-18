@@ -242,29 +242,35 @@
     <!-- ── 2. Rols ────────────────────────────────────────────── -->
     <section class="g-section" id="rols">
       <h2>2. Rols: Admin vs Editor</h2>
+      <p>Hi ha tres nivells d'accés al web:</p>
       <table class="g-table">
         <thead>
           <tr>
-            <th>Rol a GitHub</th>
+            <th>Nivell</th>
             <th>Qui l'ha de tenir</th>
             <th>Què pot fer</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Admin</td>
-            <td>Responsables tècnics (p. ex. Joan)</td>
-            <td>Tot el que pot fer un Editor, <strong>més</strong> convidar/treure altres persones, canviar rols, i tocar la configuració del repositori.</td>
+            <td>Propietari del repositori (112books)</td>
+            <td>Responsable tècnic (Joan — LinuxBCN)</td>
+            <td>Tot: convidar i treure editors, canviar configuració del repositori, gestionar GitHub Actions i el desplegament.</td>
           </tr>
           <tr>
-            <td>Write</td>
-            <td>Editors de contingut</td>
-            <td>Entrar a l'editor amb el seu propi token i modificar/publicar fitxes d'edificis i pàgines. <strong>No pot</strong> gestionar altres usuaris.</td>
+            <td>Editor (col·laborador Write)</td>
+            <td>Persones de l'equip del Globus Vermell</td>
+            <td>Entrar al CMS amb el seu propi token i modificar/publicar fitxes d'edificis i pàgines. <strong>No pot</strong> gestionar altres usuaris ni tocar la configuració.</td>
+          </tr>
+          <tr>
+            <td>Usuari públic</td>
+            <td>Qualsevol visitant del web</td>
+            <td>Consultar el web. No necessita cap compte ni contrasenya.</td>
           </tr>
         </tbody>
       </table>
       <div class="g-note">
-        Dona el rol <strong>Admin</strong> amb compte — qui el té pot afegir o treure qualsevol altra persona, inclosos altres admins.
+        Totes les persones que s'afegeixen com a col·laboradores reben accés <strong>Write</strong>. Amb aquest nivell ja poden editar tot el contingut via CMS. La gestió del repositori (convidar, treure, configuració) la fa sempre en Joan.
       </div>
     </section>
 
@@ -288,7 +294,7 @@
         <li>Ves a <a href="https://github.com/112books/guiesbarcelona-elglobusvermell/settings/access" target="_blank" rel="noopener">github.com/112books/guiesbarcelona-elglobusvermell → Settings → Collaborators</a>.</li>
         <li>Clica <strong>Add people</strong>.</li>
         <li>Cerca pel nom d'usuari de GitHub o pel correu electrònic amb què es va registrar.</li>
-        <li>Tria el rol: <strong>Write</strong> per a un editor, <strong>Admin</strong> per a un administrador.</li>
+        <li>Tria el rol <strong>Write</strong> (accés d'editor).</li>
         <li>Confirma la invitació.</li>
       </ol>
     </section>
@@ -324,11 +330,9 @@
       <div class="g-warn">
         <strong>No comparteixis el teu token</strong> amb ningú, ni per convidar-lo ni per donar-li accés temporal. Cada persona ha de crear el seu propi.
       </div>
-      <div class="g-warn">
-        <strong>No donis rol Admin</strong> a algú que només ha d'editar contingut. Dona-li <strong>Write</strong>.
-      </div>
       <ul>
-        <li>No cal donar accés a nivell d'organització (112books) — n'hi ha prou amb afegir la persona a aquest repositori concret.</li>
+        <li>No cal donar accés a cap altre nivell — n'hi ha prou amb afegir la persona a aquest repositori amb accés <strong>Write</strong>.</li>
+        <li>Si cal fer alguna gestió del repositori (canviar configuració, eliminar branques, etc.), ho fa sempre en Joan directament.</li>
       </ul>
     </section>
 
