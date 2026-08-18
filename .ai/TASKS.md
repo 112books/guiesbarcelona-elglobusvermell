@@ -19,7 +19,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - 🔴 Importació de les 564 entrades del WordPress real (espera accés servidor Jorge)
 - 🔴 Imatges dels edificis (espera accés servidor Jorge)
 - ⏳ Geocodificació automàtica dels edificis sense coordenades
-- ✅ Detecció i llistat de punts desubicats (vegeu `.ai/PUNTS-DESUBICATS.md`)
+- ✅ Detecció i llistat de punts desubicats (`.ai/PUNTS-DESUBICATS.md`) — confirmats per Xavi (18 ago): les 5 fitxes ja tenien la coordenada correcta a la base de dades actual, no calia tocar res. **Pendent: aplicar canvi de nom** "Casa xalet passatge Roserar" → "Casa Mercè Escolano" (confirmat per Xavi, encara no aplicat al frontmatter).
 
 ### Mapa
 - ✅ Mapa Leaflet + OpenStreetMap
@@ -42,8 +42,8 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Taxonomia d'arquitectes activa a Hugo (`config/_default/hugo.toml`)
 - ✅ Layouts per a pàgina de llistat i pàgina d'arquitecte individual (amb mapa i llistat d'edificis)
 - ✅ Enllaços a arquitectes des de la fitxa d'edifici
-- ⏳ Separar noms d'arquitectes combinats (73 casos detectats, vegeu `.ai/ARQUITECTES-A-SEPARAR.md`)
-- ⏳ Normalitzar variants duplicades d'arquitectes (esborrany a `.ai/ARQUITECTES-NORMALITZACIO.yaml`)
+- ⏳ Separar noms d'arquitectes combinats (73 casos, `.ai/ARQUITECTES-A-SEPARAR.md`) — format de resposta enviat a Xavi (18 ago): `Nom combinat → Nom 1, Nom 2`, una línia per cas. Pendent que Xavi ompli la llista.
+- ✅ Normalitzar variants duplicades d'arquitectes: diccionari revisat i corregit segons esmenes de Xavi (18 ago) — `.ai/ARQUITECTES-NORMALITZACIO.yaml`, YAML validat, 14 entrades netes. **Pendent: passada automàtica** per aplicar-lo a `content/ca/elements/*.md` (protocol ja definit a la nota del fitxer).
 
 ### Disseny
 - ✅ Logo guiesbarcelona al header
@@ -141,7 +141,9 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 - ✅ Preparar mail de decisions amb totes les preguntes pendents (9 punts en 4 blocs)
 - ✅ Enviat a xavirg@elglobusvermell.org el 2026-08-11
 - ✅ Respostes rebudes el 2026-08-17 — arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
-- ✅ GitHub Xavi (xavirg): convidat com a admin el 2026-08-17 — 🔴 pendent que accepti la invitació
+- ✅ GitHub Xavi: invitació admin a `xavirg` **cancel·lada (2026-08-18)** — resulta ser un compte GitHub alié ("Javi Rodriguez", coincidència de nom d'usuari amb l'email `xavirg@elglobusvermell.org`). Xavi ja tenia accés real amb un altre compte (`xaviglobus`, rol editor/push). Provat pujar `xaviglobus` a admin: no ha estat possible (limitació de GitHub) — **conclusió: no cal rol admin per a les tasques d'edició de continguts de Xavi**, l'accés d'editor ja és suficient.
+- ✅ Correu de Xavi (18 ago, 12:26) amb correccions del diccionari d'arquitectes + confirmació punts desubicats — revisat, aplicat i respost (`docs/esborrany-mail-confirmacio-arquitectes-punts-18ago.md`, enviat)
+- ✅ Correu de Xavi (18 ago, 12:46) amb dubtes d'accés al CMS ("Javi Rodríguez", login penjat) — respost explicant l'error de compte, ús del PAT i contingut del hub `/admin/` (`docs/esborrany-mail-acces-cms-18ago.md`, enviat)
 
 ### Confirmats per Xavi ✅
 - ✅ Signatura LinuxBCN al peu del web públic — aprovada per Xavi
@@ -172,9 +174,9 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 - 🔴 Jorge: dades d'accés al servidor actual
 - ⏳ Xavi: confirmar pressupost 3.900€
 - ⏳ Xavi: 50% de bestreta per iniciar Flutter
-- ✅ Xavi: accés a guiesbarcelona.elglobusvermell.org — convidat com a admin (pendent acceptació)
+- ✅ Xavi: accés a guiesbarcelona.elglobusvermell.org — ja té accés (rol editor, compte `xaviglobus`); invitació admin errònia cancel·lada, no calia
 - ✅ Xavi: clarificació "filtrar per publicacions" al mapa
 - ⏳ Xavi: decisió de disseny (colors publicació vs nou rebrand) — consulta amb l'equip
 - ⏳ Xavi: confirmar esquema de "En paper" (portada + botó PDF)
 - ⏳ Xavi: llicència del peu de pàgina — resolt: © + CC BY-SA 4.0
-- ⏳ Xavi: confirmar contrasenya admin backoffice
+- ~~⏳ Xavi: confirmar contrasenya admin backoffice~~ — obsolet, ja no hi ha protecció per contrasenya al GitHub Pages de proves (comprovat 18 ago)
