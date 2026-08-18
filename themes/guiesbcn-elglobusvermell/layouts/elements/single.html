@@ -210,7 +210,7 @@
       {{ $any := .any }}
       <div class="fitxa-dada">
         <dt>{{ .tipus | title }}</dt>
-        <dd>{{ with $autors }}{{ . }}{{ end }}{{ with $any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}</dd>
+        <dd>{{ with $autors }}{{ . }}{{ end }}{{ with $any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}{{ with .descripcio }}<br>{{ . }}{{ end }}</dd>
       </div>
       {{ end }}
       {{ end }}
