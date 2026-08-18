@@ -143,8 +143,8 @@ Correu llarg, revisió plànol per plànol. Triatge fet, res aplicat encara. Con
 barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 
 ### 🔧 Mecànic — es pot fer sense esperar decisió
-- ⏳ "Data desconeguda" en lloc de "(sense data)" als llistats ordenats per data, on la data és realment desconeguda.
-- ⏳ Segles en versaletes (o majúscules si no es pot) als textos — confirmat minúscules a `masia-can-basté.md` ("segle xviii"), probablement a totes les masies i altres plànols amb segles al text.
+- ✅ "Data desconeguda" en lloc de "(sense any)" al llistat del mapa (`mapa.js`) quan no hi ha camp `any` — commit `ed96c94`.
+- ✅ Segles en majúscules als textos (versaletes no aplicat, s'ha fet servir la variant que Xavi permetia com a alternativa) — 78 fitxes, "segle xix" → "segle XIX" a totes les masies i altres plànols. Script amb whitelist de numerals romans I-XXI per evitar falsos positius (paraules com "li"/"civil"/"mil"). Commit `ed96c94`.
 - ⏳ Bug del "2" al principi del text (jardins) — cal localitzar-lo primer (l'exemple revisat tenia "m 2" enmig del text, probablement símbol m² mal importat; Xavi diu "al principi", pot ser un cas diferent — **cal buscar-lo abans d'assumir que és el mateix bug**).
 
 ### 🔍 Cal investigar abans d'actuar (abast/causa desconeguts)
