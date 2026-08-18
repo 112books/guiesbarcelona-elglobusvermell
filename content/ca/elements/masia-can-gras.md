@@ -1,7 +1,7 @@
 ---
 adreca: Pl. Santes Creus, 20
 descripcio: Pl. Santes Creus, 20 Masia amb explotació agrícola i ramadera. Les primeres
-  referències són del segle xviii . A mitjan segle xix s’hi fa una reforma i es perd
+  referències són del segle XVIII . A mitjan segle XIX s’hi fa una reforma i es perd
   la meitat de la masia. Actualment té un ús residencial.
 draft: false
 lat: 41.4300511

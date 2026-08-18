@@ -7,7 +7,7 @@ intervencions:
 - any: '1761'
   descripcio: És l’única casa amb l’alçada inicial -planta baixa i pis- i amb tres
     façanes que queda al barri i, per tant, el millor exemple de com eren els edificis
-    originals del segle xviii, malgrat les diverses transformacions interiors de què
+    originals del segle XVIII, malgrat les diverses transformacions interiors de què
     ha estat objecte (segregació de l’habitatge, instal·lació d’una botiga de queviures,
     etc.).
   tipus: Projecte

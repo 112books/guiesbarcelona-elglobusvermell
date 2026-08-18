@@ -13,7 +13,7 @@ intervencions:
     xarxa d’horts urbans municipals. Avui, gestionat per Parcs i Jardins, forma part
     de la xarxa d’horts urbans. Hi ha 52 petites parcel·les, conreades de manera ecològica
     per majors de 65 anys, i tambè una granja. Petita casa de pagès de principis del
-    segle xx . El 1942 s’hi afegeixen les dues plantes superiors. És cedida a l’Ajuntament
+    segle XX . El 1942 s’hi afegeixen les dues plantes superiors. És cedida a l’Ajuntament
     el 1997 i habilitada com a equipament públic.
   tipus: Projecte
 lat: 41.3598372

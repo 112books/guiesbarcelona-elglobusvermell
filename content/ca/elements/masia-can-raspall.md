@@ -1,6 +1,6 @@
 ---
 adreca: Manuel Girona, 33
-descripcio: Manuel Girona, 33 Mas del segle xvi , reformat i ampliat el 1920. Actualment
+descripcio: Manuel Girona, 33 Mas del segle XVI , reformat i ampliat el 1920. Actualment
   és un centre mèdic privat.
 draft: false
 lat: 41.3914533

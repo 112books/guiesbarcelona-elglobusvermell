@@ -1,6 +1,6 @@
 ---
 adreca: López Catalán, 4-6
-descripcio: López Catalán, 4-6 Masia del segle xviii de la qual només queda la façana.
+descripcio: López Catalán, 4-6 Masia del segle XVIII de la qual només queda la façana.
   Actualment, sense ús.
 draft: false
 lat: 41.3759623

@@ -1,7 +1,7 @@
 ---
 adreca: Mare de Déu de la Salut, 75
-descripcio: Mare de Déu de la Salut, 75 Masia del segle xviii . Ha patit diverses
-  reformes i ampliacions i des de principis del segle xx és propietat del Club Tennis
+descripcio: Mare de Déu de la Salut, 75 Masia del segle XVIII . Ha patit diverses
+  reformes i ampliacions i des de principis del segle XX és propietat del Club Tennis
   de la Salut.
 draft: false
 lat: 41.4129852

@@ -1,7 +1,7 @@
 ---
 adreca: Manso, 24-28 + C. Calàbria, 8
 descripcio: '2 Equipaments: Escola bressol “Els Tres Tombs” + Centre de Serveis Socials
-  de Sant Antoni Més info: Entre els anys vint i els noranta del segle xx hi va haver
+  de Sant Antoni Més info: Entre els anys vint i els noranta del segle XX hi va haver
   la fàbrica Galletas Montes Els Tres Tombs. Durant les festes de Sant Antoni, protector
   dels animals, se celebren les cavalcades dels Tres Tombs, que consisteixen a fer
   tres voltes amb els cavalls, carros i altres animals de tir per l’interior de la

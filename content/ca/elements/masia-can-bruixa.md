@@ -1,7 +1,7 @@
 ---
 adreca: Parcerisa, 8
-descripcio: Parcerisa, 8 Construïda a la segona meitat del segle xix com a explotació
-  agrària i reformada a la segona meitat del segle xx . Està pendent de rehabilitació
+descripcio: Parcerisa, 8 Construïda a la segona meitat del segle XIX com a explotació
+  agrària i reformada a la segona meitat del segle XX . Està pendent de rehabilitació
   com a equipament públic.
 draft: false
 lat: 41.3693118

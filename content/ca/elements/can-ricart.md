@@ -7,7 +7,7 @@ intervencions:
   descripcio: 'Categoria: Recinte industrial Can Ricart va ser una de les primeres
     fàbriques d’estampació mecànica de teixits de cotó de Catalunya, capdavantera
     en innovació tècnica i volum de producció. Actualment és un dels pocs grans conjunts
-    industrials del segle xix que queden a Barcelona i l’únic amb el màxim nivell
+    industrials del segle XIX que queden a Barcelona i l’únic amb el màxim nivell
     de protecció. El complex està conformat per un sistema de naus i espais exteriors
     que formen un ric i variat teixit urbà anterior a la trama urbanística projectada
     per Cerdà el 1859. El projecte inicial, concebut per Josep Oriol i Bernadet, presenta
@@ -24,7 +24,7 @@ intervencions:
     es construeixen noves naus que també segueixen les característiques constructives
     de les ja existents. A partir de la dècada de 1920, algunes naus de Can Ricart
     se subdivideixen i es lloguen a empreses d’altres sectors. Tot i això, l’activitat
-    tèxtil s’hi manté tot al llarg del segle xx. Actualment, una part del recinte
+    tèxtil s’hi manté tot al llarg del segle XX. Actualment, una part del recinte
     acull la fàbrica de creació Hangar i una altra el Casal de Joves del Poblenou,
     però la majoria de les naus resten a l’espera d’un projecte que les rehabiliti
     i els doni un nou ús.'

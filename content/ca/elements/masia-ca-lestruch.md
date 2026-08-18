@@ -1,7 +1,7 @@
 ---
 adreca: Pons i Gallarza, 30 bis-32
 descripcio: Pons i Gallarza, 30 bis-32 També conegut com a Can Riera Mas dels segles
-  xvi-xvii , que va funcionar com a casa pairal fins a principis del segle xx . Ha
+  XVI-XVII , que va funcionar com a casa pairal fins a principis del segle XX . Ha
   patit nombroses reformes i addicions. Actualment té un ús residencial.
 draft: false
 lat: 41.4355123

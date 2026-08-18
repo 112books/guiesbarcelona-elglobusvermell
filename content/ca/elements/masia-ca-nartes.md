@@ -1,6 +1,6 @@
 ---
 adreca: Pere d’Artés, 8
-descripcio: Pere d’Artés, 8 Mas de finals del segle xiv . Encara conserva elements
+descripcio: Pere d’Artés, 8 Mas de finals del segle XIV . Encara conserva elements
   originaris medievals. Actualment és de propietat privada.
 draft: false
 lat: 41.4305849

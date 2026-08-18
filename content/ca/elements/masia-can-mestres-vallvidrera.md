@@ -1,6 +1,6 @@
 ---
 adreca: Av. Vallvidrera, 25-27
-descripcio: Av. Vallvidrera, 25-27 Mas del segle xvi reformat al segle xviii . Actualment
+descripcio: Av. Vallvidrera, 25-27 Mas del segle XVI reformat al segle XVIII . Actualment
   acull el CEI International Affairs, vinculat a la Universitat de Barcelona.
 draft: false
 lat: 41.4066167
