@@ -619,7 +619,7 @@ main {
 
 .fitxa-imatge {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1/1;
   background: #f0f0f0;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -698,7 +698,7 @@ main {
 .fitxa-carrusel-slide {
   flex: 0 0 100%;
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1/1;
   background: #f0f0f0;
 }
 
