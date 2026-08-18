@@ -148,8 +148,8 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 - ✅ Bug del "2" al principi del text (jardins/places) — **arrel confirmada**: el símbol "m²" es va partir en la importació ("m" quedava al camp `superficie`, "2" migrava com a primer token de `descripcio` de la fitxa següent). 58 fitxes afectades (56 jardins + 2 places), totes corregides: `superficie` recupera el "²", `descripcio` perd el "2 " inicial. Commit `9fbff6d`.
 
 ### 🔍 Cal investigar abans d'actuar (abast/causa desconeguts)
-- ⏳ Format de foto: per què el retall quadrat original s'ha perdut (CSS `object-fit`? mida diferent de la imatge pujada?) — cal mirar el CSS/template de la foto d'element abans de tocar res.
-- ⏳ Biblioteques: per què hi surt la portada del plànol en lloc de la foto de l'edifici a moltes fitxes — bug de dades (camp `foto` apuntant malament) o bug de template?
+- ✅ Format de foto: arrel confirmada — fotos originals gairebé quadrades (mostra: 1200x1200 majoritàriament, algunes 1200x1000), CSS forçava `aspect-ratio: 16/9` amb `object-fit: cover` (retallava ~44% vertical). Canviat a `1/1` a `.fitxa-imatge` i `.fitxa-carrusel-slide`. Portades de plànol-guia (2/3, format llibre) no tocades. Commit `b185b97`.
+- ✅ Biblioteques — foto de portada del plànol en lloc de l'edifici: **confirmat per hash MD5**, no és bug de template. 33 de les 46 biblioteques tenien el camp `foto` apuntant a un duplicat exacte de `static/img/publicacions/biblioteques-cat.jpg` (bug d'importació). Només 2 tenien foto real (Sant Antoni, La Fraternitat); 11 ja no en tenien cap. Camp `foto` erroni tret de les 33 — passen a l'estat "sense foto" en lloc de mostrar la imatge incorrecta. **Pendent: fotos reals de Xavi** per tornar-les a omplir. Commit `eb76f92`.
 - ⏳ Mercats: informació perduda en la migració (ex. Mercat Felip II — projecte original + remodelació) — cal comparar amb la font (dump WP / plànol original) per saber l'abast real, Xavi no ho ha comprovat cas per cas.
 - 🔴 Biblioteques: imatges no carregades — **Xavi diu esperar** que ens passi totes les fotos abans de tocar-ho.
 
