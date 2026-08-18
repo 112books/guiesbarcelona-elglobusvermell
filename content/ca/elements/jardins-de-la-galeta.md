@@ -1,6 +1,6 @@
 ---
 adreca: Àlaba 101 + Sancho de Ávila 50 + Pamplona 104
-descripcio: 2 Dissenyat per Batlle i Roig Arquitectura, pren el nom de l’antiga fàbrica
+descripcio: Dissenyat per Batlle i Roig Arquitectura, pren el nom de l’antiga fàbrica
   Galetes Viñas, “La Galeta”.
 draft: false
 lat: 41.398296
@@ -8,7 +8,7 @@ long: 2.190585
 obertura: '2023'
 publicacions:
 - interiors-illa
-superficie: '? m'
+superficie: '? m²'
 temes_transversals:
 - espai-public
 title: Jardins de la Galeta

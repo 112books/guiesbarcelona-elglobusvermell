@@ -1,6 +1,6 @@
 ---
 adreca: Pg. Taulat, 224+236 + C. Selva de Mar, 3 + C. Provençals, 2
-descripcio: 2 Josep Maria Sostres i Maluquer. (La Seu d’Urgell, 1915 – Barcelona,
+descripcio: Josep Maria Sostres i Maluquer. (La Seu d’Urgell, 1915 – Barcelona,
   1984). Arquitecte. Especialitzat en la construcció d’habitatges unifamiliars, també
   fou l’autor de l’edifici de la seu del diari El Noticiero Universal. La seva obra
   recupera els lligams amb els corrents contemporanis, interromputs per la Guerra
@@ -11,7 +11,7 @@ long: 2.2137831
 obertura: '2003'
 publicacions:
 - interiors-illa
-superficie: 060 m
+superficie: 060 m²
 temes_transversals:
 - espai-public
 title: Jardins de Josep Maria Sostres

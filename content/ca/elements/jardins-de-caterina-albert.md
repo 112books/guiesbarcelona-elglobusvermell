@@ -1,6 +1,6 @@
 ---
 adreca: Rosselló, 395 + Ptge. Mariner
-descripcio: 2 Caterina Albert i Paradís. (L’Escala, 1869 – 1966). Escriptora, coneguda
+descripcio: Caterina Albert i Paradís. (L’Escala, 1869 – 1966). Escriptora, coneguda
   pel sobrenom de Víctor Català. Destacà pel seu estil ple de força i d’una gran riquesa
   lèxica. Escriví la novel·la Solitud (1905), una de les obres literàries cabdals
   del modernisme.
@@ -10,7 +10,7 @@ long: 2.1701378
 obertura: '1993'
 publicacions:
 - interiors-illa
-superficie: 050 m
+superficie: 050 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

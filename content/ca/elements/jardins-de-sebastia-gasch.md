@@ -1,6 +1,6 @@
 ---
 adreca: C. Rocafort, 87 + C. Entença, 62
-descripcio: 2 Sebastià Gasch i Carreras . (Barcelona, 1897 – 1980). Escriptor i crític
+descripcio: Sebastià Gasch i Carreras . (Barcelona, 1897 – 1980). Escriptor i crític
   d’art, considerat un dels crítics fonamentals de l’avantguarda catalana. Fou dels
   primers a donar suport a l’obra de Joan Miró. El 1925 començà a publicar crítica
   d’art a la Gaseta de les Arts, a D’ací i d’allà i a L’amic de les arts. També exercí
@@ -12,7 +12,7 @@ long: 2.1528692
 obertura: '1994'
 publicacions:
 - interiors-illa
-superficie: 2.100 m
+superficie: 2.100 m²
 temes_transversals:
 - espai-public
 title: Jardins de Sebastià Gasch

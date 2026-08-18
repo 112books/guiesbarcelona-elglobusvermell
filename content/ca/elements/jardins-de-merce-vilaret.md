@@ -1,6 +1,6 @@
 ---
 adreca: Floridablanca, 141
-descripcio: 2 Mercè Vilaret i Llop. (Barcelona, 1943 – Sant Cugat del Vallès, 1993).
+descripcio: Mercè Vilaret i Llop. (Barcelona, 1943 – Sant Cugat del Vallès, 1993).
   Realitzadora de televisió. Fou pionera de la seva professió a Catalunya. Deixà empremta
   gràcies a una escriptura molt personal i una sensibilitat extrema envers les desigualtats
   i els problemes socials. Fou, també, una defensora aferrissada del model públic
@@ -11,7 +11,7 @@ long: 2.162395
 obertura: '2007'
 publicacions:
 - interiors-illa
-superficie: 610 m
+superficie: 610 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

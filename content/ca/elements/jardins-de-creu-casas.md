@@ -1,6 +1,6 @@
 ---
 adreca: Pamplona, 45 + C. Zamora, 40
-descripcio: 2 Creu Casas i Sicart. (Barcelona 1913 – 2007). Farmacèutica, botànica,
+descripcio: Creu Casas i Sicart. (Barcelona 1913 – 2007). Farmacèutica, botànica,
   briòloga, professora de la Universitat de Barcelona i catedràtica de la Universitat
   Autònoma de Barcelona. Entre els seus mèrits cal destacar haver format una importantíssima
   generació de briòlegs i l’obra Flora dels briòfits dels Països Catalans.
@@ -10,7 +10,7 @@ long: 2.19404
 obertura: '1992'
 publicacions:
 - interiors-illa
-superficie: 960 m
+superficie: 960 m²
 temes_transversals:
 - espai-public
 title: Jardins de Creu Casas

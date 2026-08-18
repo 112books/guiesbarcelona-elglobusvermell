@@ -1,6 +1,6 @@
 ---
 adreca: C. Rosselló, 191
-descripcio: '2 Més info: Hi ha el poema visual Faune, de Joan Brossa Joan Brossa i
+descripcio: 'Més info: Hi ha el poema visual Faune, de Joan Brossa Joan Brossa i
   Cuervo. (Barcelona, 1919 – 1998). Poeta, dramaturg i artista plàstic, encara que
   ell denominava poesia tot el que feia. Possiblement el poeta avantguardista català
   més important de la segona meitat del segle XX. Fou un dels fundadors del grup artístic
@@ -13,7 +13,7 @@ long: 2.1550186
 obertura: '2010'
 publicacions:
 - interiors-illa
-superficie: 1.060 m
+superficie: 1.060 m²
 temes_transversals:
 - espai-public
 title: Placeta de Joan Brossa

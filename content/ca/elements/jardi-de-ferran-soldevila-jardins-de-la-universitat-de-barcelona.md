@@ -1,6 +1,6 @@
 ---
 adreca: Gran Via de les Corts Catalanes, 585 + C. Aribau, 2-6 + C. Diputació, 230
-descripcio: '2 Equipament : Universitat Central. L’edifici històric de la Universitat
+descripcio: 'Equipament : Universitat Central. L’edifici històric de la Universitat
   de Barcelona va ser construït, segons projecte d’estil neoromànic de l’arquitecte
   Elies Rogent, entre 1863 i 1893, tot i que el 1871 ja s’hi inicià l’activitat docent.
   El projecte incloïa els jardins concebuts per Josep Mirabent com un jardí botànic
@@ -17,7 +17,7 @@ long: 2.1630256
 obertura: '1871'
 publicacions:
 - interiors-illa
-superficie: 12.640 m
+superficie: 12.640 m²
 temes_transversals:
 - espai-public
 title: Jardí de Ferran Soldevila / Jardins de la Universitat de Barcelona

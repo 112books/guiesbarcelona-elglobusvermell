@@ -1,6 +1,6 @@
 ---
 adreca: Plaça Sagrada Família 12 i carrer Rosselló 372
-descripcio: '2 El disseny dels jardins es va fer fet a travé s d’un procés participatiu
+descripcio: 'El disseny dels jardins es va fer fet a travé s d’un procés participatiu
   amb els veïns. El jardí té un parc infantil 100% accessible. Durant els primers
   anys d’obertura del jardí interior d’illa aquest es va conèixer amb el nom popular
   dels “Jardins de l’antic Cinema Niça”. Aquesta sala d’exhibició, que ocupava part
@@ -23,7 +23,7 @@ long: 2.171976
 obertura: '2020'
 publicacions:
 - interiors-illa
-superficie: 2.300 m
+superficie: 2.300 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

@@ -1,6 +1,6 @@
 ---
 adreca: C. Roger de Llúria, 56
-descripcio: '2 Més info: Durant els mesos d’estiu el jardí es converteix en la “platja
+descripcio: 'Més info: Durant els mesos d’estiu el jardí es converteix en la “platja
   de l’Eixample”. Torre de les Aigües. Torre d’aigua projectada per l’arquitecte Josep
   Oriol Mestres amb l’objectiu de subministrar aigua potable als primers edificis
   de l’Eixample. El projecte original, de 1862, preveia la construcció d’una torre
@@ -13,7 +13,7 @@ long: 2.1697674
 obertura: '1985'
 publicacions:
 - interiors-illa
-superficie: 1.560 m
+superficie: 1.560 m²
 temes_transversals:
 - espai-public
 title: Jardins de la Torre de les Aigües

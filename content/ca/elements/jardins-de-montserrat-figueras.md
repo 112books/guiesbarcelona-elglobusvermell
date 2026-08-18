@@ -1,6 +1,6 @@
 ---
 adreca: C. Còrsega, 195-197
-descripcio: 2 Montserrat Figueras i Garcia. (Barcelona, 1942 – Bellaterra, 2011).
+descripcio: Montserrat Figueras i Garcia. (Barcelona, 1942 – Bellaterra, 2011).
   Soprano especialitzada en música antiga i referent en la interpretació vocal de
   música medieval, renaixentista i barroca. La seva trajectòria va estar vinculada
   a la del seu marit, el músic Jordi Savall, amb el qual fundà grups com Hespèrion
@@ -13,7 +13,7 @@ long: 2.1505412
 obertura: '2016'
 publicacions:
 - interiors-illa
-superficie: 1.540 m
+superficie: 1.540 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni

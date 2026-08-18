@@ -1,6 +1,6 @@
 ---
 adreca: C. Àlaba, 49 + C. Pamplona, 42
-descripcio: '2 Més info: Terrenys de l’antiga fàbrica Torras Herrería y Construcciones,
+descripcio: 'Més info: Terrenys de l’antiga fàbrica Torras Herrería y Construcciones,
   coneguda com Can Torras dels Ferros i dedicada a la producció d’estructures metàl·liques.
   Aquí s’allotjaren els àrbitres dels Jocs Olímpics. Mercè Plantada i Vicente. (Barcelona,
   1892 – Vilafranca del Penedès, 1976). Soprano especialitzada en el lied. Debutà
@@ -14,7 +14,7 @@ long: 2.1950071
 obertura: '1992'
 publicacions:
 - interiors-illa
-superficie: 050 m
+superficie: 050 m²
 temes_transversals:
 - espai-public
 - nomenclator-femeni
