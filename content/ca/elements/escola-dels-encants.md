@@ -2,11 +2,11 @@
 adreca: Consell de Cent, 558
 any: '2015'
 arquitectes:
-- Roger Méndez (AMB)
+- Roger Méndez
 draft: false
 intervencions:
 - any: '2015'
-  autors: Roger Méndez (AMB)
+  autors: Roger Méndez
   descripcio: ''
   tipus: Projecte
 lat: 41.4039739
