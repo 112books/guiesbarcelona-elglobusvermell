@@ -34,15 +34,15 @@ normalitzacions:
     variants:
       - "B720 (Fermín Vázquez)"
 
-  - canonic: "BAAS"
+  - canonic: "BAAS Arquitectura"
     variants:
       - "BAAS (Jordi Badia)"
 
-  - canonic: "MBM (Martorell, Bohigas, Mackay)"
+  - canonic: "MBM Arquitectes"
     variants:
-      - "MBM Arquitectes"
+      - "MBM (Martorell, Bohigas, Mackay)"
 
-  - canonic: "EMBT (Enric Miralles i Benedetta Tagliabue)"
+  - canonic: "Miralles Tagliabue EMBT"
     variants:
       - "Enric Miralles i Benedetta Tagliabue"
       - "EMBT (Benedetta Tagliabue)"
@@ -59,21 +59,13 @@ normalitzacions:
     variants:
       - "Robert Terradas"
 
-  - canonic: "Guillem Giráldez i Dávila, Pere López i Íñigo i Xavier Subias i Fages"
+  - canonic: "Giráldez - López Íñigo - Subías Arquitectes"
     variants:
       - "G. Giráldez, P. López i J. Subias"
 
-  - canonic: "Antoni de Moragas i Gallissà i Francisco Ribas de Salas"
-    variants:
-      - "Antoni de Moragas i Gallissà i Francisco Riba de Salas"
-
-  - canonic: "Bayona-Valero"
+  - canonic: "Bayona Valero"
     variants:
       - "Bayona i Valero"
-
-  - canonic: "Cantallops-Vicente"
-    variants:
-      - "Lluís Cantallops"
 
   - canonic: "Arriola & Fiol Arquitectes"
     variants:
@@ -86,4 +78,10 @@ normalitzacions:
   "José Antonio Coderch de Sentmenat i Manuel Valls i Vergés") es tracten
   per separat a `.ai/ARQUITECTES-A-SEPARAR.md`.
 - Si veieu errors o voleu canviar el nom canònic, editeu aquest fitxer.
+- **"Cantallops-Vicente" / "Lluís Cantallops" (exclòs, 2026-08-18):** Xavi confirma que
+  "Lluís Cantallops" és una persona diferent de l'estudi "Cantallops Vicente Arquitectes"
+  — no s'ha de fusionar. Tret d'aquesta llista.
+- **"Antoni de Moragas i Gallissà i Francisco Riba(s) de Salas" (exclòs, 2026-08-18):**
+  és un nom combinat de dos arquitectes, no una variant d'ortografia — es tracta a
+  `.ai/ARQUITECTES-A-SEPARAR.md`, no aquí.
 ```
