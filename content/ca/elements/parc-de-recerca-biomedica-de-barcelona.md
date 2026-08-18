@@ -2,7 +2,9 @@
 adreca: Doctor Aiguader 88
 any: '2006'
 arquitectes:
-- Albert de Pineda Álvarez – PINEARQ, Manuel Brullet i Alfonso de Luna
+- Albert de Pineda Álvarez
+- Manuel Brullet
+- Alfonso de Luna
 draft: false
 foto: /img/elements/parc-de-recerca-biomedica-de-barcelona.jpg
 intervencions:
