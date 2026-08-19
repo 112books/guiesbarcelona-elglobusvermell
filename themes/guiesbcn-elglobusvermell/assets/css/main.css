@@ -611,10 +611,17 @@ main {
   margin: 0 auto;
   border-top: 5px solid var(--pub-color, var(--color-border));
   padding-top: var(--space-md);
+  position: relative;
 }
 
 .fitxa-pub-banda {
-  display: none; /* reservat per futur ús de banda full-width */
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  width: 4px;
+  height: 100%;
+  background: var(--pub-color, transparent);
+  border-radius: 2px;
 }
 
 .fitxa-imatge {
