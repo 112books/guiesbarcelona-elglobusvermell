@@ -7,7 +7,7 @@ draft: false
 foto: /img/elements/jardins-dantoni-puigvert.jpg
 lat: 41.4045005
 long: 2.1688982
-obertura: '1999'
+any: '1999'
 publicacions:
 - interiors-illa
 superficie: 630

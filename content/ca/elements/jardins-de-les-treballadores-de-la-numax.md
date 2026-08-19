@@ -20,7 +20,7 @@ descripcio: 'El disseny dels jardins es va fer fet a travé s d’un procés par
 draft: false
 lat: 41.4035249
 long: 2.171976
-obertura: '2020'
+any: '2020'
 publicacions:
 - interiors-illa
 superficie: 2.300

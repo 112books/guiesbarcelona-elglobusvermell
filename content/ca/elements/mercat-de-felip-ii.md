@@ -1,5 +1,6 @@
 ---
 adreca: Felip II, 118
+districte: "Sant Martí"
 draft: false
 foto: /img/elements/mercat-de-felip-ii.jpg
 intervencions:

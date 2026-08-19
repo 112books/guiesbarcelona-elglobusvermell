@@ -9,7 +9,7 @@ descripcio: 'Equipaments: Centre d’atenció primària + Centre de serveis soci
 draft: false
 lat: 41.3892287
 long: 2.1460631
-obertura: '2011'
+any: '2011'
 publicacions:
 - interiors-illa
 superficie: 730

@@ -8,7 +8,7 @@ draft: false
 foto: /img/elements/jardins-dalicia-de-larrocha.jpg
 lat: 41.3956656
 long: 2.1960669
-obertura: '1992'
+any: '1992'
 publicacions:
 - interiors-illa
 superficie: 840

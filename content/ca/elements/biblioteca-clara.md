@@ -1,5 +1,6 @@
 ---
 adreca: C. Dr. Carulla, 22-24 |
+districte: "Sarrià-Sant Gervasi"
 draft: false
 edifici_original: Habitatge i taller-estudi de Josep Clarà. Raimon Duran i Reynals.
   1920

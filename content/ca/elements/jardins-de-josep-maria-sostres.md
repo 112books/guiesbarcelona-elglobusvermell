@@ -8,7 +8,7 @@ descripcio: Josep Maria Sostres i Maluquer. (La Seu d’Urgell, 1915 – Barcelo
 draft: false
 lat: 41.4044851
 long: 2.2137831
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 060

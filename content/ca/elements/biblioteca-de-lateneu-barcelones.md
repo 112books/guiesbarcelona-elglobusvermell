@@ -1,6 +1,7 @@
 ---
 adreca: Canuda, 6 | Barri Gòtic | Ciutat Vella
 descripcio: Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.
+districte: "Ciutat Vella"
 draft: false
 edifici_original: Palau Savassona. Francesc Ferrer de Llupià. 1796
 intervencions:

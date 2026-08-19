@@ -9,7 +9,7 @@ descripcio: 'Equipaments: Centre Cultural Teresa Pàmies + Biblioteca Esquerra d
 draft: false
 lat: 41.3865331
 long: 2.1515873
-obertura: '2011'
+any: '2011'
 publicacions:
 - interiors-illa
 superficie: 1.500

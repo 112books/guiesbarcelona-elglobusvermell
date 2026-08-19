@@ -9,7 +9,7 @@ descripcio: 'Equipament: Arxiu Municipal del Districte de l’Eixample Maria Man
 draft: false
 lat: 41.3769051
 long: 2.1595181
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 430

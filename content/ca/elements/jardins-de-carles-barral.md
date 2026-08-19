@@ -8,7 +8,7 @@ descripcio: Carles Barral Agesta. (Barcelona, 1928 – 1989). Poeta i escriptor 
 draft: false
 lat: 41.4027535
 long: 2.2115348
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 320

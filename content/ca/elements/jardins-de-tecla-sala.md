@@ -7,7 +7,7 @@ descripcio: Tecla Sala i Miralpeix. (Roda de Ter, 1886 – Barcelona, 1973). Emp
 draft: false
 lat: 41.4068458
 long: 2.1970853
-obertura: '2006'
+any: '2006'
 publicacions:
 - interiors-illa
 superficie: 800

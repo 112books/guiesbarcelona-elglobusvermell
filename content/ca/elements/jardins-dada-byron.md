@@ -7,7 +7,7 @@ draft: false
 foto: /img/elements/jardins-dada-byron.jpg
 lat: 41.4048214
 long: 2.1951302
-obertura: '2006'
+any: '2006'
 publicacions:
 - interiors-illa
 superficie: 430

@@ -2,6 +2,7 @@
 adreca: Pg. Vall d’Hebron, 65-69 | Vallcarca i els Penitents
 descripcio: 'Maria Antonieta Cot Bibliotecària. 1910-1994 Arquitecte: Francesc Rius
   i Joan Íñiguez i Carles Lladó. 2011'
+districte: "Gràcia"
 draft: false
 lat: 41.420011
 long: 2.1396146

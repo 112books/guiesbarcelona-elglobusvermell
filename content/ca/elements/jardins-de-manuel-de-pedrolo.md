@@ -9,7 +9,7 @@ draft: false
 foto: /img/elements/jardins-de-manuel-de-pedrolo.jpg
 lat: 41.4009654
 long: 2.1802057
-obertura: '1997'
+any: '1997'
 publicacions:
 - interiors-illa
 superficie: 970

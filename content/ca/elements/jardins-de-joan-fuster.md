@@ -8,7 +8,7 @@ descripcio: Joan Fuster i Ortells. (Sueca, 1922 – 1992). Escriptor valencià, 
 draft: false
 lat: 41.4018179
 long: 2.2103711
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 190

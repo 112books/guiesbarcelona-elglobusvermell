@@ -1,5 +1,6 @@
 ---
 adreca: Comte de Bell-lloc 192-200 | Les Corts
+districte: "Les Corts"
 draft: false
 edifici_original: Fàbrica Benet Campabadal. Antoni Pons i Domínguez. 1924
 intervencions:

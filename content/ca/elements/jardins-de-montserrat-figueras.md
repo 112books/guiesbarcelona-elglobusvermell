@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-montserrat-figueras.jpg
 lat: 41.3907332
 long: 2.1505412
-obertura: '2016'
+any: '2016'
 publicacions:
 - interiors-illa
 superficie: 1.540

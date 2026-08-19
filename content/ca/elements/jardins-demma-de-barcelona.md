@@ -9,7 +9,7 @@ descripcio: 'Equipaments: Institut Viladomat i escola bressol (en construcció) 
 draft: false
 lat: 41.3822874
 long: 2.1551541
-obertura: '2000'
+any: '2000'
 publicacions:
 - interiors-illa
 superficie: 1.770

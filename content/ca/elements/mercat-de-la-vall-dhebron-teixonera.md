@@ -1,5 +1,6 @@
 ---
 adreca: Pg. de la Vall d’Hebron, 130-134
+districte: "Horta-Guinardó"
 draft: false
 foto: /img/elements/mercat-de-la-vall-dhebron-teixonera.jpg
 intervencions:

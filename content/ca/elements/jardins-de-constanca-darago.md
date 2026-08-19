@@ -7,7 +7,7 @@ descripcio: 'Equipament: CAP Dreta de l’Eixample Constança d’Aragó i d’E
 draft: false
 lat: 41.3991227
 long: 2.1730938
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 1.096

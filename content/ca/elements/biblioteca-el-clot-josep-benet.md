@@ -4,6 +4,7 @@ any: 2013
 arquitectes:
 - MBM Arquitectes
 descripcio: 'Josep Benet: Polític, historiador i editor. 1920-2008'
+districte: "Sant Martí"
 draft: false
 lat: 41.4024589
 long: 2.1880824

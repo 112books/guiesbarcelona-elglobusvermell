@@ -1,5 +1,6 @@
 ---
 adreca: La Rambla, 89
+districte: "Ciutat Vella"
 draft: false
 foto: /img/elements/mercat-de-la-boqueria.jpg
 fotos_addicionals:

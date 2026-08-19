@@ -1,6 +1,7 @@
 ---
 adreca: Domínguez Miralles, 1
 descripcio: Domínguez Miralles, 1
+districte: "Sarrià-Sant Gervasi"
 draft: false
 lat: 41.3968291
 long: 2.1189166

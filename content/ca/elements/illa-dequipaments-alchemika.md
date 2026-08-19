@@ -1,5 +1,6 @@
 ---
 adreca: C. Indústria, 295 |
+districte: "Eixample"
 draft: false
 edifici_original: Fàbrica tèxtil Bonaventura Costa i Font. Francesc Mitjans i Miró Miró.
   1948

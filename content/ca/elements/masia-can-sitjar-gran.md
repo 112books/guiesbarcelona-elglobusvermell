@@ -3,6 +3,8 @@ adreca: Pg. Valldaura, 23-25
 descripcio: Pg. Valldaura, 23-25 Masia construïda entre els segles XVII i XVIII i
   que manté l’ús agrícola fins a mitjan segle XX . Parcialment enderrocada als anys
   seixanta, actualment té un ús residencial.
+any: 's. XVII'
+districte: "Horta-Guinardó"
 draft: false
 lat: 41.4377373
 long: 2.1554469

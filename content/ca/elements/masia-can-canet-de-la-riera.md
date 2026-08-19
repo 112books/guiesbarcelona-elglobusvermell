@@ -4,6 +4,8 @@ descripcio: Bosch i Gimpera, 5-13 Construïda a l’edat mitjana i dedicada al c
   de cereals, vinya i garrofes. Pateix importants reformes als segles XVIII i XX .
   Des de 1954 és la seu del Reial Club de Tennis de Barcelona. Tipologia original
   irreconeixible.
+any: 's. XVIII'
+districte: "Sants-Montjuïc"
 draft: false
 lat: 41.3926492
 long: 2.1174625

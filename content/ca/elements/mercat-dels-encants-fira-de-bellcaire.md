@@ -5,6 +5,7 @@ arquitectes:
 - B720 Arquitectes
 descripcio: Els Encants (Fira de Bellcaire) és el gran mercat brocanter i de segona
   mà.
+districte: "Eixample"
 draft: false
 foto: /img/elements/mercat-dels-encants-fira-de-bellcaire.jpg
 lat: 41.4012518

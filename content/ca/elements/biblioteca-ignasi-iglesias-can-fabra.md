@@ -1,5 +1,6 @@
 ---
 adreca: C. Segre, 24-32 | Sant Andreu
+districte: "Sant Andreu"
 draft: false
 edifici_original: Filatura Fabra i Coats. 1880
 intervencions:

@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-delena-maseras.jpg
 lat: 41.3906196
 long: 2.1530313
-obertura: '2005'
+any: '2005'
 publicacions:
 - interiors-illa
 superficie: 1.070

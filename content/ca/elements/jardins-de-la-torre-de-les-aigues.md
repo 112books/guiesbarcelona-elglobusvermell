@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-la-torre-de-les-aigues.jpg
 lat: 41.3934533
 long: 2.1697674
-obertura: '1985'
+any: '1985'
 publicacions:
 - interiors-illa
 superficie: 1.560

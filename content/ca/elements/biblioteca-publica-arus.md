@@ -5,6 +5,7 @@ arquitectes:
 - Amigó
 descripcio: 'Fort Pienc | Eixample Arquitecte: Bonaventura Bassegoda i Amigó. 1895
   Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'
+districte: "Eixample"
 draft: false
 lat: 41.392963
 long: 2.1785947

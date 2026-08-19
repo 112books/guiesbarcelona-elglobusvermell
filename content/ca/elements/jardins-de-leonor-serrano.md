@@ -7,7 +7,7 @@ descripcio: 'Equipament: Escola bressol “El Clot de la Mel” Leonor Serrano P
 draft: false
 lat: 41.4111195
 long: 2.1934947
-obertura: '2001'
+any: '2001'
 publicacions:
 - interiors-illa
 superficie: 840

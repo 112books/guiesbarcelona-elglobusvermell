@@ -8,7 +8,7 @@ descripcio: 'Més info: Aquí hi havia hagut les casernes de Numància Safo (de 
 draft: false
 lat: 41.3808165
 long: 2.1460385
-obertura: '2001'
+any: '2001'
 publicacions:
 - interiors-illa
 superficie: 4.970

@@ -3,6 +3,7 @@ adreca: Comte Borrell, 44-46
 any: '2007'
 arquitectes:
 - RCR Arquitectes
+districte: "Eixample"
 draft: false
 foto: /img/elements/biblioteca-sant-antoni-joan-oliver-casal-davis-i-jardins-de-candida-perez.jpg
 intervencions:
@@ -17,7 +18,7 @@ intervencions:
   tipus: Projecte
 lat: 41.3777494
 long: 2.1632145
-obertura: '2009'
+any: '2009'
 publicacions:
 - 76-08
 - biblioteques

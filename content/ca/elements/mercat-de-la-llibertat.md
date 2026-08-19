@@ -1,5 +1,6 @@
 ---
 adreca: Pl. Llibertat, 27
+districte: "Gràcia"
 draft: false
 foto: /img/elements/mercat-de-la-llibertat.jpg
 intervencions:

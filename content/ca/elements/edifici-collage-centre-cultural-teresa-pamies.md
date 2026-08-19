@@ -4,6 +4,7 @@ descripcio: 'Biblioteca Esquerra de l’Eixample – Agustí Centelles, Centre C
   i Escola Bressol El Roure Arquitecte: Víctor Rahola i Jorge Vidal. 2011 Sobre la
   Biblioteca Esquerra de l’Eixample – Agustí Centelles Agustí Centelles Fotògraf.
   1909-1985'
+districte: "Eixample"
 draft: false
 lat: 41.3868701
 long: 2.151948

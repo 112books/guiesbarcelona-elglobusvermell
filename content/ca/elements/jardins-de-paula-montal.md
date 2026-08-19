@@ -8,7 +8,7 @@ descripcio: 2, Paula Montal i Fornés . (Arenys de Mar, 1799 – Olesa de Montse
 draft: false
 lat: 41.3815458
 long: 2.1540881
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 2.930 m

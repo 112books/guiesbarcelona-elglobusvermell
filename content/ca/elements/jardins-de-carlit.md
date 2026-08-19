@@ -6,7 +6,7 @@ descripcio: 'Equipament: Escola Carlit + Casal de gent gran Carlit. El pic Carli
 draft: false
 lat: 41.3972991
 long: 2.1753252
-obertura: '1995'
+any: '1995'
 publicacions:
 - interiors-illa
 superficie: 445

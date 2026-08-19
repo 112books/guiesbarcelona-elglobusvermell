@@ -9,7 +9,7 @@ descripcio: 'Equipaments: Centre Cívic La Sedeta + IES La Sedeta + Espais per a
 draft: false
 lat: 41.4055178
 long: 2.167656
-obertura: '1983'
+any: '1983'
 publicacions:
 - interiors-illa
 superficie: 630

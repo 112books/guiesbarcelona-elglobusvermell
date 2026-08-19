@@ -8,7 +8,7 @@ draft: false
 foto: /img/elements/jardins-de-lantiga-carretera-dhorta.jpg
 lat: 41.3939931
 long: 2.1802416
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 810

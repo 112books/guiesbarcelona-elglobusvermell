@@ -7,7 +7,7 @@ descripcio: Creu Casas i Sicart. (Barcelona 1913 – 2007). Farmacèutica, botà
 draft: false
 lat: 41.3938561
 long: 2.19404
-obertura: '1992'
+any: '1992'
 publicacions:
 - interiors-illa
 superficie: 960

@@ -8,7 +8,7 @@ descripcio: Irene Polo i Roig. (Barcelona, 1909 – 1942). Periodista, publicist
 draft: false
 lat: 41.4059157
 long: 2.1937435
-obertura: '2004'
+any: '2004'
 publicacions:
 - interiors-illa
 superficie: 710

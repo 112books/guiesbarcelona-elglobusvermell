@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-jaume-perich.jpg
 lat: 41.3940356
 long: 2.1731586
-obertura: '2002'
+any: '2002'
 publicacions:
 - interiors-illa
 superficie: 1.220

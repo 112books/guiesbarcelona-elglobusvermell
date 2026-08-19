@@ -1,5 +1,6 @@
 ---
 adreca: Pedrosa, 21
+districte: "Nou Barris"
 draft: false
 intervencions:
 - any: '2001'

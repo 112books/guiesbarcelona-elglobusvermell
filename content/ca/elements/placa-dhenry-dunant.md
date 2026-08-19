@@ -8,7 +8,7 @@ descripcio: 'Més info: Té entrades previstes pels passatges d’Ureña, de la 
 draft: false
 lat: 41.4102313
 long: 2.1766006
-obertura: '1997'
+any: '1997'
 publicacions:
 - interiors-illa
 superficie: 860

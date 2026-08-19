@@ -4,6 +4,7 @@ arquitectes:
 - Màrius Quintana
 descripcio: 'Mercè Rodoreda Escriptora. 1908-1983 Guinardó Arquitecte: Màrius Quintana.
   1999'
+districte: "Gràcia"
 draft: false
 lat: 41.4142427
 long: 2.1652694
