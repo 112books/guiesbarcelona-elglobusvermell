@@ -50,7 +50,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Sistema de colors per publicació
 - ⏳ Decisió paleta definitiva (espera Xavi)
 - 🔴 Logo elglobusvermell.org principal (espera servidor Jorge)
-- ⏳ Disseny mòbil (revisar responsiu)
+- ✅ Disseny mòbil (revisat responsiu 2026-08-19: breakpoints 48rem/36rem/480px ja cobreixen fitxa, mapa, llistat i navegació. Cap bug crític trobat)
 - ⏳ Revisar secció "En paper": miniatures per idioma + botons de PDF descarregable
 - ✅ Pàgina de cada guia: secció de descàrregues PDF per idioma preparada (es mostra quan hi ha PDFs a `static/pdf/`)
 
