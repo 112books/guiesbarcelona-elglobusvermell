@@ -51,7 +51,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ⏳ Decisió paleta definitiva (espera Xavi)
 - 🔴 Logo elglobusvermell.org principal (espera servidor Jorge)
 - ✅ Disseny mòbil (revisat responsiu 2026-08-19: breakpoints 48rem/36rem/480px ja cobreixen fitxa, mapa, llistat i navegació. Cap bug crític trobat)
-- ⏳ Revisar secció "En paper": miniatures per idioma + botons de PDF descarregable
+- ✅ Revisar secció "En paper": miniatures per idioma + botons de PDF — afegits estils CSS per `.publicacio-idioma-link` i `.publicacio-idioma-placeholder` (2026-08-19). Pendents: PDFs francès (8), PDFs castellà/anglès (barceloneta, marina), portada gatcpac-fra.jpg
 - ✅ Pàgina de cada guia: secció de descàrregues PDF per idioma preparada (es mostra quan hi ha PDFs a `static/pdf/`)
 
 ### CMS Editorial (Sveltia CMS) — vegeu `.ai/CMS-PLAN.md`
