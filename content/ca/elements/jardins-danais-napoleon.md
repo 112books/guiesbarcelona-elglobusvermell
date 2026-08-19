@@ -9,7 +9,7 @@ draft: false
 foto: /img/elements/jardins-danais-napoleon.jpg
 lat: 41.3981134
 long: 2.1813094
-obertura: '2015'
+any: '2015'
 publicacions:
 - interiors-illa
 superficie: 1.610

@@ -7,7 +7,7 @@ draft: false
 foto: /img/elements/jardins-de-laura-albeniz.jpg
 lat: 41.3965913
 long: 2.163007
-obertura: '2009'
+any: '2009'
 publicacions:
 - interiors-illa
 superficie: 955

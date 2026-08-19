@@ -8,7 +8,7 @@ draft: false
 foto: /img/elements/jardins-del-rector-oliveras.jpg
 lat: 41.3950671
 long: 2.1675371
-obertura: '2002'
+any: '2002'
 publicacions:
 - interiors-illa
 superficie: 1.000

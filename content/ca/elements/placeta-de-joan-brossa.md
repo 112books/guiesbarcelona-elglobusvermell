@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/placeta-de-joan-brossa.jpg
 lat: 41.3923686
 long: 2.1550186
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 1.060

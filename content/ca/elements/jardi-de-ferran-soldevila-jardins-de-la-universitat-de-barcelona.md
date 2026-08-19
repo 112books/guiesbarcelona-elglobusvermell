@@ -14,7 +14,7 @@ draft: false
 foto: /img/elements/jardi-de-ferran-soldevila-jardins-de-la-universitat-de-barcelona.jpg
 lat: 41.3862968
 long: 2.1630256
-obertura: '1871'
+any: '1871'
 publicacions:
 - interiors-illa
 superficie: 12.640

@@ -9,7 +9,7 @@ draft: false
 foto: /img/elements/jardins-de-maria-matilde-almendros.jpg
 lat: 41.3792948
 long: 2.1562359
-obertura: '2008'
+any: '2008'
 publicacions:
 - interiors-illa
 superficie: 500

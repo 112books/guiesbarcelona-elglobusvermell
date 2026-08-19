@@ -1,4 +1,5 @@
 ---
+districte: "Horta-Guinardó"
 draft: false
 foto: /img/elements/pavello-de-la-republica-biblioteca-crai-ub.jpg
 intervencions:

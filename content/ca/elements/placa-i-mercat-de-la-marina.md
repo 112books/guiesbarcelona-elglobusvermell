@@ -3,6 +3,7 @@ adreca: Pg. de la Zona Franca, 178-180
 any: '2003'
 arquitectes:
 - Albert de Pineda
+districte: "Sants-Montjuïc"
 draft: false
 foto: /img/elements/placa-i-mercat-de-la-marina.jpg
 intervencions:

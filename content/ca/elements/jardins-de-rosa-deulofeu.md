@@ -9,7 +9,7 @@ draft: false
 foto: /img/elements/jardins-de-rosa-deulofeu.jpg
 lat: 41.3874148
 long: 2.1459289
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 3.480

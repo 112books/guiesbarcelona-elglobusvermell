@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-lina-odena.jpg
 lat: 41.3962977
 long: 2.1836475
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 420

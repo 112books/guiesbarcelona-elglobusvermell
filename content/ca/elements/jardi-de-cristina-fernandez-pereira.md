@@ -11,7 +11,7 @@ descripcio: Cristina Fernández Pereira. (Villasinde, Lleó, 1900 – Barcelona,
 draft: false
 lat: 41.3803163
 long: 2.159899
-obertura: '2020'
+any: '2020'
 publicacions:
 - interiors-illa
 superficie: 1.000

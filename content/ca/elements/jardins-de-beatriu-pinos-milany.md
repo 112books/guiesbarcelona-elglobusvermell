@@ -9,7 +9,7 @@ descripcio: 'Equipament: Centre de recerca biomèdica CEK (Centre Esther Koplowi
 draft: false
 lat: 41.3890432
 long: 2.1507721
-obertura: '2011'
+any: '2011'
 publicacions:
 - interiors-illa
 superficie: 2.120

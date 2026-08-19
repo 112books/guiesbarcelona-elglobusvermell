@@ -4,6 +4,7 @@ arquitectes:
 - Javier Sanz Rodriguez
 descripcio: 'Marina Clotet Activista. 1941-2006 Arquitecte: Javier Sanz Rodriguez.
   2009'
+districte: "Sant Martí"
 draft: false
 lat: 41.4258919
 long: 2.1937296

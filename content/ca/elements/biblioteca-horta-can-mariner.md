@@ -2,6 +2,7 @@
 adreca: C. del Vent, 1
 descripcio: La primera referència d’aquesta masia és de 1516 i l’última gran reforma,
   de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
+districte: "Horta-Guinardó"
 draft: false
 edifici_original: Masia de Can Mariner. s.
 intervencions:

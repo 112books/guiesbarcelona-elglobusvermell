@@ -9,7 +9,7 @@ draft: false
 foto: /img/elements/jardins-de-sebastia-gasch.jpg
 lat: 41.3788218
 long: 2.1528692
-obertura: '1994'
+any: '1994'
 publicacions:
 - interiors-illa
 superficie: 2.100

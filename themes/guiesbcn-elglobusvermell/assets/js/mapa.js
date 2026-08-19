@@ -636,7 +636,14 @@
   }
 
 
-  // ── Construir llistat (alfabètic o per any) ───────────────────────────
+  // Ordre oficial dels 10 districtes de Barcelona
+  var ORDRE_DISTRICTES = [
+    'Ciutat Vella', 'Eixample', 'Sants-Montjuïc', 'Les Corts',
+    'Sarrià-Sant Gervasi', 'Gràcia', 'Horta-Guinardó',
+    'Nou Barris', 'Sant Andreu', 'Sant Martí'
+  ];
+
+  // ── Construir llistat (alfabètic, per any o per districte) ───────────
   function construeixLlistat() {
     if (!llistatGrups) return;
 
@@ -656,6 +663,30 @@
         if (isNaN(na)) return 1;
         if (isNaN(nb)) return -1;
         return na - nb;
+      });
+    } else if (grupPer === 'districte') {
+      // Agrupar per districte, ordenat per ordre oficial de Barcelona
+      totsElsElements.forEach(function (p) {
+        var clau = p.districte ? String(p.districte) : 'sense-districte';
+        if (!grups[clau]) { grups[clau] = []; ordreClaus.push(clau); }
+        grups[clau].push(p);
+      });
+      // Ordenar grups per ordre oficial; els desconeguts al final
+      ordreClaus.sort(function (a, b) {
+        var ia = ORDRE_DISTRICTES.indexOf(a);
+        var ib = ORDRE_DISTRICTES.indexOf(b);
+        if (a === 'sense-districte') return 1;
+        if (b === 'sense-districte') return -1;
+        if (ia === -1 && ib === -1) return a.localeCompare(b, 'ca');
+        if (ia === -1) return 1;
+        if (ib === -1) return -1;
+        return ia - ib;
+      });
+      // Ordenar elements dins de cada grup alfabèticament per títol
+      ordreClaus.forEach(function (clau) {
+        grups[clau].sort(function (a, b) {
+          return a.title.localeCompare(b.title, 'ca');
+        });
       });
     } else {
       // Agrupar per primera lletra
@@ -704,6 +735,12 @@
         var etiquetaAny = clau === 'sense-any' ? 'Data desconeguda' : clau;
         capsalera.innerHTML =
           '<span class="llistat-grup-any">' + etiquetaAny + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
+          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+      } else if (grupPer === 'districte') {
+        var etiquetaDistricte = clau === 'sense-districte' ? 'Sense districte' : clau;
+        capsalera.innerHTML =
+          '<span class="llistat-grup-any">' + etiquetaDistricte + '</span>' +
           '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
           '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
       } else {

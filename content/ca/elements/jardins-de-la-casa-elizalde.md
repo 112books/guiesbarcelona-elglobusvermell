@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-la-casa-elizalde.jpg
 lat: 41.3942695
 long: 2.1661599
-obertura: '1985'
+any: '1985'
 publicacions:
 - interiors-illa
 superficie: 660

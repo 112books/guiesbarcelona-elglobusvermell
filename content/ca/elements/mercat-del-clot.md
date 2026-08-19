@@ -1,5 +1,6 @@
 ---
 adreca: Pl. del Mercat, 26
+districte: "Sant Martí"
 draft: false
 foto: /img/elements/mercat-del-clot.jpg
 intervencions:

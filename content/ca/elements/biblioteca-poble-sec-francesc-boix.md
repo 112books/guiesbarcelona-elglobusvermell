@@ -1,5 +1,6 @@
 ---
 adreca: C. Blai, 34 | Poble-sec
+districte: "Sants-Montjuïc"
 draft: false
 edifici_original: Escola construïda per la societat benèfica Juntas de Señoras de
   Salas de Asilos. 1889.

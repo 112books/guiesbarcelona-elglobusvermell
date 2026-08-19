@@ -5,6 +5,7 @@ arquitectes:
 - Joan Vera
 descripcio: 'Jaume Fuster Escriptor, guionista i traductor. 1945-1998 Vallcarca i
   els Penitents Arquitecte: Josep Llinàs – Joan Vera. 2005 Premi FAD Arquitectura'
+districte: "Gràcia"
 draft: false
 lat: 41.407367
 long: 2.1491764

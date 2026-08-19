@@ -8,7 +8,7 @@ draft: false
 foto: /img/elements/jardins-de-manuel-sacristan.jpg
 lat: 41.4036751
 long: 2.2125935
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 510

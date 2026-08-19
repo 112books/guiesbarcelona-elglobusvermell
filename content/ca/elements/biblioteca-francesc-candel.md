@@ -4,6 +4,7 @@ barri: La Marina del Port
 descripcio: Ocupa part d’un dels antics edificis que componen l’espai conegut popularment
   com a “illa Philips”, concretament el de la fàbrica de llums i bombetes elèctriques
   d’aquesta marca construïda el 1954.
+districte: "Sants-Montjuïc"
 draft: false
 edifici_original: Fàbrica Lámparas Z – Philips. Antoni Grau. 1954
 intervencions:

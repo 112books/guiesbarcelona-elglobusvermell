@@ -1,6 +1,7 @@
 ---
 adreca: C. Ramon Trias Fargas, 25-27 | Vila Olímpica | Sant Martí
 descripcio: Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.
+districte: "Sant Martí"
 draft: false
 edifici_original: Dipòsit d’aigües. Josep Fontserè i Mestre. 1880
 intervencions:

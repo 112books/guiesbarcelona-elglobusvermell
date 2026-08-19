@@ -12,7 +12,7 @@ descripcio: 'Equipaments: Espai de Gent Gran de l’Esquerra de l’Eixample + P
 draft: false
 lat: 41.3864101
 long: 2.1494459
-obertura: '2002'
+any: '2002'
 publicacions:
 - interiors-illa
 superficie: 320

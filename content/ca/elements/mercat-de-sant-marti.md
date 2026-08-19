@@ -1,5 +1,6 @@
 ---
 adreca: Puigcerdà, 206
+districte: "Sant Martí"
 draft: false
 intervencions:
 - any: '2014'

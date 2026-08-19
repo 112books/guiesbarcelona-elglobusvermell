@@ -1,5 +1,6 @@
 ---
 adreca: Menorca, 19
+districte: "Sant Martí"
 draft: false
 intervencions:
 - any: '2013'

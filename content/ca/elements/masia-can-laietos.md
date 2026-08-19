@@ -2,6 +2,8 @@
 adreca: Servet, 97
 descripcio: Servet, 97 / Arbúcies Casa de pagès de mitjan segle XIX . Ha patit diverses
   reformes. Actualment té un ús residencial.
+any: 's. XIX'
+districte: "Sant Andreu"
 draft: false
 lat: 41.4372502
 long: 2.1863316

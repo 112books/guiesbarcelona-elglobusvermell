@@ -12,7 +12,7 @@ draft: false
 foto: /img/elements/jardins-del-palau-robert.jpg
 lat: 41.395898
 long: 2.1590344
-obertura: '1987'
+any: '1987'
 publicacions:
 - interiors-illa
 superficie: 3.795

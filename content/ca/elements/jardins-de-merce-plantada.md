@@ -11,7 +11,7 @@ draft: false
 foto: /img/elements/jardins-de-merce-plantada.jpg
 lat: 41.3948177
 long: 2.1950071
-obertura: '1992'
+any: '1992'
 publicacions:
 - interiors-illa
 superficie: 050

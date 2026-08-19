@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-montserrat-roig.jpg
 lat: 41.4086784
 long: 2.1788638
-obertura: '1996'
+any: '1996'
 publicacions:
 - interiors-illa
 superficie: 910

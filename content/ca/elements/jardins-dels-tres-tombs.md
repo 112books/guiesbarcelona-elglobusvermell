@@ -11,7 +11,7 @@ draft: false
 foto: /img/elements/jardins-dels-tres-tombs.jpg
 lat: 41.3760366
 long: 2.1608552
-obertura: '2001'
+any: '2001'
 publicacions:
 - interiors-illa
 superficie: 780

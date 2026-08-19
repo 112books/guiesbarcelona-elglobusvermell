@@ -6,6 +6,7 @@ arquitectes:
 - Antoni Solanas
 descripcio: 'Joan Miró Artista. 1893-1983 Nova Esquerra de l’Eixample Arquitecte:
   Beth Galí, Màrius Quintana i Antoni Solanas. 1990'
+districte: "Eixample"
 draft: false
 lat: 41.3787762
 long: 2.1489949

@@ -1,5 +1,6 @@
 ---
 adreca: Ptge. Vapor Vell, 1 |
+districte: "Sants-Montjuïc"
 draft: false
 edifici_original: Fàbrica tèxtil El Vapor Vell. 1846
 intervencions:

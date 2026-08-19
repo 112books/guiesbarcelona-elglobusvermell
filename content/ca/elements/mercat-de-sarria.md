@@ -1,5 +1,6 @@
 ---
 adreca: Pg. Reina Elisenda de Montcada, 8
+districte: "Sarrià-Sant Gervasi"
 draft: false
 intervencions:
 - any: '2007'

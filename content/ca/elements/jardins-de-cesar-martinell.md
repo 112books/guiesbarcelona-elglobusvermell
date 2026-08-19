@@ -9,7 +9,7 @@ draft: false
 foto: /img/elements/jardins-de-cesar-martinell.jpg
 lat: 41.38393
 long: 2.1596037
-obertura: '1995'
+any: '1995'
 publicacions:
 - interiors-illa
 superficie: 2.390

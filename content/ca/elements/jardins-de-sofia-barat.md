@@ -7,7 +7,7 @@ descripcio: 'Equipament: Biblioteca Sofia Barat Sofia Barat. (Joigny, 1779 – P
 draft: false
 lat: 41.3951211
 long: 2.1720408
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 570

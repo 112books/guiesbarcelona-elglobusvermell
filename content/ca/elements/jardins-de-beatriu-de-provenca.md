@@ -8,7 +8,7 @@ draft: false
 foto: /img/elements/jardins-de-beatriu-de-provenca.jpg
 lat: 41.4016584
 long: 2.1717886
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 450

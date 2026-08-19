@@ -155,16 +155,21 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 
 ### ⏳ Cal decisió (teva i/o de Xavi) abans d'aplicar
 
-**Confirmat per Xavi (mail 2026-08-18) — implementar:**
-- ⏳ Jardins interiors d'illa: camp `obertura` → `any` (confirmat)
+**Confirmat per Xavi (mail 2026-08-18) — implementat:**
+- ✅ Jardins interiors d'illa: camp `obertura` → `any` (59 fitxes, script `rename-obertura.py`)
+- ✅ Jardins interiors d'illa: `single.html` actualitzat per mostrar `any` en lloc d'`obertura`
 - ⏳ Jardins interiors d'illa: separar text en seccions planes (Equipaments / Homenatge / + info) — sense categories formals, Xavi s'encarrega edició manual
-- ⏳ Masies sense any: (a) posar el segle com a valor d'`any` + (b) ordenar llistat per districte — les dues alhora (confirmat)
-- ⏳ Biblioteques: ordenar llistat per districte, igual que masies (confirmat)
-- ⏳ Mercats: agrupar per zona amb text introductori + desplegable per zona (confirmat)
+- ✅ Masies sense any: (a) segle extret del text → camp `any` (script `add-any-masies.py`) + (b) districte afegit via Nominatim + corregit a districtes oficials (168 fitxes)
+- ✅ Biblioteques: districte afegit via Nominatim + corregit a districtes oficials (46 fitxes)
+- ✅ Mercats: districte afegit via Nominatim + corregit a districtes oficials (39 fitxes)
+- ✅ `term.html`: camp `districte` passat al JS, `LLISTAT_GRUP` condicional (masies/biblioteques/mercats → 'districte')
+- ✅ `mapa.js`: agrupació per districte amb ordre oficial dels 10 districtes de Barcelona
+- ⏳ Mercats: agrupar per zona amb text introductori + desplegable per zona — **PENDENT XAVI: quina "zona" (districte? altra divisió?)**
 
 **Pendent decisió — cal respondre a Xavi:**
 - 🔴 Format `any` + `projecte` per als 4 plànols quan hi ha original + reforma (CaixaFòrum, Museu Picasso, CosmoCaixa): Xavi proposa opció 1 (`any / arquitectes / projecte original / reforma`) o opció 2 (`any / projecte / projecte original`). Demana la nostra opinió tècnica i de feina.
 - 🔴 La Barceloneta: Xavi pregunta si podem aplicar etiquetes *diferents* dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). Cal confirmar-li que sí és tècnicament possible, i decidir si `autoria` és el camp unificat o si es mantenen separats.
+- 🔴 Districtes incerts: Canyelles → Nou Barris o Sant Andreu? la Sagrera → Sant Andreu o Sant Martí? (aplicat provisionalment Nou Barris i Sant Martí respectivament, cal confirmar)
 
 *Protocol general: per cada bloc "cal decisió", Joan/Xavi trien criteri → un cop clar, delegar l'extracció text→camps a una IA plànol a plànol (verificant mostra abans d'aplicar a tot el plànol) → `hugo build` + revisió visual → marcar fet. Xavi s'ofereix a fer comprovació exhaustiva fitxa per fitxa si cal.*
 

@@ -8,7 +8,7 @@ descripcio: Enriqueta Sèculi i Bastida. (Barcelona, 1897 – 1976). Pedagoga i 
 draft: false
 lat: 41.4044579
 long: 2.1730957
-obertura: '2010'
+any: '2010'
 publicacions:
 - interiors-illa
 superficie: 800

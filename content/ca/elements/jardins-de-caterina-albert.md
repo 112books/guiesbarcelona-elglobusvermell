@@ -7,7 +7,7 @@ descripcio: Caterina Albert i Paradís. (L’Escala, 1869 – 1966). Escriptora,
 draft: false
 lat: 41.4034078
 long: 2.1701378
-obertura: '1993'
+any: '1993'
 publicacions:
 - interiors-illa
 superficie: 050

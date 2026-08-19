@@ -7,7 +7,7 @@ draft: false
 foto: /img/elements/jardins-de-tete-montoliu.jpg
 lat: 41.3787023
 long: 2.1577002
-obertura: '2007'
+any: '2007'
 publicacions:
 - interiors-illa
 superficie: 2.770

@@ -8,7 +8,7 @@ descripcio: 'Equipament: Espai 210, centre sociocultural Flora Tristan. (París,
 draft: false
 lat: 41.4043361
 long: 2.1800739
-obertura: '2003'
+any: '2003'
 publicacions:
 - interiors-illa
 superficie: 710

@@ -1,5 +1,6 @@
 ---
 adreca: Sant Jordi, 6
+districte: "Sants-Montjuïc"
 draft: false
 foto: /img/elements/mercat-de-sants.jpg
 intervencions:

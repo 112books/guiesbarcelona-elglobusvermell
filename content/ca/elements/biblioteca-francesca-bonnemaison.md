@@ -4,6 +4,7 @@ arquitectes:
 - Jordi Campanillas
 descripcio: 'Remodelació: Institut de Cultura i Biblioteca Popular per a la Dona.
   Josep Fontserè i Mestre. 1857'
+districte: "Ciutat Vella"
 draft: false
 edifici_original: Casa senyorial. s.
 intervencions:

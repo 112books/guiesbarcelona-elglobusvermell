@@ -1,5 +1,6 @@
 ---
 adreca: Verdi, 200
+districte: "Gràcia"
 draft: false
 intervencions:
 - any: '1999'

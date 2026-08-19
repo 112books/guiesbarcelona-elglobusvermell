@@ -1,6 +1,7 @@
 ---
 adreca: Camí de Can Clos, 1-9
 any: '1920'
+districte: "Sants-Montjuïc"
 draft: false
 foto: /img/elements/masia-can-mestres.jpg
 intervencions:

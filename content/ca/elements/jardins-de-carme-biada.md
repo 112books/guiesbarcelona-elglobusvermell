@@ -10,7 +10,7 @@ draft: false
 foto: /img/elements/jardins-de-carme-biada.jpg
 lat: 41.3983666
 long: 2.1628735
-obertura: '2007'
+any: '2007'
 publicacions:
 - interiors-illa
 superficie: 689

@@ -8,7 +8,7 @@ descripcio: Mercè Vilaret i Llop. (Barcelona, 1943 – Sant Cugat del Vallès, 
 draft: false
 lat: 41.3821098
 long: 2.162395
-obertura: '2007'
+any: '2007'
 publicacions:
 - interiors-illa
 superficie: 610
