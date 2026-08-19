@@ -33,7 +33,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Template single.html amb dades, navegació
 - ✅ Enllaços a publicació i arquitecte des de la fitxa (corregit bug d'URL amb subpath)
 - ✅ Fitxes sense foto: no es mostra placeholder
-- ✅ **Color de la publicació com a identitat visual de la fitxa** — border-top 5px + banda lateral esquerra (4px, absolute) amb `var(--pub-color)` (2026-08-19)
+- ✅ **Color de la publicació com a identitat visual de la fitxa** — banda horitzontal 30px (`fitxa-pub-banda`) amb `var(--pub-color)`, idèntica al disseny de les publicacions (2026-08-19). Revertida banda vertical afegida sense aprovació.
 - ✅ Mapa individual a la fitxa (JS carregant, revisat bug de quotes al FITXA_PUNT — 2026-08-19: verificat que `jsonify | safeJS` produeix JSON vàlid a totes les 656 fitxes amb lat/long, cap bug trobat)
 - 🔴 Imatge de l'edifici a la fitxa (espera servidor)
 - ⏳ Imatge del plànol-guia a la fitxa
