@@ -154,12 +154,17 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 - 🔴 Biblioteques: imatges no carregades — **Xavi diu esperar** que ens passi totes les fotos abans de tocar-ho.
 
 ### ⏳ Cal decisió (teva i/o de Xavi) abans d'aplicar
-- ⏳ Format `any` + `projecte` (=arquitecte/estudi) per als plànols: Arquitectura d'Avantguarda, Arquitectura Moderna, De l'esperança a la crisi, La revolució tranquil·la. Cal decidir l'esquema exacte de camps abans d'extreure text lliure → estructurat (De l'esperança a la crisi, La revolució tranquil·la, La Barceloneta, Biblioteques tenen fitxes amb la info encara en text pla).
-- ⏳ La Barceloneta: renombrar "projecte" → "autoria" (és un plànol d'art, no només arquitectura). Reflexió apuntada per Xavi (no demanada encara): ¿els artistes citats haurien de tenir taxonomia pròpia com els arquitectes? — no actuar, només apuntat per si de cas en plànols futurs d'art públic.
-- ⏳ Jardins interiors d'illa: camp `obertura` → Xavi proposa dir-ne `any` com a la resta de plànols (unificar). Cal decidir si es renombra el camp o si el sistema ha d'acceptar tots dos noms.
-- ⏳ Jardins interiors d'illa: separar el text en categories (Equipaments / Homenatge / + info) — que ja existeixen com a etiquetes dins el text (veure exemple confirmat). Cal decidir l'esquema de camps abans d'extreure'ls a totes les fitxes del plànol.
-- ⏳ Masies: com resoldre "sense any" quan només se sap l'època aproximada — opcions que proposa Xavi: (a) posar el segle com a valor d'`any`, o (b) ordenar el llistat per districte en lloc de per any (com al plànol en paper). Xavi apunta que el mateix criteri (b) podria aplicar-se també a Biblioteques.
-- ⏳ Mercats: Xavi s'inclina per no ordenar per any en cap plànol — en el cas de Mercats, agrupar per zona (com al plànol en paper) amb text introductori per zona, i desplegar clicant el títol de la zona en lloc de l'any. Canvi d'estructura/disseny, no només de dades.
+
+**Confirmat per Xavi (mail 2026-08-18) — implementar:**
+- ⏳ Jardins interiors d'illa: camp `obertura` → `any` (confirmat)
+- ⏳ Jardins interiors d'illa: separar text en seccions planes (Equipaments / Homenatge / + info) — sense categories formals, Xavi s'encarrega edició manual
+- ⏳ Masies sense any: (a) posar el segle com a valor d'`any` + (b) ordenar llistat per districte — les dues alhora (confirmat)
+- ⏳ Biblioteques: ordenar llistat per districte, igual que masies (confirmat)
+- ⏳ Mercats: agrupar per zona amb text introductori + desplegable per zona (confirmat)
+
+**Pendent decisió — cal respondre a Xavi:**
+- 🔴 Format `any` + `projecte` per als 4 plànols quan hi ha original + reforma (CaixaFòrum, Museu Picasso, CosmoCaixa): Xavi proposa opció 1 (`any / arquitectes / projecte original / reforma`) o opció 2 (`any / projecte / projecte original`). Demana la nostra opinió tècnica i de feina.
+- 🔴 La Barceloneta: Xavi pregunta si podem aplicar etiquetes *diferents* dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). Cal confirmar-li que sí és tècnicament possible, i decidir si `autoria` és el camp unificat o si es mantenen separats.
 
 *Protocol general: per cada bloc "cal decisió", Joan/Xavi trien criteri → un cop clar, delegar l'extracció text→camps a una IA plànol a plànol (verificant mostra abans d'aplicar a tot el plànol) → `hugo build` + revisió visual → marcar fet. Xavi s'ofereix a fer comprovació exhaustiva fitxa per fitxa si cal.*
 
@@ -197,25 +202,6 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 - ⏳ Xavi: disseny/colors — consulta amb l'equip
 - ⏳ Xavi: criteris arquitectes vs estudis (Eugeni Bach, Soldevila...)
 - ⏳ Arxiu Històric BCN: explorar col·laboració per fotos — iniciativa de Xavi, no urgent
-
----
-
-## Respostes Xavi — mail 2026-08-18
-
-### Implementable ara (confirmat per Xavi)
-
-- ⏳ **Jardins d'illa**: renombrar camp `obertura` → `any`
-- ⏳ **Jardins d'illa**: separar text en seccions planes (Equipaments / Homenatge / + info) — sense categories formals. Xavi s'encarrega de l'edició manual.
-- ⏳ **Masies sense any**: posar el segle com a valor d'any + ordenar llistat per districte (com al paper)
-- ⏳ **Biblioteques**: ordenar llistat per districte (mateix criteri que masies)
-- ⏳ **Mercats**: agrupar per zona amb text introductori per zona + desplegable en clicar títol de zona (com al paper)
-
-### Pendent — cal respondre a Xavi
-
-- 🔴 **Format any+projecte (4 plànols amb reformes)**: Xavi proposa dues opcions per a edificis amb original + reforma (ex. CaixaFòrum, Museu Picasso, CosmoCaixa). Cal donar-li la nostra opinió tècnica i de feina:
-  - Opció 1: `any / arquitectes / projecte original / reforma` — tractament diferent per fitxa
-  - Opció 2: `any / projecte / projecte original` — fórmula uniforme + camp extra opcional
-- 🔴 **Barceloneta — etiquetes mixtes**: Xavi pregunta si podem aplicar etiquetes diferents dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). Cal confirmar-li que sí és possible tècnicament.
 
 ---
 
