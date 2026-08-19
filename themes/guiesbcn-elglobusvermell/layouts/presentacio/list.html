@@ -23,7 +23,9 @@
     {{ if in . "espai-public" }}{{ $.Scratch.Add "parcs" 1 }}{{ end }}
   {{ end }}
   {{ with .Params.any }}
-    {{ $y := int . }}
+    {{ $digits := . | findRE "\\d+" }}
+    {{ $y := 0 }}
+    {{ if $digits }}{{ $y = index $digits 0 | int }}{{ end }}
     {{ if and (gt $y 1000) (lt $y 3000) }}
       {{ if lt $y ($.Scratch.Get "anyMin") }}{{ $.Scratch.Set "anyMin" $y }}{{ end }}
       {{ if gt $y ($.Scratch.Get "anyMax") }}{{ $.Scratch.Set "anyMax" $y }}{{ end }}
