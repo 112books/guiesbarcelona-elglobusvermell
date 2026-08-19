@@ -18,7 +18,6 @@ intervencions:
   tipus: Projecte
 lat: 41.3777494
 long: 2.1632145
-any: '2009'
 publicacions:
 - 76-08
 - biblioteques
