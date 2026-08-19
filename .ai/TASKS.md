@@ -34,7 +34,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Enllaços a publicació i arquitecte des de la fitxa (corregit bug d'URL amb subpath)
 - ✅ Fitxes sense foto: no es mostra placeholder
 - ⏳ **Color de la publicació com a identitat visual de la fitxa** (capçalera o banda lateral del color de la publicació a la qual pertany l'edifici)
-- ⏳ Mapa individual a la fitxa (JS carregant, revisar bug de quotes al FITXA_PUNT)
+- ✅ Mapa individual a la fitxa (JS carregant, revisat bug de quotes al FITXA_PUNT — 2026-08-19: verificat que `jsonify | safeJS` produeix JSON vàlid a totes les 656 fitxes amb lat/long, cap bug trobat)
 - 🔴 Imatge de l'edifici a la fitxa (espera servidor)
 - ⏳ Imatge del plànol-guia a la fitxa
 
