@@ -110,7 +110,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ## Accessibilitat i millores d'experiència
 
-- ⏳ **Text a veu (TTS) per a fitxes d'edifici** — permetre escoltar el contingut de la fitxa (prototip Web Speech API ja implementat, pendent decisió Xavi sobre qualitat de veu)
+- ✅ **Text a veu (TTS) per a fitxes d'edifici** — Web Speech API amb pausa/continua (2026-08-19). Boto: Escoltar → Pausa → Continua → Aturar. Pendents: millores de veu, velocitat ajustable, selecció de veu
   - Avaluar solucions de programari lliure (Web Speech API nativa del navegador, o eSpeak/Piper si es vol veu pròpia al servidor)
   - Decidir veu: Web Speech API és gratuïta i funciona sense servidor (veus del sistema, pot sonar robòtic); Piper TTS és lliure i permet veu neutra de qualitat
   - Icona de reproducció discreta a la fitxa (play/pause)

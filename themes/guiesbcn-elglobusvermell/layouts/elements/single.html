@@ -298,6 +298,7 @@
   var iconStop = btn.querySelector('.tts-icon-stop');
   var label    = btn.querySelector('.tts-label');
   var parlant  = false;
+  var pausat   = false;
 
   function getText() {
     return contingut.textContent.replace(/\s+/g, ' ').trim();
@@ -306,10 +307,29 @@
   function atura() {
     window.speechSynthesis.cancel();
     parlant = false;
+    pausat = false;
     iconPlay.hidden = false;
     iconStop.hidden = true;
     label.textContent = 'Escoltar';
     btn.setAttribute('aria-label', 'Escoltar la fitxa en veu alta');
+  }
+
+  function pausa() {
+    window.speechSynthesis.pause();
+    pausat = true;
+    iconPlay.hidden = false;
+    iconStop.hidden = true;
+    label.textContent = 'Continua';
+    btn.setAttribute('aria-label', 'Continuar la lectura');
+  }
+
+  function continua() {
+    window.speechSynthesis.resume();
+    pausat = false;
+    iconPlay.hidden = true;
+    iconStop.hidden = false;
+    label.textContent = 'Pausa';
+    btn.setAttribute('aria-label', 'Pausar la lectura');
   }
 
   function llegeix() {
@@ -334,14 +354,17 @@
 
     window.speechSynthesis.speak(utterance);
     parlant = true;
+    pausat = false;
     iconPlay.hidden = true;
     iconStop.hidden = false;
-    label.textContent = 'Aturar';
-    btn.setAttribute('aria-label', 'Aturar la lectura en veu alta');
+    label.textContent = 'Pausa';
+    btn.setAttribute('aria-label', 'Pausar la lectura');
   }
 
   btn.addEventListener('click', function () {
-    if (parlant) { atura(); } else { llegeix(); }
+    if (!parlant) { llegeix(); }
+    else if (pausat) { continua(); }
+    else { pausa(); }
   });
 
   /* Atura si s'abandona la pàgina */
