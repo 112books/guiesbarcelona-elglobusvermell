@@ -272,7 +272,9 @@
       {{ with .PrevInSection }}
       <a class="fitxa-nav-prev" href="{{ .Permalink }}">← {{ .Title }}</a>
       {{ end }}
-      <a class="fitxa-nav-llista" href="{{ .Parent.Permalink }}">Tots els elements</a>
+      {{ $llistaHref := .Parent.Permalink }}
+      {{ with .Params.publicacions }}{{ $llistaHref = printf "%s?pub=%s" $.Parent.Permalink (index . 0) }}{{ end }}
+      <a class="fitxa-nav-llista" href="{{ $llistaHref }}">Tots els elements</a>
       {{ with .NextInSection }}
       <a class="fitxa-nav-next" href="{{ .Permalink }}">{{ .Title }} →</a>
       {{ end }}

@@ -19,7 +19,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - 🔴 Importació de les 564 entrades del WordPress real (espera accés servidor Jorge)
 - 🔴 Imatges dels edificis (espera accés servidor Jorge)
 - ⏳ Geocodificació automàtica dels edificis sense coordenades
-- ✅ Detecció i llistat de punts desubicats (`.ai/PUNTS-DESUBICATS.md`) — confirmats per Xavi (18 ago): les 5 fitxes ja tenien la coordenada correcta a la base de dades actual, no calia tocar res. **Pendent: aplicar canvi de nom** "Casa xalet passatge Roserar" → "Casa Mercè Escolano" (confirmat per Xavi, encara no aplicat al frontmatter).
+- ✅ Detecció i llistat de punts desubicats (`.ai/PUNTS-DESUBICATS.md`) — confirmats per Xavi (18 ago): les 5 fitxes ja tenien la coordenada correcta a la base de dades actual, no calia tocar res. Canvi de nom "Casa xalet passatge Roserar" → "Casa Mercè Escolano" aplicat al frontmatter (2026-08-19).
 
 ### Mapa
 - ✅ Mapa Leaflet + OpenStreetMap
@@ -27,7 +27,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Filtres per publicació (llista plana, activables independentment)
 - ✅ Nou comportament del filtre: tots els punts atenuats al iniciar, ressaltar al marcar una publicació
 - ✅ Punts en múltiples publicacions: dibuixats amb dos o més cercles de colors
-- ⏳ Filtre URL (?pub=gatcpac) per arribar al mapa pre-filtrat des de les fitxes
+- ✅ Filtre URL (?pub=gatcpac) per arribar al mapa pre-filtrat des de les fitxes — enllaç "Tots els elements" a la fitxa ara inclou `?pub=SLUG` (2026-08-19)
 
 ### Fitxes d'edifici
 - ✅ Template single.html amb dades, navegació
@@ -43,7 +43,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Layouts per a pàgina de llistat i pàgina d'arquitecte individual (amb mapa i llistat d'edificis)
 - ✅ Enllaços a arquitectes des de la fitxa d'edifici
 - ⏳ Separar noms d'arquitectes combinats (73 casos, `.ai/ARQUITECTES-A-SEPARAR.md`) — format de resposta enviat a Xavi (18 ago): `Nom combinat → Nom 1, Nom 2`, una línia per cas. Pendent que Xavi ompli la llista.
-- ✅ Normalitzar variants duplicades d'arquitectes: diccionari revisat i corregit segons esmenes de Xavi (18 ago) — `.ai/ARQUITECTES-NORMALITZACIO.yaml`, YAML validat, 14 entrades netes. **Pendent: passada automàtica** per aplicar-lo a `content/ca/elements/*.md` (protocol ja definit a la nota del fitxer).
+- ✅ Normalitzar variants duplicades d'arquitectes: totes les fitxes ja fan servir el nom canònic (verificat 2026-08-19, cap variant del YAML trobada al contingut). Tasca tancada.
 
 ### Disseny
 - ✅ Logo guiesbarcelona al header
