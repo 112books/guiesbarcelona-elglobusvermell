@@ -1144,6 +1144,31 @@ main {
   text-decoration: underline;
 }
 
+.publicacio-idioma-link {
+  display: block;
+  width: 100%;
+}
+
+.publicacio-idioma-link:hover .publicacio-idioma-portada {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s;
+}
+
+.publicacio-idioma-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 3/4;
+  background: #f0f0f0;
+  border: 2px dashed #ddd;
+  border-radius: 0.25rem;
+  color: #999;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 48rem) {
   .llistat-index {
     gap: 0.15rem;
