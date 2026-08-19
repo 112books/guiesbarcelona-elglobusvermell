@@ -200,6 +200,25 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 
 ---
 
+## Respostes Xavi — mail 2026-08-18
+
+### Implementable ara (confirmat per Xavi)
+
+- ⏳ **Jardins d'illa**: renombrar camp `obertura` → `any`
+- ⏳ **Jardins d'illa**: separar text en seccions planes (Equipaments / Homenatge / + info) — sense categories formals. Xavi s'encarrega de l'edició manual.
+- ⏳ **Masies sense any**: posar el segle com a valor d'any + ordenar llistat per districte (com al paper)
+- ⏳ **Biblioteques**: ordenar llistat per districte (mateix criteri que masies)
+- ⏳ **Mercats**: agrupar per zona amb text introductori per zona + desplegable en clicar títol de zona (com al paper)
+
+### Pendent — cal respondre a Xavi
+
+- 🔴 **Format any+projecte (4 plànols amb reformes)**: Xavi proposa dues opcions per a edificis amb original + reforma (ex. CaixaFòrum, Museu Picasso, CosmoCaixa). Cal donar-li la nostra opinió tècnica i de feina:
+  - Opció 1: `any / arquitectes / projecte original / reforma` — tractament diferent per fitxa
+  - Opció 2: `any / projecte / projecte original` — fórmula uniforme + camp extra opcional
+- 🔴 **Barceloneta — etiquetes mixtes**: Xavi pregunta si podem aplicar etiquetes diferents dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). Cal confirmar-li que sí és possible tècnicament.
+
+---
+
 ## Pendents client (preguntes per Xavi / Jorge)
 
 - 🔴 Jorge: dades d'accés al servidor actual
