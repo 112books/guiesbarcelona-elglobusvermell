@@ -87,9 +87,10 @@ normalitzacions:
 
 ## Pendent de decidir (Xavi)
 
-- **"Helio Piñón" vs "Heliodoro Piñón Pallarés" (detectat 2026-08-18):** la fitxa
-  curada existent es diu "Helio Piñón" (`/arquitectes/helio-piñón/`), però els 4
-  edificis que l'esmenten fan servir sempre "Heliodoro Piñón Pallarés" — noms
-  diferents, no arriben a coincidir amb la taxonomia i el mapa de la fitxa surt
-  buit. Cal que Xavi triï el nom canònic (curt o llarg) abans d'aplicar-ho.
+- **"Helio Piñón" vs "Heliodoro Piñón Pallarés" (RESOLT, 2026-08-21):** Xavi tria
+  el nom canònic llarg "Heliodoro Piñón Pallarés". Pàgina curada renombrada
+  `content/ca/arquitectes/helio-piñón/` → `heliodoro-piñón-pallarés/` amb title
+  actualitzat; ara coincideix amb el terme de taxonomia de les 4 fitxes i la
+  pàgina fusiona bio+enllaços amb el mapa i llistat d'edificis. Les mencions
+  històriques en text lliure ("Viaplana / Piñón", signatures d'època) no es toquen.
 ```
