@@ -164,12 +164,17 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 - ✅ Mercats: districte afegit via Nominatim + corregit a districtes oficials (39 fitxes)
 - ✅ `term.html`: camp `districte` passat al JS, `LLISTAT_GRUP` condicional (masies/biblioteques/mercats → 'districte')
 - ✅ `mapa.js`: agrupació per districte amb ordre oficial dels 10 districtes de Barcelona
-- ⏳ Mercats: agrupar per zona amb text introductori + desplegable per zona — **PENDENT XAVI: quina "zona" (districte? altra divisió?)**
+- ✅ Fix acordió + posició llistat (2026-08-20): el commit d4c40fa va treure sense voler l'acordió de descripció i la injectació del llistat sota "## Llistat" a masies/biblioteques/mercats (la condició d'inici només cobria `grupPer === 'any'`). Corregit a `mapa.js` per cobrir també `'districte'`. Commit `1cfba79`.
+- ⏳ Mercats: agrupar per zona amb text introductori + desplegable per zona — **Xavi ha confirmat (2026-08-19): NO districte oficial, sinó agrupació històrica pròpia**: Ciutat Vella / Eixample / Antics municipis / Sants / Sarrià / Sant Gervasi / Gràcia / Horta / Sant Andreu / Sant Martí de Provençals / Nous barris (desplegables) + Mercats no alimentaris (desplegable). Els títols dels textos del plànol indiquen com ha de ser el llistat. Cal camp `zona` nou als mercats (no reutilitzar `districte`).
 
 **Pendent decisió — cal respondre a Xavi:**
-- 🔴 Format `any` + `projecte` per als 4 plànols quan hi ha original + reforma (CaixaFòrum, Museu Picasso, CosmoCaixa): Xavi proposa opció 1 (`any / arquitectes / projecte original / reforma`) o opció 2 (`any / projecte / projecte original`). Demana la nostra opinió tècnica i de feina.
-- 🔴 La Barceloneta: Xavi pregunta si podem aplicar etiquetes *diferents* dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). Cal confirmar-li que sí és tècnicament possible, i decidir si `autoria` és el camp unificat o si es mantenen separats.
-- 🔴 Districtes incerts: Canyelles → Nou Barris o Sant Andreu? la Sagrera → Sant Andreu o Sant Martí? (aplicat provisionalment Nou Barris i Sant Martí respectivament, cal confirmar)
+- 🔴 Format `any` + `projecte` per als 4 plànols quan hi ha original + reforma (CaixaFòrum, Museu Picasso, CosmoCaixa): Xavi proposa opció 1 (`any / arquitectes / projecte original / reforma`) o opció 2 (`any / projecte / projecte original`). **Xavi respon (2026-08-19): cal saber com afecta la resta d'elements d'un mateix plànol — si "projecte original" només té sentit a reformes, fitxes d'un mateix plànol tindrien etiquetes diferents. Pendent de respondre-li.**
+- 🔴 La Barceloneta: Xavi pregunta si podem aplicar etiquetes *diferents* dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). **Xavi pregunta (2026-08-19) com funcionaria: les fitxes tindran etiqueta "autoria" però segons tipus mostraran una paraula o una altra ("projecte" per arquitectura, "autoria" per art)? Pendent d'aclarir-li.**
+- ✅ Districtes incerts: **confirmat per Xavi (2026-08-19)**: Canyelles → Nou Barris ✓, la Sagrera → Sant Andreu ✓. Ja estaven assignats així.
+- ✅ Normalització arquitectes: ja aplicada (0 variants al contingut). Confirmat a Xavi.
+- ⏳ Helio Piñón: Xavi confirma (2026-08-19) nom canònic **"Heliodoro Piñón Pallarés"**. Pendent d'aplicar a les 4 fitxes.
+- ⏳ Jardins interiors d'illa: **Xavi confirma (2026-08-19) que ens ho encarrega a nosaltres** (ell encara no ha accedit a l'editor). Format: seccions planes amb línies horitzontals, títol gris + dada negra (no categories formals). No immediat.
+- ⏳ Formulari contacte: Xavi tria opció A (mailto:) fins tenir nou servidor. Usar **info@elglobusvermell.org**. Pendent d'afegir mailto visible a /contacte/.
 
 *Protocol general: per cada bloc "cal decisió", Joan/Xavi trien criteri → un cop clar, delegar l'extracció text→camps a una IA plànol a plànol (verificant mostra abans d'aplicar a tot el plànol) → `hugo build` + revisió visual → marcar fet. Xavi s'ofereix a fer comprovació exhaustiva fitxa per fitxa si cal.*
 
