@@ -134,7 +134,7 @@ window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
 {{ if or (eq $pub.slug "masies") (eq $pub.slug "biblioteques") (eq $pub.slug "mercats") }}
   {{ $grup = "districte" }}
 {{ end }}
-window.LLISTAT_GRUP       = {{ $grup | jsonify }};
-window.PUBLICACIO_COLOR   = {{ $pub.color | jsonify }};
+window.LLISTAT_GRUP       = {{ $grup | jsonify | safeJS }};
+window.PUBLICACIO_COLOR   = {{ $pub.color | jsonify | safeJS }};
 </script>
 {{ end }}
