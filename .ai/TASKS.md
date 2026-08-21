@@ -158,23 +158,24 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 **Confirmat per Xavi (mail 2026-08-18) — implementat:**
 - ✅ Jardins interiors d'illa: camp `obertura` → `any` (59 fitxes, script `rename-obertura.py`)
 - ✅ Jardins interiors d'illa: `single.html` actualitzat per mostrar `any` en lloc d'`obertura`
-- ⏳ Jardins interiors d'illa: separar text en seccions planes (Equipaments / Homenatge / + info) — sense categories formals, Xavi s'encarrega edició manual
+- ⏳ Jardins interiors d'illa: separar text en seccions planes (Equipaments / Homenatge / + info) — **l'equip de Xavi ho farà ell** (mail 19 ago: "Ho poso a la llista de tasques nostres", encara no ha accedit a l'editor, no immediat). Format acordat: línies horitzontals amb títol gris + dada negra, no categories formals.
 - ✅ Masies sense any: (a) segle extret del text → camp `any` (script `add-any-masies.py`) + (b) districte afegit via Nominatim + corregit a districtes oficials (168 fitxes)
 - ✅ Biblioteques: districte afegit via Nominatim + corregit a districtes oficials (46 fitxes)
 - ✅ Mercats: districte afegit via Nominatim + corregit a districtes oficials (39 fitxes)
 - ✅ `term.html`: camp `districte` passat al JS, `LLISTAT_GRUP` condicional (masies/biblioteques/mercats → 'districte')
 - ✅ `mapa.js`: agrupació per districte amb ordre oficial dels 10 districtes de Barcelona
 - ✅ Fix acordió + posició llistat (2026-08-20): el commit d4c40fa va treure sense voler l'acordió de descripció i la injectació del llistat sota "## Llistat" a masies/biblioteques/mercats (la condició d'inici només cobria `grupPer === 'any'`). Corregit a `mapa.js` per cobrir també `'districte'`. Commit `1cfba79`.
-- ⏳ Mercats: agrupar per zona amb text introductori + desplegable per zona — **Xavi ha confirmat (2026-08-19): NO districte oficial, sinó agrupació històrica pròpia**: Ciutat Vella / Eixample / Antics municipis / Sants / Sarrià / Sant Gervasi / Gràcia / Horta / Sant Andreu / Sant Martí de Provençals / Nous barris (desplegables) + Mercats no alimentaris (desplegable). Els títols dels textos del plànol indiquen com ha de ser el llistat. Cal camp `zona` nou als mercats (no reutilitzar `districte`).
+- ✅ Mercats: agrupar per zona amb text introductori + desplegable per zona — **FET (2026-08-21)**: camp `zona` a les 42 fitxes + mode 'zona' al llistat. Zones segons els títols del text del plànol: Ciutat Vella / Eixample / Antics municipis (+ sub-municipis) / Nous barris / Mercats no alimentaris. Dubtes pendents de validar: Tres Torres, Bon Pastor.
+- ⏳ Mercats: les sub-zones (Sants, Sarrià...) surten com a grups seqüencials al mateix nivell que "Antics municipis". Si Xavi les vol NIUades dins el grup mare, cal decidir disseny abans de fer-ho.
 
 **Pendent decisió — cal respondre a Xavi:**
 - 🔴 Format `any` + `projecte` per als 4 plànols quan hi ha original + reforma (CaixaFòrum, Museu Picasso, CosmoCaixa): Xavi proposa opció 1 (`any / arquitectes / projecte original / reforma`) o opció 2 (`any / projecte / projecte original`). **Xavi respon (2026-08-19): cal saber com afecta la resta d'elements d'un mateix plànol — si "projecte original" només té sentit a reformes, fitxes d'un mateix plànol tindrien etiquetes diferents. Pendent de respondre-li.**
 - 🔴 La Barceloneta: Xavi pregunta si podem aplicar etiquetes *diferents* dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). **Xavi pregunta (2026-08-19) com funcionaria: les fitxes tindran etiqueta "autoria" però segons tipus mostraran una paraula o una altra ("projecte" per arquitectura, "autoria" per art)? Pendent d'aclarir-li.**
 - ✅ Districtes incerts: **confirmat per Xavi (2026-08-19)**: Canyelles → Nou Barris ✓, la Sagrera → Sant Andreu ✓. Ja estaven assignats així.
 - ✅ Normalització arquitectes: ja aplicada (0 variants al contingut). Confirmat a Xavi.
-- ⏳ Helio Piñón: Xavi confirma (2026-08-19) nom canònic **"Heliodoro Piñón Pallarés"**. Pendent d'aplicar a les 4 fitxes.
-- ⏳ Jardins interiors d'illa: **Xavi confirma (2026-08-19) que ens ho encarrega a nosaltres** (ell encara no ha accedit a l'editor). Format: seccions planes amb línies horitzontals, títol gris + dada negra (no categories formals). No immediat.
-- ⏳ Formulari contacte: Xavi tria opció A (mailto:) fins tenir nou servidor. Usar **info@elglobusvermell.org**. Pendent d'afegir mailto visible a /contacte/.
+- ✅ Helio Piñón: nom canònic **"Heliodoro Piñón Pallarés"** (decisió Xavi 19 ago) — aplicat 2026-08-21: pàgina curada renombrada i fusionada amb la taxonomia de les 4 fitxes.
+- ⏳ Jardins interiors d'illa: **l'equip de Xavi ho farà ell** (mail 19 ago). Format: seccions planes amb línies horitzontals, títol gris + dada negra (no categories formals). No immediat.
+- ✅ Formulari contacte: Xavi tria opció A (mailto:) fins al nou servidor. **FET (2026-08-21)**: secció "Correu directe" amb mailto info@elglobusvermell.org a /contacte/. El formulari s'activarà per SMTP a producció.
 
 *Protocol general: per cada bloc "cal decisió", Joan/Xavi trien criteri → un cop clar, delegar l'extracció text→camps a una IA plànol a plànol (verificant mostra abans d'aplicar a tot el plànol) → `hugo build` + revisió visual → marcar fet. Xavi s'ofereix a fer comprovació exhaustiva fitxa per fitxa si cal.*
 
