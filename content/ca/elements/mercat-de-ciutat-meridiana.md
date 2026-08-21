@@ -1,6 +1,7 @@
 ---
 adreca: Costabona, 4-6
 districte: "Nou Barris"
+zona: "Nous barris"
 draft: false
 intervencions:
 - any: '2001'

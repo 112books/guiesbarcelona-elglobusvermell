@@ -10,6 +10,7 @@ descripcio: 'Projecte original: Josep Fontserè i Mestre i Josep Maria Cornet i 
   medieval arrasada a principis del segle XVIII, després de la derrota a la guerra
   de Successió (1701-1714).'
 districte: "Ciutat Vella"
+zona: "Ciutat Vella"
 draft: false
 foto: /img/elements/el-born-muhba-mercat-del-born.jpg
 lat: 41.3858402

@@ -1,6 +1,7 @@
 ---
 adreca: Comte Borrell, 1
 districte: "Eixample"
+zona: "Eixample"
 draft: false
 foto: /img/elements/mercat-de-sant-antoni.jpg
 intervencions:

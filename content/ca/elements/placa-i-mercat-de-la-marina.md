@@ -4,6 +4,7 @@ any: '2003'
 arquitectes:
 - Albert de Pineda
 districte: "Sants-Montjuïc"
+zona: "Sants"
 draft: false
 foto: /img/elements/placa-i-mercat-de-la-marina.jpg
 intervencions:

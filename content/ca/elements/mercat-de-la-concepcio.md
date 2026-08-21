@@ -1,6 +1,7 @@
 ---
 adreca: Aragó, 311
 districte: "Eixample"
+zona: "Eixample"
 draft: false
 foto: /img/elements/mercat-de-la-concepcio.jpg
 intervencions:
