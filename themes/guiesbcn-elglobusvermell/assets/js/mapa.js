@@ -902,7 +902,7 @@
 
   // ── Acordió de la descripció de publicació ──────────────────────────────
   // Converteix els <h2> del .publicacio-descripcio en seccions plegables.
-  // Funciona només a les pàgines de publicació (grupPer === 'any').
+  // Funciona a les pàgines de publicació (grupPer 'any' o 'districte').
   function construeixDescripcioAccordio() {
     var desc = document.querySelector('.publicacio-descripcio');
     if (!desc) return;
@@ -954,7 +954,7 @@
 
   // ── Inicialitzar ────────────────────────────────────────────────────────
   construeixLlistat();
-  if (grupPer === 'any') {
+  if (grupPer === 'any' || grupPer === 'districte') {
     construeixDescripcioAccordio();
 
     // Injecta el llistat dinàmic (#llistat) dins l'acordió amb títol "Llistat"
