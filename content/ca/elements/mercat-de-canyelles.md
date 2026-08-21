@@ -2,6 +2,7 @@
 adreca: Antonio Machado, 10
 descripcio: 'Projecte original: Albert de Pablo. 1987'
 districte: "Nou Barris"
+zona: "Nous barris"
 draft: false
 lat: 41.4418303
 long: 2.1643262

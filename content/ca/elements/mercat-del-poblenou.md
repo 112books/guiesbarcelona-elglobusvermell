@@ -1,6 +1,7 @@
 ---
 adreca: Pl. de la Unió, 25
 districte: "Sant Martí"
+zona: "Sant Martí de Provençals"
 draft: false
 foto: /img/elements/mercat-del-poblenou.jpg
 intervencions:

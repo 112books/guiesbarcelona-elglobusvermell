@@ -1,6 +1,7 @@
 ---
 adreca: Av. Francesc Cambó, 16
 districte: "Ciutat Vella"
+zona: "Ciutat Vella"
 draft: false
 foto: /img/elements/mercat-de-santa-caterina-i-habitatges-per-ancians.jpg
 intervencions:

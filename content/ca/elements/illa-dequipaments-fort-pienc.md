@@ -4,6 +4,7 @@ descripcio: 'Mercat del Fort Pienc, Biblioteca Fort Pienc – Ana María Moix, L
   Centre Cívic, residència d’estudiants i residència geriàtrica Ana María Moix Escriptora.
   1947-2014 Arquitecte: Josep Llinàs. 2003 Premi Ciutat de Barcelona'
 districte: "Eixample"
+zona: "Eixample"
 draft: false
 lat: 41.3953837
 long: 2.1824934

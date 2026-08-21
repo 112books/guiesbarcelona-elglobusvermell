@@ -1,6 +1,7 @@
 ---
 adreca: Creu Coberta, 93
 districte: "Sants-Montjuïc"
+zona: "Sants"
 draft: false
 foto: /img/elements/mercat-dhostafrancs.jpg
 intervencions:

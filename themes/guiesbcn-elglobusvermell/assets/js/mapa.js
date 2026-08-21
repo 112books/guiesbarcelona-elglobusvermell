@@ -643,6 +643,14 @@
     'Nou Barris', 'Sant Andreu', 'Sant Martí'
   ];
 
+  // Zones del plànol de mercats (estructura del plànol en paper)
+  var ORDRE_ZONES_MERCATS = [
+    'Ciutat Vella', 'Eixample',
+    'Antics municipis', 'Sants', 'Sarrià', 'Sant Gervasi', 'Gràcia',
+    'Horta', 'Sant Andreu', 'Sant Martí de Provençals',
+    'Nous barris', 'Mercats no alimentaris'
+  ];
+
   // ── Construir llistat (alfabètic, per any o per districte) ───────────
   function construeixLlistat() {
     if (!llistatGrups) return;
@@ -677,6 +685,29 @@
         var ib = ORDRE_DISTRICTES.indexOf(b);
         if (a === 'sense-districte') return 1;
         if (b === 'sense-districte') return -1;
+        if (ia === -1 && ib === -1) return a.localeCompare(b, 'ca');
+        if (ia === -1) return 1;
+        if (ib === -1) return -1;
+        return ia - ib;
+      });
+      // Ordenar elements dins de cada grup alfabèticament per títol
+      ordreClaus.forEach(function (clau) {
+        grups[clau].sort(function (a, b) {
+          return a.title.localeCompare(b.title, 'ca');
+        });
+      });
+    } else if (grupPer === 'zona') {
+      // Agrupar per zona del plànol en paper (mercats)
+      totsElsElements.forEach(function (p) {
+        var clau = p.zona ? String(p.zona) : 'sense-zona';
+        if (!grups[clau]) { grups[clau] = []; ordreClaus.push(clau); }
+        grups[clau].push(p);
+      });
+      ordreClaus.sort(function (a, b) {
+        var ia = ORDRE_ZONES_MERCATS.indexOf(a);
+        var ib = ORDRE_ZONES_MERCATS.indexOf(b);
+        if (a === 'sense-zona') return 1;
+        if (b === 'sense-zona') return -1;
         if (ia === -1 && ib === -1) return a.localeCompare(b, 'ca');
         if (ia === -1) return 1;
         if (ib === -1) return -1;
@@ -741,6 +772,12 @@
         var etiquetaDistricte = clau === 'sense-districte' ? 'Sense districte' : clau;
         capsalera.innerHTML =
           '<span class="llistat-grup-any">' + etiquetaDistricte + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
+          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+      } else if (grupPer === 'zona') {
+        var etiquetaZona = clau === 'sense-zona' ? 'Sense zona' : clau;
+        capsalera.innerHTML =
+          '<span class="llistat-grup-any">' + etiquetaZona + '</span>' +
           '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
           '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
       } else {
@@ -954,7 +991,7 @@
 
   // ── Inicialitzar ────────────────────────────────────────────────────────
   construeixLlistat();
-  if (grupPer === 'any' || grupPer === 'districte') {
+  if (grupPer === 'any' || grupPer === 'districte' || grupPer === 'zona') {
     construeixDescripcioAccordio();
 
     // Injecta el llistat dinàmic (#llistat) dins l'acordió amb títol "Llistat"

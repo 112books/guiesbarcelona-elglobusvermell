@@ -106,6 +106,7 @@
     "any"               $page.Params.any
     "adreca"            $page.Params.adreca
     "districte"         $page.Params.districte
+    "zona"              $page.Params.zona
   }}
   {{ $tots = $tots | append $entry }}
   {{ with $page.Params.lat }}
@@ -131,8 +132,10 @@ window.TOTS_ELEMENTS      = {{ $tots     | jsonify | safeJS }};
 window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
 window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
 {{ $grup := "any" }}
-{{ if or (eq $pub.slug "masies") (eq $pub.slug "biblioteques") (eq $pub.slug "mercats") }}
+{{ if or (eq $pub.slug "masies") (eq $pub.slug "biblioteques") }}
   {{ $grup = "districte" }}
+{{ else if eq $pub.slug "mercats" }}
+  {{ $grup = "zona" }}
 {{ end }}
 window.LLISTAT_GRUP       = {{ $grup | jsonify | safeJS }};
 window.PUBLICACIO_COLOR   = {{ $pub.color | jsonify | safeJS }};
