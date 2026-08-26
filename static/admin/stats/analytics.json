@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-25T23:27:59.238100Z",
+  "generated": "2026-08-26T01:37:06.794897Z",
   "period": {
-    "start": "2025-08-25",
-    "end": "2026-08-24"
+    "start": "2025-08-26",
+    "end": "2026-08-25"
   },
-  "total": 584,
+  "total": 601,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-08-04",
-      "count": 27
+      "count": 28
     },
     {
       "date": "2026-08-05",
@@ -69,7 +69,7 @@
     },
     {
       "date": "2026-08-07",
-      "count": 46
+      "count": 47
     },
     {
       "date": "2026-08-08",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-08-18",
-      "count": 99
+      "count": 96
     },
     {
       "date": "2026-08-19",
@@ -118,6 +118,10 @@
     {
       "date": "2026-08-22",
       "count": 7
+    },
+    {
+      "date": "2026-08-24",
+      "count": 18
     }
   ],
   "hits": [
@@ -130,16 +134,16 @@
       "count": 21
     },
     {
-      "path": "/mapa-filtre-pub/50-75",
+      "path": "/guiesbarcelona-elglobusvermell/mapa",
       "count": 20
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 19
+      "path": "/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 20
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 19
+      "path": "/mapa-filtre-pub/50-75",
+      "count": 20
     },
     {
       "path": "/mapa-filtre-pub/09-25",
@@ -154,12 +158,12 @@
       "count": 14
     },
     {
-      "path": "/mapa-filtre-pub/gatcpac",
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/50-75",
       "count": 13
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/50-75",
-      "count": 12
+      "path": "/mapa-filtre-pub/gatcpac",
+      "count": 13
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/credits",
@@ -174,6 +178,10 @@
       "count": 11
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
+      "count": 10
+    },
+    {
       "path": "/mapa-filtre-pub/mercats",
       "count": 10
     },
@@ -182,11 +190,11 @@
       "count": 10
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/09-25",
       "count": 9
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/09-25",
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
       "count": 8
     },
     {
@@ -198,19 +206,19 @@
       "count": 8
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
-      "count": 7
-    },
-    {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
-      "count": 7
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/contacte",
-      "count": 6
+      "count": 8
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/poblenou",
+      "count": 7
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
+      "count": 6
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/contacte",
       "count": 6
     },
     {
@@ -226,26 +234,22 @@
       "count": 6
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
+      "count": 6
+    },
+    {
       "path": "/guiesbarcelona-elglobusvermell/elements/biblioteca-les-roquetes-rafa-juncadella",
       "count": 6
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner",
       "count": 6
-    },
-    {
-      "path": "/mapa-filtre-pub/new-babylon",
-      "count": 6
-    },
-    {
-      "path": "/mapa-filtre-pub/poblenou",
-      "count": 6
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 381,
+    "guiesbarcelona-elglobusvermell": 394,
     "mapa-filtre-pub": 140,
-    "mapa-info-pub": 27,
+    "mapa-info-pub": 31,
     "mapa-filtre-tema": 14,
     "mapa-clickhttps:": 22
   },
@@ -332,22 +336,22 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 78
+      "count": 83
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 61
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/76-08",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/76-08",
-      "count": 56
+      "count": 58
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
       "count": 50
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 46
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
@@ -387,7 +391,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
-      "count": 12
+      "count": 14
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/barceloneta",
@@ -402,6 +406,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/accessibilitat",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/accessibilitat",
+      "count": 8
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
       "count": 8
     },
     {
@@ -423,11 +432,6 @@
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/raimon-duran-i-reynals",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/raimon-duran-i-reynals",
       "count": 7
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
-      "count": 6
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/marina",
@@ -797,6 +801,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner",
+      "count": 1
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/rehabilitacio-de-les-bateries-antiaeries",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/rehabilitacio-de-les-bateries-antiaeries",
       "count": 1
     }
   ]
