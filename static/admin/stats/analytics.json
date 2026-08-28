@@ -1,20 +1,264 @@
 {
-  "generated": "2026-08-27T16:16:28.143726Z",
+  "generated": "2026-08-28T01:22:45.918087Z",
   "period": {
-    "start": "2025-08-27",
-    "end": "2026-08-26"
+    "start": "2025-08-28",
+    "end": "2026-08-27"
   },
-  "total": 0,
+  "total": 601,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-19",
+      "count": 27
+    },
+    {
+      "date": "2026-07-20",
+      "count": 14
+    },
+    {
+      "date": "2026-07-21",
+      "count": 5
+    },
+    {
+      "date": "2026-07-22",
+      "count": 6
+    },
+    {
+      "date": "2026-07-23",
+      "count": 14
+    },
+    {
+      "date": "2026-07-24",
+      "count": 16
+    },
+    {
+      "date": "2026-07-27",
+      "count": 8
+    },
+    {
+      "date": "2026-07-28",
+      "count": 57
+    },
+    {
+      "date": "2026-07-29",
+      "count": 42
+    },
+    {
+      "date": "2026-07-30",
+      "count": 2
+    },
+    {
+      "date": "2026-07-31",
+      "count": 9
+    },
+    {
+      "date": "2026-08-03",
+      "count": 15
+    },
+    {
+      "date": "2026-08-04",
+      "count": 28
+    },
+    {
+      "date": "2026-08-05",
+      "count": 31
+    },
+    {
+      "date": "2026-08-06",
+      "count": 5
+    },
+    {
+      "date": "2026-08-07",
+      "count": 47
+    },
+    {
+      "date": "2026-08-08",
+      "count": 1
+    },
+    {
+      "date": "2026-08-10",
+      "count": 2
+    },
+    {
+      "date": "2026-08-11",
+      "count": 2
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 2
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 56
+    },
+    {
+      "date": "2026-08-18",
+      "count": 96
+    },
+    {
+      "date": "2026-08-19",
+      "count": 48
+    },
+    {
+      "date": "2026-08-20",
+      "count": 17
+    },
+    {
+      "date": "2026-08-21",
+      "count": 24
+    },
+    {
+      "date": "2026-08-22",
+      "count": 7
+    },
+    {
+      "date": "2026-08-24",
+      "count": 18
+    }
+  ],
+  "hits": [
+    {
+      "path": "/guiesbarcelona-elglobusvermell",
+      "count": 72
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/presentacio",
+      "count": 21
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/mapa",
+      "count": 20
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/en-paper",
+      "count": 20
+    },
+    {
+      "path": "/mapa-filtre-pub/50-75",
+      "count": 20
+    },
+    {
+      "path": "/mapa-filtre-pub/09-25",
+      "count": 18
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/arquitectes",
+      "count": 17
+    },
+    {
+      "path": "/mapa-filtre-pub/76-08",
+      "count": 14
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/50-75",
+      "count": 13
+    },
+    {
+      "path": "/mapa-filtre-pub/gatcpac",
+      "count": 13
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/credits",
+      "count": 12
+    },
+    {
+      "path": "/mapa-filtre-pub/barceloneta",
+      "count": 11
+    },
+    {
+      "path": "/mapa-filtre-pub/interiors-illa",
+      "count": 11
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
+      "count": 10
+    },
+    {
+      "path": "/mapa-filtre-pub/mercats",
+      "count": 10
+    },
+    {
+      "path": "/mapa-filtre-pub/biblioteques",
+      "count": 10
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/09-25",
+      "count": 9
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
+      "count": 8
+    },
+    {
+      "path": "/mapa-filtre-pub/marina",
+      "count": 8
+    },
+    {
+      "path": "/mapa-filtre-pub/masies",
+      "count": 8
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "count": 8
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/poblenou",
+      "count": 7
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
+      "count": 6
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/contacte",
+      "count": 6
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/arquitectes/aeb",
+      "count": 6
+    },
+    {
+      "path": "/mapa-info-pub/50-75",
+      "count": 6
+    },
+    {
+      "path": "/mapa-info-pub/09-25",
+      "count": 6
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
+      "count": 6
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/biblioteca-les-roquetes-rafa-juncadella",
+      "count": 6
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner",
+      "count": 6
+    }
+  ],
+  "by_section": {
+    "guiesbarcelona-elglobusvermell": 394,
+    "mapa-filtre-pub": 140,
+    "mapa-info-pub": 31,
+    "mapa-filtre-tema": 14,
+    "mapa-clickhttps:": 22
+  },
   "by_lang": {},
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 687
+      "count": 688
     },
     {
       "name": "Safari",
@@ -26,7 +270,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 859
+      "count": 860
     },
     {
       "name": "Windows",
@@ -48,7 +292,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 671
+      "count": 672
     },
     {
       "name": "desktophd",
@@ -70,7 +314,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 1166
+      "count": 1167
     },
     {
       "name": "United States",
