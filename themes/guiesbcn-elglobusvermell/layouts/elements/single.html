@@ -59,7 +59,7 @@
                  {{ if eq $i 0 }}loading="eager"{{ else }}loading="lazy"{{ end }}>
             <figcaption class="fitxa-peu-foto">
               {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
-              <span class="fitxa-peu-autoria">© {{ $img.autoria }}</span>
+              <span class="fitxa-peu-autoria">CC BY-SA 4.0, {{ $img.autoria }}</span>
             </figcaption>
           </figure>
         </div>
@@ -83,7 +83,7 @@
          loading="lazy">
     <figcaption class="fitxa-peu-foto">
       {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
-      <span class="fitxa-peu-autoria">© {{ $img.autoria }}</span>
+      <span class="fitxa-peu-autoria">CC BY-SA 4.0, {{ $img.autoria }}</span>
     </figcaption>
   </figure>
   {{ end }}

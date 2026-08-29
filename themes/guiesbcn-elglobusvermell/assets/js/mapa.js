@@ -651,6 +651,12 @@
     'Nous barris', 'Mercats no alimentaris'
   ];
 
+  // Sub-zones que s'agrupa sota "Antics municipis" al llistat de mercats
+  var SUB_ZONES_ANTICS_MUNICIPIS = [
+    'Sants', 'Sarrià', 'Sant Gervasi', 'Gràcia',
+    'Horta', 'Sant Andreu', 'Sant Martí de Provençals'
+  ];
+
   // ── Construir llistat (alfabètic, per any o per districte) ───────────
   function construeixLlistat() {
     if (!llistatGrups) return;
@@ -733,7 +739,7 @@
     // Index de lletres (sols en mode alfabètic)
     if (llistatIndex) {
       llistatIndex.innerHTML = '';
-      if (grupPer !== 'any') {
+      if (grupPer !== 'any' && grupPer !== 'zona') {
         ordreClaus.forEach(function (clau) {
           if (clau === '#') return;
           var link = document.createElement('a');
@@ -748,53 +754,11 @@
 
     // Grups
     llistatGrups.innerHTML = '';
-    ordreClaus.forEach(function (clau) {
-      var elements = grups[clau];
 
-      var grup = document.createElement('div');
-      grup.className = 'llistat-grup';
-      grup.id = 'grup-' + clau;
+    var SVG_FLETXA = '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
 
-      var cosId = 'grup-cos-' + clau;
-
-      var capsalera = document.createElement('button');
-      capsalera.className = 'llistat-grup-capsalera';
-      capsalera.setAttribute('aria-expanded', 'false');
-      capsalera.setAttribute('aria-controls', cosId);
-
-      if (grupPer === 'any') {
-        var etiquetaAny = clau === 'sense-any' ? 'Data desconeguda' : clau;
-        capsalera.innerHTML =
-          '<span class="llistat-grup-any">' + etiquetaAny + '</span>' +
-          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
-          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-      } else if (grupPer === 'districte') {
-        var etiquetaDistricte = clau === 'sense-districte' ? 'Sense districte' : clau;
-        capsalera.innerHTML =
-          '<span class="llistat-grup-any">' + etiquetaDistricte + '</span>' +
-          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
-          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-      } else if (grupPer === 'zona') {
-        var etiquetaZona = clau === 'sense-zona' ? 'Sense zona' : clau;
-        capsalera.innerHTML =
-          '<span class="llistat-grup-any">' + etiquetaZona + '</span>' +
-          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
-          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-      } else {
-        capsalera.innerHTML =
-          '<span class="llistat-grup-lletra">' + clau + '</span>' +
-          '<span class="llistat-grup-count">' + elements.length + ' elements</span>' +
-          '<svg class="llistat-grup-fletxa" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-      }
-
-      capsalera.addEventListener('click', function () {
-        var expanded = this.getAttribute('aria-expanded') === 'true';
-        this.setAttribute('aria-expanded', String(!expanded));
-        grup.classList.toggle('obert', !expanded);
-        llista.style.maxHeight = expanded ? '' : '9999px';
-      });
-      grup.appendChild(capsalera);
-
+    // Crea la llista <ul> d'elements (fulles de l'acordió)
+    function buildLlistatUl(cosId, elements) {
       var llista = document.createElement('ul');
       llista.id = cosId;
       llista.className = 'llistat-grup-elements';
@@ -870,7 +834,138 @@
 
         llista.appendChild(li);
       });
+      return llista;
+    }
 
+    // Crea un sub-acordió per a una sub-zona d'Antics municipis
+    function buildSubGrup(subZona) {
+      var els = grups[subZona];
+      var subGrup = document.createElement('div');
+      subGrup.className = 'llistat-grup';
+      subGrup.id = 'grup-' + subZona.replace(/\s/g, '_');
+      var subCosId = 'grup-cos-' + subZona.replace(/\s/g, '_');
+      var subCap = document.createElement('button');
+      subCap.className = 'llistat-grup-capsalera';
+      subCap.setAttribute('aria-expanded', 'false');
+      subCap.setAttribute('aria-controls', subCosId);
+      subCap.innerHTML =
+        '<span class="llistat-grup-any">' + subZona + '</span>' +
+        '<span class="llistat-grup-count">' + els.length + ' element' + (els.length !== 1 ? 's' : '') + '</span>' +
+        SVG_FLETXA;
+      var subLlista = buildLlistatUl(subCosId, els);
+      subCap.addEventListener('click', function () {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        subGrup.classList.toggle('obert', !expanded);
+        subLlista.style.maxHeight = expanded ? '' : '9999px';
+      });
+      subGrup.appendChild(subCap);
+      subGrup.appendChild(subLlista);
+      return subGrup;
+    }
+
+    var anticsMunicisRendered = false;
+
+    ordreClaus.forEach(function (clau) {
+      var elements = grups[clau];
+
+      // Zona mode: sub-zones niuades sota el grup pare "Antics municipis"
+      if (grupPer === 'zona') {
+        var esSubZona = SUB_ZONES_ANTICS_MUNICIPIS.indexOf(clau) !== -1;
+        var esAnticsMunicis = clau === 'Antics municipis';
+
+        if (esSubZona || esAnticsMunicis) {
+          if (anticsMunicisRendered) return;
+          anticsMunicisRendered = true;
+
+          var subZonesPresents = SUB_ZONES_ANTICS_MUNICIPIS.filter(function (z) { return !!grups[z]; });
+          var directElems = grups['Antics municipis'] || [];
+          var totalElems = directElems.length + subZonesPresents.reduce(function (s, z) { return s + grups[z].length; }, 0);
+
+          var parentGrup = document.createElement('div');
+          parentGrup.className = 'llistat-grup';
+          parentGrup.id = 'grup-Antics_municipis';
+          var parentCosId = 'grup-cos-Antics_municipis';
+          var parentCap = document.createElement('button');
+          parentCap.className = 'llistat-grup-capsalera';
+          parentCap.setAttribute('aria-expanded', 'false');
+          parentCap.setAttribute('aria-controls', parentCosId);
+          parentCap.innerHTML =
+            '<span class="llistat-grup-any">Antics municipis</span>' +
+            '<span class="llistat-grup-count">' + totalElems + ' element' + (totalElems !== 1 ? 's' : '') + '</span>' +
+            SVG_FLETXA;
+
+          var parentCos = document.createElement('div');
+          parentCos.id = parentCosId;
+          parentCos.className = 'llistat-grup-elements';
+
+          if (directElems.length > 0) {
+            parentCos.appendChild(buildLlistatUl(parentCosId + '-direct', directElems));
+          }
+          subZonesPresents.forEach(function (subZona) {
+            parentCos.appendChild(buildSubGrup(subZona));
+          });
+
+          parentCap.addEventListener('click', function () {
+            var expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', String(!expanded));
+            parentGrup.classList.toggle('obert', !expanded);
+            parentCos.style.maxHeight = expanded ? '' : '9999px';
+          });
+
+          parentGrup.appendChild(parentCap);
+          parentGrup.appendChild(parentCos);
+          llistatGrups.appendChild(parentGrup);
+          return;
+        }
+      }
+
+      // Rendering estàndard per a la resta de grups
+      var grup = document.createElement('div');
+      grup.className = 'llistat-grup';
+      grup.id = 'grup-' + clau;
+
+      var cosId = 'grup-cos-' + clau;
+
+      var capsalera = document.createElement('button');
+      capsalera.className = 'llistat-grup-capsalera';
+      capsalera.setAttribute('aria-expanded', 'false');
+      capsalera.setAttribute('aria-controls', cosId);
+
+      if (grupPer === 'any') {
+        var etiquetaAny = clau === 'sense-any' ? 'Data desconeguda' : clau;
+        capsalera.innerHTML =
+          '<span class="llistat-grup-any">' + etiquetaAny + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
+          SVG_FLETXA;
+      } else if (grupPer === 'districte') {
+        var etiquetaDistricte = clau === 'sense-districte' ? 'Sense districte' : clau;
+        capsalera.innerHTML =
+          '<span class="llistat-grup-any">' + etiquetaDistricte + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
+          SVG_FLETXA;
+      } else if (grupPer === 'zona') {
+        var etiquetaZona = clau === 'sense-zona' ? 'Sense zona' : clau;
+        capsalera.innerHTML =
+          '<span class="llistat-grup-any">' + etiquetaZona + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' element' + (elements.length !== 1 ? 's' : '') + '</span>' +
+          SVG_FLETXA;
+      } else {
+        capsalera.innerHTML =
+          '<span class="llistat-grup-lletra">' + clau + '</span>' +
+          '<span class="llistat-grup-count">' + elements.length + ' elements</span>' +
+          SVG_FLETXA;
+      }
+
+      var llista = buildLlistatUl(cosId, elements);
+
+      capsalera.addEventListener('click', function () {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        grup.classList.toggle('obert', !expanded);
+        llista.style.maxHeight = expanded ? '' : '9999px';
+      });
+      grup.appendChild(capsalera);
       grup.appendChild(llista);
       llistatGrups.appendChild(grup);
     });

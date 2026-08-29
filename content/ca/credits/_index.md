@@ -28,6 +28,7 @@ Aquest web s'ha construït amb programari lliure de principi a fi:
 - **[Sveltia CMS](https://github.com/sveltia/sveltia-cms)** — l'editor amb què l'equip de Globus gestiona el contingut sense tocar codi. LinuxBCN n'ha fet la traducció al català, contribuïda al projecte original perquè en pugui beneficiar tothom qui el faci servir.
 - **[GitHub](https://github.com)** — control de versions (historial complet de tots els canvis, amb possibilitat de recuperar qualsevol versió anterior), gestió d'accessos dels editors (qui pot editar contingut i amb quin rol) i entorn de proves (les novetats es verifiquen en un entorn de desenvolupament abans de publicar-se al web definitiu).
 - **[GoatCounter](https://www.goatcounter.com)** — estadístiques de visites respectuoses amb la privacitat: sense cookies ni seguiment de dades personals.
+- **[Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)** — text a veu natiu del navegador per a la lectura en veu alta de les fitxes d'edifici. Gratuïta, sense servidor, fa servir les veus instal·lades al dispositiu.
 - **Servidor:** *(pendent de decidir — es completarà aquí un cop es defineixi l'allotjament definitiu)*
 
 ## Fonts de dades

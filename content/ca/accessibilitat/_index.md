@@ -11,11 +11,12 @@ Aquesta és una declaració de compromís i mesures aplicades, no una certificac
 ## Mesures aplicades
 
 - **Estructura semàntica**: capçaleres jeràrquiques (H1-H2), regions marcades amb `role` i `aria-label` (mapa, navegació, seccions de contingut)
-- **Text alternatiu**: imatges amb atribut `alt` descriptiu
+- **Text alternatiu**: imatges amb atribut `alt` descriptiu; peu de foto amb text descriptiu
 - **Navegació per teclat**: enllaços i controls interactius (mapa, filtres, botons) operables sense ratolí
 - **Contrast de color**: paleta pensada per complir la ràtio mínima de contrast 4.5:1 en text
 - **Responsive**: disseny adaptable a mòbil, tauleta i escriptori
 - **Idioma declarat**: l'atribut `lang` del document coincideix amb l'idioma del contingut
+- **Lectura en veu alta de les fitxes d'edifici**: text a veu (TTS) mitjançant la Web Speech API del navegador; boto a cada fitxa per escoltar el contingut (títol, adreça, any, arquitectes i descripció)
 
 ## Limitacions conegudes
 
@@ -45,6 +46,7 @@ Aquest lloc s'ha construït amb:
 - **Hugo** — generador de lloc estàtic (Go)
 - **HTML5 / CSS3 / JavaScript** — maquetació i interactivitat (mapa, filtres, llistats)
 - **Leaflet + OpenStreetMap** — mapa interactiu
+- **Web Speech API** — text a veu natiu del navegador per a la lectura de les fitxes d'edifici
 - **Python** — scripts de migració i importació de contingut
 - **PHP** — proxy d'autenticació per a l'editor de contingut (Sveltia CMS), previst a LinuxBCN
 - **GitHub Pages** — allotjament actual (LinuxBCN previst en migrar)
