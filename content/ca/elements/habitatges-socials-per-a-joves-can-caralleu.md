@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Habitatges socials per a joves Can Caralleu
+foto: habitatges-socials-per-a-joves-can-caralleu.jpg
 ---

@@ -14,4 +14,5 @@ long: 2.215183
 publicacions:
 - 76-08
 title: Habitatges Diagonal Mar / Illa de la Llum
+foto: habitatges-diagonal-mar-illa-de-la-llum.jpg
 ---

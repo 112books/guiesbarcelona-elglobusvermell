@@ -13,4 +13,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Biblioteca Gabriel García Márquez
+foto: biblioteca-gabriel-garcia-marquez.jpg
 ---

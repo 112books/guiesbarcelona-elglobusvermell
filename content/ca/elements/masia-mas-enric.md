@@ -12,4 +12,5 @@ proteccio: B
 publicacions:
 - masies
 title: Masia Mas Enric
+foto: masia-mas-enric.jpg
 ---

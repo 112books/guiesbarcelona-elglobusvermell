@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges Aprop Ciutat Vella
+foto: edifici-dhabitatges-aprop-ciutat-vella.jpg
 ---

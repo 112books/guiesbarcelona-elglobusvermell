@@ -13,4 +13,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Can Travi Vell
+foto: masia-can-travi-vell.jpg
 ---

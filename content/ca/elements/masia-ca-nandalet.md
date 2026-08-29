@@ -12,4 +12,5 @@ proteccio: C
 publicacions:
 - masies
 title: Masia Ca n’Andalet
+foto: masia-ca-nandalet.jpg
 ---

@@ -13,4 +13,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Entorns del Mercat del Born
+foto: entorns-del-mercat-del-born.jpg
 ---

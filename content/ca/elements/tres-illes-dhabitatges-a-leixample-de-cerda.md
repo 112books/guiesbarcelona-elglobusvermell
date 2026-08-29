@@ -7,4 +7,5 @@ long: 2.1948053
 publicacions:
 - 76-08
 title: Tres illes d’habitatges a l’Eixample de Cerdà
+foto: tres-illes-dhabitatges-a-leixample-de-cerda.jpg
 ---

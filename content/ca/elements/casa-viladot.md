@@ -10,4 +10,5 @@ long: 2.1741882
 publicacions:
 - gatcpac
 title: Casa Viladot
+foto: casa-viladot.jpg
 ---

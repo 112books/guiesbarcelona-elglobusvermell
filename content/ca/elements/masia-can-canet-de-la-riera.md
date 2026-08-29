@@ -13,4 +13,5 @@ proteccio: C
 publicacions:
 - masies
 title: Masia Can Canet de la Riera
+foto: masia-can-canet-de-la-riera.jpg
 ---

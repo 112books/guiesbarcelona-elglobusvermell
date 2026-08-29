@@ -17,4 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: La Balma, cohabitatges cooperatius
+foto: la-balma-cohabitatges-cooperatius.jpg
 ---

@@ -14,4 +14,5 @@ long: 2.1631017
 publicacions:
 - gatcpac
 title: Casa Cardenal
+foto: casa-cardenal.jpg
 ---

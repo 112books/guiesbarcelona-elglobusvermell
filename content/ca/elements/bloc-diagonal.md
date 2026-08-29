@@ -11,4 +11,5 @@ long: 2.1536656
 publicacions:
 - gatcpac
 title: Bloc Diagonal
+foto: bloc-diagonal.jpg
 ---

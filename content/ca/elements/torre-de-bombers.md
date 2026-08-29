@@ -14,4 +14,5 @@ long: 2.1428344
 publicacions:
 - 09-25
 title: Torre de bombers
+foto: torre-de-bombers.jpg
 ---

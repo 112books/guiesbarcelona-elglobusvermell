@@ -11,4 +11,5 @@ long: 2.1558903
 publicacions:
 - 76-08
 title: Escola Josep Maria Jujol
+foto: escola-josep-maria-jujol.jpg
 ---

@@ -10,4 +10,5 @@ long: 2.172069
 publicacions:
 - gatcpac
 title: Fàbrica Myrurgia
+foto: fabrica-myrurgia.jpg
 ---

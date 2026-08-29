@@ -20,4 +20,5 @@ temes_transversals:
 - dones-arquitectes
 - nomenclator-femeni
 title: Illa d’equipaments Alchemika
+foto: illa-dequipaments-alchemika.jpg
 ---

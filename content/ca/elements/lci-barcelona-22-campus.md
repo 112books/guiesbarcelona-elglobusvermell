@@ -14,4 +14,5 @@ long: 2.1902047
 publicacions:
 - 09-25
 title: LCI Barcelona 22@ Campus
+foto: lci-barcelona-22-campus.jpg
 ---

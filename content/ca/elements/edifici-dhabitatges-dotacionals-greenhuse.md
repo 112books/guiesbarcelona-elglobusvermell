@@ -17,4 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges dotacionals «Greenh@use»
+foto: edifici-dhabitatges-dotacionals-greenhuse.jpg
 ---

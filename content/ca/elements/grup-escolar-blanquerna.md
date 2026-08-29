@@ -10,4 +10,5 @@ long: 2.1447819
 publicacions:
 - gatcpac
 title: Grup escolar Blanquerna
+foto: grup-escolar-blanquerna.jpg
 ---

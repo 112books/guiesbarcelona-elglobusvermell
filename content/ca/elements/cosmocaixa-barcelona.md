@@ -12,4 +12,5 @@ long: 2.1310535
 publicacions:
 - 76-08
 title: CosmoCaixa Barcelona
+foto: cosmocaixa-barcelona.jpg
 ---

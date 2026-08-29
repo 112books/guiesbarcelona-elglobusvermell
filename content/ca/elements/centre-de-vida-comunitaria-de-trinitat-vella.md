@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Centre de Vida Comunitària de Trinitat Vella
+foto: centre-de-vida-comunitaria-de-trinitat-vella.jpg
 ---

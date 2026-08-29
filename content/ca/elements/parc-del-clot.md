@@ -9,4 +9,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Parc del Clot
+foto: parc-del-clot.jpg
 ---

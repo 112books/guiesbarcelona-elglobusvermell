@@ -11,4 +11,5 @@ long: 2.1650363
 publicacions:
 - 76-08
 title: Piscina de salts de Montjuïc
+foto: piscina-de-salts-de-montjuic.jpg
 ---

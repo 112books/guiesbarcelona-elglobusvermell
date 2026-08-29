@@ -10,4 +10,5 @@ long: 2.19161
 publicacions:
 - 09-25
 title: Edifici d’oficines «Entegra»
+foto: edifici-doficines-entegra.jpg
 ---

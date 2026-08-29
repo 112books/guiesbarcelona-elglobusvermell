@@ -14,4 +14,5 @@ long: 2.1831427
 publicacions:
 - 09-25
 title: Escola dels Encants
+foto: escola-dels-encants.jpg
 ---

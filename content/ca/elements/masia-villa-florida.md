@@ -13,4 +13,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Vil·la Florida
+foto: masia-villa-florida.jpg
 ---

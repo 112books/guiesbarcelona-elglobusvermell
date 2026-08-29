@@ -17,4 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Centre de Convencions Internacional de Catalunya (CCIB)
+foto: centre-de-convencions-internacional-de-catalunya-ccib.jpg
 ---

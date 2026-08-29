@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - nomenclator-femeni
 title: Biblioteca Nou Barris – Aurora Díaz-Plaja
+foto: biblioteca-nou-barris-aurora-diaz-plaja.jpg
 ---

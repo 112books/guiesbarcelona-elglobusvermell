@@ -11,4 +11,5 @@ publicacions:
 temes_transversals:
 - nomenclator-femeni
 title: Biblioteca Zona Nord – Mària Sánchez
+foto: biblioteca-zona-nord-maria-sanchez.jpg
 ---

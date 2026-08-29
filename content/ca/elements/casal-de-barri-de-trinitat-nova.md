@@ -17,4 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Casal de Barri de Trinitat Nova
+foto: casal-de-barri-de-trinitat-nova.jpg
 ---

@@ -18,4 +18,5 @@ long: 2.185664
 publicacions:
 - 09-25
 title: Conjunt d’habitatges «Illa Glòries»
+foto: conjunt-dhabitatges-illa-glories.jpg
 ---

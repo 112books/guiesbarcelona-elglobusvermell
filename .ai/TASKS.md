@@ -119,7 +119,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ⏳ **Crèdits → Tecnologia**: afegir entrada de la tecnologia TTS un cop confirmada l'opció (Web Speech API o Piper TTS)
 - ⏳ **Accessibilitat → Mesures aplicades**: afegir "Lectura en veu alta de les fitxes d'edifici (text a veu)" i "Peu de foto amb text descriptiu (alt text)" un cop confirmada la implementació definitiva
 - ⏳ **Accessibilitat → Tecnologia**: afegir la tecnologia TTS usada (Web Speech API del navegador o Piper TTS)
-- ⏳ **Fotografies**: confirmar amb Xavi si el símbol © és correcte o si cal una altra forma de crèdit (CC, sense reserva, etc.) — afecta totes les fitxes d'edifici
+- ✅ **Fotografies crèdit**: **CC-BY-SA 4.0, "El Globus Vermell"** — confirmat per Xavi (mail 2026-08-28). Cal afegir aquest crèdit al peu de cada fitxa d'edifici que tingui foto. Pendent d'implementar.
 
 ---
 
@@ -166,11 +166,13 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 - ✅ `mapa.js`: agrupació per districte amb ordre oficial dels 10 districtes de Barcelona
 - ✅ Fix acordió + posició llistat (2026-08-20): el commit d4c40fa va treure sense voler l'acordió de descripció i la injectació del llistat sota "## Llistat" a masies/biblioteques/mercats (la condició d'inici només cobria `grupPer === 'any'`). Corregit a `mapa.js` per cobrir també `'districte'`. Commit `1cfba79`.
 - ✅ Mercats: agrupar per zona amb text introductori + desplegable per zona — **FET (2026-08-21)**: camp `zona` a les 42 fitxes + mode 'zona' al llistat. Zones segons els títols del text del plànol: Ciutat Vella / Eixample / Antics municipis (+ sub-municipis) / Nous barris / Mercats no alimentaris. Dubtes pendents de validar: Tres Torres, Bon Pastor.
-- ⏳ Mercats: les sub-zones (Sants, Sarrià...) surten com a grups seqüencials al mateix nivell que "Antics municipis". Si Xavi les vol NIUades dins el grup mare, cal decidir disseny abans de fer-ho.
+- ✅ Mercats: zones validades per Xavi (mail 2026-08-24): Tres Torres → **Sant Gervasi** ✓ | Bon Pastor → **Nous barris** (canvi! estava a Sant Andreu) | Les Corts → **Nous barris** (canvi! estava dins "Antics municipis" sense sub-grup) | Barceloneta i Born → Ciutat Vella ✓. **Pendent: aplicar els canvis de zona a les fitxes de Bon Pastor i Les Corts.**
+- ⏳ Mercats: les sub-zones (Sants, Sarrià...) surten com a grups seqüencials al mateix nivell que "Antics municipis". Xavi espera que estiguin niuades dins el grup mare (estructura: Antics municipis → Sants / Sarrià / Sant Gervasi / Gràcia / Horta / Sant Andreu / Sant Martí de Provençals). Cal decidir disseny i implementar.
 
 **Pendent decisió — cal respondre a Xavi:**
-- 🔴 Format `any` + `projecte` per als 4 plànols quan hi ha original + reforma (CaixaFòrum, Museu Picasso, CosmoCaixa): Xavi proposa opció 1 (`any / arquitectes / projecte original / reforma`) o opció 2 (`any / projecte / projecte original`). **Xavi respon (2026-08-19): cal saber com afecta la resta d'elements d'un mateix plànol — si "projecte original" només té sentit a reformes, fitxes d'un mateix plànol tindrien etiquetes diferents. Pendent de respondre-li.**
-- 🔴 La Barceloneta: Xavi pregunta si podem aplicar etiquetes *diferents* dins d'un mateix plànol (arquitectes per arquitectura, artistes per art públic). **Xavi pregunta (2026-08-19) com funcionaria: les fitxes tindran etiqueta "autoria" però segons tipus mostraran una paraula o una altra ("projecte" per arquitectura, "autoria" per art)? Pendent d'aclarir-li.**
+- ⏳ Format intervencions (CaixaFòrum, Museu Picasso, CosmoCaixa): **Xavi respon (mail 2026-08-24)** — accepta usar el mecanisme d'intervencions ja existent. Cada edifici admet diverses intervencions cadascuna amb tipus, autors i any. Camps a mostrar: `Arquitectes` (tots els autors de totes les intervencions, clicables) + `Any` (pendent decidir opcions, veure sota) + `Projecte` (si no hi ha reforma; autors + any, no clicables) + `Projecte original` (si hi ha reforma; autors + any, no clicables) + `Reforma` (si hi ha reforma; autors + any, no clicables; pot aparèixer més d'una vegada si hi ha diverses reformes). L'etiqueta "Reforma" pot renombrar-se manualment per cas (Ampliació, Reforma i ampliació, Reconstrucció...). **Pendent: implementar.**
+- 🔴 Camp `Any` a fitxes amb intervencions — Xavi planteja 3 opcions (mail 2026-08-24): (1) any de la intervenció més recent automàticament; (2) any manual; (3) any automàtic amb possibilitat d'override manual. Pregunta si l'opció 3 és factible. **Pendent de respondre-li.**
+- 🔴 La Barceloneta — etiquetes Arquitectes/Artistes: **Xavi respon (mail 2026-08-24)** que no sap de cap fitxa que combini arquitecte i artista alhora, però esmenta que en algun plànol d'espai públic citen una artista de land art entre els autors. Planteja si caldria mostrar alhora `Arquitectes` i `Autoria` (amb títol de l'obra). Segueix sense resolució. **Pendent: aclarir si aquest cas real existeix i com tractar-lo.**
 - ✅ Districtes incerts: **confirmat per Xavi (2026-08-19)**: Canyelles → Nou Barris ✓, la Sagrera → Sant Andreu ✓. Ja estaven assignats així.
 - ✅ Normalització arquitectes: ja aplicada (0 variants al contingut). Confirmat a Xavi.
 - ✅ Helio Piñón: nom canònic **"Heliodoro Piñón Pallarés"** (decisió Xavi 19 ago) — aplicat 2026-08-21: pàgina curada renombrada i fusionada amb la taxonomia de les 4 fitxes.
@@ -207,10 +209,17 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 - ⏳ Estudiar si exposar les instruccions d'instal·lació al web públic (ara només a /admin/). Podria ser útil per als visitants. Cal decidir on: peu de pàgina, /ajuda/, banner discret... Pendent de decisió.
 
 ### Pendents de consens ⏳
-- ⏳ Xifres portada: quines xifres concretes (treure anys d'arq. i 2a línia) — Xavi consensuarà amb l'equip
+- ✅ Colors web: **opció a — mantenir colors actuals per guia** (Xavi, mail 2026-08-28). Queda oberta la pregunta de quin color mostrar als edificis que pertanyen a diversos plànols alhora. **Pendent de decidir i implementar.**
+- ✅ Portada web: **opció c — nova portada en escriptori; mapa directe en mòbil** (Xavi, mail 2026-08-28). **Pendent d'implementar el comportament diferencial escriptori/mòbil.**
+- ✅ Xifres del projecte: **opcions a+b — tant a portada com a Presentació** (Xavi, mail 2026-08-28). Observacions: (1) els anys que apareixen a Presentació no quadren amb els de la portada — cal revisar; (2) la 2a línia de xifres no sembla útil — treure-la; (3) es podrien comptabilitzar els elements dels temes transversals. **Pendent d'implementar ajustos.**
+- ✅ Llicència peu de pàgina: **CC BY-SA 4.0** confirmada per Xavi (mail 2026-08-28) — "és el que posem a les guies". Ja implementada al peu.
+- ✅ Crèdit fotografies: **CC-BY-SA 4.0, "El Globus Vermell"** per a totes les fotos — no hi ha crèdit individual per fotògraf/a (Xavi, mail 2026-08-28). Cal afegir crèdit CC-BY-SA a les fitxes d'edifici. **Pendent d'implementar.**
+- ✅ Mapes (adreça edifici): **opció a preferida (Google Maps), opció c (doble botó) també acceptable** (Xavi, mail 2026-08-28). **Pendent d'implementar l'enllaç a l'adreça de cada fitxa.**
+- ✅ TTS/Lectura en veu alta: **opció a — versió actual (Web Speech API) suficient** (Xavi, mail 2026-08-28). Cal ara: (1) afegir a Crèdits/Tecnologia: "Web Speech API"; (2) afegir a Accessibilitat: "Lectura en veu alta de les fitxes". **Pendent de documentar internament.**
+- ✅ GoatCounter estadístiques: **opció c — indiferent** (Xavi, mail 2026-08-28). Mantenim privat (accés Joan + Xavi) fins nova decisió.
+- ✅ CMS — accés Xavi: **vol ser administrador/a** (Xavi, mail 2026-08-28). Compte `xaviglobus` ja té accés editor; cal explorar si GitHub permet pujar a admin en repos personals o si cal alternativa. **Pendent.**
 - ⏳ Camp "Projecte" a fitxes: Xavi diu que és redundant, cal confirmació explícita per eliminar-lo
 - ⏳ Xavi: revisió llista arquitectes (73 combinats + normalització) — havia dit "aquesta setmana"
-- ⏳ Xavi: disseny/colors — consulta amb l'equip
 - ⏳ Xavi: criteris arquitectes vs estudis (Eugeni Bach, Soldevila...)
 - ⏳ Arxiu Històric BCN: explorar col·laboració per fotos — iniciativa de Xavi, no urgent
 
@@ -223,7 +232,7 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 - ⏳ Xavi: 50% de bestreta per iniciar Flutter
 - ✅ Xavi: accés a guiesbarcelona.elglobusvermell.org — ja té accés (rol editor, compte `xaviglobus`); invitació admin errònia cancel·lada, no calia
 - ✅ Xavi: clarificació "filtrar per publicacions" al mapa
-- ⏳ Xavi: decisió de disseny (colors publicació vs nou rebrand) — consulta amb l'equip
+- ✅ Xavi: decisió de disseny (colors publicació vs nou rebrand) — **colors per guia confirmats** (mail 2026-08-28)
 - ⏳ Xavi: confirmar esquema de "En paper" (portada + botó PDF)
-- ⏳ Xavi: llicència del peu de pàgina — resolt: © + CC BY-SA 4.0
+- ✅ Xavi: llicència del peu de pàgina — CC BY-SA 4.0 confirmada (mail 2026-08-28)
 - ~~⏳ Xavi: confirmar contrasenya admin backoffice~~ — obsolet, ja no hi ha protecció per contrasenya al GitHub Pages de proves (comprovat 18 ago)

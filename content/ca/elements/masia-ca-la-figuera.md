@@ -11,4 +11,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Ca la Figuera
+foto: masia-ca-la-figuera.jpg
 ---

@@ -10,4 +10,5 @@ long: 2.1910918
 publicacions:
 - 76-08
 title: Seu de la CMT
+foto: seu-de-la-cmt.jpg
 ---

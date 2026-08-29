@@ -13,4 +13,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Gras
+foto: masia-can-gras.jpg
 ---

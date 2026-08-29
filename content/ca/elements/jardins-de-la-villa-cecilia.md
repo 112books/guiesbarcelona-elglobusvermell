@@ -9,4 +9,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Jardins de la Vil·la Cecília
+foto: jardins-de-la-villa-cecilia.jpg
 ---

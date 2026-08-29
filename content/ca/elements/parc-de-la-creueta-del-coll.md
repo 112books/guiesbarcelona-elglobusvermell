@@ -19,4 +19,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Parc de la Creueta del Coll
+foto: parc-de-la-creueta-del-coll.jpg
 ---

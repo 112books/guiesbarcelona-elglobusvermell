@@ -17,4 +17,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Jardins del Doctor Pla i Armengol
+foto: jardins-del-doctor-pla-i-armengol.jpg
 ---

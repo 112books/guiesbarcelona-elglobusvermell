@@ -9,4 +9,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici-Porta Vila Olímpica
+foto: edifici-porta-vila-olimpica.jpg
 ---

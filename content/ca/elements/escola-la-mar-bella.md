@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Escola La Mar Bella
+foto: escola-la-mar-bella.jpg
 ---

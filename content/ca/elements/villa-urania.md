@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Vil·la Urània
+foto: villa-urania.jpg
 ---

@@ -7,4 +7,5 @@ long: 2.2008809
 publicacions:
 - 76-08
 title: Conjunt d’habitatges Tirant lo Blanc
+foto: conjunt-dhabitatges-tirant-lo-blanc.jpg
 ---

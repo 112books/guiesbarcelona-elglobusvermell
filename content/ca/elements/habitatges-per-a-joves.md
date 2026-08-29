@@ -14,4 +14,5 @@ long: 2.1841225
 publicacions:
 - 76-08
 title: Habitatges per a joves
+foto: habitatges-per-a-joves.jpg
 ---

@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: La Borda, cohabitatges cooperatius
+foto: la-borda-cohabitatges-cooperatius.jpg
 ---

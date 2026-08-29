@@ -33,4 +33,5 @@ long: 2.1650093
 publicacions:
 - gatcpac
 title: Dispensari Central Antituberculós
+foto: dispensari-central-antituberculos.jpg
 ---

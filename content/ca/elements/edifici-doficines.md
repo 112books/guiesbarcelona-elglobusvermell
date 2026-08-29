@@ -14,4 +14,5 @@ long: 2.197038
 publicacions:
 - 09-25
 title: Edifici d’oficines
+foto: edifici-doficines.jpg
 ---

@@ -12,4 +12,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Instal·lacions d’entrenament de tir amb arc
+foto: installacions-dentrenament-de-tir-amb-arc.jpg
 ---

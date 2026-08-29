@@ -16,4 +16,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Skate Park Mar Bella
+foto: skate-park-mar-bella.jpg
 ---
