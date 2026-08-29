@@ -1,7 +1,7 @@
 ---
 adreca: Pg. Valldaura, 186-190
 districte: "Nou Barris"
-zona: "Nous barris"
+zona: "Nou Barris"
 draft: false
 foto: /img/elements/mercat-de-la-guineueta.jpg
 intervencions:

@@ -137,7 +137,7 @@ Més endavant, ja en ple segle xx, el desenvolupament d’aquests barris va fer 
 
 #### Sant Martí de Provençals
 
-### Nous barris
+### Nou Barris
 
 Entre les dècades de 1950 i 1970 Barcelona experimentà un gran creixement per causa de la immigració provinent d’arreu d’Espanya. La necessitat d’abastir la nova població obrí la segona gran etapa de construcció de mercats a la ciutat, durant la qual se n’inauguraren més d’una vintena. Gairebé tots van ser fets amb formigó armat i tenen unes dimensions més modestes (menor alçada, menys superfície i no tantes parades) que les dels grans mercats de finals del segle xix. Alguns d’ells han estat recentment remodelats o, fins i tot, refets de nou.
 
