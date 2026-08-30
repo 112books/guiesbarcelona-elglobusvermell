@@ -123,6 +123,50 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 
 ---
 
+## SEO, RGPD i seguretat (30 ago 2026)
+
+### Implementat ✅
+- ✅ **Informes d'auditoria** — generats i guardats a `.ai/` (30/08/2026):
+  - `.ai/informe-accessibilitat-2026-08-30.md` — WCAG 2.1 AA, ~75-80% conformitat
+  - `.ai/informe-seguretat-2026-08-30.md` — nivell MODERAT-BAIX
+  - `.ai/informe-rendiment-2026-08-30.md` — bloquejat per imatges (880 MB sense WebP)
+  - `.ai/informe-seo-rgpd-2026-08-30.md` — RGPD conforme, SEO moderat
+- ✅ **Open Graph + Twitter Cards** — `head.html`: metadades socials per a fitxes i pàgines; imatge de l'edifici com a `og:image`; condicionals: inactiu a staging
+- ✅ **Schema.org JSON-LD** — `partials/schema.html` nou: `WebSite` (inici) + `LandmarksOrHistoricalBuildings` (fitxes, amb adreça, coordenades GPS, arquitectes, any)
+- ✅ **Meta description automàtica** — si no hi ha `description` al front matter, s'usa `.Params.descripcio` truncat a 155 caràcters
+- ✅ **Política de privacitat** — `content/ca/legal/privacitat.md`: RGPD, GoatCounter, drets ARCO
+- ✅ **Política de galetes** — `content/ca/legal/cookies.md`: sense cookies, GoatCounter sense cookies, OpenStreetMap/CartoDB
+- ✅ **Avís legal** — `content/ca/legal/avis-legal.md`: propietat intel·lectual, CC BY-SA 4.0, responsabilitat
+- ✅ **Fotos-web-app a .gitignore** — 880 MB d'imatges locals excloses de git
+
+### Pendent — accessibilitat (informe: 6-8h estimades)
+- ⏳ Contrast insuficient: `.footer-powered-link` (#b3b3b3 → #6b6b6b), `::placeholder` (#aaa → #767676) — `main.css:302,532`
+- ⏳ Carrusel: `keydown` ArrowLeft/ArrowRight, dots 44px, `aria-pressed` als dots — `fitxa.js:45-90`
+- ⏳ Focus visible filtres mapa: `:focus-visible` explícit a `.filtre-btn`, `.filtre-lateral` — `main.css:~550`
+- ⏳ Botó "i" de publicació: substituir per SVG + `sr-only` — `mapa.js:451-466`
+- ⏳ Carrusel: indicador "Diapositiva N de M" per a sr-only
+- ⏳ Skip link `<a href="#main">` a `baseof.html`
+- ⏳ `aria-current="page"` al menú de navegació actiu
+
+### Pendent — seguretat (informe)
+- ⏳ URL `?tema=` whitelist explícita — `mapa.js:46-49` (2 línies de codi)
+- ⏳ CMS auth: OAuth GitHub App (Fase 1, ja prevista)
+- ⏳ `analytics.json` públic: restringir o eliminar un cop migrat a Vercel/Netlify
+- ⏳ `unsafe=true` Markdown: avaluar si es pot desactivar (`config/_default/hugo.toml`)
+
+### Pendent — rendiment (informe)
+- ⏳ **Imatges WebP** — conversió batch de 880 MB d'imatges originals a WebP (<200 KB/foto). Impacte crític: LCP de >4s a <2,5s. Comanda: `cwebp -q 82 + mogrify -resize 1200>`
+- ⏳ `width`/`height` a `<img>` de fitxes — evitar CLS — `elements/single.html`
+- ⏳ Leaflet.min.js en lloc de leaflet.js — `static/vendor/leaflet/` (~42 KB vs 147 KB)
+- ⏳ Verificar sitemap.xml a producció (build `--environment production`)
+
+### Pendent — SEO (informe)
+- ⏳ Google Search Console — activar quan el domini de producció estigui llest
+- ⏳ `hreflang` — preparar quan s'activin EN/ES
+- ⏳ Auditar `envia.php` — validació CSRF, sanitització (RGPD + seguretat)
+
+---
+
 ## Infraestructura servidor
 
 - 🔴 Rebre dades de Jorge (host, usuari, ruta, clau SSH)
