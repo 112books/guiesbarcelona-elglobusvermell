@@ -9,5 +9,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Habitatges de protecció oficial per a joves
-foto: habitatges-de-proteccio-oficial-per-a-joves.jpg
+foto: img/elements/habitatges-de-proteccio-oficial-per-a-joves.jpg
 ---

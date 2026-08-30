@@ -8,5 +8,5 @@ long: 2.1667834
 publicacions:
 - 76-08
 title: Museu d’Art Contemporani de Barcelona (MACBA)
-foto: museu-dart-contemporani-de-barcelona-macba.jpg
+foto: img/elements/museu-dart-contemporani-de-barcelona-macba.jpg
 ---

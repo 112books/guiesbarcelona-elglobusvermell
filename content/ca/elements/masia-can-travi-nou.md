@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Travi Nou
-foto: masia-can-travi-nou.jpg
+foto: img/elements/masia-can-travi-nou.jpg
 ---

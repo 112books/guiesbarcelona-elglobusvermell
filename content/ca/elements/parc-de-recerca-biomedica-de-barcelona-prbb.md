@@ -8,5 +8,5 @@ long: 2.1944346
 publicacions:
 - 76-08
 title: Parc de Recerca Biomèdica de Barcelona (PRBB)
-foto: parc-de-recerca-biomedica-de-barcelona-prbb.jpg
+foto: img/elements/parc-de-recerca-biomedica-de-barcelona-prbb.jpg
 ---

@@ -18,5 +18,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Parc Diagonal Mar
-foto: parc-diagonal-mar.jpg
+foto: img/elements/parc-diagonal-mar.jpg
 ---

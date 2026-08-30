@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Torre del Rellotge
-foto: masia-torre-del-rellotge.jpg
+foto: img/elements/masia-torre-del-rellotge.jpg
 ---

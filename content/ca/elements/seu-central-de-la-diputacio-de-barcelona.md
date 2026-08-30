@@ -11,5 +11,5 @@ long: 2.1577166
 publicacions:
 - 76-08
 title: Seu central de la Diputació de Barcelona
-foto: seu-central-de-la-diputacio-de-barcelona.jpg
+foto: img/elements/seu-central-de-la-diputacio-de-barcelona.jpg
 ---

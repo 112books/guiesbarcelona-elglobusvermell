@@ -12,5 +12,5 @@ temes_transversals:
 - dones-arquitectes
 - nomenclator-femeni
 title: Biblioteca Vilapicina i la Torre Llobeta – Carmen Laforet
-foto: biblioteca-vilapicina-i-la-torre-llobeta-carmen-laforet.jpg
+foto: img/elements/biblioteca-vilapicina-i-la-torre-llobeta-carmen-laforet.jpg
 ---

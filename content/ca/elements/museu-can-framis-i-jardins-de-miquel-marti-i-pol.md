@@ -40,5 +40,5 @@ temes_transversals:
 - art-public
 - espai-public
 title: Museu Can Framis i jardins de Miquel Martí i Pol
-foto: museu-can-framis-i-jardins-de-miquel-marti-i-pol.jpg
+foto: img/elements/museu-can-framis-i-jardins-de-miquel-marti-i-pol.jpg
 ---

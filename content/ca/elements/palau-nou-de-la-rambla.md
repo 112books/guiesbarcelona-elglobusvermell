@@ -17,5 +17,5 @@ long: 2.1729794
 publicacions:
 - 76-08
 title: Palau Nou de la Rambla
-foto: palau-nou-de-la-rambla.jpg
+foto: img/elements/palau-nou-de-la-rambla.jpg
 ---

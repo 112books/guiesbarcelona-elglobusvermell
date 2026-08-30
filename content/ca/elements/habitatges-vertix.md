@@ -14,5 +14,5 @@ long: 2.2034232
 publicacions:
 - 76-08
 title: Habitatges Vèrtix
-foto: habitatges-vertix.jpg
+foto: img/elements/habitatges-vertix.jpg
 ---

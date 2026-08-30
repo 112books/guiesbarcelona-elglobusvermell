@@ -15,5 +15,5 @@ long: 2.1668087
 publicacions:
 - 76-08
 title: Centre de Cultura Contemporània de Barcelona (CCCB)
-foto: centre-de-cultura-contemporania-de-barcelona-cccb.jpg
+foto: img/elements/centre-de-cultura-contemporania-de-barcelona-cccb.jpg
 ---

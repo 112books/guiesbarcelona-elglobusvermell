@@ -18,5 +18,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Filmoteca de Catalunya
-foto: filmoteca-de-catalunya.jpg
+foto: img/elements/filmoteca-de-catalunya.jpg
 ---

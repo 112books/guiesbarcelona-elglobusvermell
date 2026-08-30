@@ -10,5 +10,5 @@ long: 2.1475257
 publicacions:
 - gatcpac
 title: Edifici d’habitatges, carrer Viladomat
-foto: edifici-dhabitatges-carrer-viladomat.jpg
+foto: img/elements/edifici-dhabitatges-carrer-viladomat.jpg
 ---

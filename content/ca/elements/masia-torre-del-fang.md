@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: teulada a quatre vessants.
 title: Masia Torre del Fang
-foto: masia-torre-del-fang.jpg
+foto: img/elements/masia-torre-del-fang.jpg
 ---

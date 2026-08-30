@@ -10,5 +10,5 @@ long: 2.1468254
 publicacions:
 - gatcpac
 title: Casa Jaume Sans
-foto: casa-jaume-sans.jpg
+foto: img/elements/casa-jaume-sans.jpg
 ---

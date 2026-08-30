@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Torre Llobeta
-foto: masia-torre-llobeta.jpg
+foto: img/elements/masia-torre-llobeta.jpg
 ---

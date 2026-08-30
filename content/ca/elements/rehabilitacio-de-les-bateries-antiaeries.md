@@ -11,5 +11,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Rehabilitació de les bateries antiaèries
-foto: rehabilitacio-de-les-bateries-antiaeries.jpg
+foto: img/elements/rehabilitacio-de-les-bateries-antiaeries.jpg
 ---

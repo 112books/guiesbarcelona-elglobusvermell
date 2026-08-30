@@ -12,5 +12,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Can Bruixa
-foto: masia-can-bruixa.jpg
+foto: img/elements/masia-can-bruixa.jpg
 ---

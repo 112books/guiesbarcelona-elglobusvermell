@@ -9,5 +9,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Esplanada Fòrum / Pèrgola fotovoltaica
-foto: esplanada-forum-pergola-fotovoltaica.jpg
+foto: img/elements/esplanada-forum-pergola-fotovoltaica.jpg
 ---

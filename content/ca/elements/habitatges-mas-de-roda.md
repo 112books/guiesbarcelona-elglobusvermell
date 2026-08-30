@@ -16,5 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Habitatges Mas de Roda
-foto: habitatges-mas-de-roda.jpg
+foto: img/elements/habitatges-mas-de-roda.jpg
 ---

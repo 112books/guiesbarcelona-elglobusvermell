@@ -12,5 +12,5 @@ long: 2.1694232
 publicacions:
 - masies
 title: Masia Ca n’Ensenya
-foto: masia-ca-nensenya.jpg
+foto: img/elements/masia-ca-nensenya.jpg
 ---

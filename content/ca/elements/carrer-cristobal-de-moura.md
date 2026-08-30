@@ -13,5 +13,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Carrer Cristóbal de Moura
-foto: carrer-cristobal-de-moura.jpg
+foto: img/elements/carrer-cristobal-de-moura.jpg
 ---

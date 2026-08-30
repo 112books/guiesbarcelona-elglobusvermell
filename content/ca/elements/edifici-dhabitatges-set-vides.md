@@ -16,5 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges Set Vides
-foto: edifici-dhabitatges-set-vides.jpg
+foto: img/elements/edifici-dhabitatges-set-vides.jpg
 ---

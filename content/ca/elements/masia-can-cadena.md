@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Cadena
-foto: masia-can-cadena.jpg
+foto: img/elements/masia-can-cadena.jpg
 ---

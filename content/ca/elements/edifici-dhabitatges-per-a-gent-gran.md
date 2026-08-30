@@ -17,5 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges per a gent gran
-foto: edifici-dhabitatges-per-a-gent-gran.jpg
+foto: img/elements/edifici-dhabitatges-per-a-gent-gran.jpg
 ---

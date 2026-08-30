@@ -15,5 +15,5 @@ long: 2.1729195
 publicacions:
 - 76-08
 title: 48 habitatges i centre cívic
-foto: 48-habitatges-i-centre-civic.jpg
+foto: img/elements/48-habitatges-i-centre-civic.jpg
 ---

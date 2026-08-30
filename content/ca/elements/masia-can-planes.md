@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Can Planes
-foto: masia-can-planes.jpg
+foto: img/elements/masia-can-planes.jpg
 ---

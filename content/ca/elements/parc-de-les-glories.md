@@ -16,5 +16,5 @@ temes_transversals:
 - espai-public
 - dones-arquitectes
 title: Parc de les Glòries
-foto: parc-de-les-glories.jpg
+foto: img/elements/parc-de-les-glories.jpg
 ---

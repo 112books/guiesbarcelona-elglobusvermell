@@ -13,5 +13,5 @@ proteccio: C
 publicacions:
 - masies
 title: Masia Can Raventós
-foto: masia-can-raventos.jpg
+foto: img/elements/masia-can-raventos.jpg
 ---

@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: teulada a quatre vessants.
 title: Masia Can Cortada
-foto: masia-can-cortada.jpg
+foto: img/elements/masia-can-cortada.jpg
 ---

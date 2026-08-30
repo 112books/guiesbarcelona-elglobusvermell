@@ -10,5 +10,5 @@ long: 2.1468087
 publicacions:
 - gatcpac
 title: Edifici d’habitatges, carrer Rosselló
-foto: edifici-dhabitatges-carrer-rossello.jpg
+foto: img/elements/edifici-dhabitatges-carrer-rossello.jpg
 ---

@@ -17,5 +17,5 @@ long: 2.2027332
 publicacions:
 - 76-08
 title: Escola Municipal de Vela
-foto: escola-municipal-de-vela.jpg
+foto: img/elements/escola-municipal-de-vela.jpg
 ---

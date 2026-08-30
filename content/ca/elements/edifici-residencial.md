@@ -14,5 +14,5 @@ long: 2.1634348
 publicacions:
 - 09-25
 title: Edifici residencial
-foto: edifici-residencial.jpg
+foto: img/elements/edifici-residencial.jpg
 ---

@@ -17,5 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Centre Kàlida
-foto: centre-kalida.jpg
+foto: img/elements/centre-kalida.jpg
 ---

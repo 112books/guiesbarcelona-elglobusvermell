@@ -11,5 +11,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Jardí Botànic de Barcelona
-foto: jardi-botanic-de-barcelona.jpg
+foto: img/elements/jardi-botanic-de-barcelona.jpg
 ---

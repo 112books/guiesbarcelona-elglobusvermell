@@ -18,5 +18,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges per a 4 amics
-foto: edifici-dhabitatges-per-a-4-amics.jpg
+foto: img/elements/edifici-dhabitatges-per-a-4-amics.jpg
 ---

@@ -12,5 +12,5 @@ proteccio: B
 publicacions:
 - masies
 title: Masia Rectoria de Sant Martí
-foto: masia-rectoria-de-sant-marti.jpg
+foto: img/elements/masia-rectoria-de-sant-marti.jpg
 ---

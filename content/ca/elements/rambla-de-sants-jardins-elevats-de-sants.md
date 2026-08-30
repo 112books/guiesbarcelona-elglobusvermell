@@ -18,5 +18,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Rambla de Sants. Jardins elevats de Sants
-foto: rambla-de-sants-jardins-elevats-de-sants.jpg
+foto: img/elements/rambla-de-sants-jardins-elevats-de-sants.jpg
 ---

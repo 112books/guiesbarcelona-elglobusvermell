@@ -9,5 +9,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Poliesportiu Turó de la Peira
-foto: poliesportiu-turo-de-la-peira.jpg
+foto: img/elements/poliesportiu-turo-de-la-peira.jpg
 ---

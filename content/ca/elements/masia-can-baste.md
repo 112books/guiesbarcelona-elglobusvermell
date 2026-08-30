@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Can Basté
-foto: masia-can-baste.jpg
+foto: img/elements/masia-can-baste.jpg
 ---

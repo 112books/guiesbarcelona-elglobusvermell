@@ -12,5 +12,5 @@ proteccio: C
 publicacions:
 - masies
 title: Masia Mas Guinardó
-foto: masia-mas-guinardo.jpg
+foto: img/elements/masia-mas-guinardo.jpg
 ---

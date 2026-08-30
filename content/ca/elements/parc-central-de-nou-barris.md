@@ -17,5 +17,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Parc Central de Nou Barris
-foto: parc-central-de-nou-barris.jpg
+foto: img/elements/parc-central-de-nou-barris.jpg
 ---

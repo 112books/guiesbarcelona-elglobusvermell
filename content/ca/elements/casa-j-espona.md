@@ -10,5 +10,5 @@ long: 2.1467981
 publicacions:
 - gatcpac
 title: Casa J. Espona
-foto: casa-j-espona.jpg
+foto: img/elements/casa-j-espona.jpg
 ---

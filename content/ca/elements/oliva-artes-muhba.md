@@ -14,5 +14,5 @@ long: 2.2014127
 publicacions:
 - 09-25
 title: Oliva Artés (MUHBA)
-foto: oliva-artes-muhba.jpg
+foto: img/elements/oliva-artes-muhba.jpg
 ---

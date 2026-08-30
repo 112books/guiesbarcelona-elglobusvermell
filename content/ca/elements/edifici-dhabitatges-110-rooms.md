@@ -16,5 +16,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges «110 Rooms»
-foto: edifici-dhabitatges-110-rooms.jpg
+foto: img/elements/edifici-dhabitatges-110-rooms.jpg
 ---
