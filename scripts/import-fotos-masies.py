@@ -78,7 +78,7 @@ for num, slug in sorted(MAPPING.items()):
     if num not in num_to_src: print(f"[MANCA] #{num:02d} → {slug}"); no_photo.append((num, slug)); continue
     shutil.copy2(os.path.join(SRC_DIR, num_to_src[num]), dst)
     print(f"[COPIA] '{num_to_src[num]}' → '{slug}.jpg'")
-    update_foto(slug, f"{slug}.jpg"); copied += 1
+    update_foto(slug, f"img/elements/{slug}.jpg"); copied += 1
 
 print(f"\n=== Resum ===\nCopiades: {copied} | Ja existien: {skipped} | Sense foto: {len(no_photo)}")
 if no_photo:

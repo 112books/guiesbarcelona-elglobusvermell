@@ -149,7 +149,7 @@ for num, slug in sorted(MAPPING.items()):
     src_path = os.path.join(SRC_DIR, src_fname)
     shutil.copy2(src_path, dst_path)
     print(f"[COPIA] '{src_fname}' → '{slug}.jpg'")
-    update_foto_field(slug, f"{slug}.jpg")
+    update_foto_field(slug, f"img/elements/{slug}.jpg")
     copied += 1
 
 print(f"\n=== Resum ===")
