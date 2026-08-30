@@ -5,12 +5,18 @@ Executat per GitHub Actions (goatcounter.yml) amb les variables d'entorn:
   GC_TOKEN  → token API de GoatCounter (GitHub Secret)
   GC_SITE   → nom del compte (ex: guiesbarcelona)
   DAYS      → dies a incloure (per defecte: 365)
+
+Comportament en cas d'error:
+  - Si GC_TOKEN / GC_SITE no estan configurats: preserva les dades existents.
+  - Si l'API retorna 0 visites: preserva les dades existents.
+  - Surt amb codi 0 en tots dos casos perquè el workflow no falli.
 """
 from __future__ import annotations
 
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 
 try:
@@ -24,37 +30,50 @@ GC_SITE  = os.environ.get("GC_SITE", "")
 DAYS     = int(os.environ.get("DAYS", "365"))
 OUT_PATH = "static/admin/stats/analytics.json"
 
-if not GC_TOKEN or not GC_SITE:
-    print("WARN: GC_TOKEN o GC_SITE no configurats. S'escriu un fitxer buit.", file=sys.stderr)
-    out = {
-        "generated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "period": {"start": "", "end": ""},
-        "total": 0, "total_unique": 0,
-        "hits_by_day": [], "hits": [],
-        "by_section": {}, "by_lang": {},
-        "browsers": [], "systems": [], "sizes": [], "locations": [], "refs": [],
-    }
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-    with open(OUT_PATH, "w") as f:
-        json.dump(out, f, indent=2)
+
+def existing_total() -> int:
+    """Retorna el total de visites de l'analytics.json actual, o 0 si no existeix."""
+    try:
+        with open(OUT_PATH) as f:
+            return json.load(f).get("total", 0)
+    except Exception:
+        return 0
+
+
+def preserve_existing(reason: str) -> None:
+    """No sobreescriu el fitxer existent. Informa i surt."""
+    prev = existing_total()
+    print(f"WARN: {reason}. Es preserven les dades existents ({prev} visites).", file=sys.stderr)
     sys.exit(0)
+
+
+if not GC_TOKEN or not GC_SITE:
+    preserve_existing("GC_TOKEN o GC_SITE no configurats")
 
 BASE    = f"https://{GC_SITE}.goatcounter.com/api/v0"
 HEADERS = {"Authorization": f"Bearer {GC_TOKEN}"}
 
 now   = datetime.now(timezone.utc)
-end   = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+end   = now.strftime("%Y-%m-%d")
 start = (now - timedelta(days=DAYS)).strftime("%Y-%m-%d")
 PARAMS = {"start": start, "end": end, "limit": 200}
 
 LANGS = {"ca", "es", "en", "fr", "de", "it", "pt"}
 
 
-def _gc_get(endpoint: str, params: dict | None = None) -> dict:
+def _gc_get(endpoint: str, params: dict | None = None, retries: int = 3) -> dict:
     url = BASE + endpoint
-    resp = requests.get(url, headers=HEADERS, params=params or PARAMS, timeout=20)
-    resp.raise_for_status()
-    return resp.json()
+    for attempt in range(retries):
+        try:
+            resp = requests.get(url, headers=HEADERS, params=params or PARAMS, timeout=20)
+            resp.raise_for_status()
+            return resp.json()
+        except Exception as exc:
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+            else:
+                raise exc
+    return {}
 
 
 def _norm_stats(stats: list) -> list:
@@ -90,7 +109,7 @@ def safe_fetch(endpoint: str) -> list:
 try:
     hits_raw = _gc_get("/stats/hits", {**PARAMS, "limit": 200}).get("hits", [])
 except Exception as exc:
-    print(f"WARN: hits fetch fallat: {exc}", file=sys.stderr)
+    preserve_existing(f"hits fetch fallat: {exc}")
     hits_raw = []
 
 by_section: dict[str, int] = {}
@@ -116,6 +135,9 @@ for path_item in hits_raw:
 
     if path_total > 0:
         hits_pages[path] = hits_pages.get(path, 0) + path_total
+
+if total == 0:
+    preserve_existing("l'API ha retornat 0 visites")
 
 hits_by_day = [{"date": k, "count": v} for k, v in sorted(hits_by_day_map.items())]
 hits_top    = sorted(

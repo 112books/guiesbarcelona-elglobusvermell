@@ -2,7 +2,7 @@ name: Fetch GoatCounter stats
 
 on:
   schedule:
-    - cron: '0 * * * *'   # cada hora
+    - cron: '0 */6 * * *'   # cada 6 hores (00, 06, 12, 18 UTC)
   workflow_dispatch:
 
 permissions:
