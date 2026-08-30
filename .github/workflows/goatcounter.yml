@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   fetch-stats:
@@ -31,9 +32,21 @@ jobs:
         run: python scripts/build-stats.py
 
       - name: Commit stats
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add static/admin/stats/analytics.json
-          git diff --staged --quiet || git commit -m "stats: actualització automàtica $(date -u +%Y-%m-%dT%H:%M)Z"
-          git push
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "stats: actualització automàtica $(date -u +%Y-%m-%dT%H:%M)Z"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy-prod.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
