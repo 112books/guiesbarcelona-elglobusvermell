@@ -29,5 +29,8 @@ docs/
 guia-globus-vermell/
 guiesbarcelona.elglobusvermell.org/
 
+# Fotos originals de l'app (massa pesades per a git — 880 MB)
+static/img/elements/Fotos-web-app/
+
 # Registre d'hores (time-tracker) — dades internes, no públiques
 .taques/
