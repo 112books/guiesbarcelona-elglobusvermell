@@ -116,10 +116,10 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
   - Icona de reproducció discreta a la fitxa (play/pause)
   - Valorar quins camps llegir: títol, adreça, any, arquitecte/s, descripció
   - Estimar temps i cost: Web Speech API = 1-2 dies (zero cost); Piper al servidor = 3-5 dies (cost infraestructura)
-- ✅ **Crèdits → Tecnologia**: Web Speech API afegida (2026-08-29)
-- ✅ **Accessibilitat → Mesures aplicades**: "Lectura en veu alta" i "Peu de foto amb alt text" afegits (2026-08-29)
-- ✅ **Accessibilitat → Tecnologia**: Web Speech API afegida (2026-08-29)
-- ✅ **Fotografies crèdit**: **CC-BY-SA 4.0, "El Globus Vermell"** — confirmat per Xavi (mail 2026-08-28). Implementat 2026-08-29: `single.html` mostra "CC BY-SA 4.0, El Globus Vermell" al peu de cada foto.
+- ⏳ **Crèdits → Tecnologia**: afegir entrada de la tecnologia TTS un cop confirmada l'opció (Web Speech API o Piper TTS)
+- ⏳ **Accessibilitat → Mesures aplicades**: afegir "Lectura en veu alta de les fitxes d'edifici (text a veu)" i "Peu de foto amb text descriptiu (alt text)" un cop confirmada la implementació definitiva
+- ⏳ **Accessibilitat → Tecnologia**: afegir la tecnologia TTS usada (Web Speech API del navegador o Piper TTS)
+- ✅ **Fotografies crèdit**: **CC-BY-SA 4.0, "El Globus Vermell"** — confirmat per Xavi (mail 2026-08-28). Cal afegir aquest crèdit al peu de cada fitxa d'edifici que tingui foto. Pendent d'implementar.
 
 ---
 
@@ -166,8 +166,8 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 - ✅ `mapa.js`: agrupació per districte amb ordre oficial dels 10 districtes de Barcelona
 - ✅ Fix acordió + posició llistat (2026-08-20): el commit d4c40fa va treure sense voler l'acordió de descripció i la injectació del llistat sota "## Llistat" a masies/biblioteques/mercats (la condició d'inici només cobria `grupPer === 'any'`). Corregit a `mapa.js` per cobrir també `'districte'`. Commit `1cfba79`.
 - ✅ Mercats: agrupar per zona amb text introductori + desplegable per zona — **FET (2026-08-21)**: camp `zona` a les 42 fitxes + mode 'zona' al llistat. Zones segons els títols del text del plànol: Ciutat Vella / Eixample / Antics municipis (+ sub-municipis) / Nou Barris / Mercats no alimentaris. Dubtes pendents de validar: Tres Torres, Bon Pastor.
-- ✅ Mercats: zones validades per Xavi (mail 2026-08-24): Tres Torres → **Sant Gervasi** ✓ | Bon Pastor → **Nou Barris** (canvi aplicat 2026-08-29) | Les Corts → **Nou Barris** (canvi aplicat 2026-08-29) | Barceloneta i Born → Ciutat Vella ✓.
-- ✅ Mercats: sub-zones niuades sota "Antics municipis" — implementat 2026-08-29: acordions fills (Sants, Sarrià, Sant Gervasi, Gràcia, Horta, Sant Andreu, Sant Martí de Provençals) dins el grup pare.
+- ✅ Mercats: zones validades per Xavi (mail 2026-08-24): Tres Torres → **Sant Gervasi** ✓ | Bon Pastor → **Nou Barris** (canvi! estava a Sant Andreu) | Les Corts → **Nou Barris** (canvi! estava dins "Antics municipis" sense sub-grup) | Barceloneta i Born → Ciutat Vella ✓. **Pendent: aplicar els canvis de zona a les fitxes de Bon Pastor i Les Corts.**
+- ⏳ Mercats: les sub-zones (Sants, Sarrià...) surten com a grups seqüencials al mateix nivell que "Antics municipis". Xavi espera que estiguin niuades dins el grup mare (estructura: Antics municipis → Sants / Sarrià / Sant Gervasi / Gràcia / Horta / Sant Andreu / Sant Martí de Provençals). Cal decidir disseny i implementar.
 
 **Pendent decisió — cal respondre a Xavi:**
 - ⏳ Format intervencions (CaixaFòrum, Museu Picasso, CosmoCaixa): **Xavi respon (mail 2026-08-24)** — accepta usar el mecanisme d'intervencions ja existent. Cada edifici admet diverses intervencions cadascuna amb tipus, autors i any. Camps a mostrar: `Arquitectes` (tots els autors de totes les intervencions, clicables) + `Any` (pendent decidir opcions, veure sota) + `Projecte` (si no hi ha reforma; autors + any, no clicables) + `Projecte original` (si hi ha reforma; autors + any, no clicables) + `Reforma` (si hi ha reforma; autors + any, no clicables; pot aparèixer més d'una vegada si hi ha diverses reformes). L'etiqueta "Reforma" pot renombrar-se manualment per cas (Ampliació, Reforma i ampliació, Reconstrucció...). **Pendent: implementar.**
@@ -211,11 +211,11 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 ### Pendents de consens ⏳
 - ✅ Colors web: **opció a — mantenir colors actuals per guia** (Xavi, mail 2026-08-28). Queda oberta la pregunta de quin color mostrar als edificis que pertanyen a diversos plànols alhora. **Pendent de decidir i implementar.**
 - ✅ Portada web: **opció c — nova portada en escriptori; mapa directe en mòbil** (Xavi, mail 2026-08-28). **Pendent d'implementar el comportament diferencial escriptori/mòbil.**
-- ✅ Xifres del projecte: **opcions a+b — tant a portada com a Presentació** (Xavi, mail 2026-08-28). Implementat 2026-08-29: anyMin = 1928 alineat amb portada; 2a fila (Parcs, Mercats, Industrial, Biblioteques) suprimida. Pendent (no confirmat): comptabilitzar elements temes transversals.
+- ✅ Xifres del projecte: **opcions a+b — tant a portada com a Presentació** (Xavi, mail 2026-08-28). Observacions: (1) els anys que apareixen a Presentació no quadren amb els de la portada — cal revisar; (2) la 2a línia de xifres no sembla útil — treure-la; (3) es podrien comptabilitzar els elements dels temes transversals. **Pendent d'implementar ajustos.**
 - ✅ Llicència peu de pàgina: **CC BY-SA 4.0** confirmada per Xavi (mail 2026-08-28) — "és el que posem a les guies". Ja implementada al peu.
 - ✅ Crèdit fotografies: **CC-BY-SA 4.0, "El Globus Vermell"** per a totes les fotos — no hi ha crèdit individual per fotògraf/a (Xavi, mail 2026-08-28). Cal afegir crèdit CC-BY-SA a les fitxes d'edifici. **Pendent d'implementar.**
-- ✅ Mapes (adreça edifici): **opció a preferida (Google Maps)** (Xavi, mail 2026-08-28). Ja implementat a `single.html` (l'adreça és un enllaç a Google Maps).
-- ✅ TTS/Lectura en veu alta: **opció a — versió actual (Web Speech API) suficient** (Xavi, mail 2026-08-28). Documentat a Crèdits i Accessibilitat (2026-08-29).
+- ✅ Mapes (adreça edifici): **opció a preferida (Google Maps), opció c (doble botó) també acceptable** (Xavi, mail 2026-08-28). **Pendent d'implementar l'enllaç a l'adreça de cada fitxa.**
+- ✅ TTS/Lectura en veu alta: **opció a — versió actual (Web Speech API) suficient** (Xavi, mail 2026-08-28). Cal ara: (1) afegir a Crèdits/Tecnologia: "Web Speech API"; (2) afegir a Accessibilitat: "Lectura en veu alta de les fitxes". **Pendent de documentar internament.**
 - ✅ GoatCounter estadístiques: **opció c — indiferent** (Xavi, mail 2026-08-28). Mantenim privat (accés Joan + Xavi) fins nova decisió.
 - ✅ CMS — accés Xavi: **vol ser administrador/a** (Xavi, mail 2026-08-28). Compte `xaviglobus` ja té accés editor; cal explorar si GitHub permet pujar a admin en repos personals o si cal alternativa. **Pendent.**
 - ⏳ Camp "Projecte" a fitxes: Xavi diu que és redundant, cal confirmació explícita per eliminar-lo

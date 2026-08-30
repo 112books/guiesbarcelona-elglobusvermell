@@ -657,12 +657,6 @@
     'Horta', 'Sant Andreu', 'Sant Martí de Provençals'
   ];
 
-  // Sub-zones que s'agrupa sota "Antics municipis" al llistat de mercats
-  var SUB_ZONES_ANTICS_MUNICIPIS = [
-    'Sants', 'Sarrià', 'Sant Gervasi', 'Gràcia',
-    'Horta', 'Sant Andreu', 'Sant Martí de Provençals'
-  ];
-
   // ── Construir llistat (alfabètic, per any o per districte) ───────────
   function construeixLlistat() {
     if (!llistatGrups) return;

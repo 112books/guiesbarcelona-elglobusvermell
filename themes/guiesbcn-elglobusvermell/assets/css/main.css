@@ -640,10 +640,16 @@ main {
 /* Quan és la imatge sola (no carrusel), manté l'aspecte i l'arrodoniment */
 .fitxa-imatge.fitxa-figura {
   border-radius: 0.5rem;
-  overflow: hidden;
+  overflow: visible;
+  aspect-ratio: unset;
 }
 
-.fitxa-imatge.fitxa-figura img { height: 100%; object-fit: cover; }
+.fitxa-imatge.fitxa-figura img {
+  aspect-ratio: 1/1;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
 
 .fitxa-peu-foto {
   display: flex;

@@ -4,7 +4,6 @@ descripcio: 'Projecte original: Enric Piqué Marco i Antoni Canyelles i Torrent.
   Nou edifici: AA25 Arquitectura & Instal·lacions. 2019'
 districte: "Sant Andreu"
 zona: "Nou Barris"
-
 draft: false
 foto: /img/elements/mercat-del-bon-pastor.jpg
 lat: 41.4359805
