@@ -1,0 +1,49 @@
+{{/* Schema.org JSON-LD — pàgina d'inici */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.Title | jsonify }},
+  "url": {{ site.BaseURL | jsonify }},
+  "description": {{ site.Params.description | jsonify }},
+  "inLanguage": "ca",
+  "publisher": {
+    "@type": "Organization",
+    "name": "El Globus Vermell",
+    "url": "https://elglobusvermell.org"
+  }
+}
+</script>
+{{ end }}
+
+{{/* Schema.org JSON-LD — fitxa d'edifici */}}
+{{ if and (eq .Section "elements") (eq .Kind "page") }}
+{{ $imgUrl := "" }}
+{{ with .Params.foto }}{{ $imgUrl = . | strings.TrimPrefix "/" | absURL }}{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LandmarksOrHistoricalBuildings",
+  "name": {{ .Title | jsonify }},
+  "url": {{ .Permalink | jsonify }}
+  {{ with .Params.descripcio }}, "description": {{ . | jsonify }}{{ end }}
+  {{ with .Params.adreca }}, "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ . | jsonify }},
+    "addressLocality": "Barcelona",
+    "addressCountry": "ES"
+  }{{ end }}
+  {{ if and .Params.lat .Params.long }}, "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ .Params.lat }},
+    "longitude": {{ .Params.long }}
+  }{{ end }}
+  {{ with $imgUrl }}, "image": {{ . | jsonify }}{{ end }}
+  {{ with .Params.any }}, "dateCreated": {{ . | jsonify }}{{ end }}
+  {{ with .Params.arquitectes }}, "creator": [
+    {{ range $i, $a := . }}{{ if $i }},{{ end }}{"@type": "Person", "name": {{ $a | jsonify }}}{{ end }}
+  ]{{ end }}
+}
+</script>
+{{ end }}

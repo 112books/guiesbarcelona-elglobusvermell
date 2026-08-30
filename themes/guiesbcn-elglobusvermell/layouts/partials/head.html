@@ -2,9 +2,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ if eq site.Params.env "staging" }}<meta name="robots" content="noindex, nofollow, noai, noimageai, noarchive, nositelinkssearchbox">{{ end }}
 <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
-{{ with .Description | default site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ $metaDesc := .Description | default site.Params.description }}
+{{ if and (not $metaDesc) .Params.descripcio }}{{ $metaDesc = .Params.descripcio | truncate 155 "…" }}{{ end }}
+{{ with $metaDesc }}<meta name="description" content="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" type="image/svg+xml" href="{{ "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg" | relURL }}">
+{{/* Open Graph + Twitter Cards — només a producció */}}
+{{ if ne site.Params.env "staging" }}
+{{ $ogTitle := cond .IsHome site.Title (printf "%s — %s" .Title site.Title) }}
+{{ $ogDesc := $metaDesc | default "" }}
+{{ $ogImg := "" }}
+{{ with .Params.foto }}{{ $ogImg = . | strings.TrimPrefix "/" | absURL }}{{ end }}
+{{ if not $ogImg }}{{ with site.Params.defaultOgImage }}{{ $ogImg = . | absURL }}{{ end }}{{ end }}
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ $ogTitle }}">
+<meta property="og:description" content="{{ $ogDesc }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="{{ site.Params.ogLocale | default "ca_ES" }}">
+{{ with $ogImg }}<meta property="og:image" content="{{ . }}">{{ end }}
+<meta name="twitter:card" content="summary{{ if $ogImg }}_large_image{{ end }}">
+<meta name="twitter:title" content="{{ $ogTitle }}">
+<meta name="twitter:description" content="{{ $ogDesc }}">
+{{ with $ogImg }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+{{ end }}
+{{ partial "schema.html" . }}
 {{ if or (eq .Section "elements") (eq .Section "mapa") (eq .Kind "term") }}
 <link rel="preconnect" href="https://a.basemaps.cartocdn.com">
 <link rel="preconnect" href="https://b.basemaps.cartocdn.com">
