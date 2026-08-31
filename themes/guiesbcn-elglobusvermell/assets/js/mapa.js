@@ -648,7 +648,7 @@
     'Ciutat Vella', 'Eixample',
     'Antics municipis', 'Sants', 'Sarrià', 'Sant Gervasi', 'Gràcia',
     'Horta', 'Sant Andreu', 'Sant Martí de Provençals',
-    'Nou Barris', 'Mercats no alimentaris'
+    'Nous barris', 'Mercats no alimentaris'
   ];
 
   // Sub-zones que s'agrupa sota "Antics municipis" al llistat de mercats
