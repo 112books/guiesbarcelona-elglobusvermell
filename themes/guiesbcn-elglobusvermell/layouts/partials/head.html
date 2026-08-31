@@ -1,5 +1,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{/* Mòbil: mapa directe (decisió Xavi 28 ago — portada escriptori, mapa mòbil) */}}
+{{ if .IsHome }}
+<script>
+(function () {
+  if (window.matchMedia('(max-width: 48rem)').matches) {
+    location.replace('{{ "mapa/" | relLangURL }}');
+  }
+})();
+</script>
+{{ end }}
 {{ if eq site.Params.env "staging" }}<meta name="robots" content="noindex, nofollow, noai, noimageai, noarchive, nositelinkssearchbox">{{ end }}
 <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
 {{ $metaDesc := .Description | default site.Params.description }}
