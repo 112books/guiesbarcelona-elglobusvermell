@@ -132,7 +132,7 @@
       {{ with .Params.adreca }}
       <div class="fitxa-dada">
         <dt>Adreça</dt>
-        <dd><a href="https://maps.google.com/?q={{ . | urlize }}" target="_blank" rel="noopener">{{ . }}</a></dd>
+        <dd><a href="https://maps.google.com/?q={{ if and $.Params.lat $.Params.long }}{{ $.Params.lat }},{{ $.Params.long }}{{ else }}{{ . | urlize }}+barcelona{{ end }}" target="_blank" rel="noopener">{{ . }}</a></dd>
       </div>
       {{ end }}
 

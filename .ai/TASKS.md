@@ -229,7 +229,7 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 
 ## Correu Xavi (31 ago, quatre mails) — fotos importades + disseny + mercats + reenvi Laia
 
-Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55), `docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (tarda), `docs/2026-08-31-mail-xavi-3-mercats-zones.md` (vespre) i `docs/2026-08-31-mail-xavi-4-reenvi-respostes-laia.md` (mail 4: reenvia les respostes de la Laia a l'enquesta, original del 28 ago — marques confirmades per Joan: 1a 2a 3a 5a 6a 7b, 4 i 8 sense marca, 9 sí accés editora). Fil dels mails del 19-24 ago recuperat i arxivat el 31 ao vespre (`docs/2026-08-19-mail-xavi-respostes.md`, `docs/2026-08-21-mail-xavi-ordre-manual.md`, `docs/2026-08-24-mail-xavi-respostes.md` — aquest últim és un dels "dos correus anteriors" amb la spec dels desplegables). El "mail del 28" d'Xavi = les seves respostes a l'enquesta (portada c, xifres a+b — decisions ja aplicades, cf. "Portada web" i "Xifres del projecte" més avall); text complet no arxivat. Registre de canvis de fitxes i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`.
+Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55), `docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (tarda), `docs/2026-08-31-mail-xavi-3-mercats-zones.md` (vespre) i `docs/2026-08-31-mail-xavi-4-reenvi-respostes-laia.md` (mail 4: reenvia les respostes de la Laia a l'enquesta, original del 28 ago — marques confirmades per Joan: 1a 2a 3a 5a 6a 7b, 4 i 8 sense marca, 9 sí accés editora). Respostes de **Joan Vítoria** a l'enquesta: `docs/2026-08-31-mail-joan-vitoria-respostes.md` (marques confirmades per Joan el 31 ao nit: 1a 2a+b 3a 4c 5a 6c 7a 8a 9 sí + temes transversals i any clicable). Fil dels mails del 19-24 ago recuperat i arxivat el 31 ao vespre (`docs/2026-08-19-mail-xavi-respostes.md`, `docs/2026-08-21-mail-xavi-ordre-manual.md`, `docs/2026-08-24-mail-xavi-respostes.md` — aquest últim és un dels "dos correus anteriors" amb la spec dels desplegables). El "mail del 28" d'Xavi = les seves respostes a l'enquesta (portada c, xifres a+b — decisions ja aplicades, cf. "Portada web" i "Xifres del projecte" més avall); text complet no arxivat. Registre de canvis de fitxes i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`.
 
 ### Fet 31 ago ✅
 - ✅ Importació de fotos completada (biblioteques + avantguarda, 29–31 ago); 326 fitxes amb foto
@@ -253,15 +253,36 @@ Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55), `
 - ⏳ Xifra "any" (portada/Presentació): Xavi pensa treure-la (el 1928 no és correcte, hi ha masies anteriors) — decisió interna Globus pendent
 - ⏳ 73 arquitectes combinats: Xavi ho té pendent ("altres coses se m'han anat posint al davant")
 
-### Respostes de la Laia a l'enquesta (28 ago, reenviades el 31) — NO implementar sense consens 🔴
+### Respostes de l'equip a l'enquesta — NO implementar sense consens 🔴
 Instrucció de Joan (31 ao): "de moment no implementem res del que diu, esperarem a tenir consens
-de l'equip del Globus Vermell o pararem bojos". `docs/2026-08-31-mail-xavi-4-reenvi-respostes-laia.md`
-- 🔴 **Bug enllaç adreça** (detectat per Laia): `single.html:135` enllaça per text de l'adreça, no per coords ("Praga 5" → Praga). Correcció per `lat,long` — bug, no disseny; pendent de Joan si es fa abans del consens
-- 🔴 Botons "(Web oficial)" i "(COAC)" de la pàgina d'arquitecte gairebé invisibles → fons gris clar (proposta Laia)
+de l'equip del Globus Vermell o pararem bojos". Docs: `docs/2026-08-31-mail-xavi-4-reenvi-respostes-laia.md`
+(Laia) i `docs/2026-08-31-mail-joan-vitoria-respostes.md` (Joan Vítoria).
+
+**Estat de les respostes (31 ao nit):**
+
+| Pregunta | Xavi (28 ago)* | Laia (28 ago) | Joan Vítoria (31 ago) | Mar |
+|---|---|---|---|---|
+| 1 Colors | ? | a mantenir | a mantenir | pendent |
+| 2 Portada | c (esc. nova + mòbil mapa) | a nova proposta | a i b (indecís) | pendent |
+| 3 Xifres | a+b (portada + Presentació) | a portada | a portada | pendent |
+| 4 Llicència | ? | sense marca | c BY-SA (ja al footer, `5732d72`) | pendent |
+| 5 Fotos | ? | a © EGV | a © EGV (dubte: on mostrar-ho) | pendent |
+| 6 Mapes adreça | ? | a Google | c doble opció | pendent |
+| 7 Veu alta | ? | b Piper **si llegeix català** | a actual suficient | pendent |
+| 8 Estadístiques | ? | sense marca | a privat (ja està així) | pendent |
+| 9 CMS | ? | sí (laiabrelglobusvermell-design) | sí (demana instruccions) | pendent |
+
+\* El mail del 28 d'Xavi no està arxivat sencer; només consten portada c i xifres a+b (aplicades).
+**Conflictes a resoldre al consens:** 2 (portada), 6 (plataforma mapa), 7 (veu alta). **Convergències:** 1, 3, 5.
+**Propostes de JV a la portada:** "Guies temàtiques" (no "Guies de camp"), "Període arquitectònic" (o un sol número, ex. 450), any d'inici a mà (1400, masies s. XIV-XV) — creua amb el punt de Xavi de treure la xifra 1928.
+**Peticions de JV (funcionalitats):** pàgina pròpia per tema transversal (títol + mapa + text + llistat, com els plànols-guia), temes visibles a les fitxes, any clicable (llistat d'edificis d'aquell any) — pendent consens.
+
+**Accions no bloquejades pel consens:**
+- ✅ **Bug enllaç adreça (Praga 5 → Praga)**: CORREGIT 31 ao nit (aprovat per Joan) — `single.html` enllaça per `lat,long` quan existeixen (fallback text + "barcelona"); verificat al build
+- 🟢 **Accés CMS Laia i JV**: els dos volen accés d'editora (comptes GitHub: laiabrelglobusvermell-design + el de JV pendent de demanar) — enviar instruccions i guia quan ells confirmin; no és decisió de disseny
+- 🔴 Botons "(Web oficial)" i "(COAC)" de la pàgina d'arquitecte gairebé invisibles → fons gris clar (proposta Laia) — consens
 - 🔴 Respondre a Laia: per què alguns colors de guia difereixen del paper (ex. La Marina) — cal investigar l'origen
-- 🔴 Piper TTS (veu alta): només si llegeix català (condició Laia); si no, treure el botó o avaluar cost
-- 🔴 Accés CMS Laia: compte github.com/laiabrelglobusvermell-design (serveix) — convidar al repo + enviar-li la guia d'editor
-- ⏳ Portada/xifres: millores proposades per Laia (franja de xifres estreta + portades de guies a sota; botó "explorar guies") — a estudiar amb el consens de l'equip
+- ⏳ Portada/xifres: millores proposades per Laia (franja estreta + portades de guies; botó "explorar guies") i labels de JV — a estudiar amb el consens
 
 ---
 
@@ -292,7 +313,7 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 
 ### Pendents de consens ⏳
 - ✅ Colors web: **opció a — mantenir colors actuals per guia** (Xavi, mail 2026-08-28). Queda oberta la pregunta de quin color mostrar als edificis que pertanyen a diversos plànols alhora. **Pendent de decidir i implementar.**
-- ✅ Portada web: **opció c — nova portada en escriptori; mapa directe en mòbil** (Xavi, mail 2026-08-28; reconfirmat "Sí" al mail del 31 ago tarda). Implementat (commit `6b30c4f`, 31 ago): script inline al `head.html` (només `.IsHome`) amb `matchMedia('(max-width: 48rem)')` → `location.replace('mapa/')`, sense entrada a l'historial. La portada nova d'escriptori espera les respostes de l'enquesta de l'equip (Xavi ja ha respost; **Laia també** — 28 ago, reenviada el 31: (a) li agrada la proposta + xifres a portada, amb millores proposades; falten Mar i la resta, termini el 4 de setembre). **Respostes de la Laia: res no s'implementa fins a consens** (instrucció Joan 31 ao).
+- ✅ Portada web: **opció c — nova portada en escriptori; mapa directe en mòbil** (Xavi, mail 2026-08-28; reconfirmat "Sí" al mail del 31 ago tarda). Implementat (commit `6b30c4f`, 31 ago): script inline al `head.html` (només `.IsHome`) amb `matchMedia('(max-width: 48rem)')` → `location.replace('mapa/')`, sense entrada a l'historial. La portada nova d'escriptori espera el consens de l'equip sobre l'enquesta: **Xavi (28 ago), la Laia (28 ago, reenviades el 31) i en Joan Vítoria (31 ago) ja han respost; falta la Mar** (i la resta si n'hi ha), termini el 4 de setembre. **Res no s'implementa fins a consens** (instrucció Joan 31 ao).
 - ✅ Xifres del projecte: **opcions a+b — tant a portada com a Presentació** (Xavi, mail 2026-08-28). Ajustos implementats (commit `4fdd097`, 29 ago): anyMin = 1928 a Presentació (alineat amb portada), 2a fila de xifres suprimida. Comptabilitzar elements de temes transversals: pendent de consens.
 - ✅ Llicència peu de pàgina: **CC BY-SA 4.0** confirmada per Xavi (mail 2026-08-28) — "és el que posem a les guies". Ja implementada al peu.
 - ✅ Crèdit fotografies: **CC-BY-SA 4.0, "El Globus Vermell"** per a totes les fotos — no hi ha crèdit individual per fotògraf/a (Xavi, mail 2026-08-28). Implementat a `elements/single.html` (commit `4fdd097`, 29 ago).

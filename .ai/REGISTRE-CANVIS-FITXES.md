@@ -54,6 +54,7 @@ referència de l'aprovació. Davant dubte: **es pregunta primer, no es fa**.
 | Data | Canvi | Aprovació |
 |---|---|---|
 | 2026-08-31 | `main.css`: fotos de fitxa (sola i carrusel) amb **proporció natural** — tret l'`aspect-ratio: 1/1` i l'`object-fit: cover` que retallaven les fotos noves (~127:110 els últims 5 plànols). Bug denunciat per Xavi (mail 2 del 31 ago, punt 5) | Joan, 31 ago vespre: "Fotos que retallen" (questionari) |
+| 2026-08-31 | `single.html`: **bug de l'enllaç extern de l'adreça** — abans `https://maps.google.com/?q=` + text de l'adreça (des de fora de BCN obria llocs equivocats: "Praga 5" → Praga; detectat per Laia Borau, mail del 28 ago); ara enllaça per `lat,long` quan existeixen (fallback: text + "barcelona"). La plataforma (Google/OSM/doble) segueix pendent de l'enquesta | Joan, 31 ago nit: "Arregla'l ara" (questionari) |
 
 Nota "Nous barris" (31 ago): verificat que totes les etiquetes de zona dels mercats ja fan
 servir "Nous barris" (camp `zona` + `ORDRE_ZONES_MERCATS`). "Nou Barris" (nom oficial de
