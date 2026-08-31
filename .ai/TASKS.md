@@ -227,10 +227,9 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 
 ---
 
-## Correu Xavi (31 ago, tres mails) — fotos importades + disseny + mercats
+## Correu Xavi (31 ago, quatre mails) — fotos importades + disseny + mercats + reenvi Laia
 
-Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55),
-`docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (tarda) i `docs/2026-08-31-mail-xavi-3-mercats-zones.md` (vespre). Fil dels mails del 19-24 ago recuperat i arxivat el 31 ao vespre (`docs/2026-08-19-mail-xavi-respostes.md`, `docs/2026-08-21-mail-xavi-ordre-manual.md`, `docs/2026-08-24-mail-xavi-respostes.md` — aquest últim és un dels "dos correus anteriors" amb la spec dels desplegables); **falta el mail del 28 ago** (l'altre). Registre de canvis de fitxes i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`.
+Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55), `docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (tarda), `docs/2026-08-31-mail-xavi-3-mercats-zones.md` (vespre) i `docs/2026-08-31-mail-xavi-4-reenvi-respostes-laia.md` (mail 4: reenvia les respostes de la Laia a l'enquesta, original del 28 ago — marques confirmades per Joan: 1a 2a 3a 5a 6a 7b, 4 i 8 sense marca, 9 sí accés editora). Fil dels mails del 19-24 ago recuperat i arxivat el 31 ao vespre (`docs/2026-08-19-mail-xavi-respostes.md`, `docs/2026-08-21-mail-xavi-ordre-manual.md`, `docs/2026-08-24-mail-xavi-respostes.md` — aquest últim és un dels "dos correus anteriors" amb la spec dels desplegables). El "mail del 28" d'Xavi = les seves respostes a l'enquesta (portada c, xifres a+b — decisions ja aplicades, cf. "Portada web" i "Xifres del projecte" més avall); text complet no arxivat. Registre de canvis de fitxes i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`.
 
 ### Fet 31 ago ✅
 - ✅ Importació de fotos completada (biblioteques + avantguarda, 29–31 ago); 326 fitxes amb foto
@@ -240,7 +239,7 @@ Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55),
 - ✅ **Desplegables del llistat de mercats: TANCAT** — Xavi el dona per bo ("ara ja apareixen com demanava. Gràcies!") després del deploy del commit `ac21c18`. L'acordió "Antics municipis" també
 - ✅ **Fotos que retallen: corregit** (31 ao vespre) — `main.css`: proporció natural a `.fitxa-imatge` i `.fitxa-carrusel-slide` (tret aspect 1:1 + object-fit cover). Aprovat per Joan
 - ✅ **"Nous barris" verificat**: totes les etiquetes de zona dels mercats ja la fan servir; "Nou Barris" (districte oficial) només apareix a l'agrupació per districte de masies/biblioteques, que es manté (Xavi: "no són districtes, més aviat són zones")
-- ✅ **Google Maps API: el web NO la fa servir** (verificat al codi: Leaflet + OpenStreetMap; l'única referència és un text d'ajuda de l'admin). La clau era per a l'app Flutter antiga → resposta al mail: proposar mapes lliures (flutter_map/OSM) a l'app nova; cap urgència llevat que l'app antiga hagi de seguir funcionant
+- ✅ **Google Maps API: el web no la fa servir** als mapes interactius (Leaflet + OpenStreetMap, sense clau). ⚠️ **Correcció (31 ao, mail 4 — Laia): l'enllaç extern de l'adreça de cada fitxa sí que va a Google Maps** (`single.html:135`, `https://maps.google.com/?q=` + **text** de l'adreça, sense clau d'API), amb un **bug detectat per Laia**: des de fora de BCN el text es resol malament ("Praga 5" → la ciutat de Praga). Correcció tècnica: enllaç per `lat,long` quan existeixin — és bug, no decisió de disseny; pendent decisió Joan si es fa abans del consens de l'enquesta. La clau era per a l'app Flutter antiga → al mail: proposar flutter_map/OSM a l'app nova
 - ✅ **Paquet mercats aplicat** (31 ao vespre, aprovat per Joan via questionari; entrada #5 del REGISTRE): `zona` → "Nous barris" a 11 fitxes, camp `ordre` a les 42 fitxes (ordre del PDF; La Marina ×2 ordre 9, Bellcaire ordre 4 reservant 2-3 pels de Sant Antoni, Sant Gervasi ordre 3), creada `flors-de-la-rambla.md` **sense lat/long** (al llistat, sense punt al mapa), sub-zones reordenades (Sant Martí de Provençals abans d'Horta al `_index.md` i als arrays de `mapa.js`), `mapa.js` ordena per `ordre` amb desempat alfabètic, `term.html` passa el camp. Script: `scripts/mercats-zones-ordre.py`. Verificat al build: 43 elements de mercats al llistat, 42 punts al mapa
 
 ### Pendent decisió Joan 🔴 (protocol REGISTRE-CANVIS-FITXES.md)
@@ -253,6 +252,16 @@ Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55),
 - 🔴 Camp intervencions i etiquetes: spec definitiva confirmada (files corresponents a "Cal decisió"); preguntes obertes d'Xavi: etiquetes automàtiques o manuals, plural per a estudis — respostes al mail de tornada; **implementació pendent d'aprovació Joan**
 - ⏳ Xifra "any" (portada/Presentació): Xavi pensa treure-la (el 1928 no és correcte, hi ha masies anteriors) — decisió interna Globus pendent
 - ⏳ 73 arquitectes combinats: Xavi ho té pendent ("altres coses se m'han anat posint al davant")
+
+### Respostes de la Laia a l'enquesta (28 ago, reenviades el 31) — NO implementar sense consens 🔴
+Instrucció de Joan (31 ao): "de moment no implementem res del que diu, esperarem a tenir consens
+de l'equip del Globus Vermell o pararem bojos". `docs/2026-08-31-mail-xavi-4-reenvi-respostes-laia.md`
+- 🔴 **Bug enllaç adreça** (detectat per Laia): `single.html:135` enllaça per text de l'adreça, no per coords ("Praga 5" → Praga). Correcció per `lat,long` — bug, no disseny; pendent de Joan si es fa abans del consens
+- 🔴 Botons "(Web oficial)" i "(COAC)" de la pàgina d'arquitecte gairebé invisibles → fons gris clar (proposta Laia)
+- 🔴 Respondre a Laia: per què alguns colors de guia difereixen del paper (ex. La Marina) — cal investigar l'origen
+- 🔴 Piper TTS (veu alta): només si llegeix català (condició Laia); si no, treure el botó o avaluar cost
+- 🔴 Accés CMS Laia: compte github.com/laiabrelglobusvermell-design (serveix) — convidar al repo + enviar-li la guia d'editor
+- ⏳ Portada/xifres: millores proposades per Laia (franja de xifres estreta + portades de guies a sota; botó "explorar guies") — a estudiar amb el consens de l'equip
 
 ---
 
@@ -283,7 +292,7 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 
 ### Pendents de consens ⏳
 - ✅ Colors web: **opció a — mantenir colors actuals per guia** (Xavi, mail 2026-08-28). Queda oberta la pregunta de quin color mostrar als edificis que pertanyen a diversos plànols alhora. **Pendent de decidir i implementar.**
-- ✅ Portada web: **opció c — nova portada en escriptori; mapa directe en mòbil** (Xavi, mail 2026-08-28; reconfirmat "Sí" al mail del 31 ago tarda). Implementat (commit `6b30c4f`, 31 ago): script inline al `head.html` (només `.IsHome`) amb `matchMedia('(max-width: 48rem)')` → `location.replace('mapa/')`, sense entrada a l'historial. La portada nova d'escriptori espera les respostes de l'enquesta de l'equip (Xavi ja ha respost; els altres "els pròxims dies", termini el 4 de setembre).
+- ✅ Portada web: **opció c — nova portada en escriptori; mapa directe en mòbil** (Xavi, mail 2026-08-28; reconfirmat "Sí" al mail del 31 ago tarda). Implementat (commit `6b30c4f`, 31 ago): script inline al `head.html` (només `.IsHome`) amb `matchMedia('(max-width: 48rem)')` → `location.replace('mapa/')`, sense entrada a l'historial. La portada nova d'escriptori espera les respostes de l'enquesta de l'equip (Xavi ja ha respost; **Laia també** — 28 ago, reenviada el 31: (a) li agrada la proposta + xifres a portada, amb millores proposades; falten Mar i la resta, termini el 4 de setembre). **Respostes de la Laia: res no s'implementa fins a consens** (instrucció Joan 31 ao).
 - ✅ Xifres del projecte: **opcions a+b — tant a portada com a Presentació** (Xavi, mail 2026-08-28). Ajustos implementats (commit `4fdd097`, 29 ago): anyMin = 1928 a Presentació (alineat amb portada), 2a fila de xifres suprimida. Comptabilitzar elements de temes transversals: pendent de consens.
 - ✅ Llicència peu de pàgina: **CC BY-SA 4.0** confirmada per Xavi (mail 2026-08-28) — "és el que posem a les guies". Ja implementada al peu.
 - ✅ Crèdit fotografies: **CC-BY-SA 4.0, "El Globus Vermell"** per a totes les fotos — no hi ha crèdit individual per fotògraf/a (Xavi, mail 2026-08-28). Implementat a `elements/single.html` (commit `4fdd097`, 29 ago).
