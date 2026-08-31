@@ -83,7 +83,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 ## App mòbil Flutter
 
 - ⏳ Eliminar Firebase del codi Flutter
-- 🔴 Nova Google Maps API Key — URGENT, caduca el setembre 2026 (acció: Xavi crea compte Google Cloud). **Xavi (mail 31 ago tarda): de vacances de l'1 al 16 de set; pregunta si pot fer-se al seu retorn o caduca abans. Acció: aconseguir la data exacta de caducitat (Jorge) i respondre-li abans que marxi.**
+- 🔴 Nova Google Maps API Key — caduca el setembre 2026. **Verificat 31 ago: el web NO la fa servir** (Leaflet + OpenStreetMap; l'única referència és un text d'ajuda de l'admin per buscar coordenades). La clau era per a l'app Flutter antiga. Proposta al mail de resposta: avaluar mapes lliures (flutter_map/OSM) a l'app nova → cap clau ni caducitat; decisió de Globus per a l'app antiga (Xavi/Jorge)
 - ⏳ Compilar app buida iOS + Android
 - ⏳ Decidir arquitectura BD (PostgreSQL / SQLite / altra)
 - ⏳ Decidir futur backoffice Node.js
@@ -227,27 +227,31 @@ barrejades en text pla — confirma que la info hi és, només cal extreure-la).
 
 ---
 
-## Correu Xavi (31 ago, dos mails) — fotos importades + disseny
+## Correu Xavi (31 ago, tres mails) — fotos importades + disseny + mercats
 
-Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55) i `docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (tarda). Registre de canvis de fitxes i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`.
+Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55),
+`docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (tarda) i `docs/2026-08-31-mail-xavi-3-mercats-zones.md` (vespre). Fil dels mails del 19-24 ago recuperat i arxivat el 31 ao vespre (`docs/2026-08-19-mail-xavi-respostes.md`, `docs/2026-08-21-mail-xavi-ordre-manual.md`, `docs/2026-08-24-mail-xavi-respostes.md` — aquest últim és un dels "dos correus anteriors" amb la spec dels desplegables); **falta el mail del 28 ago** (l'altre). Registre de canvis de fitxes i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`.
 
 ### Fet 31 ago ✅
 - ✅ Importació de fotos completada (biblioteques + avantguarda, 29–31 ago); 326 fitxes amb foto
 - ✅ Punt 0 (fitxes sense foto): decisió Xavi — es queden com estan, cap acció
-- ✅ Investigació avantguarda amb els PDF de les dues edicions (2016: 47 ítems / reedició 2026: 43) — la numeració de la carpeta de fotos d'Xavi = reedició 2026. **Error nostre "#35 Rosselló 133" corregit**: el #35 és Enric Granados 133 i la fitxa existia. Creada `casa-roca-barallat.md` (#39, ítem nou de la reedició). `gatcpac` afegit a `fundacio-joan-miro.md` (#43) i `les-escales-park.md` (#42). gatcpac passa de 44 a 47 fitxes
-- ✅ 4 ítems retirats del paper a la reedició 2026 (Botiga Cottet, àtic Provença 269, aula Química UB, convent CENU): fitxes MANTENGUDES al web (el web és font de veritat) — criteri Xavi pendent
+- ✅ Investigació avantguarda amb els PDF de les dues edicions (2016: 47 ítems / reedició 2026: 43) — la numeració de la carpeta de fotos d'Xavi = reedició 2026. **Error nostre "#35 Rosselló 133" corregit**: el #35 és Enric Granados 133 i la fitxa existia. Creades `casa-roca-barallat.md` (#39, ítem nou de la reedició) i `casa-lluis-jara-urbano.md` (#38, Balmes 371, aprovada per Joan al vespre). `gatcpac` afegit a `fundacio-joan-miro.md` (#43) i `les-escales-park.md` (#42). gatcpac passa de 44 a 48 fitxes
+- ✅ 4 ítems retirats del paper a la reedició 2026 (Botiga Cottet, àtic Provença 269, aula Química UB, convent CENU): fitxes MANTENGUDES al web (el web és font de veritat) — criteri Xavi pendent (preguntat al mail de resposta)
+- ✅ **Desplegables del llistat de mercats: TANCAT** — Xavi el dona per bo ("ara ja apareixen com demanava. Gràcies!") després del deploy del commit `ac21c18`. L'acordió "Antics municipis" també
+- ✅ **Fotos que retallen: corregit** (31 ao vespre) — `main.css`: proporció natural a `.fitxa-imatge` i `.fitxa-carrusel-slide` (tret aspect 1:1 + object-fit cover). Aprovat per Joan
+- ✅ **"Nous barris" verificat**: totes les etiquetes de zona dels mercats ja la fan servir; "Nou Barris" (districte oficial) només apareix a l'agrupació per districte de masies/biblioteques, que es manté (Xavi: "no són districtes, més aviat són zones")
+- ✅ **Google Maps API: el web NO la fa servir** (verificat al codi: Leaflet + OpenStreetMap; l'única referència és un text d'ajuda de l'admin). La clau era per a l'app Flutter antiga → resposta al mail: proposar mapes lliures (flutter_map/OSM) a l'app nova; cap urgència llevat que l'app antiga hagi de seguir funcionant
 
 ### Pendent decisió Joan 🔴 (protocol REGISTRE-CANVIS-FITXES.md)
-- 🔴 Crear fitxa **Balmes 371** (Casa Lluís Jara Urbano, Josep Soteras Mauri, 1935) — ítem #38 de les dues edicions en paper, mai tingut al web (detectat per nosaltres, no citat per Xavi); dades i coordenades validades
-- 🔴 Duplicats de migració: Navas 238+240 (+ `edifici-dhabitatges-carrer-navas` invisible), `casa-unifamiliar-placa-mons` (+ `casa-unifamiliar` invisible), Pavelló (`biblioteca-crai-ub` visible amb frontmatter malmès vs `de-1937-replica` correcta però sense publicacions)
+- 🔴 **Paquet mercats** (llista definitiva de Xavi, mail del vespre): canviar `zona` → "Nous barris" a 11 fitxes + camp `ordre` a totes (ordre del PDF, no alfabètic) + reordenar sub-zones (Sant Martí de Provençals abans d'Horta, al text i a `mapa.js`)
+- 🔴 **Flors de la Rambla**: dades visibles sense punt al mapa (fitxa sense lat/long o esment al text)
+- 🔴 Crear fitxes **Encants de Sant Antoni** i **Dominical de Sant Antoni** (Xavi les cita; no existeixen; falten dades)
+- 🔴 Duplicat `mercat-de-la-marina` + `placa-i-mercat-de-la-marina` (Xavi només llista "La Marina" un cop)
+- 🔴 Duplicats de migració: Navas 238+240 (+`edifici-dhabitatges-carrer-navas` invisible), `casa-unifamiliar-placa-mons` (+ `casa-unifamiliar` invisible), Pavelló (`biblioteca-crai-ub` visible amb frontmatter malmès vs `de-1937-replica` correcta però sense publicacions)
 - 🔴 5 fitxes amb `publicacions` buit (invisibles al mapa): casa-unifamiliar, edifici-dhabitatges-carrer-navas, jardins-ada-byron, pavello-de-la-republica-de-1937-replica, placa-dolors-piera-isabel-vila
-- 🔴 Corregir etiqueta visible "Nou Barris" → "Nous barris" (on es pinti; aprovació Joan)
 
-### Punts del mail 2 (disseny) 🔴
-- 🔴 Llistat del plànol de mercats "segueix sense aparèixer correctament" — la spec és als mails del 24 i 28 ago que **NO tenim desats** (verificat 31 ago amb grep directe a docs/, no filtrat per gitignore); cal que Joan els reenviï o demanar-los a Xavi
-- 🔴 Acordió "Antics municipis": el clic mostra districtes (incorrecte); les sub-zones NO han de ser desplegables; el contingut (quin mercat a quin lloc) l'enviarà després; el format és als mails 24/28
-- 🔴 Fotos "segueixen en format quadrat i tallen la versió enviada" — el fix `b185b97` (aspecte 1/1) retalla les fotos noves no quadrades; cal revisar object-fit/aspect-ratio (aprovació Joan)
-- 🔴 Camp intervencions i etiquetes: spec definitiva confirmada (fila corresponent a "Cal decisió"); preguntes obertes d'Xavi: etiquetes automàtiques o manuals, plural per a estudis
+### Punts del mail 2 (disseny) pendents 🔴
+- 🔴 Camp intervencions i etiquetes: spec definitiva confirmada (files corresponents a "Cal decisió"); preguntes obertes d'Xavi: etiquetes automàtiques o manuals, plural per a estudis — respostes al mail de tornada; **implementació pendent d'aprovació Joan**
 - ⏳ Xifra "any" (portada/Presentació): Xavi pensa treure-la (el 1928 no és correcte, hi ha masies anteriors) — decisió interna Globus pendent
 - ⏳ 73 arquitectes combinats: Xavi ho té pendent ("altres coses se m'han anat posint al davant")
 

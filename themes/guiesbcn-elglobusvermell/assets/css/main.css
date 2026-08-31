@@ -620,14 +620,13 @@ main {
 
 .fitxa-imatge {
   width: 100%;
-  aspect-ratio: 1/1;
   background: #f0f0f0;
   border-radius: 0.5rem;
   overflow: hidden;
   margin-bottom: var(--space-lg);
 }
 
-.fitxa-imatge img { width: 100%; height: 100%; object-fit: cover; }
+.fitxa-imatge img { width: 100%; height: auto; }
 
 .fitxa-figura {
   margin: 0 0 var(--space-lg);
@@ -637,7 +636,7 @@ main {
 
 .fitxa-figura img { display: block; width: 100%; }
 
-/* Quan és la imatge sola (no carrusel), manté l'aspecte i l'arrodoniment */
+/* Quan és la imatge sola (no carrusel), aspecte natural de la foto i arrodoniment */
 .fitxa-imatge.fitxa-figura {
   border-radius: 0.5rem;
   overflow: visible;
@@ -645,9 +644,7 @@ main {
 }
 
 .fitxa-imatge.fitxa-figura img {
-  aspect-ratio: 1/1;
   height: auto;
-  object-fit: cover;
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
@@ -705,11 +702,10 @@ main {
 .fitxa-carrusel-slide {
   flex: 0 0 100%;
   width: 100%;
-  aspect-ratio: 1/1;
   background: #f0f0f0;
 }
 
-.fitxa-carrusel-slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fitxa-carrusel-slide img { width: 100%; height: auto; display: block; }
 
 .fitxa-carrusel-btn {
   position: absolute;
