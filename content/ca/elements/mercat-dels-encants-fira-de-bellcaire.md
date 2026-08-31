@@ -7,6 +7,7 @@ descripcio: Els Encants (Fira de Bellcaire) és el gran mercat brocanter i de se
   mà.
 districte: "Eixample"
 zona: "Mercats no alimentaris"
+ordre: 4
 draft: false
 foto: /img/elements/mercat-dels-encants-fira-de-bellcaire.jpg
 lat: 41.4012518

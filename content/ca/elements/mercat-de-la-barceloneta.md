@@ -2,6 +2,7 @@
 adreca: Pl. Poeta Boscà 1
 districte: "Ciutat Vella"
 zona: "Ciutat Vella"
+ordre: 4
 draft: false
 foto: /img/elements/mercat-de-la-barceloneta.jpg
 intervencions:

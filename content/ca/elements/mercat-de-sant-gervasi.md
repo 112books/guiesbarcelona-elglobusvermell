@@ -2,6 +2,7 @@
 adreca: Pl. Joaquim Folguera, 6
 districte: "Sarrià-Sant Gervasi"
 zona: "Sant Gervasi"
+ordre: 3
 draft: false
 intervencions:
 - any: '2002'

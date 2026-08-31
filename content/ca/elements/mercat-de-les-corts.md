@@ -2,6 +2,7 @@
 adreca: Travessera de les Corts, 215
 districte: "Les Corts"
 zona: "Nous barris"
+ordre: 10
 draft: false
 foto: /img/elements/mercat-de-les-corts.jpg
 intervencions:

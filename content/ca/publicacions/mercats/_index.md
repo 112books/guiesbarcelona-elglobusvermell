@@ -131,11 +131,11 @@ Més endavant, ja en ple segle xx, el desenvolupament d’aquests barris va fer 
 
 #### Gràcia
 
+#### Sant Martí de Provençals
+
 #### Horta
 
 #### Sant Andreu
-
-#### Sant Martí de Provençals
 
 ### Nous barris
 

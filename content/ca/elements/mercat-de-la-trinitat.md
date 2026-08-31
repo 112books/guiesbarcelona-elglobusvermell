@@ -2,6 +2,7 @@
 adreca: Pedrosa, 21
 districte: "Nou Barris"
 zona: "Nous barris"
+ordre: 19
 draft: false
 intervencions:
 - any: '2001'

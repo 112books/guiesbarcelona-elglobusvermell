@@ -1,7 +1,8 @@
 ---
 adreca: Puigcerdà, 206
 districte: "Sant Martí"
-zona: "Sant Martí de Provençals"
+zona: "Nous barris"
+ordre: 5
 draft: false
 intervencions:
 - any: '2014'

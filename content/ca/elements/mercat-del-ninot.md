@@ -2,6 +2,7 @@
 adreca: Mallorca, 133-157
 districte: "Eixample"
 zona: "Eixample"
+ordre: 2
 draft: false
 foto: /img/elements/mercat-del-ninot.jpg
 intervencions:

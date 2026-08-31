@@ -2,6 +2,7 @@
 adreca: Pg. Reina Elisenda de Montcada, 8
 districte: "Sarrià-Sant Gervasi"
 zona: "Sarrià"
+ordre: 1
 draft: false
 intervencions:
 - any: '2007'

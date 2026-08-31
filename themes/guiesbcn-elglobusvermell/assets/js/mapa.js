@@ -647,14 +647,14 @@
   var ORDRE_ZONES_MERCATS = [
     'Ciutat Vella', 'Eixample',
     'Antics municipis', 'Sants', 'Sarrià', 'Sant Gervasi', 'Gràcia',
-    'Horta', 'Sant Andreu', 'Sant Martí de Provençals',
+    'Sant Martí de Provençals', 'Horta', 'Sant Andreu',
     'Nous barris', 'Mercats no alimentaris'
   ];
 
   // Sub-zones que s'agrupa sota "Antics municipis" al llistat de mercats
   var SUB_ZONES_ANTICS_MUNICIPIS = [
     'Sants', 'Sarrià', 'Sant Gervasi', 'Gràcia',
-    'Horta', 'Sant Andreu', 'Sant Martí de Provençals'
+    'Sant Martí de Provençals', 'Horta', 'Sant Andreu'
   ];
 
   // ── Construir llistat (alfabètic, per any o per districte) ───────────
@@ -719,9 +719,14 @@
         if (ib === -1) return -1;
         return ia - ib;
       });
-      // Ordenar elements dins de cada grup alfabèticament per títol
+      // Ordenar elements dins de cada grup per ordre del plànol (camp 'ordre'),
+      // desempat alfabètic; elements sense ordre, al final
       ordreClaus.forEach(function (clau) {
         grups[clau].sort(function (a, b) {
+          var oa = parseInt(a.ordre, 10), ob = parseInt(b.ordre, 10);
+          if (isNaN(oa)) oa = 999999;
+          if (isNaN(ob)) ob = 999999;
+          if (oa !== ob) return oa - ob;
           return a.title.localeCompare(b.title, 'ca');
         });
       });

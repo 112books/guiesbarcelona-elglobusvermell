@@ -11,6 +11,7 @@ descripcio: 'Projecte original: Josep Fontserè i Mestre i Josep Maria Cornet i 
   de Successió (1701-1714).'
 districte: "Ciutat Vella"
 zona: "Ciutat Vella"
+ordre: 3
 draft: false
 foto: /img/elements/el-born-muhba-mercat-del-born.jpg
 lat: 41.3858402

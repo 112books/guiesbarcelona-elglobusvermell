@@ -1,7 +1,8 @@
 ---
 adreca: Felip II, 118
 districte: "Sant Martí"
-zona: "Sant Martí de Provençals"
+zona: "Nous barris"
+ordre: 2
 draft: false
 foto: /img/elements/mercat-de-felip-ii.jpg
 intervencions:
