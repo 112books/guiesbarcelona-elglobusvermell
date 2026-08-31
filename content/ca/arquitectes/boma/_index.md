@@ -2,4 +2,5 @@
 title: BOMA
 tipus: estudi
 link_coac: "https://www.arquitecturacatalana.cat/ca/autors/boma"
+link_web: ""
 ---
