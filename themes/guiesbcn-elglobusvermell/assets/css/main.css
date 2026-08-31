@@ -1024,6 +1024,19 @@ main {
   transition: max-height 0.3s ease, visibility 0s linear 0s;
 }
 
+/* Llistat de zona col·locat directament sota l'encapçalament del text
+   explicatiu (pàgina de mercats): visible sense acordió propi */
+.llistat-grup-elements.llistat-incrustat {
+  max-height: none;
+  visibility: visible;
+  overflow: visible;
+  margin: 0.75rem 0 1.75rem;
+}
+
+.llistat-grup-elements.llistat-incrustat .llistat-element {
+  padding-left: 0;
+}
+
 .llistat-element {
   display: flex;
   align-items: center;

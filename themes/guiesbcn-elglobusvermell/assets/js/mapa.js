@@ -973,7 +973,10 @@
 
   // ── Filtrar llistat ────────────────────────────────────────────────────
   function filtraLlistat() {
-    var elements = llistatGrups.querySelectorAll('.llistat-element');
+    // Abast document sencer: els .llistat-element poden viure dins dels
+    // acordions de #llistat-grups o incrustats sota els encapçalaments
+    // del text explicatiu (mode zona)
+    var elements = document.querySelectorAll('.llistat-element');
     var grupsVisibles = {};
 
     elements.forEach(function (li) {
@@ -1016,10 +1019,19 @@
       }
     });
 
-    // Amagar grups sense elements visibles
-    llistatGrups.querySelectorAll('.llistat-grup').forEach(function (grup) {
-      var téVisibles = grup.querySelector('.llistat-element:not([style*="display: none"])');
-      grup.style.display = téVisibles ? '' : 'none';
+    // Amagar grups sense elements visibles (només els acordions del
+    // llistat dinàmic; els de la descripció queden al marge)
+    if (llistatGrups) {
+      llistatGrups.querySelectorAll('.llistat-grup').forEach(function (grup) {
+        var téVisibles = grup.querySelector('.llistat-element:not([style*="display: none"])');
+        grup.style.display = téVisibles ? '' : 'none';
+      });
+    }
+
+    // Llistes incrustades sota encapçalaments (mode zona): amaga les buides
+    document.querySelectorAll('.llistat-grup-elements.llistat-incrustat').forEach(function (ul) {
+      var téVisibles = ul.querySelector('.llistat-element:not([style*="display: none"])');
+      ul.style.display = téVisibles ? '' : 'none';
     });
 
     // Actualitzar comptadors de l'índex
@@ -1084,6 +1096,96 @@
     });
   }
 
+  // ── Mode zona: text i llistat units ────────────────────────────────────
+  // Col·loca la llista de mercats de cada zona just després del text
+  // explicatiu del seu encapçalament (h3) dins del cos de "Llistat";
+  // les sub-zones (Sants, Sarrià...) van sota els seus h4.
+  // Els grups sense encapçalament coincident es queden al bloc #llistat,
+  // que es col·loca al final del cos (comportament de reserva).
+  function injectaZonesSotaEncapcalaments(cos, listatEl) {
+    function trobaEncapcalament(nom, tag) {
+      var caps = cos.querySelectorAll(tag);
+      for (var i = 0; i < caps.length; i++) {
+        if (caps[i].textContent.trim() === nom) return caps[i];
+      }
+      return null;
+    }
+
+    // Insereix el node després de l'últim contingut que segueix
+    // l'encapçalament (text explicatiu), abans del següent encapçalament
+    function insereixSota(cap, node) {
+      var ultim = cap;
+      var seguent = cap.nextElementSibling;
+      while (seguent && !/^(H[1-6])$/.test(seguent.tagName)) {
+        ultim = seguent;
+        seguent = seguent.nextElementSibling;
+      }
+      ultim.parentNode.insertBefore(node, ultim.nextSibling);
+    }
+
+    // Extreu l'<ul> d'un grup i el marca com a incrustat (visible)
+    function extreuUl(grup) {
+      var ul = grup.querySelector('ul');
+      if (!ul) return null;
+      ul.classList.add('llistat-incrustat');
+      ul.style.maxHeight = '';
+      return ul;
+    }
+
+    var grupsTop = Array.prototype.slice.call(llistatGrups.children);
+
+    grupsTop.forEach(function (grup) {
+      var nomEl = grup.querySelector('.llistat-grup-any');
+      if (!nomEl) return;
+      var nom = nomEl.textContent.trim();
+
+      if (nom === 'Antics municipis') {
+        // Grup pare: elements directes sota l'h3; sub-zones sota els h4
+        var capPare = trobaEncapcalament(nom, 'h3');
+        var cosPare = grup.querySelector('.llistat-grup-elements');
+        var colocat = !!(capPare && cosPare);
+        if (colocat) {
+          var ulDirecte = cosPare.querySelector(':scope > ul');
+          if (ulDirecte) {
+            ulDirecte.classList.add('llistat-incrustat');
+            insereixSota(capPare, ulDirecte);
+          }
+          var subGrups = Array.prototype.slice.call(cosPare.querySelectorAll('.llistat-grup'));
+          subGrups.forEach(function (sub) {
+            var subNomEl = sub.querySelector('.llistat-grup-any');
+            if (!subNomEl) { colocat = false; return; }
+            var capSub = trobaEncapcalament(subNomEl.textContent.trim(), 'h4');
+            if (capSub) {
+              var subUl = extreuUl(sub);
+              if (subUl) insereixSota(capSub, subUl);
+              else colocat = false;
+            } else {
+              colocat = false;
+            }
+          });
+        }
+        if (colocat) grup.parentNode.removeChild(grup);
+      } else {
+        // Grup estàndard: llista plana sota l'h3
+        var cap = trobaEncapcalament(nom, 'h3');
+        if (cap) {
+          var ul = extreuUl(grup);
+          if (ul) {
+            insereixSota(cap, ul);
+            grup.parentNode.removeChild(grup);
+          }
+        }
+      }
+    });
+
+    // Grups restants (sense encapçalament): bloc de reserva al final
+    if (llistatGrups.children.length > 0) {
+      cos.appendChild(listatEl);
+    } else if (listatEl.parentNode) {
+      listatEl.parentNode.removeChild(listatEl);
+    }
+  }
+
   // ── Inicialitzar ────────────────────────────────────────────────────────
   construeixLlistat();
   if (grupPer === 'any' || grupPer === 'districte' || grupPer === 'zona') {
@@ -1102,7 +1204,14 @@
         var listatCos = listatGrup.querySelector('.llistat-grup-elements');
         if (listatCos) {
           listatEl.removeAttribute('aria-hidden');
-          listatCos.appendChild(listatEl);
+
+          if (grupPer === 'zona' && llistatGrups) {
+            // Mode zona: cada llista sota el text del seu encapçalament
+            injectaZonesSotaEncapcalaments(listatCos, listatEl);
+          } else {
+            // Resta de modes: tot el bloc al final (comportament anterior)
+            listatCos.appendChild(listatEl);
+          }
         }
       }
     }
