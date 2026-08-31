@@ -30,6 +30,7 @@ lat: 41.3687319
 long: 2.1599821
 publicacions:
 - 50-75
+- gatcpac
 temes_transversals:
 - art-public
 title: Fundació Joan Miró

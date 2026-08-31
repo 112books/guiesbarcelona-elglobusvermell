@@ -20,10 +20,10 @@ Font: carpeta `Fotos-web-app` proporcionada per Xavi Ruiz (mail 2026-08-24)
 
 ## Fotos NO incloses a Fotos-web-app (sense foto disponible per ara)
 
-### Avantguarda
-- **#35** Edifici d'habitatges, Rosselló 133 — foto no proporcionada i sense slug propi al web (el slug `edifici-dhabitatges-carrer-rossello` correspon al #3, Rosselló 36)
-- **#39** Casa Roca Barallat — foto no proporcionada i sense slug al web
-- **#43** Fundació Joan Miró — ja tenia foto (pertany al plànol 50-75)
+### Avantguarda — corregit 31 ago tarda (investigació amb PDF de les dues edicions)
+- **#35** ~~Edifici d'habitatges, Rosselló 133~~ — **ERROR NOSTRE de transcripció**: el #35 de la reedició 2026 és l'**Edifici d'habitatges, Enric Granados 133** (Sixte Illescas, 1935) i la fitxa **SÍ que existeix**: `edifici-dhabitatges-carrer-enric-granados.md` (amb gatcpac). "Rosselló 133" no existeix: Rosselló 36 és el #3 (fitxa pròpia). Res a crear.
+- **#39** Casa Roca Barallat — sense foto (Punt 0 del mail de Xavi: es queda sense) → **fitxa CREADA 31 ago** (`casa-roca-barallat.md`; ítem nou de la reedició 2026, no era a l'edició 2016)
+- **#43** Fundació Joan Miró — ja tenia foto; **SÍ que pertany també a l'avantguarda** (#43 reedició 2026, #46 edició 2016): afegida `gatcpac` a les publicacions el 31 ago
 
 ### Avantguarda — fitxes del plànol sense foto (cap de les dues carpetes)
 Els ítems 2, 7, 9, 11, 12, 15, 16, 18, 22, 24, 25, 26, 29, 30, 32, 33, 34, 36, 38, 40, 41, 42 no tenien foto a la carpeta proporcionada.
@@ -62,9 +62,14 @@ Els ítems 2, 7, 9, 11, 12, 15, 16, 18, 22, 24, 25, 26, 29, 30, 32, 33, 34, 36, 
 
 ## Fitxes pendents de crear al web
 
-| Fitxa | Plànol | Motiu |
-|-------|--------|-------|
-| Edifici d'oficines, Llull 122 | 2010-2025 | No existeix al contingut |
-| Biblioteca Fort Pienc - Ana María Moix | Biblioteques | No existeix al contingut |
-| Edifici d'habitatges, Rosselló 133 | Avantguarda | No existeix al contingut (Rosselló 36 sí) |
-| Casa Roca Barallat | Avantguarda | No existeix al contingut |
+| Fitxa | Plànol | Motiu | Estat (31 ago) |
+|-------|--------|-------|----------------|
+| Edifici d'oficines, Llull 122 | 2010-2025 | No existia al contingut | ✅ creada 31 ago (`edifici-doficines-llull-122.md`) |
+| Biblioteca Fort Pienc - Ana María Moix | Biblioteques | "No existia al contingut" | ❌ ERROR nostre: és la fitxa del complex `illa-dequipaments-fort-pienc.md` |
+| Edifici d'habitatges, ~~Rosselló 133~~ | Avantguarda | "No existia al contingut" | ❌ ERROR nostre: #35 = Enric Granados 133, fitxa ja existent |
+| Casa Roca Barallat | Avantguarda | No existia al contingut | ✅ creada 31 ago (`casa-roca-barallat.md`) |
+| Casa Lluís Jara Urbano (Balmes 371) | Avantguarda | Ítem #38 de les dues edicions en paper, mai ha tingut fitxa (detectat 31 ago a la investigació; no citat per Xavi) | 🔴 pendent d'aprovació de Joan (dades i coords ja validades) |
+
+Registre de canvis i base de seguretat: `.ai/REGISTRE-CANVIS-FITXES.md`. Anàlisi del mail de Xavi:
+`docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (mail 1) i
+`docs/2026-08-31-mail-xavi-2-respostes-disseny.md` (mail 2).
