@@ -64,7 +64,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Migrats 70 fitxers d'elements a YAML + build Hugo verificat
 - ✅ Crear `static/admin/index.html` + `config.yml` (master: tot)
 - ✅ Crear `static/admin-editor/` (editors: només fitxes d'edificis)
-- ⏳ Verificar CMS a GitHub Pages amb PAT de prova (abans d'enviar el mail d'instruccions)
+- ✅ Verificar CMS a GitHub Pages amb PAT de prova — **FET 1 set (Joan)**: login amb PAT fine-grained ✓, desat d'una edició ✓ (commits a main com "Joan Mz Linux"), deploy ✓. **Trobat:** cada desat del Sveltia **reescriu el format del front matter** de la fitxa (reordena camps, llistes amb sagnat, afegeix els camps opcionals buits com `foto: ''`) — els valors no canvien i és harmless, però els diffs semblen grans; convé avisar l'equip a la guia. Fitxa de prova restaurada byte a byte (`1a7e157`). **El mail d'instruccions ja es pot enviar**
 - ⏳ Invitar comptes GitHub al repo (rol Write) — **cap compte donat per fet**: cada membre confirma el seu nom d'usuari i el verifiquem a GitHub abans de convidar (del mail del 31 ago consta el de la Laia, `laiabrelglobusvermell-design`; verificar amb ella igualment)
 - ✅ Mail d'instruccions d'accés per a membres no usuaris de GitHub — esborrany a `docs/esborrany-mail-instruccions-editor-cms-1set.md` (compte → confirmació i verificació del nom d'usuari → invitació → token → entrada). Revisions de Joan (1 set): no presuposar que tenen compte (cal verificar-ho) i to humil, sense anar de "llestos" — aplicades. Pendent revisió final i enviament de Joan
 - ⏳ Sincronitzar `cms-admin/config.yml` amb `cms/config.yml` — la versió admin té el format antic de `fotos_addicionals` (llista plana) i li falten `foto_autoria`/`foto_peu` (detectat 1 set)
