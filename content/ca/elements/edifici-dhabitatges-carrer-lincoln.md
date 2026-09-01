@@ -11,5 +11,5 @@ long: 2.1474708
 publicacions:
 - gatcpac
 title: Edifici d’habitatges, carrer Lincoln
-foto: img/elements/edifici-dhabitatges-carrer-lincoln.jpg
+foto: /img/elements/edifici-dhabitatges-carrer-lincoln.jpg
 ---

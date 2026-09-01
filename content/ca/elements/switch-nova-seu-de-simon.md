@@ -15,5 +15,5 @@ long: 2.1908263
 publicacions:
 - 09-25
 title: Switch. Nova seu de Simon
-foto: img/elements/switch-nova-seu-de-simon.jpg
+foto: /img/elements/switch-nova-seu-de-simon.jpg
 ---

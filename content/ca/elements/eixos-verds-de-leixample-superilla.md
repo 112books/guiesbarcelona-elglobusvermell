@@ -17,5 +17,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Eixos verds de l’Eixample («Superilla»)
-foto: img/elements/eixos-verds-de-leixample-superilla.jpg
+foto: /img/elements/eixos-verds-de-leixample-superilla.jpg
 ---

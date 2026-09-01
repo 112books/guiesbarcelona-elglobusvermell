@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Ca l’Arnó
-foto: img/elements/masia-ca-larno.jpg
+foto: /img/elements/masia-ca-larno.jpg
 ---

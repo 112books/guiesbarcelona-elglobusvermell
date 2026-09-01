@@ -15,5 +15,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Valent
-foto: img/elements/masia-can-valent.jpg
+foto: /img/elements/masia-can-valent.jpg
 ---

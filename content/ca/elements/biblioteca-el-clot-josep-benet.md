@@ -7,6 +7,7 @@ arquitectes:
 descripcio: 'Josep Benet: Polític, historiador i editor. 1920-2008'
 districte: "Sant Martí"
 draft: false
+foto: /img/elements/biblioteca-el-clot-josep-benet.jpg
 lat: 41.4024589
 long: 2.1880824
 publicacions:

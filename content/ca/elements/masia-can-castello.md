@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugies perpendiculars a la façana principal.
 title: Masia Can Castelló
-foto: img/elements/masia-can-castello.jpg
+foto: /img/elements/masia-can-castello.jpg
 ---

@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Can Miralletes
-foto: img/elements/masia-can-miralletes.jpg
+foto: /img/elements/masia-can-miralletes.jpg
 ---

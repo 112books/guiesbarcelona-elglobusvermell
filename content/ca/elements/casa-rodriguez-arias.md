@@ -11,5 +11,5 @@ long: 2.1515479
 publicacions:
 - gatcpac
 title: Casa Rodríguez Arias
-foto: img/elements/casa-rodriguez-arias.jpg
+foto: /img/elements/casa-rodriguez-arias.jpg
 ---

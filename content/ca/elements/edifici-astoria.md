@@ -11,5 +11,5 @@ long: 2.153136
 publicacions:
 - gatcpac
 title: Edifici Astoria
-foto: img/elements/edifici-astoria.jpg
+foto: /img/elements/edifici-astoria.jpg
 ---

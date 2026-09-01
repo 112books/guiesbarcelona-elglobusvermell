@@ -7,6 +7,7 @@ descripcio: 'Mercè Rodoreda Escriptora. 1908-1983 Guinardó Arquitecte: Màrius
   1999'
 districte: "Gràcia"
 draft: false
+foto: /img/elements/biblioteca-guinardo-merce-rodoreda.jpg
 lat: 41.4142427
 long: 2.1652694
 publicacions:

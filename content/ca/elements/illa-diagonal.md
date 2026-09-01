@@ -8,5 +8,5 @@ long: 2.1349962
 publicacions:
 - 76-08
 title: Illa Diagonal
-foto: img/elements/illa-diagonal.jpg
+foto: /img/elements/illa-diagonal.jpg
 ---

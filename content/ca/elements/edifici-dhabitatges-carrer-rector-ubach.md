@@ -11,5 +11,5 @@ long: 2.1442526
 publicacions:
 - gatcpac
 title: Edifici d’habitatges, carrer Rector Ubach
-foto: img/elements/edifici-dhabitatges-carrer-rector-ubach.jpg
+foto: /img/elements/edifici-dhabitatges-carrer-rector-ubach.jpg
 ---

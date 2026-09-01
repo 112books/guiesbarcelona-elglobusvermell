@@ -10,5 +10,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Edifici d’habitatges i Escola Mallorca
-foto: img/elements/edifici-dhabitatges-i-escola-mallorca.jpg
+foto: /img/elements/edifici-dhabitatges-i-escola-mallorca.jpg
 ---

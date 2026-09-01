@@ -8,6 +8,7 @@ descripcio: 'Fort Pienc | Eixample Arquitecte: Bonaventura Bassegoda i Amigó. 1
   Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'
 districte: "Eixample"
 draft: false
+foto: /img/elements/biblioteca-publica-arus.jpg
 lat: 41.392963
 long: 2.1785947
 publicacions:

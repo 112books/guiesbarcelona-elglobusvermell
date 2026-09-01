@@ -17,5 +17,5 @@ long: 2.150972
 publicacions:
 - 76-08
 title: Residència geriàtrica d’Horta
-foto: img/elements/residencia-geriatrica-dhorta.jpg
+foto: /img/elements/residencia-geriatrica-dhorta.jpg
 ---

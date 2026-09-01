@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Xipreret
-foto: img/elements/masia-can-xipreret.jpg
+foto: /img/elements/masia-can-xipreret.jpg
 ---

@@ -5,6 +5,7 @@ descripcio: La primera referència d’aquesta masia és de 1516 i l’última g
   de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
 districte: "Horta-Guinardó"
 draft: false
+foto: /img/elements/biblioteca-horta-can-mariner.jpg
 edifici_original: Masia de Can Mariner. s.
 intervencions:
 - any: '2008'

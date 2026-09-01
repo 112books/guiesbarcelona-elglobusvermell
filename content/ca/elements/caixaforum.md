@@ -16,5 +16,5 @@ long: 2.149564
 publicacions:
 - 76-08
 title: CaixaForum
-foto: img/elements/caixaforum.jpg
+foto: /img/elements/caixaforum.jpg
 ---

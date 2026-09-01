@@ -11,5 +11,5 @@ long: 2.1440963
 publicacions:
 - gatcpac
 title: Casa Josefa López
-foto: img/elements/casa-josefa-lopez.jpg
+foto: /img/elements/casa-josefa-lopez.jpg
 ---

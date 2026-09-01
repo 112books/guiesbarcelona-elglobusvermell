@@ -17,5 +17,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: La Comunal. Espai cooperatiu
-foto: img/elements/la-comunal-espai-cooperatiu.jpg
+foto: /img/elements/la-comunal-espai-cooperatiu.jpg
 ---

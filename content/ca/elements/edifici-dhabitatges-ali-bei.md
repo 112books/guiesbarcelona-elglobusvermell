@@ -15,5 +15,5 @@ long: 2.1842629
 publicacions:
 - 09-25
 title: Edifici d’habitatges Ali Bei
-foto: img/elements/edifici-dhabitatges-ali-bei.jpg
+foto: /img/elements/edifici-dhabitatges-ali-bei.jpg
 ---

@@ -10,5 +10,5 @@ long: 2.1907806
 publicacions:
 - biblioteques
 title: Biblioteca Trinitat Vella – José Barbero
-foto: img/elements/biblioteca-trinitat-vella-jose-barbero.jpg
+foto: /img/elements/biblioteca-trinitat-vella-jose-barbero.jpg
 ---

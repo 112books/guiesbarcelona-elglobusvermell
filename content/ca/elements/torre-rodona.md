@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Torre Rodona
-foto: img/elements/torre-rodona.jpg
+foto: /img/elements/torre-rodona.jpg
 ---

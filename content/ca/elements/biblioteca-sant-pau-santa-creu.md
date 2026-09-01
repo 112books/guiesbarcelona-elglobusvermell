@@ -5,6 +5,7 @@ descripcio: 'Raval Biblioteca: Sant Pau. 1970 | Santa Creu. 1975 | Funcionament 
   des de 1997 Ampliació prevista segons Pla 2030'
 districte: "Ciutat Vella"
 draft: false
+foto: /img/elements/biblioteca-sant-pau-santa-creu.jpg
 edifici_original: Hospital de la Santa Creu. Guillem Abiell. 1406.
 lat: 41.3815497
 long: 2.1692869

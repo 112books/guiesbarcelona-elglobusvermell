@@ -12,5 +12,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Joanet del Borni
-foto: img/elements/masia-can-joanet-del-borni.jpg
+foto: /img/elements/masia-can-joanet-del-borni.jpg
 ---

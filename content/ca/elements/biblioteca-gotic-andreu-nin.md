@@ -4,6 +4,7 @@ adreca: Rbla. de Santa Mònica, 30-32 | Barri Gòtic
 descripcio: Polític marxista, escriptor i traductor. 1892-1937
 districte: "Ciutat Vella"
 draft: false
+foto: /img/elements/biblioteca-gotic-andreu-nin.jpg
 edifici_original: Gran Hotel Falcón. Juli Marial. 1879
 intervencions:
 - any: '2010'

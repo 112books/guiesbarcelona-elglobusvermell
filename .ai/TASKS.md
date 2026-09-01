@@ -167,8 +167,10 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ `unsafe = false` a Goldmark (1 set): l'únic HTML en cru del contingut (badges d'accessibilitat) mogut al shortcode `badges-accesibilitat`; build complet verificat idèntic (1.645 pàgines, només canvia el fingerprint del `mapa.min.js`)
 
 ### Pendent — rendiment (informe)
-- ⏳ **Imatges WebP** — conversió batch de 880 MB d'imatges originals a WebP (<200 KB/foto). Impacte crític: LCP de >4s a <2,5s. Comanda: `cwebp -q 82 + mogrify -resize 1200>`
-- ⏳ `width`/`height` a `<img>` de fitxes — evitar CLS — `elements/single.html`
+- ✅ **Imatges optimitzades in situ** (1 set, decisió de Joan: **JPG redimensionat i no WebP**, perquè WhatsApp/Telegram no llegeixen WebP com a `og:image` i caldria miniatures jpg que es mengen l'estalvi): màx 1.600px, qualitat 85, EXIF tret amb auto-orient — **837→144 MB (−83%)**: elements 818→134 (353 de 358; 5 ja optimitzades es mantenen) i publicacions 19→10 (37 de 50). Mateixos noms i URLs, cap canvi de plantilla; originals recuperables a la història de git. Commit `42337ff`
+- ✅ **33 fotos de biblioteques enllaçades** (forat de migració: la foto era al disc però faltava el camp `foto:` a la fitxa) + 150 barres inicials de `foto:` normalitzades — entrada #6 del registre; 5 biblioteques sense imatge queden a pendents (cal aportar les fotos)
+- ⏳ `width`/`height` a `<img>` de fitxes — evitar CLS — `elements/single.html` (cal un manifest de dimensions de les imatges optimitzades)
+- ⏳ Foto única de fitxa `loading="lazy"` → hauria de ser `eager` (imatge principal/LCP) — `single.html:83`
 - ⏳ Leaflet.min.js en lloc de leaflet.js — `static/vendor/leaflet/` (~42 KB vs 147 KB)
 - ✅ Verificar sitemap.xml a producció (build `--environment production`) — verificat a l'auditoria 1/9: 964 URLs correctes al domini final + `lastmod` a totes (enableGitInfo)
 

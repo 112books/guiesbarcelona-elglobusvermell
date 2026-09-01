@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Verdaguer
-foto: img/elements/masia-can-verdaguer.jpg
+foto: /img/elements/masia-can-verdaguer.jpg
 ---

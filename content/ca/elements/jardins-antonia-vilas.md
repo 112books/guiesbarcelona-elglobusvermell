@@ -20,5 +20,5 @@ temes_transversals:
 - espai-public
 - nomenclator-femeni
 title: Jardins Antònia Vilàs
-foto: img/elements/jardins-antonia-vilas.jpg
+foto: /img/elements/jardins-antonia-vilas.jpg
 ---

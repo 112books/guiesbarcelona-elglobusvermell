@@ -11,5 +11,5 @@ long: 2.1746089
 publicacions:
 - gatcpac
 title: Casa Ginestà
-foto: img/elements/casa-ginesta.jpg
+foto: /img/elements/casa-ginesta.jpg
 ---

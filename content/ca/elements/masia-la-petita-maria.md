@@ -12,5 +12,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia La Petita Maria
-foto: img/elements/masia-la-petita-maria.jpg
+foto: /img/elements/masia-la-petita-maria.jpg
 ---

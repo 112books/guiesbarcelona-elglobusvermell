@@ -11,5 +11,5 @@ long: 2.1683945
 publicacions:
 - gatcpac
 title: Joieria Roca
-foto: img/elements/joieria-roca.jpg
+foto: /img/elements/joieria-roca.jpg
 ---

@@ -8,5 +8,5 @@ long: 2.1884469
 publicacions:
 - 76-08
 title: Edifici d’habitatges
-foto: img/elements/edifici-dhabitatges.jpg
+foto: /img/elements/edifici-dhabitatges.jpg
 ---

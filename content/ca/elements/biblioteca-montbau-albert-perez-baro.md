@@ -4,6 +4,7 @@ adreca: C. Arquitectura, 8 |
 descripcio: 'Biblioteca: 1991 Remodelació: Oliveras Boix Arquitectes. 2015'
 districte: "Horta-Guinardó"
 draft: false
+foto: /img/elements/biblioteca-montbau-albert-perez-baro.jpg
 edifici_original: Escola Enric Borràs. Anys 60 del s.
 intervencions:
 - any: '2015'

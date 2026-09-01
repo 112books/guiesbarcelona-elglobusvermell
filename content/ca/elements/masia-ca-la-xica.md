@@ -11,5 +11,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Ca la Xica
-foto: img/elements/masia-ca-la-xica.jpg
+foto: /img/elements/masia-ca-la-xica.jpg
 ---

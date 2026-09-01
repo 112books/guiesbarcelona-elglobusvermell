@@ -16,5 +16,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Moll de la Fusta
-foto: img/elements/moll-de-la-fusta.jpg
+foto: /img/elements/moll-de-la-fusta.jpg
 ---

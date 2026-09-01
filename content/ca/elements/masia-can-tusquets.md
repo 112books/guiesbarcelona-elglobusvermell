@@ -12,5 +12,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Tusquets
-foto: img/elements/masia-can-tusquets.jpg
+foto: /img/elements/masia-can-tusquets.jpg
 ---

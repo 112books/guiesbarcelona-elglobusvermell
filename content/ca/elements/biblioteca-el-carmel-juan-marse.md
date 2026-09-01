@@ -5,6 +5,7 @@ descripcio: Juan Marsé Escriptor. 1933-2020 El Carmel Francesc Calbet, Roser El
   i Francesc Gruartmoner. 2003
 districte: "Horta-Guinardó"
 draft: false
+foto: /img/elements/biblioteca-el-carmel-juan-marse.jpg
 lat: 41.4209834
 long: 2.1552088
 publicacions:

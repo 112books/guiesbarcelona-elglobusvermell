@@ -19,5 +19,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Poliesportiu Municipal Camp del Ferro
-foto: img/elements/poliesportiu-municipal-camp-del-ferro.jpg
+foto: /img/elements/poliesportiu-municipal-camp-del-ferro.jpg
 ---

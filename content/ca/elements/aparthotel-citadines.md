@@ -12,5 +12,5 @@ long: 2.1714858
 publicacions:
 - 76-08
 title: Aparthotel Citadines
-foto: img/elements/aparthotel-citadines.jpg
+foto: /img/elements/aparthotel-citadines.jpg
 ---

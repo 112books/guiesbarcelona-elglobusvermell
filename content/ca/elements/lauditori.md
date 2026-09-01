@@ -15,5 +15,5 @@ long: 2.1853447
 publicacions:
 - 76-08
 title: L’Auditori
-foto: img/elements/lauditori.jpg
+foto: /img/elements/lauditori.jpg
 ---

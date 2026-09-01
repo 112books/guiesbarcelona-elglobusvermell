@@ -15,5 +15,5 @@ long: 2.1319861
 publicacions:
 - 76-08
 title: Cristalleries Planell
-foto: img/elements/cristalleries-planell.jpg
+foto: /img/elements/cristalleries-planell.jpg
 ---

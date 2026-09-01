@@ -3,6 +3,7 @@ aliases: ["/biblioteques/biblioteca-ignasi-iglesias-can-fabra/"]
 adreca: C. Segre, 24-32 | Sant Andreu
 districte: "Sant Andreu"
 draft: false
+foto: /img/elements/biblioteca-ignasi-iglesias-can-fabra.jpg
 edifici_original: Filatura Fabra i Coats. 1880
 intervencions:
 - any: '2005'

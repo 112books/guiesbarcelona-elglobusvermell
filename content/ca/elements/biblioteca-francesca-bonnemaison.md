@@ -7,6 +7,7 @@ descripcio: 'Remodelació: Institut de Cultura i Biblioteca Popular per a la Don
   Josep Fontserè i Mestre. 1857'
 districte: "Ciutat Vella"
 draft: false
+foto: /img/elements/biblioteca-francesca-bonnemaison.jpg
 edifici_original: Casa senyorial. s.
 intervencions:
 - any: '1857'

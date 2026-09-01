@@ -13,5 +13,5 @@ publicacions:
 temes_transversals:
 - nomenclator-femeni
 title: Biblioteca Vila de Gràcia – Rosa Maria Arquimbau
-foto: img/elements/biblioteca-vila-de-gracia-rosa-maria-arquimbau.jpg
+foto: /img/elements/biblioteca-vila-de-gracia-rosa-maria-arquimbau.jpg
 ---

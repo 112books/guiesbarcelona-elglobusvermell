@@ -16,5 +16,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Jardins de Ca l'Aranyó
-foto: img/elements/jardins-de-ca-laranyo.jpg
+foto: /img/elements/jardins-de-ca-laranyo.jpg
 ---

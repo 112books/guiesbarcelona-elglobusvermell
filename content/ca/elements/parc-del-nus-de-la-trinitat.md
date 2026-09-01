@@ -17,5 +17,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Parc del Nus de la Trinitat
-foto: img/elements/parc-del-nus-de-la-trinitat.jpg
+foto: /img/elements/parc-del-nus-de-la-trinitat.jpg
 ---

@@ -11,5 +11,5 @@ long: 2.1930949
 publicacions:
 - 76-08
 title: Edifici Mediapro
-foto: img/elements/edifici-mediapro.jpg
+foto: /img/elements/edifici-mediapro.jpg
 ---

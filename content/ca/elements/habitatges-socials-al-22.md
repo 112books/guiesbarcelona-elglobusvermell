@@ -16,5 +16,5 @@ long: 2.2059885
 publicacions:
 - 76-08
 title: Habitatges socials al 22@
-foto: img/elements/habitatges-socials-al-22.jpg
+foto: /img/elements/habitatges-socials-al-22.jpg
 ---

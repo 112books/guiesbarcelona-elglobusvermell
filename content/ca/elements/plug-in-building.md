@@ -15,5 +15,5 @@ long: 2.1921566
 publicacions:
 - 76-08
 title: Plug-in Building
-foto: img/elements/plug-in-building.jpg
+foto: /img/elements/plug-in-building.jpg
 ---

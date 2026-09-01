@@ -18,5 +18,5 @@ publicacions:
 temes_transversals:
 - dones-arquitectes
 title: Estudis industrials
-foto: img/elements/estudis-industrials.jpg
+foto: /img/elements/estudis-industrials.jpg
 ---

@@ -11,5 +11,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Ordenació de la Ronda del Mig / Rambla Brasil
-foto: img/elements/ordenacio-de-la-ronda-del-mig-rambla-brasil.jpg
+foto: /img/elements/ordenacio-de-la-ronda-del-mig-rambla-brasil.jpg
 ---

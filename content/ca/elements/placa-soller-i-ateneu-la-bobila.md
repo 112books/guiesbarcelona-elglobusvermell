@@ -15,5 +15,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Plaça Sóller i Ateneu La Bòbila
-foto: img/elements/placa-soller-i-ateneu-la-bobila.jpg
+foto: /img/elements/placa-soller-i-ateneu-la-bobila.jpg
 ---

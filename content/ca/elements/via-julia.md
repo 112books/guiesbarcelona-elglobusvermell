@@ -17,5 +17,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Via Júlia
-foto: img/elements/via-julia.jpg
+foto: /img/elements/via-julia.jpg
 ---

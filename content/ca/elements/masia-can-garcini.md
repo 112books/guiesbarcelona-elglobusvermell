@@ -14,5 +14,5 @@ publicacions:
 - masies
 tipologia: crugia perpendicular a la façana principal.
 title: Masia Can Garcini
-foto: img/elements/masia-can-garcini.jpg
+foto: /img/elements/masia-can-garcini.jpg
 ---

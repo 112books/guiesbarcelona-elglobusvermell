@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Ca n’Artés
-foto: img/elements/masia-ca-nartes.jpg
+foto: /img/elements/masia-ca-nartes.jpg
 ---

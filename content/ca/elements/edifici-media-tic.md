@@ -11,5 +11,5 @@ long: 2.1943508
 publicacions:
 - 76-08
 title: Edifici Media-TIC
-foto: img/elements/edifici-media-tic.jpg
+foto: /img/elements/edifici-media-tic.jpg
 ---

@@ -13,5 +13,5 @@ publicacions:
 - 09-25
 - biblioteques
 title: Edifici Collage. Centre Cultural Teresa Pàmies
-foto: img/elements/edifici-collage-centre-cultural-teresa-pamies.jpg
+foto: /img/elements/edifici-collage-centre-cultural-teresa-pamies.jpg
 ---

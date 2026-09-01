@@ -8,6 +8,7 @@ descripcio: 'Jaume Fuster Escriptor, guionista i traductor. 1945-1998 Vallcarca 
   els Penitents Arquitecte: Josep Llinàs – Joan Vera. 2005 Premi FAD Arquitectura'
 districte: "Gràcia"
 draft: false
+foto: /img/elements/biblioteca-jaume-fuster.jpg
 lat: 41.407367
 long: 2.1491764
 publicacions:

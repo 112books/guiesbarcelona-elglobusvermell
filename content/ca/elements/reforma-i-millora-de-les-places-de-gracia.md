@@ -10,5 +10,5 @@ publicacions:
 temes_transversals:
 - espai-public
 title: Reforma i millora de les places de Gràcia
-foto: img/elements/reforma-i-millora-de-les-places-de-gracia.jpg
+foto: /img/elements/reforma-i-millora-de-les-places-de-gracia.jpg
 ---

@@ -15,5 +15,5 @@ temes_transversals:
 - dones-arquitectes
 - espai-public
 title: Passeig de Sant Joan
-foto: img/elements/passeig-de-sant-joan.jpg
+foto: /img/elements/passeig-de-sant-joan.jpg
 ---

@@ -13,5 +13,5 @@ publicacions:
 - masies
 tipologia: crugia paral·lela a la façana principal.
 title: Masia Can Rosés
-foto: img/elements/masia-can-roses.jpg
+foto: /img/elements/masia-can-roses.jpg
 ---
