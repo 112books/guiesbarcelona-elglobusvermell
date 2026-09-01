@@ -169,9 +169,9 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 ### Pendent — rendiment (informe)
 - ✅ **Imatges optimitzades in situ** (1 set, decisió de Joan: **JPG redimensionat i no WebP**, perquè WhatsApp/Telegram no llegeixen WebP com a `og:image` i caldria miniatures jpg que es mengen l'estalvi): màx 1.600px, qualitat 85, EXIF tret amb auto-orient — **837→144 MB (−83%)**: elements 818→134 (353 de 358; 5 ja optimitzades es mantenen) i publicacions 19→10 (37 de 50). Mateixos noms i URLs, cap canvi de plantilla; originals recuperables a la història de git. Commit `42337ff`
 - ✅ **33 fotos de biblioteques enllaçades** (forat de migració: la foto era al disc però faltava el camp `foto:` a la fitxa) + 150 barres inicials de `foto:` normalitzades — entrada #6 del registre; 5 biblioteques sense imatge queden a pendents (cal aportar les fotos)
-- ⏳ `width`/`height` a `<img>` de fitxes — evitar CLS — `elements/single.html` (cal un manifest de dimensions de les imatges optimitzades)
-- ⏳ Foto única de fitxa `loading="lazy"` → hauria de ser `eager` (imatge principal/LCP) — `single.html:83`
-- ⏳ Leaflet.min.js en lloc de leaflet.js — `static/vendor/leaflet/` (~42 KB vs 147 KB)
+- ⏳ ~~`width`/`height` a `<img>` de fitxes~~ → ✅ FET (1 set): manifest `data/imatges_dims.json` (408 imatges, generat amb `scripts/genera-dims-imatges.py`, re-executable) i `single.html` el consulta — reserva l'espai de la foto abans de carregar (menys CLS)
+- ✅ Foto única de fitxa `loading="lazy"` → `eager` + `fetchpriority="high"` (1 set): era la imatge principal/LCP; la primera diapositiva del carrusel també porta ara `fetchpriority`
+- ✅ Leaflet verificat (1 set): `leaflet.js` **ja és la dist minificada oficial 1.9.4** — 147 KB en disc però **42 KB gzipades** en línia (GitHub Pages serveix gzip); l'entrada venia de confondre la mida en cru amb la transferida. Cap canvi necessari
 - ✅ Verificar sitemap.xml a producció (build `--environment production`) — verificat a l'auditoria 1/9: 964 URLs correctes al domini final + `lastmod` a totes (enableGitInfo)
 
 ### Pendent — SEO (informe 30/8 + auditoria 1/9)

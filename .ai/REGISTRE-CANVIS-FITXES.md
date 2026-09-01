@@ -107,6 +107,19 @@ de fitxes: només validació de JavaScript i configuració de renderitzat.
 | 3 | Revisats `?pub=` i `?color=` — ja eren segurs | `mapa.js:508` valida amb `hasOwnProperty` contra les publicacions reals; `fitxa.js:5` valida el color amb regex hex. Cap canvi necessari |
 | 4 | `envia.php` — no actuable aquí | El fitxer no existeix al repo Hugo: és del WordPress de producció (Hetzner). Auditar-lo o substituir-lo (formulari de contacte) toca al dia de la migració |
 
+### Rendiment — imatges i càrrega (1 set 2026)
+
+Aprovació: prioritat 1 de Joan (1 set). Els punts 3-4 no canvien res visualment: només reserven
+l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen la descàrrega.
+
+| # | Canvi | Detall |
+|---|---|---|
+| 1 | 390 imatges optimitzades in situ | Decisió de Joan: **JPG redimensionat** (màx 1.600px, qualitat 85, EXIF tret amb auto-orient) i no WebP, perquè WhatsApp/Telegram no llegeixen WebP com a `og:image` i les miniatures necessàries es mengen l'estalvi. **837→144 MB (−83%)**: elements 818→134 (353 de 358; 5 ja optimitzades es mantenen) i publicacions 19→10 (37 de 50). Mateixos noms i URLs, cap canvi de plantilla; originals recuperables a la història de git. Commit `42337ff` |
+| 2 | 33 fotos de biblioteques enllaçades | Forat de migració detectat durant aquesta feina — vegeu l'entrada **#6** del registre de canvis |
+| 3 | `width`/`height` als `<img>` de fitxa | Manifest `data/imatges_dims.json` (408 imatges) generat amb `scripts/genera-dims-imatges.py` (re-executable); `single.html` el consulta per a la foto única i el carrusel — evita salts de pàgina en carregar (CLS) |
+| 4 | Foto única `loading="eager"` + `fetchpriority="high"` | Abans era `lazy` (penalitzava el LCP, la foto és l'element principal de la fitxa); la primera diapositiva del carrusel, que ja era `eager`, ara també porta `fetchpriority`. Verificat amb diff de build: l'únic que canvien són atributs d'`<img>` i `lastmod` |
+| 5 | Leaflet verificat — cap canvi | `leaflet.js` ja és la dist minificada oficial 1.9.4: 147 KB en disc però **42 KB gzipades** en línia (GitHub Pages serveix gzip); el pendent venia de confondre la mida en cru amb la transferida |
+
 ---
 
 ## Pendents d'aprovació (NO executar sense confirmació expressa de Joan)

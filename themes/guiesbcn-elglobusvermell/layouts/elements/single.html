@@ -56,7 +56,8 @@
           <figure class="fitxa-figura">
             <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
                  alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ $.Title }} ({{ add $i 1 }}/{{ $total }}){{ end }}"
-                 {{ if eq $i 0 }}loading="eager"{{ else }}loading="lazy"{{ end }}>
+                 {{ with index site.Data.imatges_dims (path.Base $img.url) }} width="{{ index . 0 }}" height="{{ index . 1 }}"{{ end }}
+                 {{ if eq $i 0 }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
             <figcaption class="fitxa-peu-foto">
               {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
               <span class="fitxa-peu-autoria">CC BY-SA 4.0, {{ $img.autoria }}</span>
@@ -80,7 +81,8 @@
   <figure class="fitxa-imatge fitxa-figura">
     <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
          alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ .Title }}{{ end }}"
-         loading="lazy">
+         {{ with index site.Data.imatges_dims (path.Base $img.url) }} width="{{ index . 0 }}" height="{{ index . 1 }}"{{ end }}
+         loading="eager" fetchpriority="high">
     <figcaption class="fitxa-peu-foto">
       {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
       <span class="fitxa-peu-autoria">CC BY-SA 4.0, {{ $img.autoria }}</span>
