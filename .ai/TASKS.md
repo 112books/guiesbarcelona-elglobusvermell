@@ -2,7 +2,14 @@
 
 Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info externa)
 
-**Priorització de Joan (1 set 2026):** ara per ara → **1) Rendiment, 2) Seguretat**; la resta queda pendent. El pas al servidor de producció serà **la darrera cosa** (cal decidir servidor + migració completa); **GitHub Pages fins a nova ordre**.
+**Priorització de Joan:** **1) Rendiment, 2) Seguretat** ✅ completats l'1 set. **Pla nou (decidit l'1 set vespre):** demà 2 set → **deixar perfecte SEO + motors d'IA** («que ens trobin fàcil i eficientment»); després → **accessibilitat restant, seguretat restant i autoria del codi**. Cap mail diari a Xavi (vacances fins ~16 set): **esborrany de control cada dia + un únic resum setmanal a final de setmana** amb les tasques de cada dia. El pas al servidor de producció serà **la darrera cosa** (cal decidir servidor + migració completa); **GitHub Pages fins a nova ordre**.
+
+**Detall del pla de la setmana:**
+- **SEO + IA (demà 2 set)**: rellegir a fons `.ai/informe-seo-geo-aeo-2026-09-01.pdf` i aplicar tot el que no depengui del tall del domini; el que sí en depengui, deixar-lo preparat per activar just al tall (GSC, Bing/IndexNow — pas 5 de l'informe). FAQ/schema FAQPage, SSR de llistes, `og:image` 1200×630 i consistència de xifres toquen consens d'equip → només llistar-les, no avançar sol
+- **Accessibilitat restant** (informe 30/8): teclat dels marcadors Leaflet (§2.2, capa JS amb `tabindex` + `keydown`), `aria-required` + errors accessibles als formularis (§2.3), «(PDF)» als enllaços de descàrrega de plànols (§3.3), tests automàtics axe/pa11y al CI (§3.4)
+- **Seguretat restant**: OAuth proxy (Fase 1, espera Dinahosting), `analytics.json` (restringir post-migració), `envia.php` (auditar o substituir el dia del tall); revisar si hi ha res més aplicable ara
+- **Autoria del codi (a aclarir amb Joan)**: (1) identitat git — 179 commits fets des d'aquesta màquina amb la config genèrica «El teu nom <el-teu-email@example.com>»: cal decidir quina identitat han de dur els commits i configurar-la (opcionalment `.mailmap` per unificar la vista dels existents, sense reescriure la història); (2) llicència del codi: el contingut és CC BY-SA 4.0 però el codi del tema i els scripts no en tenen cap; (3) crèdits d'autoria al web i al repo
+- **Mail setmanal a Xavi**: esborrany diari a `docs/` (el de l'1 set ja escrit: `docs/esborrany-mail-control-xavi-1set.md` — queda com a dia 1 del resum) i **un sol mail-resum a final de setmana** amb les tasques de cada dia; enviat, es converteix en registre i s'arxiva al repo de docs com els altres
 
 ---
 
