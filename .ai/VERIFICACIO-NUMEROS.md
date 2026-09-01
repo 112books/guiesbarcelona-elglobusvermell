@@ -1,6 +1,6 @@
 # Verificació diària dels números del web
 
-**Execució:** 01/09/2026 13:26 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 01/09/2026 13:40 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
 ## Resultat: ✅ tot coincideix
 
