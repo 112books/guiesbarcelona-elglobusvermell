@@ -312,27 +312,25 @@
 
       <h3>Primera vegada: crear el token</h3>
       <ol class="g-steps">
-        <li>Entra a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>.</li>
-        <li>Posa un nom descriptiu, per exemple <code>Editor Guies Barcelona</code>.</li>
-        <li>Tria una caducitat d'<strong>1 any</strong>.</li>
-        <li>A <em>Repository access</em>, selecciona <strong>Only select repositories</strong> i afegeix <code>112books/guiesbarcelona-elglobusvermell</code>.</li>
-        <li>A <em>Permissions</em> → <em>Repository permissions</em>, activa:
-          <ul>
-            <li><strong>Contents</strong>: <em>Read and write</em></li>
-            <li><strong>Metadata</strong>: <em>Read</em> (s'activa sol)</li>
-          </ul>
-        </li>
-        <li>Clica <strong>Generate token</strong> i copia el token (apareix una sola vegada).</li>
+        <li>Entra a <a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener">GitHub → Settings → Tokens (classic)</a>.</li>
+        <li>Al camp <em>Note</em>, posa un nom descriptiu, per exemple <code>Editor Guies Barcelona</code>.</li>
+        <li>A <em>Expiration</em>, tria <strong>Custom</strong> i posa la data final (<em>End date</em>) d'aquí a un any.</li>
+        <li>A <em>Select scopes</em>, marca la casella <strong>public_repo</strong> (la trobaràs a la primera taula, una mica per sota de la casella gran <code>repo</code>). És l'única que cal: dona accés de lectura i escriptura als repositoris públics on el teu compte ja pot entrar.</li>
+        <li>Clica <strong>Generate token</strong> i copia el token (comença per <code>ghp_</code> i apareix una sola vegada).</li>
       </ol>
 
       <div class="g-note">
         <strong>Desa el token</strong> en un lloc segur (gestor de contrasenyes o nota privada). Si el perds hauràs de crear-ne un de nou seguint els mateixos passos.
       </div>
 
+      <div class="g-note">
+        <strong>Per què el token clàssic i no el fine-grained?</strong> El projecte viu en un compte personal de GitHub, i els tokens <em>fine-grained</em> només funcionen amb repositoris propis o d'organitzacions de les quals ets membre. El token <em>clàssic</em> amb permís <code>public_repo</code> funciona per a tots els convidats al projecte i només pot tocar repositoris públics.
+      </div>
+
       <h3>Entrar a l'editor</h3>
       <ol class="g-steps">
         <li>Ves a l'editor: <a href="../cms/">112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/</a> (quan el domini propi estigui actiu, serà <strong>guiesbarcelona.elglobusvermell.org/admin/cms/</strong>).</li>
-        <li>Enganxa el token al camp i clica <strong>Sign in using Access Token</strong>.</li>
+        <li>Enganxa el token al camp i clica <strong>Iniciar la sessió amb un testimoni d'accés</strong> (en anglès, <em>Sign in using Access Token</em>).</li>
         <li>L'editor carrega la llista d'edificis.</li>
       </ol>
     </section>

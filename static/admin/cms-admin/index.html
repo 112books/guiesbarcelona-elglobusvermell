@@ -179,11 +179,10 @@
       info.className = 'cms-login-ajuda';
       info.innerHTML =
         'Introdueix el teu <strong>token personal (PAT)</strong> de GitHub. ' +
-        'Genera\'l a <a href="https://github.com/settings/personal-access-tokens/new" ' +
-        'target="_blank" rel="noopener">GitHub → Settings → Fine-grained tokens</a>. ' +
-        'Permisos: <strong>Contents</strong> (lectura i escriptura) + ' +
-        '<strong>Metadata</strong> (lectura). ' +
-        'Repositori: <strong>112books/guiesbarcelona-elglobusvermell</strong>.';
+        'Genera\'l a <a href="https://github.com/settings/tokens/new" ' +
+        'target="_blank" rel="noopener">GitHub → Settings → Tokens (classic)</a>: ' +
+        'permís <strong>public_repo</strong> i caducitat d\'un any. ' +
+        'Passos detallats a la <a href="../guia/#acces">guia de l\'editor</a>.';
       tokenBtn.parentNode.insertBefore(info, tokenBtn.nextSibling);
 
       // ── Peu ────────────────────────────────────────────────────
