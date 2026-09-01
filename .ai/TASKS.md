@@ -28,8 +28,8 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Pàgina Presentació
 - ✅ Pàgina En paper (13 publicacions)
 - ✅ Pàgina Crèdits (amb LinuxBCN)
-- 🔴 Importació de les 564 entrades del WordPress real (espera accés servidor Jorge)
-- 🔴 Imatges dels edificis (espera accés servidor Jorge)
+- ✅ **Contingut migrat fins a les fonts disponibles** (verificat 1 set): dump del 16/02/2026 + CSV d'ítems publicats + correccions d'Xavi → 660 fitxes (659 amb coordenades), 13 publicacions, 274 arquitectes, 837 imatges optimitzades (144 MB, 0 enllaços externs). Les entrades antigues «564 pendents» i «imatges espera Jorge» eren del PLAN inicial, anteriors a la importació — tancades
+- 🔴 **Confirmació definitiva de la migració contra el WordPress en producció (la font «bona», recordatori de Joan 1 set)**: el dump és una instantània del 16/02 i el comptatge preliminar no quadra amb les 660 fitxes — cal verificar contra el WP en viu (accés Jorge o exportació fresca) que no hi ha canvis posteriors ni contingut absent, just abans del tall. Confirmació de dues línies demanada a Xavi al mail de control. **Regla ferma: MAI esborrar res de fitxes** — cap discrepància es resol esborrant; sempre corregint o afegint contra el WP
 - ✅ Geocodificació dels edificis: completa — 659 de 660 fitxes amb coordenades; l'única sense és `flors-de-la-rambla` (31 ao, a propòsit: al llistat, sense punt al mapa, dades pendents d'Xavi ~16 set)
 - ✅ Detecció i llistat de punts desubicats (`.ai/PUNTS-DESUBICATS.md`) — confirmats per Xavi (18 ago): les 5 fitxes ja tenien la coordenada correcta a la base de dades actual, no calia tocar res. Canvi de nom "Casa xalet passatge Roserar" → "Casa Mercè Escolano" aplicat al frontmatter (2026-08-19).
 
