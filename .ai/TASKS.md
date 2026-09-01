@@ -2,6 +2,8 @@
 
 Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info externa)
 
+**⏱️ CONTROL DE TEMPS — OBLIGATORI (estipulat al projecte, recordat per Joan l'1 set):** previ a fer res a cada sessió, arrencar el skill `time-tracker` i registrar mentre es fa la feina; al tancament, escriure el log del dia a `../docs/.taques/guia-globus-vermell/YYYY-MM-DD.md` + línia a `../docs/.taques-central/` + commit i push des de `../docs`. Resum global i mètode: `../docs/.taques/guia-globus-vermell/projecte-resum.md` (regla completa al `CLAUDE.md` de l'arrel). **Cap sessió no es dóna per tancada sense el registre pujat.**
+
 **Priorització de Joan:** **1) Rendiment, 2) Seguretat** ✅ completats l'1 set. **Pla nou (decidit l'1 set vespre):** demà 2 set → **deixar perfecte SEO + motors d'IA** («que ens trobin fàcil i eficientment»); després → **accessibilitat restant, seguretat restant i autoria del codi**. Cap mail diari a Xavi (vacances fins ~16 set): **esborrany de control cada dia + un únic resum setmanal a final de setmana** amb les tasques de cada dia. El pas al servidor de producció serà **la darrera cosa** (cal decidir servidor + migració completa); **GitHub Pages fins a nova ordre**.
 
 **Detall del pla de la setmana:**
