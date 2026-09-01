@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-tiana-il3-ub/"]
 adreca: Ciutat de Granada 127 + Tànger 81-91 + Bolívia 60-66
 any: 1914
 anys_reforma:

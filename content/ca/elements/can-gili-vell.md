@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-gili-vell/"]
 adreca: Ciutat de Granada 12b-16 + Doctor Trueta 167-183 + Ptge. Mas de Roda 22-36
 draft: false
 foto: /img/elements/can-gili-vell.jpg

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/institut-frances/"]
 adreca: Moià 8
 any: '1974'
 arquitectes:

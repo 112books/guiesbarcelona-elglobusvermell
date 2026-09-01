@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-rector-ubach/"]
 adreca: C.  del Rector Ubach, 19
 any: 1931
 arquitectes:

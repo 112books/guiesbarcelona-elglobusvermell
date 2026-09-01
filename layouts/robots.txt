@@ -52,4 +52,7 @@ Disallow: /
 {{ else }}
 User-agent: *
 Allow: /
+Disallow: /admin/
+
+Sitemap: {{ "sitemap.xml" | absURL }}
 {{ end }}

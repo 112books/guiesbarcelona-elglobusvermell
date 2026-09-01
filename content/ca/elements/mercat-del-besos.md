@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-del-besos/"]
 adreca: Jaume Huguet, 38
 descripcio: 'Projecte original: 1968'
 districte: "Sant Martí"

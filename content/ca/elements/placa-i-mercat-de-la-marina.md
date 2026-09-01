@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/placa-i-mercat-de-la-marina/"]
 adreca: Pg. de la Zona Franca, 178-180
 any: '2003'
 arquitectes:

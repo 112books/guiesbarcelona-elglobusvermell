@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-socials-per-a-joves-can-caralleu/"]
 adreca: Av. Josep Vicenç Foix, 122
 any: '2008'
 arquitectes:

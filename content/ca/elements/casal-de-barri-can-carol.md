@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/casal-de-barri-can-carol/"]
 adreca: Cambrils, 24
 any: '2021'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/joieria-roca/"]
 adreca: Pg. de Gràcia, 18
 any: 1933
 arquitectes:

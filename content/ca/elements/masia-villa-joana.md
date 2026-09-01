@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-villa-joana/"]
 adreca: Ctra. de l'Església, 104 (Vallvidrera)
 descripcio: Ctra. de l’Església, 104 (Vallvidrera) Antic mas, probablement del segle
   XVIII , transformat en casa d’estiueig al segle XIX . Residència del poeta Jacint

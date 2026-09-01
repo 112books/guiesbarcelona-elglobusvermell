@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-baliarda/"]
 adreca: Pg. Valldaura, 1-13
 descripcio: Pg. Valldaura, 1-13 La primera referència que se’n té és del segle XVI
   . S’hi fa una gran reforma al segle XIX . Actualment és de propietat privada. Tipologia

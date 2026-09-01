@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-dhabitatges-110-rooms/"]
 adreca: Provença, 203
 any: '2016'
 arquitectes:

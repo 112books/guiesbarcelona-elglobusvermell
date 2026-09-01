@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/cementiri-de-montjuic/"]
 adreca: Mare de Déu de Port, 56
 any: '1883'
 arquitectes:

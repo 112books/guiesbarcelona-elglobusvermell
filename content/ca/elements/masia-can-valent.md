@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-valent/"]
 adreca: Av. Rio de Janeiro, 49-51
 descripcio: Av. Rio de Janeiro, 49-51 / Pintor Alsamora, 14 També coneguda com a Can
   Pere Valent i Torre Moragdès Masia construïda entre els segles XVII i XVIII , originalment

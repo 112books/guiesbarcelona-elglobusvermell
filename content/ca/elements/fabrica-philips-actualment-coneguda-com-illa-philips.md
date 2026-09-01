@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/fabrica-philips-actualment-coneguda-com-illa-philips/"]
 adreca: Pg. de la Zona Franca, 191-203
 any: '1959'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-hispano-olivetti-ara-hotel/"]
 adreca: Rda. Universitat 18
 any: '1964'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/torre-daigues-de-la-catalana-de-gas/"]
 adreca: Parc de la Barceloneta
 any: '1906'
 arquitectes:

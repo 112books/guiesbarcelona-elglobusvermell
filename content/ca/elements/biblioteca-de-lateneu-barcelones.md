@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-de-lateneu-barcelones/"]
 adreca: Canuda, 6 | Barri Gòtic | Ciutat Vella
 descripcio: Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.
 districte: "Ciutat Vella"

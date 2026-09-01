@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/galetes-vinas-la-galeta/"]
 adreca: Pamplona 96-104 + Almogàvers 125-129
 any: '1886'
 arquitectes:

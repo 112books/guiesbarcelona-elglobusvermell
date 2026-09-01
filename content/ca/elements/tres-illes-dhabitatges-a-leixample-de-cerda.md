@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/tres-illes-dhabitatges-a-leixample-de-cerda/"]
 adreca: Ramon Turró, s/n
 descripcio: 'Projecte: Carlos Ferrater. 1992 Premi Dècada'
 draft: false

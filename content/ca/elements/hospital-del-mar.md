@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/hospital-del-mar/"]
 adreca: Pg. Marítim de la Barceloneta 25-29
 arquitectes:
 - Albert de Pineda Álvarez

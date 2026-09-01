@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/la-balma-cohabitatges-cooperatius/"]
 adreca: Espronceda, 131
 any: '2021'
 arquitectes:

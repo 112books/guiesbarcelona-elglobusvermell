@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-clara/"]
 adreca: C. Dr. Carulla, 22-24 |
 districte: "Sarrià-Sant Gervasi"
 draft: false

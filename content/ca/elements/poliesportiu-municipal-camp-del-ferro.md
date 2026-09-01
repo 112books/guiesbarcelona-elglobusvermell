@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/poliesportiu-municipal-camp-del-ferro/"]
 adreca: Pl. Albert Badia i Mur, 1
 any: '2020'
 arquitectes:

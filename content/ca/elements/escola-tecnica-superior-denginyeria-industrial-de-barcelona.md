@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/escola-tecnica-superior-denginyeria-industrial-de-barcelona/"]
 adreca: Av. Diagonal 647
 any: '1964'
 arquitectes:

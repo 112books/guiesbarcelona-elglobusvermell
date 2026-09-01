@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/habitatges-de-can-culleres/"]
 adreca: Pallars 299-319 + Lope de Vega 120 + Espronceda 121
 any: '1959'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-collserola-josep-miracle/"]
 adreca: C. Reis Catòlics, 16-34 |
 arquitectes:
 - Josep Manel Melo

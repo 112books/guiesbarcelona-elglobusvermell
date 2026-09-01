@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/barceloneta/"]
 title: "La Barceloneta. Història, arquitectura i art públic"
+description: "La Barceloneta: història, arquitectura i art públic del barri marítim de Barcelona."
+foto: "/img/publicacions/barceloneta.jpg"
 edicio: 2020
 ---
 

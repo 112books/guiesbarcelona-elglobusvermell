@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardi-de-roger-de-flor/"]
 title: Jardins d’Agustí Centelles
 draft: false
 adreca: Roger de Flor, 191

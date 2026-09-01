@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/parc-del-nus-de-la-trinitat/"]
 adreca: La Trinitat Vella
 any: '1993'
 arquitectes:

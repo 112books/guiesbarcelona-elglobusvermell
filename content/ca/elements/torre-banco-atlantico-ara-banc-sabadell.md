@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/torre-banco-atlantico-ara-banc-sabadell/"]
 adreca: Balmes 168-170
 any: '1969'
 arquitectes:

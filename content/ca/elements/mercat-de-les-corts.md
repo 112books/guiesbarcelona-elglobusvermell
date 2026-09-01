@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-les-corts/"]
 adreca: Travessera de les Corts, 215
 districte: "Les Corts"
 zona: "Nous barris"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-doficines-entegra/"]
 adreca: Tànger, 73 / Badajoz
 any: 2022
 arquitectes:

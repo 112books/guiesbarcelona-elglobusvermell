@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-josep-magret/"]
 adreca: Atlàntida 47
 draft: false
 foto: /img/elements/casa-josep-magret.jpg

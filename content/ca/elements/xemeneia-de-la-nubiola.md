@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-la-nubiola/"]
 adreca: Cristóbal de Moura 113-129 + Treball 92
 descripcio: 'Categoria: Xemeneia'
 draft: false

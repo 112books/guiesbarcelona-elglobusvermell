@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-muntaner/"]
 adreca: Park Güell
 descripcio: Park Güell Edificada entre els segles XVII i XVIII , el 1927 passa a ser
   propietat municipal i s’hi fa una gran reforma per acollir l’escola pública Baldiri

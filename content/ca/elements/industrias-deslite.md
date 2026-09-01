@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/industrias-deslite/"]
 adreca: Àvila 10 + Badajoz 5-7 + Av. Icària 209
 any: '1957'
 arquitectes:

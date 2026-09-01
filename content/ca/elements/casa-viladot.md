@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-viladot/"]
 adreca: Av. de Gaudí, 71
 any: 1930
 arquitectes:

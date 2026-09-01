@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-folch/"]
 adreca: Salvador Espriu 15-21
 any: '1915'
 draft: false

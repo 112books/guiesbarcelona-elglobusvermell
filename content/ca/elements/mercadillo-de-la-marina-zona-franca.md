@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/mercadillo-de-la-marina-zona-franca/"]
 adreca: Ferrocarrils Catalans i Mare de Déu de Port, entre Foc i Motors
 descripcio: 'Horari: Diumenges de 9.00 a 14.00 h Mercadal de venedors ambulants i
   de productes diversos (excepte alimentació) que acull unes 500 parades. Inicia la

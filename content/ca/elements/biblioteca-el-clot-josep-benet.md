@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-el-clot-josep-benet/"]
 adreca: Pl. de les Glòries Catalanes, 37-38
 any: 2013
 arquitectes:

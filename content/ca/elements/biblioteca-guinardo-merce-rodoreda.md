@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-guinardo-merce-rodoreda/"]
 adreca: C. Camèlies, 76-80 |
 arquitectes:
 - Màrius Quintana

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placa-dhenry-dunant/"]
 adreca: Còrsega, 643 + Ptge. Ureña + Ptge. Igualtat + Ptge. París
 descripcio: 'Més info: Té entrades previstes pels passatges d’Ureña, de la Igualtat
   i de París, però estan sempre tancades. Jean Henri (o Henry ) Dunant. (Ginebra,

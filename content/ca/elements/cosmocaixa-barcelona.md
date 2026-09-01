@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/cosmocaixa-barcelona/"]
 adreca: Isaac Newton, 26
 draft: false
 intervencions:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-canyelles/"]
 adreca: Antonio Machado, 10
 descripcio: 'Projecte original: Albert de Pablo. 1987'
 districte: "Nou Barris"

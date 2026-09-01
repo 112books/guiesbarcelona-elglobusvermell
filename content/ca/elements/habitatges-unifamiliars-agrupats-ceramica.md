@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/habitatges-unifamiliars-agrupats-ceramica/"]
 adreca: Ceràmica s/n
 any: '1968'
 arquitectes:

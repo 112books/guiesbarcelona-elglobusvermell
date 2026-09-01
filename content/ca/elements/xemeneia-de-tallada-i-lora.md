@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-tallada-i-lora/"]
 adreca: Bolívia 247-269
 draft: false
 intervencions:

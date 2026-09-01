@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/palau-sant-jordi/"]
 adreca: Pg. Olímpic, 5
 descripcio: 'Projecte: Arata Isozaki. 1990 Premi Ciutat de Barcelona Premi FAD Arquitectura
   Premi FAD Arquitectura (Opinió)'

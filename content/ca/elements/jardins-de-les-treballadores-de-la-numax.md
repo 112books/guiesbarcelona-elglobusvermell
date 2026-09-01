@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/interior-dilla-antics-cinema-niza/"]
 adreca: Plaça Sagrada Família 12 i carrer Rosselló 372
 descripcio: 'El disseny dels jardins es va fer fet a travé s d’un procés participatiu
   amb els veïns. El jardí té un parc infantil 100% accessible. Durant els primers

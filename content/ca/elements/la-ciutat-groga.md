@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/la-ciutat-groga/"]
 adreca: Roc Boronat 99-115 + Almogàvers 201
 any: 1928
 arquitectes:

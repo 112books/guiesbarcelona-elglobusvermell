@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/fundacio-joan-miro/"]
 adreca: Parc de Montjuïc, s/n
 any: 1975
 arquitectes:

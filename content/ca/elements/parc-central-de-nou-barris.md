@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/parc-central-de-nou-barris/"]
 adreca: La Guineueta
 any: '2003'
 arquitectes:

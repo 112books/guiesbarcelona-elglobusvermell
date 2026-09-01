@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-avinguda-meridiana-312/"]
 adreca: Av. Meridiana 312 bis – 318
 any: '1965'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-del-rector-oliveras/"]
 adreca: Ptge. Rector Oliveras, 6 (C. Aragó, 299)
 descripcio: Rector Oliveras. (L’Hospitalet de Llobregat, 1884 – Barcelona, 1953).
   Després d’exercir de sacerdot a diverses parròquies de Catalunya durant gairebé

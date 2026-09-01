@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/torre-mare-nostrum/"]
 adreca: Doctor Aiguader 38-54
 any: '2005'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-montepio-dempleats/"]
 adreca: Pg. de Fabra i Puig, 43
 any: 1938
 arquitectes:

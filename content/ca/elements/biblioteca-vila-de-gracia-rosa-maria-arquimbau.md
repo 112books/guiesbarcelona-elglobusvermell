@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-vila-de-gracia/"]
 adreca: C. Torrent de l’Olla, 104 |
 descripcio: 'Rosa Maria Arquimbau Escriptora, feminista i periodista. 1909-1992 Vila
   de Gràcia Arquitecte: Josep Llinàs i Joan Vera. 2002'

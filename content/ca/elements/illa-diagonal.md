@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/illa-diagonal/"]
 adreca: Av. Diagonal, 545
 descripcio: 'Projecte: Rafael Moneo i Manuel de Solà-Morales. 1993 Premi FAD Arquitectura'
 draft: false

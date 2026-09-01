@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-tecla-sala/"]
 adreca: Bilbao, 155 + C. Castella, 40
 descripcio: Tecla Sala i Miralpeix. (Roda de Ter, 1886 – Barcelona, 1973). Empresària.
   Les seves aptituds empresarials i fortes conviccions religioses la dugueren a preocupar-se

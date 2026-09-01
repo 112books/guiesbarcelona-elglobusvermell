@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-provencals/"]
 adreca: Menorca, 19
 districte: "Sant Martí"
 zona: "Nous barris"

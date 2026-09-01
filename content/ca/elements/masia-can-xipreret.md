@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-xipreret/"]
 adreca: Mare de Déu de la Salut, 75
 descripcio: Mare de Déu de la Salut, 75 Masia del segle XVIII . Ha patit diverses
   reformes i ampliacions i des de principis del segle XX és propietat del Club Tennis

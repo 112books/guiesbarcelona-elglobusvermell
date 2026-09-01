@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-beatriu-de-provenca/"]
 adreca: Nàpols, 244
 descripcio: 'Equipament: Escola bressol “La Fassina” Més info: Situats en antics
   terrenys de la fàbrica Myrurgia, l’edifici principal de la qual encara es conserva.

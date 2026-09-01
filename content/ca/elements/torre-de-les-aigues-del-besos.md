@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/torre-de-les-aigues-del-besos/"]
 adreca: Pl. Ramon Calsina 1 (Selva de Mar)
 draft: false
 foto: /img/elements/torre-de-les-aigues-del-besos.jpg

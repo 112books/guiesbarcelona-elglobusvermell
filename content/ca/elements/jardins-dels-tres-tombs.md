@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-dels-tres-tombs/"]
 adreca: Manso, 24-28 + C. Calàbria, 8
 descripcio: 'Equipaments: Escola bressol “Els Tres Tombs” + Centre de Serveis Socials
   de Sant Antoni Més info: Entre els anys vint i els noranta del segle XX hi va haver

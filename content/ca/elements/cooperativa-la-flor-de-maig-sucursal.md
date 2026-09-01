@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/cooperativa-la-flor-de-maig-sucursal/"]
 adreca: Pere IV 92
 any: '1927'
 arquitectes:

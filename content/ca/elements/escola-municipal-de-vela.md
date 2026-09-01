@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/escola-municipal-de-vela/"]
 adreca: Moll de Gregal, 33
 any: '1991'
 arquitectes:

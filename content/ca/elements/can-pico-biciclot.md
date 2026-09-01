@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-pico-biciclot/"]
 adreca: Pere IV 58-60 + Pamplona 71-73 + Pujades 57
 any: '1907'
 arquitectes:

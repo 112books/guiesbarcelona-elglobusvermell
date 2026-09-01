@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-rossello/"]
 adreca: C. de Rosselló, 36
 any: 1929
 arquitectes:

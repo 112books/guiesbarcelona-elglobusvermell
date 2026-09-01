@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/pastes-magin-quer/"]
 adreca: Llull 109
 draft: false
 intervencions:

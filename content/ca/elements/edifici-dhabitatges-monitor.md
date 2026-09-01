@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-monitor/", "/moderna-1950-1975/edifici-dhabitatges-monitor-2/"]
 adreca: Via Augusta 185
 any: '1966'
 arquitectes:

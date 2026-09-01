@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/menjadors-de-la-seat/"]
 adreca: Zona Franca, Sector A (entre carrers 23 i 24 i av. 5)
 any: '1956'
 arquitectes:

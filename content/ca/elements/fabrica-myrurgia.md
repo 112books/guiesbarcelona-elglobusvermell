@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/fabrica-myrurgia/"]
 adreca: C. de Mallorca, 351
 any: 1928
 arquitectes:

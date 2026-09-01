@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/estudis-industrials/"]
 adreca: Ramon Turró, 168-170
 any: '2017'
 arquitectes:

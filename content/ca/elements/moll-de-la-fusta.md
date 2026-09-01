@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/moll-de-la-fusta/"]
 any: '1987'
 arquitectes:
 - Manuel de Solà-Morales i Rubió

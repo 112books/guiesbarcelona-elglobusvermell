@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/jardi-dels-drets-humans/"]
 adreca: Interior de l’Illa Philips, Pg. de la Zona Franca, 191-203
 any: '1960'
 arquitectes:

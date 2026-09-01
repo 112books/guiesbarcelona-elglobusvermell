@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-unifamiliar-placa-mons/"]
 adreca: Pl. Mons / G. Bécquer
 any: '1931'
 arquitectes:

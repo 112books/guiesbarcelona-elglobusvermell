@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/editorial-gustavo-gili/"]
 adreca: Rosselló 87-89
 any: '1961'
 arquitectes:

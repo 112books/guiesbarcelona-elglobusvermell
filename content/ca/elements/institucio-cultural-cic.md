@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/institucio-cultural-cic/"]
 adreca: Via Augusta 205 / Vallmajor
 any: '1961'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/carrer-cristobal-de-moura/"]
 adreca: Entre Bac de Roda i Provençals i entre Josep Pla i Maresme
 draft: false
 intervencions:

@@ -11,7 +11,7 @@
 </script>
 {{ end }}
 {{ if eq site.Params.env "staging" }}<meta name="robots" content="noindex, nofollow, noai, noimageai, noarchive, nositelinkssearchbox">{{ end }}
-<title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
+<title>{{ if and (not .IsHome) .Title }}{{ .Title }} — {{ end }}{{ site.Title }}</title>
 {{ $metaDesc := .Description | default site.Params.description }}
 {{ if and (not $metaDesc) .Params.descripcio }}{{ $metaDesc = .Params.descripcio | truncate 155 "…" }}{{ end }}
 {{ with $metaDesc }}<meta name="description" content="{{ . }}">{{ end }}

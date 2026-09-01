@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-ricart/"]
 adreca: Marroc 53-59 + Emília Coranty
 draft: false
 foto: /img/elements/can-ricart.jpg

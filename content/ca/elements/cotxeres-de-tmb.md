@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/cotxeres-de-tmb/"]
 adreca: Ciutat de Granada 112
 any: 1928
 arquitectes:

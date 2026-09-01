@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placeta-de-joan-brossa/"]
 adreca: C. Rosselló, 191
 descripcio: 'Més info: Hi ha el poema visual Faune, de Joan Brossa Joan Brossa i
   Cuervo. (Barcelona, 1919 – 1998). Poeta, dramaturg i artista plàstic, encara que

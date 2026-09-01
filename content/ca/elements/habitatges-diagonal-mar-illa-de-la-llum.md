@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-diagonal-mar-illa-de-la-llum/"]
 adreca: Selva de Mar, 2
 any: '2005'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/joieria-mones/"]
 adreca: Guillem Tell 47 / Lincoln 36-38
 any: '1962'
 arquitectes:

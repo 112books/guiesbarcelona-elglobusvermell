@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/placa-dels-paisos-catalans/"]
 adreca: Sants
 any: '1983'
 arquitectes:

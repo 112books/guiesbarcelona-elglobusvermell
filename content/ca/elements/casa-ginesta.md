@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-ginesta/"]
 adreca: Av. de Gaudí, 44
 any: 1931
 arquitectes:

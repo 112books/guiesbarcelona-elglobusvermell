@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-baste/"]
 adreca: Pg. Fabra i Puig, 274-276
 descripcio: Pg. Fabra i Puig, 274-276 / Pere d’Artés, 5 També conegut com a Can Nadal
   i Can Marés Edifici que data, possiblement, de l’edat mitjana. Pateix una gran transformació

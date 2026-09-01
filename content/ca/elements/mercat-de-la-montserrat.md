@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-montserrat/"]
 adreca: Via Favència, 241
 descripcio: 'Projecte original: Estudi AGR (Josep Anglada, Daniel Gelabert i Josep
   Ribas). 1960'

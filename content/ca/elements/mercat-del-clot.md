@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-del-clot/"]
 adreca: Pl. del Mercat, 26
 districte: "Sant Martí"
 zona: "Sant Martí de Provençals"

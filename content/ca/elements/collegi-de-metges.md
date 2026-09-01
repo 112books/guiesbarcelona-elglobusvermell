@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/collegi-de-metges/"]
 adreca: Pg. Bonanova 47
 any: '1975'
 arquitectes:

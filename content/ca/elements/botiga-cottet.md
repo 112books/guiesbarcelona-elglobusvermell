@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/botiga-cottet/"]
 adreca: Av. del Portal de l’Àngel, 40
 any: 1935
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-vall-dhebron-teixonera/"]
 adreca: Pg. de la Vall d’Hebron, 130-134
 districte: "Horta-Guinardó"
 zona: "Nous barris"

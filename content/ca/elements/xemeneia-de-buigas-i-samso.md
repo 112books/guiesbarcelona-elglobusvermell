@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-buigas-i-samso/"]
 adreca: Parc del Centre del Poblenou (Marroc 30 + Diagonal)
 any: '1889'
 arquitectes:

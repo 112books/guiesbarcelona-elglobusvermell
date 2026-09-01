@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-lesseps/"]
 adreca: Sant Miquel 41-43 + Escuder 5 bis – 9
 draft: false
 intervencions:

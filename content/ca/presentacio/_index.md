@@ -1,6 +1,6 @@
 ---
 title: "Presentació"
-description: "Guies d'Arquitectura i Urbanisme de Barcelona — El Globus Vermell"
+description: "Qui som: El Globus Vermell, el projecte editorial que documenta l'arquitectura i l'urbanisme de Barcelona amb guies de camp des de 2006."
 ---
 
 Barcelona és una ciutat on l'arquitectura, l'urbanisme i el disseny de l'espai públic sempre han tingut una importància cabdal i és per això que, en aquests temes, és una de les ciutats més interessants del món.

@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-vilapicina-i-la-torre-llobeta/"]
 adreca: Pl. Carmen Laforet, 11 |
 descripcio: 'Carmen Laforet Escriptora. 1921-2004 Vilapicina i la Torre Llobeta Arquitecte:
   Juli Laviña i Pilar de la Villa. 2011'

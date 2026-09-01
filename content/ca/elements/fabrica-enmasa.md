@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/fabrica-enmasa/"]
 adreca: Sant Adrià 55-79
 any: '1958'
 arquitectes:

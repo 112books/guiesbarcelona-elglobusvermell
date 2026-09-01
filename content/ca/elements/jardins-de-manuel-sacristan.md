@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-manuel-sacristan/"]
 adreca: Pg. Taulat, 196+212 + C. Provençals, 3 + C. Josep Ferrater i Móra, 2
 descripcio: Manuel Sacristán Luzón. (Madrid, 1925 – Barcelona, 1985). Pensador i
   escriptor. Catedràtic a la Facultat d’Economia de la Universitat de Barcelona, fou

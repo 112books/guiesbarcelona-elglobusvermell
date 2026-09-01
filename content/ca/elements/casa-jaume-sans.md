@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-jaume-sans/"]
 adreca: Pl. de Molina, 1-7
 any: 1934
 arquitectes:

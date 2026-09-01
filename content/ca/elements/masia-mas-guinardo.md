@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-mas-guinardo/"]
 adreca: Pl. Salvador Riera, 2-5
 descripcio: Pl. Salvador Riera, 2-5 Masia del segle XV . A finals del segle XIX s’hi
   fa una reforma amb estètica modernista. Actualment és el Casal d’Entitats Mas Guinardó.

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/centre-kalida/"]
 adreca: Hospital de Sant Pau
 any: '2019'
 arquitectes:

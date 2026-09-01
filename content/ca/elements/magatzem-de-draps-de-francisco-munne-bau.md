@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/magatzem-de-draps-de-francisco-munne-bau/"]
 adreca: Pujades 118 + Llull 111
 draft: false
 intervencions:

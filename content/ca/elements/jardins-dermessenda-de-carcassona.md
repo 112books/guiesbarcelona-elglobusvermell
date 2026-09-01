@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-dermessenda-de-carcassona/"]
 adreca: Comte d’Urgell, 145-147
 descripcio: 'Equipaments: Centre Cultural Teresa Pàmies + Biblioteca Esquerra de
   l’Eixample – Agustí Centelles + Centre Cívic Urgell Ermessenda de Carcassona. (Carcassona,

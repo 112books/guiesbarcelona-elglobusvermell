@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-torre-del-rellotge/"]
 adreca: Pl. Ibèria, 4
 descripcio: Pl. Ibèria, 4 / Pl. Bonet i Muixí, 3 Masia del segle XIV . Havia acollit
   l’Arxiu Històric de Sants. Ara depèn del Centre Cívic Cotxeres de Sants. També coneguda

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-carles-barral/"]
 adreca: Pg. Taulat, 166+178 + C. Josep Ferrater i Móra, 5 + C. Bac de Roda, 4
 descripcio: Carles Barral Agesta. (Barcelona, 1928 – 1989). Poeta i escriptor en
   llengua castellana, editor i polític. Va impulsar l’editorial Seix-Barral i va aconseguir

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/la-comunal-espai-cooperatiu/"]
 adreca: Riera d’Escuder, 38 / En Blanco / Tenor Masini
 any: '2019'
 arquitectes:

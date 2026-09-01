@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/aulari-i-bar-per-a-la-facultat-de-dret/"]
 adreca: Av. Diagonal, 684
 any: '1996'
 arquitectes:

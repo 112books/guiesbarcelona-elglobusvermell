@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-nuria/"]
 adreca: Av. Rasos de Peguera, 186
 descripcio: 'Projecte original: Fernando Bendala i Samuel Mañá. 1966'
 districte: "Nou Barris"

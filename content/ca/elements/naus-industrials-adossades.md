@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/naus-industrials-adossades/"]
 adreca: Zamora 72-76 + Pallars 102-106
 any: '1909'
 arquitectes:

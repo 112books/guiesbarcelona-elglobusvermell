@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/jardins-de-la-villa-cecilia/"]
 adreca: Sarrià
 descripcio: 'Projecte: Martínez Lapeña-Torres. 1986 Premi FAD Espais públics 1986'
 draft: false

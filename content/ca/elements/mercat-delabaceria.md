@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-delabaceria/"]
 adreca: Travessera de Gràcia, 186
 descripcio: 'Projecte original: Joan Torras Guardiola. 1892'
 districte: "Gràcia"

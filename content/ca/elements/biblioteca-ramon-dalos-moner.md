@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-ramon-dalos-moner/"]
 adreca: Rbla. Prim, 87-89 |
 arquitectes:
 - Eduard Valencaso

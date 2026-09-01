@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/torre-de-sant-sebastia/"]
 adreca: Moll Nou
 any: '1931'
 arquitectes:

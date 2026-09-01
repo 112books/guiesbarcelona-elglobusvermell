@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/rambla-de-sants-jardins-elevats-de-sants/"]
 adreca: Sants
 any: '2016'
 arquitectes:

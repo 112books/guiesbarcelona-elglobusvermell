@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-la-sagrera-marina-clotet/"]
 adreca: C. Camp del Ferro, 1-3
 arquitectes:
 - Javier Sanz Rodriguez

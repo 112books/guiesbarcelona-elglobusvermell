@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/fabrica-valls-teixidor-i-jordana/"]
 adreca: Pere IV 475-495 + Puigcerdà 154-164
 any: '1909'
 arquitectes:

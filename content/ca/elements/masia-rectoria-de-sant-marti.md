@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-rectoria-de-sant-marti/"]
 adreca: Pl. Ignasi Juliol, 2-4
 descripcio: Pl. Ignasi Juliol, 2-4. Parc de Sant Martí Amb orígens entre els segles
   XVII i XVIII com a rectoria integrada en una masia, és reconstruïda als anys cinquanta.

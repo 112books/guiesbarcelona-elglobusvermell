@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-rosa-deulofeu/"]
 adreca: C. París, 80 + C. Viladomat, 281 + C. Calàbria, 264
 descripcio: 'Més info: Inicialment anomenats Jardins de l’antiga Fàbrica Bayer,
   conserven la xemeneia de la fàbrica. Rosa Deulofeu i González . (Barcelona, 1959

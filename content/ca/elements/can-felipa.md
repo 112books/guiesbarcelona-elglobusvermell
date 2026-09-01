@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-felipa/"]
 adreca: Camí Antic de València 28-40 + Pallars 249-277 + Marià Aguiló 17-25
 draft: false
 foto: /img/elements/can-felipa.jpg

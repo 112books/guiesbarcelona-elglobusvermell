@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/poblenou/"]
 title: "El patrimoni industrial del Poblenou, Barcelona"
+description: "El patrimoni industrial del Poblenou: fàbriques, xemeneies i naus de l'antic barri fabril de Barcelona."
+foto: "/img/publicacions/poblenou.jpg"
 edicio: 2019
 ---
 

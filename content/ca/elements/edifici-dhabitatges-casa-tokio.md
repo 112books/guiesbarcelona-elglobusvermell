@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-casa-tokio/"]
 adreca: Av. Pedralbes 57-61
 any: '1957'
 arquitectes:

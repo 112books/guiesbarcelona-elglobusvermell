@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-la-favorita/"]
 adreca: C. Sepúlveda, 50
 descripcio: ''
 draft: false

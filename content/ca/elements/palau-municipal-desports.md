@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/palau-municipal-desports/"]
 adreca: Lleida 40
 any: '1955'
 arquitectes:

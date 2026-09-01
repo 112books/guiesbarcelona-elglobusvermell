@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-sant-marti-de-provencals/"]
 adreca: Pl. Carmen Balcells Segalà, 1
 descripcio: 'Gabriel García Márquez Escriptor colombià. 1927-2014 | Sant Martí de
   Provençals Arquitectes: Suma Arquitectura. 2022 Premi Ciutat de Barcelona Premi

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/fabrica-de-creacio-fabra-i-coats/"]
 adreca: Sant Adrià, 20. Recinte Fabra i Coats
 draft: false
 intervencions:

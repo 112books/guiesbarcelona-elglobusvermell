@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/conjunt-residencial-diagonal/"]
 adreca: Av. Diagonal / Ganduxer / Bori i Fontestà
 any: '1966'
 arquitectes:

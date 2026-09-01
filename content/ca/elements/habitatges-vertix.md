@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-vertix/"]
 adreca: Bac de Roda, 104
 any: '2007'
 arquitectes:

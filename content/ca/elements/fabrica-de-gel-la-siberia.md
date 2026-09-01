@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/fabrica-de-gel-la-siberia/"]
 adreca: Àvila 14-22 + Dr. Trueta 120-134
 any: '1910'
 draft: false

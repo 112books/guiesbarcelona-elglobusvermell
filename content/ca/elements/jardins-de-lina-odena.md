@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-lina-odena/"]
 adreca: Alí Bei, 121 + C. Sardenya, 170-176
 descripcio: Lina Òdena García. (Barcelona, 1911 – Granada, 1936). Militant comunista
   i miliciana durant la Guerra Civil Espanyola. Participà en la creació del Partit

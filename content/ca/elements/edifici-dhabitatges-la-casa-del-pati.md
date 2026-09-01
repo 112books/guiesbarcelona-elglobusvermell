@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-la-casa-del-pati/"]
 adreca: Rda. del Guinardó 44
 any: '1964'
 arquitectes:

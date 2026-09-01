@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-torre-del-fang/"]
 adreca: Clot, 228-264
 descripcio: Clot, 228-264 / Espronceda, 296 Masia de, probablement, el segle XV ,
   tot i que la configuració actual és del segle XVIII . És de titularitat pública

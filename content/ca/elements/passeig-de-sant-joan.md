@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/passeig-de-sant-joan/"]
 adreca: Entre Diagonal i Arc de Triomf
 draft: false
 intervencions:

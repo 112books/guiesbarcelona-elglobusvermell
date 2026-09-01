@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/biblioteca-fort-pienc/"]
 adreca: Pl. Fort Pienc, 4-5 | Fort Pienc
 descripcio: 'Mercat del Fort Pienc, Biblioteca Fort Pienc – Ana María Moix, Llar d’infants,
   Centre Cívic, residència d’estudiants i residència geriàtrica Ana María Moix Escriptora.

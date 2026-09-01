@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-la-sedeta/"]
 adreca: Sicília, 321 + Ptge. Llavallol
 descripcio: 'Equipaments: Centre Cívic La Sedeta + IES La Sedeta + Espais per a
   entitats. La Sedeta. L’antiga fàbrica de teixits Pujol i Casacuberta s’instal·là

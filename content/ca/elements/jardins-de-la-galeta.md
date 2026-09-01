@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-la-galeta/"]
 adreca: Àlaba 101 + Sancho de Ávila 50 + Pamplona 104
 descripcio: Dissenyat per Batlle i Roig Arquitectura, pren el nom de l’antiga fàbrica
   Galetes Viñas, “La Galeta”.

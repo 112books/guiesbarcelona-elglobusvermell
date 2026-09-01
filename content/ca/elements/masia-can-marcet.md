@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-marcet/"]
 adreca: Pg. Vall d'Hebron, 256
 descripcio: Pg. Vall d’Hebron, 256
 districte: "Horta-Guinardó"

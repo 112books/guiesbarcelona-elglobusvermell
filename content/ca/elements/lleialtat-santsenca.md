@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/lleialtat-santsenca/"]
 adreca: Olzinelles, 31
 arquitectes:
 - HArquitectes

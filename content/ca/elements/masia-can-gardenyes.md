@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-gardenyes/"]
 adreca: Carrasco i Formiguera, 32
 descripcio: Carrasco i Formiguera, 32
 districte: "Sarrià-Sant Gervasi"

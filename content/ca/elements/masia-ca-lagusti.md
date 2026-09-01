@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-ca-lagusti/"]
 adreca: Pere IV, 429-431
 descripcio: Pere IV, 429-431 Construïda a principis del segle XX i molt reformada
   a posteriori. Actualment és un negoci de jardineria.

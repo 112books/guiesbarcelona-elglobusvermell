@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-cyt/"]
 adreca: Via Augusta 20-30
 any: '1960'
 arquitectes:

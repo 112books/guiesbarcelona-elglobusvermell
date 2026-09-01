@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-dhabitatges-dotacionals-greenhuse/"]
 adreca: Veneçuela, 96-106 / Agricultura
 any: '2024'
 arquitectes:

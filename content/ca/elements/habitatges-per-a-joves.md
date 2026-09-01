@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-per-a-joves/"]
 adreca: Ali Bei, 94
 any: '2007'
 arquitectes:

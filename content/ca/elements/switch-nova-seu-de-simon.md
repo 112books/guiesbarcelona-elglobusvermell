@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/switch-nova-seu-de-simon/"]
 adreca: Sancho de Ávila, 66
 any: '2023'
 arquitectes:

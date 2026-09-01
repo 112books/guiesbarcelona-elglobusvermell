@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-joan-miro/"]
 adreca: C. Vilamarí, 61 / Parc Joan Miró |
 arquitectes:
 - Beth Galí

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-jaume-cardus/"]
 adreca: Alcanar 3
 any: '1907'
 arquitectes:

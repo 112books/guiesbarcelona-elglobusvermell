@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/industrias-metalicas-de-lluis-sabala-paloma-iaac/"]
 adreca: Pujades 102
 any: '1959'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-prats/"]
 adreca: Pl. Artós, 4
 descripcio: Pl. Artós, 4
 districte: "Sarrià-Sant Gervasi"

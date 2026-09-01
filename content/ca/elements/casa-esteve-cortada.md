@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-esteve-cortada/"]
 adreca: Mediterrània 4 + Marquès de la Quadra 3
 any: '1906'
 arquitectes:

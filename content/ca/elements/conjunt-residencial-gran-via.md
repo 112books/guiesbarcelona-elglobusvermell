@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/conjunt-residencial-gran-via/"]
 adreca: Gran Via 144-156
 any: '1971'
 arquitectes:

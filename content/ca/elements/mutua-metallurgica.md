@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/mutua-metallurgica/"]
 adreca: Av. Diagonal 398
 any: '1960'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/antics-magatzems-sepu/"]
 adreca: Rambla dels Estudis, 122
 any: 1934
 arquitectes:

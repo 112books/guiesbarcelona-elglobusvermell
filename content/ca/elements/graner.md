@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/graner/"]
 adreca: Jane Addams, 14-16
 any: '1959'
 arquitectes:

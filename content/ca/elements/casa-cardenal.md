@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-cardenal/"]
 adreca: C. Roger de Llúria, 132
 any: '1935'
 arquitectes:

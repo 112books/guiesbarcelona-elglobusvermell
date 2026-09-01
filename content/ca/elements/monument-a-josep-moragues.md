@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/monument-a-josep-moragues/"]
 adreca: Pl. Pau Vila
 descripcio: 'Autoria: Francesc Abad. 1999 Homenatge al general que va lluitar contra
   els borbònics en la guerra de Successió. El 1715 fou executat i el seu cap exposat

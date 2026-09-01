@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-demma-de-barcelona/"]
 adreca: Comte Borrell, 157 + C. Viladomat, 142
 descripcio: 'Equipaments: Institut Viladomat i escola bressol (en construcció) Emma
   de Barcelona. (880 – Sant Joan de les Abadesses, 942). Filla de Guifré el Pilós

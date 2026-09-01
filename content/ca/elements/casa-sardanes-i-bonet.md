@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-sardanes-i-bonet/"]
 adreca: C. de Déu i Mata, 146
 any: 1935
 arquitectes:

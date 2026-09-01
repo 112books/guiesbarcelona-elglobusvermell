@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-leonor-serrano/"]
 adreca: Concili de Trento, 44 + C. Andrade, 5
 descripcio: 'Equipament: Escola bressol “El Clot de la Mel” Leonor Serrano Pablo.
   (Hinojosas de Calatrava, Ciudad Real, 1890 – Madrid, 1942). Pedagoga, advocada i

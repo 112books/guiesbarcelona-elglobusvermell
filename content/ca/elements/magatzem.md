@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/magatzem/"]
 adreca: Pallars 162
 any: '1924'
 arquitectes: []

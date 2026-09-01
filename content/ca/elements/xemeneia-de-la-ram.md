@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-la-ram/"]
 adreca: Pujades 292-312 + Bac de Roda 52-64
 draft: false
 intervencions:

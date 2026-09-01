@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-sant-gervasi-joan-maragall/"]
 adreca: C. Sant Gervasi de Cassoles, 85 |
 arquitectes:
 - BCQ Arquitectes

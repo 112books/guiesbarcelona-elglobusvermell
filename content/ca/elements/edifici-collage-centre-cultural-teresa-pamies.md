@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-esquerra-de-leixample-agusti-centelles/"]
 adreca: C. Comte d’Urgell, 145-147 | Esquerra de l’Eixample
 descripcio: 'Biblioteca Esquerra de l’Eixample – Agustí Centelles, Centre Cívic Urgell
   i Escola Bressol El Roure Arquitecte: Víctor Rahola i Jorge Vidal. 2011 Sobre la

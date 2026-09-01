@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-prosperitat-ideal-plastica-flor/"]
 descripcio: 'Pg. Valldaura / Font d’en Canyelles | Prosperitat Futura biblioteca segons
   Pla 2030. Projecte: H Arquitectes i AR47'
 districte: "Nou Barris"

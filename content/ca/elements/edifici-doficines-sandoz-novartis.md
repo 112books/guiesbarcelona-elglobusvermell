@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-sandoz-novartis/"]
 adreca: Gran Via 764-768 / Sardenya 208-210
 any: '1972'
 arquitectes:

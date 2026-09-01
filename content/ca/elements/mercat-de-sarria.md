@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-sarria/"]
 adreca: Pg. Reina Elisenda de Montcada, 8
 districte: "Sarrià-Sant Gervasi"
 zona: "Sarrià"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-les-roquetes/"]
 adreca: V. Favència, 288-B |
 districte: "Nou Barris"
 draft: false

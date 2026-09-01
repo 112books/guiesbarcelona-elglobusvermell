@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/placa-soller-i-ateneu-la-bobila/"]
 adreca: Pl. Sóller
 draft: false
 intervencions:

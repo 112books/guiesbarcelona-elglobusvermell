@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/casal-de-barri-de-trinitat-nova/"]
 adreca: Garbí, 3
 any: '2018'
 arquitectes:

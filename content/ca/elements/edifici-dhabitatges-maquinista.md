@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/edifici-dhabitatges-maquinista/"]
 adreca: Maquinista 18
 draft: false
 intervencions:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-roger-de-flor/"]
 adreca: Roger de Flor 215
 any: '1958'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/torre-colom/"]
 adreca: Portal de Santa Madrona 10-12 / Av. Drassanes 6-8
 any: '1971'
 arquitectes:

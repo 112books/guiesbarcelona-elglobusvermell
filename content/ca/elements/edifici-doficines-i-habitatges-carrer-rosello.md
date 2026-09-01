@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-i-habitatges-carrer-rosello/"]
 adreca: Rosselló 257
 any: '1956'
 arquitectes:

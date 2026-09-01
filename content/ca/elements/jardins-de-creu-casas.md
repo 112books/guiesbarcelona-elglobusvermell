@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-creu-casas/"]
 adreca: Pamplona, 45 + C. Zamora, 40
 descripcio: Creu Casas i Sicart. (Barcelona 1913 – 2007). Farmacèutica, botànica,
   briòloga, professora de la Universitat de Barcelona i catedràtica de la Universitat

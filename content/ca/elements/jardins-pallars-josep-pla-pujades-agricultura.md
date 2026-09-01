@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-pallars-josep-pla-pujades-agricultura/"]
 adreca: Josep Pla, 49-57 + C. Agricultura, 66
 descripcio: 'Equipament: Escola bressol “Diagonal Mar”'
 draft: false

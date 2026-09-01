@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-vallcarca-i-els-penitents-m-antonieta-cot/"]
 adreca: Pg. Vall d’Hebron, 65-69 | Vallcarca i els Penitents
 descripcio: 'Maria Antonieta Cot Bibliotecària. 1910-1994 Arquitecte: Francesc Rius
   i Joan Íñiguez i Carles Lladó. 2011'

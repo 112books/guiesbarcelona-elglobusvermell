@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-enric-granados/"]
 adreca: C. d’Enric Granados, 133
 any: 1935
 arquitectes:

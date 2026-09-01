@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-cesar-martinell/"]
 adreca: Gran Via, 543-545 + C. Villarroel, 60 bis
 descripcio: Cèsar Martinell i Brunet. (Valls, 1888 – Barcelona, 1973). Arquitecte
   a cavall entre el Modernisme i el Noucentisme. Com a personatge polifacètic, també

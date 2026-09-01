@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-gili-nou/"]
 adreca: Dr. Trueta 164 + Taulat 3-13 + Ciutat de Granada 1-5
 draft: false
 foto: /img/elements/can-gili-nou.jpg

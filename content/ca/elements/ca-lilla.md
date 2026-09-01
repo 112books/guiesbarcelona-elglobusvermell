@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/ca-lilla/"]
 adreca: Bolívia 340-362 + Puigcerdà 132-148 + Marroc 201-221 + Maresme 125-145
 draft: false
 foto: /img/elements/ca-lilla.jpg

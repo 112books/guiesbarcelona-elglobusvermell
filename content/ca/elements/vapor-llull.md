@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/vapor-llull/"]
 adreca: Llull 127-135 + Ptge. Masoliver 19-25
 draft: false
 foto: /img/elements/vapor-llull.jpg

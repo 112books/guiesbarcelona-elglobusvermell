@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-iradier/"]
 adreca: C. d’Iradier, 3
 any: 1935
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/fabrica-del-sol/"]
 adreca: Ginebra + Salvat-Papasseit 1
 any: '1907'
 arquitectes:

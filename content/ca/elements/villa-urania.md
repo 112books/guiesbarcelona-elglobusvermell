@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/villa-urania/"]
 adreca: Saragossa, 29
 any: '2014'
 arquitectes:

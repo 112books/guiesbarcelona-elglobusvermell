@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-concepcio/"]
 adreca: Aragó, 311
 districte: "Eixample"
 zona: "Eixample"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-casa-dels-braus/"]
 adreca: Gran Via 798-814
 arquitectes:
 - Antoni de Moragas i Gallissà

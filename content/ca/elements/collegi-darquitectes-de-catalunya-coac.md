@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/collegi-darquitectes-de-catalunya-coac/"]
 adreca: Pl. Nova 5
 any: '1962'
 arquitectes:

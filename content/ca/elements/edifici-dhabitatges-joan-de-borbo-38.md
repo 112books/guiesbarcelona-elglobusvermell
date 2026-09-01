@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/edifici-dhabitatges-joan-de-borbo-38/"]
 adreca: Pg. Joan de Borbó 38-39
 any: '1927'
 arquitectes:

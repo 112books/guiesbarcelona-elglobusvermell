@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-lincoln/"]
 adreca: C. de Lincoln, 42
 any: 1935
 arquitectes:

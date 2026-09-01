@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/centre-civic-baro-de-viver/"]
 adreca: Quito, 8-10
 draft: false
 intervencions:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-marti-ventosa/"]
 adreca: Pg. Joan de Borbó 22-23 + Mar 44-46
 any: '1935'
 arquitectes:

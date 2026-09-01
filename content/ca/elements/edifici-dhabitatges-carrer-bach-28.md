@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-bach-28/"]
 adreca: Bach 28
 any: '1963'
 arquitectes:

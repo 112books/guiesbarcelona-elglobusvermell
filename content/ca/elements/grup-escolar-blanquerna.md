@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/grup-escolar-blanquerna/"]
 adreca: Via Augusta, 140
 any: 1932
 arquitectes:

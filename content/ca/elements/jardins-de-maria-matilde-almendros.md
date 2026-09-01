@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-maria-matilde-almendros/"]
 adreca: Calàbria, 92
 descripcio: Maria Matilde Almendros i Carcasona. (Manresa, 1922 – Barcelona, 1995).
   Actriu i locutora de ràdio. Fou una de les precursores de les emissions de ràdio

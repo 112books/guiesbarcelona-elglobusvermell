@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/lestel-ferit/"]
 adreca: Platja de la Barceloneta
 descripcio: 'Autoria: Rebecca Horn. 1992 Aquesta torre, d’uns 10 metres d’alçada,
   formada per quatre cubs superposats i mig desencaixats, es pot entendre com un doble

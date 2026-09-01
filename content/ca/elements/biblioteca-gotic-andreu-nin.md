@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-gotic-andreu-nin/"]
 adreca: Rbla. de Santa Mònica, 30-32 | Barri Gòtic
 descripcio: Polític marxista, escriptor i traductor. 1892-1937
 districte: "Ciutat Vella"

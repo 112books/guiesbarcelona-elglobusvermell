@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/parc-de-la-creueta-del-coll/"]
 adreca: El Coll
 any: '1987'
 arquitectes:

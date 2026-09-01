@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/lci-barcelona-22-campus/"]
 adreca: Àlaba, 124
 any: '2024'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/bloc4bcn-espai-cooperatiu/"]
 adreca: Constitució, 19. Recinte Can Batlló
 descripcio: 'Projecte: Vicenç Benéitez. 2023 Primer Premi Edifici 18'
 draft: false

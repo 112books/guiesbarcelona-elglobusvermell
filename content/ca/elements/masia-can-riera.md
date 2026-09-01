@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-riera/"]
 adreca: Santander, 41
 descripcio: Santander, 41 Casa del segle XVI , que conserva una inscripció amb l’any
   1574. Actualment està en desús, a l’espera de l’execució d’un gran pla urbanístic

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/sant-miquel-del-port/"]
 adreca: Sant Miquel 39 bis + Pl. Barceloneta
 draft: false
 intervencions:

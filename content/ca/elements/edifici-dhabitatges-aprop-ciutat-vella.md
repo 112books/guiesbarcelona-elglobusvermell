@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-dhabitatges-aprop-ciutat-vella/"]
 adreca: Nou de Sant Francesc, 10
 any: '2018'
 arquitectes:

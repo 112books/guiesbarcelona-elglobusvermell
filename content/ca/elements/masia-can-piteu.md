@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-piteu/"]
 adreca: Natzaret, 67-81
 descripcio: Natzaret, 67-81
 districte: "Horta-Guinardó"

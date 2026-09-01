@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-placa-bonanova/"]
 adreca: Pl. de la Bonanova / Pg. de Sant Gervasi
 any: 1935
 arquitectes:

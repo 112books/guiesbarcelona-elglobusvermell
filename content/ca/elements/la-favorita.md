@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/la-favorita/"]
 adreca: Llull 143 + Roc Boronat 45-53
 draft: false
 intervencions:

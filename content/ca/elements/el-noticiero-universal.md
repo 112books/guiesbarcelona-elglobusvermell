@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/el-noticiero-universal/"]
 adreca: Roger de Llúria 35
 any: '1965'
 arquitectes:

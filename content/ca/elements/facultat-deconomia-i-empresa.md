@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/facultat-deconomia-i-empresa/"]
 adreca: Av. Diagonal 694
 any: '1961'
 arquitectes:

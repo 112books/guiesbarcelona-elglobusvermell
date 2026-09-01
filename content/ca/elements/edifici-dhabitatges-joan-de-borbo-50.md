@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/edifici-dhabitatges-joan-de-borbo-50/"]
 adreca: Pg. Joan de Borbó 50-51
 any: '1936'
 arquitectes:

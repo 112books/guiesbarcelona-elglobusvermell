@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/filmoteca-de-catalunya/"]
 adreca: Pl. Salvador Seguí, 1-9
 any: '2011'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/casa-fulla/"]
 adreca: Gènova 27
 any: '1971'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-f-esponac/"]
 adreca: C. de Muntaner, 568
 any: 1932
 arquitectes:

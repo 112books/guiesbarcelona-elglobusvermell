@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/institut-del-teatre/"]
 adreca: Pl. Margarida Xirgu
 any: '2000'
 arquitectes:

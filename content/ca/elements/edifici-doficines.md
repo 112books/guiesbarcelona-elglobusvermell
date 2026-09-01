@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-doficines/", "/2010-2025/edifici-doficines-2/"]
 adreca: Pallars, 180
 any: '2022'
 arquitectes:

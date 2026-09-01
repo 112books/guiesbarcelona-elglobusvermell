@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-francesc-candel/"]
 adreca: C. Amnistia Internacional, 10
 barri: La Marina del Port
 descripcio: Ocupa part d’un dels antics edificis que componen l’espai conegut popularment

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-merce-vilaret/"]
 adreca: Floridablanca, 141
 descripcio: Mercè Vilaret i Llop. (Barcelona, 1943 – Sant Cugat del Vallès, 1993).
   Realitzadora de televisió. Fou pionera de la seva professió a Catalunya. Deixà empremta

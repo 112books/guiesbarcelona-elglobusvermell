@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-poble-sec-francesc-boix/"]
 adreca: C. Blai, 34 | Poble-sec
 districte: "Sants-Montjuïc"
 draft: false

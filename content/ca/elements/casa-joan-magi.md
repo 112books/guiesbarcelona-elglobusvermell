@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-joan-magi/"]
 adreca: Balboa 14 + Pizarro 3
 any: '1896'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/camp-nou/"]
 adreca: Trav. de les Corts / Arístides Mallol / Av. Joan XVIII
 any: '1957'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/parc-del-clot/"]
 descripcio: 'Adreça: El Clot Projecte: Daniel Freixes i Vicente Miranda. 1986 Premi
   FAD Arquitectura 1986 (Opinió)'
 draft: false

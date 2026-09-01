@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/gasometre/"]
 adreca: Parc de la Barceloneta
 any: '1868'
 arquitectes:

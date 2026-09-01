@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/arc-de-la-maquinista-terrestre-i-maritima/"]
 adreca: Maquinista
 any: '1861'
 descripcio: Arc de mig punt de 9 metres d’alçada que assenyalava l’accés al complex

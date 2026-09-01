@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/arquitectura-a-barcelona-2010-2025-la-revolucio-tranquilla/"]
 title: "La revolució tranquil·la. 2010-2025"
+description: "La revolució tranquil·la. 2010-2025: l'arquitectura recent de Barcelona. Plànol-guia en preparació."
+foto: "/img/publicacions/09-25.jpg"
 edicio: "2026 (pendent)"
 ---
 

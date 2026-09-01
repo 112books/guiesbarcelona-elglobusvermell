@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/hotel-park/"]
 adreca: Av. Marquès de l’Argentera 11
 any: '1953'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/48-habitatges-i-centre-civic/"]
 adreca: Nou de la Rambla, 39
 any: '1988'
 arquitectes:

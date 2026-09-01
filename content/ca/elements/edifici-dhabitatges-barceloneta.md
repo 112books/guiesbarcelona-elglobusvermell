@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-barceloneta/"]
 adreca: Pg. Joan de Borbó 43
 any: '1954'
 arquitectes:

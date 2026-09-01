@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/frigo-farga/"]
 adreca: Perú 84-102 + Bilbao 140-156 + Bolívia 143-163
 any: '1959'
 arquitectes:

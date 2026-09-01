@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/centre-de-cultura-contemporania-de-barcelona-cccb/"]
 adreca: Montalegre, 5
 arquitectes:
 - Albert Viaplana i Veà

@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra/"]
 adreca: C. Ramon Trias Fargas, 25-27 | Vila Olímpica | Sant Martí
 descripcio: Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.
 districte: "Sant Martí"

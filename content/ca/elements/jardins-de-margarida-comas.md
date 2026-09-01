@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-margarida-comas/"]
 adreca: Llull, 32 + C. Joan d’Àustria, 51 + C. Ramon Turró, 21
 descripcio: 'Més info: S’hi conserva una xemeneia de maó que recorda el passat industrial
   del barri. Margarida Comas i Camps. (Alaior, 1892 – Exeter, Anglaterra, 1973). Biòloga,

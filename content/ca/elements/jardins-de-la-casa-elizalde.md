@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-la-casa-elizalde/"]
 adreca: C. València, 302
 descripcio: 'Equipament: Centre Cultural Casa Elizalde . Casa construïda l’any 1888
   per l’arquitecte Emili Sala i Cortès. L’immoble fou la residència de la família

@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/fabrica-de-gel-sant-antoni/"]
 adreca: Badajoz 29-33
 any: '1907'
 arquitectes:

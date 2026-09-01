@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/parc-can-sabate/"]
 adreca: Mineria, 18 / Mare de Déu de Port
 any: '1984'
 arquitectes:

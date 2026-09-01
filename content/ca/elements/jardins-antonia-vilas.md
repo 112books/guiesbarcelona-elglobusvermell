@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/jardins-antonia-vilas/"]
 adreca: Balboa, 36 / Ginebra, 43
 any: '2018'
 arquitectes:

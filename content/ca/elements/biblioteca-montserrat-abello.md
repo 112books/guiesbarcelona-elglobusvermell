@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-montserrat-abello/"]
 adreca: Comte de Bell-lloc 192-200 | Les Corts
 districte: "Les Corts"
 draft: false

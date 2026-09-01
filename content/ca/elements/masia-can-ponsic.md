@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-ponsic/"]
 adreca: Domínguez Miralles, 1
 descripcio: Domínguez Miralles, 1
 districte: "Sarrià-Sant Gervasi"

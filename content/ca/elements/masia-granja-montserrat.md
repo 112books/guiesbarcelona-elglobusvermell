@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-granja-montserrat/"]
 adreca: Torrent de Tapioles, 7-9
 descripcio: Torrent de Tapioles, 7-9 També coneguda com Granja del Ritz Mas dels anys
   trenta i amb ús agrícola fins als anys noranta. Actualment és de propietat municipal,

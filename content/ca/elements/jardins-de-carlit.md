@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-carlit/"]
 adreca: Roger de Flor, 160 bis
 descripcio: 'Equipament: Escola Carlit + Casal de gent gran Carlit. El pic Carlit
   o la pica del Carlit (2.921 m) es troba al nord dels Pirineus axials i és la muntanya

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/torre-urquinaona/"]
 adreca: Pl. Urquinaona 6
 any: '1973'
 arquitectes:

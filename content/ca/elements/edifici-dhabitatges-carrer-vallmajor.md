@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-vallmajor/"]
 adreca: Vallmajor 26-28
 any: '1954'
 arquitectes:

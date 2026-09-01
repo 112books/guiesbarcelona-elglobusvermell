@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/parc-de-recerca-biomedica-de-barcelona/"]
 adreca: Doctor Aiguader 88
 any: '2006'
 arquitectes:

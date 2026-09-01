@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-tanger-pamplona-sancho-de-avila-zamora/"]
 adreca: Tànger, 20 + C. Pamplona, 125 + C. Sancho de Ávila, 15-35
 descripcio: ''
 draft: false

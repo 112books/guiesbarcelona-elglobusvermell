@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/farinera-la-asuncion/"]
 adreca: Llull 146-150 + Roc Boronat 31-43 + Ptge. Masoliver 8-18
 draft: false
 intervencions:

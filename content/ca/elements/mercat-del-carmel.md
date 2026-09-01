@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-del-carmel/"]
 adreca: Llobregós, 149
 descripcio: 'Projecte original: 1969'
 districte: "Horta-Guinardó"

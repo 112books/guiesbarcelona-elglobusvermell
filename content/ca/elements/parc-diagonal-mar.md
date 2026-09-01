@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/parc-diagonal-mar/"]
 adreca: Provençals del Poblenou
 any: '2002'
 arquitectes:

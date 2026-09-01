@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-les-tres-torres/"]
 adreca: Vergós, 2
 descripcio: 'Projecte original: Joan Baptista Subirana. 1958'
 districte: "Sarrià-Sant Gervasi"

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/espina-del-mar/"]
 adreca: Pg. Marítim 25-29 (en un pati de l’Hospital del Mar)
 descripcio: 'Autoria: Pete Sans. 1992 Obra d’alumini que representa una espècie de
   gran espina dorsal varada al mig d’un pla de gespa.'

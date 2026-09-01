@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-sarria-j-v-foix/"]
 arquitectes:
 - OP Team Arquitectura
 descripcio: 'Josep Vicenç Foix Poeta, periodista i assagista. 1893-1987 Pg. Reina

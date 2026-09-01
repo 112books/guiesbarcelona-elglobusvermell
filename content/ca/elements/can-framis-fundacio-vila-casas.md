@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-framis-fundacio-vila-casas/"]
 adreca: Llacuna 103-117 + Roc Boronat 116-124 + Sancho de Ávila 145-155
 draft: false
 foto: /img/elements/can-framis-fundacio-vila-casas.jpg

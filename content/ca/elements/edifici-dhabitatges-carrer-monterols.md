@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-monterols/"]
 adreca: Monterols 6-8
 any: '1971'
 arquitectes:

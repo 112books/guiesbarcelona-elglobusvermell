@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-miquel/"]
 adreca: Maquinista 10
 any: '1920'
 arquitectes:

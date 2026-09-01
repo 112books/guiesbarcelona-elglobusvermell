@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/canodrom-meridiana/"]
 adreca: Concepció Arenal 165
 any: '1963'
 arquitectes:

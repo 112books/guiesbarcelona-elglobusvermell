@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-la-torre-de-les-aigues/"]
 adreca: C. Roger de Llúria, 56
 descripcio: 'Més info: Durant els mesos d’estiu el jardí es converteix en la “platja
   de l’Eixample”. Torre de les Aigües. Torre d’aigua projectada per l’arquitecte Josep

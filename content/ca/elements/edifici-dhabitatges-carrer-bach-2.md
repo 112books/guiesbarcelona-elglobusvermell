@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-bach-2/"]
 adreca: Bach 2
 any: '1963'
 arquitectes:

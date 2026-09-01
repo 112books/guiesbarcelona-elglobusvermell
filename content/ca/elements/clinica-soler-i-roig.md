@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/clinica-soler-i-roig/"]
 adreca: Vallmajor 25
 any: '1954'
 arquitectes:

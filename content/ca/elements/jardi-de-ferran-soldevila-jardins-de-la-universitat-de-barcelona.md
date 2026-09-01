@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardi-de-ferran-soldevila-jardins-de-la-universitat-de-barcelona/"]
 adreca: Gran Via de les Corts Catalanes, 585 + C. Aribau, 2-6 + C. Diputació, 230
 descripcio: 'Equipament : Universitat Central. L’edifici històric de la Universitat
   de Barcelona va ser construït, segons projecte d’estil neoromànic de l’arquitecte

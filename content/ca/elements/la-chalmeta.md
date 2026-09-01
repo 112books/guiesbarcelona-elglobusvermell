@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/la-chalmeta/"]
 adreca: Micaela Chalmeta, 7-9 / Ulldecona, 24-28
 any: '2022'
 arquitectes:

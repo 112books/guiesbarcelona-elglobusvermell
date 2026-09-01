@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/torre-glories-torre-agbar/"]
 adreca: Av. Diagonal, 209-211
 any: 2005
 arquitectes:

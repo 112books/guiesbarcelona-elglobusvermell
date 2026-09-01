@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/centre-de-convencions-internacional-de-catalunya-ccib/"]
 adreca: Pl. Willy Brandt, 14
 any: '2004'
 arquitectes:

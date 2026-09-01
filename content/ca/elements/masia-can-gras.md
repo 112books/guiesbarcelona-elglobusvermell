@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-gras/"]
 adreca: Pl. Santes Creus, 20
 descripcio: Pl. Santes Creus, 20 Masia amb explotació agrícola i ramadera. Les primeres
   referències són del segle XVIII . A mitjan segle XIX s’hi fa una reforma i es perd

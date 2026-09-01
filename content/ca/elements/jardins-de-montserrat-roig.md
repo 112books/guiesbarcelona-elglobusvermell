@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-montserrat-roig/"]
 adreca: Rosselló, 488 + C. Provença, 533
 descripcio: 'Més info: Fins al 1992 hi va haver l’antiga fàbrica Damm. Hi queda
   un gran dipòsit de cervesa de coure. Montserrat Roig i Fransitorra. (Barcelona,

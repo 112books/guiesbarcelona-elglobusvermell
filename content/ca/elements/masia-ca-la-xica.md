@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-ca-la-xica/"]
 adreca: Dr. Santponç, 6-8
 descripcio: Dr. Santponç, 6-8 / Roine, 26-30 D’orígens desconeguts, actualment té
   un ús residencial.

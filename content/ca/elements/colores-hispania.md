@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/colores-hispania/"]
 adreca: Pere IV 482 + Josep Pla 159
 any: '1927'
 arquitectes:

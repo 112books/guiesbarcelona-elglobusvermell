@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-torre-de-santa-caterina/"]
 adreca: C. de Panamà, 21-25
 descripcio: Panamà, 21-25 Construïda a l’edat mitjana com a propietat de l’Església.
   S’hi fan reformes als segles XVII i XVIII . Actualment té un ús residencial. Tipologia

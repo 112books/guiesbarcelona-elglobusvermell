@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/hotel-w-barcelona/"]
 adreca: Pl. Rosa dels Vents 1
 any: '2009'
 arquitectes:

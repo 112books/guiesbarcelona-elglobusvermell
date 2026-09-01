@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-jaume-fuster/"]
 adreca: Pl. Lesseps, 20-22 |
 arquitectes:
 - Josep Llinàs

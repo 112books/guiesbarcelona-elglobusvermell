@@ -4,9 +4,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": {{ site.Title | jsonify }},
-  "url": {{ site.BaseURL | jsonify }},
-  "description": {{ site.Params.description | jsonify }},
+  "name": {{ site.Title | jsonify | safeJS }},
+  "url": {{ site.BaseURL | jsonify | safeJS }},
+  "description": {{ site.Params.description | jsonify | safeJS }},
   "inLanguage": "ca",
   "publisher": {
     "@type": "Organization",
@@ -25,12 +25,12 @@
 {
   "@context": "https://schema.org",
   "@type": "LandmarksOrHistoricalBuildings",
-  "name": {{ .Title | jsonify }},
-  "url": {{ .Permalink | jsonify }}
-  {{ with .Params.descripcio }}, "description": {{ . | jsonify }}{{ end }}
+  "name": {{ .Title | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }}
+  {{ with .Params.descripcio }}, "description": {{ . | jsonify | safeJS }}{{ end }}
   {{ with .Params.adreca }}, "address": {
     "@type": "PostalAddress",
-    "streetAddress": {{ . | jsonify }},
+    "streetAddress": {{ . | jsonify | safeJS }},
     "addressLocality": "Barcelona",
     "addressCountry": "ES"
   }{{ end }}
@@ -39,11 +39,38 @@
     "latitude": {{ .Params.lat }},
     "longitude": {{ .Params.long }}
   }{{ end }}
-  {{ with $imgUrl }}, "image": {{ . | jsonify }}{{ end }}
-  {{ with .Params.any }}, "dateCreated": {{ . | jsonify }}{{ end }}
+  {{ with $imgUrl }}, "image": {{ . | jsonify | safeJS }}{{ end }}
+  {{ with .Params.any }}, "dateCreated": {{ . | jsonify | safeJS }}{{ end }}
   {{ with .Params.arquitectes }}, "creator": [
-    {{ range $i, $a := . }}{{ if $i }},{{ end }}{"@type": "Person", "name": {{ $a | jsonify }}}{{ end }}
+    {{ range $i, $a := . }}{{ if $i }},{{ end }}{"@type": "Person", "name": {{ $a | jsonify | safeJS }}}{{ end }}
   ]{{ end }}
+}
+</script>
+{{ end }}
+
+{{/* Schema.org JSON-LD — fitxa d'arquitecte */}}
+{{ if and (eq .Kind "term") (eq .Data.Singular "arquitecte") }}
+{{ $bioExtra := dict }}
+{{ range index hugo.Data "arquitectes-bio-extra" }}
+  {{ if eq .terme $.Data.Term }}{{ $bioExtra = . }}{{ end }}
+{{ end }}
+{{ $tipus := .Params.tipus | default $bioExtra.tipus }}
+{{ $linkWeb := .Params.link_web | default $bioExtra.link_web }}
+{{ $linkCoac := .Params.link_coac | default $bioExtra.link_coac }}
+{{ $linkWikipedia := .Params.link_wikipedia | default $bioExtra.link_wikipedia }}
+{{ $sameAs := slice }}
+{{ with $linkWeb }}{{ $sameAs = $sameAs | append . }}{{ end }}
+{{ with $linkCoac }}{{ $sameAs = $sameAs | append . }}{{ end }}
+{{ with $linkWikipedia }}{{ $sameAs = $sameAs | append . }}{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ if eq $tipus "estudi" }}"Organization"{{ else }}"Person"{{ end }},
+  "name": {{ .Title | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }},
+  {{ if eq $tipus "estudi" }}"description": "Estudi d'arquitectura amb obra fitxada a les Guies de Barcelona de El Globus Vermell"{{ else }}"jobTitle": "Arquitecte",
+  "description": "Arquitecte amb obra fitxada a les Guies de Barcelona de El Globus Vermell"{{ end }}{{ with $sameAs }},
+  "sameAs": {{ . | jsonify | safeJS }}{{ end }}
 }
 </script>
 {{ end }}

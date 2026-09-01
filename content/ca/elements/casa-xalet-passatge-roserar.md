@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-xalet-passatge-roserar/"]
 adreca: Ptge. del Roserar, 18
 any: 1933
 arquitectes:

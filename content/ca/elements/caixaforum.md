@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/caixaforum/"]
 adreca: Mèxic, 36
 any: '2002'
 arquitectes:

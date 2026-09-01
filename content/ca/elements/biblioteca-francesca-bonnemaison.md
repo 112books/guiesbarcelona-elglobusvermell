@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-francesca-bonnemaison/"]
 adreca: C. Sant Pere més Baix, 7 |
 arquitectes:
 - Jordi Campanillas

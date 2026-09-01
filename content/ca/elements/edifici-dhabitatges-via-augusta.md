@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-via-augusta/"]
 adreca: Via Augusta 128-132 / Brusi 39-43 / Sant Elies 11-19
 any: '1970'
 arquitectes:

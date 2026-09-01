@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-les-carasses/"]
 adreca: Torras i Bages, 108
 descripcio: Torras i Bages, 108 / Valentí Iglésias, 21-25 / Palomar, 52-56 També conegut
   com a Can Carasses Masia de 1652 reformada al segle XVIII en casa pairal. Una nova

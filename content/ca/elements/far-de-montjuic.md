@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/far-de-montjuic/"]
 adreca: Camí del Far, 1
 any: '1906'
 draft: false

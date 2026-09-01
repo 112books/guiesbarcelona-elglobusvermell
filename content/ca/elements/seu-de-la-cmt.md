@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/seu-de-la-cmt/"]
 adreca: Bolívia, 56
 any: 2010
 arquitectes:

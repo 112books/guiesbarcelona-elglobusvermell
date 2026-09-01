@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/entorns-del-rec-comtal/"]
 adreca: Pl. Primer de Maig, s/n
 any: '2022'
 arquitectes:

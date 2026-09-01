@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-joana-tomas/"]
 adreca: Mallorca, 628+632+636 + C. València, 641+645 + C. Gabriel y Galán, 16+20
 descripcio: Joana Tomàs i Sabaté. (Barcelona, 1933 – 1982). Des de ben jove fou
   membre de la Unió Excursionista de Catalunya (UEC) de Gràcia, on forjà el seu catalanisme

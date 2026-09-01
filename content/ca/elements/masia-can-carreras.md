@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-carreras/"]
 adreca: Ogassa, 12
 descripcio: Ogassa, 12 / Parc Central de Nou Barris Masia del segle XVIII que manté
   l’ús agrícola fins acabada la Guerra Civil. Actualment està a l’espera de ser reformada

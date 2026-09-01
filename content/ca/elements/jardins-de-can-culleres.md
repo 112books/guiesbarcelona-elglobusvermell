@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-can-culleres/"]
 adreca: Pallars, 220 + Rambla del Poblenou, 83 + C. Pujades, 165
 descripcio: 'Equipament: Ludoteca Maria Gràcia Pont “Can Culleres” (Metales y Platería
   Ribera SA) . (1912-1986). Fàbrica de coberts fundada per Joaquim Ribera i Barnola

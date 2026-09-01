@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-unifamiliar-placa-jaume-ii/"]
 adreca: Pl. Jaume II, 8
 any: '1933'
 arquitectes:

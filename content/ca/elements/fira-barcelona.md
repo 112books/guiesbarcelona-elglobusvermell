@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/fira-barcelona/"]
 adreca: Av. Joan Carles I, 64. L’Hospitalet de Llobregat
 any: '2010'
 arquitectes:

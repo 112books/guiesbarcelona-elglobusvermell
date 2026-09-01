@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-flora-tristan/"]
 adreca: Padilla, 204-210
 descripcio: 'Equipament: Espai 210, centre sociocultural Flora Tristan. (París,
   1803 – Bordeus, 1844). Escriptora i activista social francesa d’origen peruà. Considerada

@@ -1,5 +1,6 @@
 ---
 title: "Accessibilitat"
+description: "Declaració d'accessibilitat del web Guies de Barcelona: WCAG 2.1 nivell AA, navegació per teclat, text alternatiu i lectura en veu alta de les fitxes."
 ---
 
 ## Declaració d'accessibilitat

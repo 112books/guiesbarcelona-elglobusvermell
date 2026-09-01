@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-la-marina-del-prat-vermell/"]
 descripcio: La Marina del Prat Vermell Futura biblioteca segons Pla 2030. Pendent
   d’ubicació.
 districte: "Sants-Montjuïc"

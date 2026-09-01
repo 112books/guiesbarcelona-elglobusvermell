@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-sant-gervasi-sud/"]
 descripcio: Sant Gervasi – Galvany Futura biblioteca segons Pla 2030 – Pendent de
   localització
 districte: "Sarrià-Sant Gervasi"

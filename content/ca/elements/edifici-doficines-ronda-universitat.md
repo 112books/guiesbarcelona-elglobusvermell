@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-ronda-universitat/"]
 adreca: Rda. Universitat 9
 any: '1971'
 arquitectes:

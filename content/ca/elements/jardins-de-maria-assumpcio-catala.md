@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-maria-assumpcio-catala/"]
 adreca: C. Comte Borrell, 305-307
 descripcio: 'Equipaments: Centre d’atenció primària + Centre de serveis socials
   Maria Assumpció Català i Poch. (Barcelona, 1925 – 2009). Matemàtica i astrònoma.

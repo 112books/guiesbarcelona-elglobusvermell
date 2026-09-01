@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-felip-ii/"]
 adreca: Felip II, 118
 districte: "Sant Martí"
 zona: "Nous barris"

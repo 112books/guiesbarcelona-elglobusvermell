@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placa-de-dolors-piera-placa-disabel-vila/"]
 adreca: Sancho de Àvila + C. Roc Boronat + C. Almogàvers + C. Ciutat de Granada
 descripcio: Dolors Piera i Llobera. (Puigverd d’Agramunt, 1910 – Santiago de Xile,
   2002). Mestra i sindicalista. Fundadora de FETE-UGT (Federació Espanyola de Treballadors

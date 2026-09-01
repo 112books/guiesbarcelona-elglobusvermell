@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/cooperativa-popular-obrera-el-siglo-xx/"]
 adreca: Ginebra 24
 any: '1941'
 arquitectes:

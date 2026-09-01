@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-sants/"]
 adreca: Sant Jordi, 6
 districte: "Sants-Montjuïc"
 zona: "Sants"

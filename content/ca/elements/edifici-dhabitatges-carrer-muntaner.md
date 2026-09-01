@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-muntaner/"]
 adreca: Muntaner 271-273 / Avenir 35-37
 any: '1966'
 arquitectes:

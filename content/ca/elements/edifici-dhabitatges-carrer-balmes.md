@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-balmes/", "/avantguarda-1928-1938/edifici-dhabitatges-carrer-balmes-2/"]
 adreca: C. de Balmes, 168
 any: 1934
 arquitectes:

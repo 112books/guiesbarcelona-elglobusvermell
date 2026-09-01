@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/nest-city-lab/"]
 adreca: Àlaba, 100
 any: '2017'
 arquitectes:

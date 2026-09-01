@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-ca-larno/"]
 adreca: Rector de Vallfogona, 1-9
 descripcio: Rector de Vallfogona, 1-9. Parc de Sant Martí Mas que conserva una inscripció
   amb l’any 1689, tot i que el seu origen és anterior. Ha sofert algunes reformes

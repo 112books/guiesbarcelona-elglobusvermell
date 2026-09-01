@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/reforma-de-laula-de-quimica-a-la-ub/"]
 adreca: Gran Via, 585
 any: 1934
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-fargues/"]
 adreca: Pg. Maragall, 383-389
 descripcio: Pg. Maragall, 383-389 / Av. Frederic Rahola, 2-8 També conegut com a Mas
   Pujol Torre de defensa del segle XIII i masia al voltant del segle XIV . Actualment

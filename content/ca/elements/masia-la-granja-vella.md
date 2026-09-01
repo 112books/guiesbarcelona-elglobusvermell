@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-la-granja-vella/"]
 adreca: Av. Cardenal Vidal i Barraquer, 1
 descripcio: Av. Cardenal Vidal i Barraquer, 1
 districte: "Horta-Guinardó"

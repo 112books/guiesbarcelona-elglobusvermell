@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-banca-catalana-ara-hotel/"]
 adreca: Pg. de Gràcia 84
 any: '1968'
 arquitectes:

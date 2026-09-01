@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-sant-marti/"]
 adreca: Puigcerdà, 206
 districte: "Sant Martí"
 zona: "Nous barris"

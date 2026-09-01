@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-la-colmena/"]
 adreca: Rda. General Mitre 115-125
 any: '1959'
 arquitectes:

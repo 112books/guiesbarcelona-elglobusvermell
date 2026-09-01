@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-galvany/"]
 adreca: Santaló, 65
 descripcio: 'Projecte original: Pere Falqués i Urpí. 1868-1927'
 districte: "Sarrià-Sant Gervasi"

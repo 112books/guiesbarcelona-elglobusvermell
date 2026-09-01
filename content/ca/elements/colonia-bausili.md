@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/colonia-bausili/"]
 adreca: Colònia Bausili / Ulldecona
 any: '1928'
 arquitectes:

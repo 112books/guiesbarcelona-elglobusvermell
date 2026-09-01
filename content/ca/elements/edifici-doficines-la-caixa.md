@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-la-caixa/"]
 adreca: Av. Diagonal 522-532 / Moià 3
 any: '1973'
 arquitectes:

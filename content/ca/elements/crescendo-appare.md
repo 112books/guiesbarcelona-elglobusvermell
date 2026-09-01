@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/crescendo-appare/"]
 adreca: Pla de Miquel Tarradell
 descripcio: 'Autoria: Mario Merz. 1992 21 cubs encastats a terra, cada un amb una
   xifra escrita amb neó i una tapa de vidre blindat. Les xifres reprodueixen els 21

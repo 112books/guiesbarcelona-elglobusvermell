@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/la-escocesa/"]
 adreca: Pere IV 341-361 + Bolívia 272-278
 descripcio: 'Projecte original: 1852 Múltiples reformes i ampliacions posteriors Categoria:
   Recinte industrial Fàbrica de productes químics per a la indústria tèxtil. Actualment,

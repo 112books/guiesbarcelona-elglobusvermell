@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/edifici-dhabitatges/", "/1975-2008/edifici-dhabitatges-3/"]
 adreca: Carme, 55 / Roig, 28-30
 descripcio: 'Projecte: Josep Llinàs. 1994 Premi Ciutat de Barcelona Premi Dècada'
 draft: false

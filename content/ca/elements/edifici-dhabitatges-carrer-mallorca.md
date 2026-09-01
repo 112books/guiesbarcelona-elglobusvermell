@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-mallorca/"]
 adreca: Mallorca 213 / Enric Granados 42
 any: '1956'
 arquitectes:

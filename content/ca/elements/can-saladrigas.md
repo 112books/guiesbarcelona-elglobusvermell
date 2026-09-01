@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-saladrigas/"]
 adreca: Joncar 27-45 + Pl. Rosa Peraulet 1-3
 draft: false
 foto: /img/elements/can-saladrigas.jpg

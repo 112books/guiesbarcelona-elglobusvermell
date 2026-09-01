@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-encarnacio/"]
 adreca: Encarnació 140
 any: '1966'
 arquitectes:

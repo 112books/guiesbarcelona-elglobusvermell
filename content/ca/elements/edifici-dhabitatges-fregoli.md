@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-fregoli/"]
 adreca: Madrazo 54-56
 any: '1975'
 arquitectes:

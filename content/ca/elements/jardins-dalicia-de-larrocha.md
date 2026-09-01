@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-dalicia-de-larrocha/"]
 adreca: Àlaba, 48
 descripcio: Alícia de Larrocha i de la Calle. (Barcelona, 1923 – 2009). Pianista
   i compositora, considerada una de les millors de la seva generació. Actuà per tot

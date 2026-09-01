@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-raspall/"]
 adreca: Manuel Girona, 33
 descripcio: Manuel Girona, 33 Mas del segle XVI , reformat i ampliat el 1920. Actualment
   és un centre mèdic privat.

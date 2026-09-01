@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/seu-de-gas-natural/"]
 adreca: Dr. Aiguader, 38
 any: '2006'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/piscina-de-salts-de-montjuic/"]
 adreca: Av. Miramar, 31
 draft: false
 intervencions:

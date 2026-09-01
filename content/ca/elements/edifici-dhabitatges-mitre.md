@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-mitre/"]
 adreca: Rda. General Mitre 1-13 i 19-25
 any: '1964'
 arquitectes:

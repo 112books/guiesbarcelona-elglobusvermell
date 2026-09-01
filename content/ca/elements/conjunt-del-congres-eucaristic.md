@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/conjunt-del-congres-eucaristic/"]
 adreca: Entorn de la Pl. Congrés Eucarístic
 any: '1952'
 arquitectes:

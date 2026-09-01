@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-candida-perez/"]
 adreca: Comte Borrell, 44-46
 any: '2007'
 arquitectes:

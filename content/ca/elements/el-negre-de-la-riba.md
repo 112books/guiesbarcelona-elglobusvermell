@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/el-negre-de-la-riba/"]
 adreca: Andrea Dòria 4
 descripcio: (Reproducció del 2003) Reproducció en fibra de vidre de la talla d’un
   indi americà que presidia el mascaró de proa d’un bergantí que va arribar a la Barceloneta

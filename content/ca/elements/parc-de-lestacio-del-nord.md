@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/parc-de-lestacio-del-nord/"]
 adreca: El Fort Pienc
 any: '1991'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-torre-llobeta/"]
 adreca: Santa Fe, 2
 descripcio: Santa Fe, 2 / Pl. Torre Llobeta / Pg. Maragall, 222 bis També coneguda
   com a Can Basté de les Parets i Mas Montaner Mas de, possiblement, el segle XV .

@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/magatzem-del-banco-hispano-americano/"]
 adreca: Pere IV 440-446 + Marroc 133 + Treball 114-122
 any: '1952'
 arquitectes:

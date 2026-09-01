@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/edifici-dhabitatges-sant-carles/"]
 adreca: Sant Carles 7 + Sant Miquel 55 + Pescadors 12
 draft: false
 intervencions:

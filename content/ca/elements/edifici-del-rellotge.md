@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/edifici-del-rellotge/"]
 adreca: Roc Boronat 66
 any: '1949'
 arquitectes:

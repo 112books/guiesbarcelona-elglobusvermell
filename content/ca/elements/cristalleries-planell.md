@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/cristalleries-planell/"]
 adreca: Doctor Ibáñez, 38
 any: '2016'
 arquitectes:

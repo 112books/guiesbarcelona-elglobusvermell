@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/escola-josep-maria-jujol/"]
 draft: false
 intervencions:
 - any: '1987'

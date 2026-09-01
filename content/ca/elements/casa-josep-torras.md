@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-josep-torras/"]
 adreca: Baluard 6 + Monjo 5
 draft: false
 foto: /img/elements/casa-josep-torras.jpg

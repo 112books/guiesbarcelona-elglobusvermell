@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-bbva/"]
 adreca: Diagonal 468
 any: '1973'
 arquitectes:

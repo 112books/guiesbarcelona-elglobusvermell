@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-torre-de-sant-joan/"]
 adreca: C. de Sant Joan de Malta, 44
 descripcio: Sant Joan de Malta, 44
 districte: "Sant Martí"

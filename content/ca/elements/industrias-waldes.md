@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/industrias-waldes/"]
 adreca: Badajoz 45-47 + Ramon Turró 111-129 + Àvila 42-46
 any: '1919'
 arquitectes:

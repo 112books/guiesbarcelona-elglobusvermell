@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/bloc-dels-pescadors/"]
 adreca: Pl. del Llagut + Ginebra + Marquès de la Mina + Maquinista + Sant Josep
 any: '1956'
 arquitectes:

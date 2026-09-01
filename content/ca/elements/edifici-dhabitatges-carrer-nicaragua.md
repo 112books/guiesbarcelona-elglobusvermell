@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-nicaragua/"]
 adreca: Nicaragua 97-99
 any: '1965'
 arquitectes:

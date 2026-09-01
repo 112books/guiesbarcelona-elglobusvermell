@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-sant-antoni-i-maria-claret/"]
 adreca: Sant Antoni Maria Claret 318-332
 any: '1957'
 arquitectes:

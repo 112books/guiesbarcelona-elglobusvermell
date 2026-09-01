@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/centre-civic-barceloneta/"]
 adreca: Conreria 1
 any: '1994'
 arquitectes:

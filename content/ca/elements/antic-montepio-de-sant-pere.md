@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/antic-montepio-de-sant-pere/"]
 adreca: Sant Elm 58-62 + Almirall Aixada 4 + Mar 95-99
 any: '1928'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-nou-barris/"]
 adreca: Pl. Major de Nou Barris, 2 |
 districte: "Nou Barris"
 draft: false

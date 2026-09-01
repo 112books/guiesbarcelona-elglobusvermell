@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-montbau-albert-perez-baro/"]
 adreca: C. Arquitectura, 8 |
 descripcio: 'Biblioteca: 1991 Remodelació: Oliveras Boix Arquitectes. 2015'
 districte: "Horta-Guinardó"

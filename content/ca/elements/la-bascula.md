@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/la-bascula/"]
 adreca: Foc, 128
 any: '1988'
 draft: false

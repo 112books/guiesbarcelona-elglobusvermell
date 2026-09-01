@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-josefa-lopez/"]
 adreca: C. de Muntaner 342-348
 any: 1929
 arquitectes:

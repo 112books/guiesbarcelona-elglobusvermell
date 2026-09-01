@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placa-de-la-infancia/"]
 adreca: Fluvià, 205 + C. Bac de Roda, 182
 descripcio: ''
 draft: false

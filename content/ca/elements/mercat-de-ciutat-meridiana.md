@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-ciutat-meridiana/"]
 adreca: Costabona, 4-6
 districte: "Nou Barris"
 zona: "Nous barris"

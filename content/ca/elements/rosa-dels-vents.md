@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/rosa-dels-vents/"]
 adreca: Pl. Pau Vila
 descripcio: 'Autoria: Lothar Baumgarten. 1992 Conjunt escultòric dispers entre la
   plaça i els vials que envolten el Palau de Mar. Està configurat per grans lletres,

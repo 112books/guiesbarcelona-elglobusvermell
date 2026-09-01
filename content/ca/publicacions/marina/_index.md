@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/la-marina-del-port-i-del-prat-vermell-passat-i-present/"]
 title: "La Marina del Port i del Prat Vermell. Passat i present"
+description: "La Marina del Port i del Prat Vermell: el passat industrial i la transformació urbana del sud de Barcelona."
+foto: "/img/publicacions/marina.jpg"
 edicio: 2023
 ---
 

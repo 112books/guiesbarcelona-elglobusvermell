@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/fabrica-de-joan-guell/"]
 adreca: Pallars 217
 any: '1874'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-mediterrani/"]
 adreca: Consell de Cent 164-168
 any: '1968'
 arquitectes:

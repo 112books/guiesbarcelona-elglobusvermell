@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-ignasi-iglesias-can-fabra/"]
 adreca: C. Segre, 24-32 | Sant Andreu
 districte: "Sant Andreu"
 draft: false

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/bloc-diagonal/"]
 adreca: Av. Diagonal, 419
 any: 1935
 arquitectes:

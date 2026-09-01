@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/ca-lalier/"]
 adreca: Cristóbal de Moura 43-47 + Pere IV 362-364 + Fluvià 102-118
 draft: false
 foto: /img/elements/ca-lalier.jpg

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-j-espona/"]
 adreca: C. Camp d’en Vidal, 16
 any: 1933
 arquitectes:

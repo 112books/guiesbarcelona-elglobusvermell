@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/casa-tapies/"]
 adreca: Saragossa 57
 any: '1963'
 arquitectes:

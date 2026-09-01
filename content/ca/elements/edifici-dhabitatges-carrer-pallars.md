@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-pallar/"]
 adreca: Pallars 301-319
 any: '1959'
 arquitectes:

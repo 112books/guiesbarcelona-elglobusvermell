@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/colonia-santiveri/"]
 adreca: Mare de Déu de Port, 123
 draft: false
 foto: /img/elements/colonia-santiveri.jpg

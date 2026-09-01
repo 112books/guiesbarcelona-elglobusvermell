@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/palau-nou-de-la-rambla/"]
 adreca: La Rambla, 88
 any: '1994'
 arquitectes:

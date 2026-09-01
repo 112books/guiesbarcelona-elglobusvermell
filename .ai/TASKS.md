@@ -138,6 +138,12 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ **Política de galetes** — `content/ca/legal/cookies.md`: sense cookies, GoatCounter sense cookies, OpenStreetMap/CartoDB
 - ✅ **Avís legal** — `content/ca/legal/avis-legal.md`: propietat intel·lectual, CC BY-SA 4.0, responsabilitat
 - ✅ **Fotos-web-app a .gitignore** — 880 MB d'imatges locals excloses de git
+- ✅ **Auditoria SEO/GEO/AEO completa (1 set 2026)** — `.ai/informe-seo-geo-aeo-2026-09-01.pdf` (15 pàgines; SEO 6/10, GEO 5/10, AEO 5/10 — el desbloquejador únic és el tall del domini, amb pas a pas a l'informe). Crawling del staging + build de producció verificat en local + WordPress mare (671 URLs)
+- ✅ **Paquet de millores SEO/GEO/AEO (1 set)** — aprovat per Joan («sense tocar el disseny, arreglar al màxim»; només metadades, detall a `.ai/REGISTRE-CANVIS-FITXES.md`):
+  - JSON-LD corregit amb `safeJS` (tota la dada estructurada era invàlida) + schema Person/Organization nou per als 277 arquitectes amb `sameAs` (COAC/Viquipèdia/web oficial)
+  - Redireccions de les **671 URLs del WordPress antic** via `aliases` a 660 fitxes (44 renoms verificats un per un + 11 pàgines `/text/` → publicacions); `scripts/aliases-wordpress.py` idempotent; plantilla `alias.html` catalana amb noindex
+  - `robots.txt` de producció amb `Sitemap:` + `Disallow: /admin/`; `llms.txt` nou per a motors d'IA; `404.html` propi amb el layout del tema
+  - Meta descriptions a les 13 publicacions + hubs (arquitectes, accessibilitat, presentació, publicacions amb títol nou); `og:image` per defecte (logo) + portades a les publicacions; títol del mapa; `enableGitInfo` → `lastmod` a les 964 URLs del sitemap
 
 ### Pendent — accessibilitat (informe: 6-8h estimades)
 - ⏳ Contrast insuficient: `.footer-powered-link` (#b3b3b3 → #6b6b6b), `::placeholder` (#aaa → #767676) — `main.css:302,532`
@@ -158,12 +164,16 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ⏳ **Imatges WebP** — conversió batch de 880 MB d'imatges originals a WebP (<200 KB/foto). Impacte crític: LCP de >4s a <2,5s. Comanda: `cwebp -q 82 + mogrify -resize 1200>`
 - ⏳ `width`/`height` a `<img>` de fitxes — evitar CLS — `elements/single.html`
 - ⏳ Leaflet.min.js en lloc de leaflet.js — `static/vendor/leaflet/` (~42 KB vs 147 KB)
-- ⏳ Verificar sitemap.xml a producció (build `--environment production`)
+- ✅ Verificar sitemap.xml a producció (build `--environment production`) — verificat a l'auditoria 1/9: 964 URLs correctes al domini final + `lastmod` a totes (enableGitInfo)
 
-### Pendent — SEO (informe)
-- ⏳ Google Search Console — activar quan el domini de producció estigui llest
+### Pendent — SEO (informe 30/8 + auditoria 1/9)
+- ⏳ Google Search Console + Bing Webmaster/IndexNow — activar just després del tall del domini (pas 5 del pas a pas de l'informe del 1 set)
 - ⏳ `hreflang` — preparar quan s'activin EN/ES
 - ⏳ Auditar `envia.php` — validació CSRF, sanitització (RGPD + seguretat)
+- 🔴 SSR de llistes (arquitectes/publicacions) + headings al mapa — toca el renderitzat → Xavi/consens d'equip
+- 🔴 FAQ + schema FAQPage + headings en forma de pregunta — contingut editorial → equip
+- 🔴 `og:image` pròpia 1200×630 — el logo (1024×248) és provisional → equip de disseny
+- 🔴 Consistència de xifres portada/Presentació (659/13 vs 660/11) — ja en debat d'equip
 
 ---
 

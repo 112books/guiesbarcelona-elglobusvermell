@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-merce/"]
 adreca: Pg. Fabra i Puig, 270-272
 descripcio: 'Projecte original: Estudi AGR (Josep Anglada, Daniel Gelabert i Josep
   Ribas). 1961'

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-lantiga-carretera-dhorta/"]
 adreca: Ausiàs Marc, 78 + C. Alí Bei, 55
 descripcio: 'Equipament: Centre de Serveis Socials Fort Pienc Carretera d’Horta.
   El camí d’Horta unia Barcelona amb l’antic poble d’Horta, on des de l’edat mitjana

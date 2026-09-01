@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-camp-de-larpa-caterina-albert/"]
 adreca: C. Indústria, 295 |
 districte: "Eixample"
 draft: false

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/edifici-porta-vila-olimpica/"]
 adreca: Av. Icària, 133
 descripcio: 'Projecte: Roser Amadó i Lluís Domènech. 1992 Premi Dècada'
 draft: false

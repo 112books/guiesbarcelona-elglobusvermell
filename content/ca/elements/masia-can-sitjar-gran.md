@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-sitjar-gran/"]
 adreca: Pg. Valldaura, 23-25
 descripcio: Pg. Valldaura, 23-25 Masia construïda entre els segles XVII i XVIII i
   que manté l’ús agrícola fins a mitjan segle XX . Parcialment enderrocada als anys

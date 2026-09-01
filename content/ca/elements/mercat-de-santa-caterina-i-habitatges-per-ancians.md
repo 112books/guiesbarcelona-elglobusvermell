@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/santa-caterina/"]
 adreca: Av. Francesc Cambó, 16
 districte: "Ciutat Vella"
 zona: "Ciutat Vella"

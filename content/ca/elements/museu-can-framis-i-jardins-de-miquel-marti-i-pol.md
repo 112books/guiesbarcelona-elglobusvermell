@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/museu-can-framis-i-jardins-de-miquel-marti-i-pol/"]
 adreca: Llacuna 103-117 + Roc Boronat 116-124 + Sancho de Ávila 145-155
 any: 2009
 arquitectes:

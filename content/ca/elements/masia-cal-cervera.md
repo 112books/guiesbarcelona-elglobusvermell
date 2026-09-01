@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-cal-cervera/"]
 adreca: Font Florida, 1-3
 descripcio: Font Florida, 1-3 Edifici de principis del segle XIX . Actualment en desús
   i pendent de reforma.

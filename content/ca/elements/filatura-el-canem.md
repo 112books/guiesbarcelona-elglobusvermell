@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/filatura-el-canem/", "/poblenou-industrial/filatura-el-canem-2/"]
 adreca: Ramon Turró 173 + Llacuna 25-27
 any: '1880'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-dada-byron/"]
 adreca: Diagonal, 175 + Rambla del Poblenou, 137 + C. Tànger, 139+149
 descripcio: Ada Byron. (Londres, 1815 – 1852). Matemàtica i física, fou la primera
   programadora en la història dels computadors. Va col·laborar amb Charles Babbage

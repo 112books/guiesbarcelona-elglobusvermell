@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/centre-darts-santa-monica/"]
 adreca: La Rambla, 7
 arquitectes:
 - Albert Viaplana i Veà

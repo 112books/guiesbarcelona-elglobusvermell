@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/parc-de-les-glories/"]
 adreca: Pl. de les Glòries Catalanes
 any: 2026
 arquitectes:

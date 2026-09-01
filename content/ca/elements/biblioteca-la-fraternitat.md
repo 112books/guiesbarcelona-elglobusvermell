@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-la-fraternitat/"]
 adreca: Comte de Santa Clara, 8-10 | Barceloneta
 descripcio: 'Adreça: Comte de Santa Clara, 8-10 | Barceloneta Remodelació Biblioteca:
   Josep M. Rovira. 2001 La Fraternitat era una cooperativa obrera fundada el 1879

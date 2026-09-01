@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/union-metalurgica/"]
 adreca: Pamplona 103-105 + Almogàvers 119-123
 any: '1914'
 arquitectes:

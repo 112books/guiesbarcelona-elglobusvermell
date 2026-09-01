@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-jaumandreu-vapor-de-la-llana/"]
 adreca: Sant Joan de Malta 64-78 + Bolívia 103-113 + Perú 46-52 + Rbla. Poblenou 152-160
 draft: false
 foto: /img/elements/can-jaumandreu-vapor-de-la-llana.jpg

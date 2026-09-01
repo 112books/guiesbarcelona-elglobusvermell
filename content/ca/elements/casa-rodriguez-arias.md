@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-rodriguez-arias/"]
 adreca: Via Augusta, 61
 any: 1930
 arquitectes:

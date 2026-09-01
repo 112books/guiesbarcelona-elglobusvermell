@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-lluis-cairo/"]
 adreca: Paredes 6
 draft: false
 foto: /img/elements/casa-lluis-cairo.jpg

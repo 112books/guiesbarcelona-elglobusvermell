@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/cooperativa-pau-i-justicia-sala-beckett/"]
 adreca: Pere IV 228-232 + Batista 11-15
 draft: false
 foto: /img/elements/cooperativa-pau-i-justicia-sala-beckett.jpg

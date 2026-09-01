@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/edifici-dhabitatges-per-a-gent-gran/"]
 adreca: Pg. Urrutia, 5
 any: '2008'
 arquitectes:

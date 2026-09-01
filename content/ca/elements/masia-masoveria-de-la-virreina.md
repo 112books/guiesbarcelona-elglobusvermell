@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-masoveria-de-la-virreina/"]
 adreca: Sant Lluís, 1-5
 descripcio: Sant Lluís, 1-5 / Torrijos, 56-58 Masoveria de « La Torre Petita » , antic
   Palau de la Virreina de Gràcia, construïda a la dècada de 1870. Ha patit diverses

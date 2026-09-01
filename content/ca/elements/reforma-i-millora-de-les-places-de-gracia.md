@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/reforma-i-millora-de-les-places-de-gracia/"]
 descripcio: 'Adreça: Vila de Gràcia. Places Diamant, Raspall, Sol, Trilla i Virreina
   Projecte: Bach-Mora. 1985'
 draft: false

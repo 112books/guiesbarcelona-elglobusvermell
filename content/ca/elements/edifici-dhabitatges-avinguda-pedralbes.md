@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-2/"]
 adreca: Av. Pedralbes 63
 any: '1950'
 arquitectes:

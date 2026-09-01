@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-lantic-cinema-novetats/"]
 adreca: Casp, 1-13
 descripcio: ''
 draft: false

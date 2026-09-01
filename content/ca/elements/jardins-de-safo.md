@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-safo-2/"]
 adreca: Av. Roma, 20 + C. València, 11 + C. Llançà, 48
 descripcio: 'Més info: Aquí hi havia hagut les casernes de Numància Safo (de Lesbos)
   (Illa de Lesbos, ca. 650 aC – 580 aC). Compositora i poetessa grega. Compongué cançons

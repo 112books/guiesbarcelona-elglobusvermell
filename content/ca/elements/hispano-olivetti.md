@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/hispano-olivetti/"]
 adreca: Gran Via 850-888 + Llacuna 157-161 / 156-162 + Perú 39-49
 any: 1942
 anys_reforma:

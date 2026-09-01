@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/conjunt-dhabitatges-illa-glories/"]
 adreca: Pl. de les Glòries / Gran Via / Castillejos / Encants vells / Àlaba
 any: 2024
 arquitectes:

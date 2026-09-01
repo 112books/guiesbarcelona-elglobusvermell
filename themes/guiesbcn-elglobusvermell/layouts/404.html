@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="publicacio">
+
+  <header class="publicacio-cap">
+    <h1>Pàgina no trobada</h1>
+    <p class="publicacio-edicio">Error 404</p>
+  </header>
+
+  <p>La pàgina que busques no existeix o s'ha mogut. Pots continuar des d'aquí:</p>
+
+  <ul>
+    <li><a href="{{ "" | relLangURL }}">Portada</a></li>
+    <li><a href="{{ "mapa/" | relLangURL }}">Mapa dels edificis</a></li>
+    <li><a href="{{ "publicacions/" | relLangURL }}">Publicacions</a></li>
+    <li><a href="{{ "arquitectes/" | relLangURL }}">Arquitectes</a></li>
+    <li><a href="{{ "contacte/" | relLangURL }}">Contacte</a></li>
+  </ul>
+
+</article>
+{{ end }}

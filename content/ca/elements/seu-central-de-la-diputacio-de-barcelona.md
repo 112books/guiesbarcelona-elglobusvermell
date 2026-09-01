@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/seu-central-de-la-diputacio-de-barcelona/"]
 draft: false
 intervencions:
 - any: '1987'

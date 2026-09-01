@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-doficines-monitor/"]
 adreca: Tuset 8-10
 any: '1961'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/tallers-nuevo-vulcano/"]
 adreca: Moll Nou
 draft: false
 foto: /img/elements/tallers-nuevo-vulcano.jpg

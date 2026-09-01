@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-la-foneria-giralt/"]
 adreca: Ciutat de Granada 86 + Pallars 172-174
 draft: false
 intervencions:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/una-habitacio-on-sempre-plou/"]
 adreca: Pl. del Mar
 descripcio: 'Autoria: Juan Muñoz. 1992 Una gran esplanada pavimentada i, al mig, un
   petit oasi amb sorra i quatre ombús que rodegen aquesta «habitació», entre gran

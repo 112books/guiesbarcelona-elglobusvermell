@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-sofia-barat/"]
 adreca: C. Girona, 64 | Dreta de l’Eixample
 arquitectes:
 - Judith Masana

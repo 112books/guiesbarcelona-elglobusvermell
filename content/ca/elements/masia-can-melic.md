@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-melic/"]
 adreca: Torrent d’en Melis, 11
 descripcio: Torrent d’en Melis, 11 També coneguda com a Can Planàs. La primera referència
   d’aquest mas data del segle XVIII . Ha tingut diversos usos (canòdrom, piscina,

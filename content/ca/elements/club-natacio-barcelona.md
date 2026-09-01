@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/club-natacio-barcelona/"]
 adreca: Pg. Joan de Borbó 43
 any: '1969'
 arquitectes:

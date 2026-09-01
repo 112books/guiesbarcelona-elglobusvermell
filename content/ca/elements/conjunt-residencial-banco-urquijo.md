@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/conjunt-residencial-banco-urquijo/"]
 adreca: Raset 21-23 / Freixa 22-32
 any: '1973'
 arquitectes:

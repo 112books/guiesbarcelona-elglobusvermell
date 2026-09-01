@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/born/"]
 adreca: Pl. Comercial, 12
 descripcio: 'Projecte original: Josep Fontserè i Mestre i Josep Maria Cornet i Mas.
   1876 Enric Sòria i Rafael de Cáceres (projecte arquitectònic), BOPBAA i Varis Arquitectes

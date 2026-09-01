@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/olis-pallares/"]
 adreca: Pere IV 63-67 + Pallars 122-126
 draft: false
 intervencions:

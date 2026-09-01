@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-manuel-de-pedrolo/"]
 adreca: Diputació, 459-463
 descripcio: 'Manuel de Pedrolo i Molina. (L’Aranyó, 1918 – Barcelona, 1990). Escriptor
   que conreà tots els gèneres literaris: poesia, teatre, narrativa i contes. És considerat

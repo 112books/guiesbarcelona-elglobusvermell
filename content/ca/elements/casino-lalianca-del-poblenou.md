@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/casino-lalianca-del-poblenou/"]
 adreca: Rbla. Poblenou 42 + Ramon Turró 208
 any: '1929'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/edifici-dhabitatges-i-escola-mallorca/"]
 adreca: Londres, 64
 descripcio: 'Projecte: Coll-Leclerc. 2006 Premi Ciutat de Barcelona'
 draft: false

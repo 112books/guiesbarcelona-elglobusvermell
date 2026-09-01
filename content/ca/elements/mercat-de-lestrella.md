@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-lestrella/"]
 adreca: Av. Pi i Margall, 73
 descripcio: 'Projecte original: 1957'
 districte: "Gràcia"

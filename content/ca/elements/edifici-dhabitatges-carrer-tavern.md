@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-tavern/"]
 adreca: Tavern 34 / Rector Ubach
 any: '1954'
 arquitectes:

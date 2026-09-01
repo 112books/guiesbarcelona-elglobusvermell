@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-tete-montoliu/"]
 adreca: Sepúlveda, 90-92
 descripcio: Tete Montoliu. (Barcelona, 1933 – 1997). Pianista de jazz, cec de naixement.
   A partir de 1955 inicià una carrera internacional que el dugué a fer concerts per

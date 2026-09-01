@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/centre-de-vida-comunitaria-de-trinitat-vella/"]
 adreca: Via Favència, 399 / Ctra. de Ribes
 any: '2018'
 arquitectes:

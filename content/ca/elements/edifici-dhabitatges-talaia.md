@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-talaia/"]
 adreca: Av. Sarrià 71 / Av. Diagonal 523
 any: '1970'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/oliva-artes-muhba/"]
 adreca: Espronceda, 142-146
 any: '2020'
 arquitectes:

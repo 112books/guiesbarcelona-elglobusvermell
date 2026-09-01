@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/jardins-del-doctor-pla-i-armengol/"]
 adreca: Av. Mare de Déu de Montserrat, 132
 any: '2017'
 arquitectes:

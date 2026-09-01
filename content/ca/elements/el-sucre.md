@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/el-sucre/"]
 adreca: Ptge. Mas de Roda 5-7 + Ramon Turró 144-146
 draft: false
 foto: /img/elements/el-sucre.jpg

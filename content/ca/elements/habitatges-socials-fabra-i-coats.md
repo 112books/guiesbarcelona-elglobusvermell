@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/habitatges-socials-fabra-i-coats/"]
 adreca: Sant Adrià, 20. Recinte Fabra i Coats
 any: '2019'
 arquitectes:

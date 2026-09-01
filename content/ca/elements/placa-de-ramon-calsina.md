@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placa-de-ramon-calsina/"]
 adreca: Selva de Mar, 9-11 + C. Provençals, 10+14
 descripcio: Al centre de la plaça hi ha la Torre de les Aigües del Besòs i la Casa
   de les Vàlvules, projectades per Pere Falqués i construïdes el 1882 per subministrar

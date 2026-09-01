@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-dhabitatges-set-vides/"]
 adreca: Horta, 107
 any: '2021'
 arquitectes:

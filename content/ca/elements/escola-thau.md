@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/escola-thau/"]
 adreca: Av. d’Esplugues 49-53
 any: '1975'
 arquitectes:

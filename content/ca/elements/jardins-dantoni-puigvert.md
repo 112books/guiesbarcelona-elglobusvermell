@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-dantoni-puigvert/"]
 adreca: Indústria 54 + C. Sicília, 287-297 + C. Còrsega, 495
 descripcio: Antoni Puigvert i Gorro. (Santa Coloma de Gramenet, 1905 – Barcelona,
   1990). Metge uròleg. L’any 1961 fundà la Fundació Puigvert, institut mèdic especialitzat

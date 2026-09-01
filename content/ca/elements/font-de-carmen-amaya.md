@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/font-de-carmen-amaya/"]
 adreca: Pl. Brugada
 descripcio: 'Autoria: Rafael Solanich. 1959 Carmen Amaya (1913-1963), bailaora i cantant
   de flamenc, va néixer al Somorrostro, barri de barraques ubicat fins als seixanta

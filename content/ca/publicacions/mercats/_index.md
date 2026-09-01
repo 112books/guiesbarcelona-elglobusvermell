@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/mercats/"]
 title: "Mercats de Barcelona"
+description: "Els mercats de Barcelona: la xarxa de mercats municipals i no alimentaris de la ciutat, de la Boqueria als encants."
+foto: "/img/publicacions/mercats.jpg"
 edicio: 2019
 ---
 

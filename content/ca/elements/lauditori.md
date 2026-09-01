@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/lauditori/"]
 adreca: Lepant, 150
 any: '1999'
 arquitectes:

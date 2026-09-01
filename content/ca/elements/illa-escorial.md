@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/illa-escorial/"]
 adreca: Escorial 50 / Legalitat / Encarnació / Alegre de Dalt
 any: '1962'
 arquitectes:

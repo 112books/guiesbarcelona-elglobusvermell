@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-montserrat-figueras/"]
 adreca: C. Còrsega, 195-197
 descripcio: Montserrat Figueras i Garcia. (Barcelona, 1942 – Bellaterra, 2011).
   Soprano especialitzada en música antiga i referent en la interpretació vocal de

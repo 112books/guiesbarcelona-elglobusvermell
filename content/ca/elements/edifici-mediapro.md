@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/edifici-mediapro/"]
 adreca: Av. Diagonal, 177
 any: 2008
 arquitectes:

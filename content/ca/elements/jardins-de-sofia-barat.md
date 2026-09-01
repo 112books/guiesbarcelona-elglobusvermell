@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-sofia-barat/"]
 adreca: Girona, 64
 descripcio: 'Equipament: Biblioteca Sofia Barat Sofia Barat. (Joigny, 1779 – París,
   1865). Religiosa francesa, fundadora de la Societat del Sagrat Cor de Jesús, dedicada

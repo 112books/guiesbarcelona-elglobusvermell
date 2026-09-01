@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-senillosa/"]
 adreca: Fontcoberta, 9-13
 descripcio: Fontcoberta, 9-13
 districte: "Sarrià-Sant Gervasi"

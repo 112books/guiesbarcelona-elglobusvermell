@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-juan-de-garay/"]
 adreca: Juan de Garay 35 / Ptge. d’Artemis
 any: '1967'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/residencia-geriatrica-dhorta/"]
 adreca: Josep Sangenís, 75
 any: '1992'
 arquitectes:

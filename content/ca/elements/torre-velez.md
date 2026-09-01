@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-torre-velez/"]
 adreca: Av. de la Mare de Déu de Montserrat, 86-98
 descripcio: Av. Mare de Déu de Montserrat, 86-98
 districte: "Gràcia"

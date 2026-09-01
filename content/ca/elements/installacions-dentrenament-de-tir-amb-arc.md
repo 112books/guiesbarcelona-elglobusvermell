@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/installacions-dentrenament-de-tir-amb-arc/"]
 adreca: Pg. Vall d’Hebron, 166-176
 arquitectes:
 - Enric Miralles

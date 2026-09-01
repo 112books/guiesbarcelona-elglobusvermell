@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-laura-albeniz/"]
 adreca: C. Pau Claris, 182
 descripcio: Laura Albéniz Jordana. (Barcelona, 1890 – 1944). Il·lustradora i pintora
   del Noucentisme, filla del pianista i compositor Isaac Albéniz i de Rosina Jordana.

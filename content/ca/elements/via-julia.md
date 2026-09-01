@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/via-julia/"]
 any: '1986'
 arquitectes:
 - Bernardo de Solá

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-maria-manonelles/"]
 adreca: Calàbria, 38
 descripcio: 'Equipament: Arxiu Municipal del Districte de l’Eixample Maria Manonelles
   i Riera. (Mollerussa, 1913 – Catalunya Nord, 2004). Activista política i sindical.

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-caterina-albert/"]
 adreca: Rosselló, 395 + Ptge. Mariner
 descripcio: Caterina Albert i Paradís. (L’Escala, 1869 – 1966). Escriptora, coneguda
   pel sobrenom de Víctor Català. Destacà pel seu estil ple de força i d’una gran riquesa

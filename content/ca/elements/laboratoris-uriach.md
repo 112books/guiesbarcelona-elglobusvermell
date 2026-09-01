@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/laboratoris-uriach/"]
 adreca: Degà Bahí 56-67
 any: '1961'
 arquitectes:

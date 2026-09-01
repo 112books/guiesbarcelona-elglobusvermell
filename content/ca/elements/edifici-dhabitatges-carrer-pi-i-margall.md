@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-pi-i-margall/"]
 adreca: C. de Pi i Margall, 17
 any: 1935
 arquitectes:

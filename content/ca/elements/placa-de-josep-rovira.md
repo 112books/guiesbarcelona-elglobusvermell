@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placa-de-josep-rovira/"]
 adreca: Andrade, 10 + C. Lope de Vega, 233 + Gran Via, 923-929 + 931-941
 descripcio: Josep Rovira i Canals. (Rubí, 1902 – Boulogne-Billancourt, França, 1968).
   Polític català, paleta d’ofici. Milità a Estat Català, al Partit Català Proletari

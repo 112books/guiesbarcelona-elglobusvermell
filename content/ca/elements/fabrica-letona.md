@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/letona/"]
 adreca: Pujades 25
 any: '1955'
 arquitectes:

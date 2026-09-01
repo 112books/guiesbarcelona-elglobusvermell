@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/passeig-maritim-de-la-barceloneta/"]
 draft: false
 intervencions:
 - any: Olga Tarrasó, Jordi Henrich, Jaume Artigues i Miquel Roig. 1997-2001

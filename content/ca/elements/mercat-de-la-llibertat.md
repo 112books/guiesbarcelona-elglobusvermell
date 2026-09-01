@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-llibertat/"]
 adreca: Pl. Llibertat, 27
 districte: "Gràcia"
 zona: "Gràcia"

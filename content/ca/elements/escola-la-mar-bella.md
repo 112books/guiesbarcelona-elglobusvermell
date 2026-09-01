@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/escola-la-mar-bella/"]
 adreca: Pl. Sant Bernat Calbó, 2
 any: '2021'
 arquitectes:

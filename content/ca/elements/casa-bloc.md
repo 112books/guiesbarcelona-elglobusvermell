@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/casa-bloc/"]
 adreca: Pg. de Torras i Bages, 91-106
 any: 1933
 arquitectes:

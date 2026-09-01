@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-danais-napoleon/"]
 adreca: Marina, 155
 descripcio: Anaïs Napoleon (Anne Tiffon Cassan),(Narbona, 1827 – Barcelona, 1912).
   Fundadora, conjuntament amb el seu marit, Antonio Fernández, de la companyia fotogràfica

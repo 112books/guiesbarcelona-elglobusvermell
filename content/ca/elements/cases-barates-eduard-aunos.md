@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/cases-barates-eduard-aunos/"]
 adreca: Àrea delimitada pels carrers Ulldecona, Ascó, Arnes i Sovelles
 any: '1929'
 draft: false

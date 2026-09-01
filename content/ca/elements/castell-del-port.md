@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/castell-del-port/"]
 draft: false
 foto: /img/elements/castell-del-port.jpg
 intervencions:

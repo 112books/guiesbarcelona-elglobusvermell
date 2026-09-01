@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-carme-biada/"]
 adreca: C. Bruc, 153 + C. Roger de Llúria, 132
 descripcio: 'Equipaments: Escola bressol “Casa dels Nens” Carme Biada. (Barcelona,
   1874 – 1949). Besneta de Miquel Biada, constructor de la primera línia de tren de

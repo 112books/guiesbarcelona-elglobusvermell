@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-merce-plantada/"]
 adreca: C. Àlaba, 49 + C. Pamplona, 42
 descripcio: 'Més info: Terrenys de l’antiga fàbrica Torras Herrería y Construcciones,
   coneguda com Can Torras dels Ferros i dedicada a la producció d’estructures metàl·liques.

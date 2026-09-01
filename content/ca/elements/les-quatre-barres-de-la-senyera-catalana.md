@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/les-quatre-barres-de-la-senyera-catalana/"]
 adreca: Pl. Rosa dels Vents 1
 descripcio: 'Autoria: Ricard Bofill Levi. 2009 Quatre prismes verticals de marbre,
   amb una torsió de 90° en cada un, però a diferent alçada, evoquen la senyera davant

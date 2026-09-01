@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/conjunt-residencial-les-cotxeres/"]
 adreca: Pg. Manuel Girona 75
 any: '1973'
 arquitectes:

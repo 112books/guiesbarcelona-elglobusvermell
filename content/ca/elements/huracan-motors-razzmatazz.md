@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/huracan-motors-razzmatazz/"]
 adreca: Almogàvers 122-124
 any: '1957'
 arquitectes:

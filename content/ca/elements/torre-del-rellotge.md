@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/torre-del-rellotge/"]
 adreca: Moll de Pescadors s/n
 draft: false
 intervencions:

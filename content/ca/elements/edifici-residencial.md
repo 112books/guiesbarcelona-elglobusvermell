@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-residencial/"]
 adreca: Praga, 22-24
 any: '2021'
 arquitectes:

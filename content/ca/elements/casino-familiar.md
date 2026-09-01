@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/casino-familiar/"]
 adreca: Badajoz 79
 draft: false
 intervencions:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/pavello-de-la-republica-de-1937/"]
 districte: "Horta-Guinardó"
 draft: false
 foto: /img/elements/pavello-de-la-republica-biblioteca-crai-ub.jpg

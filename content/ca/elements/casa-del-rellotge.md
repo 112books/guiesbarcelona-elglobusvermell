@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/casa-del-rellotge/"]
 adreca: Jardins de Can Ferrero, Pg. de la Zona Franca, 116
 any: '1912'
 draft: false

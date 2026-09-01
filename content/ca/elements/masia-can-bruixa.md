@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-bruixa/"]
 adreca: Parcerisa, 8
 descripcio: Parcerisa, 8 Construïda a la segona meitat del segle XIX com a explotació
   agrària i reformada a la segona meitat del segle XX . Està pendent de rehabilitació

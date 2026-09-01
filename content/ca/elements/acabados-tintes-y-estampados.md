@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/acabados-tintes-y-estampados/"]
 adreca: Marroc 170-190
 any: '1946'
 arquitectes:

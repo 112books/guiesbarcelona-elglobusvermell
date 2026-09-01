@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/placa-de-soledad-gustavo/"]
 adreca: Rambla de Guipúscoa, 70
 descripcio: Teresa Mañé i Miravet (coneguda com a Soledad Gustavo ). (Vilanova i la
   Geltrú, 1865 – Perpinyà, 1939). Pedagoga, editora, escriptora i periodista anarcosindicalista.

@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/passatge-de-maria-vila/"]
 adreca: Rambla Guipúscoa, 98 bis + C. Concili de Trento, 201
 descripcio: Maria Vila i Panadès. (Barcelona, 1897 – 1963). Actriu reconeguda per
   crítics i literats com la primera actriu del teatre català contemporani. El 1927

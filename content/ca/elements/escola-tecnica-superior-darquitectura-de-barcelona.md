@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/escola-tecnica-superior-darquitectura-de-barcelona/"]
 adreca: Diagonal 649
 any: '1962'
 arquitectes:

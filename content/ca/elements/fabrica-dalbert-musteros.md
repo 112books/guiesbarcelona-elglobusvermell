@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/fabrica-dalbert-musteros/"]
 adreca: Pamplona 88-90 + Pallars 115-119
 draft: false
 foto: /img/elements/fabrica-dalbert-musteros.jpg

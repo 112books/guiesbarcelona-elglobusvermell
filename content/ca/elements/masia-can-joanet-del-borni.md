@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-joanet-del-borni/"]
 adreca: Neopàtria, 22-28
 descripcio: Neopàtria, 22-28 Casa originària del segle XVIII . S’hi han fet diverses
   reformes als segles XIX i XX . Actualment té un ús residencial.

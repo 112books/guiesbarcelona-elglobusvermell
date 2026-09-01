@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-compte-borrell/"]
 adreca: Comte Borrell 205-213
 any: '1958'
 arquitectes:

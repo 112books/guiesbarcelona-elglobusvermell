@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/yorka-abans-apresto-de-sederias/"]
 adreca: Cristóbal de Moura 118-134
 any: '1906'
 arquitectes:

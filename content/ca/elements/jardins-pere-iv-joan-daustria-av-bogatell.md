@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-pere-iv-joan-daustria-av-bogatell/"]
 adreca: Pere IV, 8-10 + Av. Bogatell, 80
 descripcio: ''
 draft: false

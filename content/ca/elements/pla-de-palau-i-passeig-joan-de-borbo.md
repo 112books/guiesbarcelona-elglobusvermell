@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/pla-de-palau-i-passeig-joan-de-borbo/"]
 draft: false
 intervencions:
 - any: Olga Tarrasó i Jordi Henrich. 1988-1994

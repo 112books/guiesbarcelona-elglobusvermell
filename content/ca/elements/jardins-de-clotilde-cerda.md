@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-clotilde-cerda/"]
 adreca: Marina, 197 + C. Sardenya, 254 bis
 descripcio: 'Equipament: Equipament escolar previst Clotilde Cerdà i Bosch. (Barcelona,
   1861 – Santa Cruz de Tenerife, 1926). Concertista d’arpa i compositora, filla de

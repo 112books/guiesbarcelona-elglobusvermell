@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/facultat-de-ciencies-economiques/"]
 adreca: Av. Diagonal 690
 any: '1967'
 arquitectes:

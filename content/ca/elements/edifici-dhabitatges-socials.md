@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-dhabitatges-socials/", "/2010-2025/edifici-dhabitatges-socials-2/"]
 adreca: Ulldecona / Cal Cisó / Pontils
 any: '2022'
 arquitectes:

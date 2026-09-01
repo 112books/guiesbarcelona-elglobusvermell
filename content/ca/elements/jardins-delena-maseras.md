@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-delena-maseras/"]
 adreca: Rosselló, 161-169
 descripcio: 'Equipament: Consultes externes de l’Hospital Clínic Elena Maseras i
   Ribera. (Vila-seca, 1853 – Maó, 1905). Metgessa i pedagoga. L’any 1872 es convertí

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-valenti-puigbo/"]
 adreca: Atlàntida 63
 any: '1892'
 arquitectes:

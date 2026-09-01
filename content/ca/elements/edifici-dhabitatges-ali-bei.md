@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/edifici-dhabitatges-ali-bei/"]
 adreca: Ali Bei, 100-102
 any: '2020'
 arquitectes:

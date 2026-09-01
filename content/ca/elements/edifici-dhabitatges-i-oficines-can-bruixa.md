@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-i-oficines-can-bruixa/"]
 adreca: Galileu 281-285
 any: '1975'
 arquitectes:

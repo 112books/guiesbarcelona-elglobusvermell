@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/peix-daurat/"]
 adreca: Pg. Marítim
 descripcio: 'Autoria: Frank Gehry. 1992 Escultura gegant (56 metres de llarg per 35
   d’alçada) –i també umbracle– que mostra un peix configurat per una superfície de

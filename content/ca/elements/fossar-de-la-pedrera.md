@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/fossar-de-la-pedrera/"]
 any: '1985'
 arquitectes:
 - Beth Galí

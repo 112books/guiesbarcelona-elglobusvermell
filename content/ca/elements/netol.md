@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/netol/"]
 adreca: Tànger 98-108 + Ciutat de Granada 130-134
 any: 1959
 anys_reforma:

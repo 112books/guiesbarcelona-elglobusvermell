@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-diagonal-ciutat-de-granada-bolivia-badajoz/"]
 adreca: Diagonal, 205-211 + C. Ciutat de Granada, 143 + C. Bolívia, 45 + C. Badajoz,
   166
 any: 2017

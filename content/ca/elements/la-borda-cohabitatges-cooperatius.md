@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/la-borda-cohabitatges-cooperatius/"]
 adreca: Constitució, 85-89
 any: '2018'
 arquitectes:

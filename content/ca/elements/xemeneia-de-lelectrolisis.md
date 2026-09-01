@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-lelectrolisis/"]
 adreca: Camí Antic de València 37-39
 draft: false
 intervencions:

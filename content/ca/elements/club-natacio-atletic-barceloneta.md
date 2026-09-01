@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/club-natacio-atletic-barceloneta/"]
 adreca: Pl. del Mar s/n
 any: '1994'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/tallers-oliva-artes/"]
 adreca: Parc del Centre del Poblenou (Marroc 42-50 + Espronceda 146-152)
 any: '1923'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-seida/"]
 adreca: Av. Sarrià 130-152
 any: '1958'
 arquitectes:

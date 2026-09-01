@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-dels-encants-fira-de-bellcaire/"]
 adreca: Castillejos, 158 / Av. Meridiana, 69
 any: 2013
 arquitectes:

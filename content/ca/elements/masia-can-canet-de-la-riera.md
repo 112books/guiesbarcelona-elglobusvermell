@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-canet-de-la-riera/"]
 adreca: Bosch i Gimpera, 5-13
 descripcio: Bosch i Gimpera, 5-13 Construïda a l’edat mitjana i dedicada al conreu
   de cereals, vinya i garrofes. Pateix importants reformes als segles XVIII i XX .

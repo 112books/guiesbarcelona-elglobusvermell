@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/xemeneia-de-can-girona-macosa/"]
 adreca: Ramon Turró 337-339 / Llull 328-332
 any: '1952'
 draft: false

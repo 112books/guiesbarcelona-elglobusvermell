@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-mascaro/"]
 adreca: Dr. Cadevall, 28-52
 descripcio: Dr. Cadevall, 28-52 També coneguda com a Casa Córdoba-Planàs
 districte: "Horta-Guinardó"

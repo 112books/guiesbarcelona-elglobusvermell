@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-marina/"]
 adreca: Pg. de la Zona Franca, 178
 descripcio: 'Projecte original: 1973 Nou mercat (canvi d’ubicació): Albert de Pineda.
   2003'

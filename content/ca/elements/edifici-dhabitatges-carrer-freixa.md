@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-freixa/"]
 adreca: Freixa 36
 any: '1958'
 arquitectes:

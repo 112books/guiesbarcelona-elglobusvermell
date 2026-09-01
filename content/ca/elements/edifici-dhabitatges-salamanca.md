@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/edifici-dhabitatges-salamanca/"]
 adreca: Salamanca 42-44
 draft: false
 intervencions:

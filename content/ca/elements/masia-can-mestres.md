@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/masia-can-mestres/", "/masies/masia-can-mestres-2/"]
 adreca: Camí de Can Clos, 1-9
 any: '1920'
 districte: "Sants-Montjuïc"

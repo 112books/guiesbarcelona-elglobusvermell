@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/poligon-montbau/"]
 adreca: Arquitectura / Vayreda / Pg. Vall d’Hebron / Poesia / Àngel Marquès
 any: '1965'
 arquitectes:

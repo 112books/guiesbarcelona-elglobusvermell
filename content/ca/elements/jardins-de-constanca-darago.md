@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-constanca-darago/"]
 adreca: C. Roger de Flor, 194-198
 descripcio: 'Equipament: CAP Dreta de l’Eixample Constança d’Aragó i d’Entença.
   (Balaguer, ca. 1318 – Montpeller, 1346). Princesa d’Aragó i reina consort de Mallorca

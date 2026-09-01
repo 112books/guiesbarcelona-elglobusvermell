@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/la-seca-fundacio-joan-brossa/"]
 adreca: Flassaders, 40
 any: '2011'
 arquitectes:

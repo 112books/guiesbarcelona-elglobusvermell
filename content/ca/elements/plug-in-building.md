@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/plug-in-building/"]
 adreca: Pujades, 51-57
 any: '2011'
 arquitectes:

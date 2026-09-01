@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/can-culleres/"]
 adreca: Pallars 188 + Roc Boronat 72-78
 any: '1947'
 arquitectes:

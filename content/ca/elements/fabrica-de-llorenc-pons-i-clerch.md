@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/fabrica-de-llorenc-pons-i-clerch/"]
 adreca: Sancho de Àvila 105-111
 any: 1902
 anys_reforma:

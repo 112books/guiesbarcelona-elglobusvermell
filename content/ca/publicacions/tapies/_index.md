@@ -1,5 +1,7 @@
 ---
 title: "La Barcelona de Tàpies / Tàpies a Barcelona"
+description: "La Barcelona de Tàpies: itinerari per l'obra de l'artista i la seva relació amb la ciutat."
+foto: "/img/publicacions/tapies.jpg"
 edicio: 2024
 ---
 

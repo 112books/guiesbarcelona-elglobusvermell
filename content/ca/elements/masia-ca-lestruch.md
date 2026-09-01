@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-ca-lestruch/"]
 adreca: Pons i Gallarza, 30 bis-32
 descripcio: Pons i Gallarza, 30 bis-32 També conegut com a Can Riera Mas dels segles
   XVI-XVII , que va funcionar com a casa pairal fins a principis del segle XX . Ha

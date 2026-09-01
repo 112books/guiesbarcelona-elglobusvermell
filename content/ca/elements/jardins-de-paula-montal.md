@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-paula-montal/"]
 adreca: C. Viladomat, 149
 descripcio: 2, Paula Montal i Fornés . (Arenys de Mar, 1799 – Olesa de Montserrat,
   1889). Religiosa fundadora de la congregació Filles de Maria, religioses de les

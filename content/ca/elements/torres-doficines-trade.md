@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/torres-doficines-trade/"]
 adreca: Av. Carles III 92-94
 any: '1969'
 arquitectes:

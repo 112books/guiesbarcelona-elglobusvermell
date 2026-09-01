@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/conjunt-dhabitatges-tirant-lo-blanc/"]
 adreca: Pl. Tirant lo Blanc, 1
 descripcio: 'Projecte: Martínez Lapeña-Torres. 1992 Premi FAD Arquitectura Premi Dècada'
 draft: false

@@ -1,4 +1,5 @@
 ---
+aliases: ["/marina-prat-vermell/placa-del-moviment-obrer-skatepark/"]
 adreca: Pg. de la Zona Franca / Foc
 any: '2018'
 arquitectes:

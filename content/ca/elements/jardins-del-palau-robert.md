@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-del-palau-robert/"]
 adreca: Còrsega, 306-310 + Pg. de Gràcia, 107 + C. Rosselló, 249
 descripcio: 'Equipament: Centre Cultural Palau Robert . Hi ha l’escultura La Lluna,
   de Kiku Mistu. Palau d’estil neoclàssic segons el projecte de l’arquitecte francès

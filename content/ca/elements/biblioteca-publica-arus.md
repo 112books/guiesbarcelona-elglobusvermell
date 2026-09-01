@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-publica-arus/"]
 adreca: Pg. de Sant Joan, 26 |
 arquitectes:
 - Bonaventura Bassegoda

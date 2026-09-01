@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/edifici-media-tic/"]
 adreca: Sancho de Ávila, 133
 any: 2009
 arquitectes:

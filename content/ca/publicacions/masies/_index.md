@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/masies/"]
 title: "Masies de Barcelona"
+description: "Masies de Barcelona: el patrimoni rural i agrícola que ha sobreviscut dins la ciutat. Plànol-guia en preparació."
+foto: "/img/publicacions/masies.jpg"
 edicio: "2025 (pendent)"
 ---
 

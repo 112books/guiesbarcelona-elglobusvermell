@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/nau-industrial-modernista/"]
 adreca: Pujades 97
 any: '1907'
 arquitectes:

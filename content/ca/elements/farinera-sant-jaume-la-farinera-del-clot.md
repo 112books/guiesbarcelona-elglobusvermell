@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/farinera-sant-jaume-la-farinera-del-clot/"]
 adreca: Gran Via 837
 any: 1908
 anys_reforma:

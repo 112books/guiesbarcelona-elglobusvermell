@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-gran-via/"]
 adreca: Gran Via, 737
 any: 1935
 arquitectes:

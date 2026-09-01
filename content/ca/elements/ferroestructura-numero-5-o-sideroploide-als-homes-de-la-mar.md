@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/ferroestructura-numero-5-o-sideroploide-als-homes-de-la-mar/"]
 adreca: Moll de Pescadors
 descripcio: 'Autoria: Salvador Aulèstia. 1963 Aquesta obra, feta amb 100 tones de
   ferro colat reciclat de la ferralla dels vaixells, és una de les escultures de ferro

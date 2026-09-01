@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/antic-escorxador/"]
 adreca: Espronceda 156
 any: '1947'
 descripcio: Antic escorxador. Actualment les dues naus tenen un ús industrial.

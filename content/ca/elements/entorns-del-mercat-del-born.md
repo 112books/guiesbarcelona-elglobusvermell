@@ -1,4 +1,5 @@
 ---
+aliases: ["/2010-2025/entorns-del-mercat-del-born/"]
 adreca: Pl. Comercial / Comerç / Fusina / Ribera
 draft: false
 intervencions:

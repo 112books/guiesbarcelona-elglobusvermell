@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-denriqueta-seculi/"]
 adreca: Simó, 9-13
 descripcio: Enriqueta Sèculi i Bastida. (Barcelona, 1897 – 1976). Pedagoga i escriptora
   feminista catalana. Fou fundadora del Club Femení d’Esports, del Lyceum Club, de

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/nereida/"]
 adreca: Pg. Joan de Borbó (rotonda davant de la plaça de la Rosa dels Vents)
 descripcio: 'Autoria: Alfredo Lanz. 2004 Segons la mitologia grega, les nereides són
   nimfes del mar i solien ser representades nues i amb una certa voluptuositat. Aquesta

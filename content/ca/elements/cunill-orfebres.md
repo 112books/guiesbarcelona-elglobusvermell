@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/cunill-orfebres/"]
 adreca: Ptge. Ratés 1-9 + Sancho de Ávila 41-45
 any: '1965'
 arquitectes:

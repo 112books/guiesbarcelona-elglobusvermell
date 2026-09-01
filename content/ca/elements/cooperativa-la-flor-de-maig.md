@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/cooperativa-la-flor-de-maig/"]
 adreca: Doctor Trueta 195 + Ptge. Bori 2-4
 draft: false
 foto: /img/elements/cooperativa-la-flor-de-maig.jpg

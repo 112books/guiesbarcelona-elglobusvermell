@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/naus-de-la-familia-ametller/"]
 adreca: Dr. Trueta 127-135 + Badajoz 25
 any: '1917'
 arquitectes:

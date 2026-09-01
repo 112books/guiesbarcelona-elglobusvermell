@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/interiors-illa/"]
 title: "Jardins interiors d'illa de l'Eixample. Barcelona"
+description: "La xarxa de jardins interiors d'illa de l'Eixample: més de 70 espais verds recuperats dins la trama de Cerdà, amb la història de cada jardí i del seu nom."
+foto: "/img/publicacions/interiors-illa.jpg"
 edicio: 2018
 ---
 

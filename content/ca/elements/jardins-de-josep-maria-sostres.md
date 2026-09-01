@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-josep-maria-sostres/"]
 adreca: Pg. Taulat, 224+236 + C. Selva de Mar, 3 + C. Provençals, 2
 descripcio: Josep Maria Sostres i Maluquer. (La Seu d’Urgell, 1915 – Barcelona,
   1984). Arquitecte. Especialitzat en la construcció d’habitatges unifamiliars, també

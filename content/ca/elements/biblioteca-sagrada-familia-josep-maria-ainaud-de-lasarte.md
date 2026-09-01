@@ -1,4 +1,5 @@
 ---
+aliases: ["/biblioteques/biblioteca-sagrada-familia-josep-maria-ainaud-de-lasarte/"]
 adreca: C. Provença, 480 | Sagrada Família
 arquitectes:
 - Manuel Ruisánchez

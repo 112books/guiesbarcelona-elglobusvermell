@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/ca-laranyo/"]
 adreca: Llacuna 123-135 + Roc Boronat 134-150 + Tànger 117-135
 any: 1872
 anys_reforma:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-ros/"]
 adreca: Gran de Sant Andreu
 descripcio: Pl. Comerç / Gran de Sant Andreu
 districte: "Sant Andreu"

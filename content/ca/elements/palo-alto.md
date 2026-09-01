@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/palo-alto/"]
 adreca: Pellaires 30 + Ferrers 11
 any: '1875'
 arquitectes:

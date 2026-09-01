@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-maria-merce-marcal/"]
 adreca: C. Provença, 97
 descripcio: 'Equipaments: Espai de Gent Gran de l’Esquerra de l’Eixample + Pavelló
   d’esports de l’escola IPSI Més info: Un mural recorda que anteriorment aquest solar

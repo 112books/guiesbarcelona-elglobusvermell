@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/aparthotel-citadines/"]
 adreca: La Rambla, 122
 any: 1994
 arquitectes:

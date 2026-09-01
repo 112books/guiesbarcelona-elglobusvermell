@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/david-i-goliat/"]
 adreca: Parc de les Cascades
 descripcio: 'Autoria: Antoni Llena. 1992 Enorme escultura d’acer, formada per una
   cara (Goliat) sostinguda per tres fines potes retorçades (David). Sembla que el

@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-sant-gervasi/"]
 adreca: Pl. Joaquim Folguera, 6
 districte: "Sarrià-Sant Gervasi"
 zona: "Sant Gervasi"

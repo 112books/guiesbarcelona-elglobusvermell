@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-direne-polo/"]
 adreca: Rambla del Poblenou, 147 + C. Llacuna, 146
 descripcio: Irene Polo i Roig. (Barcelona, 1909 – 1942). Periodista, publicista
   i representant teatral catalana. Fou una de les primeres dones periodistes en la

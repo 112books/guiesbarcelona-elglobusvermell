@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-pepa-colomer/"]
 adreca: Hondures, 27 + C. Felip II, 42
 descripcio: Pepa Colomer i Luque. (Barcelona, 1913 – Surrey, Anglaterra, 2004). Primera
   aviadora catalana de la història. Durant la Guerra Civil treballà formant nous pilots

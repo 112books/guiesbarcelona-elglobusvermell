@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-ca-nensenya/"]
 adreca: Masia Ca n’Ensenya
 descripcio: 'Pl. de Ca n’Ensenya, 4 / Parc Central de Nou Barris També conegut com
   a Ca n’Amell Gran Masia del segle XVII i reformada integralment el 1876. Actualment

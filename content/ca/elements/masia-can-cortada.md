@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-cortada/"]
 adreca: Av. de l’Estatut de Catalunya, 57-71
 descripcio: Av. de l’Estatut de Catalunya, 57-71 Conjunt fortificat d’entre els segles
   XI i XIV . Funciona com a masia des de la segona meitat del segle XVII fins a mitjan

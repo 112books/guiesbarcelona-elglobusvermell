@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-calatrava/"]
 adreca: Calatrava 2 / Rosari 45
 any: '1968'
 arquitectes:

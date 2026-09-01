@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-la-trinitat/"]
 adreca: Pedrosa, 21
 districte: "Nou Barris"
 zona: "Nous barris"

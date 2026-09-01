@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-joan-fuster/"]
 adreca: Pg. Taulat, 142+148 + C. Bac de Roda, 5 + C. Espronceda, 6
 descripcio: Joan Fuster i Ortells. (Sueca, 1922 – 1992). Escriptor valencià, considerat
   un dels assagistes en català més importants del segle XX. Alhora, la seua tasca

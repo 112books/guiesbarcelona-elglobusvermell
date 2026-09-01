@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/facultat-de-dret/"]
 adreca: Av. Diagonal 684
 any: '1958'
 arquitectes:

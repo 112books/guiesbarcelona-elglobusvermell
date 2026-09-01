@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardi-de-cristina-fernandez/"]
 adreca: Comte d’Urgell, 31 + C. Comte Borrell, 82
 descripcio: Cristina Fernández Pereira. (Villasinde, Lleó, 1900 – Barcelona, 1939).
   Portera executada pel règim franquista. El propietari de la finca on treballava,

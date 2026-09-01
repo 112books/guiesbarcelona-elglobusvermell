@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-del-cami-antic-de-valencia-lope-de-vega-pallars-bilbao/"]
 adreca: Camí antic de València, 68 + C. Pallars, 293
 descripcio: ''
 draft: false

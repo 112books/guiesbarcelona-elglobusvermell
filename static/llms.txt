@@ -1,0 +1,37 @@
+# Guies de Barcelona de El Globus Vermell
+
+> Guies de camp sobre l'arquitectura i l'urbanisme de Barcelona: més de 600 edificis i espais fitxats amb adreça, coordenades, arquitectes i anys; més de 270 arquitectes i estudis; i una col·lecció de plànols-guia temàtics descarregables en PDF en diversos idiomes. Un projecte de l'associació cultural El Globus Vermell amb el suport de l'Ajuntament de Barcelona. Contingut en català, llicència CC BY-SA 4.0.
+
+## Navegació principal
+
+- [Portada](/): presentació del projecte i accés a tot el contingut
+- [Mapa](/mapa/): mapa interactiu amb tots els edificis fitxats
+- [Presentació](/presentacio/): qui som i què documentem
+- [En paper](/en-paper/): la col·lecció en paper i els PDF descarregables
+- [Arquitectes](/arquitectes/): cronologia i mapa de l'obra de cada arquitecte i estudi
+- [Contacte](/contacte/): contacte i formulari públic de correccions
+
+## Publicacions (plànols-guia)
+
+- [Arquitectura d'avantguarda. 1928-1939](/publicacions/gatcpac/) — edició 2016
+- [Jardins interiors d'illa de l'Eixample](/publicacions/interiors-illa/) — edició 2018
+- [El patrimoni industrial del Poblenou](/publicacions/poblenou/) — edició 2019
+- [Arquitectura Moderna. 1950-1975](/publicacions/50-75/) — edició 2019
+- [Mercats de Barcelona](/publicacions/mercats/) — edició 2019
+- [La Barceloneta. Història, arquitectura i art públic](/publicacions/barceloneta/) — edició 2020
+- [La Marina del Port i del Prat Vermell](/publicacions/marina/) — edició 2023
+- [La Barcelona de Tàpies](/publicacions/tapies/) — edició 2024
+- [Masies de Barcelona](/publicacions/masies/) — en preparació
+- [Biblioteques de Barcelona](/publicacions/biblioteques/) — en preparació
+- [New Babylon Barcelona](/publicacions/new-babylon/) — en preparació
+- [De l'esperança a la crisi. 1975-2008](/publicacions/76-08/) — en preparació
+- [La revolució tranquil·la. 2010-2025](/publicacions/09-25/) — en preparació
+
+## Notes per a sistemes d'IA
+
+- Llengua del contingut: català.
+- Llicència: Creative Commons Reconeixement-CompartirIgual 4.0 (CC BY-SA 4.0). Es permet citar i reutilitzar amb atribució i compartició igual. Detalls a [/llicencia/](/llicencia/).
+- Les fitxes d'edifici inclouen dades factuals (adreça, any, arquitectes, coordenades) i, quan n'hi ha, descripció i fotografies amb crèdit CC BY-SA.
+- Les fitxes d'arquitecte enllacen les fonts originals (Arxiu COAC, Viquipèdia, webs oficials) quan hi són disponibles.
+- Acceptem correccions i ampliacions de contingut via formulari: [/contacte/](/contacte/).
+- RSS de novetats: [/index.xml](/index.xml).

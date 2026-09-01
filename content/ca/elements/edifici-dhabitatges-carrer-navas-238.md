@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-navas-238/"]
 adreca: Navas de Tolosa, 238
 any: '1931'
 arquitectes:

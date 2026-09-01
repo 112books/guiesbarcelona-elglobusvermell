@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-viladomat/"]
 adreca: C. de Viladomat, 265
 any: 1935
 arquitectes:

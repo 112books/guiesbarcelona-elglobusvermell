@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-verdaguer/"]
 adreca: Piferrer, 94
 descripcio: Piferrer, 94 / Jardins de Can Verdaguer Casa de pagès del segle XVI i
   amb ús agrícola fins al 1987. Actualment acull el Centre Cívic Can Verdaguer.

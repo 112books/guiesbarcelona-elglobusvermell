@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/homenatge-a-la-natacio/"]
 adreca: Pl. del Mar
 descripcio: 'Autoria: Alfredo Lanz. 2004 Gran conjunt de formes abstractes i siluetes
   d’acer Corten que representen les diferents modalitats de la natació: velocitat,

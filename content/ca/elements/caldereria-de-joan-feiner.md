@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/caldereria-de-joan-feiner/"]
 adreca: Zamora 78-90 + Pallars 93-95
 any: '1946'
 arquitectes:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/mitgera-dels-objectes/"]
 adreca: Pescadors 85 (davant de la platja, entre Pescadors i Comte de Santa Clara)
 descripcio: 'Autoria: Alumnes de Ciutat Vella. 2011 Obra impulsada per l’IMPU i creada
   per mitjà de la participació de 1.300 alumnes d’escoles de Ciutat Vella. A partir

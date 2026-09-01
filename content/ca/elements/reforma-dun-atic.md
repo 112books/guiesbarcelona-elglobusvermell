@@ -1,4 +1,5 @@
 ---
+aliases: ["/avantguarda-1928-1938/reforma-dun-atic/"]
 adreca: C. de Provença, 269
 any: 1934
 arquitectes:

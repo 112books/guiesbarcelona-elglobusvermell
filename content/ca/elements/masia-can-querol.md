@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-querol/"]
 adreca: Pg. Maragall, 378-394
 descripcio: Pg. Maragall, 378-394 / Petrarca, 46-60 / Sant Alexandre, 61-67
 districte: "Horta-Guinardó"

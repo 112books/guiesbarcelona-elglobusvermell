@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-passeig-maragall/"]
 adreca: Pg. Maragall 243-247
 any: '1959'
 arquitectes:

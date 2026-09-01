@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-sebastia-gasch/", "/eixample-jardins-interiors/jardins-de-sebastia-gasch-2/"]
 adreca: C. Rocafort, 87 + C. Entença, 62
 descripcio: Sebastià Gasch i Carreras . (Barcelona, 1897 – 1980). Escriptor i crític
   d’art, considerat un dels crítics fonamentals de l’avantguarda catalana. Fou dels

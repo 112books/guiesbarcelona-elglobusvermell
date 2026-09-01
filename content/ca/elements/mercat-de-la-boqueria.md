@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/boqueria/"]
 adreca: La Rambla, 89
 districte: "Ciutat Vella"
 zona: "Ciutat Vella"

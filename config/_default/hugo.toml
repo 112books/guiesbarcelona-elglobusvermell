@@ -1,6 +1,7 @@
 title   = "Guies de Barcelona de El Globus Vermell"
 theme   = "guiesbcn-elglobusvermell"
 enableRobotsTXT = true
+enableGitInfo = true
 disableHugoGeneratorInject = true
 summaryLength   = 70
 # Sense això, Hugo posa en majúscula la primera lletra de cada paraula dels
@@ -61,7 +62,7 @@ defaultContentLanguageInSubdir = false
   logoImg        = "img/Arquitectura-i-urbanisme-de-barcelona.svg"
   logoCompact    = "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg"
   logoText       = "El Globus Vermell"
-  defaultOgImage = ""
+  defaultOgImage = "/img/logo-guiesbarcelona.jpg"
   # GoatCounter: afegir URL al fitxer d'entorn (production/hugo.toml o secrets)
   # Exemple: gc_url = "https://guiesbarcelona.goatcounter.com"
   gc_url         = "https://guiesbarcelona.goatcounter.com"

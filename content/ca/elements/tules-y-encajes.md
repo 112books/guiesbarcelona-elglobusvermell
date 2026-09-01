@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/tules-y-encajes/"]
 adreca: Perú 62-64 + Castella 56-60
 any: '1945'
 arquitectes:

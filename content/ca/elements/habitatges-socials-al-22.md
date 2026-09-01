@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-socials-al-22/"]
 adreca: Pallars, 336
 any: '2008'
 arquitectes:

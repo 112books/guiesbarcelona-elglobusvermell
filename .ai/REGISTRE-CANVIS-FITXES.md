@@ -60,6 +60,33 @@ Nota "Nous barris" (31 ago): verificat que totes les etiquetes de zona dels merc
 servir "Nous barris" (camp `zona` + `ORDRE_ZONES_MERCATS`). "Nou Barris" (nom oficial de
 districte) només apareix a l'agrupació per districte de masies/biblioteques, que es manté.
 
+### Millores SEO/GEO/AEO implementades — només metadades, sense tocar disseny ni contingut (1 set 2026)
+
+Aprovació de Joan (1 set 2026): «Es molt important que no es toqui el disseny i que s'arregli
+al màxim» + «Prefereixo lliurar-lo ja més decent i en positiu, explicant el que hi ha
+implementat». **Cap fitxa creada ni esborrada: els 661 elements queden exactament iguals**;
+els canvis són metadades d'indexació (front matter `aliases`/`description`/`foto` i plantilles
+de capçalera). Informe complet de l'auditoria: `.ai/informe-seo-geo-aeo-2026-09-01.pdf`.
+
+| # | Implementat | Detall |
+|---|---|---|
+| 1 | Dada estructurada JSON-LD corregida | Tota la dada era invàlida (l'auto-escaping de Go escapava les cometes del `jsonify` dins `<script>`); afegit `safeJS` arreu — l'idioma que el tema ja usa a `term.html`. Verificat als builds: `WebSite` (portada) i `LandmarksOrHistoricalBuildings` (fitxes) ara vàlids |
+| 2 | Schema Person/Organization per als 277 arquitectes | Amb `sameAs` enllaçant l'Arxiu COAC, Viquipèdia i web oficial quan la fitxa en té; els estudis surten com a `Organization` |
+| 3 | Redireccions de les 671 URLs del WordPress antic | Via `aliases` de Hugo a 660 fitxes (649 elements + 11 publicacions); 44 renoms verificats un per un contra els títols del WP i les fitxes Hugo, i les 11 pàgines `/text/` del WP apunten a les publicacions. Script idempotent `scripts/aliases-wordpress.py`; plantilla `alias.html` catalana (meta-refresh + canonical + noindex) |
+| 4 | `robots.txt` de producció completat | `Sitemap:` + `Disallow: /admin/`. L'staging queda exactament com era (bloqueja tot, per disseny) |
+| 5 | `llms.txt` nou | Resum del web en Markdown per als motors d'IA (estàndard llmstxt.org), amb el llistat de les 13 publicacions i notes de llicència i fonts |
+| 6 | `404.html` propi | Amb el layout del tema (classes existents, cap disseny nou) i enllaços a portada, mapa, publicacions, arquitectes i contacte |
+| 7 | Meta descriptions específiques | Les 13 publicacions (derivades del títol i any d'edició) + hubs: `arquitectes` i `accessibilitat` (noves), `presentacio` (millorada), i `publicacions/_index.md` nou amb títol «Publicacions» (abans el títol sortia «publicacions» en minúscula) |
+| 8 | `og:image` a tot el web a producció | Logo del web com a imatge per defecte (`defaultOgImage`) + portada de cada plànol a la seva pàgina de publicació (13/13, la de mercats inclosa) |
+| 9 | Títol de la pàgina del mapa | «Mapa» (l'anterior, amb el sufix del template, generava «Guies Barcelona — El Globus Vermell — Guies de Barcelona de El Globus Vermell») |
+| 10 | `lastmod` a les 964 URLs del sitemap | `enableGitInfo = true` a la config (el workflow ja fa `fetch-depth: 0`, cap canvi més necessari) |
+| 11 | `head.html`: títol net al 404 | Sense el separador buit « — » quan la pàgina no porta títol |
+
+Verificació (builds locals staging + producció, 1 set): JSON-LD net als dos entorns, robots.txt
+correcte per entorn, 671 pàgines d'alias generades amb canonical, sitemap amb 964 URLs (els
+aliases no hi entren) i lastmod a totes, og:image present a producció, títols nous de mapa i
+publicacions. Res canvia visualment: els dos builds només diferien a `<head>` i als fitxers nous.
+
 ---
 
 ## Pendents d'aprovació (NO executar sense confirmació expressa de Joan)

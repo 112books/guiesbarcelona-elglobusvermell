@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-baro/"]
 adreca: Pl. Can Baró, 1-3
 descripcio: Pl. Can Baró, 1-3 Masia del segle XVII , conserva una inscripció amb l’any
   1674. Sembla que al segle XVIII va patir una important reforma. Actualment té un

@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-sant-antoni/"]
 adreca: Comte Borrell, 1
 districte: "Eixample"
 zona: "Eixample"

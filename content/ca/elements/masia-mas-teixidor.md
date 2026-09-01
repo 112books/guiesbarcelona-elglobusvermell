@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-mas-teixidor/"]
 adreca: Can Caralleu, 6-14
 descripcio: Jardins de Can Sentmenat / Can Caralleu, 6-14 / Pg. de Santa Eulàlia,
   25

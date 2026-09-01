@@ -1,4 +1,5 @@
 ---
+aliases: ["/eixample-jardins-interiors/jardins-de-beatriu-pinos-milany/"]
 adreca: C. Rosselló, 149-153
 descripcio: 'Equipament: Centre de recerca biomèdica CEK (Centre Esther Koplowitz)
   Beatriu Pinós-Milany. (Catalunya, 1433 – Palma, 1485). Baronessa. Protectora, impulsora

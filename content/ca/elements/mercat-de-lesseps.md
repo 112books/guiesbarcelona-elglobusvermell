@@ -1,4 +1,5 @@
 ---
+aliases: ["/mercats/mercat-de-lesseps/"]
 adreca: Verdi, 200
 districte: "Gràcia"
 zona: "Nous barris"

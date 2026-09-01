@@ -1,5 +1,8 @@
 ---
+aliases: ["/text/arquitectura-moderna-a-barcelona-1950-1975/"]
 title: "Arquitectura Moderna. 1950-1975"
+description: "Arquitectura Moderna a Barcelona, 1950-1975: els edificis del creixement de la ciutat entre el Moviment Modern i el desenvolupisme."
+foto: "/img/publicacions/50-75.jpg"
 edicio: 2019
 ---
 

@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/galetes-i-xocolata-solsona-i-rius/"]
 adreca: Àvila 34 + Montoya s/n (entrada per Àvila 32)
 any: '1926'
 arquitectes:

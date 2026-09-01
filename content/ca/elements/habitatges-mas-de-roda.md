@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-mas-de-roda/"]
 adreca: Ptge. Mas de Roda, 5
 any: '2009'
 arquitectes:

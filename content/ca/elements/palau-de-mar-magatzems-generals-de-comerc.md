@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/palau-de-mar-magatzems-generals-de-comerc/"]
 adreca: Moll del Dipòsit + Pl. Pau Vila 1-5
 draft: false
 intervencions:

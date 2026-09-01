@@ -1,4 +1,5 @@
 ---
+aliases: ["/masies/masia-can-manen/"]
 adreca: Mestre Dalmau, 3
 descripcio: Mestre Dalmau, 3
 districte: "Horta-Guinardó"

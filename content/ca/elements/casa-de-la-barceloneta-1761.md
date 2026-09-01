@@ -1,4 +1,5 @@
 ---
+aliases: ["/barceloneta/casa-de-la-barceloneta-1761/"]
 adreca: Sant Carles 6 + Sant Miquel 52 + Sant Elm 13
 any: '1761'
 draft: false

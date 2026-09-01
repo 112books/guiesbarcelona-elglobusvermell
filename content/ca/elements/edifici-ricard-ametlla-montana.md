@@ -1,4 +1,5 @@
 ---
+aliases: ["/poblenou-industrial/edifici-ricard-ametlla-montana/"]
 adreca: Espronceda 176-188
 draft: false
 intervencions:

@@ -1,4 +1,5 @@
 ---
+aliases: ["/1975-2008/habitatges-de-proteccio-oficial-per-a-joves/"]
 adreca: Sant Adrià, 33
 descripcio: 'Projecte: Emiliano López i Mònica Rivera. 2007 Premi FAD Arquitectura'
 draft: false

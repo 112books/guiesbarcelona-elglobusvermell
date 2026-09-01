@@ -1,4 +1,5 @@
 ---
+aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-bach-7/"]
 adreca: Bach 7
 any: '1961'
 arquitectes:
