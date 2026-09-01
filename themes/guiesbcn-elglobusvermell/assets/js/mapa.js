@@ -455,10 +455,14 @@
           var info = document.createElement('a');
           info.className = 'filtre-btn-info';
           info.href = pubs[slug].url;
-          info.textContent = 'i';
           var infoLabel = 'Veure la pàgina de "' + titol + '"';
           info.setAttribute('aria-label', infoLabel);
           info.setAttribute('title', infoLabel);
+          info.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>';
+          var srInfo = document.createElement('span');
+          srInfo.className = 'sr-only';
+          srInfo.textContent = infoLabel;
+          info.appendChild(srInfo);
           info.addEventListener('click', function (e) {
             e.stopPropagation();
             if (window.goatcounter && window.goatcounter.count) {

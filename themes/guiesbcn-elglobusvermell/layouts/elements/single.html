@@ -69,12 +69,13 @@
     </div>
     <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-prev" data-carrusel-prev aria-label="Imatge anterior">‹</button>
     <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-next" data-carrusel-next aria-label="Imatge següent">›</button>
-    <div class="fitxa-carrusel-dots" role="tablist" aria-label="Seleccionar imatge">
+    <div class="fitxa-carrusel-dots" role="group" aria-label="Seleccionar imatge">
       {{ range $i, $img := $imatgesObj }}
       <button type="button" class="fitxa-carrusel-dot{{ if eq $i 0 }} is-active{{ end }}"
-              data-carrusel-dot="{{ $i }}" role="tab" aria-label="Imatge {{ add $i 1 }} de {{ $total }}"></button>
+              data-carrusel-dot="{{ $i }}" aria-pressed="{{ if eq $i 0 }}true{{ else }}false{{ end }}" aria-label="Imatge {{ add $i 1 }} de {{ $total }}"></button>
       {{ end }}
     </div>
+    <span class="sr-only" id="carrusel-contador" role="status">Diapositiva 1 de {{ $total }}</span>
   </div>
   {{ else if $imatgesObj }}
   {{ $img := index $imatgesObj 0 }}

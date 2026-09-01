@@ -5,8 +5,9 @@
 </head>
 <body>
   <script>window.SITE_BASE = {{ (urls.Parse site.BaseURL).Path | jsonify | safeJS }};</script>
+  <a class="skip-link" href="#main">Salta al contingut principal</a>
   {{ partial "header.html" . }}
-  <main>
+  <main id="main" tabindex="-1">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}

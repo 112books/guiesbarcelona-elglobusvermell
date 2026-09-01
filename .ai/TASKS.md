@@ -151,15 +151,16 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
   - `robots.txt` de producció amb `Sitemap:` + `Disallow: /admin/`; `llms.txt` nou per a motors d'IA; `404.html` propi amb el layout del tema
   - Meta descriptions a les 13 publicacions + hubs (arquitectes, accessibilitat, presentació, publicacions amb títol nou); `og:image` per defecte (logo) + portades a les publicacions; títol del mapa; `enableGitInfo` → `lastmod` a les 964 URLs del sitemap
 
-### Pendent — accessibilitat (informe: 6-8h estimades)
-- ✅ Declaració d'accessibilitat (`/accessibilitat/`) revisada i ajustada a la realitat (1 set): mesures aplicades sense sobreprometre, limitacions conegudes ampliades (carrusel amb teclat, focus dels filtres, contrast de 2 elements, skip link) i allotjament actualitzat. Quan es facin les millores d'aquesta llista, passaran a "Mesures aplicades"
-- ⏳ Contrast insuficient: `.footer-powered-link` (#b3b3b3 → #6b6b6b), `::placeholder` (#aaa → #767676) — `main.css:302,532`
-- ⏳ Carrusel: `keydown` ArrowLeft/ArrowRight, dots 44px, `aria-pressed` als dots — `fitxa.js:45-90`
-- ⏳ Focus visible filtres mapa: `:focus-visible` explícit a `.filtre-btn`, `.filtre-lateral` — `main.css:~550`
-- ⏳ Botó "i" de publicació: substituir per SVG + `sr-only` — `mapa.js:451-466`
-- ⏳ Carrusel: indicador "Diapositiva N de M" per a sr-only
-- ⏳ Skip link `<a href="#main">` a `baseof.html`
-- ⏳ `aria-current="page"` al menú de navegació actiu
+### Accessibilitat (informe 30/8 — corregit 1 set)
+- ✅ Declaració d'accessibilitat (`/accessibilitat/`) revisada i ajustada a la realitat (1 set): mesures aplicades sense sobreprometre, limitacions conegudes ampliades (carrusel amb teclat, focus dels filtres, contrast de 2 elements, skip link) i allotjament actualitzat. Les millores de la llista de sota s'han aplicat (1 set) i la declaració ja les mostra a "Mesures aplicades"
+- ✅ Contrast insuficient: `.footer-powered-link` i `.footer-powered-services` #b3b3b3 → #6b6b6b (el segon tenia el mateix gris i també fallava AA — l'informe només llistava el primer), `::placeholder` #aaa → #767676 — `main.css`
+- ✅ Carrusel: fletxes ArrowLeft/ArrowRight (keydown al contenidor: val amb el focus a qualsevol control), `aria-pressed` als dots i comptador «Diapositiva N de M» sr-only (`role="status"`) — `fitxa.js` + `single.html`
+- ✅ Dots 44px: àrea de toc de 2.75rem amb el punt visual de 8px al centre (`::before`); retirat `role="tab"/"tablist"` (patró incomplet: no hi havia tabpanel) → `role="group"` + `aria-pressed` tal com demana l'informe
+- ✅ Focus visible filtres: regles explícites a `.filtre-btn`/`.filtre-lateral`/`.filtre-btn-info` + arrel trobada: la regla global `:focus-visible` afegia `border-radius: 2px` i aixafava els botons píndola al rebre focus (per això "no s'heretava bé"); tret de la global
+- ✅ Botó "i" de publicació: icona SVG d'info (aria-hidden) + `span.sr-only` amb l'etiqueta; CSS sense la tipografia serif itàlica — `mapa.js` + `main.css`
+- ✅ Skip link a `baseof.html` (primer element del body) + `main id="main" tabindex="-1"` + CSS (apareix en rebre focus)
+- ✅ `aria-current="page"` a l'entrada activa del menú (`header.html`, `$.RelPermalink` vs `.URL`)
+- ✅ Pàgina `/accessibilitat/` actualitzada: les 4 limitacions corregides passen a «Mesures aplicades»; queden com a limitacions honestes el Leaflet i els formularis (informe §2.3)
 
 ### Pendent — seguretat (informe)
 - ✅ URL `?tema=` whitelist explícita — `mapa.js` (1 set): només a/b/c, la resta cau a 'a'; abans un valor aliè podia trencar `classList.add` i deixar el mapa sense inicialitzar

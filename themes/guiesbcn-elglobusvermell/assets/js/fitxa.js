@@ -54,13 +54,19 @@
   var dots = carrusel.querySelectorAll('[data-carrusel-dot]');
   var prevBtn = carrusel.querySelector('[data-carrusel-prev]');
   var nextBtn = carrusel.querySelector('[data-carrusel-next]');
+  var contador = document.getElementById('carrusel-contador');
   var current = 0;
 
   function render() {
     track.style.transform = 'translateX(-' + (current * 100) + '%)';
     dots.forEach(function (dot, i) {
-      dot.classList.toggle('is-active', i === current);
+      var actiu = i === current;
+      dot.classList.toggle('is-active', actiu);
+      dot.setAttribute('aria-pressed', actiu ? 'true' : 'false');
     });
+    if (contador) {
+      contador.textContent = 'Diapositiva ' + (current + 1) + ' de ' + slideCount;
+    }
   }
 
   function goTo(index) {
@@ -72,6 +78,18 @@
   nextBtn.addEventListener('click', function () { goTo(current + 1); });
   dots.forEach(function (dot, i) {
     dot.addEventListener('click', function () { goTo(i); });
+  });
+
+  // Fletxes del teclat: valen amb el focus a qualsevol control del carrusel
+  // (botons anterior/següent o selectors). Enter i Espai ja són natius.
+  carrusel.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      goTo(current - 1);
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      goTo(current + 1);
+    }
   });
 
   // Lliscar amb el dit (mòbil) o ratolí

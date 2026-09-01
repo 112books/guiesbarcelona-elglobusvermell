@@ -13,19 +13,20 @@ Aquesta és una declaració de compromís i mesures aplicades, no una certificac
 
 - **Estructura semàntica**: capçaleres jeràrquiques (H1-H2), regions marcades amb `role` i `aria-label` (mapa, navegació, seccions de contingut)
 - **Text alternatiu**: imatges de contingut amb atribut `alt` descriptiu (el peu de foto de cada fitxa fa de text alternatiu); elements decoratius amb `alt` buit, com recomana la norma
-- **Navegació per teclat**: navegació principal, mapa i filtres operables sense ratolí
-- **Contrast de color**: paleta dissenyada per complir la ràtio mínima de contrast 4.5:1 en text (dos elements concrets encara pendents d'ajust; vegeu limitacions)
+- **Navegació per teclat**: enllaç de salt directe al contingut principal com a primera parada del tabulador; navegació principal, mapa i filtres operables sense ratolí
+- **Carrusel de fotografies operable amb teclat**: fletxes esquerra/dreta per passar d'imatge, selectors amb etiqueta i estat («premat») per a lectors de pantalla, indicador de posició «Diapositiva X de Y» i àrea de toc de 44 px
+- **Focus visible**: contorn destacat al rebre el focus per teclat a tots els elements interactius (filtres del mapa, carrusel, navegació)
+- **Contrast de color**: paleta revisada per complir la ràtio mínima de 4.5:1 en text; l'enllaç del peu de pàgina i el text de mostra del camp de cerca es van ajustar el setembre de 2026
+- **Pàgina actual indicada**: la navegació principal marca la secció on ets (`aria-current`)
+- **Icones amb etiqueta accessible**: el botó d'informació de cada publicació del mapa té icona i text per a lectors de pantalla
 - **Responsive**: disseny adaptable a mòbil, tauleta i escriptori
 - **Idioma declarat**: l'atribut `lang` del document coincideix amb l'idioma del contingut
-- **Lectura en veu alta de les fitxes d'edifici**: text a veu (TTS) mitjançant la Web Speech API del navegador; boto a cada fitxa per escoltar el contingut (títol, adreça, any, arquitectes i descripció)
+- **Lectura en veu alta de les fitxes d'edifici**: text a veu (TTS) mitjançant la Web Speech API del navegador; botó a cada fitxa per escoltar el contingut (títol, adreça, any, arquitectes i descripció)
 
 ## Limitacions conegudes
 
 - El mapa interactiu (Leaflet) té suport parcial de teclat heretat de la llibreria; s'està revisant
-- El carrusel de fotografies de les fitxes encara no es pot fer servir amb el teclat; pendent de millora
-- Els filtres del mapa no sempre mostren l'indicador de focus en navegar amb teclat; pendent de millora
-- Dos elements tenen el contrast per sota del recomanat (l'enllaç de la banda del peu i el text de mostra del camp de cerca); pendent d'ajust
-- Manca un enllaç de salt directe al contingut principal per a la navegació amb teclat; pendent
+- Els formularis (contacte i avís de correcció) encara no anuncien els camps obligatoris ni els errors als lectors de pantalla; pendent de millora
 
 ## Estàndards que complim
 

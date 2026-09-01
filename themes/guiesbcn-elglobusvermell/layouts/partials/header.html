@@ -11,7 +11,7 @@
     <ul>
       {{ range site.Menus.main }}
       <li>
-        <a href="{{ .URL | relURL }}">
+        <a href="{{ .URL | relURL }}"{{ if eq $.RelPermalink .URL }} aria-current="page"{{ end }}>
           <span class="nav-label">{{ .Name }}</span>
           <span class="nav-icon" aria-hidden="true">
             {{ if eq .Name "Presentació" }}
