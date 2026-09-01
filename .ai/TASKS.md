@@ -2,6 +2,8 @@
 
 Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info externa)
 
+**Priorització de Joan (1 set 2026):** ara per ara → **1) Rendiment, 2) Seguretat**; la resta queda pendent. El pas al servidor de producció serà **la darrera cosa** (cal decidir servidor + migració completa); **GitHub Pages fins a nova ordre**.
+
 ---
 
 ## Web guies (guiesbarcelona.elglobusvermell.org)
@@ -9,7 +11,8 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 ### Infraestructura
 - ✅ Repositori GitHub + deploy automàtic a GitHub Pages
 - ✅ Dominis: funcionant a https://112books.github.io/guiesbarcelona-elglobusvermell/
-- ⏳ Configurar domini propi guiesbarcelona.elglobusvermell.org a GitHub Pages (espera control del domini). **Troballa 31 ao nit**: el domini de producció (apex i www → `195.201.2.76`, Hetzner) **encara serveix el WordPress antic** (sitemap generat pel plugin WP, actiu); el Hugo viu a `112books.github.io` i el Pages no té cap `cname` configurat. Quan el mail a Xavi diu "en línia" = github.io. ⚠️ **Pregunta oberta a Joan (1 set)**: el tall del domini és intencionat (migració pendent de consens/validació) o preparem l'instruiment (CNAME/A al registre + domini personalitzat al Pages)?
+- ⏳ Configurar domini propi guiesbarcelona.elglobusvermell.org — **decisió de Joan (1 set): el pas a producció serà la DARRERA cosa a fer** (cal decidir encara el servidor i fer tota la migració). **El web queda a GitHub Pages fins a nova ordre.** Troballa 31 ao nit: el domini de producció (apex i www → `195.201.2.76`, Hetzner) encara serveix el WordPress antic; el Hugo viu a `112books.github.io` (quan el mail a Xavi diu "en línia" = github.io). Pas a pas del tall: `.ai/informe-seo-geo-aeo-2026-09-01.pdf`
+- ✅ **Verificació diària dels números del web** (1 set, a petició de Joan): `scripts/verifica-numeros-web.py` + workflow `verifica-numeros.yml` (cada dia 06:30 UTC). Compara les xifres publicades a la portada (659 edificis / 13 guies / 274 arquitectes / 1928–2026) amb el càlcul sobre el contingut del repo i amb el dia anterior; escriu `.ai/VERIFICACIO-NUMEROS.md` (amb el significat de cada xifra i històric de 14 dies) + `.ai/numeros-web-history.json`, i marca una alerta visible al run si alguna cosa no quadra. Primera verificació (1 set): tot coincideix
 
 ### Contingut
 - ✅ Importació de 66 edificis des del dump SQL (7 publicacions)
@@ -61,9 +64,11 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Migrats 70 fitxers d'elements a YAML + build Hugo verificat
 - ✅ Crear `static/admin/index.html` + `config.yml` (master: tot)
 - ✅ Crear `static/admin-editor/` (editors: només fitxes d'edificis)
-- ⏳ Verificar CMS a GitHub Pages amb PAT de prova
-- ⏳ Invitar compte GitHub Globus Vermell al repo (rol: Write)
-- ⏳ Guia ràpida per a editors: crear PAT i accedir al CMS
+- ⏳ Verificar CMS a GitHub Pages amb PAT de prova (abans d'enviar el mail d'instruccions)
+- ⏳ Invitar comptes GitHub al repo (rol Write) — **cap compte donat per fet**: cada membre confirma el seu nom d'usuari i el verifiquem a GitHub abans de convidar (del mail del 31 ago consta el de la Laia, `laiabrelglobusvermell-design`; verificar amb ella igualment)
+- ✅ Mail d'instruccions d'accés per a membres no usuaris de GitHub — esborrany a `docs/esborrany-mail-instruccions-editor-cms-1set.md` (compte → confirmació i verificació del nom d'usuari → invitació → token → entrada). Revisions de Joan (1 set): no presuposar que tenen compte (cal verificar-ho) i to humil, sense anar de "llestos" — aplicades. Pendent revisió final i enviament de Joan
+- ⏳ Sincronitzar `cms-admin/config.yml` amb `cms/config.yml` — la versió admin té el format antic de `fotos_addicionals` (llista plana) i li falten `foto_autoria`/`foto_peu` (detectat 1 set)
+- ✅ Guies del CMS revisades (1 set): `guia/` mostrava el domini de producció (encara el WP antic) com a adreça de l'editor → ara l'adreça real github.io + el domini futur; nota provisional a `instal-la-al-mobil`. Hub i guies `/admin/` públics i **sense login** (per disseny, confirmat per Joan); a producció, el robots.txt ja fa `Disallow: /admin/`
 
 #### Fase 1 — OAuth proxy (quan Dinahosting estigui llest)
 - 🔴 Crear GitHub OAuth App per a dev (callback → GitHub Pages)
@@ -138,14 +143,15 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ **Política de galetes** — `content/ca/legal/cookies.md`: sense cookies, GoatCounter sense cookies, OpenStreetMap/CartoDB
 - ✅ **Avís legal** — `content/ca/legal/avis-legal.md`: propietat intel·lectual, CC BY-SA 4.0, responsabilitat
 - ✅ **Fotos-web-app a .gitignore** — 880 MB d'imatges locals excloses de git
-- ✅ **Auditoria SEO/GEO/AEO completa (1 set 2026)** — `.ai/informe-seo-geo-aeo-2026-09-01.pdf` (15 pàgines; SEO 6/10, GEO 5/10, AEO 5/10 — el desbloquejador únic és el tall del domini, amb pas a pas a l'informe). Crawling del staging + build de producció verificat en local + WordPress mare (671 URLs)
+- ✅ **Auditoria SEO/GEO/AEO completa (1 set 2026)** — `.ai/informe-seo-geo-aeo-2026-09-01.pdf` (15 pàgines; SEO 6/10, GEO 5/10, AEO 5/10 — el desbloquejador únic és el tall del domini, amb pas a pas a l'informe). Crawling del staging + build de producció verificat en local + WordPress mare (671 URLs). PDF regenerat el mateix dia amb els recomptes exactes (660 fitxes, 274 arquitectes, 79 de 274 pàgines d'arquitecte sense contingut propi — l'original deia 661/277/277)
 - ✅ **Paquet de millores SEO/GEO/AEO (1 set)** — aprovat per Joan («sense tocar el disseny, arreglar al màxim»; només metadades, detall a `.ai/REGISTRE-CANVIS-FITXES.md`):
-  - JSON-LD corregit amb `safeJS` (tota la dada estructurada era invàlida) + schema Person/Organization nou per als 277 arquitectes amb `sameAs` (COAC/Viquipèdia/web oficial)
+  - JSON-LD corregit amb `safeJS` (tota la dada estructurada era invàlida) + schema Person/Organization nou per als 274 arquitectes amb `sameAs` (COAC/Viquipèdia/web oficial)
   - Redireccions de les **671 URLs del WordPress antic** via `aliases` a 660 fitxes (44 renoms verificats un per un + 11 pàgines `/text/` → publicacions); `scripts/aliases-wordpress.py` idempotent; plantilla `alias.html` catalana amb noindex
   - `robots.txt` de producció amb `Sitemap:` + `Disallow: /admin/`; `llms.txt` nou per a motors d'IA; `404.html` propi amb el layout del tema
   - Meta descriptions a les 13 publicacions + hubs (arquitectes, accessibilitat, presentació, publicacions amb títol nou); `og:image` per defecte (logo) + portades a les publicacions; títol del mapa; `enableGitInfo` → `lastmod` a les 964 URLs del sitemap
 
 ### Pendent — accessibilitat (informe: 6-8h estimades)
+- ✅ Declaració d'accessibilitat (`/accessibilitat/`) revisada i ajustada a la realitat (1 set): mesures aplicades sense sobreprometre, limitacions conegudes ampliades (carrusel amb teclat, focus dels filtres, contrast de 2 elements, skip link) i allotjament actualitzat. Quan es facin les millores d'aquesta llista, passaran a "Mesures aplicades"
 - ⏳ Contrast insuficient: `.footer-powered-link` (#b3b3b3 → #6b6b6b), `::placeholder` (#aaa → #767676) — `main.css:302,532`
 - ⏳ Carrusel: `keydown` ArrowLeft/ArrowRight, dots 44px, `aria-pressed` als dots — `fitxa.js:45-90`
 - ⏳ Focus visible filtres mapa: `:focus-visible` explícit a `.filtre-btn`, `.filtre-lateral` — `main.css:~550`
@@ -173,7 +179,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - 🔴 SSR de llistes (arquitectes/publicacions) + headings al mapa — toca el renderitzat → Xavi/consens d'equip
 - 🔴 FAQ + schema FAQPage + headings en forma de pregunta — contingut editorial → equip
 - 🔴 `og:image` pròpia 1200×630 — el logo (1024×248) és provisional → equip de disseny
-- 🔴 Consistència de xifres portada/Presentació (659/13 vs 660/11) — ja en debat d'equip
+- 🔴 Consistència de xifres portada/Presentació — semàntica aclarida (1 set): la portada compta fitxes **amb coordenades** (659 de 660) i les **13 guies del projecte** (11 amb pàgina web + New Babylon i Tàpies «en paper»); la Presentació mostra 660 «Punts» / 11 «Mapes» / 98 anys. Debat d'equip obert (també sobre el 1928 editorial); la verificació diària vigila que cap xifra canviï sense que ens adonem
 
 ---
 
@@ -259,12 +265,13 @@ Mails arxivats a `docs/2026-08-31-mail-xavi-resposta-import-fotos.md` (12:55), `
 - 🔴 Crear fitxes **Encants de Sant Antoni** i **Dominical de Sant Antoni** (Xavi les cita; no existeixen — **verificat 31 ao nit: tampoc al WP mare** i l'Encants–Fira de Bellcaire SÍ que hi és amb ordre 4 correcte, `docs/2026-08-31-verificacio-mercats-no-alimentaris-wp.md`). Dades demanades a Xavi al mail enviat (§7); torna ~16 set
 - 🔴 Duplicat `mercat-de-la-marina` + `placa-i-mercat-de-la-marina` (Xavi només llista "La Marina" un cop; el duplicat ja venia del WP mare — preguntat al mail enviat §3/§7)
 - 🔴 Duplicats de migració: Navas 238+240 (+`edifici-dhabitatges-carrer-navas` invisible), `casa-unifamiliar-placa-mons` (+ `casa-unifamiliar` invisible), Pavelló (`biblioteca-crai-ub` visible amb frontmatter malmès vs `de-1937-replica` correcta però sense publicacions)
-- 🔴 5 fitxes amb `publicacions` buit (invisibles al mapa): casa-unifamiliar, edifici-dhabitatges-carrer-navas, jardins-ada-byron, pavello-de-la-republica-de-1937-replica, placa-dolors-piera-isabel-vila
+- ✅ ~~5 fitxes amb `publicacions` buit~~ — verificat 1 set (verificació diària de números): les 660 fitxes tenen `publicacions` amb contingut; l'entrada era desactualitzada. Els duplicats de migració de la línia anterior segueixen pendents
 
 ### Punts del mail 2 (disseny) pendents 🔴
 - 🔴 Camp intervencions i etiquetes: spec definitiva confirmada (files corresponents a "Cal decisió"); preguntes obertes d'Xavi: etiquetes automàtiques o manuals, plural per a estudis — respostes al mail de tornada; **implementació pendent d'aprovació Joan**
 - ⏳ Xifra "any" (portada/Presentació): Xavi pensa treure-la (el 1928 no és correcte, hi ha masies anteriors) — decisió interna Globus pendent
 - ⏳ 73 arquitectes combinats: Xavi ho té pendent ("altres coses se m'han anat posint al davant")
+- 🔴 3 fitxes curades d'arquitecte **òrfenes** (`albert-viaplana`, `toyo-ito`, `oab-(carlos-ferrater)`): el títol no coincideix amb el nom que usen les fitxes («Albert Viaplana i Veà», «Toyo Ito Associates», «OAB (Carlos Ferrater)») → cap edifici les enllaça i es generen pàgines de terme duplicades (276 pàgines vs 274 arquitectes). Trobat 1 set amb la verificació diària; tractar amb Xavi junt amb els 73
 
 ### Respostes de l'equip a l'enquesta — NO implementar sense consens 🔴
 Instrucció de Joan (31 ao): "de moment no implementem res del que diu, esperarem a tenir consens
@@ -351,8 +358,7 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 ## Pendents client (preguntes per Xavi / Jorge)
 
 - 🔴 Jorge: dades d'accés al servidor actual
-- ⏳ Xavi: confirmar pressupost 3.900€
-- ⏳ Xavi: 50% de bestreta per iniciar Flutter
+- ✅ Pressupost 3.900€ — **acceptat i 50% ja pagat** (Joan, 1 set). L'app Flutter queda desbloquejada finançament; s'iniciarà després de Rendiment i Seguretat
 - ✅ Xavi: accés a guiesbarcelona.elglobusvermell.org — ja té accés (rol editor, compte `xaviglobus`); invitació admin errònia cancel·lada, no calia
 - ✅ Xavi: clarificació "filtrar per publicacions" al mapa
 - ✅ Xavi: decisió de disseny (colors publicació vs nou rebrand) — **colors per guia confirmats** (mail 2026-08-28)

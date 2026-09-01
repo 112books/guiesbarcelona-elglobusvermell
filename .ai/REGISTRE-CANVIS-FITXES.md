@@ -47,7 +47,7 @@ referència de l'aprovació. Davant dubte: **es pregunta primer, no es fa**.
 | 4 | 2026-08-31 | Creada `content/ca/elements/casa-lluis-jara-urbano.md` — Casa Lluís Jara Urbano, C. de Balmes 371, Josep Soteras Mauri, 1935 (reedició 2026; l'edició 2016 deia 1936); coords 41.4045422 / 2.1403092 (Nominatim, validat: Balmes 166 OSM coincideix amb fitxa existent a ~12 m); `publicacions: [gatcpac]` (ítem #38 de les dues edicions) | PDF reedició 2026 *Arquitectura d'avantguarda* + Nominatim OSM | Joan, 31 ago vespre: "Sí, crea-la" (questionari de decisions) |
 | 5 | 2026-08-31 | **Paquet mercats** segons la llista definitiva d'Xavi: (a) `zona` → "Nous barris" a **11 fitxes** (Guinardó, Carmel, Vall d'Hebron–Teixonera, Estrella, Lesseps, Felip II, Provençals, Sant Martí, Besòs, La Marina ×2) via `scripts/mercats-zones-ordre.py`; (b) camp **`ordre`** (posició al PDF dins de cada zona) a les 42 fitxes de mercats — La Marina duplicada ordre 9 totes dues, Encants–Fira de Bellcaire ordre 4 (reserva 2-3 pels de Sant Antoni), Sant Gervasi ordre 3 (dubte pendent); (c) creada `content/ca/elements/flors-de-la-rambla.md` — **sense lat/long** (surts al llistat, sense punt al mapa, tal com demanava Xavi), descripció textual del plànol; (d) reordenades sub-zones: Sant Martí de Provençals abans d'Horta (`_index.md` + `ORDRE_ZONES_MERCATS` + `SUB_ZONES_ANTICS_MUNICIPIS`); (e) `mapa.js`: ordenació dins de zona pel camp `ordre` (desempat alfabètic) + `term.html` passa el camp | Mail Xavi 31 ago vespre (`docs/2026-08-31-mail-xavi-3-mercats-zones.md`), llista amb ordre del PDF | Joan, 31 ago vespre: "Sí, aplica'l ara" + "Fitxa sense punt" (questionari de decisions) |
 
-**Estat després dels canvis 1-5:** total 661 fitxes; gatcpac 48 elements; mercats 43 (42 amb punt + Flors de la Rambla sense).
+**Estat després dels canvis 1-5:** total 660 fitxes (correcció 1 set: el 661 comptava el `_index` de la secció); gatcpac 48 elements; mercats 43 (42 amb punt + Flors de la Rambla sense).
 
 ### Canvis de visualització aprovats (no toquen dades de fitxes)
 
@@ -64,14 +64,14 @@ districte) només apareix a l'agrupació per districte de masies/biblioteques, q
 
 Aprovació de Joan (1 set 2026): «Es molt important que no es toqui el disseny i que s'arregli
 al màxim» + «Prefereixo lliurar-lo ja més decent i en positiu, explicant el que hi ha
-implementat». **Cap fitxa creada ni esborrada: els 661 elements queden exactament iguals**;
+implementat». **Cap fitxa creada ni esborrada: els 660 elements queden exactament iguals**;
 els canvis són metadades d'indexació (front matter `aliases`/`description`/`foto` i plantilles
 de capçalera). Informe complet de l'auditoria: `.ai/informe-seo-geo-aeo-2026-09-01.pdf`.
 
 | # | Implementat | Detall |
 |---|---|---|
 | 1 | Dada estructurada JSON-LD corregida | Tota la dada era invàlida (l'auto-escaping de Go escapava les cometes del `jsonify` dins `<script>`); afegit `safeJS` arreu — l'idioma que el tema ja usa a `term.html`. Verificat als builds: `WebSite` (portada) i `LandmarksOrHistoricalBuildings` (fitxes) ara vàlids |
-| 2 | Schema Person/Organization per als 277 arquitectes | Amb `sameAs` enllaçant l'Arxiu COAC, Viquipèdia i web oficial quan la fitxa en té; els estudis surten com a `Organization` |
+| 2 | Schema Person/Organization per als 274 arquitectes de la taxonomia | Amb `sameAs` enllaçant l'Arxiu COAC, Viquipèdia i web oficial quan la fitxa en té; els estudis surten com a `Organization` |
 | 3 | Redireccions de les 671 URLs del WordPress antic | Via `aliases` de Hugo a 660 fitxes (649 elements + 11 publicacions); 44 renoms verificats un per un contra els títols del WP i les fitxes Hugo, i les 11 pàgines `/text/` del WP apunten a les publicacions. Script idempotent `scripts/aliases-wordpress.py`; plantilla `alias.html` catalana (meta-refresh + canonical + noindex) |
 | 4 | `robots.txt` de producció completat | `Sitemap:` + `Disallow: /admin/`. L'staging queda exactament com era (bloqueja tot, per disseny) |
 | 5 | `llms.txt` nou | Resum del web en Markdown per als motors d'IA (estàndard llmstxt.org), amb el llistat de les 13 publicacions i notes de llicència i fonts |
@@ -86,6 +86,10 @@ Verificació (builds locals staging + producció, 1 set): JSON-LD net als dos en
 correcte per entorn, 671 pàgines d'alias generades amb canonical, sitemap amb 964 URLs (els
 aliases no hi entren) i lastmod a totes, og:image present a producció, títols nous de mapa i
 publicacions. Res canvia visualment: els dos builds només diferien a `<head>` i als fitxers nous.
+Correccions derivades de la verificació de números (1 set vespre): el recompte real és **660 fitxes**
+(i 661 pàgines `.md` comptant el `_index` de la secció) i **274 arquitectes** (les xifres 661/277
+de l'informe original venien de comptar URLs del sitemap; PDF regenerat amb els números exactes);
+identificades **3 fitxes curades d'arquitecte òrfenes** (vegeu pendents).
 
 ---
 
@@ -103,3 +107,4 @@ publicacions. Res canvia visualment: els dos builds només diferien a `<head>` i
 | Duplicats visibles: `edifici-dhabitatges-carrer-navas-238` + `-240` (el paper 2026 les fusiona en #7 Casa Nativitat Vedruna) i `casa-unifamiliar-placa-mons` vs `casa-unifamiliar` (#11 Casa Lluís Barangé) | Artefactes de migració | 🔴 esperant decisió |
 | `pavello-de-la-republica-biblioteca-crai-ub.md` (visible, frontmatter malmès) vs `pavello-de-la-republica-de-1937-replica.md` (correcta però sense publicacions) | Duplicat de migració; el mapa mostra la malmesa | 🔴 esperant decisió |
 | 4 fitxes d'ítems retirats del paper 2026 (`botiga-cottet`, `reforma-dun-atic`, `reforma-de-laula-de-quimica-a-la-ub`, `adaptacio-dun-convent-per-a-escola-del-cenu`) | Ja no són al plànol en paper però el web les manté (obra GATCPAC real) | 🔴 esperant criteri de Xavi (proposta: mantenir-les) |
+| 3 fitxes curades d'arquitecte **òrfenes**: `albert-viaplana`, `toyo-ito`, `oab-(carlos-ferrater)` — el títol no coincideix amb el nom que usen les fitxes («Albert Viaplana i Veà», «Toyo Ito Associates», «OAB (Carlos Ferrater)») → queden sense cap edifici que les enllaci i generen pàgines de terme duplicades | Trobat 1 set amb la verificació diària de números (276 pàgines de terme al sitemap vs 274 arquitectes) | 🔴 esperant criteri de Xavi (relacionat amb els 73 arquitectes a separar) |

@@ -1,0 +1,52 @@
+name: Verificació diària dels números del web
+
+on:
+  schedule:
+    - cron: '30 6 * * *'   # diàriament a les 06:30 UTC (08:30 a Barcelona)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instal·la PyYAML
+        run: pip install pyyaml
+
+      - name: Verifica números
+        id: verifica
+        env:
+          LIVE_URL: https://112books.github.io/guiesbarcelona-elglobusvermell/
+        run: python scripts/verifica-numeros-web.py
+
+      - name: Resum a l'informe del run
+        run: cat .ai/VERIFICACIO-NUMEROS.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit informe i històric
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .ai/VERIFICACIO-NUMEROS.md .ai/numeros-web-history.json
+          if git diff --staged --quiet; then
+            echo "Sense canvis."
+          else
+            git commit -m "numeros: verificació diària $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          fi
+
+      - name: Alerta visible si hi ha discrepancies
+        if: steps.verifica.outputs.alert == 'true'
+        run: |
+          echo "::warning:: ${{ steps.verifica.outputs.resum }}"
+          cat .ai/VERIFICACIO-NUMEROS.md
+          exit 1
