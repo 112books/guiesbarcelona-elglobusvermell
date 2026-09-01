@@ -74,7 +74,7 @@ defaultContentLanguageInSubdir = false
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = false
 
 [minify]
   disableCSS  = false

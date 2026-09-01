@@ -35,6 +35,9 @@ referència de l'aprovació. Davant dubte: **es pregunta primer, no es fa**.
 `casa-unifamiliar`, `edifici-dhabitatges-carrer-navas`, `jardins-ada-byron`,
 `pavello-de-la-republica-de-1937-replica`, `placa-dolors-piera-isabel-vila`.
 
+*(Verificat 1 set amb el control diari de números: totes cinc tenen ja `publicacions` assignades
+— gatcpac/interiors-illa; el pendent que queda són els duplicats de migració, a la taula de pendents.)*
+
 ---
 
 ## Registre de canvis
@@ -91,6 +94,18 @@ Correccions derivades de la verificació de números (1 set vespre): el recompte
 de l'informe original venien de comptar URLs del sitemap; PDF regenerat amb els números exactes);
 identificades **3 fitxes curades d'arquitecte òrfenes** (vegeu pendents).
 
+### Seguretat — validació de paràmetres d'URL i HTML en cru (1 set 2026)
+
+Aprovació: prioritat 2 de Joan (1 set): «1) Rendiment, 2) Seguretat». Cap canvi visual ni cap dada
+de fitxes: només validació de JavaScript i configuració de renderitzat.
+
+| # | Canvi | Detall |
+|---|---|---|
+| 1 | Whitelist del paràmetre `?tema=` (`mapa.js`) | Abans el valor de la URL es ficava directament com a classe (`tema-<valor>`): un valor amb caràcters invàlids feia llançar a `classList.add` una excepció i **el mapa no arribava a inicialitzar-se** (i generava classes arbitràries indexables). Ara només s'accepten `a`/`b`/`c` (els tres temes de tiles reals); qualsevol altre valor cau a `a` |
+| 2 | `unsafe = false` a Goldmark (`hugo.toml`) + shortcode `badges-accesibilitat` | L'única pàgina amb HTML en cru al contingut era la d'accessibilitat (badges de normatives, escrits per nosaltres); el bloc passa al shortcode `shortcodes/badges-accesibilitat.html` i el Markdown ja no pot injectar HTML arbitrari (rellevant amb l'entrada del CMS per a l'equip). Verificat amb diff de build complet: **1.645 pàgines idèntiques** llevat del fingerprint del `mapa.min.js` (canvia per la validació nova) i un salt de línia a l'accessibilitat |
+| 3 | Revisats `?pub=` i `?color=` — ja eren segurs | `mapa.js:508` valida amb `hasOwnProperty` contra les publicacions reals; `fitxa.js:5` valida el color amb regex hex. Cap canvi necessari |
+| 4 | `envia.php` — no actuable aquí | El fitxer no existeix al repo Hugo: és del WordPress de producció (Hetzner). Auditar-lo o substituir-lo (formulari de contacte) toca al dia de la migració |
+
 ---
 
 ## Pendents d'aprovació (NO executar sense confirmació expressa de Joan)
@@ -103,7 +118,7 @@ identificades **3 fitxes curades d'arquitecte òrfenes** (vegeu pendents).
 | ~~Flors de la Rambla: dades sense punt al mapa~~ | ✅ FET 31 ago vespre: fitxa sense lat/long (entrada #5); surt al llistat de "Mercats no alimentaris", sense punt al mapa | ✅ |
 | Duplicat `mercat-de-la-marina` + `placa-i-mercat-de-la-marina` (ara tots dos a "Nous barris", ordre 9 totes dues; Xavi només llista "La Marina" un cop) | Detectat 31 ao amb la llista de Xavi | 🔴 esperant decisió (preguntat al mail de resposta) |
 | `mercat-de-sant-gervasi` no surt a la llista d'Xavi (sub-zona Sant Gervasi: només Galvany i Tres Torres) | Possible oblid d'Xavi | 🔴 preguntar a Xavi (al mail de resposta) |
-| 5 fitxes amb `publicacions` buit (llista amunt) | Invisibles als plànols; 3 són duplicats de migració WordPress | 🔴 esperant decisió (implica Xavi) |
+| ~~5 fitxes amb `publicacions` buit~~ (llista amunt) | ✅ Resolt (verificat 1 set): totes cinc tenen `publicacions` assignades; el pendent que queda són els **duplicats de migració** (files de sota) | ✅ |
 | Duplicats visibles: `edifici-dhabitatges-carrer-navas-238` + `-240` (el paper 2026 les fusiona en #7 Casa Nativitat Vedruna) i `casa-unifamiliar-placa-mons` vs `casa-unifamiliar` (#11 Casa Lluís Barangé) | Artefactes de migració | 🔴 esperant decisió |
 | `pavello-de-la-republica-biblioteca-crai-ub.md` (visible, frontmatter malmès) vs `pavello-de-la-republica-de-1937-replica.md` (correcta però sense publicacions) | Duplicat de migració; el mapa mostra la malmesa | 🔴 esperant decisió |
 | 4 fitxes d'ítems retirats del paper 2026 (`botiga-cottet`, `reforma-dun-atic`, `reforma-de-laula-de-quimica-a-la-ub`, `adaptacio-dun-convent-per-a-escola-del-cenu`) | Ja no són al plànol en paper però el web les manté (obra GATCPAC real) | 🔴 esperant criteri de Xavi (proposta: mantenir-les) |

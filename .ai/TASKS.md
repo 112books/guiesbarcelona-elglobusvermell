@@ -161,10 +161,10 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ⏳ `aria-current="page"` al menú de navegació actiu
 
 ### Pendent — seguretat (informe)
-- ⏳ URL `?tema=` whitelist explícita — `mapa.js:46-49` (2 línies de codi)
+- ✅ URL `?tema=` whitelist explícita — `mapa.js` (1 set): només a/b/c, la resta cau a 'a'; abans un valor aliè podia trencar `classList.add` i deixar el mapa sense inicialitzar
 - ⏳ CMS auth: OAuth GitHub App (Fase 1, ja prevista)
 - ⏳ `analytics.json` públic: restringir o eliminar un cop migrat a Vercel/Netlify
-- ⏳ `unsafe=true` Markdown: avaluar si es pot desactivar (`config/_default/hugo.toml`)
+- ✅ `unsafe = false` a Goldmark (1 set): l'únic HTML en cru del contingut (badges d'accessibilitat) mogut al shortcode `badges-accesibilitat`; build complet verificat idèntic (1.645 pàgines, només canvia el fingerprint del `mapa.min.js`)
 
 ### Pendent — rendiment (informe)
 - ⏳ **Imatges WebP** — conversió batch de 880 MB d'imatges originals a WebP (<200 KB/foto). Impacte crític: LCP de >4s a <2,5s. Comanda: `cwebp -q 82 + mogrify -resize 1200>`
@@ -175,7 +175,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 ### Pendent — SEO (informe 30/8 + auditoria 1/9)
 - ⏳ Google Search Console + Bing Webmaster/IndexNow — activar just després del tall del domini (pas 5 del pas a pas de l'informe del 1 set)
 - ⏳ `hreflang` — preparar quan s'activin EN/ES
-- ⏳ Auditar `envia.php` — validació CSRF, sanitització (RGPD + seguretat)
+- ⏳ Auditar `envia.php` — **no és al repo Hugo** (herència del WordPress de producció, Hetzner): auditar-lo o substituir-lo (formulari de contacte) toca al dia de la migració/tall
 - 🔴 SSR de llistes (arquitectes/publicacions) + headings al mapa — toca el renderitzat → Xavi/consens d'equip
 - 🔴 FAQ + schema FAQPage + headings en forma de pregunta — contingut editorial → equip
 - 🔴 `og:image` pròpia 1200×630 — el logo (1024×248) és provisional → equip de disseny

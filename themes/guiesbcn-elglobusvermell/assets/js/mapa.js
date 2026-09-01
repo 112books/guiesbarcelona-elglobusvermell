@@ -43,7 +43,10 @@
   if (mapaEl && L && elementsMapa.length > 0) {
 
     // ── Tema visual ──────────────────────────────────────────────────────
-    var tema = (new URLSearchParams(window.location.search).get('tema') || 'a').toLowerCase();
+    // Whitelist de temes vàlids (els del tiles): un valor aliè a la URL no
+    // ha de generar classes arbitràries ni trencar classList.add (i el mapa).
+    var temaBrut = (new URLSearchParams(window.location.search).get('tema') || 'a').toLowerCase();
+    var tema = ['a', 'b', 'c'].indexOf(temaBrut) !== -1 ? temaBrut : 'a';
     var contenidor = document.getElementById('mapa-contenidor');
     if (contenidor) contenidor.classList.add('tema-' + tema);
     document.documentElement.classList.add('tema-' + tema);
