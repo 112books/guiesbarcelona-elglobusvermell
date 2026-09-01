@@ -21,7 +21,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Pàgina Crèdits (amb LinuxBCN)
 - 🔴 Importació de les 564 entrades del WordPress real (espera accés servidor Jorge)
 - 🔴 Imatges dels edificis (espera accés servidor Jorge)
-- ⏳ Geocodificació automàtica dels edificis sense coordenades
+- ✅ Geocodificació dels edificis: completa — 659 de 660 fitxes amb coordenades; l'única sense és `flors-de-la-rambla` (31 ao, a propòsit: al llistat, sense punt al mapa, dades pendents d'Xavi ~16 set)
 - ✅ Detecció i llistat de punts desubicats (`.ai/PUNTS-DESUBICATS.md`) — confirmats per Xavi (18 ago): les 5 fitxes ja tenien la coordenada correcta a la base de dades actual, no calia tocar res. Canvi de nom "Casa xalet passatge Roserar" → "Casa Mercè Escolano" aplicat al frontmatter (2026-08-19).
 
 ### Mapa
@@ -122,9 +122,9 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
   - Icona de reproducció discreta a la fitxa (play/pause)
   - Valorar quins camps llegir: títol, adreça, any, arquitecte/s, descripció
   - Estimar temps i cost: Web Speech API = 1-2 dies (zero cost); Piper al servidor = 3-5 dies (cost infraestructura)
-- ⏳ **Crèdits → Tecnologia**: afegir entrada de la tecnologia TTS un cop confirmada l'opció (Web Speech API o Piper TTS)
-- ⏳ **Accessibilitat → Mesures aplicades**: afegir "Lectura en veu alta de les fitxes d'edifici (text a veu)" i "Peu de foto amb text descriptiu (alt text)" un cop confirmada la implementació definitiva
-- ⏳ **Accessibilitat → Tecnologia**: afegir la tecnologia TTS usada (Web Speech API del navegador o Piper TTS)
+- ✅ **Crèdits → Tecnologia**: entrada TTS afegida (Web Speech API, confirmada per Xavi 28 ago) — ja ho havia fet el commit `4fdd097` (29 ago); l'entrada quedava desactualitzada
+- ✅ **Accessibilitat → Mesures aplicades**: "Lectura en veu alta" i "Peu de foto com a alt text" ja hi són (`4fdd097`); verificat a la pàgina actual
+- ✅ **Accessibilitat → Tecnologia**: Web Speech API ja llistada a la secció "Tecnologia utilitzada"
 - ✅ **Fotografies crèdit**: **CC-BY-SA 4.0, "El Globus Vermell"** — confirmat per Xavi (mail 2026-08-28). Implementat al peu de foto de `elements/single.html` (commit `4fdd097`, 29 ago).
 
 ---
