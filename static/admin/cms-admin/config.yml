@@ -9,10 +9,14 @@
 # Accés master: Joan (LinuxBCN) — totes les col·leccions
 #
 # Autenticació (Fase 0): PAT (Personal Access Token) de GitHub
-#   Cada editor crea un fine-grained PAT a GitHub:
-#   Permisos mínims: "Contents: Read and write" + "Metadata: Read"
-#   Repositori: 112books/guiesbarcelona-elglobusvermell
-#   Caducitat recomanada: 1 any
+#   Cada editor crea un token CLÀSSIC a github.com/settings/tokens/new
+#   (GitHub → Settings → Developer settings → Personal access tokens →
+#   Tokens (classic) → Generate new token (classic)):
+#   - Note: qualsevol etiqueta (p.ex. "Editor Guies Barcelona")
+#   - Expiration: Custom → End date d'aquí a un any
+#   - Select scopes: public_repo (lectura i escriptura a repos públics)
+#   El token fine-grained NO serveix per als convidats d'aquest repo
+#   (repo d'un compte personal) — vegeu el mail rectificatiu de l'1 set.
 #
 # Fase 1 (quan LinuxBCN estigui llest): descomenta base_url:
 #   base_url: https://guiesbarcelona.elglobusvermell.org/oauth
@@ -115,14 +119,41 @@ collections:
         name: foto
         widget: image
         required: false
-        hint: "Fotografia principal (portada) de l'edifici. Si no n'hi ha, el web mostra un espai reservat (\"Imatge pendent\")."
+        hint: "Fotografia principal (portada) de l'edifici."
+
+      - label: Autoria de la fotografia
+        name: foto_autoria
+        widget: string
+        required: false
+        default: "El Globus Vermell"
+        hint: "Crèdit de la fotografia principal. Per defecte: El Globus Vermell. Exemple: Arxiu Fotogràfic de Barcelona."
+
+      - label: Peu de foto (descripció)
+        name: foto_peu
+        widget: string
+        required: false
+        hint: "Opcional. Descripció breu de la fotografia (s'usa com a text alternatiu per accessibilitat i com a peu de foto visible)."
 
       - label: Més fotografies
         name: fotos_addicionals
         widget: list
-        field: { label: Foto, name: foto, widget: image }
         required: false
-        hint: "Opcional. Si n'hi ha alguna, el web mostra un carrusel amb la fotografia principal + aquestes."
+        hint: "Opcional. El web mostra un carrusel amb la fotografia principal + aquestes."
+        fields:
+          - label: Fotografia
+            name: url
+            widget: image
+          - label: Autoria
+            name: autoria
+            widget: string
+            required: false
+            default: "El Globus Vermell"
+            hint: "Crèdit de la fotografia. Per defecte: El Globus Vermell."
+          - label: Peu de foto (descripció)
+            name: peu
+            widget: string
+            required: false
+            hint: "Descripció breu (text alternatiu i peu de foto visible)."
 
       - label: Publicacions
         name: publicacions
@@ -383,4 +414,11 @@ collections:
         widget: string
         required: false
         hint: "URL de l'article a la Viquipèdia (català preferentment). Ex: https://ca.wikipedia.org/wiki/MBM_Arquitectes"
+        pattern: ["^$|^https?://.+", "Ha de començar per http:// o https://"]
+
+      - label: "Web oficial"
+        name: link_web
+        widget: string
+        required: false
+        hint: "Web pròpia de l'arquitecte o estudi. Ex: https://www.mbmarquitectes.cat"
         pattern: ["^$|^https?://.+", "Ha de començar per http:// o https://"]

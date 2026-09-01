@@ -2,10 +2,14 @@
 # Accés master: Joan (LinuxBCN) — totes les col·leccions
 #
 # Autenticació (Fase 0): PAT (Personal Access Token) de GitHub
-#   Cada editor crea un fine-grained PAT a GitHub:
-#   Permisos mínims: "Contents: Read and write" + "Metadata: Read"
-#   Repositori: 112books/guiesbarcelona-elglobusvermell
-#   Caducitat recomanada: 1 any
+#   Cada editor crea un token CLÀSSIC a github.com/settings/tokens/new
+#   (GitHub → Settings → Developer settings → Personal access tokens →
+#   Tokens (classic) → Generate new token (classic)):
+#   - Note: qualsevol etiqueta (p.ex. "Editor Guies Barcelona")
+#   - Expiration: Custom → End date d'aquí a un any
+#   - Select scopes: public_repo (lectura i escriptura a repos públics)
+#   El token fine-grained NO serveix per als convidats d'aquest repo
+#   (repo d'un compte personal) — vegeu el mail rectificatiu de l'1 set.
 #
 # Fase 1 (quan LinuxBCN estigui llest): descomenta base_url:
 #   base_url: https://guiesbarcelona.elglobusvermell.org/oauth
