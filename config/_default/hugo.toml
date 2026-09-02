@@ -66,6 +66,16 @@ defaultContentLanguageInSubdir = false
   # GoatCounter: afegir URL al fitxer d'entorn (production/hugo.toml o secrets)
   # Exemple: gc_url = "https://guiesbarcelona.goatcounter.com"
   gc_url         = "https://guiesbarcelona.goatcounter.com"
+  # Perfils socials del projecte (sameAs del schema Organization a la portada)
+  # Issuu exclòs: el perfil dona 404 (comprovat el 2 set 2026)
+  social = [
+    "https://www.instagram.com/elglobusvermell/",
+    "https://twitter.com/elglobusvermell",
+    "https://bsky.app/profile/elglobusvermell.bsky.social",
+    "https://www.facebook.com/elglobusvermell/",
+    "https://www.linkedin.com/company/elglobusvermell/",
+    "https://www.youtube.com/user/elglobusvermell",
+  ]
 
 [taxonomies]
   publicacio = "publicacions"

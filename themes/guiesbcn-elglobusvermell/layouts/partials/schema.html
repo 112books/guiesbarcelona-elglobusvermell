@@ -11,7 +11,8 @@
   "publisher": {
     "@type": "Organization",
     "name": "El Globus Vermell",
-    "url": "https://elglobusvermell.org"
+    "url": "https://elglobusvermell.org"{{ with site.Params.social }},
+    "sameAs": {{ . | jsonify | safeJS }}{{ end }}
   }
 }
 </script>
