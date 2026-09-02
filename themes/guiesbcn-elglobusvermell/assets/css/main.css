@@ -167,6 +167,12 @@ a {
   outline-offset: 1px;
 }
 
+/* Marcadors del mapa interactiu: focus visible per teclat (informe 30/8 §2.2) */
+.leaflet-interactive:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
 /* Enllaç de salt al contingut principal: primera parada del tabulador.
    Amagat fora de pantalla fins que rep el focus. */
 .skip-link {

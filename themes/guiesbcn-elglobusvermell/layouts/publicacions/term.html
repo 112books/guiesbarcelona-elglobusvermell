@@ -63,14 +63,14 @@
         {{ end }}
         {{ if $pdf }}
         <div class="publicacio-idioma">
-          <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener" class="publicacio-idioma-link" title="Descarregar PDF en {{ $titolIdioma }}">
+          <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener" class="publicacio-idioma-link" title="Descarregar PDF en {{ $titolIdioma }}" aria-label="Descarregar el plànol-guia {{ $titolIdioma }} (PDF)">
           {{ if $img }}
             <img src="{{ $img | relURL }}" alt="Portada {{ $titolIdioma }}" class="publicacio-idioma-portada" loading="lazy" width="130">
           {{ else }}
             <span class="publicacio-idioma-placeholder">{{ $titolIdioma }}</span>
           {{ end }}
           </a>
-          <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener" class="publicacio-idioma-pdf">{{ $titolIdioma }} (PDF)</a>
+          <a href="{{ $pdf | relURL }}" target="_blank" rel="noopener" class="publicacio-idioma-pdf" aria-label="Descarregar el plànol-guia {{ $titolIdioma }} (PDF)">{{ $titolIdioma }} (PDF)</a>
         </div>
         {{ end }}
       {{ end }}

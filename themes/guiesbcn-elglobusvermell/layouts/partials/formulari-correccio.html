@@ -20,6 +20,7 @@
         name="nom"
         autocomplete="name"
         required
+        aria-required="true"
         maxlength="120"
       >
       <span class="form-error" id="r-nom-error" role="alert"></span>
@@ -34,6 +35,7 @@
         name="email"
         autocomplete="email"
         required
+        aria-required="true"
         maxlength="254"
       >
       <span class="form-error" id="r-email-error" role="alert"></span>
@@ -47,6 +49,7 @@
         id="r-edifici"
         name="edifici"
         required
+        aria-required="true"
         maxlength="200"
         placeholder="Nom de l'edifici tal com apareix a la web"
       >
@@ -60,6 +63,7 @@
         id="r-correccio"
         name="correccio"
         required
+        aria-required="true"
         maxlength="2000"
         rows="5"
         placeholder="Descriviu l'error i, si és possible, indiqueu la informació correcta i la font."
@@ -75,6 +79,7 @@
           id="r-rgpd"
           name="rgpd"
           required
+          aria-required="true"
         >
         <span>He llegit i accepto la <a href="{{ "legal/privacitat/" | relLangURL }}">política de privacitat</a>. Les dades facilitades s'usaran únicament per gestionar la correcció i no es cediran a tercers. <span class="form-requerit" aria-hidden="true">*</span></span>
       </label>

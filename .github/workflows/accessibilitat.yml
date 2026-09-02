@@ -1,0 +1,39 @@
+name: Accessibilitat (pa11y-ci)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pa11y:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          for i in 1 2 3; do
+            wget -q https://github.com/gohugoio/hugo/releases/download/v0.159.0/hugo_extended_0.159.0_linux-amd64.tar.gz && break
+            echo "Intent $i fallat, reintentant..." && sleep 5
+          done
+          tar -xzf hugo_extended_0.159.0_linux-amd64.tar.gz
+          sudo mv hugo /usr/local/bin/
+
+      - name: Build Hugo (staging)
+        run: hugo --minify --environment staging
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pa11y-ci
+        run: npm install -g pa11y-ci
+
+      - name: Run pa11y-ci (WCAG2AA)
+        run: |
+          pa11y-ci --config .pa11yci.json

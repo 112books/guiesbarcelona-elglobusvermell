@@ -13,20 +13,23 @@ Aquesta és una declaració de compromís i mesures aplicades, no una certificac
 
 - **Estructura semàntica**: capçaleres jeràrquiques (H1-H2), regions marcades amb `role` i `aria-label` (mapa, navegació, seccions de contingut)
 - **Text alternatiu**: imatges de contingut amb atribut `alt` descriptiu (el peu de foto de cada fitxa fa de text alternatiu); elements decoratius amb `alt` buit, com recomana la norma
-- **Navegació per teclat**: enllaç de salt directe al contingut principal com a primera parada del tabulador; navegació principal, mapa i filtres operables sense ratolí
+- **Navegació per teclat**: enllaç de salt directe al contingut principal com a primera parada del tabulador; navegació principal, mapa i filtres operables sense ratolí; marcadors interactius del mapa (Leaflet) amb `tabindex`, `role="button"`, `aria-label` i suport Enter/Espai
 - **Carrusel de fotografies operable amb teclat**: fletxes esquerra/dreta per passar d'imatge, selectors amb etiqueta i estat («premat») per a lectors de pantalla, indicador de posició «Diapositiva X de Y» i àrea de toc de 44 px
-- **Focus visible**: contorn destacat al rebre el focus per teclat a tots els elements interactius (filtres del mapa, carrusel, navegació)
+- **Focus visible**: contorn destacat al rebre el focus per teclat a tots els elements interactius (filtres del mapa, marcador del mapa, carrusel, navegació)
 - **Contrast de color**: paleta revisada per complir la ràtio mínima de 4.5:1 en text; l'enllaç del peu de pàgina i el text de mostra del camp de cerca es van ajustar el setembre de 2026
 - **Pàgina actual indicada**: la navegació principal marca la secció on ets (`aria-current`)
 - **Icones amb etiqueta accessible**: el botó d'informació de cada publicació del mapa té icona i text per a lectors de pantalla
+- **Formularis accessibles**: camps obligatoris anunciats amb `aria-required`; errors validats amb `aria-invalid`, `aria-describedby` i `role="alert"` per a lectors de pantalla; focus automàtic al primer error
+- **Descàrregues PDF amb etiqueta**: enllaços de descàrrega de PDF marcats amb `aria-label` que inclou el format (PDF) per a lectors de pantalla
 - **Responsive**: disseny adaptable a mòbil, tauleta i escriptori
 - **Idioma declarat**: l'atribut `lang` del document coincideix amb l'idioma del contingut
 - **Lectura en veu alta de les fitxes d'edifici**: text a veu (TTS) mitjançant la Web Speech API del navegador; botó a cada fitxa per escoltar el contingut (títol, adreça, any, arquitectes i descripció)
+- **Tests automàtics d'accessibilitat**: pa11y-ci al pipeline de GitHub Actions (WCAG 2.1 AA) en cada push
 
 ## Limitacions conegudes
 
-- El mapa interactiu (Leaflet) té suport parcial de teclat heretat de la llibreria; s'està revisant
-- Els formularis (contacte i avís de correcció) encara no anuncien els camps obligatoris ni els errors als lectors de pantalla; pendent de millora
+- Les imatges del mapa (tiles d'OpenStreetMap/CARTO) no tenen text alternatiu perquè són elements decoratius de fons; la informació geogràfica accessible es transmet a través del llistat alfabètic i el cercador
+- Els sliders del carrusel de fotografies (si n'hi ha) s'accedixen amb les fletxes del teclat però no tenen atribut `role="slider"` complet (pendent de revisió)
 
 ## Estàndards que complim
 

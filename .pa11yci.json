@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 10000,
+    "wait": 1000,
+    "chromeLaunchConfig": {
+      "args": ["--no-sandbox"]
+    }
+  },
+  "urls": [
+    "/",
+    "/mapa/",
+    "/elements/antic-escorxador/",
+    "/publicacions/interiors-illa/",
+    "/arquitectes/enric-miralles/",
+    "/contacte/",
+    "/presentacio/",
+    "/en-paper/",
+    "/accessibilitat/",
+    "/404.html"
+  ]
+}

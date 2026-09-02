@@ -152,6 +152,27 @@
     // ── Zoom inicial ─────────────────────────────────────────────────────
     var group = L.featureGroup(allMarkers).addTo(map);
 
+    // ── Accessibilitat: marcadors navegables per teclat ──────────────────
+    // Cada circleMarker rep tabindex, role i aria-label; Enter/Espai obre
+    // el popup (WCAG 2.1 AA §2.1.1, informe 30/8 §2.2).
+    allMarkers.forEach(function (fg) {
+      var dades = fg._dades;
+      if (!dades) return;
+      fg.eachLayer(function (layer) {
+        if (!layer._path) return;
+        var el = layer._path;
+        el.setAttribute('tabindex', '0');
+        el.setAttribute('role', 'button');
+        el.setAttribute('aria-label', dades.title + (dades.adreca ? ', ' + dades.adreca : ''));
+        el.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            fg.openPopup();
+          }
+        });
+      });
+    });
+
     // Staticrypt carrega el CSS asíncronament: el contenidor pot tenir
     // amplada 0 fins que el CSS s'aplica. Esperem que tingui una amplada
     // real (> 200px) abans de fer fitBounds, per evitar tiles parcials.
