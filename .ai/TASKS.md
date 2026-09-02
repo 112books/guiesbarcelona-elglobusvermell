@@ -177,13 +177,18 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ✅ Botó "i" de publicació: icona SVG d'info (aria-hidden) + `span.sr-only` amb l'etiqueta; CSS sense la tipografia serif itàlica — `mapa.js` + `main.css`
 - ✅ Skip link a `baseof.html` (primer element del body) + `main id="main" tabindex="-1"` + CSS (apareix en rebre focus)
 - ✅ `aria-current="page"` a l'entrada activa del menú (`header.html`, `$.RelPermalink` vs `.URL`)
-- ✅ Pàgina `/accessibilitat/` actualitzada: les 4 limitacions corregides passen a «Mesures aplicades»; queden com a limitacions honestes el Leaflet i els formularis (informe §2.3)
+- ✅ Pàgina `/accessibilitat/` actualitzada: les limitacions de Leaflet teclat i formularis passen a «Mesures aplicades» (2 set); queden com a limitacions honestes les imatges del mapa (tiles decoratives) i els sliders del carrusel
 
 ### Pendent — seguretat (informe)
 - ✅ URL `?tema=` whitelist explícita — `mapa.js` (1 set): només a/b/c, la resta cau a 'a'; abans un valor aliè podia trencar `classList.add` i deixar el mapa sense inicialitzar
-- ⏳ CMS auth: OAuth GitHub App (Fase 1, ja prevista)
-- ⏳ `analytics.json` públic: restringir o eliminar un cop migrat a Vercel/Netlify
 - ✅ `unsafe = false` a Goldmark (1 set): l'únic HTML en cru del contingut (badges d'accessibilitat) mogut al shortcode `badges-accesibilitat`; build complet verificat idèntic (1.645 pàgines, només canvia el fingerprint del `mapa.min.js`)
+- ✅ **SRI a dependències externes** (2 set): GoatCounter (`gc.zgo.at/count.js`, sha384) a `head.html` + Chart.js (`cdn.jsdelivr.net`, sha384) a `admin/stats/index.html`; `crossorigin="anonymous"` inclòs
+- ✅ **`document.write()` eliminat** (2 set): reemplaçat per `getElementById('year')` als 6 fitxers admin (index, guia, guia-admin, instal-la-al-mobil, galeria, guia-usuaris)
+- ⏳ CMS auth: OAuth GitHub App (Fase 1, **espera Dinahosting**)
+- ⏳ `analytics.json` públic: restringir o eliminar un cop migrat (**espera Dinahosting**)
+- ⏳ Headers HTTP (CSP, X-Frame-Options, HSTS): migrar hosting a Vercel/Netlify o Cloudflare CDN frontal (**espera Dinahosting**)
+- ⏳ DMARC/SPF/DKIM: configurar si s'envien emails des del domini (**espera Dinahosting**)
+- ⏳ Auditar `envia.php`: no és al repo Hugo, herència del WordPress de producció (**dia del tall**)
 
 ### Pendent — rendiment (informe)
 - ✅ **Imatges optimitzades in situ** (1 set, decisió de Joan: **JPG redimensionat i no WebP**, perquè WhatsApp/Telegram no llegeixen WebP com a `og:image` i caldria miniatures jpg que es mengen l'estalvi): màx 1.600px, qualitat 85, EXIF tret amb auto-orient — **837→144 MB (−83%)**: elements 818→134 (353 de 358; 5 ja optimitzades es mantenen) i publicacions 19→10 (37 de 50). Mateixos noms i URLs, cap canvi de plantilla; originals recuperables a la història de git. Commit `42337ff`
