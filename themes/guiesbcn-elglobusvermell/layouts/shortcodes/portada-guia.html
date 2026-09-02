@@ -1,5 +1,5 @@
 {{- $slug := .Get "slug" -}}
-{{- $pubs := $.Site.Data.publicacions -}}
+{{- $pubs := hugo.Data.publicacions -}}
 {{- $pub  := index (where $pubs "slug" $slug) 0 -}}
 {{- if $pub -}}
   {{- $img := "" -}}

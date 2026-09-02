@@ -48,6 +48,21 @@
 </script>
 {{ end }}
 
+{{/* Schema.org JSON-LD — speakable (secció llegible en veu, TTS) a les fitxes amb descripció */}}
+{{ if and (eq .Section "elements") (eq .Kind "page") .Params.descripcio }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": {{ .Permalink | jsonify | safeJS }},
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".fitxa-descripcio"]
+  }
+}
+</script>
+{{ end }}
+
 {{/* Schema.org JSON-LD — fitxa d'arquitecte */}}
 {{ if and (eq .Kind "term") (eq .Data.Singular "arquitecte") }}
 {{ $bioExtra := dict }}

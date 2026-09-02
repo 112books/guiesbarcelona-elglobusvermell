@@ -159,6 +159,13 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
   - Redireccions de les **671 URLs del WordPress antic** via `aliases` a 660 fitxes (44 renoms verificats un per un + 11 pàgines `/text/` → publicacions); `scripts/aliases-wordpress.py` idempotent; plantilla `alias.html` catalana amb noindex
   - `robots.txt` de producció amb `Sitemap:` + `Disallow: /admin/`; `llms.txt` nou per a motors d'IA; `404.html` propi amb el layout del tema
   - Meta descriptions a les 13 publicacions + hubs (arquitectes, accessibilitat, presentació, publicacions amb títol nou); `og:image` per defecte (logo) + portades a les publicacions; títol del mapa; `enableGitInfo` → `lastmod` a les 964 URLs del sitemap
+- ✅ **Segona passada SEO/IA (2 set)** — quick wins de l'informe verificades amb build de producció (`--environment production`: 963 URLs al sitemap, 672 aliases):
+  - `og:image` per defecte ara **1200×630** (`static/img/og-default.jpg`, logo sobre fons blanc generat amb sips; `defaultOgImage` al config) — les ~315 fitxes sense foto i les pàgines hub ja tenen vista prèvia amb proporcions socials. ⚠️ Pendents: verificació visual humana (aquest model no llegeix imatges) i possible actiu dissenyat (Xavi)
+  - `robots.txt` de producció: 13 bots d'IA i cercadors generatius explícitament permesos (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot...) — senyal GEO coherent amb el `llms.txt`
+  - `404.html`: enllaç «Cerca un edifici al llistat alfabètic» → `/mapa/#llistat` (aprofita el filtre de cerca del mapa)
+  - **SpeakableSpecification** (JSON-LD WebPage) a les fitxes amb descripció — `cssSelector: .fitxa-descripcio`, alineat amb el TTS «Escoltar» existent
+  - **Duplicat `/elements/` eliminat**: la pàgina de secció `/elements/` (mateix títol «Mapa» i mateix contingut JS que `/mapa/`, restes del canvi d'URL del 31/8) ja no es renderitza (`build: render: never` a `elements/_index.md`) i `/elements/` redirigeix a `/mapa/` via `aliases` (meta-refresh + canonical, plantilla catalana). L'enllaç «Tots els elements» de les 660 fitxes ara apunta directe a `/mapa/?pub=X` (el JS del mapa ja llegia el paràmetre `pub`; abans anava al duplicat). Sitemap verificat sense `/elements/` i amb les 660 fitxes intactes
+  - Fix de codi de pas: `$.Site.Data` deprecat al shortcode `portada-guia.html` → `hugo.Data` (warning de Hugo ≥0.156)
 
 ### Accessibilitat (informe 30/8 — corregit 1 set)
 - ✅ Declaració d'accessibilitat (`/accessibilitat/`) revisada i ajustada a la realitat (1 set): mesures aplicades sense sobreprometre, limitacions conegudes ampliades (carrusel amb teclat, focus dels filtres, contrast de 2 elements, skip link) i allotjament actualitzat. Les millores de la llista de sota s'han aplicat (1 set) i la declaració ja les mostra a "Mesures aplicades"
@@ -191,7 +198,7 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - ⏳ Auditar `envia.php` — **no és al repo Hugo** (herència del WordPress de producció, Hetzner): auditar-lo o substituir-lo (formulari de contacte) toca al dia de la migració/tall
 - 🔴 SSR de llistes (arquitectes/publicacions) + headings al mapa — toca el renderitzat → Xavi/consens d'equip
 - 🔴 FAQ + schema FAQPage + headings en forma de pregunta — contingut editorial → equip
-- 🔴 `og:image` pròpia 1200×630 — el logo (1024×248) és provisional → equip de disseny
+- 🔴 `og:image` pròpia 1200×630 dissenyada — el placeholder actual (logo sobre blanc) ja és 1200×630 però és provisional → equip de disseny
 - 🔴 Consistència de xifres portada/Presentació — semàntica aclarida (1 set): la portada compta fitxes **amb coordenades** (659 de 660) i les **13 guies del projecte** (11 amb pàgina web + New Babylon i Tàpies «en paper»); la Presentació mostra 660 «Punts» / 11 «Mapes» / 98 anys. Debat d'equip obert (també sobre el 1928 editorial); la verificació diària vigila que cap xifra canviï sense que ens adonem
 
 ---

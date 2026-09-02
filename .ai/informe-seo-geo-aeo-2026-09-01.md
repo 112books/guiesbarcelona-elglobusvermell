@@ -6,9 +6,12 @@
 > **Nota (2 set):** els punts CRÍTIC/ALT d'aquest informe ja estan aplicats l'1 de setembre
 > (JSON-LD amb `safeJS`, schema Person dels arquitectes amb `sameAs`, redireccions de les 671
 > URLs del WP via `aliases`, robots.txt de producció amb `Sitemap:` i `Disallow: /admin/`,
-> llms.txt, 404 pròpia, meta descriptions, og:image per defecte i lastmod al sitemap) — vegeu
-> l'estat actual a `.ai/TASKS.md`. Aquest document conserva l'estat del web **tal com era al
-> moment de l'auditoria**.
+> llms.txt, 404 pròpia, meta descriptions, og:image per defecte i lastmod al sitemap); el 2 de
+> setembre s'hi afegiren l'og:image per defecte a 1200×630, els bots d'IA explícitament
+> permesos al robots.txt de producció, la cerca al 404, el schema speakable a les fitxes amb
+> descripció i l'eliminació del duplicat `/elements/` (redirigit a `/mapa/`) — vegeu l'estat
+> actual a `.ai/TASKS.md`. Aquest document conserva l'estat del web **tal com era al moment de
+> l'auditoria**.
 
 | Dimensió | Puntuació | Estat | Conclusió clau |
 |---|---|---|---|

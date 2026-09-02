@@ -268,8 +268,9 @@
       {{ with .PrevInSection }}
       <a class="fitxa-nav-prev" href="{{ .Permalink }}">← {{ .Title }}</a>
       {{ end }}
-      {{ $llistaHref := .Parent.Permalink }}
-      {{ with .Params.publicacions }}{{ $llistaHref = printf "%s?pub=%s" $.Parent.Permalink (index . 0) }}{{ end }}
+      {{ $llistaHref := "" }}
+      {{ with site.GetPage "/mapa" }}{{ $llistaHref = .RelPermalink }}{{ else }}{{ $llistaHref = .Parent.RelPermalink }}{{ end }}
+      {{ with .Params.publicacions }}{{ $llistaHref = printf "%s?pub=%s" $llistaHref (index . 0) }}{{ end }}
       <a class="fitxa-nav-llista" href="{{ $llistaHref }}">Tots els elements</a>
       {{ with .NextInSection }}
       <a class="fitxa-nav-next" href="{{ .Permalink }}">{{ .Title }} →</a>
