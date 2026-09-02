@@ -2,21 +2,21 @@
   "defaults": {
     "standard": "WCAG2AA",
     "timeout": 10000,
-    "wait": 1000,
+    "wait": 2000,
     "chromeLaunchConfig": {
       "args": ["--no-sandbox"]
     }
   },
   "urls": [
-    "/",
-    "/mapa/",
-    "/elements/antic-escorxador/",
-    "/publicacions/interiors-illa/",
-    "/arquitectes/enric-miralles/",
-    "/contacte/",
-    "/presentacio/",
-    "/en-paper/",
-    "/accessibilitat/",
-    "/404.html"
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/mapa/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/elements/antic-escorxador/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/publicacions/interiors-illa/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/arquitectes/enric-miralles/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/contacte/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/presentacio/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/en-paper/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/accessibilitat/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/404.html"
   ]
 }

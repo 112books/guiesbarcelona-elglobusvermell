@@ -23,9 +23,6 @@ jobs:
           tar -xzf hugo_extended_0.159.0_linux-amd64.tar.gz
           sudo mv hugo /usr/local/bin/
 
-      - name: Build Hugo (staging)
-        run: hugo --minify --environment staging
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -34,6 +31,13 @@ jobs:
       - name: Install pa11y-ci
         run: npm install -g pa11y-ci
 
-      - name: Run pa11y-ci (WCAG2AA)
+      - name: Build Hugo (staging)
+        run: hugo --minify --environment staging
+
+      - name: Start Hugo server + Run pa11y-ci
         run: |
-          pa11y-ci --config .pa11yci.json
+          hugo server --bind 0.0.0.0 --port 1313 --disableFastRender &
+          SERVER_PID=$!
+          sleep 5
+          pa11y-ci --config .pa11yci.json || { kill $SERVER_PID; exit 1; }
+          kill $SERVER_PID
