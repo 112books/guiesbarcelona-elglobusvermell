@@ -37,6 +37,10 @@
 {{ with $ogImg }}<meta name="twitter:image" content="{{ . }}">{{ end }}
 {{ end }}
 {{ partial "schema.html" . }}
+{{/* Preload imatge LCP a fitxes d'edifici */}}
+{{ if and (eq .Section "elements") .Params.foto }}
+<link rel="preload" as="image" href="{{ .Params.foto | strings.TrimPrefix "/" | absURL }}">
+{{ end }}
 {{ if or (eq .Section "elements") (eq .Section "mapa") (eq .Kind "term") }}
 <link rel="preconnect" href="https://a.basemaps.cartocdn.com">
 <link rel="preconnect" href="https://b.basemaps.cartocdn.com">

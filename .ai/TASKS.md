@@ -207,6 +207,9 @@ Llegenda: ✅ Fet | 🔄 En curs | ⏳ Pendent | 🔴 Bloquejat (espera info ext
 - 🔴 `og:image` pròpia 1200×630 dissenyada — el placeholder actual (logo sobre blanc) ja és 1200×630 però és provisional → equip de disseny
 - 🔴 Consistència de xifres portada/Presentació — semàntica aclarida (1 set): la portada compta fitxes **amb coordenades** (659 de 660) i les **13 guies del projecte** (11 amb pàgina web + New Babylon i Tàpies «en paper»); la Presentació mostra 660 «Punts» / 11 «Mapes» / 98 anys. Debat d'equip obert (també sobre el 1928 editorial); la verificació diària vigila que cap xifra canviï sense que ens adonem
 
+### Informe global post-correccions
+- ⏳ **Informe global actualitzat (pròxima sessió)** — els informes parcials de `.ai/` (accessibilitat 30/8, seguretat 30/8, rendiment 30/8, SEO+GEO+AEO 1/9) reflectien l'estat *pre-correccions*. Ara que s'han aplicat totes les millores aplicables sense tall de domini, cal generar un informe consolidat únic que: (1) revalori cada àrea amb l'estat real (setembre 2026), (2) confirmi quins punts ara puntuen correctament, (3) llisti amb claredat el que resta bloquejat per Dinahosting/tall de domini o per consens d'equip. Format: document `.ai/informe-global-2026-09-XX.md` + PDF si escau.
+
 ---
 
 ## Infraestructura servidor
