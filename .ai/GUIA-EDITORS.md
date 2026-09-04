@@ -18,9 +18,14 @@ Comunica l'usuari a Joan (LinuxBCN) perquè et doni accés al repositori.
 
 Un **token d'accés** és una clau que permet al CMS modificar el contingut en el teu nom. Es genera una vegada i queda desat al navegador.
 
-1. Ves a: **github.com → Configuració del teu perfil (icona avatar) → Settings**
-2. Menú esquerre, final: **Developer settings**
+1. Ves a: **github.com → icona del teu avatar (dalt a la dreta) → Settings**
+
+   ![Menú d'usuari de GitHub amb l'opció Settings ressaltada](https://docs.github.com/assets/images/help/settings/userbar-account-settings-global-nav-update.png)
+
+2. Menú esquerre, fins al final: **Developer settings**
+
 3. **Personal access tokens → Fine-grained tokens → Generate new token**
+
 4. Omple el formulari:
    - **Token name:** `Sveltia CMS — Guies Barcelona`
    - **Expiration:** 1 year (o el termini que vulguis)
@@ -29,8 +34,14 @@ Un **token d'accés** és una clau que permet al CMS modificar el contingut en e
    - **Repository permissions:**
      - `Contents` → **Read and write**
      - `Metadata` → **Read-only** (s'activa automàticament)
+
 5. Clica **Generate token**
+
 6. **Copia el token** (comença per `github_pat_...`) — només es veu una vegada
+
+   ![Avís de GitHub i token generat amb el botó de còpia ressaltat](https://docs.github.com/assets/images/help/settings/personal-access-tokens.png)
+
+   > **Important:** Un cop tanques aquesta pàgina, el token no el pots tornar a veure. Si el perds, cal generar-ne un de nou.
 
 ---
 
@@ -47,6 +58,10 @@ https://112books.github.io/guiesbarcelona-elglobusvermell/admin-editor/
 3. Clica **Sign in**
 
 Ja tens accés. La propera vegada que obris el CMS al mateix navegador, entraràs directament sense tornar a introduir el token.
+
+Un cop dins, veuràs la llista d'edificis i el panell d'edició:
+
+![Interfície principal de Sveltia CMS amb la llista d'entrades i el panell d'edició](https://sveltiacms.app/images/highlights/screenshot-1.webp?20250405)
 
 ---
 

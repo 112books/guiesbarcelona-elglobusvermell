@@ -49,8 +49,8 @@
 </script>
 {{ end }}
 
-{{/* Schema.org JSON-LD — speakable (secció llegible en veu, TTS) a les fitxes amb descripció */}}
-{{ if and (eq .Section "elements") (eq .Kind "page") .Params.descripcio }}
+{{/* Schema.org JSON-LD — speakable (dades factuals + descripció, llegibles per assistents de veu) */}}
+{{ if and (eq .Section "elements") (eq .Kind "page") }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -58,7 +58,7 @@
   "url": {{ .Permalink | jsonify | safeJS }},
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": [".fitxa-descripcio"]
+    "cssSelector": [".fitxa-dades", ".fitxa-descripcio"]
   }
 }
 </script>

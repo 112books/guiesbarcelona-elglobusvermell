@@ -7,8 +7,8 @@ ordre: 1
 draft: false
 foto: /img/elements/mercat-de-la-boqueria.jpg
 fotos_addicionals:
-- /img/elements/casa-del-rellotge.jpg
-- /img/elements/far-de-montjuic.jpg
+- /img/elements/casa-del-rellotge.webp
+- /img/elements/far-de-montjuic.webp
 intervencions:
 - any: '2001'
   autors: Lluís Clotet i Ignacio Paricio

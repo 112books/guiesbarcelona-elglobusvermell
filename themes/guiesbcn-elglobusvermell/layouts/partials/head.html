@@ -16,6 +16,8 @@
 {{ if and (not $metaDesc) .Params.descripcio }}{{ $metaDesc = .Params.descripcio | truncate 155 "…" }}{{ end }}
 {{ with $metaDesc }}<meta name="description" content="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 <link rel="icon" type="image/svg+xml" href="{{ "img/Arquitectura-i-urbanisme-de-barcelona-quadrat.svg" | relURL }}">
 {{/* Open Graph + Twitter Cards — només a producció */}}
 {{ if ne site.Params.env "staging" }}
