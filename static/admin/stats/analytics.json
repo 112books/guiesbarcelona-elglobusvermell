@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-08T20:39:57.460653Z",
+  "generated": "2026-09-09T02:54:05.233102Z",
   "period": {
-    "start": "2025-09-08",
-    "end": "2026-09-08"
+    "start": "2025-09-09",
+    "end": "2026-09-09"
   },
-  "total": 812,
+  "total": 814,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -158,12 +158,16 @@
     {
       "date": "2026-09-04",
       "count": 1
+    },
+    {
+      "date": "2026-09-08",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 93
+      "count": 95
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
@@ -283,7 +287,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 540,
+    "guiesbarcelona-elglobusvermell": 542,
     "mapa-filtre-pub": 169,
     "mapa-info-pub": 43,
     "mapa-filtre-tema": 21,
@@ -367,7 +371,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 355
+      "count": 356
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
@@ -435,14 +439,14 @@
       "count": 18
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75",
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/credits",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/credits",
       "count": 16
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/credits",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/credits",
-      "count": 15
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75",
+      "count": 16
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/barceloneta",
