@@ -1,5 +1,27 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git -C \"$(pwd)\" rev-parse --show-toplevel 2>/dev/null || pwd)/scripts/sync-memory.sh\" import 2>/dev/null || true",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git -C \"$(pwd)\" rev-parse --show-toplevel 2>/dev/null || pwd)/scripts/sync-memory.sh\" export 2>/dev/null || true",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "matcher": "Bash",
