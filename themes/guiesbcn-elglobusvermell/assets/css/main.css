@@ -545,7 +545,7 @@ main {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #888;
+  color: #767676;
   margin-bottom: 0.35rem;
 }
 
@@ -863,7 +863,7 @@ main {
   display: inline-block;
   padding: 0.2rem 0.7rem;
   border-radius: 2rem;
-  background: var(--pub-color, #888);
+  background: color-mix(in srgb, var(--pub-color, #888), #000 20%);
   color: #fff;
   font-size: 0.8rem;
   text-decoration: none;
@@ -1032,7 +1032,7 @@ main {
 
 .llistat-grup-count {
   font-size: 0.8125rem;
-  color: #888;
+  color: #737373;
   flex: 1;
 }
 
@@ -2267,7 +2267,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 .publicacio-cap h1 {
   margin: 0 0 0.25rem;
-  color: var(--pub-color, var(--color-text));
+  color: color-mix(in srgb, var(--pub-color, var(--color-text)), #000 45%);
 }
 
 .publicacio-edicio {
