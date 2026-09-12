@@ -1,6 +1,6 @@
 # Verificació diària dels números del web
 
-**Execució:** 11/09/2026 11:38 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 12/09/2026 11:02 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
 ## Resultat: ✅ tot coincideix
 
@@ -39,6 +39,7 @@
 | 2026-09-09 | 659 | 13 | 274 | 1928–2026 |
 | 2026-09-10 | 659 | 13 | 274 | 1928–2026 |
 | 2026-09-11 | 659 | 13 | 274 | 1928–2026 |
+| 2026-09-12 | 659 | 13 | 274 | 1928–2026 |
 
 ---
 
