@@ -30,6 +30,7 @@
           name="nom"
           autocomplete="name"
           required
+          aria-required="true"
           aria-describedby="c-nom-error"
           maxlength="120"
         >
@@ -45,6 +46,7 @@
           name="email"
           autocomplete="email"
           required
+          aria-required="true"
           aria-describedby="c-email-error"
           maxlength="254"
         >
@@ -58,6 +60,7 @@
           id="c-missatge"
           name="missatge"
           required
+          aria-required="true"
           aria-describedby="c-missatge-error"
           maxlength="2000"
           rows="6"
@@ -73,6 +76,7 @@
             id="c-rgpd"
             name="rgpd"
             required
+            aria-required="true"
           >
           <span>He llegit i accepto la <a href="{{ "legal/privacitat/" | relLangURL }}">política de privacitat</a>. Les dades facilitades s'usaran únicament per respondre la vostra consulta i no es cediran a tercers. <span class="form-requerit" aria-hidden="true">*</span></span>
         </label>
@@ -105,13 +109,11 @@
 
   function mostrarError(input, errorEl, missatge) {
     input.setAttribute('aria-invalid', 'true');
-    input.setAttribute('aria-describedby', errorEl.id);
     errorEl.textContent = missatge;
   }
 
   function netejaError(input, errorEl) {
     input.removeAttribute('aria-invalid');
-    input.removeAttribute('aria-describedby');
     errorEl.textContent = '';
   }
 
