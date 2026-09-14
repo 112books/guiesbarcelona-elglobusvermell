@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-13T20:15:06.817113Z",
+  "generated": "2026-09-14T03:11:22.869334Z",
   "period": {
-    "start": "2025-09-13",
-    "end": "2026-09-13"
+    "start": "2025-09-14",
+    "end": "2026-09-14"
   },
-  "total": 814,
+  "total": 815,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -162,12 +162,16 @@
     {
       "date": "2026-09-08",
       "count": 2
+    },
+    {
+      "date": "2026-09-13",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 95
+      "count": 96
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
@@ -287,7 +291,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 542,
+    "guiesbarcelona-elglobusvermell": 543,
     "mapa-filtre-pub": 169,
     "mapa-info-pub": 43,
     "mapa-filtre-tema": 21,
@@ -569,6 +573,11 @@
       "count": 3
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
+      "count": 3
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/habitatges-mas-de-roda",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/habitatges-mas-de-roda",
       "count": 3
@@ -621,11 +630,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/portada-alternativa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/portada-alternativa",
-      "count": 2
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
       "count": 2
     },
     {
