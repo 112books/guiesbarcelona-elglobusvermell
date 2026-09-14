@@ -15,11 +15,10 @@
 
   var map = L.map(el, { zoomControl: true, scrollWheelZoom: false, gestureHandling: true });
 
-  // Mateix tile CartoDB Light que el mapa principal (tema 'a')
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    maxZoom: 19,
-    subdomains: 'abcd'
+  // Mateix tile Stadia Alidade Smooth que el mapa principal (tema 'a')
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
+    maxZoom: 20
   }).addTo(map);
 
   var latlng = [parseFloat(punt.lat), parseFloat(punt.long)];

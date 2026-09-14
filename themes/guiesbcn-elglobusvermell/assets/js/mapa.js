@@ -56,18 +56,17 @@
     });
 
     // ── Tile layers ──────────────────────────────────────────────────────
-    var CARTO_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>';
+    var STADIA_ATTR = '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
     var tiles = {
-      a: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-      b: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-      c: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+      a: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
+      b: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
+      c: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png'
     };
 
     var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true });
     L.tileLayer(tiles[tema] || tiles.a, {
-      attribution: CARTO_ATTR,
-      maxZoom: 19,
-      subdomains: 'abcd',
+      attribution: STADIA_ATTR,
+      maxZoom: 20,
       updateWhenZooming: false
     }).addTo(map);
 

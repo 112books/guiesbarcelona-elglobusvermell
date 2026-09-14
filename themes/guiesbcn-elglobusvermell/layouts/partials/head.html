@@ -44,9 +44,8 @@
 <link rel="preload" as="image" href="{{ .Params.foto | strings.TrimPrefix "/" | absURL }}">
 {{ end }}
 {{ if or (eq .Section "elements") (eq .Section "mapa") (eq .Kind "term") }}
-<link rel="preconnect" href="https://a.basemaps.cartocdn.com">
-<link rel="preconnect" href="https://b.basemaps.cartocdn.com">
-<link rel="dns-prefetch" href="https://a.basemaps.cartocdn.com">
+<link rel="preconnect" href="https://tiles.stadiamaps.com">
+<link rel="dns-prefetch" href="https://tiles.stadiamaps.com">
 {{ end }}
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
