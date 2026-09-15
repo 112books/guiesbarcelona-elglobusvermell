@@ -817,13 +817,11 @@ function renderBars(containerId, items, opts = {}) {
     el.innerHTML = '<span class="empty">sense dades</span>';
     return;
   }
-  const max   = items[0].count || 1;
   const total = items.reduce((s,i) => s+i.count, 0) || 1;
   el.className = 'bars';
   el.innerHTML = '';
   items.forEach(item => {
-    const pct  = Math.round(item.count/max*100);
-    const gpct = Math.round(item.count/total*100);
+    const pct  = Math.round(item.count/total*100);
     const name = String(item.name || '?');
 
     const row   = document.createElement('div'); row.className = 'bar-row';
@@ -842,8 +840,8 @@ function renderBars(containerId, items, opts = {}) {
     fill.className = 'bar-fill' + (opts.colorClass ? ' '+opts.colorClass : '');
     fill.style.width = '0%';
     fill.dataset.w = pct;
-    if (gpct > 12) {
-      const sp = document.createElement('span'); sp.className = 'bar-pct'; sp.textContent = gpct+'%';
+    if (pct > 12) {
+      const sp = document.createElement('span'); sp.className = 'bar-pct'; sp.textContent = pct+'%';
       fill.appendChild(sp);
     }
     track.appendChild(fill);
