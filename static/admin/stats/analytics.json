@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-15T20:49:31.858170Z",
+  "generated": "2026-09-16T03:09:39.862368Z",
   "period": {
-    "start": "2025-09-15",
-    "end": "2026-09-15"
+    "start": "2025-09-16",
+    "end": "2026-09-16"
   },
-  "total": 818,
+  "total": 822,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -170,28 +170,32 @@
     {
       "date": "2026-09-14",
       "count": 3
+    },
+    {
+      "date": "2026-09-15",
+      "count": 4
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 98
+      "count": 99
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
       "count": 37
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/arquitectes",
+      "count": 29
+    },
+    {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
       "count": 29
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 27
-    },
-    {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 27
+      "count": 28
     },
     {
       "path": "/mapa-filtre-pub/50-75",
@@ -295,7 +299,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 546,
+    "guiesbarcelona-elglobusvermell": 550,
     "mapa-filtre-pub": 169,
     "mapa-info-pub": 43,
     "mapa-filtre-tema": 21,
@@ -374,12 +378,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 388
+      "count": 390
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 358
+      "count": 359
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
@@ -399,7 +403,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 67
+      "count": 68
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
