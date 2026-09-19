@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-18T20:20:34.966935Z",
+  "generated": "2026-09-19T02:58:17.762108Z",
   "period": {
-    "start": "2025-09-18",
-    "end": "2026-09-18"
+    "start": "2025-09-19",
+    "end": "2026-09-19"
   },
-  "total": 822,
+  "total": 827,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -141,11 +141,11 @@
     },
     {
       "date": "2026-08-31",
-      "count": 74
+      "count": 75
     },
     {
       "date": "2026-09-01",
-      "count": 11
+      "count": 10
     },
     {
       "date": "2026-09-02",
@@ -174,16 +174,20 @@
     {
       "date": "2026-09-15",
       "count": 4
+    },
+    {
+      "date": "2026-09-18",
+      "count": 5
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 99
+      "count": 100
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 37
+      "count": 38
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
@@ -226,16 +230,16 @@
       "count": 15
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
+      "count": 14
+    },
+    {
       "path": "/mapa-filtre-pub/mercats",
       "count": 14
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/credits",
       "count": 14
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
-      "count": 13
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/contacte",
@@ -267,7 +271,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/mapa-filtre-pub/masies",
@@ -299,7 +303,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 550,
+    "guiesbarcelona-elglobusvermell": 555,
     "mapa-filtre-pub": 169,
     "mapa-info-pub": 43,
     "mapa-filtre-tema": 21,
@@ -378,17 +382,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 390
+      "count": 391
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 359
+      "count": 360
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 152
+      "count": 153
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/76-08",
@@ -421,13 +425,13 @@
       "count": 31
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
-      "count": 25
-    },
-    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
+      "count": 26
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
       "count": 25
     },
     {
@@ -476,6 +480,11 @@
       "count": 8
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord",
+      "count": 8
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torres-doficines-trade",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torres-doficines-trade",
       "count": 8
@@ -493,11 +502,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/raimon-duran-i-reynals",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/raimon-duran-i-reynals",
-      "count": 7
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord",
       "count": 7
     },
     {
