@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-19T19:59:22.991606Z",
+  "generated": "2026-09-20T03:12:15.563349Z",
   "period": {
-    "start": "2025-09-19",
-    "end": "2026-09-19"
+    "start": "2025-09-20",
+    "end": "2026-09-20"
   },
-  "total": 827,
+  "total": 828,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -178,6 +178,10 @@
     {
       "date": "2026-09-18",
       "count": 5
+    },
+    {
+      "date": "2026-09-19",
+      "count": 1
     }
   ],
   "hits": [
@@ -187,7 +191,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
@@ -303,7 +307,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 555,
+    "guiesbarcelona-elglobusvermell": 556,
     "mapa-filtre-pub": 169,
     "mapa-info-pub": 43,
     "mapa-filtre-tema": 21,
@@ -387,7 +391,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 360
+      "count": 361
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
