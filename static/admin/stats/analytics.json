@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-20T20:15:45.145715Z",
+  "generated": "2026-09-21T03:08:29.542459Z",
   "period": {
-    "start": "2025-09-20",
-    "end": "2026-09-20"
+    "start": "2025-09-21",
+    "end": "2026-09-21"
   },
-  "total": 828,
+  "total": 829,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -182,12 +182,16 @@
     {
       "date": "2026-09-19",
       "count": 1
+    },
+    {
+      "date": "2026-09-20",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 100
+      "count": 101
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
@@ -307,7 +311,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 556,
+    "guiesbarcelona-elglobusvermell": 557,
     "mapa-filtre-pub": 169,
     "mapa-info-pub": 43,
     "mapa-filtre-tema": 21,
@@ -549,6 +553,11 @@
       "count": 4
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
+      "count": 4
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/cosmocaixa-barcelona",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/cosmocaixa-barcelona",
       "count": 4
@@ -586,11 +595,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/aulari-i-bar-per-a-la-facultat-de-dret",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/aulari-i-bar-per-a-la-facultat-de-dret",
-      "count": 3
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin",
       "count": 3
     },
     {
