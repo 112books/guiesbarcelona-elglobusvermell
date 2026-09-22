@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-21T21:40:04.759401Z",
+  "generated": "2026-09-22T03:08:10.999569Z",
   "period": {
-    "start": "2025-09-21",
-    "end": "2026-09-21"
+    "start": "2025-09-22",
+    "end": "2026-09-22"
   },
-  "total": 829,
+  "total": 836,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "date": "2026-07-24",
-      "count": 15
+      "count": 16
     },
     {
       "date": "2026-07-27",
@@ -37,7 +37,7 @@
     },
     {
       "date": "2026-07-28",
-      "count": 58
+      "count": 57
     },
     {
       "date": "2026-07-29",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-08-18",
-      "count": 83
+      "count": 84
     },
     {
       "date": "2026-08-19",
@@ -121,7 +121,7 @@
     },
     {
       "date": "2026-08-24",
-      "count": 18
+      "count": 17
     },
     {
       "date": "2026-08-27",
@@ -133,7 +133,7 @@
     },
     {
       "date": "2026-08-29",
-      "count": 17
+      "count": 16
     },
     {
       "date": "2026-08-30",
@@ -145,7 +145,7 @@
     },
     {
       "date": "2026-09-01",
-      "count": 10
+      "count": 11
     },
     {
       "date": "2026-09-02",
@@ -186,16 +186,20 @@
     {
       "date": "2026-09-20",
       "count": 1
+    },
+    {
+      "date": "2026-09-21",
+      "count": 7
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 101
+      "count": 102
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 39
+      "count": 40
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
@@ -267,6 +271,10 @@
     },
     {
       "path": "/mapa-filtre-pub/biblioteques",
+      "count": 13
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
       "count": 12
     },
     {
@@ -278,12 +286,12 @@
       "count": 11
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
-      "count": 11
-    },
-    {
       "path": "/mapa-filtre-pub/masies",
       "count": 10
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
+      "count": 9
     },
     {
       "path": "/mapa-info-pub/50-75",
@@ -302,18 +310,14 @@
       "count": 8
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
-      "count": 8
-    },
-    {
       "path": "/guiesbarcelona-elglobusvermell/elements/biblioteca-les-roquetes-rafa-juncadella",
       "count": 8
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 557,
-    "mapa-filtre-pub": 169,
-    "mapa-info-pub": 43,
+    "guiesbarcelona-elglobusvermell": 562,
+    "mapa-filtre-pub": 170,
+    "mapa-info-pub": 44,
     "mapa-filtre-tema": 21,
     "mapa-clickhttps:": 39
   },
@@ -390,7 +394,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 391
+      "count": 392
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
@@ -400,12 +404,12 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 153
+      "count": 158
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/76-08",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/76-08",
-      "count": 73
+      "count": 76
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
@@ -435,7 +439,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
-      "count": 26
+      "count": 30
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
@@ -483,13 +487,13 @@
       "count": 9
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/accessibilitat",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/accessibilitat",
-      "count": 8
-    },
-    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord",
+      "count": 9
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/accessibilitat",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/accessibilitat",
       "count": 8
     },
     {
