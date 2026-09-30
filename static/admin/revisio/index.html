@@ -31,6 +31,7 @@
     .r-posicio { border: 1px solid #cfe0d3; background: #f1f7f2; padding: 0.6rem 0.75rem; margin: 0.6rem 0; font-size: 0.9rem; }
     .r-posicio strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.2rem; }
     .r-badge.nostre { color: #1a5fb4; }
+    .r-badge.tasca { color: #1a5fb4; }
     .r-ref { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.15rem 0.45rem; background: var(--soft); border: 1px solid var(--border); color: var(--ink2); }
     .r-estat { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; padding: 0.15rem 0.45rem; border: 1px solid currentColor; margin-left: auto; }
     .r-estat.pendent { color: var(--amber); }
@@ -99,6 +100,10 @@
     <section aria-labelledby="sec-decisions">
       <h2 class="r-sec" id="sec-decisions">Decisions pendents</h2>
       <div id="r-decisions"></div>
+    </section>
+    <section aria-labelledby="sec-tasques">
+      <h2 class="r-sec" id="sec-tasques">Pendent de fer — per nosaltres</h2>
+      <div id="r-tasques"></div>
     </section>
     <section aria-labelledby="sec-canvis">
       <h2 class="r-sec" id="sec-canvis">Fet — pendent de la teva verificació</h2>
@@ -208,7 +213,7 @@
     }
 
     function trobaItem(id) {
-      var tots = DADES.decisions.concat(DADES.canvis, DADES.decisions_nostres || []);
+      var tots = DADES.decisions.concat(DADES.canvis, DADES.tasques || [], DADES.decisions_nostres || []);
       for (var i = 0; i < tots.length; i++) if (tots[i].id === id) return tots[i];
       return null;
     }
@@ -221,6 +226,8 @@
       } else if (tipus === "canvi") {
         if (valor(item.id, "opcio") === "verificat") { el.className = "r-estat verificat"; el.textContent = "Verificat i OK"; }
         else { el.className = "r-estat fet"; el.textContent = "Fet — per nosaltres"; }
+      } else if (tipus === "tasca") {
+        el.className = "r-estat pendent"; el.textContent = "Pendent";
       } else {
         el.className = "r-estat informatiu"; el.textContent = "Informatiu";
       }
@@ -230,9 +237,26 @@
       var el = document.querySelector('[data-estat="' + id + '"]');
       var item = trobaItem(id);
       if (!el || !item) return;
-      var tipus = (DADES.decisions.indexOf(item) >= 0) ? "decisio" : (DADES.canvis.indexOf(item) >= 0 ? "canvi" : "informacio");
+      var tipus = (DADES.decisions.indexOf(item) >= 0) ? "decisio" : ((DADES.canvis.indexOf(item) >= 0) ? "canvi" : ((DADES.tasques || []).indexOf(item) >= 0 ? "tasca" : "informacio"));
       var nou = criaEstat(item, tipus);
       el.className = nou.className; el.textContent = nou.textContent;
+    }
+
+    function construeixTasca(item) {
+      var art = document.createElement("article");
+      art.className = "r-item";
+      var head = document.createElement("div"); head.className = "r-item-head";
+      var badge = document.createElement("span"); badge.className = "r-badge tasca"; badge.textContent = "Pendent";
+      head.appendChild(badge);
+      if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
+      head.appendChild(criaEstat(item, "tasca"));
+      art.appendChild(head);
+      var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
+      if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
+      if (item.context) { var c = document.createElement("p"); c.className = "r-context"; c.textContent = item.context; art.appendChild(c); }
+      if (item.descripcio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.descripcio; art.appendChild(d); }
+      art.appendChild(creaComentari(item.id));
+      return art;
     }
 
     function construeixNostra(item) {
@@ -288,6 +312,16 @@
         if (ccom) linies.push("  Comentari: " + ccom);
       }
       linies.push("");
+      linies.push("== PENDENT DE FER (NOSALTRES) ==");
+      var tasqResum = DADES.tasques || [];
+      for (var t3 = 0; t3 < tasqResum.length; t3++) {
+        var tt = tasqResum[t3];
+        var tcom = valor(tt.id, "comentari");
+        if (!tcom) continue;
+        linies.push("- " + (tt.ref ? "[" + tt.ref + "] " : "") + tt.titol);
+        linies.push("  Comentari: " + tcom);
+      }
+      linies.push("");
       linies.push("== SOBRE LES DECISIONS NOSTRES ==");
       var nostresResum = DADES.decisions_nostres || [];
       for (var k2 = 0; k2 < nostresResum.length; k2++) {
@@ -339,6 +373,9 @@
       for (var i = 0; i < DADES.decisions.length; i++) contD.appendChild(construeixDecixo(DADES.decisions[i]));
       var contC = document.getElementById("r-canvis");
       for (var j = 0; j < DADES.canvis.length; j++) contC.appendChild(construeixCanvi(DADES.canvis[j]));
+      var contT = document.getElementById("r-tasques");
+      var tasques = DADES.tasques || [];
+      for (var t = 0; t < tasques.length; t++) contT.appendChild(construeixTasca(tasques[t]));
       var contN = document.getElementById("r-nostres");
       var nostres = DADES.decisions_nostres || [];
       for (var k = 0; k < nostres.length; k++) contN.appendChild(construeixNostra(nostres[k]));
