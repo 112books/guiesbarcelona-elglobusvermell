@@ -399,7 +399,7 @@
       "estat": "fet",
       "titol": "Botó (i) amb informació als temes transversals",
       "cita": "Els temes transversals també haurien de tenir una (i) i la seva pròpia informació (ja hi és a la web antiga, però te la puc passar).",
-      "resultat": "Fet: cada tema transversal del mapa (Espai públic, Art públic, Dones arquitectes, Nomenclàtor femení) té un botó (i) que desplega la seva informació, recuperada de la web de producció.",
+      "resultat": "Fet i ampliat: el botó (i) inicial ha estat substituït per l'enllaç a la pàgina pròpia del tema (R2), amb la informació, el mapa i el llistat.",
       "enllacos": [
         {
           "label": "Mapa",
@@ -645,7 +645,8 @@
           "label": "En paper",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
         }
-      ]
+      ],
+      "posicio": "Nota interna (Joan, 30/9): ell el faria finit, però es manté infinit perquè és la decisió de Xavi."
     },
     {
       "id": "r6-splash-logo",
@@ -707,6 +708,32 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
         }
       ]
+    },
+    {
+      "id": "r2-temes-transversals",
+      "ref": "M5 · R2",
+      "estat": "fet",
+      "titol": "Temes transversals: pàgina pròpia amb el seu mapa",
+      "cita": "Preferim que tingui pàgina pròpia, com té cada un dels temes dels plànols-guia, amb el seu propi mapa.",
+      "resultat": "Fet: cada tema transversal (Espai públic, Art públic, Dones arquitectes, Nomenclàtor femení) té una pàgina pròpia amb la seva informació, el mapa i el llistat d'elements. Al filtre del mapa, el botó (i) ara és un enllaç a la pàgina del tema.",
+      "enllacos": [
+        {
+          "label": "Espai públic",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/espai-public/"
+        },
+        {
+          "label": "Art públic",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/art-public/"
+        },
+        {
+          "label": "Dones arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/dones-arquitectes/"
+        },
+        {
+          "label": "Nomenclàtor femení",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/nomenclator-femeni/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
@@ -736,14 +763,6 @@
     }
   ],
   "tasques": [
-    {
-      "id": "r2-temes-transversals",
-      "ref": "M5 · R2",
-      "titol": "Temes transversals: pàgina pròpia amb mapa",
-      "cita": "Preferim que tingui pàgina pròpia, com té cada un dels temes dels plànols-guia, amb el seu propi mapa.",
-      "context": "Ara cada tema transversal (Espai públic, Art públic, Dones arquitectes, Nomenclàtor femení) té un botó (i) que desplega la informació. Els textos ja recuperats de la web antiga són a .ai/fonts-xavi/2026-09-30-temes-transversals-info.md i a data/temes_transversals.yaml.",
-      "descripcio": "A fer: pàgina per tema amb el seu mapa, com els plànols-guia."
-    },
     {
       "id": "r8-anys-xifres",
       "ref": "PR1 · R8",

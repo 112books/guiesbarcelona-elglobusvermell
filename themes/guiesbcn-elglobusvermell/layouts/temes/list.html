@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<article class="pagina-contingut">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <ul class="temes-llista">
+    {{ range .Pages }}
+      {{ $slug := .Params.tema }}
+      {{ $color := "#888" }}
+      {{ range hugo.Data.temes_transversals }}{{ if eq .slug $slug }}{{ $color = .color }}{{ end }}{{ end }}
+      <li style="--pub-color: {{ $color }}">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</article>
+
+{{ end }}

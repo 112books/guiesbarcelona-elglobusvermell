@@ -1,0 +1,89 @@
+{{ define "main" }}
+{{ $slug := .Params.tema }}
+{{ $tema := dict }}
+{{ range hugo.Data.temes_transversals }}
+  {{ if eq .slug $slug }}{{ $tema = . }}{{ end }}
+{{ end }}
+
+<article class="publicacio"{{ with $tema.color }} style="--pub-color: {{ . }}"{{ end }}>
+  <div class="publicacio-banda"></div>
+
+  <header class="publicacio-cap">
+    <h1>{{ .Title }}</h1>
+    <p class="publicacio-edicio">Tema transversal</p>
+    {{ partial "tts-button.html" ".publicacio-cap, .publicacio-descripcio" }}
+  </header>
+
+  {{ with $tema.info }}
+  <div class="publicacio-descripcio">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+
+  <section class="publicacio-edificis">
+    <div class="mapa-contenidor" id="mapa-contenidor" role="region" aria-label="Mapa d'elements de {{ .Title }}">
+      <div id="mapa" class="mapa-el"></div>
+    </div>
+  </section>
+
+  <section class="llistat-cronologic" id="llistat">
+    <div id="llistat-grups"></div>
+  </section>
+
+  <nav class="publicacio-nav" aria-label="Navegació">
+    <a href="{{ "temes/" | relURL }}">← Tots els temes</a>
+    <a href="{{ "mapa/" | relURL }}">Veure-ho al mapa general</a>
+  </nav>
+</article>
+
+{{/* Dades pel JavaScript: només els elements d'aquest tema */}}
+{{ $punts := slice }}
+{{ $tots  := slice }}
+{{ $elementsSection := site.GetPage "elements" }}
+{{ if $elementsSection }}
+  {{ range $elementsSection.Pages }}
+    {{ $page := . }}
+    {{ with $page.Params.temes_transversals }}
+      {{ if in . $slug }}
+        {{ $entry := dict
+          "title"              $page.Title
+          "url"                $page.Permalink
+          "publicacions"       $page.Params.publicacions
+          "temes_transversals" $page.Params.temes_transversals
+          "arquitectes"        $page.Params.arquitectes
+          "arquitectes_urls"   (partial "arquitectes-urls.html" $page.Params.arquitectes)
+          "any"                $page.Params.any
+          "adreca"             $page.Params.adreca
+          "districte"          $page.Params.districte
+          "zona"               $page.Params.zona
+          "ordre"              $page.Params.ordre
+        }}
+        {{ $tots = $tots | append $entry }}
+        {{ with $page.Params.lat }}
+          {{ $punts = $punts | append (merge $entry (dict "lat" . "long" $page.Params.long)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $pubsData := dict }}
+{{ range hugo.Data.publicacions }}
+  {{ if .estat_app.a_app }}
+    {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}
+  {{ end }}
+{{ end }}
+
+{{ $temesData := slice }}
+{{ range hugo.Data.temes_transversals }}
+  {{ $temesData = $temesData | append (dict "slug" .slug "titol" .titol "color" .color) }}
+{{ end }}
+
+<script>
+window.MAPA_PUNTS         = {{ $punts    | jsonify | safeJS }};
+window.TOTS_ELEMENTS      = {{ $tots     | jsonify | safeJS }};
+window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
+window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
+window.LLISTAT_GRUP       = 'plana';
+</script>
+{{ end }}

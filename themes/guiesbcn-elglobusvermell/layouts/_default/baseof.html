@@ -16,11 +16,11 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
-  {{ if or (eq .Section "elements") (eq .Section "mapa") (eq .Kind "term") }}
+  {{ if or (eq .Section "elements") (eq .Section "mapa") (and (eq .Section "temes") (eq .Kind "page")) (eq .Kind "term") }}
   <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}" defer></script>
   <script src="{{ "vendor/leaflet/leaflet-gesture-handling.min.js" | relURL }}" defer></script>
   {{ end }}
-  {{ if or (and (eq .Section "mapa") (eq .Kind "section")) (and (eq .Section "elements") (eq .Kind "section")) (eq .Kind "term") }}
+  {{ if or (and (eq .Section "mapa") (eq .Kind "section")) (and (eq .Section "elements") (eq .Kind "section")) (and (eq .Section "temes") (eq .Kind "page")) (eq .Kind "term") }}
   {{ $mapaJs := resources.Get "js/mapa.js" | minify | fingerprint }}
   <script src="{{ $mapaJs.RelPermalink }}" integrity="{{ $mapaJs.Data.Integrity }}" defer></script>
   {{ end }}
@@ -28,7 +28,7 @@
   {{ $fitxaJs := resources.Get "js/fitxa.js" | minify | fingerprint }}
   <script src="{{ $fitxaJs.RelPermalink }}" integrity="{{ $fitxaJs.Data.Integrity }}" defer></script>
   {{ end }}
-  {{ if or (eq .Section "en-paper") (and (eq .Kind "term") (eq .Data.Plural "publicacions")) }}
+  {{ if or (eq .Section "en-paper") (eq .Section "temes") (and (eq .Kind "term") (eq .Data.Plural "publicacions")) }}
   {{ $ttsJs := resources.Get "js/tts.js" | minify | fingerprint }}
   <script src="{{ $ttsJs.RelPermalink }}" integrity="{{ $ttsJs.Data.Integrity }}" defer></script>
   {{ end }}

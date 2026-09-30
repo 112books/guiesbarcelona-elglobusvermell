@@ -2595,6 +2595,11 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .en-paper-xip.is-actiu { background: var(--color-text); color: #fff; border-color: var(--color-text); }
 .en-paper-xip:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
 .en-paper-xips-nota { flex-basis: 100%; font-size: 0.82rem; color: var(--color-muted); margin: 0.3rem 0 0; }
+
+/* R2 — pàgina de tema transversal: llistat */
+.temes-llista { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.temes-llista a { display: block; padding: 1rem 1.25rem; border: 1px solid var(--color-border); border-left: 6px solid var(--pub-color, #888); text-decoration: none; color: inherit; font-weight: 600; }
+.temes-llista a:hover { border-color: var(--color-accent); }
 .en-plan {
   display: grid;
   grid-template-columns: minmax(0, 160px) minmax(0, 1fr);
