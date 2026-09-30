@@ -20,6 +20,12 @@
       letter-spacing: 0.16em; text-transform: uppercase; }
     main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 12rem; }
     .r-intro { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.15rem; margin-bottom: 1.25rem; font-size: 0.95rem; }
+    .r-filtre { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin: 0 0 1.5rem; }
+    .r-filtre-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); margin-right: 0.2rem; }
+    .r-filtre-btn { font: inherit; font-size: 0.85rem; padding: 0.35rem 0.8rem; border: 1px solid var(--border); background: var(--surface); color: var(--ink2); cursor: pointer; border-radius: 2rem; }
+    .r-filtre-btn:hover { background: var(--soft); }
+    .r-filtre-btn.is-actiu { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .r-filtre-btn:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
     .r-howto { background: var(--surface); border: 1px solid var(--border); padding: 0.85rem 1.15rem; margin-bottom: 1.75rem; font-size: 0.92rem; }
     .r-howto summary { cursor: pointer; font-weight: 600; }
     .r-howto summary:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
@@ -86,6 +92,15 @@
   <main>
     <p class="r-intro" id="r-intro"></p>
 
+    <div class="r-filtre" id="r-filtre" role="group" aria-label="Mostra les tasques per estat">
+      <span class="r-filtre-label">Mostra:</span>
+      <button type="button" class="r-filtre-btn is-actiu" data-filtre="tot" aria-pressed="true">Tot</button>
+      <button type="button" class="r-filtre-btn" data-filtre="fet" aria-pressed="false">Fetes</button>
+      <button type="button" class="r-filtre-btn" data-filtre="tasca" aria-pressed="false">Pendents</button>
+      <button type="button" class="r-filtre-btn" data-filtre="dubte" aria-pressed="false">Dubtes a resoldre</button>
+      <button type="button" class="r-filtre-btn" data-filtre="resposta" aria-pressed="false">Respostes rebudes</button>
+    </div>
+
     <details class="r-howto">
       <summary>Com crear contingut nou (una fitxa d'edifici nova)</summary>
       <div class="r-howto-body">
@@ -124,8 +139,8 @@
   <div class="r-actions">
     <div class="r-actions-inner">
       <span class="r-count" id="r-count"></span>
-      <button type="button" class="r-btn" id="r-send">Envia'm les respostes</button>
-      <button type="button" class="r-btn secondary" id="r-copy">Copia el resum</button>
+      <button type="button" class="r-btn" id="r-copy" title="Copia el resum amb format per enganxar a Gmail">Copia el resum (per Gmail)</button>
+      <button type="button" class="r-btn secondary" id="r-send">Obre el correu</button>
       <button type="button" class="r-btn secondary" id="r-reset">Esborra</button>
       <span class="r-status" id="r-status" role="status" aria-live="polite"></span>
     </div>
@@ -173,6 +188,7 @@
     function construeixDecixo(item) {
       var art = document.createElement("article");
       art.className = "r-item";
+      art.setAttribute("data-cat", item.resposta ? "resposta" : "dubte");
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge decisio"; badge.textContent = "Decisió";
       head.appendChild(badge);
@@ -208,6 +224,7 @@
     function construeixCanvi(item) {
       var art = document.createElement("article");
       art.className = "r-item";
+      art.setAttribute("data-cat", "fet");
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge canvi"; badge.textContent = "Fet";
       head.appendChild(badge);
@@ -270,6 +287,7 @@
     function construeixTasca(item) {
       var art = document.createElement("article");
       art.className = "r-item";
+      art.setAttribute("data-cat", "tasca");
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge tasca"; badge.textContent = "Pendent";
       head.appendChild(badge);
@@ -287,6 +305,7 @@
     function construeixNostra(item) {
       var art = document.createElement("article");
       art.className = "r-item";
+      art.setAttribute("data-cat", "nostra");
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge nostre"; badge.textContent = "Decisió nostra";
       head.appendChild(badge);
@@ -368,17 +387,113 @@
       setTimeout(function () { if (s.textContent === text) s.textContent = ""; }, 3000);
     }
 
+    function aplicaFiltre(f) {
+      var items = document.querySelectorAll(".r-item");
+      Array.prototype.forEach.call(items, function (el) {
+        var cat = el.getAttribute("data-cat") || "";
+        el.hidden = !(f === "tot" || cat === f);
+      });
+      ["sec-decisions", "sec-tasques", "sec-canvis", "sec-nostres"].forEach(function (id) {
+        var sec = document.getElementById(id);
+        if (!sec) return;
+        var contenidor = sec.querySelector("div");
+        var visible = contenidor && Array.prototype.some.call(contenidor.children, function (c) { return !c.hidden; });
+        sec.hidden = !visible;
+      });
+    }
+
+    function initFiltre() {
+      var barra = document.getElementById("r-filtre");
+      if (!barra) return;
+      barra.addEventListener("click", function (e) {
+        var b = e.target.closest ? e.target.closest(".r-filtre-btn") : null;
+        if (!b) return;
+        var f = b.getAttribute("data-filtre");
+        barra.querySelectorAll(".r-filtre-btn").forEach(function (o) {
+          var actiu = o === b;
+          o.classList.toggle("is-actiu", actiu);
+          o.setAttribute("aria-pressed", actiu ? "true" : "false");
+        });
+        aplicaFiltre(f);
+      });
+    }
+
+    function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+    function generaResumHTML() {
+      var h = [];
+      h.push("<h2>Resposta a la revisió de canvis — Guies de Barcelona</h2>");
+      h.push("<p><strong>Data:</strong> " + esc(new Date().toLocaleDateString("ca-ES")) + "</p>");
+      var dec = [];
+      for (var i = 0; i < DADES.decisions.length; i++) {
+        var it = DADES.decisions[i];
+        var op = valor(it.id, "opcio"), com = valor(it.id, "comentari");
+        if (!op && !com) continue;
+        var t = (it.ref ? "[" + esc(it.ref) + "] " : "") + esc(it.titol);
+        var linia = "<li><strong>" + t + "</strong><br>Opció: " + esc(op ? etiquetaOpcio(it, op) : "(sense triar)");
+        if (com) linia += "<br>Comentari: " + esc(com);
+        dec.push(linia + "</li>");
+      }
+      if (dec.length) h.push("<h3>Decisions</h3><ul>" + dec.join("") + "</ul>");
+      var can = [];
+      for (var j = 0; j < DADES.canvis.length; j++) {
+        var c = DADES.canvis[j];
+        var cop = valor(c.id, "opcio"), ccom = valor(c.id, "comentari");
+        if (!cop && !ccom) continue;
+        var estat = cop === "verificat" ? "Verificat i OK" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)";
+        var lc = "<li><strong>" + (c.ref ? "[" + esc(c.ref) + "] " : "") + esc(c.titol) + "</strong> — " + esc(estat);
+        if (ccom) lc += "<br>Comentari: " + esc(ccom);
+        can.push(lc + "</li>");
+      }
+      if (can.length) h.push("<h3>Canvis fets</h3><ul>" + can.join("") + "</ul>");
+      var tas = [];
+      var tq = DADES.tasques || [];
+      for (var k = 0; k < tq.length; k++) {
+        var tcom = valor(tq[k].id, "comentari");
+        if (!tcom) continue;
+        tas.push("<li><strong>" + (tq[k].ref ? "[" + esc(tq[k].ref) + "] " : "") + esc(tq[k].titol) + "</strong><br>Comentari: " + esc(tcom) + "</li>");
+      }
+      if (tas.length) h.push("<h3>Pendent de fer (nosaltres)</h3><ul>" + tas.join("") + "</ul>");
+      var nos = [];
+      var nq = DADES.decisions_nostres || [];
+      for (var m = 0; m < nq.length; m++) {
+        var ncom = valor(nq[m].id, "comentari");
+        if (!ncom) continue;
+        nos.push("<li><strong>" + (nq[m].ref ? "[" + esc(nq[m].ref) + "] " : "") + esc(nq[m].titol) + "</strong><br>Comentari: " + esc(ncom) + "</li>");
+      }
+      if (nos.length) h.push("<h3>Sobre les decisions nostres</h3><ul>" + nos.join("") + "</ul>");
+      if (!dec.length && !can.length && !tas.length && !nos.length) h.push("<p>(cap resposta)</p>");
+      return h.join("\n");
+    }
+
+    function copiaText(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { missatge("Resum copiat"); }, function () { finestraFallback(text); });
+      } else { finestraFallback(text); }
+    }
+
+    function copiaResum() {
+      var text = generaResum();
+      var html = generaResumHTML();
+      if (navigator.clipboard && window.ClipboardItem && navigator.clipboard.write) {
+        try {
+          var item = new ClipboardItem({
+            "text/plain": new Blob([text], { type: "text/plain" }),
+            "text/html": new Blob([html], { type: "text/html" })
+          });
+          navigator.clipboard.write([item]).then(function () { missatge("Resum copiat amb format per Gmail"); }, function () { copiaText(text); });
+          return;
+        } catch (e) { copiaText(text); return; }
+      }
+      copiaText(text);
+    }
+
     document.getElementById("r-send").addEventListener("click", function () {
       var resum = generaResum();
       var url = "mailto:joan@linuxbcn.com?subject=" + encodeURIComponent("Revisió de canvis — Guies de Barcelona (respostes de Xavi)") + "&body=" + encodeURIComponent(resum);
       window.location.href = url;
     });
-    document.getElementById("r-copy").addEventListener("click", function () {
-      var resum = generaResum();
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(resum).then(function () { missatge("Resum copiat"); }, function () { finestraFallback(resum); });
-      } else { finestraFallback(resum); }
-    });
+    document.getElementById("r-copy").addEventListener("click", copiaResum);
     function finestraFallback(text) {
       var ta = document.createElement("textarea");
       ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
@@ -411,7 +526,7 @@
 
     fetch("./tasques.json", { cache: "no-store" })
       .then(function (r) { return r.json(); })
-      .then(function (d) { DADES = d; pinta(); })
+      .then(function (d) { DADES = d; pinta(); initFiltre(); })
       .catch(function () { document.getElementById("r-intro").textContent = "No s'han pogut carregar les tasques. Torna-ho a provar o avisa en Joan."; });
   </script>
 </body>
