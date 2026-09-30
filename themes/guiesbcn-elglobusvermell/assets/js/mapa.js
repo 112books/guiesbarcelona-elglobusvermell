@@ -726,6 +726,14 @@
     resultatsEl.hidden = true;
     resultatsEl.setAttribute('aria-live', 'polite');
     cercaFiltres.appendChild(resultatsEl);
+
+    // Cerca enllaçable: /mapa/?cerca=...
+    var urlCerca = new URLSearchParams(window.location.search).get('cerca');
+    if (urlCerca) {
+      cercaInput.value = urlCerca;
+      filtresCerca.texte = urlCerca.toLowerCase();
+      aplicaCerca();
+    }
   }
 
 
