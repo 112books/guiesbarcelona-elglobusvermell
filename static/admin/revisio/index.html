@@ -32,6 +32,8 @@
     .r-posicio strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.2rem; }
     .r-badge.nostre { color: #1a5fb4; }
     .r-badge.tasca { color: #1a5fb4; }
+    .r-enllacos { margin: 0 0 0.75rem; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.88rem; }
+    .r-enllacos a { font-weight: 600; }
     .r-ref { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.15rem 0.45rem; background: var(--soft); border: 1px solid var(--border); color: var(--ink2); }
     .r-estat { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; padding: 0.15rem 0.45rem; border: 1px solid currentColor; margin-left: auto; }
     .r-estat.pendent { color: var(--amber); }
@@ -203,6 +205,16 @@
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.resultat) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.resultat; art.appendChild(d); }
       if (item.posicio) { var po = document.createElement("div"); po.className = "r-posicio"; var pt = document.createElement("strong"); pt.textContent = "Nota nostra"; po.appendChild(pt); var px = document.createElement("span"); px.textContent = item.posicio; po.appendChild(px); art.appendChild(po); }
+      if (item.enllacos && item.enllacos.length) {
+        var enl = document.createElement("p"); enl.className = "r-enllacos";
+        for (var ei = 0; ei < item.enllacos.length; ei++) {
+          var a = document.createElement("a");
+          a.href = item.enllacos[ei].url; a.target = "_blank"; a.rel = "noopener";
+          a.textContent = "Veure-ho: " + item.enllacos[ei].label + " ↗";
+          enl.appendChild(a);
+        }
+        art.appendChild(enl);
+      }
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Verificació"; fs.appendChild(lg);
       fs.appendChild(creaOpcio(item.id, "verificat", "Verificat i OK", "Ho he revisat i està bé.", valor(item.id, "opcio")));

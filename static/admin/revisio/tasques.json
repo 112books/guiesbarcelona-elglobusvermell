@@ -287,28 +287,6 @@
       "posicio": "Podem posar la que vulgueu, sempre que la llicència ho permeti. Us en podem preparar 2-3 opcions d'ús lliure perquè trieu."
     },
     {
-      "id": "m5-temes-info",
-      "ref": "M5",
-      "estat": "pendent",
-      "titol": "Botó (i) amb informació als temes transversals",
-      "cita": "Els temes transversals també haurien de tenir una (i) i la seva pròpia informació (ja hi és a la web antiga, però te la puc passar).",
-      "context": "Ho podem implementar; ens caldrà el text de cada tema.",
-      "descripcio": "",
-      "opcions": [
-        {
-          "id": "si",
-          "label": "Sí, us passarem els textos",
-          "detall": ""
-        },
-        {
-          "id": "no",
-          "label": "De moment, no",
-          "detall": ""
-        }
-      ],
-      "recomanacio": ""
-    },
-    {
       "id": "g1-columnes",
       "ref": "G1",
       "estat": "pendent",
@@ -339,7 +317,13 @@
       "titol": "Fotos en blanc i negre",
       "cita": "podem posar totes les fotos en blanc i negre? I podem penedir-nos-en i fer marxar enrere?",
       "resultat": "Fet: s'aplica un filtre CSS (grayscale) a les fotos de les fitxes (i al carrusel). És reversible amb una sola línia: si no agrada, es treu la classe i tornen al color.",
-      "posicio": "Vegeu-ho amb calma i digueu si les mantenim en blanc i negre o tornem al color."
+      "posicio": "Vegeu-ho amb calma i digueu si les mantenim en blanc i negre o tornem al color.",
+      "enllacos": [
+        {
+          "label": "Una fitxa d'exemple",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/"
+        }
+      ]
     },
     {
       "id": "p7-splash-mobil",
@@ -348,7 +332,13 @@
       "titol": "Splash amb el logo al mòbil",
       "cita": "podem fer que quan entris a l'app del mòbil, durant un instant, aparegui el logo d'arquitectura i urbanisme i després ja el mapa, sense haver de fer cap click?",
       "resultat": "Fet: en mòbil, en entrar, apareix un instant el logo i després la pàgina, sense cap clic. Només un cop per sessió.",
-      "posicio": "És un prototip; digueu-nos si us va bé o si el volem treure o ajustar."
+      "posicio": "És un prototip; digueu-nos si us va bé o si el volem treure o ajustar.",
+      "enllacos": [
+        {
+          "label": "Portada (obre al mòbil)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     },
     {
       "id": "p6-navegacio-blocs",
@@ -357,7 +347,13 @@
       "titol": "Navegació per blocs amb scroll a la portada",
       "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
       "resultat": "Fet: la portada té una barra fixa sota el menú amb «Inici · Guies · Mapa» que ressalta el bloc on ets mentre baixes i t'hi porta en clicar.",
-      "posicio": "A en Joan li agrada; digueu-nos si us va bé o si preferiu treure-la."
+      "posicio": "A en Joan li agrada; digueu-nos si us va bé o si preferiu treure-la.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     },
     {
       "id": "g1-menu",
@@ -366,7 +362,13 @@
       "titol": "Alineació del logo i el menú amb el cos del web",
       "cita": "el menú de dalt (logo + menú) ha de quedar verticalment alineat amb aquestes dues columnes.",
       "resultat": "Fet: el logo i el menú fan servir els mateixos marges dret i esquerra que el cos del web. El peu ja funcionava així.",
-      "posicio": "Podeu aprovar-ho o demanar-nos més o menys marge; ho ajustem de seguida."
+      "posicio": "Podeu aprovar-ho o demanar-nos més o menys marge; ho ajustem de seguida.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     },
     {
       "id": "locucions",
@@ -374,7 +376,17 @@
       "titol": "Lectura en veu alta a «En paper» i a cada plànol",
       "cita": "Lectura en veu alta: La versió actual, de moment. Això sí, important, també hi hauria de ser l'apartat en paper i a cada plànol!",
       "resultat": "Fet: botó «Escoltar» a la pàgina «En paper» i a cada pàgina de plànol, amb la mateixa veu del sistema (Web Speech API). No calia triar: la versió actual ja és la bona.",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        },
+        {
+          "label": "Un plànol",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/interiors-illa/"
+        }
+      ]
     },
     {
       "id": "xifres",
@@ -382,7 +394,17 @@
       "cita": "A la presentació i a la portada, on apareix el projecte en xifres, hauria d'aparèixer el mateix als dos llocs.",
       "resultat": "Problema: cada lloc calculava les xifres pel seu compte i donaven valors diferents (portada: 659 elements, 13 guies, 274 arquitectes, 1928–2026; Presentació: 660 punts, 13 mapes, 274 arquitectes i «98 anys»). Solució: totes dues beuen ara d'una única font de dades i mostren els mateixos valors i les mateixes etiquetes (659 · 13 · 274 · 1928–2026).",
       "ref": "PR1",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        },
+        {
+          "label": "Presentació",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/presentacio/"
+        }
+      ]
     },
     {
       "id": "t01-t03",
@@ -390,7 +412,13 @@
       "cita": "No hem de dir \"edificis\" sinó \"elements\". Hi ha edificis, espai públic i obres d'art. A la web no ens agrada que el menú es converteixi en icones quan fas scroll. Preferim que sigui sempre text. L'ordre del menú hauria de ser: Presentació, Mapa, En paper, Arquitectes, Contacte",
       "resultat": "«edificis» → «elements»; ordre del menú Presentació · Mapa · En paper · Arquitectes · Contacte; el menú fa servir sempre text.",
       "ref": "G2·G3·F7",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     },
     {
       "id": "t04",
@@ -398,7 +426,13 @@
       "cita": "Ens agradaria que el mapa inicial aparegués amb una mica més de zoom, ara està una mica massa allunyat.",
       "resultat": "El mapa s'ajusta a tots els elements sense marge. El zoom ja no s'enteritza i guanyem escriptori (×1,69).",
       "ref": "M1",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
     },
     {
       "id": "t05",
@@ -407,7 +441,13 @@
       "resultat": "En triar un plànol, la resta d'elements del mapa ja no es difuminen.",
       "ref": "M4",
       "estat": "fet",
-      "posicio": "Nota nostra (idea original): l'atenuació la vam introduir per mostrar, al mapa general, la potència del conjunt de guies: en triar un plànol, els punts que no hi pertanyen s'atenuaven i quedava clar quins eren els seleccionats. A les pàgines de cada guia els punts ja surten aïllats, i allà no calia."
+      "posicio": "Nota nostra (idea original): l'atenuació la vam introduir per mostrar, al mapa general, la potència del conjunt de guies: en triar un plànol, els punts que no hi pertanyen s'atenuaven i quedava clar quins eren els seleccionats. A les pàgines de cada guia els punts ja surten aïllats, i allà no calia.",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
     },
     {
       "id": "t06",
@@ -416,7 +456,13 @@
       "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es manté el cercador i el bloc «Publicacions».",
       "ref": "M6",
       "estat": "fet",
-      "posicio": "Nota nostra: el cercador integrat anava lligat al llistat (filtrava les fitxes que hi apareixien). Sense el llistat, tal com està, no té sentit. Per això ho tenim com a pregunta oberta (ref. M6): cal decidir com representem les cerques —en aquesta mateixa pàgina o en un cercador a part— i si la cerca ha de distingir entre tipus de contingut (elements del mapa, arquitectes, pàgines...) o si n'hi ha d'haver un de general."
+      "posicio": "Nota nostra: el cercador integrat anava lligat al llistat (filtrava les fitxes que hi apareixien). Sense el llistat, tal com està, no té sentit. Per això ho tenim com a pregunta oberta (ref. M6): cal decidir com representem les cerques —en aquesta mateixa pàgina o en un cercador a part— i si la cerca ha de distingir entre tipus de contingut (elements del mapa, arquitectes, pàgines...) o si n'hi ha d'haver un de general.",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
     },
     {
       "id": "t07",
@@ -424,7 +470,13 @@
       "cita": "Suggerir un canvi no hauria de ser en aquest apartat.",
       "resultat": "El bloc s'ha tret de Presentació i es manté a /contacte/.",
       "ref": "PR4",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "Presentació",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/presentacio/"
+        }
+      ]
     },
     {
       "id": "t08",
@@ -432,7 +484,13 @@
       "cita": "Al llistat d'elements de l'arquitecte, no ens agrada que surti l'etiqueta de l'any, i clicar... massa clics. Pot aparèixer el llistat i ja està?",
       "resultat": "Llistat pla, sense etiqueta d'any ni acords. Contrast WCAG AA corregit.",
       "ref": "A2",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "Fitxa d'arquitecte",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/enric-miralles/"
+        }
+      ]
     },
     {
       "id": "t09",
@@ -441,7 +499,13 @@
       "resultat": "Fora la guia destacada, l'arquitecte destacat i els recursos educatius de la portada.",
       "ref": "P5",
       "estat": "fet",
-      "posicio": "Nota nostra: aprofitem per plantejar la distribució de les guies a la portada. Amb 13 guies, les files queden 6·6·1 i l'última queda despenjada; si ho preferiu, les podem repartir 5·5·3, que queda més equilibrat. Ho tens com a pregunta (ref. P4 / G1)."
+      "posicio": "Nota nostra: aprofitem per plantejar la distribució de les guies a la portada. Amb 13 guies, les files queden 6·6·1 i l'última queda despenjada; si ho preferiu, les podem repartir 5·5·3, que queda més equilibrat. Ho tens com a pregunta (ref. P4 / G1).",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     },
     {
       "id": "cms",
@@ -449,7 +513,13 @@
       "cita": "No he trobat com crear nous plànols o noves fitxes. És molt important que ho puguem fer.",
       "resultat": "Per editar: /admin/cms/. Per crear fitxes noves: /admin/cms-admin/.",
       "ref": "FU1",
-      "estat": "fet"
+      "estat": "fet",
+      "enllacos": [
+        {
+          "label": "Editor d'administració",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms-admin/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
@@ -487,6 +557,15 @@
       "descripcio": "Ho fem tal com ho has descrit (carrusel de portades + xips de filtre + tots els plànols en dues columnes). Quan ho tinguem, t'ho passem perquè ho revisis.",
       "ref": "EP1-EP8",
       "estat": "pendent"
+    },
+    {
+      "id": "m5-temes-info",
+      "ref": "M5",
+      "estat": "pendent",
+      "titol": "Botó (i) amb informació als temes transversals",
+      "cita": "Els temes transversals també haurien de tenir una (i) i la seva pròpia informació (ja hi és a la web antiga, però te la puc passar).",
+      "context": "Hem recuperat els textos de la web de producció (WordPress): ja els tenim guardats.",
+      "descripcio": "Ens falta implementar el botó (i) i mostrar-hi aquests textos. No cal que ens els passeu."
     }
   ]
 }
