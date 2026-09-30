@@ -104,6 +104,8 @@ elglobusvermell.org/
 - **SRI** per a GoatCounter i Chart.js — no canviar versions sense actualitzar hashes
 - `robots.txt` dinàmic: blocat en dev, públic en staging/producció
 - **Schema.org:** JSON-LD a cada element (Organization, Article, Place, BreadcrumbList)
+- **Després de cada push:** comprovar amb `gh run list` (o `scripts/estat-actions.sh`) que **Deploy → GitHub Pages** i **Accessibilitat (pa11y-ci)** han passat. No donar res per acabat fins que estiguin verds, i **preguntar a Joan si el desplegament s'ha vist bé**. Si falla, corregir abans de seguir.
+- **Fitxers grans:** no reescriure'ls mai amb lectura+escriptura (l'eina de lectura trunca); fer servir edicions dirigides (`edit`) o comprovar el nombre de línies abans i després.
 
 ---
 
