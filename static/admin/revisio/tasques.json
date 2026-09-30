@@ -1,0 +1,210 @@
+{
+  "actualitzat": "2026-09-30",
+  "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. Marca una opció o deixa un comentari a cada punt i, al final, envia'm el resum. No cal omplir-ho tot de cop: el navegador desa el que hagis triat.",
+  "decisions": [
+    {
+      "id": "cercador-mapa",
+      "titol": "Com ha de funcionar el cercador del mapa?",
+      "context": "«Eliminar llistat d'elements sota el mapa i l'abecedari; mantenir només el cercador» (M6).",
+      "descripcio": "Hem tret el llistat i l'abecedari. Sense el llistat, el cercador (Cerca, Època, Arquitecte) ara mateix no mostra resultats enlloc.",
+      "opcions": [
+        {
+          "id": "A",
+          "label": "Opció A — resultats a la mateixa pàgina",
+          "detall": "Els resultats apareixen sota els camps de cerca a /mapa/ i s'actualitzen mentre s'escriu. Podem fer que els pins del mapa es filtrin o es destaquin."
+        },
+        {
+          "id": "B",
+          "label": "Opció B — pàgina pròpia de cerca",
+          "detall": "Una pàgina /cerca/ amb el llistat alfabètic desplegat i tots els camps de cerca; els resultats es mostren allà."
+        }
+      ],
+      "recomanacio": "A"
+    },
+    {
+      "id": "t06-publicacions",
+      "titol": "T06 — Traiem també el bloc «Publicacions» del mapa?",
+      "context": "«Eliminar llistat d'elements sota el mapa i l'abecedari; mantenir només el cercador» (M6).",
+      "descripcio": "El bloc «Publicacions» és el que activa i desactiva els elements al mapa. La nostra assumpció és mantenir-lo.",
+      "opcions": [
+        {
+          "id": "mantenir",
+          "label": "Mantenir-lo",
+          "detall": "Continua servint per encendre i apagar publicacions al mapa."
+        },
+        {
+          "id": "treure",
+          "label": "Treure'l",
+          "detall": "El mapa mostraria sempre tots els elements."
+        }
+      ],
+      "recomanacio": "mantenir"
+    },
+    {
+      "id": "t07-suggerir",
+      "titol": "T07 — «Suggerir un canvi»: només fora de Presentació o del tot?",
+      "context": "«Suggerir una correcció» fora de la Presentació (T07).",
+      "descripcio": "L'hem tret de la pàgina Presentació, però es manté a /contacte/.",
+      "opcions": [
+        {
+          "id": "contacte",
+          "label": "Només fora de Presentació (es manté a Contacte)",
+          "detall": "És com ho tenim ara."
+        },
+        {
+          "id": "del-tot",
+          "label": "Treure'l del tot",
+          "detall": "Cap pàgina tindria el bloc."
+        }
+      ],
+      "recomanacio": "contacte"
+    },
+    {
+      "id": "xifres-portada",
+      "titol": "«El projecte en xifres»: on ha d'anar?",
+      "context": "P1 — el bloc hero amb el logo i les xifres (elements documentats, guies, arquitectes).",
+      "descripcio": "Hi ha tres llocs possibles i volem la teva opinió.",
+      "opcions": [
+        {
+          "id": "portada",
+          "label": "A la portada",
+          "detall": "Ja hi és implementat."
+        },
+        {
+          "id": "credits",
+          "label": "A Crèdits",
+          "detall": "On ja hi ha la informació del projecte."
+        },
+        {
+          "id": "presentacio",
+          "label": "A Presentació",
+          "detall": "On s'explica el projecte a qui arriba per primer cop."
+        }
+      ],
+      "recomanacio": "presentacio"
+    },
+    {
+      "id": "autoria-fotos",
+      "titol": "Autoria de les fotografies",
+      "context": "Fotos de les fitxes d'edifici.",
+      "descripcio": "Cal decidir com es crédita la fotografia. Afecta el peu de totes les fitxes.",
+      "opcions": [
+        {
+          "id": "copyright",
+          "label": "Amb ©",
+          "detall": "© El Globus Vermell, © Arxiu Fotogràfic de Barcelona, etc."
+        },
+        {
+          "id": "cc",
+          "label": "Amb Creative Commons",
+          "detall": "Especificant la llicència concreta."
+        },
+        {
+          "id": "sense",
+          "label": "Sense símbol de reserva",
+          "detall": "Només el nom de l'autor o la font."
+        }
+      ],
+      "recomanacio": "copyright"
+    },
+    {
+      "id": "locucions",
+      "titol": "Locucions (text a veu)",
+      "context": "Accessibilitat per a persones amb dificultats visuals (WCAG 2.1).",
+      "descripcio": "Dues opcions tècniques.",
+      "opcions": [
+        {
+          "id": "A",
+          "label": "Opció A — Web Speech API",
+          "detall": "Gratuïta, veu del sistema operatiu. Ja implementada com a prova."
+        },
+        {
+          "id": "B",
+          "label": "Opció B — Piper TTS",
+          "detall": "Veu neutra de qualitat, programari lliure; requereix servidor i ja està pressupostada."
+        }
+      ],
+      "recomanacio": "B"
+    },
+    {
+      "id": "arquitectes-combinats",
+      "titol": "Arquitectes combinats: qui els separa?",
+      "context": "Hi ha 73 fitxes amb diversos arquitectes combinats.",
+      "descripcio": "Cal decidir si els separem nosaltres o si els reviseu vosaltres.",
+      "opcions": [
+        {
+          "id": "nosaltres",
+          "label": "Els separem nosaltres",
+          "detall": "Ens encarreguem de desdoblar-los."
+        },
+        {
+          "id": "vosaltres",
+          "label": "Els reviseu vosaltres",
+          "detall": "Vosaltres indiqueu com separar-los."
+        }
+      ],
+      "recomanacio": "nosaltres"
+    },
+    {
+      "id": "en-paper",
+      "titol": "«En paper»: com ha de funcionar?",
+      "context": "Pàgina de publicacions en paper.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "portada",
+          "label": "Portada + botó PDF descarregable",
+          "detall": ""
+        },
+        {
+          "id": "altra",
+          "label": "Una altra manera (comentari)",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    }
+  ],
+  "canvis": [
+    {
+      "id": "t01-t03",
+      "titol": "T01–T03 — Terminologia, ordre de menú i menú sempre text",
+      "resultat": "«edificis» → «elements»; ordre del menú Presentació · Mapa · En paper · Arquitectes · Contacte; el menú fa servir sempre text, no icones."
+    },
+    {
+      "id": "t04",
+      "titol": "T04 — Zoom inicial del mapa ajustat",
+      "resultat": "El mapa s'ajusta a tots els elements sense marge. El zoom ja no s'enteritza (zoomSnap 0) i guanyem escriptori (×1,69)."
+    },
+    {
+      "id": "t05",
+      "titol": "T05 — Sense difuminat en seleccionar un plànol",
+      "resultat": "En triar un plànol, la resta d'elements del mapa ja no es difuminen."
+    },
+    {
+      "id": "t06",
+      "titol": "T06 — Abecedari i llistat del mapa eliminats",
+      "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es mantenen el cercador i el bloc «Publicacions»."
+    },
+    {
+      "id": "t07",
+      "titol": "T07 — «Suggerir una correcció» fora de Presentació",
+      "resultat": "El bloc s'ha tret de Presentació i es manté a /contacte/."
+    },
+    {
+      "id": "t08",
+      "titol": "T08 — Llistat de la pàgina d'arquitecte en mode pla",
+      "resultat": "Llistat pla, sense etiqueta d'any ni acordions. Contrast WCAG AA corregit."
+    },
+    {
+      "id": "t09",
+      "titol": "T09 — Portada sense destacats ni recursos educatius",
+      "resultat": "Fora la guia destacada, l'arquitecte destacat i els recursos educatius de la portada."
+    },
+    {
+      "id": "cms",
+      "titol": "CMS — Editor d'administració per crear fitxes noves",
+      "resultat": "L'editor per editar és /admin/cms/; per crear fitxes noves, /admin/cms-admin/."
+    }
+  ]
+}

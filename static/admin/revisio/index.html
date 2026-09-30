@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Revisió de canvis — Guies Barcelona</title>
+  <style>
+    :root {
+      --bg: #f5f4f0; --ink: #111110; --ink2: #3d3d39; --ink3: #62625d;
+      --border: #d8d8d2; --surface: #ffffff; --soft: #eeede9; --red: #c81e1e;
+      --green: #1d6b3a; --amber: #8a5a00;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.55; }
+    header.r-header { text-align: center; padding: 2.25rem 1rem 1.5rem; background: #fff; border-bottom: 1px solid var(--border); }
+    header.r-header img { height: 3.25rem; width: auto; }
+    header.r-header h1 { margin: 0.85rem 0 0; font-size: 0.78rem; font-weight: 400; color: var(--ink3);
+      letter-spacing: 0.16em; text-transform: uppercase; }
+    main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 12rem; }
+    .r-intro { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.15rem; margin-bottom: 1.75rem; font-size: 0.95rem; }
+    h2.r-sec { font-size: 1.05rem; margin: 2rem 0 0.9rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--ink); }
+    .r-item { background: var(--surface); border: 1px solid var(--border); padding: 1.1rem 1.15rem; margin-bottom: 1rem; }
+    .r-item-head { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
+    .r-badge { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.15rem 0.45rem; border: 1px solid currentColor; }
+    .r-badge.decisio { color: var(--amber); }
+    .r-badge.canvi { color: var(--green); }
+    .r-title { font-size: 1.02rem; font-weight: 600; margin: 0.35rem 0 0.25rem; }
+    .r-context { font-size: 0.83rem; color: var(--ink3); font-style: italic; margin: 0 0 0.5rem; }
+    .r-desc { font-size: 0.92rem; margin: 0 0 0.75rem; }
+    fieldset { border: 0; margin: 0; padding: 0; }
+    legend { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); margin-bottom: 0.45rem; }
+    .r-opt { display: flex; gap: 0.6rem; padding: 0.55rem 0.6rem; border: 1px solid var(--border); margin-bottom: 0.45rem; cursor: pointer; }
+    .r-opt:hover { background: var(--soft); }
+    .r-opt input { margin-top: 0.25rem; flex: none; }
+    .r-opt-label { font-size: 0.93rem; font-weight: 600; }
+    .r-opt-detail { display: block; font-weight: 400; font-size: 0.85rem; color: var(--ink3); }
+    .r-opt input:checked + .r-opt-body .r-opt-label { color: var(--red); }
+    .r-rec { font-size: 0.8rem; color: var(--green); font-weight: 600; margin-left: 0.4rem; }
+    label.r-comment-label { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); margin: 0.7rem 0 0.3rem; }
+    textarea { width: 100%; min-height: 3.2rem; padding: 0.55rem; border: 1px solid var(--border); font-family: inherit; font-size: 0.9rem; resize: vertical; }
+    .r-item input:focus-visible, .r-item textarea:focus-visible, .r-item .r-opt:focus-within { outline: 3px solid #1a5fb4; outline-offset: 1px; }
+    .r-actions { position: fixed; left: 0; right: 0; bottom: 0; background: #fff; border-top: 2px solid var(--ink); padding: 0.85rem 1rem; }
+    .r-actions-inner { max-width: 820px; margin: 0 auto; display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
+    .r-btn { font: inherit; font-size: 0.9rem; padding: 0.55rem 1rem; border: 1px solid var(--ink); background: var(--ink); color: #fff; cursor: pointer; }
+    .r-btn.secondary { background: #fff; color: var(--ink); }
+    .r-btn:hover { background: var(--red); border-color: var(--red); color: #fff; }
+    .r-status { font-size: 0.85rem; color: var(--green); margin-left: auto; }
+    .r-count { font-size: 0.85rem; color: var(--ink3); }
+    a { color: #a51717; }
+    @media (max-width: 520px) { .r-status { margin-left: 0; } }
+  </style>
+</head>
+<body>
+  <header class="r-header">
+    <a href="../" aria-label="Tornar a l'administrador"><img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg" alt="Guies de Barcelona de El Globus Vermell"></a>
+    <h1>Revisió de canvis i decisions</h1>
+  </header>
+
+  <main>
+    <p class="r-intro" id="r-intro"></p>
+    <section aria-labelledby="sec-decisions">
+      <h2 class="r-sec" id="sec-decisions">Decisions pendents</h2>
+      <div id="r-decisions"></div>
+    </section>
+    <section aria-labelledby="sec-canvis">
+      <h2 class="r-sec" id="sec-canvis">Canvis fets — per validar</h2>
+      <div id="r-canvis"></div>
+    </section>
+  </main>
+
+  <div class="r-actions">
+    <div class="r-actions-inner">
+      <span class="r-count" id="r-count"></span>
+      <button type="button" class="r-btn" id="r-send">Envia'm les respostes</button>
+      <button type="button" class="r-btn secondary" id="r-copy">Copia el resum</button>
+      <button type="button" class="r-btn secondary" id="r-reset">Esborra</button>
+      <span class="r-status" id="r-status" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+
+  <script>
+    var DADES = null;
+    var KEY = "revisio-xavi-guiesbcn";
+    var ESTAT = {};
+    try { ESTAT = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { ESTAT = {}; }
+
+    function desa() { try { localStorage.setItem(KEY, JSON.stringify(ESTAT)); } catch (e) {} }
+    function valor(id, camp) { return (ESTAT[id] && ESTAT[id][camp]) || ""; }
+    function set(id, camp, val) { if (!ESTAT[id]) ESTAT[id] = {}; ESTAT[id][camp] = val; desa(); actualitzaComptador(); }
+
+    function creaOpcio(nom, valor, etiqueta, detall, triat) {
+      var lab = document.createElement("label");
+      lab.className = "r-opt";
+      var inp = document.createElement("input");
+      inp.type = "radio"; inp.name = nom; inp.value = valor; inp.checked = (triat === valor);
+      inp.addEventListener("change", function () { set(nom, "opcio", valor); });
+      var cos = document.createElement("span");
+      cos.className = "r-opt-body";
+      var t = document.createElement("span"); t.className = "r-opt-label"; t.textContent = etiqueta;
+      cos.appendChild(t);
+      if (detall) { var d = document.createElement("span"); d.className = "r-opt-detail"; d.textContent = detall; cos.appendChild(d); }
+      lab.appendChild(inp); lab.appendChild(cos);
+      return lab;
+    }
+
+    function creaComentari(id) {
+      var lab = document.createElement("label");
+      lab.className = "r-comment-label";
+      lab.setAttribute("for", "com-" + id);
+      lab.textContent = "Comentari (opcional)";
+      var ta = document.createElement("textarea");
+      ta.id = "com-" + id;
+      ta.value = valor(id, "comentari");
+      ta.addEventListener("input", function () { set(id, "comentari", this.value); });
+      var wrap = document.createElement("div");
+      wrap.appendChild(lab); wrap.appendChild(ta);
+      return wrap;
+    }
+
+    function construeixDecixo(item) {
+      var art = document.createElement("article");
+      art.className = "r-item";
+      var head = document.createElement("div"); head.className = "r-item-head";
+      var badge = document.createElement("span"); badge.className = "r-badge decisio"; badge.textContent = "Decisió";
+      head.appendChild(badge);
+      art.appendChild(head);
+      var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
+      if (item.context) { var c = document.createElement("p"); c.className = "r-context"; c.textContent = item.context; art.appendChild(c); }
+      if (item.descripcio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.descripcio; art.appendChild(d); }
+      var fs = document.createElement("fieldset");
+      var lg = document.createElement("legend"); lg.textContent = "Tria una opció"; fs.appendChild(lg);
+      for (var i = 0; i < item.opcions.length; i++) {
+        var o = item.opcions[i];
+        var et = o.label + (item.recomanacio === o.id ? "  (recomanat)" : "");
+        fs.appendChild(creaOpcio(item.id, o.id, et, o.detall, valor(item.id, "opcio")));
+      }
+      art.appendChild(fs);
+      art.appendChild(creaComentari(item.id));
+      return art;
+    }
+
+    function construeixCanvi(item) {
+      var art = document.createElement("article");
+      art.className = "r-item";
+      var head = document.createElement("div"); head.className = "r-item-head";
+      var badge = document.createElement("span"); badge.className = "r-badge canvi"; badge.textContent = "Canvi fet";
+      head.appendChild(badge);
+      art.appendChild(head);
+      var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
+      if (item.resultat) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.resultat; art.appendChild(d); }
+      var fs = document.createElement("fieldset");
+      var lg = document.createElement("legend"); lg.textContent = "La teva valoració"; fs.appendChild(lg);
+      fs.appendChild(creaOpcio(item.id, "ok", "D'acord", "", valor(item.id, "opcio")));
+      fs.appendChild(creaOpcio(item.id, "comentari", "Amb comentaris", "Deixa a sota què canviaries.", valor(item.id, "opcio")));
+      art.appendChild(fs);
+      art.appendChild(creaComentari(item.id));
+      return art;
+    }
+
+    function actualitzaComptador() {
+      var fets = 0, total = 0;
+      total = DADES.decisions.length + DADES.canvis.length;
+      for (var i = 0; i < DADES.decisions.length; i++) if (valor(DADES.decisions[i].id, "opcio") || valor(DADES.decisions[i].id, "comentari")) fets++;
+      for (var j = 0; j < DADES.canvis.length; j++) if (valor(DADES.canvis[j].id, "opcio") || valor(DADES.canvis[j].id, "comentari")) fets++;
+      document.getElementById("r-count").textContent = fets + " de " + total + " respostes";
+    }
+
+    function etiquetaOpcio(item, id) {
+      for (var i = 0; i < item.opcions.length; i++) if (item.opcions[i].id === id) return item.opcions[i].label;
+      return id;
+    }
+
+    function generaResum() {
+      var linies = [];
+      linies.push("RESPOSTA A LA REVISIÓ DE CANVIS — Guies de Barcelona");
+      linies.push("Data: " + new Date().toLocaleDateString("ca-ES"));
+      linies.push("");
+      linies.push("== DECISIONS ==");
+      for (var i = 0; i < DADES.decisions.length; i++) {
+        var it = DADES.decisions[i];
+        var op = valor(it.id, "opcio"), com = valor(it.id, "comentari");
+        if (!op && !com) continue;
+        linies.push("- " + it.titol);
+        linies.push("  Opció: " + (op ? etiquetaOpcio(it, op) : "(sense triar)"));
+        if (com) linies.push("  Comentari: " + com);
+      }
+      linies.push("");
+      linies.push("== CANVIS FETS ==");
+      for (var j = 0; j < DADES.canvis.length; j++) {
+        var c = DADES.canvis[j];
+        var cop = valor(c.id, "opcio"), ccom = valor(c.id, "comentari");
+        if (!cop && !ccom) continue;
+        linies.push("- " + c.titol + " — " + (cop === "ok" ? "D'acord" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)"));
+        if (ccom) linies.push("  Comentari: " + ccom);
+      }
+      if (DADES.decisions.length + DADES.canvis.length === 0) linies.push("(cap resposta)");
+      return linies.join("\n");
+    }
+
+    function missatge(text) {
+      var s = document.getElementById("r-status");
+      s.textContent = text;
+      setTimeout(function () { if (s.textContent === text) s.textContent = ""; }, 3000);
+    }
+
+    document.getElementById("r-send").addEventListener("click", function () {
+      var resum = generaResum();
+      var url = "mailto:joan@linuxbcn.com?subject=" + encodeURIComponent("Revisió de canvis — Guies de Barcelona (respostes de Xavi)") + "&body=" + encodeURIComponent(resum);
+      window.location.href = url;
+    });
+    document.getElementById("r-copy").addEventListener("click", function () {
+      var resum = generaResum();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(resum).then(function () { missatge("Resum copiat"); }, function () { finestraFallback(resum); });
+      } else { finestraFallback(resum); }
+    });
+    function finestraFallback(text) {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); missatge("Resum copiat"); } catch (e) { missatge("No s'ha pogut copiar"); }
+      document.body.removeChild(ta);
+    }
+    document.getElementById("r-reset").addEventListener("click", function () {
+      if (!confirm("Segur que vols esborrar totes les respostes?")) return;
+      ESTAT = {}; desa();
+      document.getElementById("r-decisions").innerHTML = "";
+      document.getElementById("r-canvis").innerHTML = "";
+      pinta(); missatge("Respostes esborrades");
+    });
+
+    function pinta() {
+      document.getElementById("r-intro").textContent = DADES.intro;
+      var contD = document.getElementById("r-decisions");
+      for (var i = 0; i < DADES.decisions.length; i++) contD.appendChild(construeixDecixo(DADES.decisions[i]));
+      var contC = document.getElementById("r-canvis");
+      for (var j = 0; j < DADES.canvis.length; j++) contC.appendChild(construeixCanvi(DADES.canvis[j]));
+      actualitzaComptador();
+    }
+
+    fetch("./tasques.json", { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (d) { DADES = d; pinta(); })
+      .catch(function () { document.getElementById("r-intro").textContent = "No s'han pogut carregar les tasques. Torna-ho a provar o avisa en Joan."; });
+  </script>
+</body>
+</html>
