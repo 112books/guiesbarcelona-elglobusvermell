@@ -2008,3 +2008,24 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1.3;
+}
+
+.pa-guia-card-count {
+  margin: 0;
+  font-size: 0.6875rem;
+  color: var(--color-muted);
+}
+
+/* Arquitecte destacat */
+.pa-arq-dest-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.pa-arq-etiqueta {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  text-transform: uppercase;

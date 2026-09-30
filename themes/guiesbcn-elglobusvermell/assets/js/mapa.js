@@ -1213,3 +1213,99 @@
       ul.style.maxHeight = '';
       return ul;
     }
+
+    var grupsTop = Array.prototype.slice.call(llistatGrups.children);
+
+    grupsTop.forEach(function (grup) {
+      var nomEl = grup.querySelector('.llistat-grup-any');
+      if (!nomEl) return;
+      var nom = nomEl.textContent.trim();
+
+      if (nom === 'Antics municipis') {
+        // Grup pare: elements directes sota l'h3; sub-zones sota els h4
+        var capPare = trobaEncapcalament(nom, 'h3');
+        var cosPare = grup.querySelector('.llistat-grup-elements');
+        var colocat = !!(capPare && cosPare);
+        if (colocat) {
+          var ulDirecte = cosPare.querySelector(':scope > ul');
+          if (ulDirecte) {
+            ulDirecte.classList.add('llistat-incrustat');
+            insereixSota(capPare, ulDirecte);
+          }
+          var subGrups = Array.prototype.slice.call(cosPare.querySelectorAll('.llistat-grup'));
+          subGrups.forEach(function (sub) {
+            var subNomEl = sub.querySelector('.llistat-grup-any');
+            if (!subNomEl) { colocat = false; return; }
+            var capSub = trobaEncapcalament(subNomEl.textContent.trim(), 'h4');
+            if (capSub) {
+              var subUl = extreuUl(sub);
+              if (subUl) insereixSota(capSub, subUl);
+              else colocat = false;
+            } else {
+              colocat = false;
+            }
+          });
+        }
+        if (colocat) grup.parentNode.removeChild(grup);
+      } else {
+        // Grup estàndard: llista plana sota l'h3
+        var cap = trobaEncapcalament(nom, 'h3');
+        if (cap) {
+          var ul = extreuUl(grup);
+          if (ul) {
+            insereixSota(cap, ul);
+            grup.parentNode.removeChild(grup);
+          }
+        }
+      }
+    });
+
+    // Grups restants (sense encapçalament): bloc de reserva al final
+    if (llistatGrups.children.length > 0) {
+      cos.appendChild(listatEl);
+    } else if (listatEl.parentNode) {
+      listatEl.parentNode.removeChild(listatEl);
+    }
+  }
+
+  // ── Inicialitzar ────────────────────────────────────────────────────────
+  construeixLlistat();
+  if (grupPer === 'any' || grupPer === 'districte' || grupPer === 'zona') {
+    construeixDescripcioAccordio();
+
+    // Injecta el llistat dinàmic (#llistat) dins l'acordió amb títol "Llistat"
+    var listatEl = document.getElementById('llistat');
+    if (listatEl) {
+      var descGrups = document.querySelectorAll('.publicacio-descripcio .llistat-grup');
+      var listatGrup = null;
+      descGrups.forEach(function (g) {
+        var title = g.querySelector('.llistat-grup-any');
+        if (title && /llistat/i.test(title.textContent.trim())) listatGrup = g;
+      });
+      if (listatGrup) {
+        var listatCos = listatGrup.querySelector('.llistat-grup-elements');
+        if (listatCos) {
+          listatEl.removeAttribute('aria-hidden');
+
+          if (grupPer === 'zona' && llistatGrups) {
+            // Mode zona: cada llista sota el text del seu encapçalament
+            injectaZonesSotaEncapcalaments(listatCos, listatEl);
+          } else {
+            // Resta de modes: tot el bloc al final (comportament anterior)
+            listatCos.appendChild(listatEl);
+          }
+        }
+      }
+    }
+
+    // La primera secció de la descripció es mostra expandida per defecte
+    var primerGrupDesc = document.querySelector('.publicacio-descripcio .llistat-grup');
+    if (primerGrupDesc) {
+      var primerBtn = primerGrupDesc.querySelector('.llistat-grup-capsalera');
+      var primerCos = primerGrupDesc.querySelector('.llistat-grup-elements');
+      primerBtn.setAttribute('aria-expanded', 'true');
+      primerGrupDesc.classList.add('obert');
+      if (primerCos) primerCos.style.maxHeight = '9999px';
+    }
+  }
+})();
