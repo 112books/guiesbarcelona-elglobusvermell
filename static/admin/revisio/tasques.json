@@ -311,6 +311,21 @@
   ],
   "canvis": [
     {
+      "id": "en-paper",
+      "titol": "«En paper»: el redisseny",
+      "cita": "L'apartat en paper el volem redissenyar. D'entrada, imaginem tres blocs: presentació, barra horitzontal de portades, xips de temes, i sota tots els plànols en dues columnes.",
+      "context": "Ens ho vas descriure amb detall (EP1–EP8). Els «xips» són botons de filtre per grans temes: Èpoques · Usos · Barris · Art, més el xip «Tots». En clicar-ne un, es filtren alhora el carrusel de portades i el llistat de plànols, i es desplega una explicació d'aquell tema.",
+      "ref": "EP1-EP8",
+      "estat": "fet",
+      "resultat": "Fet: pàgina En paper redissenyada amb el text de presentació, un carrusel de portades, xips de tema que filtren carrusel i llistat, tots els plànols en dues columnes (portada a l'esquerra) i un bloc de punts de venda.",
+      "enllacos": [
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        }
+      ]
+    },
+    {
       "id": "m5-temes-info",
       "ref": "M5",
       "estat": "fet",
@@ -562,15 +577,5 @@
       "estat": "informacio"
     }
   ],
-  "tasques": [
-    {
-      "id": "en-paper",
-      "titol": "«En paper»: el redisseny",
-      "cita": "L'apartat en paper el volem redissenyar. D'entrada, imaginem tres blocs: presentació, barra horitzontal de portades, xips de temes, i sota tots els plànols en dues columnes.",
-      "context": "Ens ho vas descriure amb detall (EP1–EP8). Els «xips» són botons de filtre per grans temes: Èpoques · Usos · Barris · Art, més el xip «Tots». En clicar-ne un, es filtren alhora el carrusel de portades i el llistat de plànols, i es desplega una explicació d'aquell tema.",
-      "descripcio": "Ho fem tal com ho has descrit (carrusel de portades + xips de filtre + tots els plànols en dues columnes). Quan ho tinguem, t'ho passem perquè ho revisis.",
-      "ref": "EP1-EP8",
-      "estat": "pendent"
-    }
-  ]
+  "tasques": []
 }

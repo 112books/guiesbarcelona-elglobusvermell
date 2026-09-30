@@ -10,12 +10,12 @@
   {{- end -}}
   {{- $href := printf "publicacions/%s/" $slug | relURL -}}
   {{- if $img -}}
-<a href="{{ $href }}" title="Llegir-ne més: {{ $pub.titol }}">
+<a href="{{ $href }}" data-slug="{{ $slug }}" title="Llegir-ne més: {{ $pub.titol }}">
 <img src="{{ $img | relURL }}" alt="Portada: {{ $pub.titol }}"
      class="portada-guia-img" loading="lazy" width="130">
 </a>
   {{- else -}}
-<a href="{{ $href }}" class="portada-guia-placeholder" style="background:{{ $pub.color }}"
+<a href="{{ $href }}" data-slug="{{ $slug }}" class="portada-guia-placeholder" style="background:{{ $pub.color }}"
    title="{{ $pub.titol }}" aria-label="Llegir-ne més: {{ $pub.titol }}"></a>
   {{- end -}}
 {{- end -}}

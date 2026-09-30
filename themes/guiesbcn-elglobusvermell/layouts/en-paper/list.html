@@ -1,9 +1,108 @@
 {{ define "main" }}
-<article class="pagina-contingut">
-  <div class="tts-wrap">
-    <h1>{{ .Title }}</h1>
-    {{ partial "tts-button.html" ".pagina-contingut" }}
+
+{{ $parts := split .Content "<hr>" }}
+{{ $intro := index $parts 0 }}
+{{ $plans := hugo.Data.publicacions }}
+{{ $temes := slice }}
+{{ range $plans }}{{ range .agrupacions_tematiques }}{{ if not (in $temes .) }}{{ $temes = $temes | append . }}{{ end }}{{ end }}{{ end }}
+
+<article class="en-paper">
+  <div class="en-paper-cap">
+    <h1 class="en-paper-titol">{{ .Title }}</h1>
+    {{ partial "tts-button.html" ".en-paper" }}
   </div>
-  {{ .Content }}
+
+  <div class="en-paper-intro">{{ $intro | safeHTML }}</div>
+
+  <section class="en-paper-bloc" aria-labelledby="en-paper-carroussel-titol">
+    <h2 id="en-paper-carroussel-titol" class="en-paper-bloc-titol">Els plànols, un a un</h2>
+    <div class="en-paper-carroussel" data-carroussel>
+      {{ range $plans }}
+        {{ $img := "" }}
+        {{ if fileExists (printf "static/img/publicacions/%s.webp" .slug) }}{{ $img = printf "img/publicacions/%s.webp" .slug }}
+        {{ else if fileExists (printf "static/img/publicacions/%s.jpg" .slug) }}{{ $img = printf "img/publicacions/%s.jpg" .slug }}
+        {{ else if fileExists (printf "static/img/publicacions/%s.png" .slug) }}{{ $img = printf "img/publicacions/%s.png" .slug }}{{ end }}
+        <button type="button" class="en-paper-carroussel-item" data-slug="{{ .slug }}" data-temes="{{ delimit .agrupacions_tematiques " " }}" aria-label="Anar al plànol: {{ .titol }}">
+          {{ if $img }}<img src="{{ $img | relURL }}" alt="Portada: {{ .titol }}" loading="lazy" width="130">
+          {{ else }}<span class="en-paper-carroussel-placeholder" style="background:{{ .color }}" aria-hidden="true"></span>{{ end }}
+          <span class="en-paper-carroussel-titol">{{ .titol }}</span>
+        </button>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="en-paper-bloc" aria-labelledby="en-paper-xips-titol">
+    <h2 id="en-paper-xips-titol" class="en-paper-bloc-titol">Filtra per tema</h2>
+    <div class="en-paper-xips" data-xips role="group" aria-label="Filtres per tema">
+      <button type="button" class="en-paper-xip is-actiu" data-tema="">Tots</button>
+      {{ range $temes }}<button type="button" class="en-paper-xip" data-tema="{{ . }}">{{ . }}</button>{{ end }}
+      <p class="en-paper-xips-nota">En triar un tema es filtren el carrusel i el llistat. <span class="en-paper-xips-comptador" data-comptador role="status"></span></p>
+    </div>
+  </section>
+
+  <section class="en-paper-bloc" aria-labelledby="en-paper-llista-titol">
+    <h2 id="en-paper-llista-titol" class="en-paper-bloc-titol">Tots els plànols</h2>
+    <div class="en-paper-llista" data-llista>
+      {{ range $i, $part := $parts }}
+        {{ if gt $i 0 }}<section class="en-plan" data-plan>{{ $part | safeHTML }}</section>{{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="en-paper-bloc en-paper-venda">
+    <h2 class="en-paper-bloc-titol">On els podeu trobar</h2>
+    <p>Els trobareu a les llibreries de Barcelona i també us els podem enviar per correu. Si voleu vendre els plànols-guia al vostre espai, <a href="{{ "contacte/" | relLangURL }}">escriviu-nos</a>.</p>
+  </section>
 </article>
+
+<script>
+window.ENPAPER_PLANS = {
+  {{ range $i, $p := $plans }}{{ if $i }},{{ end }}"{{ $p.slug }}": { temes: {{ $p.agrupacions_tematiques | jsonify | safeJS }} }{{ end }}
+};
+(function () {
+  var plans = window.ENPAPER_PLANS || {};
+  var xips = Array.prototype.slice.call(document.querySelectorAll('.en-paper-xip'));
+  var items = Array.prototype.slice.call(document.querySelectorAll('.en-paper-carroussel-item'));
+  var seccions = [];
+  Array.prototype.forEach.call(document.querySelectorAll('.en-plan'), function (sec) {
+    var a = sec.querySelector('a[data-slug]');
+    if (!a) return;
+    var slug = a.getAttribute('data-slug');
+    var info = plans[slug] || {};
+    var temes = info.temes || [];
+    sec.setAttribute('data-slug', slug);
+    sec.setAttribute('data-temes', temes.join(' '));
+    sec.id = 'pla-' + slug;
+    seccions.push(sec);
+  });
+  var sel = [];
+  function aplica() {
+    var actiu = sel.length > 0;
+    function coincideix(t) { return !actiu || t.some(function (x) { return sel.indexOf(x) >= 0; }); }
+    items.forEach(function (it) { it.hidden = !coincideix((it.getAttribute('data-temes') || '').split(' ').filter(Boolean)); });
+    seccions.forEach(function (sec) { sec.hidden = !coincideix((sec.getAttribute('data-temes') || '').split(' ').filter(Boolean)); });
+    var visibles = seccions.filter(function (s) { return !s.hidden; }).length;
+    var c = document.querySelector('[data-comptador]');
+    if (c) c.textContent = actiu ? '(' + visibles + ' plànols)' : '';
+  }
+  xips.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var tema = b.getAttribute('data-tema');
+      if (!tema) { sel = []; }
+      else { var i = sel.indexOf(tema); if (i >= 0) sel.splice(i, 1); else sel.push(tema); }
+      xips.forEach(function (o) {
+        var t = o.getAttribute('data-tema');
+        o.classList.toggle('is-actiu', t ? sel.indexOf(t) >= 0 : sel.length === 0);
+      });
+      aplica();
+    });
+  });
+  items.forEach(function (it) {
+    it.addEventListener('click', function () {
+      var sec = document.getElementById('pla-' + it.getAttribute('data-slug'));
+      if (sec) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}());
+</script>
 {{ end }}
