@@ -320,10 +320,15 @@ main {
 
 .footer-legal-links {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-sm);
 }
 
-.footer-legal-links a { text-decoration: underline; }
+.footer-legal-links a { text-decoration: underline; white-space: nowrap; }
+@media (max-width: 48rem) {
+  .footer-legal-links { justify-content: center; gap: 0.35rem 0.75rem; }
+  .footer-legal-links a:last-child { flex-basis: 100%; text-align: center; }
+}
 
 .footer-powered {
   text-align: right;
