@@ -20,6 +20,10 @@
     return isFinite(lat) && isFinite(lng) && !(lat === 0 && lng === 0);
   });
 
+  // Funcions del mapa que la cerca necessita (s'assignen dins el bloc del mapa)
+  var mapaFiltra = null;
+  var mapaAjusta = null;
+
   // ══════════════════════════════════════════════════════════════════════════
   //  SECCIÓ 1: MAPA + FILTRES DE MAPA
   // ══════════════════════════════════════════════════════════════════════════
@@ -348,8 +352,15 @@
           actiuPerTema = p.temes_transversals && p.temes_transversals.some(function (t) { return filtresMapa.tema[t]; });
         }
 
-        var ressaltat = actiuPerPub && actiuPerTema;
-        setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : OPACITAT_ATENUADA);
+        // Filtre per cerca (text, època, arquitecte)
+        var actiuPerCerca = !cercaActivaGlobal() || coincideixCerca(p);
+
+        var ressaltat = actiuPerPub && actiuPerTema && actiuPerCerca;
+        if (cercaActivaGlobal()) {
+          setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : { opacity: 0, fillOpacity: 0 });
+        } else {
+          setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : OPACITAT_ATENUADA);
+        }
       });
 
       // Actualitzar estat dels botons de publicació
@@ -379,6 +390,16 @@
         btn.style.opacity = (!hiHaAlgunTemaActiu || actiu) ? '1' : '0.4';
       });
     }
+
+    function ajustaCerca(llista) {
+      var fgs = [];
+      allMarkers.forEach(function (m) { if (llista.indexOf(m._dades) >= 0) fgs.push(m); });
+      if (!fgs.length) return;
+      if (fgs.length === 1) { map.setView(fgs[0].getBounds().getCenter(), Math.max(map.getZoom(), 15)); }
+      else { map.fitBounds(L.featureGroup(fgs).getBounds(), { padding: [40, 40] }); }
+    }
+    mapaFiltra = filtraMapa;
+    mapaAjusta = ajustaCerca;
 
     // ── Construir filtres de mapa ────────────────────────────────────────
     if (filtreMapa) {
@@ -629,9 +650,11 @@
     cercaInput.type = 'text';
     cercaInput.placeholder = "Nom d'element...";
     cercaInput.className = 'filtre-input';
+    var cercaDebounce = null;
     cercaInput.addEventListener('input', function () {
-      filtresCerca.texte = this.value.toLowerCase();
-      filtraLlistat();
+      var val = this.value.toLowerCase();
+      clearTimeout(cercaDebounce);
+      cercaDebounce = setTimeout(function () { filtresCerca.texte = val; aplicaCerca(); }, 160);
     });
     cercaGrup.appendChild(cercaInput);
     controls.appendChild(cercaGrup);
@@ -660,7 +683,7 @@
       });
       decadaSelect.addEventListener('change', function () {
         filtresCerca.decada = this.value;
-        filtraLlistat();
+        aplicaCerca();
       });
       decadaGrup.appendChild(decadaSelect);
       controls.appendChild(decadaGrup);
@@ -690,15 +713,83 @@
       });
       arqSelect.addEventListener('change', function () {
         filtresCerca.arquitecte = this.value;
-        filtraLlistat();
+        aplicaCerca();
       });
       arqGrup.appendChild(arqSelect);
       controls.appendChild(arqGrup);
     }
 
     cercaFiltres.appendChild(controls);
+
+    var resultatsEl = document.createElement('div');
+    resultatsEl.className = 'cerca-resultats';
+    resultatsEl.hidden = true;
+    resultatsEl.setAttribute('aria-live', 'polite');
+    cercaFiltres.appendChild(resultatsEl);
   }
 
+
+  function cercaActivaGlobal() {
+    if (!filtresCerca) return false;
+    return !!(filtresCerca.texte || filtresCerca.decada || filtresCerca.arquitecte);
+  }
+
+  function coincideixCerca(p) {
+    if (filtresCerca.texte) {
+      var t = (p.title || '').toLowerCase();
+      if (t.indexOf(filtresCerca.texte) === -1) return false;
+    }
+    if (filtresCerca.decada) {
+      var any = parseInt(p.any);
+      if (isNaN(any) || String(Math.floor(any / 10) * 10) !== filtresCerca.decada) return false;
+    }
+    if (filtresCerca.arquitecte) {
+      if (!p.arquitectes || p.arquitectes.indexOf(filtresCerca.arquitecte) === -1) return false;
+    }
+    return true;
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function pintaResultats(llista) {
+    if (!resultatsEl) return;
+    if (!cercaActivaGlobal()) { resultatsEl.hidden = true; resultatsEl.innerHTML = ''; return; }
+    resultatsEl.hidden = false;
+    var MAX = 30;
+    var visibles = llista.slice(0, MAX);
+    var html = '<p class="cerca-resultats-comptador">' + llista.length + (llista.length === 1 ? ' element' : ' elements') + '</p>';
+    html += '<ul class="cerca-resultats-llista">';
+    visibles.forEach(function (p) {
+      var pubs = (p.publicacions || []).map(function (slug) {
+        var pub = (window.PUBLICACIONS || {})[slug];
+        return '<span class="cerca-resultat-xip" style="--pub-color:' + esc(pub ? pub.color : '#888') + '">' + esc(pub ? pub.titol : slug) + '</span>';
+      }).join('');
+      html += '<li><a class="cerca-resultat" href="' + esc(p.url) + '">' +
+        '<span class="cerca-resultat-titol">' + esc(p.title) + '</span>' +
+        '<span class="cerca-resultat-meta">' + pubs +
+        (p.any ? '<span class="cerca-resultat-any">' + esc(p.any) + '</span>' : '') +
+        (p.adreca ? '<span class="cerca-resultat-adreca">' + esc(p.adreca) + '</span>' : '') +
+        '</span></a></li>';
+    });
+    html += '</ul>';
+    if (llista.length > MAX) html += '<p class="cerca-resultats-mes">Es mostren els primers ' + MAX + ' resultats.</p>';
+    resultatsEl.innerHTML = html;
+  }
+
+  function aplicaCerca() {
+    var llista = totsElsElements.filter(coincideixCerca);
+    pintaResultats(llista);
+    if (mapaFiltra) mapaFiltra();
+    if (cercaActivaGlobal() && mapaAjusta) {
+      var ambCoords = llista.filter(function (p) {
+        var lat = parseFloat(p.lat), lng = parseFloat(p.long);
+        return isFinite(lat) && isFinite(lng) && !(lat === 0 && lng === 0);
+      });
+      mapaAjusta(ambCoords);
+    }
+  }
 
   // Ordre oficial dels 10 districtes de Barcelona
   var ORDRE_DISTRICTES = [

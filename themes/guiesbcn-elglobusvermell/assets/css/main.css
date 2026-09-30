@@ -749,6 +749,17 @@ main {
 }
 .filtre-btn-info:hover { background: var(--pub-color, #888); color: #fff; }
 
+.cerca-resultats { margin-top: 0.85rem; }
+.cerca-resultats-comptador { font-size: 0.85rem; color: var(--color-muted); margin: 0 0 0.5rem; }
+.cerca-resultats-llista { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+.cerca-resultat { display: block; padding: 0.55rem 0.7rem; border: 1px solid var(--color-border); text-decoration: none; color: inherit; background: #fff; }
+.cerca-resultat:hover { border-color: var(--color-accent); }
+.cerca-resultat:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
+.cerca-resultat-titol { display: block; font-weight: 600; }
+.cerca-resultat-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; font-size: 0.8rem; color: var(--color-muted); margin-top: 0.2rem; }
+.cerca-resultat-xip { font-size: 0.7rem; padding: 0.05rem 0.45rem; border-radius: 1rem; background: var(--pub-color, #888); color: #fff; }
+.cerca-resultats-mes { font-size: 0.8rem; color: var(--color-muted); margin: 0.5rem 0 0; }
+
 .tema-info-wrap { margin-top: 0.6rem; }
 .tema-info {
   margin-top: 0.5rem;
