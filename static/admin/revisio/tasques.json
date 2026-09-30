@@ -3,28 +3,6 @@
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
-      "id": "cercador-mapa",
-      "titol": "Com ha de funcionar el cercador del mapa?",
-      "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
-      "context": "Ara mateix no hi ha cap cercador general a tot el web: només el d'aquest mapa i el de la pàgina d'Arquitectes. El cercador del mapa anava lligat al llistat que s'ha tret. Cal decidir on es mostren els resultats i si la cerca ha de distingir entre tipus de contingut (elements del mapa, arquitectes, pàgines...) o si, a més, n'hi ha d'haver un de general.",
-      "descripcio": "Hem tret el llistat i l'abecedari. Sense el llistat, el cercador (Cerca, Època, Arquitecte) no mostra resultats enlloc.",
-      "opcions": [
-        {
-          "id": "A",
-          "label": "Opció A — resultats a la mateixa pàgina",
-          "detall": "Els resultats apareixen sota els camps de cerca a /mapa/ i s'actualitzen mentre s'escriu. Podem fer que els pins del mapa es filtrin o es destaquin."
-        },
-        {
-          "id": "B",
-          "label": "Opció B — pàgina pròpia de cerca",
-          "detall": "Una pàgina /cerca/ amb el llistat alfabètic desplegat i tots els camps de cerca; els resultats es mostren allà."
-        }
-      ],
-      "recomanacio": "A",
-      "ref": "M6",
-      "estat": "pendent"
-    },
-    {
       "id": "cercador-general",
       "titol": "Voleu un cercador general a tot el web?",
       "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
@@ -310,6 +288,21 @@
     }
   ],
   "canvis": [
+    {
+      "id": "cercador-mapa",
+      "ref": "M6",
+      "estat": "fet",
+      "titol": "Cercador del mapa: filtra els pins i mostra els resultats",
+      "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
+      "resultat": "Fet: el cercador (nom, època i arquitecte) filtra els punts del mapa en directe i mostra a sota la llista de resultats (nom, xips del plànol, any i adreça), amb comptador i enllaç a cada fitxa. Es pot compartir amb l'adreça /mapa/?cerca=...",
+      "posicio": "Per què així: en un web de mapa, el resultat lògic d'una cerca és que el mapa ensenyi només el que coincideix i que n'aparegui la llista, sense saltar a una altra pàgina. La llista és el que dona sentit al cercador; el mapa, el context. Es combina amb els filtres de Publicacions i Temes.",
+      "enllacos": [
+        {
+          "label": "Mapa (prova: mercat)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/?cerca=mercat"
+        }
+      ]
+    },
     {
       "id": "en-paper",
       "titol": "«En paper»: el redisseny",
