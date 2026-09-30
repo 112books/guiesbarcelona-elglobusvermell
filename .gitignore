@@ -34,3 +34,6 @@ static/img/elements/Fotos-web-app/
 
 # Registre d'hores (time-tracker) — dades internes, no públiques
 .taques/
+
+# Cache local de gh CLI (logs de workflows)
+.gh-cache/
