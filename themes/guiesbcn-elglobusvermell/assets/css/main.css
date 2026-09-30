@@ -1705,6 +1705,33 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 /* ── Portada alternativa ──────────────────────────────────────────────────── */
 
+.portada-nav {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 900;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+.portada-nav ul {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0.55rem var(--space-md);
+  max-width: 64rem;
+}
+.portada-nav a {
+  display: inline-block;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: var(--color-muted);
+  padding: 0.15rem 0;
+  border-bottom: 2px solid transparent;
+}
+.portada-nav a:hover { color: var(--color-text); }
+.portada-nav a.is-actiu { color: var(--color-text); border-bottom-color: var(--color-accent); }
+
 .portada-alt {
   max-width: 100%;
   padding: 0;

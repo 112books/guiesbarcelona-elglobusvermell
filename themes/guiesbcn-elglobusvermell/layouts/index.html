@@ -67,8 +67,16 @@
 
 <main class="portada-alt">
 
+  <nav class="portada-nav" aria-label="Seccions de la portada">
+    <ul>
+      <li><a href="#portada-inici">Inici</a></li>
+      <li><a href="#portada-guies">Guies</a></li>
+      <li><a href="#portada-mapa">Mapa</a></li>
+    </ul>
+  </nav>
+
   {{/* ══ 1. HERO ══════════════════════════════════════════════════════════ */}}
-  <section class="pa-hero">
+  <section class="pa-hero" id="portada-inici">
     <div class="pa-hero-inner">
       <p class="pa-hero-label">El Globus Vermell</p>
       <h1 class="pa-hero-titol">{{ .Params.tagline | default "Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia." }}</h1>
@@ -98,7 +106,7 @@
   </section>
 
   {{/* ══ 2. TOTES LES GUIES ════════════════════════════════════════════════ */}}
-  <section class="pa-seccio pa-guies" aria-labelledby="totes-guies-titol">
+  <section class="pa-seccio pa-guies" id="portada-guies" aria-labelledby="totes-guies-titol">
     <h2 id="totes-guies-titol" class="pa-seccio-titol">Totes les guies</h2>
     <div class="pa-guies-grid">
       {{ range $guies }}
@@ -120,7 +128,7 @@
   </section>
 
   {{/* ══ 3. TORNADA AL MAPA ══════════════════════════════════════════════════ */}}
-  <section class="pa-mapa-cta" aria-label="Accés al mapa interactiu">
+  <section class="pa-mapa-cta" id="portada-mapa" aria-label="Accés al mapa interactiu">
     <div class="pa-mapa-cta-inner">
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
       <p class="pa-mapa-cta-titol">El mapa, la porta d'entrada a tots els elements</p>
@@ -129,4 +137,28 @@
   </section>
 
 </main>
+
+<script>
+(function () {
+  var nav = document.querySelector('.portada-nav');
+  if (!nav) return;
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  function activa() {
+    var offset = 140;
+    var idx = 0;
+    for (var i = 0; i < targets.length; i++) {
+      if (targets[i] && targets[i].getBoundingClientRect().top <= offset) idx = i;
+    }
+    links.forEach(function (a, i) {
+      var on = i === idx;
+      a.classList.toggle('is-actiu', on);
+      if (on) { a.setAttribute('aria-current', 'true'); } else { a.removeAttribute('aria-current'); }
+    });
+  }
+  window.addEventListener('scroll', activa, { passive: true });
+  window.addEventListener('resize', activa);
+  activa();
+}());
+</script>
 {{ end }}

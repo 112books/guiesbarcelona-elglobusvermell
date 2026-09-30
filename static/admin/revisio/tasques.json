@@ -163,53 +163,32 @@
       "recomanacio": "553"
     },
     {
-      "id": "p6-navegacio-blocs",
-      "ref": "P6",
-      "estat": "pendent",
-      "titol": "Navegació per blocs amb scroll a la portada",
-      "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
-      "context": "",
-      "descripcio": "Ho provem o ho descartem?",
-      "opcions": [
-        {
-          "id": "si",
-          "label": "Sí, feu una demostració",
-          "detall": ""
-        },
-        {
-          "id": "no",
-          "label": "No, deixem la portada com està",
-          "detall": ""
-        },
-        {
-          "id": "mes",
-          "label": "Ho decidim més endavant",
-          "detall": ""
-        }
-      ],
-      "recomanacio": ""
-    },
-    {
       "id": "m2-mapa-grisos",
       "ref": "M2",
       "estat": "pendent",
       "titol": "Mapa en escala de grisos",
       "cita": "El mapa es pot fer tot en escala de grisos? (si no es pot no passa res, no ens molesta excessivament).",
-      "context": "Es pot provar i revertir fàcilment.",
+      "context": "La base del mapa fa servir un estil clar i dessaturat de Stadia Maps (alidade_smooth): pràcticament ja és en grisos. Si el que vols és una base estrictament en blanc i negre, també la podem provar.",
       "descripcio": "",
       "opcions": [
         {
-          "id": "si",
-          "label": "Sí, proveu l'estil en grisos",
+          "id": "actual",
+          "label": "El que ja hi ha em va bé (base discreta + punts amb color)",
           "detall": ""
         },
         {
-          "id": "no",
-          "label": "No, deixem el mapa actual",
+          "id": "bn",
+          "label": "Proveu una base estrictament en blanc i negre",
+          "detall": ""
+        },
+        {
+          "id": "punts",
+          "label": "Em referia als punts, no a la base",
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "actual",
+      "posicio": "La nostra posició: base discreta (grisa) amb els punts amb el color de cada guia. El color dels punts és informació del projecte i ajuda a llegir el mapa; creiem que és el més indicat. Si et referies als punts, digues-ho i ho mirem."
     },
     {
       "id": "m3-pins-multicolor",
@@ -389,6 +368,15 @@
     }
   ],
   "canvis": [
+    {
+      "id": "p6-navegacio-blocs",
+      "ref": "P6",
+      "estat": "fet",
+      "titol": "Navegació per blocs amb scroll a la portada",
+      "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
+      "resultat": "Fet: la portada té una barra fixa sota el menú amb «Inici · Guies · Mapa» que ressalta el bloc on ets mentre baixes i t'hi porta en clicar.",
+      "posicio": "A en Joan li agrada; digueu-nos si us va bé o si preferiu treure-la."
+    },
     {
       "id": "g1-menu",
       "ref": "G1",
