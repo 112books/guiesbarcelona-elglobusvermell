@@ -26,6 +26,11 @@
     .r-howto-body { margin-top: 0.6rem; }
     .r-howto-body ul, .r-howto-body ol { margin: 0.4rem 0 0.6rem 1.2rem; }
     .r-howto code { background: var(--soft); padding: 0.05rem 0.3rem; }
+    .r-cita { border-left: 3px solid var(--border); margin: 0.5rem 0; padding: 0.1rem 0 0.1rem 0.75rem; font-size: 0.87rem; color: var(--ink2); }
+    .r-cita strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); }
+    .r-posicio { border: 1px solid #cfe0d3; background: #f1f7f2; padding: 0.6rem 0.75rem; margin: 0.6rem 0; font-size: 0.9rem; }
+    .r-posicio strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.2rem; }
+    .r-badge.nostre { color: #1a5fb4; }
     h2.r-sec { font-size: 1.05rem; margin: 2rem 0 0.9rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--ink); }
     .r-item { background: var(--surface); border: 1px solid var(--border); padding: 1.1rem 1.15rem; margin-bottom: 1rem; }
     .r-item-head { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
@@ -93,6 +98,10 @@
       <h2 class="r-sec" id="sec-canvis">Canvis fets — per validar</h2>
       <div id="r-canvis"></div>
     </section>
+    <section aria-labelledby="sec-nostres">
+      <h2 class="r-sec" id="sec-nostres">Decisions preses per nosaltres</h2>
+      <div id="r-nostres"></div>
+    </section>
   </main>
 
   <div class="r-actions">
@@ -152,8 +161,10 @@
       head.appendChild(badge);
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
+      if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.context) { var c = document.createElement("p"); c.className = "r-context"; c.textContent = item.context; art.appendChild(c); }
       if (item.descripcio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.descripcio; art.appendChild(d); }
+      if (item.posicio) { var po = document.createElement("div"); po.className = "r-posicio"; var pt = document.createElement("strong"); pt.textContent = "La nostra posició"; po.appendChild(pt); var px = document.createElement("span"); px.textContent = item.posicio; po.appendChild(px); art.appendChild(po); }
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Tria una opció"; fs.appendChild(lg);
       for (var i = 0; i < item.opcions.length; i++) {
@@ -174,12 +185,27 @@
       head.appendChild(badge);
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
+      if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.resultat) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.resultat; art.appendChild(d); }
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "La teva valoració"; fs.appendChild(lg);
       fs.appendChild(creaOpcio(item.id, "ok", "D'acord", "", valor(item.id, "opcio")));
       fs.appendChild(creaOpcio(item.id, "comentari", "Amb comentaris", "Deixa a sota què canviaries.", valor(item.id, "opcio")));
       art.appendChild(fs);
+      art.appendChild(creaComentari(item.id));
+      return art;
+    }
+
+    function construeixNostra(item) {
+      var art = document.createElement("article");
+      art.className = "r-item";
+      var head = document.createElement("div"); head.className = "r-item-head";
+      var badge = document.createElement("span"); badge.className = "r-badge nostre"; badge.textContent = "Decisió nostra";
+      head.appendChild(badge);
+      art.appendChild(head);
+      var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
+      if (item.decisio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.decisio; art.appendChild(d); }
+      if (item.motiu) { var m = document.createElement("p"); m.className = "r-context"; m.textContent = item.motiu; art.appendChild(m); }
       art.appendChild(creaComentari(item.id));
       return art;
     }
@@ -219,6 +245,16 @@
         if (!cop && !ccom) continue;
         linies.push("- " + c.titol + " — " + (cop === "ok" ? "D'acord" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)"));
         if (ccom) linies.push("  Comentari: " + ccom);
+      }
+      linies.push("");
+      linies.push("== SOBRE LES DECISIONS NOSTRES ==");
+      var nostresResum = DADES.decisions_nostres || [];
+      for (var k2 = 0; k2 < nostresResum.length; k2++) {
+        var nn = nostresResum[k2];
+        var ncom = valor(nn.id, "comentari");
+        if (!ncom) continue;
+        linies.push("- " + nn.titol);
+        linies.push("  Comentari: " + ncom);
       }
       if (DADES.decisions.length + DADES.canvis.length === 0) linies.push("(cap resposta)");
       return linies.join("\n");
@@ -262,6 +298,9 @@
       for (var i = 0; i < DADES.decisions.length; i++) contD.appendChild(construeixDecixo(DADES.decisions[i]));
       var contC = document.getElementById("r-canvis");
       for (var j = 0; j < DADES.canvis.length; j++) contC.appendChild(construeixCanvi(DADES.canvis[j]));
+      var contN = document.getElementById("r-nostres");
+      var nostres = DADES.decisions_nostres || [];
+      for (var k = 0; k < nostres.length; k++) contN.appendChild(construeixNostra(nostres[k]));
       actualitzaComptador();
     }
 

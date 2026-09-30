@@ -1,12 +1,13 @@
 {
   "actualitzat": "2026-09-30",
-  "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. Marca una opció o deixa un comentari a cada punt i, al final, envia'm el resum. No cal omplir-ho tot de cop: el navegador desa el que hagis triat.",
+  "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu i, quan en tenim, la nostra posició. Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
       "id": "cercador-mapa",
       "titol": "Com ha de funcionar el cercador del mapa?",
-      "context": "«Eliminar llistat d'elements sota el mapa i l'abecedari; mantenir només el cercador» (M6).",
-      "descripcio": "Hem tret el llistat i l'abecedari. Sense el llistat, el cercador (Cerca, Època, Arquitecte) ara mateix no mostra resultats enlloc.",
+      "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
+      "context": "Ara mateix no hi ha cap cercador general a tot el web: només el d'aquest mapa i el de la pàgina d'Arquitectes. Cal decidir si, a més del cercador d'elements, n'hi haurà un de general.",
+      "descripcio": "Hem tret el llistat i l'abecedari. Sense el llistat, el cercador (Cerca, Època, Arquitecte) no mostra resultats enlloc.",
       "opcions": [
         {
           "id": "A",
@@ -22,14 +23,41 @@
       "recomanacio": "A"
     },
     {
+      "id": "cercador-general",
+      "titol": "Voleu un cercador general a tot el web?",
+      "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
+      "context": "Si n'hi ha d'haver un (pàgines, guies, arquitectes...), llavors tindríem dos cercadors: un d'elements i un de general. Si no, amb el d'elements n'hi hauria prou.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, cal un cercador general",
+          "detall": "A més del d'elements."
+        },
+        {
+          "id": "no",
+          "label": "No, amb el d'elements n'hi ha prou",
+          "detall": ""
+        },
+        {
+          "id": "mes-endavant",
+          "label": "Ho decidim més endavant",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
       "id": "t06-publicacions",
       "titol": "T06 — Traiem també el bloc «Publicacions» del mapa?",
-      "context": "«Eliminar llistat d'elements sota el mapa i l'abecedari; mantenir només el cercador» (M6).",
-      "descripcio": "El bloc «Publicacions» és el que activa i desactiva els elements al mapa. La nostra assumpció és mantenir-lo.",
+      "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
+      "context": "El bloc «Publicacions» és el que activa i desactiva els elements al mapa.",
+      "descripcio": "",
+      "posicio": "Creiem que el bloc «Publicacions» s'ha de mantenir: és l'únic que permet encendre i apagar plànols al mapa. Si es treu, el mapa mostrarà sempre tots els punts.",
       "opcions": [
         {
           "id": "mantenir",
-          "label": "Mantenir-lo",
+          "label": "Mantenir-lo (recomanat)",
           "detall": "Continua servint per encendre i apagar publicacions al mapa."
         },
         {
@@ -43,8 +71,9 @@
     {
       "id": "t07-suggerir",
       "titol": "T07 — «Suggerir un canvi»: només fora de Presentació o del tot?",
-      "context": "«Suggerir una correcció» fora de la Presentació (T07).",
-      "descripcio": "L'hem tret de la pàgina Presentació, però es manté a /contacte/.",
+      "cita": "Suggerir un canvi no hauria de ser en aquest apartat.",
+      "context": "L'hem tret de la pàgina Presentació, però es manté a /contacte/.",
+      "descripcio": "",
       "opcions": [
         {
           "id": "contacte",
@@ -62,8 +91,9 @@
     {
       "id": "xifres-portada",
       "titol": "«El projecte en xifres»: on ha d'anar?",
-      "context": "P1 — el bloc hero amb el logo i les xifres (elements documentats, guies, arquitectes).",
-      "descripcio": "Hi ha tres llocs possibles i volem la teva opinió.",
+      "cita": "A la presentació i a la portada, on apareix el projecte en xifres, hauria d'aparèixer el mateix als dos llocs.",
+      "context": "Tu demanes que a portada i Presentació hi hagi les mateixes xifres. La pregunta és on ha de viure el bloc.",
+      "descripcio": "",
       "opcions": [
         {
           "id": "portada",
@@ -85,80 +115,79 @@
     },
     {
       "id": "autoria-fotos",
-      "titol": "Autoria de les fotografies",
-      "context": "Fotos de les fitxes d'edifici.",
-      "descripcio": "Cal decidir com es crédita la fotografia. Afecta el peu de totes les fitxes.",
+      "titol": "Autoria de les fotografies i llicència del peu",
+      "cita": "Autoria de les fotografies: Podem posar una nota genèrica a peu de pàgina? ... Creative Commons BY-NC ... Llicència a peu de pàgina: Creative Commons BY-SA",
+      "context": "Ens has dit: llicència del web CC BY-SA i autoria de les fotos CC BY-NC amb nota genèrica, amb el nom d'arxiu i el meta de la imatge.",
+      "descripcio": "Ho apliquem així? Afecta el peu de totes les fitxes.",
       "opcions": [
         {
-          "id": "copyright",
-          "label": "Amb ©",
-          "detall": "© El Globus Vermell, © Arxiu Fotogràfic de Barcelona, etc."
+          "id": "ok",
+          "label": "Sí: web CC BY-SA, fotos CC BY-NC amb nota genèrica",
+          "detall": "I nom d'arxiu/meta amb «elglobusvermell»."
         },
         {
-          "id": "cc",
-          "label": "Amb Creative Commons",
-          "detall": "Especificant la llicència concreta."
-        },
-        {
-          "id": "sense",
-          "label": "Sense símbol de reserva",
-          "detall": "Només el nom de l'autor o la font."
+          "id": "canvi",
+          "label": "Ho volem canviar (comentari)",
+          "detall": ""
         }
       ],
-      "recomanacio": "copyright"
+      "recomanacio": ""
     },
     {
       "id": "locucions",
-      "titol": "Locucions (text a veu)",
-      "context": "Accessibilitat per a persones amb dificultats visuals (WCAG 2.1).",
-      "descripcio": "Dues opcions tècniques.",
+      "titol": "Lectura en veu alta: on i com",
+      "cita": "Lectura en veu alta: La versió actual, de moment. Això sí, important, també hi hauria de ser l'apartat en paper i a cada plànol!",
+      "context": "La versió actual és la Web Speech API (veu del sistema, gratuïta). L'alternativa és Piper TTS (veu de més qualitat, requereix servidor, ja pressupostada).",
+      "descripcio": "Ens has demanat mantenir la versió actual i afegir-la a «En paper» i a cada plànol. Confirmes la Web Speech o vols valorar Piper?",
       "opcions": [
         {
           "id": "A",
           "label": "Opció A — Web Speech API",
-          "detall": "Gratuïta, veu del sistema operatiu. Ja implementada com a prova."
+          "detall": "La que ja hi ha; l'afegim a «En paper» i a cada plànol."
         },
         {
           "id": "B",
           "label": "Opció B — Piper TTS",
-          "detall": "Veu neutra de qualitat, programari lliure; requereix servidor i ja està pressupostada."
+          "detall": "Veu neutra de qualitat; requereix servidor i ja està pressupostada."
         }
       ],
-      "recomanacio": "B"
+      "recomanacio": "A"
     },
     {
       "id": "arquitectes-combinats",
       "titol": "Arquitectes combinats: qui els separa?",
-      "context": "Hi ha 73 fitxes amb diversos arquitectes combinats.",
-      "descripcio": "Cal decidir si els separem nosaltres o si els reviseu vosaltres.",
-      "opcions": [
-        {
-          "id": "nosaltres",
-          "label": "Els separem nosaltres",
-          "detall": "Ens encarreguem de desdoblar-los."
-        },
-        {
-          "id": "vosaltres",
-          "label": "Els reviseu vosaltres",
-          "detall": "Vosaltres indiqueu com separar-los."
-        }
-      ],
-      "recomanacio": "nosaltres"
-    },
-    {
-      "id": "en-paper",
-      "titol": "«En paper»: com ha de funcionar?",
-      "context": "Pàgina de publicacions en paper.",
+      "cita": "Els 73 arquitectes que apareixen combinats ... — separem en individus o els deixem com estan? ... Ho farem manualment",
+      "context": "Ens has dit que ho fareu manualment des de l'editor. Aquí la pregunta és com us ho posem fàcil per fer-ho.",
       "descripcio": "",
       "opcions": [
         {
-          "id": "portada",
-          "label": "Portada + botó PDF descarregable",
-          "detall": ""
+          "id": "manual",
+          "label": "Ho feu vosaltres manualment des de l'editor",
+          "detall": "Us donem accés per crear i editar arquitectes."
         },
         {
-          "id": "altra",
-          "label": "Una altra manera (comentari)",
+          "id": "ajuda",
+          "label": "Voleu que us preparem una llista de casos",
+          "detall": "Amb tots els combinats i el format proposat, per anar-los revisant."
+        }
+      ],
+      "recomanacio": "ajuda"
+    },
+    {
+      "id": "en-paper",
+      "titol": "«En paper»: el redisseny",
+      "cita": "L'apartat en paper el volem redissenyar. D'entrada, imaginem tres blocs: presentació, barra horitzontal de portades, xips de temes, i sota tots els plànols en dues columnes.",
+      "context": "Ens ho vas descriure amb detall (EP1–EP8). Ho tenim apuntat; aquest és el punt per confirmar prioritats o dubtes.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "endavant",
+          "label": "Endavant amb el redisseny tal com el vas descriure",
+          "detall": "Carrusel + xips + llistat en dues columnes."
+        },
+        {
+          "id": "dubtes",
+          "label": "Hi ha dubtes (comentari)",
           "detall": ""
         }
       ],
@@ -169,42 +198,76 @@
     {
       "id": "t01-t03",
       "titol": "T01–T03 — Terminologia, ordre de menú i menú sempre text",
-      "resultat": "«edificis» → «elements»; ordre del menú Presentació · Mapa · En paper · Arquitectes · Contacte; el menú fa servir sempre text, no icones."
+      "cita": "No hem de dir \"edificis\" sinó \"elements\". Hi ha edificis, espai públic i obres d'art. A la web no ens agrada que el menú es converteixi en icones quan fas scroll. Preferim que sigui sempre text. L'ordre del menú hauria de ser: Presentació, Mapa, En paper, Arquitectes, Contacte",
+      "resultat": "«edificis» → «elements»; ordre del menú Presentació · Mapa · En paper · Arquitectes · Contacte; el menú fa servir sempre text."
     },
     {
       "id": "t04",
-      "titol": "T04 — Zoom inicial del mapa ajustat",
-      "resultat": "El mapa s'ajusta a tots els elements sense marge. El zoom ja no s'enteritza (zoomSnap 0) i guanyem escriptori (×1,69)."
+      "titol": "T04 — Zoom inicial del mapa",
+      "cita": "Ens agradaria que el mapa inicial aparegués amb una mica més de zoom, ara està una mica massa allunyat.",
+      "resultat": "El mapa s'ajusta a tots els elements sense marge. El zoom ja no s'enteritza i guanyem escriptori (×1,69)."
     },
     {
       "id": "t05",
       "titol": "T05 — Sense difuminat en seleccionar un plànol",
+      "cita": "Preferim que quan selecciones un plànol guia no quedin la resta d'elements difuminats.",
       "resultat": "En triar un plànol, la resta d'elements del mapa ja no es difuminen."
     },
     {
       "id": "t06",
       "titol": "T06 — Abecedari i llistat del mapa eliminats",
-      "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es mantenen el cercador i el bloc «Publicacions»."
+      "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
+      "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es manté el cercador i el bloc «Publicacions»."
     },
     {
       "id": "t07",
       "titol": "T07 — «Suggerir una correcció» fora de Presentació",
+      "cita": "Suggerir un canvi no hauria de ser en aquest apartat.",
       "resultat": "El bloc s'ha tret de Presentació i es manté a /contacte/."
     },
     {
       "id": "t08",
       "titol": "T08 — Llistat de la pàgina d'arquitecte en mode pla",
-      "resultat": "Llistat pla, sense etiqueta d'any ni acordions. Contrast WCAG AA corregit."
+      "cita": "Al llistat d'elements de l'arquitecte, no ens agrada que surti l'etiqueta de l'any, i clicar... massa clics. Pot aparèixer el llistat i ja està?",
+      "resultat": "Llistat pla, sense etiqueta d'any ni acords. Contrast WCAG AA corregit."
     },
     {
       "id": "t09",
       "titol": "T09 — Portada sense destacats ni recursos educatius",
+      "cita": "Per tant, traiem: guia destacada, arquitecte destacat, recursos educatius",
       "resultat": "Fora la guia destacada, l'arquitecte destacat i els recursos educatius de la portada."
     },
     {
       "id": "cms",
-      "titol": "CMS — Editor d'administració per crear fitxes noves",
-      "resultat": "L'editor per editar és /admin/cms/; per crear fitxes noves, /admin/cms-admin/."
+      "titol": "CMS — On i com crear fitxes noves",
+      "cita": "No he trobat com crear nous plànols o noves fitxes. És molt important que ho puguem fer.",
+      "resultat": "Per editar: /admin/cms/. Per crear fitxes noves: /admin/cms-admin/."
+    }
+  ],
+  "decisions_nostres": [
+    {
+      "id": "domini-produccio",
+      "titol": "No migrem el domini de producció fins que la web estigui enllestida",
+      "decisio": "El domini guiesbarcelona.elglobusvermell.org continua apuntant al WordPress actual fins que el desenvolupament estigui totalment validat. Mentrestant, tot es revisa a GitHub Pages.",
+      "motiu": "Decisió de Joan, confirmada el 30 de setembre."
+    },
+    {
+      "id": "proces-cita-literal",
+      "titol": "Cada canvi es contrasta amb el text literal del correu",
+      "decisio": "Abans d'implementar res, es cita el text exacte de la petició i, davant de qualsevol dubte, es pregunta.",
+      "motiu": "Procés acordat el 30 de setembre arran del teu feedback."
+    },
+    {
+      "id": "registre-canvis",
+      "titol": "Els canvis de fitxes queden registrats",
+      "decisio": "Tota alta, baixa o modificació de punts del mapa es registra amb data i aprovació al registre de canvis.",
+      "motiu": "Governança del projecte."
+    },
+    {
+      "id": "canal-revisio",
+      "titol": "Aquest tauler passa a ser el canal de validació",
+      "decisio": "Els canvis fets i els dubtes es revisen aquí; les respostes arriben a Joan per correu.",
+      "motiu": "Per agilitzar i no perdre fils entre mails."
     }
   ]
 }
