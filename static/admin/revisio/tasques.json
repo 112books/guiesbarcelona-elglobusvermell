@@ -511,13 +511,13 @@
       "id": "cms",
       "titol": "CMS — On i com crear fitxes noves",
       "cita": "No he trobat com crear nous plànols o noves fitxes. És molt important que ho puguem fer.",
-      "resultat": "Per editar: /admin/cms/. Per crear fitxes noves: /admin/cms-admin/.",
+      "resultat": "Fet: un sol editor (/admin/cms/) que permet crear i editar fitxes d'edifici, pàgines, plànols-guia i arquitectes. L'antic /admin/cms-admin/ ara hi redirigeix.",
       "ref": "FU1",
       "estat": "fet",
       "enllacos": [
         {
-          "label": "Editor d'administració",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms-admin/"
+          "label": "Editor de continguts",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
         }
       ]
     }
