@@ -1,0 +1,39 @@
+# CMS Sveltia — diagnosi «no es veuen els Edificis i elements» (2026-09-30)
+
+**Estat:** Resolt (no era cap avaria; era lentitud de càrrega).
+
+## Símptoma
+
+Joan: «no es veuen els Edificis i elements 660 per poder-los editar».
+
+## Conclusió
+
+El CMS **funciona**. Amb un token real i un navegador net, la col·lecció es carrega i mostra correctament:
+
+- Col·leccions: **Edificis i elements (660)**, Pàgines (3), Plànols-guia (13), Arquitectes (197).
+- Dins de «Edificis i elements»: llistat de **660 entrades**.
+
+El que passava és que el **primer carregament és lent** (segons l'entorn, de l'ordre d'un minut) i, si sembla penjat, es té la sensació que no hi ha res. Els carregaments següents es fan des de la memòria cau del navegador (IndexedDB) i són ràpids.
+
+## Verificacions fetes
+
+1. `content/ca/elements`: 661 fitxers (660 entrades + `_index.md`), tots amb YAML frontal vàlid.
+2. `static/admin/cms/config.yml`: vàlid; cap error a la pantalla de login de Sveltia.
+3. API GitHub: arbre del repo (1.644 blobs) i GraphQL dels 661 blobs de les fitxes → OK.
+4. Reproducció amb Chrome headless + token real: la llista de col·leccions i les 660 entrades es renderitzen (trigant).
+
+## Causa
+
+El primer carregament descarrega totes les entrades, els assets i la metainformació de commits. Amb ~660 fitxes d'elements + ~197 d'arquitectes, la primera càrrega pot trigar. No és un error de configuració ni de dades.
+
+## Recomanacions
+
+- Esperar el primer carregament; no recarregar mentre carrega.
+- Si es vol alleugerir: `thumbnail: false` a la col·lecció elements (evita carregar miniatures) i/o simplificar `view_groups`.
+- El CDN de Sveltia (`https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js`) està **sense fixar**: s'actualitza sol. Convé fixar la versió per evitar canvis inesperats.
+
+## Notes
+
+- L'editor master és a `/admin/cms/`; l'admin, a `/admin/cms-admin/`.
+- Autenticació Fase 0: **PAT clàssic** de GitHub amb `public_repo` (el fine-grained no funciona per a convidats d'aquest repo).
+- Versió de Sveltia servida en el moment de la diagnosi: **0.224.0**.
