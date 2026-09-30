@@ -183,6 +183,231 @@
       "recomanacio": "",
       "ref": "EP1-EP8",
       "estat": "pendent"
+    },
+    {
+      "id": "g1-amplada",
+      "ref": "G1",
+      "estat": "pendent",
+      "titol": "Amplada de la columna de text i alineació del menú",
+      "cita": "Els textos, hauríem de decidir la mida de la columna de text. A l'esquerra una columna més estreta, a la dreta una de més ampla (mides a determinar). ... el menú de dalt (logo + menú) ha de quedar verticalment alineat amb aquestes dues columnes.",
+      "context": "Afecta les fitxes, la secció En paper i l'alineació del menú.",
+      "descripcio": "Com ho decidim?",
+      "opcions": [
+        {
+          "id": "prova",
+          "label": "Feu-nos una prova amb 2-3 amplades i triem",
+          "detall": "Veure-ho és la manera més fàcil."
+        },
+        {
+          "id": "conversa",
+          "label": "Ho decidim en conversa",
+          "detall": ""
+        }
+      ],
+      "recomanacio": "prova"
+    },
+    {
+      "id": "p6-navegacio-blocs",
+      "ref": "P6",
+      "estat": "pendent",
+      "titol": "Navegació per blocs amb scroll a la portada",
+      "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
+      "context": "",
+      "descripcio": "Ho provem o ho descartem?",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, feu una demostració",
+          "detall": ""
+        },
+        {
+          "id": "no",
+          "label": "No, deixem la portada com està",
+          "detall": ""
+        },
+        {
+          "id": "mes",
+          "label": "Ho decidim més endavant",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "m2-mapa-grisos",
+      "ref": "M2",
+      "estat": "pendent",
+      "titol": "Mapa en escala de grisos",
+      "cita": "El mapa es pot fer tot en escala de grisos? (si no es pot no passa res, no ens molesta excessivament).",
+      "context": "Es pot provar i revertir fàcilment.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, proveu l'estil en grisos",
+          "detall": ""
+        },
+        {
+          "id": "no",
+          "label": "No, deixem el mapa actual",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "m3-pins-multicolor",
+      "ref": "M3",
+      "estat": "pendent",
+      "titol": "Pins multicolor per als elements de diversos plànols",
+      "cita": "Un pin pot tenir dos o més colors? No veiem com mostrar els pins que pertanyen a dos plànols ... Meitat i meitat és com ens agradaria (algun potser seria fins i tot un pastís de tres colors!).",
+      "context": "Per implementar-ho ens caldrà el color definitiu de cada plànol (vegeu la pregunta de colors, GR1·GR2).",
+      "descripcio": "Ho volem?",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, meitat/meitat o pastís de 3 colors",
+          "detall": ""
+        },
+        {
+          "id": "no",
+          "label": "De moment, no",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "f6-fotos-bn",
+      "ref": "F6",
+      "estat": "pendent",
+      "titol": "Fotos en blanc i negre",
+      "cita": "podem posar totes les fotos en blanc i negre? I podem penedir-nos-en i fer marxar enrere?",
+      "context": "Sí que és reversible: es pot activar i desactivar amb un canvi de codi.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, proveu-ho (reversible)",
+          "detall": ""
+        },
+        {
+          "id": "no",
+          "label": "No, deixem-les en color",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "p7-splash-mobil",
+      "ref": "P7",
+      "estat": "pendent",
+      "titol": "Splash amb el logo al mòbil",
+      "cita": "podem fer que quan entris a l'app del mòbil, durant un instant, aparegui el logo d'arquitectura i urbanisme i després ja el mapa, sense haver de fer cap click?",
+      "context": "En podem fer una prova.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, feu una prova",
+          "detall": ""
+        },
+        {
+          "id": "no",
+          "label": "No cal",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "ep3-carrusel-infinit",
+      "ref": "EP3",
+      "estat": "pendent",
+      "titol": "Carrusel de portades: infinit o amb final?",
+      "cita": "Tinc dubtes de si ha de ser infinita (és a dir, si després de l'últim plànol hauria d'aparèixer de nou el primer).",
+      "context": "",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "infinit",
+          "label": "Infinit (després de l'últim torna el primer)",
+          "detall": ""
+        },
+        {
+          "id": "final",
+          "label": "Amb final (s'atura)",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "gr1-gr2-colors",
+      "ref": "GR1 · GR2",
+      "estat": "pendent",
+      "titol": "Colors dels pins i les etiquetes, i el vermell del web",
+      "cita": "Els punts al mapa i les etiquetes de les fitxes ... haurien de ser del color específic que triem nosaltres ... Això, ho podem editar directament nosaltres? Algun color no ens quadra... Allò que està en vermell ho preferim en negre o gris fosc.",
+      "context": "Els colors dels plànols són dades que es poden editar. Per fer-ho ens cal la vostra paleta definitiva. El vermell el podem passar a negre o gris fosc.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "paleta",
+          "label": "Us passarem la paleta definitiva per plànol",
+          "detall": ""
+        },
+        {
+          "id": "canvieu",
+          "label": "Canvieu el vermell a fosc i després hi posem la paleta",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "gr3-tipografia",
+      "ref": "GR3",
+      "estat": "pendent",
+      "titol": "Tipografia del web",
+      "cita": "Sobre la tipografia, en podem escollir una altra? Qualsevol? D'unes concretes? És fàcil fer el canvi?",
+      "context": "Sí que és fàcil canviar-la. Us podem proposar opcions lliures.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "propostes",
+          "label": "Proposeu-nos 2-3 opcions",
+          "detall": ""
+        },
+        {
+          "id": "actual",
+          "label": "Deixem la tipografia actual",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
+    },
+    {
+      "id": "m5-temes-info",
+      "ref": "M5",
+      "estat": "pendent",
+      "titol": "Botó (i) amb informació als temes transversals",
+      "cita": "Els temes transversals també haurien de tenir una (i) i la seva pròpia informació (ja hi és a la web antiga, però te la puc passar).",
+      "context": "Ho podem implementar; ens caldrà el text de cada tema.",
+      "descripcio": "",
+      "opcions": [
+        {
+          "id": "si",
+          "label": "Sí, us passarem els textos",
+          "detall": ""
+        },
+        {
+          "id": "no",
+          "label": "De moment, no",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
     }
   ],
   "canvis": [
