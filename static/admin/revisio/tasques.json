@@ -141,6 +141,28 @@
       "estat": "pendent"
     },
     {
+      "id": "portada-guies-distribucio",
+      "ref": "P4 · G1",
+      "estat": "pendent",
+      "titol": "Distribució de les guies a la portada",
+      "cita": "Bloc amb totes les guies (com ja hi és ara!). Si fem la web de banda a banda, no passarà això que passa ara que queden 6+6+1, amb una despenjada...",
+      "context": "Amb 13 guies, les files queden 6·6·1 i l'última guia queda sola a l'última fila. Si el layout va a sang, potser n'hi caben més per fila.",
+      "descripcio": "Què preferiu?",
+      "opcions": [
+        {
+          "id": "661",
+          "label": "Mantenir 6 · 6 · 1",
+          "detall": "Tal com està ara; l'última guia queda sola a l'última fila."
+        },
+        {
+          "id": "553",
+          "label": "Fer 5 · 5 · 3",
+          "detall": "Repartiment més equilibrat, sense despenjada."
+        }
+      ],
+      "recomanacio": "553"
+    },
+    {
       "id": "en-paper",
       "titol": "«En paper»: el redisseny",
       "cita": "L'apartat en paper el volem redissenyar. D'entrada, imaginem tres blocs: presentació, barra horitzontal de portades, xips de temes, i sota tots els plànols en dues columnes.",
@@ -236,7 +258,8 @@
       "cita": "Per tant, traiem: guia destacada, arquitecte destacat, recursos educatius",
       "resultat": "Fora la guia destacada, l'arquitecte destacat i els recursos educatius de la portada.",
       "ref": "P5",
-      "estat": "fet"
+      "estat": "fet",
+      "posicio": "Nota nostra: aprofitem per plantejar la distribució de les guies a la portada. Amb 13 guies, les files queden 6·6·1 i l'última queda despenjada; si ho preferiu, les podem repartir 5·5·3, que queda més equilibrat. Ho tens com a pregunta (ref. P4 / G1)."
     },
     {
       "id": "cms",
