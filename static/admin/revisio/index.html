@@ -19,7 +19,13 @@
     header.r-header h1 { margin: 0.85rem 0 0; font-size: 0.78rem; font-weight: 400; color: var(--ink3);
       letter-spacing: 0.16em; text-transform: uppercase; }
     main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 12rem; }
-    .r-intro { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.15rem; margin-bottom: 1.75rem; font-size: 0.95rem; }
+    .r-intro { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.15rem; margin-bottom: 1.25rem; font-size: 0.95rem; }
+    .r-howto { background: var(--surface); border: 1px solid var(--border); padding: 0.85rem 1.15rem; margin-bottom: 1.75rem; font-size: 0.92rem; }
+    .r-howto summary { cursor: pointer; font-weight: 600; }
+    .r-howto summary:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
+    .r-howto-body { margin-top: 0.6rem; }
+    .r-howto-body ul, .r-howto-body ol { margin: 0.4rem 0 0.6rem 1.2rem; }
+    .r-howto code { background: var(--soft); padding: 0.05rem 0.3rem; }
     h2.r-sec { font-size: 1.05rem; margin: 2rem 0 0.9rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--ink); }
     .r-item { background: var(--surface); border: 1px solid var(--border); padding: 1.1rem 1.15rem; margin-bottom: 1rem; }
     .r-item-head { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
@@ -60,6 +66,25 @@
 
   <main>
     <p class="r-intro" id="r-intro"></p>
+
+    <details class="r-howto">
+      <summary>Com crear contingut nou (una fitxa d'edifici nova)</summary>
+      <div class="r-howto-body">
+        <p>Hi ha dos editors, tots dos a GitHub Pages mentre no fem el tall del domini:</p>
+        <ul>
+          <li><strong>Editar el que ja existeix</strong> — <a href="https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/">112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/</a> (fitxes existents, pàgines, plànols-guia i arquitectes; no permet crear fitxes noves).</li>
+          <li><strong>Crear contingut nou</strong> — <a href="https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms-admin/">112books.github.io/guiesbarcelona-elglobusvermell/admin/cms-admin/</a> (el mateix, amb el botó per afegir una fitxa nova).</li>
+        </ul>
+        <ol>
+          <li>Entra a l'editor d'administració i inicia sessió amb el teu token (el mateix d'ara).</li>
+          <li>A la banda esquerra, tria <strong>Edificis i elements</strong>.</li>
+          <li>Clica <strong>Afegir</strong>, a dalt del llistat.</li>
+          <li>Omple com a mínim <strong>Títol</strong>, <strong>Publicacions</strong> (el o els plànols on surt) i les coordenades <strong>Latitud</strong> i <strong>Longitud</strong>. Sense coordenades, la fitxa no apareix al mapa.</li>
+          <li>Desa. El web es reconstrueix sol en dos o tres minuts.</li>
+        </ol>
+        <p>El token és el clàssic amb permís <code>public_repo</code>. Quan el domini propi estigui actiu, les adreces passaran a <code>guiesbarcelona.elglobusvermell.org/admin/cms/</code> i <code>.../admin/cms-admin/</code>.</p>
+      </div>
+    </details>
     <section aria-labelledby="sec-decisions">
       <h2 class="r-sec" id="sec-decisions">Decisions pendents</h2>
       <div id="r-decisions"></div>
