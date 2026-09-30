@@ -202,7 +202,8 @@
       "cita": "Preferim que quan selecciones un plànol guia no quedin la resta d'elements difuminats.",
       "resultat": "En triar un plànol, la resta d'elements del mapa ja no es difuminen.",
       "ref": "M4",
-      "estat": "fet"
+      "estat": "fet",
+      "posicio": "Nota nostra (idea original): l'atenuació la vam introduir per mostrar, al mapa general, la potència del conjunt de guies: en triar un plànol, els punts que no hi pertanyen s'atenuaven i quedava clar quins eren els seleccionats. A les pàgines de cada guia els punts ja surten aïllats, i allà no calia."
     },
     {
       "id": "t06",

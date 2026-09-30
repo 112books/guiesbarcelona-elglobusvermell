@@ -197,6 +197,7 @@
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.resultat) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.resultat; art.appendChild(d); }
+      if (item.posicio) { var po = document.createElement("div"); po.className = "r-posicio"; var pt = document.createElement("strong"); pt.textContent = "Nota nostra"; po.appendChild(pt); var px = document.createElement("span"); px.textContent = item.posicio; po.appendChild(px); art.appendChild(po); }
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Verificació"; fs.appendChild(lg);
       fs.appendChild(creaOpcio(item.id, "verificat", "Verificat i OK", "Ho he revisat i està bé.", valor(item.id, "opcio")));
