@@ -1,0 +1,9 @@
+{{- /* Font única de les xifres del projecte (portada i Presentació). */ -}}
+{{- $elements := site.GetPage "elements" -}}
+{{- $total := 0 -}}
+{{- if $elements -}}
+  {{- range $elements.Pages -}}
+    {{- with .Params.lat -}}{{- $total = add $total 1 -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "elements" $total "guies" (len hugo.Data.publicacions) "arquitectes" (len site.Taxonomies.arquitectes) "anyMin" 1928 "anyMax" now.Year) -}}

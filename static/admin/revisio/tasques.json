@@ -89,31 +89,6 @@
       "recomanacio": "contacte"
     },
     {
-      "id": "xifres-portada",
-      "titol": "«El projecte en xifres»: on ha d'anar?",
-      "cita": "A la presentació i a la portada, on apareix el projecte en xifres, hauria d'aparèixer el mateix als dos llocs.",
-      "context": "Tu demanes que a portada i Presentació hi hagi les mateixes xifres. La pregunta és on ha de viure el bloc.",
-      "descripcio": "",
-      "opcions": [
-        {
-          "id": "portada",
-          "label": "A la portada",
-          "detall": "Ja hi és implementat."
-        },
-        {
-          "id": "credits",
-          "label": "A Crèdits",
-          "detall": "On ja hi ha la informació del projecte."
-        },
-        {
-          "id": "presentacio",
-          "label": "A Presentació",
-          "detall": "On s'explica el projecte a qui arriba per primer cop."
-        }
-      ],
-      "recomanacio": "presentacio"
-    },
-    {
       "id": "autoria-fotos",
       "titol": "Autoria de les fotografies i llicència del peu",
       "cita": "Autoria de les fotografies: Podem posar una nota genèrica a peu de pàgina? ... Creative Commons BY-NC ... Llicència a peu de pàgina: Creative Commons BY-SA",
@@ -195,6 +170,12 @@
     }
   ],
   "canvis": [
+    {
+      "id": "xifres",
+      "titol": "Xifres del projecte — portada i Presentació",
+      "cita": "A la presentació i a la portada, on apareix el projecte en xifres, hauria d'aparèixer el mateix als dos llocs.",
+      "resultat": "Problema: cada lloc calculava les xifres pel seu compte i donaven valors diferents (portada: 659 elements, 13 guies, 274 arquitectes, 1928–2026; Presentació: 660 punts, 13 mapes, 274 arquitectes i «98 anys»). Solució: totes dues beuen ara d'una única font de dades i mostren els mateixos valors i les mateixes etiquetes (659 · 13 · 274 · 1928–2026)."
+    },
     {
       "id": "t01-t03",
       "titol": "T01–T03 — Terminologia, ordre de menú i menú sempre text",

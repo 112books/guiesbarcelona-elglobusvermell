@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{- $xifres := partial "xifres-projecte.html" . -}}
 
 {{/* ── Dades Hugo injectades per a JS ── */}}
 {{ $elementsSection := site.GetPage "elements" }}
@@ -73,19 +74,19 @@
       <h1 class="pa-hero-titol">{{ .Params.tagline | default "Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia." }}</h1>
       <div class="pa-stats" aria-label="Xifres del projecte">
         <div class="pa-stat">
-          <span class="pa-stat-num">{{ $totalEdificis }}</span>
+          <span class="pa-stat-num">{{ $xifres.elements }}</span>
           <span class="pa-stat-lab">elements documentats</span>
         </div>
         <div class="pa-stat">
-          <span class="pa-stat-num">{{ len $guies }}</span>
+          <span class="pa-stat-num">{{ $xifres.guies }}</span>
           <span class="pa-stat-lab">guies de camp</span>
         </div>
         <div class="pa-stat">
-          <span class="pa-stat-num">{{ len .Site.Taxonomies.arquitectes }}</span>
+          <span class="pa-stat-num">{{ $xifres.arquitectes }}</span>
           <span class="pa-stat-lab">arquitectes i estudis</span>
         </div>
         <div class="pa-stat">
-          <span class="pa-stat-num">{{ $anyMin }}–{{ $anyMax }}</span>
+          <span class="pa-stat-num">{{ $xifres.anyMin }}–{{ $xifres.anyMax }}</span>
           <span class="pa-stat-lab">anys d'arquitectura</span>
         </div>
       </div>
