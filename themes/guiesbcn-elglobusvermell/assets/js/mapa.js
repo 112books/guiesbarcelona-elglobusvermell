@@ -180,7 +180,7 @@
       if (allMarkers.length === 1) {
         map.setView(allMarkers[0].getBounds().getCenter(), 16);
       } else if (allMarkers.length > 1) {
-        map.fitBounds(group.getBounds(), { padding: [30, 30] });
+        map.fitBounds(group.getBounds(), { padding: [10, 10] });
       }
     }
     function fitWhenReady(attempt) {
