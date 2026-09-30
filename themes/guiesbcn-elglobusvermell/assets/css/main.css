@@ -1789,8 +1789,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 .pa-cta-secundari {
   display: inline-flex;
   align-items: center;
-  /* Sobre el fons fosc del hero, blanc: l'accent fosc no hi tindria contrast. */
-  color: #fff;
+  color: var(--color-accent);
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9375rem;
