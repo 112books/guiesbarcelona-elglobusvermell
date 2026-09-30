@@ -264,12 +264,17 @@
       "estat": "pendent",
       "titol": "Tipografia del web",
       "cita": "Sobre la tipografia, en podem escollir una altra? Qualsevol? D'unes concretes? És fàcil fer el canvi?",
-      "context": "Sí que és fàcil canviar-la. Us podem proposar opcions lliures.",
+      "context": "Es pot canviar fàcilment. Condició: que sigui d'ús lliure (llicència oberta) o que en paguem la llicència. On veure'n: Google Fonts (fonts.google.com) i Fontshare (fontshare.com); també hi ha foneries lliures com Velvetyne (velvetyne.fr) o Open Foundry (open-foundry.com).",
       "descripcio": "",
       "opcions": [
         {
           "id": "propostes",
-          "label": "Proposeu-nos 2-3 opcions",
+          "label": "Proposeu-nos 2-3 opcions d'ús lliure",
+          "detall": "Nosaltres ens encarreguem de la llicència i del canvi."
+        },
+        {
+          "id": "triar",
+          "label": "En triarem una dels llocs que ens indiqueu",
           "detall": ""
         },
         {
@@ -278,7 +283,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "propostes",
+      "posicio": "Podem posar la que vulgueu, sempre que la llicència ho permeti. Us en podem preparar 2-3 opcions d'ús lliure perquè trieu."
     },
     {
       "id": "m5-temes-info",
