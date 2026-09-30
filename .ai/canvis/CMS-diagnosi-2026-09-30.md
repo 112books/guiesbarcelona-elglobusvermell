@@ -37,3 +37,12 @@ El primer carregament descarrega totes les entrades, els assets i la metainforma
 - L'editor master és a `/admin/cms/`; l'admin, a `/admin/cms-admin/`.
 - Autenticació Fase 0: **PAT clàssic** de GitHub amb `public_repo` (el fine-grained no funciona per a convidats d'aquest repo).
 - Versió de Sveltia servida en el moment de la diagnosi: **0.224.0**.
+
+## Observació de Joan (2026-09-30, tarda)
+
+A l'editor veu: «La creació d'entrades noves en aquesta col·lecció està desactivada per l'administrador» i, a sota, **«No s'ha trobat cap entrada.»**
+
+Lectura:
+- El primer missatge és correcte: `/admin/cms/` és l'editor d'edició (create: false). Per crear entrades noves cal `/admin/cms-admin/`.
+- «No s'ha trobat cap entrada» pot ser (a) que el llistat encara s'està carregant (primer carregament lent) o (b) que hi ha un filtre o agrupació de la vista seleccionat que no té coincidències (botons «Filtra» i «Agrupa»).
+- Què comprovar: esperar que acabi el carregament i, si continua, obrir «Filtra» i «Agrupa» i triar l'opció sense filtre; si tampoc, esborrar les dades del lloc al navegador (IndexedDB/sessionStorage) i tornar a entrar.
