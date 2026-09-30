@@ -57,7 +57,7 @@
     </div>
   </section>
 
-  <section class="llistat-cronologic" id="llistat" aria-hidden="true">
+  <section class="llistat-cronologic" id="llistat">
     <div id="llistat-grups"></div>
   </section>
 
@@ -104,6 +104,6 @@ window.MAPA_PUNTS         = {{ $punts    | jsonify | safeJS }};
 window.TOTS_ELEMENTS      = {{ $tots     | jsonify | safeJS }};
 window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
 window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
-window.LLISTAT_GRUP       = 'any';
+window.LLISTAT_GRUP       = 'plana';
 </script>
 {{ end }}

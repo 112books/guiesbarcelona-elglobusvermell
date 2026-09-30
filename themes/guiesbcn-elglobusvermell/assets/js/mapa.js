@@ -63,6 +63,9 @@
       c: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png'
     };
 
+    // zoomSnap: 0 permet que fitBounds triï un zoom fraccionari i que tots els
+    // punts quedin ajustats al màxim (sense l'espai que deixa l'arrodoniment
+    // a nivell enter de zoom).
     var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true, zoomSnap: 0 });
     L.tileLayer(tiles[tema] || tiles.a, {
       attribution: STADIA_ATTR,
@@ -688,6 +691,19 @@
   function construeixLlistat() {
     if (!llistatGrups) return;
 
+    // T08: mode pla per a la pàgina d'arquitecte — llista única, sense
+    // etiquetes d'any ni acordions (cap clic addicional).
+    if (grupPer === 'plana') {
+      llistatGrups.innerHTML = '';
+      var plans = totsElsElements.slice().sort(function (a, b) {
+        return a.title.localeCompare(b.title, 'ca');
+      });
+      var llistaPlana = buildLlistatUl('llistat-pla', plans);
+      llistaPlana.classList.add('llistat-incrustat');
+      llistatGrups.appendChild(llistaPlana);
+      return;
+    }
+
     var grups = {};
     var ordreClaus = [];
 
@@ -824,7 +840,7 @@
           adrEl.textContent = p.adreca;
           metaEl.appendChild(adrEl);
         }
-        if (grupPer !== 'any' && p.any) {
+        if (grupPer !== 'any' && grupPer !== 'plana' && p.any) {
           var anyEl = document.createElement('span');
           anyEl.className = 'llistat-element-any';
           anyEl.textContent = String(p.any);
@@ -851,7 +867,7 @@
           li.appendChild(arqsEl);
         }
 
-        if (grupPer !== 'any' && p.publicacions && p.publicacions.length) {
+        if (grupPer !== 'any' && grupPer !== 'plana' && p.publicacions && p.publicacions.length) {
           var pubsEl = document.createElement('span');
           pubsEl.className = 'llistat-element-pubs';
           p.publicacions.forEach(function (slug) {
