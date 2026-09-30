@@ -1120,7 +1120,7 @@ main {
 .llistat-element-adreca,
 .llistat-element-any {
   font-size: 0.8125rem;
-  color: #888;
+  color: #767676;
 }
 
 .llistat-element-any::before {
@@ -1145,7 +1145,7 @@ main {
   width: 100%;
   padding-left: 1.5rem;
   font-size: 0.8125rem;
-  color: #888;
+  color: #767676;
   margin-top: 0.25rem;
   border-left: 2px solid var(--color-border, #e0e0e0);
 }

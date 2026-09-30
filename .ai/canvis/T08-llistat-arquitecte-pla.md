@@ -36,3 +36,15 @@ La pàgina de cada arquitecte mostra un únic llistat alfabètic de tots els seu
 ## 6. Aprovació
 
 Pendent de revisió Joan i validació Xavi.
+
+---
+
+## Correcció de contrast (2026-09-30)
+
+En fer visible el llistat, el verificador pa11y (WCAG2AA) va detectar dos textos
+grisos amb contrast 3,54:1:
+- `.llistat-element-adreca` / `.llistat-element-any` (color #888)
+- `.llistat-element-arquitectes` (color #888)
+
+Canviats a **#767676** (recomanació de pa11y, 4,54:1). Fitxer:
+`themes/guiesbcn-elglobusvermell/assets/css/main.css`.
