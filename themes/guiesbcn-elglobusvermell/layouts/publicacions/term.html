@@ -12,6 +12,7 @@
   <header class="publicacio-cap">
     <h1>{{ .Title }}</h1>
     {{ with .Params.edicio }}<p class="publicacio-edicio">Edició {{ . }}</p>{{ end }}
+    {{ partial "tts-button.html" ".publicacio-cap, .publicacio-descripcio" }}
   </header>
 
   {{ if .Pages }}

@@ -32,6 +32,11 @@
     .r-posicio strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.2rem; }
     .r-badge.nostre { color: #1a5fb4; }
     .r-ref { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.15rem 0.45rem; background: var(--soft); border: 1px solid var(--border); color: var(--ink2); }
+    .r-estat { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; padding: 0.15rem 0.45rem; border: 1px solid currentColor; margin-left: auto; }
+    .r-estat.pendent { color: var(--amber); }
+    .r-estat.fet, .r-estat.respost { color: #1a5fb4; }
+    .r-estat.verificat { color: var(--green); }
+    .r-estat.informatiu { color: var(--ink3); }
     h2.r-sec { font-size: 1.05rem; margin: 2rem 0 0.9rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--ink); }
     .r-item { background: var(--surface); border: 1px solid var(--border); padding: 1.1rem 1.15rem; margin-bottom: 1rem; }
     .r-item-head { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
@@ -96,7 +101,7 @@
       <div id="r-decisions"></div>
     </section>
     <section aria-labelledby="sec-canvis">
-      <h2 class="r-sec" id="sec-canvis">Canvis fets — per validar</h2>
+      <h2 class="r-sec" id="sec-canvis">Fet — pendent de la teva verificació</h2>
       <div id="r-canvis"></div>
     </section>
     <section aria-labelledby="sec-nostres">
@@ -123,7 +128,7 @@
 
     function desa() { try { localStorage.setItem(KEY, JSON.stringify(ESTAT)); } catch (e) {} }
     function valor(id, camp) { return (ESTAT[id] && ESTAT[id][camp]) || ""; }
-    function set(id, camp, val) { if (!ESTAT[id]) ESTAT[id] = {}; ESTAT[id][camp] = val; desa(); actualitzaComptador(); }
+    function set(id, camp, val) { if (!ESTAT[id]) ESTAT[id] = {}; ESTAT[id][camp] = val; desa(); actualitzaComptador(); refrescaEstat(id); }
 
     function creaOpcio(nom, valor, etiqueta, detall, triat) {
       var lab = document.createElement("label");
@@ -161,6 +166,7 @@
       var badge = document.createElement("span"); badge.className = "r-badge decisio"; badge.textContent = "Decisió";
       head.appendChild(badge);
       if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
+      head.appendChild(criaEstat(item, "decisio"));
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
@@ -183,20 +189,49 @@
       var art = document.createElement("article");
       art.className = "r-item";
       var head = document.createElement("div"); head.className = "r-item-head";
-      var badge = document.createElement("span"); badge.className = "r-badge canvi"; badge.textContent = "Canvi fet";
+      var badge = document.createElement("span"); badge.className = "r-badge canvi"; badge.textContent = "Fet";
       head.appendChild(badge);
       if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
+      head.appendChild(criaEstat(item, "canvi"));
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.resultat) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.resultat; art.appendChild(d); }
       var fs = document.createElement("fieldset");
-      var lg = document.createElement("legend"); lg.textContent = "La teva valoració"; fs.appendChild(lg);
-      fs.appendChild(creaOpcio(item.id, "ok", "D'acord", "", valor(item.id, "opcio")));
+      var lg = document.createElement("legend"); lg.textContent = "Verificació"; fs.appendChild(lg);
+      fs.appendChild(creaOpcio(item.id, "verificat", "Verificat i OK", "Ho he revisat i està bé.", valor(item.id, "opcio")));
       fs.appendChild(creaOpcio(item.id, "comentari", "Amb comentaris", "Deixa a sota què canviaries.", valor(item.id, "opcio")));
       art.appendChild(fs);
       art.appendChild(creaComentari(item.id));
       return art;
+    }
+
+    function trobaItem(id) {
+      var tots = DADES.decisions.concat(DADES.canvis, DADES.decisions_nostres || []);
+      for (var i = 0; i < tots.length; i++) if (tots[i].id === id) return tots[i];
+      return null;
+    }
+    function criaEstat(item, tipus) {
+      var el = document.createElement("span");
+      el.setAttribute("data-estat", item.id);
+      if (tipus === "decisio") {
+        if (valor(item.id, "opcio")) { el.className = "r-estat respost"; el.textContent = "Respost"; }
+        else { el.className = "r-estat pendent"; el.textContent = "Pendent"; }
+      } else if (tipus === "canvi") {
+        if (valor(item.id, "opcio") === "verificat") { el.className = "r-estat verificat"; el.textContent = "Verificat i OK"; }
+        else { el.className = "r-estat fet"; el.textContent = "Fet — per nosaltres"; }
+      } else {
+        el.className = "r-estat informatiu"; el.textContent = "Informatiu";
+      }
+      return el;
+    }
+    function refrescaEstat(id) {
+      var el = document.querySelector('[data-estat="' + id + '"]');
+      var item = trobaItem(id);
+      if (!el || !item) return;
+      var tipus = (DADES.decisions.indexOf(item) >= 0) ? "decisio" : (DADES.canvis.indexOf(item) >= 0 ? "canvi" : "informacio");
+      var nou = criaEstat(item, tipus);
+      el.className = nou.className; el.textContent = nou.textContent;
     }
 
     function construeixNostra(item) {
@@ -206,6 +241,7 @@
       var badge = document.createElement("span"); badge.className = "r-badge nostre"; badge.textContent = "Decisió nostra";
       head.appendChild(badge);
       if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
+      head.appendChild(criaEstat(item, "informacio"));
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.decisio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.decisio; art.appendChild(d); }
@@ -247,7 +283,7 @@
         var c = DADES.canvis[j];
         var cop = valor(c.id, "opcio"), ccom = valor(c.id, "comentari");
         if (!cop && !ccom) continue;
-        linies.push("- " + (c.ref ? "[" + c.ref + "] " : "") + c.titol + " — " + (cop === "ok" ? "D'acord" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)"));
+        linies.push("- " + (c.ref ? "[" + c.ref + "] " : "") + c.titol + " — " + (cop === "verificat" ? "Verificat i OK" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)"));
         if (ccom) linies.push("  Comentari: " + ccom);
       }
       linies.push("");
