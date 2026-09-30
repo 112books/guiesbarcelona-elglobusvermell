@@ -88,6 +88,23 @@ a {
   padding: 0 var(--space-md);
 }
 
+/* P7 — Splash amb el logo al mòbil (un cop per sessió). */
+.splash-mobil { display: none; }
+@media (max-width: 48rem) {
+  .splash-mobil {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-text, #111110);
+    transition: opacity 0.4s ease;
+  }
+  .splash-mobil img { height: 4rem; width: auto; }
+  .splash-mobil.is-amagat { opacity: 0; pointer-events: none; }
+}
+
 .site-header.is-scrolled {
   height: var(--header-height-scroll);
 }
@@ -667,6 +684,10 @@ main {
 }
 
 .fitxa-imatge img { width: 100%; height: auto; }
+
+/* F6 — fotos en blanc i negre. Per revertir-ho: treu la classe "fotos-bn" de <html> (baseof.html). */
+html.fotos-bn .fitxa-imatge img,
+html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 
 .fitxa-figura {
   margin: 0 0 var(--space-lg);
@@ -1998,36 +2019,3 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   font-size: 0.8125rem;
   color: var(--color-muted);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.pa-arq-nom {
-  font-size: clamp(1.5rem, 3vw, 2.25rem);
-  margin: 0;
-}
-
-/* Recursos educatius */
-.pa-recursos {
-  background: #f8f9fa;
-  border-radius: 0.5rem;
-  max-width: 64rem;
-  margin: var(--space-lg) auto;
-  border-top: none !important;
-  padding: var(--space-lg) var(--space-md);
-}
-
-.pa-recursos-label {
-  margin: 0 0 0.35rem;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-muted);
-}
-
-.pa-recursos-titol {
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
-  margin: 0 0 var(--space-sm);
-}
-
-.pa-recursos-pendent {

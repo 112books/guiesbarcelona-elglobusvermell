@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.Lang }}">
+<html lang="{{ site.Language.Lang }}" class="fotos-bn">
 <head>
   {{ partial "head.html" . }}
 </head>
 <body>
+  <div id="splash-mobil" class="splash-mobil" hidden aria-hidden="true">
+    {{ with site.Params.logoImg }}<img src="{{ . | relURL }}" alt="">{{ end }}
+  </div>
   <script>window.SITE_BASE = {{ (urls.Parse site.BaseURL).Path | jsonify | safeJS }};</script>
   <a class="skip-link" href="#main">Salta al contingut principal</a>
   {{ partial "header.html" . }}
@@ -33,5 +36,21 @@
   {{ $arqJs := resources.Get "js/arquitectes.js" | minify | fingerprint }}
   <script src="{{ $arqJs.RelPermalink }}" integrity="{{ $arqJs.Data.Integrity }}" defer></script>
   {{ end }}
+<script>
+(function () {
+  var sp = document.getElementById('splash-mobil');
+  if (!sp) return;
+  if (window.innerWidth > 768) { if (sp.parentNode) sp.parentNode.removeChild(sp); return; }
+  try {
+    if (sessionStorage.getItem('splash-vist')) { if (sp.parentNode) sp.parentNode.removeChild(sp); return; }
+    sessionStorage.setItem('splash-vist', '1');
+  } catch (e) {}
+  sp.hidden = false;
+  setTimeout(function () {
+    sp.classList.add('is-amagat');
+    setTimeout(function () { if (sp.parentNode) sp.parentNode.removeChild(sp); }, 450);
+  }, 1100);
+}());
+</script>
 </body>
 </html>

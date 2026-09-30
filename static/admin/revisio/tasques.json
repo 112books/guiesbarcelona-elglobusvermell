@@ -213,56 +213,12 @@
       "recomanacio": ""
     },
     {
-      "id": "f6-fotos-bn",
-      "ref": "F6",
-      "estat": "pendent",
-      "titol": "Fotos en blanc i negre",
-      "cita": "podem posar totes les fotos en blanc i negre? I podem penedir-nos-en i fer marxar enrere?",
-      "context": "Sí que és reversible: es pot activar i desactivar amb un canvi de codi.",
-      "descripcio": "",
-      "opcions": [
-        {
-          "id": "si",
-          "label": "Sí, proveu-ho (reversible)",
-          "detall": ""
-        },
-        {
-          "id": "no",
-          "label": "No, deixem-les en color",
-          "detall": ""
-        }
-      ],
-      "recomanacio": ""
-    },
-    {
-      "id": "p7-splash-mobil",
-      "ref": "P7",
-      "estat": "pendent",
-      "titol": "Splash amb el logo al mòbil",
-      "cita": "podem fer que quan entris a l'app del mòbil, durant un instant, aparegui el logo d'arquitectura i urbanisme i després ja el mapa, sense haver de fer cap click?",
-      "context": "En podem fer una prova.",
-      "descripcio": "",
-      "opcions": [
-        {
-          "id": "si",
-          "label": "Sí, feu una prova",
-          "detall": ""
-        },
-        {
-          "id": "no",
-          "label": "No cal",
-          "detall": ""
-        }
-      ],
-      "recomanacio": ""
-    },
-    {
       "id": "ep3-carrusel-infinit",
       "ref": "EP3",
       "estat": "pendent",
       "titol": "Carrusel de portades: infinit o amb final?",
       "cita": "Tinc dubtes de si ha de ser infinita (és a dir, si després de l'últim plànol hauria d'aparèixer de nou el primer).",
-      "context": "",
+      "context": "Es refereix al carrusel horitzontal de portades dels plànols de la pàgina «En paper» (EP2–EP3).",
       "descripcio": "",
       "opcions": [
         {
@@ -276,7 +232,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "infinit",
+      "posicio": "Ho recomanem infinit (després de l'últim torna el primer): reforça que es pot desplaçar, que és just el que buscaves. Si ho prefereixes, també el podem fer aturar-se al final."
     },
     {
       "id": "gr1-gr2-colors",
@@ -284,7 +241,7 @@
       "estat": "pendent",
       "titol": "Colors dels pins i les etiquetes, i el vermell del web",
       "cita": "Els punts al mapa i les etiquetes de les fitxes ... haurien de ser del color específic que triem nosaltres ... Això, ho podem editar directament nosaltres? Algun color no ens quadra... Allò que està en vermell ho preferim en negre o gris fosc.",
-      "context": "Els colors dels plànols són dades que es poden editar. Per fer-ho ens cal la vostra paleta definitiva. El vermell el podem passar a negre o gris fosc.",
+      "context": "Els colors dels plànols viuen en un fitxer de dades del web, no al CMS. Ens cal la paleta definitiva; amb els codis HEX o RGB en tenim prou. El vermell el podem passar a negre o gris fosc.",
       "descripcio": "",
       "opcions": [
         {
@@ -298,7 +255,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "",
+      "posicio": "Recomanem no exposar l'edició de colors al CMS: és una dada sensible i és fàcil espifiar-la. Ens passeu la paleta definitiva i l'apliquem nosaltres."
     },
     {
       "id": "gr3-tipografia",
@@ -368,6 +326,24 @@
     }
   ],
   "canvis": [
+    {
+      "id": "f6-fotos-bn",
+      "ref": "F6",
+      "estat": "fet",
+      "titol": "Fotos en blanc i negre",
+      "cita": "podem posar totes les fotos en blanc i negre? I podem penedir-nos-en i fer marxar enrere?",
+      "resultat": "Fet: s'aplica un filtre CSS (grayscale) a les fotos de les fitxes (i al carrusel). És reversible amb una sola línia: si no agrada, es treu la classe i tornen al color.",
+      "posicio": "Vegeu-ho amb calma i digueu si les mantenim en blanc i negre o tornem al color."
+    },
+    {
+      "id": "p7-splash-mobil",
+      "ref": "P7",
+      "estat": "fet",
+      "titol": "Splash amb el logo al mòbil",
+      "cita": "podem fer que quan entris a l'app del mòbil, durant un instant, aparegui el logo d'arquitectura i urbanisme i després ja el mapa, sense haver de fer cap click?",
+      "resultat": "Fet: en mòbil, en entrar, apareix un instant el logo i després la pàgina, sense cap clic. Només un cop per sessió.",
+      "posicio": "És un prototip; digueu-nos si us va bé o si el volem treure o ajustar."
+    },
     {
       "id": "p6-navegacio-blocs",
       "ref": "P6",
