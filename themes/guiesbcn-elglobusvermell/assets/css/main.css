@@ -1759,7 +1759,8 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 700;
   line-height: 1;
-  color: var(--color-accent);
+  /* Sobre el fons fosc del hero, blanc: l'accent fosc no hi tindria contrast. */
+  color: #fff;
 }
 
 .pa-stat-lab {
@@ -1788,7 +1789,8 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 .pa-cta-secundari {
   display: inline-flex;
   align-items: center;
-  color: var(--color-accent);
+  /* Sobre el fons fosc del hero, blanc: l'accent fosc no hi tindria contrast. */
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9375rem;
