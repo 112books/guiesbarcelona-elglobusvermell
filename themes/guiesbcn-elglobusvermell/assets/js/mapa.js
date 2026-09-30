@@ -63,7 +63,7 @@
       c: 'https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png'
     };
 
-    var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true });
+    var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true, zoomSnap: 0 });
     L.tileLayer(tiles[tema] || tiles.a, {
       attribution: STADIA_ATTR,
       maxZoom: 20,
@@ -180,7 +180,7 @@
       if (allMarkers.length === 1) {
         map.setView(allMarkers[0].getBounds().getCenter(), 16);
       } else if (allMarkers.length > 1) {
-        map.fitBounds(group.getBounds(), { padding: [10, 10] });
+        map.fitBounds(group.getBounds(), { padding: [8, 8] });
       }
     }
     function fitWhenReady(attempt) {
