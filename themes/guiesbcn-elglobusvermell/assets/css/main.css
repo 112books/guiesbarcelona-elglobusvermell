@@ -299,14 +299,30 @@ main {
 }
 .en-plan > h2, .en-plan > p { grid-column: 2; }
 .en-plan > h2 { margin-top: 0; }
-.en-plan > a { grid-column: 1; grid-row: 1; align-self: start; }
-.en-plan > a img { width: 100%; height: auto; box-shadow: 0 1px 5px rgba(0,0,0,0.18); }
-.en-plan > a.portada-guia-placeholder { display: block; aspect-ratio: 130 / 184; }
-@media (max-width: 40rem) {
+.en-plan > a { grid-column: 1; grid-row: 1; align-self: start; display: block; }
+/* Anul·la el float heretat de la pàgina antiga: dins la graella la portada ocupa la columna 1. */
+.en-plan > a .portada-guia-img {
+  float: none;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  margin: 0;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.18);
+}
+.en-plan > a.portada-guia-placeholder {
+  float: none;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  aspect-ratio: 130 / 184;
+  margin: 0;
+}
+@media (max-width: 48rem) {
   .en-plan { grid-template-columns: 1fr; }
   .en-plan > h2, .en-plan > p, .en-plan > a { grid-column: 1; }
   .en-plan > a { grid-row: auto; }
-  .en-plan > a img, .en-plan > a.portada-guia-placeholder { max-width: 160px; }
+  .en-plan > a .portada-guia-img,
+  .en-plan > a.portada-guia-placeholder { max-width: 140px; }
 }
 
 .accessibilitat-badges {
