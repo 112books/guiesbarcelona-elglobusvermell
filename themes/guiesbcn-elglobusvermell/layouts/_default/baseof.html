@@ -52,5 +52,21 @@
   }, 1600);
 }());
 </script>
+<script>
+// R9 — prova d'amplades de columna: ?ample=1|2|3 (només per comparar).
+(function () {
+  var p = new URLSearchParams(window.location.search).get('ample');
+  var vals = { '1': ['46rem', '42rem', 'estreta'], '2': ['52rem', '48rem', 'actual'], '3': ['58rem', '54rem', 'ampla'] };
+  if (!p || !vals[p]) return;
+  var arrel = document.documentElement;
+  arrel.style.setProperty('--lectura-max', vals[p][0]);
+  arrel.style.setProperty('--lectura-max-ep', vals[p][1]);
+  var b = document.createElement('div');
+  b.className = 'ample-badge';
+  b.innerHTML = 'Amplada de text ' + p + '/3 (' + vals[p][2] + '): ' +
+    '<a href="?ample=1">estreta</a> <a href="?ample=2">actual</a> <a href="?ample=3">ampla</a>';
+  document.body.appendChild(b);
+}());
+</script>
 </body>
 </html>

@@ -734,6 +734,61 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/nomenclator-femeni/"
         }
       ]
+    },
+    {
+      "id": "r11-formulari-unic",
+      "ref": "T07 · R11",
+      "estat": "fet",
+      "titol": "Un sol formulari a Contacte per a tot",
+      "cita": "Es manté a contacte amb un únic formulari que serveix per tot. ... A contacte pensarem una frase que doni a entendre que el formulari serveix per diverses coses.",
+      "resultat": "Fet: /contacte/ té un sol formulari (correccions, vendre plànols-guia, proposar o finançar nous plànols i qualsevol consulta). Hem tret el segon formulari «Suggerir una correcció» i el text ja ho explica (provisional, el podeu editar).",
+      "enllacos": [
+        {
+          "label": "Contacte",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/contacte/"
+        }
+      ]
+    },
+    {
+      "id": "autoria-fotos",
+      "ref": "ENQ-autoria",
+      "estat": "fet",
+      "titol": "Autoria de les fotografies: CC BY-NC 4.0",
+      "cita": "Podem posar una nota genèrica a peu de pàgina? ... Creative Commons BY-NC ...",
+      "resultat": "Fet: el peu de foto de les fitxes i el peu de pàgina diuen CC BY-NC 4.0 d'El Globus Vermell. La llicència del web continua sent CC BY-SA.",
+      "posicio": "Queda un punt petit: el nom d'arxiu/meta de la imatge descarregada («elglobusvermell»). A la web estàtica no controlem el nom de desat; ho deixem com a tasca per valorar un enllaç de descàrrega.",
+      "enllacos": [
+        {
+          "label": "Una fitxa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/"
+        }
+      ]
+    },
+    {
+      "id": "r9-amplades",
+      "ref": "G1 · R9",
+      "estat": "fet",
+      "titol": "Prova de 2-3 amplades de columna de text",
+      "cita": "Feu-nos una prova amb 2-3 amplades i triem.",
+      "resultat": "Fet: amb ?ample=1 (estreta), ?ample=2 (actual) i ?ample=3 (ampla) es canvia l'amplada de la columna de text a les fitxes i a «En paper», i apareix un indicador per comparar.",
+      "enllacos": [
+        {
+          "label": "Fitxa — estreta",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=1"
+        },
+        {
+          "label": "Fitxa — actual",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=2"
+        },
+        {
+          "label": "Fitxa — ampla",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=3"
+        },
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=1"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
@@ -760,6 +815,14 @@
       "motiu": "Per agilitzar i no perdre fils entre mails.",
       "ref": "NOS-3",
       "estat": "informacio"
+    },
+    {
+      "id": "arquitectes-revisio",
+      "ref": "PREG-arquitectes",
+      "estat": "informacio",
+      "titol": "Arquitectes combinats: revisió manual del client",
+      "decisio": "La llista dels 73 ja està resolta (71 falsos positius). Queden els 2 casos dubtosos (Rey Fàbregas, Romano Rius) i els 3 dubtes de nom (Piñón), que revisaran manualment des de l'editor.",
+      "motiu": "Resposta d'Xavi (30/9): «ho farem manualment» i «de moment ho deixarem com està». No cal cap llista nova."
     }
   ],
   "tasques": [
@@ -772,44 +835,20 @@
       "descripcio": "A valorar amb les dades corregides."
     },
     {
-      "id": "r9-amplades",
-      "ref": "G1 · R9",
-      "titol": "Prova de 2-3 amplades de columna de text",
-      "cita": "Feu-nos una prova amb 2-3 amplades i triem.",
-      "context": "Fitxes i secció «En paper».",
-      "descripcio": "A preparar una prova visible amb 2-3 amplades."
-    },
-    {
-      "id": "r11-formulari-unic",
-      "ref": "T07 · R11",
-      "titol": "Un sol formulari a Contacte per a tot",
-      "cita": "Es manté a contacte amb un únic formulari que serveix per tot. ... A contacte pensarem una frase que doni a entendre que el formulari serveix per diverses coses.",
-      "context": "Ells escriuran el text; nosaltres garantim que hi hagi un sol formulari.",
-      "descripcio": "A fer: formulari únic."
-    },
-    {
-      "id": "autoria-fotos-aplicar",
-      "ref": "ENQ-autoria",
-      "titol": "Aplicar autoria de fotos CC BY-NC i nom d'arxiu/meta",
-      "cita": "Creative Commons BY-NC ... nota genèrica a peu de pàgina ... i que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
-      "context": "Llicència del web CC BY-SA ja al peu.",
-      "descripcio": "A fer: nota genèrica de fotos i nom d'arxiu/meta."
-    },
-    {
-      "id": "arquitectes-llista",
-      "ref": "PREG-arquitectes",
-      "titol": "Llista d'arquitectes combinats per separat",
-      "cita": "Ho farem manualment.",
-      "context": "73 casos a .ai/ARQUITECTES-A-SEPARAR.md.",
-      "descripcio": "A oferir: llista amb el format proposat perquè ho revisin."
-    },
-    {
       "id": "r13-paleta",
       "ref": "GR1·GR2 · R13",
       "titol": "Aplicar la paleta definitiva per plànol",
       "cita": "Us passarem la paleta definitiva per plànol.",
       "context": "Esperant que ens facin arribar els codis de color.",
       "descripcio": "En rebre la paleta, l'apliquem."
+    },
+    {
+      "id": "autoria-meta",
+      "ref": "ENQ-autoria",
+      "titol": "Nom d'arxiu/meta de les imatges descarregades",
+      "cita": "...que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
+      "context": "A la web estàtica no es controla el nom de desat del navegador.",
+      "descripcio": "Valorar un enllaç de descàrrega amb el nom suggerit «elglobusvermell-<slug>»."
     }
   ]
 }

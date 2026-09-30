@@ -44,11 +44,15 @@ canvis com a OK i comenta 9. Els blocs «Pendent de fer (nosaltres)» i
 Xavi no va respondre aquestes decisions de l'eina:
 
 - **cercador-general** (NOU) — cercador general a tot el web o només el d'elements.
-- **autoria-fotos** (ENQ-autoria) — web CC BY-SA i fotos CC BY-NC amb nota genèrica.
-- **arquitectes-combinats** (PREG-arquitectes) — com els ho posem fàcil per separar-los.
 - **portada-guies-distribucio** (P4 · G1) — 6·6·1 o 5·5·3.
 - **m2-mapa-grisos** (M2) — base en grays o punts.
 - **gr3-tipografia** (GR3) — proposta de 2-3 tipografies lliures.
+
+Dues de les sis **sí que van quedar resoltes pel correu gran del 30/9** (no per l'eina):
+**autoria-fotos** (web CC BY-SA, fotos CC BY-NC amb nota genèrica i nom d'arxiu/meta) i
+**arquitectes-combinats** (ho faran manualment des de l'editor). Vegeu
+`.ai/FEEDBACK-XAVI-2026-09-30.md`. Cal afegir-hi **R12** (filtre de temes al mapa),
+que en Xavi proposa i deixa obert.
 
 Canvis que no va verificar: **cercador-mapa** (M6), **en-paper** (EP1-EP8),
 **p6-navegacio-blocs** (P6), **t06** (abecedari) i **t09** (portada sense
@@ -73,6 +77,9 @@ efecte visual**. Quelcom similar passa a la base «b» (satèl·lit), on
 Punt ambigu a aclarir amb Xavi: diu que el filtre «no funciona» però també que
 l'atenuació original «queda brut». Cal triar entre atenuar, amagar, ressaltar
 d'una altra manera o fer zoom/llistat en seleccionar una guia.
+
+**Resolt (R1, 30/9/2026):** es va seguir la seva indicació literal («la idea era que
+desapareguessin»): en seleccionar un plànol o un tema, els altres punts desapareixen.
 
 ## 5. Tasques noves derivades (prefix R)
 

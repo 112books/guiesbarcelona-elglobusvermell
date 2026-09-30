@@ -12,6 +12,10 @@
      gris fosc, a petició de Xavi, a l'espera de la paleta definitiva. */
   --color-accent:    #222222;
 
+  /* R9 — amplada de la columna de text (prova ?ample=1|2|3). */
+  --lectura-max:     52rem;
+  --lectura-max-ep:  48rem;
+
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                Helvetica, Arial, sans-serif;
 
@@ -643,7 +647,7 @@ main {
 /* ── Fitxa d'edifici ──────────────────────────────────────────────────────── */
 
 .fitxa {
-  max-width: 52rem;
+  max-width: var(--lectura-max, 52rem);
   margin: 0 auto;
   padding-top: var(--space-md);
 }
@@ -2542,7 +2546,13 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .en-paper { max-width: 64rem; margin: 0 auto; }
 .en-paper-cap { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .en-paper-titol { margin: 0; }
-.en-paper-intro { max-width: 48rem; margin: 1.5rem 0 2rem; }
+.en-paper-intro { max-width: var(--lectura-max-ep, 48rem); margin: 1.5rem 0 2rem; }
+
+/* R9 — indicador de la prova d'amplades (només amb ?ample=) */
+.ample-badge { position: fixed; z-index: 5000; bottom: 1rem; left: 50%; transform: translateX(-50%); background: #111; color: #fff; padding: 0.5rem 0.9rem; border-radius: 2rem; font-size: 0.82rem; font-family: system-ui, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.25); }
+.ample-badge a { color: #fff; margin: 0 0.15rem; text-decoration: underline; }
+.footer-fotos { margin: 0.25rem 0 0; }
+.footer-fotos a { color: inherit; }
 .en-paper-bloc { margin: 2.5rem 0; }
 .en-paper-bloc-titol {
   font-size: 0.85rem;

@@ -1,4 +1,6 @@
 ---
 title: "Contacte"
-description: "Poseu-vos en contacte amb El Globus Vermell o suggeriu una correcció a les fitxes d'edificis."
+description: "Un sol formulari per a tot: correccions de fitxes, vendre plànols-guia, proposar o finançar nous plànols i qualsevol consulta."
 ---
+
+Aquest formulari serveix per a tot: ens podeu assenyalar una correcció d'una fitxa, demanar per vendre plànols-guia al vostre espai, proposar o finançar nous plànols-guia, o simplement escriure'ns. Us respondrem al més aviat possible.
