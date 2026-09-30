@@ -1,4 +1,5 @@
 <header class="site-header">
+  <div class="site-header-inner">
   <a class="site-logo" href="{{ site.Home.Permalink }}" aria-label="{{ site.Title }}">
     {{ if site.Params.logoImg }}
     <img src="{{ site.Params.logoImg | relURL }}" alt="" class="site-logo-img site-logo-full">
@@ -31,4 +32,5 @@
       {{ end }}
     </ul>
   </nav>
+  </div>
 </header>

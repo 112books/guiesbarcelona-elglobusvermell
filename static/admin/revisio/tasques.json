@@ -163,28 +163,6 @@
       "recomanacio": "553"
     },
     {
-      "id": "g1-amplada",
-      "ref": "G1",
-      "estat": "pendent",
-      "titol": "Amplada de la columna de text i alineació del menú",
-      "cita": "Els textos, hauríem de decidir la mida de la columna de text. A l'esquerra una columna més estreta, a la dreta una de més ampla (mides a determinar). ... el menú de dalt (logo + menú) ha de quedar verticalment alineat amb aquestes dues columnes.",
-      "context": "Afecta les fitxes, la secció En paper i l'alineació del menú.",
-      "descripcio": "Com ho decidim?",
-      "opcions": [
-        {
-          "id": "prova",
-          "label": "Feu-nos una prova amb 2-3 amplades i triem",
-          "detall": "Veure-ho és la manera més fàcil."
-        },
-        {
-          "id": "conversa",
-          "label": "Ho decidim en conversa",
-          "detall": ""
-        }
-      ],
-      "recomanacio": "prova"
-    },
-    {
       "id": "p6-navegacio-blocs",
       "ref": "P6",
       "estat": "pendent",
@@ -386,9 +364,40 @@
         }
       ],
       "recomanacio": ""
+    },
+    {
+      "id": "g1-columnes",
+      "ref": "G1",
+      "estat": "pendent",
+      "titol": "Amplada de la columna de text",
+      "cita": "Els textos, hauríem de decidir la mida de la columna de text. A l'esquerra una columna més estreta, a la dreta una de més ampla (mides a determinar).",
+      "context": "Un cop alineat el menú, queda decidir l'amplada de la columna de text a les fitxes i a la secció En paper.",
+      "descripcio": "Com ho decidim?",
+      "opcions": [
+        {
+          "id": "prova",
+          "label": "Feu-nos una prova amb 2-3 amplades i triem",
+          "detall": "Veure-ho és la manera més fàcil."
+        },
+        {
+          "id": "conversa",
+          "label": "Ho decidim en conversa",
+          "detall": ""
+        }
+      ],
+      "recomanacio": "prova"
     }
   ],
   "canvis": [
+    {
+      "id": "g1-menu",
+      "ref": "G1",
+      "estat": "fet",
+      "titol": "Alineació del logo i el menú amb el cos del web",
+      "cita": "el menú de dalt (logo + menú) ha de quedar verticalment alineat amb aquestes dues columnes.",
+      "resultat": "Fet: el logo i el menú fan servir els mateixos marges dret i esquerra que el cos del web. El peu ja funcionava així.",
+      "posicio": "Podeu aprovar-ho o demanar-nos més o menys marge; ho ajustem de seguida."
+    },
     {
       "id": "locucions",
       "ref": "ENQ-lectura",
