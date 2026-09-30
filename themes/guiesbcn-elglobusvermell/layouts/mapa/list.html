@@ -40,7 +40,7 @@
 
 {{ $temesData := slice }}
 {{ range hugo.Data.temes_transversals }}
-  {{ $temesData = $temesData | append (dict "slug" .slug "titol" .titol "color" .color) }}
+  {{ $temesData = $temesData | append (dict "slug" .slug "titol" .titol "color" .color "info" .info) }}
 {{ end }}
 
 <script>

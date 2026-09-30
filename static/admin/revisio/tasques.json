@@ -311,6 +311,20 @@
   ],
   "canvis": [
     {
+      "id": "m5-temes-info",
+      "ref": "M5",
+      "estat": "fet",
+      "titol": "Botó (i) amb informació als temes transversals",
+      "cita": "Els temes transversals també haurien de tenir una (i) i la seva pròpia informació (ja hi és a la web antiga, però te la puc passar).",
+      "resultat": "Fet: cada tema transversal del mapa (Espai públic, Art públic, Dones arquitectes, Nomenclàtor femení) té un botó (i) que desplega la seva informació, recuperada de la web de producció.",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
+    },
+    {
       "id": "f6-fotos-bn",
       "ref": "F6",
       "estat": "fet",
@@ -557,15 +571,6 @@
       "descripcio": "Ho fem tal com ho has descrit (carrusel de portades + xips de filtre + tots els plànols en dues columnes). Quan ho tinguem, t'ho passem perquè ho revisis.",
       "ref": "EP1-EP8",
       "estat": "pendent"
-    },
-    {
-      "id": "m5-temes-info",
-      "ref": "M5",
-      "estat": "pendent",
-      "titol": "Botó (i) amb informació als temes transversals",
-      "cita": "Els temes transversals també haurien de tenir una (i) i la seva pròpia informació (ja hi és a la web antiga, però te la puc passar).",
-      "context": "Hem recuperat els textos de la web de producció (WordPress): ja els tenim guardats.",
-      "descripcio": "Ens falta implementar el botó (i) i mostrar-hi aquests textos. No cal que ens els passeu."
     }
   ]
 }

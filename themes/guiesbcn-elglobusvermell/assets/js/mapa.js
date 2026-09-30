@@ -513,7 +513,11 @@
         temesGrup.appendChild(temesLabel);
         var temesBtns = document.createElement('div');
         temesBtns.className = 'filtre-botos';
+        var temesInfo = document.createElement('div');
+        temesInfo.className = 'tema-info-wrap';
         temes.forEach(function (t) {
+          var wrap = document.createElement('span');
+          wrap.className = 'filtre-btn-wrap';
           var btn = document.createElement('button');
           btn.setAttribute('data-tema', t.slug);
           btn.className = 'filtre-btn';
@@ -526,9 +530,39 @@
               window.goatcounter.count({ path: 'mapa-filtre-tema/' + t.slug, title: 'Filtre tema: ' + t.slug });
             }
           });
-          temesBtns.appendChild(btn);
+          wrap.appendChild(btn);
+          if (t.info) {
+            var info = document.createElement('button');
+            info.type = 'button';
+            info.className = 'filtre-btn-info';
+            info.style.setProperty('--pub-color', t.color || '#888');
+            var infoLabel = 'Informació sobre "' + (t.titol || t.slug) + '"';
+            info.setAttribute('aria-label', infoLabel);
+            info.setAttribute('title', infoLabel);
+            info.setAttribute('aria-expanded', 'false');
+            info.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>';
+            var panell = document.createElement('div');
+            panell.className = 'tema-info';
+            panell.hidden = true;
+            panell.style.setProperty('--pub-color', t.color || '#888');
+            panell.textContent = t.info;
+            info.addEventListener('click', function (e) {
+              e.stopPropagation();
+              var obert = !panell.hidden;
+              temesInfo.querySelectorAll('.tema-info').forEach(function (p) { p.hidden = true; });
+              temesInfo.querySelectorAll('.filtre-btn-info').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+              if (!obert) { panell.hidden = false; info.setAttribute('aria-expanded', 'true'); }
+              if (window.goatcounter && window.goatcounter.count) {
+                window.goatcounter.count({ path: 'mapa-info-tema/' + t.slug, title: 'Info tema: ' + t.slug });
+              }
+            });
+            wrap.appendChild(info);
+            temesInfo.appendChild(panell);
+          }
+          temesBtns.appendChild(wrap);
         });
         temesGrup.appendChild(temesBtns);
+        if (temesInfo.children.length) temesGrup.appendChild(temesInfo);
         filtreMapa.appendChild(temesGrup);
       }
     }
@@ -1179,99 +1213,3 @@
       ul.style.maxHeight = '';
       return ul;
     }
-
-    var grupsTop = Array.prototype.slice.call(llistatGrups.children);
-
-    grupsTop.forEach(function (grup) {
-      var nomEl = grup.querySelector('.llistat-grup-any');
-      if (!nomEl) return;
-      var nom = nomEl.textContent.trim();
-
-      if (nom === 'Antics municipis') {
-        // Grup pare: elements directes sota l'h3; sub-zones sota els h4
-        var capPare = trobaEncapcalament(nom, 'h3');
-        var cosPare = grup.querySelector('.llistat-grup-elements');
-        var colocat = !!(capPare && cosPare);
-        if (colocat) {
-          var ulDirecte = cosPare.querySelector(':scope > ul');
-          if (ulDirecte) {
-            ulDirecte.classList.add('llistat-incrustat');
-            insereixSota(capPare, ulDirecte);
-          }
-          var subGrups = Array.prototype.slice.call(cosPare.querySelectorAll('.llistat-grup'));
-          subGrups.forEach(function (sub) {
-            var subNomEl = sub.querySelector('.llistat-grup-any');
-            if (!subNomEl) { colocat = false; return; }
-            var capSub = trobaEncapcalament(subNomEl.textContent.trim(), 'h4');
-            if (capSub) {
-              var subUl = extreuUl(sub);
-              if (subUl) insereixSota(capSub, subUl);
-              else colocat = false;
-            } else {
-              colocat = false;
-            }
-          });
-        }
-        if (colocat) grup.parentNode.removeChild(grup);
-      } else {
-        // Grup estàndard: llista plana sota l'h3
-        var cap = trobaEncapcalament(nom, 'h3');
-        if (cap) {
-          var ul = extreuUl(grup);
-          if (ul) {
-            insereixSota(cap, ul);
-            grup.parentNode.removeChild(grup);
-          }
-        }
-      }
-    });
-
-    // Grups restants (sense encapçalament): bloc de reserva al final
-    if (llistatGrups.children.length > 0) {
-      cos.appendChild(listatEl);
-    } else if (listatEl.parentNode) {
-      listatEl.parentNode.removeChild(listatEl);
-    }
-  }
-
-  // ── Inicialitzar ────────────────────────────────────────────────────────
-  construeixLlistat();
-  if (grupPer === 'any' || grupPer === 'districte' || grupPer === 'zona') {
-    construeixDescripcioAccordio();
-
-    // Injecta el llistat dinàmic (#llistat) dins l'acordió amb títol "Llistat"
-    var listatEl = document.getElementById('llistat');
-    if (listatEl) {
-      var descGrups = document.querySelectorAll('.publicacio-descripcio .llistat-grup');
-      var listatGrup = null;
-      descGrups.forEach(function (g) {
-        var title = g.querySelector('.llistat-grup-any');
-        if (title && /llistat/i.test(title.textContent.trim())) listatGrup = g;
-      });
-      if (listatGrup) {
-        var listatCos = listatGrup.querySelector('.llistat-grup-elements');
-        if (listatCos) {
-          listatEl.removeAttribute('aria-hidden');
-
-          if (grupPer === 'zona' && llistatGrups) {
-            // Mode zona: cada llista sota el text del seu encapçalament
-            injectaZonesSotaEncapcalaments(listatCos, listatEl);
-          } else {
-            // Resta de modes: tot el bloc al final (comportament anterior)
-            listatCos.appendChild(listatEl);
-          }
-        }
-      }
-    }
-
-    // La primera secció de la descripció es mostra expandida per defecte
-    var primerGrupDesc = document.querySelector('.publicacio-descripcio .llistat-grup');
-    if (primerGrupDesc) {
-      var primerBtn = primerGrupDesc.querySelector('.llistat-grup-capsalera');
-      var primerCos = primerGrupDesc.querySelector('.llistat-grup-elements');
-      primerBtn.setAttribute('aria-expanded', 'true');
-      primerGrupDesc.classList.add('obert');
-      if (primerCos) primerCos.style.maxHeight = '9999px';
-    }
-  }
-})();

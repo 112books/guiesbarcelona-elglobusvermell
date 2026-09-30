@@ -661,6 +661,16 @@ main {
 }
 .filtre-btn-info:hover { background: var(--pub-color, #888); color: #fff; }
 
+.tema-info-wrap { margin-top: 0.6rem; }
+.tema-info {
+  margin-top: 0.5rem;
+  padding: 0.8rem 0.95rem;
+  border-left: 3px solid var(--pub-color, #888);
+  background: var(--color-bg-subtle, #f8f9fa);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
 /* ── Fitxa d'edifici ──────────────────────────────────────────────────────── */
 
 .fitxa {
@@ -1998,24 +2008,3 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1.3;
-}
-
-.pa-guia-card-count {
-  margin: 0;
-  font-size: 0.6875rem;
-  color: var(--color-muted);
-}
-
-/* Arquitecte destacat */
-.pa-arq-dest-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.pa-arq-etiqueta {
-  margin: 0;
-  font-size: 0.8125rem;
-  color: var(--color-muted);
-  text-transform: uppercase;
