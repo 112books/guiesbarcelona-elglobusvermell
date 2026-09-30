@@ -20,6 +20,8 @@ Llegenda: ⏳ Pendent resposta | ✅ Resolt | 💡 Proposta LinuxBCN
 - ⏳ Separar arquitectes combinats: ho fem nosaltres o ho revisa Xavi?
 - ⏳ Llicència del peu de pàgina: © o Creative Commons?
 - ⏳ Contrasenya admin backoffice
+- ⏳ **T06 — Bloc "Publicacions" al mapa** — Xavi demana eliminar el llistat d'elements i l'abecedari i deixar només el cercador. Confirmar si també vol treure el bloc "Publicacions" (és la manera d'activar/desactivar els elements del mapa). Assumpció actual de LinuxBCN: mantenir-lo.
+- ⏳ **T07 — "Suggerir un canvi"** — El feedback diu "Eliminar bloc 'Suggerir un canvi'": confirmar si s'ha d'eliminar del tot o només treure de la Presentació (ara s'ha tret de Presentació i es manté a /contacte/).
 
 ---
 

@@ -6,6 +6,8 @@
 - [Tasques pendents](project_tasques_pendents.md) — Títol home (pendent client), llicència, imatges, GoatCounter, OAuth, geocodificació, accessibilitat
 - [Diari del projecte](diary/) — Sessions de treball amb durades estimades. Invocar amb /documenta al final de cada sessió.
 - [Sense emojis](feedback_no_emojis.md) — L'usuari no vol emojis en cap context, mai.
+- [Fonts Xavi](fonts-xavi/README.md) — Correus originals de Xavi, literalment, com a font de veritat per citar cada tasca
+- [Diagnosi CMS 2026-09-30](../canvis/CMS-diagnosi-2026-09-30.md) — El CMS funciona; el primer carregament de les 660 fitxes és lent
 
 ## INICI DE SESSIÓ — llegeix sempre primer
 

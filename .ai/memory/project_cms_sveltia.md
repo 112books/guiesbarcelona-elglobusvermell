@@ -30,5 +30,14 @@ Script: `scripts/toml-to-yaml.py`
 
 **How to apply:** Quan el Globus Vermell demani accés per editar, recordar que cal:
 1. Convidar el seu compte GitHub al repo (rol Write)
-2. Fer-los crear un PAT fine-grained (Contents R/W + Metadata R)
-3. Enviar-los la URL: `.../admin-editor/`
+2. Fer-los crear un **PAT clàssic** de GitHub amb permís `public_repo` (el fine-grained NO funciona per a convidats d'aquest repo; vegeu el mail rectificatiu de l'1 set)
+3. Enviar-los la URL: `.../admin/cms/`
+
+---
+
+## Actualització 2026-09-30
+
+- Editor master: `/admin/cms/` · Editor administrador: `/admin/cms-admin/`. L'antic `/admin-editor/` ja no s'usa.
+- Autenticació Fase 0: PAT clàssic (vegeu més amunt).
+- Versió de Sveltia servida: **0.224.0** (CDN sense fixar).
+- **Diagnosi del 30 set**: el CMS funciona; el que passa és que el **primer carregament és lent** (660 fitxes d'elements + 197 d'arquitectes + assets). Els carregaments següents van amb la memòria cau (IndexedDB). Detall a `.ai/canvis/CMS-diagnosi-2026-09-30.md`.
