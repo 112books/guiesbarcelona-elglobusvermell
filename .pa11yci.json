@@ -17,6 +17,11 @@
     "http://localhost:1313/guiesbarcelona-elglobusvermell/presentacio/",
     "http://localhost:1313/guiesbarcelona-elglobusvermell/en-paper/",
     "http://localhost:1313/guiesbarcelona-elglobusvermell/accessibilitat/",
-    "http://localhost:1313/guiesbarcelona-elglobusvermell/404.html"
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/404.html",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/temes/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/temes/espai-public/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/temes/art-public/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/temes/dones-arquitectes/",
+    "http://localhost:1313/guiesbarcelona-elglobusvermell/temes/nomenclator-femeni/"
   ]
 }
