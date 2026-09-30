@@ -117,10 +117,90 @@
     }
     .cms-help-btn:hover { background: #a01818; }
     .cms-help-btn title { display: none; }
+    .cms-cache-btn {
+      position: fixed;
+      bottom: 1.25rem;
+      left: 1.25rem;
+      z-index: 9999;
+      background: #fff;
+      color: #555;
+      border: 1px solid #d8d8d2;
+      padding: 0.5rem 0.85rem;
+      border-radius: 2rem;
+      font: inherit;
+      font-size: 0.78rem;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+      font-family: system-ui, sans-serif;
+    }
+    .cms-cache-btn:hover { color: #111; border-color: #999; }
+    .cms-cache-btn:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
   </style>
   <a href="../../admin/guia/" target="_blank" rel="noopener"
      class="cms-help-btn" aria-label="Guia de l'editor">?</a>
-  <script src="https://unpkg.com/@sveltia/cms@0.224.0/dist/sveltia-cms.js"></script>
+  <button type="button" id="cms-cache-btn" class="cms-cache-btn"
+          title="Esborra les dades del CMS que guarda el navegador i recarrega">Neteja la memòria cau</button>
+
+  <script>
+    // Memòria cau del navegador (IndexedDB/CacheStorage) — vegeu
+    // .ai/canvis/CMS-diagnosi-2026-09-30.md. En canviar CMS_CACHE_VERSION,
+    // el CMS es neteja i es recarrega sol un cop, per no arrossegar estats vells
+    // (típicament quan una versió antiga queda encallada a Safari).
+    var CMS_CACHE_VERSION = '2026-10-01-1';
+
+    async function netejaMemoriaCau() {
+      try {
+        if (window.indexedDB && indexedDB.databases) {
+          var dbs = await indexedDB.databases();
+          await Promise.all(dbs.map(function (d) {
+            return new Promise(function (res) {
+              if (!d || !d.name) { res(); return; }
+              var req = indexedDB.deleteDatabase(d.name);
+              req.onsuccess = req.onerror = req.onblocked = function () { res(); };
+            });
+          }));
+        }
+      } catch (e) {}
+      try {
+        if (window.caches && caches.keys) {
+          var ks = await caches.keys();
+          await Promise.all(ks.map(function (k) { return caches.delete(k); }));
+        }
+      } catch (e) {}
+      try {
+        if (navigator.serviceWorker && navigator.serviceWorker.getRegistrations) {
+          var regs = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(regs.map(function (r) { return r.unregister(); }));
+        }
+      } catch (e) {}
+    }
+
+    function carregaSveltia() {
+      var s = document.createElement('script');
+      s.src = 'https://unpkg.com/@sveltia/cms@0.224.0/dist/sveltia-cms.js';
+      s.setAttribute('data-cfasync', 'false');
+      document.head.appendChild(s);
+    }
+
+    (async function () {
+      var calNetejar = false;
+      try { calNetejar = localStorage.getItem('cms-cache-version') !== CMS_CACHE_VERSION; } catch (e) {}
+      if (calNetejar) {
+        await netejaMemoriaCau();
+        var desat = false;
+        try { localStorage.setItem('cms-cache-version', CMS_CACHE_VERSION); desat = true; } catch (e) {}
+        if (desat) { location.reload(); return; }
+      }
+      carregaSveltia();
+    })();
+
+    document.getElementById('cms-cache-btn').addEventListener('click', async function () {
+      if (!window.confirm('Esborrar les dades del CMS que guarda el navegador i recarregar? El token no es perdrà.')) return;
+      await netejaMemoriaCau();
+      try { localStorage.setItem('cms-cache-version', CMS_CACHE_VERSION); } catch (e) {}
+      location.reload();
+    });
+  </script>
   <script>
     var injected = false;
     var observer = new MutationObserver(function () {

@@ -46,3 +46,12 @@ Lectura:
 - El primer missatge és correcte: `/admin/cms/` és l'editor d'edició (create: false). Per crear entrades noves cal `/admin/cms-admin/`.
 - «No s'ha trobat cap entrada» pot ser (a) que el llistat encara s'està carregant (primer carregament lent) o (b) que hi ha un filtre o agrupació de la vista seleccionat que no té coincidències (botons «Filtra» i «Agrupa»).
 - Què comprovar: esperar que acabi el carregament i, si continua, obrir «Filtra» i «Agrupa» i triar l'opció sense filtre; si tampoc, esborrar les dades del lloc al navegador (IndexedDB/sessionStorage) i tornar a entrar.
+
+## Mesures aplicades (2026-09-30, vespre)
+
+Perquè el CMS no depengui d'un estat de memòria cau vell (el cas reportat a Safari):
+
+1. **Botó «Neteja la memòria cau»** a `static/admin/cms/index.html`: esborra IndexedDB i CacheStorage i recarrega. **No toca el token** (localStorage), així que no cal tornar-lo a introduir.
+2. **Reinici automàtic de memòria cau** en canviar la constant `CMS_CACHE_VERSION` de la mateixa pàgina: la primera visita després d'un canvi neteja i recarrega un cop; la resta de visites no fan res.
+3. **Càrrega de Sveltia dinàmica**: el script del CDN s'injecta després de la comprovació de memòria cau, perquè no quedi mai servit des d'un estat vell. S'hi afegeix `data-cfasync="false"` (evita el Rocket Loader de Cloudflare, si algun dia hi és).
+4. **`thumbnail: false`** a la col·lecció d'elements de `config.yml`: el llistat de les 660 fitxes ja no baixa les miniatures al primer carregament.

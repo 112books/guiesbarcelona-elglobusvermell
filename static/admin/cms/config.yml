@@ -51,6 +51,8 @@ collections:
     slug: "{{slug}}"
     sortable_fields: [title, any, adreca]
     summary: "{{title}}"
+    # Allleugereix el primer carregament: no baixa la miniatura de les 660 fitxes.
+    thumbnail: false
     view_groups:
       - label: "GATCPAC · 1928-1939"
         field: publicacions
