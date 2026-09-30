@@ -2,6 +2,8 @@
 
 Font: correu directe Xavi → Joan. Primer lot de feedback consolidat de l'equip.
 
+**Resposta a l'eina de revisió (30/9/2026):** `.ai/RESPOSTES-XAVI-2026-09-30.md` (font literal a `.ai/fonts-xavi/2026-09-30-xavi-resposta-revisio.md`).
+
 ---
 
 ## Meta — reflexió sobre el flux de treball

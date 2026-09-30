@@ -20,8 +20,21 @@ Llegenda: ⏳ Pendent resposta | ✅ Resolt | 💡 Proposta LinuxBCN
 - ⏳ Separar arquitectes combinats: ho fem nosaltres o ho revisa Xavi?
 - ⏳ Llicència del peu de pàgina: © o Creative Commons?
 - ⏳ Contrasenya admin backoffice
-- ⏳ **T06 — Bloc "Publicacions" al mapa** — Xavi demana eliminar el llistat d'elements i l'abecedari i deixar només el cercador. Confirmar si també vol treure el bloc "Publicacions" (és la manera d'activar/desactivar els elements del mapa). Assumpció actual de LinuxBCN: mantenir-lo.
-- ⏳ **T07 — "Suggerir un canvi"** — El feedback diu "Eliminar bloc 'Suggerir un canvi'": confirmar si s'ha d'eliminar del tot o només treure de la Presentació (ara s'ha tret de Presentació i es manté a /contacte/).
+- Pendent — **Filtre de temes** — Xavi proposa valorar un filtre de temes (Èpoques, Arquitectura temàtica, Barris, Art) com el d'«En paper», potser també al mapa, però no n'està segur. Cal concretar-ne l'abast.
+- Pendent — **Filtre del mapa (bug)** — En seleccionar una guia no canvia res visualment. Cal acordar què ha de fer: atenuar, amagar, ressaltar d'una altra manera, o fer zoom/llistat. Veure `.ai/RESPOSTES-XAVI-2026-09-30.md` secció 4.
+- Pendent — **M5 temes transversals** — Confirmar que volen pàgina pròpia amb el seu mapa (en lloc del botó (i)).
+- Pendent — **Carrusel d'«En paper» a escriptori** — Amagar la barra de desplaçament, arrossegar amb el cursor i portades una mica més grans.
+- Pendent — **F6 fotos en blanc i negre** — Consens d'equip; possibilitat de color parcial (patrimoni industrial) i la resta B/N.
+- Pendent — **P7 splash mòbil** — Mostrar el logo i allargar una mica l'instant.
+- Pendent — **ENQ-lectura** — Alinear el botó a la dreta com a les fitxes i revisar la veu.
+- Pendent — **PR1 anys de les xifres** — Revisar 1400-2026 vs s. XIV-2026, lligat a arreglar les fitxes.
+- Pendent — **G1 amplada de columna** — Preparar una prova amb 2-3 amplades.
+- Pendent — **Icones mòbil** — La icona de mapa passa a «En paper»; el mapa estrena pin clàssic.
+- Pendent — **GR1/GR2 paleta definitiva** — Xavi l'enviarà.
+- Pendent — **M3 pins multicolor** — Sí, meitat/meitat o pastís de 3 colors; depèn de la paleta.
+- Pendent — **T07 formulari únic** — Valorar un sol formulari a Contacte per a tot.
+- Pendent — **Cercador general** — Decidir si cal un cercador general a tot el web o només el d'elements.
+- Pendent — **Decisions encara sense resposta** — autoria de fotos, separació d'arquitectes combinats, distribució de guies a la portada (6·6·1 vs 5·5·3), mapa en grays i tipografia (GR3). Detall a `.ai/RESPOSTES-XAVI-2026-09-30.md` secció 3.
 
 ---
 
@@ -47,3 +60,5 @@ de recursos educatius. Vegeu `.ai/HOME-ALTERNATIVA.md` per al pla complet.
 
 ## Resolt
 - ✅ "Filtrar per publicacions" al mapa: tots atenuats a l'inici, ressaltar en marcar
+- ✅ **T06 — Bloc "Publicacions" al mapa**: Xavi confirma mantenir-lo (resposta a l'eina de revisió, 30/9).
+- ✅ **T07 — "Suggerir un canvi"**: Xavi confirma mantenir-lo només fora de Presentació, a Contacte, amb un únic formulari per a tot (30/9).

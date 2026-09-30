@@ -384,6 +384,53 @@ Respostes arxivades a `.ai/RESPOSTES-XAVI-2026-08-17.md`
 
 ---
 
+## Resposta Xavi — eina de revisió (2026-09-30)
+
+Detall complet: `.ai/RESPOSTES-XAVI-2026-09-30.md` · font literal: `.ai/fonts-xavi/2026-09-30-xavi-resposta-revisio.md`. Respostes a l'eina `/admin/revisio/`: 6 decisions respostes, 3 canvis verificats OK, 9 amb comentaris; 6 decisions sense resposta.
+
+### Decisions confirmades
+- ✅ M6/T06: **mantenir** el bloc «Publicacions» al mapa. Volen valorar un filtre de temes (Èpoques, Arquitectura temàtica, Barris, Art), sense seguretat.
+- ✅ PR4/T07: «Suggerir un canvi» només fora de Presentació; es manté a Contacte amb un únic formulari per a tot.
+- ✅ M3: pins multicolor **sí** (meitat/meitat o pastís de 3 colors).
+- ✅ EP3: carrusel **infinit**. A escriptori: amagar scrollbar, arrossegar amb cursor, portades més grans.
+- ✅ GR1/GR2: ens passaran la **paleta definitiva** per plànol.
+- ✅ G1: preparar una **prova amb 2-3 amplades** de columna.
+
+### Verificat i OK
+- ✅ T04/M1 (zoom), T08/A2 (llistat arquitecte), FU1 (CMS). G1 alineació logo/menú: «Ens agrada!».
+
+### Amb comentaris — cal acció
+- M5: pàgina pròpia per als temes transversals amb el seu mapa.
+- F6: blanc i negre sense consens; explorar color parcial (patrimoni industrial).
+- P7: splash mòbil sense logo; una mica més llarg.
+- ENQ-lectura: alinear el botó a la dreta com a les fitxes; revisar la veu.
+- PR1: revisar els anys (1400-2026 vs s. XIV-2026).
+- T01-T03: icones mòbil (mapa→«En paper», pin clàssic per al mapa).
+- T05/M4: el filtre del mapa no fa res visualment. **Bug confirmat** a `mapa.js:328` (`OPACITAT_ATENUADA = OPACITAT_RESSALTADA`). Cal aclarir amb Xavi el comportament.
+
+### Tasques noves (prefix R) — pendents d'implementació
+- ⏳ **R1.** Filtre del mapa: corregir la regressió de T05 i acordar el comportament en seleccionar una guia.
+- ⏳ **R2.** M5: pàgina pròpia dels temes transversals amb el seu mapa.
+- ⏳ **R3.** M3: pins multicolor (depèn de R13).
+- ⏳ **R4.** EP3: carrusel infinit + millores d'escriptori.
+- ⏳ **R5.** F6: color parcial a les fotos i consens d'equip.
+- ⏳ **R6.** P7: splash mòbil amb logo i més durada.
+- ⏳ **R7.** ENQ-lectura: alineació a la dreta i veu.
+- ⏳ **R8.** PR1: anys de les xifres.
+- ⏳ **R9.** G1: prova d'amplades de columna.
+- ⏳ **R10.** Icones mòbil.
+- ⏳ **R11.** T07: un sol formulari a Contacte.
+- ⏳ **R12.** Filtre de temes (en paper/mapa) — valorar.
+- ⏳ **R13.** Aplicar la paleta definitiva — espera Xavi.
+
+### Preguntes encara sense resposta
+- Cercador general (NOU), autoria de fotos, separació d'arquitectes combinats, distribució de guies a la portada (6·6·1 vs 5·5·3), mapa en grays (M2), tipografia (GR3).
+
+### Canvis no verificats per Xavi
+- Cercador del mapa (M6), En paper (EP1-EP8), P6 navegació per blocs, T06 abecedari, T09 portada.
+
+---
+
 ## Pendents client (preguntes per Xavi / Jorge)
 
 - 🔴 Jorge: dades d'accés al servidor actual
