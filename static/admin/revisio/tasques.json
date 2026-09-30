@@ -20,7 +20,8 @@
           "detall": "Una pàgina /cerca/ amb el llistat alfabètic desplegat i tots els camps de cerca; els resultats es mostren allà."
         }
       ],
-      "recomanacio": "A"
+      "recomanacio": "A",
+      "ref": "M6"
     },
     {
       "id": "cercador-general",
@@ -45,7 +46,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "",
+      "ref": "NOU"
     },
     {
       "id": "t06-publicacions",
@@ -66,7 +68,8 @@
           "detall": "El mapa mostraria sempre tots els elements."
         }
       ],
-      "recomanacio": "mantenir"
+      "recomanacio": "mantenir",
+      "ref": "M6"
     },
     {
       "id": "t07-suggerir",
@@ -86,7 +89,8 @@
           "detall": "Cap pàgina tindria el bloc."
         }
       ],
-      "recomanacio": "contacte"
+      "recomanacio": "contacte",
+      "ref": "PR4"
     },
     {
       "id": "autoria-fotos",
@@ -106,7 +110,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "",
+      "ref": "ENQ-autoria"
     },
     {
       "id": "locucions",
@@ -126,7 +131,8 @@
           "detall": "Veu neutra de qualitat; requereix servidor i ja està pressupostada."
         }
       ],
-      "recomanacio": "A"
+      "recomanacio": "A",
+      "ref": "ENQ-lectura"
     },
     {
       "id": "arquitectes-combinats",
@@ -146,7 +152,8 @@
           "detall": "Amb tots els combinats i el format proposat, per anar-los revisant."
         }
       ],
-      "recomanacio": "ajuda"
+      "recomanacio": "ajuda",
+      "ref": "PREG-arquitectes"
     },
     {
       "id": "en-paper",
@@ -166,7 +173,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "",
+      "ref": "EP1-EP8"
     }
   ],
   "canvis": [
@@ -174,55 +182,64 @@
       "id": "xifres",
       "titol": "Xifres del projecte — portada i Presentació",
       "cita": "A la presentació i a la portada, on apareix el projecte en xifres, hauria d'aparèixer el mateix als dos llocs.",
-      "resultat": "Problema: cada lloc calculava les xifres pel seu compte i donaven valors diferents (portada: 659 elements, 13 guies, 274 arquitectes, 1928–2026; Presentació: 660 punts, 13 mapes, 274 arquitectes i «98 anys»). Solució: totes dues beuen ara d'una única font de dades i mostren els mateixos valors i les mateixes etiquetes (659 · 13 · 274 · 1928–2026)."
+      "resultat": "Problema: cada lloc calculava les xifres pel seu compte i donaven valors diferents (portada: 659 elements, 13 guies, 274 arquitectes, 1928–2026; Presentació: 660 punts, 13 mapes, 274 arquitectes i «98 anys»). Solució: totes dues beuen ara d'una única font de dades i mostren els mateixos valors i les mateixes etiquetes (659 · 13 · 274 · 1928–2026).",
+      "ref": "PR1"
     },
     {
       "id": "t01-t03",
       "titol": "T01–T03 — Terminologia, ordre de menú i menú sempre text",
       "cita": "No hem de dir \"edificis\" sinó \"elements\". Hi ha edificis, espai públic i obres d'art. A la web no ens agrada que el menú es converteixi en icones quan fas scroll. Preferim que sigui sempre text. L'ordre del menú hauria de ser: Presentació, Mapa, En paper, Arquitectes, Contacte",
-      "resultat": "«edificis» → «elements»; ordre del menú Presentació · Mapa · En paper · Arquitectes · Contacte; el menú fa servir sempre text."
+      "resultat": "«edificis» → «elements»; ordre del menú Presentació · Mapa · En paper · Arquitectes · Contacte; el menú fa servir sempre text.",
+      "ref": "G2·G3·F7"
     },
     {
       "id": "t04",
       "titol": "T04 — Zoom inicial del mapa",
       "cita": "Ens agradaria que el mapa inicial aparegués amb una mica més de zoom, ara està una mica massa allunyat.",
-      "resultat": "El mapa s'ajusta a tots els elements sense marge. El zoom ja no s'enteritza i guanyem escriptori (×1,69)."
+      "resultat": "El mapa s'ajusta a tots els elements sense marge. El zoom ja no s'enteritza i guanyem escriptori (×1,69).",
+      "ref": "M1"
     },
     {
       "id": "t05",
       "titol": "T05 — Sense difuminat en seleccionar un plànol",
       "cita": "Preferim que quan selecciones un plànol guia no quedin la resta d'elements difuminats.",
-      "resultat": "En triar un plànol, la resta d'elements del mapa ja no es difuminen."
+      "resultat": "En triar un plànol, la resta d'elements del mapa ja no es difuminen.",
+      "ref": "M4"
     },
     {
       "id": "t06",
       "titol": "T06 — Abecedari i llistat del mapa eliminats",
       "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
-      "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es manté el cercador i el bloc «Publicacions»."
+      "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es manté el cercador i el bloc «Publicacions».",
+      "ref": "M6"
     },
     {
       "id": "t07",
       "titol": "T07 — «Suggerir una correcció» fora de Presentació",
       "cita": "Suggerir un canvi no hauria de ser en aquest apartat.",
-      "resultat": "El bloc s'ha tret de Presentació i es manté a /contacte/."
+      "resultat": "El bloc s'ha tret de Presentació i es manté a /contacte/.",
+      "ref": "PR4"
     },
     {
       "id": "t08",
       "titol": "T08 — Llistat de la pàgina d'arquitecte en mode pla",
       "cita": "Al llistat d'elements de l'arquitecte, no ens agrada que surti l'etiqueta de l'any, i clicar... massa clics. Pot aparèixer el llistat i ja està?",
-      "resultat": "Llistat pla, sense etiqueta d'any ni acords. Contrast WCAG AA corregit."
+      "resultat": "Llistat pla, sense etiqueta d'any ni acords. Contrast WCAG AA corregit.",
+      "ref": "A2"
     },
     {
       "id": "t09",
       "titol": "T09 — Portada sense destacats ni recursos educatius",
       "cita": "Per tant, traiem: guia destacada, arquitecte destacat, recursos educatius",
-      "resultat": "Fora la guia destacada, l'arquitecte destacat i els recursos educatius de la portada."
+      "resultat": "Fora la guia destacada, l'arquitecte destacat i els recursos educatius de la portada.",
+      "ref": "P5"
     },
     {
       "id": "cms",
       "titol": "CMS — On i com crear fitxes noves",
       "cita": "No he trobat com crear nous plànols o noves fitxes. És molt important que ho puguem fer.",
-      "resultat": "Per editar: /admin/cms/. Per crear fitxes noves: /admin/cms-admin/."
+      "resultat": "Per editar: /admin/cms/. Per crear fitxes noves: /admin/cms-admin/.",
+      "ref": "FU1"
     }
   ],
   "decisions_nostres": [
@@ -230,25 +247,29 @@
       "id": "domini-produccio",
       "titol": "No migrem el domini de producció fins que la web estigui enllestida",
       "decisio": "El domini guiesbarcelona.elglobusvermell.org continua apuntant al WordPress actual fins que el desenvolupament estigui totalment validat. Mentrestant, tot es revisa a GitHub Pages.",
-      "motiu": "Decisió de Joan, confirmada el 30 de setembre."
+      "motiu": "Decisió de Joan, confirmada el 30 de setembre.",
+      "ref": "NOS-1"
     },
     {
       "id": "proces-cita-literal",
       "titol": "Cada canvi es contrasta amb el text literal del correu",
       "decisio": "Abans d'implementar res, es cita el text exacte de la petició i, davant de qualsevol dubte, es pregunta.",
-      "motiu": "Procés acordat el 30 de setembre arran del teu feedback."
+      "motiu": "Procés acordat el 30 de setembre arran del teu feedback.",
+      "ref": "NOS-2"
     },
     {
       "id": "registre-canvis",
       "titol": "Els canvis de fitxes queden registrats",
       "decisio": "Tota alta, baixa o modificació de punts del mapa es registra amb data i aprovació al registre de canvis.",
-      "motiu": "Governança del projecte."
+      "motiu": "Governança del projecte.",
+      "ref": "NOS-3"
     },
     {
       "id": "canal-revisio",
       "titol": "Aquest tauler passa a ser el canal de validació",
       "decisio": "Els canvis fets i els dubtes es revisen aquí; les respostes arriben a Joan per correu.",
-      "motiu": "Per agilitzar i no perdre fils entre mails."
+      "motiu": "Per agilitzar i no perdre fils entre mails.",
+      "ref": "NOS-4"
     }
   ]
 }

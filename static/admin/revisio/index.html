@@ -31,6 +31,7 @@
     .r-posicio { border: 1px solid #cfe0d3; background: #f1f7f2; padding: 0.6rem 0.75rem; margin: 0.6rem 0; font-size: 0.9rem; }
     .r-posicio strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.2rem; }
     .r-badge.nostre { color: #1a5fb4; }
+    .r-ref { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.15rem 0.45rem; background: var(--soft); border: 1px solid var(--border); color: var(--ink2); }
     h2.r-sec { font-size: 1.05rem; margin: 2rem 0 0.9rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--ink); }
     .r-item { background: var(--surface); border: 1px solid var(--border); padding: 1.1rem 1.15rem; margin-bottom: 1rem; }
     .r-item-head { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
@@ -159,6 +160,7 @@
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge decisio"; badge.textContent = "Decisió";
       head.appendChild(badge);
+      if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
@@ -183,6 +185,7 @@
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge canvi"; badge.textContent = "Canvi fet";
       head.appendChild(badge);
+      if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
@@ -202,6 +205,7 @@
       var head = document.createElement("div"); head.className = "r-item-head";
       var badge = document.createElement("span"); badge.className = "r-badge nostre"; badge.textContent = "Decisió nostra";
       head.appendChild(badge);
+      if (item.ref) { var rf = document.createElement("span"); rf.className = "r-ref"; rf.textContent = item.ref; head.appendChild(rf); }
       art.appendChild(head);
       var h3 = document.createElement("h3"); h3.className = "r-title"; h3.textContent = item.titol; art.appendChild(h3);
       if (item.decisio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.decisio; art.appendChild(d); }
@@ -233,7 +237,7 @@
         var it = DADES.decisions[i];
         var op = valor(it.id, "opcio"), com = valor(it.id, "comentari");
         if (!op && !com) continue;
-        linies.push("- " + it.titol);
+        linies.push("- " + (it.ref ? "[" + it.ref + "] " : "") + it.titol);
         linies.push("  Opció: " + (op ? etiquetaOpcio(it, op) : "(sense triar)"));
         if (com) linies.push("  Comentari: " + com);
       }
@@ -243,7 +247,7 @@
         var c = DADES.canvis[j];
         var cop = valor(c.id, "opcio"), ccom = valor(c.id, "comentari");
         if (!cop && !ccom) continue;
-        linies.push("- " + c.titol + " — " + (cop === "ok" ? "D'acord" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)"));
+        linies.push("- " + (c.ref ? "[" + c.ref + "] " : "") + c.titol + " — " + (cop === "ok" ? "D'acord" : cop === "comentari" ? "Amb comentaris" : "(sense valorar)"));
         if (ccom) linies.push("  Comentari: " + ccom);
       }
       linies.push("");
@@ -253,7 +257,7 @@
         var nn = nostresResum[k2];
         var ncom = valor(nn.id, "comentari");
         if (!ncom) continue;
-        linies.push("- " + nn.titol);
+        linies.push("- " + (nn.ref ? "[" + nn.ref + "] " : "") + nn.titol);
         linies.push("  Comentari: " + ncom);
       }
       if (DADES.decisions.length + DADES.canvis.length === 0) linies.push("(cap resposta)");
