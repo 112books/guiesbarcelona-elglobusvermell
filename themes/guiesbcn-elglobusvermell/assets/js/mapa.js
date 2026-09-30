@@ -318,7 +318,7 @@
     var OPACITAT_RESSALTADA = tema === 'b' ? { opacity: 0, fillOpacity: 0.92 }
                             : tema === 'c' ? { opacity: 1, fillOpacity: 0.9 }
                                            : { opacity: 1, fillOpacity: 0.85 };
-    var OPACITAT_ATENUADA   = { opacity: 0.12, fillOpacity: 0.12 };
+    var OPACITAT_ATENUADA   = OPACITAT_RESSALTADA;
 
     function setOpacity(markerGroup, opacity) {
       markerGroup.eachLayer(function (layer) {
