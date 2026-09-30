@@ -23,7 +23,7 @@
         {{ else if fileExists (printf "static/img/publicacions/%s.jpg" .slug) }}{{ $img = printf "img/publicacions/%s.jpg" .slug }}
         {{ else if fileExists (printf "static/img/publicacions/%s.png" .slug) }}{{ $img = printf "img/publicacions/%s.png" .slug }}{{ end }}
         <button type="button" class="en-paper-carroussel-item" data-slug="{{ .slug }}" data-temes="{{ delimit .agrupacions_tematiques " " }}" aria-label="Anar al plànol: {{ .titol }}">
-          {{ if $img }}<img src="{{ $img | relURL }}" alt="Portada: {{ .titol }}" loading="lazy" width="130">
+          {{ if $img }}<img src="{{ $img | relURL }}" alt="Portada: {{ .titol }}" loading="lazy" width="150">
           {{ else }}<span class="en-paper-carroussel-placeholder" style="background:{{ .color }}" aria-hidden="true"></span>{{ end }}
           <span class="en-paper-carroussel-titol">{{ .titol }}</span>
         </button>
@@ -61,8 +61,8 @@ window.ENPAPER_PLANS = {
 };
 (function () {
   var plans = window.ENPAPER_PLANS || {};
+  var track = document.querySelector('[data-carroussel]');
   var xips = Array.prototype.slice.call(document.querySelectorAll('.en-paper-xip'));
-  var items = Array.prototype.slice.call(document.querySelectorAll('.en-paper-carroussel-item'));
   var seccions = [];
   Array.prototype.forEach.call(document.querySelectorAll('.en-plan'), function (sec) {
     var a = sec.querySelector('a[data-slug]');
@@ -75,11 +75,13 @@ window.ENPAPER_PLANS = {
     sec.id = 'pla-' + slug;
     seccions.push(sec);
   });
+
   var sel = [];
+  function itemsActuals() { return track ? Array.prototype.slice.call(track.querySelectorAll('.en-paper-carroussel-item')) : []; }
   function aplica() {
     var actiu = sel.length > 0;
     function coincideix(t) { return !actiu || t.some(function (x) { return sel.indexOf(x) >= 0; }); }
-    items.forEach(function (it) { it.hidden = !coincideix((it.getAttribute('data-temes') || '').split(' ').filter(Boolean)); });
+    itemsActuals().forEach(function (it) { it.hidden = !coincideix((it.getAttribute('data-temes') || '').split(' ').filter(Boolean)); });
     seccions.forEach(function (sec) { sec.hidden = !coincideix((sec.getAttribute('data-temes') || '').split(' ').filter(Boolean)); });
     var visibles = seccions.filter(function (s) { return !s.hidden; }).length;
     var c = document.querySelector('[data-comptador]');
@@ -97,12 +99,58 @@ window.ENPAPER_PLANS = {
       aplica();
     });
   });
-  items.forEach(function (it) {
-    it.addEventListener('click', function () {
-      var sec = document.getElementById('pla-' + it.getAttribute('data-slug'));
-      if (sec) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+
+  if (!track) return;
+
+  // Clic: desplaça fins al plànol corresponent (delegat, perquè hi ha còpies).
+  track.addEventListener('click', function (e) {
+    var it = e.target.closest ? e.target.closest('.en-paper-carroussel-item') : null;
+    if (!it) return;
+    var sec = document.getElementById('pla-' + it.getAttribute('data-slug'));
+    if (sec) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
+
+  var originals = Array.prototype.slice.call(track.children);
+  if (originals.length > 1) {
+    // EP3/R4 — carrusel infinit: tres còpies i salt en arribar a un extrem.
+    originals.forEach(function (it) { var c = it.cloneNode(true); c.setAttribute('aria-hidden', 'true'); c.setAttribute('tabindex', '-1'); track.appendChild(c); });
+    originals.slice().reverse().forEach(function (it) { var c = it.cloneNode(true); c.setAttribute('aria-hidden', 'true'); c.setAttribute('tabindex', '-1'); track.insertBefore(c, track.firstChild); });
+    var ajustant = false;
+    function situaInici() { track.scrollLeft = track.scrollWidth / 3; }
+    function embolica() {
+      if (ajustant) return;
+      var setW = track.scrollWidth / 3;
+      if (setW <= 0) return;
+      if (track.scrollLeft < setW * 0.5 || track.scrollLeft > setW * 1.5) {
+        ajustant = true;
+        track.style.scrollSnapType = 'none';
+        track.scrollLeft = track.scrollLeft < setW * 0.5 ? track.scrollLeft + setW : track.scrollLeft - setW;
+        requestAnimationFrame(function () { track.style.scrollSnapType = ''; ajustant = false; });
+      }
+    }
+    track.addEventListener('scroll', embolica, { passive: true });
+    requestAnimationFrame(situaInici);
+
+    // R4 — arrossegar amb el cursor a escriptori.
+    var arrossegant = false, iniciX = 0, iniciScroll = 0, mogut = false;
+    track.addEventListener('pointerdown', function (e) {
+      if (e.pointerType === 'touch') return;
+      arrossegant = true; mogut = false; iniciX = e.clientX; iniciScroll = track.scrollLeft;
+      track.classList.add('is-arrossegant');
+      if (track.setPointerCapture) track.setPointerCapture(e.pointerId);
+    });
+    track.addEventListener('pointermove', function (e) {
+      if (!arrossegant) return;
+      var dx = e.clientX - iniciX;
+      if (Math.abs(dx) > 4) mogut = true;
+      track.scrollLeft = iniciScroll - dx;
+    });
+    function fiArrossegament() { arrossegant = false; track.classList.remove('is-arrossegant'); }
+    track.addEventListener('pointerup', fiArrossegament);
+    track.addEventListener('pointercancel', fiArrossegament);
+    track.addEventListener('pointerleave', fiArrossegament);
+    track.addEventListener('click', function (e) { if (mogut) { e.preventDefault(); e.stopPropagation(); mogut = false; } }, true);
+  }
 }());
 </script>
 {{ end }}

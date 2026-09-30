@@ -8,9 +8,9 @@
   --color-text:      #111111;
   --color-muted:     #555555;
   --color-border:    #e5e5e5;
-  /* TODO: color d'accent oficial d'El Globus Vermell encara per definir.
-     Placeholder provisional (vermell, pel nom de marca) fins que es triï. */
-  --color-accent:    #c81e1e;
+  /* Accent: el 30/9/2026 s'ha passat del vermell placeholder (#c81e1e) a
+     gris fosc, a petició de Xavi, a l'espera de la paleta definitiva. */
+  --color-accent:    #222222;
 
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                Helvetica, Arial, sans-serif;
@@ -843,13 +843,18 @@ main {
 .tts-btn:hover {
   color: var(--color-accent);
   border-color: var(--color-accent);
-  background: rgba(200, 30, 30, 0.04);
+  background: rgba(0, 0, 0, 0.04);
 }
 
 .tts-btn[aria-label*="Aturar"] {
   color: var(--color-accent);
   border-color: var(--color-accent);
 }
+
+/* R7 — el botó d'escoltar s'alinea a la dreta a «En paper» i als plànols. */
+.publicacio-cap { display: flex; flex-direction: column; }
+.publicacio-cap .tts-btn { align-self: flex-end; }
+.en-paper-cap .tts-btn { margin-left: auto; }
 
 .fitxa-pubs {
   display: flex;
@@ -1313,7 +1318,7 @@ main {
 .leaflet-popup-content a {
   display: block;
   font-weight: 600;
-  color: var(--color-accent, #c81e1e);
+  color: var(--color-accent, #222222);
   text-decoration: none;
 }
 .leaflet-popup-content a:hover { text-decoration: underline; }
@@ -2502,7 +2507,7 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-text, #111110);
+    background: var(--color-bg, #fff);
     transition: opacity 0.4s ease;
   }
   .splash-mobil img { height: 4rem; width: auto; }
@@ -2553,10 +2558,15 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   padding: 0.5rem 0 1rem;
   scroll-snap-type: x proximity;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
 }
+.en-paper-carroussel::-webkit-scrollbar { display: none; }
+.en-paper-carroussel.is-arrossegant { cursor: grabbing; }
 .en-paper-carroussel-item {
   flex: 0 0 auto;
-  width: 130px;
+  width: 150px;
   border: 0;
   background: none;
   padding: 0;
@@ -2567,8 +2577,8 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   scroll-snap-align: start;
 }
 .en-paper-carroussel-item:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
-.en-paper-carroussel-item img { display: block; width: 130px; height: auto; box-shadow: 0 1px 5px rgba(0,0,0,0.18); }
-.en-paper-carroussel-placeholder { display: block; width: 130px; height: 184px; }
+.en-paper-carroussel-item img { display: block; width: 150px; height: auto; box-shadow: 0 1px 5px rgba(0,0,0,0.18); }
+.en-paper-carroussel-placeholder { display: block; width: 150px; height: 212px; }
 .en-paper-carroussel-titol { display: block; font-size: 0.76rem; line-height: 1.25; margin-top: 0.4rem; color: var(--color-muted); }
 .en-paper-xips { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 .en-paper-xip {

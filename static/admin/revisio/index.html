@@ -30,6 +30,11 @@
     .r-cita strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); }
     .r-posicio { border: 1px solid #cfe0d3; background: #f1f7f2; padding: 0.6rem 0.75rem; margin: 0.6rem 0; font-size: 0.9rem; }
     .r-posicio strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.2rem; }
+    .r-resposta { border: 1px solid #e6d9b8; background: #fbf6ea; padding: 0.6rem 0.75rem; margin: 0.6rem 0; font-size: 0.9rem; }
+    .r-resposta strong { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--amber); margin-bottom: 0.2rem; }
+    .r-resposta p { margin: 0.25rem 0 0; }
+    .r-resp-cita { color: var(--ink2); font-style: italic; }
+    .r-resp-accio { font-weight: 600; }
     .r-badge.nostre { color: #1a5fb4; }
     .r-badge.tasca { color: #1a5fb4; }
     .r-enllacos { margin: 0 0 0.75rem; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.88rem; }
@@ -99,7 +104,7 @@
       </div>
     </details>
     <section aria-labelledby="sec-decisions">
-      <h2 class="r-sec" id="sec-decisions">Decisions pendents</h2>
+      <h2 class="r-sec" id="sec-decisions">Decisions — respostes i pendents</h2>
       <div id="r-decisions"></div>
     </section>
     <section aria-labelledby="sec-tasques">
@@ -179,6 +184,15 @@
       if (item.context) { var c = document.createElement("p"); c.className = "r-context"; c.textContent = item.context; art.appendChild(c); }
       if (item.descripcio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.descripcio; art.appendChild(d); }
       if (item.posicio) { var po = document.createElement("div"); po.className = "r-posicio"; var pt = document.createElement("strong"); pt.textContent = "La nostra posició"; po.appendChild(pt); var px = document.createElement("span"); px.textContent = item.posicio; po.appendChild(px); art.appendChild(po); }
+      if (item.resposta) {
+        var rp = document.createElement("div"); rp.className = "r-resposta";
+        var rt = document.createElement("strong"); rt.textContent = "Resposta de Xavi" + (item.resposta.data ? " (" + item.resposta.data + ")" : ""); rp.appendChild(rt);
+        if (item.resposta.opcio_xavi) { var ro = document.createElement("p"); ro.textContent = "Opció: " + item.resposta.opcio_xavi; rp.appendChild(ro); }
+        if (item.resposta.text) { var rx = document.createElement("p"); rx.className = "r-resp-cita"; rx.textContent = "«" + item.resposta.text + "»"; rp.appendChild(rx); }
+        if (item.resposta.nostra_accio) { var ra = document.createElement("p"); ra.className = "r-resp-accio"; ra.textContent = "Què hi fem: " + item.resposta.nostra_accio; rp.appendChild(ra); }
+        art.appendChild(rp);
+        return art;
+      }
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Tria una opció"; fs.appendChild(lg);
       for (var i = 0; i < item.opcions.length; i++) {
@@ -232,7 +246,7 @@
       var el = document.createElement("span");
       el.setAttribute("data-estat", item.id);
       if (tipus === "decisio") {
-        if (valor(item.id, "opcio")) { el.className = "r-estat respost"; el.textContent = "Respost"; }
+        if (item.resposta || valor(item.id, "opcio")) { el.className = "r-estat respost"; el.textContent = "Respost"; }
         else { el.className = "r-estat pendent"; el.textContent = "Pendent"; }
       } else if (tipus === "canvi") {
         if (valor(item.id, "opcio") === "verificat") { el.className = "r-estat verificat"; el.textContent = "Verificat i OK"; }
@@ -288,8 +302,10 @@
 
     function actualitzaComptador() {
       var fets = 0, total = 0;
-      total = DADES.decisions.length + DADES.canvis.length;
-      for (var i = 0; i < DADES.decisions.length; i++) if (valor(DADES.decisions[i].id, "opcio") || valor(DADES.decisions[i].id, "comentari")) fets++;
+      var decPend = 0;
+      for (var d = 0; d < DADES.decisions.length; d++) if (!DADES.decisions[d].resposta) decPend++;
+      total = decPend + DADES.canvis.length;
+      for (var i = 0; i < DADES.decisions.length; i++) if (!DADES.decisions[i].resposta && (valor(DADES.decisions[i].id, "opcio") || valor(DADES.decisions[i].id, "comentari"))) fets++;
       for (var j = 0; j < DADES.canvis.length; j++) if (valor(DADES.canvis[j].id, "opcio") || valor(DADES.canvis[j].id, "comentari")) fets++;
       document.getElementById("r-count").textContent = fets + " de " + total + " respostes";
     }

@@ -31,6 +31,12 @@
     },
     {
       "id": "t06-publicacions",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Mantenir-lo",
+        "text": "El volem conservar, seguríssim!",
+        "nostra_accio": "Es manté el bloc «Publicacions» al mapa. Tancat."
+      },
       "titol": "T06 — Traiem també el bloc «Publicacions» del mapa?",
       "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
       "context": "El bloc «Publicacions» és el que activa i desactiva els elements al mapa.",
@@ -54,6 +60,12 @@
     },
     {
       "id": "t07-suggerir",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Només fora de Presentació (es manté a Contacte)",
+        "text": "Es manté a contacte amb un únic formulari que serveix per tot.",
+        "nostra_accio": "Ja està així: tret de Presentació, present a /contacte/. Recollit com a tasca R11 (unificar el formulari)."
+      },
       "titol": "T07 — «Suggerir un canvi»: només fora de Presentació o del tot?",
       "cita": "Suggerir un canvi no hauria de ser en aquest apartat.",
       "context": "L'hem tret de la pàgina Presentació, però es manté a /contacte/.",
@@ -76,6 +88,12 @@
     },
     {
       "id": "autoria-fotos",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Web CC BY-SA; fotos CC BY-NC amb nota genèrica",
+        "text": "Creative Commons BY-NC ... nota genèrica a peu de pàgina ... i que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
+        "nostra_accio": "La llicència del web CC BY-SA ja és al peu. Pendent d'aplicar la nota genèrica de les fotos i el nom d'arxiu/meta (tasca nova)."
+      },
       "titol": "Autoria de les fotografies i llicència del peu",
       "cita": "Autoria de les fotografies: Podem posar una nota genèrica a peu de pàgina? ... Creative Commons BY-NC ... Llicència a peu de pàgina: Creative Commons BY-SA",
       "context": "Ens has dit: llicència del web CC BY-SA i autoria de les fotos CC BY-NC amb nota genèrica, amb el nom d'arxiu i el meta de la imatge.",
@@ -98,6 +116,12 @@
     },
     {
       "id": "arquitectes-combinats",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Ho farem manualment",
+        "text": "Ho farem manualment.",
+        "nostra_accio": "Els donem accés d'editor. Els oferim una llista de casos amb el format proposat per anar-los revisant (recomanat)."
+      },
       "titol": "Arquitectes combinats: qui els separa?",
       "cita": "Els 73 arquitectes que apareixen combinats ... — separem en individus o els deixem com estan? ... Ho farem manualment",
       "context": "Ens has dit que ho fareu manualment des de l'editor. Aquí la pregunta és com us ho posem fàcil per fer-ho.",
@@ -170,6 +194,12 @@
     },
     {
       "id": "m3-pins-multicolor",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Sí, meitat/meitat o pastís de 3 colors",
+        "text": "Sí, meitat/meitat o pastís de 3 colors.",
+        "nostra_accio": "Pendent d'implementar; necessita el color definitiu de cada plànol (GR1·GR2)."
+      },
       "ref": "M3",
       "estat": "pendent",
       "titol": "Pins multicolor per als elements de diversos plànols",
@@ -192,6 +222,12 @@
     },
     {
       "id": "ep3-carrusel-infinit",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Infinit",
+        "text": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
+        "nostra_accio": "A implementar: bucle infinit, sense barra a escriptori, arrossegament amb el cursor i portades més grans."
+      },
       "ref": "EP3",
       "estat": "pendent",
       "titol": "Carrusel de portades: infinit o amb final?",
@@ -215,6 +251,12 @@
     },
     {
       "id": "gr1-gr2-colors",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Us passarem la paleta definitiva per plànol",
+        "text": "Em poso com a tasca pendent enviar la paleta definitiva. Per cert, el filtre del mapa ja no funciona... cliques una guia i no canvia res.",
+        "nostra_accio": "Esperant la paleta. El canvi de vermell a negre/gris fosc el fem ja. El filtre del mapa és una regressió a part (R1) que es corregeix en aquesta mateixa revisió."
+      },
       "ref": "GR1 · GR2",
       "estat": "pendent",
       "titol": "Colors dels pins i les etiquetes, i el vermell del web",
@@ -266,6 +308,12 @@
     },
     {
       "id": "g1-columnes",
+      "resposta": {
+        "data": "2026-09-30",
+        "opcio_xavi": "Feu-nos una prova amb 2-3 amplades i triem",
+        "text": "",
+        "nostra_accio": "A preparar una prova amb 2-3 amplades de columna perquè trieu."
+      },
       "ref": "G1",
       "estat": "pendent",
       "titol": "Amplada de la columna de text",
@@ -285,6 +333,33 @@
         }
       ],
       "recomanacio": "prova"
+    },
+    {
+      "id": "r12-filtre-temes",
+      "ref": "R12",
+      "estat": "pendent",
+      "titol": "Filtre de temes (Èpoques, Arquitectura temàtica, Barris, Art)",
+      "cita": "A més, potser seria interessant que també hi hagués un filtre de temes com hi ha a \"en paper\". Etapes, Arquitectura temàtica, Barris, Art. Ens passa que encara no sabem on explicar aquests grans temes... Ni estem segurs de si seria interessant tenir aquest filtre.",
+      "context": "Els xips de tema ja existeixen a la pàgina «En paper» (EP4-EP5). Aquí la pregunta és si portem aquest mateix filtre al mapa.",
+      "descripcio": "Què en fem?",
+      "opcions": [
+        {
+          "id": "mapa",
+          "label": "Sí, filtre de temes també al mapa",
+          "detall": ""
+        },
+        {
+          "id": "en-paper",
+          "label": "Només a «En paper», com ara",
+          "detall": ""
+        },
+        {
+          "id": "mes-endavant",
+          "label": "Ho decidim més endavant",
+          "detall": ""
+        }
+      ],
+      "recomanacio": ""
     }
   ],
   "canvis": [
@@ -542,6 +617,96 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
         }
       ]
+    },
+    {
+      "id": "r1-filtre-mapa",
+      "ref": "R1",
+      "estat": "fet",
+      "titol": "Filtre del mapa: només es veuen els elements del plànol triat",
+      "cita": "Ara no funciona el filtre, si se selecciona una guia ni desapareixen la resta de punts ni es difuminen. La idea era que desapareguessin.",
+      "resultat": "Fet: en seleccionar un plànol (o un tema), només es veuen els seus punts; la resta desapareixen. Era una regressió del canvi T05, on l'opacitat atenuada s'havia igualat a la ressaltada.",
+      "posicio": "Hem seguit la teva indicació literal («la idea era que desapareguessin»): no difuminem, amaguem. Si preferiu un altre comportament, es canvia en una línia.",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
+    },
+    {
+      "id": "r4-carrusel",
+      "ref": "EP3 · R4",
+      "estat": "fet",
+      "titol": "Carrusel de portades: infinit i amb arrossegament",
+      "cita": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
+      "resultat": "Fet: el carrusel de «En paper» ara és infinit (després de l'últim torna el primer), a escriptori no mostra la barra de desplaçament i s'arrossega amb el cursor. Les portades són una mica més grans (de 130 a 150 px).",
+      "enllacos": [
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        }
+      ]
+    },
+    {
+      "id": "r6-splash-logo",
+      "ref": "P7 · R6",
+      "estat": "fet",
+      "titol": "Splash mòbil: es veu el logo",
+      "cita": "Apareix la pantalla un instant en negre, però sense el logo... L'instant podria ser un pelet més llarg, però tampoc massa. Em sembla bé que sigui un cop per sessió.",
+      "resultat": "Fet: el splash mòbil ara té fons clar, de manera que el logo es veu, i dura una mica més (1,6 s). Un cop per sessió.",
+      "enllacos": [
+        {
+          "label": "Portada (obre al mòbil)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
+    },
+    {
+      "id": "r7-veu-dreta",
+      "ref": "ENQ-lectura · R7",
+      "estat": "fet",
+      "titol": "Botó d'escoltar alineat a la dreta",
+      "cita": "El podem alinear a la dreta com a les fitxes? Ara sembla una mica despenjat...",
+      "resultat": "Fet: el botó d'escoltar s'alinea a la dreta tant a «En paper» com a cada pàgina de plànol.",
+      "enllacos": [
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        },
+        {
+          "label": "Un plànol",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/interiors-illa/"
+        }
+      ]
+    },
+    {
+      "id": "r10-icones-mobil",
+      "ref": "G2·G3·F7 · R10",
+      "estat": "fet",
+      "titol": "Icones mòbil: mapa → En paper; pin clàssic al mapa",
+      "cita": "La icona utilitzada per mapa creiem que s'hauria d'utilitzar a en paper... La icona per mapa podria ser un pin clàssic.",
+      "resultat": "Fet: al mòbil, la icona del mapa passa a «En paper» i el mapa estrena un pin clàssic.",
+      "enllacos": [
+        {
+          "label": "Portada (obre al mòbil)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
+    },
+    {
+      "id": "gr2-vermell",
+      "ref": "GR2",
+      "estat": "fet",
+      "titol": "El vermell del web passa a gris fosc",
+      "cita": "Allò que està en vermell ho preferim en negre o gris fosc.",
+      "resultat": "Fet: l'accent vermell (#c81e1e) passa a gris fosc (#222222) a tot el web. Queda pendent la paleta definitiva per plànol (R13) i el color dels pins multicolor (R3).",
+      "posicio": "El canvi és reversible i no afecta la identitat dels plànols, que tenen els seus colors propis. Quan arribi la paleta definitiva, l'apliquem sobre aquesta base.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
@@ -570,5 +735,62 @@
       "estat": "informacio"
     }
   ],
-  "tasques": []
+  "tasques": [
+    {
+      "id": "r2-temes-transversals",
+      "ref": "M5 · R2",
+      "titol": "Temes transversals: pàgina pròpia amb mapa",
+      "cita": "Preferim que tingui pàgina pròpia, com té cada un dels temes dels plànols-guia, amb el seu propi mapa.",
+      "context": "Ara cada tema transversal (Espai públic, Art públic, Dones arquitectes, Nomenclàtor femení) té un botó (i) que desplega la informació. Els textos ja recuperats de la web antiga són a .ai/fonts-xavi/2026-09-30-temes-transversals-info.md i a data/temes_transversals.yaml.",
+      "descripcio": "A fer: pàgina per tema amb el seu mapa, com els plànols-guia."
+    },
+    {
+      "id": "r8-anys-xifres",
+      "ref": "PR1 · R8",
+      "titol": "Anys de les xifres: 1400-2026 o s. XIV-2026",
+      "cita": "Hem de revisar els anys, però això vindrà d'introduir correctament la informació a les fitxes... també veure si podem posar 1400-2026 o s. XIV - 2026.",
+      "context": "Depèn de normalitzar les dades de les fitxes.",
+      "descripcio": "A valorar amb les dades corregides."
+    },
+    {
+      "id": "r9-amplades",
+      "ref": "G1 · R9",
+      "titol": "Prova de 2-3 amplades de columna de text",
+      "cita": "Feu-nos una prova amb 2-3 amplades i triem.",
+      "context": "Fitxes i secció «En paper».",
+      "descripcio": "A preparar una prova visible amb 2-3 amplades."
+    },
+    {
+      "id": "r11-formulari-unic",
+      "ref": "T07 · R11",
+      "titol": "Un sol formulari a Contacte per a tot",
+      "cita": "Es manté a contacte amb un únic formulari que serveix per tot. ... A contacte pensarem una frase que doni a entendre que el formulari serveix per diverses coses.",
+      "context": "Ells escriuran el text; nosaltres garantim que hi hagi un sol formulari.",
+      "descripcio": "A fer: formulari únic."
+    },
+    {
+      "id": "autoria-fotos-aplicar",
+      "ref": "ENQ-autoria",
+      "titol": "Aplicar autoria de fotos CC BY-NC i nom d'arxiu/meta",
+      "cita": "Creative Commons BY-NC ... nota genèrica a peu de pàgina ... i que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
+      "context": "Llicència del web CC BY-SA ja al peu.",
+      "descripcio": "A fer: nota genèrica de fotos i nom d'arxiu/meta."
+    },
+    {
+      "id": "arquitectes-llista",
+      "ref": "PREG-arquitectes",
+      "titol": "Llista d'arquitectes combinats per separat",
+      "cita": "Ho farem manualment.",
+      "context": "73 casos a .ai/ARQUITECTES-A-SEPARAR.md.",
+      "descripcio": "A oferir: llista amb el format proposat perquè ho revisin."
+    },
+    {
+      "id": "r13-paleta",
+      "ref": "GR1·GR2 · R13",
+      "titol": "Aplicar la paleta definitiva per plànol",
+      "cita": "Us passarem la paleta definitiva per plànol.",
+      "context": "Esperant que ens facin arribar els codis de color.",
+      "descripcio": "En rebre la paleta, l'apliquem."
+    }
+  ]
 }

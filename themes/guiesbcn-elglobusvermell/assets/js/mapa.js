@@ -320,12 +320,12 @@
     }
 
     // ── Filtrar mapa ─────────────────────────────────────────────────────
-    // Opacitats: ressaltat = punt d'una publicació activa; atenuat = la resta,
-    // visible però suau perquè es percebi el volum total.
+    // Opacitats: en seleccionar un plànol o un tema, només es veuen els seus
+    // punts i la resta desapareixen (decisió de Xavi, 30/9/2026).
     var OPACITAT_RESSALTADA = tema === 'b' ? { opacity: 0, fillOpacity: 0.92 }
                             : tema === 'c' ? { opacity: 1, fillOpacity: 0.9 }
                                            : { opacity: 1, fillOpacity: 0.85 };
-    var OPACITAT_ATENUADA   = OPACITAT_RESSALTADA;
+    var OPACITAT_ATENUADA   = { opacity: 0, fillOpacity: 0 };
 
     function setOpacity(markerGroup, opacity) {
       markerGroup.eachLayer(function (layer) {
