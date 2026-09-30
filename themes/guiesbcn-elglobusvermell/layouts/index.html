@@ -85,7 +85,7 @@
       <div class="pa-stats" aria-label="Xifres del projecte">
         <div class="pa-stat">
           <span class="pa-stat-num">{{ $totalEdificis }}</span>
-          <span class="pa-stat-lab">edificis documentats</span>
+          <span class="pa-stat-lab">elements documentats</span>
         </div>
         <div class="pa-stat">
           <span class="pa-stat-num">{{ len $guies }}</span>
@@ -119,13 +119,13 @@
         <h3 id="pa-dest-nom" class="pa-guia-dest-nom"></h3>
         <p id="pa-dest-count" class="pa-guia-dest-count"></p>
         <div id="pa-dest-edifici" class="pa-guia-dest-edifici" hidden>
-          <p class="pa-guia-dest-edifici-label">Un edifici de la guia</p>
+          <p class="pa-guia-dest-edifici-label">Un element de la guia</p>
           <a id="pa-dest-edifici-link" href="#" class="pa-guia-dest-edifici-link">
             <span id="pa-dest-edifici-nom"></span>
             <span id="pa-dest-edifici-adreca" class="pa-guia-dest-edifici-adreca"></span>
           </a>
         </div>
-        <a id="pa-dest-url" href="#" class="pa-cta-secundari">Veure tots els edificis de la guia →</a>
+        <a id="pa-dest-url" href="#" class="pa-cta-secundari">Veure tots els elements de la guia →</a>
       </div>
     </div>
   </section>
@@ -142,7 +142,7 @@
         <div class="pa-guia-card-info">
           <p class="pa-guia-card-any">{{ .edicio }}</p>
           <p class="pa-guia-card-titol">{{ .titol }}</p>
-          <p class="pa-guia-card-count">{{ .count }} edificis</p>
+          <p class="pa-guia-card-count">{{ .count }} elements</p>
         </div>
       </a>
       {{ end }}
@@ -157,9 +157,9 @@
   <section class="pa-seccio pa-arquitecte" aria-labelledby="arq-dest-titol" id="pa-arquitecte-seccio">
     <h2 id="arq-dest-titol" class="pa-seccio-titol">Arquitecte o estudi destacat</h2>
     <div id="pa-arq-dest" class="pa-arq-dest-wrap">
-      <p class="pa-arq-etiqueta">Més de <span id="pa-arq-count"></span> edificis documentats</p>
+      <p class="pa-arq-etiqueta">Més de <span id="pa-arq-count"></span> elements documentats</p>
       <h3 id="pa-arq-nom" class="pa-arq-nom"></h3>
-      <a id="pa-arq-url" href="#" class="pa-cta-secundari">Veure tots els edificis →</a>
+      <a id="pa-arq-url" href="#" class="pa-cta-secundari">Veure tots els elements →</a>
     </div>
   </section>
   {{ end }}
@@ -170,7 +170,7 @@
       <div class="pa-recursos-text">
         <p class="pa-recursos-label">Per a escoles i instituts</p>
         <h2 id="rec-titol" class="pa-recursos-titol">Recursos educatius</h2>
-        <p>El projecte de les Guies de Barcelona ofereix materials didàctics per treballar l'arquitectura i l'urbanisme a l'aula. Itineraris guiats, fitxes d'edificis i propostes d'activitats per a tots els nivells.</p>
+        <p>El projecte de les Guies de Barcelona ofereix materials didàctics per treballar l'arquitectura i l'urbanisme a l'aula. Itineraris guiats, fitxes d'elements i propostes d'activitats per a tots els nivells.</p>
         <p class="pa-recursos-pendent"><em>Secció en preparació — properament disponible.</em></p>
       </div>
     </div>
@@ -180,7 +180,7 @@
   <section class="pa-mapa-cta" aria-label="Accés al mapa interactiu">
     <div class="pa-mapa-cta-inner">
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
-      <p class="pa-mapa-cta-titol">El mapa, la porta d'entrada a tots els edificis</p>
+      <p class="pa-mapa-cta-titol">El mapa, la porta d'entrada a tots els elements</p>
       <a href="{{ "mapa/" | relLangURL }}" class="pa-cta-mapa">Obrir el mapa interactiu</a>
     </div>
   </section>
@@ -209,7 +209,7 @@ window.PA_ARQUITECTES = {{ $arquitectes | jsonify | safeJS }};
     document.getElementById('pa-dest-portada').alt = guia.titol;
     document.getElementById('pa-dest-any').textContent = guia.edicio;
     document.getElementById('pa-dest-nom').textContent  = guia.titol;
-    document.getElementById('pa-dest-count').textContent = guia.count + ' edificis documentats';
+    document.getElementById('pa-dest-count').textContent = guia.count + ' elements documentats';
     var destUrl = document.getElementById('pa-dest-url');
     destUrl.href = guia.url;
     destUrl.style.setProperty('--pub-color', guia.color);
