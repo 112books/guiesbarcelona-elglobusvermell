@@ -6,7 +6,7 @@
       "id": "cercador-mapa",
       "titol": "Com ha de funcionar el cercador del mapa?",
       "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
-      "context": "Ara mateix no hi ha cap cercador general a tot el web: només el d'aquest mapa i el de la pàgina d'Arquitectes. Cal decidir si, a més del cercador d'elements, n'hi haurà un de general.",
+      "context": "Ara mateix no hi ha cap cercador general a tot el web: només el d'aquest mapa i el de la pàgina d'Arquitectes. El cercador del mapa anava lligat al llistat que s'ha tret. Cal decidir on es mostren els resultats i si la cerca ha de distingir entre tipus de contingut (elements del mapa, arquitectes, pàgines...) o si, a més, n'hi ha d'haver un de general.",
       "descripcio": "Hem tret el llistat i l'abecedari. Sense el llistat, el cercador (Cerca, Època, Arquitecte) no mostra resultats enlloc.",
       "opcions": [
         {
@@ -211,7 +211,8 @@
       "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
       "resultat": "Fora l'abecedari horitzontal i vertical i el llistat; es manté el cercador i el bloc «Publicacions».",
       "ref": "M6",
-      "estat": "fet"
+      "estat": "fet",
+      "posicio": "Nota nostra: el cercador integrat anava lligat al llistat (filtrava les fitxes que hi apareixien). Sense el llistat, tal com està, no té sentit. Per això ho tenim com a pregunta oberta (ref. M6): cal decidir com representem les cerques —en aquesta mateixa pàgina o en un cercador a part— i si la cerca ha de distingir entre tipus de contingut (elements del mapa, arquitectes, pàgines...) o si n'hi ha d'haver un de general."
     },
     {
       "id": "t07",
