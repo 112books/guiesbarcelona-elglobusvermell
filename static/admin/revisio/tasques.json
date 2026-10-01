@@ -977,6 +977,13 @@
       "cita": "Us passarem la paleta definitiva per plànol.",
       "context": "Esperant que ens facin arribar els codis de color.",
       "descripcio": "En rebre la paleta, l'apliquem."
+    },
+    {
+      "id": "tauler-final",
+      "ref": "NOS",
+      "titol": "Actualitzar el tauler de revisió al final del projecte",
+      "context": "Quan el web estigui acabat, cal repassar el tauler perquè hi quedi tot ben explicat: què s'ha fet, què ha quedat pendent i quines decisions s'han pres.",
+      "descripcio": "Anotat per Joan l'1/10 com a tancament del projecte."
     }
   ]
 }
