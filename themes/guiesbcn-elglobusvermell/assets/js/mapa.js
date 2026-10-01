@@ -71,18 +71,16 @@
     // punts quedin ajustats al màxim (sense l'espai que deixa l'arrodoniment
     // a nivell enter de zoom).
     var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true, zoomSnap: 0 });
-    L.tileLayer(tiles[tema] || tiles.a, {
+    // M2 — base en escala de grisos (prova): estil natiu en blanc i negre
+    // (Stamen Toner), més robust que un filtre CSS i sense tocar el mapa actual.
+    var tileUrl = (window.MAPA_BASE === 'gris')
+      ? 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png'
+      : (tiles[tema] || tiles.a);
+    L.tileLayer(tileUrl, {
       attribution: STADIA_ATTR,
       maxZoom: 20,
       updateWhenZooming: false
     }).addTo(map);
-
-    // M2 — base en escala de grisos (prova): filtre CSS sobre les teseles,
-    // sense canviar el proveïdor ni la pàgina del mapa actual.
-    if (window.MAPA_BASE === 'gris') {
-      var paneGris = map.getPane('tilePane');
-      if (paneGris) paneGris.style.filter = 'grayscale(1)';
-    }
 
     // ── Marcadors ────────────────────────────────────────────────────────
     function markerOpts(color, radius) {

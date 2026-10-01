@@ -164,7 +164,7 @@
         <dd>
           {{ range $i, $a := . }}
             {{ if $i }}, {{ end }}<a href="{{ printf "arquitectes/%s/" ($a | urlize) | relURL }}">{{ $a }}</a>
-          {{ end }}
+          {{ end }}{{ with $.Params.any }}, {{ . }}{{ end }}
         </dd>
       </div>
       {{ end }}
@@ -197,12 +197,12 @@
       </div>
       {{ end }}
 
-      {{ with .Params.any }}
+      {{ if not .Params.arquitectes }}{{ with .Params.any }}
       <div class="fitxa-dada">
         <dt>Any</dt>
         <dd>{{ . }}</dd>
       </div>
-      {{ end }}
+      {{ end }}{{ end }}
 
       {{ with .Params.equipament }}
       <div class="fitxa-dada">

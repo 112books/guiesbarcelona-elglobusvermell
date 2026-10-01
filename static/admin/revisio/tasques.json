@@ -438,29 +438,6 @@
       "posicio": "La fitxa d'avantguarda és la correcta; la de biblioteques aporta el plànol i una segona foto."
     },
     {
-      "id": "f5-arquitectes-any",
-      "ref": "F5",
-      "estat": "informacio",
-      "titol": "Arquitectes clicables i any en un sol camp",
-      "cita": "Taula projecte: arquitectes clicables + any no clicable en un sol camp (ex: «Joan Arias, Lluís Pérez de la Vega, 1988») — confirmar tècnicament.",
-      "context": "Es pot fer: els arquitectes ja són enllaços a la seva pàgina i l'any es pot posar al mateix camp, després dels noms.",
-      "descripcio": "Voleu l'any clicable o no?",
-      "opcions": [
-        {
-          "id": "any-pla",
-          "label": "Any no clicable",
-          "detall": "Els arquitectes són enllaços; l'any, text pla."
-        },
-        {
-          "id": "any-clicable",
-          "label": "Any clicable cap a un llistat de l'any",
-          "detall": "Funció nova: una pàgina que llista els elements d'aquell any."
-        }
-      ],
-      "recomanacio": "any-pla",
-      "posicio": "Tècnicament és possible. Si el voleu clicable, caldrà crear el llistat per any."
-    },
-    {
       "id": "a1-ordre-cognom",
       "ref": "A1",
       "estat": "informacio",
@@ -934,6 +911,20 @@
       "cita": "No trobo on editar la pàgina de contacte al CMS.",
       "resultat": "Fet: la col·lecció Pàgines ja inclou Contacte, Accessibilitat i les tres pàgines legals; la guia de l'editor també s'ha actualitzat.",
       "enllacos": []
+    },
+    {
+      "id": "f5-arquitectes-any",
+      "ref": "F5",
+      "estat": "fet",
+      "titol": "Arquitectes clicables i any en un sol camp",
+      "cita": "Taula projecte: arquitectes clicables + any no clicable en un sol camp (ex: «Joan Arias, Lluís Pérez de la Vega, 1988»).",
+      "resultat": "Fet: la fila d'arquitectes ara inclou l'any al final, amb els noms clicables i l'any com a text pla. Si voleu que l'any també sigui clicable cap a un llistat per any, és una funció nova que podem afegir.",
+      "enllacos": [
+        {
+          "label": "Exemple de fitxa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/48-habitatges-i-centre-civic/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
