@@ -338,6 +338,46 @@ collections:
           - { label: Títol, name: title, widget: string }
           - { label: Cos, name: body, widget: markdown }
 
+      - label: Contacte
+        name: contacte
+        file: content/ca/contacte/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Descripció, name: description, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
+      - label: Accessibilitat
+        name: accessibilitat
+        file: content/ca/accessibilitat/_index.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Descripció, name: description, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
+      - label: Avís legal
+        name: avis-legal
+        file: content/ca/legal/avis-legal.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Descripció, name: description, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
+      - label: Política de galetes
+        name: cookies
+        file: content/ca/legal/cookies.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Descripció, name: description, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
+      - label: Política de privacitat
+        name: privacitat
+        file: content/ca/legal/privacitat.md
+        fields:
+          - { label: Títol, name: title, widget: string }
+          - { label: Descripció, name: description, widget: string }
+          - { label: Cos, name: body, widget: markdown }
+
   # ══════════════════════════════════════════════════════════════════════════
   # PLÀNOLS-GUIA (contingut de cada pàgina de publicació)
   # ══════════════════════════════════════════════════════════════════════════

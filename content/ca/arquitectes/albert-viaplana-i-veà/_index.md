@@ -1,5 +1,5 @@
 ---
-title: Albert Viaplana
+title: Albert Viaplana i Veà
 tipus: individual
 link_coac: "https://www.arquitecturacatalana.cat/ca/autors/albert-viaplana-i-vea"
 link_wikipedia: "https://ca.wikipedia.org/wiki/Albert_Viaplana_i_Ve%C3%A0"

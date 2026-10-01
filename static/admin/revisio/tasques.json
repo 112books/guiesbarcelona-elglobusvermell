@@ -789,6 +789,29 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=1"
         }
       ]
+    },
+    {
+      "id": "autoria-meta-fet",
+      "ref": "ENQ-autoria",
+      "estat": "fet",
+      "titol": "Nom d'arxiu de les imatges descarregades",
+      "cita": "...que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
+      "resultat": "Fet: cada fotografia de les fitxes té un enllaç de descàrrega que desa el fitxer amb el nom «elglobusvermell-<slug>-<n>.<ext>».",
+      "enllacos": [
+        {
+          "label": "Exemple de fitxa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/centre-de-cultura-contemporania-de-barcelona-cccb/"
+        }
+      ]
+    },
+    {
+      "id": "c2-contacte-cms",
+      "ref": "C2",
+      "estat": "fet",
+      "titol": "Pàgina de Contacte editable al CMS",
+      "cita": "No trobo on editar la pàgina de contacte al CMS.",
+      "resultat": "Fet: la col·lecció Pàgines ja inclou Contacte, Accessibilitat i les tres pàgines legals; la guia de l'editor també s'ha actualitzat.",
+      "enllacos": []
     }
   ],
   "decisions_nostres": [
@@ -843,12 +866,11 @@
       "descripcio": "En rebre la paleta, l'apliquem."
     },
     {
-      "id": "autoria-meta",
-      "ref": "ENQ-autoria",
-      "titol": "Nom d'arxiu/meta de les imatges descarregades",
-      "cita": "...que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
-      "context": "A la web estàtica no es controla el nom de desat del navegador.",
-      "descripcio": "Valorar un enllaç de descàrrega amb el nom suggerit «elglobusvermell-<slug>»."
+      "id": "duplicats-migracio",
+      "ref": "MIG",
+      "titol": "Duplicats de migració",
+      "context": "Navas 238/240 i la genèrica, casa unifamiliar de plaça Mons i el Pavelló (CRAI UB).",
+      "descripcio": "Diagnosi feta a .ai/DUPLICATS-MIGRACIO.md. Cal confirmar com es fusionen i redirigeixen; cap fitxa no s'esborra."
     }
   ]
 }
