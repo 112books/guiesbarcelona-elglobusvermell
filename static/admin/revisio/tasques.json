@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-09-30",
+  "actualitzat": "2026-10-01",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -360,6 +360,82 @@
         }
       ],
       "recomanacio": ""
+    },
+    {
+      "id": "navas-duplicat",
+      "ref": "MIG-1",
+      "estat": "pendent",
+      "titol": "Navas 238 / 240: què fem amb la fitxa genèrica?",
+      "context": "Hi ha dues fitxes bones (Navas 238, de Juan José Olazabal, i Navas 240, de Joan Baca) i una de genèrica «Edifici d'habitatges, carrer Navas» que barreja dades de les dues: agafa l'adreça de la 240 i l'arquitecte de la 238.",
+      "descripcio": "La genèrica és un duplicat de la migració. Com la resolem?",
+      "opcions": [
+        {
+          "id": "redirigir-240",
+          "label": "Redirigir la genèrica a la 240",
+          "detall": "Es mantenen les dues fitxes canòniques i l'URL antic apunta a la 240."
+        },
+        {
+          "id": "redirigir-238",
+          "label": "Redirigir la genèrica a la 238",
+          "detall": "Mateix, però l'URL apunta a la 238."
+        },
+        {
+          "id": "mantenir",
+          "label": "Mantenir-la com a fitxa pròpia",
+          "detall": "Caldria donar-li dades correctes i diferenciades."
+        }
+      ],
+      "recomanacio": "redirigir-240",
+      "posicio": "Cap fitxa no s'esborra: el contingut es conserva a la fitxa bona i l'URL es redirigeix."
+    },
+    {
+      "id": "casa-unifamiliar-duplicat",
+      "ref": "MIG-2",
+      "estat": "pendent",
+      "titol": "Casa unifamiliar de plaça Mons: un o dos edificis?",
+      "context": "Dues fitxes amb la mateixa adreça (Pl. Mons / G. Bécquer) i arquitectes diferents: una diu Ricard de Churruca i Germà Rodríguez Arias, l'altra Raimon Duran i Reynals. Aquesta segona no té coordenades.",
+      "descripcio": "Quin arquitecte és correcte i si són un sol edifici o dos?",
+      "opcions": [
+        {
+          "id": "churruca",
+          "label": "És l'edifici de Churruca i Rodríguez Arias",
+          "detall": "Es fusiona la fitxa sense coordenades amb aquesta i es redirigeix."
+        },
+        {
+          "id": "duran",
+          "label": "És l'edifici de Duran i Reynals",
+          "detall": "Es corregeix l'altra i es fusiona."
+        },
+        {
+          "id": "dos",
+          "label": "Són dos edificis diferents",
+          "detall": "Caldria donar títol i dades pròpies a cada fitxa."
+        }
+      ],
+      "recomanacio": "",
+      "posicio": "Necessitem el teu criteri perquè les dades es contradiuen; no ho resolem esborrant."
+    },
+    {
+      "id": "pavello-duplicat",
+      "ref": "MIG-3",
+      "estat": "pendent",
+      "titol": "Pavelló de la República: fusionem les dues fitxes?",
+      "context": "La mateixa rèplica de 1992 (CRAI Biblioteca UB) apareix en dues fitxes: una d'avantguarda, ben completa, i una de biblioteques amb el frontmatter malmès i dades que falten.",
+      "descripcio": "Proposem fusionar-les en una de sola. Ho aprovem?",
+      "opcions": [
+        {
+          "id": "fusionar",
+          "label": "Sí, fusionar en una sola fitxa",
+          "detall": "S'afegeix «biblioteques», el districte i la segona fotografia; l'URL antic es redirigeix."
+        },
+        {
+          "id": "mantenir",
+          "label": "Mantenir les dues fitxes",
+          "detall": "Caldria arreglar el frontmatter de la de biblioteques."
+        }
+      ],
+      "recomanacio": "fusionar",
+      "posicio": "La fitxa d'avantguarda és la correcta; la de biblioteques aporta el plànol i una segona foto."
     }
   ],
   "canvis": [
@@ -864,13 +940,6 @@
       "cita": "Us passarem la paleta definitiva per plànol.",
       "context": "Esperant que ens facin arribar els codis de color.",
       "descripcio": "En rebre la paleta, l'apliquem."
-    },
-    {
-      "id": "duplicats-migracio",
-      "ref": "MIG",
-      "titol": "Duplicats de migració",
-      "context": "Navas 238/240 i la genèrica, casa unifamiliar de plaça Mons i el Pavelló (CRAI UB).",
-      "descripcio": "Diagnosi feta a .ai/DUPLICATS-MIGRACIO.md. Cal confirmar com es fusionen i redirigeixen; cap fitxa no s'esborra."
     }
   ]
 }
