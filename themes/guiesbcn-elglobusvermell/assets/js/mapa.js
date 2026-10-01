@@ -77,6 +77,13 @@
       updateWhenZooming: false
     }).addTo(map);
 
+    // M2 — base en escala de grisos (prova): filtre CSS sobre les teseles,
+    // sense canviar el proveïdor ni la pàgina del mapa actual.
+    if (window.MAPA_BASE === 'gris') {
+      var paneGris = map.getPane('tilePane');
+      if (paneGris) paneGris.style.filter = 'grayscale(1)';
+    }
+
     // ── Marcadors ────────────────────────────────────────────────────────
     function markerOpts(color, radius) {
       var r = radius || 6;

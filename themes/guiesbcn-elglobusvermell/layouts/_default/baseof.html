@@ -16,11 +16,11 @@
   {{ partial "footer.html" . }}
   {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
-  {{ if or (eq .Section "elements") (eq .Section "mapa") (and (eq .Section "temes") (eq .Kind "page")) (eq .Kind "term") }}
+  {{ if or (eq .Section "elements") (or (eq .Section "mapa") (eq .Section "mapa-grisos")) (and (eq .Section "temes") (eq .Kind "page")) (eq .Kind "term") }}
   <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}" defer></script>
   <script src="{{ "vendor/leaflet/leaflet-gesture-handling.min.js" | relURL }}" defer></script>
   {{ end }}
-  {{ if or (and (eq .Section "mapa") (eq .Kind "section")) (and (eq .Section "elements") (eq .Kind "section")) (and (eq .Section "temes") (eq .Kind "page")) (eq .Kind "term") }}
+  {{ if or (and (or (eq .Section "mapa") (eq .Section "mapa-grisos")) (eq .Kind "section")) (and (eq .Section "elements") (eq .Kind "section")) (and (eq .Section "temes") (eq .Kind "page")) (eq .Kind "term") }}
   {{ $mapaJs := resources.Get "js/mapa.js" | minify | fingerprint }}
   <script src="{{ $mapaJs.RelPermalink }}" integrity="{{ $mapaJs.Data.Integrity }}" defer></script>
   {{ end }}

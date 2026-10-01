@@ -294,8 +294,8 @@
         },
         {
           "id": "triar",
-          "label": "En triarem una dels llocs que ens indiqueu",
-          "detall": ""
+          "label": "En proposarem nosaltres una (o us direm un estil)",
+          "detall": "Cap problema de llicència: la verifiquem i l'apliquem."
         },
         {
           "id": "actual",
@@ -303,8 +303,8 @@
           "detall": ""
         }
       ],
-      "recomanacio": "propostes",
-      "posicio": "Podem posar la que vulgueu, sempre que la llicència ho permeti. Us en podem preparar 2-3 opcions d'ús lliure perquè trieu."
+      "recomanacio": "triar",
+      "posicio": "Es pot canviar fàcilment. Podeu proposar la que vulgueu (o dir-nos només l'estil que busqueu) i nosaltres verifiquem la llicència i l'apliquem. Si preferiu, també us podem fer nosaltres 2-3 propostes d'ús lliure."
     },
     {
       "id": "g1-columnes",

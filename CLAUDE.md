@@ -128,3 +128,4 @@ scripts/instal·la-gestor-hores.sh --uninstall
 - Comandes: `/time-log [tasca] [hores]`, `/time-report [periode]`, `/time-config [hores] [tarifa]`
 - No modificar manualment els fitxers `.taques/` — són append-only
 - `.taques/` és gitignored: les dades d'hores són internes i no es publiquen
+- **Rendibilitat:** `python3 scripts/resum-tasques.py` (i `--csv`) genera un resum de totes les tasques fetes amb la durada de cadascuna, sense esborrar cap registre
