@@ -47,7 +47,6 @@
 
 <script>
 window.MAPA_PUNTS         = {{ $punts    | jsonify | safeJS }};
-window.MAPA_BASE          = {{ .Params.mapa_base | default "color" | jsonify | safeJS }};
 window.PUBLICACIONS       = {{ $pubsData | jsonify | safeJS }};
 window.TEMES_TRANSVERSALS = {{ $temesData | jsonify | safeJS }};
 </script>

@@ -1,9 +1,26 @@
 ---
 name: Tasques pendents — guiesbarcelona
-description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-09-04)
+description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-10-01)
 type: project
 originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 ---
+
+## Resoltes (sessió 2026-10-01)
+
+- ✅ **Skill de control horari** versionat al repo + instal·lador `scripts/instal·la-gestor-hores.sh` (global a `~/.agents` i `~/.claude`)
+- ✅ **C2 — Contacte i pàgines legals editables al CMS** (Contacte, Accessibilitat, Avís legal, Cookies, Privacitat) + guia de l'editor
+- ✅ **Autoria d'arxiu de fotos** — `download="elglobusvermell-<slug>-<n>.<ext>"`
+- ✅ **Arquitectes òrfens** — Viaplana i Toyo Ito resolts; 274/274 pàgines amb elements
+- ✅ **F5 — Arquitectes + any en un camp**
+- ✅ **SpeakableSpecification ampliat a `.fitxa-nomenclator`**
+- ✅ **Resum de tasques i temps per a rendibilitat** — `scripts/resum-tasques.py`
+- ✅ **GoatCounter** — verificat operatiu i documentat com a reutilitzable (`.ai/GOATCOUNTER-REUTILITZABLE.md`)
+- ✅ **Còpia obsoleta del repo eliminada** (3,2 GB) preservant les 205 fotos originals a `originals/`
+- ✅ **Pressupost corregit** — 3.900 € = webapp; app Flutter fora de l'abast
+- ✅ **Duplicats de migració** — 3 preguntes afegides al tauler de revisió + diagnosi a `.ai/DUPLICATS-MIGRACIO.md`
+- ✅ **M2 — mapa en grays** — provat i retirat; pàgina redirigida a `/mapa/`
+- ⏳ **Correu MAPATGE-URLS adjunt** — esborrany a `docs/2026-10-01-mail-xavi-mapatge-urls-adjunt.md`; pendent d'enviar
+- ⏳ **Tauler de revisió** — actualitzar-lo amb tot ben explicat al final (tasca `tauler-final`)
 
 ## Resoltes (sessions 2026-08-30 a 2026-09-04)
 
@@ -62,7 +79,6 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 
 - ⏳ **Revisió final post-tall** — pa11y real + PageSpeed Insights + GSC sobre domini producció
 - ⏳ **Invitar comptes GitHub** — confirmar noms d'usuari (Laia, etc.) i convidar (rol Write)
-- ⏳ **SpeakableSpecification ampliat a .fitxa-nomenclator** — si es vol cobrir la secció de nomenclàtor dels jardins
 
 ## Pendent — contingut (espera Jorge/Xavi)
 
@@ -72,6 +88,6 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 
 ## Why / How to apply
 
-**Why:** El web està a GitHub Pages (staging). Totes les millores aplicables sense domini propi estan fetes (incloses accessibilitat + pa11y CI el 10/9). El desbloqueig és el tall del domini a Dinahosting (~16 set, tornada Xavi). Fins llavors, les úniques tasques pendents sense blocant extern són invitar els comptes GitHub i esperar resposta de Xavi als punts de consens.
+**Why:** El web està a GitHub Pages (staging). El 1/10 s'ha tancat el lot de tasques que no depenien de Xavi. El desbloqueig continua sent el tall del domini a Dinahosting. El **tauler de revisió és el canal únic** amb Xavi: allà hi ha les preguntes i les respostes; els correus només porten adjunts.
 
 **How to apply:** Al proper contacte amb Xavi: confirmar data tall domini + noms d'usuari GitHub + resposta arquitectes combinats. Tota la feina tècnica del tall és una sessió de 2-3h (GSC, Bing, headers, OAuth Fase 1).

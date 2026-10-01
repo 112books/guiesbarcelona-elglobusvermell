@@ -1,5 +1,5 @@
 ---
 title: "Mapa"
 description: "Mapa interactiu de les Guies d'Arquitectura i Urbanisme de Barcelona."
-aliases: ["/elements/"]
+aliases: ["/elements/", "/mapa-grisos/"]
 ---

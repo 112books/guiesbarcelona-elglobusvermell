@@ -190,7 +190,7 @@
         }
       ],
       "recomanacio": "actual",
-      "posicio": "La nostra posició: base discreta (grisa) amb els punts amb el color de cada guia. El color dels punts és informació del projecte i ajuda a llegir el mapa; creiem que és el més indicat. Si et referies als punts, digues-ho i ho mirem."
+      "posicio": "La nostra posició: mantenir la base actual (discreta, amb els punts de color). Hem provat una base estrictament en blanc i negre: la imatge fixa es veu bé, però el mapa interactiu no pintava totes les teseles i l'hem retirat. Si ho vols, ho podem reprendre amb una clau de Stadia Maps."
     },
     {
       "id": "m3-pins-multicolor",
