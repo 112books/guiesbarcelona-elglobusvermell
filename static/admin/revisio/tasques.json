@@ -436,6 +436,52 @@
       ],
       "recomanacio": "fusionar",
       "posicio": "La fitxa d'avantguarda és la correcta; la de biblioteques aporta el plànol i una segona foto."
+    },
+    {
+      "id": "f5-arquitectes-any",
+      "ref": "F5",
+      "estat": "informacio",
+      "titol": "Arquitectes clicables i any en un sol camp",
+      "cita": "Taula projecte: arquitectes clicables + any no clicable en un sol camp (ex: «Joan Arias, Lluís Pérez de la Vega, 1988») — confirmar tècnicament.",
+      "context": "Es pot fer: els arquitectes ja són enllaços a la seva pàgina i l'any es pot posar al mateix camp, després dels noms.",
+      "descripcio": "Voleu l'any clicable o no?",
+      "opcions": [
+        {
+          "id": "any-pla",
+          "label": "Any no clicable",
+          "detall": "Els arquitectes són enllaços; l'any, text pla."
+        },
+        {
+          "id": "any-clicable",
+          "label": "Any clicable cap a un llistat de l'any",
+          "detall": "Funció nova: una pàgina que llista els elements d'aquell any."
+        }
+      ],
+      "recomanacio": "any-pla",
+      "posicio": "Tècnicament és possible. Si el voleu clicable, caldrà crear el llistat per any."
+    },
+    {
+      "id": "a1-ordre-cognom",
+      "ref": "A1",
+      "estat": "informacio",
+      "titol": "Ordenació dels arquitectes per cognom",
+      "cita": "Ordenació per cognom — avaluar implicacions (dades, slugs, etc.).",
+      "context": "Es pot fer sense canviar cap adreça (URL). Cal un camp «cognom» a les fitxes d'arquitecte; si no hi és, s'ordena pel nom complet.",
+      "descripcio": "Com ho fem?",
+      "opcions": [
+        {
+          "id": "camp-cognom",
+          "label": "Afegim el camp «cognom» i ordenem per cognom",
+          "detall": "Cost: revisar i omplir el cognom de les 197 fitxes des de l'editor."
+        },
+        {
+          "id": "nom",
+          "label": "Ho deixem ordenat pel nom complet",
+          "detall": "Com ara."
+        }
+      ],
+      "recomanacio": "camp-cognom",
+      "posicio": "Ho podem implementar amb un camp opcional editat des de l'editor; no afecta les URL."
     }
   ],
   "canvis": [
