@@ -87,7 +87,7 @@ Pendent de rebre els fitxers PDF de cada guia.
 - Decidir futur del backoffice Node.js
 - Migrar compte admin Xavi
 
-### 5. App Flutter — Fase 3 (scope confirmat, 3.900€)
+### 5. App Flutter — Fase 3 (FORA del pressupost aprovat; cal pressupost a part)
 - Llistat d'edificis amb filtres per publicació
 - Fitxa d'edifici amb mapa
 - Mapa general amb punts
@@ -103,7 +103,7 @@ Pendent de rebre els fitxers PDF de cada guia.
 | Xavi | 1-9 ago, 22-30 ago, 1-16 set |
 
 **Dipòsit:** 50% previ a l'inici del desenvolupament Flutter (flexible amb Xavi).
-**Confirmació pressupost:** Xavi confirma 3.900€ — Joan pendent de validar.
+**Pressupost:** 3.900 € de la **webapp** confirmats (`docs/PRESSUPOST-7-GUIA-GUIESBARCELONA.md`). L'app Flutter no entra en aquest pressupost.
 
 ---
 

@@ -20,7 +20,7 @@ Obertes després del seu correu del 30/9 (detall a `.ai/RESPOSTES-XAVI-2026-09-3
 - [Pendent] **Continguts que han d'escriure** — frase de portada (P2), presentació d'El Globus Vermell (PR2), descripcions dels xips de tema (EP4) i text de Contacte (C1).
 - [Pendent] **PR1 · R8 — Anys de les xifres** — 1400-2026 o s. XIV-2026 (lligat a normalitzar les fitxes).
 - [Pendent] **F6 · R5 — Fotos en blanc i negre** — Consens d'equip i possible color parcial al patrimoni industrial.
-- [Pendent] **Confirmar pressupost 3.900 € + 50 % de bestreta** per iniciar l'app Flutter.
+- [Resolt] Pressupost de **3.900 € de la webapp** confirmat i bestreta pagada. L'**app Flutter queda fora d'aquest abast** (caldria un pressupost a part).
 - [Pendent] **Data del tall del domini a Dinahosting** (dependència externa).
 - [Pendent] **Noms d'usuari de GitHub** per convidar al CMS (en Xavi s'ofereix a demanar-los).
 - [Pendent] Reenviar `MAPATGE-URLS.md` a Xavi (se li va prometre i no hi era adjunt).
