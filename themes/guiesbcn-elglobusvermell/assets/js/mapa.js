@@ -70,7 +70,10 @@
     // zoomSnap: 0 permet que fitBounds triï un zoom fraccionari i que tots els
     // punts quedin ajustats al màxim (sense l'espai que deixa l'arrodoniment
     // a nivell enter de zoom).
-    var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true, zoomSnap: 0 });
+    // A la pàgina de prova en grays fem servir zoom enter (1) per evitar
+    // costures entre teseles pel zoom fraccionari.
+    var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true,
+      zoomSnap: (window.MAPA_BASE === 'gris') ? 1 : 0 });
     // M2 — base en escala de grisos (prova): estil natiu Stamen Toner Lite
     // (blanc i negre suau), sense filtre CSS i sense tocar el mapa actual.
     var tileUrl = (window.MAPA_BASE === 'gris')
