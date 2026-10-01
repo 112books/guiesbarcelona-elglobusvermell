@@ -111,8 +111,20 @@ elglobusvermell.org/
 
 ## Control horari
 
-Skill actiu: `gestor-hores` — registra automàticament el temps de treball per sessió.
+Skill actiu: `time-tracker` (carpeta `gestor-hores`) — registra el temps de treball
+per sessió. La definició viu versionada al repo, a
+`.agents/skills/gestor-hores/SKILL.md`, i també està enllaçada a
+`.claude/skills/gestor-hores` per als entorns que llegeixen skills de projecte.
+
+Per tenir-la disponible en altres màquines o espais de treball:
+
+```bash
+scripts/instal·la-gestor-hores.sh            # copia a ~/.agents/skills i ~/.claude/skills
+scripts/instal·la-gestor-hores.sh --link     # enllaços simbòlics (s'actualitzen sols)
+scripts/instal·la-gestor-hores.sh --uninstall
+```
 
 - Logs a `.taques/elglobusvermell.org/YYYY-MM-DD.md` (creat automàticament)
 - Comandes: `/time-log [tasca] [hores]`, `/time-report [periode]`, `/time-config [hores] [tarifa]`
 - No modificar manualment els fitxers `.taques/` — són append-only
+- `.taques/` és gitignored: les dades d'hores són internes i no es publiquen
