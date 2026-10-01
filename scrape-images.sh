@@ -2,7 +2,7 @@
 # Script to scrape images from WP site for Hugo elements
 # Requires bash 4+ (brew install bash) or uses python for associative arrays
 
-BASE_DIR="/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org"
+BASE_DIR="/Users/joan/Documents/Obsidian/elglobusvermell.org"
 ELEMENTS_DIR="$BASE_DIR/content/ca/elements"
 IMG_DIR="$BASE_DIR/static/img/elements"
 WP_URLS_FILE="/Users/joan/.claude/projects/-Users-joan-Documents-Obsidian-elglobusvermell-org/6a3c2b1c-61f1-4d4d-831d-a20461e3c8de/tool-results/bqdyb7l9s.txt"
@@ -18,7 +18,7 @@ import time
 import urllib.request
 import urllib.error
 
-BASE_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org"
+BASE_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org"
 ELEMENTS_DIR = os.path.join(BASE_DIR, "content/ca/elements")
 IMG_DIR = os.path.join(BASE_DIR, "static/img/elements")
 WP_URLS_FILE = "/Users/joan/.claude/projects/-Users-joan-Documents-Obsidian-elglobusvermell-org/6a3c2b1c-61f1-4d4d-831d-a20461e3c8de/tool-results/bqdyb7l9s.txt"

@@ -2,7 +2,7 @@
 """Remove downloaded placeholder/category-cover files (not real building photos)."""
 import os
 
-STATIC_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org/static/img/elements"
+STATIC_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/static/img/elements"
 
 # Known placeholder file sizes (category cover images, not building photos)
 PLACEHOLDER_SIZES = {

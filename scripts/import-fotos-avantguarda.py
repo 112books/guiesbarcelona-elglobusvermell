@@ -2,7 +2,7 @@
 """Importa fotos del plànol Avantguarda (gatcpac) des de Fotos-web-app."""
 import os, shutil, re
 
-SRC_DIR   = "/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org/static/img/elements/Fotos-web-app/avantguarda/avantguarda fotos"
+SRC_DIR   = "/Users/joan/Documents/Obsidian/elglobusvermell.org/originals/Fotos-web-app/avantguarda/avantguarda fotos"
 DST_DIR   = "/Users/joan/Documents/Obsidian/elglobusvermell.org/static/img/elements"
 CONTENT_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/content/ca/elements"
 

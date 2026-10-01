@@ -27,9 +27,10 @@ docs/
 
 # Directoris locals no rastrejats
 guia-globus-vermell/
-guiesbarcelona.elglobusvermell.org/
 
-# Fotos originals de l'app (massa pesades per a git — 880 MB)
+# Fotos originals de la migració (massa pesades per a git — 880 MB)
+# Fora de static/ perquè Hugo no les copiï al build.
+originals/
 static/img/elements/Fotos-web-app/
 
 # Registre d'hores (time-tracker) — dades internes, no públiques

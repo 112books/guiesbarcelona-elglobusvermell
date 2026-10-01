@@ -11,7 +11,7 @@ import os
 import shutil
 import re
 
-SRC_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org/static/img/elements/Fotos-web-app/2010-2025/2010-2025 fotos"
+SRC_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/originals/Fotos-web-app/2010-2025/2010-2025 fotos"
 DST_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/static/img/elements"
 CONTENT_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/content/ca/elements"
 

@@ -9,8 +9,8 @@ import sys
 import urllib.request
 import urllib.error
 
-STATIC_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org/static/img/elements"
-ELEMENTS_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/guiesbarcelona.elglobusvermell.org/content/ca/elements"
+STATIC_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/static/img/elements"
+ELEMENTS_DIR = "/Users/joan/Documents/Obsidian/elglobusvermell.org/content/ca/elements"
 
 # All WP element URLs gathered from category pages
 WP_URLS = """
