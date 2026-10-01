@@ -1,6 +1,6 @@
 # Pla: GoatCounter Dashboard com a component Hugo reutilitzable
 
-Creat: 2026-07-16 | Estat: planificació
+Creat: 2026-07-16 | Estat: implementat (vegeu `.ai/GOATCOUNTER-REUTILITZABLE.md`)
 
 ## Projectes de la família LinuxBCN Analytics
 
