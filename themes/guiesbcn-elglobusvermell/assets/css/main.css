@@ -1324,9 +1324,6 @@ main {
 
 .mapa-el { height: 28rem; border-radius: 0.5rem; overflow: hidden; position: relative; z-index: 1; background: #e8e4df; }
 
-/* M2 — prova de base en escala de grisos: filtre per tesela (no al pla) */
-.mapa-gris .leaflet-tile { filter: grayscale(1); -webkit-filter: grayscale(1); }
-
 /* Evita gaps entre tiles de Leaflet (sub-pixel rendering) */
 .leaflet-tile-container { transform: translateZ(0); }
 .fitxa-mapa { height: 18rem; border-radius: 0.5rem; overflow: hidden; background: #e8e4df; }

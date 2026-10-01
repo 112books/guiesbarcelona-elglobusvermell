@@ -71,18 +71,16 @@
     // punts quedin ajustats al màxim (sense l'espai que deixa l'arrodoniment
     // a nivell enter de zoom).
     var map = L.map(mapaEl, { scrollWheelZoom: false, gestureHandling: true, zoomSnap: 0 });
-    // M2 — base en escala de grisos (prova): mateixes teseles que el mapa
-    // actual, amb el filtre aplicat a cada imatge de tesela (no al pla), que és
-    // la manera robusta entre navegadors.
-    L.tileLayer(tiles[tema] || tiles.a, {
+    // M2 — base en escala de grisos (prova): estil natiu Stamen Toner Lite
+    // (blanc i negre suau), sense filtre CSS i sense tocar el mapa actual.
+    var tileUrl = (window.MAPA_BASE === 'gris')
+      ? 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png'
+      : (tiles[tema] || tiles.a);
+    L.tileLayer(tileUrl, {
       attribution: STADIA_ATTR,
       maxZoom: 20,
       updateWhenZooming: false
     }).addTo(map);
-    if (window.MAPA_BASE === 'gris') {
-      contGris = document.getElementById('mapa');
-      if (contGris) contGris.classList.add('mapa-gris');
-    }
 
     // ── Marcadors ────────────────────────────────────────────────────────
     function markerOpts(color, radius) {
