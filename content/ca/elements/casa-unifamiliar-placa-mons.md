@@ -25,8 +25,8 @@ intervencions:
     descripcio: ''
 anys_reforma: []
 premis: []
-lat: 41.4136086
-long: 2.1446363
+lat: 41.413542
+long: 2.144331
 descripcio: ''
 descripcio_nomenclator: ''
 ---
