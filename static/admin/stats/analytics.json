@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-08T22:49:40.871669Z",
+  "generated": "2026-10-09T04:24:08.325971Z",
   "period": {
-    "start": "2025-10-08",
-    "end": "2026-10-08"
+    "start": "2025-10-09",
+    "end": "2026-10-09"
   },
-  "total": 1043,
+  "total": 1044,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -234,6 +234,10 @@
     {
       "date": "2026-10-07",
       "count": 3
+    },
+    {
+      "date": "2026-10-08",
+      "count": 1
     }
   ],
   "hits": [
@@ -243,7 +247,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 62
+      "count": 63
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
@@ -359,7 +363,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 683,
+    "guiesbarcelona-elglobusvermell": 684,
     "mapa-filtre-pub": 226,
     "mapa-info-pub": 52,
     "mapa-filtre-tema": 31,
@@ -438,7 +442,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 517
+      "count": 518
     },
     {
       "name": "Desconegut",
