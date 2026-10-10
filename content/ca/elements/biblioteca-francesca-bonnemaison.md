@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-francesca-bonnemaison/"]
-adreca: C. Sant Pere més Baix, 7 |
+adreca: C. Sant Pere més Baix, 7
 arquitectes:
 - Jordi Campanillas
 descripcio: 'Remodelació: Institut de Cultura i Biblioteca Popular per a la Dona.

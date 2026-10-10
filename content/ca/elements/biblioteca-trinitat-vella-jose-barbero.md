@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-trinitat-vella-j-barbero/"]
-adreca: C. Galícia, 16 |
+adreca: C. Galícia, 16
 descripcio: 'José Barbero Activista. 1945-2009 Trinitat Vella Arquitecte: Ricard Nieves
   i Carlos Fuentes. 2012'
 districte: "Sant Andreu"

@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-zona-nord/"]
-adreca: C. Vallcivera, 3 bis |
+adreca: C. Vallcivera, 3 bis
 descripcio: 'Mària Sánchez Periodista. 1963-2023 Ciutat Meridiana Arquitecte: Rafael
   Perera. 2009'
 districte: "Sant Andreu"

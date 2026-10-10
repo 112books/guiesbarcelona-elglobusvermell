@@ -112,5 +112,15 @@ d'aplicar-lo (sense tocar els casos dubtosos).
 3. La resta (fotos, arquitectes que falten, dubtes) fer-la **manualment**, tal
    com proposa Xavi.
 
-**No s'ha tocat cap dada en aquesta sessió**: aquest document és només la
-diagnosi, a l'espera de decidir el mètode.
+---
+
+## Aplicat (2026-10-10)
+
+- ✅ **25 fitxes** amb un separador ` | ` final al camp `adreca` s'han netejat
+  (p. ex. `C. Estadella, 62 |` → `C. Estadella, 62`). És l'única correcció
+  automàtica aplicada; la resta del document continua pendent de decisió.
+- Els `adreca` amb un ` | ` **al mig** (dues adreces en un mateix edifici) no
+  s'han tocat, perquè poden ser intencionats.
+
+La resta (extreure adreces de `descripcio`, buidar `projecte_text`, omplir
+fotos i arquitectes) queda pendent del mètode que decidiu.

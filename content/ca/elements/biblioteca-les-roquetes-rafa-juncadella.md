@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-les-roquetes/"]
-adreca: V. Favència, 288-B |
+adreca: V. Favència, 288-B
 districte: "Nou Barris"
 draft: false
 edifici_original: Centre Cívic. Marcià Codinachs. 1992

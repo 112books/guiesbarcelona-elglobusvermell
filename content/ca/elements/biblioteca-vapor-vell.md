@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-vapor-vell/"]
-adreca: Ptge. Vapor Vell, 1 |
+adreca: Ptge. Vapor Vell, 1
 districte: "Sants-Montjuïc"
 draft: false
 foto: /img/elements/biblioteca-vapor-vell.jpg

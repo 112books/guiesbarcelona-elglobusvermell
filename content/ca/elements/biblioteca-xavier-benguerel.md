@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-xavier-benguerel/"]
-adreca: Av. del Bogatell, 17 |
+adreca: Av. del Bogatell, 17
 descripcio: 'Xavier Benguerel Escriptor. 1905-1990 Vila Olímpica Arquitecte: Moises
   Gállego i Franc Fernández. 1995'
 districte: "Sant Martí"

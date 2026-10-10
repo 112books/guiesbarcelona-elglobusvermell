@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-nou-barris/"]
-adreca: Pl. Major de Nou Barris, 2 |
+adreca: Pl. Major de Nou Barris, 2
 districte: "Nou Barris"
 draft: false
 edifici_original: Institut Mental de la Santa Creu. Josep Oriol i Bernadet. 1889

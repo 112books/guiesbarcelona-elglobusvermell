@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-sant-gervasi-joan-maragall/"]
-adreca: C. Sant Gervasi de Cassoles, 85 |
+adreca: C. Sant Gervasi de Cassoles, 85
 arquitectes:
 - BCQ Arquitectes
 descripcio: 'Joan Maragall Poeta i escriptor. 1860-1911 Sant Gervasi – La Bonanova

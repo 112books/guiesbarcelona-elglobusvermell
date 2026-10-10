@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-sant-pau-santa-creu/"]
-adreca: C. Hospital, 56 |
+adreca: C. Hospital, 56
 descripcio: 'Raval Biblioteca: Sant Pau. 1970 | Santa Creu. 1975 | Funcionament conjunt
   des de 1997 Ampliació prevista segons Pla 2030'
 districte: "Ciutat Vella"

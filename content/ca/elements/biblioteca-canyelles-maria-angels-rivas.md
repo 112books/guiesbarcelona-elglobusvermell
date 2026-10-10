@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-canyelles/"]
-adreca: Rda. de la Guineueta Vella, 34 |
+adreca: Rda. de la Guineueta Vella, 34
 descripcio: 'Maria Àngels Rivas Activista. 1935-1994 Canyelles Arquitecte: Jordi Saumell.
   1994'
 districte: "Nou Barris"

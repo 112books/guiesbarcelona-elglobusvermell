@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-el-carmel-juan-marse/"]
-adreca: C. Murtra, 135-145 |
+adreca: C. Murtra, 135-145
 descripcio: Juan Marsé Escriptor. 1933-2020 El Carmel Francesc Calbet, Roser Elías
   i Francesc Gruartmoner. 2003
 districte: "Horta-Guinardó"

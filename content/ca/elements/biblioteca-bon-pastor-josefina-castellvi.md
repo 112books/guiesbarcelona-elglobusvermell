@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-bon-pastor/"]
-adreca: C. Estadella, 62 |
+adreca: C. Estadella, 62
 descripcio: 'Josefina Castellví Oceanògrafa. 1935-2026 Bon Pastor Arquitecte: Ricard
   Nieves. 2004'
 districte: "Sant Andreu"

@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-poblenou-manuel-arranz/"]
-adreca: C. Joncar, 35 |
+adreca: C. Joncar, 35
 descripcio: Professor, historiador i arxivista. 1946-1990
 districte: "Sant Martí"
 draft: false

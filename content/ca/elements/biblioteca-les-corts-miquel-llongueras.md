@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-les-corts-miquel-llongueras/"]
-adreca: Trav. de les Corts, 58 |
+adreca: Trav. de les Corts, 58
 arquitectes:
 - Pere Joan Ravetllat
 - Carme Ribas

@@ -1,6 +1,6 @@
 ---
 aliases: ["/biblioteques/biblioteca-camp-de-larpa-caterina-albert/"]
-adreca: C. Indústria, 295 |
+adreca: C. Indústria, 295
 districte: "Eixample"
 draft: false
 edifici_original: Fàbrica tèxtil Bonaventura Costa i Font. Francesc Mitjans i Miró Miró.
