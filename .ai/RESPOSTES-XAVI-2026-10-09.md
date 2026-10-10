@@ -199,6 +199,24 @@ servir Safari) i, si cal, publicar a staging.
 
 ---
 
+## 7b. Resposta al dubte A1 (S21) — el vincle dels arquitectes es trenca?
+
+**Si només s'omple el camp nou «cognom»: NO.** El `title` i l'slug de la pàgina
+de l'arquitecte no canvien, i els enllaços de les fitxes (que es calculen a partir
+del nom) continuen apuntant al mateix lloc.
+
+**Si es canvia el `title` (nom) de l'arquitecte: SÍ.** L'URL de la seva pàgina
+canvia i les fitxes que el citen guarden el nom antic al camp `arquitectes`, de
+manera que quedarien enllaços trencats. Per renombrar sense perdre enllaços cal:
+1. afegir l'URL antic com a `aliases` de la pàgina de l'arquitecte, i
+2. actualitzar el nom a totes les fitxes que el citen (o fer-ho amb un script).
+
+**Recomanació:** no renombrar; fer servir `cognom` només per ordenar. Ja s'ha
+afegit el camp al CMS i el llistat d'arquitectes ja ordena per `cognom` quan hi
+és (i, si no, pel nom complet).
+
+---
+
 ## 8. Proper pas
 
 1. **Publicar la correcció del CMS (S1)** i demanar a Xavi que torni a provar
