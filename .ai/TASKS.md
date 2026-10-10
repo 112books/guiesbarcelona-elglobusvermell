@@ -431,6 +431,51 @@ Detall complet: `.ai/RESPOSTES-XAVI-2026-09-30.md` · font literal: `.ai/fonts-x
 
 ---
 
+## Resposta Xavi — revisió de canvis (2026-10-09)
+
+Detall complet: `.ai/RESPOSTES-XAVI-2026-10-09.md` · font literal: `.ai/fonts-xavi/2026-10-09-xavi-resposta-revisio.md`. Primer posa temes nous i errors de traspàs, i després la resposta a l'eina.
+
+### 🔴 Prioritat — CMS resolt
+- ✅ **S1.** El camp **«Publicacions»** obria el desplegable de tags (un `<dialog>` modal) i en alguns navegadors deixava la **pantalla en negra**, bloquejant crear/editar fitxes. Corregit amb `dropdown_threshold: 20` a `static/admin/cms/config.yml` (caselles de selecció) + pujada de `CMS_CACHE_VERSION`. Verificat amb Chrome headless sobre la config real. Pendent validar amb Xavi.
+
+### Verificat i OK (es pot tancar)
+- ✅ C2 (Contacte al CMS), ENQ-autoria (llicència del peu + CC BY-NC 4.0), P7/R6 (splash mòbil), M1/T04 (zoom), M6/T06 (abecedari), PR4/T07 (suggerir correcció), A2/T08 (llistat arquitecte), FU1 (CMS crear), ENQ-lectura/R7 (botó d'escoltar), R10 (icones mòbil), GR2 (vermell → gris), M5/R2 (temes transversals), R11 (un sol formulari).
+- ✅ NOU — **Cercador general: no**; amb el d'elements n'hi ha prou.
+- ✅ **M2** — el mapa es queda com està (base discreta + punts amb color).
+
+### Decisions confirmades
+- ✅ M6/T06: mantenir el bloc «Publicacions»; proposa **filtre de temes** (S10).
+- ✅ PR4/T07: a Contacte amb un únic formulari.
+- ✅ M3: pins multicolor sí (S22).
+- ✅ EP3: carrusel infinit, però **finit a «En paper»** (S11).
+- ✅ G1: columna de text la més ampla i encara una mica més; imatge a l'esquerra ~1/3 (S15).
+- ✅ P4·G1: 5·5·3, **substituït** pel redisseny de portada P6 (S9).
+- ✅ MIG-1/2/3: Navas → 240 i eliminar errònies; plaça Mons = Lluís Barangé; fusionar Pavelló (S18–S20).
+- ✅ A1: afegir camp «cognom» (S21), amb dubte sobre el vincle al CMS.
+- ✅ GR1/GR2 (paleta, S23) i GR3 (tipografia, S24).
+
+### Amb comentaris — cal acció
+- M6/M4/R1: **els punts amagats segueixen sent clicables** (S25).
+- EP1–EP8: carrusel més fluid a l'ordinador, títols nous, portada gran (S11, S12).
+- M5: la «i» dels temes transversals sense color (S13).
+- F6: explorar color parcial B/N (S14).
+- P6/P5: redisseny de portada (S9).
+- ENQ-lectura: alineació i veu (S16). PR1: anys (S17).
+- F5: intervencions amb «projecte» per defecte i arquitecte clicable (S26).
+- ENQ-autoria: nom d'arxiu de fotos = nom de la fitxa, sense «elglobusvermell» (S27).
+
+### Temes nous
+- ⏳ **S2.** Treure la faixa de color de les fitxes i el color del títol.
+- ⏳ **S3.** «En paper»: cada plànol en **dues columnes** (portada+índex a l'esquerra, plànol+textos a la dreta), textos sempre desplegats.
+
+### Errors de traspàs (cal diagnosi)
+- ⏳ **S5.** Biblioteques: foto de la portada del plànol en comptes de la de l'edifici.
+- ⏳ **S6.** Informació encallada dins l'etiqueta «projecte» — decidir manual vs automàtic (Xavi pregunta).
+- ⏳ **S7.** Camp adreça atrapat en altres camps.
+- ⏳ **S8.** Fitxes sense camp «projecte».
+
+---
+
 ## Pendents client (preguntes per Xavi / Jorge)
 
 - 🔴 Jorge: dades d'accés al servidor actual
