@@ -253,16 +253,28 @@ collections:
         name: intervencions
         widget: list
         required: false
-        hint: "Reformes i projectes (tipus, autors, any)"
+        hint: "Projectes i reformes. El tipus per defecte és «Projecte»; els arquitectes hi són clicables."
         fields:
           - label: Tipus
             name: tipus
-            widget: string
+            widget: select
+            default: Projecte
+            options:
+              - Projecte
+              - Projecte original
+              - Reforma
+              - Remodelació
+              - Ampliació
+              - Remunta
+              - Reconstrucció
+              - Restauració
+              - Rehabilitació
             required: false
           - label: Autors
             name: autors
             widget: string
             required: false
+            hint: "Noms dels arquitectes, separats per comes o «i». Si coincideixen amb el camp Arquitectes, esdevenen enllaços."
           - label: Any
             name: any
             widget: string
@@ -429,6 +441,12 @@ collections:
       - label: Nom
         name: title
         widget: string
+
+      - label: Cognom
+        name: cognom
+        widget: string
+        required: false
+        hint: "Només per ordenar el llistat per cognom (p. ex. «Ribas» per a «Carme Ribas»). Si es deixa buit, s'ordena pel nom complet."
 
       - label: Tipus
         name: tipus
