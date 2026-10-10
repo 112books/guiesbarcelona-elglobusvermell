@@ -14,6 +14,21 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 - 🟡 **Altres**: S13 (color de la «i»), S14 (color parcial B/N), S16 (veu), S17 (anys), S18–S20 (duplicats de migració), S21 (cognom arquitectes), S22 (pins multicolor), S25 (punts amagats clicables), S26 (intervencions), S27 (nom d'arxiu).
 - ⏳ **Pendent resposta Xavi**: tipografia (S24), paleta (S23), manual vs automàtic a «projecte» (S6), dubte vinculació arquitectes (S21), tall del domini i usuaris GitHub.
 
+### Fets (loop 2026-10-10)
+
+- ✅ **S2** — fora la faixa de color i el color del títol a les fitxes.
+- ✅ **S12** — «En paper»: títols nous, «Usos», sense any d'edició i portada més gran.
+- ✅ **S13** — la «i» dels temes transversals sense color.
+- ✅ **S15** — amplada de la columna de text més ampla (64rem); la imatge a l'esquerra del títol queda pendent de disseny.
+- ✅ **S18** — Navas: eliminades la genèrica i la 238, redirigides a la 240.
+- ✅ **S19** — eliminada la fitxa errònia «Casa unifamiliar» (Duran i Reynals), redirigida a Lluís Barangé.
+- ✅ **S20** — fusionades les dues fitxes del Pavelló de la República.
+- ✅ **S25** — els punts filtrats del mapa ja no són clicables ni enfocables.
+- ✅ **S27** — nom d'arxiu de la foto descarregada = nom de la fitxa (sense «elglobusvermell»).
+- ✅ **S16** — botó d'escoltar a la dreta (ja estava fet a R7).
+- 📄 **S5–S8** — diagnosi a `.ai/DIAGNOSI-TRASPAS-2026-10.md`.
+- ⏳ **Pendent d'aquest lot**: S21 (camp «cognom») i S26 (intervencions amb «projecte» per defecte i arquitecte clicable).
+
 ---
 
 ## Resoltes (sessió 2026-10-01)
