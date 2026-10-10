@@ -12,9 +12,10 @@
      gris fosc, a petició de Xavi, a l'espera de la paleta definitiva. */
   --color-accent:    #222222;
 
-  /* R9 — amplada de la columna de text (prova ?ample=1|2|3). */
-  --lectura-max:     52rem;
-  --lectura-max-ep:  48rem;
+  /* G1/R9 — amplada de la columna de text. Xavi (9/10) va triar la més
+     ampla de la prova (58rem) i encara una mica més. */
+  --lectura-max:     64rem;
+  --lectura-max-ep:  60rem;
 
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                Helvetica, Arial, sans-serif;
