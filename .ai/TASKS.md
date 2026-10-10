@@ -438,6 +438,12 @@ Detall complet: `.ai/RESPOSTES-XAVI-2026-10-09.md` · font literal: `.ai/fonts-x
 ### 🔴 Prioritat — CMS resolt
 - ✅ **S1.** El camp **«Publicacions»** obria el desplegable de tags (un `<dialog>` modal) i en alguns navegadors deixava la **pantalla en negra**, bloquejant crear/editar fitxes. Corregit amb `dropdown_threshold: 20` a `static/admin/cms/config.yml` (caselles de selecció) + pujada de `CMS_CACHE_VERSION`. Verificat amb Chrome headless sobre la config real. Pendent validar amb Xavi.
 
+### Estat de les tasques S (loop 2026-10-10)
+
+- ✅ **Fetes:** S1, S2, S7 (neteja de 25 adreces amb ` | ` final), S12, S13, S15 (amplada), S16, S18, S19, S20, S21, S25, S26, S27. CI `Deploy` i `pa11y` verds.
+- 📄 **Diagnosi:** S5, S6, S7, S8 → `.ai/DIAGNOSI-TRASPAS-2026-10.md`.
+- ⏳ **Pendents de decisió de Joan/Xavi:** S3, S6, S9, S10, S11, S14, S17, S22, S23, S24, i la imatge de la fitxa a l'esquerra del títol (S15).
+
 ### Verificat i OK (es pot tancar)
 - ✅ C2 (Contacte al CMS), ENQ-autoria (llicència del peu + CC BY-NC 4.0), P7/R6 (splash mòbil), M1/T04 (zoom), M6/T06 (abecedari), PR4/T07 (suggerir correcció), A2/T08 (llistat arquitecte), FU1 (CMS crear), ENQ-lectura/R7 (botó d'escoltar), R10 (icones mòbil), GR2 (vermell → gris), M5/R2 (temes transversals), R11 (un sol formulari).
 - ✅ NOU — **Cercador general: no**; amb el d'elements n'hi ha prou.

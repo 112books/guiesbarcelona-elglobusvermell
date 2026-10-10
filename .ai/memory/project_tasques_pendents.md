@@ -26,8 +26,10 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 - ✅ **S25** — els punts filtrats del mapa ja no són clicables ni enfocables.
 - ✅ **S27** — nom d'arxiu de la foto descarregada = nom de la fitxa (sense «elglobusvermell»).
 - ✅ **S16** — botó d'escoltar a la dreta (ja estava fet a R7).
-- 📄 **S5–S8** — diagnosi a `.ai/DIAGNOSI-TRASPAS-2026-10.md`.
-- ⏳ **Pendent d'aquest lot**: S21 (camp «cognom») i S26 (intervencions amb «projecte» per defecte i arquitecte clicable).
+- ✅ **S21** — camp **«cognom»** al CMS + ordenació del llistat d'arquitectes per cognom + resposta al dubte del vincle (A1).
+- ✅ **S26** — `intervencions`: tipus **«Projecte» per defecte** (select) i **autors clicables** a la fitxa.
+- 📄 **S5–S8** — diagnosi a `.ai/DIAGNOSI-TRASPAS-2026-10.md`; a més, **25 fitxes** amb un ` | ` final a `adreca` netejades.
+- 🏁 **Loop tancat** (goal completat el 2026-10-10). CI `Deploy → GitHub Pages` i `pa11y-ci` verds a tots els lots.
 
 ---
 
