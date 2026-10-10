@@ -1,6 +1,10 @@
 ---
 aliases:
   - /avantguarda-1928-1938/edifici-dhabitatges-carrer-navas-240/
+  - /avantguarda-1928-1938/edifici-dhabitatges-carrer-navas-238/
+  - /avantguarda-1928-1938/edifici-dhabitatges-carrer-navas/
+  - /elements/edifici-dhabitatges-carrer-navas/
+  - /elements/edifici-dhabitatges-carrer-navas-238/
 title: Casa Nativitat Vedruna
 draft: false
 foto: ''

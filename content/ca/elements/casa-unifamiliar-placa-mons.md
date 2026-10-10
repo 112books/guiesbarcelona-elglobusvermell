@@ -1,6 +1,8 @@
 ---
 aliases:
   - /avantguarda-1928-1938/casa-unifamiliar-placa-mons/
+  - /avantguarda-1928-1938/casa-unifamiliar/
+  - /elements/casa-unifamiliar/
 title: Casa Lluís Barangé
 draft: false
 foto: ''
