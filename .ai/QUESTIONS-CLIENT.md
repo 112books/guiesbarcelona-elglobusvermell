@@ -10,21 +10,23 @@ Llegenda: [Pendent] espera resposta | [Resolt] | [Proposta] LinuxBCN
 - [Pendent] Dades d'accés al servidor actual (host, usuari, ruta, clau SSH).
 
 ### Xavi
-Obertes després del seu correu del 30/9 (detall a `.ai/RESPOSTES-XAVI-2026-09-30.md`):
-- [Pendent] **Cercador general** — Cal un cercador a tot el web o n'hi ha prou amb el d'elements?
-- [Pendent] **Distribució de les guies a la portada** — Mantenir 6·6·1 o fer 5·5·3?
-- [Pendent] **Mapa en escala de grisos** — Base actual (grisa) o estrictament blanc i negre? O es referia als punts?
-- [Pendent] **Tipografia** — En trien una dels llocs indicats, els proposem 2-3 d'ús lliure, o es queda l'actual?
-- [Pendent] **R12 — Filtre de temes** (Èpoques, Usos/Arquitectura temàtica, Barris, Art) — Cal també al mapa, a més d'«En paper»?
-- [Pendent] **GR1·GR2 — Paleta definitiva per plànol** — Xavi l'ha d'enviar (amb els codis HEX n'hi ha prou). El vermell ja s'ha passat a gris fosc.
-- [Pendent] **Continguts que han d'escriure** — frase de portada (P2), presentació d'El Globus Vermell (PR2), descripcions dels xips de tema (EP4) i text de Contacte (C1).
-- [Pendent] **PR1 · R8 — Anys de les xifres** — 1400-2026 o s. XIV-2026 (lligat a normalitzar les fitxes).
-- [Pendent] **F6 · R5 — Fotos en blanc i negre** — Consens d'equip i possible color parcial al patrimoni industrial.
-- [Resolt] Pressupost de **3.900 € de la webapp** confirmat i bestreta pagada. L'**app Flutter queda fora d'aquest abast** (caldria un pressupost a part).
+Obertes després del seu correu del 9/10 (detall a `.ai/RESPOSTES-XAVI-2026-10-09.md`):
+- [Pendent] **S24 — Tipografia** — Xavi demana que proposem 2-3 opcions d'ús lliure.
+- [Pendent] **S10 — Filtre de temes** (Èpoques, Usos, Barris, Art) — en Xavi el proposa per al mapa com a «En paper»; cal decidir on s'expliquen els grans temes i si va al mapa, a «En paper» o a tots dos.
+- [Pendent] **S23 — Paleta definitiva per plànol** — Xavi l'ha d'enviar (amb codis HEX n'hi ha prou). El vermell ja és gris fosc.
+- [Pendent] **Continguts que han d'escriure** — frase de portada (P2), presentació d'El Globus Vermell (PR2), descripcions dels xips de tema (EP4), text de Contacte (C1) i textos del nou disseny de portada (P6/S9).
+- [Pendent] **S17 — Anys de les xifres** — 1400-2026 o s. XIV-2026 (lligat a normalitzar les fitxes).
+- [Pendent] **S14 — Fotos en blanc i negre** — consens d'equip i possible color parcial al patrimoni industrial.
+- [Pendent] **S6 — Dades encallades a «projecte»** — Xavi pregunta si ho fan manualment fitxa per fitxa o ho podem automatitzar.
+- [Pendent] **S21 — Dubte vinculació d'arquitectes** — si editen nom/cognom al CMS, es trenca el vincle amb els edificis?
 - [Pendent] **Data del tall del domini a Dinahosting** (dependència externa).
 - [Pendent] **Noms d'usuari de GitHub** per convidar al CMS (en Xavi s'ofereix a demanar-los).
-- [Pendent] Reenviar `MAPATGE-URLS.md` a Xavi (se li va prometre i no hi era adjunt).
-- [Pendent] **Autoria de fotos — nom d'arxiu/meta** — Xavi volia que el nom de l'arxiu descarregat o el meta portin «elglobusvermell». A la web estàtica no controlem el nom de desat; valorar un enllaç de descàrrega amb nom suggerit.
+- [Pendent] Reenviar `MAPATGE-URLS.md` a Xavi (se li va promès i no hi era adjunt).
+- [Resolt] **Cercador general** — no cal; amb el d'elements n'hi ha prou.
+- [Resolt] **Distribució de la portada** — 5·5·3, però es replanteja amb el nou disseny de portada (S9).
+- [Resolt] **Mapa en escala de grisos** — es queda la base actual (discreta + punts amb color).
+- [Resolt] **Autoria de fotos — nom d'arxiu** — Xavi vol el nom de la fitxa, **sense** «elglobusvermell».
+- [Resolt] Pressupost de **3.900 € de la webapp** confirmat i bestreta pagada. L'**app Flutter queda fora d'aquest abast** (caldria un pressupost a part).
 
 ---
 
@@ -39,6 +41,20 @@ Podria cobrir una part significativa dels punts del mapa que ara apareixen sense
 L'actual portada posa el focus en el mapa. La portada alternativa presentava el projecte
 globalment. Amb l'opció escollida (navegació per blocs) ja està en marxa; vegeu
 `.ai/HOME-ALTERNATIVA.md`.
+
+---
+
+## Resolt (9/10/2026)
+
+- [Resolt] **Cercador general** — no; amb el d'elements n'hi ha prou.
+- [Resolt] **M6/T06** — es manté el bloc «Publicacions» al mapa. (Proposa valorar un filtre de temes: **S10**.)
+- [Resolt] **M2** — el mapa es queda com està (base discreta + punts amb color).
+- [Resolt] **M3** — pins multicolor sí (meitat/pastís de 3 colors; **S22**).
+- [Resolt] **EP3** — carrusel infinit (matís: finit a «En paper»; **S11**).
+- [Resolt] **G1** — columna de text: la més ampla i encara una mica més; imatge a l'esquerra ~1/3 (**S15**).
+- [Resolt] **P4·G1** — 5·5·3, substituït pel redisseny de portada (**S9**).
+- [Resolt] **MIG-1/2/3** — redirigir Navas a la 240 i eliminar errònies; plaça Mons = Lluís Barangé; fusionar Pavelló de la República (**S18–S20**).
+- [Resolt] **ENQ-autoria** — autoria de les fotos i llicència del peu verificades.
 
 ---
 

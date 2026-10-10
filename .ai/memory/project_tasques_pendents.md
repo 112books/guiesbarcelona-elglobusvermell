@@ -1,8 +1,19 @@
 ---
 name: Tasques pendents — guiesbarcelona
-description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-10-01)
+description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-10-10)
 type: project
 originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
+## Resposta de Xavi (2026-10-09)
+
+- ✅ **S1 — CMS «Publicacions» (pantalla negra)**: resolt. El camp `select multiple` amb 13 opcions obria el desplegable de tags (un `<dialog>` modal) que en alguns navegadors deixava la pantalla en negre. S'ha afegit `dropdown_threshold: 20` a `static/admin/cms/config.yml` (caselles de selecció, com a «Temes transversals») i s'ha pujat `CMS_CACHE_VERSION`. Verificat amb Chrome headless sobre la configuració real.
+- 📄 Documentat el correu a `.ai/RESPOSTES-XAVI-2026-10-09.md` (font literal a `.ai/fonts-xavi/2026-10-09-xavi-resposta-revisio.md`).
+- 🔴 **Prioritat**: validar S1 amb Xavi/Joan al navegador real i publicar-ho a staging.
+- 🟠 **Temes nous**: S2 (sense faixa de color a les fitxes ni al títol), S3 («En paper» en dues columnes, textos desplegats).
+- 🟠 **Portada i disseny**: S9 (redisseny P6: 3 blocs, mapa a sang, peu unificat), S10 (filtre de temes al mapa), S11 (carrusel), S12 (títols «En paper»), S15 (amplada + imatge), S24 (tipografia).
+- 🟠 **Errors de traspàs**: S5–S8 (foto de portada a biblioteques, dades dins «projecte», adreça atrapada, sense camp «projecte»). Cal diagnosi abans de tocar.
+- 🟡 **Altres**: S13 (color de la «i»), S14 (color parcial B/N), S16 (veu), S17 (anys), S18–S20 (duplicats de migració), S21 (cognom arquitectes), S22 (pins multicolor), S25 (punts amagats clicables), S26 (intervencions), S27 (nom d'arxiu).
+- ⏳ **Pendent resposta Xavi**: tipografia (S24), paleta (S23), manual vs automàtic a «projecte» (S6), dubte vinculació arquitectes (S21), tall del domini i usuaris GitHub.
+
 ---
 
 ## Resoltes (sessió 2026-10-01)
