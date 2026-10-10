@@ -327,9 +327,21 @@
                                            : { opacity: 1, fillOpacity: 0.85 };
     var OPACITAT_ATENUADA   = { opacity: 0, fillOpacity: 0 };
 
-    function setOpacity(markerGroup, opacity) {
+    function setOpacity(markerGroup, opacity, actiu) {
       markerGroup.eachLayer(function (layer) {
         if (layer.setStyle) layer.setStyle(opacity);
+        // Els punts filtrats (amagats) no han de rebre clics ni focus:
+        // si no, es poden clicar per accident punts invisibles (Xavi, 9/10).
+        if (layer._path) {
+          layer._path.classList.toggle('leaflet-interactive', actiu);
+          if (actiu) {
+            layer._path.setAttribute('tabindex', '0');
+            layer._path.removeAttribute('aria-hidden');
+          } else {
+            layer._path.setAttribute('tabindex', '-1');
+            layer._path.setAttribute('aria-hidden', 'true');
+          }
+        }
       });
     }
 
@@ -357,9 +369,9 @@
 
         var ressaltat = actiuPerPub && actiuPerTema && actiuPerCerca;
         if (cercaActivaGlobal()) {
-          setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : { opacity: 0, fillOpacity: 0 });
+          setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : { opacity: 0, fillOpacity: 0 }, ressaltat);
         } else {
-          setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : OPACITAT_ATENUADA);
+          setOpacity(m, ressaltat ? OPACITAT_RESSALTADA : OPACITAT_ATENUADA, ressaltat);
         }
       });
 
@@ -557,7 +569,6 @@
             var info = document.createElement('a');
             info.className = 'filtre-btn-info';
             info.href = t.url;
-            info.style.setProperty('--pub-color', t.color || '#888');
             var infoLabel = 'Pàgina del tema "' + (t.titol || t.slug) + '"';
             info.setAttribute('aria-label', infoLabel);
             info.setAttribute('title', infoLabel);
@@ -567,7 +578,6 @@
             var info = document.createElement('button');
             info.type = 'button';
             info.className = 'filtre-btn-info';
-            info.style.setProperty('--pub-color', t.color || '#888');
             var infoLabel = 'Informació sobre "' + (t.titol || t.slug) + '"';
             info.setAttribute('aria-label', infoLabel);
             info.setAttribute('title', infoLabel);

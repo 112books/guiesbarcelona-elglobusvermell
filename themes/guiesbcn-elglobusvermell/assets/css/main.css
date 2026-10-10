@@ -652,12 +652,6 @@ main {
   padding-top: var(--space-md);
 }
 
-.fitxa-pub-banda {
-  height: 30px;
-  background: var(--pub-color, var(--color-accent));
-  margin: 0 calc(-1 * var(--space-md)) var(--space-md);
-}
-
 .fitxa-imatge {
   width: 100%;
   background: #f0f0f0;
@@ -844,7 +838,7 @@ main {
   margin-bottom: var(--space-sm);
 }
 
-.fitxa-titol { margin-top: 0; margin-bottom: 0; flex: 1; color: var(--pub-color, var(--color-text)); }
+.fitxa-titol { margin-top: 0; margin-bottom: 0; flex: 1; color: var(--color-text); }
 
 .tts-btn {
   display: inline-flex;
@@ -2582,6 +2576,16 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
+/* Xavi (9/10): el títol del filtre es veu com els filtres del mapa. */
+.en-paper-xips-titol {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #767676;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
 .en-paper-carroussel {
   display: flex;
   gap: 1rem;
@@ -2632,19 +2636,20 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .temes-llista a:hover { border-color: var(--color-accent); }
 .en-plan {
   display: grid;
-  grid-template-columns: minmax(0, 160px) minmax(0, 1fr);
-  gap: 1rem 1.75rem;
+  grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+  gap: 0.6rem 1.75rem;
   align-items: start;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   border-top: 1px solid var(--color-border);
 }
 .en-plan > h2, .en-plan > p { grid-column: 2; }
-.en-plan > h2 { margin-top: 0; }
+.en-plan > h2 { margin-top: 0; margin-bottom: 0.4rem; }
+.en-plan > p { margin: 0 0 0.7rem; }
 .en-plan > a { grid-column: 1; grid-row: 1; align-self: start; display: block; }
 .en-plan > a .portada-guia-img {
   float: none;
   width: 100%;
-  max-width: 160px;
+  max-width: 220px;
   height: auto;
   margin: 0;
   box-shadow: 0 1px 5px rgba(0,0,0,0.18);
@@ -2652,7 +2657,7 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .en-plan > a.portada-guia-placeholder {
   float: none;
   width: 100%;
-  max-width: 160px;
+  max-width: 220px;
   height: auto;
   aspect-ratio: 130 / 184;
   margin: 0;
@@ -2662,6 +2667,6 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   .en-plan > h2, .en-plan > p, .en-plan > a { grid-column: 1; }
   .en-plan > a { grid-row: auto; }
   .en-plan > a .portada-guia-img,
-  .en-plan > a.portada-guia-placeholder { max-width: 140px; }
+  .en-plan > a.portada-guia-placeholder { max-width: 180px; }
 }
 

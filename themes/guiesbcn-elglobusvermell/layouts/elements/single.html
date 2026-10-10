@@ -12,8 +12,6 @@
 
 <article class="fitxa"{{ if $pubColor }} style="--pub-color: {{ $pubColor }}"{{ end }}>
 
-  <div class="fitxa-pub-banda"></div>
-
   {{/* Nom base del fitxer per a les descàrregues (autoria EGV al nom) */}}
   {{ $slug := .Title | urlize }}
   {{ with .File }}{{ $slug = .TranslationBaseName }}{{ end }}
@@ -64,7 +62,7 @@
                  {{ if eq $i 0 }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
             <figcaption class="fitxa-peu-foto">
               {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
-              {{ $fitxer := printf "elglobusvermell-%s-%d%s" $slug (add $i 1) (path.Ext $img.url) }}
+              {{ $fitxer := printf "%s-%d%s" $slug (add $i 1) (path.Ext $img.url) }}
               <a class="fitxa-descarrega" href="{{ $img.url | strings.TrimPrefix "/" | relURL }}" download="{{ $fitxer }}" title="Descarregar la fotografia" aria-label="Descarregar la fotografia ({{ $fitxer }})">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
               </a>
@@ -94,7 +92,7 @@
          loading="eager" fetchpriority="high">
     <figcaption class="fitxa-peu-foto">
       {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
-      {{ $fitxer := printf "elglobusvermell-%s-1%s" $slug (path.Ext $img.url) }}
+      {{ $fitxer := printf "%s%s" $slug (path.Ext $img.url) }}
       <a class="fitxa-descarrega" href="{{ $img.url | strings.TrimPrefix "/" | relURL }}" download="{{ $fitxer }}" title="Descarregar la fotografia" aria-label="Descarregar la fotografia ({{ $fitxer }})">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       </a>

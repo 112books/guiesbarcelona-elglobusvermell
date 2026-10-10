@@ -11,7 +11,7 @@ Alhora, també us els oferim en PDF descarregable gratuïtament i en diversos id
 
 ---
 
-## Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC. 2016 / Reedició 2026
+## Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC
 
 {{< portada-guia slug="gatcpac" >}}
 
@@ -23,7 +23,7 @@ L'any 2016 vam fer aquesta publicació abans de saber que acabaria sent una col�
 
 ---
 
-## Jardins interiors d'illa de l'Eixample. Barcelona. 2018
+## Jardins interiors d'illa de l'Eixample. Barcelona
 
 {{< portada-guia slug="interiors-illa" >}}
 
@@ -35,7 +35,7 @@ El plànol-guia explica l'evolució del verd urbà a la trama de l'Eixample i de
 
 ---
 
-## El patrimoni industrial del Poblenou, Barcelona. 2019
+## El patrimoni industrial del Poblenou, Barcelona
 
 {{< portada-guia slug="poblenou" >}}
 
@@ -53,7 +53,7 @@ El plànol-guia explica l'evolució del barri i descriu les característiques pr
 
 ---
 
-## Arquitectura Moderna a Barcelona. 1950-1975. 2019
+## Arquitectura Moderna a Barcelona. 1950-1975
 
 {{< portada-guia slug="50-75" >}}
 
@@ -65,7 +65,7 @@ Així, el plànol-guia mostra una selecció de 87 edificis construïts a Barcelo
 
 ---
 
-## Mercats de Barcelona. 2019
+## Mercats de Barcelona
 
 {{< portada-guia slug="mercats" >}}
 
@@ -81,7 +81,7 @@ Aquesta publicació proposa una aproximació a la xarxa de mercats de Barcelona 
 
 ---
 
-## La Barceloneta. Història, arquitectura i art públic. 2020
+## La Barceloneta. Història, arquitectura i art públic
 
 {{< portada-guia slug="barceloneta" >}}
 
@@ -95,7 +95,7 @@ El plànol-guia mostra una selecció de 39 edificis i 19 obres d'art a l'espai p
 
 ---
 
-## La Marina del Port i del Prat Vermell. Passat i present. 2023
+## La Marina del Port i del Prat Vermell. Passat i present
 
 {{< portada-guia slug="marina" >}}
 
@@ -105,7 +105,7 @@ El barri de la Marina del Port i del Prat Vermell havia estat una rica zona agr�
 
 ---
 
-## La Barcelona de Tàpies / Tàpies a Barcelona. 2024
+## La Barcelona de Tàpies / Tàpies a Barcelona
 
 {{< portada-guia slug="tapies" >}}
 
@@ -115,7 +115,7 @@ Antoni Tàpies (Barcelona, 1923-2012) va assolir de ben jove un gran reconeixeme
 
 ---
 
-## Masies de Barcelona. 2025
+## Masies de Barcelona
 
 {{< portada-guia slug="masies" >}}
 
@@ -127,7 +127,7 @@ Aquesta publicació posa en valor les antigues masies encara existents a la ciut
 
 ---
 
-## Biblioteques de Barcelona. 2025
+## Biblioteques de Barcelona
 
 {{< portada-guia slug="biblioteques" >}}
 
@@ -137,7 +137,7 @@ Les biblioteques són serveis de proximitat i intergeneracionals que garanteixen
 
 ---
 
-## La New Babylon de Constant i Barcelona. 2026
+## La New Babylon de Constant i Barcelona
 
 {{< portada-guia slug="new-babylon" >}}
 
@@ -147,7 +147,7 @@ Aquesta publicació és una introducció a la New Babylon i la seva vinculació 
 
 ---
 
-## Arquitectura a Barcelona 1975–2008. De l'esperança a la crisi. 2026
+## Arquitectura a Barcelona 1975–2008. De l'esperança a la crisi
 
 {{< portada-guia slug="76-08" >}}
 
@@ -157,7 +157,7 @@ Aquest plànol-guia recorre l'arquitectura projectada a Barcelona entre 1975 i 2
 
 ---
 
-## Arquitectura a Barcelona 2010–2025. La revolució tranquil·la. 2026
+## Arquitectura a Barcelona 2010–2025. La revolució tranquil·la
 
 {{< portada-guia slug="09-25" >}}
 

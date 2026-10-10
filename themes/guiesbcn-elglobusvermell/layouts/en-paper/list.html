@@ -15,7 +15,7 @@
   <div class="en-paper-intro">{{ $intro | safeHTML }}</div>
 
   <section class="en-paper-bloc" aria-labelledby="en-paper-carroussel-titol">
-    <h2 id="en-paper-carroussel-titol" class="en-paper-bloc-titol">Els plànols, un a un</h2>
+    <h2 id="en-paper-carroussel-titol" class="en-paper-bloc-titol">Plànols-guia publicats</h2>
     <div class="en-paper-carroussel" data-carroussel>
       {{ range $plans }}
         {{ $img := "" }}
@@ -32,7 +32,7 @@
   </section>
 
   <section class="en-paper-bloc" aria-labelledby="en-paper-xips-titol">
-    <h2 id="en-paper-xips-titol" class="en-paper-bloc-titol">Filtra per tema</h2>
+    <h2 id="en-paper-xips-titol" class="en-paper-bloc-titol en-paper-xips-titol">Filtra per agrupacions temàtiques</h2>
     <div class="en-paper-xips" data-xips role="group" aria-label="Filtres per tema">
       <button type="button" class="en-paper-xip is-actiu" data-tema="">Tots</button>
       {{ range $temes }}<button type="button" class="en-paper-xip" data-tema="{{ . }}">{{ . }}</button>{{ end }}
@@ -41,7 +41,7 @@
   </section>
 
   <section class="en-paper-bloc" aria-labelledby="en-paper-llista-titol">
-    <h2 id="en-paper-llista-titol" class="en-paper-bloc-titol">Tots els plànols</h2>
+    <h2 id="en-paper-llista-titol" class="en-paper-bloc-titol">Tots els plànols-guia en detall</h2>
     <div class="en-paper-llista" data-llista>
       {{ range $i, $part := $parts }}
         {{ if gt $i 0 }}<section class="en-plan" data-plan>{{ $part | safeHTML }}</section>{{ end }}

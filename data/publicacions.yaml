@@ -3,7 +3,7 @@
 # antiga (typologies buida, publications desactualitzat), MANA EL CSV.
 #
 # camps: Sí = sempre present | Alguns = present en alguns ítems | No = mai present
-# agrupacions_tematiques: Etapes | Arquitectura temàtica | Barris | Art
+# agrupacions_tematiques: Etapes | Usos | Barris | Art
 #   (4 grups reals; l'enum antic de l'app només en tenia 3, li faltava "Art")
 
 - slug: gatcpac
@@ -38,7 +38,7 @@
   titol: "Jardins interiors d'illa de l'Eixample. Barcelona"
   edicio: 2018
   color: "#8fca6a" # color oficial del web actual (categoria eixample-jardins-interiors)
-  agrupacions_tematiques: [Arquitectura temàtica, Barris]
+  agrupacions_tematiques: [Usos, Barris]
   camps:
     nom: Sí
     tematica: Sí
@@ -66,7 +66,7 @@
   titol: "El patrimoni industrial del Poblenou, Barcelona"
   edicio: 2019
   color: "#dd4b1a" # color oficial del web actual (categoria poblenou-industrial)
-  agrupacions_tematiques: [Arquitectura temàtica, Barris]
+  agrupacions_tematiques: [Usos, Barris]
   camps:
     nom: Sí
     tematica: Sí
@@ -122,7 +122,7 @@
   titol: "Mercats de Barcelona"
   edicio: 2019
   color: "#880064" # color oficial del web actual (categoria mercats)
-  agrupacions_tematiques: [Arquitectura temàtica]
+  agrupacions_tematiques: [Usos]
   camps:
     nom: Sí
     tematica: Sí
@@ -218,7 +218,7 @@
   titol: "Masies de Barcelona"
   edicio: "2025 (pendent)"
   color: "#5a8577" # color extret de la portada (sage/verd)
-  agrupacions_tematiques: [Arquitectura temàtica]
+  agrupacions_tematiques: [Usos]
   camps:
     nom: Sí
     tematica: Sí
@@ -246,7 +246,7 @@
   titol: "Biblioteques de Barcelona"
   edicio: "2025 (pendent)"
   color: "#0797c3" # color extret de la portada (cyan/blau)
-  agrupacions_tematiques: [Arquitectura temàtica]
+  agrupacions_tematiques: [Usos]
   camps:
     nom: Sí
     tematica: Sí
