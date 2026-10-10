@@ -14,7 +14,8 @@
   {{/* Plegat d'accents perquè "Ítalo" agrupi amb "I", no en un grup propi després de la Z */}}
   {{ $plegaAccents := dict "À" "A" "Á" "A" "Â" "A" "Ã" "A" "Ä" "A" "Å" "A" "È" "E" "É" "E" "Ê" "E" "Ë" "E" "Ì" "I" "Í" "I" "Î" "I" "Ï" "I" "Ò" "O" "Ó" "O" "Ô" "O" "Õ" "O" "Ö" "O" "Ù" "U" "Ú" "U" "Û" "U" "Ü" "U" "Ç" "C" "Ñ" "N" "Ý" "Y" }}
   {{ range .Pages }}
-    {{ $lletra := upper (substr .Title 0 1) }}
+    {{ $clau := .Params.cognom | default .Title }}
+    {{ $lletra := upper (substr $clau 0 1) }}
     {{ with index $plegaAccents $lletra }}{{ $lletra = . }}{{ end }}
     {{ if not (isset $grups $lletra) }}
       {{ $grups = merge $grups (dict $lletra slice) }}
@@ -38,13 +39,19 @@
       <section id="lletra-{{ $lletra }}" class="arquitectes-grup" data-lletra="{{ $lletra }}">
         <h2>{{ $lletra }}</h2>
         <ul class="terms-llista">
+          {{ $entrades := slice }}
           {{ range $pagines }}
-          <li data-nom="{{ .Title | lower }}">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ with .Params.tipus }}
+            {{ $clau := .Params.cognom | default .Title }}
+            {{ $entrades = $entrades | append (dict "page" . "clau" (lower $clau)) }}
+          {{ end }}
+          {{ range sort $entrades "clau" "asc" }}
+          {{ $p := .page }}
+          <li data-nom="{{ $p.Title | lower }}">
+            <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+            {{ with $p.Params.tipus }}
             <span class="arquitecte-tipus arquitecte-tipus--{{ . }}">{{ if eq . "estudi" }}Estudi{{ else }}Individual{{ end }}</span>
             {{ end }}
-            <span class="terms-count">({{ len .Pages }} edifici{{ if ne (len .Pages) 1 }}s{{ end }})</span>
+            <span class="terms-count">({{ len $p.Pages }} edifici{{ if ne (len $p.Pages) 1 }}s{{ end }})</span>
           </li>
           {{ end }}
         </ul>

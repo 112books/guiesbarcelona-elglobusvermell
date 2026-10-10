@@ -209,14 +209,19 @@
       </div>
       {{ end }}
 
-      {{/* Intervencions: remunta, remodelació, ampliació, reforma */}}
+      {{/* Intervencions: remunta, remodelació, ampliació, reforma. Els autors
+           que coincideixen amb el camp «arquitectes» esdevenen enllaços. */}}
       {{ with .Params.intervencions }}
       {{ range . }}
-      {{ $autors := .autors }}
-      {{ $any := .any }}
+      {{ $autors := .autors | default "" }}
+      {{ $autorsHTML := $autors }}
+      {{ range $.Params.arquitectes }}
+        {{ $link := printf "<a href=\"%s\">%s</a>" (printf "arquitectes/%s/" (. | urlize) | relURL) . }}
+        {{ $autorsHTML = replace $autorsHTML . $link }}
+      {{ end }}
       <div class="fitxa-dada">
         <dt>{{ .tipus | title }}</dt>
-        <dd>{{ with $autors }}{{ . }}{{ end }}{{ with $any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}{{ with .descripcio }}<br>{{ . }}{{ end }}</dd>
+        <dd>{{ with $autorsHTML }}{{ . | safeHTML }}{{ end }}{{ with .any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}{{ with .descripcio }}<br>{{ . }}{{ end }}</dd>
       </div>
       {{ end }}
       {{ end }}
