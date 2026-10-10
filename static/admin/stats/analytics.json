@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-09T22:11:50.253879Z",
+  "generated": "2026-10-10T04:09:21.888187Z",
   "period": {
-    "start": "2025-10-09",
-    "end": "2026-10-09"
+    "start": "2025-10-10",
+    "end": "2026-10-10"
   },
-  "total": 1044,
+  "total": 1070,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "date": "2026-07-28",
-      "count": 56
+      "count": 57
     },
     {
       "date": "2026-07-29",
@@ -97,15 +97,15 @@
     },
     {
       "date": "2026-08-17",
-      "count": 47
+      "count": 49
     },
     {
       "date": "2026-08-18",
-      "count": 81
+      "count": 77
     },
     {
       "date": "2026-08-19",
-      "count": 41
+      "count": 42
     },
     {
       "date": "2026-08-20",
@@ -117,11 +117,11 @@
     },
     {
       "date": "2026-08-22",
-      "count": 7
+      "count": 6
     },
     {
       "date": "2026-08-24",
-      "count": 17
+      "count": 18
     },
     {
       "date": "2026-08-27",
@@ -129,19 +129,19 @@
     },
     {
       "date": "2026-08-28",
-      "count": 60
+      "count": 59
     },
     {
       "date": "2026-08-29",
-      "count": 16
+      "count": 18
     },
     {
       "date": "2026-08-30",
-      "count": 13
+      "count": 12
     },
     {
       "date": "2026-08-31",
-      "count": 77
+      "count": 74
     },
     {
       "date": "2026-09-01",
@@ -153,7 +153,7 @@
     },
     {
       "date": "2026-09-03",
-      "count": 17
+      "count": 18
     },
     {
       "date": "2026-09-04",
@@ -197,7 +197,7 @@
     },
     {
       "date": "2026-09-23",
-      "count": 49
+      "count": 45
     },
     {
       "date": "2026-09-25",
@@ -213,11 +213,11 @@
     },
     {
       "date": "2026-09-30",
-      "count": 69
+      "count": 70
     },
     {
       "date": "2026-10-01",
-      "count": 10
+      "count": 11
     },
     {
       "date": "2026-10-02",
@@ -238,60 +238,64 @@
     {
       "date": "2026-10-08",
       "count": 1
+    },
+    {
+      "date": "2026-10-09",
+      "count": 30
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 116
+      "count": 118
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 63
+      "count": 65
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 43
+      "count": 45
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 39
+      "count": 41
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 38
+      "count": 40
     },
     {
       "path": "/mapa-filtre-pub/50-75",
-      "count": 31
+      "count": 32
     },
     {
       "path": "/mapa-filtre-pub/09-25",
-      "count": 28
+      "count": 29
+    },
+    {
+      "path": "/mapa-filtre-pub/76-08",
+      "count": 24
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/50-75",
       "count": 23
     },
     {
-      "path": "/mapa-filtre-pub/76-08",
-      "count": 23
-    },
-    {
       "path": "/guiesbarcelona-elglobusvermell/contacte",
-      "count": 21
+      "count": 22
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/09-25",
       "count": 20
     },
     {
-      "path": "/mapa-filtre-pub/interiors-illa",
+      "path": "/mapa-filtre-pub/gatcpac",
       "count": 20
     },
     {
-      "path": "/mapa-filtre-pub/gatcpac",
-      "count": 19
+      "path": "/mapa-filtre-pub/interiors-illa",
+      "count": 20
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
@@ -314,6 +318,10 @@
       "count": 16
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
+      "count": 16
+    },
+    {
       "path": "/mapa-filtre-pub/mercats",
       "count": 16
     },
@@ -326,20 +334,16 @@
       "count": 15
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
-      "count": 15
-    },
-    {
       "path": "/mapa-filtre-pub/masies",
       "count": 15
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
       "count": 13
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
-      "count": 12
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "count": 13
     },
     {
       "path": "/mapa-filtre-pub/marina",
@@ -354,20 +358,20 @@
       "count": 10
     },
     {
-      "path": "/mapa-filtre-pub/poblenou",
+      "path": "/mapa-filtre-tema/nomenclator-femeni",
       "count": 10
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/elements/biblioteca-les-roquetes-rafa-juncadella",
-      "count": 9
+      "path": "/mapa-filtre-pub/poblenou",
+      "count": 10
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 684,
-    "mapa-filtre-pub": 226,
+    "guiesbarcelona-elglobusvermell": 696,
+    "mapa-filtre-pub": 230,
     "mapa-info-pub": 52,
-    "mapa-filtre-tema": 31,
-    "mapa-clickhttps:": 51
+    "mapa-filtre-tema": 35,
+    "mapa-clickhttps:": 57
   },
   "by_lang": {},
   "browsers": [
@@ -442,27 +446,27 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 518
+      "count": 521
     },
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 421
+      "count": 426
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 223
+      "count": 238
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 103
+      "count": 125
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 86
+      "count": 91
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/76-08",
@@ -472,7 +476,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 38
+      "count": 39
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
@@ -490,14 +494,14 @@
       "count": 31
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/contacte",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/contacte",
+      "count": 28
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
       "count": 26
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/contacte",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/contacte",
-      "count": 25
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
@@ -570,6 +574,11 @@
       "count": 7
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/pavello-de-la-republica-biblioteca-crai-ub",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/pavello-de-la-republica-biblioteca-crai-ub",
+      "count": 7
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/marina",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/marina",
       "count": 6
@@ -597,6 +606,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mutua-metallurgica",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mutua-metallurgica",
+      "count": 5
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
       "count": 5
     },
     {
@@ -702,6 +716,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/mbm-arquitectes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/mbm-arquitectes",
+      "count": 3
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/casa-unifamiliar-placa-mons",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/casa-unifamiliar-placa-mons",
       "count": 3
     },
     {
@@ -815,6 +834,21 @@
       "count": 2
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/enric-miralles",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/enric-miralles",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/manuel-de-sol%C3%A0-morales-i-rubi%C3%B3",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/manuel-de-sol%C3%A0-morales-i-rubi%C3%B3",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador",
+      "count": 2
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
       "count": 1
@@ -907,36 +941,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/bloc-diagonal",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/bloc-diagonal",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/m%C3%A0rius-quintana",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/m%C3%A0rius-quintana",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/fabrica-de-joan-guell",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/fabrica-de-joan-guell",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/scob",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/scob",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/embt",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/embt",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/aia-+-barcel%C3%B3-balanz%C3%B3-+-gustau-gili",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/aia-+-barcel%C3%B3-balanz%C3%B3-+-gustau-gili",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/placeta-de-joan-brossa",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/placeta-de-joan-brossa",
       "count": 1
     }
   ]
