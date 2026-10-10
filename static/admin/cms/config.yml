@@ -158,6 +158,11 @@ collections:
         multiple: true
         required: false
         hint: "Plànol(s)-guia on apareix aquest edifici"
+        # Amb 13 opcions, Sveltia obriria el desplegable de tags (un <dialog>
+        # modal) en clicar-hi, que en alguns navegadors deixava la pantalla
+        # en negre (Xavi, 9/10/2026). Amb un llindar alt es mostren caselles
+        # de selecció, la mateixa UI que ja funciona a «Temes transversals».
+        dropdown_threshold: 20
         options:
           - label: "GATCPAC. Arquitectura d'avantguarda 1928-1939"
             value: gatcpac
