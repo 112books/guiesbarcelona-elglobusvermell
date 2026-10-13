@@ -43,7 +43,7 @@
 | C8 | [EP3] Carrusel **infinit** + amagar scrollbar / arrossegar / portades grans | 🟡 Parcial | Infinit i arrossegament **ja hi són** (`en-paper/list.html`); mida/fletxes pendents | «L'infinit i l'arrossegament ja funcionen; acabem d'ajustar scrollbar i mides.» |
 | C9 | [GR1·GR2] Paleta definitiva + **el filtre del mapa no funciona** | 🟡 | Paleta **S23** espera Xavi; **filtre**: arreglat **S25** (`2b6bbd8`) | «El filtre ja està corregit; esperem la paleta per aplicar colors.» |
 | C10 | [GR3] **Tipografia**: 2-3 opcions lliures | ⏳ Pendent | **S24** | «T'enviem 2-3 propostes d'ús lliure per triar.» |
-| C11 | [G1] Amplada de columna de text | ⏳ **Pendent (tria Xavi)** | Prova `?ample=1\|2\|3` redefinida (13/10): **1 actual** = 52 rem · **2 més ample** = 64 rem · **3 la més ampla** = `min(110rem, 96vw)` (pocs marges). Fora la variant estreta. Defecte: 64 rem | «Tres opcions: actual, més ample i la més ampla amb pocs marges. Tria quina deixem per defecte.» |
+| C11 | [G1] Amplada de columna de text | ⏳ **Pendent (tria Xavi)** | Prova `?ample=1\|2\|3` (13/10, `9167af7`): **a) com estava** = 52 rem · **b) més ample** = 64 rem · **c) la més ampla** = `min(110rem, 96vw)` i contenidor a 96vw (quasi sense marges). Fora la variant estreta. Defecte: 64 rem | «Tres opcions: actual, més ample i la més ampla amb pocs marges. Tria quina deixem per defecte.» |
 | C12 | [MIG-1] Navas: redirigir genèrica a la 240 | ✅ Fet | `5ac617a`: eliminades genèrica i 238, redirigides | «Fet: queda només la 240 (Casa Nativitat Vedruna).» |
 | C13 | [MIG-2] Plaça Mons | ✅ Fet | `5ac617a`: eliminada «Casa unifamiliar» (Duran i Reynals) | «Fet: queda Casa Lluís Barangé.» |
 | C14 | [MIG-3] Pavelló de la República: fusionar | ✅ Fet | `5ac617a`: fusionades en una sola fitxa | «Fet: una sola fitxa.» |
@@ -58,7 +58,7 @@
 | D3 | [M5] La «i» dels temes sense color | ✅ Fet | `2b6bbd8`: la «i» usa gris neutre | «Fet: la «i» ara és grisa.» |
 | D4 | [F6] Fotos B/N: explorar color parcial | ⏳ Equip | **S14** | «Ho deixem en blanc i negre i seguim explorant el color al patrimoni industrial.» |
 | D5 | [P7] Splash mòbil | ✔️ OK | — | «Perfecte, gràcies.» |
-| D6 | [P6] Portada per blocs (mapa a sang, capçalera fora, peu unificat) | ❓ Decisió | **S9**; disseny gran. **Nota verbal (13/10):** no calen les opcions «Inici / Guies / Mapa»; vol un **efecte de salt en fer scroll** (que se sentin tres apartats) | «Ho tenim: fora l'índex i amb efecte de salt entre els tres blocs. T'ensenyem una prova.» |
+| D6 | [P6] Portada per blocs (mapa a sang, capçalera fora, peu unificat) | 🟡 Parcial | **Fet (13/10, `9167af7`):** fora la barra «Inici/Guies/Mapa» i salt de scroll (scroll-snap) entre els tres blocs a pantalla completa. Resta de S9 (mapa a sang, peu unificat) pendent. **Nota verbal (13/10):** no calen les opcions «Inici / Guies / Mapa»; vol un **efecte de salt en fer scroll** (que se sentin tres apartats) | «Ho tenim: fora l'índex i amb efecte de salt entre els tres blocs. T'ensenyem una prova.» |
 | D7 | [G1] **Menys espai blanc a cada banda** | 🟡 Parcial | Amplada de text feta (C11); contenidor central pendent | «Hem ampliat la columna de text; revisem també l'amplada central.» |
 | D8 | [ENQ-lectura] Botó d'escoltar a la dreta | ✔️ OK | Ja fet (R7) | «Fet.» |
 | D9 | [ENQ-lectura] dubte sobre **la veu** | ⏳ Informatiu | No és codi | «La veu la genera el navegador; en parlem i mirem alternatives.» |
