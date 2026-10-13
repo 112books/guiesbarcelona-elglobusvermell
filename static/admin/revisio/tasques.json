@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 17:42",
+  "actualitzat": "2026-10-13 17:55",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -1052,8 +1052,8 @@
       "ref": "PR1 · R8",
       "titol": "Anys de les xifres: 1400-2026 o s. XIV-2026",
       "cita": "Hem de revisar els anys, però això vindrà d'introduir correctament la informació a les fitxes... també veure si podem posar 1400-2026 o s. XIV - 2026.",
-      "context": "Depèn de normalitzar les dades de les fitxes.",
-      "descripcio": "A valorar amb les dades corregides."
+      "context": "Analitzat: l'element més antic de la col·lecció és del segle XI (any 1000): masia-can-cortada i torre-rodona; després vénen s. XIII, s. XIV, s. XV... La xifra actual (1928) és un valor editorial fixat a mà que no reflecteix les dades. Detall a .ai/informe-anys-xifres-2026-10-13.md.",
+      "descripcio": "Quina opció preferiu? (a) s. XI–2026, fidel a les dades (recomanada); (b) s. XIV–2026; (c) 1400–2026; (d) mantenir 1928–2026; (e) reformular l'etiqueta."
     },
     {
       "id": "r13-paleta",
