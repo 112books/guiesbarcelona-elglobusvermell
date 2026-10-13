@@ -114,6 +114,8 @@ deploy_staging() {
 
 nou_element() {
   echo ""
+  dim "  Crea només l'esquelet buit. Després: omple la fitxa i afegeix el slug de la"
+  dim "  guia al camp 'publicacions' perquè el punt surti al mapa."
   read -r -p "  Slug de l'element (ex: casa-mila): " slug
   [[ -z "$slug" ]] && { err "El slug no pot estar buit."; exit 1; }
   hugo new content "ca/elements/${slug}.md"
@@ -122,6 +124,8 @@ nou_element() {
 
 nova_publicacio() {
   echo ""
+  dim "  Crea només l'esquelet buit. Després: omple títol, edició i cos, i puja la"
+  dim "  portada i el PDF des del CMS o a mà."
   read -r -p "  Slug de la publicació (ex: barceloneta): " slug
   [[ -z "$slug" ]] && { err "El slug no pot estar buit."; exit 1; }
   hugo new content "ca/publicacions/${slug}/_index.md"
@@ -130,10 +134,28 @@ nova_publicacio() {
 
 nou_arquitecte() {
   echo ""
+  dim "  Crea només l'esquelet buit. Després: omple la descripció; els vincles amb"
+  dim "  els elements surten de cada fitxa d'element i de les intervencions."
   read -r -p "  Slug de l'arquitecte (ex: jose-luis-sert): " slug
   [[ -z "$slug" ]] && { err "El slug no pot estar buit."; exit 1; }
   hugo new content "ca/arquitectes/${slug}.md"
   ok "Creat: content/ca/arquitectes/${slug}.md"
+}
+
+ajuda() {
+  echo ""
+  echo "  Termes d'aquest projecte:"
+  echo "   · element    → un punt del mapa: un edifici o espai. Viu a content/ca/elements/."
+  echo "   · publicació → un plànol-guia de la col·lecció (NO un article de blog)."
+  echo "                   Viu a content/ca/publicacions/<slug>/_index.md."
+  echo "   · arquitecte → fitxa d'arquitecte o estudi, enllaçada des de les fitxes."
+  echo ""
+  echo "  Important: les opcions 'e', 'p' i 'a' NOMÉS creen un fitxer buit (esquelet)"
+  echo "  amb 'hugo new'. No omplen cap dada ni afegeixen el punt a cap guia."
+  echo "  Un cop creat, obre el CMS (/admin/) o edita el Markdown a mà per omplir el"
+  echo "  contingut. Per als elements, recorda afegir el slug de la guia al camp"
+  echo "  'publicacions' perquè el punt surti al mapa de la guia corresponent."
+  echo ""
 }
 
 # ── Menú ──────────────────────────────────────────────────────────────
@@ -154,8 +176,12 @@ echo "────────────────────────�
 echo " 5) Deploy  →  GitHub Pages (via GitHub Actions)"
 echo "───────────────────────────────────────────────"
 echo " e) Nou element"
+echo "      Punt del mapa (edifici o espai). Només crea l'esquelet buit."
 echo " p) Nova publicació"
+echo "      Plànol-guia de la col·lecció (no un article). Només crea l'esquelet."
 echo " a) Nou arquitecte"
+echo "      Fitxa d'arquitecte o estudi. Només crea l'esquelet buit."
+echo " h) Ajuda  (què vol dir cada terme i què falta després)"
 echo "───────────────────────────────────────────────"
 echo " 0) Sortir"
 echo ""
@@ -172,6 +198,7 @@ case $opt in
   e) nou_element ;;
   p) nova_publicacio ;;
   a) nou_arquitecte ;;
+  h) ajuda ;;
   0) exit 0 ;;
   *) err "Opció no vàlida: '${opt}'"; exit 1 ;;
 esac
