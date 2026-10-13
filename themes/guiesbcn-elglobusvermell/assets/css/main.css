@@ -1737,11 +1737,11 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   /* P8 — sense «pastilla» negra (Xavi, 30/9): fons del web i text fosc. */
   background: transparent;
   color: var(--color-text);
-  padding: var(--space-lg) var(--space-md);
+  padding: var(--space-lg) var(--seccio-pad-x, var(--space-md));
 }
 
 .pa-hero-inner {
-  max-width: 52rem;
+  max-width: var(--hero-max, 52rem);
   margin: 0 auto;
 }
 
@@ -1822,7 +1822,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 .pa-seccio {
   max-width: var(--contenidor-max, 64rem);
   margin: 0 auto;
-  padding: var(--space-lg) var(--space-md);
+  padding: var(--space-lg) var(--seccio-pad-x, var(--space-md));
   border-top: 3px solid var(--color-border);
 }
 
@@ -2080,7 +2080,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 /* ── Pàgina de contacte i formularis ─────────────────────────────────────── */
 
-.contacte-pagina { max-width: 48rem; }
+.contacte-pagina { max-width: var(--pagina-max, 48rem); }
 
 .contacte-intro {
   margin-bottom: var(--space-lg);

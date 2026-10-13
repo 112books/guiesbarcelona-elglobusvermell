@@ -56,19 +56,19 @@
 // R9 — prova d'amplades de columna: ?ample=1|2|3 (només per comparar).
 (function () {
   var p = new URLSearchParams(window.location.search).get('ample');
-  // Tres opcions (13/10): actual, més ample i la més ampla possible amb pocs marges.
-  // Xavi no va demanar cap variant estreta, així que no n'oferim.
-  // [contenidor de pàgina, columna de fitxa, intro «En paper», pàgines de text, etiqueta]. Afecta tot el web.
-  var vals = { '1': ['64rem', '52rem', '48rem', '48rem', 'a) com estava'], '2': ['64rem', '64rem', '60rem', '64rem', 'b) més ample'], '3': ['96vw', 'min(110rem, 96vw)', 'min(104rem, 96vw)', 'min(110rem, 96vw)', 'c) la més ampla, quasi sense marges'] };
+  // Tres opcions (13/10). Cada opció fixa UNA amplada per a tot el web: el contingut
+  // (fitxes, pàgines de text, portada) queda alineat amb el header i el peu.
+  var vals = { '1': ['52rem', 'a) com estava'], '2': ['64rem', 'b) més ample'], '3': ['96vw', 'c) la més ampla, quasi sense marges'] };
   if (!p || !vals[p]) return;
   var arrel = document.documentElement;
   arrel.style.setProperty('--contenidor-max', vals[p][0]);
-  arrel.style.setProperty('--lectura-max', vals[p][1]);
-  arrel.style.setProperty('--lectura-max-ep', vals[p][2]);
-  arrel.style.setProperty('--pagina-max', vals[p][3]);
+  ['--lectura-max', '--lectura-max-ep', '--pagina-max', '--hero-max'].forEach(function (v) {
+    arrel.style.setProperty(v, '100%');
+  });
+  arrel.style.setProperty('--seccio-pad-x', '0');
   var b = document.createElement('div');
   b.className = 'ample-badge';
-  b.innerHTML = 'Amplada: ' + vals[p][4] + ' · ' +
+  b.innerHTML = 'Amplada: ' + vals[p][1] + ' · ' +
     '<a href="?ample=1">a) com estava</a> <a href="?ample=2">b) més ample</a> <a href="?ample=3">c) la més ampla</a>';
   document.body.appendChild(b);
 }());
