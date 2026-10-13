@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-01",
+  "actualitzat": "2026-10-13 14:00",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -542,8 +542,8 @@
       "estat": "fet",
       "titol": "Navegació per blocs amb scroll a la portada",
       "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
-      "resultat": "Fet: la portada té una barra fixa sota el menú amb «Inici · Guies · Mapa» que ressalta el bloc on ets mentre baixes i t'hi porta en clicar.",
-      "posicio": "A en Joan li agrada; digueu-nos si us va bé o si preferiu treure-la.",
+      "resultat": "Fet: la portada s'ha reorganitzat per blocs i, en fer scroll, cada bloc s'imanta a pantalla (efecte de salt). Hem tret la barra «Inici · Guies · Mapa» (no la volíeu): ara els blocs se senten com tres apartats. Proper pas: mapa a sang i peu unificat.",
+      "posicio": "Segons la vostra nota verbal del 13/10: fora l'índex de blocs i efecte de salt en fer scroll. Ho acabem d'ajustar amb el mapa a sang i el peu unificat.",
       "enllacos": [
         {
           "label": "Portada",
@@ -738,7 +738,7 @@
       "estat": "fet",
       "titol": "Carrusel de portades: infinit i amb arrossegament",
       "cita": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
-      "resultat": "Fet: el carrusel de «En paper» ara és infinit (després de l'últim torna el primer), a escriptori no mostra la barra de desplaçament i s'arrossega amb el cursor. Les portades són una mica més grans (de 130 a 150 px).",
+      "resultat": "Fet: el carrusel de «En paper» és infinit (després de l'últim torna el primer), a escriptori no mostra la barra de desplaçament i s'arrossega amb el cursor. Ara, a més, té fletxes ‹ › als cantons i portades més grans i responsives (150 px al mòbil, 190 px a tauleta i 220 px a escriptori).",
       "enllacos": [
         {
           "label": "En paper",

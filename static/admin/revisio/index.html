@@ -20,6 +20,7 @@
       letter-spacing: 0.16em; text-transform: uppercase; }
     main { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem 12rem; }
     .r-intro { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.15rem; margin-bottom: 1.25rem; font-size: 0.95rem; }
+    .r-actualitzat { margin: 0.5rem 0 0; font-size: 0.78rem; color: var(--ink3); }
     .r-filtre { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin: 0 0 1.5rem; }
     .r-filtre-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); margin-right: 0.2rem; }
     .r-filtre-btn { font: inherit; font-size: 0.85rem; padding: 0.35rem 0.8rem; border: 1px solid var(--border); background: var(--surface); color: var(--ink2); cursor: pointer; border-radius: 2rem; }
@@ -87,6 +88,7 @@
   <header class="r-header">
     <a href="../" aria-label="Tornar a l'administrador"><img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg" alt="Guies de Barcelona de El Globus Vermell"></a>
     <h1>Revisió de canvis i decisions</h1>
+    <p class="r-actualitzat" id="r-actualitzat"></p>
   </header>
 
   <main>
@@ -511,6 +513,8 @@
 
     function pinta() {
       document.getElementById("r-intro").textContent = DADES.intro;
+      var act = document.getElementById("r-actualitzat");
+      if (act) act.textContent = DADES.actualitzat ? "Darrera actualització: " + DADES.actualitzat : "";
       var contD = document.getElementById("r-decisions");
       for (var i = 0; i < DADES.decisions.length; i++) contD.appendChild(construeixDecixo(DADES.decisions[i]));
       var contC = document.getElementById("r-canvis");
