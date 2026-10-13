@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 15:41",
+  "actualitzat": "2026-10-13 16:06",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -575,8 +575,8 @@
       "estat": "fet",
       "titol": "Navegació per blocs amb scroll a la portada",
       "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
-      "resultat": "Fet: la portada s'ha reorganitzat per blocs i, en fer scroll, cada bloc s'imanta a pantalla (efecte de salt). Hem tret la barra «Inici · Guies · Mapa» (no la volíeu): ara els blocs se senten com tres apartats. Proper pas: mapa a sang i peu unificat.",
-      "posicio": "Segons la vostra nota verbal del 13/10: fora l'índex de blocs i efecte de salt en fer scroll. Ho acabem d'ajustar amb el mapa a sang i el peu unificat.",
+      "resultat": "Fet: la portada té tres blocs a pantalla completa amb salt en fer scroll: (1) logo gran + frase + «Saber més del projecte»; (2) el mapa a sang, navegable i sense filtres, amb botó «Veure filtres i cercar»; (3) el carrusel de plànols-guia (infinit) amb accés a En paper i les xifres del projecte. La capçalera no surt a la portada; a la resta del web es manté. Pendent: unificar el peu en un sol bloc.",
+      "posicio": "Segons la vostra nota verbal del 13/10 i l'esbós del bloc de portada (P6). El peu unificat el fem a continuació.",
       "enllacos": [
         {
           "label": "Portada",
@@ -771,7 +771,7 @@
       "estat": "fet",
       "titol": "Carrusel de portades: infinit i amb arrossegament",
       "cita": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
-      "resultat": "Fet: el carrusel de «En paper» és infinit (després de l'últim torna el primer), a escriptori no mostra la barra de desplaçament i s'arrossega amb el cursor. Ara, a més, té fletxes ‹ › als cantons i portades més grans i responsives (150 px al mòbil, 190 px a tauleta i 220 px a escriptori).",
+      "resultat": "Fet: el carrusel de «En paper» té fletxes ‹ › als cantons i portades més grans i responsives (150 px al mòbil, 190 px a tauleta i 220 px a escriptori). D'acord amb la vostra proposta, ara és FINIT a «En paper» (s'atura al final) i l'hem passat a la portada en versió INFINITA.",
       "enllacos": [
         {
           "label": "En paper",
@@ -816,6 +816,19 @@
         {
           "label": "Comparar tipografies",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
+        }
+      ]
+    },
+    {
+      "id": "portada-s9",
+      "ref": "P3 · P6",
+      "estat": "fet",
+      "titol": "Portada per blocs: hero, mapa a sang i carrusel de plànols",
+      "resultat": "Fet: la portada té tres blocs a pantalla completa (logo + frase; mapa navegable a sang amb botó «Veure filtres i cercar»; carrusel infinit de plànols-guia amb accés a En paper i xifres). Fora la capçalera a la portada; a la resta del web es manté.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
         }
       ]
     },

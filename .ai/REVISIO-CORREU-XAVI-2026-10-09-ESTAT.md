@@ -58,7 +58,7 @@
 | D3 | [M5] La «i» dels temes sense color | ✅ Fet | `2b6bbd8`: la «i» usa gris neutre | «Fet: la «i» ara és grisa.» |
 | D4 | [F6] Fotos B/N: explorar color parcial | ⏳ Equip | **S14** | «Ho deixem en blanc i negre i seguim explorant el color al patrimoni industrial.» |
 | D5 | [P7] Splash mòbil | ✔️ OK | — | «Perfecte, gràcies.» |
-| D6 | [P6] Portada per blocs (mapa a sang, capçalera fora, peu unificat) | 🟡 Parcial | **Fet (13/10, `9167af7`):** fora la barra «Inici/Guies/Mapa» i salt de scroll (scroll-snap) entre els tres blocs a pantalla completa. Resta de S9 (mapa a sang, peu unificat) pendent. **Nota verbal (13/10):** no calen les opcions «Inici / Guies / Mapa»; vol un **efecte de salt en fer scroll** (que se sentin tres apartats) | «Ho tenim: fora l'índex i amb efecte de salt entre els tres blocs. T'ensenyem una prova.» |
+| D6 | [P6] Portada per blocs (mapa a sang, capçalera fora, peu unificat) | 🟡 Fet tècnicament (13/10) | **Fet:** tres blocs a pantalla completa (hero amb logo; **mapa a sang navegable** amb botó «Veure filtres i cercar»; **carrusel infinit** de plànols + xifres); **capçalera fora** a la portada; salt de scroll. **Pendent: peu unificat.** | «Ja tenim els tres blocs amb el mapa navegable i el carrusel. Mireu-ho i acabeu de dir-nos el peu.» |
 | D7 | [G1] **Menys espai blanc a cada banda** | 🟡 Parcial | Amplada de text feta (C11); contenidor central pendent | «Hem ampliat la columna de text; revisem també l'amplada central.» |
 | D8 | [ENQ-lectura] Botó d'escoltar a la dreta | ✔️ OK | Ja fet (R7) | «Fet.» |
 | D9 | [ENQ-lectura] dubte sobre **la veu** | ⏳ Informatiu | No és codi | «La veu la genera el navegador; en parlem i mirem alternatives.» |
@@ -72,7 +72,7 @@
 | D17 | [P5] T09 portada sense destacats | ⏳ Decisió | Es resol amb **S9** (sense índex «Inici/Guies/Mapa» i amb salt de scroll) | «Ho integrem al nou disseny de portada.» |
 | D18 | [FU1] CMS crear fitxes | ✅ Fet (amb A2) | `755e2ae` | «Ja pots tornar a provar de crear la fitxa de la Vall d'Hebron.» |
 | D19 | [R1] Filtre del mapa | ✅ Fet | `2b6bbd8` | «Corregit.» |
-| D20 | [EP3·R4] Carrusel infinit/arrossegament; infinit a portada i finit a «En paper»? | 🟡 Parcial | Ja existeix; matís pendent | «Ho deixem infinit a la portada i finit a «En paper», com suggereixes.» |
+| D20 | [EP3·R4] Carrusel infinit/arrossegament; infinit a portada i finit a «En paper»? | ✅ Fet (13/10) | **Infinit a la portada i finit a «En paper»**; fletxes i portades grans a tots dos | «Fet: infinit a la portada i finit a En paper, tal com demanaves.» |
 | D21 | [P7·R6] Splash | ✔️ OK | — | «Genial.» |
 | D22 | [ENQ-lectura·R7] Botó escoltar a la dreta | ✔️ OK | — | «Fet.» |
 | D23 | [G2·G3·F7·R10] Icones mòbil | ✔️ OK | — | «Fet.» |
