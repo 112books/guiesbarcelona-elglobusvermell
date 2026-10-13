@@ -43,7 +43,7 @@
 | C8 | [EP3] Carrusel **infinit** + amagar scrollbar / arrossegar / portades grans | 🟡 Parcial | Infinit i arrossegament **ja hi són** (`en-paper/list.html`); mida/fletxes pendents | «L'infinit i l'arrossegament ja funcionen; acabem d'ajustar scrollbar i mides.» |
 | C9 | [GR1·GR2] Paleta definitiva + **el filtre del mapa no funciona** | 🟡 | Paleta **S23** espera Xavi; **filtre**: arreglat **S25** (`2b6bbd8`) | «El filtre ja està corregit; esperem la paleta per aplicar colors.» |
 | C10 | [GR3] **Tipografia**: 2-3 opcions lliures | ⏳ Pendent | **S24** | «T'enviem 2-3 propostes d'ús lliure per triar.» |
-| C11 | [G1] Amplada de columna de text | 🟡 En revisió | Prova `?ample=1\|2\|3` **ampliada (13/10)**: opció 2 = **68 rem**, opció 3 = **`min(110rem, 96vw)`** (gairebé a sang); per defecte, 64 rem | «Hem ampliat les opcions 2 i 3; la 3 gairebé no té blanc als laterals. Torna a provar i ens dius quina vols per defecte.» |
+| C11 | [G1] Amplada de columna de text | ⏳ **Pendent (tria Xavi)** | Prova `?ample=1\|2\|3` redefinida (13/10): **1 actual** = 52 rem · **2 més ample** = 64 rem · **3 la més ampla** = `min(110rem, 96vw)` (pocs marges). Fora la variant estreta. Defecte: 64 rem | «Tres opcions: actual, més ample i la més ampla amb pocs marges. Tria quina deixem per defecte.» |
 | C12 | [MIG-1] Navas: redirigir genèrica a la 240 | ✅ Fet | `5ac617a`: eliminades genèrica i 238, redirigides | «Fet: queda només la 240 (Casa Nativitat Vedruna).» |
 | C13 | [MIG-2] Plaça Mons | ✅ Fet | `5ac617a`: eliminada «Casa unifamiliar» (Duran i Reynals) | «Fet: queda Casa Lluís Barangé.» |
 | C14 | [MIG-3] Pavelló de la República: fusionar | ✅ Fet | `5ac617a`: fusionades en una sola fitxa | «Fet: una sola fitxa.» |
@@ -80,7 +80,7 @@
 | D25 | [M5·R2] Temes transversals: pàgina pròpia + mapa | ✔️ OK | — | «Fet.» |
 | D26 | [T07·R11] Un sol formulari a Contacte | ✔️ OK | — | «Fet.» |
 | D27 | [ENQ-autoria] CC BY-NC 4.0 | ✔️ OK | — | «Fet.» |
-| D28 | [G1·R9] Amplada de text | 🟡 En revisió | `1c56730` (64 rem) + prova ampliada al `baseof` (2 = 68 rem; 3 = gairebé a sang) | «Mira les noves opcions 2 i 3 i ens dius quina deixem per defecte.» |
+| D28 | [G1·R9] Amplada de text | ⏳ **Pendent (tria Xavi)** | `baseof`: 1 actual (52) · 2 més ample (64) · 3 la més ampla (pocs marges) | «Mira les tres opcions i ens dius quina deixem per defecte.» |
 | D29 | [ENQ-autoria] Nom d'arxiu de les fotos descarregades | ✅ Fet | `2b6bbd8`: nom = nom de la fitxa, sense «elglobusvermell» | «Fet.» |
 | D30 | [C2] Contacte editable al CMS | ✔️ OK | — | «Fet.» |
 | D31 | [F5] Arquitectes clicables i any en un sol camp | 🟡 Parcial | `598c117`/`a712805`: tipus «Projecte» per defecte i **autors clicables**; falta **retirar el camp «arquitectes» duplicat** (migració de dades, B2) | «Els arquitectes de les intervencions ja són clicables i «projecte» surt per defecte. El camp repetit l'eliminem quan netegem les dades.»
@@ -96,7 +96,7 @@
 ## Resum
 
 - ✅ **Fets en aquest lot:** A1, A2, C3, C12–C15, D1, D2 (part títols), D3, D13, D18, D19, D20 (base), D29, D31 (part).
-- 🟡 **En revisió:** C11, D28 (amplada de text: prova 2-3 ampliada, pendent de triar).
+- ⏳ **Pendent de triar (Xavi):** C11 i D28 (amplada: actual / més ample / la més ampla) i **D6/D17** (portada: fora «Inici/Guies/Mapa» + efecte de salt en scroll).
 - ❓ **Pendents de decisió:** A3, B2, C2, C5, D6 (nota verbal: fora índex + salt de scroll), D17, D31 (resta).
 - 🟡 **Parcials a acabar:** B1, B3, C8, C9, D2, D7, D20.
 - ⏳ **Pendents de fer:** B4, C7, C10, D4, D9, D10.

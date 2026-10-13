@@ -14,6 +14,12 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 - 🟡 **Altres**: S13 (color de la «i»), S14 (color parcial B/N), S16 (veu), S17 (anys), S18–S20 (duplicats de migració), S21 (cognom arquitectes), S22 (pins multicolor), S25 (punts amagats clicables), S26 (intervencions), S27 (nom d'arxiu).
 - ⏳ **Pendent resposta Xavi**: tipografia (S24), paleta (S23), manual vs automàtic a «projecte» (S6), dubte vinculació arquitectes (S21), tall del domini i usuaris GitHub.
 
+### Pendents (13/10)
+
+- ⏳ **Amplada de la columna de text (G1/R9)** — deixar triar a Xavi entre tres opcions: **actual** (52 rem), **més ample** (64 rem) i **la més ampla** (`min(110rem, 96vw)`, pocs marges). Fora la variant estreta.
+- ⏳ **Efecte de salt en scroll a la portada (S9/P6)** — Xavi ho va dir de viva veu: sense opcions «Inici / Guies / Mapa»; els tres blocs han de donar sensació de tres apartats amb salt en fer scroll.
+- Detall a `.ai/REVISIO-CORREU-XAVI-2026-10-09-ESTAT.md` (C11, D28, D6, D17 i «Notes verbals»).
+
 ### Fets (loop 2026-10-10)
 
 - ✅ **S2** — fora la faixa de color i el color del títol a les fitxes.

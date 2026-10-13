@@ -56,8 +56,9 @@
 // R9 — prova d'amplades de columna: ?ample=1|2|3 (només per comparar).
 (function () {
   var p = new URLSearchParams(window.location.search).get('ample');
-  // Opcions 2 i 3 més àmplies (13/10): la 3, gairebé sense espai blanc als laterals.
-  var vals = { '1': ['46rem', '42rem', 'estreta'], '2': ['68rem', '64rem', 'mitjana'], '3': ['min(110rem, 96vw)', 'min(104rem, 96vw)', 'àmplia'] };
+  // Tres opcions (13/10): actual, més ample i la més ampla possible amb pocs marges.
+  // Xavi no va demanar cap variant estreta, així que no n'oferim.
+  var vals = { '1': ['52rem', '48rem', 'actual'], '2': ['64rem', '60rem', 'més ample'], '3': ['min(110rem, 96vw)', 'min(104rem, 96vw)', 'la més ampla'] };
   if (!p || !vals[p]) return;
   var arrel = document.documentElement;
   arrel.style.setProperty('--lectura-max', vals[p][0]);
