@@ -213,7 +213,7 @@ main {
 }
 
 .pagina-contingut {
-  max-width: 48rem;
+  max-width: var(--pagina-max, 48rem);
 }
 
 .accessibilitat-badges {
@@ -257,7 +257,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 64rem;
+  max-width: var(--contenidor-max, 64rem);
   margin: 0 auto var(--space-md);
   padding: 0 var(--space-md);
 }
@@ -310,7 +310,7 @@ main {
 }
 
 .footer-legal {
-  max-width: 64rem;
+  max-width: var(--contenidor-max, 64rem);
   margin: var(--space-md) auto 0;
   padding-top: var(--space-md);
   border-top: 1px solid var(--color-border);
@@ -1734,8 +1734,9 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 /* Hero */
 .pa-hero {
-  background: var(--color-text);
-  color: #fff;
+  /* P8 — sense «pastilla» negra (Xavi, 30/9): fons del web i text fosc. */
+  background: transparent;
+  color: var(--color-text);
   padding: var(--space-lg) var(--space-md);
 }
 
@@ -1758,7 +1759,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   font-weight: 700;
   line-height: 1.15;
   margin: 0 0 var(--space-lg);
-  color: #fff;
+  color: var(--color-text);
 }
 
 .pa-stats {
@@ -1778,8 +1779,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 700;
   line-height: 1;
-  /* Sobre el fons fosc del hero, blanc: l'accent fosc no hi tindria contrast. */
-  color: #fff;
+  color: var(--color-text);
 }
 
 .pa-stat-lab {
@@ -1820,7 +1820,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 /* Seccions genèriques */
 .pa-seccio {
-  max-width: 64rem;
+  max-width: var(--contenidor-max, 64rem);
   margin: 0 auto;
   padding: var(--space-lg) var(--space-md);
   border-top: 3px solid var(--color-border);
@@ -2006,7 +2006,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 .pa-recursos {
   background: #f8f9fa;
   border-radius: 0.5rem;
-  max-width: 64rem;
+  max-width: var(--contenidor-max, 64rem);
   margin: var(--space-lg) auto;
   border-top: none !important;
   padding: var(--space-lg) var(--space-md);
@@ -2034,8 +2034,10 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 /* CTA final mapa */
 .pa-mapa-cta {
-  background: var(--color-text);
-  color: #fff;
+  /* P8 — sense «pastilla» negra: separat amb la mateixa línia que les seccions. */
+  background: transparent;
+  color: var(--color-text);
+  border-top: 3px solid var(--color-border);
   padding: var(--space-lg) var(--space-md);
   text-align: center;
   margin-top: var(--space-lg);
@@ -2056,8 +2058,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   margin: 0;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #fff;
-  opacity: 0.85;
+  color: var(--color-text);
 }
 
 /* Responsiu */
@@ -2479,7 +2480,7 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 64rem;
+  max-width: var(--contenidor-max, 64rem);
   height: 100%;
   margin: 0 auto;
   padding: 0 var(--space-md);
