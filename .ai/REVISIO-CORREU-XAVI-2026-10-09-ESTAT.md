@@ -95,7 +95,15 @@
 
 ## Notes verbals (no són al correu)
 
-- **Portada (13/10, dit de viva veu):** Xavi diu que **no calen les opcions «Inici / Guies / Mapa»** i que el que vol és un **efecte de salt en fer scroll** (que els tres blocs se sentin com tres apartats). S'integra a **S9** (files **D6** i **D17**).
+- **Portada (13/10, dit de viva veu):** Xavi diu que **no calen les opcions «Inici / Guies / Mapa»** i que el que vol és un **efecte de salt en fer scroll** — concretament **scroll snapping amb `proximity`** (magnètic però flexible), no `mandatory`. S'integra a **S9** (files **D6** i **D17**).
+
+---
+
+## Proves fetes (13/10, tarda)
+
+- ✅ **Portada-test**: creada la pàgina **`/portada-test/`** amb la proposta S9 (hero + mapa a sang + carrusel + xifres) i **salt de scroll `proximity`**. El mapa s'ha provat amb Chrome headless: **656 pins i tiles carregats**, sense errors de JS.
+- ✅ **P4·G1 5·5·3**: aplicat a la **portada actual** (graella de guies a 5 columnes; 4/3/2 als breakpoints petits), perquè no quedi cap guia despenjada.
+- ✅ **Tauler de revisió**: nova decisió **`fitxa-arquitectes-projecte`** sobre la **duplicitat «Arquitectes» / «Projecte»** (212 de 658 fitxes) perquè en Xavi decideixi.
 
 ---
 

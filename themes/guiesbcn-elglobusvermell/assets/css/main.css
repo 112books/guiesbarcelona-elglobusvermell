@@ -1919,11 +1919,14 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 /* Graella de guies */
 .pa-guies-grid {
   display: grid;
-  /* Màxim 7 columnes: en pantalles amples (prova c) les 13 guies queden 7+6
-     i no 12+1 amb una de despenjada. Amb amplades menors no canvia res. */
-  grid-template-columns: repeat(auto-fill, minmax(max(130px, calc((100% - 6 * var(--space-sm)) / 7)), 1fr));
+  /* 5 columnes en escriptori: les 13 guies queden 5+5+3, sense despenjades
+     (Xavi, 13/10). Als breakpoints petits es redueix el nombre de columnes. */
+  grid-template-columns: repeat(5, 1fr);
   gap: var(--space-sm);
 }
+@media (max-width: 64rem) { .pa-guies-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 48rem) { .pa-guies-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 32rem) { .pa-guies-grid { grid-template-columns: repeat(2, 1fr); } }
 
 .pa-guia-card {
   display: flex;
@@ -2510,6 +2513,42 @@ html:has(.portada-alt) {
 .portada-alt > .pa-mapa-cta { margin-top: 0; }
 @media (prefers-reduced-motion: reduce) {
   html:has(.portada-alt) { scroll-snap-type: none; }
+}
+
+/* ── Pàgina de prova de la portada S9 (/portada-test/) ──────────────────────
+   Replica la proposta de la branca portada-s9-revisio sense tocar la portada
+   actual: capçalera fora, blocs a pantalla completa i salt de scroll (proximity). */
+.portada-test { max-width: 100%; padding: 0; }
+html:has(.portada-test) {
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 0;
+}
+.portada-test > section { scroll-snap-align: start; min-height: 100svh; }
+html:has(.portada-test) .site-header { display: none; }
+html:has(.portada-test) .skip-link { top: 0.5rem; }
+.portada-test .pa-hero {
+  display: flex; flex-direction: column; justify-content: center;
+  text-align: center;
+}
+.portada-test .pa-hero-inner { max-width: var(--hero-max, 52rem); margin: 0 auto; }
+.portada-test .pa-hero-logo { display: block; width: min(520px, 80vw); height: auto; margin: 0 auto var(--space-lg); }
+.portada-test .pa-guies { display: flex; flex-direction: column; justify-content: center; }
+.portada-test .pa-mapa { position: relative; padding: 0; background: #ecebe7; }
+.portada-test .pa-mapa-el { position: absolute; inset: 0; }
+.portada-test .pa-mapa-btn { position: absolute; left: 50%; bottom: 1.5rem; transform: translateX(-50%); z-index: 500; }
+.portada-test .pa-stats--portada {
+  justify-content: center; text-align: center; margin-top: var(--space-lg);
+  border-top: 1px solid var(--color-border); padding-top: var(--space-md);
+}
+.portada-test .pa-stats--portada .pa-stat { align-items: center; }
+.portada-test .pa-stats--portada .pa-stat-num { font-size: clamp(1.6rem, 3.5vw, 2.4rem); }
+.portada-test__avis {
+  position: fixed; bottom: 1rem; left: 1rem; z-index: 6000;
+  background: #111; color: #fff; font: 0.8rem/1.4 system-ui, sans-serif;
+  padding: 0.4rem 0.8rem; border-radius: 2rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(.portada-test) { scroll-snap-type: none; }
 }
 
 /* F6 — fotos en blanc i negre. Per revertir-ho: treu la classe "fotos-bn" de <html>. */

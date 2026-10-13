@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 19:03",
+  "actualitzat": "2026-10-13 21:05",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -492,6 +492,38 @@
       ],
       "recomanacio": "camp-cognom",
       "posicio": "Ho podem implementar amb un camp opcional editat des de l'editor; no afecta les URL."
+    },
+    {
+      "id": "fitxa-arquitectes-projecte",
+      "titol": "Duplicitat «Arquitectes» i «Projecte» a les fitxes",
+      "cita": "La idea és fer desaparèixer la informació repetida i, per tant, el camp \"arquitectes\". Ara apareix exactament la mateixa informació a arquitectes i a projecte.",
+      "context": "Comprovat: 212 de 658 fitxes tenen el nom de l'arquitecte duplicat al camp «arquitectes» i a la intervenció de tipus «Projecte» (222 tenen els dos camps; en 10 no coincideixen del tot). La fitxa mostra les dues files i sembla repetit. A .ai/DIAGNOSI-TRASPAS-2026-10.md hi ha el detall.",
+      "descripcio": "Què preferiu que fem?",
+      "opcions": [
+        {
+          "id": "amagar",
+          "label": "Mostrar només la fila «Projecte» i amagar «Arquitectes» quan ja hi és",
+          "detall": "Canvi de plantilla, sense tocar dades; ràpid i reversible."
+        },
+        {
+          "id": "netejar",
+          "label": "Unificar les dades: treure el camp «arquitectes» redundant",
+          "detall": "Migració de les 212 fitxes; més net a llarg termini."
+        },
+        {
+          "id": "diferents",
+          "label": "Diferenciar les dues files",
+          "detall": "«Arquitectes» = autoria; «Projecte» = tipus d'intervenció."
+        },
+        {
+          "id": "deixar",
+          "label": "Deixar-ho com està",
+          "detall": ""
+        }
+      ],
+      "recomanacio": "amagar",
+      "ref": "F5 · S26",
+      "estat": "pendent"
     }
   ],
   "canvis": [
@@ -1095,13 +1127,6 @@
       "titol": "Actualitzar el tauler de revisió al final del projecte",
       "context": "Quan el web estigui acabat, cal repassar el tauler perquè hi quedi tot ben explicat: què s'ha fet, què ha quedat pendent i quines decisions s'han pres.",
       "descripcio": "Anotat per Joan l'1/10 com a tancament del projecte."
-    },
-    {
-      "id": "fitxa-arquitectes-projecte",
-      "ref": "PER-14/10",
-      "titol": "Fitxa: «Arquitectes» i «Projecte» amb la mateixa informacio",
-      "context": "A cada fitxa del planol surten les seccions «Arquitectes» i «Projecte» amb la mateixa informacio. Cal comprovar-ho i confirmar si ho havia demanat Xavi.",
-      "descripcio": "Verificar i, si cal, unificar o diferenciar les dues seccions."
     }
   ]
 }
