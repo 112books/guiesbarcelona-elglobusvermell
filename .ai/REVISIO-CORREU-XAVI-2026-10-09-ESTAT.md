@@ -62,7 +62,7 @@
 | D7 | [G1] **Menys espai blanc a cada banda** | 🟡 Parcial | Amplada de text feta (C11); contenidor central pendent | «Hem ampliat la columna de text; revisem també l'amplada central.» |
 | D8 | [ENQ-lectura] Botó d'escoltar a la dreta | ✔️ OK | Ja fet (R7) | «Fet.» |
 | D9 | [ENQ-lectura] dubte sobre **la veu** | ⏳ Informatiu | No és codi | «La veu la genera el navegador; en parlem i mirem alternatives.» |
-| D10 | [PR1] Anys de les xifres (1400-2026 vs s. XIV-2026) | ⏳ Pendent | **S17**, lligat a les fitxes | «Ho revisem quan normalitzem les dades.» |
+| D10 | [PR1] Anys de les xifres (1400-2026 vs s. XIV-2026) | 🟡 Analitzat (13/10) | **El més antic és s. XI (any 1000)**, no 1400: `.ai/informe-anys-xifres-2026-10-13.md` amb 5 opcions | «Les dades diuen s. XI; quina opció vols que posem?» |
 | D11 | [G2·G3·F7] T01–T03 + icones mòbil | ✔️ OK | R10 verificat | «Fet.» |
 | D12 | [M1] T04 zoom | ✔️ OK | — | «Fet.» |
 | D13 | [M4] T05 punts amagats clicables | ✅ Fet | `2b6bbd8` (mateix que D1) | «Corregit.» |
