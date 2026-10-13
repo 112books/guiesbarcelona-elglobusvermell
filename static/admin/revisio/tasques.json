@@ -1068,8 +1068,8 @@
       "ref": "B3 · S7",
       "titol": "Adreces dins del text de les fitxes",
       "cita": "Camp adreça atrapat en altres llocs.",
-      "context": "Hem detectat 85 fitxes on la descripció comença amb una adreça; en 69 l'adreça ja és al camp i es repeteix al text. Informe complet a .ai/informe-adreces-descripcio-2026-10-13.md.",
-      "descripcio": "Voleu que netegem els duplicats i traslladem les adreces que falten? No s'aplica res sense el vostre vist-i-plau."
+      "context": "Hem detectat 85 fitxes on la descripció comença amb una adreça: 36 són duplicats clars (només cal treure el prefix que repeteix l'adreça del camp) i 49 necessiten revisió manual. Informe complet a .ai/informe-adreces-descripcio-2026-10-13.md.",
+      "descripcio": "Voleu que apliquem els 36 casos nets? No s'aplica res sense el vostre vist-i-plau."
     },
     {
       "id": "tauler-final",
