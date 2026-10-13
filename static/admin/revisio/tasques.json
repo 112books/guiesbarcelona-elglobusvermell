@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 14:27",
+  "actualitzat": "2026-10-13 15:41",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -337,7 +337,7 @@
         }
       ],
       "recomanacio": "instrument",
-      "posicio": "Detall i llicències a .ai/informe-tipografia-2026-10-13.md."
+      "posicio": "Compareu les tres opcions amb text real a /admin/tipografia/. Detall i llicències a .ai/informe-tipografia-2026-10-13.md."
     },
     {
       "id": "g1-columnes",
@@ -803,6 +803,19 @@
         {
           "label": "Una de les 6 (sense foto)",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-bon-pastor-josefina-castellvi/"
+        }
+      ]
+    },
+    {
+      "id": "tipografia-comparacio",
+      "ref": "GR3 · C10",
+      "estat": "fet",
+      "titol": "Pàgina de comparació de tipografia (amb text de mostra)",
+      "resultat": "Fet: pàgina amb el mateix text de mostra en les tres famílies proposades (Instrument Sans, Public Sans i Space Grotesk) i la tipografia actual del sistema, amb un filtre per veure'n una de sola. Trieu la que us agradi més i ens ho dieu.",
+      "enllacos": [
+        {
+          "label": "Comparar tipografies",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
         }
       ]
     },

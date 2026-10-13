@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Tipografia — comparació · Guies Barcelona</title>
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link rel="stylesheet" href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700|public-sans:400,500,600,700|space-grotesk:400,500,600,700">
+<style>
+  :root { --ink:#111110; --ink2:#3d3d39; --ink3:#62625d; --border:#d8d8d2; --surface:#fff; --bg:#f5f4f0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; line-height:1.55; }
+  header { text-align:center; padding:1.6rem 1rem 1rem; background:#fff; border-bottom:1px solid var(--border); }
+  header img { height:2.6rem; width:auto; }
+  header h1 { margin:.6rem 0 0; font-size:.78rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ink3); font-weight:400; }
+  main { max-width:1080px; margin:0 auto; padding:1.4rem 1rem 4rem; }
+  .intro { background:var(--surface); border:1px solid var(--border); padding:1rem 1.15rem; font-size:.95rem; margin-bottom:1rem; }
+  .switch { display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1.25rem; }
+  .switch button { font:inherit; font-size:.88rem; padding:.4rem .85rem; border:1px solid var(--border); background:#fff; color:var(--ink2); border-radius:2rem; cursor:pointer; }
+  .switch button.is-actiu { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .opcio { background:var(--surface); border:1px solid var(--border); padding:1.25rem 1.35rem 1.5rem; margin-bottom:1.1rem; }
+  .opcio-cap { display:flex; flex-wrap:wrap; gap:.5rem 1rem; align-items:baseline; border-bottom:1px solid var(--border); padding-bottom:.6rem; margin-bottom:1rem; }
+  .opcio-nom { font-size:1.05rem; font-weight:700; }
+  .opcio-llic { font-size:.78rem; color:var(--ink3); }
+  .sample-nav { font-size:.7rem; letter-spacing:.12em; text-transform:uppercase; color:var(--ink3); margin-bottom:1rem; }
+  .sample-nav span { margin-right:1.1rem; }
+  .sample-h1 { font-size:clamp(1.8rem,3.6vw,2.8rem); font-weight:700; line-height:1.1; margin:0 0 .8rem; }
+  .sample-h2 { font-size:1.25rem; font-weight:600; margin:1.4rem 0 .5rem; }
+  .sample-p { font-size:1.125rem; max-width:62ch; margin:0 0 1rem; }
+  .sample-petit { font-size:.9rem; color:var(--ink2); max-width:62ch; }
+  .sample-xifres { display:flex; flex-wrap:wrap; gap:1.5rem; margin:1.2rem 0; }
+  .sample-xifres b { display:block; font-size:1.9rem; line-height:1; }
+  .sample-xifres small { font-size:.75rem; text-transform:uppercase; letter-spacing:.06em; color:var(--ink3); }
+  .sample-fitxa { border:1px solid var(--border); padding:.6rem .8rem; font-size:.95rem; max-width:52ch; }
+  .nota { font-size:.85rem; color:var(--ink3); margin-top:2rem; }
+  .f-instrument { font-family:'Instrument Sans',sans-serif; }
+  .f-public { font-family:'Public Sans',sans-serif; }
+  .f-space { font-family:'Space Grotesk',sans-serif; }
+  .f-space .sample-p, .f-space .sample-petit, .f-space .sample-fitxa { font-family:'Instrument Sans',sans-serif; }
+  html[data-filtre="instrument"] .opcio:not([data-font="instrument"]),
+  html[data-filtre="public"] .opcio:not([data-font="public"]),
+  html[data-filtre="space"] .opcio:not([data-font="space"]),
+  html[data-filtre="sistema"] .opcio:not([data-font="sistema"]) { display:none; }
+</style>
+</head>
+<body>
+<header>
+  <a href="../" aria-label="Tornar a l'administrador"><img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg" alt="Guies de Barcelona de El Globus Vermell"></a>
+  <h1>Tipografia — comparació d'opcions</h1>
+</header>
+<main>
+  <div class="intro">
+    <p style="margin:0 0 .5rem"><strong>Text de mostra</strong> (no és contingut real) amb cada família tipogràfica. Les tres són de <strong>llicència oberta (OFL)</strong> i s'instal·larien al nostre servidor, sense dependre de Google. Mireu les lletres, la lectura dels paràgrafs i el to general, i digueu-nos quina preferiu.</p>
+    <p style="margin:0;font-size:.88rem;color:var(--ink3)">Consell: mireu-ho en ordinador i en mòbil. Podeu filtrar per veure'n només una.</p>
+  </div>
+  <div class="switch" role="group" aria-label="Mostra les opcions">
+    <button type="button" class="is-actiu" data-font="totes">Totes</button>
+    <button type="button" data-font="sistema">Sistema (actual)</button>
+    <button type="button" data-font="instrument">Instrument Sans</button>
+    <button type="button" data-font="public">Public Sans</button>
+    <button type="button" data-font="space">Space Grotesk</button>
+  </div>
+
+  <section class="opcio" data-font="sistema">
+    <div class="opcio-cap"><span class="opcio-nom">Sistema (actual)</span> <span class="opcio-llic">pila del dispositiu · sense càrrega</span></div>
+    <div class="sample-nav"><span>Presentació</span><span>Mapa</span><span>En paper</span><span>Arquitectes</span><span>Contacte</span></div>
+    <h3 class="sample-h1">Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia.</h3>
+    <p class="sample-p">El Grup d'Arquitectes i Tècnics Catalans per al Progrés de l'Arquitectura Contemporània va impulsar, durant els anys trenta, una arquitectura racionalista arrelada al territori. La seva obra va transformar la manera d'entendre l'habitatge, l'escola i l'espai públic a Barcelona.</p>
+    <h4 class="sample-h2">El GATCPAC i la Barcelona racionalista</h4>
+    <p class="sample-petit">Aquesta guia recull els edificis i espais més significatius d'aquell moment, amb fotografies, adreces i dades per recórrer-los a peu. Cada fitxa inclou l'autoria, l'any, el plànol-guia al qual pertany i un mapa per situar-la.</p>
+    <div class="sample-xifres"><div><b>659</b><small>elements</small></div><div><b>13</b><small>guies</small></div><div><b>274</b><small>arquitectes</small></div><div><b>1928–2026</b><small>anys</small></div></div>
+    <div class="sample-fitxa">Casa Bloc · 1932 · Josep Lluís Sert, Josep Torres i Clavé, Joan Baptista Subirana</div>
+  </section>
+
+  <section class="opcio f-instrument" data-font="instrument">
+    <div class="opcio-cap"><span class="opcio-nom">Instrument Sans</span> <span class="opcio-llic">SIL OFL 1.1 · opció recomanada</span></div>
+    <div class="sample-nav"><span>Presentació</span><span>Mapa</span><span>En paper</span><span>Arquitectes</span><span>Contacte</span></div>
+    <h3 class="sample-h1">Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia.</h3>
+    <p class="sample-p">El Grup d'Arquitectes i Tècnics Catalans per al Progrés de l'Arquitectura Contemporània va impulsar, durant els anys trenta, una arquitectura racionalista arrelada al territori. La seva obra va transformar la manera d'entendre l'habitatge, l'escola i l'espai públic a Barcelona.</p>
+    <h4 class="sample-h2">El GATCPAC i la Barcelona racionalista</h4>
+    <p class="sample-petit">Aquesta guia recull els edificis i espais més significatius d'aquell moment, amb fotografies, adreces i dades per recórrer-los a peu. Cada fitxa inclou l'autoria, l'any, el plànol-guia al qual pertany i un mapa per situar-la.</p>
+    <div class="sample-xifres"><div><b>659</b><small>elements</small></div><div><b>13</b><small>guies</small></div><div><b>274</b><small>arquitectes</small></div><div><b>1928–2026</b><small>anys</small></div></div>
+    <div class="sample-fitxa">Casa Bloc · 1932 · Josep Lluís Sert, Josep Torres i Clavé, Joan Baptista Subirana</div>
+  </section>
+
+  <section class="opcio f-public" data-font="public">
+    <div class="opcio-cap"><span class="opcio-nom">Public Sans</span> <span class="opcio-llic">SIL OFL 1.1 · to institucional</span></div>
+    <div class="sample-nav"><span>Presentació</span><span>Mapa</span><span>En paper</span><span>Arquitectes</span><span>Contacte</span></div>
+    <h3 class="sample-h1">Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia.</h3>
+    <p class="sample-p">El Grup d'Arquitectes i Tècnics Catalans per al Progrés de l'Arquitectura Contemporània va impulsar, durant els anys trenta, una arquitectura racionalista arrelada al territori. La seva obra va transformar la manera d'entendre l'habitatge, l'escola i l'espai públic a Barcelona.</p>
+    <h4 class="sample-h2">El GATCPAC i la Barcelona racionalista</h4>
+    <p class="sample-petit">Aquesta guia recull els edificis i espais més significatius d'aquell moment, amb fotografies, adreces i dades per recórrer-los a peu. Cada fitxa inclou l'autoria, l'any, el plànol-guia al qual pertany i un mapa per situar-la.</p>
+    <div class="sample-xifres"><div><b>659</b><small>elements</small></div><div><b>13</b><small>guies</small></div><div><b>274</b><small>arquitectes</small></div><div><b>1928–2026</b><small>anys</small></div></div>
+    <div class="sample-fitxa">Casa Bloc · 1932 · Josep Lluís Sert, Josep Torres i Clavé, Joan Baptista Subirana</div>
+  </section>
+
+  <section class="opcio f-space" data-font="space">
+    <div class="opcio-cap"><span class="opcio-nom">Space Grotesk (títols) + cos neutre</span> <span class="opcio-llic">SIL OFL 1.1 · més caràcter</span></div>
+    <div class="sample-nav"><span>Presentació</span><span>Mapa</span><span>En paper</span><span>Arquitectes</span><span>Contacte</span></div>
+    <h3 class="sample-h1">Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia.</h3>
+    <p class="sample-p">El Grup d'Arquitectes i Tècnics Catalans per al Progrés de l'Arquitectura Contemporània va impulsar, durant els anys trenta, una arquitectura racionalista arrelada al territori. La seva obra va transformar la manera d'entendre l'habitatge, l'escola i l'espai públic a Barcelona.</p>
+    <h4 class="sample-h2">El GATCPAC i la Barcelona racionalista</h4>
+    <p class="sample-petit">Aquesta guia recull els edificis i espais més significatius d'aquell moment, amb fotografies, adreces i dades per recórrer-los a peu. Cada fitxa inclou l'autoria, l'any, el plànol-guia al qual pertany i un mapa per situar-la.</p>
+    <div class="sample-xifres"><div><b>659</b><small>elements</small></div><div><b>13</b><small>guies</small></div><div><b>274</b><small>arquitectes</small></div><div><b>1928–2026</b><small>anys</small></div></div>
+    <div class="sample-fitxa">Casa Bloc · 1932 · Josep Lluís Sert, Josep Torres i Clavé, Joan Baptista Subirana</div>
+  </section>
+
+  <p class="nota">Detall i llicències a <code>.ai/informe-tipografia-2026-10-13.md</code>. Un cop triada, l'apliquem a tot el web en un sol pas. Les fonts d'aquesta pàgina de prova es carreguen des de Bunny Fonts (servidor no vinculat a Google); a producció anirien autoallotjades.</p>
+</main>
+<script>
+(function () {
+  var botons = document.querySelectorAll('.switch button');
+  botons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var v = b.getAttribute('data-font');
+      botons.forEach(function (o) { o.classList.toggle('is-actiu', o === b); });
+      if (v === 'totes') document.documentElement.removeAttribute('data-filtre');
+      else document.documentElement.setAttribute('data-filtre', v);
+    });
+  });
+}());
+</script>
+</body>
+</html>

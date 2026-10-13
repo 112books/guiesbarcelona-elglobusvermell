@@ -82,7 +82,7 @@ El balanç, però, és ambivalent. D’una banda, el 22@ ha aportat activitat ec
 
 **[Barcelona. Arquitectura y ciudad. 1980-1992](https://aladi.diba.cat/record=b1097702~S171*cat)**. Editorial GG. 1990
 
-**Barcelona. Espais urbans. 1981-1996**. Ajuntament de Barcelona. 1996
+**[Barcelona. Espais urbans. 1981-1996](https://ccuc.csuc.cat/discovery/fulldisplay?docid=alma991052502419706706&context=L&vid=34CSUC_NETWORK:CCUC_UNION)**. Ajuntament de Barcelona. 1996
 
 **[Barcelona. Arquitectura contemporània. 1979-2004](https://aladi.diba.cat/record=b1464132~S171*cat)**. Edicions Polígrafa i Ajuntament de Barcelona. 2005
 
