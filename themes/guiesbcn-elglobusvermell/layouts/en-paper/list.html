@@ -16,6 +16,7 @@
 
   <section class="en-paper-bloc" aria-labelledby="en-paper-carroussel-titol">
     <h2 id="en-paper-carroussel-titol" class="en-paper-bloc-titol">Plànols-guia publicats</h2>
+    <div class="en-paper-carroussel-embolcall">
     <div class="en-paper-carroussel" data-carroussel>
       {{ range $plans }}
         {{ $img := "" }}
@@ -28,6 +29,9 @@
           <span class="en-paper-carroussel-titol">{{ .titol }}</span>
         </button>
       {{ end }}
+    </div>
+      <button type="button" class="en-paper-carroussel-fletxa en-paper-carroussel-prev" data-carroussel-prev aria-label="Plànol anterior">‹</button>
+      <button type="button" class="en-paper-carroussel-fletxa en-paper-carroussel-next" data-carroussel-next aria-label="Plànol següent">›</button>
     </div>
   </section>
 
@@ -101,6 +105,18 @@ window.ENPAPER_PLANS = {
   });
 
   if (!track) return;
+
+  // R4/EP3 — fletxes: avancen una portada (mida de targeta + separació reals).
+  var prevBtn = document.querySelector('[data-carroussel-prev]');
+  var nextBtn = document.querySelector('[data-carroussel-next]');
+  function passa(dir) {
+    var it = track.querySelector('.en-paper-carroussel-item');
+    var gap = parseFloat(getComputedStyle(track).columnGap) || 16;
+    var w = it ? it.getBoundingClientRect().width + gap : track.clientWidth * 0.8;
+    track.scrollBy({ left: dir * Math.round(w), behavior: 'smooth' });
+  }
+  if (prevBtn) prevBtn.addEventListener('click', function () { passa(-1); });
+  if (nextBtn) nextBtn.addEventListener('click', function () { passa(1); });
 
   // Clic: desplaça fins al plànol corresponent (delegat, perquè hi ha còpies).
   track.addEventListener('click', function (e) {

@@ -2586,7 +2586,9 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   padding-bottom: 0;
   margin-bottom: 0.5rem;
 }
+.en-paper-carroussel-embolcall { position: relative; }
 .en-paper-carroussel {
+  --ep-item-w: 150px;
   display: flex;
   gap: 1rem;
   overflow-x: auto;
@@ -2597,11 +2599,17 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   -ms-overflow-style: none;
   cursor: grab;
 }
+@media (min-width: 700px) {
+  .en-paper-carroussel { --ep-item-w: 190px; gap: 1.25rem; }
+}
+@media (min-width: 1100px) {
+  .en-paper-carroussel { --ep-item-w: 220px; }
+}
 .en-paper-carroussel::-webkit-scrollbar { display: none; }
 .en-paper-carroussel.is-arrossegant { cursor: grabbing; }
 .en-paper-carroussel-item {
   flex: 0 0 auto;
-  width: 150px;
+  width: var(--ep-item-w);
   border: 0;
   background: none;
   padding: 0;
@@ -2612,9 +2620,40 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   scroll-snap-align: start;
 }
 .en-paper-carroussel-item:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
-.en-paper-carroussel-item img { display: block; width: 150px; height: auto; box-shadow: 0 1px 5px rgba(0,0,0,0.18); }
-.en-paper-carroussel-placeholder { display: block; width: 150px; height: 212px; }
-.en-paper-carroussel-titol { display: block; font-size: 0.76rem; line-height: 1.25; margin-top: 0.4rem; color: var(--color-muted); }
+.en-paper-carroussel-item img { display: block; width: 100%; height: auto; box-shadow: 0 1px 5px rgba(0,0,0,0.18); }
+.en-paper-carroussel-placeholder { display: block; width: 100%; aspect-ratio: 150 / 212; }
+.en-paper-carroussel-titol { display: block; font-size: 0.8rem; line-height: 1.25; margin-top: 0.45rem; color: var(--color-muted); }
+/* R4/EP3 — fletxes als cantons (amagades fins a passar-hi per sobre amb ratolí) */
+.en-paper-carroussel-fletxa {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--color-text);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.22);
+  z-index: 2;
+  opacity: 0.6;
+  transition: opacity 0.15s ease;
+}
+.en-paper-carroussel-fletxa:hover { background: #fff; }
+.en-paper-carroussel-prev { left: 0.25rem; }
+.en-paper-carroussel-next { right: 0.25rem; }
+.en-paper-carroussel-fletxa:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 2px; }
+.en-paper-carroussel-embolcall:hover .en-paper-carroussel-fletxa,
+.en-paper-carroussel-embolcall:focus-within .en-paper-carroussel-fletxa { opacity: 1; }
+@media (max-width: 480px) {
+  .en-paper-carroussel-fletxa { width: 2.1rem; height: 2.1rem; font-size: 1.25rem; }
+}
 .en-paper-xips { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 .en-paper-xip {
   font: inherit;
