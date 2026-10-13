@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 14:16",
+  "actualitzat": "2026-10-13 14:27",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -305,6 +305,39 @@
       ],
       "recomanacio": "triar",
       "posicio": "Es pot canviar fàcilment. Podeu proposar la que vulgueu (o dir-nos només l'estil que busqueu) i nosaltres verifiquem la llicència i l'apliquem. Si preferiu, també us podem fer nosaltres 2-3 propostes d'ús lliure."
+    },
+    {
+      "id": "gr3-tipografia-opcions",
+      "ref": "GR3 · C10",
+      "estat": "pendent",
+      "titol": "Tipografia: tres opcions d'ús lliure per triar",
+      "cita": "Sobre la tipografia, en podem escollir una altra? Qualsevol? D'unes concretes? És fàcil fer el canvi?",
+      "context": "Us proposem tres famílies de llicència oberta (OFL) que instal·laríem al nostre servidor, sense dependre de Google. A cada opció teniu l'enllaç per veure-la. Un cop triada, l'apliquem a tot el web.",
+      "descripcio": "Quina us agrada més?",
+      "opcions": [
+        {
+          "id": "instrument",
+          "label": "Instrument Sans (recomanada)",
+          "detall": "Neutra, moderna i llegible; to tècnic i actual. Mostra: https://fonts.google.com/specimen/Instrument+Sans"
+        },
+        {
+          "id": "public-sans",
+          "label": "Public Sans",
+          "detall": "Institucional i cívica; encaixa amb arquitectura pública. Mostra: https://public-sans.design/"
+        },
+        {
+          "id": "space-grotesk",
+          "label": "Space Grotesk als títols + cos neutre",
+          "detall": "Més caràcter i to de plànol als títols. Mostra: https://fonts.floriankarsten.com/space-grotesk"
+        },
+        {
+          "id": "actual",
+          "label": "Deixar la tipografia actual del sistema",
+          "detall": "Zero càrrega; el resultat varia segons el dispositiu."
+        }
+      ],
+      "recomanacio": "instrument",
+      "posicio": "Detall i llicències a .ai/informe-tipografia-2026-10-13.md."
     },
     {
       "id": "g1-columnes",
