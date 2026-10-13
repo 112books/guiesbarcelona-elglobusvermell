@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 14:08",
+  "actualitzat": "2026-10-13 14:16",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -757,6 +757,19 @@
         {
           "label": "Guia GATCPAC",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
+        }
+      ]
+    },
+    {
+      "id": "biblioteques-foto",
+      "ref": "S5",
+      "estat": "fet",
+      "titol": "Biblioteques: la foto de la portada del plànol",
+      "resultat": "Comprovat per hash (MD5) de les 50 biblioteques: cap té una foto igual a la portada del plànol. Les 33 que la tenien es van treure el 18/8. Queden 6 biblioteques sense cap foto (Bon Pastor, Canyelles, Ateneu Barcelonès, Les Roquetes, Vallcarca i els Penitents, i Illa d'equipaments Fort Pienc): no mostren imatge fins que no hi hagi una foto real.",
+      "enllacos": [
+        {
+          "label": "Una de les 6 (sense foto)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-bon-pastor-josefina-castellvi/"
         }
       ]
     },
