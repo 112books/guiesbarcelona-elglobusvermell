@@ -1919,7 +1919,9 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 /* Graella de guies */
 .pa-guies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  /* Màxim 7 columnes: en pantalles amples (prova c) les 13 guies queden 7+6
+     i no 12+1 amb una de despenjada. Amb amplades menors no canvia res. */
+  grid-template-columns: repeat(auto-fill, minmax(max(130px, calc((100% - 6 * var(--space-sm)) / 7)), 1fr));
   gap: var(--space-sm);
 }
 
