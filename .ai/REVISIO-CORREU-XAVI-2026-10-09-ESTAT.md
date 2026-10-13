@@ -104,6 +104,10 @@
 - ✅ **Portada-test**: creada la pàgina **`/portada-test/`** amb la proposta S9 (hero + mapa a sang + carrusel + xifres) i **salt de scroll `proximity`**. El mapa s'ha provat amb Chrome headless: **656 pins i tiles carregats**, sense errors de JS.
 - ✅ **P4·G1 5·5·3**: aplicat a la **portada actual** (graella de guies a 5 columnes; 4/3/2 als breakpoints petits), perquè no quedi cap guia despenjada.
 - ✅ **Tauler de revisió**: nova decisió **`fitxa-arquitectes-projecte`** sobre la **duplicitat «Arquitectes» / «Projecte»** (212 de 658 fitxes) perquè en Xavi decideixi.
+- ✅ **Mapa a tot l'ample** a `/portada-test/`: s'ha tret el `max-width` i el padding del `<main>` en aquesta pàgina.
+- ✅ **Logo sencer a la portada actual**: la primera secció ja no és objectiu de `scroll-snap`, així que en carregar no es desplaça i el header no surt reduït.
+- ✅ **Tauler**: afegida la tasca **`enllacos-proves-tauler`** perquè les proves (amplades, tipografia i portades) siguin accessibles des del document de revisió.
+- 📄 **Mail preparat per a Xavi**: `docs/2026-10-14-mail-xavi-portades.md` (explica les propostes de portada i els enllaços).
 
 ---
 

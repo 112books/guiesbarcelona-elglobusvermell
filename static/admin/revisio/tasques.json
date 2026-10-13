@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 21:05",
+  "actualitzat": "2026-10-13 23:41",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -1127,6 +1127,13 @@
       "titol": "Actualitzar el tauler de revisió al final del projecte",
       "context": "Quan el web estigui acabat, cal repassar el tauler perquè hi quedi tot ben explicat: què s'ha fet, què ha quedat pendent i quines decisions s'han pres.",
       "descripcio": "Anotat per Joan l'1/10 com a tancament del projecte."
+    },
+    {
+      "id": "enllacos-proves-tauler",
+      "ref": "14/10",
+      "titol": "Enllaçar les proves (amplades, tipografia i portades) des del tauler de revisió",
+      "context": "Les proves viuen en pàgines a part: la portada de prova (/portada-test/), el comparador de tipografia i les 3 amplades (?ample=1|2|3). Cal assegurar que des del document de revisió es pugui accedir a totes d'una manera clara.",
+      "descripcio": "Afegir al tauler enllaços visibles a: /portada-test/, el comparador de tipografia i les 3 opcions d'amplada."
     }
   ]
 }

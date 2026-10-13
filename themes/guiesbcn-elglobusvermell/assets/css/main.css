@@ -2502,6 +2502,9 @@ html:has(.portada-alt) {
   scroll-snap-align: start;
   min-height: calc(100svh - var(--header-height-scroll));
 }
+/* La primera secció no és objectiu de snap: si ho fos, en carregar el navegador
+   desplaçava ~56px (scroll-padding-top) i el header ja sortia reduït. */
+.portada-alt > section:first-child { scroll-snap-align: none; }
 .portada-alt > .pa-hero,
 .portada-alt > .pa-mapa-cta {
   display: flex;
@@ -2519,11 +2522,18 @@ html:has(.portada-alt) {
    Replica la proposta de la branca portada-s9-revisio sense tocar la portada
    actual: capçalera fora, blocs a pantalla completa i salt de scroll (proximity). */
 .portada-test { max-width: 100%; padding: 0; }
+/* Sense el max-width ni el padding lateral del <main>: el mapa i els blocs
+   arriben a tot l'ample de la finestra (Xavi, 13/10). */
+html:has(.portada-test) #main {
+  max-width: 100%;
+  padding: 0;
+}
 html:has(.portada-test) {
   scroll-snap-type: y proximity;
   scroll-padding-top: 0;
 }
 .portada-test > section { scroll-snap-align: start; min-height: 100svh; }
+.portada-test > section:first-child { scroll-snap-align: none; }
 html:has(.portada-test) .site-header { display: none; }
 html:has(.portada-test) .skip-link { top: 0.5rem; }
 .portada-test .pa-hero {
