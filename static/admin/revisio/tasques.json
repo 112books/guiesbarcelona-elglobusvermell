@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 17:55",
+  "actualitzat": "2026-10-13 19:03",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -575,8 +575,8 @@
       "estat": "fet",
       "titol": "Navegació per blocs amb scroll a la portada",
       "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
-      "resultat": "Fet: la portada té tres blocs a pantalla completa amb salt en fer scroll: (1) logo gran + frase + «Saber més del projecte»; (2) el mapa a sang, navegable i sense filtres, amb botó «Veure filtres i cercar»; (3) el carrusel de plànols-guia (infinit) amb accés a En paper i les xifres del projecte. La capçalera no surt a la portada; a la resta del web es manté. El peu ara és un sol bloc (logo + llicència + crèdits/contacte + Linux).",
-      "posicio": "Segons la vostra nota verbal del 13/10 i l'esbós del bloc de portada (P6).",
+      "resultat": "Fet (13/10): fora la barra «Inici/Guies/Mapa» i salt de scroll entre els tres blocs. El redisseny complet de la portada (hero, mapa a sang, carrusel i peu unificat) el tenim muntat com a proposta en proves, pero de moment l'hem deixat fora de la portada publica per revisar-lo i ajustar-lo. Us el mostrarem quan estigui a punt.",
+      "posicio": "Segons la vostra nota verbal del 13/10 i l'esbos del bloc de portada (P6). La portada nova es revisara abans de publicar-la.",
       "enllacos": [
         {
           "label": "Portada",
@@ -823,12 +823,30 @@
       "id": "portada-s9",
       "ref": "P3 · P6",
       "estat": "fet",
-      "titol": "Portada per blocs: hero, mapa a sang i carrusel de plànols",
-      "resultat": "Fet: la portada té tres blocs a pantalla completa (logo + frase; mapa navegable a sang amb botó «Veure filtres i cercar»; carrusel infinit de plànols-guia amb accés a En paper i xifres). Fora la capçalera a la portada; a la resta del web es manté.",
+      "titol": "Portada nova en tres blocs (proposta en proves)",
+      "resultat": "Proposta en proves (no publicada): portada en tres blocs (logo + frase; mapa navegable a sang; carrusel infinit + xifres), capcalera fora a la portada i peu unificat en un sol bloc. L'hem revertida temporalment per revisar-la i arreglar-la abans de deixar-la per defecte.",
       "enllacos": [
         {
           "label": "Portada",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ],
+      "posicio": "Ens agrada la idea; cal revisar-la i arreglar-la. Us l'ensenyarem quan estigui a punt."
+    },
+    {
+      "id": "bibliografies",
+      "ref": "T21",
+      "estat": "fet",
+      "titol": "Bibliografies: enllaços als catàlegs",
+      "resultat": "Fet: 8 títols que no tenien cap enllaç (de les guies 50-75, 76-08 i biblioteques) ara apunten al catàleg corresponent (Aladí, CCUC, Dialnet i E-LIS).",
+      "enllacos": [
+        {
+          "label": "Guia 50-75",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75/"
+        },
+        {
+          "label": "Guia biblioteques",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques/"
         }
       ]
     },
@@ -1077,6 +1095,13 @@
       "titol": "Actualitzar el tauler de revisió al final del projecte",
       "context": "Quan el web estigui acabat, cal repassar el tauler perquè hi quedi tot ben explicat: què s'ha fet, què ha quedat pendent i quines decisions s'han pres.",
       "descripcio": "Anotat per Joan l'1/10 com a tancament del projecte."
+    },
+    {
+      "id": "fitxa-arquitectes-projecte",
+      "ref": "PER-14/10",
+      "titol": "Fitxa: «Arquitectes» i «Projecte» amb la mateixa informacio",
+      "context": "A cada fitxa del planol surten les seccions «Arquitectes» i «Projecte» amb la mateixa informacio. Cal comprovar-ho i confirmar si ho havia demanat Xavi.",
+      "descripcio": "Verificar i, si cal, unificar o diferenciar les dues seccions."
     }
   ]
 }
