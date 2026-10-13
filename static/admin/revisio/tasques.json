@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 16:21",
+  "actualitzat": "2026-10-13 16:46",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -1062,6 +1062,14 @@
       "cita": "Us passarem la paleta definitiva per plànol.",
       "context": "Esperant que ens facin arribar els codis de color.",
       "descripcio": "En rebre la paleta, l'apliquem."
+    },
+    {
+      "id": "b3-adreces",
+      "ref": "B3 · S7",
+      "titol": "Adreces dins del text de les fitxes",
+      "cita": "Camp adreça atrapat en altres llocs.",
+      "context": "Hem detectat 85 fitxes on la descripció comença amb una adreça; en 69 l'adreça ja és al camp i es repeteix al text. Informe complet a .ai/informe-adreces-descripcio-2026-10-13.md.",
+      "descripcio": "Voleu que netegem els duplicats i traslladem les adreces que falten? No s'aplica res sense el vostre vist-i-plau."
     },
     {
       "id": "tauler-final",

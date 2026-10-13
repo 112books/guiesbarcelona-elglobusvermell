@@ -26,7 +26,7 @@
 |---|--------------|-------|-----------|--------------------|
 | B1 | Biblioteques: surt la **foto de la portada del plànol** | ✅ Comprovat (13/10) | Hash MD5 de les 50 biblioteques: **0 amb foto igual a la portada** (les 33 es van treure el 18/8). 6 sense cap `foto` → no mostren imatge | «Comprovat: cap biblioteca mostra la portada del plànol. Queden 6 sense foto (Bon Pastor, Canyelles, Ateneu Barcelonès, Les Roquetes, Vallcarca i Fort Pienc); cal una foto real.» |
 | B2 | Informació **encallada dins «projecte»**; manual o automàtic? | ❓ Decisió | Diagnosi: 31 `projecte_text`, 19 `edifici_original`, 12 `intervencions.any` no numèrics | «Et proposem: neteja automàtica del que és clar + revisió manual de la resta. Ho decidim?» |
-| B3 | Camp **adreça atrapat en altres llocs** | 🟡 Parcial | `806f5e7`: **25 adreces** amb ` | ` final netejades; extreure adreces de `descripcio` (31) pendent | «Hem netejat 25 adreces; la resta (adreces dins del text) les podem extreure automàticament i revisar.» |
+| B3 | Camp **adreça atrapat en altres llocs** | 🟡 Informe llest (13/10) | `806f5e7`: **25 adreces** amb ` | ` final netejades; **informe de 85 candidats** (69 amb l'adreça duplicada al text) a `.ai/informe-adreces-descripcio-2026-10-13.md` | «Hem preparat la llista d'adreces dins del text; la netegem quan ens ho digueu.» |
 | B4 | Algunes fitxes **sense camp projecte** | ⏳ Pendent | Diagnosi feta; omplir dades requereix decisió B2 | «És part del mateix lot de dades que decidim a B2.» |
 
 ## C. Decisions respostes
