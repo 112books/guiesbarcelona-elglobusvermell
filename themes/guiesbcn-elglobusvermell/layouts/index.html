@@ -1,66 +1,133 @@
 {{ define "main" }}
 {{- $xifres := partial "xifres-projecte.html" . -}}
 
-{{/* ── Dades per al mapa de la portada ── */}}
-{{ $elSec := site.GetPage "elements" }}
-{{ $punts := slice }}
-{{ if $elSec }}
-  {{ range $elSec.Pages }}
+{{/* ── Dades Hugo injectades per a JS ── */}}
+{{ $elementsSection := site.GetPage "elements" }}
+{{ $totalEdificis := 0 }}
+
+{{/* Mapa slug→elements per publicació */}}
+{{ $elementsPub := dict }}
+{{ if $elementsSection }}
+  {{ range $elementsSection.Pages }}
     {{ $page := . }}
-    {{ with $page.Params.lat }}
-      {{ $punts = $punts | append (dict
-        "title" $page.Title
-        "lat" .
-        "long" $page.Params.long
-        "url" $page.Permalink
-        "publicacions" $page.Params.publicacions
-      ) }}
+    {{ if $page.Params.lat }}
+      {{ $totalEdificis = add $totalEdificis 1 }}
+      {{ range $page.Params.publicacions }}
+        {{ $slug := . }}
+        {{ $llista := slice }}
+        {{ with index $elementsPub $slug }}{{ $llista = . }}{{ end }}
+        {{ $llista = $llista | append (dict
+          "title" $page.Title
+          "url"   $page.RelPermalink
+          "lat"   $page.Params.lat
+          "long"  $page.Params.long
+          "foto"  $page.Params.foto
+          "any"   $page.Params.any
+          "adreca" $page.Params.adreca
+        ) }}
+        {{ $elementsPub = merge $elementsPub (dict $slug $llista) }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
-{{ $pubsData := dict }}
+
+{{/* Publicacions amb recompte d'edificis */}}
+{{ $guies := slice }}
 {{ range hugo.Data.publicacions }}
-  {{ if .estat_app.a_app }}
-    {{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}
+  {{ $pub := . }}
+  {{ $edificis := slice }}
+  {{ with index $elementsPub $pub.slug }}{{ $edificis = . }}{{ end }}
+  {{ $urlPub := "" }}
+  {{ with site.GetPage (printf "/publicacions/%s" $pub.slug) }}{{ $urlPub = .RelPermalink }}{{ end }}
+  {{ $guies = $guies | append (dict
+    "slug"     $pub.slug
+    "titol"    $pub.titol
+    "edicio"   $pub.edicio
+    "color"    $pub.color
+    "url"      $urlPub
+    "edificis" $edificis
+    "count"    (len $edificis)
+    "portada"  (printf "img/publicacions/%s.jpg" $pub.slug | relURL)
+  ) }}
+{{ end }}
+
+{{/* Any mínim i màxim de la col·lecció */}}
+{{ $anyMin := 9999 }}
+{{ $anyMax := 0 }}
+{{ if $elementsSection }}
+  {{ range $elementsSection.Pages }}
+    {{ with .Params.edicio }}
+      {{ if lt . $anyMin }}{{ $anyMin = . }}{{ end }}
+      {{ if gt . $anyMax }}{{ $anyMax = . }}{{ end }}
+    {{ end }}
   {{ end }}
 {{ end }}
+{{ $anyMin = 1928 }}{{/* valor editorial real del projecte */}}
+{{ $anyMax = now.Year }}
 
 <main class="portada-alt">
 
-  {{/* ══ 1. HERO — logo gegant + frase (Xavi, P6: sense dades d'elements) ══ */}}
+  {{/* ══ 1. HERO ══════════════════════════════════════════════════════════ */}}
   <section class="pa-hero" id="portada-inici">
     <div class="pa-hero-inner">
-      <img class="pa-hero-logo" src="{{ "img/Arquitectura-i-urbanisme-de-barcelona.svg" | relURL }}" alt="Arquitectura i urbanisme de Barcelona" width="520">
+      <p class="pa-hero-label">El Globus Vermell</p>
       <h1 class="pa-hero-titol">{{ .Params.tagline | default "Tota l'arquitectura i l'urbanisme de Barcelona, guia a guia." }}</h1>
-      <a href="{{ "presentacio/" | relLangURL }}" class="pa-cta-mapa">Saber més del projecte</a>
+      <div class="pa-stats" aria-label="Xifres del projecte">
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $xifres.elements }}</span>
+          <span class="pa-stat-lab">elements documentats</span>
+        </div>
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $xifres.guies }}</span>
+          <span class="pa-stat-lab">guies de camp</span>
+        </div>
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $xifres.arquitectes }}</span>
+          <span class="pa-stat-lab">arquitectes i estudis</span>
+        </div>
+        <div class="pa-stat">
+          <span class="pa-stat-num">{{ $xifres.anyMin }}–{{ $xifres.anyMax }}</span>
+          <span class="pa-stat-lab">anys d'arquitectura</span>
+        </div>
+      </div>
+      <a href="{{ "mapa/" | relLangURL }}" class="pa-cta-mapa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+        Explorar el mapa
+      </a>
     </div>
   </section>
 
-  {{/* ══ 2. MAPA A SANG — navegable, sense filtres ══ */}}
-  <section class="pa-mapa" id="portada-mapa" aria-label="Mapa interactiu dels elements">
-    <div id="portada-mapa-el" class="pa-mapa-el"></div>
-    <a href="{{ "mapa/" | relLangURL }}" class="pa-cta-mapa pa-mapa-btn">Veure filtres i cercar</a>
-  </section>
-
-  {{/* ══ 3. PLÀNOLS-GUIA — carrusel infinit + accés a En paper ══ */}}
+  {{/* ══ 2. TOTES LES GUIES ════════════════════════════════════════════════ */}}
   <section class="pa-seccio pa-guies" id="portada-guies" aria-labelledby="totes-guies-titol">
-    <h2 id="totes-guies-titol" class="pa-seccio-titol">Els plànols-guia</h2>
-    {{ partial "carrusel-plans.html" (dict "infinite" true) }}
-    <div class="pa-seccio-cta">
-      <a href="{{ "en-paper/" | relLangURL }}" class="pa-cta-secundari">Veure tots els plànols-guia →</a>
+    <h2 id="totes-guies-titol" class="pa-seccio-titol">Totes les guies</h2>
+    <div class="pa-guies-grid">
+      {{ range $guies }}
+      <a href="{{ .url }}" class="pa-guia-card" style="--pub-color: {{ .color }}">
+        <div class="pa-guia-card-portada-wrap">
+          <img src="{{ .portada }}" alt="{{ .titol }}" class="pa-guia-card-portada" loading="lazy">
+        </div>
+        <div class="pa-guia-card-info">
+          <p class="pa-guia-card-any">{{ .edicio }}</p>
+          <p class="pa-guia-card-titol">{{ .titol }}</p>
+          <p class="pa-guia-card-count">{{ .count }} elements</p>
+        </div>
+      </a>
+      {{ end }}
     </div>
-    <div class="pa-stats pa-stats--portada" aria-label="Xifres del projecte">
-      <div class="pa-stat"><span class="pa-stat-num">{{ $xifres.elements }}</span><span class="pa-stat-lab">elements documentats</span></div>
-      <div class="pa-stat"><span class="pa-stat-num">{{ $xifres.guies }}</span><span class="pa-stat-lab">guies de camp</span></div>
-      <div class="pa-stat"><span class="pa-stat-num">{{ $xifres.arquitectes }}</span><span class="pa-stat-lab">arquitectes i estudis</span></div>
-      <div class="pa-stat"><span class="pa-stat-num">{{ $xifres.anyMin }}–{{ $xifres.anyMax }}</span><span class="pa-stat-lab">anys d'arquitectura</span></div>
+    <div class="pa-seccio-cta">
+      <a href="{{ "en-paper/" | relLangURL }}" class="pa-cta-secundari">Totes les guies en paper →</a>
+    </div>
+  </section>
+
+  {{/* ══ 3. TORNADA AL MAPA ══════════════════════════════════════════════════ */}}
+  <section class="pa-mapa-cta" id="portada-mapa" aria-label="Accés al mapa interactiu">
+    <div class="pa-mapa-cta-inner">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+      <p class="pa-mapa-cta-titol">El mapa, la porta d'entrada a tots els elements</p>
+      <a href="{{ "mapa/" | relLangURL }}" class="pa-cta-mapa">Obrir el mapa interactiu</a>
     </div>
   </section>
 
 </main>
 
-<script>
-window.MAPA_PUNTS   = {{ $punts | jsonify | safeJS }};
-window.PUBLICACIONS = {{ $pubsData | jsonify | safeJS }};
-</script>
 {{ end }}

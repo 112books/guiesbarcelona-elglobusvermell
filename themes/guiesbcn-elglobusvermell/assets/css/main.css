@@ -262,33 +262,6 @@ main {
   padding: 0 var(--space-md);
 }
 
-/* P6 — Peu unificat en un sol bloc (logo + llicència + crèdits/contacte + Linux). */
-.footer-unificat {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-md);
-  max-width: var(--contenidor-max, 64rem);
-  margin: 0 auto;
-}
-.footer-blocs { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-md); }
-.footer-enllacos { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
-.footer-enllacos a { color: var(--color-muted); text-decoration: none; font-size: 0.875rem; }
-.footer-enllacos a:hover { color: var(--color-accent); }
-.footer-legal-nota {
-  max-width: var(--contenidor-max, 64rem);
-  margin: var(--space-md) auto 0;
-  padding-top: var(--space-sm);
-  border-top: 1px solid var(--color-border);
-  color: var(--color-muted);
-  font-size: 0.8rem;
-}
-.footer-legal-nota a { color: inherit; text-decoration: underline; }
-@media (max-width: 40rem) {
-  .footer-unificat, .footer-blocs { justify-content: center; text-align: center; }
-}
-
 .footer-brand {
   display: flex;
   align-items: center;
@@ -2538,21 +2511,6 @@ html:has(.portada-alt) {
 @media (prefers-reduced-motion: reduce) {
   html:has(.portada-alt) { scroll-snap-type: none; }
 }
-
-/* P3/P6 — Portada S9: hero amb logo, mapa a sang, capçalera oculta i xifres al bloc de guies */
-html:has(.portada-alt) .site-header { display: none; }
-html:has(.portada-alt) { scroll-padding-top: 0; }
-html:has(.portada-alt) .skip-link { top: 0.5rem; }
-.portada-alt > section { min-height: 100svh; }
-.pa-hero-inner { text-align: center; }
-.pa-hero-logo { display: block; width: min(520px, 80vw); height: auto; margin: 0 auto var(--space-lg); }
-.portada-alt > .pa-guies { display: flex; flex-direction: column; justify-content: center; }
-.pa-mapa { position: relative; padding: 0; background: #ecebe7; }
-.pa-mapa-el { position: absolute; inset: 0; }
-.pa-mapa-btn { position: absolute; left: 50%; bottom: 1.5rem; transform: translateX(-50%); z-index: 500; }
-.pa-stats--portada { justify-content: center; text-align: center; margin-top: var(--space-lg); border-top: 1px solid var(--color-border); padding-top: var(--space-md); }
-.pa-stats--portada .pa-stat { align-items: center; }
-.pa-stats--portada .pa-stat-num { font-size: clamp(1.6rem, 3.5vw, 2.4rem); }
 
 /* F6 — fotos en blanc i negre. Per revertir-ho: treu la classe "fotos-bn" de <html>. */
 html.fotos-bn .fitxa-imatge img,
