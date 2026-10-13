@@ -22,7 +22,7 @@ CRITICS = {
     ".tts-btn": "botó Escoltar",
     ".cerca-resultat": "resultats de la cerca del mapa",
     ".site-header-inner": "capçalera alineada amb el cos",
-    ".portada-nav": "navegació per blocs de la portada",
+    "html:has(.portada-alt)": "salt de scroll entre els blocs de la portada",
     ".splash-mobil": "splash del mòbil",
     ".tema-info": "informació dels temes transversals",
     ".fitxa-imatge": "fitxes d'element",
