@@ -28,6 +28,10 @@
   {{ $fitxaJs := resources.Get "js/fitxa.js" | minify | fingerprint }}
   <script src="{{ $fitxaJs.RelPermalink }}" integrity="{{ $fitxaJs.Data.Integrity }}" defer></script>
   {{ end }}
+  {{ if or (eq .Section "en-paper") .IsHome }}
+  {{ $carJs := resources.Get "js/carrusel-plans.js" | minify | fingerprint }}
+  <script src="{{ $carJs.RelPermalink }}" integrity="{{ $carJs.Data.Integrity }}" defer></script>
+  {{ end }}
   {{ if or (eq .Section "en-paper") (eq .Section "temes") (and (eq .Kind "term") (eq .Data.Plural "publicacions")) }}
   {{ $ttsJs := resources.Get "js/tts.js" | minify | fingerprint }}
   <script src="{{ $ttsJs.RelPermalink }}" integrity="{{ $ttsJs.Data.Integrity }}" defer></script>

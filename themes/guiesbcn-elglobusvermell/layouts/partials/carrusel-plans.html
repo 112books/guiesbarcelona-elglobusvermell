@@ -1,0 +1,23 @@
+{{/*
+  Carrusel de portades dels plànols-guia.
+  Paràmetres: (dict "infinite" true|false). El bucle infinit es fa per JS.
+*/}}
+{{ $infinite := .infinite | default false }}
+<div class="en-paper-carroussel-embolcall">
+  <div class="en-paper-carroussel" data-carroussel data-infinite="{{ if $infinite }}true{{ else }}false{{ end }}">
+    {{ range hugo.Data.publicacions }}
+      {{ $img := "" }}
+      {{ if fileExists (printf "static/img/publicacions/%s.webp" .slug) }}{{ $img = printf "img/publicacions/%s.webp" .slug }}
+      {{ else if fileExists (printf "static/img/publicacions/%s.jpg" .slug) }}{{ $img = printf "img/publicacions/%s.jpg" .slug }}
+      {{ else if fileExists (printf "static/img/publicacions/%s.png" .slug) }}{{ $img = printf "img/publicacions/%s.png" .slug }}{{ end }}
+      {{ $url := "" }}{{ with site.GetPage (printf "/publicacions/%s" .slug) }}{{ $url = .RelPermalink }}{{ end }}
+      <button type="button" class="en-paper-carroussel-item" data-slug="{{ .slug }}" data-url="{{ $url }}" data-temes="{{ delimit .agrupacions_tematiques " " }}" aria-label="Anar al plànol: {{ .titol }}">
+        {{ if $img }}<img src="{{ $img | relURL }}" alt="Portada: {{ .titol }}" loading="lazy" width="150">
+        {{ else }}<span class="en-paper-carroussel-placeholder" style="background:{{ .color }}" aria-hidden="true"></span>{{ end }}
+        <span class="en-paper-carroussel-titol">{{ .titol }}</span>
+      </button>
+    {{ end }}
+  </div>
+  <button type="button" class="en-paper-carroussel-fletxa en-paper-carroussel-prev" data-carroussel-prev aria-label="Plànol anterior">‹</button>
+  <button type="button" class="en-paper-carroussel-fletxa en-paper-carroussel-next" data-carroussel-next aria-label="Plànol següent">›</button>
+</div>
