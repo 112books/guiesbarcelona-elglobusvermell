@@ -207,7 +207,7 @@ button:active { opacity: 0.72; }
 /* ── Cos ───────────────────────────────────────────────────────────────── */
 
 main {
-  max-width: 64rem;
+  max-width: var(--contenidor-max, 64rem);
   margin: 0 auto;
   padding: var(--space-lg) var(--space-md);
 }
@@ -2485,33 +2485,29 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   padding: 0 var(--space-md);
 }
 
-/* P6 — Navegació per blocs a la portada */
-.portada-nav {
-  position: sticky;
-  top: var(--header-height);
-  z-index: 900;
-  background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
+/* P6 — Portada en tres blocs (Inici · Guies · Mapa) amb salt en fer scroll.
+   Sense índex de seccions (Xavi, 13/10). "proximity" i no "mandatory":
+   el bloc de guies és més alt que la pantalla i s'ha de poder llegir sencer. */
+html:has(.portada-alt) {
+  scroll-snap-type: y proximity;
+  scroll-padding-top: var(--header-height-scroll);
 }
-.portada-nav ul {
+.portada-alt > section {
+  scroll-snap-align: start;
+  min-height: calc(100svh - var(--header-height-scroll));
+}
+.portada-alt > .pa-hero,
+.portada-alt > .pa-mapa-cta {
   display: flex;
-  gap: var(--space-md);
+  flex-direction: column;
   justify-content: center;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0.55rem var(--space-md);
-  max-width: 64rem;
 }
-.portada-nav a {
-  display: inline-block;
-  font-size: 0.875rem;
-  text-decoration: none;
-  color: var(--color-muted);
-  padding: 0.15rem 0;
-  border-bottom: 2px solid transparent;
+.portada-alt > .pa-hero > *,
+.portada-alt > .pa-mapa-cta > * { width: 100%; }
+.portada-alt > .pa-mapa-cta { margin-top: 0; }
+@media (prefers-reduced-motion: reduce) {
+  html:has(.portada-alt) { scroll-snap-type: none; }
 }
-.portada-nav a:hover { color: var(--color-text); }
-.portada-nav a.is-actiu { color: var(--color-text); border-bottom-color: var(--color-accent); }
 
 /* F6 — fotos en blanc i negre. Per revertir-ho: treu la classe "fotos-bn" de <html>. */
 html.fotos-bn .fitxa-imatge img,
@@ -2558,7 +2554,7 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .cerca-resultats-mes { font-size: 0.8rem; color: var(--color-muted); margin: 0.5rem 0 0; }
 
 /* En paper (EP1–EP8) */
-.en-paper { max-width: 64rem; margin: 0 auto; }
+.en-paper { max-width: var(--contenidor-max, 64rem); margin: 0 auto; }
 .en-paper-cap { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .en-paper-titol { margin: 0; }
 .en-paper-intro { max-width: var(--lectura-max-ep, 48rem); margin: 1.5rem 0 2rem; }
