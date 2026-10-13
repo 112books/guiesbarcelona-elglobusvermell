@@ -58,7 +58,7 @@
 | D3 | [M5] La «i» dels temes sense color | ✅ Fet | `2b6bbd8`: la «i» usa gris neutre | «Fet: la «i» ara és grisa.» |
 | D4 | [F6] Fotos B/N: explorar color parcial | ⏳ Equip | **S14** | «Ho deixem en blanc i negre i seguim explorant el color al patrimoni industrial.» |
 | D5 | [P7] Splash mòbil | ✔️ OK | — | «Perfecte, gràcies.» |
-| D6 | [P6] Portada per blocs (mapa a sang, capçalera fora, peu unificat) | 🟡 Fet tècnicament (13/10) | **Fet:** tres blocs a pantalla completa (hero amb logo; **mapa a sang navegable** amb botó «Veure filtres i cercar»; **carrusel infinit** de plànols + xifres); **capçalera fora** a la portada; salt de scroll. **Pendent: peu unificat.** | «Ja tenim els tres blocs amb el mapa navegable i el carrusel. Mireu-ho i acabeu de dir-nos el peu.» |
+| D6 | [P6] Portada per blocs (mapa a sang, capçalera fora, peu unificat) | ✅ Fet tècnicament (13/10) | **Fet:** tres blocs a pantalla completa (hero amb logo; **mapa a sang navegable**; **carrusel infinit** + xifres); **capçalera fora** a la portada; salt de scroll; **peu unificat** en un sol bloc. Pendent vist-i-plau visual | «Ja tenim els tres blocs amb el mapa navegable, el carrusel i el peu unificat. Mireu-ho.» |
 | D7 | [G1] **Menys espai blanc a cada banda** | 🟡 Parcial | Amplada de text feta (C11); contenidor central pendent | «Hem ampliat la columna de text; revisem també l'amplada central.» |
 | D8 | [ENQ-lectura] Botó d'escoltar a la dreta | ✔️ OK | Ja fet (R7) | «Fet.» |
 | D9 | [ENQ-lectura] dubte sobre **la veu** | ⏳ Informatiu | No és codi | «La veu la genera el navegador; en parlem i mirem alternatives.» |

@@ -262,6 +262,33 @@ main {
   padding: 0 var(--space-md);
 }
 
+/* P6 — Peu unificat en un sol bloc (logo + llicència + crèdits/contacte + Linux). */
+.footer-unificat {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  max-width: var(--contenidor-max, 64rem);
+  margin: 0 auto;
+}
+.footer-blocs { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-md); }
+.footer-enllacos { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
+.footer-enllacos a { color: var(--color-muted); text-decoration: none; font-size: 0.875rem; }
+.footer-enllacos a:hover { color: var(--color-accent); }
+.footer-legal-nota {
+  max-width: var(--contenidor-max, 64rem);
+  margin: var(--space-md) auto 0;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+.footer-legal-nota a { color: inherit; text-decoration: underline; }
+@media (max-width: 40rem) {
+  .footer-unificat, .footer-blocs { justify-content: center; text-align: center; }
+}
+
 .footer-brand {
   display: flex;
   align-items: center;

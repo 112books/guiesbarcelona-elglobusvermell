@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 16:06",
+  "actualitzat": "2026-10-13 16:21",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -575,8 +575,8 @@
       "estat": "fet",
       "titol": "Navegació per blocs amb scroll a la portada",
       "cita": "No sé si ens beneficia o perjudica mirar de fer navegació per blocs com a arquitectura catalana (va saltant a mesura que fas scroll).",
-      "resultat": "Fet: la portada té tres blocs a pantalla completa amb salt en fer scroll: (1) logo gran + frase + «Saber més del projecte»; (2) el mapa a sang, navegable i sense filtres, amb botó «Veure filtres i cercar»; (3) el carrusel de plànols-guia (infinit) amb accés a En paper i les xifres del projecte. La capçalera no surt a la portada; a la resta del web es manté. Pendent: unificar el peu en un sol bloc.",
-      "posicio": "Segons la vostra nota verbal del 13/10 i l'esbós del bloc de portada (P6). El peu unificat el fem a continuació.",
+      "resultat": "Fet: la portada té tres blocs a pantalla completa amb salt en fer scroll: (1) logo gran + frase + «Saber més del projecte»; (2) el mapa a sang, navegable i sense filtres, amb botó «Veure filtres i cercar»; (3) el carrusel de plànols-guia (infinit) amb accés a En paper i les xifres del projecte. La capçalera no surt a la portada; a la resta del web es manté. El peu ara és un sol bloc (logo + llicència + crèdits/contacte + Linux).",
+      "posicio": "Segons la vostra nota verbal del 13/10 i l'esbós del bloc de portada (P6).",
       "enllacos": [
         {
           "label": "Portada",
