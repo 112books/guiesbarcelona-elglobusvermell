@@ -40,7 +40,7 @@
 | C5 | [P4·G1] 5·5·3 (replantejat per P6) | ⏳ Decisió | Es resol amb el redisseny de portada **S9** | «Ho integrem al nou disseny de portada.» |
 | C6 | [M2] Mapa en grays: el que ja hi ha | ✔️ Resolt | — | «Ho deixem com està.» |
 | C7 | [M3] Pins multicolor **sí** | ⏳ Pendent | **S22**, depèn de la paleta (**S23**) | «Ho fem tan bon punt tinguem la paleta.» |
-| C8 | [EP3] Carrusel **infinit** + amagar scrollbar / arrossegar / portades grans | 🟡 Parcial | Infinit i arrossegament **ja hi són** (`en-paper/list.html`); mida/fletxes pendents | «L'infinit i l'arrossegament ja funcionen; acabem d'ajustar scrollbar i mides.» |
+| C8 | [EP3] Carrusel **infinit** + amagar scrollbar / arrossegar / portades grans | 🟡 Fet tècnicament (13/10) | Infinit, arrossegament i scrollbar amagat ja hi eren; **afegides fletxes, portades més grans i mides responsives** (`?ample`, proves) — pendent vist-i-plau visual | «L'infinit, l'arrossegament i les fletxes ja funcionen; mira com queden les portades.» |
 | C9 | [GR1·GR2] Paleta definitiva + **el filtre del mapa no funciona** | 🟡 | Paleta **S23** espera Xavi; **filtre**: arreglat **S25** (`2b6bbd8`) | «El filtre ja està corregit; esperem la paleta per aplicar colors.» |
 | C10 | [GR3] **Tipografia**: 2-3 opcions lliures | ⏳ Pendent | **S24** | «T'enviem 2-3 propostes d'ús lliure per triar.» |
 | C11 | [G1] Amplada de columna de text | ⏳ **Pendent (tria Xavi)** | Prova `?ample=1\|2\|3` (13/10), **ara a tot el web i cada opció amb el contingut alineat amb header i peu**: **a) com estava** = 52 rem · **b) més ample** = 64 rem · **c) la més ampla** = `min(110rem, 96vw)` i contenidor a 96vw (quasi sense marges). Fora la variant estreta. Defecte: 64 rem | «Tres opcions: actual, més ample i la més ampla amb pocs marges. Tria quina deixem per defecte.» |
@@ -54,7 +54,7 @@
 | # | Punt de Xavi | Estat | Evidència | Resposta proposada |
 |---|--------------|-------|-----------|--------------------|
 | D1 | [M6] Cercador del mapa; els punts amagats **segueixen clicables** | ✅ Fet | `2b6bbd8`: punts filtrats no clicables ni enfocables | «Corregit: els punts amagats ja no es poden clicar.» |
-| D2 | [EP1–EP8] Carrusel més fluid; títols; «Usos»; portada gran; sense any; menys espai | 🟡 Parcial | `2b6bbd8`: **títols, «Usos», anys i portada gran fets**. Fluiditat/fletxes: **S11** | «Hem fet els títols, «Usos», sense any i portada gran. La fluïdesa la reprenem.» |
+| D2 | [EP1–EP8] Carrusel més fluid; títols; «Usos»; portada gran; sense any; menys espai | 🟡 Fet tècnicament (13/10) | `2b6bbd8`: **títols, «Usos», anys i portada gran fets**. **Fletxes i mides afegides** (13/10); fluiditat millorada amb desplaçament suau — pendent vist-i-plau visual | «Hem afegit fletxes visibles i portades més grans; mira si ara és prou fluid.» |
 | D3 | [M5] La «i» dels temes sense color | ✅ Fet | `2b6bbd8`: la «i» usa gris neutre | «Fet: la «i» ara és grisa.» |
 | D4 | [F6] Fotos B/N: explorar color parcial | ⏳ Equip | **S14** | «Ho deixem en blanc i negre i seguim explorant el color al patrimoni industrial.» |
 | D5 | [P7] Splash mòbil | ✔️ OK | — | «Perfecte, gràcies.» |
