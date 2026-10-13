@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 16:46",
+  "actualitzat": "2026-10-13 17:42",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -1068,7 +1068,7 @@
       "ref": "B3 · S7",
       "titol": "Adreces dins del text de les fitxes",
       "cita": "Camp adreça atrapat en altres llocs.",
-      "context": "Hem detectat 85 fitxes on la descripció comença amb una adreça: 36 són duplicats clars (només cal treure el prefix que repeteix l'adreça del camp) i 49 necessiten revisió manual. Informe complet a .ai/informe-adreces-descripcio-2026-10-13.md.",
+      "context": "Hem detectat 85 fitxes on la descripció comença amb una adreça: 36 duplicats clars i 49 de revisió manual. El patch dels 36 ja està preparat, verificat (aplicable i YAML vàlid) i no aplicat. Informe: .ai/informe-adreces-descripcio-2026-10-13.md · Patch: .ai/patch-adreces-descripcio.diff.",
       "descripcio": "Voleu que apliquem els 36 casos nets? No s'aplica res sense el vostre vist-i-plau."
     },
     {

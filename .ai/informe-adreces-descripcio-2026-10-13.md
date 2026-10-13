@@ -1,12 +1,12 @@
 # Informe — adreces dins del camp descripcio (2026-10-13)
 
-**B3** del correu de Xavi (9/10). Deteccio automatica, **sense modificar cap fitxa**. Generat per scripts/normalitza-adreces.py. Cal vist-i-plau abans d'aplicar.
+**B3** del correu de Xavi (9/10). Deteccio automatica, **sense modificar cap fitxa**. Generat per scripts/normalitza-adreces.py.
 
-**Candidats:** 85 · **canvi net (llest per aplicar):** 36 · **revisio manual:** 49
+**Candidats:** 85 · **nets:** 36 (patchables: 36) · **manuals:** 49
+
+Patch generat a .ai/patch-adreces-descripcio.diff (no aplicat).
 
 ## Canvis nets (treure el prefix duplicat)
-
-Per a cada cas, la descripcio comenca per l'adreca que ja es al camp; es proposa treure'n el prefix. La informacio no es perd: es queda al camp adreca.
 
 | # | Fitxa | adreca | Inici actual | Proposat: nou inici |
 |---|-------|--------|--------------|---------------------|
@@ -100,7 +100,3 @@ Per a cada cas, la descripcio comenca per l'adreca que ja es al camp; es proposa
 | 47 | torre-rodona | Nom, número | C. del Dr. Salvador Cardenal, 7 | Dr. Salvador Cardenal, 7 Torre de fortificació del segle XI . S’hi fa una reforma integral al segle XV i una altra al segle XVIII que li dona l’aspecte actual. Avui dia a | manual: el text no comenca exactament per l'adreca guardada |
 | 48 | torre-velez | Nom, número | Av. de la Mare de Déu de Montserrat, 86-98 | Av. Mare de Déu de Montserrat, 86-98 | manual: el text no comenca exactament per l'adreca guardada |
 | 49 | velodrom-municipal-dhorta | Etiqueta Adreça: | — | Pg. Vall d’Hebron, 185 Projecte: Esteve Bonell i Francesc Rius. 1984 Premi FAD Arquitectura Premi FAD Arquitectura (Opinió) | manual: la fitxa no te adreca; cal marcar on acaba |
-
-## Notes
-- Cap canvi s'aplica automaticament; aquest informe i el patch son per revisar.
-- Pendent tambe revisar les 7 fitxes amb adreca dins d'intervencions[].descripcio.

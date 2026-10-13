@@ -1,0 +1,457 @@
+--- a/content/ca/elements/biblioteca-la-fraternitat.md
++++ b/content/ca/elements/biblioteca-la-fraternitat.md
+@@ -1,12 +1,7 @@
+ ---
+ aliases: ["/biblioteques/biblioteca-la-fraternitat/"]
+ adreca: Comte de Santa Clara, 8-10 | Barceloneta
+-descripcio: 'Adreça: Comte de Santa Clara, 8-10 | Barceloneta Remodelació Biblioteca:
+-  Josep M. Rovira. 2001 La Fraternitat era una cooperativa obrera fundada el 1879
+-  que oferia productes de consum a baix preu i organitzava activitats culturals per
+-  als socis. Dissolta l’any 1974, l’edifici modernista, amb una treballada façana
+-  de totxo i una rica decoració exterior, es va preservar i ara acull la biblioteca
+-  del barri.'
++descripcio: 'Remodelació Biblioteca: Josep M. Rovira. 2001 La Fraternitat era una cooperativa obrera fundada el 1879 que oferia productes de consum a baix preu i organitzava activitats culturals per als socis. Dissolta l’any 1974, l’edifici modernista, amb una treballada façana de totxo i una rica decoració exterior, es va preservar i ara acull la biblioteca del barri.'
+ districte: "Ciutat Vella"
+ draft: false
+ edifici_original: Cooperativa Obrera La Fraternitat de la Barceloneta. Francesc Guàrdia
+--- a/content/ca/elements/masia-ca-la-figuera.md
++++ b/content/ca/elements/masia-ca-la-figuera.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-ca-la-figuera/"]
+ adreca: Roine, 12-16
+-descripcio: Roine, 12-16 Mas construït entre els segles XVIII i XIX . Actualment està
+-  dividit en tres cases.
++descripcio: 'Mas construït entre els segles XVIII i XIX . Actualment està dividit en tres cases.'
+ any: 's. XVIII'
+ districte: "Sant Andreu"
+ draft: false
+--- a/content/ca/elements/masia-ca-la-marquesa.md
++++ b/content/ca/elements/masia-ca-la-marquesa.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-ca-la-marquesa/"]
+ adreca: Maignon, 27
+-descripcio: Maignon, 27 Edificació de, probablement, el segle XVIII . Formava part
+-  d’una gran propietat agrícola. Actualment té un ús residencial. Tipologia original
+-  irreconeixible.
++descripcio: 'Edificació de, probablement, el segle XVIII . Formava part d’una gran propietat agrícola. Actualment té un ús residencial. Tipologia original irreconeixible.'
+ any: 's. XVIII'
+ districte: "Gràcia"
+ draft: false
+--- a/content/ca/elements/masia-ca-lagusti.md
++++ b/content/ca/elements/masia-ca-lagusti.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-ca-lagusti/"]
+ adreca: Pere IV, 429-431
+-descripcio: Pere IV, 429-431 Construïda a principis del segle XX i molt reformada
+-  a posteriori. Actualment és un negoci de jardineria.
++descripcio: 'Construïda a principis del segle XX i molt reformada a posteriori. Actualment és un negoci de jardineria.'
+ any: 's. XX'
+ districte: "Sant Martí"
+ draft: false
+--- a/content/ca/elements/masia-ca-lestruch.md
++++ b/content/ca/elements/masia-ca-lestruch.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-ca-lestruch/"]
+ adreca: Pons i Gallarza, 30 bis-32
+-descripcio: Pons i Gallarza, 30 bis-32 També conegut com a Can Riera Mas dels segles
+-  XVI-XVII , que va funcionar com a casa pairal fins a principis del segle XX . Ha
+-  patit nombroses reformes i addicions. Actualment té un ús residencial.
++descripcio: 'També conegut com a Can Riera Mas dels segles XVI-XVII , que va funcionar com a casa pairal fins a principis del segle XX . Ha patit nombroses reformes i addicions. Actualment té un ús residencial.'
+ any: 's. XVI-XVII'
+ districte: "Sant Andreu"
+ draft: false
+--- a/content/ca/elements/masia-ca-nandalet.md
++++ b/content/ca/elements/masia-ca-nandalet.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-ca-nandalet/"]
+ adreca: Ptge. Andalet, 11
+-descripcio: Ptge. Andalet, 11 També coneguda com a Cal Xinxó Mas la primera referència
+-  del qual és del segle XVII . Ha patit múltiples reformes i agregacions. Actualment
+-  és una seu de Barcelona Activa. Tipologia original irreconeixible.
++descripcio: 'També coneguda com a Cal Xinxó Mas la primera referència del qual és del segle XVII . Ha patit múltiples reformes i agregacions. Actualment és una seu de Barcelona Activa. Tipologia original irreconeixible.'
+ any: 's. XVII'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-ca-nartes.md
++++ b/content/ca/elements/masia-ca-nartes.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-ca-nartes/"]
+ adreca: Pere d’Artés, 8
+-descripcio: Pere d’Artés, 8 Mas de finals del segle XIV . Encara conserva elements
+-  originaris medievals. Actualment és de propietat privada.
++descripcio: 'Mas de finals del segle XIV . Encara conserva elements originaris medievals. Actualment és de propietat privada.'
+ any: 's. XIV'
+ districte: "Nou Barris"
+ draft: false
+--- a/content/ca/elements/masia-cal-cervera.md
++++ b/content/ca/elements/masia-cal-cervera.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-cal-cervera/"]
+ adreca: Font Florida, 1-3
+-descripcio: Font Florida, 1-3 Edifici de principis del segle XIX . Actualment en desús
+-  i pendent de reforma.
++descripcio: 'Edifici de principis del segle XIX . Actualment en desús i pendent de reforma.'
+ any: 's. XIX'
+ districte: "Sants-Montjuïc"
+ draft: false
+--- a/content/ca/elements/masia-can-baliarda.md
++++ b/content/ca/elements/masia-can-baliarda.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-baliarda/"]
+ adreca: Pg. Valldaura, 1-13
+-descripcio: Pg. Valldaura, 1-13 La primera referència que se’n té és del segle XVI
+-  . S’hi fa una gran reforma al segle XIX . Actualment és de propietat privada. Tipologia
+-  original irreconeixible.
++descripcio: 'La primera referència que se’n té és del segle XVI . S’hi fa una gran reforma al segle XIX . Actualment és de propietat privada. Tipologia original irreconeixible.'
+ any: 's. XVI'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-baro.md
++++ b/content/ca/elements/masia-can-baro.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-baro/"]
+ adreca: Pl. Can Baró, 1-3
+-descripcio: Pl. Can Baró, 1-3 Masia del segle XVII , conserva una inscripció amb l’any
+-  1674. Sembla que al segle XVIII va patir una important reforma. Actualment té un
+-  ús escolar.
++descripcio: 'Masia del segle XVII , conserva una inscripció amb l’any 1674. Sembla que al segle XVIII va patir una important reforma. Actualment té un ús escolar.'
+ any: 's. XVII'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-bruixa.md
++++ b/content/ca/elements/masia-can-bruixa.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-bruixa/"]
+ adreca: Parcerisa, 8
+-descripcio: Parcerisa, 8 Construïda a la segona meitat del segle XIX com a explotació
+-  agrària i reformada a la segona meitat del segle XX . Està pendent de rehabilitació
+-  com a equipament públic.
++descripcio: 'Construïda a la segona meitat del segle XIX com a explotació agrària i reformada a la segona meitat del segle XX . Està pendent de rehabilitació com a equipament públic.'
+ any: 's. XIX'
+ districte: "Sants-Montjuïc"
+ draft: false
+--- a/content/ca/elements/masia-can-canet-de-la-riera.md
++++ b/content/ca/elements/masia-can-canet-de-la-riera.md
+@@ -1,10 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-canet-de-la-riera/"]
+ adreca: Bosch i Gimpera, 5-13
+-descripcio: Bosch i Gimpera, 5-13 Construïda a l’edat mitjana i dedicada al conreu
+-  de cereals, vinya i garrofes. Pateix importants reformes als segles XVIII i XX .
+-  Des de 1954 és la seu del Reial Club de Tennis de Barcelona. Tipologia original
+-  irreconeixible.
++descripcio: 'Construïda a l’edat mitjana i dedicada al conreu de cereals, vinya i garrofes. Pateix importants reformes als segles XVIII i XX . Des de 1954 és la seu del Reial Club de Tennis de Barcelona. Tipologia original irreconeixible.'
+ any: 's. XVIII'
+ districte: "Sants-Montjuïc"
+ draft: false
+--- a/content/ca/elements/masia-can-carabassa.md
++++ b/content/ca/elements/masia-can-carabassa.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-carabassa/"]
+ adreca: Peris i Mencheta, 24-46
+-descripcio: Peris i Mencheta, 24-46 També coneguda com a Can Llobeta La masia originària
+-  sembla que datava del segle XVII . Una reforma del segle XIX li dona l’aspecte neoclàssic
+-  actual. Avui dia té un ús escolar. Tipologia original irreconeixible.
++descripcio: 'També coneguda com a Can Llobeta La masia originària sembla que datava del segle XVII . Una reforma del segle XIX li dona l’aspecte neoclàssic actual. Avui dia té un ús escolar. Tipologia original irreconeixible.'
+ any: 's. XVII'
+ districte: "Gràcia"
+ draft: false
+--- a/content/ca/elements/masia-can-cortada.md
++++ b/content/ca/elements/masia-can-cortada.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-cortada/"]
+ adreca: Av. de l’Estatut de Catalunya, 57-71
+-descripcio: Av. de l’Estatut de Catalunya, 57-71 Conjunt fortificat d’entre els segles
+-  XI i XIV . Funciona com a masia des de la segona meitat del segle XVII fins a mitjan
+-  segle XX. Des de 1994 acull un restaurant.
++descripcio: 'Conjunt fortificat d’entre els segles XI i XIV . Funciona com a masia des de la segona meitat del segle XVII fins a mitjan segle XX. Des de 1994 acull un restaurant.'
+ any: 's. XI'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-figuerola.md
++++ b/content/ca/elements/masia-can-figuerola.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-figuerola/"]
+ adreca: Judea, 2
+-descripcio: Judea, 2 També conegut com a Can Fuster Mas del segle XV i bon exemple
+-  del gòtic civil català. El 1970 es reforma per acollir el Museu Palmero.
++descripcio: 'També conegut com a Can Fuster Mas del segle XV i bon exemple del gòtic civil català. El 1970 es reforma per acollir el Museu Palmero.'
+ any: 's. XV'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-gras.md
++++ b/content/ca/elements/masia-can-gras.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-gras/"]
+ adreca: Pl. Santes Creus, 20
+-descripcio: Pl. Santes Creus, 20 Masia amb explotació agrícola i ramadera. Les primeres
+-  referències són del segle XVIII . A mitjan segle XIX s’hi fa una reforma i es perd
+-  la meitat de la masia. Actualment té un ús residencial.
++descripcio: 'Masia amb explotació agrícola i ramadera. Les primeres referències són del segle XVIII . A mitjan segle XIX s’hi fa una reforma i es perd la meitat de la masia. Actualment té un ús residencial.'
+ any: 's. XVIII'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-joanet-del-borni.md
++++ b/content/ca/elements/masia-can-joanet-del-borni.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-joanet-del-borni/"]
+ adreca: Neopàtria, 22-28
+-descripcio: Neopàtria, 22-28 Casa originària del segle XVIII . S’hi han fet diverses
+-  reformes als segles XIX i XX . Actualment té un ús residencial.
++descripcio: 'Casa originària del segle XVIII . S’hi han fet diverses reformes als segles XIX i XX . Actualment té un ús residencial.'
+ any: 's. XVIII'
+ districte: "Sant Andreu"
+ draft: false
+--- a/content/ca/elements/masia-can-llupia.md
++++ b/content/ca/elements/masia-can-llupia.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-llupia/"]
+ adreca: Parc del Laberint d'Horta
+-descripcio: Parc del Laberint d’Horta També conegut com a Torre Sobirana o Palau del
+-  Marquès d’Alfarràs
++descripcio: 'També conegut com a Torre Sobirana o Palau del Marquès d’Alfarràs'
+ districte: "Horta-Guinardó"
+ draft: false
+ lat: 41.4392573
+--- a/content/ca/elements/masia-can-mascaro.md
++++ b/content/ca/elements/masia-can-mascaro.md
+@@ -1,7 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-mascaro/"]
+ adreca: Dr. Cadevall, 28-52
+-descripcio: Dr. Cadevall, 28-52 També coneguda com a Casa Córdoba-Planàs
++descripcio: 'També coneguda com a Casa Córdoba-Planàs'
+ districte: "Horta-Guinardó"
+ draft: false
+ lat: 41.4172694
+--- a/content/ca/elements/masia-can-masdeu.md
++++ b/content/ca/elements/masia-can-masdeu.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-masdeu/"]
+ adreca: Camí de Sant Llàtzer, s/n
+-descripcio: 'Camí de Sant Llàtzer, s/n Masia del segle XVII . Entre els segles XVIII
+-  i XX pateix diverses reformes. Actualment acull una comunitat autogestionada. Tipologia:
+-  crugia paral·lela a la façana principal.'
++descripcio: 'Masia del segle XVII . Entre els segles XVIII i XX pateix diverses reformes. Actualment acull una comunitat autogestionada. Tipologia: crugia paral·lela a la façana principal.'
+ any: 's. XVII'
+ districte: "Nou Barris"
+ draft: false
+--- a/content/ca/elements/masia-can-melic.md
++++ b/content/ca/elements/masia-can-melic.md
+@@ -1,10 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-melic/"]
+ adreca: Torrent d’en Melis, 11
+-descripcio: Torrent d’en Melis, 11 També coneguda com a Can Planàs. La primera referència
+-  d’aquest mas data del segle XVIII . Ha tingut diversos usos (canòdrom, piscina,
+-  alberg juvenil…) i des de 1982 acull el Centre Cívic Guinardó. Tipologia original
+-  irreconeixible.
++descripcio: 'També coneguda com a Can Planàs. La primera referència d’aquest mas data del segle XVIII . Ha tingut diversos usos (canòdrom, piscina, alberg juvenil…) i des de 1982 acull el Centre Cívic Guinardó. Tipologia original irreconeixible.'
+ any: 's. XVIII'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-mestres-vallvidrera.md
++++ b/content/ca/elements/masia-can-mestres-vallvidrera.md
+@@ -1,7 +1,6 @@
+ ---
+ adreca: Av. Vallvidrera, 25-27
+-descripcio: Av. Vallvidrera, 25-27 Mas del segle XVI reformat al segle XVIII . Actualment
+-  acull el CEI International Affairs, vinculat a la Universitat de Barcelona.
++descripcio: 'Mas del segle XVI reformat al segle XVIII . Actualment acull el CEI International Affairs, vinculat a la Universitat de Barcelona.'
+ any: 's. XVI'
+ districte: "Sarrià-Sant Gervasi"
+ draft: false
+--- a/content/ca/elements/masia-can-mora.md
++++ b/content/ca/elements/masia-can-mora.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-mora/"]
+ adreca: Portell, 11-13
+-descripcio: Portell, 11-13 La primera referència d’aquesta masia és de 1750. Ha patit
+-  reformes amb canvis estructurals. Actualment acull una residència de gent gran.
++descripcio: 'La primera referència d’aquesta masia és de 1750. Ha patit reformes amb canvis estructurals. Actualment acull una residència de gent gran.'
+ districte: "Gràcia"
+ draft: false
+ lat: 41.4179202
+--- a/content/ca/elements/masia-can-raspall.md
++++ b/content/ca/elements/masia-can-raspall.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-raspall/"]
+ adreca: Manuel Girona, 33
+-descripcio: Manuel Girona, 33 Mas del segle XVI , reformat i ampliat el 1920. Actualment
+-  és un centre mèdic privat.
++descripcio: 'Mas del segle XVI , reformat i ampliat el 1920. Actualment és un centre mèdic privat.'
+ any: 's. XVI'
+ districte: "Sarrià-Sant Gervasi"
+ draft: false
+--- a/content/ca/elements/masia-can-riera.md
++++ b/content/ca/elements/masia-can-riera.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-riera/"]
+ adreca: Santander, 41
+-descripcio: Santander, 41 Casa del segle XVI , que conserva una inscripció amb l’any
+-  1574. Actualment està en desús, a l’espera de l’execució d’un gran pla urbanístic
+-  al seu entorn. IPAC
++descripcio: 'Casa del segle XVI , que conserva una inscripció amb l’any 1574. Actualment està en desús, a l’espera de l’execució d’un gran pla urbanístic al seu entorn. IPAC'
+ any: 's. XVI'
+ districte: "Sant Martí"
+ draft: false
+--- a/content/ca/elements/masia-can-ros-de-mayol.md
++++ b/content/ca/elements/masia-can-ros-de-mayol.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-ros-de-mayol/"]
+ adreca: Sagunt, 90-94
+-descripcio: Sagunt, 90-94 Edifici rural reformat al segle XIX segons un llenguatge
+-  academicista. Actualment acull una escola.
++descripcio: 'Edifici rural reformat al segle XIX segons un llenguatge academicista. Actualment acull una escola.'
+ any: 's. XIX'
+ districte: "Sants-Montjuïc"
+ draft: false
+--- a/content/ca/elements/masia-can-sitjar-gran.md
++++ b/content/ca/elements/masia-can-sitjar-gran.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-sitjar-gran/"]
+ adreca: Pg. Valldaura, 23-25
+-descripcio: Pg. Valldaura, 23-25 Masia construïda entre els segles XVII i XVIII i
+-  que manté l’ús agrícola fins a mitjan segle XX . Parcialment enderrocada als anys
+-  seixanta, actualment té un ús residencial.
++descripcio: 'Masia construïda entre els segles XVII i XVIII i que manté l’ús agrícola fins a mitjan segle XX . Parcialment enderrocada als anys seixanta, actualment té un ús residencial.'
+ any: 's. XVII'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-travi-vell.md
++++ b/content/ca/elements/masia-can-travi-vell.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-travi-vell/"]
+ adreca: Av. del Cardenal Vidal i Barraquer, 47
+-descripcio: Av. del Cardenal Vidal i Barraquer, 47 Masia del segle XVI i en activitat
+-  fins als anys vuitanta. El 1990 s’urbanitza tot l’entorn i actualment és seu de
+-  la Guàrdia Urbana d’Horta-Guinardó.
++descripcio: 'Masia del segle XVI i en activitat fins als anys vuitanta. El 1990 s’urbanitza tot l’entorn i actualment és seu de la Guàrdia Urbana d’Horta-Guinardó.'
+ any: 's. XVI'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-can-tusquets.md
++++ b/content/ca/elements/masia-can-tusquets.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-tusquets/"]
+ adreca: Travessera de Dalt, 45-61
+-descripcio: Travessera de Dalt, 45-61 Masia de 1793 i amb activitat agrícola fins
+-  a 1930. Restaurada el 1992, actualment és un centre de menors tutelats.
++descripcio: 'Masia de 1793 i amb activitat agrícola fins a 1930. Restaurada el 1992, actualment és un centre de menors tutelats.'
+ districte: "Gràcia"
+ draft: false
+ lat: 41.4098196
+--- a/content/ca/elements/masia-can-xipreret.md
++++ b/content/ca/elements/masia-can-xipreret.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-can-xipreret/"]
+ adreca: Mare de Déu de la Salut, 75
+-descripcio: Mare de Déu de la Salut, 75 Masia del segle XVIII . Ha patit diverses
+-  reformes i ampliacions i des de principis del segle XX és propietat del Club Tennis
+-  de la Salut.
++descripcio: 'Masia del segle XVIII . Ha patit diverses reformes i ampliacions i des de principis del segle XX és propietat del Club Tennis de la Salut.'
+ any: 's. XVIII'
+ districte: "Gràcia"
+ draft: false
+--- a/content/ca/elements/masia-granja-montserrat.md
++++ b/content/ca/elements/masia-granja-montserrat.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-granja-montserrat/"]
+ adreca: Torrent de Tapioles, 7-9
+-descripcio: Torrent de Tapioles, 7-9 També coneguda com Granja del Ritz Mas dels anys
+-  trenta i amb ús agrícola fins als anys noranta. Actualment és de propietat municipal,
+-  però està en desús.
++descripcio: 'També coneguda com Granja del Ritz Mas dels anys trenta i amb ús agrícola fins als anys noranta. Actualment és de propietat municipal, però està en desús.'
+ districte: "Nou Barris"
+ draft: false
+ lat: 41.4639719
+--- a/content/ca/elements/masia-i-masoveria-de-can-safont.md
++++ b/content/ca/elements/masia-i-masoveria-de-can-safont.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-masoveria-de-can-safont/"]
+ adreca: Natzaret, 107
+-descripcio: Natzaret, 107 Edificació originària del segle XIII , que pateix una gran
+-  reforma al segle XVIII . Actualment és propietat d’una institució religiosa. Tipologia
+-  original irreconeixible.
++descripcio: 'Edificació originària del segle XIII , que pateix una gran reforma al segle XVIII . Actualment és propietat d’una institució religiosa. Tipologia original irreconeixible.'
+ any: 's. XIII'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-la-petita-maria.md
++++ b/content/ca/elements/masia-la-petita-maria.md
+@@ -1,8 +1,7 @@
+ ---
+ aliases: ["/masies/masia-la-petita-maria/"]
+ adreca: López Catalán, 4-6
+-descripcio: López Catalán, 4-6 Masia del segle XVIII de la qual només queda la façana.
+-  Actualment, sense ús.
++descripcio: 'Masia del segle XVIII de la qual només queda la façana. Actualment, sense ús.'
+ any: 's. XVIII'
+ districte: "Sants-Montjuïc"
+ draft: false
+--- a/content/ca/elements/masia-mas-guinardo.md
++++ b/content/ca/elements/masia-mas-guinardo.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-mas-guinardo/"]
+ adreca: Pl. Salvador Riera, 2-5
+-descripcio: Pl. Salvador Riera, 2-5 Masia del segle XV . A finals del segle XIX s’hi
+-  fa una reforma amb estètica modernista. Actualment és el Casal d’Entitats Mas Guinardó.
+-  Tipologia original irreconeixible.
++descripcio: 'Masia del segle XV . A finals del segle XIX s’hi fa una reforma amb estètica modernista. Actualment és el Casal d’Entitats Mas Guinardó. Tipologia original irreconeixible.'
+ any: 's. XV'
+ districte: "Horta-Guinardó"
+ draft: false
+--- a/content/ca/elements/masia-villa-florida.md
++++ b/content/ca/elements/masia-villa-florida.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-villa-florida/"]
+ adreca: Muntaner, 540-548
+-descripcio: Muntaner, 540-548 Edificació original de, probablement, el segle XVIII
+-  . Una reforma de principis del segle XX li dona l’aspecte actual. Avui dia acull
+-  el Centre Cívic Vil·la Florida.
++descripcio: 'Edificació original de, probablement, el segle XVIII . Una reforma de principis del segle XX li dona l’aspecte actual. Avui dia acull el Centre Cívic Vil·la Florida.'
+ any: 's. XVIII'
+ districte: "Sarrià-Sant Gervasi"
+ draft: false
+--- a/content/ca/elements/masia-villa-joana.md
++++ b/content/ca/elements/masia-villa-joana.md
+@@ -1,9 +1,7 @@
+ ---
+ aliases: ["/masies/masia-villa-joana/"]
+ adreca: Ctra. de l'Església, 104 (Vallvidrera)
+-descripcio: Ctra. de l’Església, 104 (Vallvidrera) Antic mas, probablement del segle
+-  XVIII , transformat en casa d’estiueig al segle XIX . Residència del poeta Jacint
+-  Verdaguer fins a la seva mort, el 1902. Actualment acull el Museu Casa Verdaguer.
++descripcio: 'Antic mas, probablement del segle XVIII , transformat en casa d’estiueig al segle XIX . Residència del poeta Jacint Verdaguer fins a la seva mort, el 1902. Actualment acull el Museu Casa Verdaguer.'
+ any: 's. XVIII'
+ districte: "Sarrià-Sant Gervasi"
+ draft: false
