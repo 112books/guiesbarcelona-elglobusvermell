@@ -34,7 +34,7 @@ Un cop esclata la Guerra Civil, l'activitat del GATCPAC minva considerablement. 
 
 Després de la Guerra Civil, el debat i la investigació sobre l'arquitectura van trigar reactivar-se. No és fins el 1951 que es funda el Grup R, col·lectiu que agrupa arquitectes de diverses generacions (Oriol Bohigas, Josep Antoni Coderch, Josep Martorell, Antoni de Moragas, entre d'altres) amb la voluntat de continuar el llegat del GATCPAC.
 
-## Josep Lluís Sert i López
+## [Josep Lluís Sert i López](/arquitectes/josep-lluís-sert/)
 
 (Barcelona, 1902 – Barcelona, 1983)
 
@@ -44,19 +44,19 @@ Algunes de les obres més representatives a Barcelona recollides en aquesta guia
 
 ## Arquitectes coautors
 
-### Josep Torres i Clavé
+### [Josep Torres i Clavé](/arquitectes/josep-torres-clavé/)
 
 (Barcelona, 1906 – Els Omellons, Lleida, 1939)
 
 Neix en el si d'una família benestant, fundadora del Foment d'Obres i Construccions. Des de jove mostra un gran domini del dibuix i la pintura.
 
-### Joan Baptista Subirana Subirana
+### [Joan Baptista Subirana Subirana](/arquitectes/joan-baptista-subirana/)
 
 (Rosario de Santa Fe, Argentina, 1904 – Barcelona, 1978)
 
 És un dels pocs membres del GATCPAC d'origen humil.
 
-### Luis Lacasa Navarro
+### [Luis Lacasa Navarro](/arquitectes/luis-lacasa/)
 
 (Ribadesella, Astúries, 1899 – Moscou, Rússia, 1966)
 
@@ -64,7 +64,7 @@ Tot i no ser membre del GATCPAC, contribueix en la introducció del moviment rac
 
 ## Altres arquitectes significatius del GATCPAC
 
-### Sixte Illescas i Mirosa
+### [Sixte Illescas i Mirosa](/arquitectes/sixte-illescas/)
 
 (Barcelona, 1903 – 1986)
 
@@ -86,13 +86,13 @@ Després de la Guerra Civil es dedica a activitats empresarials.
 
 Les seves primeres obres com arquitecte són d'estil noucentista. Seguint criteris racionalistes dissenya la Casa Espona (1934-35), la Casa Cardenal (1935-40) i la casa unifamiliar de Can Móra (1935). Després de la Guerra Civil torna a fer arquitectura d'influència renaixentista.
 
-### Ricard Ribas i Seva
+### [Ricard Ribas i Seva](/arquitectes/ricard-ribas/)
 
 (Barcelona, 1907 – 2000)
 
 Quan s'apropa la Guerra Civil, les definicions polítiques s'accentuen i es desvincula del GATCPAC.
 
-### Antoni Bonet Castellana
+### [Antoni Bonet Castellana](/arquitectes/antoni-bonet-castellana/)
 
 (Barcelona, 1913 – 1989)
 

@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-13 14:00",
+  "actualitzat": "2026-10-13 14:08",
   "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -746,6 +746,19 @@
         }
       ],
       "posicio": "Nota interna (Joan, 30/9): ell el faria finit, però es manté infinit perquè és la decisió de Xavi."
+    },
+    {
+      "id": "coautors-gatcpac",
+      "ref": "T23",
+      "estat": "fet",
+      "titol": "Arquitectes coautors de les guies enllaçats a la seva fitxa",
+      "resultat": "Fet: a la guia GATCPAC, tots els noms dels apartats «Arquitectes coautors» i «Altres arquitectes significatius» ara enllacen a la seva fitxa d'arquitecte (Sert, Torres i Clavé, Subirana, Lacasa, Illescas, Rodríguez Arias, Churruca, Duran i Reynals, Ribas i Seva i Bonet Castellana).",
+      "enllacos": [
+        {
+          "label": "Guia GATCPAC",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
+        }
+      ]
     },
     {
       "id": "r6-splash-logo",
