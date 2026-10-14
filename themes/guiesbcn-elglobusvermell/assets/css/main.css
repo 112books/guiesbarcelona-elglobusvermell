@@ -2758,3 +2758,23 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   .en-plan > a.portada-guia-placeholder { max-width: 180px; }
 }
 
+
+/* Prova ?columnes=1 (A3/S3): plànol en dues columnes. Sense el paràmetre no s'aplica. */
+.publicacio.pub2c { display: grid; grid-template-columns: minmax(12rem, 1fr) minmax(0, 3fr); gap: 2.5rem; align-items: start; }
+.pub2c-lateral { position: sticky; top: 6rem; max-height: calc(100vh - 7rem); overflow: auto; }
+.pub2c-portada { display: block; width: 100%; height: auto; margin-bottom: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.pub2c-index { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--color-border, #e5e5e5); }
+.pub2c-index li { border-bottom: 1px solid var(--color-border, #e5e5e5); }
+.pub2c-index a { display: block; padding: 0.5rem 0; font-size: 0.92rem; text-decoration: none; color: inherit; }
+.pub2c-index a:hover, .pub2c-index a:focus-visible { text-decoration: underline; }
+.pub2c-principal { min-width: 0; }
+.pub2c .llistat-grup { scroll-margin-top: 6rem; }
+.pub2c .llistat-grup-capsalera { cursor: default; }
+.pub2c .llistat-grup-capsalera:disabled { opacity: 1; color: inherit; }
+.pub2c .llistat-grup-fletxa { display: none; }
+#tema-mapa, #tema-descarregues { scroll-margin-top: 6rem; }
+@media (max-width: 860px) {
+  .publicacio.pub2c { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .pub2c-lateral { position: static; max-height: none; display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1rem; align-items: start; min-width: 0; }
+  .pub2c-portada { margin-bottom: 0; }
+}

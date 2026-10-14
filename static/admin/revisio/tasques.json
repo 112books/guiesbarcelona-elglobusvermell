@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-14 12:22",
+  "actualitzat": "2026-10-14 16:31",
   "intro": "Revisió dels canvis fets i de les decisions pendents arran dels correus del 30 de setembre i del 9 d'octubre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -1412,7 +1412,25 @@
       "ref": "Nou · 9/10 · S3",
       "titol": "«En paper»: cada plànol en dues columnes",
       "cita": "Portada del plànol i índex de continguts a l'esquerra, i plànol i textos a la dreta. Els textos sempre desplegats.",
-      "descripcio": "Ens cal saber què ha de contenir l'índex de temes de cada plànol (un croquis ajudaria). Amb això en fem una prova abans d'aplicar-ho."
+      "descripcio": "Us hem fet una prova perquè ho vegeu: a l'esquerra la portada en paper i l'índex amb els temes de cada plànol (que es queda fix en fer scroll); a la dreta el mapa i tots els textos oberts, sense clics. De moment l'índex són els títols de cada apartat del plànol. Digueu-nos si us agrada i què hi voldríeu canviar a l'índex.",
+      "enllacos": [
+        {
+          "label": "Avantguarda en dues columnes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/?columnes=1"
+        },
+        {
+          "label": "Mercats en dues columnes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats/?columnes=1"
+        },
+        {
+          "label": "Masies en dues columnes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies/?columnes=1"
+        },
+        {
+          "label": "Avantguarda com és ara",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
+        }
+      ]
     },
     {
       "id": "b2-dades-projecte",

@@ -5,7 +5,7 @@
   {{ if eq .slug $slug }}{{ $pub = . }}{{ end }}
 {{ end }}
 
-<article class="publicacio"{{ with $pub.color }} style="--pub-color: {{ . }}"{{ end }}>
+<article class="publicacio"{{ with $pub.color }} style="--pub-color: {{ . }}"{{ end }}{{ with .Params.foto }} data-portada="{{ . | strings.TrimPrefix "/" | relURL }}"{{ end }}>
 
   <div class="publicacio-banda"></div>
 

@@ -305,6 +305,7 @@
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.context) { var c = document.createElement("p"); c.className = "r-context"; c.textContent = item.context; art.appendChild(c); }
       if (item.descripcio) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.descripcio; art.appendChild(d); }
+      afegeixEnllacos(art, item);
       art.appendChild(creaComentari(item.id));
       return art;
     }

@@ -1477,4 +1477,67 @@
       if (primerCos) primerCos.style.maxHeight = '9999px';
     }
   }
+
+  // ── Prova ?columnes=1 (A3/S3, Xavi 9/10) ──────────────────────────────
+  // Plànol en dues columnes: a l'esquerra la portada i l'índex de temes
+  // (els <h2> del text); a la dreta el mapa i tots els textos desplegats.
+  // Només per comparar: sense el paràmetre la pàgina no canvia.
+  (function provaDuesColumnes() {
+    if (new URLSearchParams(window.location.search).get('columnes') !== '1') return;
+    var art = document.querySelector('article.publicacio');
+    if (!art) return;
+
+    var grups = art.querySelectorAll('.publicacio-descripcio > .llistat-grup');
+    var index = [];
+    grups.forEach(function (g, i) {
+      g.id = 'tema-' + (i + 1);
+      g.classList.add('obert');
+      var btn = g.querySelector('.llistat-grup-capsalera');
+      var cos = g.querySelector('.llistat-grup-elements');
+      if (btn) { btn.setAttribute('aria-expanded', 'true'); btn.disabled = true; }
+      if (cos) cos.style.maxHeight = 'none';
+      var t = g.querySelector('.llistat-grup-any');
+      index.push({ id: g.id, text: t ? t.textContent.trim() : ('Tema ' + (i + 1)) });
+    });
+
+    var principal = document.createElement('div');
+    principal.className = 'pub2c-principal';
+    while (art.firstChild) principal.appendChild(art.firstChild);
+
+    var aside = document.createElement('aside');
+    aside.className = 'pub2c-lateral';
+    aside.setAttribute('aria-label', 'Índex del plànol-guia');
+    var portada = art.getAttribute('data-portada');
+    if (portada) {
+      var img = document.createElement('img');
+      img.src = portada; img.alt = 'Portada del plànol-guia en paper';
+      img.className = 'pub2c-portada';
+      aside.appendChild(img);
+    }
+    var nav = document.createElement('nav');
+    var ul = document.createElement('ol');
+    ul.className = 'pub2c-index';
+    var mapaSec = principal.querySelector('.publicacio-edificis');
+    if (mapaSec) { mapaSec.id = 'tema-mapa'; index.unshift({ id: 'tema-mapa', text: 'Mapa' }); }
+    var desc = principal.querySelector('.publicacio-descarregues');
+    if (desc) { desc.id = 'tema-descarregues'; index.push({ id: 'tema-descarregues', text: 'Descarregar el plànol-guia' }); }
+    index.forEach(function (e) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + e.id; a.textContent = e.text;
+      li.appendChild(a); ul.appendChild(li);
+    });
+    nav.appendChild(ul);
+    aside.appendChild(nav);
+
+    art.classList.add('pub2c');
+    art.appendChild(aside);
+    art.appendChild(principal);
+    if (window.dispatchEvent) window.dispatchEvent(new Event('resize'));
+
+    var b = document.createElement('div');
+    b.className = 'ample-badge';
+    b.innerHTML = 'Prova: plànol en dues columnes · <a href="?">veure com és ara</a>';
+    document.body.appendChild(b);
+  })();
 })();
