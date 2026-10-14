@@ -81,5 +81,18 @@
   document.body.appendChild(b);
 }());
 </script>
+<script>
+// S26 — prova «Arquitectes» / «Projecte»: ?projecte=1 amaga la fila «Arquitectes»
+// quan els mateixos noms ja surten a «Projecte» (només per comparar; no toca dades).
+(function () {
+  if (new URLSearchParams(window.location.search).get('projecte') !== '1') return;
+  var files = document.querySelectorAll('.fitxa-dada-repetida');
+  for (var i = 0; i < files.length; i++) files[i].hidden = true;
+  var b = document.createElement('div');
+  b.className = 'ample-badge';
+  b.innerHTML = 'Prova: sense la fila «Arquitectes» repetida · <a href="?">veure com és ara</a>';
+  document.body.appendChild(b);
+}());
+</script>
 </body>
 </html>

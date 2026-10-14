@@ -611,23 +611,18 @@
       "id": "fitxa-arquitectes-projecte",
       "titol": "Duplicitat «Arquitectes» i «Projecte» a les fitxes",
       "cita": "La idea és fer desaparèixer la informació repetida i, per tant, el camp \"arquitectes\". Ara apareix exactament la mateixa informació a arquitectes i a projecte.",
-      "context": "Comprovat: 212 de 658 fitxes tenen el nom de l'arquitecte duplicat al camp «arquitectes» i a la intervenció de tipus «Projecte» (222 tenen els dos camps; en 10 no coincideixen del tot). La fitxa mostra les dues files i sembla repetit. A .ai/DIAGNOSI-TRASPAS-2026-10.md hi ha el detall.",
-      "descripcio": "Què preferiu que fem?",
+      "context": "Ho vau demanar així el 31 d'agost (una fila «Arquitectes» amb tots els noms clicables i una altra «Projecte») i el 9 d'octubre ens dieu que la informació repetida ha de desaparèixer. Comprovat: a 212 de 658 fitxes, tots els noms de «Arquitectes» ja surten a «Projecte» (o «Reforma», «Remodelació»...), i allà ja són clicables. En 10 fitxes més el nom està escrit diferent (p. ex. «Francisco Ribas de Salas» / «Francesc de Riba i Salas») i cal unificar-lo primer.",
+      "descripcio": "Obriu una fitxa tal com és ara i amb la prova, i digueu-nos si us agrada així.",
       "opcions": [
         {
           "id": "amagar",
-          "label": "Mostrar només la fila «Projecte» i amagar «Arquitectes» quan ja hi és",
-          "detall": "Canvi de plantilla, sense tocar dades; ràpid i reversible."
+          "label": "Sí: amagar la fila «Arquitectes» quan ja surt a «Projecte»",
+          "detall": "Afecta 212 fitxes. No s'esborra cap dada: si mai cal, es torna a mostrar."
         },
         {
-          "id": "netejar",
-          "label": "Unificar les dades: treure el camp «arquitectes» redundant",
-          "detall": "Migració de les 212 fitxes; més net a llarg termini."
-        },
-        {
-          "id": "diferents",
-          "label": "Diferenciar les dues files",
-          "detall": "«Arquitectes» = autoria; «Projecte» = tipus d'intervenció."
+          "id": "amagar-unificar",
+          "label": "Sí, i unifiqueu també els 10 noms escrits diferent",
+          "detall": "Corregim el nom dins «Projecte» perquè coincideixi amb la fitxa de l'arquitecte i quedi enllaçat."
         },
         {
           "id": "deixar",
@@ -635,9 +630,23 @@
           "detall": ""
         }
       ],
-      "recomanacio": "amagar",
+      "recomanacio": "amagar-unificar",
       "ref": "F5 · S26",
-      "estat": "pendent"
+      "estat": "pendent",
+      "enllacos": [
+        {
+          "label": "Fitxa com és ara",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/48-habitatges-i-centre-civic/"
+        },
+        {
+          "label": "La mateixa fitxa amb la prova",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/48-habitatges-i-centre-civic/?projecte=1"
+        },
+        {
+          "label": "Una altra amb la prova (Bloc dels Pescadors)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/bloc-dels-pescadors/?projecte=1"
+        }
+      ]
     }
   ],
   "canvis": [

@@ -156,8 +156,14 @@
       </div>
       {{ end }}
 
+      {{/* S26 — prova ?projecte=1: es marca la fila quan tots els arquitectes ja surten
+           als autors de les intervencions (la fila seria repetida). No amaga res per defecte. */}}
+      {{ $autorsIv := "" }}
+      {{ range .Params.intervencions }}{{ $autorsIv = printf "%s + %s" $autorsIv (.autors | default "" | lower) }}{{ end }}
+      {{ $repetida := and .Params.arquitectes .Params.intervencions }}
+      {{ range .Params.arquitectes }}{{ if not (strings.Contains $autorsIv (lower .)) }}{{ $repetida = false }}{{ end }}{{ end }}
       {{ with .Params.arquitectes }}
-      <div class="fitxa-dada">
+      <div class="fitxa-dada{{ if $repetida }} fitxa-dada-repetida{{ end }}">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
         <dd>
           {{ range $i, $a := . }}
