@@ -145,3 +145,15 @@ El **mail de canvis** (`docs/2026-10-14-mail-xavi-canvis.md`) s'ha retallat perq
 - `static/admin/revisio/tasques.json` posat al dia amb la ronda del 9/10: respostes de Xavi a 9 decisions (cercador, 5·5·3, mapa grisos, tipografia, Navas, Mons, Pavelló, cognom, Publicacions), 8 canvis nous del 10/10 (CMS, faixa, punts filtrats, «i» grisa, En paper, duplicats, intervencions, cognom), ítems desfasats corregits (nom d'arxiu, amplades a/b/c, portada de prova) i 3 tasques noves (A3 dues columnes, B2/B4 dades «projecte», F6 color parcial).
 - Tasca `enllacos-proves-tauler` feta: totes les proves enllaçades des del tauler.
 - **Biblioteca Vall d'Hebron:** Xavi la va crear el 9/10 (`115e869`) però va quedar sense `publicacions` ni adreça (just on es bloquejava el CMS). Al mail: «completeu-la», no «creeu-la».
+
+## Loop de tasques (14/10, migdia) — aprovat per Joan
+
+| # | Tasca | Resultat | Commit |
+|---|---|---|---|
+| 1 | Duplicitat «Arquitectes» / «Projecte» (S26, D31) | Origen: demanat per Xavi el 31/8, revisat el 9/10. 212 fitxes amb la fila repetida; 10 amb noms escrits diferent. Prova `?projecte=1` (amaga la fila, no toca dades). Decisió al tauler sense l'opció d'esborrar dades. Informe: `.ai/informe-arquitectes-projecte-2026-10-14.md` | `a3e6d49`, `bf5546c` |
+| 2 | Informació encallada a «projecte» (B2/B4) | `scripts/proposa-neteja-projecte.py` (només lectura): 154 fitxes, 194 casos → 103 AUTO, 45 REVISA, 46 MANUAL. Informe: `.ai/informe-neteja-projecte-2026-10-14.md`. **No aplicat.** | `…` (docs traspàs) |
+| 3 | Coordenades 10b | Ja correctes des del 29/7 (`5dc20ca`); verificades amb OSM. `casa-unifamiliar` resolta el 10/10. Cap canvi | — (full de ruta) |
+| 4 | Pins multicolor (M3/R3) | Prova `/mapa/?pins=multicolor`: 27 punts, 18 combinacions, pin partit en meitats o pastís (patrons SVG) | `b1420a5` |
+| 5 | «En paper» dues columnes (A3/S3) | Prova `?columnes=1` a cada plànol: portada + índex fix (h2) a l'esquerra; mapa + textos desplegats a la dreta | `b28523a` |
+
+Pendent de decisió de Xavi per a tot el lot (enllaços al tauler). El punt 6 (verificació contra el WP abans del tall) queda aparcat per decisió de Joan.
