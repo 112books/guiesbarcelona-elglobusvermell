@@ -111,6 +111,22 @@
 
 ---
 
+## Enviat a Xavi (13/10) — NO repetir
+
+**Correu enviat** (text literal a `docs/2026-10-13-mail-xavi-enviat-revisio-9oct.md`). Ja explicat:
+- **Amplada de text** (`?ample=1|2|3`).
+- **Carrusel d'«En paper»**: fletxes, portades més grans, infinit a la portada i finit a «En paper».
+- **Fora les pastilles negres** de la portada (P8).
+- **Biblioteques**: 50 fitxes comprovades, 6 sense foto.
+- **Arquitectes coautors del GATCPAC** enllaçats.
+- **Bibliografies**: 8 títols amb enllaç.
+- **Portada nova en tres blocs** (en preparació, no publicada).
+- **Pendent de decisió**: amplada, tipografia, anys de les xifres, paleta i «En paper» a dues columnes.
+
+El **mail de canvis** (`docs/2026-10-14-mail-xavi-canvis.md`) s'ha retallat perquè no repeteixi res d'això.
+
+---
+
 ## Resum
 
 - ✅ **Fets en aquest lot:** A1, A2, C3, C12–C15, D1, D2 (part títols), D3, D13, D18, D19, D20 (base), D29, D31 (part).
