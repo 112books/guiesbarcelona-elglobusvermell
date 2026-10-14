@@ -137,3 +137,11 @@ El **mail de canvis** (`docs/2026-10-14-mail-xavi-canvis.md`) s'ha retallat perq
 - ✔️ **Ja estaven fets/verificats:** C1, C4, C6, D5, D8, D11, D12, D14, D15, D16, D21–D27, D30.
 
 **Proper pas proposat:** repassar aquest document secció a secció (A → D) i, per cada ⏳/❓, decidir si ho fem ara o ho deixem anotat; amb això muntem el correu de resposta.
+
+---
+
+## Tauler actualitzat (14/10)
+
+- `static/admin/revisio/tasques.json` posat al dia amb la ronda del 9/10: respostes de Xavi a 9 decisions (cercador, 5·5·3, mapa grisos, tipografia, Navas, Mons, Pavelló, cognom, Publicacions), 8 canvis nous del 10/10 (CMS, faixa, punts filtrats, «i» grisa, En paper, duplicats, intervencions, cognom), ítems desfasats corregits (nom d'arxiu, amplades a/b/c, portada de prova) i 3 tasques noves (A3 dues columnes, B2/B4 dades «projecte», F6 color parcial).
+- Tasca `enllacos-proves-tauler` feta: totes les proves enllaçades des del tauler.
+- **Biblioteca Vall d'Hebron:** Xavi la va crear el 9/10 (`115e869`) però va quedar sense `publicacions` ni adreça (just on es bloquejava el CMS). Al mail: «completeu-la», no «creeu-la».

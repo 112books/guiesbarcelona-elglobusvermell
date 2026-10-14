@@ -1,6 +1,6 @@
 {
-  "actualitzat": "2026-10-13 23:41",
-  "intro": "Revisió dels canvis fets i de les decisions pendents del feedback del 30 de setembre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
+  "actualitzat": "2026-10-14 11:36",
+  "intro": "Revisió dels canvis fets i de les decisions pendents arran dels correus del 30 de setembre i del 9 d'octubre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
       "id": "cercador-general",
@@ -27,15 +27,21 @@
       ],
       "recomanacio": "",
       "ref": "NOU",
-      "estat": "pendent"
+      "estat": "pendent",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "No, amb el d'elements n'hi ha prou",
+        "text": "Ara és genial!",
+        "nostra_accio": "No fem cercador general. Tancat."
+      }
     },
     {
       "id": "t06-publicacions",
       "resposta": {
-        "data": "2026-09-30",
-        "opcio_xavi": "Mantenir-lo",
-        "text": "El volem conservar, seguríssim!",
-        "nostra_accio": "Es manté el bloc «Publicacions» al mapa. Tancat."
+        "data": "2026-10-09",
+        "opcio_xavi": "Mantenir-lo (recomanat)",
+        "text": "El volem conservar, seguríssim! A més, potser seria interessant que també hi hagués un filtre de temes com hi ha a «en paper».",
+        "nostra_accio": "Es manté el bloc «Publicacions». El filtre de temes queda com a decisió a part (R12)."
       },
       "titol": "T06 — Traiem també el bloc «Publicacions» del mapa?",
       "cita": "No volem que aparegui sota del mapa el llistat de tots els elements de tots els plànols, ni l'abecedari. Només el cercador.",
@@ -162,7 +168,13 @@
           "detall": "Repartiment més equilibrat, sense despenjada."
         }
       ],
-      "recomanacio": "553"
+      "recomanacio": "553",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "Fer 5 · 5 · 3",
+        "text": "Ho volem plantejar diferent. Ho explico a la pregunta sobre els blocs de portada.",
+        "nostra_accio": "Aplicat el 5 · 5 · 3 a la portada actual. La portada nova en tres blocs és a /portada-test/ per triar."
+      }
     },
     {
       "id": "m2-mapa-grisos",
@@ -190,7 +202,13 @@
         }
       ],
       "recomanacio": "actual",
-      "posicio": "La nostra posició: mantenir la base actual (discreta, amb els punts de color). Hem provat una base estrictament en blanc i negre: la imatge fixa es veu bé, però el mapa interactiu no pintava totes les teseles i l'hem retirat. Si ho vols, ho podem reprendre amb una clau de Stadia Maps."
+      "posicio": "La nostra posició: mantenir la base actual (discreta, amb els punts de color). Hem provat una base estrictament en blanc i negre: la imatge fixa es veu bé, però el mapa interactiu no pintava totes les teseles i l'hem retirat. Si ho vols, ho podem reprendre amb una clau de Stadia Maps.",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "El que ja hi ha em va bé (base discreta + punts amb color)",
+        "text": "",
+        "nostra_accio": "Ho deixem com està. Tancat."
+      }
     },
     {
       "id": "m3-pins-multicolor",
@@ -226,7 +244,7 @@
         "data": "2026-09-30",
         "opcio_xavi": "Infinit",
         "text": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
-        "nostra_accio": "A implementar: bucle infinit, sense barra a escriptori, arrossegament amb el cursor i portades més grans."
+        "nostra_accio": "Fet: infinit a la portada i finit a «En paper», amb fletxes i portades més grans."
       },
       "ref": "EP3",
       "estat": "pendent",
@@ -255,7 +273,7 @@
         "data": "2026-09-30",
         "opcio_xavi": "Us passarem la paleta definitiva per plànol",
         "text": "Em poso com a tasca pendent enviar la paleta definitiva. Per cert, el filtre del mapa ja no funciona... cliques una guia i no canvia res.",
-        "nostra_accio": "Esperant la paleta. El canvi de vermell a negre/gris fosc el fem ja. El filtre del mapa és una regressió a part (R1) que es corregeix en aquesta mateixa revisió."
+        "nostra_accio": "El filtre del mapa ja funciona (10/10). Esperem la paleta per plànol per aplicar els colors."
       },
       "ref": "GR1 · GR2",
       "estat": "pendent",
@@ -304,7 +322,13 @@
         }
       ],
       "recomanacio": "triar",
-      "posicio": "Es pot canviar fàcilment. Podeu proposar la que vulgueu (o dir-nos només l'estil que busqueu) i nosaltres verifiquem la llicència i l'apliquem. Si preferiu, també us podem fer nosaltres 2-3 propostes d'ús lliure."
+      "posicio": "Es pot canviar fàcilment. Podeu proposar la que vulgueu (o dir-nos només l'estil que busqueu) i nosaltres verifiquem la llicència i l'apliquem. Si preferiu, també us podem fer nosaltres 2-3 propostes d'ús lliure.",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "Proposeu-nos 2-3 opcions d'ús lliure",
+        "text": "",
+        "nostra_accio": "Fet: tres opcions a /admin/tipografia/. Falta que en trieu una."
+      }
     },
     {
       "id": "gr3-tipografia-opcions",
@@ -345,7 +369,7 @@
         "data": "2026-09-30",
         "opcio_xavi": "Feu-nos una prova amb 2-3 amplades i triem",
         "text": "",
-        "nostra_accio": "A preparar una prova amb 2-3 amplades de columna perquè trieu."
+        "nostra_accio": "Fet: tres opcions a tot el web (?ample=1, ?ample=2, ?ample=3). Falta que en trieu una per defecte."
       },
       "ref": "G1",
       "estat": "pendent",
@@ -419,7 +443,13 @@
         }
       ],
       "recomanacio": "redirigir-240",
-      "posicio": "Cap fitxa no s'esborra: el contingut es conserva a la fitxa bona i l'URL es redirigeix."
+      "posicio": "Cap fitxa no s'esborra: el contingut es conserva a la fitxa bona i l'URL es redirigeix.",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "Redirigir la genèrica a la 240",
+        "text": "He modificat la fitxa del 240, canviant el nom, que no era correcte. Les altres dues caldria eliminar-les.",
+        "nostra_accio": "Fet (10/10): queda la 240 (Casa Nativitat Vedruna); les altres dues redirigeixen a aquesta."
+      }
     },
     {
       "id": "casa-unifamiliar-duplicat",
@@ -446,7 +476,13 @@
         }
       ],
       "recomanacio": "",
-      "posicio": "Necessitem el teu criteri perquè les dades es contradiuen; no ho resolem esborrant."
+      "posicio": "Necessitem el teu criteri perquè les dades es contradiuen; no ho resolem esborrant.",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "És l'edifici de Churruca i Rodríguez Arias",
+        "text": "He modificat la fitxa de plaça Mons, ara es diu Lluís Barangé. L'altra fitxa és un error (la de Duran i Reynals).",
+        "nostra_accio": "Fet (10/10): queda Casa Lluís Barangé; l'altra redirigeix a aquesta."
+      }
     },
     {
       "id": "pavello-duplicat",
@@ -468,7 +504,13 @@
         }
       ],
       "recomanacio": "fusionar",
-      "posicio": "La fitxa d'avantguarda és la correcta; la de biblioteques aporta el plànol i una segona foto."
+      "posicio": "La fitxa d'avantguarda és la correcta; la de biblioteques aporta el plànol i una segona foto.",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "Sí, fusionar en una sola fitxa",
+        "text": "Veig les dues fitxes amb el mateix contingut. Sí, només n'hi ha d'haver una.",
+        "nostra_accio": "Fet (10/10): una sola fitxa."
+      }
     },
     {
       "id": "a1-ordre-cognom",
@@ -491,7 +533,13 @@
         }
       ],
       "recomanacio": "camp-cognom",
-      "posicio": "Ho podem implementar amb un camp opcional editat des de l'editor; no afecta les URL."
+      "posicio": "Ho podem implementar amb un camp opcional editat des de l'editor; no afecta les URL.",
+      "resposta": {
+        "data": "2026-10-09",
+        "opcio_xavi": "Afegim el camp «cognom» i ordenem per cognom",
+        "text": "Dubte: si nosaltres mateixos accedim a l'editor per afegir els cognoms o modificar noms i cognoms d'arquitectes, es trencarà el vincle amb els seus edificis?",
+        "nostra_accio": "Fet (10/10): camp «cognom» a l'editor i llistat ordenat per cognom. Si només ompliu «cognom», no es trenca cap vincle; només cal vigilar si canvieu el nom de l'arquitecte."
+      }
     },
     {
       "id": "fitxa-arquitectes-projecte",
@@ -527,6 +575,148 @@
     }
   ],
   "canvis": [
+    {
+      "id": "proves-enllacades",
+      "ref": "14/10",
+      "estat": "fet",
+      "titol": "Totes les proves, enllaçades des d'aquí",
+      "cita": "",
+      "resultat": "Per comparar i triar: portada de prova, tres amplades de text i tres tipografies.",
+      "enllacos": [
+        {
+          "label": "Portada de prova",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/portada-test/"
+        },
+        {
+          "label": "Amplada a",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=1"
+        },
+        {
+          "label": "Amplada b",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=2"
+        },
+        {
+          "label": "Amplada c",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=3"
+        },
+        {
+          "label": "Tipografies",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
+        }
+      ]
+    },
+    {
+      "id": "s1-cms-publicacions",
+      "ref": "FU1 · S1",
+      "estat": "fet",
+      "titol": "CMS: «Publicacions» ja no deixa la pantalla negra",
+      "cita": "Quan clico Publicacions «Seleccioneu una opció...» la pantalla es torna negra i ja no puc seguir editant.",
+      "resultat": "Fet: el desplegable s'ha canviat per caselles de selecció. La fitxa «Biblioteca Vall d'Hebron» que vau començar el 9/10 està desada però sense publicació ni adreça: obriu-la i completeu-la.",
+      "enllacos": [
+        {
+          "label": "Editor de continguts",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
+        }
+      ]
+    },
+    {
+      "id": "s-faixa-color",
+      "ref": "Nou · 9/10",
+      "estat": "fet",
+      "titol": "Fitxes sense faixa de color ni títol en color",
+      "cita": "No volem que hi hagi faixa de color a les fitxes dels elements. Tampoc el títol (nom de l'element) ha de tenir color.",
+      "resultat": "Fet: fora la faixa i el títol en color neutre.",
+      "enllacos": [
+        {
+          "label": "Exemple de fitxa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/"
+        }
+      ]
+    },
+    {
+      "id": "s-punts-amagats",
+      "ref": "M6 · M4 · R1",
+      "estat": "fet",
+      "titol": "Mapa: els punts filtrats ja no es poden clicar",
+      "cita": "Quan s'utilitzen els filtres, els altres punts segueixen clicables encara que estiguin desapareguts.",
+      "resultat": "Fet: els punts que queden fora del filtre no es poden clicar ni enfocar.",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
+    },
+    {
+      "id": "s-i-gris",
+      "ref": "M5",
+      "estat": "fet",
+      "titol": "La «i» dels temes transversals, en gris",
+      "cita": "Com que els temes transversals no tenen color propi, la «i» no ha de tenir color.",
+      "resultat": "Fet: la «i» és gris neutre, també en passar-hi per sobre.",
+      "enllacos": [
+        {
+          "label": "Mapa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
+    },
+    {
+      "id": "s-en-paper-titols",
+      "ref": "EP1-EP8",
+      "estat": "fet",
+      "titol": "«En paper»: títols nous, «Usos» i llistat més compacte",
+      "cita": "«Plànols-guia publicats», «Filtra per agrupacions temàtiques», «Usos», «Tots els plànols-guia en detall»; portada més gran, sense any d'edició i menys espai.",
+      "resultat": "Fet: títols nous, «Usos» en comptes d'«Arquitectura temàtica», sense any als títols, portada més gran i menys espai.",
+      "enllacos": [
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        }
+      ]
+    },
+    {
+      "id": "s-duplicats-migracio",
+      "ref": "MIG-1 · MIG-2 · MIG-3",
+      "estat": "fet",
+      "titol": "Duplicats de migració resolts",
+      "cita": "Navas 240, plaça Mons (Lluís Barangé) i Pavelló de la República.",
+      "resultat": "Fet: Navas (queda la 240, Casa Nativitat Vedruna), plaça Mons (queda Casa Lluís Barangé) i Pavelló de la República (una sola fitxa). Les adreces antigues redirigeixen a la fitxa bona. També hem netejat 25 adreces que arrossegaven un separador estrany.",
+      "enllacos": [
+        {
+          "label": "Navas 240",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-navas-240/"
+        }
+      ]
+    },
+    {
+      "id": "s-intervencions",
+      "ref": "F5 · S26",
+      "estat": "fet",
+      "titol": "Intervencions: arquitectes clicables i «Projecte» per defecte",
+      "cita": "Que en aquest apartat sigui on per defecte aparegui el tipus d'intervenció «projecte», però que en puguem triar altres, i que sigui aquí on l'arquitecte pugui ser clicable.",
+      "resultat": "Fet: a l'editor, el tipus d'intervenció surt com a «Projecte» per defecte (se'n poden triar d'altres) i els arquitectes de les intervencions són clicables. Retirar el camp «Arquitectes» repetit depèn de la decisió sobre la duplicitat.",
+      "enllacos": [
+        {
+          "label": "Editor de continguts",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
+        }
+      ]
+    },
+    {
+      "id": "s-cognom",
+      "ref": "A1",
+      "estat": "fet",
+      "titol": "Arquitectes: camp «cognom» i llistat per cognom",
+      "cita": "Afegim el camp «cognom» i ordenem per cognom.",
+      "resultat": "Fet: camp «cognom» a l'editor i llistat d'arquitectes ordenat per cognom.",
+      "enllacos": [
+        {
+          "label": "Arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/"
+        }
+      ]
+    },
     {
       "id": "cercador-mapa",
       "ref": "M6",
@@ -856,14 +1046,18 @@
       "ref": "P3 · P6",
       "estat": "fet",
       "titol": "Portada nova en tres blocs (proposta en proves)",
-      "resultat": "Proposta en proves (no publicada): portada en tres blocs (logo + frase; mapa navegable a sang; carrusel infinit + xifres), capcalera fora a la portada i peu unificat en un sol bloc. L'hem revertida temporalment per revisar-la i arreglar-la abans de deixar-la per defecte.",
+      "resultat": "Proposta en proves a /portada-test/: (1) logo gran, frase i botó «Saber més del projecte»; (2) mapa a tot l'ample, navegable, amb «Veure filtres i cercar»; (3) carrusel de plànols-guia i xifres. Sense capçalera ni índex, i salt suau entre blocs en fer scroll. La portada actual no s'ha tocat (només el 5 · 5 · 3).",
       "enllacos": [
         {
-          "label": "Portada",
+          "label": "Portada de prova",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/portada-test/"
+        },
+        {
+          "label": "Portada actual",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
         }
       ],
-      "posicio": "Ens agrada la idea; cal revisar-la i arreglar-la. Us l'ensenyarem quan estigui a punt."
+      "posicio": "Mireu les dues portades i digueu-nos quina preferiu; si és la nova, la fem definitiva."
     },
     {
       "id": "bibliografies",
@@ -1004,23 +1198,23 @@
       "estat": "fet",
       "titol": "Prova de 2-3 amplades de columna de text",
       "cita": "Feu-nos una prova amb 2-3 amplades i triem.",
-      "resultat": "Fet: amb ?ample=1 (estreta), ?ample=2 (actual) i ?ample=3 (ampla) es canvia l'amplada de la columna de text a les fitxes i a «En paper», i apareix un indicador per comparar.",
+      "resultat": "Fet: tres opcions a tot el web, alineades amb la capçalera i el peu: ?ample=1 (a, com estava), ?ample=2 (b, més ample) i ?ample=3 (c, la més ampla, quasi sense marges). Trieu-ne una.",
       "enllacos": [
         {
-          "label": "Fitxa — estreta",
+          "label": "a) com estava",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=1"
         },
         {
-          "label": "Fitxa — actual",
+          "label": "b) més ample",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=2"
         },
         {
-          "label": "Fitxa — ampla",
+          "label": "c) la més ampla",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=3"
         },
         {
-          "label": "En paper",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=1"
+          "label": "En paper (c)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=3"
         }
       ]
     },
@@ -1030,7 +1224,7 @@
       "estat": "fet",
       "titol": "Nom d'arxiu de les imatges descarregades",
       "cita": "...que en el nom de l'arxiu que es descarregui aparegui elglobusvermell o si més no al meta de la imatge.",
-      "resultat": "Fet: cada fotografia de les fitxes té un enllaç de descàrrega que desa el fitxer amb el nom «elglobusvermell-<slug>-<n>.<ext>».",
+      "resultat": "Fet: en descarregar una foto, el fitxer porta el nom de la fitxa (sense «elglobusvermell»).",
       "enllacos": [
         {
           "label": "Exemple de fitxa",
@@ -1129,11 +1323,25 @@
       "descripcio": "Anotat per Joan l'1/10 com a tancament del projecte."
     },
     {
-      "id": "enllacos-proves-tauler",
-      "ref": "14/10",
-      "titol": "Enllaçar les proves (amplades, tipografia i portades) des del tauler de revisió",
-      "context": "Les proves viuen en pàgines a part: la portada de prova (/portada-test/), el comparador de tipografia i les 3 amplades (?ample=1|2|3). Cal assegurar que des del document de revisió es pugui accedir a totes d'una manera clara.",
-      "descripcio": "Afegir al tauler enllaços visibles a: /portada-test/, el comparador de tipografia i les 3 opcions d'amplada."
+      "id": "s3-en-paper-dues-columnes",
+      "ref": "Nou · 9/10 · S3",
+      "titol": "«En paper»: cada plànol en dues columnes",
+      "cita": "Portada del plànol i índex de continguts a l'esquerra, i plànol i textos a la dreta. Els textos sempre desplegats.",
+      "descripcio": "Ens cal saber què ha de contenir l'índex de temes de cada plànol (un croquis ajudaria). Amb això en fem una prova abans d'aplicar-ho."
+    },
+    {
+      "id": "b2-dades-projecte",
+      "ref": "B2 · B4",
+      "titol": "Informació encallada dins «projecte» i fitxes sense «projecte»",
+      "cita": "Hi ha moltes informacions que han quedat encallades dins l'etiqueta «projecte». Ho fem nosaltres manualment fitxa per fitxa?",
+      "descripcio": "Diagnosi feta: 31 fitxes amb text lliure a «projecte», 19 amb «edifici original» i 12 amb anys no numèrics. Proposta: neteja automàtica del que és clar i revisió manual de la resta. Com ho voleu fer?"
+    },
+    {
+      "id": "f6-color-parcial",
+      "ref": "F6",
+      "titol": "Fotos en blanc i negre: color al patrimoni industrial?",
+      "cita": "El patrimoni industrial tenia il·lustracions amb color vermell que voldríem conservar, la resta blanc i negre.",
+      "descripcio": "Pendent que ho consensueu amb l'equip. Tècnicament es pot fer per plànol."
     }
   ]
 }
