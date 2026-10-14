@@ -209,8 +209,10 @@
         if (item.resposta.text) { var rx = document.createElement("p"); rx.className = "r-resp-cita"; rx.textContent = "«" + item.resposta.text + "»"; rp.appendChild(rx); }
         if (item.resposta.nostra_accio) { var ra = document.createElement("p"); ra.className = "r-resp-accio"; ra.textContent = "Què hi fem: " + item.resposta.nostra_accio; rp.appendChild(ra); }
         art.appendChild(rp);
+        afegeixEnllacos(art, item);
         return art;
       }
+      afegeixEnllacos(art, item);
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Tria una opció"; fs.appendChild(lg);
       for (var i = 0; i < item.opcions.length; i++) {
@@ -221,6 +223,18 @@
       art.appendChild(fs);
       art.appendChild(creaComentari(item.id));
       return art;
+    }
+
+    function afegeixEnllacos(art, item) {
+      if (!item.enllacos || !item.enllacos.length) return;
+      var enl = document.createElement("p"); enl.className = "r-enllacos";
+      for (var ei = 0; ei < item.enllacos.length; ei++) {
+        var a = document.createElement("a");
+        a.href = item.enllacos[ei].url; a.target = "_blank"; a.rel = "noopener";
+        a.textContent = "Veure-ho: " + item.enllacos[ei].label + " ↗";
+        enl.appendChild(a);
+      }
+      art.appendChild(enl);
     }
 
     function construeixCanvi(item) {
@@ -237,16 +251,7 @@
       if (item.cita) { var cita = document.createElement("blockquote"); cita.className = "r-cita"; var ct = document.createElement("strong"); ct.textContent = "Text de Xavi"; cita.appendChild(ct); var cx = document.createElement("span"); cx.textContent = item.cita; cita.appendChild(cx); art.appendChild(cita); }
       if (item.resultat) { var d = document.createElement("p"); d.className = "r-desc"; d.textContent = item.resultat; art.appendChild(d); }
       if (item.posicio) { var po = document.createElement("div"); po.className = "r-posicio"; var pt = document.createElement("strong"); pt.textContent = "Nota nostra"; po.appendChild(pt); var px = document.createElement("span"); px.textContent = item.posicio; po.appendChild(px); art.appendChild(po); }
-      if (item.enllacos && item.enllacos.length) {
-        var enl = document.createElement("p"); enl.className = "r-enllacos";
-        for (var ei = 0; ei < item.enllacos.length; ei++) {
-          var a = document.createElement("a");
-          a.href = item.enllacos[ei].url; a.target = "_blank"; a.rel = "noopener";
-          a.textContent = "Veure-ho: " + item.enllacos[ei].label + " ↗";
-          enl.appendChild(a);
-        }
-        art.appendChild(enl);
-      }
+      afegeixEnllacos(art, item);
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Verificació"; fs.appendChild(lg);
       fs.appendChild(creaOpcio(item.id, "verificat", "Verificat i OK", "Ho he revisat i està bé.", valor(item.id, "opcio")));

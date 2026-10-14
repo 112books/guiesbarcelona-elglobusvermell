@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-14 11:36",
+  "actualitzat": "2026-10-14 11:51",
   "intro": "Revisió dels canvis fets i de les decisions pendents arran dels correus del 30 de setembre i del 9 d'octubre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -174,7 +174,17 @@
         "opcio_xavi": "Fer 5 · 5 · 3",
         "text": "Ho volem plantejar diferent. Ho explico a la pregunta sobre els blocs de portada.",
         "nostra_accio": "Aplicat el 5 · 5 · 3 a la portada actual. La portada nova en tres blocs és a /portada-test/ per triar."
-      }
+      },
+      "enllacos": [
+        {
+          "label": "Portada actual (5 · 5 · 3)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        },
+        {
+          "label": "Portada de prova",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/portada-test/"
+        }
+      ]
     },
     {
       "id": "m2-mapa-grisos",
@@ -328,7 +338,13 @@
         "opcio_xavi": "Proposeu-nos 2-3 opcions d'ús lliure",
         "text": "",
         "nostra_accio": "Fet: tres opcions a /admin/tipografia/. Falta que en trieu una."
-      }
+      },
+      "enllacos": [
+        {
+          "label": "Comparar les tres tipografies",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
+        }
+      ]
     },
     {
       "id": "gr3-tipografia-opcions",
@@ -361,7 +377,13 @@
         }
       ],
       "recomanacio": "instrument",
-      "posicio": "Compareu les tres opcions amb text real a /admin/tipografia/. Detall i llicències a .ai/informe-tipografia-2026-10-13.md."
+      "posicio": "Compareu les tres opcions amb text real a /admin/tipografia/. Detall i llicències a .ai/informe-tipografia-2026-10-13.md.",
+      "enllacos": [
+        {
+          "label": "Comparar les tres tipografies",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
+        }
+      ]
     },
     {
       "id": "g1-columnes",
@@ -369,7 +391,7 @@
         "data": "2026-09-30",
         "opcio_xavi": "Feu-nos una prova amb 2-3 amplades i triem",
         "text": "",
-        "nostra_accio": "Fet: tres opcions a tot el web (?ample=1, ?ample=2, ?ample=3). Falta que en trieu una per defecte."
+        "nostra_accio": "Fet: hem preparat les tres amplades i les podeu veure a tot el web. Obriu els enllaços d'aquí sota (una mateixa fitxa i «En paper» amb cada amplada) i digueu-nos quina deixem: a, b o c."
       },
       "ref": "G1",
       "estat": "pendent",
@@ -389,7 +411,33 @@
           "detall": ""
         }
       ],
-      "recomanacio": "prova"
+      "recomanacio": "prova",
+      "enllacos": [
+        {
+          "label": "Fitxa a) com estava",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=1"
+        },
+        {
+          "label": "Fitxa b) més ample",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=2"
+        },
+        {
+          "label": "Fitxa c) la més ampla",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador/?ample=3"
+        },
+        {
+          "label": "En paper a) com estava",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=1"
+        },
+        {
+          "label": "En paper b) més ample",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=2"
+        },
+        {
+          "label": "En paper c) la més ampla",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/?ample=3"
+        }
+      ]
     },
     {
       "id": "r12-filtre-temes",
@@ -449,7 +497,13 @@
         "opcio_xavi": "Redirigir la genèrica a la 240",
         "text": "He modificat la fitxa del 240, canviant el nom, que no era correcte. Les altres dues caldria eliminar-les.",
         "nostra_accio": "Fet (10/10): queda la 240 (Casa Nativitat Vedruna); les altres dues redirigeixen a aquesta."
-      }
+      },
+      "enllacos": [
+        {
+          "label": "Navas 240",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-navas-240/"
+        }
+      ]
     },
     {
       "id": "casa-unifamiliar-duplicat",
@@ -482,7 +536,13 @@
         "opcio_xavi": "És l'edifici de Churruca i Rodríguez Arias",
         "text": "He modificat la fitxa de plaça Mons, ara es diu Lluís Barangé. L'altra fitxa és un error (la de Duran i Reynals).",
         "nostra_accio": "Fet (10/10): queda Casa Lluís Barangé; l'altra redirigeix a aquesta."
-      }
+      },
+      "enllacos": [
+        {
+          "label": "Casa Lluís Barangé",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/casa-unifamiliar-placa-mons/"
+        }
+      ]
     },
     {
       "id": "pavello-duplicat",
@@ -539,7 +599,13 @@
         "opcio_xavi": "Afegim el camp «cognom» i ordenem per cognom",
         "text": "Dubte: si nosaltres mateixos accedim a l'editor per afegir els cognoms o modificar noms i cognoms d'arquitectes, es trencarà el vincle amb els seus edificis?",
         "nostra_accio": "Fet (10/10): camp «cognom» a l'editor i llistat ordenat per cognom. Si només ompliu «cognom», no es trenca cap vincle; només cal vigilar si canvieu el nom de l'arquitecte."
-      }
+      },
+      "enllacos": [
+        {
+          "label": "Llistat d'arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/"
+        }
+      ]
     },
     {
       "id": "fitxa-arquitectes-projecte",
