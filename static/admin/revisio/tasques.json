@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-14 12:17",
+  "actualitzat": "2026-10-14 12:22",
   "intro": "Revisió dels canvis fets i de les decisions pendents arran dels correus del 30 de setembre i del 9 d'octubre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -226,7 +226,7 @@
         "data": "2026-09-30",
         "opcio_xavi": "Sí, meitat/meitat o pastís de 3 colors",
         "text": "Sí, meitat/meitat o pastís de 3 colors.",
-        "nostra_accio": "Pendent d'implementar; necessita el color definitiu de cada plànol (GR1·GR2)."
+        "nostra_accio": "Prova feta amb els colors d'ara: els 27 punts que surten a més d'un plànol es veuen com un sol pin partit en meitats (2 plànols) o en pastís (3 o més). Mireu-ho al mapa amb l'enllaç de prova i acosteu-vos-hi amb el zoom; quan ens passeu la paleta, només canviarem els colors."
       },
       "ref": "M3",
       "estat": "pendent",
@@ -246,7 +246,17 @@
           "detall": ""
         }
       ],
-      "recomanacio": ""
+      "recomanacio": "",
+      "enllacos": [
+        {
+          "label": "Mapa amb pins multicolor (prova)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/?pins=multicolor"
+        },
+        {
+          "label": "Mapa com és ara",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/mapa/"
+        }
+      ]
     },
     {
       "id": "ep3-carrusel-infinit",

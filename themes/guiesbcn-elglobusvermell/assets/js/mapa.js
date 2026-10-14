@@ -105,6 +105,47 @@
       return offsets;
     }
 
+    // R3/M3 — prova ?pins=multicolor: un sol pin partit en meitats (2 plànols)
+    // o en pastís (3 o més) en comptes de cercles separats. Només per comparar.
+    var pinsMulti = new URLSearchParams(window.location.search).get('pins') === 'multicolor';
+    var patronsPins = {};
+    function fillMulti(slugs) {
+      var id = 'pin-' + slugs.join('--').replace(/[^a-z0-9-]/gi, '');
+      patronsPins[id] = slugs.map(colorPub);
+      return 'url(#' + id + ')';
+    }
+    function creaPatronsPins() {
+      var svg = mapaEl.querySelector('.leaflet-overlay-pane svg');
+      if (!svg) return;
+      var NS = 'http://www.w3.org/2000/svg';
+      var defs = document.createElementNS(NS, 'defs');
+      Object.keys(patronsPins).forEach(function (id) {
+        var colors = patronsPins[id];
+        var pat = document.createElementNS(NS, 'pattern');
+        pat.setAttribute('id', id);
+        pat.setAttribute('width', '1');
+        pat.setAttribute('height', '1');
+        pat.setAttribute('patternContentUnits', 'objectBoundingBox');
+        var n = colors.length;
+        colors.forEach(function (col, i) {
+          var a0 = (i / n) * Math.PI * 2 - Math.PI / 2;
+          var a1 = ((i + 1) / n) * Math.PI * 2 - Math.PI / 2;
+          var d = 'M0.5,0.5 L' + (0.5 + Math.cos(a0)) + ',' + (0.5 + Math.sin(a0)) +
+            ' A1,1 0 ' + ((a1 - a0) > Math.PI ? 1 : 0) + ',1 ' + (0.5 + Math.cos(a1)) + ',' + (0.5 + Math.sin(a1)) + ' Z';
+          var path = document.createElementNS(NS, 'path');
+          path.setAttribute('d', d);
+          path.setAttribute('fill', col);
+          pat.appendChild(path);
+        });
+        defs.appendChild(pat);
+      });
+      svg.insertBefore(defs, svg.firstChild);
+      var b = document.createElement('div');
+      b.className = 'ample-badge';
+      b.innerHTML = 'Prova: pins multicolor (' + Object.keys(patronsPins).length + ' combinacions) · <a href="?">veure com és ara</a>';
+      document.body.appendChild(b);
+    }
+
     var allMarkers = [];
     elementsMapa.forEach(function (p) {
       var lat = parseFloat(p.lat);
@@ -114,6 +155,13 @@
       var circles = [];
       var featureGroup = L.featureGroup();
 
+      if (pinsMulti && publis.length > 1) {
+        var cm = L.circleMarker([lat, lng], markerOpts(fillMulti(publis), 7));
+        cm._pubSlug = publis[0];
+        circles.push(cm);
+        featureGroup.addLayer(cm);
+        publis = [];
+      }
       publis.forEach(function (pubSlug, idx) {
         var color = pubSlug ? colorPub(pubSlug) : '#888';
         var off = offsets[idx] || [0, 0];
@@ -157,6 +205,7 @@
 
     // ── Zoom inicial ─────────────────────────────────────────────────────
     var group = L.featureGroup(allMarkers).addTo(map);
+    if (pinsMulti) map.whenReady(function () { setTimeout(creaPatronsPins, 0); });
 
     // ── Accessibilitat: marcadors navegables per teclat ──────────────────
     // Cada circleMarker rep tabindex, role i aria-label; Enter/Espai obre
