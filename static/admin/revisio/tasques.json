@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-14 11:51",
+  "actualitzat": "2026-10-14 12:17",
   "intro": "Revisió dels canvis fets i de les decisions pendents arran dels correus del 30 de setembre i del 9 d'octubre. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Marca una opció o deixa un comentari i, al final, envia'm el resum.",
   "decisions": [
     {
@@ -1409,7 +1409,8 @@
       "ref": "B2 · B4",
       "titol": "Informació encallada dins «projecte» i fitxes sense «projecte»",
       "cita": "Hi ha moltes informacions que han quedat encallades dins l'etiqueta «projecte». Ho fem nosaltres manualment fitxa per fitxa?",
-      "descripcio": "Diagnosi feta: 31 fitxes amb text lliure a «projecte», 19 amb «edifici original» i 12 amb anys no numèrics. Proposta: neteja automàtica del que és clar i revisió manual de la resta. Com ho voleu fer?"
+      "descripcio": "Proposta: 103 casos són inequívocs i els podem arreglar automàticament; 45 els arreglem nosaltres però us els passem per revisar; 46 cal mirar-los a mà (text tallat a la migració o diverses fases d'obra) i els completem amb el WordPress. No s'esborra res: només es posa cada dada al seu lloc. Ho fem així?",
+      "context": "Ho hem revisat fitxa per fitxa: 154 fitxes, 194 casos en 6 patrons. Per exemple: autor i any barrejats en un sol camp («Josep Graner i Prat. 1910, aprox.»), l'edifici original de les biblioteques que hauria de sortir com a «Projecte original», l'etiqueta «Categoria:» del WordPress enganxada al text, o «Reforma: …» dins la descripció."
     },
     {
       "id": "f6-color-parcial",
