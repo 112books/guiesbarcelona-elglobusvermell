@@ -5,9 +5,10 @@ foto: ''
 foto_autoria: El Globus Vermell
 foto_peu: ''
 fotos_addicionals: []
-publicacions: []
+publicacions:
+  - biblioteques
 temes_transversals: []
-adreca: ''
+adreca: Av. Cardenal Vidal i Barraquer, 37-43
 any: ''
 arquitectes: []
 tipologia: ''
