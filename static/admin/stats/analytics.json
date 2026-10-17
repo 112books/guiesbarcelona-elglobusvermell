@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-16T20:27:45.303678Z",
+  "generated": "2026-10-17T02:50:34.139842Z",
   "period": {
-    "start": "2025-10-16",
-    "end": "2026-10-16"
+    "start": "2025-10-17",
+    "end": "2026-10-17"
   },
-  "total": 1151,
+  "total": 1165,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "date": "2026-07-24",
-      "count": 20
+      "count": 22
     },
     {
       "date": "2026-07-27",
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-07-29",
-      "count": 37
+      "count": 38
     },
     {
       "date": "2026-07-30",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-08-18",
-      "count": 72
+      "count": 73
     },
     {
       "date": "2026-08-19",
@@ -129,11 +129,11 @@
     },
     {
       "date": "2026-08-28",
-      "count": 53
+      "count": 52
     },
     {
       "date": "2026-08-29",
-      "count": 19
+      "count": 17
     },
     {
       "date": "2026-08-30",
@@ -153,7 +153,7 @@
     },
     {
       "date": "2026-09-03",
-      "count": 19
+      "count": 18
     },
     {
       "date": "2026-09-04",
@@ -197,7 +197,7 @@
     },
     {
       "date": "2026-09-23",
-      "count": 45
+      "count": 44
     },
     {
       "date": "2026-09-25",
@@ -241,7 +241,7 @@
     },
     {
       "date": "2026-10-09",
-      "count": 29
+      "count": 30
     },
     {
       "date": "2026-10-10",
@@ -253,7 +253,7 @@
     },
     {
       "date": "2026-10-13",
-      "count": 17
+      "count": 16
     },
     {
       "date": "2026-10-14",
@@ -261,25 +261,29 @@
     },
     {
       "date": "2026-10-15",
-      "count": 44
+      "count": 45
+    },
+    {
+      "date": "2026-10-16",
+      "count": 14
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 128
+      "count": 129
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 72
+      "count": 73
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 48
+      "count": 49
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 47
+      "count": 48
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
@@ -307,7 +311,11 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
-      "count": 23
+      "count": 24
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
+      "count": 21
     },
     {
       "path": "/mapa-filtre-pub/gatcpac",
@@ -336,10 +344,6 @@
     {
       "path": "/mapa-filtre-pub/biblioteques",
       "count": 18
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
-      "count": 17
     },
     {
       "path": "/mapa-filtre-pub/mercats",
@@ -387,11 +391,11 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 764,
+    "guiesbarcelona-elglobusvermell": 781,
     "mapa-filtre-pub": 240,
     "mapa-info-pub": 54,
     "mapa-filtre-tema": 39,
-    "mapa-clickhttps:": 54
+    "mapa-clickhttps:": 51
   },
   "by_lang": {},
   "browsers": [
@@ -471,12 +475,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 456
+      "count": 459
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 264
+      "count": 265
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
@@ -501,7 +505,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 52
+      "count": 54
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
@@ -529,6 +533,11 @@
       "count": 27
     },
     {
+      "name": "Email",
+      "id": "Email",
+      "count": 26
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies",
       "count": 26
@@ -537,11 +546,6 @@
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
       "count": 25
-    },
-    {
-      "name": "Email",
-      "id": "Email",
-      "count": 20
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75",
@@ -584,6 +588,11 @@
       "count": 8
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
+      "count": 8
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-mare-nostrum",
       "count": 7
@@ -599,6 +608,11 @@
       "count": 7
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/portada-test",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/portada-test",
+      "count": 7
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-de-carme-biada",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-de-carme-biada",
       "count": 7
@@ -606,11 +620,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/marina",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/marina",
-      "count": 6
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
       "count": 6
     },
     {
@@ -651,11 +660,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mutua-metallurgica",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mutua-metallurgica",
-      "count": 5
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/portada-test",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/portada-test",
       "count": 5
     },
     {
