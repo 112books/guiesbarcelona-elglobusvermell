@@ -3,6 +3,12 @@ name: Deploy → Producció (GitHub Pages)
 on:
   push:
     branches: [main]
+  # El fetch de stats committeja amb el GITHUB_TOKEN: GitHub no encadena
+  # workflows en aquests pushes, així que el deploy s'ha de disparar
+  # explícitament quan acaba el fetch (llavors construeix el main ja actualitzat).
+  workflow_run:
+    workflows: ["Fetch GoatCounter stats"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:

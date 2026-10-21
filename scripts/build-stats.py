@@ -112,10 +112,18 @@ except Exception as exc:
     preserve_existing(f"hits fetch fallat: {exc}")
     hits_raw = []
 
+# Guard: /stats/hits pot tornar null (o una llista buida) de forma intermitent.
+# En aquest cas conservem l'analytics.json existent en lloc d'esborrar-ne el
+# detall de pàgines i seccions.
+if not hits_raw:
+    preserve_existing("/stats/hits ha retornat null o buit")
+
 by_section: dict[str, int] = {}
 total = 0
 hits_by_day_map: dict[str, int] = {}
 hits_pages: dict[str, int] = {}
+pages_daily: dict[str, dict[str, int]] = {}
+sections_daily: dict[str, dict[str, int]] = {}
 
 for path_item in hits_raw:
     path    = path_item.get("path", "")
@@ -132,6 +140,12 @@ for path_item in hits_raw:
         by_section[section] = by_section.get(section, 0) + count
         if date:
             hits_by_day_map[date] = hits_by_day_map.get(date, 0) + count
+            # Desglossament diari per pàgina i per secció: permet filtrar el
+            # dashboard per dia / setmana / mes / trimestre / any.
+            pages_daily.setdefault(path, {})
+            pages_daily[path][date] = pages_daily[path].get(date, 0) + count
+            sections_daily.setdefault(section, {})
+            sections_daily[section][date] = sections_daily[section].get(date, 0) + count
 
     if path_total > 0:
         hits_pages[path] = hits_pages.get(path, 0) + path_total
@@ -144,6 +158,16 @@ hits_top    = sorted(
     [{"path": k, "count": v} for k, v in hits_pages.items()],
     key=lambda x: x["count"], reverse=True
 )[:30]
+
+
+def sort_daily(daily_map: dict[str, dict[str, int]]) -> dict[str, dict[str, int]]:
+    """Ordena per total desc i, dins de cada clau, les dates ascendentment."""
+    return {
+        key: dict(sorted(series.items()))
+        for key, series in sorted(
+            daily_map.items(), key=lambda kv: sum(kv[1].values()), reverse=True
+        )
+    }
 
 # ── Estadístiques opcionals ───────────────────────────────────────────────────
 browsers  = safe_fetch("/stats/browsers")
@@ -161,6 +185,8 @@ analytics = {
     "hits_by_day": hits_by_day,
     "hits":        hits_top,
     "by_section":  by_section,
+    "pages_daily":    sort_daily(pages_daily),
+    "sections_daily": sort_daily(sections_daily),
     "by_lang":     {},
     "browsers":    browsers,
     "systems":     systems,
@@ -173,4 +199,7 @@ os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
 with open(OUT_PATH, "w") as f:
     json.dump(analytics, f, indent=2)
 
-print(f"analytics.json generat: {total} visites ({start} → {end})")
+print(
+    f"analytics.json generat: {total} visites ({start} → {end}), "
+    f"{len(pages_daily)} pàgines i {len(sections_daily)} seccions amb detall diari"
+)
