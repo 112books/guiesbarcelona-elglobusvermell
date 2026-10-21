@@ -756,7 +756,13 @@
           "detall": ""
         }
       ],
-      "estat": "pendent"
+      "estat": "fet",
+      "resposta": {
+        "data": "2026-10-21",
+        "opcio_xavi": "Redimensionament automàtic",
+        "text": "No podríem fer que es redimensionessin automàticament si excedeix la mida?",
+        "nostra_accio": "Fet: a la build es redueixen automàticament a 1600 px d'amplada i 400 KB màxim (qualitat 82, i si cal es va baixant fins a 65 i reduint l'amplada). No cal que feu res."
+      }
     }
   ],
   "canvis": [
@@ -1697,6 +1703,20 @@
         "text": "La idea és fer desaparèixer la informació repetida […] seria qüestió que en aquest apartat sigui on per defecte aparegui el tipus d’intervenció «projecte», però que en puguem triar altres […] i que sigui aquí on l’arquitecte pugui ser clicable.",
         "nostra_accio": "Fet el gruix. Pendent: tipus «Autoria» i altres tipus d’intervenció."
       }
+    },
+    {
+      "id": "redimensionat-auto",
+      "ref": "NOU · Fotos",
+      "estat": "fet",
+      "titol": "Les imatges es redimensionen automàticament en publicar-les",
+      "cita": "Per penjar noves fotos: alguna indicació? Reduïm les dimensions o pes de la imatge, o passarà automàticament?",
+      "resultat": "Fet: ja no us n'heu de preocupar. En publicar, qualsevol imatge de més de 1600 px d'amplada o de més de 400 KB es redueix automàticament (JPEG progressiu, qualitat 82; si encara pesa massa, es baixa la qualitat fins a 65 i, si cal, l'amplada fins a 1000 px). Les fotos que ja estan bé no es toquen.",
+      "enllacos": [
+        {
+          "label": "Fitxa de mostra",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-boqueria/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [

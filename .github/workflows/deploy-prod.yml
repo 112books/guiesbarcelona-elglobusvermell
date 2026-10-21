@@ -42,6 +42,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      # Els editors pugen les fotos tal com les tenen: aquí les ajustem abans
+      # de publicar-les (max. 1600 px d'amplada i 400 KB), i regenerem les
+      # dimensions que fa servir single.html per als atributs width/height.
+      - name: Redimensiona les imatges
+        run: |
+          python3 -m pip install --quiet --disable-pip-version-check Pillow
+          python3 scripts/redimensiona-imatges.py
+          python3 scripts/genera-dims-imatges.py
+
       - name: Build Hugo
         run: hugo --minify --environment staging
 
