@@ -19,12 +19,12 @@ superficie: null
 intervencions:
   - tipus: Projecte original
     autors: ''
-    any: '1853'
+    any: 1853 / 1877 (naus actuals)
     descripcio: ''
   - tipus: Remodelació
     autors: Jaume Arderiu i Tomàs Morató (A+M Arquitectes)
     any: '2018'
-    descripcio: Projecte original:1853 / 1877 (naus actuals)
+    descripcio: ''
 anys_reforma: []
 premis: []
 lat: 41.4098635
