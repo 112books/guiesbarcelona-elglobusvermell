@@ -763,6 +763,62 @@
         "text": "No podríem fer que es redimensionessin automàticament si excedeix la mida?",
         "nostra_accio": "Fet: a la build es redueixen automàticament a 1600 px d'amplada i 400 KB màxim (qualitat 82, i si cal es va baixant fins a 65 i reduint l'amplada). No cal que feu res."
       }
+    },
+    {
+      "id": "portada-mobil",
+      "ref": "NOU · Portada",
+      "estat": "pendent",
+      "titol": "Al mòbil, volem la portada nova o seguim saltant al mapa?",
+      "cita": "",
+      "context": "Des del 28/8, al mòbil la portada salta directament al mapa (decisió teva). Ara la portada té tres blocs pensats també per al mòbil — el carrusel hi funciona molt bé, com vas dir. Si la volem veure al mòbil, traiem el salt.",
+      "descripcio": "Què preferiu?",
+      "opcions": [
+        {
+          "id": "mantenir",
+          "label": "Mantenir el salt al mapa",
+          "detall": "Com fins ara: al mòbil, la portada no es veu."
+        },
+        {
+          "id": "mostrar",
+          "label": "Mostrar la portada en tres blocs",
+          "detall": "Els tres blocs amb salt de scroll, com a l'ordinador."
+        },
+        {
+          "id": "primer-bloc",
+          "label": "Només el primer bloc",
+          "detall": "Logo, frase i fletxa cap al mapa; la resta com ara."
+        }
+      ],
+      "recomanacio": "",
+      "posicio": ""
+    },
+    {
+      "id": "presentacio-acces",
+      "ref": "NOU · Portada",
+      "estat": "pendent",
+      "titol": "Com s'arriba a «Presentació» des de la portada?",
+      "cita": "A sota, un botó: Saber més del projecte (hauria de portar a presentació).",
+      "context": "A la revisió del 21/10 vas dir de treure el botó «Saber més del projecte» i posar-hi una fletxa cap avall. Amb la capçalera fora a la portada, ara no hi ha cap enllaç a «Presentació» des de la portada.",
+      "descripcio": "Què preferiu?",
+      "opcions": [
+        {
+          "id": "fletxa-i-enllac",
+          "label": "Fletxa cap avall + enllaç de text «Saber més del projecte»",
+          "detall": "La fletxa baixa al mapa; sota la frase, un enllaç de text porta a Presentació."
+        },
+        {
+          "id": "nomes-fletxa",
+          "label": "Només la fletxa",
+          "detall": "Presentació queda sense accés des de la portada."
+        },
+        {
+          "id": "nomes-boto",
+          "label": "Tornar al botó «Saber més del projecte»",
+          "detall": "Com a la proposta inicial, sense fletxa."
+        }
+      ],
+      "recomanacio": "fletxa-i-enllac",
+      "posicio": ""
     }
   ],
   "canvis": [
@@ -839,7 +895,7 @@
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Sí, però en un comentari antic dèiem que volem canviar l’ordre dels elements: Nom de l’element / Etiqueta plànols i temes transversals / Contingut / Text / Foto / Ubicació",
-        "nostra_accio": "Nova tasca: reordenar la fitxa."
+        "nostra_accio": "Fet el 22/10: la fitxa segueix l'ordre que vas dir — nom de l'element, etiquetes (plànol-guia i temes transversals), contingut (adreça, projecte…), text, foto i, al final, la ubicació."
       }
     },
     {
@@ -1416,24 +1472,24 @@
       "id": "portada-s9",
       "ref": "P3 · P6",
       "estat": "fet",
-      "titol": "Portada nova en tres blocs (proposta en proves)",
-      "resultat": "Proposta en proves a /portada-test/: (1) logo gran, frase i botó «Saber més del projecte»; (2) mapa a tot l'ample, navegable, amb «Veure filtres i cercar»; (3) carrusel de plànols-guia i xifres. Sense capçalera ni índex, i salt suau entre blocs en fer scroll. La portada actual no s'ha tocat (només el 5 · 5 · 3).",
+      "titol": "Portada nova en tres blocs (ja és la portada del web)",
+      "resultat": "Ja és la portada del web, amb tots els ajustos que vas demanar: (1) logo més gros, frase «Una eina crítica per llegir Barcelona…» més petita i una fletxa cap avall en lloc del botó; (2) el mapa a sang i a pantalla completa, navegable i clicable, sense filtres, amb el botó «Veure filtres i cercar» al damunt; (3) el carrusel dels plànols-guia amb el botó negre i centrat «Veure tots els plànols-guia». Sense capçalera, sense índex de blocs i amb salt de scroll entre blocs. Les xifres del projecte ja no hi són: només a «Presentació». El peu de pàgina també va unificat en un sol bloc: logo + llicència + crèdits · contacte · LinuxBCN, amb la línia legal petita a sota.",
       "enllacos": [
         {
-          "label": "Portada de prova",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/portada-test/"
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
         },
         {
-          "label": "Portada actual",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+          "label": "Presentació (les xifres hi són)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/presentacio/"
         }
       ],
-      "posicio": "Mireu les dues portades i digueu-nos quina preferiu; si és la nova, la fem definitiva.",
+      "posicio": "",
       "resposta": {
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Ens agrada molt! Logo encara més gros. Text una mica més petit. Treure el botó i posar una fletxa cap avall. «Una eina crítica…». Botó «Veure tots els plànols-guia» en negre i centrat. El recompte de dades, només a presentació.",
-        "nostra_accio": "Feina nova: aplicar tots aquests ajustos a la portada."
+        "nostra_accio": "Fet el 22/10 a la portada del web (/). L'adreça antiga /portada-test/ porta aquí."
       }
     },
     {
@@ -1567,13 +1623,17 @@
         {
           "label": "Nomenclàtor femení",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/nomenclator-femeni/"
+        },
+        {
+          "label": "Fitxa amb tema transversal («Art públic»)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/mitgera-dels-objectes/"
         }
       ],
       "resposta": {
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Perfecte! Falta que quan som dins d’un element […] també hi surtin els temes transversals als quals pertany.",
-        "nostra_accio": "Feina nova: afegir els temes transversals a la fitxa de l’element."
+        "nostra_accio": "Fet el 22/10: a la fitxa de cada element, al costat del plànol-guia al qual pertany, hi surten també els temes transversals als quals pertany. Sempre en gris, sense color propi (M5)."
       }
     },
     {
@@ -1715,6 +1775,24 @@
         {
           "label": "Fitxa de mostra",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-boqueria/"
+        }
+      ]
+    },
+    {
+      "id": "titols-tallats-llistat",
+      "ref": "Nou · 22/10",
+      "estat": "fet",
+      "titol": "Títols llargs tallats al llistat (CRAI de la Ciutadella)",
+      "cita": "",
+      "resultat": "Fet: al llistat d'elements (a la pàgina de cada plànol-guia, a la columna del mapa i al mòbil) els títols llargs es tallaven amb «…»: «Biblioteca / CRAI de la Ciutadella. Dipòsit de les Aigües – Universitat Pompeu…». Ara fan salt de línia i es llegeixen sencers. El títol de la fitxa ja era complet: el problema era només del llistat (25 de les 51 biblioteques es tallaven al mòbil).",
+      "enllacos": [
+        {
+          "label": "Llistat de biblioteques (mireu-lo estret, al mòbil)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques/"
+        },
+        {
+          "label": "Fitxa del CRAI",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra/"
         }
       ]
     }
