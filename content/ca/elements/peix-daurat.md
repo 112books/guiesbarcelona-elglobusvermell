@@ -5,6 +5,12 @@ descripcio: 'Autoria: Frank Gehry. 1992 Escultura gegant (56 metres de llarg per
   d’alçada) –i també umbracle– que mostra un peix configurat per una superfície de
   fines franges entrecreuades d’acer inoxidable daurat. Sota l’efecte dels raigs de
   sol l’obra brilla tal com ho fan les escates dels peixos.'
+arquitectes:
+- Frank Gehry
+intervencions:
+- any: '1992'
+  autors: Frank Gehry
+  tipus: Autoria
 draft: false
 foto: /img/elements/peix-daurat.jpg
 lat: 41.3858579

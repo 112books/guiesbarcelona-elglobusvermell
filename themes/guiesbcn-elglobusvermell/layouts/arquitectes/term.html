@@ -19,7 +19,7 @@
   <header class="publicacio-cap">
     <h1>{{ .Title }}</h1>
     <p class="publicacio-edicio">
-      {{ if eq $tipus "estudi" }}Estudi d'arquitectura{{ else }}Arquitecte{{ end }}
+      {{ if eq $tipus "estudi" }}Estudi d'arquitectura{{ else if eq $tipus "artista" }}Artista{{ else }}Arquitecte{{ end }}
     </p>
   </header>
 

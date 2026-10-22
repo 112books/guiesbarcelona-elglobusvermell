@@ -6,6 +6,12 @@ descripcio: 'Autoria: Lothar Baumgarten. 1992 Conjunt escultòric dispers entre 
   d’aproximadament un metre i mig i encastades a terra, que componen els noms dels
   vuit rumbs de la rosa dels vents. L’obra va ser inspirada pel poema «Veles e vents»
   d’Ausiàs March. Cal curiositat i paciència per trobar tots els vents!'
+arquitectes:
+- Lothar Baumgarten
+intervencions:
+- any: '1992'
+  autors: Lothar Baumgarten
+  tipus: Autoria
 draft: false
 foto: /img/elements/rosa-dels-vents.jpg
 lat: 41.3817745

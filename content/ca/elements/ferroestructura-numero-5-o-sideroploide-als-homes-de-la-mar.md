@@ -7,6 +7,12 @@ descripcio: 'Autoria: Salvador Aulèstia. 1963 Aquesta obra, feta amb 100 tones 
   van participar una trentena de treballadors del port. Des de 2001 es troba al Moll
   de Pescadors, però només és visible des del Moll de Barcelona (on hi ha el WTC)
   o en vaixell.'
+arquitectes:
+- Salvador Aulèstia
+intervencions:
+- any: '1963'
+  autors: Salvador Aulèstia
+  tipus: Autoria
 draft: false
 lat: 41.3727888
 long: 2.1846067

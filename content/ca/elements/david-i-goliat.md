@@ -5,6 +5,12 @@ descripcio: 'Autoria: Antoni Llena. 1992 Enorme escultura d’acer, formada per 
   cara (Goliat) sostinguda per tres fines potes retorçades (David). Sembla que el
   seu significat fa referència al contrast entre l’antic barri de barraques del Somorrostro
   i l’actual barri benestant de la Vila Olímpica.'
+arquitectes:
+- Antoni Llena
+intervencions:
+- any: '1992'
+  autors: Antoni Llena
+  tipus: Autoria
 draft: false
 foto: /img/elements/david-i-goliat.jpg
 lat: 41.3872805

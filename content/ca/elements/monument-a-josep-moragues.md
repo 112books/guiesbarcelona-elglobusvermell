@@ -7,6 +7,12 @@ descripcio: 'Autoria: Francesc Abad. 1999 Homenatge al general que va lluitar co
   lloc, està formada per un llorer oprimit per sis blocs de marbre amb el poema «Fadensonnen»
   (‘Sols de fil’) de Paul Celan. Al costat, un pal amb la senyera i uns versos d’Àngel
   Guimerà.'
+arquitectes:
+- Francesc Abad
+intervencions:
+- any: '1999'
+  autors: Francesc Abad
+  tipus: Autoria
 draft: false
 foto: /img/elements/monument-a-josep-moragues.jpg
 lat: 41.3819576

@@ -6,6 +6,12 @@ descripcio: 'Autoria: Juan Muñoz. 1992 Una gran esplanada pavimentada i, al mig
   gàbia i umbracle, i hi fan ombra. A l’interior, cinc figures de bronze i base esfèrica,
   com saltamartins. Segons el projecte inicial, l’obra havia de tenir un sistema d’irrigació,
   que no es va arribar a instal·lar.'
+arquitectes:
+- Juan Muñoz
+intervencions:
+- any: '1992'
+  autors: Juan Muñoz
+  tipus: Autoria
 draft: false
 foto: /img/elements/una-habitacio-on-sempre-plou.jpg
 lat: 41.3749085

@@ -269,12 +269,13 @@ collections:
               - Reconstrucció
               - Restauració
               - Rehabilitació
+              - Autoria
             required: false
           - label: Autors
             name: autors
             widget: string
             required: false
-            hint: "Noms dels arquitectes, separats per comes o «i». Si coincideixen amb el camp Arquitectes, esdevenen enllaços."
+            hint: "Noms dels arquitectes o artistes, separats per comes o «i». Si coincideixen amb el camp Arquitectes, esdevenen enllaços. Per a obres d'art, feu servir el tipus «Autoria»."
           - label: Any
             name: any
             widget: string
@@ -454,6 +455,7 @@ collections:
         options:
           - { label: Individual, value: individual }
           - { label: "Estudi / despatx", value: estudi }
+          - { label: Artista, value: artista }
         required: false
 
       - label: Descripció

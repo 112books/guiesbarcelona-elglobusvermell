@@ -1,0 +1,9 @@
+---
+title: Jannis Kounellis
+cognom: Kounellis
+tipus: artista
+descripcio: ''
+link_coac: ''
+link_wikipedia: ''
+link_web: ''
+---

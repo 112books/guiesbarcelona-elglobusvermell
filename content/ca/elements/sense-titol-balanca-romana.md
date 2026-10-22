@@ -6,6 +6,12 @@ descripcio: 'Autoria: Jannis Kounellis. 1992 L’obra s’inspira en els molls d
   Com la majoria de les obres de l’artista, un dels fundadors de l’ arte povera ,
   està conformada per materials «pobres» com ara bigues, cables o ganxos. Originalment
   l’obra es trobava al carrer Pepe Rubianes amb Baluard.'
+arquitectes:
+- Jannis Kounellis
+intervencions:
+- any: '1992'
+  autors: Jannis Kounellis
+  tipus: Autoria
 draft: false
 lat: 41.3803211
 long: 2.1922002

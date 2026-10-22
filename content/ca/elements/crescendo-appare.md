@@ -6,6 +6,12 @@ descripcio: 'Autoria: Mario Merz. 1992 21 cubs encastats a terra, cada un amb un
   primers nombres de la successió de Fibonacci (cada nombre és el resultat de la suma
   dels dos anteriors) i la separació entre els cubs augmenta seguint la lògica proporcional
   de la sèrie, fins a estendre’s al llarg d’uns 100 metres.'
+arquitectes:
+- Mario Merz
+intervencions:
+- any: '1992'
+  autors: Mario Merz
+  tipus: Autoria
 draft: false
 foto: /img/elements/crescendo-appare.jpg
 lat: 41.3767468

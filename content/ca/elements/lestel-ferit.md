@@ -6,6 +6,12 @@ descripcio: 'Autoria: Rebecca Horn. 1992 Aquesta torre, d’uns 10 metres d’al
   homenatge al barri. D’una banda, als xiringuitos que hi havia a la platja abans
   de la remodelació duta a terme pels Jocs Olímpics. De l’altra, als quarts de casa
   i a les remuntes, tan característics de la Barceloneta.'
+arquitectes:
+- Rebecca Horn
+intervencions:
+- any: '1992'
+  autors: Rebecca Horn
+  tipus: Autoria
 draft: false
 foto: /img/elements/lestel-ferit.jpg
 lat: 41.3764987

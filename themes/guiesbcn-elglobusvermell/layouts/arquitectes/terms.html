@@ -3,7 +3,7 @@
   <h1>{{ .Title }}</h1>
 
   <div class="arquitectes-cerca">
-    <input type="search" id="cerca-arquitectes" placeholder="Cerca un arquitecte o estudi..." aria-label="Cerca un arquitecte o estudi">
+    <input type="search" id="cerca-arquitectes" placeholder="Cerca un arquitecte, estudi o artista..." aria-label="Cerca un arquitecte, estudi o artista">
   </div>
 
   {{ $grups := dict }}
@@ -49,9 +49,9 @@
           <li data-nom="{{ $p.Title | lower }}">
             <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
             {{ with $p.Params.tipus }}
-            <span class="arquitecte-tipus arquitecte-tipus--{{ . }}">{{ if eq . "estudi" }}Estudi{{ else }}Individual{{ end }}</span>
+            <span class="arquitecte-tipus arquitecte-tipus--{{ . }}">{{ if eq . "estudi" }}Estudi{{ else if eq . "artista" }}Artista{{ else }}Individual{{ end }}</span>
             {{ end }}
-            <span class="terms-count">({{ len $p.Pages }} edifici{{ if ne (len $p.Pages) 1 }}s{{ end }})</span>
+            <span class="terms-count">({{ len $p.Pages }} {{ if eq $p.Params.tipus "artista" }}{{ if eq (len $p.Pages) 1 }}obra{{ else }}obres{{ end }}{{ else }}edifici{{ if ne (len $p.Pages) 1 }}s{{ end }}{{ end }})</span>
           </li>
           {{ end }}
         </ul>

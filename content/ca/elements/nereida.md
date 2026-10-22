@@ -5,6 +5,12 @@ descripcio: 'Autoria: Alfredo Lanz. 2004 Segons la mitologia grega, les nereides
   nimfes del mar i solien ser representades nues i amb una certa voluptuositat. Aquesta
   obra, de la sèrie «El goig de viure», utilitza tres colors ben vius (vermell, groc
   i verd) i simbolitza la mar Mediterrània.'
+arquitectes:
+- Alfredo Lanz
+intervencions:
+- any: '2004'
+  autors: Alfredo Lanz
+  tipus: Autoria
 draft: false
 lat: 41.3677092
 long: 2.1874469

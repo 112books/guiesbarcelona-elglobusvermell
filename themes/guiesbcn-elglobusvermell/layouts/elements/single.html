@@ -162,7 +162,11 @@
       {{ range .Params.intervencions }}{{ $autorsIv = printf "%s + %s" $autorsIv (.autors | default "" | lower) }}{{ end }}
       {{ $repetida := and .Params.arquitectes .Params.intervencions }}
       {{ range .Params.arquitectes }}{{ if not (strings.Contains $autorsIv (lower .)) }}{{ $repetida = false }}{{ end }}{{ end }}
-      {{ with .Params.arquitectes }}
+      {{/* Obres d'art (22/10): si totes les intervencions són «Autoria» i ja hi surten
+           tots els noms, la fila «Arquitecte» sobra (l'artista surt a «Autoria»). */}}
+      {{ $nomesAutoria := gt (len (.Params.intervencions | default slice)) 0 }}
+      {{ range .Params.intervencions }}{{ if ne .tipus "Autoria" }}{{ $nomesAutoria = false }}{{ end }}{{ end }}
+      {{ with and (not (and $repetida $nomesAutoria)) .Params.arquitectes }}
       <div class="fitxa-dada{{ if $repetida }} fitxa-dada-repetida{{ end }}">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
         <dd>
