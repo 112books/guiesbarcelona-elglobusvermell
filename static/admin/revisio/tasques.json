@@ -819,6 +819,34 @@
       ],
       "recomanacio": "fletxa-i-enllac",
       "posicio": ""
+    },
+    {
+      "id": "fotos-biblioteques-on",
+      "ref": "NOU · Fotos",
+      "estat": "pendent",
+      "titol": "Fotos de les biblioteques: com les recuperem?",
+      "cita": "Les fotografies de les biblioteques ja les havia enviades fa temps.",
+      "context": "Sí: és la carpeta Fotos-web-app que ens vas enviar el 24/8. En vam importar les que no tenien cap imatge (8 biblioteques), però la resta es van saltar perquè ja tenien la portada del plànol com a foto. La carpeta ja no la tenim: necessitem recuperar-la per posar les 33 fotos que falten.",
+      "descripcio": "Com ho fem?",
+      "opcions": [
+        {
+          "id": "enllac",
+          "label": "Ens tornes a enllaçar la carpeta",
+          "detall": "Un enllaç a la carpeta (Drive, WeTransfer…) o el correu del 24/8 reenviat."
+        },
+        {
+          "id": "correu",
+          "label": "La busquem nosaltres al correu del 24/8",
+          "detall": "Si el correu encara té la carpeta o l'enllaç, no cal que facis res."
+        },
+        {
+          "id": "sense-foto",
+          "label": "De moment, biblioteques sense foto",
+          "detall": "Traiem la portada del plànol de les 33 fitxes i esperem les fotos."
+        }
+      ],
+      "recomanacio": "correu",
+      "posicio": ""
     }
   ],
   "canvis": [
@@ -1435,7 +1463,7 @@
       "ref": "S5",
       "estat": "fet",
       "titol": "Biblioteques: la foto de la portada del plànol",
-      "resultat": "Comprovat per hash (MD5) de les 50 biblioteques: cap té una foto igual a la portada del plànol. Les 33 que la tenien es van treure el 18/8. Queden 6 biblioteques sense cap foto (Bon Pastor, Canyelles, Ateneu Barcelonès, Les Roquetes, Vallcarca i els Penitents, i Illa d'equipaments Fort Pienc): no mostren imatge fins que no hi hagi una foto real.",
+      "resultat": "Estat real al 22/10 (comprovat per hash i contra els dumps del WordPress): les 33 biblioteques han TORNAT a tenir la portada del plànol com a foto — la baixada del WordPress de l'1/9 (commit 12f4ee80) les va reintroduir després que les traguéssim el 18/8. Ara mateix: 33 amb la portada, 8 amb foto pròpia (importades de la teva carpeta el 29/8: Gabriel García Márquez, La Fraternitat, Nou Barris, Sant Antoni, Trinitat Vella, Vila de Gràcia, Vilapicina, Zona Nord) i 7 sense cap foto (Bon Pastor, Canyelles, Ateneu Barcelonès, Les Roquetes, Vall d'Hebron, Vallcarca i Illa Fort Pienc).",
       "enllacos": [
         {
           "label": "Una de les 6 (sense foto)",
@@ -1446,7 +1474,7 @@
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "A la majoria de biblioteques apareix la portada del plànol, i no la seva foto, a dia d’avui, 21/10/2026.",
-        "nostra_accio": "Cal revisar-ho: només 6 de les 50 fitxes de biblioteques no tenen foto pròpia."
+        "nostra_accio": "Tens raó: ens les havies enviat. És la carpeta Fotos-web-app del teu correu del 24/8; en vam importar només les que no tenien cap imatge i la resta es van saltar perquè ja tenien la portada. La carpeta ja no la tenim al disc: l'hem de recuperar del correu del 24/8 o que ens la tornis a enllaçar."
       }
     },
     {
