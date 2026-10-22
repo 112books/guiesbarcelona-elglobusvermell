@@ -1142,9 +1142,11 @@ main {
   font-size: 0.9375rem;
   color: var(--color-text);
   transition: color 0.15s;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* Els títols llargs no es tallen: fan salt de línia.
+     Abans: nowrap + text-overflow: ellipsis → «…Universitat Pompeu» (CRAI). */
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
 }
 
 .llistat-element-adreca,
