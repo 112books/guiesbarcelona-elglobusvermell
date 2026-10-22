@@ -49,6 +49,7 @@ jobs:
         run: |
           python3 -m pip install --quiet --disable-pip-version-check Pillow
           python3 scripts/redimensiona-imatges.py
+          python3 scripts/genera-portades-mitjanes.py --totes
           python3 scripts/genera-dims-imatges.py
 
       - name: Build Hugo

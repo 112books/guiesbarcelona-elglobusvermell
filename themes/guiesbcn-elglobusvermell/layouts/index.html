@@ -47,7 +47,7 @@
     "url"      $urlPub
     "edificis" $edificis
     "count"    (len $edificis)
-    "portada"  (printf "img/publicacions/%s.jpg" $pub.slug | relURL)
+    "portada"  (cond (fileExists (printf "static/img/publicacions/%s-560.jpg" $pub.slug)) (printf "img/publicacions/%s-560.jpg" $pub.slug) (printf "img/publicacions/%s.jpg" $pub.slug) | relURL)
   ) }}
 {{ end }}
 

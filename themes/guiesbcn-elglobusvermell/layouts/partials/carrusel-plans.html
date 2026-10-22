@@ -7,7 +7,8 @@
   <div class="en-paper-carroussel" data-carroussel data-infinite="{{ if $infinite }}true{{ else }}false{{ end }}">
     {{ range hugo.Data.publicacions }}
       {{ $img := "" }}
-      {{ if fileExists (printf "static/img/publicacions/%s.webp" .slug) }}{{ $img = printf "img/publicacions/%s.webp" .slug }}
+      {{ if fileExists (printf "static/img/publicacions/%s-560.jpg" .slug) }}{{ $img = printf "img/publicacions/%s-560.jpg" .slug }}
+      {{ else if fileExists (printf "static/img/publicacions/%s.webp" .slug) }}{{ $img = printf "img/publicacions/%s.webp" .slug }}
       {{ else if fileExists (printf "static/img/publicacions/%s.jpg" .slug) }}{{ $img = printf "img/publicacions/%s.jpg" .slug }}
       {{ else if fileExists (printf "static/img/publicacions/%s.png" .slug) }}{{ $img = printf "img/publicacions/%s.png" .slug }}{{ end }}
       {{ $url := "" }}{{ with site.GetPage (printf "/publicacions/%s" .slug) }}{{ $url = .RelPermalink }}{{ end }}

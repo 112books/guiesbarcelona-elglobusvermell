@@ -3,7 +3,8 @@
 {{- $pub  := index (where $pubs "slug" $slug) 0 -}}
 {{- if $pub -}}
   {{- $img := "" -}}
-  {{- range slice ".webp" ".jpg" ".png" -}}
+  {{- /* -560.jpg: versió mitjana, nítida a 264 px (scripts/genera-portades-mitjanes.py) */ -}}
+  {{- range slice "-560.jpg" ".webp" ".jpg" ".png" -}}
     {{- if and (not $img) (fileExists (printf "static/img/publicacions/%s%s" $slug .)) -}}
       {{- $img = printf "img/publicacions/%s%s" $slug . -}}
     {{- end -}}
@@ -12,7 +13,7 @@
   {{- if $img -}}
 <a href="{{ $href }}" data-slug="{{ $slug }}" title="Llegir-ne més: {{ $pub.titol }}">
 <img src="{{ $img | relURL }}" alt="Portada: {{ $pub.titol }}"
-     class="portada-guia-img" loading="lazy" width="130">
+     class="portada-guia-img" loading="lazy" width="264">
 </a>
   {{- else -}}
 <a href="{{ $href }}" data-slug="{{ $slug }}" class="portada-guia-placeholder" style="background:{{ $pub.color }}"
