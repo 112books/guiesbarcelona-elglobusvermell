@@ -1,7 +1,7 @@
 ---
 title: Adolf Florensa
 cognom: Florensa
-tipus: individual
+tipus: ''
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/adolf-florensa-i-ferrer
 link_wikipedia: https://ca.wikipedia.org/wiki/Adolf_Florensa_i_Ferrer
