@@ -104,6 +104,7 @@ elglobusvermell.org/
 - **SRI** per a GoatCounter i Chart.js — no canviar versions sense actualitzar hashes
 - `robots.txt` dinàmic: blocat en dev, públic en staging/producció
 - **Schema.org:** JSON-LD a cada element (Organization, Article, Place, BreadcrumbList)
+- **Tauler de revisió de Xavi (OBLIGATORI a cada tasca, Joan 22/10):** el document `static/admin/revisio/tasques.json` (publicat a `/admin/revisio/`) s'ha d'actualitzar **a cada tasca que es fa**, no al final de la sessió: marcar com a «fet» el punt que s'ha resolt (amb enllaç per verificar-lo), afegir-hi les **preguntes noves** que sorgeixin i les **funcionalitats** fetes. Es desa a `static/` (la còpia de `public/` és generada) i cal reconstruir.
 - **Després de cada push:** comprovar amb `gh run list` (o `scripts/estat-actions.sh`) que **Deploy → GitHub Pages** i **Accessibilitat (pa11y-ci)** han passat. No donar res per acabat fins que estiguin verds, i **preguntar a Joan si el desplegament s'ha vist bé**. Si falla, corregir abans de seguir.
 - **Fitxers grans:** no reescriure'ls mai amb lectura+escriptura (l'eina de lectura trunca); fer servir edicions dirigides (`edit`) o comprovar el nombre de línies abans i després.
 
