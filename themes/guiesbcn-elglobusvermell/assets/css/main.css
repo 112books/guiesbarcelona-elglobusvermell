@@ -253,13 +253,51 @@ main {
   font-size: 0.9375rem;
 }
 
+/* Peu unificat en un sol bloc (Xavi, 21/10/2026). */
 .footer-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
   max-width: var(--contenidor-max, 64rem);
-  margin: 0 auto var(--space-md);
+  margin: 0 auto;
   padding: 0 var(--space-md);
+}
+
+.footer-grup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.footer-grup-dreta {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+}
+
+.footer-mini {
+  max-width: var(--contenidor-max, 64rem);
+  margin: var(--space-sm) auto 0;
+  padding: 0 var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem var(--space-md);
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.footer-mini p { margin: 0; }
+.footer-mini a { color: inherit; }
+
+@media (max-width: 48rem) {
+  .footer-main { justify-content: center; text-align: center; }
+  .footer-grup { justify-content: center; }
+  .footer-grup-dreta { align-items: center; }
+  .footer-mini { justify-content: center; text-align: center; }
 }
 
 .footer-brand {
@@ -2524,47 +2562,72 @@ html:has(.portada-alt) {
   html:has(.portada-alt) { scroll-snap-type: none; }
 }
 
-/* ── Pàgina de prova de la portada S9 (/portada-test/) ──────────────────────
-   Replica la proposta de la branca portada-s9-revisio sense tocar la portada
-   actual: capçalera fora, blocs a pantalla completa i salt de scroll (proximity). */
-.portada-test { max-width: 100%; padding: 0; }
+/* ── Portada en tres blocs (P3 · P6) — Xavi, 21/10/2026 ─────────────────────
+   Hero (logo gran + frase + fletxa) · mapa a sang · carrusel de plànols.
+   Capçalera fora, blocs a pantalla completa i salt de scroll (proximity).
+   Les xifres del projecte ja no hi són: només a «Presentació». */
+.portada { max-width: 100%; padding: 0; }
 /* Sense el max-width ni el padding lateral del <main>: el mapa i els blocs
    arriben a tot l'ample de la finestra (Xavi, 13/10). */
-html:has(.portada-test) #main {
+html:has(.portada) #main {
   max-width: 100%;
   padding: 0;
 }
-html:has(.portada-test) {
+html:has(.portada) {
   scroll-snap-type: y proximity;
   scroll-padding-top: 0;
 }
-.portada-test > section { scroll-snap-align: start; min-height: 100svh; }
-.portada-test > section:first-child { scroll-snap-align: none; }
-html:has(.portada-test) .site-header { display: none; }
-html:has(.portada-test) .skip-link { top: 0.5rem; }
-.portada-test .pa-hero {
+.portada > section { scroll-snap-align: start; min-height: 100svh; }
+.portada > section:first-child { scroll-snap-align: none; }
+html:has(.portada) .site-header { display: none; }
+html:has(.portada) .skip-link { top: 0.5rem; }
+.portada .pa-hero {
   display: flex; flex-direction: column; justify-content: center;
   text-align: center;
 }
-.portada-test .pa-hero-inner { max-width: var(--hero-max, 52rem); margin: 0 auto; }
-.portada-test .pa-hero-logo { display: block; width: min(520px, 80vw); height: auto; margin: 0 auto var(--space-lg); }
-.portada-test .pa-guies { display: flex; flex-direction: column; justify-content: center; }
-.portada-test .pa-mapa { position: relative; padding: 0; background: #ecebe7; }
-.portada-test .pa-mapa-el { position: absolute; inset: 0; }
-.portada-test .pa-mapa-btn { position: absolute; left: 50%; bottom: 1.5rem; transform: translateX(-50%); z-index: 500; }
-.portada-test .pa-stats--portada {
-  justify-content: center; text-align: center; margin-top: var(--space-lg);
-  border-top: 1px solid var(--color-border); padding-top: var(--space-md);
+.portada .pa-hero-inner { max-width: 46rem; margin: 0 auto; }
+/* Logo més gros i frase més petita (Xavi, 21/10). */
+.portada .pa-hero-logo { display: block; width: min(640px, 86vw); height: auto; margin: 0 auto var(--space-lg); }
+.portada .pa-hero-titol {
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 34rem;
+  margin: 0 auto;
 }
-.portada-test .pa-stats--portada .pa-stat { align-items: center; }
-.portada-test .pa-stats--portada .pa-stat-num { font-size: clamp(1.6rem, 3.5vw, 2.4rem); }
-.portada-test__avis {
-  position: fixed; bottom: 1rem; left: 1rem; z-index: 6000;
-  background: #111; color: #fff; font: 0.8rem/1.4 system-ui, sans-serif;
-  padding: 0.4rem 0.8rem; border-radius: 2rem;
+/* Fletxa cap avall en lloc del botó «Saber més» (Xavi, 21/10). */
+.portada .pa-hero-fletxa {
+  display: inline-flex; align-items: center; justify-content: center;
+  margin: var(--space-lg) auto 0;
+  color: var(--color-text); opacity: 0.7; text-decoration: none;
+  transition: opacity 0.15s, transform 0.15s;
 }
+.portada .pa-hero-fletxa:hover,
+.portada .pa-hero-fletxa:focus-visible { opacity: 1; transform: translateY(3px); }
+@media (prefers-reduced-motion: no-preference) {
+  .portada .pa-hero-fletxa svg { animation: pa-fletxa 2.4s ease-in-out infinite; }
+}
+@keyframes pa-fletxa {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+.portada .pa-guies { display: flex; flex-direction: column; justify-content: center; }
+.portada .pa-mapa { position: relative; padding: 0; background: #ecebe7; }
+.portada .pa-mapa-el { position: absolute; inset: 0; }
+.portada .pa-mapa-btn { position: absolute; left: 50%; bottom: 1.5rem; transform: translateX(-50%); z-index: 500; }
+/* Botó negre i centrat (Xavi, 21/10). */
+.pa-seccio-cta--centrada { text-align: center; }
+.pa-cta-negre {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.8rem 1.6rem;
+  background: #111; color: #fff; text-decoration: none;
+  border-radius: 0.375rem; font-weight: 600; font-size: 0.9375rem;
+  transition: background 0.15s;
+}
+.pa-cta-negre:hover { background: #000; }
 @media (prefers-reduced-motion: reduce) {
-  html:has(.portada-test) { scroll-snap-type: none; }
+  html:has(.portada) { scroll-snap-type: none; }
+  .portada .pa-hero-fletxa svg { animation: none; }
 }
 
 /* F6 — fotos en blanc i negre. Per revertir-ho: treu la classe "fotos-bn" de <html>. */
