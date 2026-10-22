@@ -1,7 +1,7 @@
 ---
 title: Antoni Solanas
 cognom: Solanas
-tipus: ''
+tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/antoni-solanas
 link_wikipedia: ''

@@ -1,7 +1,7 @@
 ---
 title: Arata Isozaki
 cognom: Isozaki
-tipus: ''
+tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/arata-isozaki
 link_wikipedia: https://ca.wikipedia.org/wiki/Arata_Isozaki
