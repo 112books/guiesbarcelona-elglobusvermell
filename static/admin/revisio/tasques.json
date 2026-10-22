@@ -1813,6 +1813,28 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/mitgera-dels-objectes/"
         }
       ]
+    },
+    {
+      "id": "tipografia-public-sans",
+      "ref": "GR3 · C10",
+      "estat": "fet",
+      "titol": "Tipografia: Public Sans aplicada a tot el web",
+      "cita": "Proposeu-nos 2-3 opcions d'ús lliure · Opció triada: Public Sans",
+      "resultat": "Fet: tot el web fa servir Public Sans, la que vas triar entre les tres opcions de la pàgina de comparació. És una font lliure (SIL OFL 1.1) que allotgem nosaltres: no hi ha cap crida a Google ni cap dependència externa. Pesa uns 45 KB en total i se'n precarrega el subconjunt principal perquè el text surti de seguida.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        },
+        {
+          "label": "Una fitxa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-de-la-boqueria/"
+        },
+        {
+          "label": "Pàgina de comparació (per si vols recordar les opcions)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
