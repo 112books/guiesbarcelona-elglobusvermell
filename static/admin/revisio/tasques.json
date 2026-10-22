@@ -1,6 +1,6 @@
 {
-  "actualitzat": "2026-10-22",
-  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu).",
+  "actualitzat": "2026-10-22 (vespre)",
+  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Avís del 22/10: si estàs editant fitxes d'arquitecte, recarrega abans la pàgina del CMS (o prem «Neteja la memòria cau»): amb la versió antiga, el camp «Tipus» es desava buit.",
   "decisions": [
     {
       "id": "cercador-general",
@@ -675,48 +675,6 @@
         "text": "Sí, fet l’apartat arquitectes ja no serà mai públic […] el que vull demanar és: Dins d’intervencions, podem afegir una opció que sigui «Autoria»?",
         "nostra_accio": "Fet. La petició d’«Autoria» a intervencions queda com a decisió nova."
       }
-    },
-    {
-      "id": "artista-etiqueta",
-      "ref": "NOU · Artista",
-      "titol": "Etiqueta «Artista» als arquitectes",
-      "cita": "Ara mateix als arquitectes podem posar l’etiqueta Cap / Individual / Estudi. Podem afegir l’opció «Artista»? A l’apartat Arquitectes de la web, hauríem de posar: Arquitectes / Artistes.",
-      "context": "Es tracta d’un camp del CMS i de com es presenta la pàgina Arquitectes (que seguiria dient-se igual).",
-      "opcions": [
-        {
-          "id": "si",
-          "label": "Sí, afegir «Artista» i mostrar-los dins Arquitectes",
-          "detall": ""
-        },
-        {
-          "id": "no",
-          "label": "No, de moment",
-          "detall": ""
-        }
-      ],
-      "recomanacio": "si",
-      "estat": "pendent"
-    },
-    {
-      "id": "autoria-intervencions",
-      "ref": "F5 · Autoria",
-      "titol": "Tipus d’intervenció «Autoria»",
-      "cita": "Dins d’intervencions, podem afegir una opció que sigui «Autoria»?",
-      "context": "El camp «tipus» d’intervencions avui és lliure i per defecte «Projecte».",
-      "opcions": [
-        {
-          "id": "si",
-          "label": "Sí, afegir «Autoria» a la llista",
-          "detall": ""
-        },
-        {
-          "id": "no",
-          "label": "No",
-          "detall": ""
-        }
-      ],
-      "recomanacio": "si",
-      "estat": "pendent"
     },
     {
       "id": "fotos-multiples",
@@ -1821,6 +1779,38 @@
         {
           "label": "Fitxa del CRAI",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra/"
+        }
+      ]
+    },
+    {
+      "id": "artista-etiqueta",
+      "ref": "NOU · Artista",
+      "estat": "fet",
+      "titol": "Etiqueta «Artista» als arquitectes",
+      "cita": "Ara mateix als arquitectes podem posar l’etiqueta Cap / Individual / Estudi. Podem afegir l’opció «Artista»? A l’apartat Arquitectes de la web, hauríem de posar: Arquitectes / Artistes.",
+      "resultat": "Fet: el tipus d'arquitecte ja té l'opció «Artista» al CMS, i la pàgina d'Arquitectes els mostra amb l'etiqueta «Artista» i amb «obra/obres» en lloc d'«edificis». Donats d'alta 15 artistes (més Frank Gehry) i 19 fitxes d'art públic amb la seva autoria. La pàgina continua dient-se «Arquitectes».",
+      "enllacos": [
+        {
+          "label": "Pàgina d'Arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/"
+        },
+        {
+          "label": "Fitxa d'artista de mostra",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/antoni-llena/"
+        }
+      ]
+    },
+    {
+      "id": "autoria-intervencions",
+      "ref": "F5 · Autoria",
+      "estat": "fet",
+      "titol": "Tipus d'intervenció «Autoria»",
+      "cita": "Dins d’intervencions, podem afegir una opció que sigui «Autoria»?",
+      "resultat": "Fet: «Autoria» és una opció més del tipus d'intervenció. A les obres d'art (quan totes les intervencions són «Autoria») la fitxa no repeteix la fila «Arquitecte», perquè el nom ja surt a «Autoria». Aplicat a les 19 fitxes d'art públic.",
+      "enllacos": [
+        {
+          "label": "Fitxa d'obra d'art",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/mitgera-dels-objectes/"
         }
       ]
     }
