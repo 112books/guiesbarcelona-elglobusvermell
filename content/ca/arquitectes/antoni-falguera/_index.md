@@ -1,5 +1,9 @@
 ---
-title: Antoni Falguera
-tipus: individual
-link_wikipedia: "https://ca.wikipedia.org/wiki/Antoni_de_Falguera_i_Sivilla"
+title: Antoni Falguera i Sivilla
+cognom: Falguera i Sivilla
+tipus: ''
+descripcio: ''
+link_coac: ''
+link_wikipedia: https://ca.wikipedia.org/wiki/Antoni_de_Falguera_i_Sivilla
+link_web: ''
 ---
