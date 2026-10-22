@@ -253,24 +253,39 @@ main {
   font-size: 0.9375rem;
 }
 
-/* Peu unificat en un sol bloc i una sola fila (Xavi 21/10, Joan 22/10):
-   logo · llicència CC · crèdits · contacte · LinuxBCN, tot alineat a l'esquerra. */
+/* Peu en dues files (Joan, 22/10): el logo es queda a l'esquerra i la llicència,
+   els crèdits i el contacte s'alineen a la dreta, amb distància del logotip.
+   A sota, la línia legal i, com a última fila, «Powered by LinuxBCN» a la dreta. */
 .footer-main {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: var(--space-sm) var(--space-md);
+  gap: var(--space-sm) var(--space-lg);
   max-width: var(--contenidor-max, 64rem);
   margin: 0 auto;
   padding: 0 var(--space-md);
 }
 
+.footer-dades {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-left: auto;
+}
+
 /* Més espai entre la llicència i «Crèdits del projecte» (Joan, 22/10). */
 .footer-credits-link { margin-left: var(--space-md); }
-.footer-contact-link { margin-left: var(--space-lg); }
-.footer-powered { margin-left: var(--space-lg); text-align: left; }
 .footer-logo { height: 4.5rem; }
+
+/* Última fila de tot, alineada a la dreta (Joan, 22/10). */
+.footer-powered {
+  max-width: var(--contenidor-max, 64rem);
+  margin: var(--space-sm) auto 0;
+  padding: 0 var(--space-md);
+  text-align: right;
+}
 
 .footer-mini {
   max-width: var(--contenidor-max, 64rem);
@@ -289,10 +304,10 @@ main {
 
 @media (max-width: 48rem) {
   .footer-main { justify-content: center; text-align: center; }
-  .footer-credits-link,
-  .footer-contact-link,
-  .footer-powered { margin-left: 0; }
+  .footer-dades { margin-left: 0; justify-content: center; }
+  .footer-credits-link { margin-left: 0; }
   .footer-mini { justify-content: center; text-align: center; }
+  .footer-powered { text-align: center; }
 }
 
 .footer-brand {
@@ -2734,7 +2749,7 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   .en-paper-carroussel { --ep-item-w: 264px; }
 }
 .en-paper-carroussel::-webkit-scrollbar { display: none; }
-.en-paper-carroussel.is-arrossegant { cursor: grabbing; }
+.en-paper-carroussel.is-arrossegant { cursor: grabbing; user-select: none; -webkit-user-select: none; }
 .en-paper-carroussel-item {
   flex: 0 0 auto;
   width: var(--ep-item-w);
