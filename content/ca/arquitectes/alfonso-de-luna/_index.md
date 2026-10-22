@@ -1,7 +1,7 @@
 ---
 title: Alfonso de Luna Colldefors
 cognom: Luna Colldefors
-tipus: individual
+tipus: ''
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/alfonso-de-luna-colldefors
 link_wikipedia: ''
