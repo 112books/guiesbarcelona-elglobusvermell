@@ -264,7 +264,7 @@
         "data": "2026-10-21",
         "opcio_xavi": "Infinit",
         "text": "Al mòbil mola molt! Però a l’ordinador, podem fer que desaparegui la barra de deplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
-        "nostra_accio": "Ho implementem. Dubte pendent: si l’infinit ha de ser a tot arreu o només a la portada (R4)."
+        "nostra_accio": "Ho implementem. Dubte pendent: si l’infinit ha de ser a tot arreu o només a la portada (R4). Arrossegament ajustat el 22/10 al d'arquitecturacatalana.cat (ajust suau i inèrcia)."
       },
       "ref": "EP3",
       "estat": "pendent",
@@ -1430,7 +1430,7 @@
       "estat": "fet",
       "titol": "Carrusel de portades: infinit i amb arrossegament",
       "cita": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
-      "resultat": "Fet: fletxes ‹ › als cantons, sense barra de desplaçament i arrossegament amb el cursor. Portades responsives: 150 px al mòbil, 228 px a tauleta i 264 px a escriptori (+20 % el 22/10). Finit a «En paper» i infinit a la portada. Corregit el 22/10: en clicar una portada ara sí que baixa fins al plànol (abans el clic es perdia).",
+      "resultat": "Fet: fletxes ‹ › als cantons, sense barra de desplaçament i arrossegament amb el cursor. Portades responsives: 150 px al mòbil, 228 px a tauleta i 264 px a escriptori (+20 % el 22/10). Finit a «En paper» i infinit a la portada. Corregit el 22/10: en clicar una portada ara sí que baixa fins al plànol (abans el clic es perdia). El 22/10 l'arrossegament s'ha ajustat al que ens vas indicar: la fila segueix el punter i, en deixar anar, es desa suaument fins a la portada més propera, amb una mica d'inèrcia segons la velocitat del gest (com al carrusel d'obres d'arquitecturacatalana.cat).",
       "enllacos": [
         {
           "label": "En paper",
@@ -1501,7 +1501,7 @@
       "ref": "P3 · P6",
       "estat": "fet",
       "titol": "Portada nova en tres blocs (ja és la portada del web)",
-      "resultat": "Ja és la portada del web, amb tots els ajustos que vas demanar: (1) logo més gros, frase «Una eina crítica per llegir Barcelona…» més petita i una fletxa cap avall en lloc del botó; (2) el mapa a sang i a pantalla completa, navegable i clicable, sense filtres, amb el botó «Veure filtres i cercar» al damunt; (3) el carrusel dels plànols-guia amb el botó negre i centrat «Veure tots els plànols-guia». Sense capçalera, sense índex de blocs i amb salt de scroll entre blocs. Les xifres del projecte ja no hi són: només a «Presentació». El peu de pàgina també va unificat en un sol bloc: logo + llicència + crèdits · contacte · LinuxBCN, amb la línia legal petita a sota.",
+      "resultat": "Ja és la portada del web, amb tots els ajustos que vas demanar: (1) logo més gros, frase «Una eina crítica per llegir Barcelona…» més petita i una fletxa cap avall en lloc del botó; (2) el mapa a sang i a pantalla completa, navegable i clicable, sense filtres, amb el botó «Veure filtres i cercar» al damunt; (3) el carrusel dels plànols-guia amb el botó negre i centrat «Veure tots els plànols-guia». Sense capçalera, sense índex de blocs i amb salt de scroll entre blocs. Les xifres del projecte ja no hi són: només a «Presentació». El peu de pàgina també va unificat en un sol bloc: logo + llicència + crèdits · contacte · LinuxBCN, amb la línia legal petita a sota. El peu de pàgina compta com un quart bloc: el tercer bloc deixa veure'n la part de dalt, i el peu va en una sola fila alineada (logo, CC, crèdits, contacte i LinuxBCN).",
       "enllacos": [
         {
           "label": "Portada",
