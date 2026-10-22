@@ -47,6 +47,9 @@
 <link rel="preconnect" href="https://tiles.stadiamaps.com">
 <link rel="dns-prefetch" href="https://tiles.stadiamaps.com">
 {{ end }}
+{{/* Tipografia Public Sans (GR3/C10): preload del subconjunt llatí, que és el que
+     fa servir gairebé tot el text del web. */}}
+<link rel="preload" as="font" type="font/woff2" href="{{ "fonts/public-sans/public-sans-latin.woff2" | relURL }}" crossorigin>
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ if or (eq .Section "elements") (eq .Section "mapa") .IsHome (eq .Kind "term") }}
