@@ -253,30 +253,24 @@ main {
   font-size: 0.9375rem;
 }
 
-/* Peu unificat en un sol bloc (Xavi, 21/10/2026). */
+/* Peu unificat en un sol bloc i una sola fila (Xavi 21/10, Joan 22/10):
+   logo · llicència CC · crèdits · contacte · LinuxBCN, tot alineat a l'esquerra. */
 .footer-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: var(--space-md);
+  gap: var(--space-sm) var(--space-md);
   max-width: var(--contenidor-max, 64rem);
   margin: 0 auto;
   padding: 0 var(--space-md);
 }
 
-.footer-grup {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
-}
-
-.footer-grup-dreta {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.15rem;
-}
+/* Més espai entre la llicència i «Crèdits del projecte» (Joan, 22/10). */
+.footer-credits-link { margin-left: var(--space-md); }
+.footer-contact-link { margin-left: var(--space-lg); }
+.footer-powered { margin-left: var(--space-lg); text-align: left; }
+.footer-logo { height: 4.5rem; }
 
 .footer-mini {
   max-width: var(--contenidor-max, 64rem);
@@ -295,8 +289,9 @@ main {
 
 @media (max-width: 48rem) {
   .footer-main { justify-content: center; text-align: center; }
-  .footer-grup { justify-content: center; }
-  .footer-grup-dreta { align-items: center; }
+  .footer-credits-link,
+  .footer-contact-link,
+  .footer-powered { margin-left: 0; }
   .footer-mini { justify-content: center; text-align: center; }
 }
 
@@ -435,10 +430,11 @@ main {
 .footer-cc {
   display: inline-flex;
   align-items: center;
-  margin-top: 0.4rem;
+  /* Sense el marge superior: a la fila única ha d'anar alineat amb la resta (Joan, 22/10). */
   opacity: 0.85;
   transition: opacity 0.2s;
 }
+.footer-cc svg { display: block; }
 .footer-cc:hover { opacity: 1; }
 
 .arquitecte-links {
@@ -2643,6 +2639,10 @@ html:has(.portada) .skip-link { top: 0.5rem; }
   transition: background 0.15s;
 }
 .pa-cta-negre:hover { background: #000; }
+/* El peu compta com un quart bloc (Joan, 22/10): el tercer bloc deixa veure
+   la part del peu que calgui, en lloc d'ocupar la pantalla sencera. */
+.portada > section:last-child { min-height: calc(100svh - 9rem); }
+html:has(.portada) .site-footer { scroll-snap-align: end; }
 @media (prefers-reduced-motion: reduce) {
   html:has(.portada) { scroll-snap-type: none; }
   .portada .pa-hero-fletxa svg { animation: none; }
