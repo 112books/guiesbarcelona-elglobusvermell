@@ -937,6 +937,24 @@ main {
 
 .fitxa-pub-tag:hover { filter: brightness(0.85); }
 
+/* Temes transversals a la fitxa (Xavi, 21/10/2026): sempre en gris,
+   perquè no tenen color propi (M5). */
+.fitxa-tema-tag {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 2rem;
+  border: 1px solid #d5d5d5;
+  background: #f4f4f4;
+  color: #5a5a5a;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.fitxa-tema-tag:hover,
+.fitxa-tema-tag:focus-visible { background: #e8e8e8; color: #3a3a3a; }
+
 .fitxa-dades {
   display: grid;
   grid-template-columns: 1fr;

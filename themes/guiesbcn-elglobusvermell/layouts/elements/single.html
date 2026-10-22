@@ -49,57 +49,6 @@
 
   {{ $total := len $imatgesObj }}
 
-  {{ if gt $total 1 }}
-  <div class="fitxa-carrusel" data-fitxa-carrusel>
-    <div class="fitxa-carrusel-viewport">
-      <div class="fitxa-carrusel-track" data-carrusel-track>
-        {{ range $i, $img := $imatgesObj }}
-        <div class="fitxa-carrusel-slide">
-          <figure class="fitxa-figura">
-            <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
-                 alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ $.Title }} ({{ add $i 1 }}/{{ $total }}){{ end }}"
-                 {{ with index hugo.Data.imatges_dims (path.Base $img.url) }} width="{{ index . 0 }}" height="{{ index . 1 }}"{{ end }}
-                 {{ if eq $i 0 }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
-            <figcaption class="fitxa-peu-foto">
-              {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
-              {{ $fitxer := printf "%s-%d%s" $slug (add $i 1) (path.Ext $img.url) }}
-              <a class="fitxa-descarrega" href="{{ $img.url | strings.TrimPrefix "/" | relURL }}" download="{{ $fitxer }}" title="Descarregar la fotografia" aria-label="Descarregar la fotografia ({{ $fitxer }})">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-              </a>
-              <span class="fitxa-peu-autoria">CC BY-NC 4.0, {{ $img.autoria }}</span>
-            </figcaption>
-          </figure>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-prev" data-carrusel-prev aria-label="Imatge anterior">‹</button>
-    <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-next" data-carrusel-next aria-label="Imatge següent">›</button>
-    <div class="fitxa-carrusel-dots" role="group" aria-label="Seleccionar imatge">
-      {{ range $i, $img := $imatgesObj }}
-      <button type="button" class="fitxa-carrusel-dot{{ if eq $i 0 }} is-active{{ end }}"
-              data-carrusel-dot="{{ $i }}" aria-pressed="{{ if eq $i 0 }}true{{ else }}false{{ end }}" aria-label="Imatge {{ add $i 1 }} de {{ $total }}"></button>
-      {{ end }}
-    </div>
-    <span class="sr-only" id="carrusel-contador" role="status">Diapositiva 1 de {{ $total }}</span>
-  </div>
-  {{ else if $imatgesObj }}
-  {{ $img := index $imatgesObj 0 }}
-  <figure class="fitxa-imatge fitxa-figura">
-    <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
-         alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ .Title }}{{ end }}"
-         {{ with index hugo.Data.imatges_dims (path.Base $img.url) }} width="{{ index . 0 }}" height="{{ index . 1 }}"{{ end }}
-         loading="eager" fetchpriority="high">
-    <figcaption class="fitxa-peu-foto">
-      {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
-      {{ $fitxer := printf "%s%s" $slug (path.Ext $img.url) }}
-      <a class="fitxa-descarrega" href="{{ $img.url | strings.TrimPrefix "/" | relURL }}" download="{{ $fitxer }}" title="Descarregar la fotografia" aria-label="Descarregar la fotografia ({{ $fitxer }})">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      </a>
-      <span class="fitxa-peu-autoria">CC BY-NC 4.0, {{ $img.autoria }}</span>
-    </figcaption>
-  </figure>
-  {{ end }}
 
   <div class="fitxa-cos">
 
@@ -124,15 +73,24 @@
       {{ with .Params.descripcio }}<span id="tts-descripcio">{{ . }}</span>{{ end }}
     </div>
 
-    {{/* Publicacions com a etiquetes de color amb portada */}}
-    {{ with .Params.publicacions }}
+    {{/* Etiquetes: plànols-guia (amb el color del plànol) i temes transversals
+         (en gris, que no tenen color propi) — Xavi, 21/10/2026. */}}
+    {{ if or .Params.publicacions .Params.temes_transversals }}
     <div class="fitxa-pubs">
-      {{ range . }}
+      {{ range .Params.publicacions }}
         {{ $slug := . }}
         {{ range $pubs }}
           {{ if eq .slug $slug }}
           <a class="fitxa-pub-tag" href="{{ printf "publicacions/%s/" $slug | relURL }}"
              style="--pub-color: {{ .color }}">{{ .titol }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ range .Params.temes_transversals }}
+        {{ $slugTema := . }}
+        {{ range hugo.Data.temes_transversals }}
+          {{ if eq .slug $slugTema }}
+          <a class="fitxa-tema-tag" href="{{ printf "temes/%s/" $slugTema | relURL }}">{{ .titol }}</a>
           {{ end }}
         {{ end }}
       {{ end }}
@@ -277,7 +235,59 @@
 
     {{ .Content }}
 
-    {{/* Mapa individual */}}
+  {{ if gt $total 1 }}
+  <div class="fitxa-carrusel" data-fitxa-carrusel>
+    <div class="fitxa-carrusel-viewport">
+      <div class="fitxa-carrusel-track" data-carrusel-track>
+        {{ range $i, $img := $imatgesObj }}
+        <div class="fitxa-carrusel-slide">
+          <figure class="fitxa-figura">
+            <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
+                 alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ $.Title }} ({{ add $i 1 }}/{{ $total }}){{ end }}"
+                 {{ with index hugo.Data.imatges_dims (path.Base $img.url) }} width="{{ index . 0 }}" height="{{ index . 1 }}"{{ end }}
+                 {{ if eq $i 0 }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }}>
+            <figcaption class="fitxa-peu-foto">
+              {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
+              {{ $fitxer := printf "%s-%d%s" $slug (add $i 1) (path.Ext $img.url) }}
+              <a class="fitxa-descarrega" href="{{ $img.url | strings.TrimPrefix "/" | relURL }}" download="{{ $fitxer }}" title="Descarregar la fotografia" aria-label="Descarregar la fotografia ({{ $fitxer }})">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </a>
+              <span class="fitxa-peu-autoria">CC BY-NC 4.0, {{ $img.autoria }}</span>
+            </figcaption>
+          </figure>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-prev" data-carrusel-prev aria-label="Imatge anterior">‹</button>
+    <button type="button" class="fitxa-carrusel-btn fitxa-carrusel-next" data-carrusel-next aria-label="Imatge següent">›</button>
+    <div class="fitxa-carrusel-dots" role="group" aria-label="Seleccionar imatge">
+      {{ range $i, $img := $imatgesObj }}
+      <button type="button" class="fitxa-carrusel-dot{{ if eq $i 0 }} is-active{{ end }}"
+              data-carrusel-dot="{{ $i }}" aria-pressed="{{ if eq $i 0 }}true{{ else }}false{{ end }}" aria-label="Imatge {{ add $i 1 }} de {{ $total }}"></button>
+      {{ end }}
+    </div>
+    <span class="sr-only" id="carrusel-contador" role="status">Diapositiva 1 de {{ $total }}</span>
+  </div>
+  {{ else if $imatgesObj }}
+  {{ $img := index $imatgesObj 0 }}
+  <figure class="fitxa-imatge fitxa-figura">
+    <img src="{{ $img.url | strings.TrimPrefix "/" | relURL }}"
+         alt="{{ if $img.peu }}{{ $img.peu }}{{ else }}{{ .Title }}{{ end }}"
+         {{ with index hugo.Data.imatges_dims (path.Base $img.url) }} width="{{ index . 0 }}" height="{{ index . 1 }}"{{ end }}
+         loading="eager" fetchpriority="high">
+    <figcaption class="fitxa-peu-foto">
+      {{ with $img.peu }}<span class="fitxa-peu-descripcio">{{ . }}</span>{{ end }}
+      {{ $fitxer := printf "%s%s" $slug (path.Ext $img.url) }}
+      <a class="fitxa-descarrega" href="{{ $img.url | strings.TrimPrefix "/" | relURL }}" download="{{ $fitxer }}" title="Descarregar la fotografia" aria-label="Descarregar la fotografia ({{ $fitxer }})">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      </a>
+      <span class="fitxa-peu-autoria">CC BY-NC 4.0, {{ $img.autoria }}</span>
+    </figcaption>
+  </figure>
+  {{ end }}
+
+    {{/* Mapa individual — al final, després del text i la foto (Xavi, 21/10) */}}
     {{ if and .Params.lat .Params.long }}
     <div class="fitxa-mapa-wrap">
       <h2>Ubicació</h2>
