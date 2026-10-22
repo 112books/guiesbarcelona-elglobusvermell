@@ -594,6 +594,7 @@
         temesLabel.textContent = 'Temes transversals';
         temesGrup.appendChild(temesLabel);
         var temesBtns = document.createElement('div');
+        var TEMA_GRIS = '#5a5a5a';
         temesBtns.className = 'filtre-botos';
         var temesInfo = document.createElement('div');
         temesInfo.className = 'tema-info-wrap';
@@ -603,7 +604,8 @@
           var btn = document.createElement('button');
           btn.setAttribute('data-tema', t.slug);
           btn.className = 'filtre-btn';
-          btn.style.setProperty('--pub-color', t.color || '#888');
+          // M5 (Xavi 21/10): els temes transversals no tenen color propi → gris.
+          btn.style.setProperty('--pub-color', TEMA_GRIS);
           btn.textContent = t.titol || t.slug;
           btn.addEventListener('click', function () {
             filtresMapa.tema[t.slug] = !filtresMapa.tema[t.slug];
@@ -616,7 +618,7 @@
           if (t.url) {
             // R2 — en lloc del botó (i), enllaç a la pàgina del tema.
             var info = document.createElement('a');
-            info.className = 'filtre-btn-info';
+            info.className = 'filtre-btn-info filtre-btn-info--tema';
             info.href = t.url;
             var infoLabel = 'Pàgina del tema "' + (t.titol || t.slug) + '"';
             info.setAttribute('aria-label', infoLabel);
@@ -626,7 +628,7 @@
           } else if (t.info) {
             var info = document.createElement('button');
             info.type = 'button';
-            info.className = 'filtre-btn-info';
+            info.className = 'filtre-btn-info filtre-btn-info--tema';
             var infoLabel = 'Informació sobre "' + (t.titol || t.slug) + '"';
             info.setAttribute('aria-label', infoLabel);
             info.setAttribute('title', infoLabel);
@@ -635,7 +637,7 @@
             var panell = document.createElement('div');
             panell.className = 'tema-info';
             panell.hidden = true;
-            panell.style.setProperty('--pub-color', t.color || '#888');
+            panell.style.setProperty('--pub-color', TEMA_GRIS);
             panell.textContent = t.info;
             info.addEventListener('click', function (e) {
               e.stopPropagation();

@@ -23,15 +23,22 @@
     if (e.pointerType === 'touch') return;
     arrossegant = true; mogut = false; iniciX = e.clientX; iniciScroll = track.scrollLeft;
     track.classList.add('is-arrossegant');
-    if (track.setPointerCapture) track.setPointerCapture(e.pointerId);
   });
   track.addEventListener('pointermove', function (e) {
     if (!arrossegant) return;
     var dx = e.clientX - iniciX;
-    if (Math.abs(dx) > 4) mogut = true;
-    track.scrollLeft = iniciScroll - dx;
+    // Captura el punter només quan ja és un arrossegament: si es captura al
+    // pointerdown, el clic va al track i no a la portada (bug 21/10).
+    if (!mogut && Math.abs(dx) > 4) {
+      mogut = true;
+      if (track.setPointerCapture) track.setPointerCapture(e.pointerId);
+    }
+    if (mogut) track.scrollLeft = iniciScroll - dx;
   });
-  function fiArrossegament() { arrossegant = false; track.classList.remove('is-arrossegant'); }
+  function fiArrossegament(e) {
+    arrossegant = false; track.classList.remove('is-arrossegant');
+    if (e && track.hasPointerCapture && track.hasPointerCapture(e.pointerId)) track.releasePointerCapture(e.pointerId);
+  }
   track.addEventListener('pointerup', fiArrossegament);
   track.addEventListener('pointercancel', fiArrossegament);
   track.addEventListener('pointerleave', fiArrossegament);

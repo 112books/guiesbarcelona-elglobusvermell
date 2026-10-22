@@ -644,6 +644,10 @@ main {
   transition: background 0.15s, color 0.15s;
 }
 .filtre-btn-info:hover { background: var(--pub-color, #888); color: #fff; }
+/* M5 (Xavi 21/10): la «i» dels temes transversals sempre en gris; al passar-hi
+   per sobre, el mateix gris que la paraula. */
+.filtre-btn-info--tema { color: var(--color-muted); }
+.filtre-btn-info--tema:hover { background: #f0f0f0; color: var(--color-muted); filter: brightness(0.9); }
 
 /* ── Fitxa d'edifici ──────────────────────────────────────────────────────── */
 
@@ -2617,22 +2621,14 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .footer-fotos { margin: 0.25rem 0 0; }
 .footer-fotos a { color: inherit; }
 .en-paper-bloc { margin: 2.5rem 0; }
+/* Xavi (21/10): tots els títols de bloc com els filtres del mapa
+   (majúscules, petit, gris), amb poc espai a sota. */
 .en-paper-bloc-titol {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  border-bottom: 2px solid var(--color-text);
-  padding-bottom: 0.4rem;
-  margin-bottom: 1rem;
-}
-/* Xavi (9/10): el títol del filtre es veu com els filtres del mapa. */
-.en-paper-xips-titol {
   font-size: 0.6875rem;
   font-weight: 600;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #767676;
-  border-bottom: 0;
-  padding-bottom: 0;
   margin-bottom: 0.5rem;
 }
 .en-paper-carroussel-embolcall { position: relative; }
@@ -2649,10 +2645,10 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
   cursor: grab;
 }
 @media (min-width: 700px) {
-  .en-paper-carroussel { --ep-item-w: 190px; gap: 1.25rem; }
+  .en-paper-carroussel { --ep-item-w: 228px; gap: 1.25rem; } /* EP3 (21/10): +20 % */
 }
 @media (min-width: 1100px) {
-  .en-paper-carroussel { --ep-item-w: 220px; }
+  .en-paper-carroussel { --ep-item-w: 264px; }
 }
 .en-paper-carroussel::-webkit-scrollbar { display: none; }
 .en-paper-carroussel.is-arrossegant { cursor: grabbing; }
@@ -2722,22 +2718,23 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .temes-llista { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .temes-llista a { display: block; padding: 1rem 1.25rem; border: 1px solid var(--color-border); border-left: 6px solid var(--pub-color, #888); text-decoration: none; color: inherit; font-weight: 600; }
 .temes-llista a:hover { border-color: var(--color-accent); }
+/* Xavi 21/10: portada +20 % (264 px, pendent d'OK) i el text comença just
+   sota el títol. Amb graella, la portada ocupava tota la primera fila i
+   deixava un forat sota el títol: ara la portada va en posició absoluta. */
 .en-plan {
-  display: grid;
-  grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
-  gap: 0.6rem 1.75rem;
-  align-items: start;
-  padding: 1.5rem 0;
+  --en-plan-portada: 264px;
+  position: relative;
+  padding: 1.5rem 0 1.5rem calc(var(--en-plan-portada) + 1.75rem);
+  min-height: calc(var(--en-plan-portada) * 1.415 + 3rem);
   border-top: 1px solid var(--color-border);
 }
-.en-plan > h2, .en-plan > p { grid-column: 2; }
-.en-plan > h2 { margin-top: 0; margin-bottom: 0.4rem; }
-.en-plan > p { margin: 0 0 0.7rem; }
-.en-plan > a { grid-column: 1; grid-row: 1; align-self: start; display: block; }
+.en-plan > h2 { margin-top: 0; margin-bottom: 0.3rem; }
+.en-plan > p { margin: 0 0 0.4rem; }
+.en-plan > a { position: absolute; left: 0; top: 1.5rem; width: var(--en-plan-portada); display: block; }
 .en-plan > a .portada-guia-img {
   float: none;
   width: 100%;
-  max-width: 220px;
+  max-width: 264px;
   height: auto;
   margin: 0;
   box-shadow: 0 1px 5px rgba(0,0,0,0.18);
@@ -2745,17 +2742,16 @@ html.fotos-bn .fitxa-carrusel-slide img { filter: grayscale(1); }
 .en-plan > a.portada-guia-placeholder {
   float: none;
   width: 100%;
-  max-width: 220px;
+  max-width: 264px;
   height: auto;
   aspect-ratio: 130 / 184;
   margin: 0;
 }
 @media (max-width: 48rem) {
-  .en-plan { grid-template-columns: 1fr; }
-  .en-plan > h2, .en-plan > p, .en-plan > a { grid-column: 1; }
-  .en-plan > a { grid-row: auto; }
+  .en-plan { padding-left: 0; min-height: 0; }
+  .en-plan > a { position: static; width: auto; margin-bottom: 0.75rem; }
   .en-plan > a .portada-guia-img,
-  .en-plan > a.portada-guia-placeholder { max-width: 180px; }
+  .en-plan > a.portada-guia-placeholder { max-width: 216px; }
 }
 
 
