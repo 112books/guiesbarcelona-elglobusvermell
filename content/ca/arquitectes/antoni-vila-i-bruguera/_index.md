@@ -1,5 +1,9 @@
 ---
 title: Antoni Vila i Bruguera
-tipus: individual
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/antoni-vila-i-bruguera"
+cognom: Vila i Bruguera
+tipus: ''
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/antoni-vila-i-bruguera
+link_wikipedia: ''
+link_web: ''
 ---
