@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-21",
+  "actualitzat": "2026-10-22",
   "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu).",
   "decisions": [
     {
@@ -868,7 +868,7 @@
       "estat": "fet",
       "titol": "La «i» dels temes transversals, en gris",
       "cita": "Com que els temes transversals no tenen color propi, la «i» no ha de tenir color.",
-      "resultat": "Fet: la «i» és gris neutre, també en passar-hi per sobre.",
+      "resultat": "Fet (22/10): la «i» és gris neutre, també en passar-hi per sobre; i ara el tema transversal clicat (actiu) també queda en gris, no amb color propi.",
       "enllacos": [
         {
           "label": "Mapa",
@@ -879,7 +879,7 @@
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Però quan cliques un dels temes transversals, sí que té color. També hauria de quedar en gris.",
-        "nostra_accio": "Es corregeix: sempre gris, també en clicar i en passar-hi per sobre."
+        "nostra_accio": "Corregit el 22/10: sempre gris, també en clicar i en passar-hi per sobre."
       }
     },
     {
@@ -888,7 +888,7 @@
       "estat": "fet",
       "titol": "«En paper»: títols nous, «Usos» i llistat més compacte",
       "cita": "«Plànols-guia publicats», «Filtra per agrupacions temàtiques», «Usos», «Tots els plànols-guia en detall»; portada més gran, sense any d'edició i menys espai.",
-      "resultat": "Fet: títols nous, «Usos» en comptes d'«Arquitectura temàtica», sense any als títols, portada més gran i menys espai.",
+      "resultat": "Fet (22/10): tots els títols de bloc amb l'estil dels filtres del mapa (petit, gris, majúscules) i poc espai a sota; al llistat, el text comença just sota el títol del plànol (abans quedava un forat de l'alçada de la portada), menys espai entre paràgrafs i portada un 20 % més gran (264 px). L'any d'edició ja no surt al llistat. La mida de la portada és provisional: cal el vostre OK.",
       "enllacos": [
         {
           "label": "En paper",
@@ -899,7 +899,7 @@
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Ok Usos. Ara, sota cada títol hi ha molt d’espai. Et passo pantallazo per correu electrònic?",
-        "nostra_accio": "S’ajusta l’espaiat; esperem el pantallazo si cal precisar-ho."
+        "nostra_accio": "Fet el 22/10. Pendent del vostre OK a la mida de la portada (+20 %)."
       }
     },
     {
@@ -1021,7 +1021,7 @@
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Perfecte! Tot i això, com que els temes transversals no tenen color propi, la «i» no ha de tenir color […] millor tot en gris.",
-        "nostra_accio": "Es corregeix el color de la «i» (hover)."
+        "nostra_accio": "Corregit el 22/10: la «i» i el tema actiu, en gris."
       }
     },
     {
@@ -1346,7 +1346,7 @@
       "estat": "fet",
       "titol": "Carrusel de portades: infinit i amb arrossegament",
       "cita": "Al mòbil mola molt! Però a l'ordinador, podem fer que desaparegui la barra de desplaçament, i que es pugui desplaçar arrossegant amb el cursor? També imaginàvem les portades una mica més grans...",
-      "resultat": "Fet: el carrusel de «En paper» té fletxes ‹ › als cantons i portades més grans i responsives (150 px al mòbil, 190 px a tauleta i 220 px a escriptori). D'acord amb la vostra proposta, ara és FINIT a «En paper» (s'atura al final) i l'hem passat a la portada en versió INFINITA.",
+      "resultat": "Fet: fletxes ‹ › als cantons, sense barra de desplaçament i arrossegament amb el cursor. Portades responsives: 150 px al mòbil, 228 px a tauleta i 264 px a escriptori (+20 % el 22/10). Finit a «En paper» i infinit a la portada. Corregit el 22/10: en clicar una portada ara sí que baixa fins al plànol (abans el clic es perdia).",
       "enllacos": [
         {
           "label": "En paper",
