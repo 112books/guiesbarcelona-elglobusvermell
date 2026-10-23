@@ -1,9 +1,10 @@
 ---
-aliases: ["/text/arquitectura-a-barcelona-1975-2008-de-lesperanca-a-la-crisi/"]
-title: "De l'esperança a la crisi. 1975-2008"
+aliases:
+  - /text/arquitectura-a-barcelona-1975-2008-de-lesperanca-a-la-crisi/
+title: De l'esperança a la crisi. 1975-2008
+edicio: '2026'
 description: "De l'esperança a la crisi. 1975-2008: l'arquitectura de la Barcelona de la democràcia. Plànol-guia en preparació."
-foto: "/img/publicacions/76-08.jpg"
-edicio: "2026 (pendent)"
+foto: /img/publicacions/76-08.jpg
 ---
 
 ## Model Barcelona: èxit exportable o relat esgotat?
