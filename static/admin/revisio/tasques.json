@@ -847,6 +847,56 @@
   ],
   "canvis": [
     {
+      "id": "tipus-individual-43",
+      "ref": "Nou · 23/10",
+      "estat": "fet",
+      "titol": "Etiqueta «Individual»: neteja definitiva (43 fitxes)",
+      "cita": "",
+      "resultat": "Fet (23/10, tarda): mentre el teu navegador encara tenia la versió antiga de l'editor, cada desada tornava a escriure «tipus: individual» a la fitxa. Hem tret aquesta línia de les 43 fitxes que en quedaven: ara no en queda cap. L'editor ja es recarrega sol amb la versió nova, on «Tipus» és opcional i l'opció per defecte és «Cap (sense etiqueta)», així que no hauria de tornar a passar.",
+      "enllacos": [
+        {
+          "label": "Pàgina d'Arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/"
+        }
+      ]
+    },
+    {
+      "id": "biblioteques-revert",
+      "ref": "Nou · 23/10",
+      "estat": "fet",
+      "titol": "Biblioteques: hem desfet les tres fitxes noves (eren duplicades)",
+      "cita": "",
+      "resultat": "Correcció: les tres fitxes que havíem creat (Esquerra de l'Eixample, Fort Pienc i Camp de l'Arpa) eren el mateix edifici que tres fitxes que ja existien, i sortien dues vegades al plànol. Les hem eliminades i hem tornat els enllaços i la inclusió al plànol de Biblioteques als edificis originals: Edifici Collage, Illa d'equipaments Alchemika i Illa d'equipaments Fort Pienc. El plànol de Biblioteques queda amb 51 fitxes.",
+      "enllacos": [
+        {
+          "label": "Plànol de Biblioteques",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/biblioteques/"
+        },
+        {
+          "label": "Edifici Collage",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-collage-centre-cultural-teresa-pamies/"
+        },
+        {
+          "label": "Illa d'equipaments Alchemika",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika/"
+        }
+      ]
+    },
+    {
+      "id": "cms-arquitectes-autocomplete",
+      "ref": "Nou · 23/10",
+      "estat": "fet",
+      "titol": "Editor: el camp «Arquitectes» amb autocompletat",
+      "cita": "",
+      "resultat": "Fet: a la fitxa d'un element, el camp «Arquitectes» ja no és una llista on s'escriuen els noms a mà. Ara escrius unes lletres i et proposa les fitxes d'arquitecte que ja existeixen; en desa el nom tal com el tenen elles. Així s'eviten noms escrits de maneres diferents i fitxes d'arquitecte que queden òrfenes. El que ja estava desat segueix funcionant igual.",
+      "enllacos": [
+        {
+          "label": "Editor de continguts",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
+        }
+      ]
+    },
+    {
       "id": "proves-enllacades",
       "ref": "14/10",
       "estat": "fet",
@@ -1904,23 +1954,11 @@
       "estat": "fet",
       "titol": "Tres fitxes de biblioteca que faltaven",
       "cita": "Hi ha tres biblioteques de les quals tens foto però que no existeixen encara com a fitxa a la web.",
-      "resultat": "Fet: creades les fitxes de la Biblioteca Esquerra de l'Eixample – Agustí Centelles, la Biblioteca Fort Pienc – Ana María Moix i la Biblioteca Camp de l'Arpa – Caterina Albert, amb la teva foto, l'adreça, l'arquitecte i l'any. Les hem tretes dels equipaments on sortien barrejades (Edifici Collage, Illa d'equipaments Alchemika i Illa d'equipaments Fort Pienc) perquè no surtin dues vegades al plànol de Biblioteques.",
+      "resultat": "Revertit el 23/10: les tres fitxes creades (Esquerra de l'Eixample – Agustí Centelles, Fort Pienc – Ana María Moix i Camp de l'Arpa – Caterina Albert) s'han eliminat perquè eren el mateix edifici que tres fitxes que ja existien; sortien dues vegades al plànol. La teva foto, l'adreça i les dades s'han quedat a les fitxes originals (Edifici Collage, Illa d'equipaments Alchemika i Illa d'equipaments Fort Pienc), que és on vam recuperar els enllaços del plànol de Biblioteques. Vegeu «Biblioteques: hem desfet les tres fitxes noves».",
       "enllacos": [
         {
-          "label": "Esquerra de l'Eixample – Agustí Centelles",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-esquerra-de-leixample-agusti-centelles/"
-        },
-        {
-          "label": "Fort Pienc – Ana María Moix",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-fort-pienc-ana-maria-moix/"
-        },
-        {
-          "label": "Camp de l'Arpa – Caterina Albert",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-camp-de-larpa-caterina-albert/"
-        },
-        {
           "label": "Plànol de Biblioteques",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques/"
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/biblioteques/"
         }
       ]
     }
