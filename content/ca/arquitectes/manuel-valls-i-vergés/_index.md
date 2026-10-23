@@ -1,4 +1,9 @@
 ---
 title: Manuel Valls i Vergés
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/manuel-valls-i-verges"
+cognom: Valls i Vergés
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/manuel-valls-i-verges
+link_wikipedia: ''
+link_web: ''
 ---
