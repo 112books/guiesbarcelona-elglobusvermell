@@ -1,6 +1,9 @@
 ---
 title: DataAE
+cognom: ''
 tipus: estudi
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/dataae"
-link_web: "https://www.datarae.com/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/dataae
+link_wikipedia: ''
+link_web: https://www.dataae.com/
 ---
