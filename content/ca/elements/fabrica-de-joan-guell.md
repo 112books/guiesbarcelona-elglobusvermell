@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1874'
   autors: Antoni Casellas
-  descripcio: 'Categoria: Fàbrica Fàbrica de teixits. Actualment, sense ús, pendent
-    de reforma per a ús docent.'
+  descripcio: 'Fàbrica de teixits. Actualment, sense ús, pendent de reforma per a ús docent.'
   tipus: Projecte
 lat: 41.4020638
 long: 2.1987852
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Fàbrica de Joan Güell
 ---

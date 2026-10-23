@@ -9,13 +9,13 @@ foto: /img/elements/naus-de-la-familia-ametller.jpg
 intervencions:
 - any: '1917'
   autors: J. Domènech
-  descripcio: 'Rehabilitació: G56. 2008 Categoria: Fàbrica Magatzems per llogar (llogaters:
-    Galetes Solsona). Actualment, oficines.'
+  descripcio: 'Rehabilitació: G56. 2008 Magatzems per llogar (llogaters: Galetes Solsona). Actualment, oficines.'
   tipus: Projecte
 lat: 41.3954112
 long: 2.1987205
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Naus de la família Ametller
 ---

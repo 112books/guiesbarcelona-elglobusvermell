@@ -11,13 +11,13 @@ intervencions:
   tipus: Projecte
 - any: '2013'
   autors: Jordi Pla
-  descripcio: 'Categoria: Fàbrica Filatura de jute. Actualment, Centre d’Urgències
-    i Emergències Socials de Barcelona (CUESB).'
+  descripcio: 'Filatura de jute. Actualment, Centre d’Urgències i Emergències Socials de Barcelona (CUESB).'
   tipus: Remodelació
 lat: 41.3989109
 long: 2.2014848
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Filatura El Cànem
 ---

@@ -9,12 +9,13 @@ draft: false
 intervencions:
 - any: '1959'
   autors: Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina
-  descripcio: 'Categoria: Altres edificis'
+  descripcio: ''
   tipus: Projecte
 lat: 41.4052496
 long: 2.2028877
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Habitatges de Can Culleres
 ---

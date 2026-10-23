@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1919'
   autors: Dario Daura
-  descripcio: 'Categoria: Fàbrica Magatzems i trulls. Des de 1924, seu d’Industrias
-    Waldes (empresa de forniments metàl·lics).'
+  descripcio: 'Magatzems i trulls. Des de 1924, seu d’Industrias Waldes (empresa de forniments metàl·lics).'
   tipus: Projecte
 lat: 41.396557
 long: 2.1979058
 proteccio: B
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Industrias Waldes
 ---

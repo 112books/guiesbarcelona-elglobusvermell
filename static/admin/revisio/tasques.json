@@ -847,6 +847,30 @@
   ],
   "canvis": [
     {
+      "id": "b2-dades-projecte",
+      "ref": "B2 · B4",
+      "estat": "fet",
+      "titol": "Fitxes: informació encallada dins «projecte» (primera tongada)",
+      "cita": "Moltes informacions han quedat encallades dins l'etiqueta projecte, hi ha molta feina aquí. Ho fem nosaltres manualment fitxa per fitxa?",
+      "resultat": "Fet (23/10, primera tongada, 75 fitxes): (1) treta l'etiqueta «Categoria: …» que el WordPress havia deixat dins de 66 textos de descripció —ara aquesta dada surt al camp «Tipologia» de la fitxa, omplert en 64 fitxes que el tenien buit; (2) separat l'autor de l'any quan anaven barrejats al camp «any» d'una intervenció (11 casos, p. ex. «Josep Graner i Prat. 1910, aprox.» → autor «Josep Graner i Prat» i any «1910, aprox.»); (3) la fila «Projecte» ja no es repeteix quan el text és el mateix que el d'una intervenció. No s'ha esborrat cap text: cada dada s'ha mogut al camp que li toca dins la mateixa fitxa. Queda pendent: 45 casos que cal mirar a ull (noms dubtosos, premis, diverses fases d'obra) i 46 que venen de text tallat a la migració (cal completar-los amb el WordPress); i decidir si «Edifici original» ha de passar a ser una intervenció «Projecte original».",
+      "enllacos": [
+        {
+          "label": "Exemple: fitxa amb «Categoria» treta",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/la-favorita/"
+        },
+        {
+          "label": "Exemple: tipologia omplerta",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/ca-lalier/"
+        }
+      ],
+      "resposta": {
+        "data": "2026-10-21",
+        "opcio_xavi": "",
+        "text": "Endavant! Igualment després nosaltres haurem de fer una bona repassada i correccions finals.",
+        "nostra_accio": "Primera tongada aplicada (23/10); la resta, pendent."
+      }
+    },
+    {
       "id": "b3-adreces",
       "ref": "B3 · S7",
       "estat": "fet",

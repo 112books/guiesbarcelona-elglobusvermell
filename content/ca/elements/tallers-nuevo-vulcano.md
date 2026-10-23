@@ -4,7 +4,8 @@ adreca: Moll Nou
 draft: false
 foto: /img/elements/tallers-nuevo-vulcano.jpg
 intervencions:
-- any: Julio Isamat Vila. 1931-1951
+- any: '1931-1951'
+  autors: 'Julio Isamat Vila'
   descripcio: Edifici industrial projectat per acollir els nous tallers d’aquesta
     indústria especialitzada en la construcció i reparació de vaixells de vapor. El
     volum es caracteritza per la simplicitat de línies i una certa monumentalitat.

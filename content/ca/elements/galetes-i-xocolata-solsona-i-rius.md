@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1926'
   autors: Mariano Romano Rius (?)
-  descripcio: 'Categoria: Fàbrica Fàbrica de galetes i xocolates. Actualment, seu
-    d’una empresa tèxtil'
+  descripcio: 'Fàbrica de galetes i xocolates. Actualment, seu d’una empresa tèxtil'
   tipus: Projecte
 lat: 41.3953583
 long: 2.1977098
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Galetes i xocolata Solsona i Rius
 ---

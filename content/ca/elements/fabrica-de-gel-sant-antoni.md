@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1907'
   autors: Francesc de Paula Villar Carmona
-  descripcio: 'Categoria: Fàbrica Fàbrica de gel. Actualment, seu d’una empresa de
-    roba.'
+  descripcio: 'Fàbrica de gel. Actualment, seu d’una empresa de roba.'
   tipus: Projecte
 lat: 41.3958452
 long: 2.1988693
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Fàbrica de gel Sant Antoni
 ---

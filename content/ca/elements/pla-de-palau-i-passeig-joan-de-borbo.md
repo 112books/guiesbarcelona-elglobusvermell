@@ -2,7 +2,8 @@
 aliases: ["/barceloneta/pla-de-palau-i-passeig-joan-de-borbo/"]
 draft: false
 intervencions:
-- any: Olga Tarrasó i Jordi Henrich. 1988-1994
+- any: '1988-1994'
+  autors: 'Olga Tarrasó i Jordi Henrich'
   descripcio: El projecte planteja un passeig lineal, amb doble filera de plàtans,
     vinculat directament a la Barceloneta, i un ampli espai públic, a tocar del port,
     amb una certa topografia (rampes, grades), diferents paviments i grups irregulars

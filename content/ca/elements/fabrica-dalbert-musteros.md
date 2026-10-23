@@ -8,8 +8,7 @@ intervencions:
   tipus: Projecte
 - any: '1955'
   autors: Josep M. Fargas
-  descripcio: 'Categoria: Fàbrica Fàbrica. Actualment, coworking , estudis d’artistes,
-    sala de concerts i discoteca Razzmatazz, etc.'
+  descripcio: 'Fàbrica. Actualment, coworking , estudis d’artistes, sala de concerts i discoteca Razzmatazz, etc.'
   tipus: Remunta
 lat: 41.3970393
 long: 2.1915092
@@ -17,5 +16,6 @@ projecte_text: Josep Pansas Coll (?). Inici s. xx
 proteccio: C / D
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Fàbrica d’Albert Musterós
 ---

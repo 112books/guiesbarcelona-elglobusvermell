@@ -3,7 +3,8 @@ aliases: ["/2010-2025/centre-civic-baro-de-viver/"]
 adreca: Quito, 8-10
 draft: false
 intervencions:
-- any: Territori24, 2014
+- any: '2014'
+  autors: 'Territori24'
   descripcio: ''
   tipus: Projecte
 lat: 41.4461175

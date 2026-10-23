@@ -6,13 +6,13 @@ foto: /img/elements/can-gili-nou.jpg
 intervencions:
 - any: '2011'
   autors: Santiago Bergnes de las Casas. 2010 + Antoni Vilanova i Eduard Simó
-  descripcio: 'Projecte original:1876-1880 Categoria: Fàbrica Farinera i magatzems.
-    Actualment, habitatges lofts i Casal de Barri Vila Olímpica – Can Gili Nou.'
+  descripcio: 'Projecte original:1876-1880 Farinera i magatzems. Actualment, habitatges lofts i Casal de Barri Vila Olímpica – Can Gili Nou.'
   tipus: Remodelació
 lat: 41.3959901
 long: 2.2009104
 proteccio: B
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Can Gili Nou
 ---

@@ -9,14 +9,13 @@ intervencions:
   tipus: Ampliació
 - any: '1996'
   autors: Cristian Cirici i Carles Bassó
-  descripcio: 'Projecte original: Inici s. xx (1902?) Premi Ciutat de Barcelona d’Arquitectura
-    1998 Categoria: Fàbrica amb xemeneia Fàbrica de productes químics Massó i Cia.
-    Actualment, habitatges lofts .'
+  descripcio: 'Projecte original: Inici s. xx (1902?) Premi Ciutat de Barcelona d’Arquitectura 1998 Fàbrica de productes químics Massó i Cia. Actualment, habitatges lofts .'
   tipus: Remodelació
 lat: 41.3983847
 long: 2.1984873
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica amb xemeneia
 title: Vapor Llull
 ---

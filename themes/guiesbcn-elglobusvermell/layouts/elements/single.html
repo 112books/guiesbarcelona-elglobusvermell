@@ -107,10 +107,22 @@
       </div>
       {{ end }}
 
-      {{ with .Params.projecte_text }}
+      {{/* B2 (23/10): si el text de «Projecte» ja és exactament l'any d'una
+           intervenció, la fila seria repetida — la intervenció ja el pinta.
+           El camp es conserva al fitxer; només s'amaga la fila. */}}
+      {{ $pt := .Params.projecte_text }}
+      {{ $ptRepetit := false }}
+      {{ range .Params.intervencions }}
+        {{ $a := printf "%v" (.autors | default "") }}
+        {{ $y := printf "%v" (.any | default "") }}
+        {{ range (slice (trim $y " ") (trim (printf "%s. %s" $a $y) " ") (trim (printf "%s, %s" $a $y) " ")) }}
+          {{ if and $pt (eq (trim . " ") (trim $pt " ")) }}{{ $ptRepetit = true }}{{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if and $pt (not $ptRepetit) }}
       <div class="fitxa-dada">
         <dt>Projecte</dt>
-        <dd>{{ . }}</dd>
+        <dd>{{ $pt }}</dd>
       </div>
       {{ end }}
 

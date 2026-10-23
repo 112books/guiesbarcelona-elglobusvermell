@@ -7,12 +7,13 @@ draft: false
 intervencions:
 - any: '1924'
   autors: ''
-  descripcio: 'Categoria: Altres edificis Magatzem. Actualment, mateix ús.'
+  descripcio: 'Magatzem. Actualment, mateix ús.'
   tipus: Projecte
 lat: 41.3994503
 long: 2.1957289
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Magatzem
 ---

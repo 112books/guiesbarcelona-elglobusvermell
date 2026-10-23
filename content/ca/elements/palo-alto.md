@@ -9,13 +9,13 @@ foto: /img/elements/palo-alto.jpg
 intervencions:
 - any: '1875'
   autors: Antoni Vila i Bruguera
-  descripcio: 'Categoria: Recinte industrial Filatura de llana Gal i Puigsech. Actualment
-    anomenat Palo Alto, seu de diverses empreses.'
+  descripcio: 'Filatura de llana Gal i Puigsech. Actualment anomenat Palo Alto, seu de diverses empreses.'
   tipus: Projecte
 lat: 41.4043754
 long: 2.2104561
 proteccio: B / D
 publicacions:
 - poblenou
+tipologia: Recinte industrial
 title: Palo Alto
 ---

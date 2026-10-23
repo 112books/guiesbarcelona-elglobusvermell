@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1947'
   autors: Joan Vallvé i Creus
-  descripcio: 'Categoria: Altres edificis Fàbrica de coberts d’alpaca i llautó Metales
-    y Platerías Ribera. Actualment, edifici d’oficines.'
+  descripcio: 'Fàbrica de coberts d’alpaca i llautó Metales y Platerías Ribera. Actualment, edifici d’oficines.'
   tipus: Projecte
 lat: 41.4008422
 long: 2.1975507
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Can Culleres
 ---

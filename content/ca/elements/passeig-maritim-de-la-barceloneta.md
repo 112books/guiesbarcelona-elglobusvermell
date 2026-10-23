@@ -2,7 +2,8 @@
 aliases: ["/barceloneta/passeig-maritim-de-la-barceloneta/"]
 draft: false
 intervencions:
-- any: Olga Tarrasó, Jordi Henrich, Jaume Artigues i Miquel Roig. 1997-2001
+- any: '1997-2001'
+  autors: 'Olga Tarrasó, Jordi Henrich, Jaume Artigues i Miquel Roig'
   descripcio: Premi FAD d’Espais Exteriors 1996 La part de passeig més propera al
     barri se situa al mateix nivell dels carrers per garantir la visió del mar des
     de tots ells (fins i tot la posició de l’arbrat persegueix aquest objectiu) i

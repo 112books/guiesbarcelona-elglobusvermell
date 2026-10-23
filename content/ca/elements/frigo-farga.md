@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1959'
   autors: Joaquim Romaguera Llach
-  descripcio: 'Categoria: Fàbrica Fàbrica de gelats, xocolates i torrons, encara en
-    funcionament.'
+  descripcio: 'Fàbrica de gelats, xocolates i torrons, encara en funcionament.'
   tipus: Projecte
 lat: 41.4084465
 long: 2.1964444
 proteccio: B / D
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Frigo / Farga
 ---

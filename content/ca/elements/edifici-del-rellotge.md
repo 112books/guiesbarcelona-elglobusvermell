@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1949'
   autors: Josep Alemany i Juvé
-  descripcio: 'Categoria: Altres edificis Magatzem i habitatges per a treballadors
-    de l’empresa Metales y Platerías Ribera. Actualment, magatzems i habitatges.'
+  descripcio: 'Magatzem i habitatges per a treballadors de l’empresa Metales y Platerías Ribera. Actualment, magatzems i habitatges.'
   tipus: Projecte
 lat: 41.4003436
 long: 2.1983443
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Edifici del Rellotge
 ---

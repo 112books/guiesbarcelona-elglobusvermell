@@ -8,12 +8,13 @@ draft: false
 intervencions:
 - any: '1889'
   autors: Llorenç Massana
-  descripcio: 'Categoria: Xemeneia'
+  descripcio: ''
   tipus: Projecte
 lat: 41.4078123
 long: 2.200336
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Xemeneia
 title: Xemeneia de Buigas i Samsó
 ---

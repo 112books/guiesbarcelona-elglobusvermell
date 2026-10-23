@@ -3,7 +3,8 @@ aliases: ["/2010-2025/placa-soller-i-ateneu-la-bobila/"]
 adreca: Pl. Sóller
 draft: false
 intervencions:
-- any: Barrio Peraire. 2021-2022
+- any: '2021-2022'
+  autors: 'Barrio Peraire'
   descripcio: ''
   tipus: Projecte
 lat: 41.4336133

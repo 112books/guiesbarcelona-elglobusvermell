@@ -15,13 +15,13 @@ intervencions:
   tipus: Ampliació
 - any: '2012'
   autors: Jordi Badia (BAAS)
-  descripcio: 'Categoria: Fàbrica Tallers de construcció mecànica. Actualment un edifici
-    és la seu del MUHBA Oliva Artés i l’altre és de la Guàrdia Urbana.'
+  descripcio: 'Tallers de construcció mecànica. Actualment un edifici és la seu del MUHBA Oliva Artés i l’altre és de la Guàrdia Urbana.'
   tipus: Remodelació
 lat: 41.4083812
 long: 2.2015139
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Tallers Oliva Artés
 ---

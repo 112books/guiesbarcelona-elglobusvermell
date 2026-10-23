@@ -10,13 +10,13 @@ draft: false
 intervencions:
 - any: '1965'
   autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
-  descripcio: 'Categoria: Fàbrica Seu del taller d’orfebreria Cunill e Hijos (posteriorment
-    Cunill Orfebres). A l’espera d’una pròxima reconversió en luxosos lofts .'
+  descripcio: 'Seu del taller d’orfebreria Cunill e Hijos (posteriorment Cunill Orfebres). A l’espera d’una pròxima reconversió en luxosos lofts .'
   tipus: Projecte
 lat: 41.3986399
 long: 2.1897355
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Cunill Orfebres
 ---

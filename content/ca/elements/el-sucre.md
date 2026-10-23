@@ -6,13 +6,13 @@ foto: /img/elements/el-sucre.jpg
 intervencions:
 - any: '2007'
   autors: Jordi Garcés
-  descripcio: 'Projecte original: c. 1911 Categoria: Fàbrica Sucrera Compañía de Industrias
-    Agrícolas. Actualment, habitatges lofts .'
+  descripcio: 'Projecte original: c. 1911 Sucrera Compañía de Industrias Agrícolas. Actualment, habitatges lofts .'
   tipus: Remodelació
 lat: 41.3961992
 long: 2.199023
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: El Sucre
 ---

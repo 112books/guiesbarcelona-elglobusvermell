@@ -8,13 +8,13 @@ draft: false
 intervencions:
 - any: '1886'
   autors: Joan Barba
-  descripcio: 'Categoria: Fàbrica Fàbrica de galetes. Actualment, oficines i espais
-    comercials de lloguer.'
+  descripcio: 'Fàbrica de galetes. Actualment, oficines i espais comercials de lloguer.'
   tipus: Projecte
 lat: 41.3980133
 long: 2.1899913
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Fàbrica
 title: Galetes Viñas, «La Galeta»
 ---

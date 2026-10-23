@@ -8,12 +8,13 @@ draft: false
 intervencions:
 - any: '1929'
   autors: Amadeu Llopart
-  descripcio: 'Categoria: Altres edificis Entitat cultural. Actualment, mateix ús.'
+  descripcio: 'Entitat cultural. Actualment, mateix ús.'
   tipus: Projecte
 lat: 41.3998615
 long: 2.203415
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Casino L’Aliança del Poblenou
 ---

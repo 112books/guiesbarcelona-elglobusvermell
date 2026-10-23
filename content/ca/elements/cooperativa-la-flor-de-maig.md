@@ -5,13 +5,13 @@ draft: false
 foto: /img/elements/cooperativa-la-flor-de-maig.jpg
 intervencions:
 - any: '2018'
-  descripcio: 'Projecte original:1896 Categoria: Altres edificis Cooperativa obrera.
-    Actualment, ateneu popular.'
+  descripcio: 'Projecte original:1896 Cooperativa obrera. Actualment, ateneu popular.'
   tipus: Remodelació
 lat: 41.3978807
 long: 2.2023565
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Cooperativa La Flor de Maig
 ---

@@ -11,13 +11,13 @@ intervencions:
   tipus: Projecte
 - any: '2018'
   autors: Daniel Molina (Som Habitat)
-  descripcio: 'Categoria: Altres edificis Magatzem i habitatge de Miquel Picó. Actualment,
-    BiciHub i Biciclot.'
+  descripcio: 'Magatzem i habitatge de Miquel Picó. Actualment, BiciHub i Biciclot.'
   tipus: Reforma
 lat: 41.3958118
 long: 2.1921715
 proteccio: C
 publicacions:
 - poblenou
+tipologia: Altres edificis
 title: Can Picó / Biciclot
 ---
