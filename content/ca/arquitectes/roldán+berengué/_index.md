@@ -1,5 +1,9 @@
 ---
-title: Roldán+Berengué
+title: Roldán+Berengué Arquitectes
+cognom: ''
 tipus: estudi
-link_web: "http://www.roldanberengue.com/"
+descripcio: ''
+link_coac: ''
+link_wikipedia: ''
+link_web: http://www.roldanberengue.com/
 ---
