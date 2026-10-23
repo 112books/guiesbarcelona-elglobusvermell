@@ -1,9 +1,10 @@
 ---
-aliases: ["/text/biblioteques/"]
-title: "Biblioteques de Barcelona"
-description: "Biblioteques de Barcelona: de les biblioteques populars de la Mancomunitat als nous equipaments de lectura. Plànol-guia en preparació."
-foto: "/img/publicacions/biblioteques.jpg"
-edicio: "2025 (pendent)"
+aliases:
+  - /text/biblioteques/
+title: Biblioteques de Barcelona
+edicio: '2025'
+description: 'Biblioteques de Barcelona: de les biblioteques populars de la Mancomunitat als nous equipaments de lectura. Plànol-guia en preparació.'
+foto: /img/publicacions/biblioteques.jpg
 ---
 
 ## Introducció
