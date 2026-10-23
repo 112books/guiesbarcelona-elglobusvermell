@@ -1,5 +1,5 @@
 ---
-title: Lussi Studio
+title: Lussi + Partner AG
 cognom: ''
 tipus: estudi
 descripcio: ''
