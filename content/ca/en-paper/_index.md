@@ -1,15 +1,15 @@
 ---
-title: "En paper"
-description: "Col·lecció de plànols-guia d'Arquitectura i Urbanisme de Barcelona en paper i PDF."
+title: En paper
+description: Col·lecció de plànols-guia d'Arquitectura i Urbanisme de Barcelona en paper i PDF.
 ---
 
-En 2016 vam editar en paper el primer plànol-guia del que acabaria sent la col·lecció *Guies d'Arquitectura i Urbanisme de Barcelona*. Aquesta sèrie de publicacions temàtiques sobre la ciutat de Barcelona ha anat creixent any rere any i en paral·lel també ho ha fet el nostre desig dotar-la d'un format digital on poder bolcar-hi els continguts i poder georeferenciar tots els elements.
+En 2016 vam editar en paper el primer plànol-guia del que acabaria sent la col·lecció _Guies d'Arquitectura i Urbanisme de Barcelona_. Aquesta sèrie de publicacions temàtiques sobre la ciutat de Barcelona ha anat creixent any rere any i en paral·lel també ho ha fet el nostre desig dotar-la d'un format digital on poder bolcar-hi els continguts i poder georeferenciar tots els elements.
 
 No obstant, seguim sent uns enamorats dels plànols-guia en paper. La textura, l'olor, la practicitat de dur-los a la butxaca i obrir-los al mig del carrer… Si us passa el mateix i desitgeu tenir-los en paper els podeu buscar a les llibreries de Barcelona (aquí teniu el llistat on les podeu trobar) o ens podeu escriure a [info@elglobusvermell.org](mailto:info@elglobusvermell.org).
 
 Alhora, també us els oferim en PDF descarregable gratuïtament i en diversos idiomes:
 
----
+***
 
 ## Arquitectura d'avantguarda a Barcelona. Josep Lluís Sert i el GATCPAC
 
@@ -21,7 +21,7 @@ L'any 2016 vam fer aquesta publicació abans de saber que acabaria sent una col�
 
 [Llegeix-ne més →](/publicacions/gatcpac/)
 
----
+***
 
 ## Jardins interiors d'illa de l'Eixample. Barcelona
 
@@ -33,7 +33,7 @@ El plànol-guia explica l'evolució del verd urbà a la trama de l'Eixample i de
 
 [Llegeix-ne més →](/publicacions/interiors-illa/)
 
----
+***
 
 ## El patrimoni industrial del Poblenou, Barcelona
 
@@ -41,7 +41,7 @@ El plànol-guia explica l'evolució del verd urbà a la trama de l'Eixample i de
 
 Aquesta publicació pretén fer descobrir el ric patrimoni arquitectònic del Poblenou industrial.
 
-Sant Martí de Provençals, del qual el Poblenou en formava part, viu l'arribada de la Revolució Industrial durant el primer terç del segle XIX, però l'apogeu es dóna, sobretot, entre la dècada de 1870 i els anys de la Segona República.
+Sant Martí de Provençals, del qual el Poblenou en formava part, viu l'arribada de la Revolució Industrial durant el primer terç del segle XIX, però l'apogeu es dona, sobretot, entre la dècada de 1870 i els anys de la Segona República.
 
 La Guerra Civil, la dictadura franquista i, finalment, la forta crisi del sector tèxtil dels anys 70 provoquen la decadència de l'activitat industrial del Poblenou, el tancament d'un bon nombre de fàbriques i finalment la desaparició de moltes d'elles.
 
@@ -51,7 +51,7 @@ El plànol-guia explica l'evolució del barri i descriu les característiques pr
 
 [Llegeix-ne més →](/publicacions/poblenou/)
 
----
+***
 
 ## Arquitectura Moderna a Barcelona. 1950-1975
 
@@ -63,7 +63,7 @@ Així, el plànol-guia mostra una selecció de 87 edificis construïts a Barcelo
 
 [Llegeix-ne més →](/publicacions/50-75/)
 
----
+***
 
 ## Mercats de Barcelona
 
@@ -79,7 +79,7 @@ Aquesta publicació proposa una aproximació a la xarxa de mercats de Barcelona 
 
 [Llegeix-ne més →](/publicacions/mercats/)
 
----
+***
 
 ## La Barceloneta. Història, arquitectura i art públic
 
@@ -93,7 +93,7 @@ El plànol-guia mostra una selecció de 39 edificis i 19 obres d'art a l'espai p
 
 [Llegeix-ne més →](/publicacions/barceloneta/)
 
----
+***
 
 ## La Marina del Port i del Prat Vermell. Passat i present
 
@@ -103,7 +103,7 @@ El barri de la Marina del Port i del Prat Vermell havia estat una rica zona agr�
 
 [Llegeix-ne més →](/publicacions/marina/)
 
----
+***
 
 ## La Barcelona de Tàpies / Tàpies a Barcelona
 
@@ -113,7 +113,7 @@ Antoni Tàpies (Barcelona, 1923-2012) va assolir de ben jove un gran reconeixeme
 
 [Llegeix-ne més →](/publicacions/tapies/)
 
----
+***
 
 ## Masies de Barcelona
 
@@ -125,7 +125,7 @@ Aquesta publicació posa en valor les antigues masies encara existents a la ciut
 
 [Llegeix-ne més →](/publicacions/masies/)
 
----
+***
 
 ## Biblioteques de Barcelona
 
@@ -135,17 +135,17 @@ Les biblioteques són serveis de proximitat i intergeneracionals que garanteixen
 
 [Llegeix-ne més →](/publicacions/biblioteques/)
 
----
+***
 
 ## La New Babylon de Constant i Barcelona
 
 {{< portada-guia slug="new-babylon" >}}
 
-Aquesta publicació és una introducció a la New Babylon i la seva vinculació amb Barcelona. Des de 1956 fins a 1974, mentre Barcelona viu entre l'efervescència política, social i (contra)cultural i el *desenvolupisme* urbanístic salvatge, l'artista neerlandès Constant desenvolupa, en un context europeu de bonança econòmica i explosió de moviments alternatius i contestataris, la New Babylon, un projecte d'utopia social i urbana plasmat en dibuixos, maquetes i plànols, inclòs un de la capital catalana.
+Aquesta publicació és una introducció a la New Babylon i la seva vinculació amb Barcelona. Des de 1956 fins a 1974, mentre Barcelona viu entre l'efervescència política, social i (contra)cultural i el _desenvolupisme_ urbanístic salvatge, l'artista neerlandès Constant desenvolupa, en un context europeu de bonança econòmica i explosió de moviments alternatius i contestataris, la New Babylon, un projecte d'utopia social i urbana plasmat en dibuixos, maquetes i plànols, inclòs un de la capital catalana.
 
 [Llegeix-ne més →](/publicacions/new-babylon/)
 
----
+***
 
 ## Arquitectura a Barcelona 1975–2008. De l'esperança a la crisi
 
@@ -155,7 +155,7 @@ Aquest plànol-guia recorre l'arquitectura projectada a Barcelona entre 1975 i 2
 
 [Llegeix-ne més →](/publicacions/76-08/)
 
----
+***
 
 ## Arquitectura a Barcelona 2010–2025. La revolució tranquil·la
 
