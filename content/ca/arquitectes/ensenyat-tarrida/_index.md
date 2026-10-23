@@ -1,6 +1,9 @@
 ---
-title: Ensenyat-Tarrida
+title: Ensenyat Tarrida Arquitectes
+cognom: ''
 tipus: estudi
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/ensenyat-tarrida-arquitectes"
-link_web: "https://aet.cat/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/ensenyat-tarrida-arquitectes
+link_wikipedia: ''
+link_web: https://aet.cat/
 ---
