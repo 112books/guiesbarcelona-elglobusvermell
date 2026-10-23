@@ -1,5 +1,9 @@
 ---
-title: Beatriz Borque
+title: Beatriz Borque Badenas
+cognom: Borque Badenas
 tipus: individual
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/beatriz-borque-badenas"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/beatriz-borque-badenas
+link_wikipedia: ''
+link_web: ''
 ---
