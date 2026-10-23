@@ -1,4 +1,9 @@
 ---
 title: Javier Carvajal Ferrer
-link_wikipedia: "https://ca.wikipedia.org/wiki/Francisco_Javier_Carvajal_Ferrer"
+cognom: Carvajal Ferrer
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/francisco-javier-carvajal-ferrer
+link_wikipedia: https://ca.wikipedia.org/wiki/Francisco_Javier_Carvajal_Ferrer
+link_web: ''
 ---
