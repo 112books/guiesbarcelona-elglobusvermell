@@ -1,5 +1,9 @@
 ---
 title: Joan Baptista Pons Trabal
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/joan-baptista-pons-i-trabal"
-link_wikipedia: "https://ca.wikipedia.org/wiki/Joan_Baptista_Pons_i_Trabal"
+cognom: Pons Trabal
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/joan-baptista-pons-i-trabal
+link_wikipedia: https://ca.wikipedia.org/wiki/Joan_Baptista_Pons_i_Trabal
+link_web: ''
 ---
