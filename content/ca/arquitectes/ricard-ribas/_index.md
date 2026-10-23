@@ -1,4 +1,9 @@
 ---
-title: Ricard Ribas
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/ricard-ribas-seva"
+title: Ricard Ribas Seva
+cognom: ''
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/ricard-ribas-seva
+link_wikipedia: ''
+link_web: ''
 ---
