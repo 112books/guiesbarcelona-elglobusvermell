@@ -1,6 +1,6 @@
 ---
 title: Ricard Ribas Seva
-cognom: ''
+cognom: Ribas Seva
 tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/ricard-ribas-seva
