@@ -1,5 +1,5 @@
 ---
-title: Josep Maria Subirachs
+title: Josep Maria Subirachs i Sitjar
 cognom: Subirachs
 tipus: artista
 descripcio: ''
