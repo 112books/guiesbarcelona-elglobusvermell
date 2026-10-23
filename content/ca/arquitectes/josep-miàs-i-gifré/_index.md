@@ -1,5 +1,9 @@
 ---
 title: Josep Miàs i Gifré
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/josep-mias-i-gifre"
-link_web: "https://miasarquitectes.com/"
+cognom: Miàs i Gifré
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/josep-mias-i-gifre
+link_wikipedia: ''
+link_web: https://miasarquitectes.com/
 ---
