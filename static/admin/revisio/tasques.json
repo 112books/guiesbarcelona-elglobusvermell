@@ -2284,20 +2284,6 @@
       }
     },
     {
-      "id": "b3-adreces",
-      "ref": "B3 · S7",
-      "titol": "Adreces dins del text de les fitxes",
-      "cita": "Camp adreça atrapat en altres llocs.",
-      "context": "Hem detectat 85 fitxes on la descripció comença amb una adreça: 36 duplicats clars i 49 de revisió manual. El patch dels 36 ja està preparat, verificat (aplicable i YAML vàlid) i no aplicat. Informe: .ai/informe-adreces-descripcio-2026-10-13.md · Patch: .ai/patch-adreces-descripcio.diff.",
-      "descripcio": "Voleu que apliquem els 36 casos nets? No s'aplica res sense el vostre vist-i-plau.",
-      "resposta": {
-        "data": "2026-10-21",
-        "opcio_xavi": "",
-        "text": "Endavant!",
-        "nostra_accio": "S’aplica."
-      }
-    },
-    {
       "id": "tauler-final",
       "ref": "NOS",
       "titol": "Actualitzar el tauler de revisió al final del projecte",
@@ -2333,20 +2319,6 @@
         "opcio_xavi": "",
         "text": "Ens agrada amb dues columnes! Però canviarem, només aquí, la imatge de la portada del plànol. Retallarem la part de dalt […]",
         "nostra_accio": "S’aplica, amb la portada retallada que ens faran arribar."
-      }
-    },
-    {
-      "id": "b2-dades-projecte",
-      "ref": "B2 · B4",
-      "titol": "Informació encallada dins «projecte» i fitxes sense «projecte»",
-      "cita": "Hi ha moltes informacions que han quedat encallades dins l'etiqueta «projecte». Ho fem nosaltres manualment fitxa per fitxa?",
-      "descripcio": "Proposta: 103 casos són inequívocs i els podem arreglar automàticament; 45 els arreglem nosaltres però us els passem per revisar; 46 cal mirar-los a mà (text tallat a la migració o diverses fases d'obra) i els completem amb el WordPress. No s'esborra res: només es posa cada dada al seu lloc. Ho fem així?",
-      "context": "Ho hem revisat fitxa per fitxa: 154 fitxes, 194 casos en 6 patrons. Per exemple: autor i any barrejats en un sol camp («Josep Graner i Prat. 1910, aprox.»), l'edifici original de les biblioteques que hauria de sortir com a «Projecte original», l'etiqueta «Categoria:» del WordPress enganxada al text, o «Reforma: …» dins la descripció.",
-      "resposta": {
-        "data": "2026-10-21",
-        "opcio_xavi": "",
-        "text": "Endavant! Igualment després nosaltres haurem de fer una bona repassada i correccions finals.",
-        "nostra_accio": "S’aplica."
       }
     },
     {
