@@ -1,7 +1,9 @@
 ---
 title: G. Guiteras
-descripcio: ""
-link_coac: ""
-link_wikipedia: ""
-link_web: ""
+cognom: Guiteras
+tipus: individual
+descripcio: ''
+link_coac: ''
+link_wikipedia: ''
+link_web: ''
 ---
