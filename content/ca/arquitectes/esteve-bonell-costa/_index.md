@@ -1,5 +1,9 @@
 ---
 title: Esteve Bonell Costa
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/esteve-bonell-i-costa"
-link_wikipedia: "https://ca.wikipedia.org/wiki/Esteve_Bonell_i_Costa"
+cognom: Bonell Costa
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/esteve-bonell-i-costa
+link_wikipedia: https://ca.wikipedia.org/wiki/Esteve_Bonell_i_Costa
+link_web: ''
 ---
