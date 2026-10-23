@@ -8,6 +8,7 @@ districte: "Eixample"
 zona: "Eixample"
 ordre: 5
 draft: false
+foto: /img/elements/illa-dequipaments-fort-pienc.jpg
 lat: 41.3953837
 long: 2.1824934
 publicacions:

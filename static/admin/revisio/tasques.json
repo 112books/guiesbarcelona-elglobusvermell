@@ -954,26 +954,26 @@
     {
       "id": "fotos-biblioteques-on",
       "ref": "NOU · Fotos",
-      "estat": "fet",
-      "titol": "Fotos de les biblioteques: com les recuperem?",
+      "estat": "pendent",
+      "titol": "Biblioteques: 26 fitxes encara no tenen una foto de la biblioteca",
       "cita": "Les fotografies de les biblioteques ja les havia enviades fa temps.",
-      "context": "Sí: és la carpeta Fotos-web-app que ens vas enviar el 24/8. En vam importar les que no tenien cap imatge (8 biblioteques), però la resta es van saltar perquè ja tenien la portada del plànol com a foto. La carpeta ja no la tenim: necessitem recuperar-la per posar les 33 fotos que falten.",
-      "descripcio": "Com ho fem?",
+      "context": "Gràcies per la carpeta: n'hem pogut aplicar 27 (les que portaven número). El problema és que no hi eren totes: 20 biblioteques ensenyen ara mateix la portada del plànol en lloc d'una foto, i 6 no tenen cap imatge. Són aquestes 26:\n\nAmb la portada del plànol: Col·lecció Serola – Josep Miracle, Biblioteca de Catalunya, El Carmel – Juan Marsé, El Clot – Josep Benet, Francesc Candel, Francesca Bonnemaison, Gòtic – Andreu Nin, Guinardó – Mercè Rodoreda, Horta – Can Mariner, Jaume Fuster, La Marina del Prat Vermell, Poble-sec – Francesc Boix, Prosperitat, Pública Arús, Pública de l'Estat – Biblioteca Central, Ramon d'Alòs – Moner, Sant Gervasi – Joan Maragall, Sant Gervasi Sud, Sofia Barat i Xavier Benguerel.\n\nSense cap foto: Bon Pastor – Josefina Castellví, Canyelles – Maria Àngels Rivas, Ateneu Barcelonès, Les Roquetes – Rafa Juncadella, Vallcarca i els Penitents – Maria Antonieta Cot i Vall d'Hebron (la futura).",
+      "descripcio": "Ens podeu fer arribar les que falten? Si les teniu fetes, amb el número del llistat ens apaNyem.",
       "opcions": [
         {
-          "id": "enllac",
-          "label": "Ens tornes a enllaçar la carpeta",
-          "detall": "Un enllaç a la carpeta (Drive, WeTransfer…) o el correu del 24/8 reenviat."
+          "id": "enviar",
+          "label": "Us les enviem",
+          "detall": "Numerades com el llistat o amb el nom de la biblioteca."
         },
         {
-          "id": "correu",
-          "label": "La busquem nosaltres al correu del 24/8",
-          "detall": "Si el correu encara té la carpeta o l'enllaç, no cal que facis res."
+          "id": "treure",
+          "label": "De moment, traieu la portada del plànol",
+          "detall": "Les 20 fitxes quedarien sense foto fins que n'hi hagi."
         },
         {
-          "id": "sense-foto",
-          "label": "De moment, biblioteques sense foto",
-          "detall": "Traiem la portada del plànol de les 33 fitxes i esperem les fotos."
+          "id": "deixar",
+          "label": "Deixeu-ho com està",
+          "detall": "Es manté la portada del plànol com a imatge provisional."
         }
       ],
       "recomanacio": "correu",
@@ -1013,6 +1013,32 @@
     }
   ],
   "canvis": [
+    {
+      "id": "fotos-biblioteques-aplicades",
+      "ref": "NOU · Fotos",
+      "estat": "fet",
+      "titol": "Fotos de les biblioteques aplicades",
+      "cita": "Les fotografies de les biblioteques ja les havia enviades fa temps.",
+      "resultat": "Fet (23/10): hem aplicat la carpeta de 28 imatges que ens vas tornar a fer arribar, numerades segons el llistat. Han quedat amb foto pròpia 27 biblioteques; la Biblioteca Joan Miró té tres fotos (carrusel) i el CRAI Ciutadella – Dipòsit de les Aigües dues. També hem posat la foto de la Biblioteca Fort Pienc – Ana María Moix a la fitxa de l'Illa d'equipaments Fort Pienc, i la de l'Esquerra de l'Eixample com a segona foto de l'Edifici Collage, perquè són el mateix edifici. De pas, hem recuperat la foto que faltava de l'Edifici d'oficines Llull 122, que fins ara sortia trencada.",
+      "enllacos": [
+        {
+          "label": "Illa d'equipaments Fort Pienc",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-fort-pienc/"
+        },
+        {
+          "label": "Edifici Collage",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-collage-centre-cultural-teresa-pamies/"
+        },
+        {
+          "label": "Edifici d'oficines Llull 122",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-doficines-llull-122/"
+        },
+        {
+          "label": "Biblioteca Joan Miró",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-joan-miro/"
+        }
+      ]
+    },
     {
       "id": "b2-dades-projecte",
       "ref": "B2 · B4",
@@ -2228,14 +2254,6 @@
       "cita": "",
       "context": "El text ve tallat del WordPress («Casa X. Josep…» sense any) i cal completar-lo amb les dades del WordPress de producció, que encara és viu.",
       "descripcio": "Es fa de nosaltres quan tinguem accés a les dades del WordPress o quan el Xavi ens ho confirmi fitxa per fitxa."
-    },
-    {
-      "id": "fotos-biblioteques-noves",
-      "ref": "NOU · Fotos",
-      "titol": "Aplicar les 28 fotos de biblioteques rebudes el 23/10",
-      "cita": "",
-      "context": "Hem rebut una carpeta amb 28 imatges numerades (004–050), seguint l'ordre del llistat de biblioteques, i el PDF del llistat. Serveixen per a les biblioteques que encara ensenyen la portada del plànol o que no tenien cap foto.",
-      "descripcio": "Es fa de nosaltres: cal comprimir-les (≤1.600 px, ≤400 KB), assignar-les per número i regenerar data/imatges_dims.json."
     },
     {
       "id": "r8-anys-xifres",

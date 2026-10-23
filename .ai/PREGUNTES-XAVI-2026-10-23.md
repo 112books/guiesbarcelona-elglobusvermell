@@ -59,4 +59,23 @@ La unifiquem?
 vostra llista de Sant Gervasi (hi surten Galvany i Tres Torres). Fusionem les
 dues del Mercat de la Marina? I el de Sant Gervasi ha de sortir al plànol?
 
+**8. Fotos de les biblioteques.** Gràcies per la carpeta: n'hem aplicat 27 i ara la
+Joan Miró té un carrusel de tres fotos i el Dipòsit de les Aigües, dues. També hem
+posat la foto de la Fort Pienc a la fitxa de l'Illa d'equipaments i hem recuperat
+una foto de l'Edifici d'oficines Llull 122 que sortia trencada. Però a la carpeta
+no hi eren totes: **20 biblioteques encara ensenyen la portada del plànol** i
+**6 no tenen cap foto**. Les teniu fetes? Si me les feu arribar numerades com al
+llistat, les poso tot seguit.
+
+- Amb la portada del plànol: Col·lecció Serola – Josep Miracle, Biblioteca de
+  Catalunya, El Carmel – Juan Marsé, El Clot – Josep Benet, Francesc Candel,
+  Francesca Bonnemaison, Gòtic – Andreu Nin, Guinardó – Mercè Rodoreda,
+  Horta – Can Mariner, Jaume Fuster, La Marina del Prat Vermell, Poble-sec –
+  Francesc Boix, Prosperitat, Pública Arús, Pública de l'Estat – Biblioteca
+  Central, Ramon d'Alòs – Moner, Sant Gervasi – Joan Maragall, Sant Gervasi Sud,
+  Sofia Barat i Xavier Benguerel.
+- Sense cap foto: Bon Pastor – Josefina Castellví, Canyelles – Maria Àngels
+  Rivas, Ateneu Barcelonès, Les Roquetes – Rafa Juncadella, Vallcarca i els
+  Penitents – Maria Antonieta Cot i Vall d'Hebron (la futura).
+
 Gràcies!
