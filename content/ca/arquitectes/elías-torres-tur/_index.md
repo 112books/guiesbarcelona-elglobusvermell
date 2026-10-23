@@ -1,7 +1,6 @@
 ---
 title: Elías Torres Tur
 cognom: Torres Tur
-tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/elias-torres-tur
 link_wikipedia: ''

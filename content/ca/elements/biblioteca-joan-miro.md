@@ -10,6 +10,9 @@ descripcio: 'Joan Miró Artista. 1893-1983 Nova Esquerra de l’Eixample Arquite
 districte: "Eixample"
 draft: false
 foto: /img/elements/biblioteca-joan-miro.jpg
+fotos_addicionals:
+  - /img/elements/biblioteca-joan-miro-2.jpg
+  - /img/elements/biblioteca-joan-miro-3.jpg
 lat: 41.3787762
 long: 2.1489949
 publicacions:

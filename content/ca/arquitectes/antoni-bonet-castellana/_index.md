@@ -1,7 +1,6 @@
 ---
 title: Antoni Bonet Castellana
 cognom: Bonet Castellana
-tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/antoni-bonet-castellana
 link_wikipedia: https://ca.wikipedia.org/wiki/Antoni_Bonet_i_Castellana

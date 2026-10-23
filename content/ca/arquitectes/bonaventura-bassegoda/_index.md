@@ -1,7 +1,6 @@
 ---
 title: Bonaventura Bassegoda i Muste
 cognom: Bassegoda i Muste
-tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/bonaventura-bassegoda-i-muste
 link_wikipedia: https://ca.wikipedia.org/wiki/Bonaventura_Bassegoda

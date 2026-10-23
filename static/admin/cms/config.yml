@@ -453,12 +453,11 @@ collections:
         name: tipus
         widget: select
         options:
-          - { label: Individual, value: individual }
+          - { label: "Cap (sense etiqueta)", value: "" }
           - { label: "Estudi / despatx", value: estudi }
           - { label: Artista, value: artista }
-        required: true
-        default: individual
-        hint: "Obligatori: si queda buit, la fitxa no surt a cap grup de la pàgina d'Arquitectes. Si el desplegable et surt buit tot i que la fitxa ja tenia un tipus, recarrega la pàgina o prem «Neteja la memòria cau»."
+        required: false
+        hint: "Opcional. Deixa «Cap (sense etiqueta)» per a la resta d'arquitectes: no es mostra cap etiqueta al costat del nom. Tria «Estudi / despatx» o «Artista» només quan correspongui."
 
       - label: Descripció
         name: descripcio

@@ -1,6 +1,6 @@
 {
-  "actualitzat": "2026-10-22 (vespre)",
-  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Avís del 22/10: si estàs editant fitxes d'arquitecte, recarrega abans la pàgina del CMS (o prem «Neteja la memòria cau»): amb la versió antiga, el camp «Tipus» es desava buit.",
+  "actualitzat": "2026-10-23 (matí)",
+  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc.",
   "decisions": [
     {
       "id": "cercador-general",
@@ -680,8 +680,8 @@
       "id": "fotos-multiples",
       "ref": "NOU · Fotos",
       "titol": "Com saber quins elements tenen més d’una foto",
-      "cita": "No recordo quin projecte tenia més d’una foto... i no en trobo cap. Hi ha alguna manera de saber-ho?",
-      "context": "Avui només el Mercat de la Boqueria té fotos addicionals (2). Ho podem mostrar a la galeria de l’admin.",
+      "cita": "No recordo si alguna fitxa ja tenia més d'una foto (volia consultar com es visualitza).",
+      "context": "Sí: ara mateix n'hi ha tres amb més d'una foto — Biblioteca Joan Miró (3), Dipòsit de les Aigües / UPF (3) i Mercat de la Boqueria (2). A la fitxa es veuen com un carrusel amb fletxes i punts, i a sota la foto gran hi ha la tira de miniatures.",
       "opcions": [
         {
           "id": "galeria",
@@ -694,7 +694,13 @@
           "detall": ""
         }
       ],
-      "estat": "pendent"
+      "estat": "fet",
+      "resposta": {
+        "data": "2026-10-23",
+        "opcio_xavi": "",
+        "text": "No recordo si alguna fitxa ja tenia més d'una foto (volia consultar com es visualitza).",
+        "nostra_accio": "Fet: ja estan publicades les fotos múltiples (Biblioteca Joan Miró, 3 fotos; Dipòsit de les Aigües / UPF, 2). Es veuen al carrusel de la fitxa."
+      }
     },
     {
       "id": "mides-fotos",
@@ -781,7 +787,7 @@
     {
       "id": "fotos-biblioteques-on",
       "ref": "NOU · Fotos",
-      "estat": "pendent",
+      "estat": "fet",
       "titol": "Fotos de les biblioteques: com les recuperem?",
       "cita": "Les fotografies de les biblioteques ja les havia enviades fa temps.",
       "context": "Sí: és la carpeta Fotos-web-app que ens vas enviar el 24/8. En vam importar les que no tenien cap imatge (8 biblioteques), però la resta es van saltar perquè ja tenien la portada del plànol com a foto. La carpeta ja no la tenim: necessitem recuperar-la per posar les 33 fotos que falten.",
@@ -804,7 +810,39 @@
         }
       ],
       "recomanacio": "correu",
-      "posicio": ""
+      "posicio": "",
+      "resposta": {
+        "data": "2026-10-23",
+        "opcio_xavi": "",
+        "text": "Les fotografies de les biblioteques ja les havia enviades fa temps.",
+        "nostra_accio": "Resolt: ens has tornat a enviar la carpeta (27 fotos per a 24 biblioteques). Ja estan aplicades; Joan Miró i el Dipòsit de les Aigües en tenen 3 i 2. De les 33 fitxes que ensenyaven la portada del plànol com a foto, 13 ja tenen foto real; 20 encara mostren la portada perquè no eren a la carpeta, i 5 no tenen cap imatge."
+      }
+    },
+    {
+      "id": "biblioteques-llistat-55",
+      "ref": "NOU · Biblioteques",
+      "titol": "El llistat nou té 55 ítems: què fem amb els que no tenen fitxa?",
+      "cita": "Llistat de biblioteques (PDF del 23/10)",
+      "context": "El llistat nou té 55 ítems. Del 1 al 50 ja tenen fitxa. Falten les 5 de la «Xarxa de Biblioteques Socials»: Centre de Documentació de l'Ateneu Enciclopèdic Popular, Biblioteca Popular Josep Pons, Centre de Documentació Mercè Grenzner, Fundació Salvador Seguí i Biblioteca Nova Babilònia. A més, la fitxa «Biblioteca Vall d'Hebron» (futura biblioteca) no surt al llistat nou.",
+      "descripcio": "Voleu que creem les 5 fitxes de la xarxa social i traiem la de Vall d'Hebron del plànol?",
+      "opcions": [
+        {
+          "id": "crear-5",
+          "label": "Sí: creeu les 5 i traieu Vall d'Hebron",
+          "detall": "El plànol queda amb els 55 ítems del llistat."
+        },
+        {
+          "id": "crear-5-keep",
+          "label": "Creeu les 5 i deixeu Vall d'Hebron",
+          "detall": "56 ítems; Vall d'Hebron es manté com a futura biblioteca."
+        },
+        {
+          "id": "deixar",
+          "label": "De moment, deixeu-ho com està",
+          "detall": "El plànol mostra les 51 fitxes actuals."
+        }
+      ],
+      "estat": "pendent"
     }
   ],
   "canvis": [
@@ -1833,6 +1871,56 @@
         {
           "label": "Pàgina de comparació (per si vols recordar les opcions)",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/tipografia/"
+        }
+      ]
+    },
+    {
+      "id": "etiqueta-individual",
+      "ref": "NOU · Arquitectes",
+      "estat": "fet",
+      "titol": "Etiqueta «Individual» treta dels arquitectes",
+      "cita": "No farem servir l'etiqueta «individual» als arquitectes. Ara m'he trobat que ja no existeix la possibilitat de seleccionar cap, amb la qual cosa estem obligats a fer-la servir. La podem eliminar de tots els arquitectes que la tinguin? O si l'ha de tenir: podem fer que no aparegui al costat del nom de l'arquitecte?",
+      "resultat": "Fet: hem tret el camp «tipus» de les 150 fitxes que deien «individual» i l'editor torna a permetre deixar-lo buit, amb l'opció «Cap (sense etiqueta)» com a primera tria. A la pàgina d'Arquitectes només es mostren les etiquetes «Estudi» i «Artista»; la resta de noms surten nets, sense cap etiqueta al costat. No s'ha esborrat cap fitxa ni cap dada: només aquest camp.",
+      "enllacos": [
+        {
+          "label": "Pàgina d'Arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/"
+        },
+        {
+          "label": "Fitxa d'arquitecte (ara sense etiqueta)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/nilo-tusquets/"
+        }
+      ],
+      "resposta": {
+        "data": "2026-10-23",
+        "opcio_xavi": "",
+        "text": "La podem eliminar de tots els arquitectes que la tinguin? O si l'ha de tenir: podem fer que no aparegui al costat del nom de l'arquitecte?",
+        "nostra_accio": "Fet: eliminada de les fitxes i amagada de la web. Al CMS, el camp «Tipus» torna a tenir l'opció «Cap»."
+      }
+    },
+    {
+      "id": "biblioteques-noves-3",
+      "ref": "NOU · Biblioteques",
+      "estat": "fet",
+      "titol": "Tres fitxes de biblioteca que faltaven",
+      "cita": "Hi ha tres biblioteques de les quals tens foto però que no existeixen encara com a fitxa a la web.",
+      "resultat": "Fet: creades les fitxes de la Biblioteca Esquerra de l'Eixample – Agustí Centelles, la Biblioteca Fort Pienc – Ana María Moix i la Biblioteca Camp de l'Arpa – Caterina Albert, amb la teva foto, l'adreça, l'arquitecte i l'any. Les hem tretes dels equipaments on sortien barrejades (Edifici Collage, Illa d'equipaments Alchemika i Illa d'equipaments Fort Pienc) perquè no surtin dues vegades al plànol de Biblioteques.",
+      "enllacos": [
+        {
+          "label": "Esquerra de l'Eixample – Agustí Centelles",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-esquerra-de-leixample-agusti-centelles/"
+        },
+        {
+          "label": "Fort Pienc – Ana María Moix",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-fort-pienc-ana-maria-moix/"
+        },
+        {
+          "label": "Camp de l'Arpa – Caterina Albert",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-camp-de-larpa-caterina-albert/"
+        },
+        {
+          "label": "Plànol de Biblioteques",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques/"
         }
       ]
     }

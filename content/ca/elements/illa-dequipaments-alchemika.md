@@ -1,5 +1,4 @@
 ---
-aliases: ["/biblioteques/biblioteca-camp-de-larpa-caterina-albert/"]
 adreca: C. Indústria, 295
 districte: "Eixample"
 draft: false
@@ -16,7 +15,6 @@ lat: 41.4157906
 long: 2.1820489
 publicacions:
 - 09-25
-- biblioteques
 temes_transversals:
 - dones-arquitectes
 - nomenclator-femeni

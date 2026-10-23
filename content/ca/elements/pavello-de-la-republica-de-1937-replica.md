@@ -5,7 +5,7 @@ aliases:
   - /avantguarda-1928-1938/pavello-de-la-republica-biblioteca-crai-ub/
 title: Pavelló de la República
 draft: false
-foto: /img/elements/pavello-de-la-republica-biblioteca-crai-ub.jpg
+foto: /img/elements/pavello-de-la-republica-de-1937-replica.jpg
 foto_autoria: El Globus Vermell
 foto_peu: ''
 fotos_addicionals: []

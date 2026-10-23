@@ -48,8 +48,9 @@
           {{ $p := .page }}
           <li data-nom="{{ $p.Title | lower }}">
             <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-            {{ with $p.Params.tipus }}
-            <span class="arquitecte-tipus arquitecte-tipus--{{ . }}">{{ if eq . "estudi" }}Estudi{{ else if eq . "artista" }}Artista{{ else }}Individual{{ end }}</span>
+            {{ $tipusEntrada := $p.Params.tipus }}
+            {{ if or (eq $tipusEntrada "estudi") (eq $tipusEntrada "artista") }}
+            <span class="arquitecte-tipus arquitecte-tipus--{{ $tipusEntrada }}">{{ if eq $tipusEntrada "estudi" }}Estudi{{ else }}Artista{{ end }}</span>
             {{ end }}
             <span class="terms-count">({{ len $p.Pages }} {{ if eq $p.Params.tipus "artista" }}{{ if eq (len $p.Pages) 1 }}obra{{ else }}obres{{ end }}{{ else }}edifici{{ if ne (len $p.Pages) 1 }}s{{ end }}{{ end }})</span>
           </li>
