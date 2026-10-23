@@ -1,4 +1,9 @@
 ---
 title: Rafael Serra Florensa
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/rafael-serra-florensa"
+cognom: Serra Florensa
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/rafael-serra-florensa
+link_wikipedia: ''
+link_web: ''
 ---
