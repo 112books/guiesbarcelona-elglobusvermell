@@ -2,7 +2,7 @@
 aliases:
   - /text/gatcpac/
 title: Arquitectura d'avantguarda. 1928-1939
-edicio: Reedició 2026
+edicio: '2026'
 description: "Plànol-guia de l'arquitectura d'avantguarda a Barcelona (1928-1939): el GATCPAC i el racionalisme, amb els edificis més representatius del període."
 foto: /img/publicacions/gatcpac.jpg
 ---
