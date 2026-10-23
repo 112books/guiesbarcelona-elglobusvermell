@@ -1,7 +1,174 @@
 {
-  "actualitzat": "2026-10-23 (tarda)",
-  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc. Si el desplegable encara et surt amb «Individual», recarrega la pàgina del CMS (o prem «Neteja la memòria cau»): amb la versió antiga es tornava a desar.",
+  "actualitzat": "2026-10-23 (vespre)",
+  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10, i el que s'ha fet el 23/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc. Si el desplegable encara et surt amb «Individual», recarrega la pàgina del CMS (⌘⇧R / Ctrl+F5): amb la versió antiga es tornava a desar. També hem tret l'adreça repetida de 37 descripcions, l'etiqueta «Categoria:» que el WordPress havia deixat dins de 66 textos, i la fila «Projecte» que sortia dues vegades. A sota hi ha les preguntes noves que han sortit d'aquesta feina.",
   "decisions": [
+    {
+      "id": "b2-edifici-original",
+      "ref": "B2 · B4",
+      "titol": "«Edifici original»: el convertim en una intervenció?",
+      "cita": "Moltes informacions han quedat encallades dins l'etiqueta projecte… ho fem nosaltres manualment fitxa per fitxa?",
+      "context": "A 19 fitxes, «Edifici original» és una frase amb el nom, l'autor i l'any («Casa X. Josep Graner. 1908»). A la resta de fitxes la mateixa informació ja viu com a intervenció («Projecte original») i per això la fila «Edifici original» només surt en aquestes 19. Si el convertim, la informació queda al mateix lloc que a la resta de fitxes.",
+      "descripcio": "En 12 casos l'autor i l'any són clars i es poden convertir sols; els altres 7 tenen el text incomplet i caldria mirar-los. Què fem?",
+      "opcions": [
+        {
+          "id": "convertir",
+          "label": "Convertiu els 12 clars i els altres a mà",
+          "detall": "La fila «Edifici original» desapareix i tot queda igual que a la resta."
+        },
+        {
+          "id": "deixar",
+          "label": "Deixeu-ho com està",
+          "detall": "Cada fitxa manté la seva fila «Edifici original»."
+        },
+        {
+          "id": "mixt",
+          "label": "Convertiu-ho tot, encara que algun es quedi a mitges",
+          "detall": "Més ràpid, però algunes intervencions sortirien sense any."
+        }
+      ],
+      "estat": "pendent"
+    },
+    {
+      "id": "b3-adreces-restants",
+      "ref": "B3 · S7",
+      "titol": "Les 48 fitxes amb l'adreça dins del text: com les resolem?",
+      "cita": "Endavant!",
+      "context": "Ja hem tret l'adreça repetida de 37 fitxes, on el text començava exactament per l'adreça. Queden 48 casos que no es poden fer sols: n'hi ha que porten dues o tres adreces seguides («Cardenal Tedeschini, 30 / Pardo, 2 / Ignasi Ros, 26-30»), n'hi ha que només són l'adreça (llavors la descripció quedaria buida) i n'hi ha que tenen l'adreça escrita una mica diferent del camp «Adreça».",
+      "descripcio": "Quin criteri voleu que seguim?",
+      "opcions": [
+        {
+          "id": "totes",
+          "label": "Traieu-les totes i deixeu-les només al camp «Adreça»",
+          "detall": "El camp «Adreça» admet les variants separades per barres, com ja fem en moltes fitxes."
+        },
+        {
+          "id": "primera",
+          "label": "Traieu només la primera i deixeu la resta al text",
+          "detall": "Més conservador, però queden adreces dins del text."
+        },
+        {
+          "id": "deixar",
+          "label": "No les toqueu",
+          "detall": "Es queden com ara."
+        }
+      ],
+      "estat": "pendent"
+    },
+    {
+      "id": "b2-fases-intervencions",
+      "ref": "B2 · B4",
+      "titol": "Intervencions que en realitat són dues obres",
+      "cita": "Moltes informacions han quedat encallades dins l'etiqueta projecte…",
+      "context": "En 9 fitxes el camp d'any d'una intervenció conté dues obres seguides: «Vora. 2013 + 2019», «Pere Armengou. 1947 + 1956», «Joris Prosper van Verboom. 1772. Conversió en rellotge: 1904».",
+      "descripcio": "Les separem en dues intervencions (una per obra) o les deixem en una sola línia?",
+      "opcions": [
+        {
+          "id": "separar",
+          "label": "Separeu-les en dues intervencions",
+          "detall": "Cada obra amb el seu autor i el seu any."
+        },
+        {
+          "id": "deixar",
+          "label": "Deixeu-ho com està",
+          "detall": "Una sola línia amb tot el text, tal com va arribar del WordPress."
+        }
+      ],
+      "estat": "pendent"
+    },
+    {
+      "id": "b2-premis",
+      "ref": "B2 · B4",
+      "titol": "Els premis que queden dins del text de la fitxa",
+      "cita": "Moltes informacions han quedat encallades dins l'etiqueta projecte…",
+      "context": "Hi ha 4 fitxes que comencen la descripció amb el premi («Premi FAD Arquitectura 1986»…). La fitxa té un camp «Premis» que ara queda buit perquè el WordPress ho va deixar al mig del text.",
+      "descripcio": "Els movem al camp «Premis» i els traiem del text?",
+      "opcions": [
+        {
+          "id": "moure",
+          "label": "Sí, moveu-los al camp «Premis»",
+          "detall": "El text queda net i el premi surt a la seva fila."
+        },
+        {
+          "id": "deixar",
+          "label": "Deixeu-los al text",
+          "detall": "No es toca res."
+        }
+      ],
+      "estat": "pendent"
+    },
+    {
+      "id": "fitxes-retirades-paper",
+      "ref": "NOU · Plànol",
+      "titol": "Quatre fitxes que ja no surten al plànol en paper",
+      "cita": "El plànol 2026 no les inclou",
+      "context": "Són «Botiga Cottet», «Reforma d'un àtic», «Reforma de l'aula de química a la UB» i «Adaptació d'un convent per a escola del CENU». Són obres reals, però no apareixen al plànol en paper i al web sí que hi són.",
+      "descripcio": "Les mantenim al web o les retirem?",
+      "opcions": [
+        {
+          "id": "mantenir",
+          "label": "Manteniu-les al web",
+          "detall": "Continuen visibles i al mapa, encara que no surtin al paper."
+        },
+        {
+          "id": "amagar",
+          "label": "Manteniu-les però fora del mapa",
+          "detall": "Es poden llegir si algú hi arriba, però no surten al plànol."
+        },
+        {
+          "id": "treure",
+          "label": "Traieu-les del web",
+          "detall": "Deixen d'existir com a fitxa."
+        }
+      ],
+      "estat": "pendent"
+    },
+    {
+      "id": "arquitectes-orfes",
+      "ref": "NOU · Arquitectes",
+      "titol": "Una fitxa d'arquitecte que no lliga amb cap obra",
+      "cita": "Llistat d'arquitectes",
+      "context": "La fitxa «oab-(carlos-ferrater)» no es diu com el nom que fan servir les obres («OAB (Carlos Ferrater)»), així que queda com una pàgina buida sense cap edifici. Les altres que teníem així ja les hem pogut unificar.",
+      "descripcio": "Us va bé que la unifiquem amb el nom que ja fan servir les obres?",
+      "opcions": [
+        {
+          "id": "unificar",
+          "label": "Sí, unifiqueu-la",
+          "detall": "La fitxa passa a dir-se com a les obres i deixa de ser buida."
+        },
+        {
+          "id": "mantenir",
+          "label": "Deixeu el nom actual",
+          "detall": "La fitxa continua sense edificis."
+        }
+      ],
+      "estat": "pendent"
+    },
+    {
+      "id": "mercats-duplicat",
+      "ref": "NOU · Mercats",
+      "titol": "El mercat de la Marina, dues vegades, i el de Sant Gervasi que no surt a la llista",
+      "cita": "Llistat de mercats",
+      "context": "Tenim dues fitxes del mateix lloc: «mercat-de-la-marina» i «placa-i-mercat-de-la-marina». I «mercat-de-sant-gervasi» no apareix a la vostra llista de la sub-zona de Sant Gervasi (hi surten Galvany i Tres Torres).",
+      "descripcio": "Fusionem les dues del Mercat de la Marina? I el de Sant Gervasi ha de sortir al plànol?",
+      "opcions": [
+        {
+          "id": "fusionar-si",
+          "label": "Fusionar la Marina i deixar Sant Gervasi",
+          "detall": "Una sola fitxa del mercat i el de Sant Gervasi continua al plànol."
+        },
+        {
+          "id": "fusionar-no",
+          "label": "Fusionar la Marina i treure Sant Gervasi",
+          "detall": "Segueix el que diu la vostra llista al peu de la lletra."
+        },
+        {
+          "id": "deixar",
+          "label": "De moment no toqueu res",
+          "detall": "Es queda com està fins que ho mireu."
+        }
+      ],
+      "estat": "pendent"
+    },
     {
       "id": "cercador-general",
       "titol": "Voleu un cercador general a tot el web?",
@@ -2046,6 +2213,30 @@
     }
   ],
   "tasques": [
+    {
+      "id": "b2-pendent-revisa",
+      "ref": "B2 · B4",
+      "titol": "B2: els 45 casos que cal mirar a ull",
+      "cita": "",
+      "context": "Després de la primera tongada queden 45 casos que el script no pot decidir sol: premis, diverses fases d'obra, noms repetits o dubtosos i alguna tipologia que ja estava plena.",
+      "descripcio": "Es fa de nosaltres, amb l'informe .ai/informe-neteja-projecte-2026-10-14.md com a guia."
+    },
+    {
+      "id": "b2-pendent-manual",
+      "ref": "B2 · B4",
+      "titol": "B2: els 46 casos de text tallat a la migració",
+      "cita": "",
+      "context": "El text ve tallat del WordPress («Casa X. Josep…» sense any) i cal completar-lo amb les dades del WordPress de producció, que encara és viu.",
+      "descripcio": "Es fa de nosaltres quan tinguem accés a les dades del WordPress o quan el Xavi ens ho confirmi fitxa per fitxa."
+    },
+    {
+      "id": "fotos-biblioteques-noves",
+      "ref": "NOU · Fotos",
+      "titol": "Aplicar les 28 fotos de biblioteques rebudes el 23/10",
+      "cita": "",
+      "context": "Hem rebut una carpeta amb 28 imatges numerades (004–050), seguint l'ordre del llistat de biblioteques, i el PDF del llistat. Serveixen per a les biblioteques que encara ensenyen la portada del plànol o que no tenien cap foto.",
+      "descripcio": "Es fa de nosaltres: cal comprimir-les (≤1.600 px, ≤400 KB), assignar-les per número i regenerar data/imatges_dims.json."
+    },
     {
       "id": "r8-anys-xifres",
       "ref": "PR1 · R8",
