@@ -1,8 +1,8 @@
-# Informe — adreces dins del camp descripcio (2026-10-13)
+# Informe — adreces dins del camp descripcio (2026-10-23)
 
 **B3** del correu de Xavi (9/10). Deteccio automatica, **sense modificar cap fitxa**. Generat per scripts/normalitza-adreces.py.
 
-**Candidats:** 85 · **nets:** 36 (patchables: 36) · **manuals:** 49
+**Candidats:** 85 · **nets:** 37 (patchables: 37) · **manuals:** 48
 
 Patch generat a .ai/patch-adreces-descripcio.diff (no aplicat).
 
@@ -46,6 +46,7 @@ Patch generat a .ai/patch-adreces-descripcio.diff (no aplicat).
 | 34 | masia-mas-guinardo | Pl. Salvador Riera, 2-5 | Pl. Salvador Riera, 2-5 Masia del segle XV . A finals del segle XIX s’hi fa una reforma amb estètica modernista. Actualment és el Casal d’Entitats Mas Guinardó. Tipologia | Masia del segle XV . A finals del segle XIX s’hi fa una reforma amb estètica modernista. Actualment és el Casal d’Entitats Mas Guinardó. Tipologia original irreconeixible |
 | 35 | masia-villa-florida | Muntaner, 540-548 | Muntaner, 540-548 Edificació original de, probablement, el segle XVIII . Una reforma de principis del segle XX li dona l’aspecte actual. Avui dia acull el Centre Cívic Vi | Edificació original de, probablement, el segle XVIII . Una reforma de principis del segle XX li dona l’aspecte actual. Avui dia acull el Centre Cívic Vil·la Florida. |
 | 36 | masia-villa-joana | Ctra. de l'Església, 104 (Vallvidrera) | Ctra. de l’Església, 104 (Vallvidrera) Antic mas, probablement del segle XVIII , transformat en casa d’estiueig al segle XIX . Residència del poeta Jacint Verdaguer fins  | Antic mas, probablement del segle XVIII , transformat en casa d’estiueig al segle XIX . Residència del poeta Jacint Verdaguer fins a la seva mort, el 1902. Actualment acu |
+| 37 | reforma-i-ampliacio-del-museu-picasso | Montcada, 15-23 | Montcada, 15-23 Projecte: Garcés-Sòria. 1987 Reforma i ampliació: Jordi Garcés. 2003 Reforma i ampliació: Garcés-de Seta-Bonet. 2013 | Projecte: Garcés-Sòria. 1987 Reforma i ampliació: Jordi Garcés. 2003 Reforma i ampliació: Garcés-de Seta-Bonet. 2013 |
 
 ## Revisio manual
 
@@ -93,10 +94,9 @@ Patch generat a .ai/patch-adreces-descripcio.diff (no aplicat).
 | 40 | masia-torre-del-rellotge | Nom, número | Pl. Ibèria, 4 | Pl. Ibèria, 4 / Pl. Bonet i Muixí, 3 Masia del segle XIV . Havia acollit l’Arxiu Històric de Sants. Ara depèn del Centre Cívic Cotxeres de Sants. També coneguda com a Cal | manual: despres de l'adreca hi ha mes adreces o simbols |
 | 41 | masia-torre-llobeta | Nom, número | Santa Fe, 2 | Santa Fe, 2 / Pl. Torre Llobeta / Pg. Maragall, 222 bis També coneguda com a Can Basté de les Parets i Mas Montaner Mas de, possiblement, el segle XV . S’hi fan reformes  | manual: despres de l'adreca hi ha mes adreces o simbols |
 | 42 | parc-del-clot | Etiqueta Adreça: | — | El Clot Projecte: Daniel Freixes i Vicente Miranda. 1986 Premi FAD Arquitectura 1986 (Opinió) | manual: la fitxa no te adreca; cal marcar on acaba |
-| 43 | reforma-i-ampliacio-del-museu-picasso | Etiqueta Adreça: | — | Montcada, 15-23 Projecte: Garcés-Sòria. 1987 Reforma i ampliació: Jordi Garcés. 2003 Reforma i ampliació: Garcés-de Seta-Bonet. 2013 | manual: la fitxa no te adreca; cal marcar on acaba |
-| 44 | reforma-i-millora-de-les-places-de-gracia | Etiqueta Adreça: | — | Vila de Gràcia. Places Diamant, Raspall, Sol, Trilla i Virreina Projecte: Bach-Mora. 1985 | manual: la fitxa no te adreca; cal marcar on acaba |
-| 45 | torre-de-sant-joan | Nom, número | C. de Sant Joan de Malta, 44 | Sant Joan de Malta, 44 | manual: el text no comenca exactament per l'adreca guardada |
-| 46 | torre-de-santa-caterina | Nom, número | C. de Panamà, 21-25 | Panamà, 21-25 Construïda a l’edat mitjana com a propietat de l’Església. S’hi fan reformes als segles XVII i XVIII . Actualment té un ús residencial. Tipologia original i | manual: el text no comenca exactament per l'adreca guardada |
-| 47 | torre-rodona | Nom, número | C. del Dr. Salvador Cardenal, 7 | Dr. Salvador Cardenal, 7 Torre de fortificació del segle XI . S’hi fa una reforma integral al segle XV i una altra al segle XVIII que li dona l’aspecte actual. Avui dia a | manual: el text no comenca exactament per l'adreca guardada |
-| 48 | torre-velez | Nom, número | Av. de la Mare de Déu de Montserrat, 86-98 | Av. Mare de Déu de Montserrat, 86-98 | manual: el text no comenca exactament per l'adreca guardada |
-| 49 | velodrom-municipal-dhorta | Etiqueta Adreça: | — | Pg. Vall d’Hebron, 185 Projecte: Esteve Bonell i Francesc Rius. 1984 Premi FAD Arquitectura Premi FAD Arquitectura (Opinió) | manual: la fitxa no te adreca; cal marcar on acaba |
+| 43 | reforma-i-millora-de-les-places-de-gracia | Etiqueta Adreça: | — | Vila de Gràcia. Places Diamant, Raspall, Sol, Trilla i Virreina Projecte: Bach-Mora. 1985 | manual: la fitxa no te adreca; cal marcar on acaba |
+| 44 | torre-de-sant-joan | Nom, número | C. de Sant Joan de Malta, 44 | Sant Joan de Malta, 44 | manual: el text no comenca exactament per l'adreca guardada |
+| 45 | torre-de-santa-caterina | Nom, número | C. de Panamà, 21-25 | Panamà, 21-25 Construïda a l’edat mitjana com a propietat de l’Església. S’hi fan reformes als segles XVII i XVIII . Actualment té un ús residencial. Tipologia original i | manual: el text no comenca exactament per l'adreca guardada |
+| 46 | torre-rodona | Nom, número | C. del Dr. Salvador Cardenal, 7 | Dr. Salvador Cardenal, 7 Torre de fortificació del segle XI . S’hi fa una reforma integral al segle XV i una altra al segle XVIII que li dona l’aspecte actual. Avui dia a | manual: el text no comenca exactament per l'adreca guardada |
+| 47 | torre-velez | Nom, número | Av. de la Mare de Déu de Montserrat, 86-98 | Av. Mare de Déu de Montserrat, 86-98 | manual: el text no comenca exactament per l'adreca guardada |
+| 48 | velodrom-municipal-dhorta | Etiqueta Adreça: | — | Pg. Vall d’Hebron, 185 Projecte: Esteve Bonell i Francesc Rius. 1984 Premi FAD Arquitectura Premi FAD Arquitectura (Opinió) | manual: la fitxa no te adreca; cal marcar on acaba |

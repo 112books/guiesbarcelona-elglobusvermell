@@ -1,9 +1,7 @@
 ---
 aliases: ["/masies/masia-can-carabassa/"]
 adreca: Peris i Mencheta, 24-46
-descripcio: Peris i Mencheta, 24-46 També coneguda com a Can Llobeta La masia originària
-  sembla que datava del segle XVII . Una reforma del segle XIX li dona l’aspecte neoclàssic
-  actual. Avui dia té un ús escolar. Tipologia original irreconeixible.
+descripcio: 'També coneguda com a Can Llobeta La masia originària sembla que datava del segle XVII . Una reforma del segle XIX li dona l’aspecte neoclàssic actual. Avui dia té un ús escolar. Tipologia original irreconeixible.'
 any: 's. XVII'
 districte: "Gràcia"
 draft: false

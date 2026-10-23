@@ -1,8 +1,7 @@
 ---
 aliases: ["/masies/masia-can-llupia/"]
 adreca: Parc del Laberint d'Horta
-descripcio: Parc del Laberint d’Horta També conegut com a Torre Sobirana o Palau del
-  Marquès d’Alfarràs
+descripcio: 'També conegut com a Torre Sobirana o Palau del Marquès d’Alfarràs'
 districte: "Horta-Guinardó"
 draft: false
 lat: 41.4392573

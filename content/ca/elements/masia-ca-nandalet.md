@@ -1,9 +1,7 @@
 ---
 aliases: ["/masies/masia-ca-nandalet/"]
 adreca: Ptge. Andalet, 11
-descripcio: Ptge. Andalet, 11 També coneguda com a Cal Xinxó Mas la primera referència
-  del qual és del segle XVII . Ha patit múltiples reformes i agregacions. Actualment
-  és una seu de Barcelona Activa. Tipologia original irreconeixible.
+descripcio: 'També coneguda com a Cal Xinxó Mas la primera referència del qual és del segle XVII . Ha patit múltiples reformes i agregacions. Actualment és una seu de Barcelona Activa. Tipologia original irreconeixible.'
 any: 's. XVII'
 districte: "Horta-Guinardó"
 draft: false

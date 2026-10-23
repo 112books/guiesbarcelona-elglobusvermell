@@ -847,6 +847,30 @@
   ],
   "canvis": [
     {
+      "id": "b3-adreces",
+      "ref": "B3 · S7",
+      "estat": "fet",
+      "titol": "Fitxes: fora l'adreça repetida a l'inici del text",
+      "cita": "Voleu que apliquem els 36 casos nets? No s'aplica res sense el vostre vist-i-plau.",
+      "resultat": "Fet (23/10): a la fitxa, l'adreça ja surt en un camp propi, però moltes descripcions la tornaven a començar («C. Comte d'Urgell, 145-147 ...»). Hem tret aquesta repetició de 37 fitxes, només als casos inequívocs: quan el text comença exactament per l'adreça guardada i continua amb una frase (no amb una segona adreça ni amb guions o barres). No s'ha esborrat cap text. Queden 48 fitxes amb l'adreça barrejada de maneres més complicades (dues o tres adreces seguides, descripcions on només hi ha l'adreça, o fitxes sense camp d'adreça): les farem a mà.",
+      "enllacos": [
+        {
+          "label": "Exemple de fitxa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-ca-la-figuera/"
+        },
+        {
+          "label": "Un altre exemple",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-la-fraternitat/"
+        }
+      ],
+      "resposta": {
+        "data": "2026-10-21",
+        "opcio_xavi": "",
+        "text": "Endavant!",
+        "nostra_accio": "Aplicat (23/10)."
+      }
+    },
+    {
       "id": "tipus-individual-43",
       "ref": "Nou · 23/10",
       "estat": "fet",

@@ -1,8 +1,7 @@
 ---
 aliases: ["/masies/masia-ca-nartes/"]
 adreca: Pere d’Artés, 8
-descripcio: Pere d’Artés, 8 Mas de finals del segle XIV . Encara conserva elements
-  originaris medievals. Actualment és de propietat privada.
+descripcio: 'Mas de finals del segle XIV . Encara conserva elements originaris medievals. Actualment és de propietat privada.'
 any: 's. XIV'
 districte: "Nou Barris"
 draft: false

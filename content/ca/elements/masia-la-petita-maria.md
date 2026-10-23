@@ -1,8 +1,7 @@
 ---
 aliases: ["/masies/masia-la-petita-maria/"]
 adreca: López Catalán, 4-6
-descripcio: López Catalán, 4-6 Masia del segle XVIII de la qual només queda la façana.
-  Actualment, sense ús.
+descripcio: 'Masia del segle XVIII de la qual només queda la façana. Actualment, sense ús.'
 any: 's. XVIII'
 districte: "Sants-Montjuïc"
 draft: false

@@ -1,8 +1,7 @@
 ---
 aliases: ["/masies/masia-ca-la-figuera/"]
 adreca: Roine, 12-16
-descripcio: Roine, 12-16 Mas construït entre els segles XVIII i XIX . Actualment està
-  dividit en tres cases.
+descripcio: 'Mas construït entre els segles XVIII i XIX . Actualment està dividit en tres cases.'
 any: 's. XVIII'
 districte: "Sant Andreu"
 draft: false

@@ -1,9 +1,7 @@
 ---
 aliases: ["/masies/masia-masoveria-de-can-safont/"]
 adreca: Natzaret, 107
-descripcio: Natzaret, 107 Edificació originària del segle XIII , que pateix una gran
-  reforma al segle XVIII . Actualment és propietat d’una institució religiosa. Tipologia
-  original irreconeixible.
+descripcio: 'Edificació originària del segle XIII , que pateix una gran reforma al segle XVIII . Actualment és propietat d’una institució religiosa. Tipologia original irreconeixible.'
 any: 's. XIII'
 districte: "Horta-Guinardó"
 draft: false

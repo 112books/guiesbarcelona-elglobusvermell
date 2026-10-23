@@ -1,8 +1,7 @@
 ---
 aliases: ["/masies/masia-can-tusquets/"]
 adreca: Travessera de Dalt, 45-61
-descripcio: Travessera de Dalt, 45-61 Masia de 1793 i amb activitat agrícola fins
-  a 1930. Restaurada el 1992, actualment és un centre de menors tutelats.
+descripcio: 'Masia de 1793 i amb activitat agrícola fins a 1930. Restaurada el 1992, actualment és un centre de menors tutelats.'
 districte: "Gràcia"
 draft: false
 lat: 41.4098196

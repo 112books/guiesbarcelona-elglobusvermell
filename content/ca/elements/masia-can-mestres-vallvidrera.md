@@ -1,7 +1,6 @@
 ---
 adreca: Av. Vallvidrera, 25-27
-descripcio: Av. Vallvidrera, 25-27 Mas del segle XVI reformat al segle XVIII . Actualment
-  acull el CEI International Affairs, vinculat a la Universitat de Barcelona.
+descripcio: 'Mas del segle XVI reformat al segle XVIII . Actualment acull el CEI International Affairs, vinculat a la Universitat de Barcelona.'
 any: 's. XVI'
 districte: "Sarrià-Sant Gervasi"
 draft: false

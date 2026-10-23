@@ -1,9 +1,7 @@
 ---
 aliases: ["/masies/masia-villa-florida/"]
 adreca: Muntaner, 540-548
-descripcio: Muntaner, 540-548 Edificació original de, probablement, el segle XVIII
-  . Una reforma de principis del segle XX li dona l’aspecte actual. Avui dia acull
-  el Centre Cívic Vil·la Florida.
+descripcio: 'Edificació original de, probablement, el segle XVIII . Una reforma de principis del segle XX li dona l’aspecte actual. Avui dia acull el Centre Cívic Vil·la Florida.'
 any: 's. XVIII'
 districte: "Sarrià-Sant Gervasi"
 draft: false
