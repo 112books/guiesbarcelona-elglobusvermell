@@ -1,6 +1,9 @@
 ---
-title: Peris+Toral
+title: Peris+Toral Arquitectes
+cognom: ''
 tipus: estudi
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/peristoral-arquitectes"
-link_web: "https://peristoral.com/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/peristoral-arquitectes
+link_wikipedia: ''
+link_web: https://peristoral.com/
 ---
