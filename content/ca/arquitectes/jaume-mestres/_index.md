@@ -1,6 +1,6 @@
 ---
-title: Jaume Mestres i Foassa
-cognom: Mestres i Foassa
+title: Jaume Mestres i Fossas
+cognom: Mestres i Fossas
 tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/jaume-mestres-i-fossas
