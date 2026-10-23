@@ -1,4 +1,9 @@
 ---
 title: Pelayo Martínez Paricio
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/pelayo-martinez-paricio"
+cognom: Martínez Paricio
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/pelayo-martinez-paricio
+link_wikipedia: ''
+link_web: ''
 ---
