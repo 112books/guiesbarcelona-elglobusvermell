@@ -1,5 +1,9 @@
 ---
-title: Celobert
+title: celobert
+cognom: ''
 tipus: estudi
-link_web: "https://www.celobert.coop/"
+descripcio: ''
+link_coac: ''
+link_wikipedia: ''
+link_web: https://www.celobert.coop/
 ---
