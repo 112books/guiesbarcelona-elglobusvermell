@@ -1,5 +1,9 @@
 ---
-title: Carles Martínez
+title: Carles Martínez i Sánchez
+cognom: Martínez i Sánchez
 tipus: individual
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/carles-martinez-i-sanchez"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/carles-martinez-i-sanchez
+link_wikipedia: ''
+link_web: ''
 ---
