@@ -1,15 +1,18 @@
 # Verificació diària dels números del web
 
-**Execució:** 22/10/2026 12:11 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 23/10/2026 11:53 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
-## Resultat: ✅ tot coincideix
+## Resultat: ⚠️ ALERTA
+
+- **No s'ha pogut llegir la portada en línia.**
+- **Error llegint el web: no s'han trobat les 4 xifres (trobades: 0)**
 
 | Xifra de portada | Publicat | Segons el repo | Estat |
 |---|---|---|---|
-| Edificis documentats | 656 | 656 | ✓ |
-| Guies de camp | 13 | 13 | ✓ |
-| Arquitectes i estudis | 289 | 289 | ✓ |
-| Anys d'arquitectura | 1928–2026 | 1928–2026 | ✓ |
+| Edificis documentats | — | 659 | ⚠️ |
+| Guies de camp | — | 13 | ⚠️ |
+| Arquitectes i estudis | — | 290 | ⚠️ |
+| Anys d'arquitectura | — | 1928–2026 | ⚠️ |
 
 ## Què vol dir cada xifra
 
@@ -20,20 +23,14 @@
 
 ## Referències del contingut
 
-- Fitxes d'element: **657** (amb publicacions: 657; esborranys: 0)
-- Amb coordenades: **656** — sense: 1 (flors-de-la-rambla.md)
-- Noms d'arquitecte a les fitxes: **289** · pàgines de publicació creades: 13
-
-## Canvis respecte l'última verificació
-
-- Arquitectes: la xifra publicada ha canviat (273 → 289) — confirmar que el canvi és intencionat.
-- Arquitectes: el contingut del repo ha canviat (273 → 289) des d'ahir.
+- Fitxes d'element: **660** (amb publicacions: 660; esborranys: 0)
+- Amb coordenades: **659** — sense: 1 (flors-de-la-rambla.md)
+- Noms d'arquitecte a les fitxes: **290** · pàgines de publicació creades: 13
 
 ## Històric (últims 14 dies)
 
 | Data | Edificis | Guies | Arquitectes | Anys |
 |---|---|---|---|---|
-| 2026-10-09 | 659 | 13 | 274 | 1928–2026 |
 | 2026-10-10 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-11 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-12 | 656 | 13 | 273 | 1928–2026 |
@@ -47,6 +44,7 @@
 | 2026-10-20 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-21 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-22 | 656 | 13 | 289 | 1928–2026 |
+| 2026-10-23 | — | — | — | — |
 
 ---
 
