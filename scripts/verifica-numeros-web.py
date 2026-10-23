@@ -135,19 +135,27 @@ def comptes_repo():
 
 
 def numeros_publicats(url):
-    """Les 4 xifres tal com surten a la portada en línia."""
+    """Les 4 xifres tal com surten a /presentacio/ en línia.
+
+    Ordre a la pàgina: guies, elements documentats, arquitectes, anys.
+    Hugo --minify treu cometes dels atributs, per tant el regex no les exigeix.
+    """
+    if not url.endswith("/"):
+        url += "/"
+    url_pres = url + "presentacio/"
     req = urllib.request.Request(
-        url, headers={"User-Agent": "verificacio-numeros-guiesbcn/1.0"})
+        url_pres, headers={"User-Agent": "verificacio-numeros-guiesbcn/1.0"})
     html = urllib.request.urlopen(req, timeout=30).read().decode(
         "utf-8", "replace")
-    nums = re.findall(r"pa-stat-num[^>]*>\s*([^<]+?)\s*<", html)
+    nums = re.findall(r'class="?stat-number"?[^>]*>\s*([^<]+?)\s*<', html)
     if len(nums) < 4:
         return None, f"no s'han trobat les 4 xifres (trobades: {len(nums)})"
     if not all(re.fullmatch(r"\d+", n) for n in nums[:3]):
         return None, f"valors inesperats: {nums[:4]}"
     if not re.fullmatch(r"\d{4}[–-]\d{4}", nums[3]):
         return None, f"rang d'anys inesperat: {nums[3]}"
-    return {"edificis": int(nums[0]), "guies": int(nums[1]),
+    # ordre: guies[0], elements[1], arquitectes[2], anys[3]
+    return {"guies": int(nums[0]), "edificis": int(nums[1]),
             "arquitectes": int(nums[2]),
             "anys": nums[3].replace("-", "–")}, None
 
@@ -189,8 +197,8 @@ def compara(pub, repo, ahir):
     if ahir:
         for clau, nom in (("edificis", "Edificis"), ("guies", "Guies"),
                           ("arquitectes", "Arquitectes"), ("anys", "Anys")):
-            pub_ahir = ahir.get("publicat", {}).get(clau)
-            repo_ahir = ahir.get("repo", {}).get(clau)
+            pub_ahir = (ahir.get("publicat") or {}).get(clau)
+            repo_ahir = (ahir.get("repo") or {}).get(clau)
             if pub_ahir is not None and pub_ahir != pub[clau]:
                 notes.append(f"{nom}: la xifra publicada ha canviat "
                              f"({pub_ahir} → {pub[clau]}) — confirmar que el "
