@@ -1,4 +1,9 @@
 ---
 title: Manuel de Solà-Morales i Rubió
-link_wikipedia: "https://ca.wikipedia.org/wiki/Manuel_de_Sol%C3%A0-Morales_i_Rubi%C3%B3"
+cognom: Solà-Morales i Rubió
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/manuel-de-solamorales-i-rubio
+link_wikipedia: https://ca.wikipedia.org/wiki/Manuel_de_Sol%C3%A0-Morales_i_Rubi%C3%B3
+link_web: ''
 ---
