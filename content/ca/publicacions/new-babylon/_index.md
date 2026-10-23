@@ -1,8 +1,8 @@
 ---
-title: "New Babylon Barcelona"
+title: New Babylon Barcelona
+edicio: '2026'
 description: "New Babylon Barcelona: plànol-guia d'art i urbanisme. En preparació."
-foto: "/img/publicacions/new-babylon.jpg"
-edicio: "2026 (pendent)"
+foto: /img/publicacions/new-babylon.jpg
 ---
 
 ## Introducció
