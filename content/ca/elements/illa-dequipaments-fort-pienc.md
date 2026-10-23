@@ -12,6 +12,7 @@ lat: 41.3953837
 long: 2.1824934
 publicacions:
 - 76-08
+- biblioteques
 - mercats
 temes_transversals:
 - nomenclator-femeni

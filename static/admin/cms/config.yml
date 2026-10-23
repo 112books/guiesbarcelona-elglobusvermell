@@ -220,9 +220,14 @@ collections:
 
       - label: Arquitectes
         name: arquitectes
-        widget: list
+        widget: relation
+        collection: arquitectes
+        search_fields: ["title"]
+        value_field: title
+        display_fields: ["title"]
+        multiple: true
         required: false
-        hint: "Un nom per línia"
+        hint: "Escriu per filtrar els arquitectes existents"
 
       - label: Tipologia
         name: tipologia
