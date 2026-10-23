@@ -1,104 +1,109 @@
-# Estat de la feina — 23/10/2026 (punt i seguit per a Claude)
+# Estat de la feina — 23/10/2026 (fi de jornada)
 
-Document de traspàs: què està desplegat, què queda pendent, què està trencat i com continuar.
-Última actualització: 23/10/2026, ~13:30 (Europe/Madrid).
+Document de traspàs: què està desplegat, què queda pendent, què està trencat i com
+continuar. Substitueix la versió de mig matí del mateix dia (aquest document n'és
+l'actualització).
+
+Última actualització: 23/10/2026, 24:00 (Europe/Madrid).
 
 ## 0. Estat del repositori
 
 | Element | Valor |
 |---|---|
-| Branca local | `main` |
-| `origin/main` | `06f750cd` (Xavi segueix editant des del CMS) |
-| Commit local **NO pujat** | `c78022ae` — neteja de `tipus: individual` reintroduïts + versió de memòria cau del CMS |
-| Últim commit desplegat | `a1933f0d` (ja dins d'origin/main) |
-| CI del commit desplegat | Deploy → GitHub Pages: **verd** · Accessibilitat (pa11y-ci): **verd** |
-| CI `Verificació diària dels números` | **vermell** — causa i solució al punt 4 |
+| Branca local | `main` = `origin/main` (cap commit pendent de pujar) |
+| Últim commit | `acf25730` — docs(mails): tres esborranys per dilluns |
+| CI de l'últim push | Deploy → GitHub Pages: **verd** · Accessibilitat (pa11y-ci): **verd** |
+| Build local | `hugo --minify --environment staging` net · 1.299 pàgines · 681 àlies |
+| Fora de git (mai afegir) | `Fotografies de les biblioteques/` (224 MB), `originals/` |
 
-⚠️ Abans de tocar res: `git pull --rebase origin main`. Xavi està editant arquitectes en directe i cada edició seva pot tornar a posar `tipus: individual` (vegeu punt 5).
+Xavi ha estat editant arquitectes en directe tota la tarda (centenars de commits
+«Update Arquitecte»). Cada cop que es reprèn: `git pull --rebase origin main`,
+comprovar `grep -rl '^tipus: individual' content/ca/arquitectes` i tornar a pujar.
 
-## 1. Fet i desplegat (commit `a1933f0d`)
+## 1. Fet al matí (`ca49d26b`, `e0f00bac`, `a1933f0d`)
 
-### 1.1 Etiqueta «Individual» fora (petició de Xavi, 23/10)
-- Treta la línia `tipus: individual` de **totes** les fitxes d'arquitecte (eren 150; el mateix dia Xavi n'havia canviat una a `artista`, així que al final 149).
-- `static/admin/cms/config.yml`: el camp «Tipus» torna a ser **opcional**, amb l'opció **«Cap (sense etiqueta)»** (`value: ""`) i sense «Individual» a la llista.
-- `themes/guiesbcn-elglobusvermell/layouts/arquitectes/terms.html`: l'etiqueta només es pinta per a `estudi` i `artista`.
-- Verificat al build de staging: **0** etiquetes «Individual», **47** «Estudi», **16** «Artista» (Xavi n'ha afegit un).
-- Resposta de Xavi al mail: «Perfecte! Que individual no aparegui. M'és igual si d'amagat segueix tenint l'etiqueta.»
+- Etiqueta «Individual» fora de totes les fitxes d'arquitecte; el camp «Tipus» del
+  CMS és opcional, amb l'opció «Cap (sense etiqueta)».
+- Tres fitxes de biblioteca noves creades — **revertides a la tarda** (vegeu §2).
+- 27 fotos de biblioteques aplicades (21 reemplaçades + 6 noves), amb
+  `fotos_addicionals` a Joan Miró (3) i Dipòsit de les Aigües (2).
 
-### 1.2 Tres fitxes de biblioteca noves (mail de Joan a Xavi, 23/10)
-- Creades `biblioteca-esquerra-de-leixample-agusti-centelles`, `biblioteca-fort-pienc-ana-maria-moix` i `biblioteca-camp-de-larpa-caterina-albert` (ítems 5, 6 i 39 del llistat nou de Xavi).
-- Tret `- biblioteques` de `edifici-collage-centre-cultural-teresa-pamies`, `illa-dequipaments-alchemika` i `illa-dequipaments-fort-pienc`, i traslladats els àlies `/biblioteques/...` a les fitxes noves. Motiu: eren el mateix edifici i sortien dues vegades al plànol (i dos fitxers amb el mateix àlies).
-- El plànol de Biblioteques queda amb **51 fitxes**.
-- Pendent de validar amb Xavi en la propera revisió (ell encara no ha vist aquests canvis publicats).
+## 2. Fet a la tarda
 
-### 1.3 Fotos de la carpeta de Xavi
-- 27 fotos aplicades (21 reemplaçades + 6 noves): Joan Miró (3, amb `fotos_addicionals`) i Dipòsit de les Aigües/UPF (2). La resta, una per biblioteca.
-- Comprimides abans de pujar-les a **≤1.600 px i ≤400 KB** (27 fitxers, 9,1 MB en total).
-- `data/imatges_dims.json` regenerat (428 imatges).
-- **Descoberta important**: abans d'això, 33 fitxers `static/img/elements/biblioteca-*.jpg` eren **la mateixa imatge** (la portada del plànol, md5 `d0e19177…`). Ara 13 ja tenen foto real; **20 encara mostren la portada del plànol** perquè no eren a la carpeta que va enviar Xavi.
+| Commit | Què |
+|---|---|
+| `ab45f18b` | `tipus: individual` fora de les **50 fitxes** que en quedaven (43 + 7 que Xavi va tornar a desar). `CMS_CACHE_VERSION` → `2026-10-23-3`. |
+| `71e7b575` | **B3**: adreça repetida fora de **37 descripcions** (només casos inequívocs). |
+| `fc501e3f` | **B2**: **75 fitxes**. Fora l'etiqueta «Categoria:» de 66 textos, `tipologia` omplerta a 64, autor i any separats en 11 intervencions, i la fila «Projecte» amagada quan duplica una intervenció (`single.html`). |
+| `531b7fbe` | Tauler: **7 preguntes noves** al Xavi + esborrany de correu (`.ai/PREGUNTES-XAVI-2026-10-23.md`). |
+| `43773642` | Fotos: dues orfes col·locades (Fort Pienc, Edifici Collage) i recuperada la de l'Edifici d'oficines Llull 122, que sortia trencada. |
+| `a16fa9ae` | Tauler: tretes de «pendent de fer» les tasques de B3 i B2 que ja eren als canvis. |
+| `acf25730` | Tres esborranys de correu per dilluns (`.ai/MAILS-PER-DILLUNS-2026-10-26.md`). |
 
-### 1.4 Tauler i registre
-- `static/admin/revisio/tasques.json`: entrada nova `etiqueta-individual` i `biblioteques-noves-3`; `fotos-multiples` i `fotos-biblioteques-on` passen a «fet»; decisió nova `biblioteques-llistat-55` (pendent).
-- `.ai/REGISTRE-CANVIS-FITXES.md`: entrades **#9** i **#10**.
+Detall complet, amb xifres i criteris, al `.ai/REGISTRE-CANVIS-FITXES.md`
+(entrades **#11 – #15**).
 
-## 2. Commit local `c78022ae` — NO pujat
+### Coses que han quedat arreglades de pas
 
-Contingut:
-- Neteja de `tipus: individual` **reintroduïts per Xavi** després del desplegament (21 fitxes en dues tandes: 13 + 8). El CMS del seu navegador encara anava amb la configuració antiga.
-- `static/admin/cms/index.html`: `CMS_CACHE_VERSION` pujat a `'2026-10-23-1'` per forçar la recàrrega del CMS als editors i aturar els reintroduïments.
-- `static/admin/revisio/tasques.json`: nota a l'`intro` («si el desplegable encara et surt amb "Individual", recarrega el CMS»).
+- **Cap fitxa amb una imatge trencada**: `edifici-doficines-llull-122` apuntava a un
+  fitxer que no era al disc.
+- Cap referència a imatges inexistents a la resta de fitxes (comprovat sobre les 658).
 
-Acció recomanada en reprendre: `git pull --rebase origin main`, comprovar que Xavi no hagi tornat a posar `tipus: individual` (`grep -rl '^tipus: individual' content/ca/arquitectes`), tornar a netejar si cal, i **pujar**.
+## 3. Risc actiu: el CMS reintrodueix `tipus: individual`
 
-## 3. Resposta a Xavi (esborrany, pendent d'enviar)
+El select del CMS **conserva el valor que troba al fitxer** encara que ja no sigui a
+la llista d'opcions. Per això, mentre el navegador de l'editor tingui la versió
+antiga en memòria cau, cada desada el torna a escriure. S'ha netejat dues vegades i
+s'ha pujat `CMS_CACHE_VERSION` a `2026-10-23-3` perquè l'editor es netegi sol en
+obrir-se. És **invisible al web** (les plantilles només pinten «Estudi» i «Artista»),
+però embruta les dades.
 
-> Hola, Xavi!
->
-> Respostes curtes:
->
-> **Fotos múltiples** — Tenies raó: a staging encara no es veien perquè les fotos noves encara no estaven publicades. Ja hi són: la Biblioteca Joan Miró té 3 fotos (carrusel amb fletxes i punts) i el Dipòsit de les Aigües / UPF, 2. Refresca la pàgina i les veuràs.
->
-> **Pes i resolució** — Cap problema: en publicar, el sistema les redueix a un màxim de 1.600 px d'amplada i 400 KB. Les originals de 2–9 MB queden ajustades totes soles; pots enviar-les com les tens.
->
-> **Etiqueta «Individual»** — Fet: ja no surt enlloc. L'hem treta de les fitxes i, a l'editor, el camp «Tipus» torna a tenir l'opció «Cap (sense etiqueta)» (no és obligatori). Només es mostren «Estudi» i «Artista». Si el desplegable encara et surt amb «Individual», recarrega la pàgina del CMS.
->
-> **Biblioteques noves** — Hem creat les tres fitxes que ens deies (Esquerra de l'Eixample – Agustí Centelles, Fort Pienc – Ana María Moix i Camp de l'Arpa – Caterina Albert) amb les teves fotos, i les hem tretes dels equipaments on sortien barrejades perquè no surtin dues vegades al plànol.
->
-> Una cosa: el llistat nou té 55 ítems i al plànol n'hi ha 51. Falten les 5 de la «Xarxa de Biblioteques Socials» (Centre de Documentació de l'Ateneu Enciclopèdic Popular, Biblioteca Popular Josep Pons, Centre de Documentació Mercè Grenzner, Fundació Salvador Seguí i Biblioteca Nova Babilònia). Les creem? I la fitxa «Biblioteca Vall d'Hebron» (futura biblioteca) no surt al llistat: la traiem del plànol o la deixem?
->
-> Gràcies!
+Comprovació ràpida:
 
-## 4. Verificació diària dels números — VERMELL (preexistent, no causat per aquesta feina)
-
-Estat: el workflow `Verificació diària dels números del web` falla des del 23/10 (l'última execució bona és del 22/10 a les 12:11 UTC).
-
-**Causa**: el 22/10 (commit `46f142b6`) es va redissenyar la portada **sense xifres**. El script `scripts/verifica-numeros-web.py` encara llegeix les 4 xifres de la portada amb la marca `pa-stat-num`, que ja no existeix. Les xifres viuen ara a **`/presentacio/`** (`presentacio/list.html` + `partials/xifres-projecte.html`).
-
-**Solució proposada** (provada a mitges, el canvi es va revertir per no deixar-ho a mitges):
-1. Fer que `numeros_publicats()` llegeixi `urljoin(LIVE_URL, "presentacio/")`.
-2. **Atenció amb el minify**: Hugo `--minify` treu les cometes; al web surt `<div class=stat-number data-target=659>659</div>`. El regex ha de ser `r'class="?stat-number"?[^>]*>\s*([^<]+?)\s*<'` (o similar), no `class="stat-number"`.
-3. **Ordre a la pàgina**: guies, elements documentats, arquitectes, anys (abans era edificis, guies, arquitectes, anys).
-4. Segona discrepància detectada: la pàgina publica **292** arquitectes i el repo en compta **290** (noms distints a les fitxes). Sospita: termes de la taxonomia duplicats (a `public/arquitectes/` hi ha 292 directoris, i el llistat en pinta 290). Cal decidir si la xifra publicada ha de comptar aquests duplicats o si s'han de fusionar els termes. No s'ha tocat res.
-5. El workflow només té `on: schedule`; no té `workflow_dispatch`. Si es vol provar sense esperar l'endemà, afegir-hi `workflow_dispatch:`.
-
-## 5. Risc actiu: Xavi reintrodueix `tipus: individual`
-
-Mentre Xavi edita amb la memòria cau antiga del CMS, cada desada torna a escriure `tipus: individual` a la fitxa. És **invisible al web** (la plantilla només pinta Estudi/Artista), però embruta les dades. El bump de `CMS_CACHE_VERSION` del commit `c78022ae` ho hauria d'aturar quan es pugi. Mentrestant, comprovar-ho amb:
 ```
 grep -rl '^tipus: individual' content/ca/arquitectes
 ```
 
-## 6. Altres punts oberts (no bloquejants)
+## 4. Verificació diària dels números — RESOLT
 
-- **20 biblioteques** encara ensenyen la portada del plànol com a foto (no eren a la carpeta de Xavi). Llista per calcular amb el md5 `d0e19177b3a1eccd7ef9a3f7f8a3fd2c`.
-- **5 biblioteques sense cap foto**: Bon Pastor – Josefina Castellví, Canyelles – Maria Àngels Rivas, Ateneu Barcelonès, Les Roquetes – Rafa Juncadella, Vallcarca i els Penitents – Maria Antonieta Cot. (I `biblioteca-vall-d-hebron`, futura biblioteca, tampoc no en té.)
-- **Llistat de 55 ítems vs 51 fitxes**: 5 de la xarxa social sense fitxa; `Biblioteca Vall d'Hebron` és una fitxa que no surt al llistat. Decisió pendent (entrada `biblioteques-llistat-55` del tauler).
-- La carpeta `Fotografies de les biblioteques/` (224 MB) és **fora de git** (untracked). No s'ha d'afegir mai.
+El bug del 22/10 (el script llegia les xifres de la portada, que ja no hi són) està
+arreglat al commit `1469cb45`: apunta a `/presentacio/` i el regex funciona amb el
+HTML minificat. L'execució manual del 23/10 a les 12:46 UTC va sortir **tota verda**
+(659 / 13 / 292 / 1928–2026). Pendent només de veure el pròxim run programat
+(06:30 UTC) per donar-ho per tancat del tot.
+
+## 5. Coses obertes (cap dins del repositori)
+
+- **Tauler de revisió**: 29 decisions pendents (7 de noves avui), 7 tasques nostres
+  i **35 canvis** que esperen el «Verificat i OK» de Xavi.
+  `https://112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio/`
+- **Fotos**: 26 fitxes del plànol de Biblioteques sense foto pròpia (20 amb la
+  portada del plànol, 6 sense cap imatge). La llista és a la decisió
+  `fotos-biblioteques-on` i al punt 8 de l'esborrany de correu.
+- **Desplegament a producció**: informe a `.ai/informe-desplegament-produccio-2026-10.md`
+  (ja versionat). Falten les credencials de Jorge i decidir escenari (GitHub Pages +
+  formulari al servidor vell, o tot al servidor). Tres correus preparats a
+  `.ai/MAILS-PER-DILLUNS-2026-10-26.md`.
+- **B2/B3 pendents de dades**: 45 casos de B2 per revisar a ull, 46 de text tallat a
+  la migració (calen les dades del WordPress) i 48 adreces (depenen de la decisió
+  `b3-adreces-restants`).
+
+## 6. Avisos per a la propera sessió
+
+- **No afegir mai** `Fotografies de les biblioteques/` al repositori (224 MB de fotos
+  rebudes de Xavi). `originals/` ja és al `.gitignore`.
+- `scripts/redimensiona-imatges.py` passejat per `static/img/elements` toca **149
+  imatges** que passen de 400 KB (estalvi ~35 MB, només recomprimir). Si es fa,
+  ha de ser en un commit propi i amb l'OK de Joan: no barrejar-ho amb contingut.
+- El build no falla si una fitxa apunta a una imatge inexistent: la pàgina surt amb
+  la imatge trencada. Val la pena comprovar-ho abans de tancar qualsevol tanda:
+  `grep -rh -o '/img/elements/[a-z0-9.-]*\.jpg' content/ca/elements/*.md | sort -u | while read p; do [ -f "static$p" ] || echo "FALTA: $p"; done`
 
 ## 7. Ordre suggerit per continuar
 
-1. `git pull --rebase origin main`.
-2. Netejar `tipus: individual` si n'hi ha; `hugo --minify --environment staging` i comprovar que no surt cap `arquitecte-tipus--individual` a `public/arquitectes/index.html`.
-3. Pujar `c78022ae` (o el que en resulti) i comprovar amb `gh run list` que Deploy i Accessibilitat estan verds.
-4. Arreglar `scripts/verifica-numeros-web.py` segons el punt 4 i validar amb `LIVE_URL=… python3 scripts/verifica-numeros-web.py` (revertir `.ai/VERIFICACIO-NUMEROS.md` i `.ai/numeros-web-history.json` després de provar-ho en local, perquè els actualitza el CI).
-5. Enviar la resposta a Xavi (punt 3) i resoldre amb ell el tema dels 55 ítems.
+1. `git pull --rebase origin main` i netejar `tipus: individual` si n'hi ha; pujar.
+2. Enviar els correus 1 i 2 de `.ai/MAILS-PER-DILLUNS-2026-10-26.md` (Xavi) i, quan
+   contesti, el 3 (Jorge).
+3. Els 45 casos de B2 (feina nostra, es nota al web, no depèn de ningú).
+4. Quan Xavi respongui: aplicar les decisions del tauler (les 7 noves primer) i
+   tancar la llista de fotos de biblioteques.

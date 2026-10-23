@@ -33,6 +33,10 @@ guia-globus-vermell/
 originals/
 static/img/elements/Fotos-web-app/
 
+# Fotos rebudes del client (carpeta del 23/10 — 224 MB). Mai a git: es processen
+# i les versions comprimides van a static/img/elements.
+Fotografies de les biblioteques/
+
 # Registre d'hores (time-tracker) — dades internes, no públiques
 .taques/
 
