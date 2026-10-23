@@ -1,7 +1,6 @@
 ---
 title: Enric Miralles i Moya
 cognom: Miralles i Moya
-tipus: individual
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/enric-miralles-i-moya
 link_wikipedia: https://ca.wikipedia.org/wiki/Enric_Miralles_i_Moya

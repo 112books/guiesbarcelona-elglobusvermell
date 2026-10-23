@@ -1,6 +1,6 @@
 {
   "actualitzat": "2026-10-23 (matí)",
-  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc.",
+  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc. Si el desplegable encara et surt amb «Individual», recarrega la pàgina del CMS (o prem «Neteja la memòria cau»): amb la versió antiga es tornava a desar.",
   "decisions": [
     {
       "id": "cercador-general",
