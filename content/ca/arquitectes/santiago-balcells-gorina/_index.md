@@ -1,5 +1,9 @@
 ---
 title: Santiago Balcells Gorina
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/santiago-balcells-gorina"
-link_wikipedia: "https://ca.wikipedia.org/wiki/Santiago_Balcells_i_Gorina"
+cognom: Balcells Gorina
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/santiago-balcells-gorina
+link_wikipedia: https://ca.wikipedia.org/wiki/Santiago_Balcells_i_Gorina
+link_web: ''
 ---
