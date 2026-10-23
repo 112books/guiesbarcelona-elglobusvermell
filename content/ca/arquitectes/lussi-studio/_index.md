@@ -1,6 +1,9 @@
 ---
 title: Lussi Studio
+cognom: ''
 tipus: estudi
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/studio-per"
-link_web: "https://www.lussistudio.com/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/lussi--partner-ag
+link_wikipedia: ''
+link_web: https://www.lussistudio.com/
 ---
