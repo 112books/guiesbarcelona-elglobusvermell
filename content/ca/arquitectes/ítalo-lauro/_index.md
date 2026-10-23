@@ -1,4 +1,9 @@
 ---
 title: Ítalo Lauro
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/italo-lauro"
+cognom: Lauro
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/italo-lauro
+link_wikipedia: ''
+link_web: ''
 ---
