@@ -1,6 +1,9 @@
 ---
-title: Carles Enrich
+title: Carles Enrich Giménez
+cognom: Enrich Giménez
 tipus: individual
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/carles-enrich-studio"
-link_web: "https://www.carlesenrich.com/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/carles-enrich-studio
+link_wikipedia: ''
+link_web: https://www.carlesenrich.com/
 ---
