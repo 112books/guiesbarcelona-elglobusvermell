@@ -1,6 +1,9 @@
 ---
-title: Oliveras Boix
+title: Oliveras Boix Arquitectes
+cognom: ''
 tipus: estudi
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/oliveras-boix-arquitectes"
-link_web: "https://www.oliverasboix.com/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/oliveras-boix-arquitectes
+link_wikipedia: ''
+link_web: https://www.oliverasboix.com/
 ---
