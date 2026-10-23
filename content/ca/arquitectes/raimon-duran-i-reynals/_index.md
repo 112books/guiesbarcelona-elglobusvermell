@@ -1,5 +1,9 @@
 ---
 title: Raimon Duran i Reynals
-link_coac: "https://www.arquitecturacatalana.cat/ca/autors/raimon-duran-i-reynals"
-link_wikipedia: "https://ca.wikipedia.org/wiki/Raimon_Duran_i_Reynals"
+cognom: Duran i Reynals
+tipus: individual
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/raimon-duran-i-reynals
+link_wikipedia: https://ca.wikipedia.org/wiki/Raimon_Duran_i_Reynals
+link_web: ''
 ---
