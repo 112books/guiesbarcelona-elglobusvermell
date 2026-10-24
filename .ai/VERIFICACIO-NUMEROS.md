@@ -1,14 +1,14 @@
 # Verificació diària dels números del web
 
-**Execució:** 23/10/2026 12:46 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 24/10/2026 11:21 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
 ## Resultat: ✅ tot coincideix
 
 | Xifra de portada | Publicat | Segons el repo | Estat |
 |---|---|---|---|
-| Edificis documentats | 659 | 659 | ✓ |
+| Edificis documentats | 656 | 656 | ✓ |
 | Guies de camp | 13 | 13 | ✓ |
-| Arquitectes i estudis | 292 | 292 | ✓ |
+| Arquitectes i estudis | 291 | 291 | ✓ |
 | Anys d'arquitectura | 1928–2026 | 1928–2026 | ✓ |
 
 ## Què vol dir cada xifra
@@ -20,19 +20,21 @@
 
 ## Referències del contingut
 
-- Fitxes d'element: **660** (amb publicacions: 660; esborranys: 0)
-- Amb coordenades: **659** — sense: 1 (flors-de-la-rambla.md)
-- Noms d'arquitecte a les fitxes: **292** · pàgines de publicació creades: 13
+- Fitxes d'element: **657** (amb publicacions: 657; esborranys: 0)
+- Amb coordenades: **656** — sense: 1 (flors-de-la-rambla.md)
+- Noms d'arquitecte a les fitxes: **291** · pàgines de publicació creades: 13
 
 ## Canvis respecte l'última verificació
 
-- Arquitectes: el contingut del repo ha canviat (290 → 292) des d'ahir.
+- Edificis: la xifra publicada ha canviat (659 → 656) — confirmar que el canvi és intencionat.
+- Edificis: el contingut del repo ha canviat (659 → 656) des d'ahir.
+- Arquitectes: la xifra publicada ha canviat (292 → 291) — confirmar que el canvi és intencionat.
+- Arquitectes: el contingut del repo ha canviat (292 → 291) des d'ahir.
 
 ## Històric (últims 14 dies)
 
 | Data | Edificis | Guies | Arquitectes | Anys |
 |---|---|---|---|---|
-| 2026-10-10 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-11 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-12 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-13 | 656 | 13 | 273 | 1928–2026 |
@@ -46,6 +48,7 @@
 | 2026-10-21 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-22 | 656 | 13 | 289 | 1928–2026 |
 | 2026-10-23 | 659 | 13 | 292 | 1928–2026 |
+| 2026-10-24 | 656 | 13 | 291 | 1928–2026 |
 
 ---
 
