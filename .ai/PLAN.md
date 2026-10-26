@@ -30,9 +30,14 @@ El web és funcional i en producció a https://guiesbarcelona.elglobusvermell.or
 
 ## Blocants actius
 
-### 🔴 Jorge — accés al servidor de producció (LinuxBCN)
-Pendent que Jorge passi credencials SSH (host, usuari, ruta) per poder fer deploy directe.
-Ara: deploy manual via rsync post GitHub Pages.
+### ✅ Jorge — accés al servidor resolt (26 oct 2026)
+Jorge (hola@linuxbcn.com / Virtubio.net) ha confirmat:
+- **Accés root SSH** al servidor de producció
+- **Credencials BD**: als fitxers `wp-config.php` dins `/var/www` (dues instal·lacions WP)
+- **DNS**: domini a joker.com, accés de El Globus Vermell per canviar registres DNS quan calgui
+
+Pendent: OK definitiu de Joan per fer el tall del domini (WordPress → Hugo).
+⚠️ El WordPress NO es toca fins a l'OK explícit de Joan.
 
 ### 🟡 80 arquitectes sense fitxa — revisió pendent de Xavi
 Llistat enviat per mail (26 oct). Xavi n'ha creat ~30 avui. Els 50 restants
