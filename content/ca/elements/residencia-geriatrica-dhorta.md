@@ -4,8 +4,8 @@ adreca: Josep Sangenís, 75
 any: '1992'
 arquitectes:
 - Emili Donato Folch
-- Miguel Jiménez
-- Ramon Martí
+- Miguel Jiménez Eroles
+- Ramon Martí i Puzo
 draft: false
 intervencions:
 - any: '1992'

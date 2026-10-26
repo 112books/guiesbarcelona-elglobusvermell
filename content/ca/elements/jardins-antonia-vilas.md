@@ -3,8 +3,8 @@ aliases: ["/2010-2025/jardins-antonia-vilas/"]
 adreca: Balboa, 36 / Ginebra, 43
 any: '2018'
 arquitectes:
-- Beatriz Borque
-- Miquel Mariné
+- Beatriz Borque Badenas
+- Miquel Mariné Núñez
 draft: false
 intervencions:
 - any: '2018'

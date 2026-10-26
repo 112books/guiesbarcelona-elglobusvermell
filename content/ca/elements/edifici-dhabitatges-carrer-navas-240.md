@@ -17,7 +17,7 @@ temes_transversals: []
 adreca: Navas de Tolosa, 238-240
 any: '1931'
 arquitectes:
-  - Joan Baca
+  - Joan Baca i Reixach
 tipologia: ''
 proteccio: ''
 superficie: null

@@ -3,7 +3,7 @@ aliases: ["/poblenou-industrial/casino-lalianca-del-poblenou/"]
 adreca: Rbla. Poblenou 42 + Ramon Turró 208
 any: '1929'
 arquitectes:
-- Amadeu Llopart
+- Amadeu Llopart i Vilalta
 draft: false
 intervencions:
 - any: '1929'

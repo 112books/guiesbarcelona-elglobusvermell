@@ -2,7 +2,7 @@
 aliases: ["/biblioteques/biblioteca-publica-arus/"]
 adreca: Pg. de Sant Joan, 26
 arquitectes:
-- Bonaventura Bassegoda
+- Bonaventura Bassegoda i Muste
 - Amigó
 descripcio: 'Fort Pienc | Eixample Arquitecte: Bonaventura Bassegoda i Amigó. 1895
   Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'

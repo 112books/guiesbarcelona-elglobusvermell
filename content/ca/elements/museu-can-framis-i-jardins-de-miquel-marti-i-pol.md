@@ -16,8 +16,8 @@ temes_transversals:
 adreca: Llacuna 103-117 + Roc Boronat 116-124 + Sancho de Ávila 145-155
 any: '2009'
 arquitectes:
-  - BAAS
-  - Martí Franch
+  - BAAS Arquitectura
+  - Martí Franch Batllori
   - BAAS Arquitectura
 tipologia: ''
 proteccio: C

@@ -3,7 +3,7 @@ aliases: ["/2010-2025/ateneu-de-fabricacio-de-gracia/"]
 adreca: Perill, 8
 any: '2019'
 arquitectes:
-- Oliveras Boix
+- Oliveras Boix Arquitectes
 draft: false
 intervencions:
 - any: '2019'

@@ -5,7 +5,7 @@ any: '1961'
 arquitectes:
 - Guillem Giráldez i Dávila
 - Pere López i Íñigo
-- Xavier Subias i Fages
+- Xavier Subías i Fages
 draft: false
 foto: /img/elements/institucio-cultural-cic.jpg
 intervencions:

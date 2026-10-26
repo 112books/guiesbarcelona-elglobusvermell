@@ -4,7 +4,7 @@ adreca: Rambla dels Estudis, 122
 any: 1934
 arquitectes:
 - Ricard de Churruca
-- Ricard Ribas
+- Ricard Ribas Seva
 descripcio: ''
 draft: false
 lat: 41.3839163

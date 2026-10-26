@@ -3,8 +3,8 @@ aliases: ["/moderna-1950-1975/edifici-doficines-bbva/"]
 adreca: Diagonal 468
 any: '1973'
 arquitectes:
-- Josep Maria Fargas
-- Enric Tous
+- Josep Maria Fargas i Falp
+- Enric Tous i Carbó
 draft: false
 intervencions:
 - any: '1973'

@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-balmes/", "/avantgu
 adreca: C. de Balmes, 168
 any: 1934
 arquitectes:
-- Ricard Ribas
+- Ricard Ribas Seva
 descripcio: ''
 draft: false
 lat: 41.3949126

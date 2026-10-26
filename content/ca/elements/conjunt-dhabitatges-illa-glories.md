@@ -9,7 +9,7 @@ arquitectes:
 - Ensenyat-Tarrida
 - Franc Llonch
 - Haz Arquitectura
-- Pau Vidal
+- Pau Vidal Pont
 - SV60 Cordón & Liñán Arquitectos
 - Vivas Arquitectos
 descripcio: ''

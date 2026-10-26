@@ -17,7 +17,7 @@ temes_transversals:
 adreca: Av. del Cardenal Vidal i Barraquer, 34-36
 any: '1937'
 arquitectes:
-  - Josep Lluís Sert
+  - Josep Lluís Sert i López
   - Luis Lacasa
 tipologia: ''
 proteccio: ''

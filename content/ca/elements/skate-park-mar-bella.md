@@ -3,7 +3,7 @@ aliases: ["/2010-2025/skate-park-mar-bella/"]
 adreca: Av. Litoral, 106
 any: '2014'
 arquitectes:
-- SCOB
+- SCOB Arquitectura i Paisatge
 draft: false
 intervencions:
 - any: '2014'

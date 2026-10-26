@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/casa-jaume-sans/"]
 adreca: Pl. de Molina, 1-7
 any: 1934
 arquitectes:
-- Jaume Mestres
+- Jaume Mestres i Fossas
 descripcio: ''
 draft: false
 lat: 41.4013767

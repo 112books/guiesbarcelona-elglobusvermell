@@ -2,7 +2,7 @@
 aliases: ["/1975-2008/installacions-dentrenament-de-tir-amb-arc/"]
 adreca: Pg. Vall d’Hebron, 166-176
 arquitectes:
-- Enric Miralles
+- Enric Miralles i Moya
 - Carme Pinós
 descripcio: 'Projecte: Enric Miralles i Carme Pinós. 1992 Premi Ciutat de Barcelona'
 draft: false

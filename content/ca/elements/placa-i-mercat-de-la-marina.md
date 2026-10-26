@@ -3,7 +3,7 @@ aliases: ["/mercats/placa-i-mercat-de-la-marina/"]
 adreca: Pg. de la Zona Franca, 178-180
 any: '2003'
 arquitectes:
-- Albert de Pineda
+- Albert de Pineda Álvarez
 districte: "Sants-Montjuïc"
 zona: "Nous barris"
 ordre: 9

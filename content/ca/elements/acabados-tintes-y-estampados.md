@@ -13,7 +13,7 @@ temes_transversals: []
 adreca: Marroc 170-190
 any: '1946'
 arquitectes:
-  - Luis Castellón
+  - Luis Castellón Rodrigo
   - Luis Castellón Rodrigo
 tipologia: Fàbrica
 proteccio: C

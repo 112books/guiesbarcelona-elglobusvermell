@@ -3,7 +3,7 @@ aliases: ["/2010-2025/edifici-dhabitatges-per-a-4-amics/"]
 adreca: Pujades, 251
 any: '2019'
 arquitectes:
-- Lola Domènech
+- Lola Domènech i Oliva
 - Lussi Studio
 - Partner AG
 draft: false

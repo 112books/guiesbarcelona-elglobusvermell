@@ -6,7 +6,7 @@ descripcio: 'Autoria: Josep Maria Subirachs. 1958-1960 Obra abstracta alineada a
   instal·lades en un espai públic de la ciutat, fet que, en aquell moment, va generar
   una forta polèmica.'
 arquitectes:
-- Josep Maria Subirachs
+- Josep Maria Subirachs i Sitjar
 intervencions:
 - any: '1958-1960'
   autors: Josep Maria Subirachs

@@ -2,7 +2,7 @@
 aliases: ["/biblioteques/biblioteca-guinardo-merce-rodoreda/"]
 adreca: C. Camèlies, 76-80
 arquitectes:
-- Màrius Quintana
+- Màrius Quintana i Creus
 descripcio: 'Mercè Rodoreda Escriptora. 1908-1983 Guinardó Arquitecte: Màrius Quintana.
   1999'
 districte: "Gràcia"

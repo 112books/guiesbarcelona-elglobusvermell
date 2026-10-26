@@ -3,8 +3,8 @@ aliases: ["/moderna-1950-1975/edifici-doficines-banca-catalana-ara-hotel/"]
 adreca: Pg. de Gràcia 84
 any: '1968'
 arquitectes:
-- Josep Maria Fargas
-- Enric Tous
+- Josep Maria Fargas i Falp
+- Enric Tous i Carbó
 draft: false
 foto: /img/elements/edifici-doficines-banca-catalana-ara-hotel.jpg
 intervencions:

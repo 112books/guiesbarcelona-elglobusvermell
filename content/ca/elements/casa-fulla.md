@@ -3,8 +3,8 @@ aliases: ["/moderna-1950-1975/casa-fulla/"]
 adreca: Gènova 27
 any: '1971'
 arquitectes:
-- Lluís Clotet
-- Òscar Tusquets
+- Lluís Clotet i Ballús
+- Òscar Tusquets Blanca
 draft: false
 intervencions:
 - any: '1971'

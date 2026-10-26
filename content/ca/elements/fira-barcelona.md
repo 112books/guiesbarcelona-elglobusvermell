@@ -3,7 +3,7 @@ aliases: ["/marina-prat-vermell/fira-barcelona/"]
 adreca: Av. Joan Carles I, 64. L’Hospitalet de Llobregat
 any: '2010'
 arquitectes:
-- Toyo Ito Associates
+- Toyō Itō
 - B720 Arquitectes
 draft: false
 foto: /img/elements/fira-barcelona.jpg

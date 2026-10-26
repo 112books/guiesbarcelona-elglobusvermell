@@ -3,8 +3,8 @@ aliases: ["/2010-2025/edifici-dhabitatges-dotacionals-greenhuse/"]
 adreca: Veneçuela, 96-106 / Agricultura
 any: '2024'
 arquitectes:
-- Peris+Toral
-- Jaime Pastor
+- Peris+Toral Arquitectes
+- Jaime Pastor Valbuena
 draft: false
 intervencions:
 - any: '2024'

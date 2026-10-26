@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-padua/"]
 adreca: C. de Pàdua, 96
 any: 1933
 arquitectes:
-- Sixte Illescas
+- Sixte Illescas i Mirosa
 descripcio: ''
 draft: false
 lat: 41.40422

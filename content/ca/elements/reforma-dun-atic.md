@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/reforma-dun-atic/"]
 adreca: C. de Provença, 269
 any: 1934
 arquitectes:
-- Josep Lluís Sert
+- Josep Lluís Sert i López
 descripcio: ''
 draft: false
 lat: 41.395511

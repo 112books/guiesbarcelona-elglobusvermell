@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-rector-ubach/"]
 adreca: C.  del Rector Ubach, 19
 any: 1931
 arquitectes:
-- Antoni Fisas
+- Antoni Fisas i Planas
 descripcio: ''
 draft: false
 lat: 41.3984904

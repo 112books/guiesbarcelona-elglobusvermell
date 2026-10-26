@@ -2,8 +2,8 @@
 aliases: ["/biblioteques/biblioteca-joan-miro/"]
 adreca: C. Vilamarí, 61 / Parc Joan Miró
 arquitectes:
-- Beth Galí
-- Màrius Quintana
+- Beth Galí i Camprubí
+- Màrius Quintana i Creus
 - Antoni Solanas
 descripcio: 'Joan Miró Artista. 1893-1983 Nova Esquerra de l’Eixample Arquitecte:
   Beth Galí, Màrius Quintana i Antoni Solanas. 1990'

@@ -3,7 +3,7 @@ aliases: ["/2010-2025/cirerers-cohabitatges-cooperatius/"]
 adreca: Pla dels Cirerers, 2-4
 any: '2022'
 arquitectes:
-- Celobert
+- celobert
 draft: false
 intervencions:
 - any: '2022'

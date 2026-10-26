@@ -3,7 +3,7 @@ aliases: ["/2010-2025/edifici-dhabitatges-hpo-living-lattice/"]
 adreca: Novelles, 2-10
 any: '2023'
 arquitectes:
-- Peris+Toral
+- Peris+Toral Arquitectes
 draft: false
 intervencions:
 - any: '2023'

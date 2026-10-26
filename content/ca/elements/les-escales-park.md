@@ -3,7 +3,7 @@ aliases: ["/moderna-1950-1975/les-escales-park/"]
 adreca: C. de Sor Eulàlia d'Anzizu, 46
 any: 1973
 arquitectes:
-- Josep Lluís Sert
+- Josep Lluís Sert i López
 descripcio: ''
 draft: false
 foto: /img/elements/les-escales-park.jpg

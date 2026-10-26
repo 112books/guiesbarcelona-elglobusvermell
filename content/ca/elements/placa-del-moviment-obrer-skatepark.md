@@ -3,8 +3,8 @@ aliases: ["/marina-prat-vermell/placa-del-moviment-obrer-skatepark/"]
 adreca: Pg. de la Zona Franca / Foc
 any: '2018'
 arquitectes:
-- Toyo Ito Associates
-- Òscar Tusquets
+- Toyō Itō
+- Òscar Tusquets Blanca
 - Straddle3
 draft: false
 foto: /img/elements/placa-del-moviment-obrer-skatepark.jpg

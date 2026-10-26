@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/casa-viladot/"]
 adreca: Av. de Gaudí, 71
 any: 1930
 arquitectes:
-- Jaume Mestres
+- Jaume Mestres i Fossas
 descripcio: .
 draft: false
 lat: 41.4099272

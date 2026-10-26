@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/casa-bloc/"]
 adreca: Pg. de Torras i Bages, 91-106
 any: 1933
 arquitectes:
-- Josep Lluís Sert
+- Josep Lluís Sert i López
 descripcio: 'Immoble amb cinc blocs d’apartaments per a obrers que la Generalitat
   republicana encarrega a arquitectes membres del GATCPAC l’any 1932. La Casa Bloc
   és una prova pilot per resoldre una de les xacres de la ciutat de Barcelona al llarg

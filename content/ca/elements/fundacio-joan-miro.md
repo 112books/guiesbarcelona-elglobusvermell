@@ -3,7 +3,7 @@ aliases: ["/moderna-1950-1975/fundacio-joan-miro/"]
 adreca: Parc de Montjuïc, s/n
 any: 1975
 arquitectes:
-- Josep Lluís Sert
+- Josep Lluís Sert i López
 descripcio: Situat a mitja altura de la falda de Montjuïc, la Fundació Joan Miró representa
   un dels centres d'art més importants de la ciutat de Barcelona. Joan Miró volia
   obrir una fundació que no fos només un contenidor de la seva important col·lecció

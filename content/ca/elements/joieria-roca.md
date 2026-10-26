@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/joieria-roca/"]
 adreca: Pg. de Gràcia, 18
 any: 1933
 arquitectes:
-- Josep Lluís Sert
+- Josep Lluís Sert i López
 descripcio: ''
 draft: false
 lat: 41.3900051

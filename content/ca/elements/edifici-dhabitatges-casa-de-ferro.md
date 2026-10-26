@@ -3,7 +3,7 @@ aliases: ["/moderna-1950-1975/edifici-dhabitatges-casa-de-ferro/"]
 adreca: Av. Coll del Portell 52
 any: '1971'
 arquitectes:
-- Francesc Rius
+- Francesc Rius i Camps
 draft: false
 intervencions:
 - any: '1971'

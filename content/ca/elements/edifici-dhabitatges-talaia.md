@@ -3,8 +3,8 @@ aliases: ["/moderna-1950-1975/edifici-dhabitatges-talaia/"]
 adreca: Av. Sarrià 71 / Av. Diagonal 523
 any: '1970'
 arquitectes:
-- Federico Correa
-- Alfonso Milà
+- Federico Correa Ruiz
+- Alfonso Milà Sagnier
 - José Luis Sanz Magallón
 draft: false
 foto: /img/elements/edifici-dhabitatges-talaia.jpg

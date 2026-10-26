@@ -2,8 +2,8 @@
 aliases: ["/biblioteques/biblioteca-les-corts-miquel-llongueras/"]
 adreca: Trav. de les Corts, 58
 arquitectes:
-- Pere Joan Ravetllat
-- Carme Ribas
+- Pere Joan Ravetllat i Mira
+- Carme Ribas i Seix
 descripcio: 'Miquel Llongueras Arqueòleg i polític. 1942-1998 La Maternitat i Sant
   Ramon Arquitecte: Pere Joan Ravetllat i Carme Ribas. 2000'
 districte: "Les Corts"

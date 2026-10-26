@@ -5,7 +5,7 @@ any: '1967'
 arquitectes:
 - Guillem Giráldez i Dávila
 - Pere López i Íñigo
-- Xavier Subias i Fages
+- Xavier Subías i Fages
 draft: false
 foto: /img/elements/facultat-de-ciencies-economiques.jpg
 intervencions:

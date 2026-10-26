@@ -5,7 +5,7 @@ any: '1971'
 arquitectes:
 - Guillem Giráldez i Dávila
 - Pere López i Íñigo
-- Xavier Subias i Fages
+- Xavier Subías i Fages
 draft: false
 intervencions:
 - any: '1971'

@@ -3,7 +3,7 @@ aliases: ["/barceloneta/edifici-dhabitatges-joan-de-borbo-38/"]
 adreca: Pg. Joan de Borbó 38-39
 any: '1927'
 arquitectes:
-- Carles Martínez
+- Carles Martínez i Sánchez
 draft: false
 intervencions:
 - any: '1927'

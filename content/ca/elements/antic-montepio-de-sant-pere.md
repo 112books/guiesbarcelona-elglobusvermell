@@ -3,7 +3,7 @@ aliases: ["/barceloneta/antic-montepio-de-sant-pere/"]
 adreca: Sant Elm 58-62 + Almirall Aixada 4 + Mar 95-99
 any: '1928'
 arquitectes:
-- Antoni Falguera
+- Antoni Falguera i Sivilla
 descripcio: Projectat per ser la seu de la Mutualitat de Sant Pere Pescador, avui
   en dia acull l’Organització d’Estibadors Portuaris de Barcelona. Es tracta d’un
   edifici noucentista que destaca per les seves grans dimensions i per una certa monumentalitat,

@@ -3,7 +3,7 @@ aliases: ["/2010-2025/torre-de-bombers/"]
 adreca: Parc de Bombers Vall d’Hebron. Coll i Alentorn, 5
 any: '2023'
 arquitectes:
-- Carles Enrich
+- Carles Enrich Giménez
 draft: false
 intervencions:
 - any: '2023'

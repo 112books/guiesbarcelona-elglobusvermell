@@ -4,7 +4,7 @@ adreca: Av. Diagonal 694
 any: '1961'
 arquitectes:
 - Javier Carvajal Ferrer
-- Rafael García de Castro
+- Rafael García de Castro Peña
 draft: false
 foto: /img/elements/facultat-deconomia-i-empresa.jpg
 intervencions:

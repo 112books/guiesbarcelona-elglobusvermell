@@ -4,7 +4,7 @@ adreca: Sants
 any: '2016'
 arquitectes:
 - Ana Molino
-- Sergi Godia
+- Sergi Godia i Fran
 draft: false
 intervencions:
 - any: '2016'

@@ -7,7 +7,7 @@ arquitectes:
 - Oriol Bohigas i Guardiola
 - Josep Maria Martorell i Codina
 - Francesc Mitjans i Miró
-- Antoni Perpiñà
+- Antoni Perpiñà Serbià
 - Josep Maria Ribas
 draft: false
 foto: /img/elements/edifici-dhabitatges-passeig-maragall.jpg

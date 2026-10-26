@@ -5,7 +5,7 @@ any: '1957'
 arquitectes:
 - Francesc Mitjans i Miró
 - Josep Soteras i Mauri
-- Lorenzo García-Barbón
+- Lorenzo García-Barbón Fernández de Henestrosa
 draft: false
 intervencions:
 - any: '1957'

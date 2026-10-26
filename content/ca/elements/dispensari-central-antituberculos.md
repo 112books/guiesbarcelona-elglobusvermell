@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/dispensari-central-antituberculos/"]
 adreca: C. de Torres Amat - Ptge. de Sant Bernat
 any: 1933
 arquitectes:
-- Josep Lluís Sert
+- Josep Lluís Sert i López
 - Josep Torres Clavé
 - Joan Baptista Subirana
 - José Bori Jensana

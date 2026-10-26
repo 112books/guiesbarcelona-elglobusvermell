@@ -5,8 +5,8 @@ any: '1965'
 arquitectes:
 - Guillem Giráldez i Dávila
 - Pere López i Íñigo
-- Xavier Subias i Fages
-- Manuel Baldrich
+- Xavier Subías i Fages
+- Manuel Baldrich Tibau
 - Antoni Bonet Castellana
 - Josep Soteras i Mauri
 draft: false

@@ -3,8 +3,8 @@ aliases: ["/1975-2008/centre-de-convencions-internacional-de-catalunya-ccib/"]
 adreca: Pl. Willy Brandt, 14
 any: '2004'
 arquitectes:
-- Marta Cervelló
-- Josep Lluís Mateo
+- Marta Cervelló Casanova
+- Josep Lluís Mateo i Martínez
 draft: false
 intervencions:
 - any: '2004'

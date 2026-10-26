@@ -4,10 +4,10 @@ adreca: Guillem Tell 47 / Lincoln 36-38
 any: '1962'
 arquitectes:
 - Josep Antoni Ballesteros
-- Joan Carles Cardenal
+- Joan Carles Cardenal i González
 - Francesc de la Guàrdia
-- Xavier Ruiz
-- Pere Llimona
+- Xavier Ruiz i Vallès
+- Pere Llimona Torras
 draft: false
 foto: /img/elements/joieria-mones.jpg
 intervencions:

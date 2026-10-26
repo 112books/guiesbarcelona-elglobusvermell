@@ -3,8 +3,8 @@ aliases: ["/eixample-jardins-interiors/jardins-de-ca-laranyo/"]
 adreca: Bolívia + C. Roc Boronat + C. Tànger + C. Ciutat de Granada
 any: 2022
 arquitectes:
-- Jorge Vidal
-- Víctor Rahola
+- Jorge Vidal Tomás
+- Víctor Rahola i Aguadé
 descripcio: ''
 descripcio_nomenclator: ''
 draft: false

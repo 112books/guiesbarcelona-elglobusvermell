@@ -5,7 +5,7 @@ any: '1958'
 arquitectes:
 - Guillem Giráldez i Dávila
 - Pere López i Íñigo
-- Xavier Subias i Fages
+- Xavier Subías i Fages
 draft: false
 foto: /img/elements/facultat-de-dret.jpg
 intervencions:

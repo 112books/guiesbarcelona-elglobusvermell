@@ -11,7 +11,7 @@ temes_transversals: []
 adreca: Llull, 122
 any: '2025'
 arquitectes:
-  - BAAS Arquitectura (Jordi Badia)
+  - BAAS Arquitectura
   - BAAS Arquitectura
 tipologia: ''
 proteccio: ''

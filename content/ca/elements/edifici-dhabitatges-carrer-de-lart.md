@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-carrer-de-lart/"]
 adreca: C. de l’Art, 2
 any: 1935
 arquitectes:
-- Antoni de Ferrater
+- Antoni de Ferrater i Bofill
 descripcio: ''
 draft: false
 lat: 41.4218088

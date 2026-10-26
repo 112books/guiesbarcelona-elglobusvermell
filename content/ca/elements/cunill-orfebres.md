@@ -5,7 +5,7 @@ any: '1965'
 arquitectes:
 - Guillem Giráldez i Dávila
 - Pere López i Íñigo
-- Xavier Subias i Fages
+- Xavier Subías i Fages
 draft: false
 intervencions:
 - any: '1965'

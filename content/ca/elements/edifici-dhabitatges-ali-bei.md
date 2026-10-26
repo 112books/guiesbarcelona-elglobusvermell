@@ -3,7 +3,7 @@ aliases: ["/2010-2025/edifici-dhabitatges-ali-bei/"]
 adreca: Ali Bei, 100-102
 any: '2020'
 arquitectes:
-- Pau Vidal
+- Pau Vidal Pont
 draft: false
 intervencions:
 - any: '2020'

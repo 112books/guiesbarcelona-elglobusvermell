@@ -5,7 +5,7 @@ any: '2020'
 arquitectes:
 - AIA
 - Barceló Balanzó
-- Gustau Gili
+- Gustau Gili Galfetti
 draft: false
 intervencions:
 - any: '2020'

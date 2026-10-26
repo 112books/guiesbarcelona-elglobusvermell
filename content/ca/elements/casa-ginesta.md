@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/casa-ginesta/"]
 adreca: Av. de Gaudí, 44
 any: 1931
 arquitectes:
-- Jaume Mestres
+- Jaume Mestres i Fossas
 descripcio: ''
 draft: false
 lat: 41.4081945

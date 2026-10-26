@@ -2,7 +2,7 @@
 adreca: Via Augusta, 12
 any: 1935
 arquitectes:
-- Carles Martínez Sánchez
+- Carles Martínez i Sánchez
 descripcio: ''
 draft: false
 lat: 41.3967221

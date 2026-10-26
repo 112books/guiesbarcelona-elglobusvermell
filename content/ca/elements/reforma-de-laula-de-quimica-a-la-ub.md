@@ -3,8 +3,8 @@ aliases: ["/avantguarda-1928-1938/reforma-de-laula-de-quimica-a-la-ub/"]
 adreca: Gran Via, 585
 any: 1934
 arquitectes:
-- Josep Gonzàlez
-- Francesc Perales
+- Josep Gonzàlez Modrego
+- Francesc Perales Mascaró
 descripcio: ''
 draft: false
 lat: 41.3869242

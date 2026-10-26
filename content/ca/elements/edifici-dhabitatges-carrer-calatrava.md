@@ -3,7 +3,7 @@ aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-calatrava/"]
 adreca: Calatrava 2 / Rosari 45
 any: '1968'
 arquitectes:
-- Pere Llimona
+- Pere Llimona Torras
 - Xavier Ruiz i Vallès
 draft: false
 intervencions:

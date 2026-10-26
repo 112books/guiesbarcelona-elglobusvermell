@@ -3,7 +3,7 @@ aliases: ["/barceloneta/facultat-de-nautica/"]
 adreca: Pla de Palau 18 + Pl. Pau Vila
 any: '1933'
 arquitectes:
-- Joaquim Vilaseca
+- Joaquim Vilaseca Rivera
 - Adolf Florensa
 draft: false
 intervencions:

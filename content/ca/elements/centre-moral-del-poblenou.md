@@ -3,7 +3,7 @@ aliases: ["/poblenou-industrial/centre-moral-del-poblenou/"]
 adreca: Pujades 176-178
 any: '1924'
 arquitectes:
-- Pau Monguió
+- Pau Monguió Fonts
 draft: false
 intervencions:
 - any: '1924'

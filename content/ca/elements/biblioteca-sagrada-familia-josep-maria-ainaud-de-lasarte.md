@@ -2,7 +2,7 @@
 aliases: ["/biblioteques/biblioteca-sagrada-familia-josep-maria-ainaud-de-lasarte/"]
 adreca: C. Provença, 480 | Sagrada Família
 arquitectes:
-- Manuel Ruisánchez
+- Manuel Ruisánchez i Capelastegui
 descripcio: 'Josep Maria Ainaud de Lasarte Historiador, periodista i polític. 1925-2012
   Arquitecte: Manuel Ruisánchez. 2007'
 districte: "Eixample"

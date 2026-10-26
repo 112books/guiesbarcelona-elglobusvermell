@@ -3,7 +3,7 @@ aliases: ["/2010-2025/villa-urania/"]
 adreca: Saragossa, 29
 any: '2014'
 arquitectes:
-- Sumo
+- Sumo Arquitectes
 draft: false
 intervencions:
 - any: '2014'

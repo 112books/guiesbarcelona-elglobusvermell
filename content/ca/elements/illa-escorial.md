@@ -7,9 +7,9 @@ arquitectes:
 - Oriol Bohigas i Guardiola
 - Josep Maria Martorell i Codina
 - Francesc Mitjans i Miró
-- Antoni Perpiñà
+- Antoni Perpiñà Serbià
 - Josep Maria Ribas
-- Manuel Ribas
+- Manuel Ribas i Piera
 draft: false
 foto: /img/elements/illa-escorial.jpg
 intervencions:

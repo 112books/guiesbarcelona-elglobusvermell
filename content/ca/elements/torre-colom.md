@@ -3,9 +3,9 @@ aliases: ["/moderna-1950-1975/torre-colom/"]
 adreca: Portal de Santa Madrona 10-12 / Av. Drassanes 6-8
 any: '1971'
 arquitectes:
-- Josep Anglada
-- Daniel Gelabert
-- Josep Ribas
+- Josep Anglada Rosselló
+- Daniel Gelabert i Fontova
+- Josep Ribas Folguera
 draft: false
 foto: /img/elements/torre-colom.jpg
 intervencions:

@@ -3,7 +3,7 @@ aliases: ["/2010-2025/escola-dels-encants/"]
 adreca: Consell de Cent, 558
 any: '2015'
 arquitectes:
-- Roger Méndez
+- Roger Méndez Badias
 draft: false
 intervencions:
 - any: '2015'
