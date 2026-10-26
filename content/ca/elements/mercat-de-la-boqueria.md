@@ -7,8 +7,12 @@ ordre: 1
 draft: false
 foto: /img/elements/mercat-de-la-boqueria.jpg
 fotos_addicionals:
-- /img/elements/casa-del-rellotge.webp
-- /img/elements/far-de-montjuic.webp
+- url: /img/elements/casa-del-rellotge.webp
+  autoria: El Globus Vermell
+  peu: ''
+- url: /img/elements/far-de-montjuic.webp
+  autoria: El Globus Vermell
+  peu: ''
 intervencions:
 - any: '2001'
   autors: Lluís Clotet i Ignacio Paricio

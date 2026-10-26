@@ -11,8 +11,12 @@ districte: "Eixample"
 draft: false
 foto: /img/elements/biblioteca-joan-miro.jpg
 fotos_addicionals:
-  - /img/elements/biblioteca-joan-miro-2.jpg
-  - /img/elements/biblioteca-joan-miro-3.jpg
+  - url: /img/elements/biblioteca-joan-miro-2.jpg
+    autoria: El Globus Vermell
+    peu: ''
+  - url: /img/elements/biblioteca-joan-miro-3.jpg
+    autoria: El Globus Vermell
+    peu: ''
 lat: 41.3787762
 long: 2.1489949
 publicacions:

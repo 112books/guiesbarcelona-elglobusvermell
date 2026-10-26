@@ -6,7 +6,9 @@ districte: "Sant Martí"
 draft: false
 foto: /img/elements/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra.jpg
 fotos_addicionals:
-  - /img/elements/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra-2.jpg
+  - url: /img/elements/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra-2.jpg
+    autoria: El Globus Vermell
+    peu: ''
 edifici_original: Dipòsit d’aigües. Josep Fontserè i Mestre. 1880
 intervencions:
 - any: '1999'
