@@ -278,9 +278,13 @@ collections:
             required: false
           - label: Autors
             name: autors
-            widget: string
+            widget: relation
+            collection: arquitectes
+            value_field: title
+            search_fields: [title]
+            multiple: true
             required: false
-            hint: "Noms dels arquitectes o artistes, separats per comes o «i». Si coincideixen amb el camp Arquitectes, esdevenen enllaços. Per a obres d'art, feu servir el tipus «Autoria»."
+            hint: "Arquitectes o artistes d'aquesta intervenció. Per a obres d'art, feu servir el tipus «Autoria»."
           - label: Any
             name: any
             widget: string

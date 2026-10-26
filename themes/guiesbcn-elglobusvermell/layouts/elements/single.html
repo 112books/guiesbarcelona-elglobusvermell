@@ -113,7 +113,7 @@
       {{ $pt := .Params.projecte_text }}
       {{ $ptRepetit := false }}
       {{ range .Params.intervencions }}
-        {{ $a := printf "%v" (.autors | default "") }}
+        {{ $a := cond (reflect.IsSlice .autors) (delimit (.autors | default slice) ", ") (printf "%v" (.autors | default "")) }}
         {{ $y := printf "%v" (.any | default "") }}
         {{ range (slice (trim $y " ") (trim (printf "%s. %s" $a $y) " ") (trim (printf "%s, %s" $a $y) " ")) }}
           {{ if and $pt (eq (trim . " ") (trim $pt " ")) }}{{ $ptRepetit = true }}{{ end }}
@@ -129,7 +129,7 @@
       {{/* S26 — prova ?projecte=1: es marca la fila quan tots els arquitectes ja surten
            als autors de les intervencions (la fila seria repetida). No amaga res per defecte. */}}
       {{ $autorsIv := "" }}
-      {{ range .Params.intervencions }}{{ $autorsIv = printf "%s + %s" $autorsIv (.autors | default "" | lower) }}{{ end }}
+      {{ range .Params.intervencions }}{{ $autorsIv = printf "%s + %s" $autorsIv (cond (reflect.IsSlice .autors) (delimit (.autors | default slice) " " | lower) (.autors | default "" | lower)) }}{{ end }}
       {{ $repetida := and .Params.arquitectes .Params.intervencions }}
       {{ range .Params.arquitectes }}{{ if not (strings.Contains $autorsIv (lower .)) }}{{ $repetida = false }}{{ end }}{{ end }}
       {{/* Obres d'art (22/10): si totes les intervencions són «Autoria» i ja hi surten
@@ -193,11 +193,22 @@
            que coincideixen amb el camp «arquitectes» esdevenen enllaços. */}}
       {{ with .Params.intervencions }}
       {{ range . }}
-      {{ $autors := .autors | default "" }}
-      {{ $autorsHTML := $autors }}
-      {{ range $.Params.arquitectes }}
-        {{ $link := printf "<a href=\"%s\">%s</a>" (printf "arquitectes/%s/" (. | urlize) | relURL) . }}
-        {{ $autorsHTML = replace $autorsHTML . $link }}
+      {{ $autors := "" }}
+      {{ $autorsHTML := "" }}
+      {{ if reflect.IsSlice .autors }}
+        {{ $links := slice }}
+        {{ range .autors }}
+          {{ $links = $links | append (printf "<a href=\"%s\">%s</a>" (printf "arquitectes/%s/" (. | urlize) | relURL) .) }}
+        {{ end }}
+        {{ $autors = delimit (.autors | default slice) ", " }}
+        {{ $autorsHTML = delimit ($links | default slice) ", " }}
+      {{ else }}
+        {{ $autors = .autors | default "" }}
+        {{ $autorsHTML = $autors }}
+        {{ range $.Params.arquitectes }}
+          {{ $link := printf "<a href=\"%s\">%s</a>" (printf "arquitectes/%s/" (. | urlize) | relURL) . }}
+          {{ $autorsHTML = replace $autorsHTML . $link }}
+        {{ end }}
       {{ end }}
       <div class="fitxa-dada">
         <dt>{{ .tipus | title }}</dt>
