@@ -3,7 +3,7 @@ aliases: ["/poblenou-industrial/filatura-el-canem/", "/poblenou-industrial/filat
 adreca: Ramon Turró 173 + Llacuna 25-27
 any: '1880'
 arquitectes:
-- Joan Barba. c
+- Joan Barba i Balanzó
 draft: false
 intervencions:
 - any: '1880'

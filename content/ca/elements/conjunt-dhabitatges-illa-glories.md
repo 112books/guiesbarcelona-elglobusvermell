@@ -6,7 +6,7 @@ arquitectes:
 - Bayona-Valero
 - Cantallops-Vicente
 - Cierto Estudio
-- Ensenyat-Tarrida
+- Ensenyat Tarrida Arquitectes
 - Franc Llonch
 - Haz Arquitectura
 - Pau Vidal Pont

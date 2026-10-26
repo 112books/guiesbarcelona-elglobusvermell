@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/bloc-diagonal/"]
 adreca: Av. Diagonal, 419
 any: 1935
 arquitectes:
-- Ricard de Churruca
+- Ricard de Churruca Dotres
 - Germà Rodríguez Arias
 descripcio: ''
 draft: false

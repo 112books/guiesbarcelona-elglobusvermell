@@ -5,7 +5,7 @@ any: '1970'
 arquitectes:
 - Federico Correa Ruiz
 - Alfonso Milà Sagnier
-- José Luis Sanz Magallón
+- José Luis Sanz-Magallón y Hurtado de Mendoza
 draft: false
 foto: /img/elements/edifici-dhabitatges-talaia.jpg
 intervencions:

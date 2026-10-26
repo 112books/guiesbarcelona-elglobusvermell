@@ -4,8 +4,8 @@ adreca: Mineria, 18 / Mare de Déu de Port
 any: '1984'
 arquitectes:
 - Imma Jansana Ferrer
-- Neus Solé
-- Daniel Navas
+- Neus Solé Casu
+- Daniel Navas Lorenzo
 draft: false
 intervencions:
 - any: '1984'

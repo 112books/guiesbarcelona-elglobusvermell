@@ -3,9 +3,9 @@ aliases: ["/moderna-1950-1975/joieria-mones/"]
 adreca: Guillem Tell 47 / Lincoln 36-38
 any: '1962'
 arquitectes:
-- Josep Antoni Ballesteros
+- Joan Antoni Ballesteros i Figueras
 - Joan Carles Cardenal i González
-- Francesc de la Guàrdia
+- Francesc de la Guàrdia Conte
 - Xavier Ruiz i Vallès
 - Pere Llimona Torras
 draft: false

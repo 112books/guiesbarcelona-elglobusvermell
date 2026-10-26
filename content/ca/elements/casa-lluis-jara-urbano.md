@@ -2,7 +2,7 @@
 adreca: C. de Balmes, 371
 any: 1935
 arquitectes:
-- Josep Soteras Mauri
+- Josep Maria Soteras i Mauri
 descripcio: ''
 draft: false
 lat: 41.4045422

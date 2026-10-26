@@ -2,7 +2,7 @@
 aliases: ["/biblioteques/biblioteca-sofia-barat/"]
 adreca: C. Girona, 64 | Dreta de l’Eixample
 arquitectes:
-- Judith Masana
+- Judit Masana Padrós
 - Länk Arquitectes
 - DataAE
 descripcio: 'Sofia Barat Religiosa. 1779-1865 Arquitecte: Judith Masana. 2000 Trasllat

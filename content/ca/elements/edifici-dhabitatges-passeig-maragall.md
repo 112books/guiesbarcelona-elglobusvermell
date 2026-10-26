@@ -8,7 +8,7 @@ arquitectes:
 - Josep Maria Martorell i Codina
 - Francesc Mitjans i Miró
 - Antoni Perpiñà Serbià
-- Josep Maria Ribas
+- Josep Maria Ribas i Casas
 draft: false
 foto: /img/elements/edifici-dhabitatges-passeig-maragall.jpg
 intervencions:

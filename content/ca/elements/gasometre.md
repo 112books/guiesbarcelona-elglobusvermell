@@ -3,7 +3,7 @@ aliases: ["/barceloneta/gasometre/"]
 adreca: Parc de la Barceloneta
 any: '1868'
 arquitectes:
-- Claudi Gil
+- Claudi Gil i Serra
 draft: false
 foto: /img/elements/gasometre.jpg
 intervencions:

@@ -3,7 +3,7 @@ aliases: ["/avantguarda-1928-1938/edifici-dhabitatges-gran-via/"]
 adreca: Gran Via, 737
 any: 1935
 arquitectes:
-- Ricard de Churruca
+- Ricard de Churruca Dotres
 descripcio: ''
 draft: false
 lat: 41.398865

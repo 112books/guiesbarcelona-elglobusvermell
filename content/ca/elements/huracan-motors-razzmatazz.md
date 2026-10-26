@@ -3,7 +3,7 @@ aliases: ["/poblenou-industrial/huracan-motors-razzmatazz/"]
 adreca: Almogàvers 122-124
 any: '1957'
 arquitectes:
-- Llorenç García-Barbón
+- Llorenç García-Barbón Fernández de Henestrosa
 draft: false
 foto: /img/elements/huracan-motors-razzmatazz.jpg
 intervencions:

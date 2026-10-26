@@ -4,8 +4,8 @@ adreca: Pujades, 251
 any: '2019'
 arquitectes:
 - Lola Domènech i Oliva
-- Lussi Studio
-- Partner AG
+- Lussi + Partner AG
+- Lussi + Partner AG
 draft: false
 intervencions:
 - any: '2019'

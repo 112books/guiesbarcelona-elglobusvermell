@@ -3,7 +3,7 @@ aliases: ["/barceloneta/casa-miquel/"]
 adreca: Maquinista 10
 any: '1920'
 arquitectes:
-- Josep Masdeu
+- Josep Masdéu i Puigdemasa
 draft: false
 foto: /img/elements/casa-miquel.jpg
 intervencions:

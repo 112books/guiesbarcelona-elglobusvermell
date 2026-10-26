@@ -3,7 +3,7 @@ aliases: ["/poblenou-industrial/cooperativa-la-flor-de-maig-sucursal/"]
 adreca: Pere IV 92
 any: '1927'
 arquitectes:
-- J. Rodríguez
+- José Maria Rodríguez Lloveras
 draft: false
 intervencions:
 - any: '1927'

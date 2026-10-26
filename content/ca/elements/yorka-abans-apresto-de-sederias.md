@@ -3,7 +3,7 @@ aliases: ["/poblenou-industrial/yorka-abans-apresto-de-sederias/"]
 adreca: Cristóbal de Moura 118-134
 any: '1906'
 arquitectes:
-- Juli M. Fossas i Martínez
+- Juli Maria Fossas i Martínez
 draft: false
 intervencions:
 - any: '1906'

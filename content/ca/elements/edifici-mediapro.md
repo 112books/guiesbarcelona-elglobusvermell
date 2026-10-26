@@ -3,7 +3,7 @@ aliases: ["/1975-2008/edifici-mediapro/"]
 adreca: Av. Diagonal, 177
 any: 2008
 arquitectes:
-- OAB (Carlos Ferrater)
+- OAB (Office of Architecture in Barcelona)
 descripcio: ''
 draft: false
 lat: 41.4045242

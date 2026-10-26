@@ -3,8 +3,8 @@ aliases: ["/moderna-1950-1975/edifici-doficines-hispano-olivetti-ara-hotel/"]
 adreca: Rda. Universitat 18
 any: '1964'
 arquitectes:
-- Ernesto N. Rogers
-- Lodovico B. Belgiojoso
+- Ernesto Nathan Rogers
+- Ludovico Barbiano di Belgiojoso
 - Enrico Peressutti
 draft: false
 foto: /img/elements/edifici-doficines-hispano-olivetti-ara-hotel.jpg
