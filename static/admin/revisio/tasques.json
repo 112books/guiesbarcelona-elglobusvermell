@@ -1758,11 +1758,15 @@
       "ref": "S5",
       "estat": "fet",
       "titol": "Biblioteques: la foto de la portada del plànol",
-      "resultat": "Estat real al 22/10 (comprovat per hash i contra els dumps del WordPress): les 33 biblioteques han TORNAT a tenir la portada del plànol com a foto — la baixada del WordPress de l'1/9 (commit 12f4ee80) les va reintroduir després que les traguéssim el 18/8. Ara mateix: 33 amb la portada, 8 amb foto pròpia (importades de la teva carpeta el 29/8: Gabriel García Márquez, La Fraternitat, Nou Barris, Sant Antoni, Trinitat Vella, Vila de Gràcia, Vilapicina, Zona Nord) i 7 sense cap foto (Bon Pastor, Canyelles, Ateneu Barcelonès, Les Roquetes, Vall d'Hebron, Vallcarca i Illa Fort Pienc).",
+      "resultat": "Auditat el 26/10 fitxa per fitxa: de les 51 fitxes amb el planol de biblioteques (4 no son biblioteques), 25 tenen foto propia, 20 encara mostren la portada del planol i 6 no tenen cap foto. Del paquet de fotos que vas enviar el 23/10 vam aplicar 27 (21 substitucions i 6 de noves); les 26 que falten o no hi eren o no les vam saber aparellar. Detall fitxa a fitxa: docs/2026-10-26-biblioteques-auditoria-imatges.md.",
       "enllacos": [
         {
-          "label": "Una de les 6 (sense foto)",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-bon-pastor-josefina-castellvi/"
+          "label": "Biblioteca de Catalunya (encara amb la portada)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-de-catalunya/"
+        },
+        {
+          "label": "Biblioteca Joan Miro (amb foto propia)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-joan-miro/"
         }
       ],
       "resposta": {
