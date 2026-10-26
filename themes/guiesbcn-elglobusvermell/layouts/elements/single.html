@@ -113,7 +113,10 @@
       {{ $pt := .Params.projecte_text }}
       {{ $ptRepetit := false }}
       {{ range .Params.intervencions }}
-        {{ $a := cond (reflect.IsSlice .autors) (delimit (.autors | default slice) ", ") (printf "%v" (.autors | default "")) }}
+        {{/* Els autors poden arribar com a text o com a llista (CMS «relation»):
+             es normalitzen a text abans de fer-hi res. */}}
+        {{ $a := "" }}
+        {{ if reflect.IsSlice .autors }}{{ $a = delimit (.autors | default slice) ", " }}{{ else }}{{ $a = printf "%v" (.autors | default "") }}{{ end }}
         {{ $y := printf "%v" (.any | default "") }}
         {{ range (slice (trim $y " ") (trim (printf "%s. %s" $a $y) " ") (trim (printf "%s, %s" $a $y) " ")) }}
           {{ if and $pt (eq (trim . " ") (trim $pt " ")) }}{{ $ptRepetit = true }}{{ end }}
@@ -129,7 +132,11 @@
       {{/* S26 — prova ?projecte=1: es marca la fila quan tots els arquitectes ja surten
            als autors de les intervencions (la fila seria repetida). No amaga res per defecte. */}}
       {{ $autorsIv := "" }}
-      {{ range .Params.intervencions }}{{ $autorsIv = printf "%s + %s" $autorsIv (cond (reflect.IsSlice .autors) (delimit (.autors | default slice) " " | lower) (.autors | default "" | lower)) }}{{ end }}
+      {{ range .Params.intervencions }}
+        {{ $aTxt := "" }}
+        {{ if reflect.IsSlice .autors }}{{ $aTxt = delimit (.autors | default slice) " " }}{{ else }}{{ $aTxt = printf "%v" (.autors | default "") }}{{ end }}
+        {{ $autorsIv = printf "%s + %s" $autorsIv (lower $aTxt) }}
+      {{ end }}
       {{ $repetida := and .Params.arquitectes .Params.intervencions }}
       {{ range .Params.arquitectes }}{{ if not (strings.Contains $autorsIv (lower .)) }}{{ $repetida = false }}{{ end }}{{ end }}
       {{/* Obres d'art (22/10): si totes les intervencions són «Autoria» i ja hi surten
