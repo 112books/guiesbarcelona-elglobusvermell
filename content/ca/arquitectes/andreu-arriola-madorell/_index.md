@@ -1,6 +1,6 @@
 ---
 title: Andreu Arriola Madorell
-cognom: ''
+cognom: Arriola Madorell
 tipus: ''
 descripcio: ''
 link_coac: https://www.arquitecturacatalana.cat/ca/autors/andreu-arriola-madorell
