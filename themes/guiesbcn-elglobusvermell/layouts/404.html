@@ -1,21 +1,167 @@
 {{ define "main" }}
-<article class="publicacio">
 
-  <header class="publicacio-cap">
-    <h1>Pàgina no trobada</h1>
-    <p class="publicacio-edicio">Error 404</p>
-  </header>
+{{/* Índex lleuger de tots els elements per a la cerca en viu */}}
+{{ $elements := slice }}
+{{ range where (where .Site.Pages "Section" "elements") "Kind" "page" }}
+  {{ $elements = $elements | append (dict "t" .Title "u" (.RelPermalink)) }}
+{{ end }}
 
-  <p>La pàgina que busques no existeix o s'ha mogut. Pots continuar des d'aquí:</p>
+<div class="e404-wrap">
 
-  <ul>
-    <li><a href="{{ "" | relLangURL }}">Portada</a></li>
-    <li><a href="{{ "mapa/" | relLangURL }}">Mapa dels elements</a></li>
-    <li><a href="{{ "mapa/#llistat" | relLangURL }}">Cerca un element al llistat alfabètic</a></li>
-    <li><a href="{{ "publicacions/" | relLangURL }}">Publicacions</a></li>
-    <li><a href="{{ "arquitectes/" | relLangURL }}">Arquitectes</a></li>
-    <li><a href="{{ "contacte/" | relLangURL }}">Contacte</a></li>
-  </ul>
+  <div class="e404-cap">
+    <span class="e404-codi">404</span>
+    <h1 class="e404-titol">Coordenades incorrectes</h1>
+    <p class="e404-sub">Aquesta adreça no correspon a cap edifici, element ni pàgina del web.</p>
+  </div>
 
-</article>
+  <div class="e404-cerca-wrap">
+    <label for="e404-input" class="e404-cerca-label">Cerca un edifici o element:</label>
+    <input id="e404-input" type="search" class="e404-input"
+           placeholder="nom, arquitecte, barri…" autocomplete="off" autofocus>
+    <ul id="e404-resultats" class="e404-resultats" hidden></ul>
+  </div>
+
+  <nav class="e404-nav" aria-label="Navegació principal">
+    <a href="{{ "" | relLangURL }}">Portada</a>
+    <a href="{{ "mapa/" | relLangURL }}">Mapa</a>
+    <a href="{{ "en-paper/" | relLangURL }}">En paper</a>
+    <a href="{{ "arquitectes/" | relLangURL }}">Arquitectes</a>
+    <a href="{{ "contacte/" | relLangURL }}">Contacte</a>
+  </nav>
+
+</div>
+
+<style>
+.e404-wrap {
+  max-width: 560px;
+  margin: 4rem auto 6rem;
+  padding: 0 1.5rem;
+}
+.e404-cap {
+  margin-bottom: 2.5rem;
+}
+.e404-codi {
+  display: block;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--pub-color, #c81e1e);
+  letter-spacing: -.03em;
+  margin-bottom: .25rem;
+}
+.e404-titol {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 .6rem;
+}
+.e404-sub {
+  color: #555;
+  font-size: .95rem;
+}
+.e404-cerca-wrap {
+  margin-bottom: 2rem;
+}
+.e404-cerca-label {
+  display: block;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #777;
+  margin-bottom: .4rem;
+}
+.e404-input {
+  width: 100%;
+  padding: .65rem .9rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color .15s;
+}
+.e404-input:focus { border-color: var(--pub-color, #c81e1e); }
+.e404-resultats {
+  list-style: none;
+  margin: .3rem 0 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+.e404-resultats li a {
+  display: block;
+  padding: .55rem .9rem;
+  font-size: .9rem;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+.e404-resultats li:last-child a { border-bottom: none; }
+.e404-resultats li a:hover { background: #f7f7f5; }
+.e404-resultats li a mark {
+  background: transparent;
+  color: var(--pub-color, #c81e1e);
+  font-weight: 600;
+}
+.e404-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.2rem;
+  font-size: .88rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.2rem;
+}
+.e404-nav a { color: inherit; }
+.e404-nav a:hover { text-decoration: underline; }
+</style>
+
+<script>
+(function () {
+  const ELEMENTS = {{ $elements | jsonify }};
+
+  const input = document.getElementById('e404-input');
+  const list  = document.getElementById('e404-resultats');
+
+  /* Auto-suggereix basant-se en el fragment de l'URL actual */
+  const slug = location.pathname.split('/').filter(Boolean).pop() || '';
+  if (slug && slug !== 'ca') {
+    const normalized = slug.replace(/-/g, ' ');
+    input.value = normalized;
+    renderResults(normalized);
+  }
+
+  input.addEventListener('input', function () {
+    renderResults(this.value.trim());
+  });
+
+  function renderResults(q) {
+    if (!q || q.length < 2) { list.hidden = true; list.innerHTML = ''; return; }
+    const terms = q.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').split(/\s+/);
+    const matches = ELEMENTS.filter(function (e) {
+      const haystack = e.t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+      return terms.every(function (t) { return haystack.includes(t); });
+    }).slice(0, 12);
+
+    if (!matches.length) {
+      list.innerHTML = '<li><a style="color:#999;cursor:default">Cap resultat</a></li>';
+    } else {
+      list.innerHTML = matches.map(function (e) {
+        return '<li><a href="' + e.u + '">' + highlight(e.t, terms) + '</a></li>';
+      }).join('');
+    }
+    list.hidden = false;
+  }
+
+  function highlight(text, terms) {
+    let out = text;
+    terms.forEach(function (t) {
+      if (!t) return;
+      const re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      out = out.replace(re, '<mark>$1</mark>');
+    });
+    return out;
+  }
+})();
+</script>
+
 {{ end }}

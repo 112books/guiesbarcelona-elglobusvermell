@@ -1,6 +1,7 @@
 ---
 title: "Política de privacitat"
 description: "Com tractem les dades dels visitants d'aquest web."
+aliases: ["/politica-de-privadesa/"]
 ---
 
 ## Responsable del tractament
