@@ -1,123 +1,65 @@
 # PLAN.md — Pla de treball actiu
 
-Última actualització: 28 juliol 2026
+Última actualització: 26 octubre 2026
 
 ---
 
-## Estat actual (28 jul 2026)
+## Estat actual (26 oct 2026)
 
-### ✅ Completat avui
+El web és funcional i en producció a https://guiesbarcelona.elglobusvermell.org/. El CMS (Sveltia) està actiu i en Xavi hi treballa diàriament. Les tasques actuals giren al voltant de la qualitat del contingut (arquitectes, fotos, intervencions) i petites millores del CMS.
 
-- Fitxes sense foto: eliminat placeholder "Imatge pendent", ara no es mostra cap imatge.
-- Mapa: punts compartits entre publicacions dibuixats amb dos o més cercles de colors.
-- Filtre de publicacions: tots els punts atenuats al iniciar, ressaltats al marcar una publicació.
-- Enllaços des de la fitxa: corregit bug d'URL (absURL vs relURL) per al subpath de GitHub Pages.
-- Taxonomia d'arquitectes activa: pàgina de llistat, pàgina individual per arquitecte amb mapa i edificis.
-- Enllaços a arquitectes i publicacions des de la fitxa d'edifici.
-- Llistat de punts desubicats generat amb proposta de geocodificació (`.ai/PUNTS-DESUBICATS.md`).
-- Llistat d'arquitectes combinats a separar generat (`.ai/ARQUITECTES-A-SEPARAR.md`).
-- Diccionari de normalització d'arquitectes duplicats per variants d'ortografia (`.ai/ARQUITECTES-NORMALITZACIO.yaml`).
-- Pàgina de cada guia: secció de descàrregues PDF per idioma preparada.
-- Mail de resposta definitiu a Xavi redactat (`docs/2026-07-28-mail-resposta-definitiu-xavi.md`).
-- Deploy a staging (GitHub Pages) iniciat per Joan.
+### ✅ Completat avui (26 oct 2026)
 
-### ✅ Completat anteriorment (16 jul 2026)
+- **Arquitectes al CMS**: script de migració `corregeix-arquitectes-orfes.py` ha corregit 106 fitxes d'edificis que tenien noms d'arquitecte obsolets (Xavi havia canviat el títol de les fitxes d'arquitecte). 83 noms resolts automàticament. 80 pendents de revisió per Xavi.
+- **Links Viquipèdia**: 3 links canviats d'es.wikipedia a ca.wikipedia (Federico Correa, Beth Galí, Sixte Illescas). Link de Luis Castellón eliminat (apuntava a una persona diferent).
+- **Mapa fullscreen**: desactivació de gestureHandling en entrar a pantalla completa (roda del ratolí lliure). En mòbil: pseudo-fullscreen CSS per evitar overlay del navegador.
+- **fotos_addicionals**: migrades 4 fitxes de format string antic a format objecte `{url, autoria, peu}`. Causa de l'error de guardar al CMS.
+- **autors a intervencions**: camp canviat de `string` a `relation` (selector d'arquitectes). Template `single.html` actualitzat amb backward compat (string antic i llista nova).
+- **Xavi crea arquitectes**: ha creat ~30 fitxes noves d'arquitecte dels 80 pendents (confirmat via pull).
 
-- Estructura `.ai/` creada (PROJECT.md, ARCHITECTURE.md, PLAN.md, QUESTIONS-CLIENT.md)
-- Clau SSH LinuxBCN generada (`~/.ssh/linuxbcn`) i pujada a GitHub
-- 66 edificis importats del dump SQL a Hugo (gatcpac, interiors-illa, poblenou, mercats, biblioteques, 76-08, 09-25)
-- Mapa Leaflet + OpenStreetMap amb marcadors de colors per publicació
-- Filtres de mapa per publicació (llista plana, activables independentment)
-- Logo de guiesbarcelona al header
-- Pàgines estàtiques migrades del WordPress: Presentació, En paper (13 publicacions), Crèdits
-- Navegació: Presentació / Mapa / En paper / Crèdits
-- Fix subpath GitHub Pages (relURL/absURL)
-- Deploy automàtic actiu a https://112books.github.io/guiesbarcelona-elglobusvermell/
+### ✅ Completat anteriorment (oct 2026)
+
+- CMS Sveltia actiu amb tots els editors
+- Camp `arquitectes` a fitxes d'edificis: migrat de text lliure a widget de relació
+- Etiqueta `tipus: individual` eliminada de totes les fitxes
+- 3 fitxes de biblioteca noves amb fotos de Xavi
+- Script de verificació diària de números arreglat
+- Tauler de revisió `/admin/revisio/` actiu
 
 ---
 
 ## Blocants actius
 
-### 🔴 Jorge — accés al servidor actual
-Pendent que Jorge passi: host, usuari, ruta, clau SSH.
-Desbloqueja: migració WordPress, contingut real (564 entrades), imatges, correu.
+### 🔴 Jorge — accés al servidor de producció (LinuxBCN)
+Pendent que Jorge passi credencials SSH (host, usuari, ruta) per poder fer deploy directe.
+Ara: deploy manual via rsync post GitHub Pages.
 
-### 🔴 Google Maps API Key — URGENT (termini: setembre 2026)
-La clau actual pertany a un compte d'alumnes que s'esborrarà al setembre.
-Acció: Xavi ha de crear projecte Google Cloud i generar nova clau.
+### 🟡 80 arquitectes sense fitxa — revisió pendent de Xavi
+Llistat enviat per mail (26 oct). Xavi n'ha creat ~30 avui. Els 50 restants
+poden generar pàgines "fantasma" fins que es creïn o es corregeixi el nom.
 
-### 🟡 Disseny
-Xavi debat internament: colors per publicació vs nou disseny de elglobusvermell.org.
-No bloqueja el desenvolupament actual.
-
-### 🟡 "Filtrar per publicacions" al mapa de l'app
-Pendent de clarificació exacta del comportament esperat.
-
-### 🟡 Separació d'arquitectes combinats
-73 casos detectats (vegeu `.ai/ARQUITECTES-A-SEPARAR.md`). Pendent que Xavi ho revisi o ens demani fer-ho.
-
-### 🟡 PDFs descarregables a "En paper"
-Pendent de rebre els fitxers PDF de cada guia.
+### 🟡 OAuth pel CMS
+Fase 1 (PAT GitHub) activa. Fase 2 (OAuth propi a linuxbcn.com) pendent de Jorge.
 
 ---
 
-## Pròxims passos (per ordre)
+## Pròxims passos
 
-### 1. Quan arribin dades de Jorge
-- Fer còpia del WordPress (wp-content + BD)
-- Importar les 564 entrades reals (edificis + coordenades)
-- Descarregar les imatges
-- Decidir correu: IMAP al nou servidor vs Etik
+### Immediat (sense blocants)
+1. Esperar que Xavi acabi de crear/revisar els 80 arquitectes pendents.
+2. SEO — pendents de `.ai/informe-seo-geo-aeo-2026-09-01.md`.
+3. GoatCounter — integrar mòdul Hugo per a estadístiques.
 
-### 2. Revisió dels canvis publicats a staging
-- Xavi revisa el nou comportament del mapa, enllaços de fitxes i pàgines d'arquitecte.
-- Confirmar esquema de "En paper" (portada + botó PDF).
-
-### 3. Disseny del web de guies
-- Esperar decisió interna de Xavi sobre paleta
-- Alternativa: avançar amb disseny neutre i adaptar colors després
-
-### 3. App Flutter — Fase 1 (inici previst ~18 jul 2026)
-- Eliminar Firebase del codi Flutter
-- Configurar nova Google Maps API Key
-- Compilar app buida per iOS i Android
-
-### 4. App Flutter — Fase 2
-- Decidir arquitectura BD (PostgreSQL vs alternativa)
-- Decidir futur del backoffice Node.js
-- Migrar compte admin Xavi
-
-### 5. App Flutter — Fase 3 (FORA del pressupost aprovat; cal pressupost a part)
-- Llistat d'edificis amb filtres per publicació
-- Fitxa d'edifici amb mapa
-- Mapa general amb punts
-- Filtre "per publicacions" (pendent clarificació)
-
----
-
-## Calendari
-
-| Qui | No disponible |
-|-----|--------------|
-| Joan | 2 setmanes agost (dates per confirmar) |
-| Xavi | 1-9 ago, 22-30 ago, 1-16 set |
-
-**Dipòsit:** 50% previ a l'inici del desenvolupament Flutter (flexible amb Xavi).
-**Pressupost:** 3.900 € de la **webapp** confirmats (`docs/PRESSUPOST-7-GUIA-GUIESBARCELONA.md`). L'app Flutter no entra en aquest pressupost.
+### Quan arribin credencials de Jorge
+- Configurar deploy directe SSH (rsync) al servidor de producció.
+- Configurar OAuth per al CMS (eliminar dependència de PAT GitHub per als editors).
 
 ---
 
 ## Decisions obertes
 
-| Decisió | Opcions | Estat |
-|---------|---------|-------|
-| Correu electrònic | IMAP propi / Etik / seguir amb Gmail | Espera Jorge |
-| Backoffice app | Mantenir Node.js / Reescriure / Headless CMS | Pendent |
-| Base de dades app | PostgreSQL / SQLite / altra | Pendent |
-| Disseny web guies | Colors publicació / Nou rebrand | Xavi decideix |
-| Migració servidor complet | Fase 1 o Fase 2 | Pendent pressupost |
-| Esquema "En paper" | Portada → plànol + botó PDF / només portada | Espera Xavi |
-| Llicència peu de pàgina | © / Creative Commons | Espera Xavi |
-| Separació d'arquitectes combinats | Manual per Xavi / automàtica per LinuxBCN | Espera Xavi |
-| Normalització d'arquitectes duplicats | Aprovar `.ai/ARQUITECTES-NORMALITZACIO.yaml` | Espera Xavi |
-| Correcció de punts desubicats | Aprovar propostes de geocodificació | Espera Xavi |
+| Decisió | Estat |
+|---------|-------|
+| OAuth pel CMS | Pendent credencials Jorge |
+| GoatCounter integració | Pendent (no blocant) |
+| SEO pendents | Pendent (no blocant) |

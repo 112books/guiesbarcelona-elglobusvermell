@@ -1,6 +1,6 @@
 {
   "actualitzat": "2026-10-26",
-  "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10, i el que s'ha fet el 23/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc. Si el desplegable encara et surt amb «Individual», recarrega la pàgina del CMS (⌘⇧R / Ctrl+F5): amb la versió antiga es tornava a desar. També hem tret l'adreça repetida de 37 descripcions, l'etiqueta «Categoria:» que el WordPress havia deixat dins de 66 textos, i la fila «Projecte» que sortia dues vegades. A sota hi ha les preguntes noves que han sortit d'aquesta feina.",
+  "intro": "Revisió dels canvis fets i de les decisions pendents. Darrera sessió: 26/10/2026 — tres correus de Xavi resolts: (1) camp Arquitectes al CMS: 106 fitxes corregides automàticament, links Viquipèdia arreglats; (2) mapa en pantalla completa: roda del ratolí lliure, overlay mòbil eliminat; (3) error en guardar fitxes amb fotos: 4 fitxes migrades al format nou; camp Autors de les Intervencions passa a ser un selector d'arquitectes.",
   "decisions": [
     {
       "id": "b2-edifici-original",
@@ -2214,6 +2214,20 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/biblioteques/"
         }
       ]
+    },
+    {
+      "id": "mapa-fullscreen-gestures",
+      "titol": "Mapa pantalla completa: roda del ratolí i mòbil",
+      "estat": "fet",
+      "descripcio": "Roda del ratolí fa zoom directament (sense Ctrl) quan el mapa és a pantalla completa. En mòbil, evita l'overlay del navegador usant pseudo-fullscreen CSS.",
+      "verificar": "https://guiesbarcelona.elglobusvermell.org/ca/elements/mercat-de-la-boqueria/"
+    },
+    {
+      "id": "cms-autors-intervencions-selector",
+      "titol": "Camp Autors de les Intervencions: ara és un selector",
+      "estat": "fet",
+      "descripcio": "El camp Autors de cada intervenció ara és un selector igual que el camp Arquitectes. En escriure el nom apareix una llista d'opcions.",
+      "verificar": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/"
     }
   ],
   "decisions_nostres": [
@@ -2345,6 +2359,14 @@
         "text": "Doncs de moment el patrimoni en color, la resta en blanc i negre. Dic de moment, ja que no ens posem d’acord…",
         "nostra_accio": "S’aplica aquest criteri provisional."
       }
+    },
+    {
+      "id": "arquitectes-orfes-80-pendents",
+      "titol": "80 arquitectes sense fitxa — revisió pendent",
+      "estat": "pendent",
+      "descripcio": "Llistat enviat per mail el 26/10. Xavi n'ha creat ~30 avui. Els que queden poden generar pàgines \"fantasma\" fins que es creïn o es corregeixi el nom als edificis.",
+      "accio": "Xavi crea les fitxes que vulgui conservar; els que no vulgui afegir cal decidir si es deixen com a text lliure o s'eliminen dels edificis.",
+      "verificar": ""
     }
   ]
 }
