@@ -1,5 +1,9 @@
 ---
 title: slowup
+cognom: ''
 tipus: estudi
-link_web: "https://www.slowup.net/"
+descripcio: ''
+link_coac: ''
+link_wikipedia: ''
+link_web: ''
 ---
