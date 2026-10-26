@@ -98,6 +98,7 @@ elglobusvermell.org/
 
 ## Regles operatives
 
+- **🚫 EL WORDPRESS DE PRODUCCIÓ NO ES TOCA (regla de Joan, 26/10/2026 — repetida tres vegades).** Fins que Joan doni l'**OK definitiu del tall del domini**, el WordPress de producció és **només de lectura**: no s'hi modifica contingut, ni plugins, ni configuració, ni DNS, ni res. L'únic que s'hi fa és **consultar-lo** com a font de veritat per verificar dades. Qualsevol acció que escrigui al WP, o qualsevol proposta de tocar-lo, requereix l'OK explícit de Joan — i mentre no arribi, **no es fa ni es proposa**. Que el domini `guiesbarcelona.elglobusvermell.org` serveixi encara el WordPress és un **fet que es descriu**, mai una invitació a canviar-lo.
 - **pa11y-ci** s'executa a cada commit — PRs no es mergegen si falla WCAG 2.1 AA
 - **Deploy producció és manual** (post-validació staging) — staging és automàtic
 - `./publica-canvis` és el punt d'entrada per als editors (abstrau tot el Git)
