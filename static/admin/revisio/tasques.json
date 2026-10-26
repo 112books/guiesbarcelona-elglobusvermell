@@ -1,6 +1,6 @@
 {
   "actualitzat": "2026-10-26",
-  "intro": "Revisió dels canvis fets i de les decisions pendents. Darrera sessió: 26/10/2026 — tres correus de Xavi resolts: (1) camp Arquitectes al CMS: 106 fitxes corregides automàticament, links Viquipèdia arreglats; (2) mapa en pantalla completa: roda del ratolí lliure, overlay mòbil eliminat; (3) error en guardar fitxes amb fotos: 4 fitxes migrades al format nou; camp Autors de les Intervencions passa a ser un selector d'arquitectes.",
+  "intro": "Darrera sessió: 26/10/2026 (tarda) — millores SEO i UX: (1) dashboard d'estadístiques renovat amb filtres de període (dia/setm./mes/trim./any/tot); (2) xifres de la pàgina de presentació actualitzades (6→13 plànols-guia); (3) nova pàgina 404 amb cerca en viu de tots els elements; (4) dues redireccions WP pendents afegides (privacitat, mapa); (5) fix d'accessibilitat al label de cerca del 404 (contrast 4.48→5.75:1). Pendent de verificació: les noves funcionalitats.",
   "decisions": [
     {
       "id": "b2-edifici-original",
@@ -2228,6 +2228,56 @@
       "estat": "fet",
       "descripcio": "El camp Autors de cada intervenció ara és un selector igual que el camp Arquitectes. En escriure el nom apareix una llista d'opcions.",
       "verificar": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/"
+    },
+    {
+      "id": "stats-filtres-periode",
+      "ref": "S1",
+      "titol": "Dashboard d'estadístiques amb filtres de període",
+      "descripcio": "El tauler de GoatCounter ara permet filtrar per dia, setmana, mes, trimestre, any o tot el temps.",
+      "etiqueta": "nostre",
+      "enllacos": [
+        {
+          "text": "Veure estadístiques",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/stats/"
+        }
+      ],
+      "estat": "fet"
+    },
+    {
+      "id": "seo-xifres-presentacio",
+      "ref": "S2",
+      "titol": "Xifres actualitzades a la pàgina de presentació",
+      "descripcio": "Corregit: 6 plànols-guia → 13 plànols-guia, més de 650 edificis documentats.",
+      "etiqueta": "nostre",
+      "enllacos": [
+        {
+          "text": "Veure presentació",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/presentacio/"
+        }
+      ],
+      "estat": "fet"
+    },
+    {
+      "id": "seo-404-cerca-viu",
+      "ref": "S3",
+      "titol": "Pàgina 404 amb cerca en viu d'elements",
+      "descripcio": "La pàgina d'error ara detecta l'URL intentada i suggereix elements per nom amb marca dels termes coincidents.",
+      "etiqueta": "nostre",
+      "enllacos": [
+        {
+          "text": "Provar 404",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/pagina-inexistent/"
+        }
+      ],
+      "estat": "fet"
+    },
+    {
+      "id": "seo-redireccions-wp",
+      "ref": "S4",
+      "titol": "Redireccions WP pendents: privacitat i mapa",
+      "descripcio": "Afegits aliases: /politica-de-privadesa/ → privacitat; /elements/, /mapa-grisos/, /arquitectura-i-urbanisme/ → mapa.",
+      "etiqueta": "nostre",
+      "estat": "fet"
     }
   ],
   "decisions_nostres": [
