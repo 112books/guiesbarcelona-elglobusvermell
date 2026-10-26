@@ -25,12 +25,19 @@ arquitectes:
 tipologia: ''
 proteccio: ''
 superficie: null
-intervencions: []
+intervencions:
+  - tipus: Projecte
+    autors:
+      - Màrius Quintana i Creus
+      - Beth Galí i Camprubí
+      - Antoni Solanas
+    any: '1990'
+    descripcio: ''
 anys_reforma: []
 premis: []
 lat: 41.3787762
 long: 2.1489949
-descripcio: 'Joan Miró Artista. 1893-1983 Nova Esquerra de l’Eixample Arquitecte: Beth Galí, Màrius Quintana i Antoni Solanas. 1990'
+descripcio: 'Sobre el nom de la biblioteca: Joan Miró, Artista. 1893-1983'
 descripcio_nomenclator: ''
 districte: Eixample
 ---
