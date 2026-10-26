@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-23 (vespre)",
+  "actualitzat": "2026-10-26",
   "intro": "Revisió dels canvis fets i de les decisions pendents, amb les respostes del 30/9, el 9/10, el 13/10 i el 21/10, i el que s'ha fet el 23/10. A cada punt hi tens el text literal del teu correu, la nostra posició quan en tenim, i l'estat: Pendent · Fet (per nosaltres) · Verificat i OK (per tu). Novetat del 23/10: el camp «Tipus» de les fitxes d'arquitecte ja no és obligatori i té l'opció «Cap (sense etiqueta)»; l'etiqueta «Individual» s'ha tret de totes les fitxes i no es mostra enlloc. Si el desplegable encara et surt amb «Individual», recarrega la pàgina del CMS (⌘⇧R / Ctrl+F5): amb la versió antiga es tornava a desar. També hem tret l'adreça repetida de 37 descripcions, l'etiqueta «Categoria:» que el WordPress havia deixat dins de 66 textos, i la fila «Projecte» que sortia dues vegades. A sota hi ha les preguntes noves que han sortit d'aquesta feina.",
   "decisions": [
     {
@@ -1299,11 +1299,19 @@
       "estat": "fet",
       "titol": "Intervencions: arquitectes clicables i «Projecte» per defecte",
       "cita": "Que en aquest apartat sigui on per defecte aparegui el tipus d'intervenció «projecte», però que en puguem triar altres, i que sigui aquí on l'arquitecte pugui ser clicable.",
-      "resultat": "Fet: a l'editor, el tipus d'intervenció surt com a «Projecte» per defecte (se'n poden triar d'altres) i els arquitectes de les intervencions són clicables. Retirar el camp «Arquitectes» repetit depèn de la decisió sobre la duplicitat.",
+      "resultat": "Fet: a l'editor, el tipus d'intervenció surt com a «Projecte» per defecte (se'n poden triar d'altres) i els arquitectes de les intervencions són clicables. Retirar el camp «Arquitectes» repetit depèn de la decisió sobre la duplicitat. 26/10: fora la repetició — si tots els noms del camp «Arquitectes» ja surten a les intervencions (que com a mínim són «Projecte»), la fila «Arquitectes» ja no es mostra; només surt quan hi ha algun nom que no és a les intervencions. I «Anys de reforma» ha desaparegut de la fitxa i del formulari: les reformes van a Intervencions.",
       "enllacos": [
         {
-          "label": "Editor de continguts",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
+          "label": "Plaça dels Països Catalans (només «Projecte»)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/placa-dels-paisos-catalans/"
+        },
+        {
+          "label": "Biblioteca Joan Miró (només «Projecte»)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-joan-miro/"
+        },
+        {
+          "label": "Aparthotel Citadines (sense intervencions: hi surt «Arquitectes»)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/aparthotel-citadines/"
         }
       ],
       "resposta": {
