@@ -143,7 +143,12 @@
            tots els noms, la fila «Arquitecte» sobra (l'artista surt a «Autoria»). */}}
       {{ $nomesAutoria := gt (len (.Params.intervencions | default slice)) 0 }}
       {{ range .Params.intervencions }}{{ if ne .tipus "Autoria" }}{{ $nomesAutoria = false }}{{ end }}{{ end }}
-      {{ with and (not (and $repetida $nomesAutoria)) .Params.arquitectes }}
+      {{/* Unificació Arquitectes/Projecte (Xavi, 21/10): si tots els noms del camp
+           «Arquitectes» ja surten a les intervencions (que com a mínim són
+           «Projecte»), la fila «Arquitectes» no es mostra — la informació és la
+           mateixa i la repetició confonia. Els artistes (només «Autoria») tampoc
+           en mostren. */}}
+      {{ with and (not $repetida) .Params.arquitectes }}
       <div class="fitxa-dada{{ if $repetida }} fitxa-dada-repetida{{ end }}">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
         <dd>
@@ -224,13 +229,8 @@
       {{ end }}
       {{ end }}
 
-      {{/* Camps legacy (reforma simple) */}}
-      {{ with .Params.anys_reforma }}
-      <div class="fitxa-dada">
-        <dt>Reforma</dt>
-        <dd>{{ delimit . ", " }}</dd>
-      </div>
-      {{ end }}
+      {{/* «Anys de reforma» fora de la fitxa (Xavi, 26/10): qualsevol reforma es
+           posa com a intervenció. El camp es manté als fitxers, només no es mostra. */}}
 
       {{ with .Params.premis }}
       <div class="fitxa-dada">

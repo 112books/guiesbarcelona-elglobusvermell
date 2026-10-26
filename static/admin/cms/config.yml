@@ -294,11 +294,7 @@ collections:
             widget: text
             required: false
 
-      - label: Anys de reforma
-        name: anys_reforma
-        widget: list
-        required: false
-        hint: "Un any per línia (camp antic, fer servir Intervencions)"
+      {{/* «Anys de reforma» tret del formulari (Xavi, 26/10): les reformes van a Intervencions. */}}
 
       - label: Premis
         name: premis
