@@ -11,6 +11,6 @@ Podríem dir que Barcelona és un museu "obert" d'arquitectura on, mentre recorr
 
 Però per entendre l'arquitectura i poder "llegir" aquesta història calen claus, informació i coneixement que el contingut d'aquesta web pretén oferir.
 
-Iniciem la web amb els continguts dels 6 plànols-guia editats fins ara dintre de la col·lecció Guies d'Arquitectura i Urbanisme de Barcelona. A partir d'aquí, anirem ampliant les temàtiques contínuament.
+La web recull els continguts dels 13 plànols-guia de la col·lecció Guies d'Arquitectura i Urbanisme de Barcelona, amb més de 650 edificis i elements documentats. Anirem ampliant les temàtiques contínuament.
 
 Esperem que gaudiu!
