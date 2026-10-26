@@ -1,5 +1,9 @@
 ---
 title: SV60 Cordón & Liñán Arquitectos
+cognom: ''
 tipus: estudi
-link_web: "https://www.agcordon.com/"
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/sv60-cordon--linan-arquitectos
+link_wikipedia: ''
+link_web: https://www.agcordon.com/
 ---
