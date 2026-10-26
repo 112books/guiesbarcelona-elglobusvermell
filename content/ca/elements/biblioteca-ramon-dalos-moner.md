@@ -20,7 +20,9 @@ proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: []
+    autors:
+      - Eduard Valencaso
+      - A. Espejo
     any: ''
     descripcio: ''
 anys_reforma: []
