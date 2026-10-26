@@ -250,9 +250,22 @@
     fitWhenReady(0);
 
     // ── Botó de pantalla completa ────────────────────────────────────────
-    // iOS no suporta la Fullscreen API: usem pseudo-fullscreen CSS com a fallback
-    var nativeFs = !!(document.fullscreenEnabled || document.webkitFullscreenEnabled);
+    // En dispositius tàctils s'usa sempre el pseudo-fullscreen CSS: evita el
+    // missatge del navegador ("arrosega des de la part superior…") que tapa
+    // els botons de navegació quan s'invoca la Fullscreen API nativa.
+    var isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    var nativeFs = !isTouchDevice && !!(document.fullscreenEnabled || document.webkitFullscreenEnabled);
     var pseudoFs = false;
+
+    // En pantalla completa, el gestureHandling ja no és necessari: l'usuari
+    // ha maximitzat el mapa deliberadament i pot fer zoom i desplaçar-se
+    // directament (roda del ratolí i un sol dit al mòbil).
+    function setGestureMode(fullscreen) {
+      if (map.gestureHandling && map.gestureHandling.disable) {
+        if (fullscreen) { map.gestureHandling.disable(); map.scrollWheelZoom.enable(); }
+        else            { map.gestureHandling.enable();  map.scrollWheelZoom.disable(); }
+      }
+    }
 
     var SVG_EXPAND   = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>';
     var SVG_COMPRESS = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>';
@@ -286,11 +299,12 @@
           pseudoFs = !pseudoFs;
           mapaEl.classList.toggle('mapa-pseudo-fs', pseudoFs);
           updateIcon();
+          setGestureMode(pseudoFs);
           setTimeout(function () { map.invalidateSize(); }, 100);
         }
       });
 
-      function onFsChange() { updateIcon(); setTimeout(function () { map.invalidateSize(); }, 100); }
+      function onFsChange() { updateIcon(); setGestureMode(isFs()); setTimeout(function () { map.invalidateSize(); }, 100); }
       mapaEl.addEventListener('fullscreenchange', onFsChange);
       mapaEl.addEventListener('webkitfullscreenchange', onFsChange);
 
