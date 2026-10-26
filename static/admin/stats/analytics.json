@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-25T20:20:32.169676Z",
+  "generated": "2026-10-26T03:01:20.304576Z",
   "period": {
-    "start": "2025-10-25",
-    "end": "2026-10-25"
+    "start": "2025-10-26",
+    "end": "2026-10-26"
   },
-  "total": 1286,
+  "total": 1288,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -290,6 +290,10 @@
     {
       "date": "2026-10-24",
       "count": 1
+    },
+    {
+      "date": "2026-10-25",
+      "count": 2
     }
   ],
   "hits": [
@@ -299,7 +303,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 82
+      "count": 83
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
@@ -307,7 +311,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 53
+      "count": 54
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
@@ -415,7 +419,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 864,
+    "guiesbarcelona-elglobusvermell": 866,
     "mapa-filtre-pub": 259,
     "mapa-filtre-tema": 46,
     "mapa-info-pub": 54,
@@ -528,7 +532,8 @@
       "2026-10-21": 1,
       "2026-10-22": 4,
       "2026-10-23": 2,
-      "2026-10-24": 1
+      "2026-10-24": 1,
+      "2026-10-25": 1
     },
     "/guiesbarcelona-elglobusvermell/en-paper": {
       "2026-07-19": 2,
@@ -601,7 +606,8 @@
       "2026-10-16": 1,
       "2026-10-21": 2,
       "2026-10-22": 1,
-      "2026-10-23": 2
+      "2026-10-23": 2,
+      "2026-10-25": 1
     },
     "/guiesbarcelona-elglobusvermell/arquitectes": {
       "2026-08-04": 3,
@@ -1641,7 +1647,8 @@
       "2026-10-21": 27,
       "2026-10-22": 33,
       "2026-10-23": 29,
-      "2026-10-24": 1
+      "2026-10-24": 1,
+      "2026-10-25": 2
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -1753,7 +1760,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 725
+      "count": 726
     }
   ],
   "systems": [
@@ -1765,7 +1772,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 1130
+      "count": 1131
     },
     {
       "name": "Android",
@@ -1787,7 +1794,7 @@
     {
       "name": "desktophd",
       "id": "desktophd",
-      "count": 536
+      "count": 537
     },
     {
       "name": "phone",
@@ -1804,7 +1811,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 2532
+      "count": 2533
     },
     {
       "name": "United States",
@@ -1816,7 +1823,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 581
+      "count": 585
     },
     {
       "name": "Desconegut",
