@@ -4,40 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title>Estadístiques — Guies Barcelona</title>
+  <title>Stats · Guies Barcelona</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer
-          integrity="sha384-e6nUZLBkQ86NJ6TVVKAeSaK8jWa3NhkYWZFomE39AvDbQWeie9PlQqM3pmYW5d1g"
-          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
 
+  <!-- ══ CONFIGURACIÓ ═══════════════════════════════════════════
+       setup.sh omple aquests valors automàticament.
+       Per canviar la contrasenya: echo -n "nova" | sha256sum
+  ═══════════════════════════════════════════════════════════════ -->
   <script>
   const CFG = {
     siteName:     'Guies Barcelona',
     gcUrl:        'https://guiesbarcelona.goatcounter.com',
+    pwHash:       '',
     dataUrl:      'analytics.json',
-    sectionNames: {
-      'elements':      'Edificis',
-      'publicacions':  'Publicacions',
-      'en-paper':      'En paper',
-      'presentacio':   'Presentació',
-      'credits':       'Crèdits',
-      'llicencia':     'Llicència',
-      'legal':         'Legal',
-      'inici':         'Portada',
-    },
+    sectionNames: {"elements": "Edificis", "publicacions": "Publicacions", "en-paper": "En paper", "presentacio": "Presentació", "credits": "Crèdits", "llicencia": "Llicència", "legal": "Legal", "inici": "Portada"},
   };
   </script>
 
   <style>
+    /* ── Variables ──────────────────────────────────────────── */
     :root {
       --bg:      #f5f4f0;
       --ink:     #111110;
       --ink2:    #444440;
       --ink3:    #6b6b66;
-      --accent:  #c81e1e;
-      --accent2: #a01818;
+      --accent:  #d4600a;
+      --accent2: #b04d06;
       --green:   #2d7a2d;
       --blue:    #1a5c9a;
       --border:  #ddddd8;
@@ -56,7 +51,55 @@
       min-height: 100vh;
     }
 
+    /* ── Login ──────────────────────────────────────────────── */
+    #login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .login-box {
+      width: 300px;
+      padding: 2.5rem;
+      border: 1px solid var(--border);
+    }
+    .login-logo {
+      color: var(--ink3);
+      letter-spacing: .15em;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .login-logo em { color: var(--accent); font-style: normal; }
+    #pwd {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      padding: .5rem 0;
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--ink);
+      outline: none;
+      margin-bottom: 1.5rem;
+      letter-spacing: .1em;
+    }
+    #pwd:focus { border-bottom-color: var(--accent); }
+    .btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: .55rem 1.25rem;
+      font-family: inherit;
+      font-size: 12px;
+      letter-spacing: .08em;
+      cursor: pointer;
+    }
+    .btn:hover { background: var(--accent2); }
+    #login-err { min-height: 1.4em; color: var(--warn); font-size: 11px; margin-top: .75rem; }
+
     /* ── Topbar ─────────────────────────────────────────────── */
+    #dashboard { display: none; }
     .topbar {
       display: flex;
       align-items: center;
@@ -70,11 +113,8 @@
       gap: 1rem;
       flex-wrap: wrap;
     }
-    .topbar-logo { display: flex; align-items: center; gap: .75rem; }
-    .topbar-logo a { display: flex; align-items: center; }
-    .topbar-logo img { height: 2rem; width: auto; }
-    .topbar-logo-sep { color: var(--border); font-size: 1.2rem; font-weight: 200; }
-    .topbar-logo-label { color: var(--ink3); font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
+    .topbar-logo { color: var(--ink3); letter-spacing: .12em; font-size: 11px; text-transform: uppercase; }
+    .topbar-logo em { color: var(--accent); font-style: normal; }
     .topbar-meta { flex: 1; min-width: 0; }
     .topbar-gen { font-size: 10px; color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .topbar-gen strong { color: var(--ink2); }
@@ -203,25 +243,6 @@
     .insight em { color: var(--ink); font-style: normal; }
     .insight-line::before { content: '→ '; color: var(--accent); }
 
-    /* ── Resum executiu ─────────────────────────────────────── */
-    .resum-executiu {
-      border: 1px solid var(--accent); background: #fff8f8;
-      padding: 1.1rem 1.4rem; margin-bottom: 2rem;
-    }
-    .resum-header {
-      display: flex; align-items: baseline; justify-content: space-between;
-      margin-bottom: .6rem; gap: 1rem;
-    }
-    .resum-label {
-      font-size: 10px; letter-spacing: .18em; text-transform: uppercase;
-      color: var(--accent); font-weight: 500;
-    }
-    .resum-period { font-size: 10px; color: var(--ink3); }
-    .resum-lines { display: flex; flex-direction: column; gap: .35rem; }
-    .resum-line { font-size: 12px; color: var(--ink2); line-height: 1.6; }
-    .resum-line::before { content: '→ '; color: var(--accent); }
-    .resum-line em { color: var(--ink); font-style: normal; font-weight: 500; }
-
     /* ── Empty ──────────────────────────────────────────────── */
     .empty { color: var(--ink3); font-size: 11px; font-style: italic; padding: .4rem 0; display: block; }
 
@@ -246,38 +267,32 @@
 </head>
 <body>
 
+<!-- ══ LOGIN ════════════════════════════════════════════════ -->
+<div id="login">
+  <form id="login-form" class="login-box" novalidate>
+    <div class="login-logo" id="login-logo"></div>
+    <input id="pwd" type="password" placeholder="·····" autocomplete="current-password" autofocus>
+    <button type="submit" class="btn">→ entrar</button>
+    <div id="login-err"></div>
+  </form>
+</div>
+
 <!-- ══ DASHBOARD ════════════════════════════════════════════ -->
 <div id="dashboard">
 
   <div class="topbar">
-    <div class="topbar-logo">
-      <a href="../../" aria-label="Guies de Barcelona — inici">
-        <img src="../../img/Arquitectura-i-urbanisme-de-barcelona.svg" alt="Guies de Barcelona">
-      </a>
-      <span class="topbar-logo-sep">/</span>
-      <span class="topbar-logo-label">Estadístiques</span>
-    </div>
+    <div class="topbar-logo" id="topbar-logo"></div>
     <div class="topbar-meta">
       <div class="topbar-gen" id="topbar-gen">carregant…</div>
     </div>
     <div class="topbar-actions">
       <a id="gc-link" class="btn-sm" target="_blank" rel="noopener noreferrer">↗ GoatCounter</a>
-      <a href="../" class="btn-sm">← Admin</a>
-      <a href="../../" class="btn-sm">← Web</a>
+      <button type="button" class="btn-sm" id="btn-logout">sortir ×</button>
     </div>
   </div>
 
   <main class="dash-body">
     <div id="banner"></div>
-
-    <!-- Resum executiu -->
-    <div id="resum-executiu" style="display:none" class="resum-executiu">
-      <div class="resum-header">
-        <span class="resum-label">// resum executiu</span>
-        <span class="resum-period" id="resum-period"></span>
-      </div>
-      <div class="resum-lines" id="resum-lines"></div>
-    </div>
 
     <!-- KPIs -->
     <dl class="kpis">
@@ -381,13 +396,47 @@
 </div>
 
 <script>
+/* ══ INIT CONFIG ══════════════════════════════════════════════ */
+document.getElementById('login-logo').innerHTML =
+  CFG.siteName.toUpperCase().replace(/(\w+)$/, '<em>$1</em>') + ' / STATS';
+document.getElementById('topbar-logo').innerHTML =
+  CFG.siteName.toUpperCase().replace(/(\w+)$/, '<em>$1</em>') + ' / STATS';
 document.getElementById('gc-link').href = CFG.gcUrl;
+document.title = 'Stats · ' + CFG.siteName;
 
-showDashboard();
+/* ══ AUTH ═════════════════════════════════════════════════════ */
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+document.getElementById('login-form').addEventListener('submit', async e => {
+  e.preventDefault();
+  const v = document.getElementById('pwd').value;
+  const h = await sha256(v);
+  if (h === CFG.pwHash) {
+    sessionStorage.setItem('gc_ok', '1');
+    showDashboard();
+  } else {
+    document.getElementById('login-err').textContent = 'contrasenya incorrecta';
+    document.getElementById('pwd').value = '';
+    document.getElementById('pwd').focus();
+  }
+});
+
+document.getElementById('btn-logout').addEventListener('click', () => {
+  sessionStorage.removeItem('gc_ok');
+  if (visitsChart) { visitsChart.destroy(); visitsChart = null; }
+  globalData = null;
+  document.getElementById('dashboard').style.display = 'none';
+  document.getElementById('login').style.display = 'flex';
+  document.getElementById('pwd').value = '';
+});
+
+if (!CFG.pwHash || sessionStorage.getItem('gc_ok')) showDashboard();
 
 function showDashboard() {
-  const login = document.getElementById('login');
-  if (login) login.style.display = 'none';
+  document.getElementById('login').style.display = 'none';
   document.getElementById('dashboard').style.display = 'block';
   loadData();
 }
@@ -491,7 +540,6 @@ function renderAll(data) {
   renderLocations(data);
   renderDevices(data);
   renderBrowsersSystems(data);
-  renderResumExecutiu(data);
   renderInsightTemporal(data);
   renderInsightPagines(data);
   renderInsightDispositius(data);
@@ -523,17 +571,17 @@ function renderChart(data) {
         labels,
         datasets: [{
           label: 'Visites', data: values,
-          borderColor: '#c81e1e',
+          borderColor: '#d4600a',
           backgroundColor: ctx2 => {
             const g = ctx2.chart.ctx.createLinearGradient(0, 0, 0, ctx2.chart.height);
-            g.addColorStop(0, 'rgba(200,30,30,0.18)');
-            g.addColorStop(1, 'rgba(200,30,30,0.01)');
+            g.addColorStop(0, 'rgba(212,96,10,0.18)');
+            g.addColorStop(1, 'rgba(212,96,10,0.01)');
             return g;
           },
           fill: true, tension: 0.3,
           pointRadius: values.length > 60 ? 0 : 3,
           pointHoverRadius: 5,
-          pointBackgroundColor: '#c81e1e',
+          pointBackgroundColor: '#d4600a',
           borderWidth: 1.5,
         }],
       },
@@ -763,8 +811,8 @@ function renderDevices(data) {
   setText('dev-desktop-pct', desktop > 0 ? pct(desktop) : '');
 
   renderPie('pie-devices', [
-    { name: 'Mòbil',      count: mobile  },
-    { name: 'Tauleta',    count: tablet  },
+    { name: 'Mòbil',     count: mobile  },
+    { name: 'Tauleta',   count: tablet  },
     { name: 'Escriptori', count: desktop },
   ], { maxSlices: 3 });
 }
@@ -849,87 +897,6 @@ function renderPie(canvasId, items, opts = {}) {
       },
     },
   });
-}
-
-/* ══ RESUM EXECUTIU ══════════════════════════════════════════ */
-function renderResumExecutiu(data) {
-  const hbd    = data.hits_by_day || [];
-  const total  = data.total || 0;
-  if (!total) return;
-
-  const today  = isoToday();
-  const avui   = sumDays(hbd, today, today);
-  const set7   = sumDays(hbd, daysAgo(7), today);
-  const set7b  = sumDays(hbd, daysAgo(14), daysAgo(8));
-  const mes30  = sumDays(hbd, daysAgo(30), today);
-  const avg    = hbd.filter(d => d.count > 0).length > 0
-    ? (total / hbd.filter(d => d.count > 0).length).toFixed(1) : 0;
-
-  const byLang = Object.entries(data.by_lang || {}).sort((a,b) => b[1]-a[1]);
-  const bySec  = Object.entries(data.by_section || {}).sort((a,b) => b[1]-a[1]);
-  const topPg  = (data.hits || [])[0];
-  const sizes  = data.sizes || [];
-
-  const LANGS  = {ca:'Català',es:'Castellà',en:'Anglès',fr:'Francès',de:'Alemany',it:'Italià',pt:'Portuguès'};
-
-  const lines = [];
-
-  // Tendència setmanal
-  if (set7b > 0) {
-    const delta = Math.round((set7 - set7b) / set7b * 100);
-    if (delta > 10)
-      lines.push('Tendència <em>a l\'alça ▲' + delta + '%</em> respecte la setmana anterior (' + fmt(set7) + ' vs ' + fmt(set7b) + ' visites).');
-    else if (delta < -10)
-      lines.push('Tendència <em>a la baixa ▼' + Math.abs(delta) + '%</em> respecte la setmana anterior (' + fmt(set7) + ' vs ' + fmt(set7b) + ' visites).');
-    else
-      lines.push('Trànsit estable: <em>' + fmt(set7) + ' visites</em> els últims 7 dies (±' + Math.abs(delta) + '% vs setmana anterior).');
-  } else {
-    lines.push('Últims 7 dies: <em>' + fmt(set7) + ' visites</em> · Avui: <em>' + fmt(avui) + '</em> · Mitjana/dia: <em>' + avg + '</em>.');
-  }
-
-  // Idioma principal
-  if (byLang.length && total > 0) {
-    const [lang, cnt] = byLang[0];
-    const pct = Math.round(cnt / total * 100);
-    const nom = LANGS[lang] || lang;
-    if (byLang.length > 1) {
-      const [lang2, cnt2] = byLang[1];
-      lines.push('Idioma principal: <em>' + nom + '</em> (' + pct + '%). Segon: <em>' + (LANGS[lang2]||lang2) + '</em> (' + Math.round(cnt2/total*100) + '%).');
-    } else {
-      lines.push('Tot el trànsit és en <em>' + nom + '</em> (' + pct + '%).');
-    }
-  }
-
-  // Secció + pàgina top
-  if (bySec.length && topPg) {
-    const [sec] = bySec[0];
-    const secName = CFG.sectionNames[sec] || sec;
-    lines.push('Secció més visitada: <em>' + secName + '</em>. Pàgina top: <em>' + topPg.path + '</em> (' + fmt(topPg.count) + ' visites).');
-  }
-
-  // Dispositiu
-  let mobile = 0, dsk = 0, tot = 0;
-  sizes.forEach(s => {
-    const id = (s.id||s.name||'').toLowerCase(); const c = s.count||0; tot += c;
-    if (id==='phone') mobile += c;
-    if (['desktop','desktophd','larger'].includes(id)) dsk += c;
-  });
-  if (tot > 0) {
-    const mPct = Math.round(mobile/tot*100);
-    if (mPct > 55)
-      lines.push('<em>' + mPct + '% de les visites des de mòbil</em>: el disseny responsiu és prioritat.');
-    else if (mPct < 35)
-      lines.push('<em>' + Math.round(dsk/tot*100) + '% des d\'escriptori</em>: predomina l\'ús en pantalla gran.');
-    else
-      lines.push('Trànsit equilibrat: <em>' + mPct + '% mòbil</em> · <em>' + Math.round(dsk/tot*100) + '% escriptori</em>.');
-  }
-
-  const p = data.period || {};
-  const el = document.getElementById('resum-executiu');
-  const linesEl = document.getElementById('resum-lines');
-  document.getElementById('resum-period').textContent = fmtPeriod(p.start, p.end);
-  linesEl.innerHTML = lines.map(l => '<div class="resum-line">' + l + '</div>').join('');
-  el.style.display = 'block';
 }
 
 /* ══ INSIGHTS ════════════════════════════════════════════════ */
@@ -1024,11 +991,13 @@ function renderBars(containerId, items, opts = {}) {
     el.innerHTML = '<span class="empty">sense dades</span>';
     return;
   }
+  const max   = items[0].count || 1;
   const total = items.reduce((s,i) => s+i.count, 0) || 1;
   el.className = 'bars';
   el.innerHTML = '';
   items.forEach(item => {
-    const pct  = Math.round(item.count/total*100);
+    const pct  = Math.round(item.count/max*100);
+    const gpct = Math.round(item.count/total*100);
     const name = String(item.name || '?');
 
     const row   = document.createElement('div'); row.className = 'bar-row';
@@ -1047,8 +1016,8 @@ function renderBars(containerId, items, opts = {}) {
     fill.className = 'bar-fill' + (opts.colorClass ? ' '+opts.colorClass : '');
     fill.style.width = '0%';
     fill.dataset.w = pct;
-    if (pct > 12) {
-      const sp = document.createElement('span'); sp.className = 'bar-pct'; sp.textContent = pct+'%';
+    if (gpct > 12) {
+      const sp = document.createElement('span'); sp.className = 'bar-pct'; sp.textContent = gpct+'%';
       fill.appendChild(sp);
     }
     track.appendChild(fill);
