@@ -1,6 +1,5 @@
 ---
 title: Francesc de Riba i Salas
-tipus: individual
 descripcio: ''
 link_coac: ''
 link_wikipedia: ''

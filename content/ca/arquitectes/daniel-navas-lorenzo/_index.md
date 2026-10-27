@@ -1,6 +1,5 @@
 ---
 title: Daniel Navas Lorenzo
-tipus: individual
 descripcio: ''
 link_coac: ''
 link_wikipedia: ''

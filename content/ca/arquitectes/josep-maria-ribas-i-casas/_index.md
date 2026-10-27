@@ -1,6 +1,5 @@
 ---
 title: Josep Maria Ribas i Casas
-tipus: individual
 descripcio: ''
 link_coac: ''
 link_wikipedia: ''

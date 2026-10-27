@@ -1,6 +1,5 @@
 ---
 title: Josep Maria Soteras i Mauri
-tipus: individual
 descripcio: ''
 link_coac: ''
 link_wikipedia: ''

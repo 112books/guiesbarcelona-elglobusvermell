@@ -1,6 +1,5 @@
 ---
 title: Manuel Joaquim Raspall i Mayol
-tipus: individual
 descripcio: ''
 link_coac: ''
 link_wikipedia: ''
