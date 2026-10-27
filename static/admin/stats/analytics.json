@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-26T22:15:10.892592Z",
+  "generated": "2026-10-27T03:33:22.639980Z",
   "period": {
-    "start": "2025-10-26",
-    "end": "2026-10-26"
+    "start": "2025-10-27",
+    "end": "2026-10-27"
   },
-  "total": 1288,
+  "total": 1321,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "date": "2026-07-24",
-      "count": 19
+      "count": 15
     },
     {
       "date": "2026-07-27",
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-07-29",
-      "count": 34
+      "count": 33
     },
     {
       "date": "2026-07-30",
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-08-04",
-      "count": 31
+      "count": 30
     },
     {
       "date": "2026-08-05",
@@ -69,7 +69,7 @@
     },
     {
       "date": "2026-08-07",
-      "count": 47
+      "count": 46
     },
     {
       "date": "2026-08-08",
@@ -97,15 +97,15 @@
     },
     {
       "date": "2026-08-17",
-      "count": 50
+      "count": 52
     },
     {
       "date": "2026-08-18",
-      "count": 78
+      "count": 75
     },
     {
       "date": "2026-08-19",
-      "count": 39
+      "count": 41
     },
     {
       "date": "2026-08-20",
@@ -129,19 +129,19 @@
     },
     {
       "date": "2026-08-28",
-      "count": 51
+      "count": 53
     },
     {
       "date": "2026-08-29",
-      "count": 16
+      "count": 17
     },
     {
       "date": "2026-08-30",
-      "count": 12
+      "count": 13
     },
     {
       "date": "2026-08-31",
-      "count": 79
+      "count": 78
     },
     {
       "date": "2026-09-01",
@@ -149,7 +149,7 @@
     },
     {
       "date": "2026-09-02",
-      "count": 27
+      "count": 26
     },
     {
       "date": "2026-09-03",
@@ -177,7 +177,7 @@
     },
     {
       "date": "2026-09-18",
-      "count": 5
+      "count": 4
     },
     {
       "date": "2026-09-19",
@@ -189,7 +189,7 @@
     },
     {
       "date": "2026-09-21",
-      "count": 8
+      "count": 7
     },
     {
       "date": "2026-09-22",
@@ -197,7 +197,7 @@
     },
     {
       "date": "2026-09-23",
-      "count": 44
+      "count": 43
     },
     {
       "date": "2026-09-25",
@@ -209,11 +209,11 @@
     },
     {
       "date": "2026-09-29",
-      "count": 58
+      "count": 60
     },
     {
       "date": "2026-09-30",
-      "count": 69
+      "count": 68
     },
     {
       "date": "2026-10-01",
@@ -261,11 +261,11 @@
     },
     {
       "date": "2026-10-15",
-      "count": 44
+      "count": 43
     },
     {
       "date": "2026-10-16",
-      "count": 14
+      "count": 13
     },
     {
       "date": "2026-10-19",
@@ -285,7 +285,7 @@
     },
     {
       "date": "2026-10-23",
-      "count": 37
+      "count": 39
     },
     {
       "date": "2026-10-24",
@@ -294,28 +294,32 @@
     {
       "date": "2026-10-25",
       "count": 2
+    },
+    {
+      "date": "2026-10-26",
+      "count": 39
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 138
+      "count": 141
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 83
+      "count": 87
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 60
+      "count": 63
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 54
+      "count": 55
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 48
+      "count": 50
     },
     {
       "path": "/mapa-filtre-pub/50-75",
@@ -327,6 +331,14 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/50-75",
+      "count": 28
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/contacte",
+      "count": 27
+    },
+    {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
       "count": 27
     },
     {
@@ -334,20 +346,12 @@
       "count": 27
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/contacte",
-      "count": 26
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
-      "count": 26
-    },
-    {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/mercats",
-      "count": 23
+      "count": 24
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/poblenou",
-      "count": 22
+      "count": 24
     },
     {
       "path": "/mapa-filtre-pub/gatcpac",
@@ -366,6 +370,10 @@
       "count": 20
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
+      "count": 19
+    },
+    {
       "path": "/mapa-filtre-pub/mercats",
       "count": 19
     },
@@ -380,10 +388,6 @@
     {
       "path": "/mapa-filtre-pub/barceloneta",
       "count": 19
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
-      "count": 18
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
@@ -419,11 +423,11 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 866,
+    "guiesbarcelona-elglobusvermell": 896,
     "mapa-filtre-pub": 259,
     "mapa-filtre-tema": 46,
     "mapa-info-pub": 54,
-    "mapa-clickhttps:": 63
+    "mapa-clickhttps:": 66
   },
   "pages_daily": {
     "/guiesbarcelona-elglobusvermell": {
@@ -487,7 +491,8 @@
       "2026-10-19": 1,
       "2026-10-21": 3,
       "2026-10-22": 4,
-      "2026-10-23": 1
+      "2026-10-23": 1,
+      "2026-10-26": 3
     },
     "/guiesbarcelona-elglobusvermell/mapa": {
       "2026-08-07": 5,
@@ -533,7 +538,8 @@
       "2026-10-22": 4,
       "2026-10-23": 2,
       "2026-10-24": 1,
-      "2026-10-25": 1
+      "2026-10-25": 1,
+      "2026-10-26": 4
     },
     "/guiesbarcelona-elglobusvermell/en-paper": {
       "2026-07-19": 2,
@@ -572,7 +578,8 @@
       "2026-10-19": 1,
       "2026-10-21": 1,
       "2026-10-22": 5,
-      "2026-10-23": 4
+      "2026-10-23": 4,
+      "2026-10-26": 3
     },
     "/guiesbarcelona-elglobusvermell/presentacio": {
       "2026-07-19": 2,
@@ -607,7 +614,8 @@
       "2026-10-21": 2,
       "2026-10-22": 1,
       "2026-10-23": 2,
-      "2026-10-25": 1
+      "2026-10-25": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/arquitectes": {
       "2026-08-04": 3,
@@ -636,7 +644,8 @@
       "2026-10-15": 1,
       "2026-10-21": 2,
       "2026-10-22": 2,
-      "2026-10-23": 2
+      "2026-10-23": 2,
+      "2026-10-26": 2
     },
     "/mapa-filtre-pub/50-75": {
       "2026-07-19": 2,
@@ -710,7 +719,50 @@
       "2026-10-13": 1,
       "2026-10-19": 1,
       "2026-10-21": 1,
-      "2026-10-22": 1
+      "2026-10-22": 1,
+      "2026-10-26": 1
+    },
+    "/guiesbarcelona-elglobusvermell/contacte": {
+      "2026-08-07": 2,
+      "2026-08-17": 2,
+      "2026-08-18": 1,
+      "2026-08-20": 1,
+      "2026-08-28": 1,
+      "2026-08-30": 1,
+      "2026-08-31": 2,
+      "2026-09-02": 2,
+      "2026-09-03": 1,
+      "2026-09-23": 1,
+      "2026-09-29": 1,
+      "2026-09-30": 4,
+      "2026-10-01": 2,
+      "2026-10-09": 1,
+      "2026-10-13": 1,
+      "2026-10-14": 1,
+      "2026-10-22": 1,
+      "2026-10-23": 1,
+      "2026-10-26": 1
+    },
+    "/guiesbarcelona-elglobusvermell/publicacions/gatcpac": {
+      "2026-07-22": 1,
+      "2026-07-28": 2,
+      "2026-08-17": 1,
+      "2026-08-18": 1,
+      "2026-08-21": 2,
+      "2026-08-24": 1,
+      "2026-08-28": 1,
+      "2026-08-29": 1,
+      "2026-08-31": 3,
+      "2026-09-23": 1,
+      "2026-09-29": 1,
+      "2026-09-30": 2,
+      "2026-10-05": 1,
+      "2026-10-14": 1,
+      "2026-10-15": 4,
+      "2026-10-16": 1,
+      "2026-10-21": 1,
+      "2026-10-23": 1,
+      "2026-10-26": 1
     },
     "/mapa-filtre-pub/76-08": {
       "2026-07-19": 1,
@@ -734,46 +786,6 @@
       "2026-10-21": 1,
       "2026-10-22": 1
     },
-    "/guiesbarcelona-elglobusvermell/contacte": {
-      "2026-08-07": 2,
-      "2026-08-17": 2,
-      "2026-08-18": 1,
-      "2026-08-20": 1,
-      "2026-08-28": 1,
-      "2026-08-30": 1,
-      "2026-08-31": 2,
-      "2026-09-02": 2,
-      "2026-09-03": 1,
-      "2026-09-23": 1,
-      "2026-09-29": 1,
-      "2026-09-30": 4,
-      "2026-10-01": 2,
-      "2026-10-09": 1,
-      "2026-10-13": 1,
-      "2026-10-14": 1,
-      "2026-10-22": 1,
-      "2026-10-23": 1
-    },
-    "/guiesbarcelona-elglobusvermell/publicacions/gatcpac": {
-      "2026-07-22": 1,
-      "2026-07-28": 2,
-      "2026-08-17": 1,
-      "2026-08-18": 1,
-      "2026-08-21": 2,
-      "2026-08-24": 1,
-      "2026-08-28": 1,
-      "2026-08-29": 1,
-      "2026-08-31": 3,
-      "2026-09-23": 1,
-      "2026-09-29": 1,
-      "2026-09-30": 2,
-      "2026-10-05": 1,
-      "2026-10-14": 1,
-      "2026-10-15": 4,
-      "2026-10-16": 1,
-      "2026-10-21": 1,
-      "2026-10-23": 1
-    },
     "/guiesbarcelona-elglobusvermell/publicacions/mercats": {
       "2026-08-07": 1,
       "2026-08-17": 1,
@@ -790,7 +802,8 @@
       "2026-10-15": 2,
       "2026-10-16": 4,
       "2026-10-21": 1,
-      "2026-10-23": 1
+      "2026-10-23": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/publicacions/poblenou": {
       "2026-08-05": 1,
@@ -810,7 +823,8 @@
       "2026-10-15": 1,
       "2026-10-21": 1,
       "2026-10-22": 1,
-      "2026-10-23": 1
+      "2026-10-23": 1,
+      "2026-10-26": 2
     },
     "/mapa-filtre-pub/gatcpac": {
       "2026-07-19": 1,
@@ -890,6 +904,26 @@
       "2026-10-21": 1,
       "2026-10-23": 1
     },
+    "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa": {
+      "2026-07-27": 1,
+      "2026-07-28": 2,
+      "2026-08-03": 1,
+      "2026-08-05": 1,
+      "2026-08-17": 1,
+      "2026-08-18": 1,
+      "2026-08-19": 1,
+      "2026-08-21": 1,
+      "2026-08-24": 1,
+      "2026-08-28": 1,
+      "2026-08-29": 1,
+      "2026-08-31": 1,
+      "2026-09-23": 1,
+      "2026-09-29": 1,
+      "2026-10-09": 1,
+      "2026-10-21": 1,
+      "2026-10-23": 1,
+      "2026-10-26": 1
+    },
     "/mapa-filtre-pub/mercats": {
       "2026-07-23": 1,
       "2026-07-24": 1,
@@ -958,25 +992,6 @@
       "2026-10-05": 1,
       "2026-10-14": 1,
       "2026-10-21": 1
-    },
-    "/guiesbarcelona-elglobusvermell/publicacions/interiors-illa": {
-      "2026-07-27": 1,
-      "2026-07-28": 2,
-      "2026-08-03": 1,
-      "2026-08-05": 1,
-      "2026-08-17": 1,
-      "2026-08-18": 1,
-      "2026-08-19": 1,
-      "2026-08-21": 1,
-      "2026-08-24": 1,
-      "2026-08-28": 1,
-      "2026-08-29": 1,
-      "2026-08-31": 1,
-      "2026-09-23": 1,
-      "2026-09-29": 1,
-      "2026-10-09": 1,
-      "2026-10-21": 1,
-      "2026-10-23": 1
     },
     "/guiesbarcelona-elglobusvermell/publicacions/76-08": {
       "2026-07-28": 1,
@@ -1157,15 +1172,6 @@
       "2026-09-02": 1,
       "2026-09-29": 1
     },
-    "/guiesbarcelona-elglobusvermell/arquitectes/aeb": {
-      "2026-08-04": 1,
-      "2026-08-07": 1,
-      "2026-08-17": 2,
-      "2026-08-18": 1,
-      "2026-08-19": 1,
-      "2026-09-29": 2,
-      "2026-10-22": 1
-    },
     "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/museu-can-framis-i-jardins-de-miquel-marti-i-pol": {
       "2026-07-28": 1,
       "2026-07-29": 1,
@@ -1175,7 +1181,28 @@
       "2026-09-29": 1,
       "2026-10-15": 1,
       "2026-10-21": 1,
+      "2026-10-22": 1,
+      "2026-10-26": 1
+    },
+    "/guiesbarcelona-elglobusvermell/arquitectes/aeb": {
+      "2026-08-04": 1,
+      "2026-08-07": 1,
+      "2026-08-17": 2,
+      "2026-08-18": 1,
+      "2026-08-19": 1,
+      "2026-09-29": 2,
       "2026-10-22": 1
+    },
+    "/guiesbarcelona-elglobusvermell/elements/museu-can-framis-i-jardins-de-miquel-marti-i-pol": {
+      "2026-07-28": 1,
+      "2026-07-29": 1,
+      "2026-08-18": 1,
+      "2026-08-31": 1,
+      "2026-09-29": 1,
+      "2026-10-15": 1,
+      "2026-10-21": 1,
+      "2026-10-22": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/elements/biblioteca-les-roquetes-rafa-juncadella": {
       "2026-07-24": 1,
@@ -1221,15 +1248,14 @@
       "2026-10-15": 1,
       "2026-10-22": 1
     },
-    "/guiesbarcelona-elglobusvermell/elements/museu-can-framis-i-jardins-de-miquel-marti-i-pol": {
-      "2026-07-28": 1,
-      "2026-07-29": 1,
+    "/guiesbarcelona-elglobusvermell/publicacions/barceloneta": {
+      "2026-07-29": 2,
       "2026-08-18": 1,
-      "2026-08-31": 1,
-      "2026-09-29": 1,
-      "2026-10-15": 1,
+      "2026-08-24": 1,
+      "2026-08-28": 1,
+      "2026-09-23": 1,
       "2026-10-21": 1,
-      "2026-10-22": 1
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner": {
       "2026-07-24": 1,
@@ -1255,13 +1281,14 @@
       "2026-10-14": 1,
       "2026-10-15": 1
     },
-    "/guiesbarcelona-elglobusvermell/publicacions/barceloneta": {
-      "2026-07-29": 2,
-      "2026-08-18": 1,
-      "2026-08-24": 1,
-      "2026-08-28": 1,
-      "2026-09-23": 1,
-      "2026-10-21": 1
+    "/guiesbarcelona-elglobusvermell/elements/can-framis-fundacio-vila-casas": {
+      "2026-07-29": 1,
+      "2026-09-29": 1,
+      "2026-10-15": 1,
+      "2026-10-16": 1,
+      "2026-10-21": 1,
+      "2026-10-22": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/elements/biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra": {
       "2026-07-24": 1,
@@ -1282,6 +1309,13 @@
       "2026-08-31": 2,
       "2026-10-13": 1,
       "2026-10-21": 2
+    },
+    "/guiesbarcelona-elglobusvermell/arquitectes/a.-espejo": {
+      "2026-08-18": 1,
+      "2026-08-30": 1,
+      "2026-10-21": 2,
+      "2026-10-22": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/publicacions/marina": {
       "2026-08-18": 1,
@@ -1312,24 +1346,29 @@
       "2026-10-15": 1,
       "2026-10-23": 1
     },
-    "/guiesbarcelona-elglobusvermell/elements/can-framis-fundacio-vila-casas": {
+    "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/can-framis-fundacio-vila-casas": {
       "2026-07-29": 1,
       "2026-09-29": 1,
       "2026-10-15": 1,
-      "2026-10-16": 1,
       "2026-10-21": 1,
-      "2026-10-22": 1
+      "2026-10-22": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/elements": {
       "2026-07-19": 4,
       "2026-08-05": 1,
       "2026-08-21": 1
     },
-    "/guiesbarcelona-elglobusvermell/arquitectes/a.-espejo": {
+    "/guiesbarcelona-elglobusvermell/elements/nest-city-lab": {
       "2026-08-18": 1,
-      "2026-08-30": 1,
-      "2026-10-21": 2,
-      "2026-10-22": 1
+      "2026-10-22": 1,
+      "2026-10-23": 2,
+      "2026-10-26": 1
+    },
+    "/guiesbarcelona-elglobusvermell/arquitectes/straddle3": {
+      "2026-08-18": 1,
+      "2026-08-28": 2,
+      "2026-10-26": 2
     },
     "/mapa-info-pub/biblioteques": {
       "2026-08-18": 1,
@@ -1338,12 +1377,26 @@
       "2026-09-01": 1,
       "2026-09-21": 1
     },
+    "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/placa-i-mercat-de-la-marina": {
+      "2026-08-18": 1,
+      "2026-09-23": 1,
+      "2026-10-15": 1,
+      "2026-10-22": 1,
+      "2026-10-26": 1
+    },
     "/mapa-info-pub/76-08": {
       "2026-08-18": 1,
       "2026-08-19": 1,
       "2026-08-24": 1,
       "2026-08-31": 1,
       "2026-09-30": 1
+    },
+    "/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord": {
+      "2026-08-18": 1,
+      "2026-08-31": 1,
+      "2026-10-21": 1,
+      "2026-10-22": 1,
+      "2026-10-26": 1
     },
     "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner": {
       "2026-08-17": 1,
@@ -1352,17 +1405,15 @@
       "2026-10-15": 1,
       "2026-10-22": 1
     },
+    "/guiesbarcelona-elglobusvermell/arquitectes/antoni-casellas": {
+      "2026-08-17": 2,
+      "2026-08-18": 1,
+      "2026-10-26": 2
+    },
     "/guiesbarcelona-elglobusvermell/arquitectes/lorenzo-garc%C3%ADa-barb%C3%B3n": {
       "2026-08-17": 2,
       "2026-08-31": 1,
       "2026-09-23": 2
-    },
-    "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/can-framis-fundacio-vila-casas": {
-      "2026-07-29": 1,
-      "2026-09-29": 1,
-      "2026-10-15": 1,
-      "2026-10-21": 1,
-      "2026-10-22": 1
     },
     "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/fundacio-joan-miro": {
       "2026-07-28": 1,
@@ -1376,6 +1427,19 @@
       "2026-09-01": 1,
       "2026-09-21": 1,
       "2026-09-23": 1
+    },
+    "/guiesbarcelona-elglobusvermell/elements/biblioteca-joan-miro": {
+      "2026-07-24": 1,
+      "2026-09-01": 1,
+      "2026-10-23": 1,
+      "2026-10-26": 2
+    },
+    "/guiesbarcelona-elglobusvermell/elements/biblioteca-jaume-fuster": {
+      "2026-07-24": 1,
+      "2026-08-18": 1,
+      "2026-08-29": 1,
+      "2026-09-01": 1,
+      "2026-10-26": 1
     },
     "/guiesbarcelona-elglobusvermell/elements/antic-escorxador": {
       "2026-07-24": 1,
@@ -1410,6 +1474,12 @@
       "2026-10-15": 1,
       "2026-10-21": 1
     },
+    "/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-talaia": {
+      "2026-08-29": 1,
+      "2026-08-30": 1,
+      "2026-10-23": 1,
+      "2026-10-26": 1
+    },
     "/mapa-info-pub/gatcpac": {
       "2026-08-21": 1,
       "2026-08-31": 1,
@@ -1421,11 +1491,6 @@
       "2026-08-31": 1,
       "2026-09-29": 1,
       "2026-10-15": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/nest-city-lab": {
-      "2026-08-18": 1,
-      "2026-10-22": 1,
-      "2026-10-23": 2
     },
     "/guiesbarcelona-elglobusvermell/arquitectes/enric-miralles": {
       "2026-08-18": 1,
@@ -1451,12 +1516,6 @@
       "2026-08-28": 2,
       "2026-09-02": 1
     },
-    "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/placa-i-mercat-de-la-marina": {
-      "2026-08-18": 1,
-      "2026-09-23": 1,
-      "2026-10-15": 1,
-      "2026-10-22": 1
-    },
     "/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-i-escola-mallorca": {
       "2026-08-18": 1,
       "2026-08-19": 1,
@@ -1468,12 +1527,6 @@
       "2026-08-19": 1,
       "2026-09-29": 1,
       "2026-10-15": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/parc-de-lestacio-del-nord": {
-      "2026-08-18": 1,
-      "2026-08-31": 1,
-      "2026-10-21": 1,
-      "2026-10-22": 1
     },
     "/guiesbarcelona-elglobusvermell/arquitectes/embt": {
       "2026-08-17": 2,
@@ -1527,52 +1580,23 @@
       "2026-08-19": 1,
       "2026-08-21": 1
     },
+    "/guiesbarcelona-elglobusvermell/elements/torre-banco-atlantico-ara-banc-sabadell": {
+      "2026-07-28": 1,
+      "2026-08-19": 1,
+      "2026-09-29": 1,
+      "2026-10-26": 1
+    },
+    "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-banco-atlantico-ara-banc-sabadell": {
+      "2026-07-28": 1,
+      "2026-08-19": 1,
+      "2026-09-29": 1,
+      "2026-10-26": 1
+    },
     "/guiesbarcelona-elglobusvermell/elements/pavello-de-la-republica-biblioteca-crai-ub": {
       "2026-07-28": 1,
       "2026-08-24": 1,
       "2026-08-29": 1,
       "2026-10-09": 1
-    },
-    "/mapa-clickhttps://112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-de-sofia-barat": {
-      "2026-07-28": 2,
-      "2026-07-29": 1,
-      "2026-09-02": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/biblioteca-la-sagrera-marina-clotet": {
-      "2026-07-24": 1,
-      "2026-08-04": 1,
-      "2026-08-18": 1,
-      "2026-09-01": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/biblioteca-prosperitat-ideal-plastica-flor": {
-      "2026-07-24": 1,
-      "2026-08-18": 1,
-      "2026-08-31": 1,
-      "2026-09-18": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/bloc-dels-pescadors": {
-      "2026-07-24": 1,
-      "2026-08-18": 1,
-      "2026-10-15": 1,
-      "2026-10-16": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/biblioteca-vila-de-gracia-rosa-maria-arquimbau": {
-      "2026-07-24": 1,
-      "2026-08-18": 1,
-      "2026-09-21": 1,
-      "2026-09-23": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/biblioteca-sant-antoni-joan-oliver-casal-davis-i-jardins-de-candida-perez": {
-      "2026-07-24": 1,
-      "2026-08-07": 1,
-      "2026-08-18": 1,
-      "2026-09-30": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/biblioteca-jaume-fuster": {
-      "2026-07-24": 1,
-      "2026-08-18": 1,
-      "2026-08-29": 1,
-      "2026-09-01": 1
     }
   },
   "sections_daily": {
@@ -1582,35 +1606,35 @@
       "2026-07-21": 5,
       "2026-07-22": 6,
       "2026-07-23": 2,
-      "2026-07-24": 15,
+      "2026-07-24": 11,
       "2026-07-27": 7,
-      "2026-07-28": 20,
+      "2026-07-28": 21,
       "2026-07-29": 8,
       "2026-07-30": 2,
       "2026-07-31": 3,
       "2026-08-03": 6,
-      "2026-08-04": 20,
+      "2026-08-04": 19,
       "2026-08-05": 26,
       "2026-08-06": 4,
-      "2026-08-07": 33,
+      "2026-08-07": 32,
       "2026-08-08": 1,
       "2026-08-10": 2,
       "2026-08-11": 2,
       "2026-08-12": 1,
       "2026-08-13": 2,
       "2026-08-14": 1,
-      "2026-08-17": 44,
-      "2026-08-18": 56,
-      "2026-08-19": 19,
+      "2026-08-17": 46,
+      "2026-08-18": 53,
+      "2026-08-19": 20,
       "2026-08-20": 13,
       "2026-08-21": 18,
       "2026-08-22": 3,
       "2026-08-24": 15,
       "2026-08-27": 1,
-      "2026-08-28": 46,
-      "2026-08-29": 12,
-      "2026-08-30": 11,
-      "2026-08-31": 48,
+      "2026-08-28": 48,
+      "2026-08-29": 13,
+      "2026-08-30": 12,
+      "2026-08-31": 47,
       "2026-09-01": 9,
       "2026-09-02": 16,
       "2026-09-03": 10,
@@ -1619,16 +1643,16 @@
       "2026-09-13": 1,
       "2026-09-14": 3,
       "2026-09-15": 4,
-      "2026-09-18": 5,
+      "2026-09-18": 4,
       "2026-09-19": 1,
       "2026-09-20": 1,
-      "2026-09-21": 6,
+      "2026-09-21": 5,
       "2026-09-22": 1,
-      "2026-09-23": 24,
+      "2026-09-23": 23,
       "2026-09-25": 7,
       "2026-09-28": 5,
-      "2026-09-29": 30,
-      "2026-09-30": 43,
+      "2026-09-29": 31,
+      "2026-09-30": 42,
       "2026-10-01": 10,
       "2026-10-02": 2,
       "2026-10-04": 1,
@@ -1640,15 +1664,16 @@
       "2026-10-12": 1,
       "2026-10-13": 12,
       "2026-10-14": 19,
-      "2026-10-15": 33,
-      "2026-10-16": 14,
+      "2026-10-15": 32,
+      "2026-10-16": 13,
       "2026-10-19": 5,
       "2026-10-20": 1,
       "2026-10-21": 27,
       "2026-10-22": 33,
-      "2026-10-23": 29,
+      "2026-10-23": 31,
       "2026-10-24": 1,
-      "2026-10-25": 2
+      "2026-10-25": 2,
+      "2026-10-26": 35
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -1689,25 +1714,25 @@
     "mapa-clickhttps:": {
       "2026-07-19": 2,
       "2026-07-20": 1,
-      "2026-07-28": 4,
-      "2026-07-29": 6,
+      "2026-07-28": 3,
+      "2026-07-29": 5,
       "2026-07-31": 2,
       "2026-08-04": 2,
       "2026-08-07": 3,
       "2026-08-17": 2,
       "2026-08-18": 2,
-      "2026-08-19": 2,
+      "2026-08-19": 3,
       "2026-08-28": 3,
       "2026-08-31": 4,
-      "2026-09-02": 1,
       "2026-09-03": 1,
       "2026-09-23": 4,
-      "2026-09-29": 7,
+      "2026-09-29": 8,
       "2026-10-14": 1,
       "2026-10-15": 7,
       "2026-10-21": 3,
       "2026-10-22": 4,
-      "2026-10-23": 2
+      "2026-10-23": 2,
+      "2026-10-26": 4
     },
     "mapa-info-pub": {
       "2026-08-03": 4,
@@ -1823,27 +1848,27 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 585
+      "count": 589
     },
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 483
+      "count": 491
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 296
+      "count": 311
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 150
+      "count": 161
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 134
+      "count": 154
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/poblenou",
@@ -1858,7 +1883,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 60
+      "count": 69
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/interiors-illa",
@@ -1898,7 +1923,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats",
-      "count": 25
+      "count": 26
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio",
@@ -1968,6 +1993,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/raimon-duran-i-reynals",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/raimon-duran-i-reynals",
+      "count": 7
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-joan-miro",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-joan-miro",
       "count": 7
     },
     {
@@ -2061,6 +2091,11 @@
       "count": 4
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/baas-arquitectura",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/baas-arquitectura",
+      "count": 4
+    },
+    {
       "name": "github.com",
       "id": "github.com",
       "count": 3
@@ -2133,6 +2168,11 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/tallers-oliva-artes",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/tallers-oliva-artes",
+      "count": 3
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/a.-espejo",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/a.-espejo",
       "count": 3
     },
     {
@@ -2226,13 +2266,13 @@
       "count": 2
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-talaia",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-talaia",
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-jaume-fuster",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-jaume-fuster",
       "count": 2
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/a.-espejo",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/a.-espejo",
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-talaia",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-talaia",
       "count": 2
     },
     {
@@ -2276,8 +2316,18 @@
       "count": 2
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/placa-i-mercat-de-la-marina",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/placa-i-mercat-de-la-marina",
+      "count": 2
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/antic-escorxador",
+      "count": 2
+    },
+    {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/nest-city-lab",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/nest-city-lab",
       "count": 2
     },
     {
@@ -2286,39 +2336,14 @@
       "count": 2
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-mas-enric",
-      "count": 1
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/jos%C3%A9-luis-sanz-magall%C3%B3n",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/jos%C3%A9-luis-sanz-magall%C3%B3n",
+      "count": 2
     },
     {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/torre-julia",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/illa-dequipaments-alchemika",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-muntaner",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-muntaner",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-can-roses",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/masia-can-roses",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/conjunt-del-congres-eucaristic",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/conjunt-del-congres-eucaristic",
-      "count": 1
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/hotel-w-barcelona",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/hotel-w-barcelona",
-      "count": 1
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/sandra-mart%C3%ADn-lara",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/sandra-mart%C3%ADn-lara",
+      "count": 2
     }
   ]
 }
