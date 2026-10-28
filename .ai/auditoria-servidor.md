@@ -19,7 +19,10 @@
 | Programari de gestió | **YunoHost** — https://yunohost.org |
 | Panell d'administració | https://panel.elglobusvermell.org/yunohost/admin/ |
 | CLI administració | `yunohost help` / `yunohost app list` (doc: https://doc.yunohost.org/en/admin/command_line) |
-| RAM / Disc / CPU | [PENDENT — veure panel YunoHost o `free -h` / `df -h`] |
+| Pla Hetzner | CPX11 + Volum 40 GB + Backup activat |
+| RAM / Disc / CPU | 2 vCPU · 2 GB RAM · 40 GB SSD NVMe + 40 GB volum addicional |
+| Titular compte Hetzner | Jorge Vitoria Rubio (Virtubio.net) — Customer ID K0628817718 · vol traspassar |
+| Cost mensual VPS | ~9,38 € sense IVA (CPX11 5,49 + volum 2,29 + IPv4 0,50 + backup 1,10) |
 
 ---
 
@@ -101,9 +104,10 @@
 | Recepció | Servidor rep → redirigit a Gmail (no s'emmagatzema localment) |
 | MX | `elglobusvermell.org` (prioritat 10) → 195.201.2.76 |
 | SPF | `v=spf1 a mx -all` — configurat |
-| DKIM | [PENDENT — YunoHost configura DKIM automàticament; cal verificar] |
+| DKIM | Configurat i actiu. Selector: `mail._domainkey.elglobusvermell.org` |
 | DMARC | [PENDENT — `dig TXT _dmarc.elglobusvermell.org`] |
-| Comptes | [PENDENT — `yunohost user list`] |
+| Comptes | A `/root/2026-10-28-elglobus-users-info.txt` al servidor |
+| Redireccions Gmail | A `/root/2026-10-28-elglobus-users-info.txt` al servidor |
 
 **Nota:** L'arquitectura actual (servidor de correu propi + redirecció a Gmail) és funcional però comporta responsabilitat de manteniment del servidor de correu (reputació IP, llistes negres, actualitzacions). Alternativa més simple: migrar MX directament a Gmail/Google Workspace i eliminar el relay.
 
@@ -128,10 +132,10 @@
 
 | Camp | Valor |
 |------|-------|
-| Port SSH | [PENDENT — no és el 22; filtrat des de l'exterior. Confirmar amb Jorge.] |
-| Usuari | root (accés confirmat per Jorge) |
+| Port SSH | **21100** |
+| Usuari | tech (accés root via `sudo su -` o sessions tmux de Jorge) |
 | Autenticació | Clau pública SSH (clau LinuxBCN ja afegida) |
-| Permisos anteriors | Limitats (corregit per Jorge el 26/10/2026 — ara root) |
+| Permisos anteriors | Limitats (corregit per Jorge el 26/10/2026 — ara root via sudo) |
 | Gestió usuaris | `yunohost user list` |
 | Panell web alternatiu | https://panel.elglobusvermell.org/yunohost/admin/ |
 
