@@ -1,6 +1,6 @@
 # Verificació diària dels números del web
 
-**Execució:** 27/10/2026 12:30 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 28/10/2026 13:18 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
 ## Resultat: ✅ tot coincideix
 
@@ -24,16 +24,10 @@
 - Amb coordenades: **656** — sense: 1 (flors-de-la-rambla.md)
 - Noms d'arquitecte a les fitxes: **288** · pàgines de publicació creades: 13
 
-## Canvis respecte l'última verificació
-
-- Arquitectes: la xifra publicada ha canviat (290 → 288) — confirmar que el canvi és intencionat.
-- Arquitectes: el contingut del repo ha canviat (290 → 288) des d'ahir.
-
 ## Històric (últims 14 dies)
 
 | Data | Edificis | Guies | Arquitectes | Anys |
 |---|---|---|---|---|
-| 2026-10-14 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-15 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-16 | 656 | 13 | 273 | 1928–2026 |
 | 2026-10-17 | 656 | 13 | 273 | 1928–2026 |
@@ -47,6 +41,7 @@
 | 2026-10-25 | 656 | 13 | 291 | 1928–2026 |
 | 2026-10-26 | 656 | 13 | 290 | 1928–2026 |
 | 2026-10-27 | 656 | 13 | 288 | 1928–2026 |
+| 2026-10-28 | 656 | 13 | 288 | 1928–2026 |
 
 ---
 
