@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-31T20:56:25.874242Z",
+  "generated": "2026-11-01T04:07:59.375492Z",
   "period": {
-    "start": "2025-10-31",
-    "end": "2026-10-31"
+    "start": "2025-11-01",
+    "end": "2026-11-01"
   },
-  "total": 1328,
+  "total": 1332,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -306,6 +306,10 @@
     {
       "date": "2026-10-30",
       "count": 7
+    },
+    {
+      "date": "2026-10-31",
+      "count": 4
     }
   ],
   "hits": [
@@ -315,7 +319,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 89
+      "count": 93
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
@@ -431,7 +435,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 903,
+    "guiesbarcelona-elglobusvermell": 907,
     "mapa-filtre-pub": 259,
     "mapa-filtre-tema": 46,
     "mapa-info-pub": 54,
@@ -550,7 +554,8 @@
       "2026-10-24": 1,
       "2026-10-25": 1,
       "2026-10-26": 4,
-      "2026-10-30": 2
+      "2026-10-30": 2,
+      "2026-10-31": 4
     },
     "/guiesbarcelona-elglobusvermell/en-paper": {
       "2026-07-19": 2,
@@ -1687,7 +1692,8 @@
       "2026-10-25": 2,
       "2026-10-26": 36,
       "2026-10-28": 1,
-      "2026-10-30": 7
+      "2026-10-30": 7,
+      "2026-10-31": 4
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -1862,17 +1868,17 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 594
+      "count": 600
     },
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 493
+      "count": 494
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 317
+      "count": 319
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
