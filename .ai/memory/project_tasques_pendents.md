@@ -1,28 +1,62 @@
 ---
 name: Tasques pendents — guiesbarcelona
-description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-09-04)
+description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-10-10)
 type: project
 originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
+## Resposta de Xavi (2026-10-09)
+
+- ✅ **S1 — CMS «Publicacions» (pantalla negra)**: resolt. El camp `select multiple` amb 13 opcions obria el desplegable de tags (un `<dialog>` modal) que en alguns navegadors deixava la pantalla en negre. S'ha afegit `dropdown_threshold: 20` a `static/admin/cms/config.yml` (caselles de selecció, com a «Temes transversals») i s'ha pujat `CMS_CACHE_VERSION`. Verificat amb Chrome headless sobre la configuració real.
+- 📄 Documentat el correu a `.ai/RESPOSTES-XAVI-2026-10-09.md` (font literal a `.ai/fonts-xavi/2026-10-09-xavi-resposta-revisio.md`).
+- 🔴 **Prioritat**: validar S1 amb Xavi/Joan al navegador real i publicar-ho a staging.
+- 🟠 **Temes nous**: S2 (sense faixa de color a les fitxes ni al títol), S3 («En paper» en dues columnes, textos desplegats).
+- 🟠 **Portada i disseny**: S9 (redisseny P6: 3 blocs, mapa a sang, peu unificat), S10 (filtre de temes al mapa), S11 (carrusel), S12 (títols «En paper»), S15 (amplada + imatge), S24 (tipografia).
+- 🟠 **Errors de traspàs**: S5–S8 (foto de portada a biblioteques, dades dins «projecte», adreça atrapada, sense camp «projecte»). Cal diagnosi abans de tocar.
+- 🟡 **Altres**: S13 (color de la «i»), S14 (color parcial B/N), S16 (veu), S17 (anys), S18–S20 (duplicats de migració), S21 (cognom arquitectes), S22 (pins multicolor), S25 (punts amagats clicables), S26 (intervencions), S27 (nom d'arxiu).
+- ⏳ **Pendent resposta Xavi**: tipografia (S24), paleta (S23), manual vs automàtic a «projecte» (S6), dubte vinculació arquitectes (S21), tall del domini i usuaris GitHub.
+
+### Pendents (13/10)
+
+- ⏳ **Amplada de la columna de text (G1/R9)** — deixar triar a Xavi entre tres opcions: **actual** (52 rem), **més ample** (64 rem) i **la més ampla** (`min(110rem, 96vw)`, pocs marges). Fora la variant estreta.
+- ⏳ **Efecte de salt en scroll a la portada (S9/P6)** — Xavi ho va dir de viva veu: sense opcions «Inici / Guies / Mapa»; els tres blocs han de donar sensació de tres apartats amb salt en fer scroll.
+- Detall a `.ai/REVISIO-CORREU-XAVI-2026-10-09-ESTAT.md` (C11, D28, D6, D17 i «Notes verbals»).
+
+### Fets (loop 2026-10-10)
+
+- ✅ **S2** — fora la faixa de color i el color del títol a les fitxes.
+- ✅ **S12** — «En paper»: títols nous, «Usos», sense any d'edició i portada més gran.
+- ✅ **S13** — la «i» dels temes transversals sense color.
+- ✅ **S15** — amplada de la columna de text més ampla (64rem); la imatge a l'esquerra del títol queda pendent de disseny.
+- ✅ **S18** — Navas: eliminades la genèrica i la 238, redirigides a la 240.
+- ✅ **S19** — eliminada la fitxa errònia «Casa unifamiliar» (Duran i Reynals), redirigida a Lluís Barangé.
+- ✅ **S20** — fusionades les dues fitxes del Pavelló de la República.
+- ✅ **S25** — els punts filtrats del mapa ja no són clicables ni enfocables.
+- ✅ **S27** — nom d'arxiu de la foto descarregada = nom de la fitxa (sense «elglobusvermell»).
+- ✅ **S16** — botó d'escoltar a la dreta (ja estava fet a R7).
+- ✅ **S21** — camp **«cognom»** al CMS + ordenació del llistat d'arquitectes per cognom + resposta al dubte del vincle (A1).
+- ✅ **S26** — `intervencions`: tipus **«Projecte» per defecte** (select) i **autors clicables** a la fitxa.
+- 📄 **S5–S8** — diagnosi a `.ai/DIAGNOSI-TRASPAS-2026-10.md`; a més, **25 fitxes** amb un ` | ` final a `adreca` netejades.
+- 🏁 **Loop tancat** (goal completat el 2026-10-10). CI `Deploy → GitHub Pages` i `pa11y-ci` verds a tots els lots.
+
 ---
 
-## Resoltes (sessions 2026-10-23 a 2026-10-26)
+## Resoltes (sessió 2026-10-01)
 
-- ✅ **Fotos biblioteques aplicades** — 23 biblioteques actualitzades amb fotos de Xavi; 6 sense foto (pendents Xavi)
-- ✅ **106 fitxes arquitectes corregides** — script `corregeix-arquitectes-orfes.py`; noms obsolets resolts automàticament
-- ✅ **Links Viquipèdia castellà→català** — 4 arquitectes corregits
-- ✅ **Mapa fullscreen gestures** — gestureHandling desactivat en fullscreen; pseudo-fullscreen CSS mòbil
-- ✅ **fotos_addicionals migrades** — 4 fitxes de format string antic a objecte `{url, autoria, peu}`
-- ✅ **autors intervencions: string→relation** — CMS + template backward compat
-- ✅ **Dashboard GoatCounter amb filtres de període** — dia/setm./mes/trim./any/tot
-- ✅ **Xifres presentació actualitzades** — 6→13 plànols-guia, +650 elements
-- ✅ **Pàgina 404 amb cerca en viu** — auto-detecta URL, filtra 658 elements, accents normalitzats
-- ✅ **Redireccions WP: privacitat + mapa** — 4 aliases afegits, cobertura 100%
-- ✅ **Fix a11y 404 label** — contrast #777→#666 (4.48→5.75:1, WCAG AA)
-- ✅ **Skill controlprojecte** — `~/.claude/skills/controlprojecte/` AI-agnòstic
-- ✅ **Auditoria servidor** — `.ai/auditoria-servidor.md` complet
-- ✅ **Pressupost administració servidor** — 3 opcions, `docs/2026-10-26-pressupost-administracio-servidor.md`
+- ✅ **Skill de control horari** versionat al repo + instal·lador `scripts/instal·la-gestor-hores.sh` (global a `~/.agents` i `~/.claude`)
+- ✅ **C2 — Contacte i pàgines legals editables al CMS** (Contacte, Accessibilitat, Avís legal, Cookies, Privacitat) + guia de l'editor
+- ✅ **Autoria d'arxiu de fotos** — `download="elglobusvermell-<slug>-<n>.<ext>"`
+- ✅ **Arquitectes òrfens** — Viaplana i Toyo Ito resolts; 274/274 pàgines amb elements
+- ✅ **F5 — Arquitectes + any en un camp**
+- ✅ **SpeakableSpecification ampliat a `.fitxa-nomenclator`**
+- ✅ **Resum de tasques i temps per a rendibilitat** — `scripts/resum-tasques.py`
+- ✅ **GoatCounter** — verificat operatiu i documentat com a reutilitzable (`.ai/GOATCOUNTER-REUTILITZABLE.md`)
+- ✅ **Còpia obsoleta del repo eliminada** (3,2 GB) preservant les 205 fotos originals a `originals/`
+- ✅ **Pressupost corregit** — 3.900 € = webapp; app Flutter fora de l'abast
+- ✅ **Duplicats de migració** — 3 preguntes afegides al tauler de revisió + diagnosi a `.ai/DUPLICATS-MIGRACIO.md`
+- ✅ **M2 — mapa en grays** — provat i retirat; pàgina redirigida a `/mapa/`
+- ⏳ **Correu MAPATGE-URLS adjunt** — esborrany a `docs/2026-10-01-mail-xavi-mapatge-urls-adjunt.md`; pendent d'enviar
+- ⏳ **Tauler de revisió** — actualitzar-lo amb tot ben explicat al final (tasca `tauler-final`)
 
-## Resoltes (sessions 2026-08-30 a 2026-09-14)
+## Resoltes (sessions 2026-08-30 a 2026-09-04)
 
 - ✅ **Informes d'auditoria** — generats (30/8) i actualitzats post-correccions (3/9): accessibilitat 8.5/10, seguretat MODERAT, rendiment 7.5/10, SEO/GEO/AEO 7.5/7/6
 - ✅ **PDF informe global** — .ai/informe-global-2026-09-03.pdf amb avís revisió final pendent al domini
@@ -53,8 +87,6 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 - ✅ **CMS Sveltia** — configurat, mails enviats, PAT clàssic documentat
 - ✅ **Autoria git** — 179 commits reescrits a LinuxBCN (filter-branch)
 - ✅ **pa11y CI/CD** — workflow actiu i operatiu (10/10 WCAG2AA); fix 10/9: el workflow tenia bug (hugo server sense --environment staging → URLs 404); fix + 4 correccions contrast CSS via color-mix()
-- ✅ **Sync automàtic memòria Claude** — scripts/sync-memory.sh (import/export) + hooks SessionStart/Stop a .claude/settings.json; memòria sincronitzada via git per a ús multi-ordinador
-- ✅ **Migració tiles CartoDB → Stadia Maps** (14/9) — CartoDB depreca servei raster gratuït; migrat a alidade_smooth/alidade_smooth_dark/outdoors; domain auth sense API key al codi; compte Stadia Maps creat per LinuxBCN
 
 ## Pendent — desbloqueig al tall del domini (Dinahosting, ~setembre 2026)
 
@@ -72,89 +104,24 @@ originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 - 🟡 **SSR de llistes** — arquitectes, publicacions, headings al mapa (GEO/SEO)
 - 🟡 **FAQ + schema FAQPage** — contingut editorial
 - 🟡 **og:image dissenyada** — el placeholder actual (logo sobre blanc) és provisional
-- 🟡 **Consistència xifres** portada/Presentació — CONFIRMAT: portada i presentació han de ser idèntiques (feedback 30/9)
-- 🟡 **Separació 73 arquitectes combinats** — RESOLT: ho faran manualment des del CMS (confirmació Xavi 30/9). Diccionari normalització també descartada l'automatització.
-- ⏳ **Canvi nom "Casa xalet passatge Roserar" → "Casa Mercè Escolano"** — pendent confirmar si ho fan ells o ho apliquem nosaltres
-- 🟡 **PDFs guies** — RESOLT: Barceloneta castellà ja existeix; francesos (8) + Marina EN/ES no existeixen (feedback 30/9)
-- 🟡 **Paleta definitiva** — pendent que Xavi passi paleta per plànol (lligat a GR1)
-- 🟡 **Llicència peu de pàgina** — RESOLT: Creative Commons BY-SA (feedback 30/9)
-- 🟡 **Autoria fotos** — RESOLT: nota CC BY-NC a peu de pàgina + nom arxiu/meta amb "elglobusvermell" (feedback 30/9)
-- 🟡 **Botó mapa exterior** — RESOLT: Google Maps, un sol botó (feedback 30/9)
-- 🟡 **Data tall domini Dinahosting** — RESOLT (relatiu): quan la web estigui llesta, sense data fixa (feedback 30/9)
-
-## Pendent — feedback Xavi 30/9/2026 (nou bloc, disseny i funcionalitat)
-
-Detall complet: `.ai/FEEDBACK-XAVI-2026-09-30.md`
-
-### Decisions prèvies necessàries (Joan ha de respondre a Xavi primer)
-- 🔴 **F5** — arquitectes + any al mateix camp de taula: confirmar viabilitat tècnica
-- 🔴 **A1** — ordenació arquitectes per cognom: avaluar implicacions (slugs, etc.)
-- 🔴 **M3** — pins multicolor (mig/mig o pastís): necessiten paleta per plànol + decisió implementació
-- 🔴 **GR3** — tipografia: explorar opcions i proposar a Xavi
-- 🔴 **GR1** — colors pins/etiquetes: espera paleta definitiva per plànol de Xavi
-- 🔴 **C2** — edició pàgina contacte al CMS: investigar per què no apareix
-
-### Implementació — sense blocants externs
-- ✅ **G2** — menú sempre text al desktop (T03, 30/9). Joan discrepa; documentat.
-- ✅ **G3** — ordre menú: Presentació · Mapa · En paper · Arquitectes · Contacte (T02, 30/9)
-- ✅ **M1** — zoom inicial mapa: padding fitBounds [30,30]→[10,10] (T04, 30/9)
-- ✅ **M4** — difuminat eliminat en seleccionar plànol (T05, 30/9). Joan discrepa; documentat.
-- ⏳ **M6** — eliminar llistat elements + abecedari sota el mapa; mantenir només cercador
-- ⏳ **P5** — eliminar: guia destacada, arquitecte destacat, recursos educatius de portada
-- ✅ **F7** — "edificis" → "elements" aplicat (30/9): 12 ocurrències en 4 fitxers UI. Doc: `.ai/canvis/T01-edificis-elements.md`
-- ⏳ **PR4** — eliminar bloc "Suggerir un canvi" de la presentació
-- ⏳ **A2** — llistat elements arquitecte: eliminar etiqueta any + menys clics
-
-### Pendent contingut (espera text de Xavi/equip)
-- 🟡 **M5** — informació temes transversals al mapa: contingut de la web antiga (Xavi ho passa)
-- 🟡 **PR2** — secció presentació El Globus Vermell: contingut pendent d'ells
-- 🟡 **C1** — text formulari contacte: contingut pendent d'ells
-- 🟡 **EP4** — descripcions xips temàtics (Èpoques, Usos, Barris, Art): contingut pendent
-- 🟡 **EP8** — reordenació plànols guia: decisió interna equip
-
-### Redisseny major (aprofundiment i aprovació primer)
-- 🟡 **G1** — layout dues modalitats (sang i dues columnes): mides de columna a determinar
-- 🟡 **P1-P8** — redisseny pàgina principal
-- 🟡 **F1-F4** — fitxes edificis: layout dues columnes + ordre informació
-- 🟡 **EP1-EP7** — redisseny secció "En paper" (carrusel + xips + dues columnes)
-- 🟡 **EPI1-EPI3** — redisseny pàgines individuals de cada plànol
-- 🟡 **M7** — cercador mapa amb typeahead per arquitecte
-- 🟡 **GR2** — vermell → negre/gris fosc (cal aprovació explícita disseny)
-- 🟡 **P7** — splash logo mòbil (prototip per confirmar expectativa)
-
-### Futur / documentació
-- ⏳ **FU1** — documentar al CMS com crear nous plànols i noves fitxes
+- 🟡 **Consistència xifres** portada/Presentació (debat obert)
+- 🟡 **Separació 73 arquitectes combinats** — Xavi pendent de respondre
+- 🟡 **PDFs guies** — francesos (8), castellà/anglès (barceloneta, marina)
+- 🟡 **Paleta definitiva** — Xavi debat intern
 
 ## Pendent — petit, aplicable ara
 
 - ⏳ **Revisió final post-tall** — pa11y real + PageSpeed Insights + GSC sobre domini producció
 - ⏳ **Invitar comptes GitHub** — confirmar noms d'usuari (Laia, etc.) i convidar (rol Write)
-- ⏳ **SpeakableSpecification ampliat a .fitxa-nomenclator** — si es vol cobrir la secció de nomenclàtor dels jardins
-
-## Resoltes (sessió 2026-10-28)
-
-- ✅ **Resposta Jorge rebuda** — port SSH 21100, CPX11 (2vCPU/2GB/40GB+vol), DKIM actiu, credencials a `/root/` servidor
-- ✅ **Auditoria servidor completada** — `.ai/auditoria-servidor.md` actualitzat amb totes les dades de Jorge
-- ✅ **Pressupost servidor llest** — totes les caselles pendents resoltes; cost VPS ~9,38€/mes documentat
-- ✅ **Resposta mail a Jorge redactada** — `.ai/MAILS/2026-10-28-resposta-jorge-servidor.md`
-
-## Pendent — servidor i administració
-
-- 🔴 **El Globus Vermell ha de crear compte Hetzner** — per assumir la propietat del servidor via transfer intern (Customer ID Jorge: K0628817718). Acció del client.
-- 🔴 **Llegir credencials del servidor** — `/root/yunohost-elglobus-tech-admin.md` i `/root/2026-10-28-elglobus-users-info.txt` per completar versions programari i comptes correu exactes
-- 🔴 **Presentar pressupost al client** — pressupost llest; pendent d'enviar a El Globus Vermell
-- 🔴 **Confirmar si la IP canvia en el transfer Hetzner** — probable que sí; caldrà actualitzar registres A (elglobusvermell.org, guiesbarcelona, panel) + revisar MX/SPF al joker.com
-- 🔴 **Credencials joker.com a mà** — Joan ha creat compte; cal tenir-les disponibles abans de planificar la finestra de migració
-- 🔴 **Migració servidor en standby** — pla acordat (apagar → detach → transfer → reattach → engegar); s'executa quan El Globus Vermell tingui compte Hetzner i accés DNS confirmat
 
 ## Pendent — contingut (espera Jorge/Xavi)
 
-- 🔴 **Fotos biblioteques que falten** — Bon Pastor, Canyelles, Les Roquetes, Vall d'Hebron, Vallcarca, Ateneu Barcelonès (mail enviat a Xavi 26/10)
-- 🔴 **~50 arquitectes sense fitxa** — Xavi en revisa 80; n'ha creat ~30; els restants poden generar pàgines "fantasma"
+- 🔴 **Confirmació migració contra WP en producció** — el dump és del 16/02; verificar que no hi ha canvis posteriors
 - 🔴 **Imatge logo elglobusvermell.org** — espera servidor Jorge
+- 🔴 **Fotos fitxes** — les que manquen (biblioteques sense foto, masies, etc.)
 
 ## Why / How to apply
 
-**Why:** El web està a GitHub Pages (staging). Totes les millores aplicables sense domini propi estan fetes (incloses accessibilitat + pa11y CI el 10/9). El desbloqueig és el tall del domini a Dinahosting (~16 set, tornada Xavi). Fins llavors, les úniques tasques pendents sense blocant extern són invitar els comptes GitHub i esperar resposta de Xavi als punts de consens.
+**Why:** El web està a GitHub Pages (staging). El 1/10 s'ha tancat el lot de tasques que no depenien de Xavi. El desbloqueig continua sent el tall del domini a Dinahosting. El **tauler de revisió és el canal únic** amb Xavi: allà hi ha les preguntes i les respostes; els correus només porten adjunts.
 
 **How to apply:** Al proper contacte amb Xavi: confirmar data tall domini + noms d'usuari GitHub + resposta arquitectes combinats. Tota la feina tècnica del tall és una sessió de 2-3h (GSC, Bing, headers, OAuth Fase 1).

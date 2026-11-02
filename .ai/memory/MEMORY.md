@@ -5,12 +5,9 @@
 - [Doble llicència — consulta client](project_doble_llicencia.md) — Web original té © i CC BY-SA 4.0 simultàniament; cal aclarir amb El Globus Vermell
 - [Tasques pendents](project_tasques_pendents.md) — Títol home (pendent client), llicència, imatges, GoatCounter, OAuth, geocodificació, accessibilitat
 - [Diari del projecte](diary/) — Sessions de treball amb durades estimades. Invocar amb /documenta al final de cada sessió.
-- [Servidor de producció](project_servidor_produccio.md) — Root SSH confirmat per Jorge (Virtubio.net). BD a wp-config.php a /var/www. DNS a joker.com (accés El Globus Vermell).
-- [Credencials servidor — pendent Jorge](project_servidor_pendents_jorge.md) — Mail enviat 26/10. Pendent: port SSH, pla Hetzner, YunoHost admin, comptes correu, accés backups.
-- [Stadia Maps](reference_stadiamaps.md) — Compte webmaster@linuxbcn.com, domain auth, dashboard property 104841, estils en ús
 - [Sense emojis](feedback_no_emojis.md) — L'usuari no vol emojis en cap context, mai.
-- [To missatges Xavi](feedback_to_xavi.md) — Tracte proper, salutació sempre, acabar amb "Seguim!"
-- [Commits i deploys](feedback_commits.md) — Commits individuals per tasca, deploys agrupats per tasques similars
+- [Fonts Xavi](fonts-xavi/README.md) — Correus originals de Xavi, literalment, com a font de veritat per citar cada tasca
+- [Diagnosi CMS 2026-09-30](../canvis/CMS-diagnosi-2026-09-30.md) — El CMS funciona; el primer carregament de les 660 fitxes és lent
 
 ## INICI DE SESSIÓ — llegeix sempre primer
 
@@ -21,15 +18,8 @@ Al principi de cada sessió, llegeix en aquest ordre:
 
 No exploris el codi fins haver llegit aquests tres fitxers.
 
-## Sessió 2026-09-13 — tancat
+## Pròxima sessió (2026-08-31)
 
-- Sveltia CMS localització catalana: PR #973 mergetat, shiped a v0.211.3. Tancat.
-- Informe seguretat: tots els fixes accionables ja estaven aplicats. Tancat.
-- Informe accessibilitat: tots els fixes crítics ja estaven aplicats. Fix addicional: `aria-required` + `aria-describedby` estàtic al formulari de contacte (commits `c236d11` + `9acf9d4`). Tancat.
-
-## Pròxima sessió
-
-Tasques accionables (sense blocants externs):
-1. **SEO** — aplicar pendents de `.ai/informe-seo-geo-aeo-2026-09-01.md`
-2. **GoatCounter** — integrar al Hugo (layout stats, script fetch, workflow horari)
-3. **Guia editor** — afegir captures reals dels passos
+Tasques previstes per ordre:
+1. **Seguretat** — aplicar correccions de l'informe `.ai/informe-seguretat-2026-08-30.md` (prioritat: ?tema= whitelist a mapa.js:46, unsafe=true Markdown)
+2. **Accessibilitat** — aplicar correccions de l'informe `.ai/informe-accessibilitat-2026-08-30.md` (prioritat: contrast colors, focus visible filtres, carrusel teclat)
