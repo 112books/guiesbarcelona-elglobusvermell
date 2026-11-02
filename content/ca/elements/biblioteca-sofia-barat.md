@@ -1,21 +1,31 @@
 ---
-aliases: ["/biblioteques/biblioteca-sofia-barat/"]
-adreca: C. Girona, 64 | Dreta de l’Eixample
-arquitectes:
-- Judit Masana Padrós
-- Länk Arquitectes
-- DataAE
-descripcio: 'Sofia Barat Religiosa. 1779-1865 Arquitecte: Judith Masana. 2000 Trasllat
-  previst segons Pla 2030. Edifici Taller Masriera. Reforma: Länk Arquitectes i DataAE.'
-districte: "Eixample"
+aliases:
+  - /biblioteques/biblioteca-sofia-barat/
+title: Biblioteca Sofia Barat
 draft: false
-foto: /img/elements/biblioteca-sofia-barat.jpg
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - biblioteques
+temes_transversals:
+  - dones-arquitectes
+  - nomenclator-femeni
+adreca: C. Girona, 64 | Dreta de l’Eixample
+any: ''
+arquitectes:
+  - Judit Masana Padrós
+  - Länk Arquitectes
+  - DataAE
+tipologia: ''
+proteccio: ''
+superficie: null
+intervencions: []
+premis: []
 lat: 41.3947186
 long: 2.1715339
-publicacions:
-- biblioteques
-temes_transversals:
-- dones-arquitectes
-- nomenclator-femeni
-title: Biblioteca Sofia Barat
+descripcio: 'Sofia Barat Religiosa. 1779-1865 Arquitecte: Judith Masana. 2000 Trasllat previst segons Pla 2030. Edifici Taller Masriera. Reforma: Länk Arquitectes i DataAE.'
+descripcio_nomenclator: ''
+districte: Eixample
 ---
