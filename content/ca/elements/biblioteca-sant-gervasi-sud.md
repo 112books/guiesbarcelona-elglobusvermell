@@ -1,13 +1,26 @@
 ---
-aliases: ["/biblioteques/biblioteca-sant-gervasi-sud/"]
-descripcio: Sant Gervasi – Galvany Futura biblioteca segons Pla 2030 – Pendent de
-  localització
-districte: "Sarrià-Sant Gervasi"
+aliases:
+  - /biblioteques/biblioteca-sant-gervasi-sud/
+title: Biblioteca Sant Gervasi Sud
 draft: false
-foto: /img/elements/biblioteca-sant-gervasi-sud.jpg
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - biblioteques
+temes_transversals: []
+adreca: ''
+any: ''
+arquitectes: []
+tipologia: ''
+proteccio: ''
+superficie: null
+intervencions: []
+premis: []
 lat: 41.3977592
 long: 2.1422079
-publicacions:
-- biblioteques
-title: Biblioteca Sant Gervasi Sud
+descripcio: Sant Gervasi – Galvany Futura biblioteca segons Pla 2030 – Pendent de localització
+descripcio_nomenclator: ''
+districte: Sarrià-Sant Gervasi
 ---
