@@ -14,6 +14,7 @@ REPO_MEMORY="$REPO_ROOT/.ai/memory"
 # Deriva el path de memòria de Claude a partir de la ruta absoluta del repo
 # Ex: /Users/joan/Documents/Obsidian/elglobusvermell.org → -Users-joan-Documents-Obsidian-elglobusvermell-org
 ENCODED_PATH="${REPO_ROOT//\//-}"
+ENCODED_PATH="${ENCODED_PATH//./-}"
 CLAUDE_MEMORY="$HOME/.claude/projects/${ENCODED_PATH}/memory"
 
 cmd="${1:-}"
