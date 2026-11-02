@@ -1,24 +1,33 @@
 ---
-aliases: ["/biblioteques/biblioteca-horta-can-mariner/"]
-adreca: C. del Vent, 1
-descripcio: La primera referència d’aquesta masia és de 1516 i l’última gran reforma,
-  de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
-districte: "Horta-Guinardó"
+aliases:
+  - /biblioteques/biblioteca-horta-can-mariner/
+title: Biblioteca Horta – Can Mariner
 draft: false
-foto: /img/elements/biblioteca-horta-can-mariner.jpg
-edifici_original: Masia de Can Mariner. s.
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - biblioteques
+  - masies
+temes_transversals: []
+adreca: C. del Vent, 1
+any: ''
+arquitectes: []
+tipologia: crugia perpendicular a la façana principal.
+proteccio: B
+superficie: null
 intervencions:
-- any: '2008'
-  autors: Josep Vila i Bayó
-  descripcio: xi La primera referència d’aquesta masia és de 1516 i l’última gran
-    reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
-  tipus: Remodelació
+  - tipus: Remodelació
+    autors:
+      - Josep Vila i Bayó
+    any: '2008'
+    descripcio: xi La primera referència d’aquesta masia és de 1516 i l’última gran reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
+premis: []
 lat: 41.4312026
 long: 2.1604091
-proteccio: B
-publicacions:
-- biblioteques
-- masies
-tipologia: crugia perpendicular a la façana principal.
-title: Biblioteca Horta – Can Mariner
+descripcio: La primera referència d’aquesta masia és de 1516 i l’última gran reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
+descripcio_nomenclator: ''
+districte: Horta-Guinardó
+edifici_original: Masia de Can Mariner. s.
 ---
