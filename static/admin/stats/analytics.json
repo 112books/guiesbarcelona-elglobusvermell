@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-03T22:51:42.318519Z",
+  "generated": "2026-11-04T04:42:09.350793Z",
   "period": {
-    "start": "2025-11-03",
-    "end": "2026-11-03"
+    "start": "2025-11-04",
+    "end": "2026-11-04"
   },
-  "total": 1344,
+  "total": 1348,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -314,12 +314,16 @@
     {
       "date": "2026-11-02",
       "count": 14
+    },
+    {
+      "date": "2026-11-03",
+      "count": 4
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 148
+      "count": 149
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
@@ -327,7 +331,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 63
+      "count": 64
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
@@ -335,7 +339,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 51
+      "count": 52
     },
     {
       "path": "/mapa-filtre-pub/50-75",
@@ -406,12 +410,12 @@
       "count": 19
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
       "count": 16
     },
     {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/biblioteques",
-      "count": 15
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/76-08",
+      "count": 16
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
@@ -439,7 +443,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 923,
+    "guiesbarcelona-elglobusvermell": 927,
     "mapa-filtre-pub": 259,
     "mapa-filtre-tema": 46,
     "mapa-info-pub": 54,
@@ -511,7 +515,8 @@
       "2026-10-26": 3,
       "2026-10-28": 1,
       "2026-10-30": 3,
-      "2026-11-02": 3
+      "2026-11-02": 3,
+      "2026-11-03": 1
     },
     "/guiesbarcelona-elglobusvermell/mapa": {
       "2026-08-07": 5,
@@ -601,7 +606,8 @@
       "2026-10-21": 1,
       "2026-10-22": 5,
       "2026-10-23": 4,
-      "2026-10-26": 3
+      "2026-10-26": 3,
+      "2026-11-03": 1
     },
     "/guiesbarcelona-elglobusvermell/presentacio": {
       "2026-07-19": 2,
@@ -669,7 +675,8 @@
       "2026-10-22": 2,
       "2026-10-23": 2,
       "2026-10-26": 2,
-      "2026-11-02": 1
+      "2026-11-02": 1,
+      "2026-11-03": 1
     },
     "/mapa-filtre-pub/50-75": {
       "2026-07-19": 2,
@@ -1018,6 +1025,23 @@
       "2026-10-14": 1,
       "2026-10-21": 1
     },
+    "/guiesbarcelona-elglobusvermell/publicacions/biblioteques": {
+      "2026-08-07": 1,
+      "2026-08-18": 1,
+      "2026-08-21": 2,
+      "2026-08-24": 1,
+      "2026-08-28": 1,
+      "2026-08-31": 1,
+      "2026-09-01": 1,
+      "2026-09-21": 1,
+      "2026-09-23": 1,
+      "2026-09-28": 1,
+      "2026-09-29": 1,
+      "2026-10-09": 1,
+      "2026-10-15": 1,
+      "2026-10-22": 1,
+      "2026-11-03": 1
+    },
     "/guiesbarcelona-elglobusvermell/publicacions/76-08": {
       "2026-07-28": 1,
       "2026-08-04": 1,
@@ -1033,22 +1057,6 @@
       "2026-09-29": 2,
       "2026-09-30": 1,
       "2026-10-23": 1
-    },
-    "/guiesbarcelona-elglobusvermell/publicacions/biblioteques": {
-      "2026-08-07": 1,
-      "2026-08-18": 1,
-      "2026-08-21": 2,
-      "2026-08-24": 1,
-      "2026-08-28": 1,
-      "2026-08-31": 1,
-      "2026-09-01": 1,
-      "2026-09-21": 1,
-      "2026-09-23": 1,
-      "2026-09-28": 1,
-      "2026-09-29": 1,
-      "2026-10-09": 1,
-      "2026-10-15": 1,
-      "2026-10-22": 1
     },
     "/guiesbarcelona-elglobusvermell/publicacions/masies": {
       "2026-07-19": 1,
@@ -1705,7 +1713,8 @@
       "2026-10-28": 1,
       "2026-10-30": 8,
       "2026-10-31": 4,
-      "2026-11-02": 14
+      "2026-11-02": 14,
+      "2026-11-03": 4
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -1885,17 +1894,17 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 499
+      "count": 501
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 322
+      "count": 323
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 161
+      "count": 162
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
