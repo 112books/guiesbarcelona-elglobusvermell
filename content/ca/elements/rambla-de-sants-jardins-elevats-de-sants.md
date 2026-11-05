@@ -15,7 +15,7 @@ temes_transversals:
 adreca: Sants
 any: '2016'
 arquitectes:
-  - Ana Molino
+  - Ana Molino Roca
   - Sergi Godia i Fran
   - Ana Molino Roca
 tipologia: ''

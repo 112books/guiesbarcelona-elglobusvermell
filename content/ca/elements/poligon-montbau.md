@@ -14,7 +14,7 @@ adreca: Arquitectura / Vayreda / Pg. Vall d’Hebron / Poesia / Àngel Marquès
 any: '1965'
 arquitectes:
   - Guillem Giráldez i Dávila
-  - Pere López i Íñigo
+  - Pere López Íñigo
   - Xavier Subías i Fages
   - Manuel Baldrich Tibau
   - Antoni Bonet Castellana

@@ -13,7 +13,7 @@ temes_transversals: []
 adreca: La Rambla, 122
 any: '1994'
 arquitectes:
-  - Bonell
+  - Esteve Bonell Costa
   - Gil
   - Bonell i Gil Arquitectes
 tipologia: ''

@@ -13,7 +13,7 @@ temes_transversals: []
 adreca: Colònia Bausili / Ulldecona
 any: '1928'
 arquitectes:
-  - Joan Amigó
+  - Joan Amigó i Barriga
   - Joan Amigó i Barriga
 tipologia: ''
 proteccio: ''

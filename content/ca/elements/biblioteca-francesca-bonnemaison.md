@@ -14,7 +14,7 @@ temes_transversals:
 adreca: C. Sant Pere més Baix, 7
 any: ''
 arquitectes:
-  - Jordi Campanillas
+  - Jordi Campanillas Pinós
 tipologia: ''
 proteccio: ''
 superficie: null

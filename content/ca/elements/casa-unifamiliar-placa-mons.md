@@ -15,7 +15,7 @@ temes_transversals: []
 adreca: Pl. Mons / G. Bécquer
 any: '1931'
 arquitectes:
-  - Ricard de Churruca
+  - Ricard de Churruca Dotres
   - Germà Rodríguez Arias
 tipologia: ''
 proteccio: ''
