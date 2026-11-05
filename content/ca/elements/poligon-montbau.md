@@ -18,19 +18,19 @@ arquitectes:
   - Xavier Subías i Fages
   - Manuel Baldrich Tibau
   - Antoni Bonet Castellana
-  - Josep Soteras i Mauri
+  - Josep Maria Soteras i Mauri
 tipologia: ''
 proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages + Manuel Baldrich + Antoni Bonet Castellana + Josep Soteras i Mauri
+      - Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages + Manuel Baldrich + Antoni Bonet Castellana + Josep Maria Soteras i Mauri
       - Guillem Giráldez i Dávila
       - Pere López Íñigo
       - Xavier Subías i Fages
       - Manuel Baldrich Tibau
-      - Josep Soteras i Mauri
+      - Josep Maria Soteras i Mauri
       - Antoni Bonet Castellana
     any: '1965'
     descripcio: ''

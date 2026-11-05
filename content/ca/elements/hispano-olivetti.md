@@ -6,7 +6,7 @@ anys_reforma:
 - 1995
 arquitectes:
 - Ítalo Lauro
-- Josep Soteras i Mauri
+- Josep Maria Soteras i Mauri
 descripcio: 'Originalment: Fàbrica de màquines d’escriure.'
 draft: false
 lat: 41.4050418

@@ -4,12 +4,12 @@ adreca: Trav. de les Corts / Arístides Mallol / Av. Joan XVIII
 any: '1957'
 arquitectes:
 - Francesc Mitjans i Miró
-- Josep Soteras i Mauri
-- Lorenzo García-Barbón Fernández de Henestrosa
+- Josep Maria Soteras i Mauri
+- Llorenç García-Barbón Fernández de Henestrosa
 draft: false
 intervencions:
 - any: '1957'
-  autors: Francesc Mitjans i Miró + Josep Soteras i Mauri + Lorenzo García-Barbón
+  autors: Francesc Mitjans i Miró + Josep Maria Soteras i Mauri + Llorenç García-Barbón
   descripcio: ''
   tipus: Projecte
 lat: 41.3810442

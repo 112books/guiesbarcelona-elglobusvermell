@@ -3,12 +3,12 @@ aliases: ["/moderna-1950-1975/palau-municipal-desports/"]
 adreca: Lleida 40
 any: '1955'
 arquitectes:
-- Josep Soteras i Mauri
-- Lorenzo García-Barbón Fernández de Henestrosa
+- Josep Maria Soteras i Mauri
+- Llorenç García-Barbón Fernández de Henestrosa
 draft: false
 intervencions:
 - any: '1955'
-  autors: Josep Soteras i Mauri i Lorenzo García-Barbón
+  autors: Josep Maria Soteras i Mauri i Llorenç García-Barbón
   descripcio: ''
   tipus: Projecte
 lat: 41.3717373
