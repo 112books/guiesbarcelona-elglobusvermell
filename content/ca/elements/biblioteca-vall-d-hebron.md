@@ -15,10 +15,14 @@ tipologia: ''
 proteccio: ''
 superficie: null
 intervencions: []
-anys_reforma: []
 premis: []
 lat: 41.431429
 long: 2.15062
 descripcio: Futura biblioteca
 descripcio_nomenclator: ''
+anys_reforma: []
 ---
+
+**Futura biblioteca**
+
+Sense nom definit
