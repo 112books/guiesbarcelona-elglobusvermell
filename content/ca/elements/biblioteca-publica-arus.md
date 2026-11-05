@@ -16,6 +16,7 @@ arquitectes:
   - Bonaventura Bassegoda i Muste
   - Amigó
   - Bonaventura Bassegoda i Amigó
+  - Joan Amigó i Barriga
 tipologia: ''
 proteccio: ''
 superficie: null
