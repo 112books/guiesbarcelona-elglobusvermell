@@ -1,5 +1,5 @@
 {
-  "actualitzat": "2026-10-26",
+  "actualitzat": "2026-11-05",
   "intro": "Darrera sessió: 26/10/2026 (tarda) — millores SEO i UX: (1) dashboard d'estadístiques renovat amb filtres de període (dia/setm./mes/trim./any/tot); (2) xifres de la pàgina de presentació actualitzades (6→13 plànols-guia); (3) nova pàgina 404 amb cerca en viu de tots els elements; (4) dues redireccions WP pendents afegides (privacitat, mapa); (5) fix d'accessibilitat al label de cerca del 404 (contrast 4.48→5.75:1). Pendent de verificació: les noves funcionalitats.",
   "decisions": [
     {
@@ -1013,6 +1013,24 @@
     }
   ],
   "canvis": [
+    {
+      "id": "arquitectes-duplicats-baas",
+      "ref": "5/11 · BAAS",
+      "estat": "fet",
+      "titol": "Fitxes d'arquitecte fantasma (BAAS Arquitectura i 91 més)",
+      "cita": "A la web, en comptes d'aparèixer a la fitxa que he creat, apareix una fitxa fantasma amb el mateix nom, que no puc editar.",
+      "resultat": "Fet (5/11): 92 arquitectes tenien dues pàgines al web, la bona (amb COAC) i una de buida, que era on enllaçaven els edificis. Ara n'hi ha una de sola, la que edites al CMS. Les adreces antigues redirigeixen a la nova. Ex.: BAAS Arquitectura.",
+      "enllacos": [
+        {
+          "label": "BAAS Arquitectura",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/baas-arquitectura/"
+        },
+        {
+          "label": "Carme Ribas i Seix",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/carme-ribas-i-seix/"
+        }
+      ]
+    },
     {
       "id": "fotos-biblioteques-aplicades",
       "ref": "NOU · Fotos",

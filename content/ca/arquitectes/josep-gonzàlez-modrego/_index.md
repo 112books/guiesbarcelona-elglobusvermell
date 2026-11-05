@@ -1,0 +1,10 @@
+---
+aliases:
+  - /arquitectes/josep-gonzàlez/
+title: Josep Gonzàlez Modrego
+cognom: Gonzàlez Modrego
+descripcio: ''
+link_coac: https://www.arquitecturacatalana.cat/ca/autors/jose-gonzalez-modrego
+link_wikipedia: ''
+link_web: ''
+---
