@@ -1010,6 +1010,16 @@
         }
       ],
       "estat": "pendent"
+    },
+    {
+      "id": "arquitectes-orfes-pendents",
+      "ref": "NOU · Arquitectes",
+      "titol": "Arquitectes sense fitxa — 92 noms per validar",
+      "cita": "Llistat de 92 noms que surt del recompte de la sesió 5/11/2026",
+      "context": "S'han detectat 188 noms d'arquitectes sense fitxa pròpia en 204 fitxes. D'aquests, 96 es resolen sols (renomenament als noms correctes). Els 92 restants necessiten decisió: crear fitxa nova, assignar a un altre nom, o marcar com a no-arquitecte. Aquí hi ha la llista completa.",
+      "descripcio": "Cada fila: nom que apareix · en quants edificis (amb enllaç) · teu parer. Marca com a validat quan ja hagin revisat tots.",
+      "dades": "/admin/revisio/arquitectes-orfes.json",
+      "estat": "pendent"
     }
   ],
   "canvis": [
