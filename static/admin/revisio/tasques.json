@@ -1,6 +1,6 @@
 {
   "actualitzat": "2026-11-05",
-  "intro": "Darrera sessió: 26/10/2026 (tarda) — millores SEO i UX: (1) dashboard d'estadístiques renovat amb filtres de període (dia/setm./mes/trim./any/tot); (2) xifres de la pàgina de presentació actualitzades (6→13 plànols-guia); (3) nova pàgina 404 amb cerca en viu de tots els elements; (4) dues redireccions WP pendents afegides (privacitat, mapa); (5) fix d'accessibilitat al label de cerca del 404 (contrast 4.48→5.75:1). Pendent de verificació: les noves funcionalitats.",
+  "intro": "Darrera sessió: 5/11/2026 — (1) les 92 fitxes d'arquitecte que tenien dues pàgines al web ja són una de sola (BAAS Arquitectura i 91 més): els edificis enllacen a la fitxa bona i les adreces antigues redirigeixen; (2) recompte dels arquitectes fantasma: 188 noms sense fitxa en 204 fitxes, dels quals 96 es resoldran sols i 92 aniran a una llista per validar (sense que hagis de tocar cap fitxa); (3) en curs: el camp «Arquitectes» i les intervencions de l'editor, i el filtre del mapa.",
   "decisions": [
     {
       "id": "b2-edifici-original",
@@ -2296,6 +2296,15 @@
       "descripcio": "Afegits aliases: /politica-de-privadesa/ → privacitat; /elements/, /mapa-grisos/, /arquitectura-i-urbanisme/ → mapa.",
       "etiqueta": "nostre",
       "estat": "fet"
+    },
+    {
+      "id": "arquitectes-orfes-recompte",
+      "ref": "5/11 · Arquitectes fantasma",
+      "estat": "fet",
+      "titol": "Arquitectes fantasma: recompte i pla de neteja",
+      "cita": "",
+      "resultat": "Recomptat (5/11): 188 noms d'arquitecte que surten als edificis no tenen fitxa, en 204 fitxes. 96 es poden arreglar sols, perquè el nom és una variant d'una fitxa que ja existeix (per exemple «Josep Soteras i Mauri» o «Pere López i Íñigo»). Els 92 restants necessiten una decisió. No hauràs de tocar cap fitxa: et passarem una llista amb la proposta perquè només la validis.",
+      "enllacos": []
     }
   ],
   "decisions_nostres": [
@@ -2434,6 +2443,14 @@
       "estat": "pendent",
       "descripcio": "Llistat enviat per mail el 26/10. Xavi n'ha creat ~30 avui. Els que queden poden generar pàgines \"fantasma\" fins que es creïn o es corregeixi el nom als edificis.",
       "accio": "Xavi crea les fitxes que vulgui conservar; els que no vulgui afegir cal decidir si es deixen com a text lliure o s'eliminen dels edificis.",
+      "verificar": ""
+    },
+    {
+      "id": "arquitectes-orfes-llista",
+      "titol": "188 arquitectes sense fitxa — llista per validar",
+      "estat": "pendent",
+      "descripcio": "Dels 188 noms que surten als edificis i no tenen fitxa, 96 es resoldran sols (el nom és una variant d'una fitxa existent). Dels 92 restants et passarem una llista amb: com surt el nom al web, en quants edificis surt (amb enllaç per obrir-los) i què proposem fer-ne (crear la fitxa, vol dir una altra, o no és arquitecte).",
+      "accio": "Quan publiquem la llista, validar-la (sí / no a cada fila). Tu no has de tocar cap fitxa.",
       "verificar": ""
     }
   ]

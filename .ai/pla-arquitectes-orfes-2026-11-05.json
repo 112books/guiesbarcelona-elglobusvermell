@@ -1,0 +1,2708 @@
+{
+ "meta": {
+  "data": "2026-11-05",
+  "origen": "content/ca/elements + content/ca/arquitectes",
+  "fitxes_arquitecte": 277,
+  "noms_orfs": 188,
+  "fitxes_afectades": 204,
+  "resolts": 96,
+  "pendents": 92
+ },
+ "resolts": [
+  {
+   "nom": "AIA + Barceló Balanzó + Gustau Gili",
+   "fragments": [
+    [
+     "AIA",
+     "exacte"
+    ],
+    [
+     "Barceló Balanzó",
+     "exacte"
+    ],
+    [
+     "Gustau Gili Galfetti",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "poliesportiu-municipal-camp-del-ferro"
+   ]
+  },
+  {
+   "nom": "Albert Viaplana",
+   "fragments": [
+    [
+     "Albert Viaplana i Veà",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "centre-darts-santa-monica"
+   ]
+  },
+  {
+   "nom": "Albert Viaplana i Veà + Heliodoro Piñón Pallarés",
+   "fragments": [
+    [
+     "Albert Viaplana i Veà",
+     "exacte"
+    ],
+    [
+     "Heliodoro Piñón Pallarés",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "placa-dels-paisos-catalans"
+   ]
+  },
+  {
+   "nom": "Albert de Pineda",
+   "fragments": [
+    [
+     "Albert de Pineda Álvarez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "placa-i-mercat-de-la-marina"
+   ]
+  },
+  {
+   "nom": "Albert de Pineda i Álvarez",
+   "fragments": [
+    [
+     "Albert de Pineda Álvarez",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-concepcio"
+   ]
+  },
+  {
+   "nom": "Amadeu Llopart",
+   "fragments": [
+    [
+     "Amadeu Llopart i Vilalta",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "casino-lalianca-del-poblenou"
+   ]
+  },
+  {
+   "nom": "Ana Molino",
+   "fragments": [
+    [
+     "Ana Molino Roca",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "rambla-de-sants-jardins-elevats-de-sants"
+   ]
+  },
+  {
+   "nom": "Ana Molino + Sergi Godia",
+   "fragments": [
+    [
+     "Ana Molino Roca",
+     "parcial"
+    ],
+    [
+     "Sergi Godia i Fran",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "rambla-de-sants-jardins-elevats-de-sants"
+   ]
+  },
+  {
+   "nom": "Antoni Bonet Castellana i Josep Puig i Torner",
+   "fragments": [
+    [
+     "Antoni Bonet Castellana",
+     "separat"
+    ],
+    [
+     "Josep Puig i Torné",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "torre-urquinaona"
+   ]
+  },
+  {
+   "nom": "Antoni Bonet Castellana i Josep Puig i Torné",
+   "fragments": [
+    [
+     "Antoni Bonet Castellana",
+     "separat"
+    ],
+    [
+     "Josep Puig i Torné",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "canodrom-meridiana"
+   ]
+  },
+  {
+   "nom": "Antoni Bonet i Castellana i Josep Puig i Torné",
+   "fragments": [
+    [
+     "Antoni Bonet Castellana",
+     "separat"
+    ],
+    [
+     "Josep Puig i Torné",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-mediterrani"
+   ]
+  },
+  {
+   "nom": "Antoni Falguera",
+   "fragments": [
+    [
+     "Antoni Falguera i Sivilla",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "antic-montepio-de-sant-pere"
+   ]
+  },
+  {
+   "nom": "Antoni de Moragas i Gallissà i Francesc de Riba de Salas",
+   "fragments": [
+    [
+     "Antoni de Moragas i Gallissà",
+     "separat"
+    ],
+    [
+     "Francesc de Riba i Salas",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-avinguda-meridiana-302"
+   ]
+  },
+  {
+   "nom": "Antoni de Moragas i Spa",
+   "fragments": [
+    [
+     "Antoni de Moragas i Gallissà",
+     "separat"
+    ],
+    [
+     "Espai LUR",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "piscina-de-salts-de-montjuic"
+   ]
+  },
+  {
+   "nom": "Arriola & Fiol Arquitectes i Beverly Pepper",
+   "fragments": [
+    [
+     "Arriola & Fiol Arquitectes",
+     "separat"
+    ],
+    [
+     "Beverly Pepper",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "parc-de-lestacio-del-nord"
+   ]
+  },
+  {
+   "nom": "Bayona-Valero + Cantallops-Vicente",
+   "fragments": [
+    [
+     "Bayona-Valero",
+     "exacte"
+    ],
+    [
+     "Cantallops-Vicente",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "casal-de-barri-de-trinitat-nova"
+   ]
+  },
+  {
+   "nom": "Beatriz Borque + Miquel Mariné",
+   "fragments": [
+    [
+     "Beatriz Borque Badenas",
+     "parcial"
+    ],
+    [
+     "Miquel Mariné Núñez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "jardins-antonia-vilas"
+   ]
+  },
+  {
+   "nom": "Bernardo de Solá + Josep Maria Julià",
+   "fragments": [
+    [
+     "Bernardo de Solá Susperregui",
+     "parcial"
+    ],
+    [
+     "Josep Maria Julià i Capdevila",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "via-julia"
+   ]
+  },
+  {
+   "nom": "Beth Galí",
+   "fragments": [
+    [
+     "Beth Galí i Camprubí",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "fossar-de-la-pedrera"
+   ]
+  },
+  {
+   "nom": "Bonell",
+   "fragments": [
+    [
+     "Esteve Bonell Costa",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "aparthotel-citadines"
+   ]
+  },
+  {
+   "nom": "Carles Enrich",
+   "fragments": [
+    [
+     "Carles Enrich Giménez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "entorns-del-rec-comtal",
+    "torre-de-bombers"
+   ]
+  },
+  {
+   "nom": "Carles Martínez",
+   "fragments": [
+    [
+     "Carles Martínez i Sánchez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-joan-de-borbo-38"
+   ]
+  },
+  {
+   "nom": "Carlos Martínez Sánchez",
+   "fragments": [
+    [
+     "Carles Martínez i Sánchez",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "ca-lilla"
+   ]
+  },
+  {
+   "nom": "Celobert",
+   "fragments": [
+    [
+     "celobert",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "cirerers-cohabitatges-cooperatius"
+   ]
+  },
+  {
+   "nom": "Claudi Gil",
+   "fragments": [
+    [
+     "Claudi Gil i Serra",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "gasometre"
+   ]
+  },
+  {
+   "nom": "Coll-Leclerc + Josep Miàs i Gifré",
+   "fragments": [
+    [
+     "Coll-Leclerc",
+     "exacte"
+    ],
+    [
+     "Josep Miàs i Gifré",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-socials"
+   ]
+  },
+  {
+   "nom": "Conxita Balcells",
+   "fragments": [
+    [
+     "Conxita Balcells i Blesa",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "habitatges-per-a-joves"
+   ]
+  },
+  {
+   "nom": "EMBT + Benedetta Tagliabue",
+   "fragments": [
+    [
+     "EMBT",
+     "exacte"
+    ],
+    [
+     "Benedetta Tagliabue",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "centre-kalida"
+   ]
+  },
+  {
+   "nom": "EMBT + Enric Miralles i Moya + Benedetta Tagliabue",
+   "fragments": [
+    [
+     "EMBT",
+     "exacte"
+    ],
+    [
+     "Enric Miralles i Moya",
+     "exacte"
+    ],
+    [
+     "Benedetta Tagliabue",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "seu-de-gas-natural"
+   ]
+  },
+  {
+   "nom": "Emili Donato Folch + Miguel Jiménez + Ramon Martí",
+   "fragments": [
+    [
+     "Emili Donato Folch",
+     "exacte"
+    ],
+    [
+     "Miguel Jiménez Eroles",
+     "parcial"
+    ],
+    [
+     "Ramon Martí i Puzo",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "residencia-geriatrica-dhorta"
+   ]
+  },
+  {
+   "nom": "Enric Miralles i Moya + Benedetta Tagliabue",
+   "fragments": [
+    [
+     "Enric Miralles i Moya",
+     "exacte"
+    ],
+    [
+     "Benedetta Tagliabue",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "parc-diagonal-mar",
+    "torre-mare-nostrum"
+   ]
+  },
+  {
+   "nom": "Enric Rello Roque",
+   "fragments": [
+    [
+     "Enric Rello Roqué",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-doficines-ronda-universitat"
+   ]
+  },
+  {
+   "nom": "Eusebi Bona i Puig + Pelayo Martínez Paricio + Josep Maria Segarra i Solsona",
+   "fragments": [
+    [
+     "Eusebi Bona i Puig",
+     "exacte"
+    ],
+    [
+     "Pelayo Martínez Paricio",
+     "exacte"
+    ],
+    [
+     "Josep Maria Segarra i Solsona",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "escola-tecnica-superior-darquitectura-de-barcelona"
+   ]
+  },
+  {
+   "nom": "Francesc Bassó i Birulés + Joaquim Gili i Morós",
+   "fragments": [
+    [
+     "Francesc Bassó i Birulés",
+     "exacte"
+    ],
+    [
+     "Joaquim Gili i Morós",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "editorial-gustavo-gili"
+   ]
+  },
+  {
+   "nom": "Francesc Rius",
+   "fragments": [
+    [
+     "Francesc Rius i Camps",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-casa-de-ferro"
+   ]
+  },
+  {
+   "nom": "Francisco J. Barba Corsini",
+   "fragments": [
+    [
+     "Francisco Juan Barba Corsini",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-carrer-tavern",
+    "edifici-dhabitatges-mitre"
+   ]
+  },
+  {
+   "nom": "Garcés-Sòria",
+   "fragments": [
+    [
+     "Garcés-Sòria Arquitectes",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "cosmocaixa-barcelona"
+   ]
+  },
+  {
+   "nom": "Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages",
+   "fragments": [
+    [
+     "Guillem Giráldez i Dávila",
+     "exacte"
+    ],
+    [
+     "Pere López Íñigo",
+     "variant"
+    ],
+    [
+     "Xavier Subías i Fages",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "conjunt-residencial-diagonal",
+    "conjunt-residencial-gran-via",
+    "cunill-orfebres",
+    "facultat-de-ciencies-economiques",
+    "facultat-de-dret",
+    "institucio-cultural-cic"
+   ]
+  },
+  {
+   "nom": "H Arquitectes",
+   "fragments": [
+    [
+     "HArquitectes",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "cristalleries-planell"
+   ]
+  },
+  {
+   "nom": "Imma Jansana + Neus Solé + Daniel Navas",
+   "fragments": [
+    [
+     "Imma Jansana Ferrer",
+     "parcial"
+    ],
+    [
+     "Neus Solé Casu",
+     "parcial"
+    ],
+    [
+     "Daniel Navas Lorenzo",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "parc-can-sabate"
+   ]
+  },
+  {
+   "nom": "Jaume Bernadas",
+   "fragments": [
+    [
+     "Jaume Bernadas Mir",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "fabrica-de-llorenc-pons-i-clerch"
+   ]
+  },
+  {
+   "nom": "Javier Carvajal Ferrer + Rafael García de Castro",
+   "fragments": [
+    [
+     "Javier Carvajal Ferrer",
+     "exacte"
+    ],
+    [
+     "Rafael García de Castro Peña",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "facultat-deconomia-i-empresa"
+   ]
+  },
+  {
+   "nom": "Joan Amigó",
+   "fragments": [
+    [
+     "Joan Amigó i Barriga",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "colonia-bausili"
+   ]
+  },
+  {
+   "nom": "Joan Arias + Lluís Pérez de la Vega",
+   "fragments": [
+    [
+     "Joan Arias i Roig",
+     "parcial"
+    ],
+    [
+     "Lluís Pérez de la Vega",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "48-habitatges-i-centre-civic"
+   ]
+  },
+  {
+   "nom": "Joan Baca",
+   "fragments": [
+    [
+     "Joan Baca i Reixach",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-carrer-navas-240"
+   ]
+  },
+  {
+   "nom": "Joan Barba",
+   "fragments": [
+    [
+     "Joan Barba i Balanzó",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "galetes-vinas-la-galeta"
+   ]
+  },
+  {
+   "nom": "Joan Callís + Pia Wortham",
+   "fragments": [
+    [
+     "Joan Callís",
+     "exacte"
+    ],
+    [
+     "Pia Wortham",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-per-a-gent-gran"
+   ]
+  },
+  {
+   "nom": "Joaquim Vilaseca + Adolf Florensa",
+   "fragments": [
+    [
+     "Joaquim Vilaseca Rivera",
+     "parcial"
+    ],
+    [
+     "Adolf Florensa",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "facultat-de-nautica"
+   ]
+  },
+  {
+   "nom": "Jordi Campanillas",
+   "fragments": [
+    [
+     "Jordi Campanillas Pinós",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-francesca-bonnemaison"
+   ]
+  },
+  {
+   "nom": "Jordi Garcés",
+   "fragments": [
+    [
+     "Jordi Garcés i Brusés",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "el-sucre"
+   ]
+  },
+  {
+   "nom": "Josep Alemany i Juvé + Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina + Francesc Mitjans i Miró + Antoni Perpiñà + Josep Maria Ribas",
+   "fragments": [
+    [
+     "Josep Alemany i Juvé",
+     "exacte"
+    ],
+    [
+     "Oriol Bohigas i Guardiola",
+     "exacte"
+    ],
+    [
+     "Josep Maria Martorell i Codina",
+     "exacte"
+    ],
+    [
+     "Francesc Mitjans i Miró",
+     "exacte"
+    ],
+    [
+     "Antoni Perpiñà Serbià",
+     "parcial"
+    ],
+    [
+     "Josep Maria Ribas i Casas",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-passeig-maragall"
+   ]
+  },
+  {
+   "nom": "Josep Alemany i Juvé + Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina + Francesc Mitjans i Miró + Antoni Perpiñà + Josep Maria Ribas + Manuel Ribas",
+   "fragments": [
+    [
+     "Josep Alemany i Juvé",
+     "exacte"
+    ],
+    [
+     "Oriol Bohigas i Guardiola",
+     "exacte"
+    ],
+    [
+     "Josep Maria Martorell i Codina",
+     "exacte"
+    ],
+    [
+     "Francesc Mitjans i Miró",
+     "exacte"
+    ],
+    [
+     "Antoni Perpiñà Serbià",
+     "parcial"
+    ],
+    [
+     "Josep Maria Ribas i Casas",
+     "parcial"
+    ],
+    [
+     "Manuel Ribas i Piera",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "illa-escorial"
+   ]
+  },
+  {
+   "nom": "Josep Anglada + Daniel Gelabert + Josep Ribas",
+   "fragments": [
+    [
+     "Josep Anglada Rosselló",
+     "parcial"
+    ],
+    [
+     "Daniel Gelabert i Fontova",
+     "parcial"
+    ],
+    [
+     "Josep Ribas Folguera",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "torre-colom"
+   ]
+  },
+  {
+   "nom": "Josep Anglès",
+   "fragments": [
+    [
+     "Josep Anglès Pascual",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "estudis-industrials"
+   ]
+  },
+  {
+   "nom": "Josep Llinàs",
+   "fragments": [
+    [
+     "Josep Llinàs i Carmona",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "can-jaumandreu-vapor-de-la-llana"
+   ]
+  },
+  {
+   "nom": "Josep Lluís Mateo",
+   "fragments": [
+    [
+     "Josep Lluís Mateo i Martínez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "can-felipa"
+   ]
+  },
+  {
+   "nom": "Josep Lluís Sert i Luis Lacasa",
+   "fragments": [
+    [
+     "Josep Lluís Sert i López",
+     "separat"
+    ],
+    [
+     "Luis Lacasa Navarro",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "pavello-de-la-republica-de-1937-replica"
+   ]
+  },
+  {
+   "nom": "Josep Maria Casadevall + Ramon Sanabria",
+   "fragments": [
+    [
+     "Josep Maria Casadevall",
+     "exacte"
+    ],
+    [
+     "Ramon Sanabria i Boix",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "habitatges-socials-al-22"
+   ]
+  },
+  {
+   "nom": "Josep Maria Fargas + Enric Tous",
+   "fragments": [
+    [
+     "Josep Maria Fargas i Falp",
+     "parcial"
+    ],
+    [
+     "Enric Tous i Carbó",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-doficines-banca-catalana-ara-hotel",
+    "edifici-doficines-bbva"
+   ]
+  },
+  {
+   "nom": "Josep Maria Subirachs",
+   "fragments": [
+    [
+     "Josep Maria Subirachs i Sitjar",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "evocacio-marinera"
+   ]
+  },
+  {
+   "nom": "Josep Masdeu",
+   "fragments": [
+    [
+     "Josep Masdéu i Puigdemasa",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "can-pico-biciclot",
+    "casa-miquel"
+   ]
+  },
+  {
+   "nom": "Josep Miàs",
+   "fragments": [
+    [
+     "Josep Miàs i Gifré",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-barceloneta"
+   ]
+  },
+  {
+   "nom": "José Antonio Coderch de Sentmenat + Manuel Valls i Vergés",
+   "fragments": [
+    [
+     "José Antonio Coderch de Sentmenat",
+     "exacte"
+    ],
+    [
+     "Manuel Valls i Vergés",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "bloc-dels-pescadors",
+    "casa-tapies",
+    "conjunt-residencial-les-cotxeres",
+    "edifici-dhabitatges-barceloneta",
+    "edifici-dhabitatges-carrer-bach-7"
+   ]
+  },
+  {
+   "nom": "José Antonio Martínez Lapeña + Elías Torres Tur",
+   "fragments": [
+    [
+     "José Antonio Martínez Lapeña",
+     "exacte"
+    ],
+    [
+     "Elías Torres Tur",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "club-natacio-atletic-barceloneta"
+   ]
+  },
+  {
+   "nom": "Juli M. Fossas i Martínez",
+   "fragments": [
+    [
+     "Juli Maria Fossas i Martínez",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "yorka-abans-apresto-de-sederias"
+   ]
+  },
+  {
+   "nom": "Lacol + La Boqueria",
+   "fragments": [
+    [
+     "Lacol",
+     "exacte"
+    ],
+    [
+     "La Boqueria",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "la-balma-cohabitatges-cooperatius"
+   ]
+  },
+  {
+   "nom": "Lluís Cantallops",
+   "fragments": [
+    [
+     "Lluís Cantallops Dalmau",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "residencia-mare-guell"
+   ]
+  },
+  {
+   "nom": "Lluís Clotet + Òscar Tusquets",
+   "fragments": [
+    [
+     "Lluís Clotet i Ballús",
+     "parcial"
+    ],
+    [
+     "Òscar Tusquets Blanca",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "casa-fulla"
+   ]
+  },
+  {
+   "nom": "Lluís Clotet i Ignacio Paricio",
+   "fragments": [
+    [
+     "Lluís Clotet i Ballús",
+     "separat"
+    ],
+    [
+     "Ignacio Paricio i Ansuategui",
+     "separat"
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-boqueria"
+   ]
+  },
+  {
+   "nom": "Lluís Comerón + Ramon Sanabria",
+   "fragments": [
+    [
+     "Lluís Comerón Graupera",
+     "parcial"
+    ],
+    [
+     "Ramon Sanabria i Boix",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "institut-del-teatre"
+   ]
+  },
+  {
+   "nom": "Lorenzo García-Barbón Fernández de Henestrosa",
+   "fragments": [
+    [
+     "Llorenç García-Barbón Fernández de Henestrosa",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "camp-nou",
+    "palau-municipal-desports"
+   ]
+  },
+  {
+   "nom": "Luis Lacasa",
+   "fragments": [
+    [
+     "Luis Lacasa Navarro",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "pavello-de-la-republica-de-1937-replica"
+   ]
+  },
+  {
+   "nom": "MAP Arquitectes + Marta Cervelló + Josep Lluís Mateo",
+   "fragments": [
+    [
+     "MAP Arquitectes",
+     "exacte"
+    ],
+    [
+     "Marta Cervelló Casanova",
+     "parcial"
+    ],
+    [
+     "Josep Lluís Mateo i Martínez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "filmoteca-de-catalunya"
+   ]
+  },
+  {
+   "nom": "MBM Arquitectes + Josep Maria Martorell i Codina + Oriol Bohigas i Guardiola + David Mackay",
+   "fragments": [
+    [
+     "MBM Arquitectes",
+     "exacte"
+    ],
+    [
+     "Josep Maria Martorell i Codina",
+     "exacte"
+    ],
+    [
+     "Oriol Bohigas i Guardiola",
+     "exacte"
+    ],
+    [
+     "David Mackay",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "escola-municipal-de-vela",
+    "palau-nou-de-la-rambla",
+    "parc-de-la-creueta-del-coll"
+   ]
+  },
+  {
+   "nom": "Manuel Baldrich",
+   "fragments": [
+    [
+     "Manuel Baldrich Tibau",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "piscina-sant-jordi"
+   ]
+  },
+  {
+   "nom": "Manuel de Solà-Morales i de Rosselló + Manuel de Solà-Morales i Rubió",
+   "fragments": [
+    [
+     "Manuel de Solà-Morales i de Rosselló",
+     "exacte"
+    ],
+    [
+     "Manuel de Solà-Morales i Rubió",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-carrer-muntaner"
+   ]
+  },
+  {
+   "nom": "Mariano Romano Rius (?)",
+   "fragments": [
+    [
+     "Mariano Romaní Rius",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "galetes-i-xocolata-solsona-i-rius"
+   ]
+  },
+  {
+   "nom": "Marta Cervelló + Josep Lluís Mateo",
+   "fragments": [
+    [
+     "Marta Cervelló Casanova",
+     "parcial"
+    ],
+    [
+     "Josep Lluís Mateo i Martínez",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "centre-de-convencions-internacional-de-catalunya-ccib"
+   ]
+  },
+  {
+   "nom": "Meritxell Inaraja",
+   "fragments": [
+    [
+     "Meritxell Inaraja i Genís",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "la-seca-fundacio-joan-brossa"
+   ]
+  },
+  {
+   "nom": "Núria Salvadó + Josep Anglès",
+   "fragments": [
+    [
+     "Núria Salvadó Aragonès",
+     "parcial"
+    ],
+    [
+     "Josep Anglès Pascual",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "estudis-industrials"
+   ]
+  },
+  {
+   "nom": "Oliveras Boix",
+   "fragments": [
+    [
+     "Oliveras Boix Arquitectes",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "ateneu-de-fabricacio-de-gracia",
+    "casal-de-barri-can-carol"
+   ]
+  },
+  {
+   "nom": "Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina",
+   "fragments": [
+    [
+     "Oriol Bohigas i Guardiola",
+     "exacte"
+    ],
+    [
+     "Josep Maria Martorell i Codina",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-carrer-pallars",
+    "habitatges-de-can-culleres",
+    "mutua-metallurgica"
+   ]
+  },
+  {
+   "nom": "Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina + David Mackay",
+   "fragments": [
+    [
+     "Oriol Bohigas i Guardiola",
+     "exacte"
+    ],
+    [
+     "Josep Maria Martorell i Codina",
+     "exacte"
+    ],
+    [
+     "David Mackay",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-avinguda-meridiana-312",
+    "edifici-dhabitatges-carrer-roger-de-flor",
+    "edifici-dhabitatges-la-casa-del-pati",
+    "escola-thau"
+   ]
+  },
+  {
+   "nom": "Pau Monguió",
+   "fragments": [
+    [
+     "Pau Monguió Fonts",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "centre-moral-del-poblenou"
+   ]
+  },
+  {
+   "nom": "Pau Vidal",
+   "fragments": [
+    [
+     "Pau Vidal Pont",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-ali-bei"
+   ]
+  },
+  {
+   "nom": "Pau Vidal + Vivas Arquitectos",
+   "fragments": [
+    [
+     "Pau Vidal Pont",
+     "parcial"
+    ],
+    [
+     "Vivas Arquitectos",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "la-chalmeta"
+   ]
+  },
+  {
+   "nom": "Pere Llimona + Xavier Ruiz i Vallès",
+   "fragments": [
+    [
+     "Pere Llimona Torras",
+     "parcial"
+    ],
+    [
+     "Xavier Ruiz i Vallès",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-carrer-calatrava"
+   ]
+  },
+  {
+   "nom": "Pere López i Íñigo",
+   "fragments": [
+    [
+     "Pere López Íñigo",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "conjunt-residencial-diagonal",
+    "conjunt-residencial-gran-via",
+    "cunill-orfebres",
+    "facultat-de-ciencies-economiques",
+    "facultat-de-dret",
+    "institucio-cultural-cic",
+    "poligon-montbau"
+   ]
+  },
+  {
+   "nom": "Rafael Moneo",
+   "fragments": [
+    [
+     "José Rafael Moneo Vallés",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "lauditori"
+   ]
+  },
+  {
+   "nom": "Ricard de Churruca",
+   "fragments": [
+    [
+     "Ricard de Churruca Dotres",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "casa-unifamiliar-placa-mons"
+   ]
+  },
+  {
+   "nom": "Ricard de Churruca + Germà Rodríguez Arias",
+   "fragments": [
+    [
+     "Ricard de Churruca Dotres",
+     "parcial"
+    ],
+    [
+     "Germà Rodríguez Arias",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "casa-unifamiliar-placa-mons"
+   ]
+  },
+  {
+   "nom": "Roger Méndez",
+   "fragments": [
+    [
+     "Roger Méndez Badias",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "escola-dels-encants"
+   ]
+  },
+  {
+   "nom": "Sumo",
+   "fragments": [
+    [
+     "Sumo Arquitectes",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "escola-la-mar-bella",
+    "villa-urania"
+   ]
+  },
+  {
+   "nom": "Toyo Ito Associates + B720 Arquitectes",
+   "fragments": [
+    [
+     "Toyō Itō",
+     "parcial"
+    ],
+    [
+     "B720 Arquitectes",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "fira-barcelona"
+   ]
+  },
+  {
+   "nom": "Toyo Ito Associates + Òscar Tusquets + Straddle3",
+   "fragments": [
+    [
+     "Toyō Itō",
+     "parcial"
+    ],
+    [
+     "Òscar Tusquets Blanca",
+     "parcial"
+    ],
+    [
+     "Straddle3",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "placa-del-moviment-obrer-skatepark"
+   ]
+  },
+  {
+   "nom": "apocapoc bcn + slowup (Sandra Martín Lara)",
+   "fragments": [
+    [
+     "apocapoc bcn",
+     "exacte"
+    ],
+    [
+     "Sandra Martín Lara",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "nest-city-lab"
+   ]
+  }
+ ],
+ "pendents": [
+  {
+   "nom": "Albert Viaplana, Helio Piñón i Gabriel Mora",
+   "fragments": [
+    [
+     "Albert Viaplana, Helio Piñón i Gabriel Mora",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-i-oficines-can-bruixa"
+   ]
+  },
+  {
+   "nom": "Albert de Pineda Álvarez – PINEARQ, Manuel Brullet i Alfonso de Luna",
+   "fragments": [
+    [
+     "Albert de Pineda Álvarez – PINEARQ, Manuel Brullet i Alfonso de Luna",
+     null
+    ]
+   ],
+   "fitxes": [
+    "parc-de-recerca-biomedica-de-barcelona"
+   ]
+  },
+  {
+   "nom": "Alumnes de Ciutat Vella",
+   "fragments": [
+    [
+     "Alumnes de Ciutat Vella",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mitgera-dels-objectes"
+   ]
+  },
+  {
+   "nom": "Amigó",
+   "fragments": [
+    [
+     "Amigó",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-publica-arus"
+   ]
+  },
+  {
+   "nom": "Antoni Audet",
+   "fragments": [
+    [
+     "Antoni Audet",
+     null
+    ]
+   ],
+   "fitxes": [
+    "botiga-cottet"
+   ]
+  },
+  {
+   "nom": "Antoni Ubach, Miquel Espinet i J. M. Hernández León",
+   "fragments": [
+    [
+     "Antoni Ubach, Miquel Espinet i J. M. Hernández León",
+     null
+    ]
+   ],
+   "fitxes": [
+    "pavello-de-la-republica-de-1937-replica"
+   ]
+  },
+  {
+   "nom": "Antoni de Moragas i Gallissà i Francisco Riba de Salas",
+   "fragments": [
+    [
+     "Antoni de Moragas i Gallissà i Francisco Riba de Salas",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-via-augusta"
+   ]
+  },
+  {
+   "nom": "Antoni de Moragas i Gallissà i Francisco Ribas de Salas",
+   "fragments": [
+    [
+     "Antoni de Moragas i Gallissà i Francisco Ribas de Salas",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-carrer-compte-borrell",
+    "edifici-dhabitatges-carrer-sant-antoni-i-maria-claret"
+   ]
+  },
+  {
+   "nom": "Arata Isozaki, BOMA",
+   "fragments": [
+    [
+     "Arata Isozaki, BOMA",
+     null
+    ]
+   ],
+   "fitxes": [
+    "caixaforum"
+   ]
+  },
+  {
+   "nom": "BAAS Jordi Badia",
+   "fragments": [
+    [
+     "BAAS Jordi Badia",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-vall-dhebron-teixonera"
+   ]
+  },
+  {
+   "nom": "Bach-Mora",
+   "fragments": [
+    [
+     "Bach-Mora",
+     null
+    ]
+   ],
+   "fitxes": [
+    "escola-josep-maria-jujol"
+   ]
+  },
+  {
+   "nom": "Barrio Peraire",
+   "fragments": [
+    [
+     "Barrio Peraire",
+     null
+    ]
+   ],
+   "fitxes": [
+    "placa-soller-i-ateneu-la-bobila"
+   ]
+  },
+  {
+   "nom": "Bonaventura Bassegoda i Muste",
+   "fragments": [
+    [
+     "Bonaventura Bassegoda i Muste",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-publica-arus"
+   ]
+  },
+  {
+   "nom": "Cabrera",
+   "fragments": [
+    [
+     "Cabrera",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-collserola-josep-miracle"
+   ]
+  },
+  {
+   "nom": "Clotet-Paricio",
+   "fragments": [
+    [
+     "Clotet-Paricio",
+     null
+    ]
+   ],
+   "fitxes": [
+    "habitatges-diagonal-mar-illa-de-la-llum"
+   ]
+  },
+  {
+   "nom": "Comas-Pont Arquitectes",
+   "fragments": [
+    [
+     "Comas-Pont Arquitectes",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-sant-marti"
+   ]
+  },
+  {
+   "nom": "Correa-Milà",
+   "fragments": [
+    [
+     "Correa-Milà",
+     null
+    ]
+   ],
+   "fitxes": [
+    "seu-central-de-la-diputacio-de-barcelona"
+   ]
+  },
+  {
+   "nom": "Cristian Cirici i Carles Bassó",
+   "fragments": [
+    [
+     "Cristian Cirici i Carles Bassó",
+     null
+    ]
+   ],
+   "fitxes": [
+    "vapor-llull"
+   ]
+  },
+  {
+   "nom": "César Ortiz Echagüe",
+   "fragments": [
+    [
+     "César Ortiz Echagüe",
+     null
+    ]
+   ],
+   "fitxes": [
+    "menjadors-de-la-seat"
+   ]
+  },
+  {
+   "nom": "César Ortiz Echagüe, Manuel Barbero Rebolledo i Rafael de la Joya",
+   "fragments": [
+    [
+     "César Ortiz Echagüe, Manuel Barbero Rebolledo i Rafael de la Joya",
+     null
+    ]
+   ],
+   "fitxes": [
+    "menjadors-de-la-seat"
+   ]
+  },
+  {
+   "nom": "Daniel Molina (Som Habitat)",
+   "fragments": [
+    [
+     "Daniel Molina (Som Habitat)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "can-pico-biciclot"
+   ]
+  },
+  {
+   "nom": "Daniel Mòdol i Deltell",
+   "fragments": [
+    [
+     "Daniel Mòdol i Deltell",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-guineueta"
+   ]
+  },
+  {
+   "nom": "Diversos estudis",
+   "fragments": [
+    [
+     "Diversos estudis",
+     null
+    ]
+   ],
+   "fitxes": [
+    "eixos-verds-de-leixample-superilla"
+   ]
+  },
+  {
+   "nom": "Domènec Boada Piera",
+   "fragments": [
+    [
+     "Domènec Boada Piera",
+     null
+    ]
+   ],
+   "fitxes": [
+    "casa-lluis-cairo",
+    "edifici-dhabitatges-maquinista"
+   ]
+  },
+  {
+   "nom": "EMBT (Miralles Tagliabue EMBT)",
+   "fragments": [
+    [
+     "EMBT (Miralles Tagliabue EMBT)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-santa-caterina-i-habitatges-per-ancians"
+   ]
+  },
+  {
+   "nom": "Eduard Molas Rifà + Enric Rello Roque + Josep M. Rovira Gimeno",
+   "fragments": [
+    [
+     "Eduard Molas Rifà",
+     "exacte"
+    ],
+    [
+     "Enric Rello Roqué",
+     "exacte"
+    ],
+    [
+     "Josep M. Rovira Gimeno",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-doficines-ronda-universitat"
+   ]
+  },
+  {
+   "nom": "Elies Rogent",
+   "fragments": [
+    [
+     "Elies Rogent",
+     null
+    ]
+   ],
+   "fitxes": [
+    "esglesia-de-sant-miquel-del-port"
+   ]
+  },
+  {
+   "nom": "Ernesto N. Rogers + Lodovico B. Belgiojoso + Enrico Peressutti",
+   "fragments": [
+    [
+     "Ernesto N. Rogers",
+     null
+    ],
+    [
+     "Lodovico B. Belgiojoso",
+     null
+    ],
+    [
+     "Enrico Peressutti",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-doficines-hispano-olivetti-ara-hotel"
+   ]
+  },
+  {
+   "nom": "Federico Correa + Alfonso Milà + José Luis Sanz Magallón",
+   "fragments": [
+    [
+     "Federico Correa Ruiz",
+     "parcial"
+    ],
+    [
+     "Alfonso Milà Sagnier",
+     "parcial"
+    ],
+    [
+     "José Luis Sanz Magallón",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-talaia"
+   ]
+  },
+  {
+   "nom": "Flores & Prats",
+   "fragments": [
+    [
+     "Flores & Prats",
+     null
+    ]
+   ],
+   "fitxes": [
+    "cooperativa-pau-i-justicia-sala-beckett"
+   ]
+  },
+  {
+   "nom": "Franc Llonch",
+   "fragments": [
+    [
+     "Franc Llonch",
+     null
+    ]
+   ],
+   "fitxes": [
+    "conjunt-dhabitatges-illa-glories"
+   ]
+  },
+  {
+   "nom": "Francesc Mitjans i Miró + Josep Soteras i Mauri + Lorenzo García-Barbón",
+   "fragments": [
+    [
+     "Francesc Mitjans i Miró",
+     "exacte"
+    ],
+    [
+     "Josep Soteras i Mauri",
+     null
+    ],
+    [
+     "Lorenzo García-Barbón",
+     null
+    ]
+   ],
+   "fitxes": [
+    "camp-nou"
+   ]
+  },
+  {
+   "nom": "G56",
+   "fragments": [
+    [
+     "G56",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-les-corts",
+    "mercat-de-sarria",
+    "mercat-del-poblenou"
+   ]
+  },
+  {
+   "nom": "G56 Mur-Garganté Arquitectes Associats",
+   "fragments": [
+    [
+     "G56 Mur-Garganté Arquitectes Associats",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-provencals"
+   ]
+  },
+  {
+   "nom": "Gdmas (Maite Hernando i Sara Galmán)",
+   "fragments": [
+    [
+     "Gdmas (Maite Hernando i Sara Galmán)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "graner"
+   ]
+  },
+  {
+   "nom": "Gil",
+   "fragments": [
+    [
+     "Gil",
+     null
+    ]
+   ],
+   "fitxes": [
+    "aparthotel-citadines"
+   ]
+  },
+  {
+   "nom": "Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages + Manuel Baldrich + Antoni Bonet Castellana + Josep Soteras i Mauri",
+   "fragments": [
+    [
+     "Guillem Giráldez i Dávila",
+     "exacte"
+    ],
+    [
+     "Pere López Íñigo",
+     "variant"
+    ],
+    [
+     "Xavier Subías i Fages",
+     "exacte"
+    ],
+    [
+     "Manuel Baldrich Tibau",
+     "parcial"
+    ],
+    [
+     "Antoni Bonet Castellana",
+     "exacte"
+    ],
+    [
+     "Josep Soteras i Mauri",
+     null
+    ]
+   ],
+   "fitxes": [
+    "poligon-montbau"
+   ]
+  },
+  {
+   "nom": "Institut de Cultura i Biblioteca Popular per a la Dona. Josep Fontserè i Mestre",
+   "fragments": [
+    [
+     "Institut de Cultura i Biblioteca Popular per a la Dona. Josep Fontserè i Mestre",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-francesca-bonnemaison"
+   ]
+  },
+  {
+   "nom": "J. Domènech",
+   "fragments": [
+    [
+     "J. Domènech",
+     null
+    ]
+   ],
+   "fitxes": [
+    "naus-de-la-familia-ametller"
+   ]
+  },
+  {
+   "nom": "J. Rodríguez",
+   "fragments": [
+    [
+     "J. Rodríguez",
+     null
+    ]
+   ],
+   "fitxes": [
+    "cooperativa-la-flor-de-maig-sucursal"
+   ]
+  },
+  {
+   "nom": "JG Asociados",
+   "fragments": [
+    [
+     "JG Asociados",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-trinitat"
+   ]
+  },
+  {
+   "nom": "Jaume Arderiu i Tomàs Morató (A+M Arquitectes)",
+   "fragments": [
+    [
+     "Jaume Arderiu i Tomàs Morató (A",
+     null
+    ],
+    [
+     "MBM Arquitectes",
+     "variant"
+    ]
+   ],
+   "fitxes": [
+    "ca-lalier"
+   ]
+  },
+  {
+   "nom": "Jaume Graells",
+   "fragments": [
+    [
+     "Jaume Graells",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-poble-sec-francesc-boix",
+    "jardi-dels-drets-humans"
+   ]
+  },
+  {
+   "nom": "Joan Barba. c",
+   "fragments": [
+    [
+     "Joan Barba. c",
+     null
+    ]
+   ],
+   "fitxes": [
+    "filatura-el-canem"
+   ]
+  },
+  {
+   "nom": "Jordi Badia (BAAS)",
+   "fragments": [
+    [
+     "Jordi Badia (BAAS)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "tallers-oliva-artes"
+   ]
+  },
+  {
+   "nom": "Jordi Pla",
+   "fragments": [
+    [
+     "Jordi Pla",
+     null
+    ]
+   ],
+   "fitxes": [
+    "filatura-el-canem"
+   ]
+  },
+  {
+   "nom": "Josep A. Capdevila",
+   "fragments": [
+    [
+     "Josep A. Capdevila",
+     null
+    ]
+   ],
+   "fitxes": [
+    "olis-pallares"
+   ]
+  },
+  {
+   "nom": "Josep Antoni Ballesteros + Joan Carles Cardenal + Francesc de la Guàrdia + Xavier Ruiz + Pere Llimona",
+   "fragments": [
+    [
+     "Josep Antoni Ballesteros",
+     null
+    ],
+    [
+     "Joan Carles Cardenal i González",
+     "parcial"
+    ],
+    [
+     "Francesc de la Guàrdia Conte",
+     "variant"
+    ],
+    [
+     "Xavier Ruiz i Vallès",
+     "parcial"
+    ],
+    [
+     "Pere Llimona Torras",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "joieria-mones"
+   ]
+  },
+  {
+   "nom": "Josep Benedicto i Rovira i Agustí Mateos Duch",
+   "fragments": [
+    [
+     "Josep Benedicto i Rovira i Agustí Mateos Duch",
+     null
+    ]
+   ],
+   "fitxes": [
+    "palau-de-mar-magatzems-generals-de-comerc"
+   ]
+  },
+  {
+   "nom": "Josep Font i Gumà i Josep M. Jujol",
+   "fragments": [
+    [
+     "Josep Font i Gumà i Josep M. Jujol",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-de-lateneu-barcelones"
+   ]
+  },
+  {
+   "nom": "Josep Lluís Canosa",
+   "fragments": [
+    [
+     "Josep Lluís Canosa",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-francesc-candel"
+   ]
+  },
+  {
+   "nom": "Josep M. Fargas",
+   "fragments": [
+    [
+     "Josep M. Fargas",
+     null
+    ]
+   ],
+   "fitxes": [
+    "fabrica-dalbert-musteros"
+   ]
+  },
+  {
+   "nom": "Josep M. Julià",
+   "fragments": [
+    [
+     "Josep M. Julià",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-vapor-vell"
+   ]
+  },
+  {
+   "nom": "Josep M. Pericas",
+   "fragments": [
+    [
+     "Josep M. Pericas",
+     null
+    ]
+   ],
+   "fitxes": [
+    "farinera-sant-jaume-la-farinera-del-clot"
+   ]
+  },
+  {
+   "nom": "Josep M. Ros i Vila",
+   "fragments": [
+    [
+     "Josep M. Ros i Vila",
+     null
+    ]
+   ],
+   "fitxes": [
+    "vapor-llull"
+   ]
+  },
+  {
+   "nom": "Josep M. Rovira Gimeno",
+   "fragments": [
+    [
+     "Josep M. Rovira Gimeno",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-doficines-ronda-universitat"
+   ]
+  },
+  {
+   "nom": "Josep Soteras i Mauri",
+   "fragments": [
+    [
+     "Josep Soteras i Mauri",
+     null
+    ]
+   ],
+   "fitxes": [
+    "camp-nou",
+    "conjunt-del-congres-eucaristic",
+    "hispano-olivetti",
+    "palau-municipal-desports",
+    "poligon-montbau"
+   ]
+  },
+  {
+   "nom": "Josep Soteras i Mauri i Lorenzo García-Barbón",
+   "fragments": [
+    [
+     "Josep Soteras i Mauri i Lorenzo García-Barbón",
+     null
+    ]
+   ],
+   "fitxes": [
+    "palau-municipal-desports"
+   ]
+  },
+  {
+   "nom": "Josep Soteras i Mauri, Antoni Pineda i Gualba i Carlos Marquès i Maristany",
+   "fragments": [
+    [
+     "Josep Soteras i Mauri, Antoni Pineda i Gualba i Carlos Marquès i Maristany",
+     null
+    ]
+   ],
+   "fitxes": [
+    "conjunt-del-congres-eucaristic"
+   ]
+  },
+  {
+   "nom": "Josep Vila i Bayó",
+   "fragments": [
+    [
+     "Josep Vila i Bayó",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-horta-can-mariner"
+   ]
+  },
+  {
+   "nom": "Julio Isamat Vila",
+   "fragments": [
+    [
+     "Julio Isamat Vila",
+     null
+    ]
+   ],
+   "fitxes": [
+    "tallers-nuevo-vulcano"
+   ]
+  },
+  {
+   "nom": "Llorenç García-Barbón",
+   "fragments": [
+    [
+     "Llorenç García-Barbón",
+     null
+    ]
+   ],
+   "fitxes": [
+    "huracan-motors-razzmatazz"
+   ]
+  },
+  {
+   "nom": "Llorenç García-Barbón. 1970 + Blanch & Conca",
+   "fragments": [
+    [
+     "Llorenç García-Barbón. 1970",
+     null
+    ],
+    [
+     "Blanch & Conca",
+     null
+    ]
+   ],
+   "fitxes": [
+    "can-gili-vell"
+   ]
+  },
+  {
+   "nom": "Lluís Clotet i Ignasi Paricio",
+   "fragments": [
+    [
+     "Lluís Clotet i Ignasi Paricio",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-crai-de-la-ciutadella-diposit-de-les-aigues-universitat-pompeu-fabra"
+   ]
+  },
+  {
+   "nom": "Lluís Gurina Cuyàs. 1922 + Santiago Puig",
+   "fragments": [
+    [
+     "Lluís Gurina Cuyàs. 1922",
+     null
+    ],
+    [
+     "Santiago Puig",
+     null
+    ]
+   ],
+   "fitxes": [
+    "farinera-la-asuncion"
+   ]
+  },
+  {
+   "nom": "Lola Domènech + Lussi Studio + Partner AG",
+   "fragments": [
+    [
+     "Lola Domènech i Oliva",
+     "parcial"
+    ],
+    [
+     "Lussi Studio",
+     null
+    ],
+    [
+     "Partner AG",
+     "exacte"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-per-a-4-amics"
+   ]
+  },
+  {
+   "nom": "M1441 Arquitectura",
+   "fragments": [
+    [
+     "M1441 Arquitectura",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-gotic-andreu-nin"
+   ]
+  },
+  {
+   "nom": "MAP Arquitectes (Josep Lluís Mateo)",
+   "fragments": [
+    [
+     "MAP Arquitectes (Josep Lluís Mateo)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-del-ninot"
+   ]
+  },
+  {
+   "nom": "Manuel Raspall i Mallol",
+   "fragments": [
+    [
+     "Manuel Raspall i Mallol",
+     null
+    ]
+   ],
+   "fitxes": [
+    "nau-industrial-modernista"
+   ]
+  },
+  {
+   "nom": "Manuel Rodríguez Gutiérrez",
+   "fragments": [
+    [
+     "Manuel Rodríguez Gutiérrez",
+     null
+    ]
+   ],
+   "fitxes": [
+    "la-favorita"
+   ]
+  },
+  {
+   "nom": "Moisés Gallego i Tomàs Morató",
+   "fragments": [
+    [
+     "Moisés Gallego i Tomàs Morató",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-ignasi-iglesias-can-fabra",
+    "biblioteca-poblenou-manuel-arranz"
+   ]
+  },
+  {
+   "nom": "Núria Monfort",
+   "fragments": [
+    [
+     "Núria Monfort",
+     null
+    ]
+   ],
+   "fitxes": [
+    "can-jaumandreu-vapor-de-la-llana"
+   ]
+  },
+  {
+   "nom": "OAB (Carlos Ferrater)",
+   "fragments": [
+    [
+     "OAB (Carlos Ferrater)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "habitatges-vertix"
+   ]
+  },
+  {
+   "nom": "Olga Tarrasó i Jordi Henrich",
+   "fragments": [
+    [
+     "Olga Tarrasó i Jordi Henrich",
+     null
+    ]
+   ],
+   "fitxes": [
+    "pla-de-palau-i-passeig-joan-de-borbo"
+   ]
+  },
+  {
+   "nom": "Olga Tarrasó, Jordi Henrich, Jaume Artigues i Miquel Roig",
+   "fragments": [
+    [
+     "Olga Tarrasó, Jordi Henrich, Jaume Artigues i Miquel Roig",
+     null
+    ]
+   ],
+   "fitxes": [
+    "passeig-maritim-de-la-barceloneta"
+   ]
+  },
+  {
+   "nom": "PB2 (Josep Llobet i Bach)",
+   "fragments": [
+    [
+     "PB2 (Josep Llobet i Bach)",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-la-llibertat",
+    "mercat-de-sants"
+   ]
+  },
+  {
+   "nom": "Pere Falqués i Urpí",
+   "fragments": [
+    [
+     "Pere Falqués i Urpí",
+     null
+    ]
+   ],
+   "fitxes": [
+    "torre-de-les-aigues-del-besos"
+   ]
+  },
+  {
+   "nom": "Peris+Toral",
+   "fragments": [
+    [
+     "Peris",
+     null
+    ],
+    [
+     "Toral",
+     null
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-hpo-living-lattice",
+    "habitatges-socials-per-a-joves-can-caralleu"
+   ]
+  },
+  {
+   "nom": "Peris+Toral + Jaime Pastor",
+   "fragments": [
+    [
+     "Peris",
+     null
+    ],
+    [
+     "Toral",
+     null
+    ],
+    [
+     "Jaime Pastor Valbuena",
+     "parcial"
+    ]
+   ],
+   "fitxes": [
+    "edifici-dhabitatges-dotacionals-greenhuse"
+   ]
+  },
+  {
+   "nom": "Ravetllat-Ribas",
+   "fragments": [
+    [
+     "Ravetllat-Ribas",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-sant-antoni"
+   ]
+  },
+  {
+   "nom": "Ricard Mercader i Aurora Fernández",
+   "fragments": [
+    [
+     "Ricard Mercader i Aurora Fernández",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-montserrat-abello"
+   ]
+  },
+  {
+   "nom": "Ricard Pérdigo i Tomàs Rodríguez",
+   "fragments": [
+    [
+     "Ricard Pérdigo i Tomàs Rodríguez",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-nou-barris-aurora-diaz-plaja"
+   ]
+  },
+  {
+   "nom": "Roldán+Berengué",
+   "fragments": [
+    [
+     "Roldán",
+     null
+    ],
+    [
+     "Berengué",
+     null
+    ]
+   ],
+   "fitxes": [
+    "habitatges-socials-fabra-i-coats"
+   ]
+  },
+  {
+   "nom": "SCOB",
+   "fragments": [
+    [
+     "SCOB",
+     null
+    ]
+   ],
+   "fitxes": [
+    "skate-park-mar-bella"
+   ]
+  },
+  {
+   "nom": "Santiago Bergnes de las Casas. 2010 + Antoni Vilanova i Eduard Simó",
+   "fragments": [
+    [
+     "Santiago Bergnes de las Casas. 2010",
+     null
+    ],
+    [
+     "Antoni Vilanova i Eduard Simó",
+     null
+    ]
+   ],
+   "fitxes": [
+    "can-gili-nou"
+   ]
+  },
+  {
+   "nom": "Soldevila Soldevila Soldevila Arquitectes",
+   "fragments": [
+    [
+     "Soldevila Soldevila Soldevila Arquitectes",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-les-roquetes-rafa-juncadella"
+   ]
+  },
+  {
+   "nom": "Territori24",
+   "fragments": [
+    [
+     "Territori24",
+     null
+    ]
+   ],
+   "fitxes": [
+    "centre-civic-baro-de-viver"
+   ]
+  },
+  {
+   "nom": "Tomàs Morató i Moisès Gallego",
+   "fragments": [
+    [
+     "Tomàs Morató i Moisès Gallego",
+     null
+    ]
+   ],
+   "fitxes": [
+    "can-saladrigas"
+   ]
+  },
+  {
+   "nom": "Tonet Sunyer",
+   "fragments": [
+    [
+     "Tonet Sunyer",
+     null
+    ]
+   ],
+   "fitxes": [
+    "biblioteca-clara"
+   ]
+  },
+  {
+   "nom": "Valeri Consultors Associats",
+   "fragments": [
+    [
+     "Valeri Consultors Associats",
+     null
+    ]
+   ],
+   "fitxes": [
+    "mercat-de-ciutat-meridiana",
+    "mercat-de-felip-ii",
+    "mercat-de-sant-gervasi",
+    "mercat-dhostafrancs"
+   ]
+  },
+  {
+   "nom": "Viaplana / Piñón",
+   "fragments": [
+    [
+     "Viaplana / Piñón",
+     null
+    ]
+   ],
+   "fitxes": [
+    "centre-de-cultura-contemporania-de-barcelona-cccb"
+   ]
+  },
+  {
+   "nom": "Víctor Surribas",
+   "fragments": [
+    [
+     "Víctor Surribas",
+     null
+    ]
+   ],
+   "fitxes": [
+    "tallers-oliva-artes"
+   ]
+  }
+ ]
+}
