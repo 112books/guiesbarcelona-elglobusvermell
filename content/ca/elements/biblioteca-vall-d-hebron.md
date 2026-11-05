@@ -22,7 +22,3 @@ descripcio: Futura biblioteca
 descripcio_nomenclator: ''
 anys_reforma: []
 ---
-
-**Futura biblioteca**
-
-Sense nom definit
