@@ -13,8 +13,6 @@ temes_transversals: []
 adreca: Pg. de Sant Joan, 26
 any: ''
 arquitectes:
-  - Bonaventura Bassegoda i Muste
-  - Amigó
   - Bonaventura Bassegoda i Amigó
   - Joan Amigó i Barriga
 tipologia: ''
