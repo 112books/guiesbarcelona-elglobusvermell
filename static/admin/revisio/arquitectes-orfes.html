@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Arquitectes orfes — Revisió</title>
+  <style>
+    :root {
+      --bg: #f5f4f0; --ink: #111110; --ink2: #3d3d39; --ink3: #62625d;
+      --border: #d8d8d2; --surface: #ffffff; --soft: #eeede9; --red: #c81e1e;
+      --green: #1d6b3a; --amber: #8a5a00;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55; }
+    header { text-align: center; padding: 2rem 1rem; background: #fff; border-bottom: 1px solid var(--border); }
+    header h1 { margin: 0; font-size: 1.4rem; font-weight: 600; }
+    header p { margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--ink3); }
+    main { max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem 6rem; }
+    .intro { background: var(--surface); border: 1px solid var(--border); padding: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem; }
+    .filtre { display: flex; gap: 0.4rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .filtre-btn { font: inherit; padding: 0.4rem 0.8rem; border: 1px solid var(--border); background: var(--surface); cursor: pointer; border-radius: 2rem; }
+    .filtre-btn.actiu { background: var(--ink); color: #fff; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+    th { background: var(--soft); padding: 0.8rem; text-align: left; font-weight: 600; font-size: 0.85rem; border: 1px solid var(--border); }
+    td { padding: 0.8rem; border: 1px solid var(--border); }
+    .nom-cell { font-weight: 600; }
+    .fitxes-cell { font-size: 0.85rem; color: var(--ink2); }
+    .fitxes-cell a { color: #a51717; }
+    .accio-cell { font-size: 0.85rem; }
+    .accio-cell select { font: inherit; padding: 0.3rem; border: 1px solid var(--border); }
+    .validat-cell { text-align: center; }
+    .validat-cell input { width: 18px; height: 18px; cursor: pointer; }
+    .status { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid var(--border); padding: 1rem; }
+    .status-inner { max-width: 900px; margin: 0 auto; display: flex; gap: 1rem; justify-content: space-between; align-items: center; font-size: 0.9rem; }
+    .progress { color: var(--green); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arquitectes sense fitxa — Revisió</h1>
+    <p>92 noms pendents de validació</p>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>Cada nom apareix en una o més fitxes però no té pàgina pròpia. Per a cada un, triar: crear fitxa nova, assignar a un altre nom, o marcar com a no-arquitecte.</p>
+    </div>
+
+    <div class="filtre">
+      <button class="filtre-btn actiu" data-filtre="tot">Tot</button>
+      <button class="filtre-btn" data-filtre="pendent">Pendent</button>
+      <button class="filtre-btn" data-filtre="validat">Validat</button>
+    </div>
+
+    <table id="taula">
+      <thead>
+        <tr>
+          <th style="width: 25%;">Nom</th>
+          <th style="width: 30%;">Apareix en (fitxes)</th>
+          <th style="width: 30%;">Acció</th>
+          <th style="width: 8%; text-align: center;">✓</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </main>
+
+  <div class="status">
+    <div class="status-inner">
+      <span id="comptador"></span>
+      <button style="font: inherit; padding: 0.5rem 1rem; border: 1px solid var(--ink); background: var(--ink); color: #fff; cursor: pointer;" onclick="desaProgress()">Desa progres</button>
+    </div>
+  </div>
+
+  <script>
+    const KEY = "arquitectes-orfes-progress";
+    let dades = [];
+    let progress = {};
+
+    try { progress = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { progress = {}; }
+
+    async function carrega() {
+      const resp = await fetch("./arquitectes-orfes.json");
+      dades = await resp.json();
+      renderTaula("tot");
+      actualitzaComptador();
+    }
+
+    function renderTaula(filtre) {
+      const tbody = document.getElementById("tbody");
+      tbody.innerHTML = "";
+
+      dades.forEach((item, idx) => {
+        const validat = progress[idx] && progress[idx].validat;
+        if (filtre === "pendent" && validat) return;
+        if (filtre === "validat" && !validat) return;
+
+        const tr = document.createElement("tr");
+        tr.style.opacity = validat ? "0.6" : "1";
+
+        const nomCell = document.createElement("td");
+        nomCell.className = "nom-cell";
+        nomCell.textContent = item.nom;
+        tr.appendChild(nomCell);
+
+        const fitxesCell = document.createElement("td");
+        fitxesCell.className = "fitxes-cell";
+        fitxesCell.innerHTML = item.fitxes.slice(0, 3).map(f =>
+          `<a href="https://112books.github.io/guiesbarcelona-elglobusvermell/ca/elements/${f}/" target="_blank">${f}</a>`
+        ).join(", ") + (item.fitxes.length > 3 ? ` +${item.fitxes.length - 3}` : "");
+        tr.appendChild(fitxesCell);
+
+        const accioCell = document.createElement("td");
+        accioCell.className = "accio-cell";
+        const select = document.createElement("select");
+        select.innerHTML = `
+          <option value="">- Sense decidir -</option>
+          <option value="nova_fitxa">Crear fitxa nova</option>
+          <option value="reasignar">Reassignar a altre nom</option>
+          <option value="no_arquitecte">No és arquitecte</option>
+        `;
+        select.value = (progress[idx] && progress[idx].accio) || "";
+        select.onchange = () => { progress[idx] = { ...progress[idx], accio: select.value }; };
+        accioCell.appendChild(select);
+        tr.appendChild(accioCell);
+
+        const validatCell = document.createElement("td");
+        validatCell.className = "validat-cell";
+        const check = document.createElement("input");
+        check.type = "checkbox";
+        check.checked = validat;
+        check.onchange = () => { progress[idx] = { ...progress[idx], validat: check.checked }; actualitzaComptador(); };
+        validatCell.appendChild(check);
+        tr.appendChild(validatCell);
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    function actualitzaComptador() {
+      const validats = Object.values(progress).filter(p => p && p.validat).length;
+      document.getElementById("comptador").textContent = `${validats} de ${dades.length} validats`;
+    }
+
+    function desaProgress() {
+      localStorage.setItem(KEY, JSON.stringify(progress));
+      alert("Progres desat!");
+    }
+
+    document.querySelectorAll(".filtre-btn").forEach(btn => {
+      btn.addEventListener("click", function() {
+        document.querySelectorAll(".filtre-btn").forEach(b => b.classList.remove("actiu"));
+        this.classList.add("actiu");
+        renderTaula(this.dataset.filtre);
+      });
+    });
+
+    carrega();
+  </script>
+</body>
+</html>
