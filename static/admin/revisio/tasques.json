@@ -2399,6 +2399,20 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/baas-arquitectura/"
         }
       ]
+    },
+    {
+      "id": "fitxa-mapa-tots-els-punts",
+      "ref": "6/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Mapa de la fitxa: tots els punts amb el de la fitxa destacat",
+      "cita": "ens agradaria que en comptes d'apareixer nomes aquell punt, apareguessin tots els punts del mapa, de manera que una fitxa tambe pot ser una manera d'acabar navegant pel mapa.",
+      "resultat": "Fet (6/11): el mapa de cada fitxa mostra tots els elements. El de la fitxa va mes gran, centrat i amb el nom sempre visible; els altres es poden clicar i porten a la seva fitxa.",
+      "enllacos": [
+        {
+          "label": "Biblioteca Pública Arús",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-publica-arus/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
