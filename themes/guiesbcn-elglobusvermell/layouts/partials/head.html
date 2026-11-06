@@ -43,7 +43,9 @@
 {{ if and (eq .Section "elements") .Params.foto }}
 <link rel="preload" as="image" href="{{ .Params.foto | strings.TrimPrefix "/" | absURL }}">
 {{ end }}
-{{ if or (eq .Section "elements") (eq .Section "mapa") .IsHome (eq .Kind "term") }}
+{{/* Les pàgines de tema transversal també porten mapa (6/11): sense el CSS de
+     Leaflet els tiles es veien com a «trocets» i els punts no apareixien. */}}
+{{ if or (eq .Section "elements") (eq .Section "mapa") .IsHome (eq .Kind "term") (and (eq .Section "temes") (eq .Kind "page")) }}
 <link rel="preconnect" href="https://tiles.stadiamaps.com">
 <link rel="dns-prefetch" href="https://tiles.stadiamaps.com">
 {{ end }}
@@ -52,7 +54,7 @@
 <link rel="preload" as="font" type="font/woff2" href="{{ "fonts/public-sans/public-sans-latin.woff2" | relURL }}" crossorigin>
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-{{ if or (eq .Section "elements") (eq .Section "mapa") .IsHome (eq .Kind "term") }}
+{{ if or (eq .Section "elements") (eq .Section "mapa") .IsHome (eq .Kind "term") (and (eq .Section "temes") (eq .Kind "page")) }}
 <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
 <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet-gesture-handling.min.css" | relURL }}">
 {{ end }}
