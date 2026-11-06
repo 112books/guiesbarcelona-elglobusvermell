@@ -30,6 +30,9 @@
     .fitxes-cell a { color: #a51717; }
     .accio-cell { font-size: 0.85rem; }
     .accio-cell select { font: inherit; padding: 0.3rem; border: 1px solid var(--border); }
+    .nota-cell { display: block; width: 100%; margin-top: 0.35rem; font: inherit; font-size: 0.8rem;
+      padding: 0.3rem 0.4rem; border: 1px solid var(--border); border-radius: 3px; }
+    .nota-cell[hidden] { display: none; }
     .validat-cell { text-align: center; }
     .validat-cell input { width: 18px; height: 18px; cursor: pointer; }
     .status { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid var(--border); padding: 1rem; }
@@ -46,6 +49,8 @@
   <main>
     <div class="intro">
       <p>Cada nom apareix en una o més fitxes però no té pàgina pròpia. Per a cada un, triar: crear fitxa nova, assignar a un altre nom, o marcar com a no-arquitecte.</p>
+      <p>Si un cas barreja accions (per exemple, crear una fitxa nova per a un nom i reassignar els altres), tria <strong>«Mixt»</strong> i ho expliques a la nota.</p>
+      <p><strong>No és cap bloqueig:</strong> el que no tinguis clar el pots deixar en blanc i ho mirem nosaltres.</p>
     </div>
 
     <div class="filtre">
@@ -123,10 +128,25 @@
           <option value="nova_fitxa">Crear fitxa nova</option>
           <option value="reasignar">Reassignar a altre nom</option>
           <option value="no_arquitecte">No és arquitecte</option>
+          <option value="mixt">Mixt (detall a la nota)</option>
         `;
         select.value = (progress[idx] && progress[idx].accio) || "";
-        select.onchange = () => { progress[idx] = { ...progress[idx], accio: select.value }; };
+
+        // Nota lliure, sobretot per als casos «Mixt» (p. ex. PINEARQ nou + tres reassignaments).
+        const nota = document.createElement("input");
+        nota.type = "text";
+        nota.className = "nota-cell";
+        nota.placeholder = "Ex.: PINEARQ → fitxa nova; els altres tres → reassignar";
+        nota.value = (progress[idx] && progress[idx].nota) || "";
+        nota.hidden = select.value !== "mixt";
+        nota.oninput = () => { progress[idx] = { ...progress[idx], nota: nota.value }; };
+
+        select.onchange = () => {
+          progress[idx] = { ...progress[idx], accio: select.value };
+          nota.hidden = select.value !== "mixt";
+        };
         accioCell.appendChild(select);
+        accioCell.appendChild(nota);
         tr.appendChild(accioCell);
 
         const validatCell = document.createElement("td");
