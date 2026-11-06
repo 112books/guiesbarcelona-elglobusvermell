@@ -2371,6 +2371,34 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio/arquitectes-orfes.html"
         }
       ]
+    },
+    {
+      "id": "en-paper-xips-excloents",
+      "ref": "6/11 · En paper",
+      "estat": "fet",
+      "titol": "«En paper»: els filtres de tema són excloents",
+      "cita": "A En paper... caldria que cada un dels xips sigui excloent, i que no puguin estar simultàniament encesos.",
+      "resultat": "Fet (6/11): només es pot tenir un tema encès alhora; tornar a clicar el mateix xip treu el filtre i es torna a veure tot.",
+      "enllacos": [
+        {
+          "label": "En paper",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        }
+      ]
+    },
+    {
+      "id": "mapa-arquitecte-marge",
+      "ref": "6/11 · Arquitectes",
+      "estat": "fet",
+      "titol": "Mapa de la fitxa d'arquitecte: més marge a les vores",
+      "cita": "apareixen els punts molt apinyats a les vores... Podem fer una mica de zoom out?",
+      "resultat": "Fet (6/11): el mapa de la fitxa d'arquitecte deixa més aire a les vores (44px en lloc de 8px), així cap punt queda tallat. El mapa general es queda com estava.",
+      "enllacos": [
+        {
+          "label": "BAAS Arquitectura",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/baas-arquitectura/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
