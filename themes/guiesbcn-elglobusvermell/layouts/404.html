@@ -9,8 +9,8 @@
 <div class="e404-wrap">
 
   <div class="e404-cap">
-    <span class="e404-codi">404</span>
-    <h1 class="e404-titol">Coordenades incorrectes</h1>
+    <span class="e404-codi" id="e404-codi-emoji">404</span>
+    <h1 class="e404-titol" id="e404-titol-dinamico">Coordenades incorrectes</h1>
     <p class="e404-sub">Aquesta adreça no correspon a cap edifici, element ni pàgina del web.</p>
   </div>
 
@@ -161,6 +161,27 @@
     });
     return out;
   }
+
+  /* Easter egg: reaccions divertides a certes cerques */
+  const easterEggs = {
+    'arquitectes orphans': { codi: '👻', titol: 'Fantasmetes d\'arquitectes' },
+    'lost': { codi: '🗺️', titol: 'Realment estàs perdut?' },
+    'coordinates': { codi: '🧭', titol: 'Coordenades mai no entrarien' },
+    'el globus vermell': { codi: '🎈', titol: 'Aquí soc!' },
+    'hola': { codi: '👋', titol: 'Bon dia!' },
+    'barcelona': { codi: '🏛️', titol: 'Benvingut a Barcelona' },
+  };
+
+  input.addEventListener('input', function () {
+    const q = this.value.trim().toLowerCase();
+    Object.keys(easterEggs).forEach(function (key) {
+      if (q.includes(key)) {
+        const egg = easterEggs[key];
+        document.getElementById('e404-codi-emoji').textContent = egg.codi;
+        document.getElementById('e404-titol-dinamico').textContent = egg.titol;
+      }
+    });
+  });
 })();
 </script>
 
