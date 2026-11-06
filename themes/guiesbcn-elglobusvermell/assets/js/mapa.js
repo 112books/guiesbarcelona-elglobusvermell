@@ -231,12 +231,16 @@
     // Staticrypt carrega el CSS asíncronament: el contenidor pot tenir
     // amplada 0 fins que el CSS s'aplica. Esperem que tingui una amplada
     // real (> 200px) abans de fer fitBounds, per evitar tiles parcials.
+    // Marge del primer ajust: 8px al mapa general. Les pàgines que volen més
+    // aire (fitxa d'arquitecte, 6/11) el declaren amb window.MAPA_PADDING.
+    var MAPA_PADDING = parseInt(window.MAPA_PADDING, 10);
+    if (!(MAPA_PADDING >= 0)) MAPA_PADDING = 8;
     function fitMap() {
       map.invalidateSize();
       if (allMarkers.length === 1) {
         map.setView(allMarkers[0].getBounds().getCenter(), 16);
       } else if (allMarkers.length > 1) {
-        map.fitBounds(group.getBounds(), { padding: [8, 8] });
+        map.fitBounds(group.getBounds(), { padding: [MAPA_PADDING, MAPA_PADDING] });
       }
     }
     function fitWhenReady(attempt) {
