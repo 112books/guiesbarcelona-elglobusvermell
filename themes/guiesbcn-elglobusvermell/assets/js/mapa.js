@@ -863,7 +863,6 @@
       html += '<li><a class="cerca-resultat" href="' + esc(p.url) + '">' +
         '<span class="cerca-resultat-titol">' + esc(p.title) + '</span>' +
         '<span class="cerca-resultat-meta">' + pubs +
-        (p.any ? '<span class="cerca-resultat-any">' + esc(p.any) + '</span>' : '') +
         (p.adreca ? '<span class="cerca-resultat-adreca">' + esc(p.adreca) + '</span>' : '') +
         '</span></a></li>';
     });
