@@ -143,13 +143,12 @@
            tots els noms, la fila «Arquitecte» sobra (l'artista surt a «Autoria»). */}}
       {{ $nomesAutoria := gt (len (.Params.intervencions | default slice)) 0 }}
       {{ range .Params.intervencions }}{{ if ne .tipus "Autoria" }}{{ $nomesAutoria = false }}{{ end }}{{ end }}
-      {{/* Unificació Arquitectes/Projecte (Xavi, 21/10): si tots els noms del camp
-           «Arquitectes» ja surten a les intervencions (que com a mínim són
-           «Projecte»), la fila «Arquitectes» no es mostra — la informació és la
-           mateixa i la repetició confonia. Els artistes (només «Autoria») tampoc
-           en mostren. */}}
-      {{ with and (not $repetida) .Params.arquitectes }}
-      <div class="fitxa-dada{{ if $repetida }} fitxa-dada-repetida{{ end }}">
+      {{/* Unificació Arquitectes/Projecte (Xavi, 21/10): si hi ha intervencions,
+           la fila «Arquitectes» no es mostra — els autors dels projectes ja surten allà.
+           Els artistes (només «Autoria») tampoc mostren aquesta fila. */}}
+      {{ $mostrarArquitectes := and .Params.arquitectes (not .Params.intervencions) }}
+      {{ with and $mostrarArquitectes .Params.arquitectes }}
+      <div class="fitxa-dada">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>
         <dd>
           {{ range $i, $a := . }}
