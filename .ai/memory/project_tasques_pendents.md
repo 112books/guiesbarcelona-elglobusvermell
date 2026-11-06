@@ -99,11 +99,11 @@ Detall complet: `.ai/FEEDBACK-XAVI-2026-09-30.md`
 - ✅ **G3** — ordre menú: Presentació · Mapa · En paper · Arquitectes · Contacte (T02, 30/9)
 - ✅ **M1** — zoom inicial mapa: padding fitBounds [30,30]→[10,10] (T04, 30/9)
 - ✅ **M4** — difuminat eliminat en seleccionar plànol (T05, 30/9). Joan discrepa; documentat.
-- ⏳ **M6** — eliminar llistat elements + abecedari sota el mapa; mantenir només cercador
-- ⏳ **P5** — eliminar: guia destacada, arquitecte destacat, recursos educatius de portada
+- ✅ **M6** — eliminar llistat elements + abecedari sota el mapa; mantenir només cercador (6/11)
+- ✅ **P5** — eliminar: guia destacada, arquitecte destacat, recursos educatius de portada (ja era feta)
 - ✅ **F7** — "edificis" → "elements" aplicat (30/9): 12 ocurrències en 4 fitxers UI. Doc: `.ai/canvis/T01-edificis-elements.md`
-- ⏳ **PR4** — eliminar bloc "Suggerir un canvi" de la presentació
-- ⏳ **A2** — llistat elements arquitecte: eliminar etiqueta any + menys clics
+- ✅ **PR4** — eliminar bloc "Suggerir un canvi" de la presentació (ja era feta)
+- ✅ **A2** — llistat elements arquitecte: eliminar etiqueta any + menys clics (6/11)
 
 ### Pendent contingut (espera text de Xavi/equip)
 - 🟡 **M5** — informació temes transversals al mapa: contingut de la web antiga (Xavi ho passa)
