@@ -2329,6 +2329,48 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
         }
       ]
+    },
+    {
+      "id": "portada-carrusel-clicable",
+      "ref": "6/11 · Portada",
+      "estat": "fet",
+      "titol": "Carrusel de la portada: clicar una portada obre el plànol",
+      "cita": "Al carrusel de plànols-guia a la portada no passa res si cliques qualsevol de les portades. Haurien de portar a la pàgina d'aquell plànol.",
+      "resultat": "Fet (6/11): a la portada, clicar qualsevol portada obre la pàgina d'aquell plànol. A «En paper» es manté el desplaçament a la seva secció.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
+    },
+    {
+      "id": "mapa-temes-arreglat",
+      "ref": "6/11 · Temes",
+      "estat": "fet",
+      "titol": "Mapa dels temes transversals: es veu bé",
+      "cita": "El mapa dels temes transversals no funciona.",
+      "resultat": "Fet (6/11): la pàgina del tema no carregava l'estil del mapa, i per això els trossos de mapa sortien descol·locats i no es veia cap punt. Ara sí.",
+      "enllacos": [
+        {
+          "label": "Art públic",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/temes/art-public/"
+        }
+      ]
+    },
+    {
+      "id": "tauler-enllacos-orfes",
+      "ref": "6/11 · Tauler",
+      "estat": "fet",
+      "titol": "Llista d'arquitectes orfes: els enllaços a les fitxes tornen a obrir-les",
+      "cita": "L'enllaç porta a una pàgina d'error 404 que no havia vist mai.",
+      "resultat": "Fet (6/11): els enllaços de la columna «Apareix en (fitxes)» anaven a una adreça interna de més i donaven 404. Corregits i comprovats tots els enllaços (97 fitxes).",
+      "enllacos": [
+        {
+          "label": "Llista d'arquitectes orfes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio/arquitectes-orfes.html"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
