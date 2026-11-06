@@ -35,7 +35,10 @@
   {{/* ══ 1. HERO — logo gran + frase + fletxa cap avall ══ */}}
   <section class="pa-hero" id="portada-inici">
     <div class="pa-hero-inner">
-      <img class="pa-hero-logo" src="{{ "img/Arquitectura-i-urbanisme-de-barcelona.svg" | relURL }}" alt="Arquitectura i urbanisme de Barcelona" width="640">
+      {{/* El logo gran també porta al mapa: és el gest natural per «entrar» a la pàgina. */}}
+      <a href="#portada-mapa" class="pa-hero-logo-enllac" aria-label="Baixa al mapa dels elements">
+        <img class="pa-hero-logo" src="{{ "img/Arquitectura-i-urbanisme-de-barcelona.svg" | relURL }}" alt="Arquitectura i urbanisme de Barcelona" width="640">
+      </a>
       <h1 class="pa-hero-titol">{{ .Params.tagline | default "Una eina crítica per llegir Barcelona a través de la seva arquitectura, l'art i els espais públics." }}</h1>
       <a href="#portada-mapa" class="pa-hero-fletxa" aria-label="Baixa al mapa">
         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="6 14 12 20 18 14"/></svg>

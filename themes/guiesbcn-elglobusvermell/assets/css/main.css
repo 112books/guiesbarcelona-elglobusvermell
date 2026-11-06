@@ -2640,6 +2640,9 @@ html:has(.portada) .skip-link { top: 0.5rem; }
 .portada .pa-hero-inner { max-width: 46rem; margin: 0 auto; }
 /* Logo més gros i frase més petita (Xavi, 21/10). */
 .portada .pa-hero-logo { display: block; width: min(640px, 86vw); height: auto; margin: 0 auto var(--space-lg); }
+/* El logo gran porta al mapa: cursor i focus visibles sense moure el disseny. */
+.portada .pa-hero-logo-enllac { display: block; text-decoration: none; cursor: pointer; }
+.portada .pa-hero-logo-enllac:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 6px; border-radius: 4px; }
 .portada .pa-hero-titol {
   font-size: clamp(1.05rem, 1.5vw, 1.3rem);
   font-weight: 500;
