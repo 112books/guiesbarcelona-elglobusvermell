@@ -117,7 +117,7 @@
 
 <script>
 (function () {
-  const ELEMENTS = {{ $elements | jsonify }};
+  const ELEMENTS = {{ $elements | jsonify | safeJS }};
 
   const input = document.getElementById('e404-input');
   const list  = document.getElementById('e404-resultats');
