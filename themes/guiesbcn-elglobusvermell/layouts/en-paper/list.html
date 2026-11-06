@@ -22,9 +22,9 @@
   <section class="en-paper-bloc" aria-labelledby="en-paper-xips-titol">
     <h2 id="en-paper-xips-titol" class="en-paper-bloc-titol en-paper-xips-titol">Filtra per agrupacions temàtiques</h2>
     <div class="en-paper-xips" data-xips role="group" aria-label="Filtres per tema">
-      <button type="button" class="en-paper-xip is-actiu" data-tema="">Tots</button>
-      {{ range $temes }}<button type="button" class="en-paper-xip" data-tema="{{ . }}">{{ . }}</button>{{ end }}
-      <p class="en-paper-xips-nota">En triar un tema es filtren el carrusel i el llistat. <span class="en-paper-xips-comptador" data-comptador role="status"></span></p>
+      <button type="button" class="en-paper-xip is-actiu" data-tema="" aria-pressed="true">Tots</button>
+      {{ range $temes }}<button type="button" class="en-paper-xip" data-tema="{{ . }}" aria-pressed="false">{{ . }}</button>{{ end }}
+      <p class="en-paper-xips-nota">En triar un tema es filtren el carrusel i el llistat. N'hi ha un a la vegada: torna a clicar-lo per veure-ho tot. <span class="en-paper-xips-comptador" data-comptador role="status"></span></p>
     </div>
   </section>
 
@@ -78,11 +78,15 @@ window.ENPAPER_PLANS = {
   xips.forEach(function (b) {
     b.addEventListener('click', function () {
       var tema = b.getAttribute('data-tema');
-      if (!tema) { sel = []; }
-      else { var i = sel.indexOf(tema); if (i >= 0) sel.splice(i, 1); else sel.push(tema); }
+      // Excloents (Xavi, 6/11): els temes no se sumen; un de sol a la vegada.
+      // Torna a clicar el que ja és actiu per veure-ho tot.
+      if (!tema || sel.indexOf(tema) >= 0) { sel = []; }
+      else { sel = [tema]; }
       xips.forEach(function (o) {
         var t = o.getAttribute('data-tema');
-        o.classList.toggle('is-actiu', t ? sel.indexOf(t) >= 0 : sel.length === 0);
+        var actiu = t ? sel.indexOf(t) >= 0 : sel.length === 0;
+        o.classList.toggle('is-actiu', actiu);
+        o.setAttribute('aria-pressed', actiu ? 'true' : 'false');
       });
       aplica();
     });
