@@ -1,6 +1,6 @@
 {
   "actualitzat": "2026-11-05",
-  "intro": "Darrera sessió: 5/11/2026 — (1) les 92 fitxes d'arquitecte que tenien dues pàgines al web ja són una de sola (BAAS Arquitectura i 91 més): els edificis enllacen a la fitxa bona i les adreces antigues redirigeixen; (2) recompte dels arquitectes fantasma: 188 noms sense fitxa en 204 fitxes, dels quals 96 es resoldran sols i 92 aniran a una llista per validar (sense que hagis de tocar cap fitxa); (3) en curs: el camp «Arquitectes» i les intervencions de l'editor, i el filtre del mapa.",
+  "intro": "Darrera sessió: 5/11/2026 — (1) les 92 fitxes d'arquitecte que tenien dues pàgines al web ja són una de sola (BAAS Arquitectura i 91 més): els edificis enllacen a la fitxa bona i les adreces antigues redirigeixen; (2) recompte dels arquitectes fantasma: 188 noms sense fitxa en 204 fitxes, dels quals 96 es resoldran sols i 92 aniran a una llista per validar (sense que hagis de tocar cap fitxa); (3) en curs: el camp «Arquitectes» i les intervencions de l'editor, i el filtre del mapa. (4) el logo gran de la portada ja és clicable i baixa fins al mapa.",
   "decisions": [
     {
       "id": "b2-edifici-original",
@@ -2315,6 +2315,20 @@
       "cita": "",
       "resultat": "Recomptat (5/11): 188 noms d'arquitecte que surten als edificis no tenen fitxa, en 204 fitxes. 96 es poden arreglar sols, perquè el nom és una variant d'una fitxa que ja existeix (per exemple «Josep Soteras i Mauri» o «Pere López i Íñigo»). Els 92 restants necessiten una decisió. No hauràs de tocar cap fitxa: et passarem una llista amb la proposta perquè només la validis.",
       "enllacos": []
+    },
+    {
+      "id": "portada-logo-clicable",
+      "ref": "6/11 · Portada",
+      "estat": "fet",
+      "titol": "Portada: el logo gran porta al mapa",
+      "cita": "",
+      "resultat": "Fet (6/11): el logo gran de la portada és clicable i baixa fins al plànol del segon bloc, amb el desplaçament suau que ja tenia el web. La fletxa de sota es manté, i amb el teclat el logo mostra un anell de focus.",
+      "enllacos": [
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
