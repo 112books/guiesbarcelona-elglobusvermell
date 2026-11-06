@@ -1,10 +1,15 @@
 {{/*
   Carrusel de portades dels plànols-guia.
-  Paràmetres: (dict "infinite" true|false). El bucle infinit es fa per JS.
+  Paràmetres:
+    "infinite" true|false — bucle infinit (el fa el JS).
+    "navegar"  true|false — clicar una portada obre la pàgina del plànol
+                             (portada). Si és fals, qui la fa servir decideix
+                             què passa al clic («En paper» hi desplaça).
 */}}
 {{ $infinite := .infinite | default false }}
+{{ $navegar := .navegar | default false }}
 <div class="en-paper-carroussel-embolcall">
-  <div class="en-paper-carroussel" data-carroussel data-infinite="{{ if $infinite }}true{{ else }}false{{ end }}">
+  <div class="en-paper-carroussel" data-carroussel data-infinite="{{ if $infinite }}true{{ else }}false{{ end }}" data-navegar="{{ if $navegar }}true{{ else }}false{{ end }}">
     {{ range hugo.Data.publicacions }}
       {{ $img := "" }}
       {{ if fileExists (printf "static/img/publicacions/%s-560.jpg" .slug) }}{{ $img = printf "img/publicacions/%s-560.jpg" .slug }}

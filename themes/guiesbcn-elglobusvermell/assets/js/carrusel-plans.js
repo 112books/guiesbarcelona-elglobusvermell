@@ -7,6 +7,9 @@
   var track = document.querySelector('[data-carroussel]');
   if (!track) return;
   var infinite = track.getAttribute('data-infinite') !== 'false';
+  // A la portada, clicar una portada obre el plànol (6/11, petició de Xavi).
+  // A «En paper» no: allà qui mana és el gest intern que la mateixa pàgina afegeix.
+  var navegar = track.getAttribute('data-navegar') === 'true';
 
   function gapTrack() {
     return parseFloat(getComputedStyle(track).columnGap) || 16;
@@ -94,6 +97,16 @@
   track.addEventListener('pointercancel', fiArrossegament);
   track.addEventListener('pointerleave', fiArrossegament);
   track.addEventListener('click', function (e) { if (mogut) { e.preventDefault(); e.stopPropagation(); mogut = false; } }, true);
+
+  // Portada: cada portada porta a la pàgina del seu plànol.
+  if (navegar) {
+    track.addEventListener('click', function (e) {
+      var it = e.target.closest ? e.target.closest('.en-paper-carroussel-item') : null;
+      if (!it) return;
+      var url = it.getAttribute('data-url');
+      if (url) window.location.href = url;
+    });
+  }
 
   if (!infinite) return;
   var originals = Array.prototype.slice.call(track.children);

@@ -55,7 +55,7 @@
   {{/* ══ 3. PLÀNOLS-GUIA — carrusel + accés a En paper ══ */}}
   <section class="pa-seccio pa-guies" id="portada-guies" aria-labelledby="totes-guies-titol">
     <h2 id="totes-guies-titol" class="pa-seccio-titol">Els plànols-guia</h2>
-    {{ partial "carrusel-plans.html" (dict "infinite" true) }}
+    {{ partial "carrusel-plans.html" (dict "infinite" true "navegar" true) }}
     <div class="pa-seccio-cta pa-seccio-cta--centrada">
       <a href="{{ "en-paper/" | relLangURL }}" class="pa-cta-negre">Veure tots els plànols-guia</a>
     </div>
