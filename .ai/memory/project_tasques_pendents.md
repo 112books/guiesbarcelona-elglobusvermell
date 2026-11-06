@@ -1,6 +1,6 @@
 ---
 name: Tasques pendents — guiesbarcelona
-description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-09-04)
+description: Resum de tasques resoltes i deute tècnic pendent per al projecte guiesbarcelona.elglobusvermell.org (actualitzat 2026-11-06)
 type: project
 originSessionId: 646349da-9095-45b2-b4e0-119d25afa37d
 ---
@@ -99,11 +99,11 @@ Detall complet: `.ai/FEEDBACK-XAVI-2026-09-30.md`
 - ✅ **G3** — ordre menú: Presentació · Mapa · En paper · Arquitectes · Contacte (T02, 30/9)
 - ✅ **M1** — zoom inicial mapa: padding fitBounds [30,30]→[10,10] (T04, 30/9)
 - ✅ **M4** — difuminat eliminat en seleccionar plànol (T05, 30/9). Joan discrepa; documentat.
-- ✅ **M6** — eliminar llistat elements + abecedari sota el mapa; mantenir només cercador (6/11)
+- ✅ **M6** — eliminar llistat elements + abecedari sota el mapa; mantenir només cercador (COMPLETAT 6/11)
 - ✅ **P5** — eliminar: guia destacada, arquitecte destacat, recursos educatius de portada (ja era feta)
 - ✅ **F7** — "edificis" → "elements" aplicat (30/9): 12 ocurrències en 4 fitxers UI. Doc: `.ai/canvis/T01-edificis-elements.md`
 - ✅ **PR4** — eliminar bloc "Suggerir un canvi" de la presentació (ja era feta)
-- ✅ **A2** — llistat elements arquitecte: eliminar etiqueta any + menys clics (6/11)
+- ✅ **A2** — llistat elements arquitecte: eliminar etiqueta any + menys clics (COMPLETAT 6/11)
 
 ### Pendent contingut (espera text de Xavi/equip)
 - 🟡 **M5** — informació temes transversals al mapa: contingut de la web antiga (Xavi ho passa)
@@ -130,6 +130,11 @@ Detall complet: `.ai/FEEDBACK-XAVI-2026-09-30.md`
 - ⏳ **Revisió final post-tall** — pa11y real + PageSpeed Insights + GSC sobre domini producció
 - ⏳ **Invitar comptes GitHub** — confirmar noms d'usuari (Laia, etc.) i convidar (rol Write)
 - ⏳ **SpeakableSpecification ampliat a .fitxa-nomenclator** — si es vol cobrir la secció de nomenclàtor dels jardins
+
+## Resoltes (sessió 2026-11-06)
+
+- ✅ **M6** — eliminar llistat elements + abecedari sota el mapa publicacions/temes; mantenir només cercador (6/11). Templates: `publicacions/term.html` + `temes/single.html`. Commits: `61292ff5`.
+- ✅ **A2** — llistat elements arquitecte: eliminar etiqueta any dels resultats del cercador. `mapa.js:866` eliminat year span. Commit: `d70caff8`.
 
 ## Resoltes (sessió 2026-10-28)
 
