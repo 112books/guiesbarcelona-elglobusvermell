@@ -23,21 +23,52 @@
 
   var latlng = [parseFloat(punt.lat), parseFloat(punt.long)];
   var color  = punt.color || '#888';
+  var pubs   = window.PUBLICACIONS || {};
 
-  // Cercle de color de publicació, igual que als marcadors del mapa principal
-  L.circleMarker(latlng, {
-    radius: 9,
-    fillColor: color,
-    color: '#fff',
-    weight: 2,
-    opacity: 1,
-    fillOpacity: 0.9
-  }).addTo(map).bindPopup(punt.title).openPopup();
+  // Color del marcador segons la primera publicació (igual que al mapa general).
+  function colorDe(p) {
+    var pr = p.publicacions || [];
+    for (var i = 0; i < pr.length; i++) {
+      if (pubs[pr[i]] && pubs[pr[i]].color) return pubs[pr[i]].color;
+    }
+    return '#888';
+  }
 
-  // Una sola crida setView per evitar tiles parcials
+  // Tots els punts del mapa amb coordenades; el de la fitxa es destaca i porta
+  // el nom sempre visible (Xavi, 6/11: la fitxa també ha de servir per navegar).
+  var punts = (window.MAPA_PUNTS || []).filter(function (p) {
+    var la = parseFloat(p.lat), lo = parseFloat(p.long);
+    return isFinite(la) && isFinite(lo) && !(la === 0 && lo === 0);
+  });
+
+  punts.forEach(function (p) {
+    var ll = [parseFloat(p.lat), parseFloat(p.long)];
+    var esActual = Math.abs(ll[0] - latlng[0]) < 1e-7 && Math.abs(ll[1] - latlng[1]) < 1e-7;
+    var m = L.circleMarker(ll, {
+      radius: esActual ? 11 : 5,
+      fillColor: esActual ? color : colorDe(p),
+      color: '#fff',
+      weight: esActual ? 3 : 1.5,
+      opacity: esActual ? 1 : 0.9,
+      fillOpacity: esActual ? 0.95 : 0.8
+    }).addTo(map);
+
+    if (esActual) {
+      // El nom, sempre a la vista, com el tooltip del ratolí.
+      m.bindTooltip(punt.title, {
+        permanent: true, direction: 'top', offset: [0, -12], className: 'fitxa-mapa-etiqueta'
+      });
+    } else {
+      m.bindTooltip(p.title, { direction: 'top', offset: [0, -8] });
+      m.on('click', function () { if (p.url) window.location.href = p.url; });
+    }
+  });
+
+  // Una sola crida setView per evitar tiles parcials. Zoom 16 (una mica més
+  // obert que el 17 d'abans) perquè es vegin els punts propers.
   setTimeout(function () {
     map.invalidateSize();
-    map.setView(latlng, 17);
+    map.setView(latlng, 16);
   }, 300);
 })();
 

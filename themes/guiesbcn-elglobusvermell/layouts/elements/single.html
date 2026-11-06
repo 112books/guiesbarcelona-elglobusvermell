@@ -322,8 +322,17 @@
       <h2>Ubicació</h2>
       <div id="fitxa-mapa" class="fitxa-mapa" role="region" aria-label="Ubicació a l'mapa"></div>
     </div>
+    {{/* A més del punt propi, la resta d'elements amb coordenades: la fitxa
+         també ha de servir per navegar pel mapa (Xavi, 6/11). */}}
+    {{ $totsPunts := partialCached "mapa-punts.html" . "mapa-punts" }}
+    {{ $pubsData := dict }}
+    {{ range hugo.Data.publicacions }}
+      {{ if .estat_app.a_app }}{{ $pubsData = merge $pubsData (dict .slug (dict "titol" .titol "color" .color)) }}{{ end }}
+    {{ end }}
     <script>
     window.FITXA_PUNT = { lat: {{ .Params.lat | jsonify | safeJS }}, long: {{ .Params.long | jsonify | safeJS }}, title: {{ .Title | jsonify | safeJS }}, color: {{ $pubColor | jsonify | safeJS }} };
+    window.MAPA_PUNTS = {{ $totsPunts | jsonify | safeJS }};
+    window.PUBLICACIONS = {{ $pubsData | jsonify | safeJS }};
     </script>
     {{ end }}
 

@@ -1021,6 +1021,13 @@ main {
 
 .fitxa-mapa-wrap { margin-bottom: var(--space-lg); }
 .fitxa-mapa-wrap h2 { font-size: 1rem; color: #666; margin-bottom: 0.5rem; }
+/* Etiqueta permanent del punt de la fitxa (Xavi, 6/11): el nom sempre a la vista. */
+.fitxa-mapa-etiqueta {
+  background: #111110; color: #fff; border: none; border-radius: 3px;
+  font-size: .78rem; font-weight: 600; padding: .2rem .45rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+.fitxa-mapa-etiqueta::before { border-top-color: #111110; }
 
 .fitxa-mapa {
   height: 18rem;

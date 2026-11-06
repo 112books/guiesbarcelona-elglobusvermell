@@ -1,0 +1,18 @@
+{{/* Tots els elements amb coordenades, per als mapes que han de mostrar el conjunt
+     (fitxa: el punt propi centrat i la resta a la vista — Xavi, 6/11). */}}
+{{ $punts := slice }}
+{{ $elSec := site.GetPage "elements" }}
+{{ if $elSec }}
+  {{ range $elSec.Pages }}
+    {{ $page := . }}
+    {{ with $page.Params.lat }}
+      {{ $punts = $punts | append (dict
+        "title" $page.Title
+        "lat" .
+        "long" $page.Params.long
+        "url" $page.Permalink
+        "publicacions" $page.Params.publicacions) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $punts }}
