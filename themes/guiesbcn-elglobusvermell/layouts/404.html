@@ -130,8 +130,38 @@
     renderResults(normalized);
   }
 
+  /* Easter egg: reaccions divertides a certes cerques */
+  const easterEggs = {
+    'arquitectes orphans': { codi: '👻', titol: 'Fantasmetes d\'arquitectes' },
+    'lost': { codi: '🗺️', titol: 'Realment estàs perdut?' },
+    'coordinates': { codi: '🧭', titol: 'Coordenades mai no entrarien' },
+    'el globus vermell': { codi: '🎈', titol: 'Aquí soc!' },
+    'hola': { codi: '👋', titol: 'Bon dia!' },
+    'barcelona': { codi: '🏛️', titol: 'Benvingut a Barcelona' },
+  };
+
   input.addEventListener('input', function () {
-    renderResults(this.value.trim());
+    const q = this.value.trim().toLowerCase();
+
+    /* Comprovar easter eggs */
+    let eggFound = false;
+    Object.keys(easterEggs).forEach(function (key) {
+      if (q.includes(key)) {
+        eggFound = true;
+        const egg = easterEggs[key];
+        document.getElementById('e404-codi-emoji').textContent = egg.codi;
+        document.getElementById('e404-titol-dinamico').textContent = egg.titol;
+      }
+    });
+
+    /* Restaurar títol si no hi ha easter egg */
+    if (!eggFound) {
+      document.getElementById('e404-codi-emoji').textContent = '404';
+      document.getElementById('e404-titol-dinamico').textContent = 'Coordenades incorrectes';
+    }
+
+    /* Renderitzar resultats de cerca */
+    renderResults(q);
   });
 
   function renderResults(q) {
@@ -161,27 +191,6 @@
     });
     return out;
   }
-
-  /* Easter egg: reaccions divertides a certes cerques */
-  const easterEggs = {
-    'arquitectes orphans': { codi: '👻', titol: 'Fantasmetes d\'arquitectes' },
-    'lost': { codi: '🗺️', titol: 'Realment estàs perdut?' },
-    'coordinates': { codi: '🧭', titol: 'Coordenades mai no entrarien' },
-    'el globus vermell': { codi: '🎈', titol: 'Aquí soc!' },
-    'hola': { codi: '👋', titol: 'Bon dia!' },
-    'barcelona': { codi: '🏛️', titol: 'Benvingut a Barcelona' },
-  };
-
-  input.addEventListener('input', function () {
-    const q = this.value.trim().toLowerCase();
-    Object.keys(easterEggs).forEach(function (key) {
-      if (q.includes(key)) {
-        const egg = easterEggs[key];
-        document.getElementById('e404-codi-emoji').textContent = egg.codi;
-        document.getElementById('e404-titol-dinamico').textContent = egg.titol;
-      }
-    });
-  });
 })();
 </script>
 
