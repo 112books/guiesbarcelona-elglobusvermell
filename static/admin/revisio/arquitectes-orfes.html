@@ -76,6 +76,9 @@
 
   <script>
     const KEY = "arquitectes-orfes-progress";
+    // Base del lloc a partir de la pròpia URL: serveix igual a staging i a producció
+    // (abans estava fixada a staging i amb un /ca/ de més, que donava 404).
+    const BASE = location.pathname.replace(/\/admin\/.*$/, "");
     let dades = [];
     let progress = {};
 
@@ -108,7 +111,7 @@
         const fitxesCell = document.createElement("td");
         fitxesCell.className = "fitxes-cell";
         fitxesCell.innerHTML = item.fitxes.slice(0, 3).map(f =>
-          `<a href="https://112books.github.io/guiesbarcelona-elglobusvermell/ca/elements/${f}/" target="_blank">${f}</a>`
+          `<a href="${BASE}/elements/${f}/" target="_blank" rel="noopener">${f}</a>`
         ).join(", ") + (item.fitxes.length > 3 ? ` +${item.fitxes.length - 3}` : "");
         tr.appendChild(fitxesCell);
 
