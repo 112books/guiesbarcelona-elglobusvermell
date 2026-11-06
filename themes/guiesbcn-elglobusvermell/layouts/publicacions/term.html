@@ -21,6 +21,7 @@
       <div id="mapa" class="mapa-el"></div>
     </div>
   </section>
+  <div id="cerca-filtres" class="cerca-filtres-wrap" aria-live="polite" aria-label="Cercador de la publicació"></div>
   {{ else }}
   <p class="publicacio-buit">Encara no hi ha fitxes d'elements importades per aquesta publicació.</p>
   {{ end }}
@@ -79,12 +80,6 @@
   </section>
   {{ end }}
 
-  {{/* Llistat dinàmic: el JS l'injecta dins l'acordió ## Llistat */}}
-  {{ if .Pages }}
-  <section class="llistat-cronologic" id="llistat" aria-hidden="true">
-    <div id="llistat-grups"></div>
-  </section>
-  {{ end }}
 
   <nav class="publicacio-nav" aria-label="Navegació">
     <a href="{{ "en-paper/" | relURL }}">← Totes les publicacions</a>
