@@ -98,6 +98,8 @@
 }
 .e404-resultats li:last-child a { border-bottom: none; }
 .e404-resultats li a:hover { background: #f7f7f5; }
+/* Cap resultat: gris fosc prou contrastat (4.5:1 sobre blanc, WCAG AA). */
+.e404-resultats li a.e404-buit { color: #767676; cursor: default; }
 .e404-resultats li a mark {
   background: transparent;
   color: var(--pub-color, #c81e1e);
@@ -173,7 +175,7 @@
     }).slice(0, 12);
 
     if (!matches.length) {
-      list.innerHTML = '<li><a style="color:#999;cursor:default">Cap resultat</a></li>';
+      list.innerHTML = '<li><a class="e404-buit">Cap resultat</a></li>';
     } else {
       list.innerHTML = matches.map(function (e) {
         return '<li><a href="' + e.u + '">' + highlight(e.t, terms) + '</a></li>';
