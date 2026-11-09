@@ -8,7 +8,8 @@ foto: /img/elements/biblioteca-montbau-albert-perez-baro.jpg
 edifici_original: Escola Enric Borràs. Anys 60 del s.
 intervencions:
 - any: '2015'
-  autors: Oliveras Boix Arquitectes
+  autors:
+    - 'Oliveras Boix Arquitectes'
   descripcio: 'Albert Pérez Baró Escriptor i sindicalista. 1902-1989 Montbau xx Biblioteca:
     1991'
   tipus: Remodelació

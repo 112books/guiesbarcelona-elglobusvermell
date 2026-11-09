@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2011'
-  autors: Josep Miàs i Gifré
+  autors:
+    - 'Josep Miàs i Gifré'
   descripcio: ''
   tipus: Projecte
 lat: 41.3955366

@@ -9,7 +9,8 @@ arquitectes:
 - Josep Maria Subirachs i Sitjar
 intervencions:
 - any: '1958-1960'
-  autors: Josep Maria Subirachs
+  autors:
+    - 'Josep Maria Subirachs'
   tipus: Autoria
 draft: false
 lat: 41.3754295

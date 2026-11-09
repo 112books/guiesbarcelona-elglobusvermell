@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2022'
-  autors: BAAS Arquitectura
+  autors:
+    - 'BAAS Arquitectura'
   descripcio: ''
   tipus: Projecte
 lat: 41.4003932

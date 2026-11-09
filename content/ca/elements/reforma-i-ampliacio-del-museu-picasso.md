@@ -21,15 +21,18 @@ proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: Garcés-Sòria Arquitectes
+    autors:
+      - 'Garcés-Sòria Arquitectes'
     any: '1987'
     descripcio: ''
   - tipus: Ampliació
-    autors: Jordi Garcés i Brusés
+    autors:
+      - 'Jordi Garcés i Brusés'
     any: '2003'
     descripcio: ''
   - tipus: Ampliació
-    autors: Garcés-de Seta-Bonet
+    autors:
+      - 'Garcés-de Seta-Bonet'
     any: '2013'
     descripcio: ''
 anys_reforma: []

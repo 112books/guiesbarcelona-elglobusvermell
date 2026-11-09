@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1971'
-  autors: Eduard Molas Rifà + Enric Rello Roque + Josep M. Rovira Gimeno
+  autors:
+    - 'Eduard Molas Rifà'
+    - 'Enric Rello Roque'
+    - 'Josep M. Rovira Gimeno'
   descripcio: ''
   tipus: Projecte
 lat: 41.3864592

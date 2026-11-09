@@ -9,7 +9,8 @@ arquitectes:
 - Frank Gehry
 intervencions:
 - any: '1992'
-  autors: Frank Gehry
+  autors:
+    - 'Frank Gehry'
   tipus: Autoria
 draft: false
 foto: /img/elements/peix-daurat.jpg

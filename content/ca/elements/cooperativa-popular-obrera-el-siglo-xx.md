@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/cooperativa-popular-obrera-el-siglo-xx.jpg
 intervencions:
 - any: '1941'
-  autors: Miquel Niubó i Munté
+  autors:
+    - 'Miquel Niubó i Munté'
   descripcio: Edifici blanc, expressionista, de formes pures i volumetria contundent,
     construït a principis dels anys quaranta després que la seu original fos bombardejada
     durant la Guerra Civil. La cooperativa, fundada el 1901, atura la seva activitat

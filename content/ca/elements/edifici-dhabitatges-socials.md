@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2022'
-  autors: Coll-Leclerc + Josep Miàs i Gifré
+  autors:
+    - 'Coll-Leclerc'
+    - 'Josep Miàs i Gifré'
   descripcio: ''
   tipus: Projecte
 lat: 41.3511208

@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1988'
-  autors: Joan Arias + Lluís Pérez de la Vega
+  autors:
+    - 'Joan Arias'
+    - 'Lluís Pérez de la Vega'
   descripcio: ''
   tipus: Projecte
 lat: 41.3776394

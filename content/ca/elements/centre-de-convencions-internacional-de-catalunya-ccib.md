@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2004'
-  autors: Marta Cervelló + Josep Lluís Mateo
+  autors:
+    - 'Marta Cervelló'
+    - 'Josep Lluís Mateo'
   descripcio: ''
   tipus: Projecte
 lat: 41.40904

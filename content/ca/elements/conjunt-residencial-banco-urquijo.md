@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/conjunt-residencial-banco-urquijo.jpg
 intervencions:
 - any: '1973'
-  autors: José Antonio Coderch de Sentmenat
+  autors:
+    - 'José Antonio Coderch de Sentmenat'
   descripcio: ''
   tipus: Projecte
 lat: 41.3987651

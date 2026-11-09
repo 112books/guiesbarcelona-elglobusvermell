@@ -4,7 +4,8 @@ adreca: Llull 143 + Roc Boronat 45-53
 draft: false
 intervencions:
 - any: '1945'
-  autors: Manuel Rodríguez Gutiérrez
+  autors:
+    - 'Manuel Rodríguez Gutiérrez'
   descripcio: 'Projecte original: Inici s. xx Fàbrica de teixits. Actualment, seu de diverses empreses.'
   tipus: Remodelació
 lat: 41.3989897

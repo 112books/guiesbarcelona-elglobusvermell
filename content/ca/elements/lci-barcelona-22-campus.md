@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2024'
-  autors: Circular Studio
+  autors:
+    - 'Circular Studio'
   descripcio: ''
   tipus: Projecte
 lat: 41.3995013

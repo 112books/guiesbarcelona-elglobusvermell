@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1906'
-  autors: Josep Graner i Prat
+  autors:
+    - 'Josep Graner i Prat'
   descripcio: Semblant a la Casa  Josep Torras, aquí el més característic també són
     les motllures que emmarquen les obertures de la façana, inspirades en motius vegetals.
     La planta baixa, en canvi, mostra un disseny més proper al neoclassicisme.

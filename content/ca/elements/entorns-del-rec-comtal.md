@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2022'
-  autors: Carles Enrich
+  autors:
+    - 'Carles Enrich'
   descripcio: ''
   tipus: Projecte
 lat: 41.4656537

@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1968'
-  autors: Pere Llimona + Xavier Ruiz i Vallès
+  autors:
+    - 'Pere Llimona'
+    - 'Xavier Ruiz i Vallès'
   descripcio: ''
   tipus: Projecte
 lat: 41.3981966

@@ -20,7 +20,8 @@ proteccio: C
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: Luis Castellón Rodrigo
+    autors:
+      - 'Luis Castellón Rodrigo'
     any: '1946'
     descripcio: Fàbrica tèxtil. Actualment, sense ús.
 anys_reforma: []

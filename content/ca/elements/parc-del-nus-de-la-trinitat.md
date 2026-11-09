@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1993'
-  autors: Batlle i Roig
+  autors:
+    - 'Batlle i Roig'
   descripcio: ''
   tipus: Projecte
 lat: 41.4490283

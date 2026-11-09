@@ -24,11 +24,14 @@ proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: Josep Lluís Sert i Luis Lacasa
+    autors:
+      - 'Josep Lluís Sert i Luis Lacasa'
     any: '1937'
     descripcio: ''
   - tipus: Reconstrucció
-    autors: Antoni Ubach, Miquel Espinet i J. M. Hernández León
+    autors:
+      - 'Antoni Ubach'
+      - 'Miquel Espinet i J. M. Hernández León'
     any: '1992'
     descripcio: Rèplica construïda a la Vall d'Hebron; des del 1996 acull el CRAI Biblioteca del Pavelló de la República de la Universitat de Barcelona.
 anys_reforma: []

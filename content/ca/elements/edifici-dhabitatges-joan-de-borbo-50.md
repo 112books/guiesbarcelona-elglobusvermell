@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1936'
-  autors: Francesc de Paula Quintana Vidal
+  autors:
+    - 'Francesc de Paula Quintana Vidal'
   descripcio: 'Edifici amb una composició de façana simètrica però molt rica i variada
     per la diversitat d’elements que s’hi troben: l’entresol amb obertures més petites,
     una gran tribuna central al pis principal, obertures en forma d’arc al penúltim

@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1955'
-  autors: Francesc Espiau
+  autors:
+    - 'Francesc Espiau'
   descripcio: 'Indústria làctica. Actualment en desús.'
   tipus: Projecte
 lat: 41.3938384

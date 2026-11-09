@@ -9,7 +9,8 @@ arquitectes:
 - Joan Gardy Artigas
 intervencions:
 - any: '1997'
-  autors: Joan Gardy Artigas
+  autors:
+    - 'Joan Gardy Artigas'
   tipus: Autoria
 draft: false
 lat: 41.3848262

@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2014'
-  autors: Sumo
+  autors:
+    - 'Sumo'
   descripcio: ''
   tipus: Projecte
 lat: 41.4013955

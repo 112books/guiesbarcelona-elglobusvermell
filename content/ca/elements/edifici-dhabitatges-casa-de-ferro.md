@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1971'
-  autors: Francesc Rius
+  autors:
+    - 'Francesc Rius'
   descripcio: ''
   tipus: Projecte
 lat: 41.411001

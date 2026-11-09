@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1927'
-  autors: Carles Martínez
+  autors:
+    - 'Carles Martínez'
   descripcio: Edifici de composició rigorosament simètrica amb uns esgrafiats verticals
     al centre, que reforcen l’eix de simetria. En contraposició a la verticalitat,
     els balcons de les plantes primera i quarta s’uneixen i emfasitzen l’horitzontalitat.

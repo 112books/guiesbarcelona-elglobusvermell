@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1927'
-  autors: Josep Graner i Prat
+  autors:
+    - 'Josep Graner i Prat'
   descripcio: 'Fàbrica de tints i acabats tèxtils. Actualment, sense ús.'
   tipus: Projecte
 lat: 41.4147993

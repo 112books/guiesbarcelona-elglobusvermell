@@ -8,10 +8,12 @@ draft: false
 foto: /img/elements/graner.jpg
 intervencions:
 - any: '1959'
-  autors: Josep Maria Soteras i Mauri
+  autors:
+    - 'Josep Maria Soteras i Mauri'
   tipus: Projecte
 - any: '2011'
-  autors: Gdmas (Maite Hernando i Sara Galmán)
+  autors:
+    - 'Gdmas (Maite Hernando i Sara Galmán)'
   descripcio: Fàbrica de creació especialitzada en la dansa i les arts vives. Ocupa
     la nau que feia de forn assecador de bombetes, la forma de la qual li va donar
     el sobrenom popular de “graner”.

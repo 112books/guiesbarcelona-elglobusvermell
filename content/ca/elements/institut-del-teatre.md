@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2000'
-  autors: Lluís Comerón + Ramon Sanabria
+  autors:
+    - 'Lluís Comerón'
+    - 'Ramon Sanabria'
   descripcio: ''
   tipus: Projecte
 lat: 41.3716269

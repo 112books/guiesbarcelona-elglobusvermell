@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2023'
-  autors: Diversos estudis
+  autors:
+    - 'Diversos estudis'
   descripcio: ''
   tipus: Projecte
 lat: 41.3805128

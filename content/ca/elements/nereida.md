@@ -9,7 +9,8 @@ arquitectes:
 - Alfredo Lanz
 intervencions:
 - any: '2004'
-  autors: Alfredo Lanz
+  autors:
+    - 'Alfredo Lanz'
   tipus: Autoria
 draft: false
 lat: 41.3677092

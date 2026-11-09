@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1957'
-  autors: E. i J. Rey Fàbregas
+  autors:
+    - 'E. i J. Rey Fàbregas'
   descripcio: 'Fàbrica de coixinets. Actualment, pendent d’una reforma de gran part de l’illa.'
   tipus: Projecte
 lat: 41.3944546

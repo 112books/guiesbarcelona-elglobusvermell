@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2002'
-  autors: Enric Miralles i Moya + Benedetta Tagliabue
+  autors:
+    - 'Enric Miralles i Moya'
+    - 'Benedetta Tagliabue'
   descripcio: ''
   tipus: Projecte
 lat: 41.4077888

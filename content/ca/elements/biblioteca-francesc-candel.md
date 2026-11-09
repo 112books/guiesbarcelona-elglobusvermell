@@ -11,7 +11,8 @@ foto: /img/elements/biblioteca-francesc-candel.jpg
 edifici_original: Fàbrica Lámparas Z – Philips. Antoni Grau. 1954
 intervencions:
 - any: '2006'
-  autors: Josep Lluís Canosa
+  autors:
+    - 'Josep Lluís Canosa'
   descripcio: Francesc Candel Escriptor i periodista. 1925-2007 Ocupa part d’un dels
     antics edificis que componen l’espai conegut popularment com a “illa Philips”,
     concretament el de la fàbrica de llums i bombetes elèctriques d’aquesta marca

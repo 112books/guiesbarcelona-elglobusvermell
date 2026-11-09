@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1954'
-  autors: Francisco J. Barba Corsini
+  autors:
+    - 'Francisco J. Barba Corsini'
   descripcio: ''
   tipus: Projecte
 lat: 41.3989905

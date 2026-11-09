@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1886'
-  autors: Joan Barba
+  autors:
+    - 'Joan Barba'
   descripcio: 'Fàbrica de galetes. Actualment, oficines i espais comercials de lloguer.'
   tipus: Projecte
 lat: 41.3980133

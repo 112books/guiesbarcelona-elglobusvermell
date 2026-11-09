@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2020'
-  autors: Pau Vidal
+  autors:
+    - 'Pau Vidal'
   descripcio: ''
   tipus: Projecte
 lat: 41.3959105

@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2011'
-  autors: MAP Arquitectes + Marta Cervelló + Josep Lluís Mateo
+  autors:
+    - 'MAP Arquitectes'
+    - 'Marta Cervelló'
+    - 'Josep Lluís Mateo'
   descripcio: ''
   tipus: Projecte
 lat: 41.378532

@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-seida.jpg
 intervencions:
 - any: '1958'
-  autors: Francesc Mitjans i Miró
+  autors:
+    - 'Francesc Mitjans i Miró'
   descripcio: ''
   tipus: Projecte
 lat: 41.3924366

@@ -20,15 +20,18 @@ proteccio: C
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: Claudi Duran i Ventosa
+    autors:
+      - 'Claudi Duran i Ventosa'
     any: '1923'
     descripcio: ''
   - tipus: Ampliació
-    autors: Víctor Surribas
+    autors:
+      - 'Víctor Surribas'
     any: '1941'
     descripcio: ''
   - tipus: Remodelació
-    autors: Jordi Badia (BAAS)
+    autors:
+      - 'Jordi Badia (BAAS)'
     any: '2012'
     descripcio: Tallers de construcció mecànica. Actualment un edifici és la seu del MUHBA Oliva Artés i l’altre és de la Guàrdia Urbana.
 anys_reforma: []

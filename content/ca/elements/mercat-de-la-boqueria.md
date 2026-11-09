@@ -15,7 +15,8 @@ fotos_addicionals:
   peu: ''
 intervencions:
 - any: '2001'
-  autors: Lluís Clotet i Ignacio Paricio
+  autors:
+    - 'Lluís Clotet i Ignacio Paricio'
   descripcio: 'Projecte original: Josep Mas i Vilà / Antoni de Falguera. 1840 / 1914
     Façana posterior: Carme Pinós. 2015'
   tipus: Remodelació

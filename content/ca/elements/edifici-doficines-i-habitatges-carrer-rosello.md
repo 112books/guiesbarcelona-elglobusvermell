@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-doficines-i-habitatges-carrer-rosello.jpg
 intervencions:
 - any: '1956'
-  autors: Robert Terradas i Via
+  autors:
+    - 'Robert Terradas i Via'
   descripcio: ''
   tipus: Projecte
 lat: 41.3953608

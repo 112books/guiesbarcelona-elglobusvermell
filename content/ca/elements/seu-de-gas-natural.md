@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2006'
-  autors: EMBT + Enric Miralles i Moya + Benedetta Tagliabue
+  autors:
+    - 'EMBT'
+    - 'Enric Miralles i Moya'
+    - 'Benedetta Tagliabue'
   descripcio: ''
   tipus: Projecte
 lat: 41.3834469

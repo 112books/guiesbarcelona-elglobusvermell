@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2019'
-  autors: EMBT + Benedetta Tagliabue
+  autors:
+    - 'EMBT'
+    - 'Benedetta Tagliabue'
   descripcio: ''
   tipus: Projecte
 lat: 41.4142446

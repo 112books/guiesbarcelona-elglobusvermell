@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2019'
-  autors: Lacol
+  autors:
+    - 'Lacol'
   descripcio: ''
   tipus: Projecte
 lat: 41.3758964

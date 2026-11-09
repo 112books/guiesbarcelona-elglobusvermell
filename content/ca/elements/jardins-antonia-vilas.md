@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2018'
-  autors: Beatriz Borque + Miquel Mariné
+  autors:
+    - 'Beatriz Borque'
+    - 'Miquel Mariné'
   descripcio: ''
   tipus: Projecte
 lat: 41.3824193

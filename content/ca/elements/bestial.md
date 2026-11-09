@@ -8,7 +8,8 @@ arquitectes:
 - Frederic Amat
 intervencions:
 - any: '2002'
-  autors: Frederic Amat
+  autors:
+    - 'Frederic Amat'
   tipus: Autoria
 draft: false
 lat: 41.3858959

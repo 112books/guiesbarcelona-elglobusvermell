@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2002'
-  autors: Arata Isozaki, BOMA
+  autors:
+    - 'Arata Isozaki'
+    - 'BOMA'
   descripcio: 'Projecte original: Fàbrica Casaramona. Josep Puig i Cadafalch. 1911'
   tipus: Projecte
 lat: 41.371288

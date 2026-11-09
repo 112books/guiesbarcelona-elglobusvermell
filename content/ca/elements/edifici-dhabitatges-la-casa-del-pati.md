@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1964'
-  autors: Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina + David Mackay
+  autors:
+    - 'Oriol Bohigas i Guardiola'
+    - 'Josep Maria Martorell i Codina'
+    - 'David Mackay'
   descripcio: ''
   tipus: Projecte
 lat: 41.41179

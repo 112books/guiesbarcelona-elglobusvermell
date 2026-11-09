@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/hotel-park.jpg
 intervencions:
 - any: '1953'
-  autors: Antoni de Moragas i Gallissà
+  autors:
+    - 'Antoni de Moragas i Gallissà'
   descripcio: ''
   tipus: Projecte
 lat: 41.3842833

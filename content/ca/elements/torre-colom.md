@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/torre-colom.jpg
 intervencions:
 - any: '1971'
-  autors: Josep Anglada + Daniel Gelabert + Josep Ribas
+  autors:
+    - 'Josep Anglada'
+    - 'Daniel Gelabert'
+    - 'Josep Ribas'
   descripcio: ''
   tipus: Projecte
 lat: 41.3766739

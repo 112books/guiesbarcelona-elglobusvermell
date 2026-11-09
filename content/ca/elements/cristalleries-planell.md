@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2016'
-  autors: H Arquitectes
+  autors:
+    - 'H Arquitectes'
   descripcio: ''
   tipus: Projecte
 lat: 41.3874606

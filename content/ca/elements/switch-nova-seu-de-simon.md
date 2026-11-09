@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2023'
-  autors: B720 Arquitectes
+  autors:
+    - 'B720 Arquitectes'
   descripcio: ''
   tipus: Projecte
 lat: 41.3990723

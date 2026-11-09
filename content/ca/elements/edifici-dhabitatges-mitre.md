@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-mitre.jpg
 intervencions:
 - any: '1964'
-  autors: Francisco J. Barba Corsini
+  autors:
+    - 'Francisco J. Barba Corsini'
   descripcio: ''
   tipus: Projecte
 lat: 41.3933693

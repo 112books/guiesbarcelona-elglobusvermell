@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1969'
-  autors: Miquel Ponsetí i Vives
+  autors:
+    - 'Miquel Ponsetí i Vives'
   descripcio: Conjunt de volums annexos a una edificació preexistent. L’estructura
     reticular de formigó armat és suportada en planta baixa per uns pilars en forma
     de V que doten l’edifici d’una gran lleugeresa visual.

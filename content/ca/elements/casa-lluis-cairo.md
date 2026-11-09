@@ -5,7 +5,8 @@ draft: false
 foto: /img/elements/casa-lluis-cairo.jpg
 intervencions:
 - any: '1910, aprox.'
-  autors: 'Domènec Boada Piera'
+  autors:
+    - 'Domènec Boada Piera'
   descripcio: 'Aquest edifici presenta una façana modernista clarament estructurada
     en franges verticals on destaquen dos tipus d’elements: les baranes de ferro forjat
     dels balcons i les impressionants ornamentacions florals de les llindes de les

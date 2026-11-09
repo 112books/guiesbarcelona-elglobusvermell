@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1962'
-  autors: Eusebi Bona i Puig + Pelayo Martínez Paricio + Josep Maria Segarra i Solsona
+  autors:
+    - 'Eusebi Bona i Puig'
+    - 'Pelayo Martínez Paricio'
+    - 'Josep Maria Segarra i Solsona'
   descripcio: ''
   tipus: Projecte
 lat: 41.3839841

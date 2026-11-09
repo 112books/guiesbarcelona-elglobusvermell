@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/palo-alto.jpg
 intervencions:
 - any: '1875'
-  autors: Antoni Vila i Bruguera
+  autors:
+    - 'Antoni Vila i Bruguera'
   descripcio: 'Filatura de llana Gal i Puigsech. Actualment anomenat Palo Alto, seu de diverses empreses.'
   tipus: Projecte
 lat: 41.4043754

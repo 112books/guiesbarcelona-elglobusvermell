@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/collegi-darquitectes-de-catalunya-coac.jpg
 intervencions:
 - any: '1962'
-  autors: Xavier Busquets i Sindreu
+  autors:
+    - 'Xavier Busquets i Sindreu'
   descripcio: ''
   tipus: Projecte
 lat: 41.3844832

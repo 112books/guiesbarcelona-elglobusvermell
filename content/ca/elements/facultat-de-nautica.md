@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1933'
-  autors: Joaquim Vilaseca + Adolf Florensa
+  autors:
+    - 'Joaquim Vilaseca'
+    - 'Adolf Florensa'
   descripcio: Edificació amb un llenguatge classicista, mitjançant el qual pretén
     establir un diàleg amb l’edifici de la Llotja i donar homogeneïtat al Pla de Palau.
     Hi destaquen la rigorosa simetria compositiva, el pòrtic amb columnes toscanes

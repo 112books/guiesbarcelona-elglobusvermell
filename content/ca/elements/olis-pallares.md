@@ -6,7 +6,8 @@ intervencions:
 - any: Josep A. Capdevila (?). Inici s. xx
   tipus: Projecte
 - any: '1919'
-  autors: Josep A. Capdevila
+  autors:
+    - 'Josep A. Capdevila'
   descripcio: 'Magatzem d’olis i habitatges. Actualment, ús industrial i d’oci nocturn.'
   tipus: Reforma
 lat: 41.3965757

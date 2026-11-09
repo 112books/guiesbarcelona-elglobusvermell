@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-del-ninot.jpg
 intervencions:
 - any: '2015'
-  autors: MAP Arquitectes (Josep Lluís Mateo)
+  autors:
+    - 'MAP Arquitectes (Josep Lluís Mateo)'
   descripcio: 'Mercat a l’aire lliure: 1894 Projecte original: Antoni de Falguera
     i Joaquim Vilaseca. 1933'
   tipus: Remodelació

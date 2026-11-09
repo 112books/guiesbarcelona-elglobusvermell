@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1946'
-  autors: Ramon Pagès
+  autors:
+    - 'Ramon Pagès'
   descripcio: 'Antic taller de caldereria. Actualment, bar nocturn L’Ovella Negra.'
   tipus: Projecte
 lat: 41.3958718

@@ -10,7 +10,9 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-i-oficines-can-bruixa.jpg
 intervencions:
 - any: '1975'
-  autors: Albert Viaplana, Helio Piñón i Gabriel Mora
+  autors:
+    - 'Albert Viaplana'
+    - 'Helio Piñón i Gabriel Mora'
   descripcio: ''
   tipus: Projecte
 lat: 41.3837872

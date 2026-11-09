@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/torres-doficines-trade.jpg
 intervencions:
 - any: '1969'
-  autors: José Antonio Coderch de Sentmenat
+  autors:
+    - 'José Antonio Coderch de Sentmenat'
   descripcio: ''
   tipus: Projecte
 lat: 41.3861109

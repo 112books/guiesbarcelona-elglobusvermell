@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1949'
-  autors: Josep Alemany i Juvé
+  autors:
+    - 'Josep Alemany i Juvé'
   descripcio: 'Magatzem i habitatges per a treballadors de l’empresa Metales y Platerías Ribera. Actualment, magatzems i habitatges.'
   tipus: Projecte
 lat: 41.4003436

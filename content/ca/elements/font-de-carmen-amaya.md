@@ -9,7 +9,8 @@ arquitectes:
 - Rafael Solanich
 intervencions:
 - any: '1959'
-  autors: Rafael Solanich
+  autors:
+    - 'Rafael Solanich'
   tipus: Autoria
 draft: false
 lat: 41.3798039

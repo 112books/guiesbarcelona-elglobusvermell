@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-fregoli.jpg
 intervencions:
 - any: '1975'
-  autors: Esteve Bonell Costa
+  autors:
+    - 'Esteve Bonell Costa'
   descripcio: ''
   tipus: Projecte
 lat: 41.3992785

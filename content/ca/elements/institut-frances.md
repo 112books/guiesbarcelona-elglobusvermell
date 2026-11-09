@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/institut-frances.jpg
 intervencions:
 - any: '1974'
-  autors: José Antonio Coderch de Sentmenat
+  autors:
+    - 'José Antonio Coderch de Sentmenat'
   descripcio: ''
   tipus: Projecte
 lat: 41.3952847

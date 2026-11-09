@@ -8,7 +8,8 @@ foto: /img/elements/biblioteca-poblenou-manuel-arranz.jpg
 edifici_original: Fàbrica tèxtil de Can Saladrigas. Francisco Pascual. 1884
 intervencions:
 - any: '2009'
-  autors: Moisés Gallego i Tomàs Morató
+  autors:
+    - 'Moisés Gallego i Tomàs Morató'
   descripcio: Manuel Arranz Professor, historiador i arxivista. 1946-1990 Poblenou
   tipus: Remodelació
 lat: 41.4013944

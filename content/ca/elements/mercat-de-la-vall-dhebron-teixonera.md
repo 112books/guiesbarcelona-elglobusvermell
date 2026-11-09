@@ -19,7 +19,8 @@ proteccio: ''
 superficie: null
 intervencions:
   - tipus: Remodelació
-    autors: BAAS Jordi Badia
+    autors:
+      - 'BAAS Jordi Badia'
     any: '2019'
     descripcio: 'Projecte original: 1969'
 anys_reforma: []

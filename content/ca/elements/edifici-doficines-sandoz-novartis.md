@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1972'
-  autors: Xavier Busquets i Sindreu
+  autors:
+    - 'Xavier Busquets i Sindreu'
   descripcio: ''
   tipus: Projecte
 lat: 41.398243

@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2021'
-  autors: Arquitectura-G
+  autors:
+    - 'Arquitectura-G'
   descripcio: ''
   tipus: Projecte
 lat: 41.4137216

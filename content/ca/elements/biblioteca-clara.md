@@ -8,7 +8,8 @@ edifici_original: Habitatge i taller-estudi de Josep Clarà. Raimon Duran i Reyn
   1920
 intervencions:
 - any: '2000'
-  autors: Tonet Sunyer
+  autors:
+    - 'Tonet Sunyer'
   descripcio: Josep Clarà Escultor. 1878-1958 Sarrià
   tipus: Remodelació
 lat: 41.3997153

@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1947'
-  autors: Joan Vallvé i Creus
+  autors:
+    - 'Joan Vallvé i Creus'
   descripcio: 'Fàbrica de coberts d’alpaca i llautó Metales y Platerías Ribera. Actualment, edifici d’oficines.'
   tipus: Projecte
 lat: 41.4008422

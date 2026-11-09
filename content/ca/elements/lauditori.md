@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1999'
-  autors: Rafael Moneo
+  autors:
+    - 'Rafael Moneo'
   descripcio: ''
   tipus: Projecte
 lat: 41.3986236

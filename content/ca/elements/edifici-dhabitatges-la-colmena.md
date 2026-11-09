@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-la-colmena.jpg
 intervencions:
 - any: '1959'
-  autors: Francesc Mitjans i Miró
+  autors:
+    - 'Francesc Mitjans i Miró'
   descripcio: ''
   tipus: Projecte
 lat: 41.4016293

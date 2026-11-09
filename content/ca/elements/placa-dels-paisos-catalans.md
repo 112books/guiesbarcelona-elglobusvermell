@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1983'
-  autors: Albert Viaplana i Veà + Heliodoro Piñón Pallarés
+  autors:
+    - 'Albert Viaplana i Veà'
+    - 'Heliodoro Piñón Pallarés'
   descripcio: Premi FAD Arquitectura
   tipus: Projecte
 lat: 41.380245

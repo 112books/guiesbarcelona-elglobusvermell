@@ -9,7 +9,9 @@ draft: false
 foto: /img/elements/editorial-gustavo-gili.jpg
 intervencions:
 - any: '1961'
-  autors: Francesc Bassó i Birulés + Joaquim Gili i Morós
+  autors:
+    - 'Francesc Bassó i Birulés'
+    - 'Joaquim Gili i Morós'
   descripcio: ''
   tipus: Projecte
 lat: 41.3860874

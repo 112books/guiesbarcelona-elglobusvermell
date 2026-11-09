@@ -4,7 +4,8 @@ adreca: Pl. Sóller
 draft: false
 intervencions:
 - any: '2021-2022'
-  autors: 'Barrio Peraire'
+  autors:
+    - 'Barrio Peraire'
   descripcio: ''
   tipus: Projecte
 lat: 41.4336133

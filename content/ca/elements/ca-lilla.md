@@ -5,7 +5,8 @@ draft: false
 foto: /img/elements/ca-lilla.jpg
 intervencions:
 - any: '1930/1940'
-  autors: 'Carlos Martínez Sánchez'
+  autors:
+    - 'Carlos Martínez Sánchez'
   descripcio: 'Indústria de blanqueig de teixits, tints i aprestos Vicente Illa SA. Actualment, oficines i espais d’activitat comercial en lloguer.'
   tipus: Projecte
 lat: 41.4160576

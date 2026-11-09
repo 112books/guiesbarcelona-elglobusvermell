@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2011'
-  autors: Meritxell Inaraja
+  autors:
+    - 'Meritxell Inaraja'
   descripcio: ''
   tipus: Projecte
 lat: 41.3851682

@@ -8,7 +8,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1957'
-  autors: Antoni de Moragas i Gallissà i Francisco Ribas de Salas
+  autors:
+    - 'Antoni de Moragas i Gallissà i Francisco Ribas de Salas'
   descripcio: ''
   tipus: Projecte
 lat: 41.4147606

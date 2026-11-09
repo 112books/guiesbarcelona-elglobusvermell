@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/collegi-de-metges.jpg
 intervencions:
 - any: '1975'
-  autors: Robert Terradas i Via
+  autors:
+    - 'Robert Terradas i Via'
   descripcio: ''
   tipus: Projecte
 lat: 41.403913

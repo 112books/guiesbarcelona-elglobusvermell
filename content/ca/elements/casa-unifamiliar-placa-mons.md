@@ -22,7 +22,9 @@ proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: Ricard de Churruca + Germà Rodríguez Arias
+    autors:
+      - 'Ricard de Churruca'
+      - 'Germà Rodríguez Arias'
     any: '1931'
     descripcio: ''
 anys_reforma: []

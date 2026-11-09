@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-del-poblenou.jpg
 intervencions:
 - any: '2005'
-  autors: G56
+  autors:
+    - 'G56'
   descripcio: 'Projecte original: Pere Falqués i Urpí. 1889'
   tipus: Remodelació
 lat: 41.400881

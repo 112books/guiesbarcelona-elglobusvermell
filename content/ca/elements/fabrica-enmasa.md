@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1958'
-  autors: Robert Terradas i Via
+  autors:
+    - 'Robert Terradas i Via'
   descripcio: ''
   tipus: Projecte
 lat: 41.4363082

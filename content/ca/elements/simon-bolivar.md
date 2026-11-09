@@ -9,7 +9,8 @@ arquitectes:
 - Julio Maragall
 intervencions:
 - any: '1996'
-  autors: Julio Maragall
+  autors:
+    - 'Julio Maragall'
   tipus: Autoria
 draft: false
 lat: 41.3819239

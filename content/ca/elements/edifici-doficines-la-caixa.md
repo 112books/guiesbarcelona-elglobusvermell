@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-doficines-la-caixa.jpg
 intervencions:
 - any: '1973'
-  autors: Xavier Busquets i Sindreu
+  autors:
+    - 'Xavier Busquets i Sindreu'
   descripcio: ''
   tipus: Projecte
 lat: 41.3950749

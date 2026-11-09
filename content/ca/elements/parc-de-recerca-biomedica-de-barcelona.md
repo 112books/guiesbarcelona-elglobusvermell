@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/parc-de-recerca-biomedica-de-barcelona.jpg
 intervencions:
 - any: '2006'
-  autors: Albert de Pineda Álvarez – PINEARQ, Manuel Brullet i Alfonso de Luna
+  autors:
+    - 'Albert de Pineda Álvarez'
+    - 'PINEARQ'
+    - 'Manuel Brullet i Alfonso de Luna'
   descripcio: Gran edifici, compacte però amb un pati central, de planta ovalada i
     amb volumetria de con escapçat en diagonal, fet que li permet organitzar-se en
     forma de terrassa, amb el punt més alt tocant a la ronda i el més baix a prop

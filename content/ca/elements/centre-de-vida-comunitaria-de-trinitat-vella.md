@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2018'
-  autors: Haz Arquitectura
+  autors:
+    - 'Haz Arquitectura'
   descripcio: ''
   tipus: Projecte
 lat: 41.4478975

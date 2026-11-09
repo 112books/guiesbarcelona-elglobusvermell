@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2008'
-  autors: Joan Callís + Pia Wortham
+  autors:
+    - 'Joan Callís'
+    - 'Pia Wortham'
   descripcio: ''
   tipus: Projecte
 lat: 41.4365489

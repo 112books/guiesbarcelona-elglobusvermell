@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-nicaragua.jpg
 intervencions:
 - any: '1965'
-  autors: Ricardo Bofill Levi
+  autors:
+    - 'Ricardo Bofill Levi'
   descripcio: ''
   tipus: Projecte
 lat: 41.3851968

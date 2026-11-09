@@ -9,7 +9,8 @@ draft: false
 foto: /img/elements/canodrom-meridiana.jpg
 intervencions:
 - any: '1963'
-  autors: Antoni Bonet Castellana i Josep Puig i Torné
+  autors:
+    - 'Antoni Bonet Castellana i Josep Puig i Torné'
   descripcio: ''
   tipus: Projecte
 lat: 41.4275249

@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2018'
-  autors: Bayona-Valero + Cantallops-Vicente
+  autors:
+    - 'Bayona-Valero'
+    - 'Cantallops-Vicente'
   descripcio: ''
   tipus: Projecte
 lat: 41.4528427

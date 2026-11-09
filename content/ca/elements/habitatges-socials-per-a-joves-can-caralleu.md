@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2008'
-  autors: Peris+Toral
+  autors:
+    - 'Peris+Toral'
   descripcio: ''
   tipus: Projecte
 lat: 41.4010362

@@ -23,7 +23,8 @@ proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
-    autors: Joan Baca
+    autors:
+      - 'Joan Baca'
     any: '1931'
     descripcio: ''
 anys_reforma: []

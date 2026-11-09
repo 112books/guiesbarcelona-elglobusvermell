@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1973'
-  autors: Josep Maria Fargas + Enric Tous
+  autors:
+    - 'Josep Maria Fargas'
+    - 'Enric Tous'
   descripcio: ''
   tipus: Projecte
 lat: 41.3960384

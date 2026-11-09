@@ -7,7 +7,8 @@ foto: /img/elements/biblioteca-vapor-vell.jpg
 edifici_original: Fàbrica tèxtil El Vapor Vell. 1846
 intervencions:
 - any: '2000'
-  autors: Josep M. Julià
+  autors:
+    - 'Josep M. Julià'
   descripcio: Sants Trasllat previst segons Pla 2030
   tipus: Remodelació
 lat: 41.3767487

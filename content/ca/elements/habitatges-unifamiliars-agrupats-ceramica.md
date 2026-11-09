@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1968'
-  autors: Joan Bosch Agustí
+  autors:
+    - 'Joan Bosch Agustí'
   descripcio: ''
   tipus: Projecte
 lat: 41.4323264

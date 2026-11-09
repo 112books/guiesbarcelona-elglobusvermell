@@ -9,7 +9,8 @@ draft: false
 foto: /img/elements/torre-urquinaona.jpg
 intervencions:
 - any: '1973'
-  autors: Antoni Bonet Castellana i Josep Puig i Torner
+  autors:
+    - 'Antoni Bonet Castellana i Josep Puig i Torner'
   descripcio: ''
   tipus: Projecte
 lat: 41.3897893

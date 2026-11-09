@@ -4,7 +4,8 @@ adreca: Maquinista 18
 draft: false
 intervencions:
 - any: '1910, aprox.'
-  autors: 'Domènec Boada Piera'
+  autors:
+    - 'Domènec Boada Piera'
   descripcio: Edifici molt semblant a la Casa Lluís Cairó (19), tant en la composició
     com en l’ornamentació de la façana.
   tipus: Projecte

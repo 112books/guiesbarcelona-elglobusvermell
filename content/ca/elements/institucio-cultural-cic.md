@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/institucio-cultural-cic.jpg
 intervencions:
 - any: '1961'
-  autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
+  autors:
+    - 'Guillem Giráldez i Dávila'
+    - 'Pere López i Íñigo'
+    - 'Xavier Subias i Fages'
   descripcio: ''
   tipus: Projecte
 lat: 41.3974878

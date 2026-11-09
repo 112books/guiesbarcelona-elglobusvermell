@@ -7,7 +7,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1993'
-  autors: Viaplana / Piñón
+  autors:
+    - 'Viaplana'
+    - 'Piñón'
   descripcio: 'Projecte original: Casa de la Caritat. Josep Oriol Mestres. 1861 Premi
     Ciutat de Barcelona Premi FAD Arquitectura Premi FAD Arquitectura (Opinió)'
   tipus: Reforma

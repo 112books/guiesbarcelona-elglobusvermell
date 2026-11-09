@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1956'
-  autors: Guillem Cosp i Vilaró
+  autors:
+    - 'Guillem Cosp i Vilaró'
   descripcio: ''
   tipus: Projecte
 lat: 41.3910143

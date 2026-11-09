@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2023'
-  autors: Peris+Toral
+  autors:
+    - 'Peris+Toral'
   descripcio: ''
   tipus: Projecte
 lat: 41.4370494

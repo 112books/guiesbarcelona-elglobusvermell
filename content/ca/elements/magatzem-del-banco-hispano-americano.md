@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1952'
-  autors: Josep Pellicer i Gambús
+  autors:
+    - 'Josep Pellicer i Gambús'
   descripcio: 'Magatzem i habitatge. Actualment, comerços i habitatges.'
   tipus: Projecte
 lat: 41.4132367

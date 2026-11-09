@@ -7,10 +7,12 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1880'
-  autors: Joan Barba. c
+  autors:
+    - 'Joan Barba. c'
   tipus: Projecte
 - any: '2013'
-  autors: Jordi Pla
+  autors:
+    - 'Jordi Pla'
   descripcio: 'Filatura de jute. Actualment, Centre d’Urgències i Emergències Socials de Barcelona (CUESB).'
   tipus: Remodelació
 lat: 41.3989109

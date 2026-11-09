@@ -10,7 +10,8 @@ arquitectes:
 - Jannis Kounellis
 intervencions:
 - any: '1992'
-  autors: Jannis Kounellis
+  autors:
+    - 'Jannis Kounellis'
   tipus: Autoria
 draft: false
 lat: 41.3803211

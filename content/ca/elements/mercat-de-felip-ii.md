@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-felip-ii.jpg
 intervencions:
 - any: '2002'
-  autors: Valeri Consultors Associats
+  autors:
+    - 'Valeri Consultors Associats'
   descripcio: 'Projecte original: Estudi AGR (Josep Anglada, Daniel Gelabert i Josep
     Ribas). 1966'
   tipus: Remodelació

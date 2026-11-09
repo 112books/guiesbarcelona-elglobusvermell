@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-vallmajor.jpg
 intervencions:
 - any: '1954'
-  autors: Francesc Mitjans i Miró
+  autors:
+    - 'Francesc Mitjans i Miró'
   descripcio: ''
   tipus: Projecte
 lat: 41.3996681

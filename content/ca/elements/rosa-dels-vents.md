@@ -10,7 +10,8 @@ arquitectes:
 - Lothar Baumgarten
 intervencions:
 - any: '1992'
-  autors: Lothar Baumgarten
+  autors:
+    - 'Lothar Baumgarten'
   tipus: Autoria
 draft: false
 foto: /img/elements/rosa-dels-vents.jpg

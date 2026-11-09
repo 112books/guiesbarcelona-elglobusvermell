@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/laboratoris-uriach.jpg
 intervencions:
 - any: '1961'
-  autors: Manuel Ribas i Piera
+  autors:
+    - 'Manuel Ribas i Piera'
   descripcio: ''
   tipus: Projecte
 lat: 41.4123879

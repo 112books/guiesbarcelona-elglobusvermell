@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/el-noticiero-universal.jpg
 intervencions:
 - any: '1965'
-  autors: Josep Maria Sostres i Maluquer
+  autors:
+    - 'Josep Maria Sostres i Maluquer'
   descripcio: ''
   tipus: Projecte
 lat: 41.3921653

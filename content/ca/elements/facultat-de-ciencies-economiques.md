@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/facultat-de-ciencies-economiques.jpg
 intervencions:
 - any: '1967'
-  autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
+  autors:
+    - 'Guillem Giráldez i Dávila'
+    - 'Pere López i Íñigo'
+    - 'Xavier Subias i Fages'
   descripcio: ''
   tipus: Projecte
 lat: 41.3858806

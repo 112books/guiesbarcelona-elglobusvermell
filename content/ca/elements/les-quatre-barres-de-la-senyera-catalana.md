@@ -8,7 +8,8 @@ arquitectes:
 - Ricardo Bofill Levi
 intervencions:
 - any: '2009'
-  autors: Ricardo Bofill Levi
+  autors:
+    - 'Ricardo Bofill Levi'
   tipus: Autoria
 draft: false
 foto: /img/elements/les-quatre-barres-de-la-senyera-catalana.jpg

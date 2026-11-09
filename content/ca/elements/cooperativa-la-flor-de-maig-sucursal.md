@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1927'
-  autors: J. Rodríguez
+  autors:
+    - 'J. Rodríguez'
   descripcio: 'Sucursal de la cooperativa obrera i fàbrica de gasoses. Actualment en desús.'
   tipus: Projecte
 lat: 41.3977803

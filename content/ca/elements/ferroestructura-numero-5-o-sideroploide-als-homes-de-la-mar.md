@@ -11,7 +11,8 @@ arquitectes:
 - Salvador Aulèstia
 intervencions:
 - any: '1963'
-  autors: Salvador Aulèstia
+  autors:
+    - 'Salvador Aulèstia'
   tipus: Autoria
 draft: false
 lat: 41.3727888

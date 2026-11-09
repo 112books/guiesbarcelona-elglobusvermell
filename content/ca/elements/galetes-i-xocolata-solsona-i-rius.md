@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1926'
-  autors: Mariano Romano Rius (?)
+  autors:
+    - 'Mariano Romano Rius (?)'
   descripcio: 'Fàbrica de galetes i xocolates. Actualment, seu d’una empresa tèxtil'
   tipus: Projecte
 lat: 41.3953583

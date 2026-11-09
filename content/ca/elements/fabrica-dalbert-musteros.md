@@ -7,7 +7,8 @@ intervencions:
 - any: Josep Pansas Coll (?). Inici s. xx
   tipus: Projecte
 - any: '1955'
-  autors: Josep M. Fargas
+  autors:
+    - 'Josep M. Fargas'
   descripcio: 'Fàbrica. Actualment, coworking , estudis d’artistes, sala de concerts i discoteca Razzmatazz, etc.'
   tipus: Remunta
 lat: 41.3970393

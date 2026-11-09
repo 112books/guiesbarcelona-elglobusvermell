@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2016'
-  autors: Maio
+  autors:
+    - 'Maio'
   descripcio: ''
   tipus: Projecte
 lat: 41.3921579

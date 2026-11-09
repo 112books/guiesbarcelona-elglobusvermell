@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1919'
-  autors: Dario Daura
+  autors:
+    - 'Dario Daura'
   descripcio: 'Magatzems i trulls. Des de 1924, seu d’Industrias Waldes (empresa de forniments metàl·lics).'
   tipus: Projecte
 lat: 41.396557

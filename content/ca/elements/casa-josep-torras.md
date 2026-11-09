@@ -5,7 +5,8 @@ draft: false
 foto: /img/elements/casa-josep-torras.jpg
 intervencions:
 - any: '1900, aprox.'
-  autors: 'Josep Graner i Prat'
+  autors:
+    - 'Josep Graner i Prat'
   descripcio: Edifici d’adscripció modernista caracteritzat, sobretot, per les originals
     motllures dels balcons i pels esgrafiats de colors i amb motius vegetals.
   tipus: Projecte

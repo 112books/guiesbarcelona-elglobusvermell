@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2015'
-  autors: Roger Méndez
+  autors:
+    - 'Roger Méndez'
   descripcio: ''
   tipus: Projecte
 lat: 41.4039739

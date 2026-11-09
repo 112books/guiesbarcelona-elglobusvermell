@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/naus-de-la-familia-ametller.jpg
 intervencions:
 - any: '1917'
-  autors: J. Domènech
+  autors:
+    - 'J. Domènech'
   descripcio: 'Rehabilitació: G56. 2008 Magatzems per llogar (llogaters: Galetes Solsona). Actualment, oficines.'
   tipus: Projecte
 lat: 41.3954112

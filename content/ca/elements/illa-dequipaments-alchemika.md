@@ -7,7 +7,8 @@ edifici_original: Fàbrica tèxtil Bonaventura Costa i Font. Francesc Mitjans i 
   1948
 intervencions:
 - any: '2012'
-  autors: Oliveras Boix Arquitectes
+  autors:
+    - 'Oliveras Boix Arquitectes'
   descripcio: Biblioteca, Escola Bressol, Centre de Barri i Residència + Centre de
     dia Camp de l’Arpa Sobre la Biblioteca Camp de l’Arpa – Caterina Albert Caterina
     Albert Escriptora i artista. 1869-1966

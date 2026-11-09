@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-roger-de-flor.jpg
 intervencions:
 - any: '1958'
-  autors: Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina + David Mackay
+  autors:
+    - 'Oriol Bohigas i Guardiola'
+    - 'Josep Maria Martorell i Codina'
+    - 'David Mackay'
   descripcio: ''
   tipus: Projecte
 lat: 41.4013494

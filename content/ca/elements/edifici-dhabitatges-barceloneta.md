@@ -9,7 +9,9 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-barceloneta.jpg
 intervencions:
 - any: '1954'
-  autors: José Antonio Coderch de Sentmenat + Manuel Valls i Vergés
+  autors:
+    - 'José Antonio Coderch de Sentmenat'
+    - 'Manuel Valls i Vergés'
   descripcio: 'El vestíbul conté el Mural Barceloneta (Josep Guinovart, 1954) Bloc
     de dos habitatges per replà amb una subtil composició de façana organitzada en
     tres parts: la planta baixa, amb acabat de pedra i de vidre; les plantes habitables,

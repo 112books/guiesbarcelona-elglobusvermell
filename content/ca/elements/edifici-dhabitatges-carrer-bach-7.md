@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1961'
-  autors: José Antonio Coderch de Sentmenat + Manuel Valls i Vergés
+  autors:
+    - 'José Antonio Coderch de Sentmenat'
+    - 'Manuel Valls i Vergés'
   descripcio: ''
   tipus: Projecte
 lat: 41.3956567

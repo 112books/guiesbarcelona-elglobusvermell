@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-la-guineueta.jpg
 intervencions:
 - any: '2013'
-  autors: Daniel Mòdol i Deltell
+  autors:
+    - 'Daniel Mòdol i Deltell'
   descripcio: 'Projecte original: Estudi AGR (Josep Anglada, Daniel Gelabert i Josep
     Ribas). 1965'
   tipus: Remodelació

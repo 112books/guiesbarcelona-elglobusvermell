@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1935'
-  autors: Manuel Puig Janer
+  autors:
+    - 'Manuel Puig Janer'
   descripcio: Gran edifici d’habitatges de certa inspiració parisenca, especialment
     visible en la mansarda de l’últim pis i les tribunes circulars de les cantonades,
     coronades amb una cúpula. També és remarcable el relleu escultòric amb temàtica

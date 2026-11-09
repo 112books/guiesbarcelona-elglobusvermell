@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-sants.jpg
 intervencions:
 - any: '2014'
-  autors: PB2 (Josep Llobet i Bach)
+  autors:
+    - 'PB2 (Josep Llobet i Bach)'
   descripcio: 'Projecte original: Pere Falqués i Urpí. 1892-1913'
   tipus: Remodelació
 lat: 41.374713

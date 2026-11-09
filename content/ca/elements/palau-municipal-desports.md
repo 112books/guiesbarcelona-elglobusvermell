@@ -8,7 +8,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1955'
-  autors: Josep Maria Soteras i Mauri i Llorenç García-Barbón
+  autors:
+    - 'Josep Maria Soteras i Mauri i Llorenç García-Barbón'
   descripcio: ''
   tipus: Projecte
 lat: 41.3717373

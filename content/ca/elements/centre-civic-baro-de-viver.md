@@ -4,7 +4,8 @@ adreca: Quito, 8-10
 draft: false
 intervencions:
 - any: '2014'
-  autors: 'Territori24'
+  autors:
+    - 'Territori24'
   descripcio: ''
   tipus: Projecte
 lat: 41.4461175

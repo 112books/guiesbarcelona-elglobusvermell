@@ -7,10 +7,12 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1960'
-  autors: Van der Harst
+  autors:
+    - 'Van der Harst'
   tipus: Projecte
 - any: '2007'
-  autors: Jaume Graells
+  autors:
+    - 'Jaume Graells'
   descripcio: Frondós jardí de més de 12.500 m2 dissenyat per la paisatgista i parella
     de l’aleshores director de la fàbrica Philips amb l’objectiu que els treballadors
     tinguessin un espai exterior de descans i esbarjo. Destaca la gran varietat d’espècies

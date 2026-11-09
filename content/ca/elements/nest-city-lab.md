@@ -9,7 +9,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2017'
-  autors: apocapoc bcn + slowup (Sandra Martín Lara)
+  autors:
+    - 'apocapoc bcn'
+    - 'slowup (Sandra Martín Lara)'
   descripcio: ''
   tipus: Projecte
 lat: 41.3981099

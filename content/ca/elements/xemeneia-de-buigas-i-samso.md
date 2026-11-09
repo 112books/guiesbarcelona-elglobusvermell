@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1889'
-  autors: Llorenç Massana
+  autors:
+    - 'Llorenç Massana'
   descripcio: ''
   tipus: Projecte
 lat: 41.4078123

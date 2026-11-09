@@ -6,7 +6,7 @@ arquitectes: []
 draft: false
 intervencions:
 - any: '1924'
-  autors: ''
+  autors: []
   descripcio: 'Magatzem. Actualment, mateix ús.'
   tipus: Projecte
 lat: 41.3994503

@@ -8,7 +8,9 @@ draft: false
 foto: /img/elements/la-chalmeta.jpg
 intervencions:
 - any: '2022'
-  autors: Pau Vidal + Vivas Arquitectos
+  autors:
+    - 'Pau Vidal'
+    - 'Vivas Arquitectos'
   descripcio: Cooperativa d’habitatge en cessió d’ús, un model alternatiu a la compra
     i al lloguer, assequible i no especulatiu. El bloc té 32 habitatges de diferents
     tipologies (entre una i tres habitacions i entre 44 i 80 m2) i diversos espais

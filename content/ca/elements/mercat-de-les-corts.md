@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-les-corts.jpg
 intervencions:
 - any: '2008'
-  autors: G56
+  autors:
+    - 'G56'
   descripcio: 'Projecte original: 1961'
   tipus: Remodelació
 lat: 41.3839753

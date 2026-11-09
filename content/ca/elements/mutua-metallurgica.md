@@ -9,7 +9,9 @@ draft: false
 foto: /img/elements/mutua-metallurgica.jpg
 intervencions:
 - any: '1960'
-  autors: Oriol Bohigas i Guardiola + Josep Maria Martorell i Codina
+  autors:
+    - 'Oriol Bohigas i Guardiola'
+    - 'Josep Maria Martorell i Codina'
   descripcio: ''
   tipus: Projecte
 lat: 41.3986919

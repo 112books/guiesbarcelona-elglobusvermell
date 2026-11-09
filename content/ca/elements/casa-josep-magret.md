@@ -5,7 +5,8 @@ draft: false
 foto: /img/elements/casa-josep-magret.jpg
 intervencions:
 - any: '1910, aprox.'
-  autors: 'Josep Graner i Prat'
+  autors:
+    - 'Josep Graner i Prat'
   descripcio: Com en els altres edificis de Josep Graner, aquesta façana mostra unes
     motllures dels balcons especialment exuberants i uns esgrafiats amb motius vegetals
     que es repeteixen sobre totes les parts massisses.

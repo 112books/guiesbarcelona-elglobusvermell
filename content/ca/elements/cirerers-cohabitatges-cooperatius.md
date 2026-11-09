@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2022'
-  autors: Celobert
+  autors:
+    - 'Celobert'
   descripcio: ''
   tipus: Projecte
 lat: 41.4475497

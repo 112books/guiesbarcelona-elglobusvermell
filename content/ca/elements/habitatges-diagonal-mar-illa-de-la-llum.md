@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2005'
-  autors: Clotet-Paricio
+  autors:
+    - 'Clotet-Paricio'
   descripcio: ''
   tipus: Projecte
 lat: 41.4050966

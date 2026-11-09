@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/cementiri-de-montjuic.jpg
 intervencions:
 - any: '1883'
-  autors: Leandre Albareda i Petit
+  autors:
+    - 'Leandre Albareda i Petit'
   descripcio: Situat al vessant sud de la muntanya de Montjuïc, aquest immens cementiri
     de 56 hectàrees és característic per les meravelloses vistes al Mediterrani, amb
     el port i el delta del Llobregat en primer pla, i pel seu eclecticisme arquitectònic,

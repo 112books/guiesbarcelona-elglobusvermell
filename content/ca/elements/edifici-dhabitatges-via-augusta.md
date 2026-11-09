@@ -8,7 +8,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1970'
-  autors: Antoni de Moragas i Gallissà i Francisco Riba de Salas
+  autors:
+    - 'Antoni de Moragas i Gallissà i Francisco Riba de Salas'
   descripcio: ''
   tipus: Projecte
 lat: 41.4007309

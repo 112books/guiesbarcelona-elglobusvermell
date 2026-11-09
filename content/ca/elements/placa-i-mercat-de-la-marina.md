@@ -11,7 +11,8 @@ draft: false
 foto: /img/elements/placa-i-mercat-de-la-marina.jpg
 intervencions:
 - any: '2003'
-  autors: Albert de Pineda
+  autors:
+    - 'Albert de Pineda'
   descripcio: L’any 1973 s’inaugura el mercat de la Mare de Déu de Port (després anomenat
     simplement Mercat del Port) per donar resposta a les necessitats del barri en
     un moment de fort creixement demogràfic. El 2003 es reubica i se li canvia el

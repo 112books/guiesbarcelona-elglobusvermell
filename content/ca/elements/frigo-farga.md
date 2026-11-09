@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1959'
-  autors: Joaquim Romaguera Llach
+  autors:
+    - 'Joaquim Romaguera Llach'
   descripcio: 'Fàbrica de gelats, xocolates i torrons, encara en funcionament.'
   tipus: Projecte
 lat: 41.4084465

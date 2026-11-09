@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1996'
-  autors: Josep Llinàs i Carmona
+  autors:
+    - 'Josep Llinàs i Carmona'
   descripcio: ''
   tipus: Projecte
 lat: 41.3882268

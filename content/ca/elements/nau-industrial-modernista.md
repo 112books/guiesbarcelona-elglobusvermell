@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/nau-industrial-modernista.jpg
 intervencions:
 - any: '1907'
-  autors: Manuel Raspall i Mallol
+  autors:
+    - 'Manuel Raspall i Mallol'
   descripcio: 'Magatzem industrial d’estil modernista. Actualment, edifici municipal cedit a la Fundació Trinijove.'
   tipus: Projecte
 lat: 41.3980792

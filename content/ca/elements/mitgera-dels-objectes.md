@@ -8,7 +8,8 @@ descripcio: 'Autoria: Alumnes de Ciutat Vella. 2011 Obra impulsada per l’IMPU 
   els dibuixos. La majoria tenen a veure amb el món infantil i la zona marítima.'
 intervencions:
 - any: '2011'
-  autors: Alumnes de Ciutat Vella
+  autors:
+    - 'Alumnes de Ciutat Vella'
   tipus: Autoria
 draft: false
 foto: /img/elements/mitgera-dels-objectes.jpg

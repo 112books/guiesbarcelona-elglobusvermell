@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1907'
-  autors: Francesc de Paula Villar Carmona
+  autors:
+    - 'Francesc de Paula Villar Carmona'
   descripcio: 'Fàbrica de gel. Actualment, seu d’una empresa de roba.'
   tipus: Projecte
 lat: 41.3958452

@@ -10,7 +10,8 @@ arquitectes:
 - Rebecca Horn
 intervencions:
 - any: '1992'
-  autors: Rebecca Horn
+  autors:
+    - 'Rebecca Horn'
   tipus: Autoria
 draft: false
 foto: /img/elements/lestel-ferit.jpg

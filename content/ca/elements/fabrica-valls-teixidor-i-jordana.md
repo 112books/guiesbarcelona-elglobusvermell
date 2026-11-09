@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1909'
-  autors: Emili Lluch
+  autors:
+    - 'Emili Lluch'
   descripcio: 'Fàbrica de productes mèdics, ortopèdics i farmacèutics. Posteriorment, Clausolles SA'
   tipus: Projecte
 lat: 41.4165341

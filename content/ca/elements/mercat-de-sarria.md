@@ -7,7 +7,8 @@ ordre: 1
 draft: false
 intervencions:
 - any: '2007'
-  autors: G56
+  autors:
+    - 'G56'
   descripcio: 'Projecte original: Marcel·lià Coquillat i Arnau Calvet. 1911'
   tipus: Remodelació
 lat: 41.3999107

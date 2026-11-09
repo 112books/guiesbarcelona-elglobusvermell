@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2021'
-  autors: A&EB
+  autors:
+    - 'A&EB'
   descripcio: ''
   tipus: Projecte
 lat: 41.4320173

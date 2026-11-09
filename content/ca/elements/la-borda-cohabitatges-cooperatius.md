@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2018'
-  autors: Lacol
+  autors:
+    - 'Lacol'
   descripcio: Premi Ciutat de Barcelona Premi Emergent Mies van der Rohe
   tipus: Projecte
 lat: 41.3695123

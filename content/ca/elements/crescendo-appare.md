@@ -10,7 +10,8 @@ arquitectes:
 - Mario Merz
 intervencions:
 - any: '1992'
-  autors: Mario Merz
+  autors:
+    - 'Mario Merz'
   tipus: Autoria
 draft: false
 foto: /img/elements/crescendo-appare.jpg

@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1959'
-  autors: Carlos Ferrer Kutter
+  autors:
+    - 'Carlos Ferrer Kutter'
   descripcio: Indústria metal·lúrgica. Actualment, seu de l’IAAC (Institut d’Arquitectura
     Avançada de Catalunya).
   tipus: Projecte

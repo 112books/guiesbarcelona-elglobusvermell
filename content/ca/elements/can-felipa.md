@@ -5,7 +5,8 @@ draft: false
 foto: /img/elements/can-felipa.jpg
 intervencions:
 - any: '1991'
-  autors: Josep Lluís Mateo
+  autors:
+    - 'Josep Lluís Mateo'
   descripcio: 'Projecte original: 1885 / Inici s. xx (menjadors) Fàbrica tèxtil CATEX (Manufacturas Reunidas del Textil). Actualment, centre cívic i poliesportiu.'
   tipus: Remodelació
 lat: 41.403855

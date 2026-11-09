@@ -10,7 +10,8 @@ arquitectes:
 - Juan Muñoz
 intervencions:
 - any: '1992'
-  autors: Juan Muñoz
+  autors:
+    - 'Juan Muñoz'
   tipus: Autoria
 draft: false
 foto: /img/elements/una-habitacio-on-sempre-plou.jpg

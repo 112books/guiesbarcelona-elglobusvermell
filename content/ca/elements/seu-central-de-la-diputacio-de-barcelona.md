@@ -3,7 +3,8 @@ aliases: ["/1975-2008/seu-central-de-la-diputacio-de-barcelona/"]
 draft: false
 intervencions:
 - any: '1987'
-  autors: Correa-Milà
+  autors:
+    - 'Correa-Milà'
   descripcio: 'Adreça: Rbla. Catalunya, 126 Projecte original: Casa Serra. Josep Puig
     i Cadafalch. 1908'
   tipus: Reforma

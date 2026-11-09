@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1964'
-  autors: Robert Terradas i Via
+  autors:
+    - 'Robert Terradas i Via'
   descripcio: ''
   tipus: Projecte
 lat: 41.3847795

@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2020'
-  autors: AIA + Barceló Balanzó + Gustau Gili
+  autors:
+    - 'AIA'
+    - 'Barceló Balanzó'
+    - 'Gustau Gili'
   descripcio: ''
   tipus: Projecte
 lat: 41.4278022

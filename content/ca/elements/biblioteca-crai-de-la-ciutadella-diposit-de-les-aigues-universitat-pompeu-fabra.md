@@ -12,7 +12,8 @@ fotos_addicionals:
 edifici_original: Dipòsit d’aigües. Josep Fontserè i Mestre. 1880
 intervencions:
 - any: '1999'
-  autors: Lluís Clotet i Ignasi Paricio
+  autors:
+    - 'Lluís Clotet i Ignasi Paricio'
   descripcio: Premi Dècada Aquesta biblioteca no pertany a la Xarxa de Biblioteques
     Municipals.
   tipus: Reforma

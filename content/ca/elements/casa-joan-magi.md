@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1896'
-  autors: Enric Sagnier Villavecchia
+  autors:
+    - 'Enric Sagnier Villavecchia'
   descripcio: Bon exemple de la tipologia habitual a l’«Eixample de la Barceloneta».
     Façana d’aire senyorial i estil neoclàssic gràcies a les pilastres, els capitells
     i els balcons suportats per mènsules.

@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1929'
-  autors: Amadeu Llopart
+  autors:
+    - 'Amadeu Llopart'
   descripcio: 'Entitat cultural. Actualment, mateix ús.'
   tipus: Projecte
 lat: 41.3998615

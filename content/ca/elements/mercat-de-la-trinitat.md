@@ -7,7 +7,8 @@ ordre: 19
 draft: false
 intervencions:
 - any: '2001'
-  autors: JG Asociados
+  autors:
+    - 'JG Asociados'
   descripcio: 'Projecte original: 1977'
   tipus: Remodelació
 lat: 41.4486415

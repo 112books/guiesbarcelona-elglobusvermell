@@ -9,7 +9,9 @@ draft: false
 foto: /img/elements/fira-barcelona.jpg
 intervencions:
 - any: '2010'
-  autors: Toyo Ito Associates + B720 Arquitectes
+  autors:
+    - 'Toyo Ito Associates'
+    - 'B720 Arquitectes'
   descripcio: El recinte Fira Gran Via (el segon recinte de Fira Barcelona després
     del de Montjuïc) consisteix en un conjunt de nou pavellons (240.000 m 2 en total)
     units per una passarel·la elevada serpentejant i dues torres de 114 metres d’alçada

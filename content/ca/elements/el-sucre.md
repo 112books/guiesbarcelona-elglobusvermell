@@ -5,7 +5,8 @@ draft: false
 foto: /img/elements/el-sucre.jpg
 intervencions:
 - any: '2007'
-  autors: Jordi Garcés
+  autors:
+    - 'Jordi Garcés'
   descripcio: 'Projecte original: c. 1911 Sucrera Compañía de Industrias Agrícolas. Actualment, habitatges lofts .'
   tipus: Remodelació
 lat: 41.3961992

@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-cyt.jpg
 intervencions:
 - any: '1960'
-  autors: Francesc Mitjans i Miró
+  autors:
+    - 'Francesc Mitjans i Miró'
   descripcio: ''
   tipus: Projecte
 lat: 41.397243

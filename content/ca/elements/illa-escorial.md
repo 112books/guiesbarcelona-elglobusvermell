@@ -14,9 +14,14 @@ draft: false
 foto: /img/elements/illa-escorial.jpg
 intervencions:
 - any: '1962'
-  autors: Josep Alemany i Juvé + Oriol Bohigas i Guardiola + Josep Maria Martorell
-    i Codina + Francesc Mitjans i Miró + Antoni Perpiñà + Josep Maria Ribas + Manuel
-    Ribas
+  autors:
+    - 'Josep Alemany i Juvé'
+    - 'Oriol Bohigas i Guardiola'
+    - 'Josep Maria Martorell i Codina'
+    - 'Francesc Mitjans i Miró'
+    - 'Antoni Perpiñà'
+    - 'Josep Maria Ribas'
+    - 'Manuel Ribas'
   descripcio: ''
   tipus: Projecte
 lat: 41.4076595

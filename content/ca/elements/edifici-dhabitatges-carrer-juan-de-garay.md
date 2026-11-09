@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1967'
-  autors: Rafael Serra Florensa
+  autors:
+    - 'Rafael Serra Florensa'
   descripcio: ''
   tipus: Projecte
 lat: 41.4192724

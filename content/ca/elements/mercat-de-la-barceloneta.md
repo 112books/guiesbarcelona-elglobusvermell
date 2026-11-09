@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-la-barceloneta.jpg
 intervencions:
 - any: '2007'
-  autors: Josep Miàs
+  autors:
+    - 'Josep Miàs'
   descripcio: 'Projecte original: Antoni Rovira i Trias. 1884 Premi Ciutat de Barcelona
     La construcció original constava de tres naus d’estructura metàl·lica, cobertes
     a dues aigües i façanes d’obra vista. La recent remodelació preserva l’estructura

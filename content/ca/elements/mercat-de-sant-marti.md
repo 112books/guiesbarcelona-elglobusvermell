@@ -7,7 +7,8 @@ ordre: 5
 draft: false
 intervencions:
 - any: '2014'
-  autors: Comas-Pont Arquitectes
+  autors:
+    - 'Comas-Pont Arquitectes'
   descripcio: 'Projecte original: 1966'
   tipus: Remodelació
 lat: 41.418723

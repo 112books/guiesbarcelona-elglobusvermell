@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2014'
-  autors: SCOB
+  autors:
+    - 'SCOB'
   descripcio: ''
   tipus: Projecte
 lat: 41.3978975

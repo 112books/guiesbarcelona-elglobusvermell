@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-la-llibertat.jpg
 intervencions:
 - any: '2009'
-  autors: PB2 (Josep Llobet i Bach)
+  autors:
+    - 'PB2 (Josep Llobet i Bach)'
   descripcio: 'Projecte original: Miquel Pasqual i Tintorer i Francesc Berenguer i
     Mestres (decoració). 1888'
   tipus: Remodelació

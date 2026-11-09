@@ -12,7 +12,8 @@ descripcio: Projectat per ser la seu de la Mutualitat de Sant Pere Pescador, avu
 draft: false
 intervencions:
 - any: '1928'
-  autors: Antoni Falguera
+  autors:
+    - 'Antoni Falguera'
   descripcio: Projectat per ser la seu de la Mutualitat de Sant Pere Pescador, avui
     en dia acull l’Organització d’Estibadors Portuaris de Barcelona. Es tracta d’un
     edifici noucentista que destaca per les seves grans dimensions i per una certa

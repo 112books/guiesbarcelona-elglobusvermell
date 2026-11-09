@@ -7,7 +7,8 @@ foto: /img/elements/biblioteca-ignasi-iglesias-can-fabra.jpg
 edifici_original: Filatura Fabra i Coats. 1880
 intervencions:
 - any: '2005'
-  autors: Moisés Gallego i Tomàs Morató
+  autors:
+    - 'Moisés Gallego i Tomàs Morató'
   descripcio: Ignasi Iglésias Dramaturg i poeta. 1871-1928
   tipus: Remodelació
 lat: 41.4345551

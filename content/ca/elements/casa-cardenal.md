@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1935'
-  autors: Raimon Duran i Reynals
+  autors:
+    - 'Raimon Duran i Reynals'
   descripcio: ''
   tipus: Projecte
 lat: 41.3979235

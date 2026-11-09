@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/facultat-de-dret.jpg
 intervencions:
 - any: '1958'
-  autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
+  autors:
+    - 'Guillem Giráldez i Dávila'
+    - 'Pere López i Íñigo'
+    - 'Xavier Subias i Fages'
   descripcio: ''
   tipus: Projecte
 lat: 41.3877348

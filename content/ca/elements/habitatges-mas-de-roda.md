@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2009'
-  autors: Garcés-de Seta-Bonet
+  autors:
+    - 'Garcés-de Seta-Bonet'
   descripcio: ''
   tipus: Projecte
 lat: 41.3964202

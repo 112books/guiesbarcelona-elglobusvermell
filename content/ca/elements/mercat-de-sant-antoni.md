@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/mercat-de-sant-antoni.jpg
 intervencions:
 - any: '2018'
-  autors: Ravetllat-Ribas
+  autors:
+    - 'Ravetllat-Ribas'
   descripcio: 'Projecte original: Antoni Rovira i Trias. 1882 Inclou els Encants de
     Sant Antoni especialitzats en productes tèxtils. Inclou el Dominical de Sant Antoni
     que basa la seva activitat en llibres, revistes, cromos, postals, pel·lícules

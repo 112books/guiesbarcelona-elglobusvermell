@@ -9,7 +9,8 @@ arquitectes:
 - Antoni Llena
 intervencions:
 - any: '1992'
-  autors: Antoni Llena
+  autors:
+    - 'Antoni Llena'
   tipus: Autoria
 draft: false
 foto: /img/elements/david-i-goliat.jpg

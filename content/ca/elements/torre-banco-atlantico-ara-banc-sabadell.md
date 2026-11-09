@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/torre-banco-atlantico-ara-banc-sabadell.jpg
 intervencions:
 - any: '1969'
-  autors: Francesc Mitjans i Miró
+  autors:
+    - 'Francesc Mitjans i Miró'
   descripcio: ''
   tipus: Projecte
 lat: 41.3950102

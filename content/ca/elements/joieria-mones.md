@@ -12,8 +12,12 @@ draft: false
 foto: /img/elements/joieria-mones.jpg
 intervencions:
 - any: '1962'
-  autors: Josep Antoni Ballesteros + Joan Carles Cardenal + Francesc de la Guàrdia
-    + Xavier Ruiz + Pere Llimona
+  autors:
+    - 'Josep Antoni Ballesteros'
+    - 'Joan Carles Cardenal'
+    - 'Francesc de la Guàrdia'
+    - 'Xavier Ruiz'
+    - 'Pere Llimona'
   descripcio: ''
   tipus: Projecte
 lat: 41.4018745

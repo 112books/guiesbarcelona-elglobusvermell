@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2021'
-  autors: Sumo
+  autors:
+    - 'Sumo'
   descripcio: ''
   tipus: Projecte
 lat: 41.3997954

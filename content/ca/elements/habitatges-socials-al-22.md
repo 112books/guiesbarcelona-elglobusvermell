@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2008'
-  autors: Josep Maria Casadevall + Ramon Sanabria
+  autors:
+    - 'Josep Maria Casadevall'
+    - 'Ramon Sanabria'
   descripcio: ''
   tipus: Projecte
 lat: 41.4071484

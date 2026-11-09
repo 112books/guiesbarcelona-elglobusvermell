@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1906'
-  autors: Juli M. Fossas i Martínez
+  autors:
+    - 'Juli M. Fossas i Martínez'
   descripcio: 'Indústria tèxtil. Actualment, seu d’una agència de comunicació.'
   tipus: Projecte
 lat: 41.4121382

@@ -7,7 +7,8 @@ ordre: 14
 draft: false
 intervencions:
 - any: '2001'
-  autors: Valeri Consultors Associats
+  autors:
+    - 'Valeri Consultors Associats'
   descripcio: 'Projecte original: 1968'
   tipus: Remodelació
 lat: 41.4616275

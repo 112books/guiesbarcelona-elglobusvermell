@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2007'
-  autors: Conxita Balcells
+  autors:
+    - 'Conxita Balcells'
   descripcio: ''
   tipus: Projecte
 lat: 41.3955989

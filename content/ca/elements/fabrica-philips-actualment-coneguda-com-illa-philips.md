@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/fabrica-philips-actualment-coneguda-com-illa-philips.jpg
 intervencions:
 - any: '1959'
-  autors: Josep Maria Soteras i Mauri
+  autors:
+    - 'Josep Maria Soteras i Mauri'
   descripcio: 'Conjunt fabril amb diferents pavellons distribuïts a l’entorn d’uns
     jardins interiors concebuts per al descans dels treballadors. Arquitectònicament
     en destaca l’ús de tres materials principals: la fàbrica de maó vist, l’estuc

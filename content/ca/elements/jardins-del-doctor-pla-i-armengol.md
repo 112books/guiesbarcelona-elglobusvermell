@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2017'
-  autors: Espai LUR
+  autors:
+    - 'Espai LUR'
   descripcio: ''
   tipus: Projecte
 lat: 41.4153276

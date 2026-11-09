@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2007'
-  autors: OAB (Carlos Ferrater)
+  autors:
+    - 'OAB (Carlos Ferrater)'
   descripcio: ''
   tipus: Projecte
 lat: 41.4083466

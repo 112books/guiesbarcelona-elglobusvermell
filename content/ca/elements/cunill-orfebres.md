@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1965'
-  autors: Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages
+  autors:
+    - 'Guillem Giráldez i Dávila'
+    - 'Pere López i Íñigo'
+    - 'Xavier Subias i Fages'
   descripcio: 'Seu del taller d’orfebreria Cunill e Hijos (posteriorment Cunill Orfebres). A l’espera d’una pròxima reconversió en luxosos lofts .'
   tipus: Projecte
 lat: 41.3986399

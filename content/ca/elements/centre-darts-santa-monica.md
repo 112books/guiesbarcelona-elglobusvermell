@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2003'
-  autors: Albert Viaplana
+  autors:
+    - 'Albert Viaplana'
   descripcio: 'Projecte: Viaplana / Piñón. 1989 Premi Ciutat de Barcelona'
   tipus: Reforma
 lat: 41.3771795

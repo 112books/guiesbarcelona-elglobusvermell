@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1992'
-  autors: Emili Donato Folch + Miguel Jiménez + Ramon Martí
+  autors:
+    - 'Emili Donato Folch'
+    - 'Miguel Jiménez'
+    - 'Ramon Martí'
   descripcio: ''
   tipus: Projecte
 lat: 41.425537

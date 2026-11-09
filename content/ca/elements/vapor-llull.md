@@ -5,10 +5,12 @@ draft: false
 foto: /img/elements/vapor-llull.jpg
 intervencions:
 - any: '1942'
-  autors: Josep M. Ros i Vila
+  autors:
+    - 'Josep M. Ros i Vila'
   tipus: Ampliació
 - any: '1996'
-  autors: Cristian Cirici i Carles Bassó
+  autors:
+    - 'Cristian Cirici i Carles Bassó'
   descripcio: 'Projecte original: Inici s. xx (1902?) Premi Ciutat de Barcelona d’Arquitectura 1998 Fàbrica de productes químics Massó i Cia. Actualment, habitatges lofts .'
   tipus: Remodelació
 lat: 41.3983847

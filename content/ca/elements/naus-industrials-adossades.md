@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1909'
-  autors: Josep Pujol i Brull
+  autors:
+    - 'Josep Pujol i Brull'
   descripcio: 'Conjunt de tres naus d’estil modernista.'
   tipus: Projecte
 lat: 41.3954354

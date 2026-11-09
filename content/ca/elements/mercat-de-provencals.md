@@ -7,7 +7,8 @@ ordre: 4
 draft: false
 intervencions:
 - any: '2013'
-  autors: G56 Mur-Garganté Arquitectes Associats
+  autors:
+    - 'G56 Mur-Garganté Arquitectes Associats'
   descripcio: 'Projecte original: 1974'
   tipus: Remodelació
 lat: 41.4196607

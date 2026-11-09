@@ -10,7 +10,10 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-talaia.jpg
 intervencions:
 - any: '1970'
-  autors: Federico Correa + Alfonso Milà + José Luis Sanz Magallón
+  autors:
+    - 'Federico Correa'
+    - 'Alfonso Milà'
+    - 'José Luis Sanz Magallón'
   descripcio: ''
   tipus: Projecte
 lat: 41.390966

@@ -9,7 +9,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1956'
-  autors: César Ortiz Echagüe, Manuel Barbero Rebolledo i Rafael de la Joya
+  autors:
+    - 'César Ortiz Echagüe'
+    - 'Manuel Barbero Rebolledo i Rafael de la Joya'
   descripcio: ''
   tipus: Projecte
 lat: 41.3409425

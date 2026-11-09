@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2024'
-  autors: Peris+Toral + Jaime Pastor
+  autors:
+    - 'Peris+Toral'
+    - 'Jaime Pastor'
   descripcio: ''
   tipus: Projecte
 lat: 41.4119975

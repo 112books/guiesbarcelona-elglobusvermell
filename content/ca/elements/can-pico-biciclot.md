@@ -7,10 +7,12 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1907'
-  autors: Josep Masdeu
+  autors:
+    - 'Josep Masdeu'
   tipus: Projecte
 - any: '2018'
-  autors: Daniel Molina (Som Habitat)
+  autors:
+    - 'Daniel Molina (Som Habitat)'
   descripcio: 'Magatzem i habitatge de Miquel Picó. Actualment, BiciHub i Biciclot.'
   tipus: Reforma
 lat: 41.3958118

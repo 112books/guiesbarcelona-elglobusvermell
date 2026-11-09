@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1966'
-  autors: Manuel de Solà-Morales i de Rosselló + Manuel de Solà-Morales i Rubió
+  autors:
+    - 'Manuel de Solà-Morales i de Rosselló'
+    - 'Manuel de Solà-Morales i Rubió'
   descripcio: ''
   tipus: Projecte
 lat: 41.3957595

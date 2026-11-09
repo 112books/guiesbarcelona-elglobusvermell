@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1966'
-  autors: José Antonio Coderch de Sentmenat
+  autors:
+    - 'José Antonio Coderch de Sentmenat'
   descripcio: ''
   tipus: Projecte
 lat: 41.397907

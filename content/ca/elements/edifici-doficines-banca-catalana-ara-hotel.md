@@ -9,7 +9,9 @@ draft: false
 foto: /img/elements/edifici-doficines-banca-catalana-ara-hotel.jpg
 intervencions:
 - any: '1968'
-  autors: Josep Maria Fargas + Enric Tous
+  autors:
+    - 'Josep Maria Fargas'
+    - 'Enric Tous'
   descripcio: ''
   tipus: Projecte
 lat: 41.39465

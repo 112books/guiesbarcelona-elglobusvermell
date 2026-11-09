@@ -8,7 +8,9 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2021'
-  autors: Lacol + La Boqueria
+  autors:
+    - 'Lacol'
+    - 'La Boqueria'
   descripcio: ''
   tipus: Projecte
 lat: 41.4062797

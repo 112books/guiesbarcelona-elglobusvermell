@@ -10,7 +10,9 @@ draft: false
 foto: /img/elements/conjunt-del-congres-eucaristic.jpg
 intervencions:
 - any: '1952'
-  autors: Josep Maria Soteras i Mauri, Antoni Pineda i Gualba i Carlos Marquès i Maristany
+  autors:
+    - 'Josep Maria Soteras i Mauri'
+    - 'Antoni Pineda i Gualba i Carlos Marquès i Maristany'
   descripcio: ''
   tipus: Projecte
 lat: 41.4263952

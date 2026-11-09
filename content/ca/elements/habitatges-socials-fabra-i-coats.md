@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2019'
-  autors: Roldán+Berengué
+  autors:
+    - 'Roldán+Berengué'
   descripcio: ''
   tipus: Projecte
 lat: 41.4324346

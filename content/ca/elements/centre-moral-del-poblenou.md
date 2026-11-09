@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1924'
-  autors: Pau Monguió
+  autors:
+    - 'Pau Monguió'
   descripcio: 'Entitat cultural. Actualment, mateix ús.'
   tipus: Projecte
 lat: 41.4011183

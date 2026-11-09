@@ -11,7 +11,8 @@ arquitectes:
 - Francesc Abad
 intervencions:
 - any: '1999'
-  autors: Francesc Abad
+  autors:
+    - 'Francesc Abad'
   tipus: Autoria
 draft: false
 foto: /img/elements/monument-a-josep-moragues.jpg

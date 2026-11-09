@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/torre-daigues-de-la-catalana-de-gas.jpg
 intervencions:
 - any: '1906'
-  autors: Josep Domènech i Estapà
+  autors:
+    - 'Josep Domènech i Estapà'
   descripcio: Torre de 45 metres d’alçada, de base quadrada i estructura de pedra,
     tronc d’obra vista i planta octogonal, i dipòsit cilíndric i coberta cònica, els
     dos últims elements recoberts amb ceràmica policroma. Construïda per subministrar

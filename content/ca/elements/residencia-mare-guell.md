@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1967'
-  autors: Lluís Cantallops
+  autors:
+    - 'Lluís Cantallops'
   descripcio: ''
   tipus: Projecte
 lat: 41.4037506

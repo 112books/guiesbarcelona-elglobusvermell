@@ -9,7 +9,10 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1984'
-  autors: Imma Jansana + Neus Solé + Daniel Navas
+  autors:
+    - 'Imma Jansana'
+    - 'Neus Solé'
+    - 'Daniel Navas'
   descripcio: Parc frondós dissenyat amb una forta influència de l’arquitectura postmoderna.
     Té una allargada plaça central, una font en forma de piràmide i un estany. Ocupa
     el solar de l’antiga fàbrica Industrias Mecánicas, de Gerard Sabaté, popularment

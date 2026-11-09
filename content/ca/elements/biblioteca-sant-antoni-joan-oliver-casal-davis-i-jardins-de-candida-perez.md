@@ -9,7 +9,8 @@ draft: false
 foto: /img/elements/biblioteca-sant-antoni-joan-oliver-casal-davis-i-jardins-de-candida-perez.jpg
 intervencions:
 - any: '2007'
-  autors: RCR Arquitectes
+  autors:
+    - 'RCR Arquitectes'
   descripcio: 'Sobre els jardins: Càndida Pérez i Martínez. (Olot, 1893 – 1989). Cantant
     i compositora de cuplets. Autora de la música d’alguns dels cuplets catalans més
     coneguts dels anys vint. Actuà a diverses ciutats d’Europa i Amèrica del Sud amb

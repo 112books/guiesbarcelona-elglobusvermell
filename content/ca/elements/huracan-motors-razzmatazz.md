@@ -8,7 +8,8 @@ draft: false
 foto: /img/elements/huracan-motors-razzmatazz.jpg
 intervencions:
 - any: '1957'
-  autors: Llorenç García-Barbón
+  autors:
+    - 'Llorenç García-Barbón'
   descripcio: 'Fàbrica de motors. Actualment, sala de concerts i discoteca Razzmatazz.'
   tipus: Projecte
 lat: 41.397763

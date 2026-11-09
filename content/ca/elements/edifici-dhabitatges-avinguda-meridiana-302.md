@@ -9,7 +9,8 @@ draft: false
 foto: /img/elements/edifici-dhabitatges-avinguda-meridiana-302.jpg
 intervencions:
 - any: '1965'
-  autors: Antoni de Moragas i Gallissà i Francesc de Riba de Salas
+  autors:
+    - 'Antoni de Moragas i Gallissà i Francesc de Riba de Salas'
   descripcio: ''
   tipus: Projecte
 lat: 41.4232444

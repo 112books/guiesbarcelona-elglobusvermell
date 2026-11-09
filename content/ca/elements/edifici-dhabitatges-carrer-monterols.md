@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '1971'
-  autors: Emili Donato Folch
+  autors:
+    - 'Emili Donato Folch'
   descripcio: ''
   tipus: Projecte
 lat: 41.3968162

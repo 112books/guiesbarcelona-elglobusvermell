@@ -7,7 +7,8 @@ arquitectes:
 draft: false
 intervencions:
 - any: '2019'
-  autors: Oliveras Boix
+  autors:
+    - 'Oliveras Boix'
   descripcio: ''
   tipus: Projecte
 lat: 41.3991622
