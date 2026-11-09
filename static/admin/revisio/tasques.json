@@ -2441,6 +2441,20 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/camp-nou/"
         }
       ]
+    },
+    {
+      "id": "cms-autors-intervencions",
+      "ref": "9/11 · CMS",
+      "estat": "fet",
+      "titol": "L'editor ja deixa editar els autors de les intervencions",
+      "cita": "Al camp projecte... apareixen els mateixos noms però escrits diferents i sense enllaçar, i això és el que no puc modificar a l'editor.",
+      "resultat": "Fet (9/11): 309 intervencions tenien els autors com un text i el camp de l'editor n'esperava una llista; per això sortia buit i no es podia tocar. Normalitzades a llista. Comprovat a l'editor amb la fitxa del Camp Nou: la intervenció mostra «Francesc Mitjans i Miró» i «Josep Maria Soteras i Mauri» seleccionats i es poden treure o canviar. Els noms que encara no tenen fitxa (p. ex. «Llorenç García-Barbón») queden com a text fins que es resolguin.",
+      "enllacos": [
+        {
+          "label": "Camp Nou",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/camp-nou/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
