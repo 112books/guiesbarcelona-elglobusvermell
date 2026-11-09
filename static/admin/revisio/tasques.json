@@ -2413,6 +2413,34 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-publica-arus/"
         }
       ]
+    },
+    {
+      "id": "en-paper-fotos-planol",
+      "ref": "9/11 · En paper",
+      "estat": "fet",
+      "titol": "Fotos del plànol en paper a cada plànol-guia",
+      "cita": "A l'apartat en paper de cada plànol-guia ens agradaria afegir un carrusel de fotos dels plànols en paper.",
+      "resultat": "Preparat (9/11): cada plànol-guia té un camp «Fotos del plànol en paper» a l'editor (es pugen a img/publicacions/paper) i, quan n'hi ha, surten en un carrusel a la seva pàgina. Mentre no hi hagi fotos, la pàgina queda exactament igual.",
+      "enllacos": [
+        {
+          "label": "Mercats de Barcelona",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats/"
+        }
+      ]
+    },
+    {
+      "id": "fitxa-autors-enllacos",
+      "ref": "9/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Els autors de «Projecte» enllacen a la seva fitxa d'arquitecte",
+      "cita": "Al camp projecte... apareixen els mateixos noms però escrits diferents i sense enllaçar",
+      "resultat": "Fet (9/11): els noms de les intervencions se separen (+, –, coma, barra), s'eliminen duplicats i cadascun enllaça a la pàgina del seu arquitecte quan existeix. Abans només s'enllaçava si coincidia exactament amb el camp «Arquitectes».",
+      "enllacos": [
+        {
+          "label": "Camp Nou",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/camp-nou/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
