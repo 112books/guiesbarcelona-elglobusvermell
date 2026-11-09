@@ -1,0 +1,11 @@
+{{/* Mapa «nom de l'arquitecte → enllaç de la seva pàgina».
+     Les pàgines dels arquitectes són termes de taxonomia i les seves URL
+     conserven els accents (p. ex. /arquitectes/albert-de-pineda-álvarez/),
+     així que no es poden encertar amb urlize. La clau és el títol de la pàgina
+     (el nom tal com surt a les fitxes); les claus de site.Taxonomies vénen
+     normalitzades i no hi coincideixen. */}}
+{{ $mapa := dict }}
+{{ range $terme, $p := site.Taxonomies.arquitectes }}
+  {{ with $p.Page }}{{ $mapa = merge $mapa (dict .Title .RelPermalink) }}{{ end }}
+{{ end }}
+{{ return $mapa }}

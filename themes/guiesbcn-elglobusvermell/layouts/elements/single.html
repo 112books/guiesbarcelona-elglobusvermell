@@ -204,23 +204,39 @@
            que coincideixen amb el camp «arquitectes» esdevenen enllaços. */}}
       {{ with .Params.intervencions }}
       {{ range . }}
-      {{ $autors := "" }}
-      {{ $autorsHTML := "" }}
+      {{/* Els autors poden venir com a llista o com un text amb diversos noms
+           separats per «+», «–», «,» o «/» (309 fitxes antigues). Es tracten
+           igual: se separen i s'enllaça cada nom que tingui pàgina d'arquitecte.
+           Abans, amb el text, només s'enllaçava si coincidia amb el camp
+           «Arquitectes» i la resta quedava sense enllaç (Xavi, 6/11). */}}
+      {{ $brut := "" }}
       {{ if reflect.IsSlice .autors }}
-        {{ $links := slice }}
-        {{ range .autors }}
-          {{ $links = $links | append (printf "<a href=\"%s\">%s</a>" (printf "arquitectes/%s/" (. | urlize) | relURL) .) }}
-        {{ end }}
-        {{ $autors = delimit (.autors | default slice) ", " }}
-        {{ $autorsHTML = delimit ($links | default slice) ", " }}
+        {{ $brut = delimit .autors "|" }}
       {{ else }}
-        {{ $autors = .autors | default "" }}
-        {{ $autorsHTML = $autors }}
-        {{ range $.Params.arquitectes }}
-          {{ $link := printf "<a href=\"%s\">%s</a>" (printf "arquitectes/%s/" (. | urlize) | relURL) . }}
-          {{ $autorsHTML = replace $autorsHTML . $link }}
+        {{ $brut = printf "%v" (.autors | default "") }}
+      {{ end }}
+      {{/* Dins de la llista també hi ha noms compostos («A + B + C»). */}}
+      {{ $brut = replace $brut " + " "|" }}
+      {{ $brut = replace $brut " – " "|" }}
+      {{ $brut = replace $brut ", " "|" }}
+      {{ $brut = replace $brut " / " "|" }}
+      {{ $noms := slice }}
+      {{ range split $brut "|" }}
+        {{ with trim . " " }}{{ $noms = $noms | append . }}{{ end }}
+      {{ end }}
+      {{ $noms = uniq ($noms | default slice) }}
+      {{ $links := slice }}
+      {{ $arqs := partialCached "arquitectes-permalinks.html" . "arquitectes-permalinks" }}
+      {{ range $noms }}
+        {{ $nom := . }}
+        {{ with index $arqs $nom }}
+          {{ $links = $links | append (printf "<a href=\"%s\">%s</a>" . $nom) }}
+        {{ else }}
+          {{ $links = $links | append $nom }}
         {{ end }}
       {{ end }}
+      {{ $autors := delimit $noms ", " }}
+      {{ $autorsHTML := delimit $links ", " }}
       <div class="fitxa-dada">
         <dt>{{ .tipus | title }}</dt>
         <dd>{{ with $autorsHTML }}{{ . | safeHTML }}{{ end }}{{ with .any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}{{ with .descripcio }}<br>{{ . }}{{ end }}</dd>
