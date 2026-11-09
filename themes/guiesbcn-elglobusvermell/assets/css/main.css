@@ -2428,8 +2428,24 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   border-top: 1px solid var(--color-border);
 }
 
+/* Carrusel de fotos del plànol en paper (6/11). Desplaçament natiu amb imant. */
+.publicacio-fotos-paper { margin-top: var(--space-lg); }
+.fotos-paper-track {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 0 0.5rem;
+  scrollbar-width: thin;
+}
+.fotos-paper-track:focus-visible { outline: 3px solid #1a5fb4; outline-offset: 3px; }
+.fotos-paper-item { flex: 0 0 auto; margin: 0; scroll-snap-align: start; }
+.fotos-paper-item img { display: block; height: clamp(180px, 32vw, 260px); width: auto; border-radius: 0.4rem; }
+.fotos-paper-item figcaption { font-size: 0.78rem; color: #555; margin-top: 0.3rem; max-width: 16rem; }
+
 .publicacio-descripcio h2,
-.publicacio-descarregues h2 {
+.publicacio-descarregues h2,
+.publicacio-fotos-paper h2 {
   font-size: 1.25rem;
   margin-top: var(--space-lg);
   margin-bottom: 0.5rem;

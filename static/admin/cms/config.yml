@@ -414,6 +414,9 @@ collections:
     extension: md
     format: yaml-frontmatter
     summary: "{{title}}"
+    # Les fotos del plànol en paper viuen amb la resta d'imatges de publicacions.
+    media_folder: /static/img/publicacions/paper
+    public_folder: /img/publicacions/paper
     fields:
       - label: Títol
         name: title
@@ -424,6 +427,21 @@ collections:
         widget: string
         required: false
         hint: "Any d'edició. Pot ser un número (2019) o text (\"2026 (pendent)\")."
+
+      - label: Fotos del plànol en paper
+        name: fotos_paper
+        widget: list
+        required: false
+        hint: "Opcional. Fotos del plànol imprès (la portada, el desplegat, detalls...). Surten en un carrusel a la pàgina del plànol, a l'apartat «En paper»."
+        fields:
+          - label: Fotografia
+            name: url
+            widget: image
+          - label: Peu (descripció)
+            name: peu
+            widget: string
+            required: false
+            hint: "Descripció breu (text alternatiu i peu de foto)."
 
       - label: Contingut (markdown)
         name: body

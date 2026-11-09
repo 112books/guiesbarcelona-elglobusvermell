@@ -81,6 +81,30 @@
   {{ end }}
 
 
+  {{/* Fotos del plànol en paper (Xavi, 6/11): carrusel horitzontal.
+       Només surt si el plànol en té; les imatges les puja l'editor al CMS. */}}
+  {{ with .Params.fotos_paper }}
+  <section class="publicacio-fotos-paper" aria-labelledby="fotos-paper-titol">
+    <h2 id="fotos-paper-titol">El plànol en paper</h2>
+    <div class="fotos-paper-track" tabindex="0" role="region" aria-label="Fotos del plànol en paper">
+      {{ range . }}
+        {{ $url := . }}
+        {{ $peu := "" }}
+        {{ if reflect.IsMap . }}
+          {{ $url = .url }}
+          {{ $peu = .peu }}
+        {{ end }}
+        {{ with $url }}
+        <figure class="fotos-paper-item">
+          <img src="{{ . | relURL }}" alt="{{ if $peu }}{{ $peu }}{{ else }}Plànol en paper: {{ $.Title }}{{ end }}" loading="lazy">
+          {{ with $peu }}<figcaption>{{ . }}</figcaption>{{ end }}
+        </figure>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
   <nav class="publicacio-nav" aria-label="Navegació">
     <a href="{{ "en-paper/" | relURL }}">← Totes les publicacions</a>
   </nav>
