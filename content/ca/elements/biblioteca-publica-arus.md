@@ -14,7 +14,6 @@ adreca: Pg. de Sant Joan, 26
 any: ''
 arquitectes:
   - Bonaventura Bassegoda i Amigó
-  - Joan Amigó i Barriga
 tipologia: ''
 proteccio: ''
 superficie: null
