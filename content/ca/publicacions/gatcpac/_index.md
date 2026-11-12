@@ -3,6 +3,7 @@ aliases:
   - /text/gatcpac/
 title: Arquitectura d'avantguarda. 1928-1939
 edicio: '2026'
+fotos_paper: []
 description: "Plànol-guia de l'arquitectura d'avantguarda a Barcelona (1928-1939): el GATCPAC i el racionalisme, amb els edificis més representatius del període."
 foto: /img/publicacions/gatcpac.jpg
 ---
@@ -29,7 +30,7 @@ A escala urbana proposen el Pla Macià (1932-1934), un nou pla urbanístic per a
 
 D'altra banda, aprofundeixen en qüestions d'habitatge i d'edificis sanitaris en relació a la salubritat i la higiene i redefineixen els mínims acceptables per la societat del segle XX.
 
-La seva determinació en difondre aquestes noves idees els porta a editar la revista *AC. Documentos de Actividad Contemporánea*, nexe d'unió de tots els grups del GATEPAC. A més a més, obren el local expositiu i de venda MIDVA (Mobles i Decoració per a la Vivenda Actual) al passeig de Gràcia.
+La seva determinació en difondre aquestes noves idees els porta a editar la revista _AC. Documentos de Actividad Contemporánea_, nexe d'unió de tots els grups del GATEPAC. A més a més, obren el local expositiu i de venda MIDVA (Mobles i Decoració per a la Vivenda Actual) al passeig de Gràcia.
 
 Un cop esclata la Guerra Civil, l'activitat del GATCPAC minva considerablement. El 1937 es publica l'últim número de la revista AC i el 1939 es tanca el local MIDVA. Amb el canvi polític, a molts integrants del GATCPAC els és prohibida l'activitat professional a Espanya i opten per l'exili.
 
@@ -41,37 +42,155 @@ Després de la Guerra Civil, el debat i la investigació sobre l'arquitectura va
 
 Fill d'una família de l'alta burgesia catalana relacionada amb el món de l'art (el pintor Josep Maria Sert és oncle seu) i els ambients intel·lectuals, al llarg de la seva vida seguirà cultivant aquestes relacions i, entre molts d'altres, Joan Miró, Alexander Calder i Pablo Picasso seran grans amics seus.
 
-Algunes de les obres més representatives a Barcelona recollides en aquesta guia.
+1923-1929 Estudia a l'Escola Tècnica Superior d'Arquitectura de Barcelona
 
-## Arquitectes coautors
+1927 Viatja a París on coneix l'obra de Le Corbusier
+
+1929 Acaba la carrera i s'incorpora a l’estudi de Le Corbusier
+
+1930 Torna a Barcelona i rep els primers encàrrecs. Es constitueix el GATCPAC i Sert n’és l’artífex principal
+
+1932 Cofundador d’ADLAN (Amics De L’Art Nou), iniciativa que reforça els seus vincles amb la comunitat artística del país
+
+1936-1939 En plena Guerra Civil, dissenya amb Luis Lacasa el Pavelló de la República per a l’Exposició Internacional de París del 1937. Mentre dura la guerra s’hi queda exiliat
+
+1939 Després de la victòria feixista, se li prohibeix exercir d’arquitecte a Espanya i marxa als Estats Units
+
+1942 La publicació del llibre Can our cities survive? li obre les portes del món acadèmic. Comença a impartir classes a la Universitat de Yale i crea, juntament amb arquitectes, urbanistes i enginyers, la Town Planning Associates, que projecta plans urbanístics, molts d’aquests per a ciutats sud-americanes
+
+1947-1956 És nomenat president dels CIAM
+
+1953-1969 És nomenat degà de l’Escola d’Arquitectura de la Universitat de Harvard i es trasllada a Cambridge, Massachussets
+
+1958 Funda un nou despatx d'arquitectura amb Huson Jackson i Ronald Gourley. A l'entorn de la Universitat de Harvard dissenya diversos edificis en els que reflecteix l'atmosfera mediterrània
+
+1976 És distingit amb la Medalla d'Or de l'Acadèmia d'Arquitectura de França
+
+1981 Obté la Medalla d'Or de l’American Institute of Architects, la Medalla de Oro concedida pel Consejo Nacional de Arquitectos de España i la Medalla d'Or de la Generalitat de Catalunya.Arquitectes destacats del GATCPAC
+
+Algunes de les seves obres més representatives:
+
+1930-1931 Edifici d'habitatges al carrer Muntaner (Barcelona)
+
+1932-1936 Casa Bloc (Barcelona), en col·laboració amb Josep Torres Clavé i Joan Baptista Subirana
+
+1933-1934 Joieria J. Roca (actualment Swatch) al Pg. de Gràcia, 18 (Barcelona)
+
+1933-1935 Dispensari Antituberculós, actualment CAP Lluís Sayé (Barcelona)
+
+1936-1937 Pavelló de la República, Exposició Internacional de 1937 (París, França, reconstruït el 1992 a Barcelona)
+
+1955 Estudi de Joan Miró, actualment part de la Fundació Pilar i Joan Miró (Palma de Mallorca)
+
+1958-1965 Centre Holyoke, Universitat de Harvard (Boston, EUA)
+
+1960 Ambaixada dels Estats Units (Bagdad, Iraq)
+
+1961-1963 Apartaments de la Universitat de Harvard (Boston, EUA)
+
+1964 Fundació Maeght (Saint-Paul-de-Vence, França)
+
+1966-1971 Cases a Punta Martinet, Eivissa
+
+1970-1975 Habitatges a Roosevelt Island i Yonkers, (Nova York, EUA)
+
+1972-1975 Fundació Joan Miró (Barcelona)
+
+## Arquitectes destacats del GATCPAC
+
+### [](/arquitectes/sixte-illescas/)
 
 ### [Josep Torres i Clavé](/arquitectes/josep-torres-clavé/)
 
 (Barcelona, 1906 – Els Omellons, Lleida, 1939)
 
-Neix en el si d'una família benestant, fundadora del Foment d'Obres i Construccions. Des de jove mostra un gran domini del dibuix i la pintura.
+Neix en el sí d’una família benestant, fundadora del Foment d’Obres i Construccions. Des de jove mostra un gran domini del dibuix i la pintura
+
+1914 El seu pare, Raimon Torres Grau, mor prematurament. Jaume Torres Grau, oncle seu i arquitecte noucentista, tutela la seva formació i més endavant l’incorpora al seu estudi
+
+1926-1927 Estudia Arquitectura i coneix Josep Lluís Sert i Sixte Illescas. Amb ells, viatja a Itàlia per estudiar els mestres de la pintura
+
+1929 Acaba els estudis d’Arquitectura. Participa amb Josep Lluís Sert en l’exposició de les Galeries Dalmau Arquitectura Nova amb el projecte “Ordenació d’un poble de la costa”, un conjunt d’habitatges basat en conceptes renovats
+
+1930 Participa en la fundació del GATEPAC i de la revista AC, de la qual serà director. S’associa amb J.L. Sert i J.B. Subirana
+
+1931 Comença la seva participació en projectes que esdevindran obres mestres del racionalisme arquitectònic català: el Pla Macià de Barcelona, la Casa Bloc, el Dispensari Antituberculós i la Ciutat de Repòs i de Vacances
+
+1936-1937 S’intensifica la seva tasca per aplicar les idees progressistes a l’urbanisme i l’arquitectura. Com a fundador del Sindicat d’Arquitectes de Catalunya, reorganitza els serveis tècnics de l’Ajuntament de Barcelona i, com a director de l’Escola d’Arquitectura, renova la vella estructura acadèmica
+
+1938-1939 S’incorpora al front on mor en plena retirada de l’exèrcit republicà.
 
 ### [Joan Baptista Subirana Subirana](/arquitectes/joan-baptista-subirana/)
 
 (Rosario de Santa Fe, Argentina, 1904 – Barcelona, 1978)
 
-És un dels pocs membres del GATCPAC d'origen humil.
+És un dels pocs membres del GATCPAC d’origen humil
+
+1926 Es llicencia en Matemàtiques
+
+1930 Es titula en Arquitectura després d’haver cursat estudis a Barcelona, Madrid i Berlín. També esdevé doctor en Ciències Exactes. Enceta la carrera professional guanyant un concurs per la construcció d’un grup de cases barates a València, així com grups escolars a Madrid i Valladolid
+
+1931 Durant la seva estada a Berlin, treballa amb Walter Gropius
+
+1932-1938 És membre actiu i soci director del GATCPAC. Col·labora amb Josep Lluís Sert i Josep Torres Clavé fins a l’esclat de la Guerra Civil
+
+1931-1932 Amb Fernando García Mercadal organitza l’Exposició Internacional d’Escoles Modernes
+
+1933 També amb Garcia Mercadal realitza el projecte de platges populars de Jarama, a Madrid, inspirat en el de la Ciutat de Repòs i de Vacances
+
+1934 Participa en la política d’organització hospitalària comarcal de Catalunya i fa projectes de reforma i ampliació de diversos hospitals, alguns en col·laboració amb Josep Torres Clavé
+
+1939 Després de la Guerra Civil es queda a Barcelona, acaba els projectes interromputs del GATCPAC i reprèn la seva carrera professional malgrat les dues ordres d’expulsió que pesen sobre ell per col·laboració amb el Govern de la República.
 
 ### [Luis Lacasa Navarro](/arquitectes/luis-lacasa/)
 
 (Ribadesella, Astúries, 1899 – Moscou, Rússia, 1966)
 
-Tot i no ser membre del GATCPAC, contribueix en la introducció del moviment racionalista a Espanya i se'l considera membre de l'anomenada Generació del 25.
+Tot i no ser membre del GATCPAC, contribueix en la introducció del moviment racionalista a Espanya i se’l considera membre de l'anomenada Generació del 25
 
-## Altres arquitectes significatius del GATCPAC
+1921 Obté el títol d’arquitecte a l'Escola de Madrid i amplia estudis d'urbanisme a la Bauhaus de Weimar (Alemanya)
 
-### [Sixte Illescas i Mirosa](/arquitectes/sixte-illescas/)
+1926-1932 Amb Manuel Sánchez Arcas guanya concursos per la construcció d’hospitals i de l’Institut Rockefeller, mostra de la combinació de principis racionalistes i pràctiques constructives tradicionals
+
+1925-1930 Membre de l’organització de l’11è Congrés Nacional d’Arquitectura i el 1r Congrés Nacional d’Urbanisme. Participa en la creació del Colegio de Arquitectos de Madrid. Fa amistat amb Alberto Sánchez, Federico García Lorca i Luis Buñuel. Membre fundador de l’Alianza de Intelectuales Antifascistas para la defensa de la Cultura
+
+1928-1932 Construeix el nou edifici per a la residència d'estudiants a la Ciutat Universitària de Madrid
+
+1937 Realitza, juntament amb Josep Lluís Sert, el Pavelló d'Espanya a l'Exposició de París
+
+1939 Amb la instauració del règim franquista, Lacasa és sancionat amb la suspensió total de l’exercici de la professió en tot el territori nacional i s’exilia a Moscou, on viu fins a la seva mort.
+
+## [Sixte Illescas i Mirosa](/arquitectes/sixte-illescas/)
 
 (Barcelona, 1903 – 1986)
+
+1922-1928 A la universitat coneix Josep Lluís Sert, Josep Torres Clavé i altres futurs membres del GATCPAC. Treballa amb Josep Goday i Jaume Torres Grau, arquitectes noucentistes. En acabar la universitat crea despatx amb Josep Lluís Sert
+
+1929 Participa en l’exposició Arquitectura Nova a les Galeries Dalmau amb un projecte d’estació per a un aeroport. Participa en la fundació del GATCPAC. Rep l’encàrrec de la Casa Vilaró, un dels primers exemples d’arquitectura moderna
+
+1930 Assisteix a les reunions constituents del GATEPAC i entra en la junta directiva
+
+1935 Dimiteix com a soci directiu del GATCPAC
+
+1934-1935 Projecta l’edifici d’habitatges del carrer de Pàdua, un exponent de la modernitat
+
+Després de la Guerra Civil, la seva activitat professional minva dràsticament.
 
 ### [Germà Rodríguez Arias](/arquitectes/germà-rodríguez-arias/)
 
 (Barcelona, 1902 – 1987)
+
+1929 Intervé en la fundació del GATCPAC. Viatja a Eivissa, es fixa en l’arquitectura rural i introdueix l’interès per l’arquitectura tradicional en els criteris del GATCPAC
+
+19301931 Construeix l’edifici Rodríguez Arias, dissenyat per a la seva família
+
+1933-1934 Projecta l'edifici Astòria, la façana del qual recorda l’estil de la Bauhaus
+
+1935-1940 Amb Ricard de Churruca dissenya el conjunt d’habitatges situat entre la Diagonal i els carrers d’Enric Granados i París
+
+1939 Després de la Guerra Civil s’exilia i acaba a Xile. Allà segueix desenvolupant la seva carrera professional i arriba a treballar per Pablo Neruda, que li encarrega diversos projectes
+
+1956 Torna a Eivissa on s’instal·la i treballa
 
 Passa els últims anys a Barcelona.
 
@@ -79,25 +198,77 @@ Passa els últims anys a Barcelona.
 
 (Manila, Filipines, 1900 – Barcelona, 1963)
 
+Projecta el Gran Hotel Atlántico de Cadis
+
+1929 Intervé en la fundació del GATCPAC
+
+1930 Construeix la Delegació del Patronat Nacional de Turisme, a la Gran Via
+
+1931 Amb Germà Rodríguez Arias Arias, dissenya la casa unifamiliar de la plaça de Mons
+
+1935 Dissenya l’edifici d’habitatges del carrer Iradier
+
+1935-1940 Amb Germà Rodríguez Arias Arias construeix l’edifici situat entre la Diagonal i els carrers d’Enric Granados i París
+
 Després de la Guerra Civil es dedica a activitats empresarials.
 
 ### [Raimon Duran i Reynals](/arquitectes/raimon-duran-i-reynals/)
 
 (Barcelona, 1895 – 1966)
 
-Les seves primeres obres com arquitecte són d'estil noucentista. Seguint criteris racionalistes dissenya la Casa Espona (1934-35), la Casa Cardenal (1935-40) i la casa unifamiliar de Can Móra (1935). Després de la Guerra Civil torna a fer arquitectura d'influència renaixentista.
+Les seves primeres obres com arquitecte són d’estil noucentista
+
+1926-1929 Realitza el vestíbul de l’Estació de França de Barcelona i el Palau de les Arts Gràfiques de l’Exposició Internacional
+
+1931-1935 Influït pel Racionalisme, esdevé membre directiu del GATCPAC
+
+Seguint criteris racionalistes dissenya la Casa Espona (1934-1935), la Casa Cardenal (1935-1940) i la casa unifamiliar de Can Móra (1935)
+
+Després de la Guerra Civil torna a fer arquitectura d’influència renaixentista.
 
 ### [Ricard Ribas i Seva](/arquitectes/ricard-ribas/)
 
 (Barcelona, 1907 – 2000)
 
-Quan s'apropa la Guerra Civil, les definicions polítiques s'accentuen i es desvincula del GATCPAC.
+1933 S’afilia al GATCPAC. Amb Francesc Perales, dissenya un prototip de parada de flors per a la Rambla
+
+1934 Treballa com a manobre en el prototip de “caseta i hortet” realitzat al passeig de Torras i Bages
+
+1935 Realitza l’edifici d’habitatges del carrer Balmes, 166-168, de clar estil racionalista
+
+Quan s’apropa la Guerra Civil, les definicions polítiques s’accentuen i es desvincula del GATCPAC. Es desmarca també de la relació d’alguns familiars amb la Falange
+
+1936 Opta per l’exili i viu i treballa a Milà, París, Bogotà i Buenos Aires
+
+1949 Es casa a l’Uruguai
+
+1952 Torna a Espanya.
 
 ### [Antoni Bonet Castellana](/arquitectes/antoni-bonet-castellana/)
 
 (Barcelona, 1913 – 1989)
 
-De molt jove ja col·labora en projectes com el Pla Macià i la Ciutat de Repòs i de Vacances de Castelldefels.
+De molt jove ja col·labora en projectes com el Pla Macià i la Ciutat de Repòs i de Vacances de Castelldefels
+
+1931 Forma part del grup fundador del MIDVA
+
+1932 Col·labora al despatx de Josep Lluís Sert
+
+1933 Encara estudiant, assisteix al congrés CIAM celebrat en un creuer de Marsella a Atenes
+
+1936 Treballa a l’estudi de Le Corbusier a París
+
+1937 Torna a treballar amb Josep Lluís Sert en el projecte del Pavelló de la República de París
+
+1938 S’exilia a l’Argentina i realitza projectes d’arquitectura i de disseny de mobiliari
+
+1953-1960 Des de l’Argentina projecta la casa La Ricarda, al Prat del Llobregat
+
+1962 Amb Josep Puig Torné realitza el Canòdrom Meridiana
+
+1963 També amb Puig Torné projecta l’edifici Mediterrani
+
+1975-1980 Dissenya el Tribunal Constitucional de Madrid.
 
 ## Llistat
 
