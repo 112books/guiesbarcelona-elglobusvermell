@@ -14,7 +14,7 @@ fotos_addicionals: []
 publicacions:
   - gatcpac
 temes_transversals: []
-adreca: Navas de Tolosa, 238-240
+adreca: Navas de Tolosa, 238 i 240
 any: '1931'
 arquitectes:
   - Joan Baca i Reixach
@@ -24,7 +24,6 @@ superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - Joan Baca
       - Joan Baca i Reixach
     any: '1931'
     descripcio: ''
