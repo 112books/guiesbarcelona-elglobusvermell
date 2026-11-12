@@ -1,8 +1,17 @@
 ---
-title: "La Barcelona de Tàpies / Tàpies a Barcelona"
+title: La Barcelona de Tàpies / Tàpies a Barcelona
+edicio: '2024'
+fotos_paper:
+  - url: /img/publicacions/paper/tapies-paper-3-portades-scaled.jpg
+    peu: ''
+  - url: /img/publicacions/paper/tapies-paper-doble-titol-scaled.jpg
+    peu: ''
+  - url: /img/publicacions/paper/tapies-paper-1front_2-scaled.jpg
+    peu: ''
+  - url: /img/publicacions/paper/tapies-paper-2back_1-scaled.jpg
+    peu: ''
 description: "La Barcelona de Tàpies: itinerari per l'obra de l'artista i la seva relació amb la ciutat."
-foto: "/img/publicacions/tapies.jpg"
-edicio: 2024
+foto: /img/publicacions/tapies.jpg
 ---
 
 ## Introducció
