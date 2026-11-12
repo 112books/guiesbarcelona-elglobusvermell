@@ -38,7 +38,7 @@ intervencions:
       - Antoni Ubach i Nuet
       - Juan Miguel Hernández León
     any: '1992'
-    descripcio: ''
+    descripcio: Rèplica construïda a la Vall d'Hebron; des del 1996 acull el CRAI Biblioteca del Pavelló de la República de la Universitat de Barcelona
 premis: []
 lat: 41.430694
 long: 2.151194
