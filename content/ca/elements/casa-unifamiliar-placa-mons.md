@@ -23,14 +23,14 @@ superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - 'Ricard de Churruca'
-      - 'Germà Rodríguez Arias'
+      - Germà Rodríguez Arias
+      - Ricard de Churruca Dotres
     any: '1931'
     descripcio: ''
-anys_reforma: []
 premis: []
 lat: 41.413542
 long: 2.144331
 descripcio: ''
 descripcio_nomenclator: ''
+anys_reforma: []
 ---
