@@ -8,8 +8,6 @@ description: "Plànol-guia de l'arquitectura d'avantguarda a Barcelona (1928-193
 foto: /img/publicacions/gatcpac.jpg
 ---
 
-Una immersió en l'arquitectura de Sert i els arquitectes del GATCPAC
-
 La Generalitat de Catalunya de la primera meitat dels anys trenta és un govern compromès amb les necessitats socials. En aquell moment, les ciutats com Barcelona presenten, en les zones més humils, greus problemes d'higiene i salubritat, i el Govern de la República creu necessari i urgent fer èmfasi en les polítiques socials i de millora urbana. Encarrega diversos projectes al GATCPAC, el grup d'arquitectes que introdueix els criteris de l'arquitectura moderna al país, i es mostra obert a propostes innovadores per fer de les ciutats i els habitatges llocs on viure amb dignitat, pensant sobretot en la classe treballadora.
 
 Amb els seus manifestos i reflexions, el GATCPAC replanteja d'arrel com ha de ser la professió de l'arquitecte. Es tracta d'un període en què l'arquitectura i l'urbanisme tenen un paper determinant en el desenvolupament del país.
