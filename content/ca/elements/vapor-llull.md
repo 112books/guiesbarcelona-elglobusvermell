@@ -1,23 +1,25 @@
 ---
-aliases: ["/poblenou-industrial/vapor-llull/"]
-adreca: Llull 127-135 + Ptge. Masoliver 19-25
+aliases:
+  - /poblenou-industrial/vapor-llull/
+title: Vapor Llull
 draft: false
 foto: /img/elements/vapor-llull.jpg
-intervencions:
-- any: '1942'
-  autors:
-    - 'Josep M. Ros i Vila'
-  tipus: Ampliació
-- any: '1996'
-  autors:
-    - 'Cristian Cirici i Carles Bassó'
-  descripcio: 'Projecte original: Inici s. xx (1902?) Premi Ciutat de Barcelona d’Arquitectura 1998 Fàbrica de productes químics Massó i Cia. Actualment, habitatges lofts .'
-  tipus: Remodelació
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - poblenou
+temes_transversals: []
+adreca: Llull 127-135 + Ptge. Masoliver 19-25
+any: ''
+arquitectes: []
+tipologia: Fàbrica amb xemeneia
+proteccio: C
+superficie: null
+intervencions: []
+premis: []
 lat: 41.3983847
 long: 2.1984873
-proteccio: C
-publicacions:
-- poblenou
-tipologia: Fàbrica amb xemeneia
-title: Vapor Llull
+descripcio: ''
+descripcio_nomenclator: ''
 ---
