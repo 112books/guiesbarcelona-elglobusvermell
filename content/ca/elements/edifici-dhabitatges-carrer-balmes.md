@@ -2,7 +2,7 @@
 aliases:
   - /avantguarda-1928-1938/edifici-dhabitatges-carrer-balmes/
   - /avantguarda-1928-1938/edifici-dhabitatges-carrer-balmes-2/
-title: Edifici d’habitatges, carrer Balmes
+title: Edifici d’habitatges
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
