@@ -3,6 +3,15 @@ aliases:
   - /text/biblioteques/
 title: Biblioteques de Barcelona
 edicio: '2025'
+fotos_paper:
+  - url: /img/publicacions/paper/PG-biblio-01-q.jpg
+    peu: ''
+  - url: /img/publicacions/paper/PG-biblio-02-q.jpg
+    peu: ''
+  - url: /img/publicacions/paper/PG-biblio-03-q.jpg
+    peu: ''
+  - url: /img/publicacions/paper/PG-biblio-04-q.jpg
+    peu: ''
 description: 'Biblioteques de Barcelona: de les biblioteques populars de la Mancomunitat als nous equipaments de lectura. Plànol-guia en preparació.'
 foto: /img/publicacions/biblioteques.jpg
 ---
