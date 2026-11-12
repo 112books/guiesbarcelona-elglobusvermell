@@ -1,14 +1,14 @@
 # Verificació diària dels números del web
 
-**Execució:** 11/11/2026 14:37 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 12/11/2026 15:29 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
 ## Resultat: ✅ tot coincideix
 
 | Xifra de portada | Publicat | Segons el repo | Estat |
 |---|---|---|---|
-| Edificis documentats | 656 | 656 | ✓ |
+| Edificis documentats | 655 | 655 | ✓ |
 | Guies de camp | 13 | 13 | ✓ |
-| Arquitectes i estudis | 281 | 281 | ✓ |
+| Arquitectes i estudis | 285 | 285 | ✓ |
 | Anys d'arquitectura | 1928–2026 | 1928–2026 | ✓ |
 
 ## Què vol dir cada xifra
@@ -20,15 +20,21 @@
 
 ## Referències del contingut
 
-- Fitxes d'element: **657** (amb publicacions: 657; esborranys: 0)
-- Amb coordenades: **656** — sense: 1 (flors-de-la-rambla.md)
-- Noms d'arquitecte a les fitxes: **281** · pàgines de publicació creades: 13
+- Fitxes d'element: **656** (amb publicacions: 656; esborranys: 1)
+- Amb coordenades: **655** — sense: 1 (flors-de-la-rambla.md)
+- Noms d'arquitecte a les fitxes: **285** · pàgines de publicació creades: 13
+
+## Canvis respecte l'última verificació
+
+- Edificis: la xifra publicada ha canviat (656 → 655) — confirmar que el canvi és intencionat.
+- Edificis: el contingut del repo ha canviat (656 → 655) des d'ahir.
+- Arquitectes: la xifra publicada ha canviat (281 → 285) — confirmar que el canvi és intencionat.
+- Arquitectes: el contingut del repo ha canviat (281 → 285) des d'ahir.
 
 ## Històric (últims 14 dies)
 
 | Data | Edificis | Guies | Arquitectes | Anys |
 |---|---|---|---|---|
-| 2026-10-29 | 656 | 13 | 288 | 1928–2026 |
 | 2026-10-30 | 656 | 13 | 288 | 1928–2026 |
 | 2026-10-31 | 656 | 13 | 288 | 1928–2026 |
 | 2026-11-01 | 656 | 13 | 288 | 1928–2026 |
@@ -42,6 +48,7 @@
 | 2026-11-09 | 656 | 13 | 281 | 1928–2026 |
 | 2026-11-10 | 656 | 13 | 281 | 1928–2026 |
 | 2026-11-11 | 656 | 13 | 281 | 1928–2026 |
+| 2026-11-12 | 655 | 13 | 285 | 1928–2026 |
 
 ---
 
