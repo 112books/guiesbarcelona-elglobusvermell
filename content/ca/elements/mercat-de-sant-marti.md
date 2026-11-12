@@ -1,21 +1,39 @@
 ---
-aliases: ["/mercats/mercat-de-sant-marti/"]
-adreca: Puigcerdà, 206
-districte: "Sant Martí"
-zona: "Nous barris"
-ordre: 5
+aliases:
+  - /mercats/mercat-de-sant-marti/
+title: Mercat de Sant Martí
 draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - mercats
+temes_transversals:
+  - dones-arquitectes
+adreca: Puigcerdà, 206
+any: '2014'
+arquitectes:
+  - Comas-Pont Arquitectes
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '2014'
-  autors:
-    - 'Comas-Pont Arquitectes'
-  descripcio: 'Projecte original: 1966'
-  tipus: Remodelació
+  - tipus: Projecte original
+    autors: []
+    any: '1966'
+    descripcio: ''
+  - tipus: Remodelació
+    autors:
+      - Comas-Pont Arquitectes
+    any: '2014'
+    descripcio: ''
+premis: []
 lat: 41.418723
 long: 2.2054461
-publicacions:
-- mercats
-temes_transversals:
-- dones-arquitectes
-title: Mercat de Sant Martí
+descripcio: ''
+descripcio_nomenclator: ''
+districte: Sant Martí
+ordre: 5
+zona: Nous barris
 ---
