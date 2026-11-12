@@ -31,7 +31,7 @@ intervencions:
       - Josep Lluís Sert i López
       - Luis Lacasa Navarro
     any: '1937'
-    descripcio: 'Ubicació original: París. Exposició Universal'
+    descripcio: 'Ubicació original: París, Exposició Universal'
   - tipus: Reconstrucció
     autors:
       - Miquel Espinet i Mestre
