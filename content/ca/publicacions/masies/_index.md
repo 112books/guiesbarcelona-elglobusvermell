@@ -3,6 +3,15 @@ aliases:
   - /text/masies/
 title: Masies de Barcelona
 edicio: '2025'
+fotos_paper:
+  - url: /img/publicacions/paper/PG-masies-01-q.jpg
+    peu: ''
+  - url: /img/publicacions/paper/PG-masies-02-q.jpg
+    peu: ''
+  - url: /img/publicacions/paper/PG-masies-03-q.jpg
+    peu: ''
+  - url: /img/publicacions/paper/PG-masies-04-q.jpg
+    peu: ''
 description: 'Masies de Barcelona: el patrimoni rural i agrícola que ha sobreviscut dins la ciutat. Plànol-guia en preparació.'
 foto: /img/publicacions/masies.jpg
 ---
