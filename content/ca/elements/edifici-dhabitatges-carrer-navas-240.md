@@ -24,13 +24,14 @@ superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - 'Joan Baca'
+      - Joan Baca
+      - Joan Baca i Reixach
     any: '1931'
     descripcio: ''
-anys_reforma: []
 premis: []
 lat: 41.4135148
 long: 2.1895829
 descripcio: ''
 descripcio_nomenclator: ''
+anys_reforma: []
 ---
