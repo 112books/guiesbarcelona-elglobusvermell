@@ -96,7 +96,7 @@ Algunes de les seves obres més representatives:
 
 ## Arquitectes destacats del GATCPAC
 
-### [](/arquitectes/sixte-illescas/)
+### 
 
 ### [Josep Torres i Clavé](/arquitectes/josep-torres-clavé/)
 
@@ -206,7 +206,7 @@ Projecta el Gran Hotel Atlántico de Cadis
 
 1935 Dissenya l’edifici d’habitatges del carrer Iradier
 
-1935-1940 Amb Germà Rodríguez Arias Arias construeix l’edifici situat entre la Diagonal i els carrers d’Enric Granados i París
+1935-1940 Amb Germà Rodríguez Arias construeix l’edifici situat entre la Diagonal i els carrers d’Enric Granados i París
 
 Després de la Guerra Civil es dedica a activitats empresarials.
 
