@@ -1,6 +1,6 @@
 # Verificació diària dels números del web
 
-**Execució:** 14/11/2026 13:42 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
+**Execució:** 15/11/2026 14:10 UTC · **Font pública:** https://112books.github.io/guiesbarcelona-elglobusvermell/
 
 ## Resultat: ✅ tot coincideix
 
@@ -28,7 +28,6 @@
 
 | Data | Edificis | Guies | Arquitectes | Anys |
 |---|---|---|---|---|
-| 2026-11-01 | 656 | 13 | 288 | 1928–2026 |
 | 2026-11-02 | 656 | 13 | 288 | 1928–2026 |
 | 2026-11-03 | 656 | 13 | 288 | 1928–2026 |
 | 2026-11-04 | 656 | 13 | 288 | 1928–2026 |
@@ -42,6 +41,7 @@
 | 2026-11-12 | 655 | 13 | 285 | 1928–2026 |
 | 2026-11-13 | 652 | 13 | 283 | 1928–2026 |
 | 2026-11-14 | 652 | 13 | 283 | 1928–2026 |
+| 2026-11-15 | 652 | 13 | 283 | 1928–2026 |
 
 ---
 
