@@ -1078,12 +1078,22 @@
           var arqUrls = p.arquitectes_urls || [];
           p.arquitectes.forEach(function (aName, idx) {
             if (idx > 0) arqsEl.appendChild(document.createTextNode(', '));
-            var arqLink = document.createElement('a');
             /* URL calculada per Hugo (urlize), no reproduïda en JS: evita
-               desajustos amb noms accentuats o amb puntuació poc habitual. */
-            arqLink.href = arqUrls[idx] || ((window.SITE_BASE || '/') + 'arquitectes/');
+               desajustos amb noms accentuats o amb puntuació poc habitual.
+               Si no arriba cap URL (p. ex. un nom sense fitxa), el nom es
+               mostra com a text: abans enllaçava a /arquitectes/ i confonia
+               (Xavi, 16/11 — pàgina de Joan Amigó i Barriga). */
+            var urlArq = arqUrls[idx];
+            var arqLink;
+            if (urlArq) {
+              arqLink = document.createElement('a');
+              arqLink.href = urlArq;
+            } else {
+              arqLink = document.createElement('span');
+              arqLink.className = 'llistat-element-arquitecte llistat-element-arquitecte--sense-enllac';
+            }
             arqLink.textContent = aName;
-            arqLink.className = 'llistat-element-arquitecte';
+            if (!arqLink.className) arqLink.className = 'llistat-element-arquitecte';
             arqsEl.appendChild(arqLink);
           });
           li.appendChild(arqsEl);

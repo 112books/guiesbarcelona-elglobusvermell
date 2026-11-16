@@ -1296,6 +1296,12 @@ main {
   text-decoration: underline;
 }
 
+/* Nom d'arquitecte sense fitxa: text, no enllaç (Xavi, 16/11) */
+.llistat-element-arquitecte--sense-enllac {
+  color: #767676;
+  cursor: default;
+}
+
 /* Secció de descàrregues del plànol-guia */
 .publicacio-descarregues {
   margin-top: var(--space-lg);
