@@ -1,9 +1,14 @@
 ---
 aliases: ["/masies/masia-mas-enric/"]
 adreca: Pl. Ciutadella
-descripcio: Pl. Ciutadella També anomenat Torre dels Moros. Torre de defensa que ha
-  format part de diferents masies. Les primeres referències són del segle XV i actualment
-  està totalment abandonada. Tipologia original irreconeixible.
+descripcio: |-
+  Pl. Ciutadella
+
+  També anomenat Torre dels Moros.
+
+  Torre de defensa que ha format part de diferents masies. Les primeres referències són del segle XV i actualment està totalment abandonada.
+
+  Tipologia original irreconeixible.
 any: 's. XV'
 districte: "Horta-Guinardó"
 draft: false

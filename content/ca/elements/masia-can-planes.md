@@ -1,9 +1,10 @@
 ---
 aliases: ["/masies/masia-can-planes/"]
 adreca: Selva del Camp, 1-19
-descripcio: Selva del Camp, 1-19. Parc de Sant Martí Construïda entre els segles XVI
-  i XVII i reformada el 1748. Actualment acull un centre residencial per a persones
-  sense llar.
+descripcio: |-
+  Selva del Camp, 1-19. Parc de Sant Martí
+
+  Construïda entre els segles XVI i XVII i reformada el 1748. Actualment acull un centre residencial per a persones sense llar.
 any: 's. XVI'
 districte: "Sant Martí"
 draft: false

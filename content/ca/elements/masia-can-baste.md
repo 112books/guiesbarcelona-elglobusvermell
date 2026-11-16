@@ -1,10 +1,12 @@
 ---
 aliases: ["/masies/masia-can-baste/"]
 adreca: Pg. Fabra i Puig, 274-276
-descripcio: Pg. Fabra i Puig, 274-276 / Pere d’Artés, 5 També conegut com a Can Nadal
-  i Can Marés Edifici que data, possiblement, de l’edat mitjana. Pateix una gran transformació
-  en casa senyorial al segle XVIII i una nova reforma al segle XX . Actualment acull
-  el Centre Cívic Can Basté.
+descripcio: |-
+  Pg. Fabra i Puig, 274-276 / Pere d’Artés, 5
+
+  També conegut com a Can Nadal i Can Marés
+
+  Edifici que data, possiblement, de l’edat mitjana. Pateix una gran transformació en casa senyorial al segle XVIII i una nova reforma al segle XX . Actualment acull el Centre Cívic Can Basté.
 any: 's. XVIII'
 districte: "Nou Barris"
 draft: false

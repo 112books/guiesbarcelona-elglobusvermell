@@ -1,9 +1,12 @@
 ---
 aliases: ["/masies/masia-can-soler/"]
 adreca: Masia Can Soler
-descripcio: Ctra. de l’Arrabassada (o de Sant Cugat), 114-132 També coneguda com Cal
-  Boig i Can Gener. Masia de principis del segle XIX , manté l’ús agrícola fins a
-  principis del segle XXI . Actualment hi ha el Centre de Natura de Can Soler.
+descripcio: |-
+  Ctra. de l’Arrabassada (o de Sant Cugat), 114-132
+
+  També coneguda com Cal Boig i Can Gener.
+
+  Masia de principis del segle XIX , manté l’ús agrícola fins a principis del segle XXI . Actualment hi ha el Centre de Natura de Can Soler.
 any: 's. XIX'
 districte: "Horta-Guinardó"
 draft: false

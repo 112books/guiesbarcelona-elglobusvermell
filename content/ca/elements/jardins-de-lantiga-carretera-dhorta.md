@@ -1,10 +1,10 @@
 ---
 aliases: ["/eixample-jardins-interiors/jardins-de-lantiga-carretera-dhorta/"]
 adreca: Ausiàs Marc, 78 + C. Alí Bei, 55
-descripcio: 'Equipament: Centre de Serveis Socials Fort Pienc Carretera d’Horta.
-  El camí d’Horta unia Barcelona amb l’antic poble d’Horta, on des de l’edat mitjana
-  grans terratinents del pla de Barcelona havien situat les seves residències d’estiu
-  per fugir d’una ciutat massificada i insalubre.'
+descripcio: |-
+  Equipament: Centre de Serveis Socials Fort Pienc
+
+  Carretera d’Horta. El camí d’Horta unia Barcelona amb l’antic poble d’Horta, on des de l’edat mitjana grans terratinents del pla de Barcelona havien situat les seves residències d’estiu per fugir d’una ciutat massificada i insalubre.
 draft: false
 foto: /img/elements/jardins-de-lantiga-carretera-dhorta.jpg
 lat: 41.3939931

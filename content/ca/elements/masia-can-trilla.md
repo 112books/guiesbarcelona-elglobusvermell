@@ -1,8 +1,10 @@
 ---
 aliases: ["/masies/masia-can-trilla/"]
 adreca: Gran de Gràcia, 177 / Pl
-descripcio: Gran de Gràcia, 177 / Pl. Trilla Mas del segle XVII on es premsava raïm
-  i es feia oli. Actualment està en desús.
+descripcio: |-
+  Gran de Gràcia, 177 / Pl. Trilla
+
+  Mas del segle XVII on es premsava raïm i es feia oli. Actualment està en desús.
 any: 's. XVII'
 districte: "Gràcia"
 draft: false

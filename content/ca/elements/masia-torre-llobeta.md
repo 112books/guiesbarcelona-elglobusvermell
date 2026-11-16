@@ -1,10 +1,12 @@
 ---
 aliases: ["/masies/masia-torre-llobeta/"]
 adreca: Santa Fe, 2
-descripcio: Santa Fe, 2 / Pl. Torre Llobeta / Pg. Maragall, 222 bis També coneguda
-  com a Can Basté de les Parets i Mas Montaner Mas de, possiblement, el segle XV .
-  S’hi fan reformes als segles XIX i XX . El 1983 s’hi obre el Centre Cívic Torre
-  Llobeta.
+descripcio: |-
+  Santa Fe, 2 / Pl. Torre Llobeta / Pg. Maragall, 222 bis
+
+  També coneguda com a Can Basté de les Parets i Mas Montaner
+
+  Mas de, possiblement, el segle XV . S’hi fan reformes als segles XIX i XX . El 1983 s’hi obre el Centre Cívic Torre Llobeta.
 any: 's. XV'
 districte: "Nou Barris"
 draft: false

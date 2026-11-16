@@ -1,12 +1,10 @@
 ---
 aliases: ["/barceloneta/ferroestructura-numero-5-o-sideroploide-als-homes-de-la-mar/"]
 adreca: Moll de Pescadors
-descripcio: 'Autoria: Salvador Aulèstia. 1963 Aquesta obra, feta amb 100 tones de
-  ferro colat reciclat de la ferralla dels vaixells, és una de les escultures de ferro
-  més grans del món (50 metres de llarg per 16 d’alçada). En la seva construcció hi
-  van participar una trentena de treballadors del port. Des de 2001 es troba al Moll
-  de Pescadors, però només és visible des del Moll de Barcelona (on hi ha el WTC)
-  o en vaixell.'
+descripcio: |-
+  Autoria: Salvador Aulèstia. 1963
+
+  Aquesta obra, feta amb 100 tones de ferro colat reciclat de la ferralla dels vaixells, és una de les escultures de ferro més grans del món (50 metres de llarg per 16 d’alçada). En la seva construcció hi van participar una trentena de treballadors del port. Des de 2001 es troba al Moll de Pescadors, però només és visible des del Moll de Barcelona (on hi ha el WTC) o en vaixell.
 arquitectes:
 - Salvador Aulèstia
 intervencions:

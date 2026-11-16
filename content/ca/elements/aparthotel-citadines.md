@@ -24,6 +24,9 @@ anys_reforma: []
 premis: []
 lat: 41.3838544
 long: 2.1714858
-descripcio: 'Projecte: Bonell i Gil. 1994 Premi Ciutat de Barcelona'
+descripcio: |-
+  Projecte: Bonell i Gil. 1994
+
+  Premi Ciutat de Barcelona
 descripcio_nomenclator: ''
 ---

@@ -1,7 +1,10 @@
 ---
 aliases: ["/1975-2008/ordenacio-de-la-ronda-del-mig-rambla-brasil/"]
 adreca: Rbla. Brasil
-descripcio: 'Projecte: Jordi Henrich i Olga Tarrasó. 2003 Premi Dècada'
+descripcio: |-
+  Projecte: Jordi Henrich i Olga Tarrasó. 2003
+
+  Premi Dècada
 draft: false
 lat: 41.3809383
 long: 2.1286274

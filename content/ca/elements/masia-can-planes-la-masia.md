@@ -1,8 +1,10 @@
 ---
 aliases: ["/masies/masia-can-planes-la-masia/"]
 adreca: Av. Joan XXIII / Maternitat, s/n
-descripcio: Av. Joan XXIII / Maternitat, s/n Mas original de 1650 i reconstruït el
-  1702. Propietat del Futbol Club Barcelona i símbol del planter barcelonista.
+descripcio: |-
+  Av. Joan XXIII / Maternitat, s/n
+
+  Mas original de 1650 i reconstruït el 1702. Propietat del Futbol Club Barcelona i símbol del planter barcelonista.
 districte: "Les Corts"
 draft: false
 lat: 41.3831596

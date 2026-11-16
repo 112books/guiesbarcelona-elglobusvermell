@@ -1,8 +1,10 @@
 ---
 aliases: ["/2010-2025/centre-de-primera-acollida-per-a-persones-sense-llar/"]
 adreca: Císter, 20
-descripcio: 'Projecte: Vivas Arquitectos. 2023 Premi Professió. Premis Arquitectura
-  (CSCAE)'
+descripcio: |-
+  Projecte: Vivas Arquitectos. 2023
+
+  Premi Professió. Premis Arquitectura (CSCAE)
 draft: false
 lat: 41.4114004
 long: 2.1339867

@@ -1,8 +1,10 @@
 ---
 aliases: ["/masies/masia-can-papanaps/"]
 adreca: Mura i Dosrius
-descripcio: Mura i Dosrius Construcció de, probablement, el segle XVIII . Ha patit
-  importants reformes i canvis estructurals. Actualment té un ús privat.
+descripcio: |-
+  Mura i Dosrius
+
+  Construcció de, probablement, el segle XVIII . Ha patit importants reformes i canvis estructurals. Actualment té un ús privat.
 any: 's. XVIII'
 districte: "Horta-Guinardó"
 draft: false

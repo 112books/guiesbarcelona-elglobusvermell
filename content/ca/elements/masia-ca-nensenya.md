@@ -1,10 +1,14 @@
 ---
 aliases: ["/masies/masia-ca-nensenya/"]
 adreca: Masia Ca n’Ensenya
-descripcio: 'Pl. de Ca n’Ensenya, 4 / Parc Central de Nou Barris També conegut com
-  a Ca n’Amell Gran Masia del segle XVII i reformada integralment el 1876. Actualment
-  acull el Casal de Joves de la Guineueta. Tipologia: crugia perpendicular a la façana
-  principal.'
+descripcio: |-
+  Pl. de Ca n’Ensenya, 4 / Parc Central de Nou Barris
+
+  També conegut com a Ca n’Amell Gran
+
+  Masia del segle XVII i reformada integralment el 1876. Actualment acull el Casal de Joves de la Guineueta.
+
+  Tipologia: crugia perpendicular a la façana principal.
 any: 's. XVII'
 districte: "Nou Barris"
 draft: false

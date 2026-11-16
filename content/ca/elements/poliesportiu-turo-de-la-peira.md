@@ -1,7 +1,10 @@
 ---
 aliases: ["/2010-2025/poliesportiu-turo-de-la-peira/"]
 adreca: Sant Iscle, 50
-descripcio: 'Projecte: Anna Noguera i Javier Fernández. 2019 Premi Ciutat de Barcelona'
+descripcio: |-
+  Projecte: Anna Noguera i Javier Fernández. 2019
+
+  Premi Ciutat de Barcelona
 draft: false
 lat: 41.4330315
 long: 2.1723255

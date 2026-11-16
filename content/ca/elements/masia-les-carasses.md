@@ -1,10 +1,12 @@
 ---
 aliases: ["/masies/masia-les-carasses/"]
 adreca: Torras i Bages, 108
-descripcio: Torras i Bages, 108 / Valentí Iglésias, 21-25 / Palomar, 52-56 També conegut
-  com a Can Carasses Masia de 1652 reformada al segle XVIII en casa pairal. Una nova
-  reforma de 1825 li dona l’aspecte actual. Des de 1931 acull l’escola pública Ignasi
-  Iglésias.
+descripcio: |-
+  Torras i Bages, 108 / Valentí Iglésias, 21-25 / Palomar, 52-56
+
+  També conegut com a Can Carasses
+
+  Masia de 1652 reformada al segle XVIII en casa pairal. Una nova reforma de 1825 li dona l’aspecte actual. Des de 1931 acull l’escola pública Ignasi Iglésias.
 any: 's. XVIII'
 districte: "Sant Andreu"
 draft: false

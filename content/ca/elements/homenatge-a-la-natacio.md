@@ -1,10 +1,10 @@
 ---
 aliases: ["/barceloneta/homenatge-a-la-natacio/"]
 adreca: Pl. del Mar
-descripcio: 'Autoria: Alfredo Lanz. 2004 Gran conjunt de formes abstractes i siluetes
-  d’acer Corten que representen les diferents modalitats de la natació: velocitat,
-  salts, sincronitzada i waterpolo. Destaca pel joc entre buits i plens i pels reflexos
-  sota la llum del sol i davant del mar.'
+descripcio: |-
+  Autoria: Alfredo Lanz. 2004
+
+  Gran conjunt de formes abstractes i siluetes d’acer Corten que representen les diferents modalitats de la natació: velocitat, salts, sincronitzada i waterpolo. Destaca pel joc entre buits i plens i pels reflexos sota la llum del sol i davant del mar.
 arquitectes:
 - Alfredo Lanz
 intervencions:

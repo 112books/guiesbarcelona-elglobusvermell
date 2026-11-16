@@ -4,7 +4,10 @@ adreca: Pg. Vall d’Hebron, 166-176
 arquitectes:
 - Enric Miralles i Moya
 - Carme Pinós i Desplat
-descripcio: 'Projecte: Enric Miralles i Carme Pinós. 1992 Premi Ciutat de Barcelona'
+descripcio: |-
+  Projecte: Enric Miralles i Carme Pinós. 1992
+
+  Premi Ciutat de Barcelona
 draft: false
 lat: 41.4273358
 long: 2.146461

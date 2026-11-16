@@ -1,11 +1,10 @@
 ---
 aliases: ["/barceloneta/lestel-ferit/"]
 adreca: Platja de la Barceloneta
-descripcio: 'Autoria: Rebecca Horn. 1992 Aquesta torre, d’uns 10 metres d’alçada,
-  formada per quatre cubs superposats i mig desencaixats, es pot entendre com un doble
-  homenatge al barri. D’una banda, als xiringuitos que hi havia a la platja abans
-  de la remodelació duta a terme pels Jocs Olímpics. De l’altra, als quarts de casa
-  i a les remuntes, tan característics de la Barceloneta.'
+descripcio: |-
+  Autoria: Rebecca Horn. 1992
+
+  Aquesta torre, d’uns 10 metres d’alçada, formada per quatre cubs superposats i mig desencaixats, es pot entendre com un doble homenatge al barri. D’una banda, als xiringuitos que hi havia a la platja abans de la remodelació duta a terme pels Jocs Olímpics. De l’altra, als quarts de casa i a les remuntes, tan característics de la Barceloneta.
 arquitectes:
 - Rebecca Horn
 intervencions:

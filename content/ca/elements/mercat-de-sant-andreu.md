@@ -1,7 +1,10 @@
 ---
 aliases: ["/mercats/mercat-de-sant-andreu/"]
 adreca: Pl. Mercadal, 41
-descripcio: 'Projecte original: Jacint Boada i Batllori. 1914 Pendent de nou edifici'
+descripcio: |-
+  Projecte original: Jacint Boada i Batllori. 1914
+
+  Pendent de nou edifici
 districte: "Sant Andreu"
 zona: "Sant Andreu"
 ordre: 1

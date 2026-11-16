@@ -21,7 +21,12 @@ intervencions: []
 premis: []
 lat: 41.392963
 long: 2.1785947
-descripcio: 'Fort Pienc | Eixample Arquitecte: Bonaventura Bassegoda i Amigó. 1895 Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.'
+descripcio: |-
+  Fort Pienc | Eixample
+
+  Arquitecte: Bonaventura Bassegoda i Amigó. 1895
+
+  Aquesta biblioteca no pertany a la Xarxa de Biblioteques Municipals.
 descripcio_nomenclator: ''
 anys_reforma: []
 districte: Eixample

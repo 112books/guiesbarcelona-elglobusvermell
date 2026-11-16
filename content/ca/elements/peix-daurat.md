@@ -1,10 +1,10 @@
 ---
 aliases: ["/barceloneta/peix-daurat/"]
 adreca: Pg. Marítim
-descripcio: 'Autoria: Frank Gehry. 1992 Escultura gegant (56 metres de llarg per 35
-  d’alçada) –i també umbracle– que mostra un peix configurat per una superfície de
-  fines franges entrecreuades d’acer inoxidable daurat. Sota l’efecte dels raigs de
-  sol l’obra brilla tal com ho fan les escates dels peixos.'
+descripcio: |-
+  Autoria: Frank Gehry. 1992
+
+  Escultura gegant (56 metres de llarg per 35 d’alçada) –i també umbracle– que mostra un peix configurat per una superfície de fines franges entrecreuades d’acer inoxidable daurat. Sota l’efecte dels raigs de sol l’obra brilla tal com ho fan les escates dels peixos.
 arquitectes:
 - Frank Gehry
 intervencions:

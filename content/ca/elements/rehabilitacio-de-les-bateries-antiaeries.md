@@ -1,8 +1,10 @@
 ---
 aliases: ["/2010-2025/rehabilitacio-de-les-bateries-antiaeries/"]
 adreca: Turó de la Rovira
-descripcio: 'Projecte: Imma Jansana i Jordi Romero. 2014 Premi Europeu de l’Espai
-  Públic Urbà'
+descripcio: |-
+  Projecte: Imma Jansana i Jordi Romero. 2014
+
+  Premi Europeu de l’Espai Públic Urbà
 draft: false
 lat: 41.4192697
 long: 2.1616944

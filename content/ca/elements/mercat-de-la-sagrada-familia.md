@@ -1,7 +1,10 @@
 ---
 aliases: ["/mercats/mercat-de-la-sagrada-familia/"]
 adreca: Padilla, 255
-descripcio: 'Projecte original: 1944 Nou edifici: 1993'
+descripcio: |-
+  Projecte original: 1944
+
+  Nou edifici: 1993
 districte: "Eixample"
 zona: "Eixample"
 ordre: 4
