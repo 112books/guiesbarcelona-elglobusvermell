@@ -103,6 +103,14 @@
   </section>
   {{ end }}
 
+  {{/* Llistat de les fitxes d'aquest plànol: el JS l'injecta a l'acordió «## Llistat» del text.
+       Es va treure per error el 6/11 (M6 només demanava treure'l del mapa general). */}}
+  {{ if .Pages }}
+  <section class="llistat-cronologic" id="llistat">
+    <div id="llistat-grups"></div>
+  </section>
+  {{ end }}
+
   <nav class="publicacio-nav" aria-label="Navegació">
     <a href="{{ "en-paper/" | relURL }}">← Totes les publicacions</a>
   </nav>
