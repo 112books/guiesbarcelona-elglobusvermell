@@ -1206,6 +1206,30 @@
           "detall": "Deixa el comentari amb què canviaries."
         }
       ]
+    },
+    {
+      "id": "pere-lopez-dues-grafies",
+      "ref": "NOU · Arquitectes",
+      "titol": "«Pere López Íñigo»: dues grafies, dues fitxes d'arquitecte",
+      "context": "A les fitxes d'edifici el nom surt de dues maneres: «Pere López i Íñigo» (6 edificis) i «Pere López Íñigo» (1 edifici). Per això al llistat d'arquitectes surt dues vegades i els edificis queden repartits.",
+      "descripcio": "Quina és la bona?",
+      "opcions": [
+        {
+          "id": "amb-i",
+          "label": "«Pere López i Íñigo» (la dels 6 edificis)",
+          "detall": "Canviem el nom a l'edifici que en té un."
+        },
+        {
+          "id": "sense-i",
+          "label": "«Pere López Íñigo» (la dels 1 edifici)",
+          "detall": "Canviem els 6."
+        },
+        {
+          "id": "cap",
+          "label": "Són dues persones diferents",
+          "detall": "Doncs cal crear la fitxa que falta."
+        }
+      ]
     }
   ],
   "canvis": [

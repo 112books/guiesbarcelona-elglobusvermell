@@ -13,14 +13,29 @@
   {{ end }}
   {{/* Plegat d'accents perquè "Ítalo" agrupi amb "I", no en un grup propi després de la Z */}}
   {{ $plegaAccents := dict "À" "A" "Á" "A" "Â" "A" "Ã" "A" "Ä" "A" "Å" "A" "È" "E" "É" "E" "Ê" "E" "Ë" "E" "Ì" "I" "Í" "I" "Î" "I" "Ï" "I" "Ò" "O" "Ó" "O" "Ô" "O" "Õ" "O" "Ö" "O" "Ù" "U" "Ú" "U" "Û" "U" "Ü" "U" "Ç" "C" "Ñ" "N" "Ý" "Y" }}
+  {{/* Una sola entrada per adreça: quan la fitxa curada (tipus: estudi/artista)
+       conviu amb el terme de la taxonomia, Hugo en dona dues amb la mateixa URL
+       i el mateix nom (A&EB, Arriola & Fiol, OAB, Prince Smith & Son, SV60…).
+       Es queda la que té fitxes associades i el tipus es recupera a part. */}}
+  {{ $perUrl := dict }}
+  {{ $tipusPerUrl := dict }}
   {{ range .Pages }}
-    {{ $clau := .Params.cognom | default .Title }}
+    {{ $u := .RelPermalink }}
+    {{ with .Params.tipus }}{{ $tipusPerUrl = merge (dict $u .) $tipusPerUrl }}{{ end }}
+    {{ $prev := index $perUrl $u }}
+    {{ if or (not $prev) (gt (len .Pages) (len $prev.Pages)) }}
+      {{ $perUrl = merge (dict $u .) $perUrl }}
+    {{ end }}
+  {{ end }}
+
+  {{ range $u, $p := $perUrl }}
+    {{ $clau := $p.Params.cognom | default $p.Title }}
     {{ $lletra := upper (substr $clau 0 1) }}
     {{ with index $plegaAccents $lletra }}{{ $lletra = . }}{{ end }}
     {{ if not (isset $grups $lletra) }}
       {{ $grups = merge $grups (dict $lletra slice) }}
     {{ end }}
-    {{ $grups = merge $grups (dict $lletra (index $grups $lletra | append .)) }}
+    {{ $grups = merge $grups (dict $lletra (index $grups $lletra | append $p)) }}
   {{ end }}
 
   <nav class="arquitectes-abecedari" aria-label="Salta a la lletra">
@@ -48,7 +63,7 @@
           {{ $p := .page }}
           <li data-nom="{{ $p.Title | lower }}">
             <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-            {{ $tipusEntrada := $p.Params.tipus }}
+            {{ $tipusEntrada := index $tipusPerUrl $p.RelPermalink }}
             {{ if or (eq $tipusEntrada "estudi") (eq $tipusEntrada "artista") }}
             <span class="arquitecte-tipus arquitecte-tipus--{{ $tipusEntrada }}">{{ if eq $tipusEntrada "estudi" }}Estudi{{ else }}Artista{{ end }}</span>
             {{ end }}

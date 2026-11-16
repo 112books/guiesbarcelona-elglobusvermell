@@ -1,6 +1,6 @@
 ---
 aliases:
-  - /arquitectes/a&eb/
+  - /arquitectes/aeb/
 title: A&EB
 tipus: estudi
 link_web: "https://annaeugenibach.com/"
