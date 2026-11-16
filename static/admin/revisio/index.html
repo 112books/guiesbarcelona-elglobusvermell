@@ -213,10 +213,14 @@
         return art;
       }
       afegeixEnllacos(art, item);
+      /* Algunes fitxes són informatives (p. ex. el llistat de noms per validar):
+         no tenen opcions ni resposta. Abans això trencava el pintat de tot el tauler. */
+      var opcions = item.opcions || [];
+      if (!opcions.length) { art.appendChild(creaComentari(item.id)); return art; }
       var fs = document.createElement("fieldset");
       var lg = document.createElement("legend"); lg.textContent = "Tria una opció"; fs.appendChild(lg);
-      for (var i = 0; i < item.opcions.length; i++) {
-        var o = item.opcions[i];
+      for (var i = 0; i < opcions.length; i++) {
+        var o = opcions[i];
         var et = o.label + (item.recomanacio === o.id ? "  (recomanat)" : "");
         fs.appendChild(creaOpcio(item.id, o.id, et, o.detall, valor(item.id, "opcio")));
       }
@@ -226,6 +230,16 @@
     }
 
     function afegeixEnllacos(art, item) {
+      /* Si la fitxa apunta a un fitxer de dades (p. ex. la llista dels 92 noms
+         d'arquitecte per validar), l'enllacem a la seva pàgina llegible. */
+      if ((!item.enllacos || !item.enllacos.length) && typeof item.dades === "string" && /\.json$/.test(item.dades)) {
+        var pd = document.createElement("p"); pd.className = "r-enllacos";
+        var ad = document.createElement("a");
+        ad.href = item.dades.replace(/\.json$/, ".html"); ad.target = "_blank"; ad.rel = "noopener";
+        ad.textContent = "Veure la llista per validar ↗";
+        pd.appendChild(ad); art.appendChild(pd);
+        return;
+      }
       if (!item.enllacos || !item.enllacos.length) return;
       var enl = document.createElement("p"); enl.className = "r-enllacos";
       for (var ei = 0; ei < item.enllacos.length; ei++) {
@@ -330,15 +344,17 @@
     function actualitzaComptador() {
       var fets = 0, total = 0;
       var decPend = 0;
-      for (var d = 0; d < DADES.decisions.length; d++) if (!DADES.decisions[d].resposta) decPend++;
-      total = decPend + DADES.canvis.length;
-      for (var i = 0; i < DADES.decisions.length; i++) if (!DADES.decisions[i].resposta && (valor(DADES.decisions[i].id, "opcio") || valor(DADES.decisions[i].id, "comentari"))) fets++;
-      for (var j = 0; j < DADES.canvis.length; j++) if (valor(DADES.canvis[j].id, "opcio") || valor(DADES.canvis[j].id, "comentari")) fets++;
+      var decisions = DADES.decisions || [], canvis = DADES.canvis || [];
+      for (var d = 0; d < decisions.length; d++) if (!decisions[d].resposta) decPend++;
+      total = decPend + canvis.length;
+      for (var i = 0; i < decisions.length; i++) if (!decisions[i].resposta && (valor(decisions[i].id, "opcio") || valor(decisions[i].id, "comentari"))) fets++;
+      for (var j = 0; j < canvis.length; j++) if (valor(canvis[j].id, "opcio") || valor(canvis[j].id, "comentari")) fets++;
       document.getElementById("r-count").textContent = fets + " de " + total + " respostes";
     }
 
     function etiquetaOpcio(item, id) {
-      for (var i = 0; i < item.opcions.length; i++) if (item.opcions[i].id === id) return item.opcions[i].label;
+      var ops = item.opcions || [];
+      for (var i = 0; i < ops.length; i++) if (ops[i].id === id) return ops[i].label;
       return id;
     }
 
@@ -521,10 +537,12 @@
       document.getElementById("r-intro").textContent = DADES.intro;
       var act = document.getElementById("r-actualitzat");
       if (act) act.textContent = DADES.actualitzat ? "Darrera actualització: " + DADES.actualitzat : "";
+      var decisions = DADES.decisions || [];
+      var canvis = DADES.canvis || [];
       var contD = document.getElementById("r-decisions");
-      for (var i = 0; i < DADES.decisions.length; i++) contD.appendChild(construeixDecixo(DADES.decisions[i]));
+      for (var i = 0; i < decisions.length; i++) contD.appendChild(construeixDecixo(decisions[i]));
       var contC = document.getElementById("r-canvis");
-      for (var j = 0; j < DADES.canvis.length; j++) contC.appendChild(construeixCanvi(DADES.canvis[j]));
+      for (var j = 0; j < canvis.length; j++) contC.appendChild(construeixCanvi(canvis[j]));
       var contT = document.getElementById("r-tasques");
       var tasques = DADES.tasques || [];
       for (var t = 0; t < tasques.length; t++) contT.appendChild(construeixTasca(tasques[t]));
