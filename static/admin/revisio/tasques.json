@@ -1,6 +1,6 @@
 {
-  "actualitzat": "2026-11-05",
-  "intro": "Darrera sessió: 5/11/2026 — (1) les 92 fitxes d'arquitecte que tenien dues pàgines al web ja són una de sola (BAAS Arquitectura i 91 més): els edificis enllacen a la fitxa bona i les adreces antigues redirigeixen; (2) recompte dels arquitectes fantasma: 188 noms sense fitxa en 204 fitxes, dels quals 96 es resoldran sols i 92 aniran a una llista per validar (sense que hagis de tocar cap fitxa); (3) en curs: el camp «Arquitectes» i les intervencions de l'editor, i el filtre del mapa. (4) el logo gran de la portada ja és clicable i baixa fins al mapa.",
+  "actualitzat": "2026-11-16",
+  "intro": "Darrera sessió: 16/11/2026 — (1) el tauler torna a obrir-se sencer (una fitxa sense opcions n'aturava el pintat) i la dels 92 noms d'arquitecte ja porta a la llista per validar; (2) aplicats els canvis de disseny de la reunió: fora les línies verticals (biografia i llistat), fora la franja de color dels plànols, portada sense «la seva»; (3) el peu de la fitxa ja retalla els títols llargs amb punts suspensius i es passa d'un element a l'anterior/següent amb les fletxes del teclat; (4) el llistat d'elements ha tornat a les pàgines de plànol i de tema, que quedaven buides des del 6/11. A sota, a «Decisions», hi ha els dubtes que et volem preguntar per correu.",
   "decisions": [
     {
       "id": "b2-edifici-original",
@@ -1020,9 +1020,259 @@
       "descripcio": "Cada fila: nom que apareix · en quants edificis (amb enllaç) · teu parer. Marca com a validat quan ja hagin revisat tots.",
       "dades": "/admin/revisio/arquitectes-orfes.json",
       "estat": "pendent"
+    },
+    {
+      "id": "draft-quatre-fitxes",
+      "ref": "NOU · Esborranys",
+      "titol": "Quatre fitxes que has editat estan en esborrany",
+      "context": "Són quatre fitxes que vas editar els dies 12 i 13 i que ara mateix el web no publica: «Adaptació d'un convent per a escola del CENU», «Botiga Cottet», «Reforma de l'aula de química a la UB» i «Reforma d'un àtic». Per això tampoc surten al llistat del plànol del GATCPAC (se'n veuen 43 de 47).",
+      "descripcio": "Les vols publicades?",
+      "opcions": [
+        {
+          "id": "publicar",
+          "label": "Publicar-les ara",
+          "detall": "Deixen de ser esborrany i surten al web i al llistat del plànol."
+        },
+        {
+          "id": "esperar",
+          "label": "Les estic editant: no les publiquem encara",
+          "detall": "Es queden en esborrany fins que ens ho diguis."
+        },
+        {
+          "id": "veure",
+          "label": "No sé quines són: ensenya-me-les",
+          "detall": "Et passem els quatre enllaços."
+        }
+      ]
+    },
+    {
+      "id": "arquitectes-camp",
+      "ref": "NOU · Arquitectes",
+      "titol": "Camp «Arquitectes»: manual o automàtic?",
+      "context": "A la reunió va quedar obert. Si s'omple sol a partir de les intervencions, s'evita repetir la mateixa feina dues vegades; però 26 fitxes només tenen el camp «Arquitectes» (no tenen cap intervenció) i es quedarien sense cap nom.",
+      "opcions": [
+        {
+          "id": "automatic",
+          "label": "Automàtic: que s'ompli amb les intervencions",
+          "detall": "Una sola feina. Caldrà decidir què fem amb les 26 fitxes que només tenen el camp."
+        },
+        {
+          "id": "manual-filtrat",
+          "label": "Manual, però el desplegable només ofereix els que ja has triat",
+          "detall": "Es manté el camp, però deixa de sortir tota la llista d'arquitectes."
+        },
+        {
+          "id": "com-ara",
+          "label": "Com ara",
+          "detall": "No es toca res."
+        }
+      ]
+    },
+    {
+      "id": "nom-us-actual",
+      "ref": "NOU · Intervencions",
+      "titol": "«Nom i ús actual»: on ha d'anar?",
+      "context": "A la reunió vas dir que el vols com a camp. Falta decidir si va dins de cada intervenció, com l'any i els autors, o com a camp de la fitxa.",
+      "opcions": [
+        {
+          "id": "intervencio",
+          "label": "Dins de cada intervenció",
+          "detall": "Igual que l'any i els autors: cada obra pot tenir el seu."
+        },
+        {
+          "id": "fitxa",
+          "label": "Com a camp de la fitxa",
+          "detall": "Un sol nom i un sol ús per edifici."
+        },
+        {
+          "id": "tipus",
+          "label": "Com un tipus més de les intervencions",
+          "detall": "«Ús actual» i «Nom actual» passarien a ser tipus triables."
+        }
+      ]
+    },
+    {
+      "id": "casa-braus-26",
+      "ref": "NOU · Fitxes",
+      "titol": "Les 26 fitxes sense intervencions",
+      "context": "Aquestes fitxes ensenyen el nom de l'arquitecte a partir del camp «Arquitectes» (és l'acord del 21/10). Vas dir que aquesta informació no hauria de sortir a la part pública; si la traiem, aquestes 26 fitxes es queden sense cap nom d'arquitecte.",
+      "opcions": [
+        {
+          "id": "deixar",
+          "label": "Deixar-ho com ara",
+          "detall": "És l'acord del 21/10: qui no té intervencions, ensenya el camp."
+        },
+        {
+          "id": "omplir",
+          "label": "Amagar-ho i omplir les intervencions d'aquestes 26",
+          "detall": "Feina de dades, fitxa per fitxa, amb el teu OK i registre."
+        },
+        {
+          "id": "amagar",
+          "label": "Amagar-ho i prou",
+          "detall": "Ràpid, però aquestes 26 fitxes perden el nom."
+        }
+      ]
+    },
+    {
+      "id": "format-text-310",
+      "ref": "NOU · Contingut",
+      "titol": "El format de text desigual (Casa Bloc i 310 fitxes)",
+      "context": "Ve de la migració del WordPress: hi ha fitxes amb barreja de text i etiquetes. Abans de tocar res cal saber quantes n'hi ha i què hi passa exactament.",
+      "opcions": [
+        {
+          "id": "informe",
+          "label": "Primer un informe: quantes fitxes i què hi passa",
+          "detall": "Sense tocar cap text."
+        },
+        {
+          "id": "directe",
+          "label": "Aplicar-ho directament a les que ja coneixem",
+          "detall": "Casa Bloc i les que vas assenyalar."
+        },
+        {
+          "id": "despres",
+          "label": "Deixar-ho per a més endavant",
+          "detall": ""
+        }
+      ]
+    },
+    {
+      "id": "nomenclator",
+      "ref": "NOU · Camps",
+      "titol": "«Nomenclàtor»: esborrar el camp (té 2 textos)",
+      "context": "El camp és buit a 85 fitxes i només té text a dues: «Ada Byron» i «Dolors Piera» (les fitxes del nomenclàtor femení). No s'esborra res fins a decidir on va aquest text.",
+      "opcions": [
+        {
+          "id": "moure",
+          "label": "Moure els 2 textos a la descripció de la seva fitxa i treure el camp",
+          "detall": "No es perd res."
+        },
+        {
+          "id": "deixar",
+          "label": "Deixar el camp com està",
+          "detall": ""
+        },
+        {
+          "id": "veure",
+          "label": "Ensenya'm les dues fitxes i decideixo",
+          "detall": ""
+        }
+      ]
+    },
+    {
+      "id": "renoms",
+      "ref": "NOU · Adreces",
+      "titol": "Renombrar arquitectes i fitxes sense trencar enllaços",
+      "context": "Ens vas preguntar si canviar el nom trenca els enllaços. Resposta curta: sí, si ningú hi fa res. Ho resoldrem nosaltres amb redireccions automàtiques, de manera que l'adreça vella segueixi portant a la fitxa bona.",
+      "opcions": [
+        {
+          "id": "endavant",
+          "label": "Endavant amb les redireccions automàtiques",
+          "detall": "Podràs renombrar sense por."
+        },
+        {
+          "id": "no-renombrar",
+          "label": "Millor no renombrar res",
+          "detall": ""
+        },
+        {
+          "id": "parlar",
+          "label": "Ho parlem",
+          "detall": ""
+        }
+      ]
+    },
+    {
+      "id": "dues-columnes",
+      "ref": "NOU · En paper",
+      "titol": "«En paper»: tria la presentació en dues columnes",
+      "context": "La prova ja estava feta. Et prepararem dues propostes (A i B) amb els teus retocs: sense barra de desplaçament, sense línies entre temes i la lletra una mica més petita.",
+      "descripcio": "Quan estiguin penjades, aquí hi trobaràs els dos enllaços per comparar-les i triar.",
+      "opcions": [
+        {
+          "id": "a",
+          "label": "Proposta A",
+          "detall": ""
+        },
+        {
+          "id": "b",
+          "label": "Proposta B",
+          "detall": ""
+        },
+        {
+          "id": "altra",
+          "label": "Cap de les dues: en vull una altra",
+          "detall": "Deixa el comentari amb què canviaries."
+        }
+      ]
     }
   ],
   "canvis": [
+    {
+      "id": "tauler-arreglat",
+      "ref": "16/11 · Tauler",
+      "estat": "fet",
+      "titol": "El tauler de revisió torna a obrir-se sencer",
+      "resultat": "Fet (16/11): una fitxa del tauler (la dels 92 noms d'arquitecte) no tenia ni opcions ni resposta i això aturava el pintat de tota la pàgina; només sortia el missatge que no es podien carregar les tasques. Ara les fitxes informatives es pinten sense opcions i la dels 92 noms té l'enllaç a la llista per validar.",
+      "enllacos": [
+        {
+          "label": "Tauler",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/revisio/"
+        }
+      ]
+    },
+    {
+      "id": "disseny-16-11",
+      "ref": "16/11 · Disseny",
+      "estat": "fet",
+      "titol": "Canvis de disseny de dilluns, aplicats",
+      "resultat": "Fet (16/11): fora la línia vertical de la biografia de l'arquitecte i la del llistat d'arquitectes (que ara és més compacte); fora la franja de color de les pàgines de plànol; portada amb «a través de l'arquitectura», sense «la seva».",
+      "enllacos": [
+        {
+          "label": "Biografia d'arquitecte (Sert)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/josep-lluis-sert-i-lopez/"
+        },
+        {
+          "label": "Pàgina d'un plànol (Biblioteques)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques/"
+        },
+        {
+          "label": "Portada",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/"
+        }
+      ]
+    },
+    {
+      "id": "fitxa-fletxes",
+      "ref": "16/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Peu de la fitxa: títols retallats i fletxes del teclat",
+      "resultat": "Fet (16/11): els títols llargs del peu de la fitxa es retallen amb punts suspensius (el nom sencer surt en passar-hi el ratolí) i amb les fletxes esquerra i dreta del teclat es passa a l'element anterior i al següent.",
+      "enllacos": [
+        {
+          "label": "Fitxa de prova",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-del-doctor-pla-i-armengol/"
+        }
+      ]
+    },
+    {
+      "id": "llistat-planols",
+      "ref": "16/11 · Plànols",
+      "estat": "fet",
+      "titol": "El llistat d'elements dels plànols torna a sortir",
+      "resultat": "Fet (16/11): el 6/11 es va treure el llistat del mapa general (només hi havia de quedar el cercador) i el mateix canvi es va endur el llistat de les pàgines de cada plànol, que quedaven amb l'apartat «Llistat» buit. Restaurat i comprovat.",
+      "enllacos": [
+        {
+          "label": "Plànol del Poblenou",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/poblenou/"
+        },
+        {
+          "label": "Plànol del GATCPAC",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
+        }
+      ]
+    },
     {
       "id": "arquitectes-duplicats-baas",
       "ref": "5/11 · BAAS",
