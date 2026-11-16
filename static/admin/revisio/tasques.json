@@ -1234,6 +1234,56 @@
   ],
   "canvis": [
     {
+      "id": "arquitectes-enllacos",
+      "ref": "16/11 · Arquitectes",
+      "estat": "fet",
+      "titol": "Els arquitectes de les obres ja enllacen a la seva fitxa",
+      "cita": "Els dos arquitectes van a arquitectes quan haurien d'anar als respectius.",
+      "resultat": "Fet (16/11): a la pàgina de cada arquitecte, els noms que surten a la llista d'obres apuntaven tots a la pàgina general d'arquitectes, perquè aquesta pàgina no passava les adreces al cercador intern (les altres quatre sí que ho feien). Ara cada nom enllaça a la seva fitxa. Si un nom no té fitxa, es mostra com a text, sense enllaç que no porti enlloc.",
+      "enllacos": [
+        {
+          "label": "Joan Amigó i Barriga (exemple)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/joan-amig%C3%B3-i-barriga/"
+        }
+      ]
+    },
+    {
+      "id": "aeb-duplicat",
+      "ref": "16/11 · Arquitectes",
+      "estat": "fet",
+      "titol": "A&EB i quatre arquitectes més sortien dues vegades al llistat",
+      "cita": "Tenim dos arquitectes repetits: A&EB (1 edifici) i A&EB Estudi (0 edificis) i a cap mostra l'edifici.",
+      "resultat": "Fet (16/11): la fitxa de l'estudi era en una adreça i el llistat generava el nom en una altra, així que en sortien dues entrades i l'edifici (Set Vides) no apareixia enlloc. Ara n'hi ha una de sola, amb l'edifici i les dades de l'estudi, i l'adreça antiga segueix funcionant. El mateix passa amb Arriola & Fiol, OAB, Prince Smith & Son i SV60: quedaven duplicats i ja surten un cop. Registrat al registre de canvis de fitxes (#19).",
+      "enllacos": [
+        {
+          "label": "A&EB",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/aeb/"
+        },
+        {
+          "label": "Llistat d'arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/"
+        }
+      ]
+    },
+    {
+      "id": "titol-i-paragrafs",
+      "ref": "16/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Títol dels plànols sense color i paràgrafs restaurats",
+      "cita": "Els títols tenim que treure el color… el text es veu massa totxo i sense els diferents paràgrafs diferenciats.",
+      "resultat": "Fet (16/11): (1) el títol de les pàgines de plànol ja no agafa el to del color de cada plànol; (2) la descripció de les fitxes torna a tenir paràgrafs: 111 fitxes s'han restaurat a partir del text original del WordPress, amb el text idèntic paraula per paraula (262 paràgrafs). Els textos que no coincideixen exactament amb l'original no s'han tocat i els revisarem. L'editor ja permet escriure paràgrafs nous.",
+      "enllacos": [
+        {
+          "label": "Ca l'Alier (5 paràgrafs)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/ca-lalier/"
+        },
+        {
+          "label": "Plànol del Poblenou (títol)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/poblenou/"
+        }
+      ]
+    },
+    {
       "id": "tauler-arreglat",
       "ref": "16/11 · Tauler",
       "estat": "fet",
