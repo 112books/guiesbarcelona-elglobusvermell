@@ -291,7 +291,7 @@ collections:
             required: false
           - label: Descripció
             name: descripcio
-            widget: text
+            widget: markdown
             required: false
 
       # «Anys de reforma» tret del formulari (Xavi, 26/10): les reformes van a Intervencions.
@@ -320,7 +320,7 @@ collections:
 
       - label: Descripció
         name: descripcio
-        widget: text
+        widget: markdown
         required: false
 
       - label: Nomenclàtor

@@ -1012,6 +1012,10 @@ main {
 .fitxa-descripcio,
 .fitxa-nomenclator { margin-bottom: var(--space-lg); }
 
+/* Paràgrafs de la descripció: separats, sense el marge gran per defecte */
+.fitxa-descripcio p { margin: 0 0 0.85em; }
+.fitxa-descripcio p:last-child { margin-bottom: 0; }
+
 .fitxa-nomenclator h2 {
   font-size: 1rem;
   color: #666;
@@ -2405,7 +2409,8 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
 
 .publicacio-cap h1 {
   margin: 0 0 0.25rem;
-  color: color-mix(in srgb, var(--pub-color, var(--color-text)), #000 45%);
+  /* Títol en el color de text normal: sense el to del plànol (Joan, 16/11). */
+  color: var(--color-text);
 }
 
 .publicacio-edicio {

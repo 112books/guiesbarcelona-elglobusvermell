@@ -266,7 +266,9 @@
     {{/* Descripció */}}
     {{ with .Params.descripcio }}
     <div class="fitxa-descripcio">
-      <p>{{ . }}</p>
+      {{/* Amb markdownify es respecten els salts de paràgraf que s'escriguin a l'editor
+           (abans sortia tot en un sol bloc de text — Ca l'Alier, 16/11). */}}
+      {{ . | markdownify }}
     </div>
     {{ end }}
 
