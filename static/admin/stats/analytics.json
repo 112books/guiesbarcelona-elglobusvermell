@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-15T22:26:27.950951Z",
+  "generated": "2026-11-16T04:36:06.939921Z",
   "period": {
-    "start": "2025-11-15",
-    "end": "2026-11-15"
+    "start": "2025-11-16",
+    "end": "2026-11-16"
   },
-  "total": 1460,
+  "total": 1463,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -346,16 +346,20 @@
     {
       "date": "2026-11-13",
       "count": 6
+    },
+    {
+      "date": "2026-11-15",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/guiesbarcelona-elglobusvermell",
-      "count": 157
+      "count": 158
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 105
+      "count": 107
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
@@ -471,7 +475,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 1011,
+    "guiesbarcelona-elglobusvermell": 1014,
     "mapa-filtre-pub": 275,
     "mapa-info-pub": 53,
     "mapa-filtre-tema": 52,
@@ -547,7 +551,8 @@
       "2026-11-03": 1,
       "2026-11-05": 2,
       "2026-11-06": 5,
-      "2026-11-10": 1
+      "2026-11-10": 1,
+      "2026-11-15": 1
     },
     "/guiesbarcelona-elglobusvermell/mapa": {
       "2026-08-07": 5,
@@ -603,7 +608,8 @@
       "2026-11-09": 2,
       "2026-11-10": 1,
       "2026-11-12": 1,
-      "2026-11-13": 1
+      "2026-11-13": 1,
+      "2026-11-15": 2
     },
     "/guiesbarcelona-elglobusvermell/en-paper": {
       "2026-07-19": 2,
@@ -1838,7 +1844,8 @@
       "2026-11-09": 5,
       "2026-11-10": 13,
       "2026-11-12": 11,
-      "2026-11-13": 5
+      "2026-11-13": 5,
+      "2026-11-15": 3
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -2024,7 +2031,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 652
+      "count": 658
     },
     {
       "name": "Desconegut",
@@ -2034,7 +2041,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
-      "count": 356
+      "count": 358
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/arquitectes",
