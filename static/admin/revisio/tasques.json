@@ -1071,25 +1071,26 @@
     {
       "id": "nom-us-actual",
       "ref": "NOU · Intervencions",
-      "titol": "«Nom i ús actual»: on ha d'anar?",
-      "context": "A la reunió vas dir que el vols com a camp. Falta decidir si va dins de cada intervenció, com l'any i els autors, o com a camp de la fitxa.",
+      "titol": "Tipus d'intervenció: quins calen i com es trien",
+      "context": "Ens vas dir que, a més de la intervenció, cal poder dir l'ús actual o el nom actual de l'edifici. Ja hem afegit «Ús actual» i «Nom actual» a la llista de tipus de l'editor (amb Projecte, Projecte original, Reforma, Remodelació, Ampliació, Remunta, Reconstrucció, Restauració, Rehabilitació i Autoria). Ara falta saber si la llista us va bé així o si n'hi falten d'altres.",
       "opcions": [
         {
-          "id": "intervencio",
-          "label": "Dins de cada intervenció",
-          "detall": "Igual que l'any i els autors: cada obra pot tenir el seu."
+          "id": "tancada",
+          "label": "La llista tancada com ara",
+          "detall": "Nomes es pot triar entre les opcions que hi ha."
         },
         {
-          "id": "fitxa",
-          "label": "Com a camp de la fitxa",
-          "detall": "Un sol nom i un sol ús per edifici."
+          "id": "oberta",
+          "label": "Llista tancada, pero en volem mes",
+          "detall": "Digue'ns quins i els afegim nosaltres."
         },
         {
-          "id": "tipus",
-          "label": "Com un tipus més de les intervencions",
-          "detall": "«Ús actual» i «Nom actual» passarien a ser tipus triables."
+          "id": "lliure",
+          "label": "Que es pugui escriure el tipus lliurement",
+          "detall": "Mes flexible, pero la informacio es pot tornar desigual."
         }
-      ]
+      ],
+      "descripcio": "Quins tipus necessiteu exactament?"
     },
     {
       "id": "casa-braus-26",

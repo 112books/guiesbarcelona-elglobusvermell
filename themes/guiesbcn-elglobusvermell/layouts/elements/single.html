@@ -145,8 +145,10 @@
       {{ range .Params.intervencions }}{{ if ne .tipus "Autoria" }}{{ $nomesAutoria = false }}{{ end }}{{ end }}
       {{/* Unificació Arquitectes/Projecte (Xavi, 21/10): si hi ha intervencions,
            la fila «Arquitectes» no es mostra — els autors dels projectes ja surten allà.
-           Els artistes (només «Autoria») tampoc mostren aquesta fila. */}}
-      {{ $mostrarArquitectes := and .Params.arquitectes (not .Params.intervencions) }}
+           Els artistes (només «Autoria») tampoc mostren aquesta fila.
+           Matís 16/11: «Ús actual» i «Nom actual» descriuen l'edifici, no són obres,
+           i per tant no han d'amagar la fila. */}}
+      {{ $ivDobra := false }}{{ range .Params.intervencions }}{{ if not (in (slice "Ús actual" "Nom actual") .tipus) }}{{ $ivDobra = true }}{{ end }}{{ end }}{{ $mostrarArquitectes := and .Params.arquitectes (not $ivDobra) }}
       {{ with and $mostrarArquitectes .Params.arquitectes }}
       <div class="fitxa-dada">
         <dt>{{ if gt (len .) 1 }}Arquitectes{{ else }}Arquitecte{{ end }}</dt>

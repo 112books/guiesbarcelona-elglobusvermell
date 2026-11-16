@@ -275,6 +275,8 @@ collections:
               - Restauració
               - Rehabilitació
               - Autoria
+              - Ús actual
+              - Nom actual
             required: false
           - label: Autors
             name: autors
