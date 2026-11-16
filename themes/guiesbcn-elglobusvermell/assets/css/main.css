@@ -598,7 +598,6 @@ main {
 .arquitecte-bio {
   margin: var(--space-md) 0;
   padding: var(--space-sm) var(--space-md);
-  border-left: 3px solid var(--color-accent);
   color: var(--color-text);
 }
 
@@ -1058,6 +1057,12 @@ main {
 }
 .fitxa-nav a:hover { text-decoration: underline; }
 .fitxa-nav-llista { margin: 0 auto; }
+/* Títols llargs: es retallen amb punts suspensius i no trenquen la barra (Xavi, 16/11) */
+.fitxa-nav-prev, .fitxa-nav-next { min-width: 0; max-width: min(45%, 32ch); }
+.fitxa-nav-titol { display: block; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fitxa-nav-fletxa { flex: none; }
+.fitxa-nav-prev .fitxa-nav-fletxa { margin-right: 0.35rem; }
+.fitxa-nav-next .fitxa-nav-fletxa { margin-left: 0.35rem; }
 
 /* ── Llistat alfabètic ───────────────────────────────────────────────────── */
 
@@ -1272,11 +1277,10 @@ main {
 
 .llistat-element-arquitectes {
   width: 100%;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
   font-size: 0.8125rem;
   color: #767676;
-  margin-top: 0.25rem;
-  border-left: 2px solid var(--color-border, #e0e0e0);
+  margin-top: 0.15rem;
 }
 
 .llistat-element-arquitecte {
@@ -2388,11 +2392,10 @@ html.tema-c #mapa-filtres .mapa-filtres { flex-direction: column; }
   padding: 0 var(--space-md) var(--space-lg);
 }
 
-/* Banda de color horitzontal a la capçalera */
+/* Banda de color horitzontal a la capçalera — retirada (Xavi, 16/11):
+   la franja no es mostra, però es deixa la regla per si hi ha pàgines antigues en memòria cau. */
 .publicacio-banda {
-  height: 30px;
-  background: var(--pub-color, var(--color-accent));
-  margin: 0 calc(-1 * var(--space-md)) var(--space-lg);
+  display: none;
 }
 
 /* Capçalera: títol + edició amb accent de color */

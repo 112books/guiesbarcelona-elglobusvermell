@@ -355,15 +355,16 @@
     {{/* Navegació entre elements */}}
     <nav class="fitxa-nav" aria-label="Navegació entre elements">
       {{ with .PrevInSection }}
-      <a class="fitxa-nav-prev" href="{{ .Permalink }}">← {{ .Title }}</a>
+      <a class="fitxa-nav-prev" href="{{ .Permalink }}" title="{{ .Title }}" rel="prev"><span class="fitxa-nav-fletxa" aria-hidden="true">←</span><span class="fitxa-nav-titol">{{ .Title }}</span><span class="sr-only"> (element anterior)</span></a>
       {{ end }}
       {{ $llistaHref := "" }}
       {{ with site.GetPage "/mapa" }}{{ $llistaHref = .RelPermalink }}{{ else }}{{ $llistaHref = .Parent.RelPermalink }}{{ end }}
       {{ with .Params.publicacions }}{{ $llistaHref = printf "%s?pub=%s" $llistaHref (index . 0) }}{{ end }}
       <a class="fitxa-nav-llista" href="{{ $llistaHref }}">Tots els elements</a>
       {{ with .NextInSection }}
-      <a class="fitxa-nav-next" href="{{ .Permalink }}">{{ .Title }} →</a>
+      <a class="fitxa-nav-next" href="{{ .Permalink }}" title="{{ .Title }}" rel="next"><span class="fitxa-nav-titol">{{ .Title }}</span><span class="fitxa-nav-fletxa" aria-hidden="true">→</span><span class="sr-only"> (element següent)</span></a>
       {{ end }}
+      <p class="sr-only">Amb les fletxes esquerra i dreta del teclat pots anar a l'element anterior i al següent.</p>
     </nav>
 
   </div>{{/* /fitxa-cos */}}

@@ -136,3 +136,25 @@
     startX = null;
   });
 })();
+
+// Navegació entre fitxes amb les fletxes del teclat (Xavi, 16/11):
+// esquerra = element anterior, dreta = element següent, seguint els enllaços
+// que ja hi ha al peu de la fitxa (només si existeixen).
+(function () {
+  var prev = document.querySelector('.fitxa-nav-prev');
+  var next = document.querySelector('.fitxa-nav-next');
+  if (!prev && !next) return;
+  document.addEventListener('keydown', function (e) {
+    if (e.defaultPrevented) return; // el carrusel ja s'ha quedat la fletxa
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    var t = e.target;
+    if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+    if (e.key === 'ArrowLeft' && prev) {
+      e.preventDefault();
+      window.location.href = prev.href;
+    } else if (e.key === 'ArrowRight' && next) {
+      e.preventDefault();
+      window.location.href = next.href;
+    }
+  });
+})();

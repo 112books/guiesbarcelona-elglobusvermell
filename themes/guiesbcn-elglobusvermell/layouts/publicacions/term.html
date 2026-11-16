@@ -7,8 +7,6 @@
 
 <article class="publicacio"{{ with $pub.color }} style="--pub-color: {{ . }}"{{ end }}{{ with .Params.foto }} data-portada="{{ . | strings.TrimPrefix "/" | relURL }}"{{ end }}>
 
-  <div class="publicacio-banda"></div>
-
   <header class="publicacio-cap">
     <h1>{{ .Title }}</h1>
     {{ with .Params.edicio }}<p class="publicacio-edicio">Edició {{ . }}</p>{{ end }}
