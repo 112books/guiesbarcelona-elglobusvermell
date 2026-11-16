@@ -158,7 +158,7 @@ Tot i no ser membre del GATCPAC, contribueix en la introducció del moviment rac
 
 1939 Amb la instauració del règim franquista, Lacasa és sancionat amb la suspensió total de l’exercici de la professió en tot el territori nacional i s’exilia a Moscou, on viu fins a la seva mort.
 
-## [Sixte Illescas i Mirosa](/arquitectes/sixte-illescas/)
+### [Sixte Illescas i Mirosa](/arquitectes/sixte-illescas/)
 
 (Barcelona, 1903 – 1986)
 
