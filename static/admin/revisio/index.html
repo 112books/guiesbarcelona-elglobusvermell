@@ -558,10 +558,23 @@
       pinta(); missatge("Respostes esborrades");
     });
 
+    // «2026-11-17T18:20» (o «2026-11-17 18:20», o amb zona horària al darrere)
+    // passa a «17/11/2026 a les 18:20»; si només hi ha la data, «17/11/2026».
+    function dataLlegible(valor) {
+      var text = String(valor == null ? "" : valor).trim();
+      var m = /^(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2}))?/.exec(text);
+      if (!m) return text;
+      var data = m[3] + "/" + m[2] + "/" + m[1];
+      return m[4] ? data + " a les " + m[4] + ":" + m[5] : data;
+    }
+
     function pinta() {
       document.getElementById("r-intro").textContent = DADES.intro;
       var act = document.getElementById("r-actualitzat");
-      if (act) act.textContent = DADES.actualitzat ? "Darrera actualització: " + DADES.actualitzat : "";
+      if (act) {
+        act.textContent = DADES.actualitzat ? "Darrera actualització: " + dataLlegible(DADES.actualitzat) : "";
+        act.title = DADES.actualitzat ? "El tauler reflecteix els canvis fins a aquest moment" : "";
+      }
       var decisions = DADES.decisions || [];
       var canvis = DADES.canvis || [];
       var contD = document.getElementById("r-decisions");
