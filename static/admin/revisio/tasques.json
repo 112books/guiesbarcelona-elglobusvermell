@@ -2814,6 +2814,14 @@
       "titol": "Arquitectes combinats: revisió manual del client",
       "decisio": "La llista dels 73 ja està resolta (71 falsos positius). Queden els 2 casos dubtosos (Rey Fàbregas, Romano Rius) i els 3 dubtes de nom (Piñón), que revisaran manualment des de l'editor.",
       "motiu": "Resposta d'Xavi (30/9): «ho farem manualment» i «de moment ho deixarem com està». No cal cap llista nova."
+    },
+    {
+      "id": "renom-automatic",
+      "ref": "17/11 · Renombrar",
+      "estat": "informacio",
+      "titol": "Canviar el nom d'una fitxa o d'un arquitecte ja no trenca enllaços",
+      "decisio": "Quan canvies el nom d'una fitxa o d'un arquitecte a l'editor i deses, el web ho propaga sol abans de publicar: adreça nova amb el nom nou, l'antiga continua funcionant, i el nom de l'arquitecte s'actualitza a totes les fitxes on surt. T'arriba un correu de webmaster@linuxbcn.com amb el resultat (canvi fet, canvi no fet o incidència). Les instruccions, a dalt de tot d'aquest tauler: «Com canviar el nom d'una fitxa o d'un arquitecte».",
+      "motiu": "Les fitxes enllacen els arquitectes pel nom: un canvi fet a mà partia la pàgina de l'arquitecte en dues (cas A&EB). Canviar com estan enllaçades les 660 fitxes era massa arriscat; automatitzar el canvi de nom resol el mateix amb molt menys risc. No s'esborra mai res i cada canvi queda al registre."
     }
   ],
   "tasques": [
