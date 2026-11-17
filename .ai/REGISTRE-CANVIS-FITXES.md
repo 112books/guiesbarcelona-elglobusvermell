@@ -166,3 +166,14 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** aplicat
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-17 15:48 — renom de fitxa «Jardins de Sofia Barat (prova)» → «Jardins de Sofia Barat»
+
+- **Autor del desament:** LinuxBCN (commit `dbadf69`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/jardins-de-sofia-barat-prova/` → `/elements/jardins-de-sofia-barat/`
+- **Redireccions retirades:** `/elements/jardins-de-sofia-barat/` (ara és l'adreça de la pàgina; única excepció a «no s'esborra res»)
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
