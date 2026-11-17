@@ -173,3 +173,21 @@ def test_cli_run_no_push_i_envia_avisos_no_enviar(tmp_path, repo_prova):
     assert r.returncode == 0
     assert "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/casa-bloc-nova/" in (
         tmp_path / "cossos/avis-1.txt").read_text(encoding="utf-8")
+
+
+def test_una_colisio_es_refusa_i_no_bloqueja_la_resta(tmp_path, repo_prova, remot_bare):
+    base = git(repo_prova, "rev-parse", "HEAD")
+    canvia_titol(repo_prova, "content/ca/arquitectes/rebecca-horn/_index.md", "Pere López")   # col·lisió
+    commit_sveltia(repo_prova, "Arquitecte", "rebecca-horn")
+    canvia_titol(repo_prova, "content/ca/elements/casa-bloc.md", "Casa Bloc Nova")             # correcte
+    commit_sveltia(repo_prova, "Edifici", "casa-bloc")
+    git(repo_prova, "push", "-q", "origin", "main")
+    robot = clona(remot_bare, tmp_path / "robot")
+    assert renom.executa_flux(robot, base, "HEAD", avisos_json=tmp_path / "av.json") == 0
+    auto = log_auto(remot_bare)
+    assert len(auto) == 2 and any("renom refusat" in l for l in auto)
+    final = clona(remot_bare, tmp_path / "final")
+    assert renom.llegeix_titol((final / "content/ca/arquitectes/rebecca-horn/_index.md").read_text(encoding="utf-8")) == "Rebecca Horn"
+    assert (final / "content/ca/elements/casa-bloc-nova.md").exists()
+    avisos = json.loads((tmp_path / "av.json").read_text(encoding="utf-8"))
+    assert [a["assumpte"].startswith("No s'ha pogut") for a in avisos] == [True, False]

@@ -1098,19 +1098,12 @@ def _missatge_commit(r):
 
 
 def _passada(repo, base, cap, ara=None):
-    """Una passada: retorna (n_commits, avisos, codi). No fa push."""
-    conflictes = detecta_conflictes(repo)
-    if conflictes:
-        import hashlib
-        clau = hashlib.sha1("\n".join(conflictes).encode("utf-8")).hexdigest()[:7]
-        e = {"tipus": "conflicte", "clau": clau, "detall": conflictes}
-        n = 0
-        if afegeix_registre(repo, e, ara=ara):
-            git(repo, "add", "--", REGISTRE)
-            _commit_robot(repo, "auto: registra un conflicte que impedeix publicar")
-            n = 1
-        print("CONFLICTE: no es publica res.\n  " + "\n  ".join(conflictes), file=sys.stderr)
-        return n, [dict(zip(("assumpte", "cos"), compon_avis({"tipus": "conflicte", "detall": conflictes})))], 1
+    """Una passada: retorna (n_commits, avisos, codi). No fa push.
+
+    Primer s'apliquen (o es refusen, revertint el títol) els renoms; DESPRÉS es comprova
+    que l'arbre no tingui conflictes (Tasca 15b). Així una col·lisió que ja s'ha resolt
+    amb el revert del títol no bloqueja la resta, i un conflicte que queda sí que atura el build.
+    """
     mapa, bloquejats, avisos, n = {}, set(), [], 0
     for ev in detecta_renoms(repo, base, cap):
         entrada_previa = {"tipus": ev.tipus, "clau": ev.sha7, "titol_antic": ev.titol_antic, "titol_nou": ev.titol_nou}
@@ -1131,7 +1124,19 @@ def _passada(repo, base, cap, ara=None):
         n += 1
         a, c = compon_avis(r)
         avisos.append({"assumpte": a, "cos": c})
-    return n, avisos, 0
+    conflictes = detecta_conflictes(repo)
+    if not conflictes:
+        return n, avisos, 0
+    import hashlib
+    clau = hashlib.sha1("\n".join(conflictes).encode("utf-8")).hexdigest()[:7]
+    if afegeix_registre(repo, {"tipus": "conflicte", "clau": clau, "detall": conflictes}, ara=ara):
+        git(repo, "add", "--", REGISTRE)
+        _commit_robot(repo, "auto: registra un conflicte que impedeix publicar")
+        n += 1
+    print("CONFLICTE: no es publica res.\n  " + "\n  ".join(conflictes), file=sys.stderr)
+    a, c = compon_avis({"tipus": "conflicte", "detall": conflictes})
+    avisos.append({"assumpte": a, "cos": c})
+    return n, avisos, 1
 
 
 def executa_flux(repo, base, cap="HEAD", push=True, remot="origin", branca="main", max_intents=3,
