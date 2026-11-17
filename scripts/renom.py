@@ -424,8 +424,8 @@ def formata_valor(nou, cru_original):
     return nou if _pla_es_segur(nou) else _cita(nou, "'")
 
 
-def _indexs_items_persona(linies, i0, i1):
-    """Índexs de línia dels ítems de `arquitectes:` i de `intervencions[].autors`."""
+def _indexs_items_persona(linies, i0, i1, autors=True):
+    """Índexs de línia dels ítems de `arquitectes:` i (si `autors`) de `intervencions[].autors`."""
     indexs = []
     i = i0
     while i < i1:
@@ -437,7 +437,7 @@ def _indexs_items_persona(linies, i0, i1):
                 j += 1
             i = j
             continue
-        if clau == "intervencions":
+        if clau == "intervencions" and autors:
             j = i + 1
             while j < i1 and (not linies[j].strip() or linies[j][:1] in (" ", "-", "\t")):
                 m = re.match(r"^(\s*)(-\s+)?autors:\s*$", linies[j].rstrip("\r\n"))
@@ -459,11 +459,11 @@ def _indexs_items_persona(linies, i0, i1):
     return indexs
 
 
-def _items_arquitectes(text):
+def _items_arquitectes(text, autors=True):
     """[(índex_línia, valor_cru, nom)] dels ítems de persona d'una fitxa."""
     i0, i1, linies = talla_frontmatter(text)
     sortida = []
-    for j in _indexs_items_persona(linies, i0, i1):
+    for j in _indexs_items_persona(linies, i0, i1, autors):
         cru = _RE_ITEM_LLISTA.match(linies[j].rstrip("\r\n")).group(2)
         sortida.append((j, cru, _desquota(cru)))
     return sortida
@@ -497,7 +497,8 @@ def substitueix_terme_bio(text_yaml, nom_antic, nom_nou):
 
 
 def noms_sense_carpeta(repo, exclou_carpeta=None):
-    """Noms d'arquitecte citats a fitxes (`arquitectes:` / `autors:`) sense `_index.md` propi.
+    """Noms citats a `arquitectes:` de les fitxes (els únics que són termes de la taxonomia;
+    `intervencions[].autors` és text de crèdit lliure) sense `_index.md` propi.
 
     Fora d'abast del renom, però compten per al control de col·lisió.
     """
@@ -506,7 +507,7 @@ def noms_sense_carpeta(repo, exclou_carpeta=None):
     for f in sorted((Path(repo) / CARPETA_ELEMENTS).glob("*.md")):
         if f.name == "_index.md":
             continue
-        for _, _, nom in _items_arquitectes(f.read_text(encoding="utf-8")):
+        for _, _, nom in _items_arquitectes(f.read_text(encoding="utf-8"), autors=False):
             citats.add(nom)
     return sorted(citats - amb_carpeta)
 

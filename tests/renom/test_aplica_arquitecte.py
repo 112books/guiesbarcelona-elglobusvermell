@@ -134,7 +134,7 @@ def test_terme_bio_sense_cometes_i_exacte():
     assert n == 1 and r == "- terme: Pere Nou\n- terme: Pere López Íñigo\n"
 
 
-def test_noms_sense_carpeta(repo_prova):
+def test_noms_sense_carpeta_nomes_compta_arquitectes_no_autors(repo_prova):
     assert renom.noms_sense_carpeta(repo_prova) == ["Sense Carpeta Uno"]
 
 
