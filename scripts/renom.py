@@ -838,6 +838,235 @@ def detecta_conflictes(repo):
 
 
 # ---------------------------------------------------------------------------
+# Registre (.ai/REGISTRE-CANVIS-FITXES.md): s'hi afegeix al final, mai no es toca el text previ
+# ---------------------------------------------------------------------------
+
+REGISTRE = ".ai/REGISTRE-CANVIS-FITXES.md"
+APROVACIO = "automàtic — regla aprovada per Joan 17/11/2026"
+
+
+def _md(text):
+    """Escapa els caràcters de Markdown (i la barra de les taules) d'un nom."""
+    return re.sub(r"([\\`*_\[\]|<>])", r"\\\1", text)
+
+
+def _url(ruta):
+    from urllib.parse import quote
+    return f"{URL_BASE}{quote(ruta, safe='/~@')}"
+
+
+def _nom_autor(autor):
+    """`xaviglobus <x@y>` -> `xaviglobus`."""
+    return re.sub(r"\s*<.*>\s*$", "", autor or "").strip() or "desconegut"
+
+
+def _ara(ara=None):
+    from datetime import datetime, timezone
+    if ara is not None:
+        return ara
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("Europe/Madrid"))
+    except Exception:
+        return datetime.now(timezone.utc)
+
+
+def entrada_registre(r):
+    """Dades del registre a partir d'un ResultatAplicacio."""
+    ev = r.esdeveniment
+    pla = r.pla
+    return {
+        "tipus": ev.tipus, "autor": _nom_autor(ev.autor), "clau": ev.sha7,
+        "titol_antic": ev.titol_antic, "titol_nou": ev.titol_nou,
+        "url_antiga": r.url_antiga, "url_nova": r.url_nova,
+        "estat": r.estat, "motiu": r.motiu,
+        "fitxes": [(c, (pla.noms_actualitzats.get(c) if pla else None) or Path(c).stem) for c in (pla.actualitzats if pla else [])],
+        "enllaços": list(pla.enllaços) if pla else [],
+        "alies_eliminats": list(pla.alies_eliminats) if pla else [],
+        "n_prosa": pla.n_prosa if pla else 0,
+    }
+
+
+def ja_registrat(repo, entrada):
+    """Idempotència: el commit de l'editor (SHA) amb aquests noms ja és al registre?"""
+    p = Path(repo) / REGISTRE
+    if not p.exists():
+        return False
+    text = p.read_text(encoding="utf-8")
+    for bloc in text.split("\n### ")[1:]:
+        capçalera = bloc.splitlines()[0]
+        if f"`{entrada['clau']}`" not in bloc:
+            continue
+        if entrada["tipus"] == "conflicte":
+            return "conflicte" in capçalera
+        if f"«{_md(entrada['titol_antic'])}» → «{_md(entrada['titol_nou'])}»" in capçalera:
+            return True
+    return False
+
+
+def compon_bloc_registre(e, ara=None):
+    ara = _ara(ara)
+    data = ara.strftime("%Y-%m-%d %H:%M")
+    if e["tipus"] == "conflicte":
+        linies = [
+            f"### {data} — conflicte detectat: cal revisar abans de publicar", "",
+            f"- **Clau del conflicte:** `{e['clau']}`",
+            "- **Tipus:** conflicte (pestanya antiga de l'editor o noms duplicats)",
+            "- **Detall:**",
+        ] + [f"  - {_md(d)}" for d in e["detall"]] + [
+            "- **Resultat:** build aturat abans de Hugo; no s'ha esborrat ni mogut res (es manté l'últim desplegament bo)",
+            f"- **Aprovació:** {APROVACIO}",
+        ]
+        return "\n".join(linies) + "\n"
+    nom_tipus = "fitxa" if e["tipus"] == "fitxa" else "arquitecte"
+    acció = "refús de renom" if e["estat"] == "refusat" else "renom"
+    l = [f"### {data} — {acció} de {nom_tipus} «{_md(e['titol_antic'])}» → «{_md(e['titol_nou'])}»", "",
+         f"- **Autor del desament:** {_md(e['autor'])} (commit `{e['clau']}`)",
+         f"- **Tipus:** {nom_tipus}"]
+    if e["url_antiga"] or e["url_nova"]:
+        l.append(f"- **Adreça antiga → nova:** `{e['url_antiga']}` → `{e['url_nova']}`")
+    if e["tipus"] == "arquitecte" and e["estat"] == "aplicat":
+        enllaços = ", ".join(f"[{_md(n)}]({_url('/elements/' + Path(c).stem + '/')})" for c, n in e["fitxes"])
+        l.append(f"- **Fitxes actualitzades:** {len(e['fitxes'])}" + (f" ({enllaços})" if enllaços else ""))
+        if e["n_prosa"]:
+            l.append(f"- **Text lliure (descripcions) on encara surt el nom antic:** {e['n_prosa']} fitxes (no es toca)")
+    if e["enllaços"]:
+        l.append("- **Enllaços interns corregits a:** " + ", ".join(f"`{c}`" for c in e["enllaços"]))
+    if e["alies_eliminats"]:
+        l.append("- **Redireccions retirades:** " + ", ".join(f"`{a}`" for a in e["alies_eliminats"]) +
+                 " (ara és l'adreça de la pàgina; única excepció a «no s'esborra res»)")
+    if e["estat"] == "aplicat":
+        l.append("- **Resultat:** aplicat")
+    elif e["estat"] == "refusat":
+        l.append(f"- **Resultat:** refusat ({_md(e['motiu'])}); s'ha revertit el títol a «{_md(e['titol_antic'])}»")
+    else:
+        l.append(f"- **Resultat:** sense canvi d'adreça ({_md(e['motiu'])})")
+    l.append(f"- **Aprovació:** {APROVACIO}")
+    l.append("- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada")
+    return "\n".join(l) + "\n"
+
+
+def afegeix_registre(repo, entrada, ara=None):
+    """Afegeix el bloc al final del registre. Retorna False (sense escriure) si ja hi era."""
+    if ja_registrat(repo, entrada):
+        return False
+    p = Path(repo) / REGISTRE
+    p.parent.mkdir(parents=True, exist_ok=True)
+    text = p.read_text(encoding="utf-8") if p.exists() else ""
+    sep = "" if not text else ("\n" if text.endswith("\n") else "\n\n")
+    with open(p, "a", encoding="utf-8", newline="") as f:
+        f.write(sep + ("\n" if text else "") + compon_bloc_registre(entrada, ara))
+    return True
+
+
+# ---------------------------------------------------------------------------
+# Correu d'avís (SMTP). Mai no fa fallar el deploy; mai no imprimeix la contrasenya.
+# ---------------------------------------------------------------------------
+
+REMITENT = "webmaster@linuxbcn.com"
+FRASE_RECARREGA = "Recarrega l'editor abans de continuar editant."
+
+
+def _llista_enllaços(r):
+    return [(n, _url("/elements/" + Path(c).stem + "/")) for c, n in entrada_registre(r)["fitxes"]]
+
+
+def compon_avis(r):
+    """(assumpte, cos) en català planer, amb enllaços sencers. `r` és un ResultatAplicacio,
+    o un dict {'tipus': 'conflicte', 'detall': [...]}."""
+    peu = "\nUna salutació,\nLinuxBCN\n"
+    if isinstance(r, dict) and r.get("tipus") == "conflicte":
+        cos = ["Hola,", "",
+               "No s'ha publicat res de nou al web perquè hem detectat un conflicte que cal revisar:", ""]
+        cos += [f"  - {d}" for d in r["detall"]]
+        cos += ["",
+                "Això passa, per exemple, si una pestanya de l'editor que feia estona que era oberta torna a "
+                "desar una fitxa amb el nom vell. El web continua mostrant l'última versió bona.",
+                "No s'ha esborrat ni mogut res. Ho revisarà en Joan a mà; no cal que facis res.",
+                "", FRASE_RECARREGA]
+        return "Atenció: cal revisar el web abans de publicar més canvis", "\n".join(cos) + "\n" + peu
+    ev = r.esdeveniment
+    tipus = "la fitxa" if ev.tipus == "fitxa" else "l'arquitecte"
+    nom_tipus = "fitxa" if ev.tipus == "fitxa" else "arquitecte"
+    A, B = ev.titol_antic, ev.titol_nou
+    if r.estat == "refusat":
+        cos = ["Hola,", "",
+               f"No s'ha pogut canviar el nom {tipus} «{A}» per «{B}».", "",
+               f"Motiu: {r.motiu}.", "",
+               f"Hem deixat el nom tal com era abans («{A}») perquè el web no es trenqui. "
+               "Què pots fer: tria un altre nom per a aquesta entrada, o desfés el canvi i continua com abans.",
+               "", FRASE_RECARREGA]
+        return f"No s'ha pogut canviar el nom: «{A}» → «{B}»", "\n".join(cos) + "\n" + peu
+    if r.estat == "sense-canvi":
+        cos = ["Hola,", "", f"Has canviat el nom {tipus} «{A}» per «{B}». L'adreça de la pàgina no canvia "
+               f"(continua sent {_url(r.url_antiga)}), així que no ha calgut fer res més.", "", FRASE_RECARREGA]
+        return f"Canvi de nom aplicat: {nom_tipus} «{A}» → «{B}»", "\n".join(cos) + "\n" + peu
+    cos = ["Hola,", "",
+           f"S'ha canviat el nom {tipus} «{A}» per «{B}» i el web s'ha deixat coherent automàticament.", "",
+           "L'adreça nova és:", _url(r.url_nova), "",
+           "L'adreça antiga continua funcionant: qui hi entri serà dut automàticament a la nova:", _url(r.url_antiga)]
+    llista = _llista_enllaços(r)
+    if ev.tipus == "arquitecte":
+        cos += ["", f"S'ha actualitzat el nom a {len(llista)} fitxes:"] if llista else ["", "Cap fitxa citava aquest nom."]
+        cos += [f"  - {n}: {u}" for n, u in llista]
+    if r.alies_eliminats:
+        cos += ["", "Detall tècnic: " + ", ".join(
+            f"s'ha tret la redirecció {a} perquè ara és l'adreça de la pàgina" for a in r.alies_eliminats) + "."]
+    cos += ["", FRASE_RECARREGA]
+    return f"Canvi de nom aplicat: {nom_tipus} «{A}» → «{B}»", "\n".join(cos) + "\n" + peu
+
+
+def _neteja(text, secrets):
+    for s in secrets:
+        if s:
+            text = text.replace(s, "***")
+    return text
+
+
+def envia_avis(assumpte, cos, env=None, smtp_classe=None, smtp_ssl_classe=None):
+    """Envia un correu. Retorna SEMPRE 0: un error d'SMTP va a stderr i no fa fallar el deploy.
+
+    Variables d'entorn (GitHub Secrets): SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD i
+    AVIS_DESTINATARIS (adreces separades per comes). Si en falta alguna, s'omet l'enviament.
+    """
+    import os
+    import sys
+    from email.message import EmailMessage
+    env = os.environ if env is None else env
+    host, port = env.get("SMTP_HOST"), env.get("SMTP_PORT")
+    usuari, clau = env.get("SMTP_USER"), env.get("SMTP_PASSWORD")
+    dest = [d.strip() for d in (env.get("AVIS_DESTINATARIS") or "").split(",") if d.strip()]
+    falten = [n for n, v in (("SMTP_HOST", host), ("SMTP_PORT", port), ("SMTP_USER", usuari),
+                             ("SMTP_PASSWORD", clau), ("AVIS_DESTINATARIS", dest)) if not v]
+    if falten:
+        print(f"avís per correu omès: falten els secrets {', '.join(falten)}", file=sys.stderr)
+        return 0
+    msg = EmailMessage()
+    msg["From"], msg["To"], msg["Subject"] = REMITENT, ", ".join(dest), assumpte
+    msg.set_content(cos)
+    try:
+        import smtplib
+        port = int(port)
+        if port == 465:
+            s = (smtp_ssl_classe or smtplib.SMTP_SSL)(host, port, timeout=30)
+        else:
+            s = (smtp_classe or smtplib.SMTP)(host, port, timeout=30)
+        try:
+            if port == 587:
+                s.starttls()
+            s.login(usuari, clau)
+            s.send_message(msg, from_addr=REMITENT, to_addrs=dest)
+        finally:
+            try:
+                s.quit()
+            except Exception:
+                pass
+    except Exception as e:   # smtplib.SMTPException, OSError, ValueError…
+        print(f"avís per correu no enviat ({type(e).__name__}): {_neteja(str(e), [clau, usuari])}", file=sys.stderr)
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
