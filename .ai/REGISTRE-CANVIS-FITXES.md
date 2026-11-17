@@ -156,3 +156,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 | 4 fitxes d'ítems retirats del paper 2026 (`botiga-cottet`, `reforma-dun-atic`, `reforma-de-laula-de-quimica-a-la-ub`, `adaptacio-dun-convent-per-a-escola-del-cenu`) | Ja no són al plànol en paper però el web les manté (obra GATCPAC real) | 🔴 esperant criteri de Xavi (proposta: mantenir-les) |
 | 3 fitxes curades d'arquitecte **òrfenes**: `albert-viaplana`, `toyo-ito`, `oab-(carlos-ferrater)` — el títol no coincideix amb el nom que usen les fitxes («Albert Viaplana i Veà», «Toyo Ito Associates», «OAB (Carlos Ferrater)») → queden sense cap edifici que les enllaci i generen pàgines de terme duplicades | Trobat 1 set amb la verificació diària de números (276 pàgines de terme al sitemap vs 274 arquitectes) | 🔴 esperant criteri de Xavi (relacionat amb els 73 arquitectes a separar) |
 | 5 fitxes de biblioteques **sense cap imatge** al disc: `bon-pastor-josefina-castellvi`, `canyelles-maria-angels-rivas`, `de-lateneu-barcelones`, `les-roquetes-rafa-juncadella`, `vallcarca-i-els-penitents-maria-antonieta-cot` | La foto no existeix al repo (no és un problema d'enllaç, com les 33 anteriors) | 🔴 pendent per a l'equip (cal aportar les fotos) |
+
+
+### 2026-11-17 15:42 — renom de fitxa «Jardins de Sofia Barat» → «Jardins de Sofia Barat (prova)»
+
+- **Autor del desament:** LinuxBCN (commit `ea94908`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/jardins-de-sofia-barat/` → `/elements/jardins-de-sofia-barat-prova/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
