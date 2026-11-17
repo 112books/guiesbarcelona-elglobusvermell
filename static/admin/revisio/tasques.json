@@ -1,6 +1,6 @@
 {
-  "actualitzat": "2026-11-16",
-  "intro": "Darrera sessió: 16/11/2026 — (1) el tauler torna a obrir-se sencer (una fitxa sense opcions n'aturava el pintat) i la dels 92 noms d'arquitecte ja porta a la llista per validar; (2) aplicats els canvis de disseny de la reunió: fora les línies verticals (biografia i llistat), fora la franja de color dels plànols, portada sense «la seva»; (3) el peu de la fitxa ja retalla els títols llargs amb punts suspensius i es passa d'un element a l'anterior/següent amb les fletxes del teclat; (4) el llistat d'elements ha tornat a les pàgines de plànol i de tema, que quedaven buides des del 6/11. A sota, a «Decisions», hi ha els dubtes que et volem preguntar per correu.",
+  "actualitzat": "2026-11-17",
+  "intro": "17/11/2026: el renom automàtic ja és a producció i les pàgines d'arquitecte amb «&» al nom ja surten sempre amb els seus edificis. · Darrera sessió: 16/11/2026 — (1) el tauler torna a obrir-se sencer (una fitxa sense opcions n'aturava el pintat) i la dels 92 noms d'arquitecte ja porta a la llista per validar; (2) aplicats els canvis de disseny de la reunió: fora les línies verticals (biografia i llistat), fora la franja de color dels plànols, portada sense «la seva»; (3) el peu de la fitxa ja retalla els títols llargs amb punts suspensius i es passa d'un element a l'anterior/següent amb les fletxes del teclat; (4) el llistat d'elements ha tornat a les pàgines de plànol i de tema, que quedaven buides des del 6/11. A sota, a «Decisions», hi ha els dubtes que et volem preguntar per correu.",
   "decisions": [
     {
       "id": "b2-edifici-original",
@@ -1229,6 +1229,25 @@
           "id": "cap",
           "label": "Són dues persones diferents",
           "detall": "Doncs cal crear la fitxa que falta."
+        }
+      ]
+    },
+    {
+      "id": "clotet-paricio-sense-edificis",
+      "ref": "NOU · Arquitectes",
+      "titol": "«Clotet, Paricio & Associats» surt sense cap edifici",
+      "context": "Aquesta fitxa d'arquitecte no té cap edifici perquè a les fitxes d'edifici el nom surt escrit «Clotet-Paricio» (una altra fitxa, amb l'edifici de la Diagonal Mar). Són el mateix estudi?",
+      "descripcio": "Si ho són, ho unim i l'adreça antiga continuarà funcionant.",
+      "opcions": [
+        {
+          "id": "mateix",
+          "label": "Sí, és el mateix estudi",
+          "detall": "Unim les dues fitxes; els edificis passen a la que deixem."
+        },
+        {
+          "id": "diferent",
+          "label": "No, són coses diferents",
+          "detall": "Doncs cal omplir aquesta fitxa amb els edificis que hi corresponguin."
         }
       ]
     }
@@ -2778,6 +2797,32 @@
         {
           "label": "Camp Nou",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/camp-nou/"
+        }
+      ]
+    },
+    {
+      "id": "arquitectes-ampersand-buides",
+      "ref": "17/11 · Arquitectes",
+      "estat": "fet",
+      "titol": "Les pàgines d'arquitecte amb «&» ja surten sempre amb els seus edificis",
+      "cita": "Les pàgines dels arquitectes amb «&» al nom (Arriola & Fiol, Prince Smith & Son, SV60…) a vegades surten sense la llista d'edificis.",
+      "resultat": "Fet (17/11): era un error del programa que genera el web, no de les dades. Quan una fitxa d'arquitecte existeix, el generador en feia dues versions de la mateixa pàgina i, segons l'ordre intern (a l'atzar, més o menys la meitat de les vegades), publicava la versió sense edificis ni mapa. Avui mateix es veia a Arriola & Fiol i a SV60 Cordón & Liñán. Ara la pàgina recupera sempre els edificis bons, sigui quina sigui la versió que guanyi. Comprovat amb sis publicacions seguides. «Clotet, Paricio & Associats» continua sense edificis per una altra raó: a la fitxa de l'edifici el nom surt com a «Clotet-Paricio» (et preguntem a sota si és el mateix estudi).",
+      "enllacos": [
+        {
+          "label": "Arriola & Fiol Arquitectes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/arriola--fiol-arquitectes/"
+        },
+        {
+          "label": "SV60 Cordón & Liñán",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/sv60-cord%C3%B3n--li%C3%B1%C3%A1n-arquitectos/"
+        },
+        {
+          "label": "Prince Smith & Son",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/prince-smith--son/"
+        },
+        {
+          "label": "A&EB",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/aeb/"
         }
       ]
     }
