@@ -529,6 +529,7 @@ class Pla:
     alies_eliminats: list = field(default_factory=list)
     alies_afegits: list = field(default_factory=list)
     n_prosa: int = 0
+    noms_actualitzats: dict = field(default_factory=dict)   # {camí: títol} de les fitxes tocades
 
 
 @dataclass
@@ -677,6 +678,8 @@ def aplica_renom_fitxa(repo, ev, mapa=None):
         return ResultatAplicacio(ev, "refusat", str(r))
     except FileNotFoundError as e:
         return ResultatAplicacio(ev, "omes", f"la fitxa {e} ja no existeix")
+    except Exception as e:  # error inesperat en planificar: res no s'ha escrit
+        return ResultatAplicacio(ev, "refusat", f"error inesperat: {e}")
     url_antiga, url_nova = f"/elements/{Path(antic).stem}/", f"/elements/{Path(nou).stem}/"
     if igual:
         return ResultatAplicacio(ev, "sense-canvi", "el títol nou dóna la mateixa adreça", url_antiga, url_antiga, antic, pla)
@@ -727,6 +730,7 @@ def planifica_renom_arquitecte(repo, ev, mapa=None):
         if n:
             pla.escriptures[camí] = nou_t
             pla.actualitzats.append(camí)
+            pla.noms_actualitzats[camí] = llegeix_titol(nou_t) or Path(camí).stem
         if nom_antic in nou_t:
             pla.n_prosa += 1   # el nom queda en prosa lliure (descripcio): no es toca
     # --- bio extra ---
@@ -756,6 +760,8 @@ def aplica_renom_arquitecte(repo, ev, mapa=None):
         return ResultatAplicacio(ev, "refusat", str(r))
     except FileNotFoundError as e:
         return ResultatAplicacio(ev, "omes", f"l'arquitecte {e} ja no existeix")
+    except Exception as e:
+        return ResultatAplicacio(ev, "refusat", f"error inesperat: {e}")
     try:
         escriu_pla(repo, pla)
     except Exception as e:
@@ -790,6 +796,45 @@ def refusa(repo, ev, motiu, mapa=None):
         p.write_text("".join(cl), encoding="utf-8", newline="")
         git(repo, "add", "--", camí)
     return ResultatAplicacio(ev, "refusat", motiu, path_final=camí)
+
+
+def aplica_esdeveniment(repo, ev, mapa=None):
+    """Aplica un esdeveniment; si es refusa, reverteix el títol (Tasca 9)."""
+    aplica = aplica_renom_fitxa if ev.tipus == "fitxa" else aplica_renom_arquitecte
+    r = aplica(repo, ev, mapa)
+    if r.estat == "refusat":
+        r.path_final = refusa(repo, ev, r.motiu, mapa).path_final
+    return r
+
+
+# ---------------------------------------------------------------------------
+# Casos límit (Tasca 15b): una pestanya antiga de l'editor que recrea l'arxiu vell
+# ---------------------------------------------------------------------------
+
+def detecta_conflictes(repo):
+    """Llista de descripcions (català) de conflictes a l'arbre que impedeixen publicar.
+
+    * l'adreça d'una fitxa/arquitecte és alhora una redirecció (`aliases`) d'una altra
+      entrada: típic d'una pestanya antiga de Sveltia que recrea l'arxiu abans de moure'l;
+    * dos arquitectes amb el mateix nom (pàgina partida).
+    No esborra ni mou res.
+    """
+    conflictes = []
+    canon = {}
+    for camí in _tots_els_md(repo):
+        u = url_canonica(camí)
+        if u:
+            canon[u] = camí
+    for alias, propietaris in sorted(indexa_aliases(repo).items()):
+        c = canon.get(alias)
+        if c and c not in propietaris:
+            conflictes.append(f"L'adreça {alias} és alhora una pàgina ({c}) i una redirecció de {propietaris[0]}.")
+    vistos = {}
+    for carpeta, t in sorted(titols_arquitectes(repo).items()):
+        if t in vistos:
+            conflictes.append(f"Hi ha dos arquitectes amb el mateix nom «{t}» ({vistos[t]} i {carpeta}).")
+        vistos[t] = carpeta
+    return conflictes
 
 
 # ---------------------------------------------------------------------------
