@@ -1017,7 +1017,7 @@
       "titol": "Arquitectes sense fitxa — 92 noms per validar",
       "cita": "Llistat de 92 noms que surt del recompte de la sesió 5/11/2026",
       "context": "S'han detectat 188 noms d'arquitectes sense fitxa pròpia en 204 fitxes. D'aquests, 96 es resolen sols (renomenament als noms correctes). Els 92 restants necessiten decisió: crear fitxa nova, assignar a un altre nom, o marcar com a no-arquitecte. Aquí hi ha la llista completa.",
-      "descripcio": "Cada fila: nom que apareix · en quants edificis (amb enllaç) · teu parer. Marca com a validat quan ja hagin revisat tots.",
+      "descripcio": "Cada fila: nom que apareix · en quants edificis (amb enllaç) · teu parer. Marca com a validat quan ja hagin revisat tots. Pel que fa als noms que no vulguis crear, caldrà decidir si queden com a text lliure o es treuen de les fitxes.",
       "dades": "/admin/revisio/arquitectes-orfes.json",
       "estat": "pendent"
     },
@@ -1194,7 +1194,7 @@
       "id": "dues-columnes",
       "ref": "NOU · En paper",
       "titol": "«En paper»: tria la presentació en dues columnes",
-      "context": "La prova ja estava feta. Et prepararem dues propostes (A i B) amb els teus retocs: sense barra de desplaçament, sense línies entre temes i la lletra una mica més petita.",
+      "context": "La prova ja estava feta. Et prepararem dues propostes (A i B) amb els teus retocs: sense barra de desplaçament, sense línies entre temes i la lletra una mica més petita. El 21/10 ens vas dir que t'agradava amb dues columnes i que canviaríeu només la imatge de portada del plànol, retallant-ne la part de dalt.",
       "descripcio": "Quan estiguin penjades, aquí hi trobaràs els dos enllaços per comparar-les i triar.",
       "opcions": [
         {
@@ -1211,6 +1211,24 @@
           "id": "altra",
           "label": "Cap de les dues: en vull una altra",
           "detall": "Deixa el comentari amb què canviaries."
+        }
+      ],
+      "enllacos": [
+        {
+          "label": "Avantguarda en dues columnes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/?columnes=1"
+        },
+        {
+          "label": "Mercats en dues columnes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats/?columnes=1"
+        },
+        {
+          "label": "Masies en dues columnes",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies/?columnes=1"
+        },
+        {
+          "label": "Avantguarda com és ara",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
         }
       ]
     },
@@ -1256,6 +1274,20 @@
           "detall": "Doncs cal omplir aquesta fitxa amb els edificis que hi corresponguin."
         }
       ]
+    },
+    {
+      "id": "f6-color-parcial",
+      "ref": "F6",
+      "titol": "Fotos en blanc i negre: el patrimoni industrial, en color?",
+      "cita": "El patrimoni industrial tenia il·lustracions amb color vermell que voldríem conservar, la resta blanc i negre.",
+      "descripcio": "Ho heu de consensuar amb l'equip; mentrestant queda anotat el criteri provisional que ens vas dir.",
+      "resposta": {
+        "data": "2026-10-21",
+        "opcio_xavi": "",
+        "text": "Doncs de moment el patrimoni en color, la resta en blanc i negre. Dic de moment, ja que no ens posem d’acord…",
+        "nostra_accio": "Anotat: patrimoni industrial en color i la resta en blanc i negre, a l'espera que ho tanqueu amb l'equip."
+      },
+      "context": "S'aplica un filtre de blanc i negre a totes les fotos (és reversible). El dubte és si el patrimoni industrial ha d'anar en color; tècnicament es pot fer per plànol."
     }
   ],
   "canvis": [
@@ -2939,85 +2971,11 @@
       }
     },
     {
-      "id": "r13-paleta",
-      "ref": "GR1·GR2 · R13",
-      "titol": "Aplicar la paleta definitiva per plànol",
-      "cita": "Us passarem la paleta definitiva per plànol.",
-      "context": "Esperant que ens facin arribar els codis de color.",
-      "descripcio": "En rebre la paleta, l'apliquem.",
-      "resposta": {
-        "data": "2026-10-21",
-        "opcio_xavi": "",
-        "text": "Em poso com a tasca pendent enviar la paleta definitiva.",
-        "nostra_accio": "Esperant la paleta."
-      }
-    },
-    {
       "id": "tauler-final",
       "ref": "NOS",
       "titol": "Tancament del projecte: actualitzar el tauler de revisió",
       "context": "Tasca nostra (LinuxBCN), anotada per Joan l'1/10: quan el web estigui acabat, repassem el tauler perquè hi quedi tot ben explicat — què s'ha fet i amb quina data, què ha quedat pendent i quines decisions s'han pres.",
       "descripcio": "No cal que hi facis res: és la documentació del projecte, que fem nosaltres."
-    },
-    {
-      "id": "s3-en-paper-dues-columnes",
-      "ref": "Nou · 9/10 · S3",
-      "titol": "«En paper»: cada plànol en dues columnes",
-      "cita": "Portada del plànol i índex de continguts a l'esquerra, i plànol i textos a la dreta. Els textos sempre desplegats.",
-      "descripcio": "Us hem fet una prova perquè ho vegeu: a l'esquerra la portada en paper i l'índex amb els temes de cada plànol (que es queda fix en fer scroll); a la dreta el mapa i tots els textos oberts, sense clics. De moment l'índex són els títols de cada apartat del plànol. Digueu-nos si us agrada i què hi voldríeu canviar a l'índex.",
-      "enllacos": [
-        {
-          "label": "Avantguarda en dues columnes",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/?columnes=1"
-        },
-        {
-          "label": "Mercats en dues columnes",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/mercats/?columnes=1"
-        },
-        {
-          "label": "Masies en dues columnes",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/masies/?columnes=1"
-        },
-        {
-          "label": "Avantguarda com és ara",
-          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
-        }
-      ],
-      "resposta": {
-        "data": "2026-10-21",
-        "opcio_xavi": "",
-        "text": "Ens agrada amb dues columnes! Però canviarem, només aquí, la imatge de la portada del plànol. Retallarem la part de dalt […]",
-        "nostra_accio": "S’aplica, amb la portada retallada que ens faran arribar."
-      }
-    },
-    {
-      "id": "f6-color-parcial",
-      "ref": "F6",
-      "titol": "Fotos en blanc i negre: color al patrimoni industrial?",
-      "cita": "El patrimoni industrial tenia il·lustracions amb color vermell que voldríem conservar, la resta blanc i negre.",
-      "descripcio": "Pendent que ho consensueu amb l'equip. Tècnicament es pot fer per plànol.",
-      "resposta": {
-        "data": "2026-10-21",
-        "opcio_xavi": "",
-        "text": "Doncs de moment el patrimoni en color, la resta en blanc i negre. Dic de moment, ja que no ens posem d’acord…",
-        "nostra_accio": "S’aplica aquest criteri provisional."
-      }
-    },
-    {
-      "id": "arquitectes-orfes-80-pendents",
-      "titol": "80 arquitectes sense fitxa — revisió pendent",
-      "estat": "pendent",
-      "descripcio": "Llistat enviat per mail el 26/10. Xavi n'ha creat ~30 avui. Els que queden poden generar pàgines \"fantasma\" fins que es creïn o es corregeixi el nom als edificis.",
-      "accio": "Xavi crea les fitxes que vulgui conservar; els que no vulgui afegir cal decidir si es deixen com a text lliure o s'eliminen dels edificis.",
-      "verificar": ""
-    },
-    {
-      "id": "arquitectes-orfes-llista",
-      "titol": "188 arquitectes sense fitxa — llista per validar",
-      "estat": "pendent",
-      "descripcio": "Dels 188 noms que surten als edificis i no tenen fitxa, 96 es resoldran sols (el nom és una variant d'una fitxa existent). Dels 92 restants et passarem una llista amb: com surt el nom al web, en quants edificis surt (amb enllaç per obrir-los) i què proposem fer-ne (crear la fitxa, vol dir una altra, o no és arquitecte).",
-      "accio": "Quan publiquem la llista, validar-la (sí / no a cada fila). Tu no has de tocar cap fitxa.",
-      "verificar": ""
     }
   ]
 }
