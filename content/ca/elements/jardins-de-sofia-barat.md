@@ -15,5 +15,5 @@ superficie: 570
 temes_transversals:
 - espai-public
 - nomenclator-femeni
-title: Jardins de Sofia Barat
+title: Jardins de Sofia Barat (prova)
 ---
