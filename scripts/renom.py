@@ -992,7 +992,7 @@ def compon_avis(r):
                 "", FRASE_RECARREGA]
         return "Atenció: cal revisar el web abans de publicar més canvis", "\n".join(cos) + "\n" + peu
     ev = r.esdeveniment
-    tipus = "la fitxa" if ev.tipus == "fitxa" else "l'arquitecte"
+    tipus = "de la fitxa" if ev.tipus == "fitxa" else "de l'arquitecte"
     nom_tipus = "fitxa" if ev.tipus == "fitxa" else "arquitecte"
     A, B = ev.titol_antic, ev.titol_nou
     if r.estat == "refusat":
