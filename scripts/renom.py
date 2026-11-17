@@ -17,7 +17,10 @@ i mai no s'esborra res (l'única excepció: la redirecció autoreferent, vegeu
 `treu_alias`). Disseny: docs/superpowers/specs/2026-11-17-renombrar-sense-trencar-enllacos-design.md
 """
 import re
+import subprocess
 import unicodedata
+from dataclasses import dataclass, field
+from pathlib import Path
 
 CARPETA_ELEMENTS = "content/ca/elements"
 CARPETA_ARQUITECTES = "content/ca/arquitectes"
@@ -137,6 +140,130 @@ def urlize_arquitecte(nom):
         elif c in _CONSERVATS or cat[0] in "LM" or cat == "Nd":
             sortida.append(c)
     return "".join(sortida).lower()
+
+
+# ---------------------------------------------------------------------------
+# Git
+# ---------------------------------------------------------------------------
+
+class ErrorGit(RuntimeError):
+    pass
+
+
+def git(repo, *args, check=True, entrada=None):
+    """Executa git dins de `repo`; retorna stdout (str). Mai no usa `shell=True`."""
+    r = subprocess.run(["git", "-C", str(repo), "-c", "core.quotepath=false", *args],
+                       capture_output=True, text=True, encoding="utf-8", input=entrada)
+    if check and r.returncode != 0:
+        raise ErrorGit(f"git {' '.join(args)} ha fallat: {r.stderr.strip()}")
+    return r.stdout
+
+
+def git_show(repo, rev, camí):
+    """Contingut de `camí` a `rev`, o None si no hi existeix."""
+    r = subprocess.run(["git", "-C", str(repo), "show", f"{rev}:{camí}"],
+                       capture_output=True, text=True, encoding="utf-8")
+    return r.stdout if r.returncode == 0 else None
+
+
+def resol_base(repo, base):
+    """Resol el commit base. Si és buit, tot zeros o no existeix, usa HEAD~20."""
+    if base and not re.fullmatch(r"0+", base):
+        r = subprocess.run(["git", "-C", str(repo), "rev-parse", "--verify", "--quiet", f"{base}^{{commit}}"],
+                           capture_output=True, text=True)
+        if r.returncode == 0:
+            return r.stdout.strip()
+    commits = git(repo, "rev-list", "HEAD", "--max-count=21").split()
+    return commits[-1] if commits else "HEAD"
+
+
+# ---------------------------------------------------------------------------
+# Detecció de canvis de títol (només commits fets des de Sveltia)
+# ---------------------------------------------------------------------------
+
+# Missatge que genera Sveltia en desar una entrada existent. Els `Create …` no
+# disparen renom (una entrada nova no té nom antic).
+RE_MISSATGE_SVELTIA = re.compile(r"^Update (Edifici|Arquitecte) “(.+)”$")
+MARCA_OPT_OUT = "[sense-renom]"
+
+
+def es_commit_sveltia(missatge, autor):
+    """Cert si el commit el fa l'editor (Sveltia) i no s'ha exclòs amb `[sense-renom]`."""
+    if MARCA_OPT_OUT in (missatge or ""):
+        return False
+    if "[bot]" in (autor or ""):
+        return False
+    primera = (missatge or "").strip().splitlines()[0] if (missatge or "").strip() else ""
+    return bool(RE_MISSATGE_SVELTIA.match(primera.strip()))
+
+
+@dataclass
+class Esdeveniment:
+    tipus: str            # "fitxa" | "arquitecte"
+    commit: str           # SHA complet del commit de Sveltia
+    autor: str
+    path_antic: str       # nom REAL de l'arxiu (no el que donaria la regla)
+    path_nou: str         # el que toca segons el títol nou
+    titol_antic: str
+    titol_nou: str
+
+    @property
+    def sha7(self):
+        return self.commit[:7]
+
+
+def _path_nou(tipus, path_antic, titol_nou):
+    if tipus == "fitxa":
+        return f"{CARPETA_ELEMENTS}/{slug_fitxa(titol_nou)}.md"
+    return f"{CARPETA_ARQUITECTES}/{urlize_arquitecte(titol_nou)}/_index.md"
+
+
+def detecta_renoms(repo, base, cap="HEAD"):
+    """Esdeveniments de renom a `base..cap`, en ordre cronològic.
+
+    Només per commits de Sveltia i només si el fitxer existia abans i després amb
+    un `title` diferent (un fitxer nou o esborrat no és un renom).
+    """
+    base = resol_base(repo, base)
+    sep = "\x1e"
+    sortida = git(repo, "log", "--reverse", "--no-merges", f"--format=%H\x1f%an <%ae>\x1f%B{sep}", f"{base}..{cap}")
+    esdeveniments = []
+    for bloc in sortida.split(sep):
+        bloc = bloc.strip("\n")
+        if not bloc.strip():
+            continue
+        sha, autor, missatge = bloc.split("\x1f", 2)
+        sha = sha.strip()
+        if not es_commit_sveltia(missatge, autor):
+            continue
+        fitxers = git(repo, "diff", "--name-only", "--diff-filter=M", f"{sha}^", sha, check=False).splitlines()
+        for camí in fitxers:
+            if RE_ELEMENT.match(camí) and not camí.endswith("/_index.md"):
+                tipus = "fitxa"
+            elif RE_ARQUITECTE.match(camí):
+                tipus = "arquitecte"
+            else:
+                continue
+            abans = git_show(repo, f"{sha}^", camí)
+            despres = git_show(repo, sha, camí)
+            if abans is None or despres is None:
+                continue
+            t_antic, t_nou = llegeix_titol(abans), llegeix_titol(despres)
+            if not t_antic or not t_nou or t_antic == t_nou:
+                continue
+            esdeveniments.append(Esdeveniment(tipus, sha, autor, camí, _path_nou(tipus, camí, t_nou), t_antic, t_nou))
+    return esdeveniments
+
+
+def titols_arquitectes(repo):
+    """{carpeta: títol} dels `_index.md` d'arquitecte a l'arbre de treball."""
+    sortida = {}
+    base = Path(repo) / CARPETA_ARQUITECTES
+    for f in sorted(base.glob("*/_index.md")):
+        t = llegeix_titol(f.read_text(encoding="utf-8"))
+        if t:
+            sortida[f.parent.name] = t
+    return sortida
 
 
 # ---------------------------------------------------------------------------
