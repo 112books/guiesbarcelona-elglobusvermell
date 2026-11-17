@@ -23,11 +23,42 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Només aquest job pot pujar commits (els del renom automàtic, scripts/renom.py);
+    # la resta de jobs continuen amb contents: read.
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # Si en Xavi (Sveltia) ha canviat el títol d'una fitxa o d'un arquitecte, aquí es
+      # deixa tot coherent (adreça, alias, fitxes) ABANS de construir. Si falla o hi ha un
+      # conflicte, el job falla abans de Hugo i es manté l'últim desplegament bo.
+      # `github.event.before` només existeix en `push`; en la resta, el script fa servir
+      # HEAD~20 i el registre (.ai/REGISTRE-CANVIS-FITXES.md) evita processar dos cops.
+      - name: Renomena fitxes i arquitectes (si s'ha canviat un títol)
+        id: renom
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          python3 scripts/renom.py run --repo . --base "$BEFORE" --cap HEAD \
+            --avisos-json "$RUNNER_TEMP/avisos-renom.json"
+
+      # Avís per correu: mai no atura el desplegament. Si els secrets no hi són, s'omet.
+      - name: Envia l'avís per correu
+        if: always()
+        continue-on-error: true
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          AVIS_DESTINATARIS: ${{ secrets.AVIS_DESTINATARIS }}
+        run: python3 scripts/renom.py envia-avisos "$RUNNER_TEMP/avisos-renom.json"
 
       - name: Install Hugo
         run: |

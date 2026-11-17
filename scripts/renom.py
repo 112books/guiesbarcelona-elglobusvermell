@@ -11,6 +11,10 @@ aquest script (que corre dins del job de build, abans de Hugo):
     i afegeix l'adreça antiga a `aliases`;
   * ho deixa al registre (.ai/REGISTRE-CANVIS-FITXES.md) i prepara un avís per correu.
 
+No toca `static/admin/galeria/dades.json` (decisió Q8, opció B): és un fitxer de l'admin
+que ja no coincideix amb el contingut i regenerar-lo el reformataria sencer; per
+això, després d'un renom l'admin mostra el slug antic fins que es regeneri a mà.
+
 Només biblioteca estàndard de Python (a l'Action no hi ha pip). Totes les edicions
 de YAML són línia a línia sobre el text original: mai no es reformata un fitxer
 i mai no s'esborra res (l'única excepció: la redirecció autoreferent, vegeu
