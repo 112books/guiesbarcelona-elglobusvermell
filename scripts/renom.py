@@ -18,6 +18,7 @@ i mai no s'esborra res (l'única excepció: la redirecció autoreferent, vegeu
 """
 import re
 import subprocess
+import sys
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -1067,18 +1068,145 @@ def envia_avis(assumpte, cos, env=None, smtp_classe=None, smtp_ssl_classe=None):
 
 
 # ---------------------------------------------------------------------------
+# Flux complet: detecta -> aplica -> registre -> un commit per esdeveniment -> push
+# ---------------------------------------------------------------------------
+
+ROBOT_NOM = "github-actions[bot]"
+ROBOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
+
+
+def _commit_robot(repo, missatge):
+    git(repo, "-c", f"user.name={ROBOT_NOM}", "-c", f"user.email={ROBOT_EMAIL}", "commit", "-q", "-m", missatge)
+
+
+def _missatge_commit(r):
+    ev = r.esdeveniment
+    A, B = ev.titol_antic, ev.titol_nou
+    if r.estat == "refusat":
+        return f"auto: renom refusat de {ev.tipus} «{A}» → «{B}» (títol revertit)"
+    if r.estat == "sense-canvi":
+        return f"auto: renom de {ev.tipus} «{A}» → «{B}» (sense canvi d'adreça)"
+    if ev.tipus == "arquitecte":
+        n = len(r.fitxes_actualitzades)
+        return f"auto: renom arquitecte «{A}» → «{B}» ({n} {'fitxa' if n == 1 else 'fitxes'})"
+    return f"auto: renom fitxa «{A}» → «{B}»"
+
+
+def _passada(repo, base, cap, ara=None):
+    """Una passada: retorna (n_commits, avisos, codi). No fa push."""
+    conflictes = detecta_conflictes(repo)
+    if conflictes:
+        import hashlib
+        clau = hashlib.sha1("\n".join(conflictes).encode("utf-8")).hexdigest()[:7]
+        e = {"tipus": "conflicte", "clau": clau, "detall": conflictes}
+        n = 0
+        if afegeix_registre(repo, e, ara=ara):
+            git(repo, "add", "--", REGISTRE)
+            _commit_robot(repo, "auto: registra un conflicte que impedeix publicar")
+            n = 1
+        print("CONFLICTE: no es publica res.\n  " + "\n  ".join(conflictes), file=sys.stderr)
+        return n, [dict(zip(("assumpte", "cos"), compon_avis({"tipus": "conflicte", "detall": conflictes})))], 1
+    mapa, bloquejats, avisos, n = {}, set(), [], 0
+    for ev in detecta_renoms(repo, base, cap):
+        entrada_previa = {"tipus": ev.tipus, "clau": ev.sha7, "titol_antic": ev.titol_antic, "titol_nou": ev.titol_nou}
+        if ja_registrat(repo, entrada_previa):
+            continue                                       # idempotència: ja processat
+        if ev.path_antic in bloquejats:
+            print(f"omès (l'esdeveniment anterior d'aquest arxiu s'ha refusat): {ev.path_antic}", file=sys.stderr)
+            continue
+        r = aplica_esdeveniment(repo, ev, mapa)
+        if r.estat == "omes":
+            print(f"omès: {r.motiu}", file=sys.stderr)
+            continue
+        if r.estat == "refusat":
+            bloquejats.add(ev.path_antic)
+        afegeix_registre(repo, entrada_registre(r), ara=ara)
+        git(repo, "add", "-A", "--", "content", "data", REGISTRE)
+        _commit_robot(repo, _missatge_commit(r))
+        n += 1
+        a, c = compon_avis(r)
+        avisos.append({"assumpte": a, "cos": c})
+    return n, avisos, 0
+
+
+def executa_flux(repo, base, cap="HEAD", push=True, remot="origin", branca="main", max_intents=3,
+                 avisos_json=None, ara=None):
+    """Executa el flux complet. Retorna el codi de sortida (0 = ok, 1 = conflicte o push impossible).
+
+    Si el push és rebutjat (algú ha pujat mentre), NO es fa rebase d'un commit derivat:
+    `reset --hard` a l'última versió del remot (només s'hi perden els commits del robot, encara
+    no pujats) i es torna a calcular tot sobre el cap nou. Màxim `max_intents`. Mai `--force`.
+    """
+    import json
+    repo = Path(repo)
+    base_sha = resol_base(repo, base)
+    cap_actual = cap
+    codi, avisos = 1, []
+    for intent in range(1, max_intents + 1):
+        n, avisos, codi = _passada(repo, base_sha, cap_actual, ara=ara)
+        if n == 0 or not push:
+            break
+        r = subprocess.run(["git", "-C", str(repo), "push", remot, f"HEAD:{branca}"], capture_output=True, text=True)
+        if r.returncode == 0:
+            break
+        print(f"push rebutjat (intent {intent}/{max_intents}); es recalcula sobre el remot:\n{r.stderr.strip()}", file=sys.stderr)
+        f = subprocess.run(["git", "-C", str(repo), "fetch", remot, branca], capture_output=True, text=True)
+        if f.returncode != 0:
+            print(f"no s'ha pogut obtenir el remot: {f.stderr.strip()}", file=sys.stderr)
+            codi, avisos = 1, []
+            break
+        git(repo, "reset", "--hard", "FETCH_HEAD")
+        cap_actual = "HEAD"
+        codi, avisos = 1, []
+    else:
+        print(f"no s'ha pogut pujar després de {max_intents} intents", file=sys.stderr)
+        codi = 1
+    if avisos_json:
+        Path(avisos_json).write_text(json.dumps(avisos, ensure_ascii=False, indent=1), encoding="utf-8")
+    return codi
+
+
+def envia_avisos_fitxer(fitxer, no_enviar=False, sortida=None):
+    """Envia (o, amb `no_enviar`, desa a `sortida`) els avisos que ha deixat `run`. Sempre 0."""
+    import json
+    p = Path(fitxer)
+    if not p.exists():
+        return 0
+    for i, a in enumerate(json.loads(p.read_text(encoding="utf-8")), 1):
+        if no_enviar:
+            if sortida:
+                Path(sortida).mkdir(parents=True, exist_ok=True)
+                (Path(sortida) / f"avis-{i}.txt").write_text(f"Assumpte: {a['assumpte']}\n\n{a['cos']}", encoding="utf-8")
+        else:
+            envia_avis(a["assumpte"], a["cos"])
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
 def main(argv=None):
     import argparse
-    import sys
     ap = argparse.ArgumentParser(description="Renom automàtic de fitxes i arquitectes")
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("slug-fitxa", help="slug que Sveltia dóna a un títol de fitxa")
     p.add_argument("titol")
     p = sub.add_parser("urlize-arquitecte", help="carpeta que Hugo dona a un nom d'arquitecte")
     p.add_argument("nom")
+    p = sub.add_parser("run", help="detecta i aplica els renoms de base..cap (un commit per esdeveniment)")
+    p.add_argument("--repo", default=".")
+    p.add_argument("--base", default="", help="SHA anterior (github.event.before); buit/zeros -> HEAD~20")
+    p.add_argument("--cap", default="HEAD")
+    p.add_argument("--remot", default="origin")
+    p.add_argument("--branca", default="main")
+    p.add_argument("--no-push", action="store_true", help="no puja res (proves locals)")
+    p.add_argument("--no-enviar", action="store_true", help="compatibilitat: `run` mai no envia correus")
+    p.add_argument("--avisos-json", help="desa aquí els avisos pendents (els envia `envia-avisos`)")
+    p = sub.add_parser("envia-avisos", help="envia els avisos que ha deixat `run` (mai falla)")
+    p.add_argument("fitxer")
+    p.add_argument("--no-enviar", action="store_true", help="en lloc d'enviar, escriu els cossos a --sortida")
+    p.add_argument("--sortida", help="carpeta (temporal) on escriure els cossos amb --no-enviar")
     args = ap.parse_args(argv)
     if args.cmd == "slug-fitxa":
         print(slug_fitxa(args.titol))
@@ -1086,9 +1214,13 @@ def main(argv=None):
     if args.cmd == "urlize-arquitecte":
         print(urlize_arquitecte(args.nom))
         return 0
+    if args.cmd == "run":
+        return executa_flux(args.repo, args.base, args.cap, push=not args.no_push, remot=args.remot,
+                            branca=args.branca, avisos_json=args.avisos_json)
+    if args.cmd == "envia-avisos":
+        return envia_avisos_fitxer(args.fitxer, args.no_enviar, args.sortida)
     return 2
 
 
 if __name__ == "__main__":
-    import sys
     sys.exit(main())
