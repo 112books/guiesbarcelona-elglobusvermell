@@ -47,7 +47,7 @@ Tres «fets» nous (bug de «&», renom provat de punta a punta, «Nom i ús act
 
 ## 3. Pendent
 
-- **Mail de tancament**: esborrany llest a `docs/2026-11-17-mail-xavi-tancament-jornada.md`, pendent d'enviar.
+- **Mail de tancament**: enviat per Joan el 17/11/2026 al vespre (`docs/2026-11-17-mail-xavi-tancament-jornada.md`).
 - **Esperant Xavi**: «Clotet, Paricio & Associats» (és el mateix estudi que «Clotet-Paricio»?) i les 19 decisions pendents del tauler.
 - **Neteja opcional**: les branques locals `feat/renom-automatic` i `feat/renom-revisio` ja són a `main` i es poden esborrar. La branca `prova-correu` i el worktree orfe de la sessió del matí ja s'han tret.
 - **Signatura dels avisos**: si en Joan la vol més curta o amb un altre to, es canvia en un sol lloc (`compon_avis`, `peu`).
