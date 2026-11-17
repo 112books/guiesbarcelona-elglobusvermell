@@ -1168,29 +1168,6 @@
       ]
     },
     {
-      "id": "renoms",
-      "ref": "NOU · Adreces",
-      "titol": "Renombrar arquitectes i fitxes sense trencar enllaços",
-      "context": "Ens vas preguntar si canviar el nom trenca els enllaços. Resposta curta: sí, si ningú hi fa res. Ho resoldrem nosaltres amb redireccions automàtiques, de manera que l'adreça vella segueixi portant a la fitxa bona.",
-      "opcions": [
-        {
-          "id": "endavant",
-          "label": "Endavant amb les redireccions automàtiques",
-          "detall": "Podràs renombrar sense por."
-        },
-        {
-          "id": "no-renombrar",
-          "label": "Millor no renombrar res",
-          "detall": ""
-        },
-        {
-          "id": "parlar",
-          "label": "Ho parlem",
-          "detall": ""
-        }
-      ]
-    },
-    {
       "id": "dues-columnes",
       "ref": "NOU · En paper",
       "titol": "«En paper»: tria la presentació en dues columnes",
