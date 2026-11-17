@@ -67,3 +67,44 @@ def test_slug_fitxa_contra_fitxes_reals():
     # El pla en deia 27: la 27a era un artefacte (títol d'escalar pla en 2 línies
     # llegit truncat). Amb la lectura correcta en són 26.
     assert len(discrepancies) == 26
+
+
+# ---- urlize d'arquitectes contra la taula generada amb Hugo 0.159 ----
+
+def _taula_hugo():
+    import json
+    return json.loads((FIXTURES / "urlize_hugo.json").read_text(encoding="utf-8"))
+
+
+def test_urlize_arquitecte_coincideix_amb_hugo():
+    taula = _taula_hugo()
+    assert len(taula) >= 280
+    errors = {t: (renom.urlize_arquitecte(t), c) for t, c in taula.items()
+              if renom.urlize_arquitecte(t) != c}
+    assert not errors, errors
+
+
+@pytest.mark.parametrize("nom,esperat", [
+    ("Arriola & Fiol Arquitectes", "arriola--fiol-arquitectes"),
+    ("Roldán+Berengué Arquitectes", "roldán+berengué-arquitectes"),
+    ("Prince, Smith & Son", "prince-smith--son"),
+    ("Josep Lluís Sert i López", "josep-lluís-sert-i-lópez"),
+])
+def test_urlize_arquitecte_exemples(nom, esperat):
+    assert renom.urlize_arquitecte(nom) == esperat
+
+
+@pytest.mark.real
+def test_urlize_contra_carpetes_reals():
+    """Només lectura. Les úniques carpetes reals que no són urlize(títol) són preexistents."""
+    desajustos = {}
+    for f in glob.glob(str(ARREL / "content/ca/arquitectes/*/_index.md")):
+        titol = renom.llegeix_titol(Path(f).read_text(encoding="utf-8"))
+        carpeta = Path(f).parent.name
+        if renom.urlize_arquitecte(titol) != carpeta:
+            desajustos[carpeta] = titol
+    print(f"{len(desajustos)} carpetes preexistents ≠ urlize(títol): {sorted(desajustos)}")
+    assert set(desajustos) == {"a&eb", "josep-m.-pericas", "pere-lópez-i-íñigo"}
+    # i no hi ha cap títol real sense carpeta de Hugo a la taula
+    taula = _taula_hugo()
+    assert all(t in taula for t in desajustos.values())

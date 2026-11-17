@@ -108,6 +108,38 @@ def slug_fitxa(titol):
 
 
 # ---------------------------------------------------------------------------
+# Carpeta d'un terme d'arquitecte: la que dona Hugo (taxonomia `arquitectes`)
+# ---------------------------------------------------------------------------
+
+# Caràcters de puntuació que Hugo conserva a la ruta del terme (comprovat amb
+# Hugo 0.159 sobre tests/renom/fixtures/urlize_hugo.json, sondes incloses).
+_CONSERVATS = "_.~#@+-"
+
+
+def urlize_arquitecte(nom):
+    """Carpeta (`/arquitectes/<carpeta>/`) que Hugo dona al terme `nom`.
+
+    Atenció: NO és el mateix que la funció de plantilla `urlize` (aquesta
+    %-codifica els accents i dóna `arriola-fiol`), sinó la ruta real del terme.
+    Regles, cadascuna amb l'exemple que la motiva:
+      * minúscules                      «Josep Lluís Sert» -> josep-lluís-sert
+      * cada espai (també nbsp) -> «-»   «Arriola & Fiol»   -> arriola--fiol (l'«&» cau)
+      * es conserven lletres (amb accent), xifres i marques; _ . ~ # @ + -
+                                          «Roldán+Berengué» -> roldán+berengué
+      * la resta cau (& , ( ) ' ’ « » · : ! ? " – % = etc.)
+                                          «Ca l’Alier» -> ca-lalier
+    """
+    sortida = []
+    for c in nom:
+        cat = unicodedata.category(c)
+        if c.isspace():
+            sortida.append("-")
+        elif c in _CONSERVATS or cat[0] in "LM" or cat == "Nd":
+            sortida.append(c)
+    return "".join(sortida).lower()
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -118,9 +150,14 @@ def main(argv=None):
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("slug-fitxa", help="slug que Sveltia dóna a un títol de fitxa")
     p.add_argument("titol")
+    p = sub.add_parser("urlize-arquitecte", help="carpeta que Hugo dona a un nom d'arquitecte")
+    p.add_argument("nom")
     args = ap.parse_args(argv)
     if args.cmd == "slug-fitxa":
         print(slug_fitxa(args.titol))
+        return 0
+    if args.cmd == "urlize-arquitecte":
+        print(urlize_arquitecte(args.nom))
         return 0
     return 2
 
