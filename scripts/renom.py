@@ -491,12 +491,12 @@ def substitueix_terme_bio(text_yaml, nom_antic, nom_nou):
     return "".join(linies), n
 
 
-def noms_sense_carpeta(repo):
+def noms_sense_carpeta(repo, exclou_carpeta=None):
     """Noms d'arquitecte citats a fitxes (`arquitectes:` / `autors:`) sense `_index.md` propi.
 
     Fora d'abast del renom, però compten per al control de col·lisió.
     """
-    amb_carpeta = set(titols_arquitectes(repo).values())
+    amb_carpeta = {t for c, t in titols_arquitectes(repo).items() if c != exclou_carpeta}
     citats = set()
     for f in sorted((Path(repo) / CARPETA_ELEMENTS).glob("*.md")):
         if f.name == "_index.md":
@@ -504,6 +504,292 @@ def noms_sense_carpeta(repo):
         for _, _, nom in _items_arquitectes(f.read_text(encoding="utf-8")):
             citats.add(nom)
     return sorted(citats - amb_carpeta)
+
+
+# ---------------------------------------------------------------------------
+# Aplicació dels renoms: primer es planifica tot en memòria (cap escriptura),
+# després s'escriu. Qualsevol col·lisió/error abans d'escriure = refús i cap canvi.
+# ---------------------------------------------------------------------------
+
+URL_BASE = "https://112books.github.io/guiesbarcelona-elglobusvermell"
+CARPETA_BIO = "data/arquitectes-bio-extra.yaml"
+
+
+class Refus(Exception):
+    """El renom no es pot aplicar (col·lisió, adreça invàlida, …). `args[0]` = motiu en català."""
+
+
+@dataclass
+class Pla:
+    moviments: list = field(default_factory=list)      # [(origen, destí)] relatius a l'arrel
+    escriptures: dict = field(default_factory=dict)    # {camí final: text nou}
+    actualitzats: list = field(default_factory=list)   # camins de fitxes d'element tocades
+    enllaços: list = field(default_factory=list)       # camins d'altres fitxers amb l'enllaç corregit
+    avisos: list = field(default_factory=list)
+    alies_eliminats: list = field(default_factory=list)
+    alies_afegits: list = field(default_factory=list)
+    n_prosa: int = 0
+
+
+@dataclass
+class ResultatAplicacio:
+    esdeveniment: object
+    estat: str                 # "aplicat" | "refusat" | "sense-canvi" | "omes"
+    motiu: str = ""
+    url_antiga: str = ""       # ruta (p. ex. /elements/a/)
+    url_nova: str = ""
+    path_final: str = ""
+    pla: object = None
+    avisos: list = field(default_factory=list)
+
+    @property
+    def fitxes_actualitzades(self):
+        return list(self.pla.actualitzats) if self.pla else []
+
+    @property
+    def alies_eliminats(self):
+        return list(self.pla.alies_eliminats) if self.pla else []
+
+
+def _llegeix(repo, camí):
+    return (Path(repo) / camí).read_text(encoding="utf-8")
+
+
+def _tots_els_md(repo):
+    """Camins relatius de tots els .md de content/."""
+    arrel = Path(repo)
+    return sorted(str(p.relative_to(arrel)) for p in (arrel / "content").rglob("*.md"))
+
+
+def indexa_aliases(repo):
+    """{alias: [camí, …]} de tot el contingut."""
+    index = {}
+    for camí in _tots_els_md(repo):
+        for a in llegeix_aliases(_llegeix(repo, camí)):
+            index.setdefault(a, []).append(camí)
+    return index
+
+
+def url_canonica(camí):
+    """Adreça canònica d'una fitxa o d'un arquitecte, o None per a altres fitxers."""
+    m = RE_ELEMENT.match(camí)
+    if m and m.group(1) != "_index":
+        return f"/elements/{m.group(1)}/"
+    m = RE_ARQUITECTE.match(camí)
+    if m:
+        return f"/arquitectes/{m.group(1)}/"
+    return None
+
+
+def _resol(repo, camí, mapa):
+    """Camí actual d'un fitxer que pot haver estat mogut per un esdeveniment anterior."""
+    return mapa.get(camí, camí) if mapa is not None else camí
+
+
+def _gestiona_alias_propi(text, camí_propi, url_antiga, url_nova, index, pla):
+    """Afegeix l'alias antiga i resol la col·lisió de la nova amb aliases (Tasca 15a).
+
+    * la nova és alias d'ALTRA entrada -> Refus;
+    * la nova és alias de la MATEIXA entrada -> se'n treu només aquesta (única excepció
+      a «mai no s'esborra res»; queda al registre i al correu).
+    """
+    propietaris = [c for c in index.get(url_nova, []) if c != camí_propi]
+    if propietaris:
+        raise Refus(f"l'adreça nova {url_nova} ja és una redirecció de {propietaris[0]}")
+    for u in url_antiga if isinstance(url_antiga, list) else [url_antiga]:
+        if u != url_nova and u not in llegeix_aliases(text):
+            pla.alies_afegits.append(u)
+        text = afegeix_alias(text, u, canonica=url_nova)
+    if url_nova in llegeix_aliases(text):
+        text = treu_alias(text, url_nova)
+        pla.alies_eliminats.append(url_nova)
+    return text
+
+
+def _substitueix_enllaços(text, antic, nou):
+    """Canvia `antic` per `nou` línia a línia, excepte dins de `aliases` (són adreces antigues)."""
+    i0, i1, linies = talla_frontmatter(text)
+    k, fi, forma = _troba_aliases(linies, i0, i1)
+    n = 0
+    for j, l in enumerate(linies):
+        if k is not None and k <= j < fi:
+            continue
+        if antic in l:
+            linies[j] = l.replace(antic, nou)
+            n += l.count(antic)
+    return "".join(linies), n
+
+
+def planifica_renom_fitxa(repo, ev, mapa=None):
+    pla = Pla()
+    antic = _resol(repo, ev.path_antic, mapa)
+    if not (Path(repo) / antic).exists():
+        raise FileNotFoundError(antic)
+    stem_antic = Path(antic).stem
+    stem_nou = slug_fitxa(ev.titol_nou)
+    if not stem_nou:
+        raise Refus(f"el títol «{ev.titol_nou}» no dóna cap adreça vàlida")
+    path_nou = f"{CARPETA_ELEMENTS}/{stem_nou}.md"
+    if path_nou == antic:
+        return pla, antic, antic, True
+    if (Path(repo) / path_nou).exists():
+        raise Refus(f"ja existeix una fitxa amb l'adreça /elements/{stem_nou}/ ({path_nou})")
+    index = indexa_aliases(repo)
+    url_antiga, url_nova = f"/elements/{stem_antic}/", f"/elements/{stem_nou}/"
+    text = _gestiona_alias_propi(_llegeix(repo, antic), antic, url_antiga, url_nova, index, pla)
+    pla.moviments.append((antic, path_nou))
+    pla.escriptures[path_nou] = text
+    # Enllaços interns a l'adreça antiga (fora de les fitxes d'element: allà només hi ha aliases)
+    for camí in _tots_els_md(repo):
+        if RE_ELEMENT.match(camí):
+            continue
+        t = _llegeix(repo, camí)
+        if url_antiga in t:
+            nou_t, n = _substitueix_enllaços(t, url_antiga, url_nova)
+            if n:
+                pla.escriptures[camí] = nou_t
+                pla.enllaços.append(camí)
+    return pla, antic, path_nou, False
+
+
+def escriu_pla(repo, pla):
+    """Aplica un pla a l'arbre de treball (i a l'índex de git)."""
+    arrel = Path(repo)
+    for origen, desti in pla.moviments:
+        (arrel / desti).parent.mkdir(parents=True, exist_ok=True)
+        git(repo, "mv", origen, desti)
+    for camí, text in pla.escriptures.items():
+        (arrel / camí).write_text(text, encoding="utf-8", newline="")
+        git(repo, "add", "--", camí)
+
+
+def desfes_arbre(repo):
+    """Retorna l'arbre de treball a HEAD (només local; mai toca el remot)."""
+    git(repo, "reset", "--hard", "HEAD", check=False)
+    git(repo, "clean", "-fdq", "--", "content", "data", check=False)
+
+
+def aplica_renom_fitxa(repo, ev, mapa=None):
+    """Renom d'una fitxa: `git mv` + alias antiga + enllaços interns. Retorna ResultatAplicacio."""
+    try:
+        pla, antic, nou, igual = planifica_renom_fitxa(repo, ev, mapa)
+    except Refus as r:
+        return ResultatAplicacio(ev, "refusat", str(r))
+    except FileNotFoundError as e:
+        return ResultatAplicacio(ev, "omes", f"la fitxa {e} ja no existeix")
+    url_antiga, url_nova = f"/elements/{Path(antic).stem}/", f"/elements/{Path(nou).stem}/"
+    if igual:
+        return ResultatAplicacio(ev, "sense-canvi", "el títol nou dóna la mateixa adreça", url_antiga, url_antiga, antic, pla)
+    try:
+        escriu_pla(repo, pla)
+    except Exception as e:  # error inesperat a mig d'escriure: tornem l'arbre a l'estat de HEAD
+        desfes_arbre(repo)
+        return ResultatAplicacio(ev, "refusat", f"error inesperat: {e}")
+    if mapa is not None:
+        mapa[ev.path_antic] = nou
+    return ResultatAplicacio(ev, "aplicat", "", url_antiga, url_nova, nou, pla)
+
+
+def planifica_renom_arquitecte(repo, ev, mapa=None):
+    pla = Pla()
+    arrel = Path(repo)
+    antic = _resol(repo, ev.path_antic, mapa)
+    if not (arrel / antic).exists():
+        raise FileNotFoundError(antic)
+    carpeta_antiga = Path(antic).parent.name
+    nom_antic, nom_nou = ev.titol_antic, ev.titol_nou
+    slug_nou = urlize_arquitecte(nom_nou)
+    if not slug_nou or "/" in nom_nou or "\\" in nom_nou:
+        raise Refus(f"el nom «{nom_nou}» no dóna una adreça vàlida (sense «/» ni barres)")
+    # --- col·lisions ---
+    titols = titols_arquitectes(repo)
+    for carpeta, t in titols.items():
+        if carpeta != carpeta_antiga and t == nom_nou:
+            raise Refus(f"ja existeix un arquitecte amb el nom «{nom_nou}» (/arquitectes/{carpeta}/)")
+    if slug_nou != carpeta_antiga and (arrel / CARPETA_ARQUITECTES / slug_nou).exists():
+        raise Refus(f"ja existeix l'arquitecte amb l'adreça /arquitectes/{slug_nou}/")
+    sense = noms_sense_carpeta(repo, exclou_carpeta=carpeta_antiga)
+    if nom_nou in sense:
+        raise Refus(f"«{nom_nou}» ja surt a fitxes com a arquitecte (sense fitxa pròpia): es fusionarien")
+    altres = {t for c, t in titols.items() if c != carpeta_antiga} | {n for n in sense if n != nom_antic}
+    for t in sorted(altres):
+        if urlize_arquitecte(t) == slug_nou:
+            raise Refus(f"l'adreça /arquitectes/{slug_nou}/ coincideix amb la del terme «{t}»")
+    index = indexa_aliases(repo)
+    # --- propagació a fitxes d'element ---
+    for camí in _tots_els_md(repo):
+        if not RE_ELEMENT.match(camí) or camí.endswith("/_index.md"):
+            continue
+        t = _llegeix(repo, camí)
+        if nom_antic not in t:
+            continue
+        nou_t, n = substitueix_arquitecte_a_fitxa(t, nom_antic, nom_nou)
+        if n:
+            pla.escriptures[camí] = nou_t
+            pla.actualitzats.append(camí)
+        if nom_antic in nou_t:
+            pla.n_prosa += 1   # el nom queda en prosa lliure (descripcio): no es toca
+    # --- bio extra ---
+    if (arrel / CARPETA_BIO).exists():
+        t = _llegeix(repo, CARPETA_BIO)
+        nou_t, n = substitueix_terme_bio(t, nom_antic, nom_nou)
+        if n:
+            pla.escriptures[CARPETA_BIO] = nou_t
+    # --- carpeta i alias ---
+    url_nova = f"/arquitectes/{slug_nou}/"
+    urls_antigues = [f"/arquitectes/{carpeta_antiga}/"]
+    u2 = f"/arquitectes/{urlize_arquitecte(nom_antic)}/"
+    if u2 not in urls_antigues:
+        urls_antigues.append(u2)
+    camí_nou = f"{CARPETA_ARQUITECTES}/{slug_nou}/_index.md"
+    text = _gestiona_alias_propi(_llegeix(repo, antic), antic, urls_antigues, url_nova, index, pla)
+    if slug_nou != carpeta_antiga:
+        pla.moviments.append((f"{CARPETA_ARQUITECTES}/{carpeta_antiga}", f"{CARPETA_ARQUITECTES}/{slug_nou}"))
+    pla.escriptures[camí_nou if slug_nou != carpeta_antiga else antic] = text
+    return pla, antic, (camí_nou if slug_nou != carpeta_antiga else antic), carpeta_antiga, slug_nou
+
+
+def aplica_renom_arquitecte(repo, ev, mapa=None):
+    try:
+        pla, antic, nou, carpeta_antiga, slug_nou = planifica_renom_arquitecte(repo, ev, mapa)
+    except Refus as r:
+        return ResultatAplicacio(ev, "refusat", str(r))
+    except FileNotFoundError as e:
+        return ResultatAplicacio(ev, "omes", f"l'arquitecte {e} ja no existeix")
+    try:
+        escriu_pla(repo, pla)
+    except Exception as e:
+        desfes_arbre(repo)
+        return ResultatAplicacio(ev, "refusat", f"error inesperat: {e}")
+    if mapa is not None:
+        mapa[ev.path_antic] = nou
+    return ResultatAplicacio(ev, "aplicat", "", f"/arquitectes/{carpeta_antiga}/", f"/arquitectes/{slug_nou}/", nou, pla)
+
+
+# ---------------------------------------------------------------------------
+# Refús: es reverteix el títol (només la línia `title:`)
+# ---------------------------------------------------------------------------
+
+def refusa(repo, ev, motiu, mapa=None):
+    """Restaura el títol antic a la línia `title:` de l'arxiu de l'esdeveniment.
+
+    No toca res més del commit de l'editor. Retorna ResultatAplicacio('refusat')
+    amb `path_final` = arxiu on s'ha revertit el títol (o '' si ja no existeix).
+    """
+    camí = _resol(repo, ev.path_antic, mapa)
+    p = Path(repo) / camí
+    antic_text = git_show(repo, f"{ev.commit}^", ev.path_antic)
+    if not p.exists() or antic_text is None:
+        return ResultatAplicacio(ev, "refusat", motiu)
+    a0, a1, al = talla_frontmatter(antic_text)
+    r_antic = _rang_titol(al, a0, a1)
+    c0, c1, cl = talla_frontmatter(p.read_text(encoding="utf-8"))
+    r_nou = _rang_titol(cl, c0, c1)
+    if r_antic and r_nou:
+        cl[r_nou[0]:r_nou[1]] = al[r_antic[0]:r_antic[1]]
+        p.write_text("".join(cl), encoding="utf-8", newline="")
+        git(repo, "add", "--", camí)
+    return ResultatAplicacio(ev, "refusat", motiu, path_final=camí)
 
 
 # ---------------------------------------------------------------------------
