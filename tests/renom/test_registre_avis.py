@@ -84,7 +84,10 @@ def test_avis_cos_amb_urls_sencers_i_frase_de_recarrega(repo_prova):
     assert "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/pere-l%C3%B3pez/" in cos
     assert "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/casa-bloc/" in cos
     assert "Recarrega l'editor abans de continuar editant." in cos
-    assert cos.rstrip().endswith("LinuxBCN")
+    # Signatura: banderola ASCII amb el remitent i l'avís d'automatisme.
+    assert "LinuxBCN · sistemes i web · webmaster@linuxbcn.com" in cos
+    assert "[ avís automàtic ] guiesbarcelona.elglobusvermell.org" in cos
+    assert cos.rstrip().endswith("----------------------------------------------------------")
 
 
 def test_avis_refus_explica_que_fer(repo_prova):

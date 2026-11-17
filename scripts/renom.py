@@ -980,7 +980,15 @@ def _llista_enllaços(r):
 def compon_avis(r):
     """(assumpte, cos) en català planer, amb enllaços sencers. `r` és un ResultatAplicacio,
     o un dict {'tipus': 'conflicte', 'detall': [...]}."""
-    peu = "\nUna salutació,\nLinuxBCN\n"
+    # Signatura dels avisos: banderola ASCII, estil administració de sistemes.
+    peu = (
+        "\n-- \n"
+        "LinuxBCN · sistemes i web · webmaster@linuxbcn.com\n"
+        "----------------------------------------------------------\n"
+        "[ avís automàtic ] guiesbarcelona.elglobusvermell.org\n"
+        "script: scripts/renom.py · no cal respondre aquest correu\n"
+        "----------------------------------------------------------\n"
+    )
     if isinstance(r, dict) and r.get("tipus") == "conflicte":
         cos = ["Hola,", "",
                "No s'ha publicat res de nou al web perquè hem detectat un conflicte que cal revisar:", ""]

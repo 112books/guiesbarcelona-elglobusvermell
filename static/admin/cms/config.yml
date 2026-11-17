@@ -31,6 +31,13 @@ logo:
   show_in_header: true
 site_url: https://guiesbarcelona.elglobusvermell.org/
 
+# Nom d'arxiu de les fitxes noves (Sveltia `slug: "{{slug}}"\). Els accents fora:
+# tots els 658 noms de fitxa del repo són ASCII nets i així no se'n barregen. La
+# resta d'opcions, per defecte: un guió per als caràcters no vàlids, minúscules i
+# sense guions a les puntes. (Les entrades que ja existeixen no es renombren mai.)
+slug:
+  clean_accents: true
+
 # Opcions compartides (anchors YAML per reutilitzar)
 # ---
 
