@@ -1,12 +1,27 @@
 {{ define "main" }}
 {{ $pubs := hugo.Data.publicacions }}
 
+{{/* La fitxa d'un terme (content/ca/arquitectes/<terme>/_index.md) i el
+     terme de la taxonomia comparteixen adreça, i Hugo 0.159–0.168 a vegades
+     deixa guanyar el node creat a partir de la carpeta: llavors .Data.Term és
+     el nom de la carpeta («arriola--fiol-arquitectes») i .Pages surt buit
+     (~50% de les compilacions; vegeu l'informe del 17/11 sobre el bug de «&»).
+     Recuperem les pàgines del terme bo buscant la taxonomia que apunta a
+     aquesta mateixa adreça: així la llista d'edificis surt sempre. */}}
+{{ $pages := .Pages }}
+{{ if not $pages }}
+  {{ $url := .RelPermalink }}
+  {{ range $nom, $terme := site.Taxonomies.arquitectes }}
+    {{ if eq $terme.Page.RelPermalink $url }}{{ $pages = $terme.Pages }}{{ end }}
+  {{ end }}
+{{ end }}
+
 {{/* Alguns termes (amb "&" al nom) provoquen un bug de fusió no
      determinista de Hugo quan tenen fitxa dedicada — es documenta bio/
      enllaços aquí en lloc de content/ca/arquitectes/<slug>/_index.md. */}}
 {{ $bioExtra := dict }}
 {{ range index hugo.Data "arquitectes-bio-extra" }}
-  {{ if eq .terme $.Data.Term }}{{ $bioExtra = . }}{{ end }}
+  {{ if eq .terme $.Title }}{{ $bioExtra = . }}{{ end }}
 {{ end }}
 {{ $tipus := .Params.tipus | default $bioExtra.tipus }}
 {{ $descripcio := .Params.descripcio | default $bioExtra.descripcio }}
@@ -70,7 +85,7 @@
 {{/* Dades pel JavaScript */}}
 {{ $punts := slice }}
 {{ $tots  := slice }}
-{{ range .Pages }}
+{{ range $pages }}
   {{ $page := . }}
   {{ $entry := dict
     "title"             $page.Title
