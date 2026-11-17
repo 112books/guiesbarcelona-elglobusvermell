@@ -267,6 +267,126 @@ def titols_arquitectes(repo):
 
 
 # ---------------------------------------------------------------------------
+# `aliases`: només s'hi afegeix (l'única excepció és `treu_alias`, Tasca 15)
+# ---------------------------------------------------------------------------
+
+_RE_ITEM_INLINE = re.compile(r"""\s*("(?:[^"\\]|\\.)*"|'(?:[^']|'')*'|[^,\]\s][^,\]]*?)\s*(?:,|$)""")
+
+
+def _salt(linia):
+    """Salt de línia de `linia` ('\\r\\n', '\\n' o '')."""
+    return linia[len(linia.rstrip("\r\n")):]
+
+
+def _troba_aliases(linies, i0, i1):
+    """(i_clau, i_fi, forma): forma = 'inline' | 'bloc'; (None, None, None) si no n'hi ha.
+
+    Per a 'bloc', linies[i_clau+1:i_fi] són els ítems (poden ser 0).
+    """
+    for i in range(i0, i1):
+        m = re.match(r"^aliases:(.*)$", linies[i].rstrip("\r\n"))
+        if not m:
+            continue
+        resta = m.group(1).strip()
+        if resta.startswith("["):
+            return i, i + 1, "inline"
+        j = i + 1
+        while j < i1 and re.match(r"^\s*-(\s|$)", linies[j]):
+            j += 1
+        return i, j, "bloc"
+    return None, None, None
+
+
+def _items_inline(linia):
+    """Tokens crus (amb cometes) d'una línia `aliases: [..]`."""
+    interior = linia[linia.index("[") + 1:linia.rindex("]")]
+    return [m.group(1) for m in _RE_ITEM_INLINE.finditer(interior) if m.group(1)]
+
+
+def llegeix_aliases(text):
+    """Llista d'aliases (valors sense cometes) d'un fitxer de contingut."""
+    i0, i1, linies = talla_frontmatter(text)
+    k, fi, forma = _troba_aliases(linies, i0, i1)
+    if forma == "inline":
+        return [_desquota(t) for t in _items_inline(linies[k])]
+    if forma == "bloc":
+        return [_desquota(re.match(r"^\s*-\s*(.*?)\s*$", l.rstrip("\r\n")).group(1)) for l in linies[k + 1:fi]]
+    return []
+
+
+def _cita(valor, estil='"'):
+    """Valor amb les cometes de l'`estil` (escapant-ne el que cal)."""
+    if estil == "'":
+        return "'" + valor.replace("'", "''") + "'"
+    return '"' + valor.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def afegeix_alias(text, nova, canonica=None):
+    """Afegeix `nova` a `aliases` sense tocar res més. Idempotent.
+
+    * si `nova` ja hi és (qualsevol forma) o és la URL canònica pròpia: no fa res;
+    * inline: `, "nova"` abans del `]`; en bloc: línia nova després de l'últim ítem;
+    * sense `aliases`: línia `aliases: ["nova"]` sota el primer `---`.
+    """
+    if nova == canonica or nova in llegeix_aliases(text):
+        return text
+    i0, i1, linies = talla_frontmatter(text)
+    if i1 == 0:
+        raise ValueError("el fitxer no té frontmatter")
+    k, fi, forma = _troba_aliases(linies, i0, i1)
+    nl = _salt(linies[0]) or "\n"
+    if forma == "inline":
+        linia = linies[k].rstrip("\r\n")
+        pos = linia.rindex("]")
+        interior = linia[linia.index("[") + 1:pos].strip()
+        estil = "'" if interior.startswith("'") else '"'
+        sep = ", " if interior else ""
+        linies[k] = linia[:pos].rstrip() + sep + _cita(nova, estil) + linia[pos:] + _salt(linies[k])
+    elif forma == "bloc":
+        if fi > k + 1:
+            ultim = linies[fi - 1].rstrip("\r\n")
+            m = re.match(r"^(\s*)-\s+(.*?)\s*$", ultim)
+            sagnat, valor = (m.group(1), m.group(2)) if m else ("  ", "")
+            if valor[:1] == '"':
+                nou = _cita(nova, '"')
+            elif valor[:1] == "'":
+                nou = _cita(nova, "'")
+            else:
+                nou = nova if not re.search(r"[\s#'\"{}\[\],*!|>%@`]|: |:$", nova) else _cita(nova)
+        else:
+            sagnat, nou = "  ", nova
+        # si l'últim ítem no acaba en salt de línia (final de fitxer improbable), afegeix-lo
+        if not linies[fi - 1].endswith(("\n", "\r")):
+            linies[fi - 1] += nl
+        linies.insert(fi, f"{sagnat}- {nou}{nl}")
+    else:
+        linies.insert(i0, f"aliases: [{_cita(nova)}]{nl}")
+    return "".join(linies)
+
+
+def treu_alias(text, alias):
+    """Treu de `aliases` EXACTAMENT `alias` (única excepció a «mai no s'esborra res»:
+    la redirecció autoreferent, Tasca 15a). Edició d'una sola línia; res més no es toca."""
+    i0, i1, linies = talla_frontmatter(text)
+    k, fi, forma = _troba_aliases(linies, i0, i1)
+    if forma == "inline":
+        tokens = _items_inline(linies[k])
+        restants = [t for t in tokens if _desquota(t) != alias]
+        if len(restants) == len(tokens):
+            return text
+        linia = linies[k].rstrip("\r\n")
+        linies[k] = linia[:linia.index("[") + 1] + ", ".join(restants) + linia[linia.rindex("]"):] + _salt(linies[k])
+    elif forma == "bloc":
+        for j in range(k + 1, fi):
+            if _desquota(re.match(r"^\s*-\s*(.*?)\s*$", linies[j].rstrip("\r\n")).group(1)) == alias:
+                del linies[j]
+                break
+        else:
+            return text
+    return "".join(linies)
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
