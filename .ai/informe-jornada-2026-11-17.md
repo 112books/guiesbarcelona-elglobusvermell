@@ -2,8 +2,8 @@
 
 **Data:** 17/11/2026
 **Autoria:** Joan (LinuxBCN) amb assistència d'IA
-**Context:** dues sessions. Matí (11:59–13:45): disseny, pla i implementació del renom automàtic de fitxes i arquitectes, i publicació a `main`. Tarda (13:50–17:15): arreglo del bug de «&», prova real del renom, decisió de Xavi sobre els tipus d'intervenció, signatura dels avisos i tancament.
-**Commits (repo públic):** `cd861a1d`, `85d462b9` (renom), `1920fc77` (bug de «&»), `274649ce` (tauler), `badcfb30` («Nom i ús actual»), `4ef8af40` (informe del «&»), `ea94908b` → `ac07a27f` (prova real), `dbadf69a` → `67caefa2` (reversió), `b57717a3` (neteja de l'àlies de prova), `bee07409` (tauler), `b4fe05d7` (signatura i `clean_accents`).
+**Context:** tres sessions. Matí (11:59–13:45): disseny, pla i implementació del renom automàtic de fitxes i arquitectes, i publicació a `main`. Tarda (13:50–17:15): arreglo del bug de «&», prova real del renom, decisió de Xavi sobre els tipus d'intervenció, signatura dels avisos i tancament. Vespre (17:38–19:45): esborrany del mail de tancament a Xavi, data i hora al tauler de revisió i neteja del tauler (què és feina nostra i què espera el client).
+**Commits (repo públic):** `cd861a1d`, `85d462b9` (renom), `1920fc77` (bug de «&»), `274649ce` (tauler), `badcfb30` («Nom i ús actual»), `4ef8af40` (informe del «&»), `ea94908b` → `ac07a27f` (prova real), `dbadf69a` → `67caefa2` (reversió), `b57717a3` (neteja de l'àlies de prova), `bee07409` (tauler), `b4fe05d7` (signatura i `clean_accents`), `24768757` (tauler amb data i hora), `73590e5b` (redactat de les tasques pendents), `ae60388f` (les tasques del client passen a «Decisions»), `fd22ef7b` (fora la fitxa obsoleta del renom).
 
 ---
 
@@ -47,17 +47,52 @@ Tres «fets» nous (bug de «&», renom provat de punta a punta, «Nom i ús act
 
 ## 3. Pendent
 
-- **Esperant Xavi**: «Clotet, Paricio & Associats» (és el mateix estudi que «Clotet-Paricio»?) i la resta de dubtes del tauler.
+- **Mail de tancament**: esborrany llest a `docs/2026-11-17-mail-xavi-tancament-jornada.md`, pendent d'enviar.
+- **Esperant Xavi**: «Clotet, Paricio & Associats» (és el mateix estudi que «Clotet-Paricio»?) i les 19 decisions pendents del tauler.
 - **Neteja opcional**: les branques locals `feat/renom-automatic` i `feat/renom-revisio` ja són a `main` i es poden esborrar. La branca `prova-correu` i el worktree orfe de la sessió del matí ja s'han tret.
 - **Signatura dels avisos**: si en Joan la vol més curta o amb un altre to, es canvia en un sol lloc (`compon_avis`, `peu`).
 - Recordatori: el desplegament de producció del domini encara és el WordPress; el web nou es valida a `https://112books.github.io/guiesbarcelona-elglobusvermell/` fins al tall.
 
-## 4. Hores
+## 4. Vespre (17:38–19:45): tancament, mail i tauler
+
+### 4.1 «Darrera actualització» amb data i hora al tauler
+
+La capçalera de `/admin/revisio/` només deia el dia, i per tant no se sabia quins canvis reflectia. Ara diu «Darrera actualització: 17/11/2026 a les 19:45».
+
+- La data **no s'escriu a mà**: `scripts/estampa_tauler.py`, al desplegament i abans de Hugo, agafa el commit que va tocar `static/admin/revisio/tasques.json` i el desa a `actualitzat` en hora de Madrid (`AAAA-MM-DDTHH:MM`). Si no ho pot esbrinar, deixa el valor del fitxer i no atura el desplegament.
+- La pàgina converteix el valor a data i hora llegibles (`dataLlegible`) i és compatible amb el que hi havia: si només hi ha la data, la mostra tal com era.
+- 16 tests nous a `tests/tauler/`; suite completa en verd (132). Build local: 1315 pàgines i 768 àlies.
+
+### 4.2 Redactat de les tasques pendents (revisió de Joan)
+
+- **B2 (46 textos tallats)**: deia «Es fa de nosaltres quan tinguem accés a les dades del WordPress o quan el Xavi ens ho confirmi fitxa per fitxa» — trencat i donant feina al client quan el text original és al WP en línia i al dump. Reescrit: ho fem nosaltres i no cal que hi faci res.
+- **B2 (45 casos a ull)**: tenia la mateixa frase trencada.
+- **R8 (anys de les xifres)**: semblava una pregunta oberta, quan en Xavi ja va respondre el 21/10 («això vindrà d'introduir correctament la informació a les fitxes... també veure si podem posar 1400-2026 o s. XIV-2026»); el que queda és feina nostra.
+- **NOS (tancament del tauler)**: ara diu explícitament que és documentació nostra.
+
+### 4.3 El tauler diu qui fa cada feina
+
+De «Pendent de fer — per nosaltres» han sortit les cinc fitxes que en realitat esperaven cosa del client. Abans de moure-les es va comprovar que no fossin duplicades:
+
+- `r13-paleta`, fora: duplicava `gr1-gr2-colors` (mateixa resposta del 21/10).
+- `s3-en-paper-dues-columnes`, fusionada amb `dues-columnes` (resposta del 21/10 + els quatre enllaços de la prova).
+- `f6-color-parcial`, passa a «Decisions» amb la resposta del 21/10 (patrimoni industrial en color, la resta en blanc i negre, provisional).
+- `arquitectes-orfes-80-pendents` i `arquitectes-orfes-llista`, fora: són la mateixa cosa que `arquitectes-orfes-pendents`, que ja porta la llista per validar; s'hi va afegir què caldrà decidir amb els noms que no es creïn.
+- `renoms`, fora: encara demanava triar quan el renom automàtic ja està fet i publicat; la informació viva continua a `decisions_nostres` (`renom-automatic`) i a «Fet» (`renom-prova-real`).
+
+Resultat: «Pendent de fer — per nosaltres» queda amb 4 fitxes (B2 ×2, anys de les xifres i tancament del tauler) i les decisions pendents d'en Xavi baixen de 24 a 19. Cap id dels que es queden no canvia, així que les respostes desades al navegador es conserven.
+
+### 4.4 Esborrany del mail de tancament
+
+Decisió: mail curt i el detall al tauler (no un informe sencer al correu). `docs/2026-11-17-mail-xavi-tancament-jornada.md`, pendent d'enviar: els «&» arreglats i sense necessitat d'alternatives, el renom provat de punta a punta i desfet, «Nom i ús actual» aplicat, la pregunta de «Clotet, Paricio & Associats» i el tauler amb l'hora.
+
+## 5. Hores
 
 | Bloc | Hores | Tasques |
 |---|---|---|
 | Matí (11:59–13:45) | 1h 46 | 8 |
 | Tarda (13:50–17:15, amb pauses) | 2h 56 | 7 |
-| **Total** | **4h 42** | **15** |
+| Vespre (17:38–19:45) | 1h 47 | 6 |
+| **Total** | **6h 29** | **21** |
 
 Detall tasca a tasca a `docs/.taques/guia-globus-vermell/2026-11-17.md` (repo privat).
