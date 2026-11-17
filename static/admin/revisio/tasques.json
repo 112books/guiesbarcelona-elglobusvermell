@@ -1090,7 +1090,13 @@
           "detall": "Mes flexible, pero la informacio es pot tornar desigual."
         }
       ],
-      "descripcio": "Quins tipus necessiteu exactament?"
+      "descripcio": "Quins tipus necessiteu exactament?",
+      "resposta": {
+        "data": "2026-11-17",
+        "opcio_xavi": "Llista tancada i ampliable (no lliure)",
+        "text": "Hi havia dubte del nom, però hem consensuat «nom i ús actual». La llista ha de ser tancada i ampliable, no lliure.",
+        "nostra_accio": "Fet el 17/11: els dos tipus «Ús actual» i «Nom actual» queden en un de sol, «Nom i ús actual». El desplegable continua tancat i, si en falta cap, ens ho dieu i l'afegim."
+      }
     },
     {
       "id": "casa-braus-26",
@@ -2823,6 +2829,20 @@
         {
           "label": "A&EB",
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/aeb/"
+        }
+      ]
+    },
+    {
+      "id": "tipus-nom-i-us-actual",
+      "ref": "17/11 · Intervencions",
+      "estat": "fet",
+      "titol": "Tipus d'intervenció: «Nom i ús actual», llista tancada i ampliable",
+      "cita": "Si en falten d'altres? I la llista ha de ser tancada o voleu poder-ne escriure de nous?",
+      "resultat": "D'acord amb la vostra resposta: (1) «Ús actual» i «Nom actual» passen a ser un sol tipus, «Nom i ús actual»; (2) la llista continua sent tancada —no s'hi pot escriure res lliurement— perquè tots els tipus es diguin igual, i és ampliable: si us en falta cap, ens ho dieu i l'afegim nosaltres. Cap fitxa no en feia servir cap dels dos encara, així que no canvia res del web.",
+      "enllacos": [
+        {
+          "label": "Editor (obrir una fitxa qualsevol)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
         }
       ]
     }

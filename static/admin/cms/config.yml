@@ -275,9 +275,9 @@ collections:
               - Restauració
               - Rehabilitació
               - Autoria
-              - Ús actual
-              - Nom actual
+              - Nom i ús actual
             required: false
+            hint: "Llista tancada. Si us en falta un tipus, digueu-nos-ho i l'afegim (millor que escriure'l lliurement: així tots els tipus es diuen igual)."
           - label: Autors
             name: autors
             widget: relation
