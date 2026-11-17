@@ -387,6 +387,126 @@ def treu_alias(text, alias):
 
 
 # ---------------------------------------------------------------------------
+# Substitució del nom d'arquitecte a les fitxes (camps estructurats, línia a línia)
+# ---------------------------------------------------------------------------
+
+_RE_ITEM_LLISTA = re.compile(r"^(\s*-\s+)(.*?)(\s*)$")
+_VALORS_ESPECIALS = {"null", "true", "false", "yes", "no", "on", "off", "~", "y", "n"}
+
+
+def _pla_es_segur(v):
+    """Cert si `v` es pot escriure com a escalar pla YAML sense canviar de significat."""
+    if not v or v != v.strip() or "\t" in v or "\n" in v:
+        return False
+    if v[0] in "-?:,[]{}#&*!|>'\"%@`":
+        return False
+    if ": " in v or " #" in v or v.endswith(":"):
+        return False
+    if v.lower() in _VALORS_ESPECIALS or re.fullmatch(r"[-+]?[\d.][\d._,eE+-]*", v):
+        return False
+    return True
+
+
+def formata_valor(nou, cru_original):
+    """Escriu `nou` mantenint l'estil de cometes de `cru_original`.
+
+    Pla -> pla (o cometes simples si cal); 'simple' -> 'simple'; "doble" -> "doble".
+    """
+    if cru_original[:1] == "'":
+        return _cita(nou, "'")
+    if cru_original[:1] == '"':
+        return _cita(nou, '"')
+    return nou if _pla_es_segur(nou) else _cita(nou, "'")
+
+
+def _indexs_items_persona(linies, i0, i1):
+    """Índexs de línia dels ítems de `arquitectes:` i de `intervencions[].autors`."""
+    indexs = []
+    i = i0
+    while i < i1:
+        clau = _clau_primer_nivell(linies[i])
+        if clau == "arquitectes":
+            j = i + 1
+            while j < i1 and _RE_ITEM_LLISTA.match(linies[j].rstrip("\r\n")):
+                indexs.append(j)
+                j += 1
+            i = j
+            continue
+        if clau == "intervencions":
+            j = i + 1
+            while j < i1 and (not linies[j].strip() or linies[j][:1] in (" ", "-", "\t")):
+                m = re.match(r"^(\s*)(-\s+)?autors:\s*$", linies[j].rstrip("\r\n"))
+                if m:
+                    sagnat_clau = len(m.group(1)) + (len(m.group(2)) if m.group(2) else 0)
+                    k = j + 1
+                    while k < i1:
+                        mi = _RE_ITEM_LLISTA.match(linies[k].rstrip("\r\n"))
+                        if not mi or len(mi.group(1)) - len(mi.group(1).lstrip()) < sagnat_clau:
+                            break
+                        indexs.append(k)
+                        k += 1
+                    j = k
+                    continue
+                j += 1
+            i = j
+            continue
+        i += 1
+    return indexs
+
+
+def _items_arquitectes(text):
+    """[(índex_línia, valor_cru, nom)] dels ítems de persona d'una fitxa."""
+    i0, i1, linies = talla_frontmatter(text)
+    sortida = []
+    for j in _indexs_items_persona(linies, i0, i1):
+        cru = _RE_ITEM_LLISTA.match(linies[j].rstrip("\r\n")).group(2)
+        sortida.append((j, cru, _desquota(cru)))
+    return sortida
+
+
+def substitueix_arquitecte_a_fitxa(text, nom_antic, nom_nou):
+    """Canvia `nom_antic` per `nom_nou` NOMÉS als ítems de `arquitectes:` i
+    `intervencions[].autors` (coincidència exacta del valor). Retorna (text, n_canvis)."""
+    i0, i1, linies = talla_frontmatter(text)
+    n = 0
+    for j in _indexs_items_persona(linies, i0, i1):
+        linia = linies[j]
+        m = _RE_ITEM_LLISTA.match(linia.rstrip("\r\n"))
+        if _desquota(m.group(2)) != nom_antic:
+            continue
+        linies[j] = m.group(1) + formata_valor(nom_nou, m.group(2)) + m.group(3) + _salt(linia)
+        n += 1
+    return "".join(linies), n
+
+
+def substitueix_terme_bio(text_yaml, nom_antic, nom_nou):
+    """A `data/arquitectes-bio-extra.yaml`, canvia només la línia `terme:` exacta."""
+    linies = text_yaml.splitlines(keepends=True)
+    n = 0
+    for j, linia in enumerate(linies):
+        m = re.match(r"^(\s*(?:-\s+)?terme:\s*)(.*?)(\s*)$", linia.rstrip("\r\n"))
+        if m and _desquota(m.group(2)) == nom_antic:
+            linies[j] = m.group(1) + formata_valor(nom_nou, m.group(2)) + m.group(3) + _salt(linia)
+            n += 1
+    return "".join(linies), n
+
+
+def noms_sense_carpeta(repo):
+    """Noms d'arquitecte citats a fitxes (`arquitectes:` / `autors:`) sense `_index.md` propi.
+
+    Fora d'abast del renom, però compten per al control de col·lisió.
+    """
+    amb_carpeta = set(titols_arquitectes(repo).values())
+    citats = set()
+    for f in sorted((Path(repo) / CARPETA_ELEMENTS).glob("*.md")):
+        if f.name == "_index.md":
+            continue
+        for _, _, nom in _items_arquitectes(f.read_text(encoding="utf-8")):
+            citats.add(nom)
+    return sorted(citats - amb_carpeta)
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
