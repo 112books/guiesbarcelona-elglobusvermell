@@ -2914,28 +2914,28 @@
       "titol": "B2: els 45 casos que cal mirar a ull",
       "cita": "",
       "context": "Després de la primera tongada queden 45 casos que el script no pot decidir sol: premis, diverses fases d'obra, noms repetits o dubtosos i alguna tipologia que ja estava plena.",
-      "descripcio": "Es fa de nosaltres, amb l'informe .ai/informe-neteja-projecte-2026-10-14.md com a guia."
+      "descripcio": "Ho fem nosaltres (LinuxBCN), amb l'informe intern de la neteja del 14/10 com a guia. No cal que hi facis res."
     },
     {
       "id": "b2-pendent-manual",
       "ref": "B2 · B4",
       "titol": "B2: els 46 casos de text tallat a la migració",
       "cita": "",
-      "context": "El text ve tallat del WordPress («Casa X. Josep…» sense any) i cal completar-lo amb les dades del WordPress de producció, que encara és viu.",
-      "descripcio": "Es fa de nosaltres quan tinguem accés a les dades del WordPress o quan el Xavi ens ho confirmi fitxa per fitxa."
+      "context": "A 46 fitxes, la descripció ve tallada des del WordPress («Casa X. Josep…», sense l'any). El text original sencer encara es pot llegir al WordPress de producció, que és en línia, i també al dump de la base de dades.",
+      "descripcio": "Ho fem nosaltres (LinuxBCN): recuperem el text sencer de cada fitxa i el completem. No cal que hi facis res."
     },
     {
       "id": "r8-anys-xifres",
       "ref": "PR1 · R8",
-      "titol": "Anys de les xifres: 1400-2026 o s. XIV-2026",
+      "titol": "Anys de les xifres: «s. XIV–2026» o «1400–2026»",
       "cita": "Hem de revisar els anys, però això vindrà d'introduir correctament la informació a les fitxes... també veure si podem posar 1400-2026 o s. XIV - 2026.",
-      "context": "Analitzat: l'element més antic de la col·lecció és del segle XI (any 1000): masia-can-cortada i torre-rodona; després vénen s. XIII, s. XIV, s. XV... La xifra actual (1928) és un valor editorial fixat a mà que no reflecteix les dades. Detall a .ai/informe-anys-xifres-2026-10-13.md.",
-      "descripcio": "Quina opció preferiu? (a) s. XI–2026, fidel a les dades (recomanada); (b) s. XIV–2026; (c) 1400–2026; (d) mantenir 1928–2026; (e) reformular l'etiqueta.",
+      "context": "Analitzat: l'element més antic de la col·lecció és del 1000 (masia Can Cortada i Torre Rodona); després vénen els segles XIII, XIV i XV. La xifra que surt ara (1928) és un valor fixat a mà que no reflecteix les dades; el detall tècnic és a l'informe intern del 13/10.",
+      "descripcio": "Ho fem nosaltres (LinuxBCN): primer revisem els anys de les fitxes i, quan la dada sigui bona, apliquem el criteri que en surti i et proposem l'etiqueta definitiva. No cal que decideixis res ara.",
       "resposta": {
         "data": "2026-10-21",
         "opcio_xavi": "",
         "text": "Hem de revisar els anys, però això vindrà d’introduir correctament la informació a les fitxes... també veure si podem posar 1400-2026 o s. XIV - 2026",
-        "nostra_accio": "Es farà quan les dades de les fitxes estiguin revisades."
+        "nostra_accio": "Pendent per part nostra: revisió dels anys de les fitxes; després, l'etiqueta definitiva."
       }
     },
     {
@@ -2955,9 +2955,9 @@
     {
       "id": "tauler-final",
       "ref": "NOS",
-      "titol": "Actualitzar el tauler de revisió al final del projecte",
-      "context": "Quan el web estigui acabat, cal repassar el tauler perquè hi quedi tot ben explicat: què s'ha fet, què ha quedat pendent i quines decisions s'han pres.",
-      "descripcio": "Anotat per Joan l'1/10 com a tancament del projecte."
+      "titol": "Tancament del projecte: actualitzar el tauler de revisió",
+      "context": "Tasca nostra (LinuxBCN), anotada per Joan l'1/10: quan el web estigui acabat, repassem el tauler perquè hi quedi tot ben explicat — què s'ha fet i amb quina data, què ha quedat pendent i quines decisions s'han pres.",
+      "descripcio": "No cal que hi facis res: és la documentació del projecte, que fem nosaltres."
     },
     {
       "id": "s3-en-paper-dues-columnes",
