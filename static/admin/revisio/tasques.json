@@ -2845,6 +2845,24 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/admin/cms/"
         }
       ]
+    },
+    {
+      "id": "renom-prova-real",
+      "ref": "17/11 · Renombrar",
+      "estat": "fet",
+      "titol": "El renom automàtic, provat de punta a punta amb una fitxa real",
+      "context": "Els dos correus sobre «Jardins de Sofia Barat» que t'han arribat el 17/11 són d'aquesta prova, no d'un canvi de contingut.",
+      "resultat": "Provat el 17/11 amb la fitxa «Jardins de Sofia Barat», canviant-li el nom a «Jardins de Sofia Barat (prova)» i tornant-lo a deixar com era (uns minuts). Va funcionar tot: va arribar el correu, es va crear l'adreça nova, l'adreça antiga va quedar redirigida a la nova i, en desfer-ho, l'adreça de la prova va quedar retirada. La fitxa és exactament com era (comprovat byte a byte) i hi ha còpia prèvia al tag backup/abans-prova-renom-20261117.",
+      "enllacos": [
+        {
+          "label": "La fitxa, com era",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-de-sofia-barat/"
+        },
+        {
+          "label": "L'adreça que es va crear durant la prova (ara ja no hi és)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-de-sofia-barat-prova/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
