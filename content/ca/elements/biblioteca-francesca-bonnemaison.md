@@ -28,12 +28,12 @@ intervencions:
     autors:
       - Jordi Campanillas
     any: '2005'
-    descripcio: 'Francesca Bonnemaison Pedagoga, escriptora i feminista. 1872-1949 Sant Pere, Santa Caterina i la Ribera Arquitecte: De la rehabilitació: Jordi Campanillas (Diputació de Barcelona) xvi-xvii'
+    descripcio: 'Francesca Bonnemaison Pedagoga, escriptora i feminista. 1872-1949 Sant Pere, Santa Caterina i la Ribera Arquitecte: De la rehabilitació: Jordi Campanillas (Diputació de Barcelona)'
 premis: []
 lat: 41.3865712
 long: 2.1762656
 descripcio: 'Remodelació: Institut de Cultura i Biblioteca Popular per a la Dona. Josep Fontserè i Mestre. 1857'
 descripcio_nomenclator: ''
 districte: Ciutat Vella
-edifici_original: Casa senyorial. s.
+edifici_original: Casa senyorial. s. xvi-xvii
 ---

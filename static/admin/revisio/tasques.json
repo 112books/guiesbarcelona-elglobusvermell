@@ -1269,6 +1269,28 @@
   ],
   "canvis": [
     {
+      "id": "textos-tallats-3",
+      "ref": "18/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Tres textos que venien tallats del WordPress, completats",
+      "cita": "",
+      "resultat": "Fet (18/11): tres fitxes de biblioteca tenien un tros de text perdut a la migració perquè el WordPress el parteix en etiquetes HTML i l'importador tallava just allà: «Casa senyorial. s.» → «s. xvi-xvii», «Masia de Can Mariner. s.» → «s. xi» i «Escola Enric Borràs. Anys 60 del s.» → «s. xx». El tros que faltava era dins la descripció d'una altra intervenció de la mateixa fitxa; s'hi ha mogut, sense esborrar res. Comprovat contra la còpia del WordPress: no queda cap altre text tallat.",
+      "enllacos": [
+        {
+          "label": "Biblioteca Francesca Bonnemaison",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-francesca-bonnemaison/"
+        },
+        {
+          "label": "Biblioteca Horta – Can Mariner",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-horta-can-mariner/"
+        },
+        {
+          "label": "Biblioteca Montbau – Albert Pérez Baró",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/biblioteca-montbau-albert-perez-baro/"
+        }
+      ]
+    },
+    {
       "id": "arquitectes-enllacos",
       "ref": "16/11 · Arquitectes",
       "estat": "fet",
@@ -2928,10 +2950,10 @@
     {
       "id": "b2-pendent-manual",
       "ref": "B2 · B4",
-      "titol": "B2: els 46 casos de text tallat a la migració",
+      "titol": "B2: dades encaixades dins el text de la fitxa (43 casos)",
       "cita": "",
-      "context": "A 46 fitxes, la descripció ve tallada des del WordPress («Casa X. Josep…», sense l'any). El text original sencer encara es pot llegir al WordPress de producció, que és en línia, i també al dump de la base de dades.",
-      "descripcio": "Ho fem nosaltres (LinuxBCN): recuperem el text sencer de cada fitxa i el completem. No cal que hi facis res."
+      "context": "Del lot B2 que vam classificar el 14/10, 3 eren textos tallats i ja estan arreglats (el tros que faltava era al WordPress, partit per etiquetes). Els altres 43 són una altra cosa: la descripció porta enganxada informació estructurada («Projecte original: …», «Autor. 1910 + 1955», «Categoria: Fàbrica») que ha d'anar als camps d'intervenció, autors i any.",
+      "descripcio": "Ho fem nosaltres (LinuxBCN), fitxa per fitxa i amb el WordPress de producció com a referència. No cal que hi facis res."
     },
     {
       "id": "r8-anys-xifres",

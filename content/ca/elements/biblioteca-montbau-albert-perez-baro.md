@@ -5,12 +5,12 @@ descripcio: 'Biblioteca: 1991 Remodelació: Oliveras Boix Arquitectes. 2015'
 districte: "Horta-Guinardó"
 draft: false
 foto: /img/elements/biblioteca-montbau-albert-perez-baro.jpg
-edifici_original: Escola Enric Borràs. Anys 60 del s.
+edifici_original: Escola Enric Borràs. Anys 60 del s. xx
 intervencions:
 - any: '2015'
   autors:
     - 'Oliveras Boix Arquitectes'
-  descripcio: 'Albert Pérez Baró Escriptor i sindicalista. 1902-1989 Montbau xx Biblioteca:
+  descripcio: 'Albert Pérez Baró Escriptor i sindicalista. 1902-1989 Montbau Biblioteca:
     1991'
   tipus: Remodelació
 lat: 41.4292871

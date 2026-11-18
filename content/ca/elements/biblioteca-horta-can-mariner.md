@@ -22,12 +22,12 @@ intervencions:
     autors:
       - Josep Vila i Bayó
     any: '2008'
-    descripcio: xi La primera referència d’aquesta masia és de 1516 i l’última gran reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
+    descripcio: La primera referència d’aquesta masia és de 1516 i l’última gran reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
 premis: []
 lat: 41.4312026
 long: 2.1604091
 descripcio: La primera referència d’aquesta masia és de 1516 i l’última gran reforma, de 1949. Actualment acull la Biblioteca Horta – Can Mariner.
 descripcio_nomenclator: ''
 districte: Horta-Guinardó
-edifici_original: Masia de Can Mariner. s.
+edifici_original: Masia de Can Mariner. s. xi
 ---
