@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/torre-banco-atlantico-ara-banc-sabadell/
+  - /elements/torre-banco-atlantico-ara-banc-sabadell/
 title: Torre Banco Atlántico
 draft: false
 foto: /img/elements/torre-banco-atlantico-ara-banc-sabadell.jpg

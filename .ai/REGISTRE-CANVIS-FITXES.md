@@ -449,3 +449,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** aplicat
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:48 — renom de fitxa «Torre Banco Atlántico (ara Banc Sabadell)» → «Torre Banco Atlántico»
+
+- **Autor del desament:** xaviglobus (commit `a445945`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/torre-banco-atlantico-ara-banc-sabadell/` → `/elements/torre-banco-atlantico/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
