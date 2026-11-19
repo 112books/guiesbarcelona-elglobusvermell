@@ -13,6 +13,7 @@ any: '68'
 arquitectes:
   - Federico Correa Ruiz
   - Alfonso Milà Sagnier
+  - Correa Milà Arquitectes
 tipologia: ''
 proteccio: ''
 superficie: null
@@ -21,6 +22,7 @@ intervencions:
     autors:
       - Federico Correa Ruiz
       - Alfonso Milà Sagnier
+      - Correa Milà Arquitectes
     any: '1970'
     descripcio: ''
 premis: []
