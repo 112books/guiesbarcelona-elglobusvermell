@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-doficines-ronda-universitat/
-title: Edifici d’oficines
+title: Edifici d’oficines, ronda Universitat
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell

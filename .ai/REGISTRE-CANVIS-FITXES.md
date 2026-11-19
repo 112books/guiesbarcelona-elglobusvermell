@@ -477,3 +477,12 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/conjunt-residencial/ (content/ca/elements/conjunt-residencial.md)); s'ha revertit el títol a «Conjunt residencial Gran Via»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 14:07 — refús de renom de fitxa «Edifici d’oficines, ronda Universitat» → «Edifici d’oficines»
+
+- **Autor del desament:** xaviglobus (commit `5ccc621`)
+- **Tipus:** fitxa
+- **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-doficines/ (content/ca/elements/edifici-doficines.md)); s'ha revertit el títol a «Edifici d’oficines, ronda Universitat»
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
