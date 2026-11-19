@@ -1,19 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/habitatges-unifamiliars-agrupats-ceramica/"]
+aliases:
+  - /moderna-1950-1975/habitatges-unifamiliars-agrupats-ceramica/
+title: Polígon Montbau (Fase 3 - Habitatges unifamiliars agrupats)
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Ceràmica s/n
 any: '1968'
 arquitectes:
-- Joan Bosch Agustí
-draft: false
+  - Joan Bosch Agustí
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1968'
-  autors:
-    - 'Joan Bosch Agustí'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Joan Bosch Agustí
+    any: '1968'
+    descripcio: ''
+premis: []
 lat: 41.4323264
 long: 2.1400728
-publicacions:
-- 50-75
-title: Habitatges unifamiliars agrupats Ceràmica
+descripcio: ''
+descripcio_nomenclator: ''
 ---
