@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-nicaragua/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Nicaragua
 draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-nicaragua.jpg
 foto_autoria: El Globus Vermell
