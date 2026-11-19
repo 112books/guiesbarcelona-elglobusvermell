@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/habitatges-unifamiliars-agrupats-ceramica/
+  - /elements/habitatges-unifamiliars-agrupats-ceramica/
 title: Polígon Montbau (Fase 3 - Habitatges unifamiliars agrupats)
 draft: false
 foto: ''

@@ -439,3 +439,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** aplicat
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:45 — renom de fitxa «Habitatges unifamiliars agrupats Ceràmica» → «Polígon Montbau (Fase 3 - Habitatges unifamiliars agrupats)»
+
+- **Autor del desament:** xaviglobus (commit `c17c732`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/habitatges-unifamiliars-agrupats-ceramica/` → `/elements/poligon-montbau-fase-3-habitatges-unifamiliars-agrupats/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
