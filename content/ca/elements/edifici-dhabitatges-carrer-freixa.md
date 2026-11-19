@@ -1,19 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-freixa/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-carrer-freixa/
+title: Edifici d’habitatges
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Freixa 36
 any: '1958'
 arquitectes:
-- Francesc Mitjans i Miró
-draft: false
+  - Francesc Mitjans i Miró
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1958'
-  autors:
-    - 'Francesc Mitjans i Miró'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Francesc Mitjans i Miró
+    any: '1958'
+    descripcio: ''
+premis: []
 lat: 41.3991302
 long: 2.1381474
-publicacions:
-- 50-75
-title: Edifici d’habitatges, carrer Freixa
+descripcio: ''
+descripcio_nomenclator: ''
 ---
