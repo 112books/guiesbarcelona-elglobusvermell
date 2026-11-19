@@ -1,20 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-bach-28/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-carrer-bach-28/
+title: Edifici d’habitatges
+draft: false
+foto: /img/elements/edifici-dhabitatges-carrer-bach-28.jpg
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Bach 28
 any: '1963'
 arquitectes:
-- Ricardo Bofill Levi
-draft: false
-foto: /img/elements/edifici-dhabitatges-carrer-bach-28.jpg
+  - Ricardo Bofill Levi
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1963'
-  autors:
-    - 'Ricardo Bofill Levi'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Ricardo Bofill Levi
+    any: '1963'
+    descripcio: ''
+premis: []
 lat: 41.3964911
 long: 2.1406164
-publicacions:
-- 50-75
-title: Edifici d’habitatges, carrer Bach 28
+descripcio: ''
+descripcio_nomenclator: ''
 ---
