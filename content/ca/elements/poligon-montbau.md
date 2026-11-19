@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/poligon-montbau/
-title: Polígon Montbau
+title: Polígon Montbau (Fases 1 i 2)
 draft: false
 foto: /img/elements/poligon-montbau.jpg
 foto_autoria: El Globus Vermell
@@ -25,19 +25,18 @@ superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - Guillem Giráldez i Dávila + Pere López i Íñigo + Xavier Subias i Fages + Manuel Baldrich + Antoni Bonet Castellana + Josep Maria Soteras i Mauri
       - Guillem Giráldez i Dávila
       - Pere López Íñigo
       - Xavier Subías i Fages
       - Manuel Baldrich Tibau
-      - Josep Maria Soteras i Mauri
       - Antoni Bonet Castellana
+      - Josep Maria Soteras i Mauri
     any: '1965'
     descripcio: ''
-anys_reforma: []
 premis: []
 lat: 41.4306906
 long: 2.1424973
 descripcio: ''
 descripcio_nomenclator: ''
+anys_reforma: []
 ---
