@@ -1,22 +1,33 @@
 ---
-aliases: ["/moderna-1950-1975/facultat-deconomia-i-empresa/"]
+aliases:
+  - /moderna-1950-1975/facultat-deconomia-i-empresa/
+title: Facultat d’Economia i Empresa
+draft: false
+foto: /img/elements/facultat-deconomia-i-empresa.jpg
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Av. Diagonal 694
 any: '1961'
 arquitectes:
-- Javier Carvajal Ferrer
-- Rafael García de Castro Peña
-draft: false
-foto: /img/elements/facultat-deconomia-i-empresa.jpg
+  - Javier Carvajal Ferrer
+  - Rafael García de Castro Peña
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1961'
-  autors:
-    - 'Javier Carvajal Ferrer'
-    - 'Rafael García de Castro'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Javier Carvajal Ferrer
+      - Rafael García de Castro Peña
+    any: '1961'
+    descripcio: ''
+premis: []
 lat: 41.3849583
 long: 2.1118345
-publicacions:
-- 50-75
-title: Facultat d’Economia i Empresa
+descripcio: ''
+descripcio_nomenclator: ''
 ---
