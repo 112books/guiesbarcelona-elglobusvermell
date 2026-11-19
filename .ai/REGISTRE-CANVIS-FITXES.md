@@ -253,3 +253,12 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Roger de Flor»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 12:31 — refús de renom de fitxa «Edifici d’habitatges, carrer Freixa» → «Edifici d’habitatges»
+
+- **Autor del desament:** xaviglobus (commit `9482e1c`)
+- **Tipus:** fitxa
+- **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Freixa»
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada

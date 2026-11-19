@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-freixa/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Freixa
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
