@@ -486,3 +486,12 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-doficines/ (content/ca/elements/edifici-doficines.md)); s'ha revertit el títol a «Edifici d’oficines, ronda Universitat»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 15:01 — refús de renom de fitxa «Edifici d’habitatges, carrer Monterols» → «Edifici d’habitatges»
+
+- **Autor del desament:** xaviglobus (commit `9bcd8da`)
+- **Tipus:** fitxa
+- **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Monterols»
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada

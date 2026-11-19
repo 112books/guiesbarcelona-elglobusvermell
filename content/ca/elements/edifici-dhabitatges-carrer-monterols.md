@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-monterols/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Monterols
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
