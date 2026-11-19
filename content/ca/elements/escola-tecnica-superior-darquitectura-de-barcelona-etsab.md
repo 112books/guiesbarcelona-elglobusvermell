@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/escola-tecnica-superior-darquitectura-de-barcelona/
+  - /elements/escola-tecnica-superior-darquitectura-de-barcelona/
 title: Escola Tècnica Superior d’Arquitectura de Barcelona (ETSAB)
 draft: false
 foto: ''

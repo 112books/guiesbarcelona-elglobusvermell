@@ -289,3 +289,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Bach 7»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:01 — renom de fitxa «Escola Tècnica Superior d’Arquitectura de Barcelona» → «Escola Tècnica Superior d’Arquitectura de Barcelona (ETSAB)»
+
+- **Autor del desament:** xaviglobus (commit `3b4eb89`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/escola-tecnica-superior-darquitectura-de-barcelona/` → `/elements/escola-tecnica-superior-darquitectura-de-barcelona-etsab/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
