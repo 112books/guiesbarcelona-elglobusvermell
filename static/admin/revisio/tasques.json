@@ -2987,6 +2987,68 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
         }
       ]
+    },
+    {
+      "id": "columna-alineada",
+      "ref": "19/11 · Disseny",
+      "estat": "fet",
+      "titol": "La columna de contingut ja quadra amb el logo i amb «Contacte»",
+      "context": "Deies que el cos de la pàgina no ocupava tot l'ample i que, des del logo, feia un escalat cap al centre.",
+      "resultat": "Fet (19/11): hi havia tres embolcalls que estrenyien la columna (la fitxa a 52rem, les pàgines de text a 48rem i els plànols, que a més hi afegien un marge extra). Ara tots tres ocupen tot l'ample: la vora esquerra coincideix amb el logo i la dreta amb «Contacte», a totes les pàgines.",
+      "enllacos": [
+        {
+          "label": "Plànol-guia 1950-1975",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75/"
+        },
+        {
+          "label": "Fitxa: Menjadors de la SEAT",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/menjadors-de-la-seat/"
+        },
+        {
+          "label": "Pàgina «En paper»",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/en-paper/"
+        }
+      ]
+    },
+    {
+      "id": "llistats-esquerra",
+      "ref": "19/11 · Disseny",
+      "estat": "fet",
+      "titol": "Al llistat, tots els elements arranats a l'esquerra",
+      "context": "Amb el llistat desplegat es veia que els elements quedaven escalats cap a la dreta, i a les pàgines d'arquitecte el nom de l'arquitecte encara més.",
+      "resultat": "Fet (19/11): tret el marge de 1rem del grup i el coixí de 2,75rem de cada element; el nom de l'arquitecte ja no porta el mig centímetre addicional. Ara el títol, l'adreça i el nom de l'arquitecte comencen tots a la mateixa vertical, arran de l'esquerra.",
+      "enllacos": [
+        {
+          "label": "Llistat d'un plànol",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75/"
+        },
+        {
+          "label": "Pàgina d'arquitecte: Josep Lluís Sert",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/arquitectes/josep-llu%C3%ADs-sert-i-l%C3%B3pez/"
+        }
+      ]
+    },
+    {
+      "id": "fotos-paper",
+      "ref": "19/11 · Plànols",
+      "estat": "fet",
+      "titol": "Les fotos de «El plànol en paper» ja surten",
+      "context": "A les pàgines dels plànols, la secció hi era però les imatges no es veien.",
+      "resultat": "Fet (19/11): les imatges es demanaven amb una adreça que no incloïa el camí del lloc, així que el navegador anava a buscar-les a un lloc que no existeix. Ja es veuen a tots els plànols que en tenen (1950-1975, jardins interiors, la Marina, mercats, biblioteques…).",
+      "enllacos": [
+        {
+          "label": "Plànol 1950-1975",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/50-75/"
+        },
+        {
+          "label": "Jardins interiors d'illa",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/interiors-illa/"
+        },
+        {
+          "label": "Biblioteques",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/biblioteques/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [
