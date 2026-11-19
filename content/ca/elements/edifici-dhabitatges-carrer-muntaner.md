@@ -1,21 +1,33 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-muntaner/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-carrer-muntaner/
+title: Edifici d’habitatges
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Muntaner 271-273 / Avenir 35-37
 any: '1966'
 arquitectes:
-- Manuel de Solà-Morales i de Rosselló
-- Manuel de Solà-Morales i Rubió
-draft: false
+  - Manuel de Solà-Morales i de Rosselló
+  - Manuel de Solà-Morales i Rubió
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1966'
-  autors:
-    - 'Manuel de Solà-Morales i de Rosselló'
-    - 'Manuel de Solà-Morales i Rubió'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Manuel de Solà-Morales i de Rosselló
+      - Manuel de Solà-Morales i Rubió
+    any: '1966'
+    descripcio: ''
+premis: []
 lat: 41.3957595
 long: 2.1471273
-publicacions:
-- 50-75
-title: Edifici d’habitatges, carrer Muntaner
+descripcio: ''
+descripcio_nomenclator: ''
 ---
