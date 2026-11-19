@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/conjunt-residencial-diagonal/
+  - /elements/conjunt-residencial-diagonal/
 title: Conjunt residencial
 draft: false
 foto: ''
