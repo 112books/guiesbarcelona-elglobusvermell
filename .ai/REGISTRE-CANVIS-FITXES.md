@@ -188,3 +188,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, avinguda Pedralbes»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 12:01 — renom de fitxa «Edifici d’habitatges Barceloneta» → «Casa de la Marina»
+
+- **Autor del desament:** xaviglobus (commit `663e97c`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/edifici-dhabitatges-barceloneta/` → `/elements/casa-de-la-marina/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada

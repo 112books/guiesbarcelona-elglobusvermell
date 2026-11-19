@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-barceloneta/
+  - /elements/edifici-dhabitatges-barceloneta/
 title: Casa de la Marina
 draft: false
 foto: /img/elements/edifici-dhabitatges-barceloneta.jpg
