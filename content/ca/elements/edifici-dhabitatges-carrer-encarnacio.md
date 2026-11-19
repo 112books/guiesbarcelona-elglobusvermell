@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-encarnacio/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Encarnació
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
