@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-doficines-banca-catalana-ara-hotel/
+  - /elements/edifici-doficines-banca-catalana-ara-hotel/
 title: Edifici d’oficines Banca Catalana
 draft: false
 foto: /img/elements/edifici-doficines-banca-catalana-ara-hotel.jpg

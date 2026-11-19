@@ -429,3 +429,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Calatrava»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:43 — renom de fitxa «Edifici d’oficines Banca Catalana (ara hotel)» → «Edifici d’oficines Banca Catalana»
+
+- **Autor del desament:** xaviglobus (commit `e2fc005`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/edifici-doficines-banca-catalana-ara-hotel/` → `/elements/edifici-doficines-banca-catalana/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
