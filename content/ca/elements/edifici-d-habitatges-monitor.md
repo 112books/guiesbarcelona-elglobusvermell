@@ -9,7 +9,7 @@ publicacions:
   - 50-75
 temes_transversals: []
 adreca: Av. Diagonal 670
-any: '68'
+any: '1970'
 arquitectes:
   - Federico Correa Ruiz
   - Alfonso Milà Sagnier
