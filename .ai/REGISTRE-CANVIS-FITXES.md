@@ -337,3 +337,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Nicaragua»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:16 — renom de fitxa «Polígon Montbau» → «Polígon Montbau (Fases 1 i 2)»
+
+- **Autor del desament:** xaviglobus (commit `3e0a1f5`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/poligon-montbau/` → `/elements/poligon-montbau-fases-1-i-2/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada

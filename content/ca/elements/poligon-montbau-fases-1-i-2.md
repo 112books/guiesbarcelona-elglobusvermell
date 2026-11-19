@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/poligon-montbau/
+  - /elements/poligon-montbau/
 title: Polígon Montbau (Fases 1 i 2)
 draft: false
 foto: /img/elements/poligon-montbau.jpg
