@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-juan-de-garay/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Juan de Garay
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
