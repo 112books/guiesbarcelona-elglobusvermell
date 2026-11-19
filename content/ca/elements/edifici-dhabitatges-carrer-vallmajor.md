@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-vallmajor/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Vallmajor
 draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-vallmajor.jpg
 foto_autoria: El Globus Vermell
