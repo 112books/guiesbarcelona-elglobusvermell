@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-rosello/
-title: Edifici d’habitatges, carrer Roselló
+title: Edifici d’habitatges
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
