@@ -1,23 +1,36 @@
 ---
-aliases: ["/moderna-1950-1975/conjunt-residencial-gran-via/"]
+aliases:
+  - /moderna-1950-1975/conjunt-residencial-gran-via/
+title: Conjunt residencial
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Gran Via 144-156
 any: '1971'
 arquitectes:
-- Guillem Giráldez i Dávila
-- Pere López i Íñigo
-- Xavier Subías i Fages
-draft: false
+  - Guillem Giráldez i Dávila
+  - Pere López i Íñigo
+  - Xavier Subías i Fages
+  - Pere López Íñigo
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1971'
-  autors:
-    - 'Guillem Giráldez i Dávila'
-    - 'Pere López i Íñigo'
-    - 'Xavier Subias i Fages'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Guillem Giráldez i Dávila
+      - Pere López Íñigo
+      - Xavier Subías i Fages
+    any: '1971'
+    descripcio: ''
+premis: []
 lat: 41.3654545
 long: 2.1371067
-publicacions:
-- 50-75
-title: Conjunt residencial Gran Via
+descripcio: ''
+descripcio_nomenclator: ''
 ---
