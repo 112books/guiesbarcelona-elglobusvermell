@@ -318,3 +318,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** aplicat
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:11 — renom de fitxa «Edifici d’oficines Hispano Olivetti (ara hotel)» → «Edifici d’oficines Hispano Olivetti»
+
+- **Autor del desament:** xaviglobus (commit `4ae5c8a`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/edifici-doficines-hispano-olivetti-ara-hotel/` → `/elements/edifici-doficines-hispano-olivetti/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada

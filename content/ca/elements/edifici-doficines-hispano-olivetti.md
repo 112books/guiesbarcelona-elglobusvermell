@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-doficines-hispano-olivetti-ara-hotel/
+  - /elements/edifici-doficines-hispano-olivetti-ara-hotel/
 title: Edifici d’oficines Hispano Olivetti
 draft: false
 foto: /img/elements/edifici-doficines-hispano-olivetti-ara-hotel.jpg
