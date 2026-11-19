@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/conjunt-residencial-gran-via/
-title: Conjunt residencial
+title: Conjunt residencial Gran Via
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
