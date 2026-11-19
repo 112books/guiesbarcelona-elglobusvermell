@@ -3014,9 +3014,9 @@
       "id": "llistats-esquerra",
       "ref": "19/11 · Disseny",
       "estat": "fet",
-      "titol": "Al llistat, tots els elements arranats a l'esquerra",
+      "titol": "Al llistat, tots els elements arranats a l'esquerra i a la mateixa distància",
       "context": "Amb el llistat desplegat es veia que els elements quedaven escalats cap a la dreta, i a les pàgines d'arquitecte el nom de l'arquitecte encara més.",
-      "resultat": "Fet (19/11): tret el marge de 1rem del grup i el coixí de 2,75rem de cada element; el nom de l'arquitecte ja no porta el mig centímetre addicional. Ara el títol, l'adreça i el nom de l'arquitecte comencen tots a la mateixa vertical, arran de l'esquerra.",
+      "resultat": "Fet (19/11): tret el marge de 1rem del grup i el coixí de 2,75rem de cada element (també al mòbil); el nom de l'arquitecte ja no porta el mig centímetre addicional. A més, el nom, l'adreça i l'arquitecte formen un sol bloc amb la mateixa distància entre tots tres: abans l'arquitecte quedava més separat perquè el separava el gap de la fila. Ara comencen tots a la mateixa vertical i amb el mateix aire.",
       "enllacos": [
         {
           "label": "Llistat d'un plànol",
