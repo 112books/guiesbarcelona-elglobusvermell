@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-2/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, avinguda Pedralbes
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
