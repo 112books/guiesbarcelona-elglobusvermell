@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-18T23:51:02.219348Z",
+  "generated": "2026-11-19T05:46:19.974225Z",
   "period": {
-    "start": "2025-11-18",
-    "end": "2026-11-18"
+    "start": "2025-11-19",
+    "end": "2026-11-19"
   },
-  "total": 1542,
+  "total": 1547,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -241,7 +241,7 @@
     },
     {
       "date": "2026-10-09",
-      "count": 25
+      "count": 24
     },
     {
       "date": "2026-10-10",
@@ -297,7 +297,7 @@
     },
     {
       "date": "2026-10-26",
-      "count": 40
+      "count": 42
     },
     {
       "date": "2026-10-28",
@@ -341,11 +341,11 @@
     },
     {
       "date": "2026-11-12",
-      "count": 17
+      "count": 16
     },
     {
       "date": "2026-11-13",
-      "count": 9
+      "count": 8
     },
     {
       "date": "2026-11-15",
@@ -353,11 +353,15 @@
     },
     {
       "date": "2026-11-16",
-      "count": 54
+      "count": 53
     },
     {
       "date": "2026-11-17",
-      "count": 35
+      "count": 36
+    },
+    {
+      "date": "2026-11-18",
+      "count": 6
     }
   ],
   "hits": [
@@ -367,7 +371,7 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/mapa",
-      "count": 113
+      "count": 114
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/en-paper",
@@ -375,11 +379,11 @@
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/arquitectes",
-      "count": 63
+      "count": 64
     },
     {
       "path": "/guiesbarcelona-elglobusvermell/presentacio",
-      "count": 59
+      "count": 60
     },
     {
       "path": "/mapa-filtre-pub/50-75",
@@ -483,7 +487,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 1091,
+    "guiesbarcelona-elglobusvermell": 1096,
     "mapa-filtre-pub": 280,
     "mapa-info-pub": 53,
     "mapa-filtre-tema": 53,
@@ -621,7 +625,8 @@
       "2026-11-13": 1,
       "2026-11-15": 2,
       "2026-11-16": 4,
-      "2026-11-17": 2
+      "2026-11-17": 2,
+      "2026-11-18": 1
     },
     "/guiesbarcelona-elglobusvermell/en-paper": {
       "2026-07-19": 2,
@@ -710,7 +715,8 @@
       "2026-11-12": 1,
       "2026-11-13": 1,
       "2026-11-16": 3,
-      "2026-11-17": 2
+      "2026-11-17": 2,
+      "2026-11-18": 1
     },
     "/guiesbarcelona-elglobusvermell/presentacio": {
       "2026-07-19": 2,
@@ -750,7 +756,8 @@
       "2026-11-02": 1,
       "2026-11-05": 1,
       "2026-11-06": 1,
-      "2026-11-16": 1
+      "2026-11-16": 1,
+      "2026-11-18": 1
     },
     "/mapa-filtre-pub/50-75": {
       "2026-07-19": 2,
@@ -1421,6 +1428,15 @@
       "2026-09-02": 1,
       "2026-11-17": 1
     },
+    "/guiesbarcelona-elglobusvermell/elements/casa-bloc": {
+      "2026-08-06": 2,
+      "2026-08-07": 1,
+      "2026-10-15": 1,
+      "2026-11-12": 1,
+      "2026-11-13": 1,
+      "2026-11-16": 1,
+      "2026-11-18": 2
+    },
     "/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-set-vides": {
       "2026-08-04": 1,
       "2026-08-17": 1,
@@ -1483,14 +1499,6 @@
       "2026-08-19": 1,
       "2026-08-21": 1,
       "2026-10-23": 2,
-      "2026-11-16": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/casa-bloc": {
-      "2026-08-06": 2,
-      "2026-08-07": 1,
-      "2026-10-15": 1,
-      "2026-11-12": 1,
-      "2026-11-13": 1,
       "2026-11-16": 1
     },
     "/guiesbarcelona-elglobusvermell/publicacions/new-babylon": {
@@ -1798,6 +1806,11 @@
       "2026-11-10": 1,
       "2026-11-12": 1
     },
+    "/guiesbarcelona-elglobusvermell/arquitectes/manuel-baldrich-tibau": {
+      "2026-10-26": 2,
+      "2026-11-17": 1,
+      "2026-11-18": 1
+    },
     "/guiesbarcelona-elglobusvermell/elements/biblioteca-vall-d-hebron": {
       "2026-10-15": 1,
       "2026-10-16": 1,
@@ -1806,12 +1819,6 @@
     },
     "/guiesbarcelona-elglobusvermell/elements/pavello-de-la-republica-de-1937-replica": {
       "2026-10-15": 1,
-      "2026-11-12": 1,
-      "2026-11-13": 1,
-      "2026-11-16": 1
-    },
-    "/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-navas-240": {
-      "2026-10-09": 1,
       "2026-11-12": 1,
       "2026-11-13": 1,
       "2026-11-16": 1
@@ -1877,7 +1884,7 @@
       "2026-10-05": 13,
       "2026-10-07": 3,
       "2026-10-08": 1,
-      "2026-10-09": 17,
+      "2026-10-09": 16,
       "2026-10-10": 2,
       "2026-10-12": 1,
       "2026-10-13": 13,
@@ -1891,7 +1898,7 @@
       "2026-10-23": 30,
       "2026-10-24": 1,
       "2026-10-25": 2,
-      "2026-10-26": 37,
+      "2026-10-26": 39,
       "2026-10-28": 1,
       "2026-10-30": 6,
       "2026-10-31": 4,
@@ -1902,11 +1909,12 @@
       "2026-11-06": 37,
       "2026-11-09": 5,
       "2026-11-10": 15,
-      "2026-11-12": 16,
-      "2026-11-13": 8,
+      "2026-11-12": 15,
+      "2026-11-13": 7,
       "2026-11-15": 3,
-      "2026-11-16": 42,
-      "2026-11-17": 33
+      "2026-11-16": 41,
+      "2026-11-17": 34,
+      "2026-11-18": 6
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -2095,12 +2103,12 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell",
-      "count": 665
+      "count": 666
     },
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 555
+      "count": 556
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/mapa",
@@ -2150,7 +2158,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac",
-      "count": 31
+      "count": 32
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/contacte",
@@ -2478,6 +2486,11 @@
       "count": 3
     },
     {
+      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/grup-escolar-blanquerna",
+      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/grup-escolar-blanquerna",
+      "count": 3
+    },
+    {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-dagusti-centelles",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-dagusti-centelles",
       "count": 3
@@ -2585,11 +2598,6 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/centre-darts-santa-monica",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/centre-darts-santa-monica",
-      "count": 2
-    },
-    {
-      "name": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-dhorta",
-      "id": "112books.github.io/guiesbarcelona-elglobusvermell/elements/mercat-dhorta",
       "count": 2
     }
   ]
