@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-doficines-i-habitatges-carrer-rosello/
+  - /elements/edifici-doficines-i-habitatges-carrer-rosello/
 title: Edifici d’oficines i habitatges
 draft: false
 foto: /img/elements/edifici-doficines-i-habitatges-carrer-rosello.jpg

@@ -216,3 +216,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Tavern»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 12:15 — renom de fitxa «Edifici d’oficines i habitatges, carrer Roselló» → «Edifici d’oficines i habitatges»
+
+- **Autor del desament:** xaviglobus (commit `b74a73b`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/edifici-doficines-i-habitatges-carrer-rosello/` → `/elements/edifici-doficines-i-habitatges/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
