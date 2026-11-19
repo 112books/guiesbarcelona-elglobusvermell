@@ -1,20 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-nicaragua/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-carrer-nicaragua/
+title: Edifici d’habitatges
+draft: false
+foto: /img/elements/edifici-dhabitatges-carrer-nicaragua.jpg
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Nicaragua 97-99
 any: '1965'
 arquitectes:
-- Ricardo Bofill Levi
-draft: false
-foto: /img/elements/edifici-dhabitatges-carrer-nicaragua.jpg
+  - Ricardo Bofill Levi
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1965'
-  autors:
-    - 'Ricardo Bofill Levi'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Ricardo Bofill Levi
+    any: '1965'
+    descripcio: ''
+premis: []
 lat: 41.3851968
 long: 2.1387684
-publicacions:
-- 50-75
-title: Edifici d’habitatges, carrer Nicaragua
+descripcio: ''
+descripcio_nomenclator: ''
 ---
