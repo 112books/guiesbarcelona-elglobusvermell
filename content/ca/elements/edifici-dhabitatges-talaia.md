@@ -16,6 +16,7 @@ arquitectes:
   - Federico Correa Ruiz
   - Alfonso Milà Sagnier
   - José Luis Sanz-Magallón y Hurtado de Mendoza
+  - Correa Milà Arquitectes
 tipologia: ''
 proteccio: ''
 superficie: null
@@ -25,6 +26,7 @@ intervencions:
       - Federico Correa Ruiz
       - Alfonso Milà Sagnier
       - José Luis Sanz-Magallón y Hurtado de Mendoza
+      - Correa Milà Arquitectes
     any: '1970'
     descripcio: ''
 premis: []
