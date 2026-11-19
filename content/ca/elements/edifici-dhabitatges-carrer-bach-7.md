@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-bach-7/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Bach 7
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
