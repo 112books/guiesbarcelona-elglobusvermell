@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-muntaner/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Muntaner
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
