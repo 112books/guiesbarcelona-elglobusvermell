@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-sant-antoni-i-maria-claret/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Sant Antoni i Maria Claret
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
