@@ -1,19 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-mallorca/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-carrer-mallorca/
+title: Edifici d’habitatges
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Mallorca 213 / Enric Granados 42
 any: '1956'
 arquitectes:
-- Guillem Cosp i Vilaró
-draft: false
+  - Guillem Cosp i Vilaró
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1956'
-  autors:
-    - 'Guillem Cosp i Vilaró'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Guillem Cosp i Vilaró
+    any: '1956'
+    descripcio: ''
+premis: []
 lat: 41.3910143
 long: 2.1584565
-publicacions:
-- 50-75
-title: Edifici d’habitatges, carrer Mallorca
+descripcio: ''
+descripcio_nomenclator: ''
 ---
