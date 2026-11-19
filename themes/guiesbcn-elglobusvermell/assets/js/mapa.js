@@ -1133,6 +1133,11 @@
         '<span class="llistat-grup-count">' + els.length + ' element' + (els.length !== 1 ? 's' : '') + '</span>' +
         SVG_FLETXA;
       var subLlista = buildLlistatUl(subCosId, els);
+      if (grupPer !== 'lletra') {   // desplegat per defecte als plànols (Xavi, 19/11)
+        subCap.setAttribute('aria-expanded', 'true');
+        subGrup.classList.add('obert');
+        subLlista.style.maxHeight = '9999px';
+      }
       subCap.addEventListener('click', function () {
         var expanded = this.getAttribute('aria-expanded') === 'true';
         this.setAttribute('aria-expanded', String(!expanded));
@@ -1186,6 +1191,13 @@
             parentCos.appendChild(buildSubGrup(subZona));
           });
 
+          // Als plànols els grups surten desplegats (Xavi, 19/11): plegats són massa clics.
+          if (grupPer !== 'lletra') {
+            parentCap.setAttribute('aria-expanded', 'true');
+            parentGrup.classList.add('obert');
+            parentCos.style.maxHeight = '9999px';
+          }
+
           parentCap.addEventListener('click', function () {
             var expanded = this.getAttribute('aria-expanded') === 'true';
             this.setAttribute('aria-expanded', String(!expanded));
@@ -1238,6 +1250,15 @@
       }
 
       var llista = buildLlistatUl(cosId, elements);
+
+      // Desplegats per defecte als plànols (Xavi, 19/11): «preferim que estigui
+      // desplegat quan cliques a llistat; si no, són massa clics». A la llista
+      // general d'elements (grupPer 'lletra') es queden plegats.
+      if (grupPer !== 'lletra') {
+        capsalera.setAttribute('aria-expanded', 'true');
+        grup.classList.add('obert');
+        llista.style.maxHeight = '9999px';
+      }
 
       capsalera.addEventListener('click', function () {
         var expanded = this.getAttribute('aria-expanded') === 'true';

@@ -115,6 +115,63 @@ def slug_fitxa(titol):
     return t.strip("-")
 
 
+# Abreviatures d'adreça més habituals a les fitxes, amb la forma llarga que ja
+# gasten els noms de fitxa existents («edifici-dhabitatges-carrer-rossello»).
+_PREFIXOS_ADRECA = {
+    "c": "carrer", "carrer": "carrer",
+    "av": "avinguda", "avda": "avinguda", "avinguda": "avinguda",
+    "pg": "passeig", "passeig": "passeig",
+    "pl": "placa", "placa": "placa",
+    "trav": "travessera", "travessera": "travessera",
+    "rda": "ronda", "ronda": "ronda",
+    "ctra": "carretera", "carretera": "carretera",
+    "gv": "gran-via",
+}
+
+
+def slug_adreca(adreca):
+    """Sufix d'adreça per fer única l'adreça d'una fitxa.
+
+    «C. de Rosselló, 36» -> «carrer-de-rossello-36». Serveix per quan dues fitxes
+    volen el mateix títol (Xavi, 19/11: molts «edifici d'habitatges»): la primera
+    es queda l'adreça curta i les altres hi afegeixen el carrer, que és el que ja
+    fan les fitxes «Edifici d'habitatges» que hi ha al repo.
+    """
+    s = slug_fitxa(adreca or "")
+    if not s:
+        return ""
+    parts = s.split("-")
+    parts[0] = _PREFIXOS_ADRECA.get(parts[0], parts[0])
+    return "-".join(parts)[:70].strip("-")
+
+
+def _llegeix_adreca(text):
+    """Valor de «adreca:» del front matter (o "" si no n'hi ha)."""
+    linies = text.splitlines()
+    if not linies or linies[0].strip() != "---":
+        return ""
+    for linia in linies[1:]:
+        if linia.strip() == "---":
+            break
+        if linia.startswith("adreca:"):
+            return _desquota(linia.split(":", 1)[1].strip())
+    return ""
+
+
+def _adreca_unica(repo, stem, text):
+    """Adreça lliure dins de content/ca/elements per a un slug ja ocupat."""
+    carpeta = Path(repo) / CARPETA_ELEMENTS
+    sufix = slug_adreca(_llegeix_adreca(text))
+    if sufix:
+        candidat = f"{stem}-{sufix}"
+        if not (carpeta / f"{candidat}.md").exists():
+            return candidat
+    n = 2
+    while (carpeta / f"{stem}-{n}.md").exists():
+        n += 1
+    return f"{stem}-{n}"
+
+
 # ---------------------------------------------------------------------------
 # Carpeta d'un terme d'arquitecte: la que dona Hugo (taxonomia `arquitectes`)
 # ---------------------------------------------------------------------------
@@ -639,11 +696,17 @@ def planifica_renom_fitxa(repo, ev, mapa=None):
     path_nou = f"{CARPETA_ELEMENTS}/{stem_nou}.md"
     if path_nou == antic:
         return pla, antic, antic, True
+    text_antic = _llegeix(repo, antic)
     if (Path(repo) / path_nou).exists():
-        raise Refus(f"ja existeix una fitxa amb l'adreça /elements/{stem_nou}/ ({path_nou})")
+        # Dues fitxes poden dur el mateix títol (Xavi, 19/11: molts «edifici
+        # d'habitatges»). En comptes de refusar el canvi de nom, l'adreça hi
+        # afegeix el carrer —el que ja fan les fitxes que hi ha al repo— i, si
+        # tampoc no és lliure, un número.
+        stem_nou = _adreca_unica(repo, stem_nou, text_antic)
+        path_nou = f"{CARPETA_ELEMENTS}/{stem_nou}.md"
     index = indexa_aliases(repo)
     url_antiga, url_nova = f"/elements/{stem_antic}/", f"/elements/{stem_nou}/"
-    text = _gestiona_alias_propi(_llegeix(repo, antic), antic, url_antiga, url_nova, index, pla)
+    text = _gestiona_alias_propi(text_antic, antic, url_antiga, url_nova, index, pla)
     pla.moviments.append((antic, path_nou))
     pla.escriptures[path_nou] = text
     # Enllaços interns a l'adreça antiga (fora de les fitxes d'element: allà només hi ha aliases)

@@ -241,7 +241,11 @@
       {{ $autorsHTML := delimit $links ", " }}
       <div class="fitxa-dada">
         <dt>{{ .tipus | title }}</dt>
-        <dd>{{ with $autorsHTML }}{{ . | safeHTML }}{{ end }}{{ with .any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}{{ with .descripcio }}<br>{{ . }}{{ end }}</dd>
+        {{/* El salt de línia només té sentit si abans hi ha autors o any: si la
+             intervenció només porta descripció, sense el <br> el text queda
+             alineat amb el tipus (Xavi, 19/11). */}}
+        {{ $teCapDada := or $autors (ne (printf "%v" (.any | default "")) "") }}
+        <dd>{{ with $autorsHTML }}{{ . | safeHTML }}{{ end }}{{ with .any }}{{ if $autors }}, {{ end }}{{ . }}{{ end }}{{ with .descripcio }}{{ if $teCapDada }}<br>{{ end }}{{ . }}{{ end }}</dd>
       </div>
       {{ end }}
       {{ end }}

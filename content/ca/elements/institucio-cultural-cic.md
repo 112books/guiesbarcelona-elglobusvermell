@@ -14,7 +14,7 @@ adreca: Via Augusta 205 / Vallmajor
 any: '1961'
 arquitectes:
   - Guillem Giráldez i Dávila
-  - Pere López i Íñigo
+  - Pere López Íñigo
   - Xavier Subías i Fages
 tipologia: ''
 proteccio: ''

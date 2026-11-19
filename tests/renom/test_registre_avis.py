@@ -91,7 +91,8 @@ def test_avis_cos_amb_urls_sencers_i_frase_de_recarrega(repo_prova):
 
 
 def test_avis_refus_explica_que_fer(repo_prova):
-    r = resultat(repo_prova, "content/ca/elements/casa-bloc.md", "Mixta", "Edifici")
+    # el refús que queda és el d'arquitecte (els títols repetits ja no es refusen)
+    r = resultat(repo_prova, "content/ca/arquitectes/rebecca-horn/_index.md", "Pere López", "Arquitecte")
     assumpte, cos = renom.compon_avis(r)
     assert assumpte.startswith("No s'ha pogut canviar el nom")
     assert "tria un altre nom" in cos and "desfés el canvi" in cos

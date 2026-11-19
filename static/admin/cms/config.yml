@@ -311,6 +311,13 @@ collections:
         required: false
         hint: "Un premi per línia"
 
+      - label: Web
+        name: web
+        widget: string
+        required: false
+        hint: "Opcional i en desús: es va fer servir en alguna fitxa antiga. Si el veus ple i no cal, buida'l. Els enllaços es posen a la descripció."
+        pattern: ["^$|^https?://.+", "Ha de començar per http:// o https://"]
+
       - label: Latitud
         name: lat
         widget: number

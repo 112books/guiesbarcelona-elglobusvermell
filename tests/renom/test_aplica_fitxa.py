@@ -164,13 +164,17 @@ def test_renom_fitxa_sense_canvi_d_adreca(repo_prova):
     assert (repo_prova / "content/ca/elements/casa-bloc.md").exists()
 
 
-def test_renom_fitxa_colisio_refusa_i_no_toca_res(repo_prova):
+def test_renom_fitxa_colisio_agafa_l_adreca(repo_prova):
+    """Dues fitxes poden dur el mateix títol (Xavi, 19/11): la segona agafa el carrer."""
     ev = sveltia_canvia(repo_prova, "casa-bloc", "Mixta")
-    abans = git(repo_prova, "rev-parse", "HEAD^{tree}")
     r = renom.aplica_renom_fitxa(repo_prova, ev)
-    assert r.estat == "refusat" and "ja existeix" in r.motiu
-    assert estat(repo_prova) == []
-    assert git(repo_prova, "rev-parse", "HEAD^{tree}") == abans
+    assert r.estat == "aplicat", r.motiu
+    nou = "content/ca/elements/mixta-passeig-de-torras-i-bages.md"
+    assert (repo_prova / nou).exists()
+    assert not (repo_prova / "content/ca/elements/casa-bloc.md").exists()
+    # la fitxa «mixta» que ja hi havia no s'ha tocat
+    assert (repo_prova / "content/ca/elements/mixta.md").exists()
+    assert renom.llegeix_titol((repo_prova / nou).read_text(encoding="utf-8")) == "Mixta"
 
 
 def test_renom_fitxa_no_esborra_cap_linia_original(repo_prova):

@@ -14,9 +14,8 @@ adreca: Gran Via 144-156
 any: '1971'
 arquitectes:
   - Guillem Giráldez i Dávila
-  - Pere López i Íñigo
-  - Xavier Subías i Fages
   - Pere López Íñigo
+  - Xavier Subías i Fages
 tipologia: ''
 proteccio: ''
 superficie: null

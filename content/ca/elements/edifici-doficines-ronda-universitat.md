@@ -14,8 +14,6 @@ adreca: Rda. Universitat 9
 any: '1971'
 arquitectes:
   - Eduard Molas Rifà
-  - Enric Rello Roque
-  - Josep M. Rovira Gimeno
   - Enric Rello Roqué
   - Josep Maria Rovira i Gimeno
 tipologia: ''

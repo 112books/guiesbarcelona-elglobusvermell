@@ -14,9 +14,8 @@ adreca: Av. Diagonal 690
 any: '1967'
 arquitectes:
   - Guillem Giráldez i Dávila
-  - Pere López i Íñigo
-  - Xavier Subías i Fages
   - Pere López Íñigo
+  - Xavier Subías i Fages
 tipologia: ''
 proteccio: ''
 superficie: null

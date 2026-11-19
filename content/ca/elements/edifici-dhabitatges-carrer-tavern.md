@@ -13,14 +13,14 @@ temes_transversals: []
 adreca: Tavern 34 / Rector Ubach
 any: '1954'
 arquitectes:
-  - Francisco J. Barba Corsini
+  - Francisco Juan Barba Corsini
 tipologia: ''
 proteccio: ''
 superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - Francisco J. Barba Corsini
+      - Francisco Juan Barba Corsini
     any: '1954'
     descripcio: ''
 premis: []

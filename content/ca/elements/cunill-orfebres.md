@@ -4,14 +4,14 @@ adreca: Ptge. Ratés 1-9 + Sancho de Ávila 41-45
 any: '1965'
 arquitectes:
 - Guillem Giráldez i Dávila
-- Pere López i Íñigo
+- Pere López Íñigo
 - Xavier Subías i Fages
 draft: false
 intervencions:
 - any: '1965'
   autors:
     - 'Guillem Giráldez i Dávila'
-    - 'Pere López i Íñigo'
+    - 'Pere López Íñigo'
     - 'Xavier Subias i Fages'
   descripcio: 'Seu del taller d’orfebreria Cunill e Hijos (posteriorment Cunill Orfebres). A l’espera d’una pròxima reconversió en luxosos lofts .'
   tipus: Projecte

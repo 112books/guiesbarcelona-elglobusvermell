@@ -28,17 +28,19 @@ def test_colisio_d_arquitecte_reverteix_el_titol_i_no_toca_fitxes(repo_prova):
     assert (repo_prova / "content/ca/arquitectes/rebecca-horn").exists()
 
 
-def test_colisio_de_fitxa_no_renombra_i_reverteix_el_titol(repo_prova):
+def test_colisio_de_fitxa_agafa_l_adreca_i_no_reverteix_el_titol(repo_prova):
+    """El títol repetit ja no es refusa: la fitxa nova agafa el carrer (Xavi, 19/11)."""
     camí = "content/ca/elements/casa-bloc.md"
     ev = esdeveniment(repo_prova, camí, "Mixta", "Edifici")
     r = renom.aplica_esdeveniment(repo_prova, ev)
-    assert r.estat == "refusat"
-    assert titol_de(repo_prova, camí) == "Casa Bloc"
-    assert (repo_prova / camí).exists() and (repo_prova / "content/ca/elements/mixta.md").exists()
-    assert git(repo_prova, "diff", "HEAD~1", "--", ".") == ""
+    assert r.estat == "aplicat", r.motiu
+    nou = "content/ca/elements/mixta-passeig-de-torras-i-bages.md"
+    assert (repo_prova / nou).exists() and (repo_prova / "content/ca/elements/mixta.md").exists()
+    assert titol_de(repo_prova, nou) == "Mixta"
+    assert (r.url_antiga, r.url_nova) == ("/elements/casa-bloc/", "/elements/mixta-passeig-de-torras-i-bages/")
 
 
-def test_refus_nomes_toca_la_linia_title(repo_prova):
+def test_renom_amb_colisio_conserva_la_resta_del_commit(repo_prova):
     camí = "content/ca/elements/casa-bloc.md"
     base = git(repo_prova, "rev-parse", "HEAD")
     # el commit de Sveltia també canvia una altra cosa: l'adreça
@@ -48,8 +50,9 @@ def test_refus_nomes_toca_la_linia_title(repo_prova):
     commit_sveltia(repo_prova, "Edifici", "casa-bloc")
     ev = renom.detecta_renoms(repo_prova, base, "HEAD")[0]
     renom.aplica_esdeveniment(repo_prova, ev)
-    t = p.read_text(encoding="utf-8")
-    assert "title: Casa Bloc\n" in t and "Passeig Nou" in t      # la resta del commit queda intacta
+    # l'adreça ja era la nova quan s'ha fet el renom: el sufix surt d'«Passeig Nou»
+    t = (repo_prova / "content/ca/elements/mixta-passeig-nou-i-bages.md").read_text(encoding="utf-8")
+    assert "title: Mixta\n" in t and "Passeig Nou" in t      # la resta del commit queda intacta
 
 
 def test_error_a_mig_de_l_escriptura_deixa_l_arbre_com_abans(repo_prova, monkeypatch):

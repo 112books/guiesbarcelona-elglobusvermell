@@ -14,9 +14,8 @@ adreca: Av. Diagonal 684
 any: '1958'
 arquitectes:
   - Guillem Giráldez i Dávila
-  - Pere López i Íñigo
-  - Xavier Subías i Fages
   - Pere López Íñigo
+  - Xavier Subías i Fages
 tipologia: ''
 proteccio: ''
 superficie: null

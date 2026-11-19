@@ -495,3 +495,19 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Monterols»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+### 2026-11-19 — normalització de 5 noms d'arquitecte (variants sense fitxa)
+
+- **Autor:** LinuxBCN
+- **Tipus:** fitxes — 10 fitxes, camps `arquitectes` i `intervencions[].autors`
+- **Canvi:** els noms següents no tenien fitxa (sortien com a «fantasma» a l'editor i no es podien treure) i s'han substituït per la forma que sí que en té:
+  - «Pere López i Íñigo» → «Pere López Íñigo» (6 fitxes: conjunt-residencial, conjunt-residencial-gran-via, cunill-orfebres, facultat-de-ciencies-economiques, facultat-de-dret, institucio-cultural-cic)
+  - «César Ortiz Echagüe» → «César Ortiz-Echagüe Rubio» (menjadors-de-la-seat)
+  - «Enric Rello Roque» → «Enric Rello Roqué» (edifici-doficines-ronda-universitat)
+  - «Francisco J. Barba Corsini» → «Francisco Juan Barba Corsini» (edifici-dhabitatges-carrer-tavern, edifici-dhabitatges-mitre)
+  - «Josep M. Rovira Gimeno» → «Josep Maria Rovira i Gimeno» (edifici-doficines-ronda-universitat)
+- **Duplicats:** on el nom bo ja hi era, les dues línies s'han fusionat en una (7 línies en total). No s'ha esborrat cap text ni cap camp.
+- **No tocat:** «Xavier Subías i Fages» es queda com és — no té cap forma equivalent amb fitxa (és de la llista dels 92 pendents).
+- **Font de dades:** els títols de la col·lecció `content/ca/arquitectes/` del propi web.
+- **Aprovació:** Joan, 19/11/2026 (punt «arquitectes fantasma» del correu d'en Xavi del 19/11).
+- **Commit:** el d'aquests canvis a la branca `main`.

@@ -2894,6 +2894,99 @@
           "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/jardins-de-sofia-barat-prova/"
         }
       ]
+    },
+    {
+      "id": "noms-repetits",
+      "ref": "19/11 · Editor",
+      "estat": "fet",
+      "titol": "Dos elements poden dur el mateix nom",
+      "context": "Si canviaves el nom d'una fitxa a un nom que ja existia, el canvi no s'aplicava: el web et deia que no es podia i el nom quedava com era.",
+      "resultat": "Fet (19/11): el bloqueig era que dues fitxes haurien acabat a la mateixa adreça. Ara, quan el nom ja existeix, la que canvia agafa el carrer a l'adreça — exactament el que ja fan les fitxes d'«Edifici d'habitatges» de la guia d'avantguarda. Així pots posar «Edifici d'habitatges» a totes les que vulguis: la primera es queda /elements/edifici-dhabitatges/ i les altres passen a /elements/edifici-dhabitatges-carrer-del-pallars/ (o el carrer que tinguin a la fitxa). Si dues tinguessin el mateix carrer, la segona agafa un número. El canvi de nom ja no es refusa i no cal fer res especial: canvia el nom i desa com sempre.",
+      "enllacos": [
+        {
+          "label": "Exemple del resultat: Edifici d'habitatges, carrer Rosselló",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-rossello/"
+        },
+        {
+          "label": "Edifici d'habitatges (l'adreça curta, la primera)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges/"
+        },
+        {
+          "label": "Edifici d'habitatges, carrer Pi i Margall",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-dhabitatges-carrer-pi-i-margall/"
+        }
+      ]
+    },
+    {
+      "id": "camp-web",
+      "ref": "19/11 · Editor",
+      "estat": "fet",
+      "titol": "El camp «Web» ja surt a l'editor",
+      "resultat": "Fet (19/11): era un camp antic que el web encara pintava però que no sortia al formulari, i per això no el podies ni veure ni buidar. Ja hi és: surt cap al final de la fitxa i el pots deixar buit. Només el tenen quatre fitxes; els enllaços, com deies, millor a la descripció.",
+      "enllacos": [
+        {
+          "label": "Bloc dels Pescadors (la fitxa de l'exemple)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/bloc-dels-pescadors/"
+        }
+      ]
+    },
+    {
+      "id": "arquitectes-fantasma",
+      "ref": "19/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Els arquitectes «fantasma» eren el mateix nom escrit de dues maneres",
+      "context": "No podies treure'ls perquè la creueta només surt quan el nom té fitxa pròpia: eren variants d'un arquitecte que sí que existeix.",
+      "resultat": "Fet (19/11): normalitzats 20 cops en 10 fitxes. «Pere López i Íñigo» → «Pere López Íñigo» (6 fitxes), «César Ortiz Echagüe» → «César Ortiz-Echagüe Rubio», «Enric Rello Roque» → «Enric Rello Roqué», «Francisco J. Barba Corsini» → «Francisco Juan Barba Corsini» (2), «Josep M. Rovira Gimeno» → «Josep Maria Rovira i Gimeno». On el nom bo ja hi era, s'ha fusionat (no queda repetit). Només en queda un que de debò no té fitxa —«Xavier Subias i Fages»—, que és de la llista dels 92: fins que no tingui fitxa, la creueta no hi serà. No s'ha esborrat res de cap fitxa.",
+      "enllacos": [
+        {
+          "label": "Facultat de Dret",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/facultat-de-dret/"
+        },
+        {
+          "label": "Menjadors de la SEAT",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/menjadors-de-la-seat/"
+        },
+        {
+          "label": "Edifici d'oficines Ronda Universitat",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/edifici-doficines-ronda-universitat/"
+        },
+        {
+          "label": "Institució Cultural CIC",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/institucio-cultural-cic/"
+        }
+      ]
+    },
+    {
+      "id": "intervencions-alineades",
+      "ref": "19/11 · Fitxes",
+      "estat": "fet",
+      "titol": "Les intervencions sense any ni autors ja queden alineades",
+      "context": "Quan una intervenció només porta descripció, el text queia una línia més avall que el tipus.",
+      "resultat": "Fet (19/11): el salt de línia només es posa quan abans hi ha autors o any. Quan només hi ha descripció, el text queda a la mateixa línia que el tipus. Es veu a qualsevol intervenció d'aquest tipus; n'hi ha dues al web ara mateix.",
+      "enllacos": [
+        {
+          "label": "Dispensari de Sant Josep de la Muntanya",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/dispensari-de-sant-josep-de-la-muntanya/"
+        },
+        {
+          "label": "Grup Escolar Blanquerna",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/elements/grup-escolar-blanquerna/"
+        }
+      ]
+    },
+    {
+      "id": "llistat-desplegat",
+      "ref": "19/11 · Plànols",
+      "estat": "fet",
+      "titol": "El llistat dels plànols ja surt amb els anys desplegats",
+      "context": "A l'apartat «Llistat» de cada plànol, cada any era un desplegable tancat i calia clicar any per any.",
+      "resultat": "Fet (19/11): als plànols, els grups (anys, districtes o zones) surten oberts de bon començament; els pots plegar si vols, però ja no cal obrir-los un a un. A la llista general d'elements, la de tot el web, es queden plegats com fins ara perquè la pàgina no es faci infinita.",
+      "enllacos": [
+        {
+          "label": "Plànol de la GATCPAC (llistat per anys)",
+          "url": "https://112books.github.io/guiesbarcelona-elglobusvermell/publicacions/gatcpac/"
+        }
+      ]
     }
   ],
   "decisions_nostres": [

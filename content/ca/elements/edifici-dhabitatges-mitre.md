@@ -13,7 +13,6 @@ temes_transversals: []
 adreca: Rda. General Mitre 1-13
 any: '1964'
 arquitectes:
-  - Francisco J. Barba Corsini
   - Francisco Juan Barba Corsini
 tipologia: ''
 proteccio: ''

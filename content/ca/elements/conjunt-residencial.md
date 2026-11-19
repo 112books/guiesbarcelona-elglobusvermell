@@ -15,7 +15,7 @@ adreca: Av. Diagonal / Ganduxer / Bori i Fontestà
 any: '1966'
 arquitectes:
   - Guillem Giráldez i Dávila
-  - Pere López i Íñigo
+  - Pere López Íñigo
   - Xavier Subías i Fages
 tipologia: ''
 proteccio: ''
