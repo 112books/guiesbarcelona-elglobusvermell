@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-avinguda-meridiana-312/
-title: Edifici d’habitatges
+title: Edifici d’habitatges. avinguda Meridiana 312
 draft: false
 foto: /img/elements/edifici-dhabitatges-avinguda-meridiana-312.jpg
 foto_autoria: El Globus Vermell
