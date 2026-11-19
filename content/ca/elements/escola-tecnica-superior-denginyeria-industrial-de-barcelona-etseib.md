@@ -1,6 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/escola-tecnica-superior-denginyeria-industrial-de-barcelona/
+  - /elements/escola-tecnica-superior-denginyeria-industrial-de-barcelona/
 title: Escola Tècnica Superior d’Enginyeria Industrial de Barcelona (ETSEIB)
 draft: false
 foto: ''

@@ -308,3 +308,13 @@ l'espai de la foto abans que carregui (menys salts de pàgina) i en priorititzen
 - **Resultat:** refusat (ja existeix una fitxa amb l'adreça /elements/edifici-dhabitatges/ (content/ca/elements/edifici-dhabitatges.md)); s'ha revertit el títol a «Edifici d’habitatges, carrer Bach 28»
 - **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
 - **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
+
+
+### 2026-11-19 13:10 — renom de fitxa «Escola Tècnica Superior d’Enginyeria Industrial de Barcelona» → «Escola Tècnica Superior d’Enginyeria Industrial de Barcelona (ETSEIB)»
+
+- **Autor del desament:** xaviglobus (commit `9682a3e`)
+- **Tipus:** fitxa
+- **Adreça antiga → nova:** `/elements/escola-tecnica-superior-denginyeria-industrial-de-barcelona/` → `/elements/escola-tecnica-superior-denginyeria-industrial-de-barcelona-etseib/`
+- **Resultat:** aplicat
+- **Aprovació:** automàtic — regla aprovada per Joan 17/11/2026
+- **Commit del robot:** el commit `auto:` que porta aquesta mateixa entrada
