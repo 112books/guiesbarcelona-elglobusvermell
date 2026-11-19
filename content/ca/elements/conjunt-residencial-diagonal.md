@@ -1,23 +1,35 @@
 ---
-aliases: ["/moderna-1950-1975/conjunt-residencial-diagonal/"]
+aliases:
+  - /moderna-1950-1975/conjunt-residencial-diagonal/
+title: Conjunt residencial
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Av. Diagonal / Ganduxer / Bori i Fontestà
 any: '1966'
 arquitectes:
-- Guillem Giráldez i Dávila
-- Pere López i Íñigo
-- Xavier Subías i Fages
-draft: false
+  - Guillem Giráldez i Dávila
+  - Pere López i Íñigo
+  - Xavier Subías i Fages
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1966'
-  autors:
-    - 'Guillem Giráldez i Dávila'
-    - 'Pere López i Íñigo'
-    - 'Xavier Subias i Fages'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Guillem Giráldez i Dávila
+      - Pere López Íñigo
+      - Xavier Subías i Fages
+    any: '1966'
+    descripcio: ''
+premis: []
 lat: 41.3922413
 long: 2.1384468
-publicacions:
-- 50-75
-title: Conjunt residencial Diagonal
+descripcio: ''
+descripcio_nomenclator: ''
 ---
