@@ -1,19 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-carrer-monterols/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-carrer-monterols/
+title: Edifici d’habitatges
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Monterols 6-8
 any: '1971'
 arquitectes:
-- Emili Donato Folch
-draft: false
+  - Emili Donato Folch
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1971'
-  autors:
-    - 'Emili Donato Folch'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Emili Donato Folch
+    any: '1971'
+    descripcio: ''
+premis: []
 lat: 41.3968162
 long: 2.1218213
-publicacions:
-- 50-75
-title: Edifici d’habitatges, carrer Monterols
+descripcio: ''
+descripcio_nomenclator: ''
 ---
