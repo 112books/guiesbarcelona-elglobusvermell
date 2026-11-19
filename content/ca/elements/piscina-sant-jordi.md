@@ -20,14 +20,13 @@ superficie: null
 intervencions:
   - tipus: Projecte
     autors:
-      - Manuel Baldrich
       - Manuel Baldrich Tibau
     any: '1966'
     descripcio: ''
-anys_reforma: []
 premis: []
 lat: 41.3892445
 long: 2.1477587
 descripcio: ''
 descripcio_nomenclator: ''
+anys_reforma: []
 ---
