@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-via-augusta/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, via Augusta
 draft: false
 foto: ''
 foto_autoria: El Globus Vermell
