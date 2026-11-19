@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-bach-28/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Bach 28
 draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-bach-28.jpg
 foto_autoria: El Globus Vermell
