@@ -1,24 +1,36 @@
 ---
-aliases: ["/moderna-1950-1975/facultat-de-dret/"]
+aliases:
+  - /moderna-1950-1975/facultat-de-dret/
+title: Facultat de Dret
+draft: false
+foto: /img/elements/facultat-de-dret.jpg
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Av. Diagonal 684
 any: '1958'
 arquitectes:
-- Guillem Giráldez i Dávila
-- Pere López i Íñigo
-- Xavier Subías i Fages
-draft: false
-foto: /img/elements/facultat-de-dret.jpg
+  - Guillem Giráldez i Dávila
+  - Pere López i Íñigo
+  - Xavier Subías i Fages
+  - Pere López Íñigo
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1958'
-  autors:
-    - 'Guillem Giráldez i Dávila'
-    - 'Pere López i Íñigo'
-    - 'Xavier Subias i Fages'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Pere López Íñigo
+      - Xavier Subías i Fages
+      - Guillem Giráldez i Dávila
+    any: '1958'
+    descripcio: ''
+premis: []
 lat: 41.3877348
 long: 2.1208986
-publicacions:
-- 50-75
-title: Facultat de Dret
+descripcio: ''
+descripcio_nomenclator: ''
 ---
