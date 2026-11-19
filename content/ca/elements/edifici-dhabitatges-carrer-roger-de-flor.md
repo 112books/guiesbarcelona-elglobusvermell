@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-roger-de-flor/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Roger de Flor
 draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-roger-de-flor.jpg
 foto_autoria: El Globus Vermell
