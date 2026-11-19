@@ -1,7 +1,7 @@
 ---
 aliases:
   - /moderna-1950-1975/edifici-dhabitatges-carrer-pallar/
-title: Edifici d’habitatges
+title: Edifici d’habitatges, carrer Pallars
 draft: false
 foto: /img/elements/edifici-dhabitatges-carrer-pallars.jpg
 foto_autoria: El Globus Vermell
