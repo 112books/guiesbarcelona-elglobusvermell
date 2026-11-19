@@ -1,19 +1,31 @@
 ---
-aliases: ["/moderna-1950-1975/edifici-dhabitatges-2/"]
+aliases:
+  - /moderna-1950-1975/edifici-dhabitatges-2/
+title: Edifici d’habitatges
+draft: false
+foto: ''
+foto_autoria: El Globus Vermell
+foto_peu: ''
+fotos_addicionals: []
+publicacions:
+  - 50-75
+temes_transversals: []
 adreca: Av. Pedralbes 63
 any: '1950'
 arquitectes:
-- Raimon Duran i Reynals
-draft: false
+  - Raimon Duran i Reynals
+tipologia: ''
+proteccio: ''
+superficie: null
 intervencions:
-- any: '1950'
-  autors:
-    - 'Raimon Duran i Reynals'
-  descripcio: ''
-  tipus: Projecte
+  - tipus: Projecte
+    autors:
+      - Raimon Duran i Reynals
+    any: '1950'
+    descripcio: ''
+premis: []
 lat: 41.3943222
 long: 2.1133298
-publicacions:
-- 50-75
-title: Edifici d’habitatges, avinguda Pedralbes
+descripcio: ''
+descripcio_nomenclator: ''
 ---
