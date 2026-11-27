@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-26T16:19:14.829920Z",
+  "generated": "2026-11-27T01:27:15.573900Z",
   "period": {
-    "start": "2025-11-26",
-    "end": "2026-11-26"
+    "start": "2025-11-27",
+    "end": "2026-11-27"
   },
-  "total": 1611,
+  "total": 1612,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -382,6 +382,10 @@
     {
       "date": "2026-11-25",
       "count": 2
+    },
+    {
+      "date": "2026-11-26",
+      "count": 1
     }
   ],
   "hits": [
@@ -438,15 +442,15 @@
       "count": 29
     },
     {
+      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
+      "count": 25
+    },
+    {
       "path": "/guiesbarcelona-elglobusvermell/publicacions/09-25",
       "count": 24
     },
     {
       "path": "/mapa-filtre-pub/gatcpac",
-      "count": 24
-    },
-    {
-      "path": "/guiesbarcelona-elglobusvermell/publicacions/masies",
       "count": 24
     },
     {
@@ -507,7 +511,7 @@
     }
   ],
   "by_section": {
-    "guiesbarcelona-elglobusvermell": 1150,
+    "guiesbarcelona-elglobusvermell": 1151,
     "mapa-filtre-pub": 286,
     "mapa-info-pub": 57,
     "mapa-filtre-tema": 53,
@@ -1010,6 +1014,29 @@
       "2026-11-06": 1,
       "2026-11-19": 1
     },
+    "/guiesbarcelona-elglobusvermell/publicacions/masies": {
+      "2026-07-19": 1,
+      "2026-08-03": 1,
+      "2026-08-17": 2,
+      "2026-08-18": 1,
+      "2026-08-19": 1,
+      "2026-08-21": 1,
+      "2026-08-24": 1,
+      "2026-08-28": 3,
+      "2026-08-31": 1,
+      "2026-09-23": 1,
+      "2026-10-21": 1,
+      "2026-10-23": 1,
+      "2026-11-09": 1,
+      "2026-11-10": 1,
+      "2026-11-12": 1,
+      "2026-11-13": 1,
+      "2026-11-16": 2,
+      "2026-11-19": 1,
+      "2026-11-20": 1,
+      "2026-11-24": 1,
+      "2026-11-26": 1
+    },
     "/guiesbarcelona-elglobusvermell/publicacions/09-25": {
       "2026-07-28": 1,
       "2026-08-03": 1,
@@ -1054,28 +1081,6 @@
       "2026-10-21": 1,
       "2026-11-06": 1,
       "2026-11-19": 1
-    },
-    "/guiesbarcelona-elglobusvermell/publicacions/masies": {
-      "2026-07-19": 1,
-      "2026-08-03": 1,
-      "2026-08-17": 2,
-      "2026-08-18": 1,
-      "2026-08-19": 1,
-      "2026-08-21": 1,
-      "2026-08-24": 1,
-      "2026-08-28": 3,
-      "2026-08-31": 1,
-      "2026-09-23": 1,
-      "2026-10-21": 1,
-      "2026-10-23": 1,
-      "2026-11-09": 1,
-      "2026-11-10": 1,
-      "2026-11-12": 1,
-      "2026-11-13": 1,
-      "2026-11-16": 2,
-      "2026-11-19": 1,
-      "2026-11-20": 1,
-      "2026-11-24": 1
     },
     "/mapa-filtre-pub/mercats": {
       "2026-07-23": 1,
@@ -1983,7 +1988,8 @@
       "2026-11-20": 10,
       "2026-11-23": 3,
       "2026-11-24": 4,
-      "2026-11-25": 2
+      "2026-11-25": 2,
+      "2026-11-26": 1
     },
     "mapa-filtre-pub": {
       "2026-07-19": 14,
@@ -2194,7 +2200,7 @@
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
       "id": "112books.github.io/guiesbarcelona-elglobusvermell/en-paper",
-      "count": 195
+      "count": 196
     },
     {
       "name": "112books.github.io/guiesbarcelona-elglobusvermell/publicacions/poblenou",
